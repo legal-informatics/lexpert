@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    targetNamespace="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+
+    <xs:element name="akomaNtoso" type="akomaNtoso"/>
+    <xs:complexType name="akomaNtoso">
+        <xs:sequence>
+            <xs:element name="act" type="tact"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="tact">
+        <xs:sequence minOccurs="1">
+            <xs:element name="meta" type="tmeta"/>
+            <xs:element name="preface" minOccurs="0">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element name="authority" type="xs:string"/>
+                        <xs:element name="title" type="xs:string"/>
+                        <xs:element name="date" type="xs:string"/>
+                        <xs:element ref="p"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+            <xs:element maxOccurs="1" minOccurs="0" name="preamble">
+                <xs:complexType>
+                    <xs:choice>
+                        <xs:element name="formula">
+                            <xs:complexType>
+                                <xs:attribute name="refersTo" type="xs:anyURI"/>
+                                <xs:attributeGroup ref="idopt"/>
+                                <xs:attribute name="name" type="xs:string" use="required"/>
+                                <xs:attribute name="title" type="xs:string"/>
+                                <xs:attribute name="lang" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element minOccurs="0" name="citations"/>
+                        <xs:element minOccurs="0" name="recitals"/>
+                        <xs:element minOccurs="0" name="container"/>
+                        <xs:element ref="p"/>
+                    </xs:choice>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="body" type="tbody"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="tmeta">
+        <xs:all>
+            <xs:element name="identification" type="tidentification"/>
+            <xs:element name="publication">
+                <xs:complexType>
+                    <xs:attribute name="name" type="xs:string" use="required"/>
+                    <xs:attribute name="date" type="xs:date" use="required"/>
+                    <xs:attribute name="showAs" type="xs:string" use="required"/>
+                    <xs:attribute name="number" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="classification">
+                <xs:complexType>
+                    <xs:sequence maxOccurs="unbounded" minOccurs="0">
+                        <xs:element name="keyword">
+                            <xs:complexType>
+                                <xs:attribute name="value" type="xs:string"/>
+                                <xs:attribute name="showAs" type="xs:string"/>
+                                <xs:attribute default="RS" name="dictionary" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="source" type="xs:anyURI"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="references">
+                <xs:complexType>
+                    <xs:choice maxOccurs="unbounded" minOccurs="1">
+                        <xs:element ref="TLCConcept" maxOccurs="1"/>
+                        <xs:element ref="TLCOrganization" maxOccurs="1"/>
+                        <xs:element ref="TLCPerson" maxOccurs="1"/>
+                        <xs:element ref="TLCRole" maxOccurs="1"/>
+                    </xs:choice>
+                    <xs:attribute name="source" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:all>
+    </xs:complexType>
+    <xs:complexType name="tbody">
+        <xs:choice>
+            <xs:element ref="part"/>
+            <xs:sequence maxOccurs="1">
+                <xs:element maxOccurs="unbounded" ref="article" minOccurs="0"/>
+            </xs:sequence>
+        </xs:choice>
+    </xs:complexType>
+    <xs:complexType name="tidentification">
+        <xs:all>
+            <xs:element name="FRBRWork">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element ref="FRBRthis"/>
+                        <xs:element ref="FRBRuri"/>
+                        <xs:element ref="FRBRdate"/>
+                        <xs:element ref="FRBRauthor"/>
+                        <xs:element ref="FRBRcountry"/>
+                        <xs:element ref="FRBRsubtype"/>
+                        <xs:element ref="FRBRnumber"/>
+                        <xs:element ref="FRBRname"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="FRBRExpression">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element ref="FRBRthis"/>
+                        <xs:element ref="FRBRuri"/>
+                        <xs:element ref="FRBRdate"/>
+                        <xs:element ref="FRBRauthor"/>
+                        <xs:element ref="FRBRlanguage"/>
+                        <xs:element ref="FRBRformat" minOccurs="0"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="FRBRManifestation">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element ref="FRBRthis"/>
+                        <xs:element ref="FRBRuri"/>
+                        <xs:element ref="FRBRdate"/>
+                        <xs:element ref="FRBRauthor"/>
+                        <xs:element ref="FRBRformat"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+        </xs:all>
+        <xs:attribute name="source" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:simpleType name="noWhiteSpace">
+        <xs:annotation>
+            <xs:documentation>
+                <type>Simple</type>
+                <name>noWhiteSpace</name>
+                <comment>These values are those of ids such as eId, wId and GUID as a collection of any printable character except whitespaces.</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[^\s]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:attributeGroup name="idopt">
+        <xs:annotation>
+            <xs:documentation>
+                <type>Attlist</type>
+                <name>idopt</name>
+                <comment>
+                    These attributes identify the element in an absolute manner. In elements using this attribute definition the eId attribute is optional. The wId is used to mark the identifier that the structure used to have in the original version, and is only needed when a renumbering occurred.</comment>
+            </xs:documentation>
+        </xs:annotation>
+
+        <xs:attribute name="eId" type="noWhiteSpace"/>
+        <xs:attribute name="wId" type="noWhiteSpace"/>
+        <xs:attribute name="GUID" type="noWhiteSpace"/>
+    </xs:attributeGroup>
+
+
+
+    <xs:attributeGroup name="show">
+        <xs:annotation>
+            <xs:documentation>
+                <type>Attlist</type>
+                <name>show</name>
+                <comment>These attributes are used in metadata to propose visible representations of the metadata itself. Both a full visualization (attribute showAs) and an abbreviated one (attribute shortForm) can be specified</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="showAs" type="xs:string" use="required"/>
+        <xs:attribute name="shortForm" type="xs:string"/>
+    </xs:attributeGroup>
+
+
+    <xs:element name="FRBRthis">
+        <xs:complexType>
+            <xs:attribute name="value" type="xs:anyURI" use="required"/>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRuri">
+        <xs:complexType>
+            <xs:attribute name="value" type="xs:anyURI"/>
+            <xs:attributeGroup ref="idopt"/>
+            <xs:attribute name="showAs" type="xs:string"/>
+            <xs:attribute name="refersTo" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRdate">
+        <xs:complexType>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="date" type="xs:date" use="required"/>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRauthor">
+        <xs:complexType>
+            <xs:attribute name="as" type="xs:anyURI"/>
+            <xs:attribute name="href" type="xs:anyURI" use="required"/>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRcountry">
+        <xs:complexType>
+            <xs:attribute name="showAs" type="xs:string"/>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRsubtype">
+        <xs:complexType>
+            <xs:attribute name="showAs" type="xs:string"/>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+            <xs:attribute name="refersTo" type="xs:anyURI"/>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRnumber">
+        <xs:complexType>
+            <xs:attributeGroup ref="idopt"/>
+            <xs:attribute name="value" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRname">
+        <xs:complexType>
+            <xs:attributeGroup ref="idopt"/>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRformat">
+        <xs:complexType>
+            <xs:attributeGroup ref="idopt"/>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="FRBRlanguage">
+        <xs:complexType>
+            <xs:attribute name="language" type="xs:string"/>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TLCRole">
+        <xs:complexType mixed="false">
+            <xs:attributeGroup ref="idopt"/>
+            <xs:attributeGroup ref="show"/>
+            <xs:attribute name="href" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TLCOrganization">
+        <xs:complexType>
+            <xs:attributeGroup ref="idopt"/>
+            <xs:attributeGroup ref="show"/>
+            <xs:attribute name="href" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TLCPerson">
+        <xs:complexType mixed="false">
+            <xs:attributeGroup ref="idopt"/>
+            <xs:attributeGroup ref="show"/>
+            <xs:attribute name="href" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="TLCConcept">
+        <xs:complexType>
+            <xs:attributeGroup ref="idopt"/>
+            <xs:attributeGroup ref="show"/>
+            <xs:attribute name="href" type="xs:anyURI"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="textp"> </xs:element>
+    <xs:element name="p">
+        <xs:complexType mixed="true">
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="docTitle" minOccurs="0">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="id" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="docType" type="xs:string" minOccurs="0"/>
+                <xs:element maxOccurs="unbounded" name="docDate" minOccurs="0">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="date" type="xs:date"/>
+                                <xs:attribute name="refersTo" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element minOccurs="0" name="ref">
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="href" type="xs:anyURI" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="part">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Deo"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence maxOccurs="1">
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element minOccurs="0" name="intro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="p"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="idopt"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:sequence maxOccurs="1">
+                    <xs:element ref="chapter" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="id" type="xs:string" use="optional"/>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="chapter">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Glava"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element minOccurs="0" name="intro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="p"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="idopt"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:sequence maxOccurs="1">
+                    <xs:element ref="section" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:sequence>
+            <xs:attribute name="title"/>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="section">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Odeljak"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element minOccurs="0" name="intro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="p"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="idopt"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:sequence maxOccurs="1" minOccurs="0">
+                    <xs:element maxOccurs="unbounded" ref="subsection"/>
+                </xs:sequence>
+            </xs:sequence>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="subsection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element minOccurs="0" name="intro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="p"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="idopt"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:sequence maxOccurs="1">
+                    <xs:element maxOccurs="unbounded" minOccurs="1" ref="article">
+                        <xs:annotation>
+                            <xs:documentation>
+                <comment>Represents "Član"</comment>
+            </xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:sequence>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="article">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Član"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element maxOccurs="1" name="intro" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="p"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="idopt"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:sequence maxOccurs="1">
+                    <xs:element maxOccurs="unbounded" ref="paragraph">
+                        <xs:annotation>
+                            <xs:documentation>
+                <comment>Represents "Stav"</comment>
+            </xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:sequence>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="paragraph">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Stav"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element minOccurs="0" name="intro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="p"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="idopt"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element maxOccurs="1" minOccurs="0" ref="point"> </xs:element>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="point">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Tačka"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element minOccurs="0" name="intro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="p"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="idopt"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:choice maxOccurs="1" minOccurs="0">
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" ref="hcontainer">
+                            <xs:annotation>
+                                <xs:documentation>
+                <comment>Represents "Podtačka"</comment>
+            </xs:documentation>
+                            </xs:annotation>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" minOccurs="0" ref="alinea"/>
+                    </xs:sequence>
+                    <xs:sequence>
+                        <xs:element maxOccurs="1" minOccurs="0" ref="p"/>
+                    </xs:sequence>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="hcontainer">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Podtačka"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element minOccurs="0" name="intro">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="p"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="idopt"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:sequence maxOccurs="1">
+                    <xs:element maxOccurs="unbounded" minOccurs="0" ref="alinea"/>
+                </xs:sequence>
+            </xs:sequence>
+            <xs:attribute fixed="subpoint" name="name" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string"/>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="alinea">
+        <xs:annotation>
+            <xs:documentation>
+                <comment>Represents "Alinea"</comment>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="num" type="xs:string"/>
+                <xs:element maxOccurs="1" name="content">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="1" minOccurs="0" ref="p"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="idopt"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attributeGroup ref="idopt"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
