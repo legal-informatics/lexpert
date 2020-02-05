@@ -1,0 +1,1862 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2008/05/skos"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.w3.org/2008/05/skos">
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="vs" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
+    <Prefix name="dct" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2008/05/skos#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Dave Beckett</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Nikki Rogers</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Participants in W3C&apos;s Semantic Web Deployment Working Group.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>Alistair Miles</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>Sean Bechhofer</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal xml:lang="en">An RDF vocabulary for describing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, &apos;folksonomies&apos;, other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <Literal xml:lang="en">SKOS Core Vocabulary</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConceptScheme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrderedCollection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#broadMatch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#broader"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#broaderTransitive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#changeNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#closeMatch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#editorialNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exactMatch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#example"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopConcept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#historyNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inScheme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mappingRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#member"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memberList"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#narrowMatch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#narrower"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#narrowerTransitive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#note"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#related"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatedMatch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#scopeNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#semanticRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#topConceptOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#altLabel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hiddenLabel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#notation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#exactMatch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#example"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#narrowerTransitive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#editorialNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#relatedMatch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Collection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#narrower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#broaderTransitive"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#member"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scopeNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memberList"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#semanticRelation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#broadMatch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#narrowMatch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#topConceptOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hasTopConcept"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#closeMatch"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="rdf:List"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#notation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inScheme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#historyNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mappingRelation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OrderedCollection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#changeNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#related"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#broader"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ConceptScheme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#note"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OrderedCollection"/>
+        <Class IRI="#Collection"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Collection"/>
+        <Class IRI="#Concept"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Collection"/>
+        <Class IRI="#ConceptScheme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Concept"/>
+        <Class IRI="#ConceptScheme"/>
+    </DisjointClasses>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#Collection"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#Concept"/>
+        <AnonymousIndividual nodeID="_:genid2147483701"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#ConceptScheme"/>
+        <AnonymousIndividual nodeID="_:genid2147483709"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#OrderedCollection"/>
+        <AnonymousIndividual nodeID="_:genid2147483702"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#altLabel"/>
+        <AnonymousIndividual nodeID="_:genid2147483685"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#broadMatch"/>
+        <AnonymousIndividual nodeID="_:genid2147483706"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#broader"/>
+        <AnonymousIndividual nodeID="_:genid2147483711"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#broaderTransitive"/>
+        <AnonymousIndividual nodeID="_:genid2147483691"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#changeNote"/>
+        <AnonymousIndividual nodeID="_:genid2147483697"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#closeMatch"/>
+        <AnonymousIndividual nodeID="_:genid2147483693"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#definition"/>
+        <AnonymousIndividual nodeID="_:genid2147483703"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#editorialNote"/>
+        <AnonymousIndividual nodeID="_:genid2147483690"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#exactMatch"/>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#example"/>
+        <AnonymousIndividual nodeID="_:genid2147483688"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#hasTopConcept"/>
+        <AnonymousIndividual nodeID="_:genid2147483695"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#hiddenLabel"/>
+        <AnonymousIndividual nodeID="_:genid2147483689"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#historyNote"/>
+        <AnonymousIndividual nodeID="_:genid2147483707"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#inScheme"/>
+        <AnonymousIndividual nodeID="_:genid2147483699"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#mappingRelation"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#member"/>
+        <AnonymousIndividual nodeID="_:genid2147483696"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#memberList"/>
+        <AnonymousIndividual nodeID="_:genid2147483710"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#narrowMatch"/>
+        <AnonymousIndividual nodeID="_:genid2147483684"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#narrower"/>
+        <AnonymousIndividual nodeID="_:genid2147483686"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#narrowerTransitive"/>
+        <AnonymousIndividual nodeID="_:genid2147483687"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#notation"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#note"/>
+        <AnonymousIndividual nodeID="_:genid2147483705"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#prefLabel"/>
+        <AnonymousIndividual nodeID="_:genid2147483698"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#related"/>
+        <AnonymousIndividual nodeID="_:genid2147483704"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#relatedMatch"/>
+        <AnonymousIndividual nodeID="_:genid2147483692"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#scopeNote"/>
+        <AnonymousIndividual nodeID="_:genid2147483708"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#semanticRelation"/>
+        <AnonymousIndividual nodeID="_:genid2147483700"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#changeNote"/>
+        <NamedIndividual IRI="#topConceptOf"/>
+        <AnonymousIndividual nodeID="_:genid2147483694"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#broadMatch"/>
+        <ObjectProperty IRI="#broader"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#broadMatch"/>
+        <ObjectProperty IRI="#mappingRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#broader"/>
+        <ObjectProperty IRI="#broaderTransitive"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#broaderTransitive"/>
+        <ObjectProperty IRI="#semanticRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#changeNote"/>
+        <ObjectProperty IRI="#note"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#closeMatch"/>
+        <ObjectProperty IRI="#mappingRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#definition"/>
+        <ObjectProperty IRI="#note"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#editorialNote"/>
+        <ObjectProperty IRI="#note"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#exactMatch"/>
+        <ObjectProperty IRI="#closeMatch"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#example"/>
+        <ObjectProperty IRI="#note"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#historyNote"/>
+        <ObjectProperty IRI="#note"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#narrowMatch"/>
+        <ObjectProperty IRI="#mappingRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#narrowMatch"/>
+        <ObjectProperty IRI="#narrower"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#narrower"/>
+        <ObjectProperty IRI="#narrowerTransitive"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#narrowerTransitive"/>
+        <ObjectProperty IRI="#semanticRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#related"/>
+        <ObjectProperty IRI="#semanticRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#relatedMatch"/>
+        <ObjectProperty IRI="#mappingRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#relatedMatch"/>
+        <ObjectProperty IRI="#related"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#scopeNote"/>
+        <ObjectProperty IRI="#note"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#topConceptOf"/>
+        <ObjectProperty IRI="#inScheme"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#broadMatch"/>
+        <ObjectProperty IRI="#narrowMatch"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#broader"/>
+        <ObjectProperty IRI="#narrower"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#broaderTransitive"/>
+        <ObjectProperty IRI="#narrowerTransitive"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTopConcept"/>
+        <ObjectProperty IRI="#topConceptOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#memberList"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#closeMatch"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#exactMatch"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#related"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#relatedMatch"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#broaderTransitive"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#exactMatch"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#narrowerTransitive"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopConcept"/>
+        <Class IRI="#ConceptScheme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mappingRelation"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#member"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#memberList"/>
+        <Class IRI="#OrderedCollection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#semanticRelation"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#topConceptOf"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopConcept"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inScheme"/>
+        <Class IRI="#ConceptScheme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mappingRelation"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#memberList"/>
+        <Class abbreviatedIRI="rdf:List"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#semanticRelation"/>
+        <Class IRI="#Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#topConceptOf"/>
+        <Class IRI="#ConceptScheme"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#Collection</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Collection</IRI>
+        <Literal xml:lang="en">Labelled collections can be used with collectable semantic relation properties e.g. skos:narrower, where you would like a set of concepts to be displayed under a &apos;node label&apos; in the hierarchy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Collection</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Collection</IRI>
+        <Literal xml:lang="en">Collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#Collection</IRI>
+        <Literal xml:lang="en">A meaningful collection of concepts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#Concept</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Concept</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">An abstract idea or notion; a unit of thought.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#ConceptScheme</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConceptScheme</IRI>
+        <Literal xml:lang="en">A concept scheme may be defined to include concepts from different sources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConceptScheme</IRI>
+        <Literal xml:lang="en">Thesauri, classification schemes, subject heading lists, taxonomies, &apos;folksonomies&apos;, and other types of controlled vocabulary are all examples of concept schemes.  Concept schemes are also embedded in glossaries and terminologies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ConceptScheme</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConceptScheme</IRI>
+        <Literal xml:lang="en">Concept Scheme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#ConceptScheme</IRI>
+        <Literal xml:lang="en">A set of concepts, optionally including statements about semantic relationships between those concepts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#OrderedCollection</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrderedCollection</IRI>
+        <Literal xml:lang="en">Ordered collections can be used with collectable semantic relation properties, where you would like a set of concepts to be displayed in a specific order, and optionally under a &apos;node label&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#OrderedCollection</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrderedCollection</IRI>
+        <Literal xml:lang="en">Ordered Collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#OrderedCollection</IRI>
+        <Literal xml:lang="en">An ordered collection of concepts, where both the grouping and the ordering are meaningful.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#altLabel</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#altLabel</IRI>
+        <Literal xml:lang="en">Acronyms, abbreviations, spelling variants, and irregular plural/singular forms may be included among the alternative labels for a concept.  Mis-spelled terms are normally included as hidden labels (see skos:hiddenLabel).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#altLabel</IRI>
+        <Literal xml:lang="en">The range of skos:altLabel is the class of RDF plain literals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#altLabel</IRI>
+        <Literal xml:lang="en">skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#altLabel</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#altLabel</IRI>
+        <Literal xml:lang="en">alternative label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#altLabel</IRI>
+        <Literal xml:lang="en">An alternative lexical label for a resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#broadMatch</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#broadMatch</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#broadMatch</IRI>
+        <Literal xml:lang="en">broader match</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#broadMatch</IRI>
+        <Literal xml:lang="en">skos:broadMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#broader</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#broader</IRI>
+        <Literal xml:lang="en">Broader concepts are typically rendered as parents in a concept hierarchy (tree).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#broader</IRI>
+        <Literal xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#broader</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#broader</IRI>
+        <Literal xml:lang="en">has broader</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#broader</IRI>
+        <Literal xml:lang="en">A concept that is more general in meaning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#broaderTransitive</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#broaderTransitive</IRI>
+        <Literal xml:lang="en">By convention, skos:broaderTransitive is not used to make assertions. Rather, the properties can be used to draw inferences about the transitive closure of the hierarchical relation, which is useful e.g. when implementing a simple query expansion algorithm in a search application.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#broaderTransitive</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#broaderTransitive</IRI>
+        <Literal xml:lang="en">broader transitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#broaderTransitive</IRI>
+        <Literal>skos:broaderTransitive is a transitive superproperty of skos:broader.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#changeNote</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#changeNote</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#changeNote</IRI>
+        <Literal xml:lang="en">change note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#changeNote</IRI>
+        <Literal xml:lang="en">A note about a modification to a concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#closeMatch</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#closeMatch</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#closeMatch</IRI>
+        <Literal xml:lang="en">exact match</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#closeMatch</IRI>
+        <Literal xml:lang="en">skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of &quot;compound errors&quot; when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#definition</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#definition</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#definition</IRI>
+        <Literal xml:lang="en">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#definition</IRI>
+        <Literal xml:lang="en">A statement or formal explanation of the meaning of a concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#editorialNote</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#editorialNote</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#editorialNote</IRI>
+        <Literal xml:lang="en">editorial note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#editorialNote</IRI>
+        <Literal xml:lang="en">A note for an editor, translator or maintainer of the vocabulary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#exactMatch</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#exactMatch</IRI>
+        <Literal xml:lang="en">skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#exactMatch</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#exactMatch</IRI>
+        <Literal xml:lang="en">exact match</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#exactMatch</IRI>
+        <Literal xml:lang="en">skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#example</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#example</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#example</IRI>
+        <Literal xml:lang="en">example</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#example</IRI>
+        <Literal xml:lang="en">An example of the use of a concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#hasTopConcept</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#hasTopConcept</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTopConcept</IRI>
+        <Literal xml:lang="en">has top concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#hasTopConcept</IRI>
+        <Literal xml:lang="en">A top level concept in the concept scheme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#hiddenLabel</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hiddenLabel</IRI>
+        <Literal xml:lang="en">The range of skos:hiddenLabel is the class of RDF plain literals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hiddenLabel</IRI>
+        <Literal xml:lang="en">skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#hiddenLabel</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hiddenLabel</IRI>
+        <Literal xml:lang="en">hidden label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#hiddenLabel</IRI>
+        <Literal xml:lang="en">A lexical label for a resource that should be hidden when generating visual displays of the resource, but should still be accessible to free text search operations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#historyNote</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#historyNote</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#historyNote</IRI>
+        <Literal xml:lang="en">history note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#historyNote</IRI>
+        <Literal xml:lang="en">A note about the past state/use/meaning of a concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#inScheme</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#inScheme</IRI>
+        <Literal xml:lang="en">A concept may be a member of more than one concept scheme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#inScheme</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#inScheme</IRI>
+        <Literal xml:lang="en">in scheme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#inScheme</IRI>
+        <Literal xml:lang="en">A concept scheme in which the concept is included.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#mappingRelation</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mappingRelation</IRI>
+        <Literal xml:lang="en">These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#mappingRelation</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mappingRelation</IRI>
+        <Literal xml:lang="en">mapping relation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#mappingRelation</IRI>
+        <Literal xml:lang="en">Definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#member</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#member</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#member</IRI>
+        <Literal xml:lang="en">member</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#member</IRI>
+        <Literal xml:lang="en">A member of a collection.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#memberList</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#memberList</IRI>
+        <Literal xml:lang="en">For any resource, every item in the list given as the value of the skos:memberList property is also a value of the skos:member property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#memberList</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#memberList</IRI>
+        <Literal xml:lang="en">member list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#memberList</IRI>
+        <Literal xml:lang="en">An RDF list containing the members of an ordered collection.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#narrowMatch</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#narrowMatch</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#narrowMatch</IRI>
+        <Literal xml:lang="en">narrower match</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#narrowMatch</IRI>
+        <Literal xml:lang="en">skos:narrowMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#narrower</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#narrower</IRI>
+        <Literal xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#narrower</IRI>
+        <Literal xml:lang="en">Narrower concepts are typically rendered as children in a concept hierarchy (tree).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#narrower</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#narrower</IRI>
+        <Literal xml:lang="en">has narrower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#narrower</IRI>
+        <Literal xml:lang="en">A concept that is more specific in meaning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#narrowerTransitive</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#narrowerTransitive</IRI>
+        <Literal xml:lang="en">By convention, skos:narrowerTransitive is not used to make assertions. Rather, the properties can be used to draw inferences about the transitive closure of the hierarchical relation, which is useful e.g. when implementing a simple query expansion algorithm in a search application.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#narrowerTransitive</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#narrowerTransitive</IRI>
+        <Literal xml:lang="en">narrower transitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#narrowerTransitive</IRI>
+        <Literal>skos:narrowerTransitive is a transitive superproperty of skos:broader. By convention, skos:narrowerTransitive is not intended to be used in assertions, but provides a mechanism whereby the transitive closure of skos:narrower can be queried.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#notation</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#notation</IRI>
+        <Literal xml:lang="en">By convention, skos:notation is used with a typed literal in the object position of the triple.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#notation</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#notation</IRI>
+        <Literal xml:lang="en">notation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#notation</IRI>
+        <Literal xml:lang="en">A notation, also known as classification code, is a string of characters such as &quot;T58.5&quot; or &quot;303.4833&quot; used to uniquely identify a concept within the scope of a given concept scheme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#note</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#note</IRI>
+        <Literal xml:lang="en">This property may be used directly, or as a super-property for more specific note types.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#note</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#note</IRI>
+        <Literal xml:lang="en">note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#note</IRI>
+        <Literal xml:lang="en">A general note, for any purpose.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#prefLabel</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prefLabel</IRI>
+        <Literal xml:lang="en">No two concepts in the same concept scheme may have the same value for skos:prefLabel in a given language.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prefLabel</IRI>
+        <Literal xml:lang="en">The range of skos:prefLabel is the class of RDF plain literals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prefLabel</IRI>
+        <Literal xml:lang="en">skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#prefLabel</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#prefLabel</IRI>
+        <Literal xml:lang="en">preferred label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#prefLabel</IRI>
+        <Literal xml:lang="en">The preferred lexical label for a resource, in a given language.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#related</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#related</IRI>
+        <Literal xml:lang="en">skos:related is disjoint with skos:broaderTransitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#related</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#related</IRI>
+        <Literal xml:lang="en">related to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#related</IRI>
+        <Literal xml:lang="en">A concept with which there is an associative semantic relationship.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#relatedMatch</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#relatedMatch</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#relatedMatch</IRI>
+        <Literal xml:lang="en">related match</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#relatedMatch</IRI>
+        <Literal xml:lang="en">skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#scopeNote</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#scopeNote</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scopeNote</IRI>
+        <Literal xml:lang="en">scope note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#scopeNote</IRI>
+        <Literal xml:lang="en">A note that helps to clarify the meaning of a concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#semanticRelation</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#semanticRelation</IRI>
+        <Literal xml:lang="en">This property should not be used directly, but as a super-property for all properties denoting a relationship of meaning between concepts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#semanticRelation</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#semanticRelation</IRI>
+        <Literal xml:lang="en">semantic relation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#semanticRelation</IRI>
+        <Literal xml:lang="en">A concept related by meaning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dct:issued"/>
+        <IRI>#topConceptOf</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#topConceptOf</IRI>
+        <IRI></IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#topConceptOf</IRI>
+        <Literal xml:lang="en">top concept in scheme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#topConceptOf</IRI>
+        <Literal xml:lang="en">Relates a concept to the concept scheme that it is a top level concept of.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
+        <Literal>Alistair Miles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483684"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483684"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483684"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483685"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483685"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483685"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483686"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483686"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483686"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483687"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483687"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483687"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483688"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483688"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483688"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483689"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483689"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483689"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483690"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483690"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483690"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483691"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483691"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483691"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483692"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483692"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483692"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483693"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483693"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483693"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483694"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483694"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483694"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483695"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483695"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483695"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483696"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483696"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483696"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483697"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483697"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483697"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483698"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483698"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483698"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483699"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483699"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483699"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483700"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483700"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483700"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483701"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483701"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483701"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483702"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483702"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483702"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483703"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483703"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483703"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483704"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483704"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483704"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483705"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483705"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483705"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483706"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483706"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483706"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483707"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483707"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483707"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483708"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483708"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483708"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483709"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483709"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483709"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483710"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483710"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483710"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnonymousIndividual nodeID="_:genid2147483711"/>
+        <Literal>Sean Bechhofer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AnonymousIndividual nodeID="_:genid2147483711"/>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:value"/>
+        <AnonymousIndividual nodeID="_:genid2147483711"/>
+        <Literal>Initial description.</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#altLabel"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#hiddenLabel"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#prefLabel"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
