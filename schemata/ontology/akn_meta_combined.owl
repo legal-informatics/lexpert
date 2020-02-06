@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined">
+    <Prefix name="" IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -49,6 +50,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EventType"/>
@@ -270,8 +274,33 @@
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translationOf"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://www.w3.org/2008/05/skos#note"/>
+        <ObjectProperty IRI="#broader"/>
     </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#broaderTransitive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#narrower"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#narrowerTransitive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#semanticRelation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#note"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Concept"/>
+        <Class IRI="#Concept"/>
+    </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Concept"/>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCConcept"/>
@@ -455,11 +484,37 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Grupa"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grupa"/>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grupa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#broader"/>
+            <Class IRI="#Oblast"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oblast"/>
+        <Class IRI="#Concept"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Oblast"/>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oblast"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#broader"/>
+            <Class IRI="#Podregistar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Podregistar"/>
+        <Class IRI="#Concept"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Podregistar"/>
@@ -704,6 +759,22 @@
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translationOf"/>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#broader"/>
+        <ObjectProperty IRI="#broaderTransitive"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#broaderTransitive"/>
+        <ObjectProperty IRI="#semanticRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#narrower"/>
+        <ObjectProperty IRI="#narrowerTransitive"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#narrowerTransitive"/>
+        <ObjectProperty IRI="#semanticRelation"/>
+    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgementOf"/>
@@ -800,6 +871,14 @@
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translationOf"/>
     </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#broader"/>
+        <ObjectProperty IRI="#narrower"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#broaderTransitive"/>
+        <ObjectProperty IRI="#narrowerTransitive"/>
+    </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplarOf"/>
     </FunctionalObjectProperty>
@@ -811,6 +890,12 @@
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#partOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#broaderTransitive"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#narrowerTransitive"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
@@ -931,6 +1016,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#semanticRelation"/>
+        <Class IRI="#Concept"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
@@ -1039,6 +1128,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#semanticRelation"/>
+        <Class IRI="#Concept"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1401,6 +1494,11 @@ This property describes works that are intended to be an imitation another origi
         <Literal xml:lang="en">is owner of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#note"/>
+        <IRI>http://purl.org/vocab/frbr/core#part</IRI>
+        <Literal xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.org/vocab/frbr/core#part</IRI>
         <Literal xml:lang="en">A part of an endeavour.</Literal>
@@ -1411,8 +1509,8 @@ This property describes works that are intended to be an imitation another origi
         <Literal xml:lang="en">has part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2008/05/skos#note"/>
-        <IRI>http://purl.org/vocab/frbr/core#part</IRI>
+        <AnnotationProperty IRI="#note"/>
+        <IRI>http://purl.org/vocab/frbr/core#partOf</IRI>
         <Literal xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1424,11 +1522,6 @@ This property describes works that are intended to be an imitation another origi
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.org/vocab/frbr/core#partOf</IRI>
         <Literal xml:lang="en">is part of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2008/05/skos#note"/>
-        <IRI>http://purl.org/vocab/frbr/core#partOf</IRI>
-        <Literal xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1710,6 +1803,161 @@ It allows to refer to a literal translation, in which the intent is to render th
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.org/vocab/frbr/core#translationOf</IRI>
         <Literal xml:lang="en">is translation of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <IRI>#Concept</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">An abstract idea or notion; a unit of thought.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Concept</IRI>
+        <IRI>http://www.w3.org/2008/05/skos</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <IRI>#broader</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#broader</IRI>
+        <Literal xml:lang="en">A concept that is more general in meaning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#broader</IRI>
+        <Literal xml:lang="en">Broader concepts are typically rendered as parents in a concept hierarchy (tree).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#broader</IRI>
+        <Literal xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#broader</IRI>
+        <IRI>http://www.w3.org/2008/05/skos</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#broader</IRI>
+        <Literal xml:lang="en">has broader</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <IRI>#broaderTransitive</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#broaderTransitive</IRI>
+        <Literal>skos:broaderTransitive is a transitive superproperty of skos:broader.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#broaderTransitive</IRI>
+        <Literal xml:lang="en">By convention, skos:broaderTransitive is not used to make assertions. Rather, the properties can be used to draw inferences about the transitive closure of the hierarchical relation, which is useful e.g. when implementing a simple query expansion algorithm in a search application.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#broaderTransitive</IRI>
+        <IRI>http://www.w3.org/2008/05/skos</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#broaderTransitive</IRI>
+        <Literal xml:lang="en">broader transitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <IRI>#narrower</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#narrower</IRI>
+        <Literal xml:lang="en">A concept that is more specific in meaning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#narrower</IRI>
+        <Literal xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#narrower</IRI>
+        <Literal xml:lang="en">Narrower concepts are typically rendered as children in a concept hierarchy (tree).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#narrower</IRI>
+        <IRI>http://www.w3.org/2008/05/skos</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#narrower</IRI>
+        <Literal xml:lang="en">has narrower</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <IRI>#narrowerTransitive</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#narrowerTransitive</IRI>
+        <Literal>skos:narrowerTransitive is a transitive superproperty of skos:broader. By convention, skos:narrowerTransitive is not intended to be used in assertions, but provides a mechanism whereby the transitive closure of skos:narrower can be queried.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#narrowerTransitive</IRI>
+        <Literal xml:lang="en">By convention, skos:narrowerTransitive is not used to make assertions. Rather, the properties can be used to draw inferences about the transitive closure of the hierarchical relation, which is useful e.g. when implementing a simple query expansion algorithm in a search application.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#narrowerTransitive</IRI>
+        <IRI>http://www.w3.org/2008/05/skos</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#narrowerTransitive</IRI>
+        <Literal xml:lang="en">narrower transitive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <IRI>#semanticRelation</IRI>
+        <Literal>2008-05-xx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#semanticRelation</IRI>
+        <Literal xml:lang="en">A concept related by meaning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#semanticRelation</IRI>
+        <Literal xml:lang="en">This property should not be used directly, but as a super-property for all properties denoting a relationship of meaning between concepts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#semanticRelation</IRI>
+        <IRI>http://www.w3.org/2008/05/skos</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#semanticRelation</IRI>
+        <Literal xml:lang="en">semantic relation</Literal>
     </AnnotationAssertion>
 </Ontology>
 
