@@ -289,13 +289,13 @@
         <ObjectProperty IRI="#semanticRelation"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#note"/>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#definition"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <AnnotationProperty IRI="#note"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Concept"/>
@@ -488,10 +488,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Grupa"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Grupa"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#broader"/>
             <Class IRI="#Oblast"/>
@@ -503,10 +499,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Oblast"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Oblast"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#broader"/>
             <Class IRI="#Podregistar"/>
@@ -515,10 +507,6 @@
     <SubClassOf>
         <Class IRI="#Podregistar"/>
         <Class IRI="#Concept"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Podregistar"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Skupstine"/>
