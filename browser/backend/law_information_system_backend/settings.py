@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    'law_information_system_backend.legislative_search',
     'rest_framework'
 ]
 
