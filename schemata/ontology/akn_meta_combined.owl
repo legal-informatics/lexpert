@@ -289,6 +289,9 @@
         <ObjectProperty IRI="#semanticRelation"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#ima_ime"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
     </Declaration>
     <Declaration>
@@ -1121,6 +1124,10 @@
         <ObjectProperty IRI="#semanticRelation"/>
         <Class IRI="#Concept"/>
     </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ima_ime"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.org/vocab/frbr/core#Concept</IRI>

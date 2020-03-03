@@ -531,8 +531,8 @@ It allows to refer to a literal translation, in which the intent is to render th
   <rdfs:comment xml:lang="en">Broader concepts are typically rendered as parents in a concept hierarchy (tree).</rdfs:comment>
   <rdfs:comment xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</rdfs:comment>
   <rdfs:label xml:lang="en">has broader</rdfs:label>
-  <definition xml:lang="en">A concept that is more general in meaning.</definition>
   <term:issued>2008-05-xx</term:issued>
+  <definition xml:lang="en">A concept that is more general in meaning.</definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#broaderTransitive">
@@ -542,8 +542,8 @@ It allows to refer to a literal translation, in which the intent is to render th
   <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2008/05/skos"/>
   <rdfs:comment xml:lang="en">By convention, skos:broaderTransitive is not used to make assertions. Rather, the properties can be used to draw inferences about the transitive closure of the hierarchical relation, which is useful e.g. when implementing a simple query expansion algorithm in a search application.</rdfs:comment>
   <rdfs:label xml:lang="en">broader transitive</rdfs:label>
-  <definition>skos:broaderTransitive is a transitive superproperty of skos:broader.</definition>
   <term:issued>2008-05-xx</term:issued>
+  <definition>skos:broaderTransitive is a transitive superproperty of skos:broader.</definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#narrower">
@@ -552,8 +552,8 @@ It allows to refer to a literal translation, in which the intent is to render th
   <rdfs:comment xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</rdfs:comment>
   <rdfs:comment xml:lang="en">Narrower concepts are typically rendered as children in a concept hierarchy (tree).</rdfs:comment>
   <rdfs:label xml:lang="en">has narrower</rdfs:label>
-  <definition xml:lang="en">A concept that is more specific in meaning.</definition>
   <term:issued>2008-05-xx</term:issued>
+  <definition xml:lang="en">A concept that is more specific in meaning.</definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#narrowerTransitive">
@@ -562,8 +562,8 @@ It allows to refer to a literal translation, in which the intent is to render th
   <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2008/05/skos"/>
   <rdfs:comment xml:lang="en">By convention, skos:narrowerTransitive is not used to make assertions. Rather, the properties can be used to draw inferences about the transitive closure of the hierarchical relation, which is useful e.g. when implementing a simple query expansion algorithm in a search application.</rdfs:comment>
   <rdfs:label xml:lang="en">narrower transitive</rdfs:label>
-  <definition>skos:narrowerTransitive is a transitive superproperty of skos:broader. By convention, skos:narrowerTransitive is not intended to be used in assertions, but provides a mechanism whereby the transitive closure of skos:narrower can be queried.</definition>
   <term:issued>2008-05-xx</term:issued>
+  <definition>skos:narrowerTransitive is a transitive superproperty of skos:broader. By convention, skos:narrowerTransitive is not intended to be used in assertions, but provides a mechanism whereby the transitive closure of skos:narrower can be queried.</definition>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#semanticRelation">
@@ -572,15 +572,19 @@ It allows to refer to a literal translation, in which the intent is to render th
   <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2008/05/skos"/>
   <rdfs:comment xml:lang="en">This property should not be used directly, but as a super-property for all properties denoting a relationship of meaning between concepts.</rdfs:comment>
   <rdfs:label xml:lang="en">semantic relation</rdfs:label>
-  <definition xml:lang="en">A concept related by meaning.</definition>
   <term:issued>2008-05-xx</term:issued>
+  <definition xml:lang="en">A concept related by meaning.</definition>
 </owl:ObjectProperty>
 
-<owl:AnnotationProperty rdf:about="#note"/>
+<owl:DatatypeProperty rdf:about="#ima_ime">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
 
 <owl:AnnotationProperty rdf:about="#definition"/>
 
-<owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+<owl:AnnotationProperty rdf:about="#note"/>
 
 <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Concept">
   <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Subject"/>
@@ -804,8 +808,8 @@ A work is an abstract entity; there is no single material object one can point t
   <owl:equivalentClass rdf:resource="http://purl.org/vocab/frbr/core#Concept"/>
   <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2008/05/skos"/>
   <rdfs:label xml:lang="en">Concept</rdfs:label>
-  <definition xml:lang="en">An abstract idea or notion; a unit of thought.</definition>
   <term:issued>2008-05-xx</term:issued>
+  <definition xml:lang="en">An abstract idea or notion; a unit of thought.</definition>
 </owl:Class>
 
 <owl:Class rdf:about="#EventType"/>
@@ -817,7 +821,6 @@ A work is an abstract entity; there is no single material object one can point t
 
 <owl:Class rdf:about="#Grupa">
   <rdfs:subClassOf rdf:resource="#Concept"/>
-  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
   <rdfs:subClassOf>
     <owl:Restriction>
       <owl:onProperty rdf:resource="#broader"/>
@@ -828,7 +831,6 @@ A work is an abstract entity; there is no single material object one can point t
 
 <owl:Class rdf:about="#Oblast">
   <rdfs:subClassOf rdf:resource="#Concept"/>
-  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
   <rdfs:subClassOf>
     <owl:Restriction>
       <owl:onProperty rdf:resource="#broader"/>
@@ -839,7 +841,6 @@ A work is an abstract entity; there is no single material object one can point t
 
 <owl:Class rdf:about="#Podregistar">
   <rdfs:subClassOf rdf:resource="#Concept"/>
-  <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Skupstine">
@@ -902,648 +903,809 @@ A work is an abstract entity; there is no single material object one can point t
 
 <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCTerm"/>
 
-<Glasila rdf:about="#Službeni_glasnik_Republike_Srbije">
+<Glasila rdf:about="#gl_1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik Republike Srbije</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_Republike_Srbije_-_Međunarodni_ugovori">
+<Glasila rdf:about="#gl_2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik Republike Srbije - Međunarodni ugovori</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_Republike_Srbije_-_Prosvetni_glasnik">
+<Glasila rdf:about="#gl_3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik Republike Srbije - Prosvetni glasnik</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_Autonomne_Pokrajine_Vojvodine">
+<Glasila rdf:about="#gl_4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list Autonomne Pokrajine Vojvodine</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Beograda">
+<Glasila rdf:about="#gl_5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Beograda</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Novog_Sada">
+<Glasila rdf:about="#gl_6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Novog Sada</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Niša">
+<Glasila rdf:about="#gl_7">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Niša</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Kragujevca">
+<Glasila rdf:about="#gl_8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Kragujevca</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Bora">
+<Glasila rdf:about="#gl_9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Bora</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_grada_Valjeva">
+<Glasila rdf:about="#gl_10">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik grada Valjeva</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_grada_Vranja">
+<Glasila rdf:about="#gl_11">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik grada Vranja</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Vršac">
+<Glasila rdf:about="#gl_12">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Vršac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Zaječara">
+<Glasila rdf:about="#gl_13">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Zaječara</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Zrenjanina">
+<Glasila rdf:about="#gl_14">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Zrenjanina</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_grada_Jagodina">
+<Glasila rdf:about="#gl_15">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik grada Jagodina</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Kikinde">
+<Glasila rdf:about="#gl_16">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Kikinde</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Kraljeva">
+<Glasila rdf:about="#gl_17">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Kraljeva</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Kruševca">
+<Glasila rdf:about="#gl_18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Kruševca</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_grada_Leskovca">
+<Glasila rdf:about="#gl_19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik grada Leskovca</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Loznice">
+<Glasila rdf:about="#gl_20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Loznice</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Novog_Pazara">
+<Glasila rdf:about="#gl_21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Novog Pazara</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Pančeva">
+<Glasila rdf:about="#gl_22">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Pančeva</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_grada_Požarevca">
+<Glasila rdf:about="#gl_23">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik grada Požarevca</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Prokuplja">
+<Glasila rdf:about="#gl_24">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Prokuplja</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Smedereva">
+<Glasila rdf:about="#gl_25">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Smedereva</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Sombora">
+<Glasila rdf:about="#gl_26">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Sombora</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Sremska_Mitrovica">
+<Glasila rdf:about="#gl_27">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Sremska Mitrovica</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Subotice">
+<Glasila rdf:about="#gl_28">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Subotice</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Užica">
+<Glasila rdf:about="#gl_29">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Užica</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Čačka">
+<Glasila rdf:about="#gl_30">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Čačka</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Šapca_i_opština:_Bogatić,_Vladimirci_i_Koceljeva">
+<Glasila rdf:about="#gl_31">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Šapca i opština: Bogatić, Vladimirci i Koceljeva</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Beograda_-_Opštine">
+<Glasila rdf:about="#gl_32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Beograda - Opštine</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Novog_Sada_-_Opštine">
+<Glasila rdf:about="#gl_33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Novog Sada - Opštine</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Niša_-_Opštine">
+<Glasila rdf:about="#gl_34">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Niša - Opštine</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opština_Srema">
+<Glasila rdf:about="#gl_35">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opština Srema</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Ada">
+<Glasila rdf:about="#gl_36">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Ada</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Aleksinac">
+<Glasila rdf:about="#gl_37">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Aleksinac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Alibunar">
+<Glasila rdf:about="#gl_38">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Alibunar</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Apatin">
+<Glasila rdf:about="#gl_39">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Apatin</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Aranđelovac">
+<Glasila rdf:about="#gl_40">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Aranđelovac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Arilje">
+<Glasila rdf:about="#gl_41">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Arilje</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Bač">
+<Glasila rdf:about="#gl_42">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Bač</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Bačka_Palanka">
+<Glasila rdf:about="#gl_43">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Bačka Palanka</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Bačka_Topola">
+<Glasila rdf:about="#gl_44">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Bačka Topola</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Bački_Petrovac">
+<Glasila rdf:about="#gl_45">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Bački Petrovac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Bajina_Bašta">
+<Glasila rdf:about="#gl_46">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Bajina Bašta</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Batočina">
+<Glasila rdf:about="#gl_47">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Batočina</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Bečej">
+<Glasila rdf:about="#gl_48">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Bečej</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Bela_Crkva">
+<Glasila rdf:about="#gl_49">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Bela Crkva</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Beočin">
+<Glasila rdf:about="#gl_50">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Beočin</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Blace">
+<Glasila rdf:about="#gl_51">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Blace</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Boljevac">
+<Glasila rdf:about="#gl_52">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Boljevac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Brus">
+<Glasila rdf:about="#gl_53">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Brus</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Bujanovac">
+<Glasila rdf:about="#gl_54">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Bujanovac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Čajetina">
+<Glasila rdf:about="#gl_55">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Čajetina</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Čoka">
+<Glasila rdf:about="#gl_56">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Čoka</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Ćićevac">
+<Glasila rdf:about="#gl_57">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Ćićevac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Ćuprija">
+<Glasila rdf:about="#gl_58">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Ćuprija</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Despotovac">
+<Glasila rdf:about="#gl_59">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Despotovac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Gornji_Milanovac">
+<Glasila rdf:about="#gl_60">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Gornji Milanovac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Inđija">
+<Glasila rdf:about="#gl_61">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Inđija</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Ivanjica">
+<Glasila rdf:about="#gl_62">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Ivanjica</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Kanjiža">
+<Glasila rdf:about="#gl_63">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Kanjiža</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Knić">
+<Glasila rdf:about="#gl_64">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Knić</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Knjaževac">
+<Glasila rdf:about="#gl_65">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Knjaževac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Kosjerić">
+<Glasila rdf:about="#gl_66">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Kosjerić</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Kovačica">
+<Glasila rdf:about="#gl_67">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Kovačica</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Kovin">
+<Glasila rdf:about="#gl_68">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Kovin</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Kula">
+<Glasila rdf:about="#gl_69">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Kula</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Kuršumlija">
+<Glasila rdf:about="#gl_70">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Kuršumlija</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Lajkovac">
+<Glasila rdf:about="#gl_71">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Lajkovac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Lapovo">
+<Glasila rdf:about="#gl_72">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Lapovo</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Leposavić">
+<Glasila rdf:about="#gl_73">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Leposavić</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_grada_Leskovca_-_Opštine">
+<Glasila rdf:about="#gl_74">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik grada Leskovca - Opštine</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Lučani">
+<Glasila rdf:about="#gl_75">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Lučani</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Ljig">
+<Glasila rdf:about="#gl_76">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Ljig</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Majdanpek">
+<Glasila rdf:about="#gl_77">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Majdanpek</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Mali_Iđoš">
+<Glasila rdf:about="#gl_78">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Mali Iđoš</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Mali_Zvornik">
+<Glasila rdf:about="#gl_79">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Mali Zvornik</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Mionica">
+<Glasila rdf:about="#gl_80">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Mionica</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Negotin">
+<Glasila rdf:about="#gl_81">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Negotin</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Nova_Crnja">
+<Glasila rdf:about="#gl_82">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Nova Crnja</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Nova_Varoš">
+<Glasila rdf:about="#gl_83">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Nova Varoš</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Novi_Bečej">
+<Glasila rdf:about="#gl_84">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Novi Bečej</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Novi_Kneževac">
+<Glasila rdf:about="#gl_85">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Novi Kneževac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Odžaci">
+<Glasila rdf:about="#gl_86">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Odžaci</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Osečina">
+<Glasila rdf:about="#gl_87">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Osečina</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Paraćin">
+<Glasila rdf:about="#gl_88">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Paraćin</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Petrovac_na_Mlavi">
+<Glasila rdf:about="#gl_89">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Petrovac na Mlavi</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Plandište">
+<Glasila rdf:about="#gl_90">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Plandište</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_grada_Požarevca_-_Opštine">
+<Glasila rdf:about="#gl_91">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik grada Požarevca - Opštine</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Požega">
+<Glasila rdf:about="#gl_92">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Požega</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Priboj">
+<Glasila rdf:about="#gl_93">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Priboj</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Prijepolje">
+<Glasila rdf:about="#gl_94">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Prijepolje</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Rača">
+<Glasila rdf:about="#gl_95">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Rača</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Raška">
+<Glasila rdf:about="#gl_96">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Raška</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Rekovac">
+<Glasila rdf:about="#gl_97">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Rekovac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Senta">
+<Glasila rdf:about="#gl_98">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Senta</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Opštinski_Službeni_glasnik_opštine_Sjenica">
+<Glasila rdf:about="#gl_99">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opštinski Službeni glasnik opštine Sjenica</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Sokobanja">
+<Glasila rdf:about="#gl_100">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Sokobanja</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Srbobran">
+<Glasila rdf:about="#gl_101">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Srbobran</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Sremski_Karlovci">
+<Glasila rdf:about="#gl_102">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Sremski Karlovci</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Svilajnac">
+<Glasila rdf:about="#gl_103">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Svilajnac</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Šid">
+<Glasila rdf:about="#gl_104">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Šid</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Temerin">
+<Glasila rdf:about="#gl_105">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Temerin</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Titel">
+<Glasila rdf:about="#gl_106">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Titel</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Topola">
+<Glasila rdf:about="#gl_107">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Topola</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Trstenik">
+<Glasila rdf:about="#gl_108">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Trstenik</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Tutin">
+<Glasila rdf:about="#gl_109">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Tutin</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Ub">
+<Glasila rdf:about="#gl_110">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Ub</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_grada_Užica_-_Opštine">
+<Glasila rdf:about="#gl_111">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list grada Užica - Opštine</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Varvarin">
+<Glasila rdf:about="#gl_112">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Varvarin</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Veliko_Gradište">
+<Glasila rdf:about="#gl_113">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Veliko Gradište</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_grada_Vranja_-_Opštine">
+<Glasila rdf:about="#gl_114">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik grada Vranja - Opštine</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Vrbas">
+<Glasila rdf:about="#gl_115">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Vrbas</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Vrnjačka_Banja">
+<Glasila rdf:about="#gl_116">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Vrnjačka Banja</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Žabalj">
+<Glasila rdf:about="#gl_117">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Žabalj</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_glasnik_opštine_Žagubica">
+<Glasila rdf:about="#gl_118">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni glasnik opštine Žagubica</ima_ime>
 </Glasila>
 
-<Glasila rdf:about="#Službeni_list_opštine_Žitište">
+<Glasila rdf:about="#gl_119">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Službeni list opštine Žitište</ima_ime>
 </Glasila>
 
-<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#pdf">
+<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vf_1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pdf</ima_ime>
 </akn_:FRBRformat>
 
-<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#xml">
+<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vf_2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xml</ima_ime>
 </akn_:FRBRformat>
 
-<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#txt">
+<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vf_3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">txt</ima_ime>
 </akn_:FRBRformat>
 
-<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#doc">
+<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vf_4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doc</ima_ime>
 </akn_:FRBRformat>
 
-<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#docx">
+<akn_:FRBRformat rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vf_5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">docx</ima_ime>
 </akn_:FRBRformat>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Sve">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sve</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Ustav">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ustav</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Zakon">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zakon</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Autentično/Obavezno_tumačenje">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autentično/Obavezno tumačenje</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Poslovnik">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poslovnik</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Ukaz">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ukaz</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Uredba">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_7">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uredba</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Plan">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plan</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Odluka">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Odluka</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Memorandum">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_10">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memorandum</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Rezolucija">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_11">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rezolucija</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Deklaracija">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_12">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deklaracija</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Strategija">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_13">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategija</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Rešenje">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_14">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rešenje</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Statut">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_15">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Statut</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Pravilnik">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_16">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pravilnik</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Program">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_17">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Program</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Podatak">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Podatak</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Indeks">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indeks</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Iznos,_koeficijent">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iznos, koeficijent</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Naredba">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naredba</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Zaključak">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_22">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zaključak</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Izveštaj">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_23">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izveštaj</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Kodeks">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_24">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kodeks</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Tarifa">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_25">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarifa</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Uputstvo,_smernica,_pravilo,_preporuka">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_26">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uputstvo, smernica, pravilo, preporuka</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Kriterijum,_merilo">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_27">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kriterijum, merilo</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Spisak,_lista">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_28">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spisak, lista</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Objašnjenje,_mišljenje">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_29">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Objašnjenje, mišljenje</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Rokovnik">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_30">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rokovnik</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Ugovor">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_31">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ugovor</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Kolektivni_ugovor">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolektivni ugovor</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Ispravka">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ispravka</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Sporazum">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_34">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sporazum</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Konvencija">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_35">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Konvencija</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Protokol">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_36">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protokol</ima_ime>
 </akn_:FRBRsubtype>
 
-<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#Ostalo">
+<akn_:FRBRsubtype rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_37">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ostalo</ima_ime>
 </akn_:FRBRsubtype>
 
 <akn_:FRBRcountry rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#ad">
@@ -3278,1411 +3440,1747 @@ A work is an abstract entity; there is no single material object one can point t
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </akn_:FRBRlanguage>
 
-<Podregistar rdf:about="#REPUBLIČKI_PROPISI">
+<Podregistar rdf:about="#podregistar_1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPUBLIČKI PROPISI</ima_ime>
 </Podregistar>
 
-<Oblast rdf:about="#I___DRŽAVNO_UREĐENJE">
+<Oblast rdf:about="#oblast_1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I	DRŽAVNO UREĐENJE</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Ustav">
+<Grupa rdf:about="#grupa_1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Ustav</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Grb,_zastava,_himna_i_pečat">
+<Grupa rdf:about="#grupa_2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Grb, zastava, himna i pečat</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Državljanstvo">
+<Grupa rdf:about="#grupa_3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Državljanstvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Državni_i_drugi_praznici,_godišnjice_i_dani_koji_se_posebno_obeležavaju">
+<Grupa rdf:about="#grupa_4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Državni i drugi praznici, godišnjice i dani koji se posebno obeležavaju</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Službena_upotreba_jezika_i_pisama">
+<Grupa rdf:about="#grupa_5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Službena upotreba jezika i pisama</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Narodna_skupština">
+<Grupa rdf:about="#grupa_6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Narodna skupština</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Predsednik_Republike">
+<Grupa rdf:about="#grupa_7">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Predsednik Republike</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Vlada_i_radna_tela_Vlade">
+<Grupa rdf:about="#grupa_8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Vlada i radna tela Vlade</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Ustavni_sud">
+<Grupa rdf:about="#grupa_9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Ustavni sud</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#10._Zaštitnik_građana">
+<Grupa rdf:about="#grupa_10">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. Zaštitnik građana</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#11._Državna_uprava,_upravna_inspekcija_i_inspekcijski_nadzor">
+<Grupa rdf:about="#grupa_11">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11. Državna uprava, upravna inspekcija i inspekcijski nadzor</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#12._Spoljni_poslovi">
+<Grupa rdf:about="#grupa_12">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12. Spoljni poslovi</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#13._Izbori,_referendum_i_narodna_inicijativa">
+<Grupa rdf:about="#grupa_13">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13. Izbori, referendum i narodna inicijativa</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#14._Udruženja,_političke_stranke,_crkve,_verske_zajednice_i_druge_organizacije">
+<Grupa rdf:about="#grupa_14">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14. Udruženja, političke stranke, crkve, verske zajednice i druge organizacije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#15._Zaštita_ljudskih_prava_i_prava_pripadnika_nacionalnih_manjina">
+<Grupa rdf:about="#grupa_15">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15. Zaštita ljudskih prava i prava pripadnika nacionalnih manjina</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#16._Borba_protiv_korupcije,_zaštita_uzbunjivača_i_lobiranje">
+<Grupa rdf:about="#grupa_16">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16. Borba protiv korupcije, zaštita uzbunjivača i lobiranje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#17._Teritorijalna_organizacija_i_lokalna_samouprava">
+<Grupa rdf:about="#grupa_17">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17. Teritorijalna organizacija i lokalna samouprava</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#18._Objavljivanje_propisa">
+<Grupa rdf:about="#grupa_18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18. Objavljivanje propisa</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#19._Matične_knjige">
+<Grupa rdf:about="#grupa_19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19. Matične knjige</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#20._Državna_odlikovanja">
+<Grupa rdf:about="#grupa_20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20. Državna odlikovanja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#21._Dijaspora_i_Srbi_u_regionu">
+<Grupa rdf:about="#grupa_21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I___DRŽAVNO_UREĐENJE"/>
+  <broader rdf:resource="#oblast_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21. Dijaspora i Srbi u regionu</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI">
+<Oblast rdf:about="#oblast_2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">II	ODBRANA, VOJSKA I UNUTRAŠNJI POSLOVI</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Odbrana_i_bezbednost">
+<Grupa rdf:about="#grupa_22">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Odbrana i bezbednost</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Vojska_Srbije">
+<Grupa rdf:about="#grupa_23">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Vojska Srbije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Vojna_oprema,_naoružanje_i_roba_dvostruke_namene">
+<Grupa rdf:about="#grupa_24">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Vojna oprema, naoružanje i roba dvostruke namene</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Policija,_javni_red_i_mir_i_javno_okupljanje">
+<Grupa rdf:about="#grupa_25">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Policija, javni red i mir i javno okupljanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Oružje,_municija,_opasne_i_eksplozivne_materije">
+<Grupa rdf:about="#grupa_26">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Oružje, municija, opasne i eksplozivne materije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Prebivalište_i_boravište">
+<Grupa rdf:about="#grupa_27">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Prebivalište i boravište</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Državna_granica">
+<Grupa rdf:about="#grupa_28">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Državna granica</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Putne_isprave">
+<Grupa rdf:about="#grupa_29">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Putne isprave</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Boravak_stranaca">
+<Grupa rdf:about="#grupa_30">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Boravak stranaca</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#10._Lično_ime,_lična_karta,_matični_broj_građana">
+<Grupa rdf:about="#grupa_31">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. Lično ime, lična karta, matični broj građana</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#11._Migracije,_izbeglice_i_raseljena_lica">
+<Grupa rdf:about="#grupa_32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11. Migracije, izbeglice i raseljena lica</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#12._Vanredne_situacije_(civilna_zaštita,_elementarne_i_druge_nepogode)">
+<Grupa rdf:about="#grupa_33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12. Vanredne situacije (civilna zaštita, elementarne i druge nepogode)</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#13._Zaštita_od_požara">
+<Grupa rdf:about="#grupa_34">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13. Zaštita od požara</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#14._Detektivska_delatnost_i_privatno_obezbeđenje">
+<Grupa rdf:about="#grupa_35">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II___ODBRANA,_VOJSKA_I_UNUTRAŠNJI_POSLOVI"/>
+  <broader rdf:resource="#oblast_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14. Detektivska delatnost i privatno obezbeđenje</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI">
+<Oblast rdf:about="#oblast_3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">III	PRAVOSUĐE, KAZNENO ZAKONODAVSTVO I POSTUPCI</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Sud">
+<Grupa rdf:about="#grupa_36">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Sud</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Tužilaštvo">
+<Grupa rdf:about="#grupa_37">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Tužilaštvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Pravobranilaštvo">
+<Grupa rdf:about="#grupa_38">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Pravobranilaštvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Advokatura,_javno_beležništvo_i_besplatna_pravna_pomoć">
+<Grupa rdf:about="#grupa_39">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Advokatura, javno beležništvo i besplatna pravna pomoć</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Veštačenje">
+<Grupa rdf:about="#grupa_40">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Veštačenje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Pravosudna_akademija_i_pravosudni_ispit">
+<Grupa rdf:about="#grupa_41">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Pravosudna akademija i pravosudni ispit</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Krivična_dela_i_krivični_postupak">
+<Grupa rdf:about="#grupa_42">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Krivična dela i krivični postupak</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Privredni_prestupi_i_prekršaji">
+<Grupa rdf:about="#grupa_43">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Privredni prestupi i prekršaji</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Izvršenje_krivičnih_sankcija_i_alternativnih_sankcija_i_mera">
+<Grupa rdf:about="#grupa_44">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Izvršenje krivičnih sankcija i alternativnih sankcija i mera</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#10._Rehabilitacija,_amnestija_i_pomilovanje">
+<Grupa rdf:about="#grupa_45">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. Rehabilitacija, amnestija i pomilovanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#11._Postupci_u_oblasti_građanskog_prava,_upravni_i_ostali_postupci">
+<Grupa rdf:about="#grupa_46">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11. Postupci u oblasti građanskog prava, upravni i ostali postupci</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#12._Overavanje_potpisa,_rukopisa,_prepisa_i_overavanje_isprava_u_međunarodnom_prometu">
+<Grupa rdf:about="#grupa_47">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III___PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_POSTUPCI"/>
+  <broader rdf:resource="#oblast_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12. Overavanje potpisa, rukopisa, prepisa i overavanje isprava u međunarodnom prometu</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#IV___JAVNI_PRIHODI">
+<Oblast rdf:about="#oblast_4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IV	JAVNI PRIHODI</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Carine_i_druge_uvozne_dažbine">
+<Grupa rdf:about="#grupa_48">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV_JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_4"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Carine i druge uvozne dažbine</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Porezi_i_akcize">
+<Grupa rdf:about="#grupa_49">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV___JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_4"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Porezi i akcize</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Takse_i_druge_dažbine">
+<Grupa rdf:about="#grupa_50">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV___JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_4"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Takse i druge dažbine</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Javni_zajmovi">
+<Grupa rdf:about="#grupa_51">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV___JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_4"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Javni zajmovi</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Emisija_državnih_zapisa_i_hartija_od_vrednosti">
+<Grupa rdf:about="#grupa_52">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV___JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_4"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Emisija državnih zapisa i hartija od vrednosti</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Finansiranje_nadležnosti_države_i_teritorijalnih_jedinica">
+<Grupa rdf:about="#grupa_53">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV___JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_4"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Finansiranje nadležnosti države i teritorijalnih jedinica</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Igre_na_sreću">
+<Grupa rdf:about="#grupa_54">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV___JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_4"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Igre na sreću</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Propisi_Evropske_unije">
+<Grupa rdf:about="#grupa_55">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV___JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_4"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Propisi Evropske unije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Propisi_Svetske_carinske_organizacije">
+<Grupa rdf:about="#grupa_56">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV___JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_4"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Propisi Svetske carinske organizacije</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE">
+<Oblast rdf:about="#oblast_5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V	MONETARNI SISTEM, FINANSIJSKE ORGANIZACIJE I FINANSIJSKO POSLOVANJE</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Narodna_banka">
+<Grupa rdf:about="#grupa_57">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_5"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Narodna banka</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Banke_i_druge_finansijske_organizacije">
+<Grupa rdf:about="#grupa_58">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_5"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Banke i druge finansijske organizacije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Platni_sistem_i_platne_usluge">
+<Grupa rdf:about="#grupa_59">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_5"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Platni sistem i platne usluge</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Računovodstvo_i_revizija">
+<Grupa rdf:about="#grupa_60">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_5"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Računovodstvo i revizija</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Sprečavanje_pranja_novca_i_finansiranja_terorizma_i_ograničavanje_raspolaganja_imovinom">
+<Grupa rdf:about="#grupa_61">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_5"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Sprečavanje pranja novca i finansiranja terorizma i ograničavanje raspolaganja imovinom</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Izdavanje,_osnovna_obeležja_i_puštanje_u_opticaj_novčanica,_kovanog_novca_i_prigodnog_kovanog_novca">
+<Grupa rdf:about="#grupa_62">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_5"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Izdavanje, osnovna obeležja i puštanje u opticaj novčanica, kovanog novca i prigodnog kovanog novca</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Hartije_od_vrednosti">
+<Grupa rdf:about="#grupa_63">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_5"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Hartije od vrednosti</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Kamate">
+<Grupa rdf:about="#grupa_64">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_5"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Kamate</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Zaduživanje_i_garancije">
+<Grupa rdf:about="#grupa_65">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V___MONETARNI_SISTEM,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_5"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Zaduživanje i garancije</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI">
+<Oblast rdf:about="#oblast_6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VI	SVOJINSKI I OBLIGACIONI, PORODIČNI I BRAČNI ODNOSI</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Oblici_svojine">
+<Grupa rdf:about="#grupa_66">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Oblici svojine</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Privatizacija">
+<Grupa rdf:about="#grupa_67">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Privatizacija</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Eksproprijacija_i_drugi_oblici_ograničavanja_svojine_i_vraćanje_imovine">
+<Grupa rdf:about="#grupa_68">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Eksproprijacija i drugi oblici ograničavanja svojine i vraćanje imovine</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Založno_pravo_na_pokretnim_stvarima_i_nepokretnostima">
+<Grupa rdf:about="#grupa_69">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Založno pravo na pokretnim stvarima i nepokretnostima</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Povraćaj_i_dodeljivanje_zemljišta">
+<Grupa rdf:about="#grupa_70">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Povraćaj i dodeljivanje zemljišta</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Autorsko_i_srodna_prava">
+<Grupa rdf:about="#grupa_71">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Autorsko i srodna prava</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Industrijska_svojina_i_tehnička_unapređenja">
+<Grupa rdf:about="#grupa_72">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Industrijska svojina i tehnička unapređenja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Zadužbine,_fondacije_i_fondovi">
+<Grupa rdf:about="#grupa_73">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Zadužbine, fondacije i fondovi</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Premer_i_katastar">
+<Grupa rdf:about="#grupa_74">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Premer i katastar</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#10._Nasleđivanje">
+<Grupa rdf:about="#grupa_75">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. Nasleđivanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#11._Opšti_obligacioni_odnosi,_finansijski_lizing_i_faktoring">
+<Grupa rdf:about="#grupa_76">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11. Opšti obligacioni odnosi, finansijski lizing i faktoring</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#12._Obligacioni_odnosi_u_saobraćaju">
+<Grupa rdf:about="#grupa_77">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12. Obligacioni odnosi u saobraćaju</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#13._Promet_nepokretnosti">
+<Grupa rdf:about="#grupa_78">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13. Promet nepokretnosti</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#14._Javno-privatno_partnerstvo_i_koncesije">
+<Grupa rdf:about="#grupa_79">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14. Javno-privatno partnerstvo i koncesije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#15._Brak,_porodica_i_sprečavanje_nasilja_u_porodici">
+<Grupa rdf:about="#grupa_80">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI___SVOJINSKI_I_OBLIGACIONI,_PORODIČNI_I_BRAČNI_ODNOSI"/>
+  <broader rdf:resource="#oblast_6"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15. Brak, porodica i sprečavanje nasilja u porodici</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#VII___RADNI_ODNOSI_I_ZAPOŠLJAVANJE">
+<Oblast rdf:about="#oblast_7">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VII	RADNI ODNOSI I ZAPOŠLJAVANJE</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Radni_odnosi,_zaštita_na_radu_i_evidencije_u_oblasti_rada">
+<Grupa rdf:about="#grupa_81">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII___RADNI_ODNOSI_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_7"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Radni odnosi, zaštita na radu i evidencije u oblasti rada</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Radni_odnosi_u_državnim_organima,_autonomnim_pokrajinama_i_jedinicama_lokalne_samouprave">
+<Grupa rdf:about="#grupa_82">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII___RADNI_ODNOSI_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_7"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Radni odnosi u državnim organima, autonomnim pokrajinama i jedinicama lokalne samouprave</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Zapošljavanje_i_upućivanje_zaposlenih_na_privremeni_rad_u_inostranstvo">
+<Grupa rdf:about="#grupa_83">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII___RADNI_ODNOSI_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_7"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Zapošljavanje i upućivanje zaposlenih na privremeni rad u inostranstvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Zarade,_plate,_naknade_i_druga_primanja">
+<Grupa rdf:about="#grupa_84">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII___RADNI_ODNOSI_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_7"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Zarade, plate, naknade i druga primanja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Štrajk">
+<Grupa rdf:about="#grupa_85">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII___RADNI_ODNOSI_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_7"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Štrajk</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Kolektivni_ugovori">
+<Grupa rdf:about="#grupa_86">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII___RADNI_ODNOSI_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_7"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Kolektivni ugovori</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Volontiranje">
+<Grupa rdf:about="#grupa_87">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII___RADNI_ODNOSI_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_7"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Volontiranje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Psihološka_delatnost">
+<Grupa rdf:about="#grupa_88">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII___RADNI_ODNOSI_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_7"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Psihološka delatnost</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#VIII___RAZVOJ">
+<Oblast rdf:about="#oblast_8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIII	RAZVOJ</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Planiranje_razvoja,_regionalni_razvoj_i_nerazvijena_područja">
+<Grupa rdf:about="#grupa_89">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VIII_RAZVOJ_I_INFORMACIONE_TEHNOLOGIJE"/>
+  <broader rdf:resource="#oblast_8"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Planiranje razvoja, regionalni razvoj i nerazvijena područja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Statistika">
+<Grupa rdf:about="#grupa_90">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VIII___RAZVOJ"/>
+  <broader rdf:resource="#oblast_8"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Statistika</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Informacione_tehnologije">
+<Grupa rdf:about="#grupa_91">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VIII___RAZVOJ"/>
+  <broader rdf:resource="#oblast_8"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Informacione tehnologije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Kvalitet_predmeta_opšte_upotrebe_i_životnih_namirnica">
+<Grupa rdf:about="#grupa_92">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VIII___RAZVOJ"/>
+  <broader rdf:resource="#oblast_8"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Kvalitet predmeta opšte upotrebe i životnih namirnica</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Standardizacija">
+<Grupa rdf:about="#grupa_93">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VIII___RAZVOJ"/>
+  <broader rdf:resource="#oblast_8"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Standardizacija</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Računanje_vremena">
+<Grupa rdf:about="#grupa_94">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VIII___RAZVOJ"/>
+  <broader rdf:resource="#oblast_8"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Računanje vremena</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM">
+<Oblast rdf:about="#oblast_9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IX	OPŠTI PRIVREDNI PROPISI I EKONOMSKI ODNOSI SA INOSTRANSTVOM</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Privredna_društva,_preduzeća_i_preduzetnici">
+<Grupa rdf:about="#grupa_95">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Privredna društva, preduzeća i preduzetnici</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Osnivački_akti_privrednih_društava_i_preduzeća">
+<Grupa rdf:about="#grupa_96">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Osnivački akti privrednih društava i preduzeća</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Osiguranje">
+<Grupa rdf:about="#grupa_97">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Osiguranje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Zadruge">
+<Grupa rdf:about="#grupa_98">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Zadruge</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Privredne_komore">
+<Grupa rdf:about="#grupa_99">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Privredne komore</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Slobodne_zone">
+<Grupa rdf:about="#grupa_100">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Slobodne zone</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Spoljnotrgovinsko_poslovanje">
+<Grupa rdf:about="#grupa_101">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Spoljnotrgovinsko poslovanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Devizno_poslovanje_i_strana_ulaganja">
+<Grupa rdf:about="#grupa_102">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Devizno poslovanje i strana ulaganja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Klasifikacija_delatnosti">
+<Grupa rdf:about="#grupa_103">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Klasifikacija delatnosti</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#10._Stečaj">
+<Grupa rdf:about="#grupa_104">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. Stečaj</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#11._Registracija_privrednih_subjekata">
+<Grupa rdf:about="#grupa_105">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11. Registracija privrednih subjekata</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#12._Otklanjanje_posledica_sankcija">
+<Grupa rdf:about="#grupa_106">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX___OPŠTI_PRIVREDNI_PROPISI_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_9"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12. Otklanjanje posledica sankcija</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA">
+<Oblast rdf:about="#oblast_10">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X	DOBRA OD OPŠTEG INTERESA I ŽIVOTNA SREDINA</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Zemljište">
+<Grupa rdf:about="#grupa_107">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Zemljište</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Vode">
+<Grupa rdf:about="#grupa_108">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Vode</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Vazduh">
+<Grupa rdf:about="#grupa_109">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Vazduh</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Rude_i_geološka_istraživanja">
+<Grupa rdf:about="#grupa_110">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X_DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Rude i geološka istraživanja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Šume_i_šumsko_zemljište">
+<Grupa rdf:about="#grupa_111">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Šume i šumsko zemljište</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Putevi">
+<Grupa rdf:about="#grupa_112">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Putevi</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Skijališta_i_žičare">
+<Grupa rdf:about="#grupa_113">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Skijališta i žičare</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Banje">
+<Grupa rdf:about="#grupa_114">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Banje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Divljač">
+<Grupa rdf:about="#grupa_115">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Divljač</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#10._Ribarstvo">
+<Grupa rdf:about="#grupa_116">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. Ribarstvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#11._Životna_sredina">
+<Grupa rdf:about="#grupa_117">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11. Životna sredina</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#12._Zaštita_prirode">
+<Grupa rdf:about="#grupa_118">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12. Zaštita prirode</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#13._Nacionalni_parkovi_i_zaštićena_područja">
+<Grupa rdf:about="#grupa_119">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13. Nacionalni parkovi i zaštićena područja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#14._Zaštita_od_zračenja_i_nuklearna_sigurnost">
+<Grupa rdf:about="#grupa_120">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14. Zaštita od zračenja i nuklearna sigurnost</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#15._Upravljanje_otpadom">
+<Grupa rdf:about="#grupa_121">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15. Upravljanje otpadom</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#16._Hidrometeorološki_poslovi">
+<Grupa rdf:about="#grupa_122">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X___DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_10"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16. Hidrometeorološki poslovi</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XI___TRGOVINA,_TURIZAM_I_UGOSTITELJSTVO">
+<Oblast rdf:about="#oblast_11">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XI	TRGOVINA, TURIZAM I UGOSTITELJSTVO</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Trgovina,_javne_nabavke_i_zaštita_potrošača">
+<Grupa rdf:about="#grupa_123">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XI___TRGOVINA,_TURIZAM_I_UGOSTITELJSTVO"/>
+  <broader rdf:resource="#oblast_11"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Trgovina, javne nabavke i zaštita potrošača</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Turizam_i_ugostiteljstvo">
+<Grupa rdf:about="#grupa_124">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XI_TRGOVINA,_TURIZAM_I_UGOSTITELJSTVO"/>
+  <broader rdf:resource="#oblast_11"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Turizam i ugostiteljstvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Zaštita_konkurencije_i_kontrola_državne_pomoći">
+<Grupa rdf:about="#grupa_125">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XI___TRGOVINA,_TURIZAM_I_UGOSTITELJSTVO"/>
+  <broader rdf:resource="#oblast_11"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Zaštita konkurencije i kontrola državne pomoći</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Robne_rezerve">
+<Grupa rdf:about="#grupa_126">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XI___TRGOVINA,_TURIZAM_I_UGOSTITELJSTVO"/>
+  <broader rdf:resource="#oblast_11"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Robne rezerve</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XII___GRAĐEVINARSTVO,_GRAĐEVINSKO_ZEMLJIŠTE_I_KOMUNALNOSTAMBENE_DELATNOSTI">
+<Oblast rdf:about="#oblast_12">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XII	GRAĐEVINARSTVO, GRAĐEVINSKO ZEMLJIŠTE I KOMUNALNOSTAMBENE DELATNOSTI</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Planiranje_i_izgradnja">
+<Grupa rdf:about="#grupa_127">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XII___GRAĐEVINARSTVO,_GRAĐEVINSKO_ZEMLJIŠTE_I_KOMUNALNOSTAMBENE_DELATNOSTI"/>
+  <broader rdf:resource="#oblast_12"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Planiranje i izgradnja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Prostorni_planovi">
+<Grupa rdf:about="#grupa_128">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XII___GRAĐEVINARSTVO,_GRAĐEVINSKO_ZEMLJIŠTE_I_KOMUNALNOSTAMBENE_DELATNOSTI"/>
+  <broader rdf:resource="#oblast_12"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Prostorni planovi</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Stanovanje_i_održavanje_stambenih_zgrada">
+<Grupa rdf:about="#grupa_129">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XII___GRAĐEVINARSTVO,_GRAĐEVINSKO_ZEMLJIŠTE_I_KOMUNALNOSTAMBENE_DELATNOSTI"/>
+  <broader rdf:resource="#oblast_12"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Stanovanje i održavanje stambenih zgrada</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Komunalne_delatnosti">
+<Grupa rdf:about="#grupa_130">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XII___GRAĐEVINARSTVO,_GRAĐEVINSKO_ZEMLJIŠTE_I_KOMUNALNOSTAMBENE_DELATNOSTI"/>
+  <broader rdf:resource="#oblast_12"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Komunalne delatnosti</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Groblja_i_sahranjivanje">
+<Grupa rdf:about="#grupa_131">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XII___GRAĐEVINARSTVO,_GRAĐEVINSKO_ZEMLJIŠTE_I_KOMUNALNOSTAMBENE_DELATNOSTI"/>
+  <broader rdf:resource="#oblast_12"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Groblja i sahranjivanje</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XIII___POLJOPRIVREDNA_DELATNOST">
+<Oblast rdf:about="#oblast_13">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XIII	POLJOPRIVREDNA DELATNOST</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Stočarstvo">
+<Grupa rdf:about="#grupa_132">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII___POLJOPRIVREDNA_DELATNOST"/>
+  <broader rdf:resource="#oblast_13"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Stočarstvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Zdravstvena_zaštita_životinja">
+<Grupa rdf:about="#grupa_133">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII___POLJOPRIVREDNA_DELATNOST"/>
+  <broader rdf:resource="#oblast_13"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Zdravstvena zaštita životinja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Seme_i_sadni_materijal">
+<Grupa rdf:about="#grupa_134">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII___POLJOPRIVREDNA_DELATNOST"/>
+  <broader rdf:resource="#oblast_13"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Seme i sadni materijal</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Zaštita_bilja">
+<Grupa rdf:about="#grupa_135">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII___POLJOPRIVREDNA_DELATNOST"/>
+  <broader rdf:resource="#oblast_13"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Zaštita bilja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Alkoholna_pića">
+<Grupa rdf:about="#grupa_136">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII___POLJOPRIVREDNA_DELATNOST"/>
+  <broader rdf:resource="#oblast_13"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Alkoholna pića</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Duvan">
+<Grupa rdf:about="#grupa_137">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII___POLJOPRIVREDNA_DELATNOST"/>
+  <broader rdf:resource="#oblast_13"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Duvan</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Poljoprivreda_i_razvoj_poljoprivrede">
+<Grupa rdf:about="#grupa_138">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII___POLJOPRIVREDNA_DELATNOST"/>
+  <broader rdf:resource="#oblast_13"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Poljoprivreda i razvoj poljoprivrede</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XIV___SAOBRAĆAJ,_VEZE_I_ENERGETIKA">
+<Oblast rdf:about="#oblast_14">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XIV	SAOBRAĆAJ, VEZE I ENERGETIKA</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Drumski_saobraćaj">
+<Grupa rdf:about="#grupa_139">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV_SAOBRAĆAJ,_ELEKTRONSKE_KOMUNIKACIJE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_14"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Drumski saobraćaj</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Vazdušni_saobraćaj">
+<Grupa rdf:about="#grupa_140">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV_SAOBRAĆAJ,_ELEKTRONSKE_KOMUNIKACIJE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_14"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Vazdušni saobraćaj</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Železnički_saobraćaj">
+<Grupa rdf:about="#grupa_141">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV_SAOBRAĆAJ,_ELEKTRONSKE_KOMUNIKACIJE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_14"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Železnički saobraćaj</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Vodni_saobraćaj">
+<Grupa rdf:about="#grupa_142">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV___SAOBRAĆAJ,_VEZE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_14"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Vodni saobraćaj</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Istraživanje_nesreća_u_saobraćaju,_Transportna_zajednica">
+<Grupa rdf:about="#grupa_143">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV___SAOBRAĆAJ,_VEZE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_14"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Istraživanje nesreća u saobraćaju, Transportna zajednica</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Elektronske_komunikacije_i_PTT_saobraćaj">
+<Grupa rdf:about="#grupa_144">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV___SAOBRAĆAJ,_VEZE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_14"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Elektronske komunikacije i PTT saobraćaj</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Energetika">
+<Grupa rdf:about="#grupa_145">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV_SAOBRAĆAJ,_ELEKTRONSKE_KOMUNIKACIJE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_14"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Energetika</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Auto-moto_savez">
+<Grupa rdf:about="#grupa_146">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV___SAOBRAĆAJ,_VEZE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_14"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Auto-moto savez</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT">
+<Oblast rdf:about="#oblast_15">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XV	JAVNE USTANOVE, NAUKA, PROSVETA, KULTURA, INFORMISANJE I SPORT</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Osnovi_obrazovanja">
+<Grupa rdf:about="#grupa_147">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Osnovi obrazovanja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Javne_službe_i_javne_ustanove">
+<Grupa rdf:about="#grupa_148">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Javne službe i javne ustanove</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Akademija_nauka_i_umetnosti_i_srpska_enciklopedija">
+<Grupa rdf:about="#grupa_149">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Akademija nauka i umetnosti i srpska enciklopedija</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Naučnoistraživačka_delatnost">
+<Grupa rdf:about="#grupa_150">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Naučnoistraživačka delatnost</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Visoko_obrazovanje">
+<Grupa rdf:about="#grupa_151">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Visoko obrazovanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Srednje_obrazovanje_i_vaspitanje">
+<Grupa rdf:about="#grupa_152">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Srednje obrazovanje i vaspitanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Osnovno_i_predškolsko_obrazovanje_i_vaspitanje">
+<Grupa rdf:about="#grupa_153">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Osnovno i predškolsko obrazovanje i vaspitanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Učenički_i_studentski_standard">
+<Grupa rdf:about="#grupa_154">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Učenički i studentski standard</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Informisanje_i_oglašavanje">
+<Grupa rdf:about="#grupa_155">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Informisanje i oglašavanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#10._Kultura">
+<Grupa rdf:about="#grupa_156">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. Kultura</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#11._Kulturna_dobra">
+<Grupa rdf:about="#grupa_157">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11. Kulturna dobra</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#12._Izdavaštvo">
+<Grupa rdf:about="#grupa_158">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12. Izdavaštvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#13._Biblioteke,_muzeji_i_arhivi">
+<Grupa rdf:about="#grupa_159">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13. Biblioteke, muzeji i arhivi</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#14._Kinematografija">
+<Grupa rdf:about="#grupa_160">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14. Kinematografija</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#15._Sport">
+<Grupa rdf:about="#grupa_161">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV___JAVNE_USTANOVE,_NAUKA,_PROSVETA,_KULTURA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_15"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15. Sport</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA">
+<Oblast rdf:about="#oblast_16">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#REPUBLIČKI_PROPISI"/>
+  <broader rdf:resource="#podregistar_1"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XVI	SOCIJALNO OSIGURANJE, ZDRAVSTVENA, SOCIJALNA I BORAČKA ZAŠTITA</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Penzijsko_i_invalidsko_osiguranje">
+<Grupa rdf:about="#grupa_162">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Penzijsko i invalidsko osiguranje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Zdravstvena_zaštita">
+<Grupa rdf:about="#grupa_163">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Zdravstvena zaštita</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Osnivački_akti_zdravstvenih_ustanova">
+<Grupa rdf:about="#grupa_164">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Osnivački akti zdravstvenih ustanova</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Zdravstveno_osiguranje">
+<Grupa rdf:about="#grupa_165">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Zdravstveno osiguranje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Zdravstvena_dokumentacija_i_evidencije_u_oblasti_zdravstva">
+<Grupa rdf:about="#grupa_166">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Zdravstvena dokumentacija i evidencije u oblasti zdravstva</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Transplantacije_i_transfuziološka_delatnost">
+<Grupa rdf:about="#grupa_167">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Transplantacije i transfuziološka delatnost</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Zaštita_genetičkog_i_reproduktivnog_zdravlja">
+<Grupa rdf:about="#grupa_168">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Zaštita genetičkog i reproduktivnog zdravlja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Komore_zdravstvenih_radnika">
+<Grupa rdf:about="#grupa_169">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Komore zdravstvenih radnika</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Doprinosi_za_obavezno_socijalno_osiguranje">
+<Grupa rdf:about="#grupa_170">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Doprinosi za obavezno socijalno osiguranje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#10._Socijalna_zaštita_i_društvena_briga_o_deci">
+<Grupa rdf:about="#grupa_171">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. Socijalna zaštita i društvena briga o deci</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#11._Boračka_zaštita">
+<Grupa rdf:about="#grupa_172">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11. Boračka zaštita</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#12._Zaštita_osoba_sa_invaliditetom">
+<Grupa rdf:about="#grupa_173">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12. Zaštita osoba sa invaliditetom</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#13._Humanitarne_organizacije,_donacije_i_humanitarna_pomoć">
+<Grupa rdf:about="#grupa_174">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13. Humanitarne organizacije, donacije i humanitarna pomoć</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#14._Proizvodnja_i_promet_lekova,_otrovnih_materija_i_opojnih_droga">
+<Grupa rdf:about="#grupa_175">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI___SOCIJALNO_OSIGURANJE,_ZDRAVSTVENA,_SOCIJALNA_I_BORAČKA_ZAŠTITA"/>
+  <broader rdf:resource="#oblast_16"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14. Proizvodnja i promet lekova, otrovnih materija i opojnih droga</ima_ime>
 </Grupa>
 
-<Podregistar rdf:about="#PROPISI_IZ_OBLASTI_PROSVETE">
+<Podregistar rdf:about="#podregistar_2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROPISI IZ OBLASTI PROSVETE</ima_ime>
 </Podregistar>
 
-<Oblast rdf:about="#I_OSNOVI_OBRAZOVANJA_I_VASPITANJA,_UDŽBENICI">
+<Oblast rdf:about="#oblast_17">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#PROPISI_IZ_OBLASTI_PROSVETE"/>
+  <broader rdf:resource="#podregistar_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I	OSNOVI OBRAZOVANJA I VASPITANJA, UDŽBENICI</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Obrazovanje_i_vaspitanje">
+<Grupa rdf:about="#grupa_176">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I_OSNOVI_OBRAZOVANJA_I_VASPITANJA,_UDŽBENICI"/>
+  <broader rdf:resource="#oblast_17"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Obrazovanje i vaspitanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Udžbenici">
+<Grupa rdf:about="#grupa_177">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I_OSNOVI_OBRAZOVANJA_I_VASPITANJA,_UDŽBENICI"/>
+  <broader rdf:resource="#oblast_17"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Udžbenici</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#II_PREDŠKOLSKO_I_OSNOVNO_OBRAZOVANJE_I_VASPITANJE">
+<Oblast rdf:about="#oblast_18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#PROPISI_IZ_OBLASTI_PROSVETE"/>
+  <broader rdf:resource="#podregistar_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">II	PREDŠKOLSKO I OSNOVNO OBRAZOVANJE I VASPITANJE</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Predškolsko_vaspitanje_i_obrazovanje">
+<Grupa rdf:about="#grupa_178">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_PREDŠKOLSKO_I_OSNOVNO_OBRAZOVANJE_I_VASPITANJE"/>
+  <broader rdf:resource="#oblast_18"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Predškolsko vaspitanje i obrazovanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Osnovno_obrazovanje_i_vaspitanje">
+<Grupa rdf:about="#grupa_179">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_PREDŠKOLSKO_I_OSNOVNO_OBRAZOVANJE_I_VASPITANJE"/>
+  <broader rdf:resource="#oblast_18"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Osnovno obrazovanje i vaspitanje</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#III_GIMNAZIJE,_STRUČNE_ŠKOLE_I_OBRAZOVANJE_ODRASLIH">
+<Oblast rdf:about="#oblast_19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#PROPISI_IZ_OBLASTI_PROSVETE"/>
+  <broader rdf:resource="#podregistar_2"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">III	GIMNAZIJE, STRUČNE ŠKOLE I OBRAZOVANJE ODRASLIH</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Gimnazije">
+<Grupa rdf:about="#grupa_180">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_GIMNAZIJE,_STRUČNE_ŠKOLE_I_OBRAZOVANJE_ODRASLIH"/>
+  <broader rdf:resource="#oblast_19"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Gimnazije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Stručne_škole">
+<Grupa rdf:about="#grupa_181">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_GIMNAZIJE,_STRUČNE_ŠKOLE_I_OBRAZOVANJE_ODRASLIH"/>
+  <broader rdf:resource="#oblast_19"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Stručne škole</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Zajednički_predmeti_za_srednje_škole">
+<Grupa rdf:about="#grupa_182">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_GIMNAZIJE,_STRUČNE_ŠKOLE_I_OBRAZOVANJE_ODRASLIH"/>
+  <broader rdf:resource="#oblast_19"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Zajednički predmeti za srednje škole</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Obrazovanje_odraslih">
+<Grupa rdf:about="#grupa_183">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_GIMNAZIJE,_STRUČNE_ŠKOLE_I_OBRAZOVANJE_ODRASLIH"/>
+  <broader rdf:resource="#oblast_19"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Obrazovanje odraslih</ima_ime>
 </Grupa>
 
-<Podregistar rdf:about="#MEĐUNARODNI_UGOVORI">
+<Podregistar rdf:about="#podregistar_3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEĐUNARODNI UGOVORI</ima_ime>
 </Podregistar>
 
-<Oblast rdf:about="#I_OSNOVNA_PRAVA_I_SLOBODE,_NJIHOVA_ZAŠTITA_I_SPOLJNA_POLITIKA">
+<Oblast rdf:about="#oblast_20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I	OSNOVNA PRAVA I SLOBODE, NJIHOVA ZAŠTITA I SPOLJNA POLITIKA</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Zaštita_ljudskih_prava_i_prava_pripadnika_nacionalnih_manjina">
+<Grupa rdf:about="#grupa_184">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I_OSNOVNA_PRAVA_I_SLOBODE,_NJIHOVA_ZAŠTITA_I_SPOLJNA_POLITIKA"/>
+  <broader rdf:resource="#oblast_20"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Zaštita ljudskih prava i prava pripadnika nacionalnih manjina</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Spoljna_politika">
+<Grupa rdf:about="#grupa_185">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I_OSNOVNA_PRAVA_I_SLOBODE,_NJIHOVA_ZAŠTITA_I_SPOLJNA_POLITIKA"/>
+  <broader rdf:resource="#oblast_20"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Spoljna politika</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Zaključivanje,_važenje_i_sukcesija_međunarodnih_ugovora">
+<Grupa rdf:about="#grupa_186">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I_OSNOVNA_PRAVA_I_SLOBODE,_NJIHOVA_ZAŠTITA_I_SPOLJNA_POLITIKA"/>
+  <broader rdf:resource="#oblast_20"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Zaključivanje, važenje i sukcesija međunarodnih ugovora</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Razmena_zvaničnih_publikacija">
+<Grupa rdf:about="#grupa_187">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#I_OSNOVNA_PRAVA_I_SLOBODE,_NJIHOVA_ZAŠTITA_I_SPOLJNA_POLITIKA"/>
+  <broader rdf:resource="#oblast_20"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Razmena zvaničnih publikacija</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA">
+<Oblast rdf:about="#oblast_21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">II	BEZBEDNOSNA I ODBRAMBENA POLITIKA</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#2._Vojska">
+<Grupa rdf:about="#grupa_188">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Odbrana i bezbednost</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Vojna_oprema,_naoružanje,_opasne_i_eksplozivne_materije">
+<Grupa rdf:about="#grupa_189">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Vojska</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Policijska_saradnja">
+<Grupa rdf:about="#grupa_190">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Vojna oprema, naoružanje, opasne i eksplozivne materije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Prelazak_državne_granice">
+<Grupa rdf:about="#grupa_191">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Policijska saradnja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Državljanstvo">
+<Grupa rdf:about="#grupa_192">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Prelazak državne granice</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#7._Putne_isprave">
+<Grupa rdf:about="#grupa_193">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Državljanstvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#8._Migraciona_politika,_izbeglice_i_raseljena_lica">
+<Grupa rdf:about="#grupa_194">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Putne isprave</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#9._Matične_knjige">
+<Grupa rdf:about="#grupa_195">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8. Migraciona politika, izbeglice i raseljena lica</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#10._Vanredne_situacije,_civilna_zaštita,_elementarne_i_druge_nepogode">
+<Grupa rdf:about="#grupa_196">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#II_BEZBEDNOSNA_I_ODBRAMBENA_POLITIKA"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9. Matične knjige</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#III_PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_MEĐUNARODNA_PRAVNA_POMOĆ">
+<Grupa rdf:about="#grupa_197">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#oblast_21"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10. Vanredne situacije, civilna zaštita, elementarne i druge nepogode</ima_ime>
+</Grupa>
+
+<Oblast rdf:about="#oblast_22">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">III	PRAVOSUĐE, KAZNENO ZAKONODAVSTVO I MEĐUNARODNA PRAVNA POMOĆ</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Saradnja_u_oblasti_pravosuđa">
+<Grupa rdf:about="#grupa_198">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_MEĐUNARODNA_PRAVNA_POMOĆ"/>
+  <broader rdf:resource="#oblast_22"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Saradnja u oblasti pravosuđa</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Sud">
+<Grupa rdf:about="#grupa_199">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_MEĐUNARODNA_PRAVNA_POMOĆ"/>
+  <broader rdf:resource="#oblast_22"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Sud</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Međunarodna_pravna_pomoć">
+<Grupa rdf:about="#grupa_200">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_MEĐUNARODNA_PRAVNA_POMOĆ"/>
+  <broader rdf:resource="#oblast_22"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Međunarodna pravna pomoć</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Krivična_dela">
+<Grupa rdf:about="#grupa_201">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_MEĐUNARODNA_PRAVNA_POMOĆ"/>
+  <broader rdf:resource="#oblast_22"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Krivična dela</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Izvršenje_kazni">
+<Grupa rdf:about="#grupa_202">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_MEĐUNARODNA_PRAVNA_POMOĆ"/>
+  <broader rdf:resource="#oblast_22"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Izvršenje kazni</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Postupci">
+<Grupa rdf:about="#grupa_203">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#III_PRAVOSUĐE,_KAZNENO_ZAKONODAVSTVO_I_MEĐUNARODNA_PRAVNA_POMOĆ"/>
+  <broader rdf:resource="#oblast_22"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Postupci</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#IV_JAVNI_PRIHODI">
+<Oblast rdf:about="#oblast_23">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IV	JAVNI PRIHODI</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#2._Oporezivanje">
+<Grupa rdf:about="#grupa_204">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV_JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_23"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Carine i druge uvozne dažbine</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Takse">
+<Grupa rdf:about="#grupa_205">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IV_JAVNI_PRIHODI"/>
+  <broader rdf:resource="#oblast_23"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Oporezivanje</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#V_MONETARNA_POLITIKA,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE">
+<Grupa rdf:about="#grupa_206">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#oblast_23"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Takse</ima_ime>
+</Grupa>
+
+<Oblast rdf:about="#oblast_24">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">V	MONETARNA POLITIKA, FINANSIJSKE ORGANIZACIJE I FINANSIJSKO POSLOVANJE</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Banke_i_druge_finansijske_organizacije">
+<Grupa rdf:about="#grupa_207">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V_MONETARNA_POLITIKA,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_24"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Banke i druge finansijske organizacije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Platni_promet">
+<Grupa rdf:about="#grupa_208">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V_MONETARNA_POLITIKA,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_24"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Platni promet</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Zaduživanje_u_inostranstvu,_donacije_i_bespovratna_pomoć">
+<Grupa rdf:about="#grupa_209">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#V_MONETARNA_POLITIKA,_FINANSIJSKE_ORGANIZACIJE_I_FINANSIJSKO_POSLOVANJE"/>
+  <broader rdf:resource="#oblast_24"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Zaduživanje u inostranstvu, donacije i bespovratna pomoć</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#VI_IMOVINSKI,_BRAČNI_I_PORODIČNI_ODNOSI,_PRAVO_INTELEKTUALNE_SVOJINE_I_NASLEĐIVANJE">
+<Oblast rdf:about="#oblast_25">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VI	IMOVINSKI, BRAČNI I PORODIČNI ODNOSI, PRAVO INTELEKTUALNE SVOJINE I NASLEĐIVANJE</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Imovinski_odnosi">
+<Grupa rdf:about="#grupa_210">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI_IMOVINSKI,_BRAČNI_I_PORODIČNI_ODNOSI,_PRAVO_INTELEKTUALNE_SVOJINE_I_NASLEĐIVANJE"/>
+  <broader rdf:resource="#oblast_25"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Imovinski odnosi</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Eksproprijacija_i_drugi_oblici_ograničavanja_svojine">
+<Grupa rdf:about="#grupa_211">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI_IMOVINSKI,_BRAČNI_I_PORODIČNI_ODNOSI,_PRAVO_INTELEKTUALNE_SVOJINE_I_NASLEĐIVANJE"/>
+  <broader rdf:resource="#oblast_25"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Eksproprijacija i drugi oblici ograničavanja svojine</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Prava_intelektualne_svojine">
+<Grupa rdf:about="#grupa_212">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI_IMOVINSKI,_BRAČNI_I_PORODIČNI_ODNOSI,_PRAVO_INTELEKTUALNE_SVOJINE_I_NASLEĐIVANJE"/>
+  <broader rdf:resource="#oblast_25"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Prava intelektualne svojine</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Nasleđivanje">
+<Grupa rdf:about="#grupa_213">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI_IMOVINSKI,_BRAČNI_I_PORODIČNI_ODNOSI,_PRAVO_INTELEKTUALNE_SVOJINE_I_NASLEĐIVANJE"/>
+  <broader rdf:resource="#oblast_25"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Nasleđivanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Brak_i_porodica">
+<Grupa rdf:about="#grupa_214">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VI_IMOVINSKI,_BRAČNI_I_PORODIČNI_ODNOSI,_PRAVO_INTELEKTUALNE_SVOJINE_I_NASLEĐIVANJE"/>
+  <broader rdf:resource="#oblast_25"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Brak i porodica</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#VII_RAD_I_ZAPOŠLJAVANJE">
+<Oblast rdf:about="#oblast_26">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VII	RAD I ZAPOŠLJAVANJE</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Rad,_zapošljavanje_i_zaštita_na_radu">
+<Grupa rdf:about="#grupa_215">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII_RAD_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_26"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Rad, zapošljavanje i zaštita na radu</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Akti_Međunarodne_organizacije_rada_(MOR)">
+<Grupa rdf:about="#grupa_216">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VII_RAD_I_ZAPOŠLJAVANJE"/>
+  <broader rdf:resource="#oblast_26"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Akti Međunarodne organizacije rada (MOR)</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#VIII_RAZVOJ_I_INFORMACIONE_TEHNOLOGIJE">
+<Oblast rdf:about="#oblast_27">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIII	RAZVOJ I INFORMACIONE TEHNOLOGIJE</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#2._Informacione_tehnologije">
+<Grupa rdf:about="#grupa_217">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#VIII_RAZVOJ_I_INFORMACIONE_TEHNOLOGIJE"/>
+  <broader rdf:resource="#oblast_27"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Planiranje razvoja, regionalni razvoj i nerazvijena područja</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#IX_PRAVO_PRIVREDNIH_DRUŠTAVA_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM">
+<Grupa rdf:about="#grupa_218">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#oblast_27"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Informacione tehnologije</ima_ime>
+</Grupa>
+
+<Oblast rdf:about="#oblast_28">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IX	PRAVO PRIVREDNIH DRUŠTAVA I EKONOMSKI ODNOSI SA INOSTRANSTVOM</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Privredna_društva">
+<Grupa rdf:about="#grupa_219">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX_PRAVO_PRIVREDNIH_DRUŠTAVA_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_28"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Privredna društva</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Kreditni_poslovi_sa_inostranstvom">
+<Grupa rdf:about="#grupa_220">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX_PRAVO_PRIVREDNIH_DRUŠTAVA_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_28"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Kreditni poslovi sa inostranstvom</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Strana_ulaganja">
+<Grupa rdf:about="#grupa_221">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX_PRAVO_PRIVREDNIH_DRUŠTAVA_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_28"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Strana ulaganja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Međunarodna_privredna_i_tehnička_saradnja">
+<Grupa rdf:about="#grupa_222">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#IX_PRAVO_PRIVREDNIH_DRUŠTAVA_I_EKONOMSKI_ODNOSI_SA_INOSTRANSTVOM"/>
+  <broader rdf:resource="#oblast_28"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Međunarodna privredna i tehnička saradnja</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#X_DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA">
+<Oblast rdf:about="#oblast_29">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X	DOBRA OD OPŠTEG INTERESA I ŽIVOTNA SREDINA</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Vode">
+<Grupa rdf:about="#grupa_223">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X_DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_29"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Vode</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Ribarstvo">
+<Grupa rdf:about="#grupa_224">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X_DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_29"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Ribarstvo</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Životna_sredina">
+<Grupa rdf:about="#grupa_225">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X_DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_29"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Životna sredina</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Hidrometeorološki_poslovi">
+<Grupa rdf:about="#grupa_226">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#X_DOBRA_OD_OPŠTEG_INTERESA_I_ŽIVOTNA_SREDINA"/>
+  <broader rdf:resource="#oblast_29"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Rude i geološka istraživanja</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XI_TRGOVINA,_TURIZAM_I_UGOSTITELJSTVO">
+<Grupa rdf:about="#grupa_227">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#oblast_29"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Hidrometeorološki poslovi</ima_ime>
+</Grupa>
+
+<Oblast rdf:about="#oblast_30">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XI	TRGOVINA, TURIZAM I UGOSTITELJSTVO</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Trgovina">
+<Grupa rdf:about="#grupa_228">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XI_TRGOVINA,_TURIZAM_I_UGOSTITELJSTVO"/>
+  <broader rdf:resource="#oblast_30"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Trgovina</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XII_GRAĐEVINARSTVO">
+<Grupa rdf:about="#grupa_229">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#oblast_30"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Turizam i ugostiteljstvo</ima_ime>
+</Grupa>
+
+<Oblast rdf:about="#oblast_31">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XII	GRAĐEVINARSTVO</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Izgradnja_objekata">
+<Grupa rdf:about="#grupa_230">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XII_GRAĐEVINARSTVO"/>
+  <broader rdf:resource="#oblast_31"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Izgradnja objekata</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XIII_POLJOPRIVREDA_I_RURALNI_RAZVOJ">
+<Oblast rdf:about="#oblast_32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XIII	POLJOPRIVREDA I RURALNI RAZVOJ</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Veterinarstvo_i_zdravstvena_zaštita_životinja">
+<Grupa rdf:about="#grupa_231">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII_POLJOPRIVREDA_I_RURALNI_RAZVOJ"/>
+  <broader rdf:resource="#oblast_32"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Veterinarstvo i zdravstvena zaštita životinja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Seme,_sadni_materijal_i_zaštita_bilja">
+<Grupa rdf:about="#grupa_232">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII_POLJOPRIVREDA_I_RURALNI_RAZVOJ"/>
+  <broader rdf:resource="#oblast_32"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Seme, sadni materijal i zaštita bilja</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Poljoprivredna_služba_i_razvoj_poljoprivrede">
+<Grupa rdf:about="#grupa_233">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIII_POLJOPRIVREDA_I_RURALNI_RAZVOJ"/>
+  <broader rdf:resource="#oblast_32"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Poljoprivredna služba i razvoj poljoprivrede</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XIV_SAOBRAĆAJ,_ELEKTRONSKE_KOMUNIKACIJE_I_ENERGETIKA">
+<Oblast rdf:about="#oblast_33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XIV	SAOBRAĆAJ, ELEKTRONSKE KOMUNIKACIJE I ENERGETIKA</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#4._Pomorska_i_unutrašnja_plovidba">
+<Grupa rdf:about="#grupa_234">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV_SAOBRAĆAJ,_ELEKTRONSKE_KOMUNIKACIJE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_33"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Drumski saobraćaj</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Elektronske_komunikacije_i_poštanski_saobraćaj">
+<Grupa rdf:about="#grupa_235">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV_SAOBRAĆAJ,_ELEKTRONSKE_KOMUNIKACIJE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_33"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Vazdušni saobraćaj</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Ugovori_u_saobraćaju">
+<Grupa rdf:about="#grupa_236">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XIV_SAOBRAĆAJ,_ELEKTRONSKE_KOMUNIKACIJE_I_ENERGETIKA"/>
+  <broader rdf:resource="#oblast_33"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Železnički saobraćaj</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XV_OBRAZOVANJE,_KULTURA,_NAUKA,_INFORMISANJE_I_SPORT">
+<Grupa rdf:about="#grupa_237">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#oblast_33"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Pomorska i unutrašnja plovidba</ima_ime>
+</Grupa>
+
+<Grupa rdf:about="#grupa_238">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <broader rdf:resource="#oblast_33"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Elektronske komunikacije i poštanski saobraćaj</ima_ime>
+</Grupa>
+
+<Grupa rdf:about="#grupa_239">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <broader rdf:resource="#oblast_33"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Ugovori u saobraćaju</ima_ime>
+</Grupa>
+
+<Grupa rdf:about="#grupa_240">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <broader rdf:resource="#oblast_33"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7. Energetika</ima_ime>
+</Grupa>
+
+<Oblast rdf:about="#oblast_34">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XV	OBRAZOVANJE, KULTURA, NAUKA, INFORMISANJE I SPORT</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Obrazovanje">
+<Grupa rdf:about="#grupa_241">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV_OBRAZOVANJE,_KULTURA,_NAUKA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_34"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Obrazovanje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Kultura,_nauka,_omladina,_sport">
+<Grupa rdf:about="#grupa_242">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV_OBRAZOVANJE,_KULTURA,_NAUKA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_34"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Kultura, nauka, omladina, sport</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Informisanje">
+<Grupa rdf:about="#grupa_243">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XV_OBRAZOVANJE,_KULTURA,_NAUKA,_INFORMISANJE_I_SPORT"/>
+  <broader rdf:resource="#oblast_34"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Informisanje</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XVI_SOCIJALNA_POLITIKA_I_ZAŠTITA_ZDRAVLJA">
+<Oblast rdf:about="#oblast_35">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XVI	SOCIJALNA POLITIKA I ZAŠTITA ZDRAVLJA</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Socijalno_osiguranje">
+<Grupa rdf:about="#grupa_244">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI_SOCIJALNA_POLITIKA_I_ZAŠTITA_ZDRAVLJA"/>
+  <broader rdf:resource="#oblast_35"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Socijalno osiguranje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Doprinosi_za_obavezno_socijalno_osiguranje">
+<Grupa rdf:about="#grupa_245">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI_SOCIJALNA_POLITIKA_I_ZAŠTITA_ZDRAVLJA"/>
+  <broader rdf:resource="#oblast_35"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Doprinosi za obavezno socijalno osiguranje</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Socijalna_zaštita_i_društvena_briga_o_deci">
+<Grupa rdf:about="#grupa_246">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI_SOCIJALNA_POLITIKA_I_ZAŠTITA_ZDRAVLJA"/>
+  <broader rdf:resource="#oblast_35"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Socijalna zaštita i društvena briga o deci</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#4._Boračka_zaštita">
+<Grupa rdf:about="#grupa_247">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI_SOCIJALNA_POLITIKA_I_ZAŠTITA_ZDRAVLJA"/>
+  <broader rdf:resource="#oblast_35"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4. Boračka zaštita</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#5._Humanitarne_organizacije">
+<Grupa rdf:about="#grupa_248">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI_SOCIJALNA_POLITIKA_I_ZAŠTITA_ZDRAVLJA"/>
+  <broader rdf:resource="#oblast_35"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5. Humanitarne organizacije</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#6._Proizvodnja_i_promet_lekova_i_opojnih_droga">
+<Grupa rdf:about="#grupa_249">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVI_SOCIJALNA_POLITIKA_I_ZAŠTITA_ZDRAVLJA"/>
+  <broader rdf:resource="#oblast_35"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6. Proizvodnja i promet lekova i opojnih droga</ima_ime>
 </Grupa>
 
-<Oblast rdf:about="#XVII_OSTALI_MEĐUNARODNI_UGOVORI">
+<Oblast rdf:about="#oblast_36">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#podregistar_3"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XVII	OSTALI MEĐUNARODNI UGOVORI</ima_ime>
 </Oblast>
 
-<Grupa rdf:about="#1._Propisi_koji_su_vremenski_ograničeni">
+<Grupa rdf:about="#grupa_250">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVII_OSTALI_MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#oblast_36"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Propisi koji su vremenski ograničeni</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#2._Ostali_međunarodni_ugovori">
+<Grupa rdf:about="#grupa_251">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVII_OSTALI_MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#oblast_36"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2. Ostali međunarodni ugovori</ima_ime>
 </Grupa>
 
-<Grupa rdf:about="#3._Drugi_akti">
+<Grupa rdf:about="#grupa_252">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <broader rdf:resource="#XVII_OSTALI_MEĐUNARODNI_UGOVORI"/>
+  <broader rdf:resource="#oblast_36"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3. Drugi akti</ima_ime>
 </Grupa>
 
 <owl:AllDisjointClasses>
