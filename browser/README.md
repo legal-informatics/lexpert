@@ -1,5 +1,5 @@
 Pokretanje:
-  1. Potrebno je imati Pyhton na sistemu
+  1. Potrebno je imati Python na sistemu
   2. Napraviti environment od yaml fajla
   3. Pozicionirati se u terminalu u folder koji sadrzi manage.py (lexpert\browser\backend)
   4. Ukucati u terminalu komandu python manage.py runserver
