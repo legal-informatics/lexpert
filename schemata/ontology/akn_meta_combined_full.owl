@@ -546,6 +546,26 @@ It allows to refer to a literal translation, in which the intent is to render th
   <definition>skos:broaderTransitive is a transitive superproperty of skos:broader.</definition>
 </owl:ObjectProperty>
 
+<owl:ObjectProperty rdf:about="#has_inferior">
+  <rdfs:subPropertyOf rdf:resource="#inferior_transitive"/>
+  <owl:inverseOf rdf:resource="#has_superior"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#has_superior">
+  <rdfs:subPropertyOf rdf:resource="#superior_transitive"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hierarchical_relation">
+  <rdfs:domain rdf:resource="#Skupstine"/>
+  <rdfs:range rdf:resource="#Skupstine"/>
+  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#inferior_transitive">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  <rdfs:subPropertyOf rdf:resource="#hierarchical_relation"/>
+</owl:ObjectProperty>
+
 <owl:ObjectProperty rdf:about="#narrower">
   <rdfs:subPropertyOf rdf:resource="#narrowerTransitive"/>
   <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2008/05/skos"/>
@@ -574,6 +594,11 @@ It allows to refer to a literal translation, in which the intent is to render th
   <rdfs:label xml:lang="en">semantic relation</rdfs:label>
   <term:issued>2008-05-xx</term:issued>
   <definition xml:lang="en">A concept related by meaning.</definition>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#superior_transitive">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  <rdfs:subPropertyOf rdf:resource="#hierarchical_relation"/>
 </owl:ObjectProperty>
 
 <owl:DatatypeProperty rdf:about="#ima_ime">
@@ -3440,6 +3465,1037 @@ A work is an abstract entity; there is no single material object one can point t
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </akn_:FRBRlanguage>
 
+<Skupstine rdf:about="#sk_001">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narodna skupština Republike Srbije</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_002">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština Autonomne Pokrajine Vojvodine</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_003">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bačka Topola</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_004">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Mali Iđoš</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_005">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Subotice</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_006">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žitište</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_007">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Zrenjanina</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_008">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Nova Crnja</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_009">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Novi Bečej</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_010">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Sečanj</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_011">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ada</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_012">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kanjiža</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_013">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupštine grada Kikinde</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_014">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Novi Kneževac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_015">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Senta</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_016">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Čoka</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_017">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Alibunar</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_018">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bela Crkva</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_019">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Vršca</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_020">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kovačica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_021">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kovin</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_022">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Opovo</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_023">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Pančeva</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_024">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Plandište</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_025">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Apatin</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_026">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kula</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_027">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Odžaci</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_028">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Sombora</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_029">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bač</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_030">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bačka Palanka</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_031">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bački Petrovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_032">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Beočin</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_033">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bečej</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_034">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vrbas</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_035">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žabalj</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_036">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Novog Sada</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_037">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Srbobran</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_038">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Sremski Karlovci</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_039">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Temerin</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_040">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Titel</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_041">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Inđija</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_042">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Irig</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_043">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Pećinci</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_044">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ruma</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_045">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Sremske Mitrovice</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_046">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Stara Pazova</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_047">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_002"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Šid</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_048">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Beograda</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_049">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Barajevo</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_050">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Voždovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_051">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vračar</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_052">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Grocka</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_053">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Zvezdara</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_054">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Zemun</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_055">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Lazarevac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_056">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Mladenovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_057">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Novi Beograd</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_058">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Obrenovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_059">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Palilula</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_060">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Rakovica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_061">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Savski venac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_062">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Sopot</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_063">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Stari grad</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_064">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Surčin</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_065">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_048"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Čukarica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_066">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Niša</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_067">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_066"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Medijana</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_068">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_066"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Niška Banja</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_069">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_066"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Palilula - Niš</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_070">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_066"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Pantelej</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_071">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_066"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Crveni Krst</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_072">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Šapca</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_073">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bogatić</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_074">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vladimirci</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_075">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Koceljeva</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_076">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Krupanj</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_077">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Loznice</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_078">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ljubovija</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_079">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Mali Zvornik</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_080">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Valjeva</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_081">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Osečina</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_082">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ub</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_083">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Lajkovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_084">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Mionica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_085">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ljig</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_086">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Smedereva</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_087">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Smederevska Palanka</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_088">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Velika Plana</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_089">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Veliko Gradište</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_090">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Požarevca</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_091">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Kostolac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_092">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Golubac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_093">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Malo Crniće</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_094">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žabari</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_095">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Petrovac na Mlavi</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_096">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kučevo</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_097">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žagubica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_098">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Aranđelovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_099">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Topola</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_100">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Rača</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_101">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Kragujevca</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_102">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Batočina</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_103">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Knić</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_104">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Lapovo</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_105">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Jagodine</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_106">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ćuprija</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_107">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Svilajnac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_108">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Despotovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_109">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Rekovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_110">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Paraćin</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_111">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Bora</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_112">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kladovo</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_113">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Majdanpek</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_114">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Negotin</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_115">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Boljevac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_116">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Knjaževac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_117">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Zaječara</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_118">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Sokobanja</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_119">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bajina Bašta</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_120">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kosjerić</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_121">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Užica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_122">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Sevojno</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_123">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Požega</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_124">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Čajetina</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_125">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Arilje</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_126">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Priboj</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_127">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Nova Varoš</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_128">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Prijepolje</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_129">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Sjenica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_130">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Čačka</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_131">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Gornji Milanovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_132">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Lučani</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_133">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ivanjica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_134">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Kraljeva</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_135">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vrnjačka Banja</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_136">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Raška</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_137">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Novog Pazara</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_138">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Tutin</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_139">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Varvarin</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_140">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Trstenik</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_141">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ćićevac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_142">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Kruševca</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_143">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Aleksandrovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_144">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Brus</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_145">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Aleksinac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_146">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Svrljig</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_147">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Merošina</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_148">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ražanj</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_149">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Doljevac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_150">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Gadžin Han</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_151">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Prokuplja</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_152">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Blace</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_153">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kuršumlija</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_154">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žitorađa</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_155">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bela Palanka</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_156">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Pirota</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_157">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Babušnica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_158">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Dimitrovgrad</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_159">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Leskovca</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_160">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bojnik</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_161">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Lebane</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_162">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Medveđa</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_163">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vlasotince</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_164">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Crna Trava</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_165">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vladičin Han</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_166">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Surdulica</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_167">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bosilegrad</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_168">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Trgovište</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_169">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Vranja</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_170">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Vranjska Banja</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_171">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bujanovac</ima_ime>
+</Skupstine>
+
+<Skupstine rdf:about="#sk_172">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <has_superior rdf:resource="#sk_001"/>
+  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Preševo</ima_ime>
+</Skupstine>
+
 <Podregistar rdf:about="#podregistar_001">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPUBLIČKI PROPISI</ima_ime>
@@ -5182,836 +6238,6 @@ A work is an abstract entity; there is no single material object one can point t
   <broader rdf:resource="#oblast_036"/>
   <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drugi akti</ima_ime>
 </Grupa>
-
-<Skupstine rdf:about="#sk_001">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Barajevo</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_002">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Voždovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_003">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vračar</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_004">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Grocka</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_005">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Zvezdara</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_006">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Zemun</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_007">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Lazarevac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_008">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Mladenovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_009">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Novi Beograd</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_010">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Obrenovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_011">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Palilula</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_012">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Rakovica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_013">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Savski venac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_014">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Sopot</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_015">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Stari grad</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_016">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Surčin</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_017">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Čukarica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_018">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Šapca</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_019">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bogatić</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_020">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Loznice</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_021">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vladimirci</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_022">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Koceljeva</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_023">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Mali Zvornik</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_024">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Krupanj</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_025">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ljubovija</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_026">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Valjeva</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_027">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Osečina</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_028">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ub</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_029">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Lajkovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_030">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Mionica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_031">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ljig</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_032">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Smedereva</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_033">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Smederevska Palanka</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_034">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Velika Plana</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_035">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Veliko Gradište</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_036">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Požarevca</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_037">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Golubac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_038">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Malo Crniće</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_039">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žabari</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_040">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Petrovac na Mlavi</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_041">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kučevo</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_042">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žagubica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_043">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Aranđelovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_044">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Topola</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_045">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Rača</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_046">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Kragujevca</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_047">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Batočina</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_048">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Knić</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_049">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Lapovo</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_050">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Jagodine</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_051">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ćuprija</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_052">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Svilajnac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_053">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Despotovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_054">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Rekovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_055">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Bora</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_056">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kladovo</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_057">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Majdanpek</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_058">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Negotin</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_059">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Boljevac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_060">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Knjaževac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_061">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Zaječara</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_062">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Sokobanja</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_063">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bajina Bašta</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_064">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kosjerić</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_065">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Užica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_066">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Požega</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_067">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Čajetina</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_068">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Arilje</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_069">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Priboj</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_070">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Nova Varoš</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_071">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Prijepolje</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_072">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Sjenica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_073">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Čačka</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_074">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Gornji Milanovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_075">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Lučani</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_076">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ivanjica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_077">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Kraljeva</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_078">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vrnjačka Banja</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_079">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Raška</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_080">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Novog Pazara</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_081">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Tutin</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_082">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Varvarin</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_083">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Trstenik</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_084">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ćićevac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_085">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Kruševca</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_086">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Aleksandrovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_087">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Brus</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_088">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Aleksinac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_089">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Svrljig</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_090">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Merošina</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_091">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ražanj</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_092">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Medijana</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_093">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Niška Banja</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_094">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Palilula - Niš</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_095">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Pantelej</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_096">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština gradske opštine Crveni Krst</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_097">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Doljevac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_098">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Gadžin Han</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_099">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Prokuplja</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_100">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Blace</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_101">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kuršumlija</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_102">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žitorađa</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_103">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bela Palanka</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_104">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Pirota</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_105">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Babušnica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_106">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Dimitrovgrad</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_107">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Leskovca</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_108">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bojnik</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_109">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Lebane</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_110">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Medveđa</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_111">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vlasotince</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_112">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Crna Trava</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_113">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vladičin Han</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_114">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Surdulica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_115">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bosilegrad</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_116">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Trgovište</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_117">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Vranja</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_118">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bujanovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_119">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Preševo</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_120">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bačka Topola</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_121">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Mali Iđoš</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_122">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Subotice</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_123">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žitište</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_124">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Zrenjanina</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_125">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Nova Crnja</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_126">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Novi Bečej</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_127">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Sečanj</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_128">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ada</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_129">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kanjiža</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_130">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupštine grada Kikinda</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_131">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Novi Kneževac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_132">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Senta</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_133">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Čoka</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_134">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Alibunar</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_135">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bela Crkva</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_136">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Vršca</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_137">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kovačica</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_138">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kovin</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_139">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Opovo</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_140">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Pančeva</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_141">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Plandište</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_142">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Apatin</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_143">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Kula</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_144">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Odžaci</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_145">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Sombora</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_146">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bač</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_147">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bačka Palanka</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_148">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bački Petrovac</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_149">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Beočin</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_150">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Bečej</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_151">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Vrbas</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_152">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Žabalj</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_153">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Novog Sada</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_154">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Srbobran</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_155">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Sremski Karlovci</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_156">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Temerin</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_157">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Titel</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_158">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Inđija</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_159">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Irig</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_160">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Pećinci</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_161">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Ruma</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_162">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština grada Sremske Mitrovice</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_163">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Stara Pazova</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_164">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština opštine Šid</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_165">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skupština Autonomne Pokrajine Vojvodine</ima_ime>
-</Skupstine>
-
-<Skupstine rdf:about="#sk_166">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <ima_ime rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narodna skupština Republike Srbije</ima_ime>
-</Skupstine>
 
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">

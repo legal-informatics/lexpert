@@ -50,6 +50,35 @@ with open("jezici.txt", "r", encoding="utf-8") as file:
         g = g.split('\t')
         akn_meta.FRBRlanguage(g[0])
 
+#ubacivanje skupstina u ontologiju
+counter = 1
+with open("skupstine.txt", "r", encoding="utf-8") as file:
+    lines = file.readlines()
+    first = None
+    second = None
+    for s in lines:
+        tabs_temp = len(s) - len(s.lstrip(' '))
+        if first is None:
+            iri = "sk_" + str(counter).zfill(3)
+            first = individual = onto.Skupstine(iri)
+            individual.ima_ime = [s.strip()]
+            counter = counter + 1
+
+        else:
+            if tabs_temp == 4:
+                iri = "sk_" + str(counter).zfill(3)
+                second = individual = onto.Skupstine(iri)
+                individual.ima_ime = [s.strip()]
+                individual.has_superior = [first]
+                counter = counter + 1
+
+            elif tabs_temp == 8:
+                iri = "sk_" + str(counter).zfill(3)
+                individual = onto.Skupstine(iri)
+                individual.ima_ime = [s.strip()]
+                individual.has_superior = [second]
+                counter = counter + 1
+
 
 # ubacivanje podregistara, oblasti i grupa u ontologiju
 with open("podregistar_oblast_grupa.txt", "r", encoding="utf-8") as file:
@@ -76,14 +105,6 @@ with open("podregistar_oblast_grupa.txt", "r", encoding="utf-8") as file:
             counter_p = counter_p + 1
             podregistar.ima_ime = [g.strip()]
         
-#ubacivanje skupstina u ontologiju
-counter = 1
-with open("skupstine.txt", "r", encoding="utf-8") as file:
-    skupstine = file.readlines()
-    for s in skupstine:
-        iri = "sk_" + str(counter).zfill(3)
-        individual = onto.Skupstine(iri)
-        individual.ima_ime = [s.strip()]
-        counter = counter + 1
+
 
 onto.save(file = "akn_meta_combined_full.owl", format = "rdfxml")

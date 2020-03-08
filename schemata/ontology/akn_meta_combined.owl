@@ -280,6 +280,18 @@
         <ObjectProperty IRI="#broaderTransitive"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#has_inferior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_superior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hierarchical_relation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inferior_transitive"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#narrower"/>
     </Declaration>
     <Declaration>
@@ -287,6 +299,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#semanticRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#superior_transitive"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ima_ime"/>
@@ -759,12 +774,32 @@
         <ObjectProperty IRI="#semanticRelation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_inferior"/>
+        <ObjectProperty IRI="#inferior_transitive"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_superior"/>
+        <ObjectProperty IRI="#superior_transitive"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hierarchical_relation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inferior_transitive"/>
+        <ObjectProperty IRI="#hierarchical_relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#narrower"/>
         <ObjectProperty IRI="#narrowerTransitive"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#narrowerTransitive"/>
         <ObjectProperty IRI="#semanticRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#superior_transitive"/>
+        <ObjectProperty IRI="#hierarchical_relation"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
@@ -870,6 +905,10 @@
         <ObjectProperty IRI="#broaderTransitive"/>
         <ObjectProperty IRI="#narrowerTransitive"/>
     </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_inferior"/>
+        <ObjectProperty IRI="#has_superior"/>
+    </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplarOf"/>
     </FunctionalObjectProperty>
@@ -886,7 +925,13 @@
         <ObjectProperty IRI="#broaderTransitive"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
+        <ObjectProperty IRI="#inferior_transitive"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
         <ObjectProperty IRI="#narrowerTransitive"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#superior_transitive"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
@@ -1007,6 +1052,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hierarchical_relation"/>
+        <Class IRI="#Skupstine"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#semanticRelation"/>
@@ -1119,6 +1168,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hierarchical_relation"/>
+        <Class IRI="#Skupstine"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#semanticRelation"/>
