@@ -1,0 +1,68 @@
+<!-- http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2017/88/2/reg -->
+<meta>
+    <identification source="#lexpert_student_project">
+        <FRBRWork>
+            <FRBRuri value="/akn/rs/odluka/2017-88-3634"/> <!-- IRI koji ukazuje na apstraktan pojam o uredbi -->
+            <FRBRauthor href="#ns" as="#author"/> <!-- linkuje organizaciju koja je usvojila (donela) akt -->
+            <FRBRdate date="2017-09-27" name="datum usvajanja"/> <!-- datum kada je usvojen akt smatramo da je pocetak postojanja ideje o aktu -->
+
+            <FRBRcountry value="rs" shortForm="Republika Srbija" refersTo="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#rs"/> <!-- ovde vec stoji standard (ISO 3166-1 Alpha-2 code) pa mozda ne moramo da linkujemo na ontologiju -->
+            <FRBRsubtype value="vd_003" refersTo="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vd_003" shortForm="" showAs="Zakon"/> <!-- Ovde i dalje stoji pitanje da li samo da stave uredba ili da linkuju na nasu individuu za Uredbu -->
+            <FRBRnumber value="2017-88-3634"/> <!-- ovo se vec sadrzi u IRI-ju -->                 
+             <FRBRname value="Закон о високом образовању"/> <!-- Zvanicni naziv dokumenta -->
+        </FRBRWork>
+
+        <FRBRExpression>
+            <FRBRuri value="/akn/rs/act/2017-88-3634/sr@2017-09-29"/> <!-- IRI koji ukazuje na uredbu na srpskom jeziku -->
+            <FRBRauthor href="#sg" as="#editor"/> <!-- linkuje organizaciju gde je objavljena uredba -->
+            <FRBRdate date="2017-09-29"/> <!-- datum kada je izasao sluzbeni glasnik -->
+
+            <FRBRlanguage language="srp"/> <!-- ovde vec postoji standard (RFC 4646), da li linkovati na nasu individuu za jezik -->
+        </FRBRExpression>
+
+        <FRBRManifestation>
+            <FRBRuri value="/akn/rs/act/2017-88-3634/sr@2020-03-17/xml"/> <!-- IRI koji ukazuje na xml verziju akta -->
+            <FRBRauthor href="#lexpert_student_project" as="#generator"/> <!-- linkuje kreatora xml verzije -->
+            <FRBRdate date="2020-03-17"/> <!-- datum kreiranja xml verzije akta -->
+
+            <FRBRformat value="vf_002" refersTo="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#vf_002" shortForm="" showAs="xml"/> <!-- Opet da li samo da im ponudimo da stave xml ili i da linkuju na nasu individuu -->
+        </FRBRManifestation>
+    </identification>
+
+    <!-- dan objavljivanja dokumenta-->
+    <publication name="#sg" date="2017-09-29" showAs="Službeni glasnik Republike Srbije" number="88/2017"/>
+
+    <!-- bilo bi dovoljno specificirati grupu da bi se znala oblast i podregista, u ontologiji jos prositriti da postoji i samo keyword da mogu da se ubacuju i najcesce reci koriscene (kao da budu # za insta) -->
+    <classification source="#lexpert_student_project">
+        <keyword value="grupa_151" showAs="Visoko obrazovanje" dictionary="RS" href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#grupa_151"/>
+        <keyword value="oblast_015" showAs="JAVNE USTANOVE, NAUKA, PROSVETA, KULTURA, INFORMISANJE I SPORT" dictionary="RS" href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#oblast_015"/>
+        <keyword value="podregistar_001" showAs="REPUBLIČKI PROPISI" dictionary="RS" href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#podregistar_001"/>
+    </classification>
+
+    <!-- nisam siguran da li treba ubaciti i dan objavljivanja jer je to sadrzano u elementu publication (svakako ne bi mogli da se opisu neki podaci za kao broj sl. glasnika) -->
+    <lifecycle source="#lexpert_student_project">
+        <eventRef date="2017-09-27" href="#datum_usvajanja" refersTo="" source="" type="Datum usvajanja"/>
+        <eventRef date="2017-10-07" href="#stupanje_na_snagu" refersTo="" source="" type="Stupanje na snagu"/>
+        <eventRef date="2017-10-07" href="#pocetak_primene" refersTo="" source="" type="Pocetak primene"/>
+        <eventRef date="2018-04-06" href="#kraj_primena_nova_verzija" refersTo="" source="" type="Kraj primene zbog novije verzije"/> <!-- uzet datum objave nove verzije u sl. glasniku posto ne pravno informacionom nema podatak kad je ta verzija dosla na snagu -->
+    </lifecycle>
+
+    <references source="#lexpert_student_project">
+        <!-- Da li ovo uopste koristiti : source -> attribute source links to the agent (person, organization) providing the specific annotation or markup -->
+        <TLCPerson eId="lexpert_student_project" href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCPerson" showAs="Lexpert"/>
+
+        <TLCOrganization eId="ns" href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#sk_001" showAs="Narodna skupština Republike Srbije"/>
+        <TLCOrganization eId="sg" href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#gl_001" showAs="Službeni glasnik Republike Srbije"/>
+        
+        <!-- Popuniti TLCRole individuama u ontologiji-->
+        <TLCRole eId="author" href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole" showAs="Author"/> 
+        <TLCRole eId="editor" href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole" showAs="Editor"/>
+        <TLCRole eId="generator" href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole" showAs="Generator"/>  
+
+        <!-- Popuniti TLCEvent individuama u ontologiji-->
+        <TLCEvent eId="datum_usvajanja"  href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent" showAs="Datum usvajanja"/>
+        <TLCEvent eId="stupanje_na_snagu"  href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent" showAs="Stupanje na snagu"/>
+        <TLCEvent eId="pocetak_primene"  href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent" showAs="Pocetak primene"/>
+        <TLCEvent eId="kraj_primena_nova_verzija"  href="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent" showAs="Kraj primene zbog novije verzije"/>
+    </references>
+</meta>

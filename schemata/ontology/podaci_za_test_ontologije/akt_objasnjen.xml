@@ -1,0 +1,93 @@
+<!-- Filip sema meta podataka kako izgledaju, sta je sta u metapodacima i na cega se odnosi -->
+<meta>
+    <!-- <identification>: containing all relevant facts about the document, dates and authors. -->
+    <!-- Sadrzi FRBRwork, FRBRExpression, FRBRManifestation, FRBRItem -->
+    <identification source="#filip"> <!-- The attribute source links to the agent (person, organization) providing the specific annotation or markup -->
+
+        <!-- ove mogu sadrzati svi FRBRthis, FRBRuri, FRBRauthor, FRBRalias, FRBRdate -->
+
+        <FRBRWork> <!-- Deals with concept : the abstract concept of the legal resource -->
+            <FRBRthis value="/akn/rs/act/2017-107-4429/!main"/> <!-- The element FRBRthis is the metadata property containing the IRI of the specific component of the document -->
+            <FRBRuri value="/akn/rs/act/2017-107-4429"/> <!-- The element FRBRuri is the metadata property containing the IRI of the whole document -->
+            <FRBRauthor href="#ns" as="#author"/> <!-- The element FRBRauthor is the metadata property containing a relevant author of the document in the respective level of the FRBR hierarchy.
+            Attribute as specifies the role of the author (The attribute role is used to identify the role of an individual mentioned in the text. It is a reference to a TLCRole element in the references section)-->
+            <FRBRdate date="12-10-2017" name="datum usvajanja"/> <!-- The attribute role is used to identify the role of an individual mentioned in the text. It is a reference to a TLCRole element in the references section -->
+            <FRBRalias name="nebitna uredba"> <!-- The element FRBRalias is the metadata property containing additional well-known names of the document in the respective level of the FRBR hierarchy -->
+
+            <!-- Work sadrzi  -->
+            <FRBRcountry value="rs" shortForm="Republika Srbija" refersTo=""/> <!-- The element FRBRcountry is the metadata property containing a ISO 3166-1 Alpha-2 code for the country or jurisdiction to be used in the work-level IRI of this document -->
+            <FRBRsubtype value="vd_007" refersTo="" shortForm="" showAs=""/> <!-- The element FRBRsubtype is the metadata property containing a string for the specific subtype of the document to be used in the work-level IRI of this document -->
+            <FRBRnumber value="2017-107-4429"/> <!-- The element FRBRnumber is the metadata property containing a string or number for the number to be used in the work-level IRI of this document -->               
+            <FRBRname value="Уредба о утврђивању Просторног плана подручја експлоатације Колубарског лигнитског басена"/> <!-- The element FRBRname is the metadata property containing a string for the title to be used in the work-level IRI of this document -->
+        </FRBRWork>
+
+        <FRBRExpression> <!-- Deals with form: any version of the “work” whose content is different from others for any reason: language, versions, etc. -->
+            <FRBRthis value="/akn/rs/act/2017-107-4429/sr@2017-11-27/!main"/>
+            <FRBRuri value="/akn/rs/act/2017-107-4429/sr@2017-11-27"/>
+            <FRBRdate date="2017-11-27"/>
+            <FRBRauthor href="# neki ID u references" as="#editor"/>
+
+            <!-- Expression sadrzi -->
+            <FRBRlanguage language="sr"/> <!-- This attribute specifies the human language in which the document the element refers to is expressed. Values are taken from the RFC 4646 -->
+            <FRBRtranslation by=" neki ID u references TLCPerson" fromLanguage=""/> <!-- The element FRBRtranslation is the metadata property specifying the source of which this expression is a translation of. -->
+            <FRBRmasterExpression href=""/> <!-- The element FRBRmasterExpression is the metadata property identifying the master expression, i.e., the expression whose ids are used as permanent ids in the wId attributes. An expression without the 
+            FRBRmasterExpression element is considered a master expression itself, i.e., the first version, or the most important version, of a document expressed in the only language, or in the most important language. Any other situation 
+            (subsequent versions, or language variants, or content variants) must have the FRBRmasterExpression element pointing to the URI of the master expression. If the FRBRmasterEpression is specified, but without a href pointing to the masterExpression,
+            it is assumed that NO master expression exist in reality, but an UR-Expression exist, whose ids are used in this expression as wIds. -->
+        </FRBRExpression>
+
+        <FRBRManifestation> <!-- Deals with format: any electronic or physical format of the “expression” (MS Word, Open Office, XML, TIFF, PDF, etc.} -->
+            <FRBRthis value="/akn/rs/act/2017-107-4429/sr@2017-12-05/!main.xml"/>
+            <FRBRuri value="/akn/rs/act/2017-107-4429/sr@2017-12-05/!main.akn"/>
+            <FRBRdate date="2017-12-05"/>
+            <FRBRauthor href="#filip" as="#generator"/>
+
+            <!-- Manifestation sadrzi -->
+            <FRBRformat value="vf_002" refersTo="" shortForm="" showAs=""/> <!-- The element FRBRformat is the metadata property containing the Internet Media Type specification for the data format to be used in the manifestation-level IRI of this document. -->
+        </FRBRManifestation>
+    </identification>
+
+
+    <!-- <publication> The element publication is the metadata container specifying an official publication event for the FRBR expression of the document. -->
+    <publication name="sg" date="2009-06-02" showAs="Службени гласник Републике Србије" number="41/2009"/>
+
+
+    <classification source="#filip">
+        <!-- The element keyword is a metadata element specifying a keyword associated to the FRBR expression of the document. Attribute dictionary (required) specifies the thesaurus out of which the keyword has been taken. Attribute href points to the 
+        fragment of text this keyword is associated to. Keywords without href attribute refer to the content as a whole -->
+        <keyword value="traffic" showAs="Саобраћај, везе и енергетика" dictionary="RS" href="" refersTo=""/>
+        <!-- dictionary: This attribute specifies the eId of the element in the references section detailing the dictionary used for the keyword.
+        href: The attribute href is used to specify an internal or external destination for a reference, a citation, an access to the ontology or a hypertext link. In elements using this attribute definition the href attribute is optional
+        refersTo: This attribute creates a connection between the element and an element of the Akoma Ntoso ontology to which it refers. In elements using this attribute definition the refersTo attribute is optional -->
+    </classification>
+
+
+    <lifecycle source="">
+        <!-- The element eventRef is a metadata element specifying facts about an event that had an effect on the document. For each event, a date, a type and a document that generated the event must be referenced. -->
+        <eventRef date="" href="" refersTo="" source="" type=""/>
+    </lifecycle>
+
+
+    <!-- <references> The element references is a metadata container of all the references to entities external to the document mentioned in the document. They include references to legal documents of any form,a s well as references to people, organizations, events, roles, concepts, and anything else is managed by the Akoma Ntoso ontology. -->
+    <references source="#filip">
+        <TLCRole eId="" href="" shortForm="" showAs=""/>
+        <TLCOrganization eId="" href="" shortForm="" showAs=""/>
+        <TLCPerson eId="" href="" shortForm="" showAs=""/>
+        <TLCEvent eId="" href="" shortForm="" showAs=""/>
+        <TLCConcept eId="" href="" shortForm="" showAs=""/>
+        
+        <TLCObject eId="" href="" shortForm="" showAs=""/>
+        <TLCLocation eId="" href="" shortForm="" showAs=""/>
+        <TLCProcess eId="" href="" shortForm="" showAs=""/>
+        <TLCTerm eId="" href="" shortForm="" showAs=""/>
+        <TLCReference eId="" href="" name="" shortForm="" showAs=""/>
+
+        <!-- primeri -->
+        <TLCRole eId="author" href="/akn/rs/ontology/role/author" showAs="Author"/>
+        <TLCRole eId="editor" href="/akn/rs/ontology/role/editor" showAs="Editor"/>
+        <TLCRole eId="generator" href="/akn/rs/ontology/role/generator" showAs="Generator"/>
+        <TLCOrganization eId="ns" href="/akn/rs/ontology/organization/ns" showAs="Народна скупштина Републике Србије"/>
+        <TLCOrganization eId="sg" href="/akn/rs/ontology/organization/sg" showAs="Службени гласник Републике Србије"/>
+        <TLCPerson eId="filip" href="/akn/rs/ontology/person/filip" showAs="Filip Jakovljevic"/>
+    </references>
+</meta>
