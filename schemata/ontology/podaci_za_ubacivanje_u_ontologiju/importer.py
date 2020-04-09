@@ -18,9 +18,7 @@ counter = 1
 with open("vrste_formata.txt", "r", encoding="utf-8") as file:
     vrste_formata = file.readlines()
     for g in vrste_formata:
-        iri = "format_" + str(counter).zfill(3)
-        idividual = akn_meta.FRBRformat(iri)
-        idividual.has_name = [g.strip()]
+        akn_meta.FRBRformat(g.strip())
         counter = counter + 1
 
         
@@ -29,9 +27,9 @@ counter = 1
 with open("vrste_dokumenata.txt", "r", encoding="utf-8") as file:
     vrste_dokumneata = file.readlines()
     for g in vrste_dokumneata:
-        iri = "subtype_" + str(counter).zfill(3)
+        iri = g.strip()
         idividual = akn_meta.FRBRsubtype(iri)
-        idividual.has_name = [g.strip()]
+        #idividual.has_name = [g.strip()]
         counter = counter + 1
 
 
@@ -97,7 +95,7 @@ with open("podregistar_oblast_grupa.txt", "r", encoding="utf-8") as file:
             grupa.broader = [oblast]
             grupa.has_name = [' '.join(g.strip().split(' ')[1:])]
         elif '\t' in g:
-            oblast = onto.Field("field_" + str(counter_o).zfill(3))
+            oblast = onto.Area("area_" + str(counter_o).zfill(3))
             counter_o = counter_o + 1
             oblast.broader = [podregistar]
             oblast.has_name = [' '.join(g.strip().split('\t')[1:])]
@@ -129,6 +127,14 @@ with open("organizacije.txt", "r", encoding="utf-8") as file:
         organization = akn_meta.TLCOrganization("organization_" + str(counter).zfill(3))
         counter = counter + 1
         organization.has_name = [o.strip()]
+
+with open("tipovi_dokumenata.txt", "r", encoding="utf-8") as file:
+    lines = file.readlines()
+    counter = 1
+    for t in lines:
+        onto.FRBRtype(t.strip())
+        counter = counter + 1
+
         
 # with open("role_type.txt", "r", encoding="utf-8") as file:
 #     lines = file.readlines()
@@ -138,4 +144,4 @@ with open("organizacije.txt", "r", encoding="utf-8") as file:
 #         counter = counter + 1
 #         roleType.has_name = [r.strip()]
 
-onto.save(file = "akn_meta_combined_full.owl", format = "rdfxml")
+onto.save(file ="../akn_meta_combined_full.owl", format ="rdfxml")

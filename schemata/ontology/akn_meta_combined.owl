@@ -52,6 +52,9 @@
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Area"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Assembly"/>
     </Declaration>
     <Declaration>
@@ -68,9 +71,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#FRBRtype"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Field"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Gazette"/>
@@ -295,10 +295,10 @@
         <ObjectProperty IRI="#broaderTransitive"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_country"/>
+        <ObjectProperty IRI="#has_area"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#has_field"/>
+        <ObjectProperty IRI="#has_country"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has_group"/>
@@ -338,6 +338,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_of_event_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_of_subtype"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#is_of_type"/>
@@ -566,6 +569,17 @@
         <Class IRI="http://purl.org/vocab/frbr/core#Subject"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Area"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Area"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#broader"/>
+            <Class IRI="#Subregister"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Assembly"/>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCOrganization"/>
     </SubClassOf>
@@ -576,17 +590,6 @@
     <SubClassOf>
         <Class IRI="#Editor"/>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Field"/>
-        <Class IRI="#Concept"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Field"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#broader"/>
-            <Class IRI="#Subregister"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Gazette"/>
@@ -604,7 +607,7 @@
         <Class IRI="#Group"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#broader"/>
-            <Class IRI="#Field"/>
+            <Class IRI="#Area"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -698,15 +701,15 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_country"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
+            <ObjectProperty IRI="#has_area"/>
+            <Class IRI="#Area"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_field"/>
-            <Class IRI="#Field"/>
+            <ObjectProperty IRI="#has_country"/>
+            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -733,22 +736,22 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#is_of_type"/>
+            <ObjectProperty IRI="#is_of_subtype"/>
             <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_country"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
+            <ObjectProperty IRI="#has_area"/>
+            <Class IRI="#Area"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_field"/>
-            <Class IRI="#Field"/>
+            <ObjectProperty IRI="#has_country"/>
+            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -775,7 +778,7 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#is_of_type"/>
+            <ObjectProperty IRI="#is_of_subtype"/>
             <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -912,6 +915,11 @@
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Area"/>
+        <Class IRI="#Group"/>
+        <Class IRI="#Subregister"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Assembly"/>
         <Class IRI="#Gazette"/>
     </DisjointClasses>
@@ -919,11 +927,6 @@
         <Class IRI="#Author"/>
         <Class IRI="#Editor"/>
         <Class IRI="#Generator"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Field"/>
-        <Class IRI="#Group"/>
-        <Class IRI="#Subregister"/>
     </DisjointClasses>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodiment"/>
@@ -1138,11 +1141,11 @@
         <ObjectProperty IRI="#semanticRelation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_country"/>
+        <ObjectProperty IRI="#has_area"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_field"/>
+        <ObjectProperty IRI="#has_country"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -1178,7 +1181,7 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#is_of_type"/>
+        <ObjectProperty IRI="#is_of_subtype"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -1450,11 +1453,11 @@
         <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_country"/>
+        <ObjectProperty IRI="#has_area"/>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_field"/>
+        <ObjectProperty IRI="#has_country"/>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1500,6 +1503,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_of_event_type"/>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_of_subtype"/>
+        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_of_type"/>
@@ -1626,12 +1633,12 @@
         <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_country"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
+        <ObjectProperty IRI="#has_area"/>
+        <Class IRI="#Area"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_field"/>
-        <Class IRI="#Field"/>
+        <ObjectProperty IRI="#has_country"/>
+        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_group"/>
@@ -1674,8 +1681,12 @@
         <Class IRI="#EventType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#is_of_type"/>
+        <ObjectProperty IRI="#is_of_subtype"/>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_of_type"/>
+        <Class IRI="#FRBRtype"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_realized_through"/>

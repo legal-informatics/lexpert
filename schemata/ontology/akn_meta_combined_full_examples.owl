@@ -17,6 +17,36 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_of_type"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#FRBRtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_of_type"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#FRBRtype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Individuals
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -98,8 +128,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_004">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        <akn_meta_combined:is_of_event_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_004"/>
-        <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-17</akn_meta_combined:has_date>
+        <akn_meta_combined:has_responsible_role rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#author_003"/>
+        <akn_meta_combined:is_of_event_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_001"/>
+        <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-12</akn_meta_combined:has_date>
     </owl:NamedIndividual>
     
 
@@ -108,9 +139,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_005">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        <akn_meta_combined:has_responsible_role rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#author_003"/>
-        <akn_meta_combined:is_of_event_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_001"/>
-        <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-12</akn_meta_combined:has_date>
+        <akn_meta_combined:has_responsible_role rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#editor_001"/>
+        <akn_meta_combined:is_of_event_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_003"/>
+        <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-27</akn_meta_combined:has_date>
     </owl:NamedIndividual>
     
 
@@ -119,9 +150,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_006">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        <akn_meta_combined:has_responsible_role rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#editor_001"/>
-        <akn_meta_combined:is_of_event_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_003"/>
-        <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-27</akn_meta_combined:has_date>
+        <akn_meta_combined:has_responsible_role rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#author_003"/>
+        <akn_meta_combined:is_of_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_001"/>
+        <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-05-29</akn_meta_combined:has_date>
     </owl:NamedIndividual>
     
 
@@ -130,27 +161,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_007">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        <akn_meta_combined:is_of_event_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_004"/>
-        <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-17</akn_meta_combined:has_date>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_008 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_008">
-        <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        <akn_meta_combined:has_responsible_role rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#author_003"/>
-        <akn_meta_combined:is_of_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_001"/>
-        <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-05-29</akn_meta_combined:has_date>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_009 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_009">
-        <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
         <akn_meta_combined:has_responsible_role rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#editor_001"/>
         <akn_meta_combined:is_of_event_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_003"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-06-02</akn_meta_combined:has_date>
@@ -158,27 +168,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_010 -->
+    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/odluka/2017-05-29/2017-55-2088 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_010">
-        <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        <akn_meta_combined:is_of_event_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_004"/>
-        <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-17</akn_meta_combined:has_date>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/odluka/2017-55-2088 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/odluka/2017-55-2088">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/odluka/2017-05-29/2017-55-2088">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <akn_meta_combined:has_area rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#area_011"/>
         <akn_meta_combined:has_country rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#rs"/>
-        <akn_meta_combined:has_field rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#field_011"/>
         <akn_meta_combined:has_group rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#group_126"/>
-        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_008"/>
+        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_006"/>
         <akn_meta_combined:has_subregister rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#subregister_001"/>
-        <akn_meta_combined:is_of_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#subtype_009"/>
-        <akn_meta_combined:is_realized_through rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/odluka/2017-55-2088/sr@2017-06-02"/>
+        <akn_meta_combined:is_of_subtype rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#odluka"/>
+        <akn_meta_combined:is_of_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#act"/>
+        <akn_meta_combined:is_realized_through rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/odluka/2017-05-29/2017-55-2088/srp@2017-06-02"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-05-29</akn_meta_combined:has_date>
         <akn_meta_combined:has_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Одлука о утврђивању цене складиштења обавезних резерви нафте и деривата нафте у складиштима у јавној својини</akn_meta_combined:has_name>
         <akn_meta_combined:has_number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-55-2088</akn_meta_combined:has_number>
@@ -186,40 +187,40 @@
     
 
 
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/odluka/2017-55-2088/sr@2017-06-02 -->
+    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/odluka/2017-05-29/2017-55-2088/srp@2017-06-02 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/odluka/2017-55-2088/sr@2017-06-02">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/odluka/2017-05-29/2017-55-2088/srp@2017-06-02">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
         <akn_meta_combined:has_language rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#srp"/>
-        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_009"/>
-        <akn_meta_combined:is_embodied_in rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/odluka/2017-55-2088/sr@2020-03-17/xml"/>
+        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_007"/>
+        <akn_meta_combined:is_embodied_in rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/odluka/2017-05-29/2017-55-2088/srp@2017-06-02/2020-03-17.xml"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-06-02</akn_meta_combined:has_date>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/odluka/2017-55-2088/sr@2020-03-17/xml -->
+    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/odluka/2017-05-29/2017-55-2088/srp@2017-06-02/2020-03-17.xml -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/odluka/2017-55-2088/sr@2020-03-17/xml">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/odluka/2017-05-29/2017-55-2088/srp@2017-06-02/2020-03-17.xml">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_010"/>
-        <akn_meta_combined:is_in_format rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#format_002"/>
+        <akn_meta_combined:is_in_format rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#xml"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-17</akn_meta_combined:has_date>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/uredba/2017-107-4429 -->
+    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/uredba/2017-10-12/2017-107-4429 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/uredba/2017-107-4429">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/uredba/2017-10-12/2017-107-4429">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <akn_meta_combined:has_area rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#area_012"/>
         <akn_meta_combined:has_country rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#rs"/>
-        <akn_meta_combined:has_field rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#field_012"/>
         <akn_meta_combined:has_group rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#group_128"/>
-        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_005"/>
+        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_004"/>
         <akn_meta_combined:has_subregister rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#subregister_001"/>
-        <akn_meta_combined:is_of_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#subtype_007"/>
-        <akn_meta_combined:is_realized_through rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/uredba/2017-107-4429/sr@2017-11-27"/>
+        <akn_meta_combined:is_of_subtype rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#uredba"/>
+        <akn_meta_combined:is_of_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#act"/>
+        <akn_meta_combined:is_realized_through rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/uredba/2017-10-12/2017-107-4429/srp@2017-11-27"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-12</akn_meta_combined:has_date>
         <akn_meta_combined:has_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Уредба о утврђивању Просторног плана подручја експлоатације Колубарског лигнитског басена</akn_meta_combined:has_name>
         <akn_meta_combined:has_number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-107-4429</akn_meta_combined:has_number>
@@ -227,41 +228,41 @@
     
 
 
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/uredba/2017-107-4429/sr@2017-11-27 -->
+    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/uredba/2017-10-12/2017-107-4429/srp@2017-11-27 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/uredba/2017-107-4429/sr@2017-11-27">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/uredba/2017-10-12/2017-107-4429/srp@2017-11-27">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
         <akn_meta_combined:has_language rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#srp"/>
-        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_006"/>
-        <akn_meta_combined:is_embodied_in rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/uredba/2017-107-4429/sr@2020-03-17/xml"/>
+        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_005"/>
+        <akn_meta_combined:is_embodied_in rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/uredba/2017-10-12/2017-107-4429/srp@2017-11-27/2020-03-17.xml"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-27</akn_meta_combined:has_date>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/uredba/2017-107-4429/sr@2020-03-17/xml -->
+    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/uredba/2017-10-12/2017-107-4429/srp@2017-11-27/2020-03-17.xml -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/uredba/2017-107-4429/sr@2020-03-17/xml">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/uredba/2017-10-12/2017-107-4429/srp@2017-11-27/2020-03-17.xml">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_007"/>
-        <akn_meta_combined:is_in_format rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#format_002"/>
+        <akn_meta_combined:is_in_format rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#xml"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-17</akn_meta_combined:has_date>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/zakon/2017-88-3634 -->
+    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/zakon/2017-88-3634">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <akn_meta_combined:has_area rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#area_015"/>
         <akn_meta_combined:has_country rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#rs"/>
-        <akn_meta_combined:has_field rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#field_015"/>
         <akn_meta_combined:has_group rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#group_151"/>
         <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_001"/>
         <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_002"/>
         <akn_meta_combined:has_subregister rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#subregister_001"/>
-        <akn_meta_combined:is_of_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#subtype_003"/>
-        <akn_meta_combined:is_realized_through rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/zakon/2017-88-3634/sr@2017-09-29"/>
+        <akn_meta_combined:is_of_subtype rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#zakon"/>
+        <akn_meta_combined:is_of_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#act"/>
+        <akn_meta_combined:is_realized_through rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634/srp@2017-09-29"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-27</akn_meta_combined:has_date>
         <akn_meta_combined:has_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Закон о високом образовању</akn_meta_combined:has_name>
         <akn_meta_combined:has_number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-88-3634</akn_meta_combined:has_number>
@@ -269,24 +270,23 @@
     
 
 
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/zakon/2017-88-3634/sr@2017-09-29 -->
+    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634/srp@2017-09-29 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/zakon/2017-88-3634/sr@2017-09-29">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634/srp@2017-09-29">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
         <akn_meta_combined:has_language rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#srp"/>
         <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_003"/>
-        <akn_meta_combined:is_embodied_in rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/zakon/2017-88-3634/sr@2020-03-17/xml"/>
+        <akn_meta_combined:is_embodied_in rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634/srp@2017-09-29/2020-03-17.xml"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-29</akn_meta_combined:has_date>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/zakon/2017-88-3634/sr@2020-03-17/xml -->
+    <!-- http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634/srp@2017-09-29/2020-03-17.xml -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/zakon/2017-88-3634/sr@2020-03-17/xml">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634/srp@2017-09-29/2020-03-17.xml">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <akn_meta_combined:has_related_event rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_004"/>
-        <akn_meta_combined:is_in_format rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#format_002"/>
+        <akn_meta_combined:is_in_format rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#xml"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-17</akn_meta_combined:has_date>
     </owl:NamedIndividual>
 </rdf:RDF>
