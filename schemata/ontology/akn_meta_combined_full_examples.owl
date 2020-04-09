@@ -17,36 +17,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork -->
-
-    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_of_type"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#FRBRtype"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_of_type"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#FRBRtype"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Individuals
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -151,7 +121,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#event_006">
         <rdf:type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
         <akn_meta_combined:has_responsible_role rdf:resource="http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#author_003"/>
-        <akn_meta_combined:is_of_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_001"/>
+        <akn_meta_combined:is_of_event_type rdf:resource="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#eventtype_001"/>
         <akn_meta_combined:has_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-05-29</akn_meta_combined:has_date>
     </owl:NamedIndividual>
     
