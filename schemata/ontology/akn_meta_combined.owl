@@ -358,6 +358,9 @@
         <ObjectProperty IRI="#superior_transitive"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#content"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#has_date"/>
     </Declaration>
     <Declaration>
@@ -677,9 +680,23 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
         <DataSomeValuesFrom>
+            <DataProperty IRI="#content"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
+        <DataSomeValuesFrom>
             <DataProperty IRI="#has_date"/>
             <Datatype abbreviatedIRI="xsd:date"/>
         </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#content"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
