@@ -4,6 +4,7 @@ from SPARQLWrapper import SPARQLWrapper, XML, JSON
 
 import xmltodict
 import lxml.etree as ET
+import pdfkit
 
 app = Flask(__name__)
 
@@ -30,17 +31,21 @@ def transform(data, ret_format):
     if ret_format == 'xml':
         return data, 200, {'content-type': 'application/xml'}
 
-    if ret_format == 'xhtml':
-        dir_path = os.path.dirname(os.path.realpath(__file__))
+    dir_path = os.path.dirname(os.path.realpath(__file__))
 
-        dom = ET.XML(data)
-        xslt = ET.parse(dir_path + '/static/akoma_to_xhtml.xsl')
-        transform = ET.XSLT(xslt)
-        newdom = transform(dom)
-        return ET.tostring(newdom, pretty_print=True, encoding='utf-8'), 200, {'content-type': 'application/xhtml+xml'}
+    dom = ET.XML(data)
+    xslt = ET.parse(dir_path + '/static/akoma_to_xhtml.xsl')
+    transform = ET.XSLT(xslt)
+    newdom = transform(dom)
+    xhtml = ET.tostring(newdom, pretty_print=True, encoding='utf-8')
+
+    if ret_format == 'xhtml':
+        return xhtml, 200, {'content-type': 'application/xhtml+xml'}
+        
 
     # TODO transformacija u ostale formate PDF
     if ret_format == 'pdf':
+        data = pdfkit.from_string(xhtml.decode("utf-8"), False, options = {'encoding': "UTF-8"}, configuration = pdfkit.configuration(wkhtmltopdf='C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe'))
         return data, 200, {'content-type': 'application/pdf'}
 
     return data
@@ -66,7 +71,7 @@ def search():
 
     # TODO search preko forme
 
-    return transform(request.data, 'xhtml')
+    return transform(request.data, 'pdf')
 
 
 # exposing Apche Jena Fuseki endpoint for SPARKQL queries
