@@ -1,7 +1,9 @@
 import os 
 from flask import Flask, url_for, request, jsonify, abort
 from SPARQLWrapper import SPARQLWrapper, XML, JSON
+
 import xmltodict
+import lxml.etree as ET
 
 app = Flask(__name__)
 
@@ -28,10 +30,16 @@ def transform(data, ret_format):
     if ret_format == 'xml':
         return data, 200, {'content-type': 'application/xml'}
 
-    # TODO transformacija u ostale formate
     if ret_format == 'xhtml':
-        return data, 200, {'content-type': 'application/xhtml+xml'}
+        dir_path = os.path.dirname(os.path.realpath(__file__))
 
+        dom = ET.XML(data)
+        xslt = ET.parse(dir_path + '/static/akoma_to_xhtml.xsl')
+        transform = ET.XSLT(xslt)
+        newdom = transform(dom)
+        return ET.tostring(newdom, pretty_print=True, encoding='utf-8'), 200, {'content-type': 'application/xhtml+xml'}
+
+    # TODO transformacija u ostale formate PDF
     if ret_format == 'pdf':
         return data, 200, {'content-type': 'application/pdf'}
 
@@ -58,7 +66,7 @@ def search():
 
     # TODO search preko forme
 
-    return 'Svetlucava'
+    return transform(request.data, 'xhtml')
 
 
 # exposing Apche Jena Fuseki endpoint for SPARKQL queries
