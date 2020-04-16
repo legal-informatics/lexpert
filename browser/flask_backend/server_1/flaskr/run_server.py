@@ -31,8 +31,8 @@ def transform(data, ret_format):
     if ret_format == 'xml':
         return data, 200, {'content-type': 'application/xml'}
 
-    dir_path = os.path.dirname(os.path.realpath(__file__))
 
+    dir_path = os.path.dirname(os.path.realpath(__file__))
     dom = ET.XML(data)
     xslt = ET.parse(dir_path + '/static/akoma_to_xhtml.xsl')
     transform = ET.XSLT(xslt)
@@ -43,9 +43,10 @@ def transform(data, ret_format):
         return xhtml, 200, {'content-type': 'application/xhtml+xml'}
         
 
-    # TODO transformacija u ostale formate PDF
     if ret_format == 'pdf':
-        data = pdfkit.from_string(xhtml.decode("utf-8"), False, options = {'encoding': "UTF-8"}, configuration = pdfkit.configuration(wkhtmltopdf='C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe'))
+        conf = pdfkit.configuration(wkhtmltopdf='C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe')
+        options = {'encoding': "UTF-8"}
+        data = pdfkit.from_string(xhtml.decode("utf-8"), False, options = options, configuration = conf)
         return data, 200, {'content-type': 'application/pdf'}
 
     return data
@@ -56,22 +57,42 @@ def parse_xml(data):
 
     # TODO parsiranje xml-a i vracanje rdf grafa za ubacivanje u Fuseki
 
-    return content_dict
+    # INSERT DATA{ <http://example/book3> dc:title "A new book"} primer inserta
+
+    # iz content_dict treba samo izvuci podatke i napraviti sve odgovarajuce triplete, nezaboraviti i triplete kao:
+    # <http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual>
+    # <http://www.semanticweb.org/marko/ontologies/2020/3/untitled-ontology-36#/akn/rs/act/zakon/2017-09-27/2017-88-3634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork>
+
+    return content_dict # moze da vrati i odgovor da li je insertovao ili da vrati string pa u svkom od endpointa da se radi insertovanje
 
 
 @app.route('/simple_search')
 def simple_search():
 
-    # TODO search preko jednog polja
+    # TODO search preko jednog polja, ispod je primer kako sam mislio samo imamo problem cirilice, jer 'Zakon' ne bi nasao posto mu je u imenu 'Закон' videti sta sa tim
+
+    # Select ?s where { ?s <http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_name> ?o. FILTER regex(?o, "Закон")}
+
+    # Takodje treba se dogovoriti sta se sve vraca, ocigledno uri, sto je u ovom slucaju (ili mozda samo ono posle # trebalo bi da moze), i sta jos tipa datum, vrstu, nzm ni ja
 
     return 'Najlepsa!'
 
 @app.route('/search', methods=['POST'])
 def search():
+    data = request.json
 
-    # TODO search preko forme
+    # TODO search preko forme pretpostavljam da ces slati json te ovde treba sisliti sparql upit koji ce to da hvata i opet sta sve vratiti od podataka za tu te pronadjene
+    
+    # query = 'SPARQL upit'
+    # sparql_query.setQuery(query)
 
-    return transform(request.data, 'pdf')
+    # try :
+    #     response = sparql_query.query().convert()
+    #     return response
+    # except Exception as e:
+    #     abort(400, e)
+
+    return transform(request.data, 'pdf') # trenutno mi je sluzio da testiram konverzije i sada radi sa pdf konverzijom kad mu prosledis akn xml, to je ono od cvejica, mada imaju gresaka ti akn xml-ovi
 
 
 # exposing Apche Jena Fuseki endpoint for SPARKQL queries
@@ -213,7 +234,6 @@ def fetch_work(subtype, date_1, number):
     rdf_qraph = parse_xml(request.data)
 
     return rdf_qraph
-
 
 
 if __name__ == '__main__':
