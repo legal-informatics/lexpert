@@ -1,0 +1,724 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о пребивалишту и боравишту грађана">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2011/87-3/main"/>
+					<FRBRuri value="akn/rs/act/2011/87-3"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2011/87-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2011/87-3/srp@"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2011/87-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2011/87-3/srp@.akn"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2011-11-21" name="службени гласник рс" number="87" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="6. Пребивалиште и боравиште" value="6. пребивалиште и боравиште" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2011-11-17" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2011-11-29" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2011-11-29" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="пријављивање"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="одјављивање"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="одговарајућих"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="вођења"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="евиденција"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="привременог"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="боравка"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="иностранству"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="боравишта"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Građanin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organ"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 6"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="stavu 3."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. новембра 2011. године (види члан 33. Закона).Грађани који су пријавили пребивалиште у Републици Србији по прописима који су важили до дана ступања на снагу овог закона нису дужни да поново пријаве своје пребивалиште (види члан 28. Закона).Држављанима бивших република СФРЈ или држављанима друге државе настале на територији бивше СФРЈ, који немају држављанство Републике Србије, а имају пријављено пребивалиште на територији Републике Србије, надлежни орган ће пасивизирати адресу пребивалишта у Републици Србији по истеку важења личне карте издате од надлежних органа у Републици Србији (види члан 29. Закона).Грађани који су пријавили боравиште на територији Републике Србије пре ступања на снагу овог закона дужни су да пријаве боравиште у складу са одредбама овог закона у року од годину дана од дана ступања на снагу овог закона, односно до 29. новембра 2012. године (види члан 30. Закона).Прописи за спровођење овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона, осим прописа из члана 11. став 5. овог закона који ће бити донет у року од три месеца од дана ступања на снагу овог закона. До доношења подзаконских прописа на основу овог закона, примењују се подзаконски прописи донети на основу закона који је био на снази до дана ступања на снагу овог закона, уколико нису у супротности са одредбама овог закона (види члан 31. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О пребивалишту и боравишту грађана "Службени гласник РС", број <ref wId="ref33" href="akn/rs/act/2011/87/srp@">87 од 21. новембра 2011</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се пријављивање и одјављивање пребивалишта, пријављивање и одјављивање боравишта, пријављивање привременог боравка у иностранству, надлежност и начин вођења одговарајућих евиденција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Право на пребивалиште у Републици Србији, у смислу овог закона, имају сви грађани Републике Србије који стално живе на територији Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> грађанин је држављанин Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> пребивалиште је место у коме се грађанин настанио са намером да у њему стално живи, односно место у коме се налази центар његових животних активности, професионалних, економских, социјалних и других веза које доказују његову трајну повезаност с местом у коме се настанио;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> боравиште је место у коме грађанин привремено борави ван места свог пребивалишта дуже од 90 дана;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> адреса становања подразумева град, општину, насељено место, улицу или трг, кућни број, спрат и број стана, у складу с прописима којима се уређује територијална организација;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> пасивизирање адресе је означавање у евиденцији надлежног органа да грађанин не станује на адреси пријављеног пребивалишта или боравишта;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> надлежни орган је територијално надлежна подручна организациона јединица министарства надлежног за унутрашње послове, према пребивалишту или боравишту лица;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> иностранство је свако место ван територије Републике Србије.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Пунолетни грађани су дужни да пријаве и одјаве своје пребивалиште, пријаве и одјаве боравиште, као и да пријаве привремени боравак у иностранству и повратак из иностранства, када је то одређено овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Пријаву и одјаву пребивалишта, односно пријаву и одјаву боравишта за малолетно лице или лице без пословне способности, подноси његов родитељ, односно старатељ или други законски заступник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Ако родитељи немају исту адресу становања, пријаву и одјаву подноси један од родитеља уз сагласност другог родитеља или родитељ који у складу са законом самостално врши родитељско право.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Пријава и одјава пребивалишта и боравишта, као и пријава привременог боравка у иностранству и повратка из иностранства подноси се надлежном органу у месту у коме се пријављује или из кога се одјављује пребивалиште или боравиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Пријаве и одјаве пребивалишта, боравишта као и пријава привременог боравка у иностранству и повратка из иностранства могу се поднети и у електронском облику и сматрају се уредним ако су поднете са личном картом која поседује квалификовани електронски сертификат за дигитално потписивање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Приликом пријављивања и одјављивања пребивалишта и боравишта, као и пријаве привременог боравка у иностранству и повратка из иностранства, грађани су дужни да дају истините податке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>У поступку одлучивања о пријави и одјави пребивалишта, пријави и одјави боравишта, као и издавања уверења, потврда и других исправа о чињеницама из евиденција, примењују се одредбе закона којим се уређује општи управни поступак, ако овим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Одредбе овог закона примењују се на странце, који на основу посебног закона имају обавезу пријављивања и одјављивања пребивалишта и боравишта, ако тим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСЕБНЕ ОДРЕДБЕ</heading>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Пријава пребивалишта</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Грађанин је дужан да надлежном органу пријави своје пребивалиште у року од осам дана од дана настањења на адреси на којој пријављује пребивалиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Пријава пребивалишта за малолетно лице подноси се у року од три месеца од његовог рођења, односно осам дана од дана настањења на адреси на којој пријављује пребивалиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Пријава пребивалишта за лице без пословне способности подноси се у року од осам дана од дана настањења на адреси на којој се пријављује пребивалиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav4">
+						<content>
+							<p>Пријава пребивалишта на новој адреси становања уједно значи и одјаву претходног пребивалишта на територији Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Уз пријаву пребивалишта, лице старије од 16 година дужно је да приложи личну карту, као и друге исправе и доказе значајне за пријављивање пребивалишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Уз пријаву пребивалишта за лице млађе од 16 година које не поседују личну карту, подносилац пријаве прилаже извод из матичне књиге рођених.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>За употребу исправа из <ref wId="ref0" href="akn/rs/act/2011/87-3/srp@/!main~art_10__para_1->para_2" >ст. 1. и 2. овог</ref> члана које не садрже истините податке одговорно је лице које их стави у правни саобраћај.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Грађанин може пријавити пребивалиште по основу права својине на стану, уговора о закупу стана или другом правном основу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<intro>
+							<p>Уколико грађанин не може пријавити пребивалиште по основу наведеном у <ref wId="ref1" href="akn/rs/act/2011/87-3/srp@/!main~art_11__para_1" >ставу 1. овог</ref> члана, надлежни орган му решењем утврђује пребивалиште на адреси:</p>
+						</intro>
+						<point wId="gla2-clan11-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> његовог сталног становања, ако су испуњени други услови прописани законом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> пребивалишта његовог супружника или ванбрачног партнера;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> пребивалишта његових родитеља;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> установе у којој је трајно смештен или центра за социјални рад на чијем подручју се налази, уз пријаву грађанина тој установи, односно центру да ће његова адреса бити на адреси установе односно центра.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>На решење из <ref wId="ref2" href="akn/rs/act/2011/87-3/srp@/!main~art_11__para_2" >става 2. овог</ref> члана може се изјавити жалба министарству надлежном за унутрашње послове у року од осам дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Жалба против решења из <ref wId="ref3" href="akn/rs/act/2011/87-3/srp@/!main~art_11__para_2" >става 2. овог</ref> члана не одлаже извршење решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>Образац пријаве из става 2. тачка <ref wId="ref4" href="akn/rs/act/2011/87-3/srp@/!main~art_11__para_2__point_4" >4</ref>) овог члана прописује министар надлежан за унутрашње послове, уз сагласност министра надлежног за социјалну политику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Податак о пребивалишту уписује се у личну карту лица које се пријављује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Подносиоцу пријаве пребивалишта за лице млађе од 16 година издаје се одговарајућа потврда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Надлежни орган решењем одбија пријаву пребивалишта ако се не може утврдити да грађанин има намеру да стално станује на адреси коју пријављује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>На решење из <ref wId="ref5" href="akn/rs/act/2011/87-3/srp@/!main~art_13__para_1" >става 1. овог</ref> члана може се изјавити жалба министарству надлежном за унутрашње послове у року од осам дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav3">
+						<content>
+							<p>Жалба против решења из <ref wId="ref6" href="akn/rs/act/2011/87-3/srp@/!main~art_13__para_1" >става 1. овог</ref> члана не одлаже извршење решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Одјава пребивалишта</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Грађанин је дужан да одјави пребивалиште ако се исељава из Републике Србије у иностранство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Лицу које одјављује пребивалишта издаје се одговарајућа потврда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Пријава и одјава боравишта</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Грађанин је дужан да пријави боравиште надлежном органу по месту боравишта у року од осам дана од дана доласка у место боравишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Пријава боравишта важи до истека времена наведеног у пријави, а најдуже две године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav3">
+						<content>
+							<p>Лицу које пријављује боравиште издаје се одговарајућа потврда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav4">
+						<content>
+							<p>У поступку пријаве боравишта примењују се одредбе овог закона којима се уређује поступак пријаве пребивалишта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Грађанин одјављује боравиште надлежном органу по месту боравишта, непосредно пре одласка из места боравишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav2">
+						<content>
+							<p>Лицу које одјављује боравиште издаје се одговарајућа потврда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav3">
+						<content>
+							<p>Ако грађанин не одјави боравиште, сматра се да је боравиште престало пошто истекне време наведено у пријави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav4">
+						<content>
+							<p>Ако у пријави није наведено време трајања боравка, а боравиште није одјављено, пријава боравишта важи две године од дана пријаве, након чега је грађанин дужан да поново пријави боравиште ако и даље борави у месту у коме је имао пријављено боравиште.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Уколико грађанин који има право на личну карту нема пријављено пребивалиште нити боравиште на територији Републике Србије, нити му се у складу са <ref wId="ref7" href="akn/rs/act/2011/87-3/srp@/!main~art_11" >чланом 11. овог</ref> закона може решењем утврдити пребивалиште, ради издавања личне карте решењем му се утврђује боравиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav2">
+						<content>
+							<p>Боравиште утврђено решењем из <ref wId="ref8" href="akn/rs/act/2011/87-3/srp@/!main~art_17__para_1" >става 1. овог</ref> члана може трајати најдуже две године од дана када је утврђено, односно од дана када је издата лична карта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<heading>Пасивизирање пребивалишта и боравишта</heading>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>На захтев суда, органа државне управе, другог органа или организације, као и другог правног или физичког лица, које има оправдан правни интерес, надлежни орган врши проверу чињенице сталног становања, односно привременог боравка на адреси на којој је грађанин пријавио пребивалиште, односно боравиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Ако утврди да грађанин не станује на адреси на којој има пријављено пребивалиште, односно боравиште или ако утврди да је приликом пријаве пребивалишта, односно боравишта дао неистините податке, надлежни орган доноси решење којим пасивизира адресу пребивалишта, односно боравишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav3">
+						<content>
+							<p>Пошто је надлежни орган пасивизирао адресу пребивалишта, односно боравишта, грађанин који живи на територији Републике Србије дужан је да пријави пребивалиште и адресу на којој станује у року од осам дана од дана пријема решења из <ref wId="ref9" href="akn/rs/act/2011/87-3/srp@/!main~art_18__para_2" >става 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav4">
+						<content>
+							<p>Ако грађанин не пријави пребивалиште на начин предвиђен у <ref wId="ref11" href="akn/rs/act/2011/87-3/srp@/!main~art_18__para_3" >ставу 3. овог</ref> члана, надлежни орган му утврђује пребивалиште у складу са <ref wId="ref10" href="akn/rs/act/2011/87-3/srp@/!main~art_11__para_2" >чланом 11. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav5">
+						<content>
+							<p>На решења из ст. <ref wId="ref12" href="akn/rs/act/2011/87-3/srp@/!main~art_18__para_2" >2</ref>. и <ref wId="ref13" href="akn/rs/act/2011/87-3/srp@/!main~art_18__para_4" >4</ref>. овог члана може се изјавити жалба министарству надлежном за унутрашње послове у року од осам дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav6">
+						<content>
+							<p>Надлежни орган ће, по службеној дужности, пасивизирати адресу пребивалишта, односно боравишта, у случају престанка држављанства Републике Србије или смрти грађанина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<heading>Пријава привременог боравка у иностранству и повратка из иностранства</heading>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>Грађани који одлазе у иностранство с намером да непрекидно бораве у иностранству дуже од 90 дана дужни су да, пре одласка, надлежном органу пријаве привремени боравак у иностранству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav2">
+						<content>
+							<p>Грађани који оду у иностранство с намером да непрекидно бораве у иностранству не дуже од 90 дана, а свој боравак продуже, дужни су да привремени боравак у иностранству дужи од 90 дана пријаве надлежном органу, преко дипломатско-конзуларног представништва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav3">
+						<content>
+							<p>Грађани из <ref wId="ref14" href="akn/rs/act/2011/87-3/srp@/!main~art_19__para_1->para_2" >ст. 1. и 2. овог</ref> члана дужни су да пријаве повратак у земљу у року од осам дана од дана повратка у место пребивалишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav4">
+						<content>
+							<p>У случајевима из <ref wId="ref15" href="akn/rs/act/2011/87-3/srp@/!main~art_19__para_1->para_3" >ст. 1</ref>–3. овог члана грађани су дужни да поднесу пријаву и за малолетна лица уколико она путују са њима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav5">
+						<content>
+							<p>Подносиоцу пријаве привременог боравка у иностранству и повратка из иностранства издаје се одговарајућа потврда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan20">
+					<num>20.</num>
+					<heading>Обавештавање надлежног органа</heading>
+					<paragraph wId="gla2-clan20-stav1">
+						<content>
+							<p>Орган надлежан за извршење кривичних санкција дужан је да обавести надлежни орган на чијој територији осуђено лице има пребивалиште да је осуђено лице смештено, односно отпуштено са издржавања казне чим то лице ступи на издржавање казне, односно непосредно након што је отпуштено, а надлежни орган тај податак уноси у евиденцију пребивалишта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan21">
+					<num>21.</num>
+					<paragraph wId="gla2-clan21-stav1">
+						<content>
+							<p>Правно лице, предузетник и физичко лице које пружа услуге смештаја дужно је да води евиденцију долазака и одлазака грађана у складу с прописима којима се уређује област туризма.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav2">
+						<content>
+							<p>Лице које пружа услуге смештаја дужно је да стави на увид податке из евиденције из <ref wId="ref16" href="akn/rs/act/2011/87-3/srp@/!main~art_21__para_1" >става 1. овог</ref> члана полицијском службенику, на његов захтев.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan22">
+					<num>22.</num>
+					<paragraph wId="gla2-clan22-stav1">
+						<content>
+							<p>Грађани који примају на становање лица која су обавезна да пријаве пребивалиште, односно боравиште, дужни су да омогуће да та лица буду пријављена и да им учине доступним сву неопходну документацију за пријављивање пребивалишта, односно боравишта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan23">
+					<num>23.</num>
+					<paragraph wId="gla2-clan23-stav1">
+						<content>
+							<p>Надзор над спровођењем прописа о пријављивању и одјављивању пребивалишта, као и пријављивању и одјављивању боравишта, врши министарство надлежно за унутрашње послове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan24">
+					<num>24.</num>
+					<heading>Евиденција пребивалишта, боравишта и привременог боравка у иностранству</heading>
+					<paragraph wId="gla2-clan24-stav1">
+						<content>
+							<p>Евиденције пребивалишта, боравишта и привременог боравка у иностранству води министарство надлежно за унутрашње послове, у електронском облику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav2">
+						<content>
+							<p>Пребивалиште грађана евидентира се у евиденцији о издатим личним картама, која уједно служи и као евиденција пребивалишта, или се о томе води посебна евиденција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav3">
+						<content>
+							<p>Евиденција привременог боравка у иностранству је саставни део евиденције пребивалишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav4">
+						<content>
+							<p>Евиденција пребивалишта и боравишта грађана је јединствена и садржи следеће податке: јединствени матични број грађана, име и презиме, рођено презиме, пол, датум и место рођења, име и презиме оба родитеља, односно старатеља, јединствени матични број родитеља, односно старатеља, адресу пребивалишта (боравишта, пребивалишта у иностранству), занимање, држављанство, брачно стање и датум пријаве, односно одјаве пребивалишта, боравишта или привременог боравка у иностранству и повратка из иностранства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav5">
+						<content>
+							<p>Евиденције пребивалишта и боравишта грађана чувају се трајно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan25">
+					<num>25.</num>
+					<paragraph wId="gla2-clan25-stav1">
+						<content>
+							<p>На захтев грађанина надлежни орган издаје уверење о његовом пребивалишту или боравишту, које представља јавну исправу и садржи податке из евиденције пребивалишта и боравишта грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav2">
+						<content>
+							<p>Грађанин има право да тражи исправку нетачних и застарелих података који се на њега односе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav3">
+						<content>
+							<p>На захтев суда, органа државне управе, другог органа или организације, као и другог правног или физичког лица, које има оправдан правни интерес, надлежни орган је дужан да достави тражене податке из евиденције пребивалишта и боравишта грађана, у складу с прописима о заштити података о личности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav4">
+						<intro>
+							<p>Надлежни орган може податке из евиденције пребивалишта и боравишта грађана давати државним и другим органима и организацијама, као и другим правним и физичким лицима, под следећим условима:</p>
+						</intro>
+						<point wId="gla2-clan25-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако су законом или другим прописима овлашћени да траже и примају те податке;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan25-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако су им ти подаци неопходни за извршавање послова из њихове надлежности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan25-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако обезбеђују заштиту личних података.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan26">
+					<num>26.</num>
+					<paragraph wId="gla2-clan26-stav1">
+						<content>
+							<p>Подзаконске акте којима се ближе уређује поступак пријављивања и одјављивања пребивалишта и боравишта грађана, пријављивања привременог боравка у иностранству и повратка из иностранства, пасивизирања пребивалишта и боравишта, обрасце и начин вођења евиденција, доноси министар надлежан за унутрашње послове.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla3-clan27">
+					<num>27.</num>
+					<paragraph wId="gla3-clan27-stav1">
+						<intro>
+							<p>Новчаном казном од 10.000 до 50.000 динара казниће се за прекршај физичко лице:</p>
+						</intro>
+						<point wId="gla3-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако не пријави пребивалиште у року утврђеном у <ref wId="ref17" href="akn/rs/act/2011/87-3/srp@/!main~art_9__para_1->para_3" >члану 9. ст. 1</ref>–3. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако не одјави пребивалиште у случају исељења из Републике Србије (<ref wId="ref18" href="akn/rs/act/2011/87-3/srp@/!main~art_14__para_1" >члан 14. став 1. овог</ref> закона);</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако не пријави боравиште у року утврђеном у <ref wId="ref19" href="akn/rs/act/2011/87-3/srp@/!main~art_15__para_1" >члану 15. став 1. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако не пријави пребивалиште и адресу на којој станује у року од осам дана од дана пријема решења о пасивизирању адресе пребивалишта, односно боравишта (<ref wId="ref20" href="akn/rs/act/2011/87-3/srp@/!main~art_18__para_3" >члан 18. став 3. овог</ref> закона);</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ако не пријави привремени боравак у иностранству дужи од 90 дана или ако не пријави повратак у земљу, у складу са <ref wId="ref21" href="akn/rs/act/2011/87-3/srp@/!main~art_19__para_1->para_4" >чланом 19. ст. 1</ref>–4. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> ако полицијском службенику не стави на увид евиденцију долазака и одлазака грађана (<ref wId="ref22" href="akn/rs/act/2011/87-3/srp@/!main~art_21__para_2" >члан 21. став 2. овог</ref> закона);</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> ако прими на становање лица која су обавезна да пријаве пребивалиште, односно боравиште, а не учине им доступним сву неопходну документацију за пријављивање пребивалишта, односно боравишта (<ref wId="ref23" href="akn/rs/act/2011/87-3/srp@/!main~art_22" >члан 22. овог</ref> закона).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav2">
+						<content>
+							<p>За прекршај из става 1. тачка <ref wId="ref24" href="akn/rs/act/2011/87-3/srp@/!main~art_27__para_1__point_6" >6</ref>) овог члана казниће се правно лице новчаном казном у износу од 100.000 до 300.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav3">
+						<content>
+							<p>За прекршај из става 1. тачка <ref wId="ref25" href="akn/rs/act/2011/87-3/srp@/!main~art_27__para_1__point_6" >6</ref>) овог члана казниће се одговорно лице у правном лицу новчаном казном у износу од 30.000 до 150.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav4">
+						<content>
+							<p>За прекршај из става 1. тачка <ref wId="ref26" href="akn/rs/act/2011/87-3/srp@/!main~art_27__para_1__point_6" >6</ref>) овог члана казниће се предузетник новчаном казном у износу од 50.000 до 300.000 динара.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla4-clan28">
+					<num>28.</num>
+					<paragraph wId="gla4-clan28-stav1">
+						<content>
+							<p>Грађани који су пријавили пребивалиште у Републици Србији по прописима који су важили до дана ступања на снагу овог закона нису дужни да поново пријаве своје пребивалиште.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan29">
+					<num>29.</num>
+					<paragraph wId="gla4-clan29-stav1">
+						<content>
+							<p>Држављанима бивших република СФРЈ или држављанима друге државе настале на територији бивше СФРЈ, који немају држављанство Републике Србије, а имају пријављено пребивалиште на територији Републике Србије, надлежни орган ће пасивизирати адресу пребивалишта у Републици Србији по истеку важења личне карте издате од надлежних органа у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan30">
+					<num>30.</num>
+					<paragraph wId="gla4-clan30-stav1">
+						<content>
+							<p>Грађани који су пријавили боравиште на територији Републике Србије пре ступања на снагу овог закона дужни су да пријаве боравиште у складу са одредбама овог закона у року од годину дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan31">
+					<num>31.</num>
+					<paragraph wId="gla4-clan31-stav1">
+						<content>
+							<p>Прописи за спровођење овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона, осим прописа из <ref wId="ref27" href="akn/rs/act/2011/87-3/srp@/!main~art_11__para_5" >члана 11. став 5. овог</ref> закона који ће бити донет у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav2">
+						<content>
+							<p>До доношења подзаконских прописа на основу овог закона, примењују се подзаконски прописи донети на основу закона који је био на снази до дана ступања на снагу овог закона, уколико нису у супротности са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о пребивалишту и боравишту грађана („Службени гласник СРС”, бр. <ref wId="ref28" href="akn/rs/act/77/42/srp@">42/77</ref> – пречишћен текст и 25/89 и „Службени гласник РС”, бр. <ref wId="ref29" href="akn/rs/act/93/53/srp@">53/93</ref> – др. закон, <ref wId="ref30" href="akn/rs/act/93/67/srp@">67/93 – др. закон</ref>, <ref wId="ref31" href="akn/rs/act/94/48/srp@">48/94 – др. закон</ref> и <ref wId="ref32" href="akn/rs/act/05/101/srp@">101/05 – др. закон</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan33">
+					<num>33.</num>
+					<paragraph wId="gla4-clan33-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

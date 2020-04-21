@@ -1,0 +1,4205 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о забрани развоја, производње, складиштења и употребе хемијског оружја и о његовом уништавању">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2009/36-7/main"/>
+					<FRBRuri value="akn/rs/act/2009/36-7"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2013/104-24/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2013/104-24/srp@"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2013/104-24/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2013/104-24/srp@.akn"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-05-15" name="службени гласник рс“" number="36" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="5. Оружје, муниција, опасне и експлозивне материје" value="5. оружје, муниција, опасне и експлозивне материје" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="36/2009-7" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2013-01-01" refersTo="104/2013-24" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2009-05-11" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2009-05-23" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2009-05-23" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="оружја"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="развоја"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="употребе"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="складиштења"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="хемијског"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="производње"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="управљања"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународи"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="уговори"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="потврђеном"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="конвенција"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="срј"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="00"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="супстанцама"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="ограничења"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописују"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="производњу"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="служе"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="хемијским"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="његовом"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="уништавању"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="наменом"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="спровођењем"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="двоструком"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="лист"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="забрани"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="складу"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="забране"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="тог"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="обухвата"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="конвенцијом"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="надзор"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="службени"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="њихову"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="складиштење"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="хемијских"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Komisiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Komisiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Konvencije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Konvenciji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="A"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Alkil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="B."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="BZ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="C10"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="CAS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="DF"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="DOS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Dialkil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Dimetil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Etildietanolamin"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Fozgen"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="H"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Hemijske supstance"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisija za sprovođenje Konvencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije za sprovođenje Konvencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Konvencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Konvencijom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Liste"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Liste 1"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Liste 1."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Liste 2"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Liste 3"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Metildietanolamin"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="N"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="N , N-dialkil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="N dimetilamidocijanofosfat"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O-alkil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Organizacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Organizacije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Organizacije i priloženih dokumenata"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Organizaciji za zabranu hemijskog oružja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PFIB"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PSF supstance"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pinakolil alkohol"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="QL"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ricin"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="S"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="S10"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SCG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saksitoksin"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sekretarijatom Organizacije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tionil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Trietanolamin"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="alkil"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstva nadležnog za odbranu"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="1,3-Bis"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="1,4-Bis"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="1,5-Bis"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Amiton"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Dimetil metilfosfonat"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Fonofos"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Hlorcijan"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Hlorpikrin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Hlorsarin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Hlorsoman"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Luizit"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Luizit 2"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Luiziti"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sarin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Seskviniperit"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Soman"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tiodiglikol"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Trihlornitrometan"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tris"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="i-Pr"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. marta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 8"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. i 12."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. i 14."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. septembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. st. 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stava 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. i 20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3. Aneksa"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. i 22"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. januara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. marta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="37. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. маја 2009. године (види члан 51. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О забрани развоја, производње, складиштења и употребе хемијског оружја и о његовом уништавању "Службени гласник РС", бр. <ref wId="ref139" href="akn/rs/act/2009/36/srp@">36 од 15. маја 2009</ref>, <ref wId="ref140" href="akn/rs/act/2013/104/srp@">104 од 27. новембра 2013</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом прописују се забране и ограничења развоја, производње, складиштења и употребе хемијског оружја и хемијских супстанци које служе за производњу тог оружја, начин и услови управљања хемијским супстанцама са двоструком наменом, што обухвата њихову производњу, прераду, коришћење и складиштење, у складу са потврђеном   Конвенцијом о забрани развоја, производње, складиштења и употребе хемијског оружја и о његовом уништавању („Службени лист СРЈ – Међународи уговори”, број 2/00) – у даљем тексту: Конвенција, као и надзор над спровођењем овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Поједини појмови употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Хемијско оружје је:</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<point wId="gla1-podod3">
+					<num>в</num>
+					<intro>
+						<p> свака опрема која је посебно пројектована за употребу у непосредној вези са муницијом и средствима наведеним у тачки б) овог става;</p>
+					</intro>
+					<point wId="gla1-podod3-clan2-tac2">
+						<num>2)</num>
+						<content>
+							<p> Отровна хемијска супстанца је свака хемијска супстанца која својим хемијским дејством на животне процесе може да изазове смрт, привремену онеспособљеност или трајне последице по људе или животиње, без обзира на њено порекло или начин на који је произведена;</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac3">
+						<num>3)</num>
+						<content>
+							<p> Прекурсор је сваки хемијски реактант који учествује у било ком стадијуму производње хемијске супстанце употребом било које методе, укључујући и било коју кључну компоненту бинарног или вишекомпонентног хемијског система,</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac4">
+						<num>4)</num>
+						<content>
+							<p> Производња отровне хемијске супстанце представља добијање те хемијске супстанце путем хемијске реакције;</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac5">
+						<num>5)</num>
+						<content>
+							<p> Прерада отровне хемијске супстанце представља физички поступак као што је израда смеша, екстракција или пречишћавање, при чему се једна отровна хемијска супстанца не претвара у другу отровну хемијску супстанцу,</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac6">
+						<num>6)</num>
+						<content>
+							<p> Коришћење отровне хемијске супстанце представља претварање те хемијске супстанце у другу хемијску супстанцу путем хемијске реакције,</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac7">
+						<num>7)</num>
+						<content>
+							<p> Анекс подразумева Анекс о хемикалијама уз Конвенцију, који чине Упутства за листу хемикалија и Листу 1, 2. и 3;</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac8">
+						<num>8)</num>
+						<content>
+							<p> Дискретна органска супстанца представља сваку хемијску супстанцу која припада  групи хемијских једињења која садржe угљеник, осим оксида и сулфида угљеника и  карбоната метала, а која се може идентификовати по хемијском називу, структурној  формули, ако је позната, и CAS броју, уколико је одређен;*</p>
+						</content>
+					</point>
+					<point wId="gla1-podod3-clan2-tac9">
+						<num>9)</num>
+						<content>
+							<p> PSF супстанца је органска хемијска супстанца која садржи елементе фосфор, сумпор или флуор.</p>
+						</content>
+					</point>
+					<article wId="gla1-podod3-clan3">
+						<num>3.</num>
+						<heading>*Службени гласник РС,  број <ref wId="ref0" href="akn/rs/act/2013/104/srp@">104/2013</ref></heading>
+						<paragraph wId="gla1-podod3-clan3-stav1">
+							<intro>
+								<p>На територији Републике Србије забрањено је у било којим околностима:</p>
+							</intro>
+							<point wId="gla1-podod3-clan3-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> развијати, производити, стицати, задржавати или, директно или индиректно преносити хемијско оружје на друга лица;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan3-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> употребљавати хемијско оружје;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan3-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> на било који начин укључивати у војне припреме употребу хемијског оружја;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan3-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> на било који начин помагати, охрабривати или подстицати друге да се укључе у активности које су забрањене овим законом;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan3-stav1-tac5">
+								<num>5)</num>
+								<content>
+									<p> користити агенсе за сузбијање нереда као метод ратовања.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="gla1-podod3-clan4">
+						<num>4.</num>
+						<paragraph wId="gla1-podod3-clan4-stav1">
+							<intro>
+								<p>Забране из <ref wId="ref1" href="akn/rs/act/2013/104-24/srp@/!main~art_3" >члана 3. овог</ref> закона не односе се на производњу, поседовање, прераду и коришћење отровних хемијских супстанци и њихових прекурсора (у даљем тексту: хемијске супстанце) за сврхе које нису забрањене Конвенцијом, као што су:</p>
+							</intro>
+							<point wId="gla1-podod3-clan4-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> индустријске, пољопривредне, истраживачке, медицинске, фармацеутске или друге мирољубиве сврхе;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan4-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> заштитне сврхе, односно, оне сврхе које се директно односе на заштиту од отровних хемијских супстанци и хемијског оружја;</p>
+								</content>
+							</point>
+							<point wId="gla1-podod3-clan4-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> војне сврхе које нису у вези са употребом хемијског оружја и не зависе од употребе отровних својстава хемијских супстанци као метода ратовања.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="gla1-podod3-clan4-stav2">
+							<content>
+								<p>Хемијске супстанце из <ref wId="ref2" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1" >става 1. овог</ref> члана разврстане су на хемијске супстанце са Листе 1, 2. и 3. Анекса (у даљем тексту: Листе 1, 2. и 3). Листе 1, 2. и 3. чине саставни део овог закона и одштампане су уз њега.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla1-podod3-clan5">
+						<num>5.</num>
+						<paragraph wId="gla1-podod3-clan5-stav1">
+							<content>
+								<p>О производњи, преради, коришћењу и складиштењу хемијских супстанци са Листе 1, 2. и 3, о постројењима за њихову производњу, прераду и коришћење као и о постројењима за производњу дискретних органских супстанци мора се поднети декларација Организацији за забрану хемијског оружја (у даљем тексту: Организација), најкасније до 31. марта текуће године за претходну годину.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla1-podod3-clan6">
+						<num>6.</num>
+						<paragraph wId="gla1-podod3-clan6-stav1">
+							<content>
+								<p>Организација врши верификацију спровођења Конвенције у погледу производње, прераде, коришћења и складиштења хемијских супстанци, као и у погледу постројења за њихову производњу, прераду и коришћење, на основу декларације из <ref wId="ref3" href="akn/rs/act/2013/104-24/srp@/!main~art_5" >члана 5. овог</ref> закона и извештаја међународне инспекције.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="gla1-podod3-clan7">
+						<num>7.</num>
+						<paragraph wId="gla1-podod3-clan7-stav1">
+							<content>
+								<p>Забране из <ref wId="ref4" href="akn/rs/act/2013/104-24/srp@/!main~art_3" >члана 3. овог</ref> закона не односе се на хемијске супстанце које нису наведене у Листи 1, 2. и 3, а које служе у сврху одржавања јавног реда и потребе сузбијања унутрашњих нереда.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-podod3-clan7-stav2">
+							<content>
+								<p>О поседовању хемијске супстанце из <ref wId="ref5" href="akn/rs/act/2013/104-24/srp@/!main~art_7__para_1" >става 1. овог</ref> члана министарство надлежно за унутрашње послове подноси декларацију Организацији преко Комисије за спровођење Конвенције, најкасније 30 дана по прибављању нове хемијске супстанце за те намере.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="gla1-podod3-clan7-stav3">
+							<content>
+								<p>Декларација мора да садржи хемијски назив, структурну формулу и CAS број ако је одређен.</p>
+							</content>
+						</paragraph>
+					</article>
+				</point>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>КОМИСИЈА ЗА СПРОВОЂЕЊЕ КОНВЕНЦИЈЕ</heading>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Комисија за спровођење Конвенције (у даљем тексту: Комисија) прати и координира активности у вези са спровођењем међународних обавеза из Конвенције, сарађује са Секретаријатом Организације и националним телима других држава чланица Конвенције, као и са међународном инспекцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Комисију образује Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>О спровођењу овог закона Комисија подноси извештај Влади најмање једном у шест месеци.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Чланови Комисије и представници надлежних органа који учествују у спровођењу овог закона, дужни су да штите поверљиве информације до којих дођу у вршењу послова у вези са применом Конвенције.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>АКТИВНОСТИ КОЈЕ СУ ДОЗВОЉЕНЕ КОНВЕНЦИЈОМ</heading>
+				<article wId="gla3-od1-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-od1-clan11-stav1">
+						<content>
+							<p>Научни и војни институти, привредно друштво и друго правно лице (у даљем тексту: правно лице) пре започињања производње хемијске супстанце са Листе 1. морају имати одобрење министарства надлежног за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan11-stav2">
+						<intro>
+							<p>Уз захтев за одобрење правно лице из <ref wId="ref6" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_1" >става 1. овог</ref> члана подноси податке:</p>
+						</intro>
+						<point wId="gla3-od1-clan11-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> о фабрици, погону, односно постројењу за производњу хемијске супстанце са Листе 1;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan11-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> о количини која ће се производити;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan11-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> о хемијској супстанци која ће се производити;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan11-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> у које сврхе ће се користити произведена хемијска супстанца.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan11-stav3">
+						<content>
+							<p>Захтев из <ref wId="ref7" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_2" >става 2. овог</ref> члана мора се поднети најкасније 210 дана пре дана предузимања активности за које се тражи одобрење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan11-stav4">
+						<content>
+							<p>Министарство надлежно за одбрану издаће одобрење ако се према поднетим подацима може оценити да је сврха производње и количина хемијске супстанце у складу са <ref wId="ref8" href="akn/rs/act/2013/104-24/srp@/!main~art_18" >чланом 18. овог</ref> закона, као и да је постројење за производњу такво да одговара условима из чл. <ref wId="ref9" href="akn/rs/act/2013/104-24/srp@/!main~art_19" >19</ref>. и <ref wId="ref10" href="akn/rs/act/2013/104-24/srp@/!main~art_20" >20</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan11-stav5">
+						<content>
+							<p>По издавању одобрења из <ref wId="ref11" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_4" >става 4. овог</ref> члана министарство надлежно за одбрану је дужно да о томе обавести Организацију преко Комисије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan12">
+					<num>12.</num>
+					<paragraph wId="gla3-od1-clan12-stav1">
+						<content>
+							<p>Правно лице које користи или складишти хемијску супстанцу са Листе 1, односно производи, прерађује, користи или складишти хемијску супстанцу са Листе 2, односно производи хемијску супстанцу са Листе 3. у сврхе из члана 4. став 1. тач. <ref wId="ref12" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1__point_2" >2</ref>) и <ref wId="ref13" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1__point_3" >3</ref>) овог закона, као и власник, односно корисник фабрике, погона, односно постројења за њихову производњу, прераду и коришћење, дужни су да пре започињања своје делатности поднесу пријаву министарству надлежном за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan12-stav2">
+						<intro>
+							<p>Пријава из <ref wId="ref14" href="akn/rs/act/2013/104-24/srp@/!main~art_12__para_1" >става 1. овог</ref> члана садржи нарочито:</p>
+						</intro>
+						<point wId="gla3-od1-clan12-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о фабрици, погону, односно постројењу и власнику односно кориснику;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan12-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> податке о томе да ли се ради о производњи, преради, коришћењу или складиштењу хемијске супстанце;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan12-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> податке о производним капацитетима фабрике, погона, односно постројења;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan12-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> податке о тачном месту где се хемијска супстанца са Листе 1, 2. и 3. производи у оквиру фабрике, погона, односно постројења.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan13">
+					<num>13.</num>
+					<paragraph wId="gla3-od1-clan13-stav1">
+						<content>
+							<p>Уз захтев из <ref wId="ref15" href="akn/rs/act/2013/104-24/srp@/!main~art_11" >члана 11. овог</ref> закона, као и уз пријаву из <ref wId="ref16" href="akn/rs/act/2013/104-24/srp@/!main~art_12__para_2" >члана 12. став 2. овог</ref> закона за хемијску супстанцу са Листе 1. подноси се и детаљан технички опис погона, односно постројења, укључујући и инвентар опреме, као и детаљни дијаграм.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan13-stav2">
+						<content>
+							<p>Евиденцију о издатим одобрењима као и о поднетим пријавама води министарство надлежно за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan13-stav3">
+						<content>
+							<p>Упутство за вођење евиденције о издатим одобрењима и поднетим пријавама доноси министар надлежан за одбрану.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan14">
+					<num>14.</num>
+					<paragraph wId="gla3-od1-clan14-stav1">
+						<content>
+							<p>Привредно друштво, односно друго правно лице (у даљем тексту: правно лице) које производи, прерађује, користи или складишти хемијску супстанцу са Листе 2, односно производи хемијску супстанцу са Листе 3. и дискретну органску супстанцу у индустријске, пољопривредне, истраживачке, медицинске, фармацеутске или друге мирољубиве сврхе као и власник односно корисник фабрике, погона, односно постројења за њихову производњу, прераду и коришћење, дужан је да пре започињања своје делатности поднесе пријаву министарству надлежном за управљање хемикалијама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan14-stav2">
+						<intro>
+							<p>Пријава из <ref wId="ref17" href="akn/rs/act/2013/104-24/srp@/!main~art_14__para_1" >става 1. овог</ref> члана садржи нарочито:</p>
+						</intro>
+						<point wId="gla3-od1-clan14-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о фабрици, погону, односно постројењу и власнику односно кориснику;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan14-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> податке о томе да ли се ради о производњи, преради, коришћењу или складиштењу хемијске супстанце;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan14-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> податке о производним капацитетима фабрике, погона односно постројења;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan14-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> податке о тачном месту где се хемијска супстанца са Листе 2. и 3. производи у оквиру фабрике, погона, односно постројења.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan14-stav3">
+						<content>
+							<p>Евиденцију пријава из <ref wId="ref18" href="akn/rs/act/2013/104-24/srp@/!main~art_14__para_1" >става 1. овог</ref> члана води министарство надлежно за управљање хемикалијама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan15">
+					<num>15.</num>
+					<paragraph wId="gla3-od1-clan15-stav1">
+						<content>
+							<p>Правно лице, односно власник или корисник из чл. <ref wId="ref19" href="akn/rs/act/2013/104-24/srp@/!main~art_11" >11</ref>. и <ref wId="ref20" href="akn/rs/act/2013/104-24/srp@/!main~art_12" >12</ref>. овог закона дужни су да пријаве министарству надлежном за одбрану сваку реконструкцију погона за производњу и коришћење хемијске супстанце, као и све промене у технологији производње и коришћења хемијских супстанци са Листе 1, најкасније 180 дана пре започињања реконструкције односно започињања рада по новој технологији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan15-stav2">
+						<content>
+							<p>О реконструкцији погона односно промене технологије из <ref wId="ref21" href="akn/rs/act/2013/104-24/srp@/!main~art_15__para_1" >става 1. овог</ref> члана министарство надлежно за одбрану обавештава Организацију преко Комисије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan16">
+					<num>16.</num>
+					<paragraph wId="gla3-od1-clan16-stav1">
+						<content>
+							<p>Правно лице из <ref wId="ref22" href="akn/rs/act/2013/104-24/srp@/!main~art_11" >члана 11. овог</ref> закона и правно лице и власник, односно корисник фабрике, погона односно постројења из <ref wId="ref23" href="akn/rs/act/2013/104-24/srp@/!main~art_12" >члана 12. овог</ref> закона дужан је да министарству надлежном за одбрану, а правно лице из <ref wId="ref24" href="akn/rs/act/2013/104-24/srp@/!main~art_14" >члана 14. овог</ref> закона и власник, односно корисник фабрике, погона односно постројења из <ref wId="ref25" href="akn/rs/act/2013/104-24/srp@/!main~art_15" >члана 15. овог</ref> закона министарству надлежном за управљање хемикалијама поднесе извештај о производњи хемијске супстанце са Листе 1, 2. и 3. и дискретне органске супстанце, о преради, коришћењу и складиштењу хемијске супстанце са Листе 1. и 2, као и податке о фабрици, погону односно постројењу за њихову производњу, прераду и коришћење до 31. јануара текуће године за претходну календарску годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan16-stav2">
+						<content>
+							<p>Поред извештаја из <ref wId="ref26" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >става 1. овог</ref> члана ова правна лица дужна су да поднесу и информацију о плановима за производњу, прераду, коришћење и складиштење хемијске супстанце, као и о плановима везаним за фабрику, погон, односно постројење у којима ће се те делатности обављати, најкасније до 15. септембра текуће године за наредну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan16-stav3">
+						<content>
+							<p>Ако настану промене у плановима за производњу, прераду и коришћење хемијске супстанце са Листе 2. односно у плановима за производњу хемијске супстанце са Листе 3, после достављања информације из <ref wId="ref27" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_2" >става 2. овог</ref> члана, правно лице је дужно да то пријави најкасније 5 дана пре дана предузимања активности које доводе до ових промена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan16-stav4">
+						<content>
+							<p>Информација из <ref wId="ref28" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_2->para_3" >ст. 2. и 3. овог</ref> члана не подноси се за дискретну органску супстанцу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan17">
+					<num>17.</num>
+					<paragraph wId="gla3-od1-clan17-stav1">
+						<content>
+							<p>Извоз и увоз хемијске супстанце са Листе 1, 2. и 3. врши се на основу дозволе коју издаје министарство надлежно за спољну трговину наоружањем, војном опремом и робом двоструке намене и само за сврхе дозвољене Конвенцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan17-stav2">
+						<content>
+							<p>Забрањен је извоз и увоз хемијске супстанце са Листе 1. и 2. са државом која није држава уговорница Конвенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan17-stav3">
+						<content>
+							<p>Ималац дозволе из <ref wId="ref29" href="akn/rs/act/2013/104-24/srp@/!main~art_17__para_1" >става 1. овог</ref> члана дужан је органу надлежном за издавање дозволе достави најкасније до 31. јануара текуће године извештај о реализованом извозу и увозу за претходну календарску годину, као и да најкасније до 15. септембра текуће године достави информацију о активностима планираним у наредној календарској години.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan18">
+					<num>18.</num>
+					<paragraph wId="gla3-od2-clan18-stav1">
+						<intro>
+							<p>Производња, коришћење и складиштење хемијских супстанци са Листе 1. може се вршити под условом:</p>
+						</intro>
+						<point wId="gla3-od2-clan18-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да се та хемијска супстанца употребљава за истраживање, медицинске или фармацеутске сврхе, односно у заштитне сврхе;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan18-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да је количина хемијских супстанци само онолика колико је довољно да се испуни сврха из тачке <ref wId="ref30" href="akn/rs/act/2013/104-24/srp@/!main~art_18__para_1__point_1" >1</ref>. овог члана;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan18-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> да укупна количина тих хемијских супстанци у било ком тренутку на територији Републике Србије за те намене не прелази једну тону;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan18-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> да укупна количина за ове намене до које се дошло у било којој години производњом, повлачењем из залиха хемијског оружја или стечена трансфером, не прелази једну тону.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan19">
+					<num>19.</num>
+					<paragraph wId="gla3-od2-clan19-stav1">
+						<content>
+							<p>Производња хемијске супстанце са Листе 1. дозвољена је само у малим постројењима са једним погоном.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan19-stav2">
+						<content>
+							<p>Мала постројења из <ref wId="ref31" href="akn/rs/act/2013/104-24/srp@/!main~art_19__para_1" >става 1. овог</ref> члана морају да имају такве реакционе судове у којима се не може континуирано производити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan19-stav3">
+						<content>
+							<p>Запремина реакционог суда не сме бити већа од 100 литара, а ако има више реакционих судова запремина сваког суда не сме бити већа од пет литара, а укупна запремина свих судова не сме бити већа од 500 литара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan20">
+					<num>20.</num>
+					<paragraph wId="gla3-od2-clan20-stav1">
+						<intro>
+							<p>Изузетно од <ref wId="ref32" href="akn/rs/act/2013/104-24/srp@/!main~art_19" >члана 19. овог</ref> закона, производња хемијске супстанце са Листе 1. може се обављати и ван малог постројења са једним погоном, ако:</p>
+						</intro>
+						<point wId="gla3-od2-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> је укупна количина произведених хемијских супстанци мања од 10 килограма годишње и ако та хемијска супстанца служи за заштитне сврхе;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> је укупна количина већа од 100 грама а мања од 10 килограма годишње по постројењу и ако та хемијска супстанца служи за истраживачке, медицинске или фармацеутске сврхе;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> се синтеза хемијских супстанци са Листе 1. за истраживачке, медицинске или фармацеутске сврхе врши у лабораторијама, под условом да је укупна количина мања од 100 грама годишње по лабораторији.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan21">
+					<num>21.</num>
+					<paragraph wId="gla3-od2-clan21-stav1">
+						<intro>
+							<p>Извештај из <ref wId="ref33" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона за хемијску супстанцу са Листе 1. која се производи, набавља, користи или складишти у малим постројењима са једним погоном, односно производи ван малог постројења са једним погоном у количинама из члана 20. став 1. тач. <ref wId="ref34" href="akn/rs/act/2013/104-24/srp@/!main~art_20__para_1__point_1" >1</ref>) и <ref wId="ref35" href="akn/rs/act/2013/104-24/srp@/!main~art_20__para_1__point_2" >2</ref>) овог закона садржи:</p>
+						</intro>
+						<point wId="gla3-od2-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о постројењу односно погону;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> хемијски назив, структурну формулу и CAS број;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan21-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> примењени метод и произведену количину;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan21-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> назив и количину прекурсора наведених у Листи 1, 2. и 3. који се користе у производњи хемијске супстанце са Листе 1;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan21-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> утрошену количину, као и сврху за коју је она утрошена;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan21-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> количину хемијске супстанце која је допремљена из другог постројења односно отпремљена у друго постројење са назнаком количине, намене и примаоца;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan21-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> максималну количину хемијске супстанце која се у било ком тренутку складишти у току године, и ускладиштене количине на крају године;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan21-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> податке о свакој реконструкцији постројења, односно погона и промени у технолошком процесу извршеним током године, укључујући инвентар опреме и детаљан дијаграм.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan21-stav2">
+						<content>
+							<p>Изузетно од става 1. тачка <ref wId="ref36" href="akn/rs/act/2013/104-24/srp@/!main~art_21__para_1__point_8" >8</ref>) овог члана извештај за хемијску супстанцу са Листе 1. која се производи ван малог постројења са једним погоном не садржи инвентар опреме и детаљан дијаграм.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan22">
+					<num>22.</num>
+					<paragraph wId="gla3-od2-clan22-stav1">
+						<intro>
+							<p>Информација о плановима из <ref wId="ref37" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_2" >члана 16. став 2. овог</ref> закона за хемијску супстанцу са Листе 1. која се производи, користи или складишти у малим постројењима са једним погоном, односно производи ван малог постројења са једним погоном у количинама из члана 20. став 1. тач. <ref wId="ref38" href="akn/rs/act/2013/104-24/srp@/!main~art_20__para_1__point_1" >1</ref>) и <ref wId="ref39" href="akn/rs/act/2013/104-24/srp@/!main~art_20__para_1__point_2" >2</ref>) овог закона обухвата:</p>
+						</intro>
+						<point wId="gla3-od2-clan22-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о постројењу односно погону;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan22-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> хемијски назив, структурну формулу и CAS број;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan22-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> количину која се предвиђа да ће бити произведена и сврху производње;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan22-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> податке о свакој реконструкцији постројења, односно погона и промени у технолошком процесу која се планира у следећој години укључујући инвентар опреме и детаљан дијаграм.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan22-stav2">
+						<content>
+							<p>Поред података из става 1. тачка <ref wId="ref40" href="akn/rs/act/2013/104-24/srp@/!main~art_22__para_1__point_3" >3</ref>) овог члана информација за хемијску супстанцу са Листе 1. која се производи ван малог постројења са једним погоном обухвата и период када се планира производња, а изузетно од става 1. тачка <ref wId="ref41" href="akn/rs/act/2013/104-24/srp@/!main~art_22__para_1__point_4" >4</ref>) овог члана информација не обухвата инвентар опреме и детаљан дијаграм.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan23">
+					<num>23.</num>
+					<paragraph wId="gla3-od3-clan23-stav1">
+						<intro>
+							<p>Извештај из <ref wId="ref42" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1->para_2" >члана 16.  ст. 1. и 2.</ref>1 овог закона за хемијску супстанцу са Листе 2. подноси се за сваку фабрику са једним или више погона ако је у било којој од претходне три календарске године у њој произведено, прерађено или коришћено, односно ако је предвиђено да се произведе, преради или користи у наредној календарској години више од:</p>
+						</intro>
+						<point wId="gla3-od3-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> 1 килограма хемијске супстанце означене са ( ) са Листе 2, део А;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> 100 килограма било које друге хемијске супстанце са Листе 2, део А;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan23-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> 1 тоне хемијске супстанце са Листе 2, део Б.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan23-stav2">
+						<intro>
+							<p>Изузетно од <ref wId="ref43" href="akn/rs/act/2013/104-24/srp@/!main~art_23__para_1" >става 1. овог</ref> члана извештај се не подноси за хемијску супстанцу:1</p>
+						</intro>
+						<point wId="gla3-od3-clan23-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> из става 1. тач. <ref wId="ref44" href="akn/rs/act/2013/104-24/srp@/!main~art_23__para_1__point_1" >1</ref>) и <ref wId="ref45" href="akn/rs/act/2013/104-24/srp@/!main~art_23__para_1__point_2" >2</ref>) овог члана ако је концентрација те супстанце:1</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<point wId="gla3-od3-podod2">
+					<num>б</num>
+					<intro>
+						<p> већа од 1%, али мања или једнака 10% у односу на укупну масу, под условом да  је годишње произведено, прерађено или искоришћено мање од 10 килограма хемијске  супстанце означене са (*) са Листе 2, део А, односно 1 тоне било које друге  хемијске супстанце са Листе 2, део А;1</p>
+					</intro>
+					<point wId="gla3-od3-podod2-clan23-tac2">
+						<num>2)</num>
+						<content>
+							<p> из става 1. тачка 3) овог члана ако је концентрација те супстанце мања од 30%  у односу на укупну масу.1</p>
+						</content>
+					</point>
+					<article wId="gla3-od3-podod2-clan24">
+						<num>24.</num>
+						<heading>1Службени гласник РС,  број <ref wId="ref47" href="akn/rs/act/2013/104/srp@">104/2013</ref></heading>
+						<paragraph wId="gla3-od3-podod2-clan24-stav1">
+							<intro>
+								<p>Извештај из <ref wId="ref46" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона за хемијску супстанцу са Листе 2. садржи:</p>
+							</intro>
+							<point wId="gla3-od3-podod2-clan24-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> основне податке о фабрици, погону, односно постројењу;</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+				</point>
+				<point wId="gla3-od3-podod5">
+					<num>в</num>
+					<intro>
+						<p> број погона, односно постројења у оквиру фабрике која производе, прерађују или користе ову хемијску супстанцу;</p>
+					</intro>
+					<point wId="gla3-od3-podod5-clan24-tac2">
+						<num>2)</num>
+						<content>
+							<p> врсту погона односно постројења са детаљним подацима о месту тог погона у оквиру фабрике, укључујући конкретну зграду или број објекта, као и податке из тачке 1) у вези са тим погоном;</p>
+						</content>
+					</point>
+				</point>
+				<point wId="gla3-od3-podod8">
+					<num>в</num>
+					<intro>
+						<p> податке о томе да ли се погон користи само за ове активности или има и друге намене;</p>
+					</intro>
+					<point wId="gla3-od3-podod8-clan24-tac3">
+						<num>3)</num>
+						<content>
+							<p> податке о хемијској супстанци;</p>
+						</content>
+					</point>
+				</point>
+				<point wId="gla3-od3-podod10">
+					<num>б</num>
+					<intro>
+						<p> укупну количину хемијске супстанце која је произведена, прерађена, коришћена, увезена или извезена у току претходне календарске године;</p>
+					</intro>
+					<point wId="gla3-od3-podod10-clan24-tac4">
+						<num>4)</num>
+						<content>
+							<p> сврху производње, прераде или коришћења хемијске супстанце;</p>
+						</content>
+					</point>
+				</point>
+				<article wId="gla3-od3-podod12-clan25">
+					<num>25.</num>
+					<paragraph wId="gla3-od3-podod12-clan25-stav1">
+						<intro>
+							<p>Информација из <ref wId="ref48" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_2" >члана 16. став 2. овог</ref> закона за хемијску супстанцу са Листе 2. обухвата:</p>
+						</intro>
+						<point wId="gla3-od3-podod12-clan25-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> основне податке о фабрици, погону, односно постројењу, и то:</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<point wId="gla3-od3-podod15">
+					<num>в</num>
+					<intro>
+						<p> број погона, односно постројења у оквиру фабрике која производе, прерађују или користе ову хемијску супстанцу;</p>
+					</intro>
+					<point wId="gla3-od3-podod15-clan25-tac2">
+						<num>2)</num>
+						<content>
+							<p> врсту погона односно постројења са детаљним подацима о месту тог погона у оквиру фабрике, укључујући конкретну зграду или број објекта, као и податке из тачке 1) у вези са тим погоном, и то:</p>
+						</content>
+					</point>
+				</point>
+				<point wId="gla3-od3-podod18">
+					<num>в</num>
+					<intro>
+						<p> податке о томе да ли се погон користи само за ове активности или има и друге намене;</p>
+					</intro>
+					<point wId="gla3-od3-podod18-clan25-tac3">
+						<num>3)</num>
+						<content>
+							<p> податке о хемијској супстанци;</p>
+						</content>
+					</point>
+				</point>
+				<point wId="gla3-od3-podod20">
+					<num>б</num>
+					<intro>
+						<p> укупну количину хемијске супстанце чија се производња, прерада или коришћење предвиђа, укључујући и предвиђено време за те активности;</p>
+					</intro>
+					<point wId="gla3-od3-podod20-clan25-tac4">
+						<num>4)</num>
+						<content>
+							<p> сврху производње, прераде или коришћења хемијске супстанце;</p>
+						</content>
+					</point>
+				</point>
+				<article wId="gla3-od4-clan26">
+					<num>26.</num>
+					<paragraph wId="gla3-od4-clan26-stav1">
+						<content>
+							<p>Извештај из <ref wId="ref49" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. става 1. овог</ref> закона за хемијску супстанцу са Листе 3. подноси се за сваку фабрику која се састоји од једног или више погона ако је у њој током претходне календарске године произведено, односно ако ће се у наредној календарској години произвести више од 30 тона сваке хемијске супстанце са Листе 3. чија је концентрација најмање 30% у односу на укупну масу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od4-clan27">
+					<num>27.</num>
+					<paragraph wId="gla3-od4-clan27-stav1">
+						<intro>
+							<p>Извештај из <ref wId="ref50" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона за хемијску супстанцу са Листе 3. садржи:</p>
+						</intro>
+						<point wId="gla3-od4-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> основне податке о фабрици, погону, односно постројењу, и то:</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<point wId="gla3-od4-podod3">
+					<num>в</num>
+					<intro>
+						<p> број погона, односно постројења у оквиру фабрике која производе ову хемијску супстанцу;</p>
+					</intro>
+					<point wId="gla3-od4-podod3-clan27-tac2">
+						<num>2)</num>
+						<content>
+							<p> врсту погона односно постројења са детаљним подацима о месту тог погона у оквиру фабрике, укључујући конкретну зграду или број објекта, као и податке из тачке 1) у вези са тим погоном;</p>
+						</content>
+					</point>
+				</point>
+				<point wId="gla3-od4-podod4">
+					<num>а</num>
+					<intro>
+						<p> врсту главне активности;</p>
+					</intro>
+					<point wId="gla3-od4-podod4-clan27-tac3">
+						<num>3)</num>
+						<content>
+							<p> податке о хемијској супстанци;</p>
+						</content>
+					</point>
+				</point>
+				<article wId="gla3-od4-podod7-clan28">
+					<num>28.</num>
+					<paragraph wId="gla3-od4-podod7-clan28-stav1">
+						<intro>
+							<p>Информација из <ref wId="ref51" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_2" >члана 16. став 2. овог</ref> закона за хемијске супстанце са Листе 3. обухвата:</p>
+						</intro>
+						<point wId="gla3-od4-podod7-clan28-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> основне податке о фабрици, погону, односно постројењу;</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<point wId="gla3-od4-podod10">
+					<num>в</num>
+					<intro>
+						<p> број погона, односно постројења у оквиру фабрике која производе ове хемијске супстанце;</p>
+					</intro>
+					<point wId="gla3-od4-podod10-clan28-tac2">
+						<num>2)</num>
+						<content>
+							<p> врсту погона односно постројења са детаљним подацима о месту тог погона у оквиру фабрике, укључујући конкретну зграду или број објекта, као и податке из тачке 1) у вези са тим погоном;</p>
+						</content>
+					</point>
+				</point>
+				<point wId="gla3-od4-podod11">
+					<num>а</num>
+					<intro>
+						<p> врсту главне активности;</p>
+					</intro>
+					<point wId="gla3-od4-podod11-clan28-tac3">
+						<num>3)</num>
+						<content>
+							<p> податке о хемијској супстанци, и то:</p>
+						</content>
+					</point>
+				</point>
+				<article wId="gla3-od5-clan29">
+					<num>29.</num>
+					<paragraph wId="gla3-od5-clan29-stav1">
+						<intro>
+							<p>Извештај из <ref wId="ref52" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона подноси се за дискретне органске супстанце (ДОС) под условом да су синтезом произведене у једној фабрици односно њеном погону или постројењу у претходној години у количини, и то:</p>
+						</intro>
+						<point wId="gla3-od5-clan29-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> више од 200 тона, или</p>
+							</content>
+						</point>
+						<point wId="gla3-od5-clan29-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> више од 30 тона дискретних органских супстанци које садрже елементе фосфор, сумпор или флуор (у даљем тексту: PSF супстанце).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan29-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref53" href="akn/rs/act/2013/104-24/srp@/!main~art_29__para_1" >става 1. овог</ref> члана извештај се не подноси за дискретну органску супстанцу која је експлозив или угљоводоник.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan30">
+					<num>30.</num>
+					<paragraph wId="gla3-od5-clan30-stav1">
+						<intro>
+							<p>Извештај из <ref wId="ref54" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16.  став* 1. овог</ref> закона садржи следеће податке:</p>
+						</intro>
+						<point wId="gla3-od5-clan30-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о фабрици у којој се налази погон за производњу те супстанце, и то:</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<point wId="gla3-od5-podod3">
+					<num>в</num>
+					<intro>
+						<p> врсту главне активности;</p>
+					</intro>
+					<point wId="gla3-od5-podod3-clan30-tac2">
+						<num>2)</num>
+						<content>
+							<p> приближан број погона који производе дискретне органске супстанце са посебно наведеним бројем погона за производњу PSF супстанце;</p>
+						</content>
+					</point>
+					<point wId="gla3-od5-podod3-clan30-tac3">
+						<num>3)</num>
+						<content>
+							<p> податке о дискретној органској супстанци, и то:*</p>
+						</content>
+					</point>
+				</point>
+				<paragraph wId="gla3-od5-podod5-clan30-stav1">
+					<content>
+						<p>*Службени гласник РС,  број 104/2013</p>
+					</content>
+				</paragraph>
+				<article wId="gla3-od6-clan31">
+					<num>31.</num>
+					<paragraph wId="gla3-od6-clan31-stav1">
+						<content>
+							<p>Министарство надлежно за одбрану односно министарство надлежно за управљање хемикалијама на основу извештаја и информација из <ref wId="ref55" href="akn/rs/act/2013/104-24/srp@/!main~art_16" >члана 16. овог</ref> закона, као и орган надлежан за издавање дозволе из <ref wId="ref56" href="akn/rs/act/2013/104-24/srp@/!main~art_17__para_3" >члана 17. став 3. овог</ref> закона, за извоз и увоз на основу извештаја и информација дужни су да сачине нацрт декларација у складу са Конвенцијом и да их најкасније до 1. марта текуће године доставе Комисији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od6-clan31-stav2">
+						<content>
+							<p>Декларације из <ref wId="ref57" href="akn/rs/act/2013/104-24/srp@/!main~art_31__para_1" >става 1. овог</ref> члана као и декларације о збирним подацима за целу земљу, Комисија са надлежним органима припрема и доставља Организацији.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>Надзор над спровођењем овог закона врши се међународном верификацијом и инспекцијским надзором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan33">
+					<num>33.</num>
+					<paragraph wId="gla4-od1-clan33-stav1">
+						<content>
+							<p>Међународна верификација врши се међународном инспекцијом коју спроводе међународни инспектори у сарадњи са пратећим тимом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan34">
+					<num>34.</num>
+					<paragraph wId="gla4-od1-clan34-stav1">
+						<content>
+							<p>Обавештење о доласку међународне инспекције Организација упућује Комисији која је дужна да потврди пријем обавештења о најављеној инспекцији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan35">
+					<num>35.</num>
+					<paragraph wId="gla4-od1-clan35-stav1">
+						<content>
+							<p>Комисија из свог састава образује пратећи тим. За чланове пратећег тима могу бити одређени и други представници надлежних органа који већ имају представнике у Комисији, у зависности од тога да ли је међународна инспекција најављена за правна лица из чл. <ref wId="ref59" href="akn/rs/act/2013/104-24/srp@/!main~art_11" >11</ref>. и <ref wId="ref60" href="akn/rs/act/2013/104-24/srp@/!main~art_12" >12</ref>. овог закона или за правна лица из <ref wId="ref58" href="akn/rs/act/2013/104-24/srp@/!main~art_14" >члана 14. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan35-stav2">
+						<content>
+							<p>Начин и поступак сарадње са међународном инспекцијом при вршењу инспекције правних лица из <ref wId="ref61" href="akn/rs/act/2013/104-24/srp@/!main~art_35__para_1" >става 1. овог</ref> члана, упутством уређује министар надлежан за управљање хемикалијама у сарадњи са министром надлежним за одбрану.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan36">
+					<num>36.</num>
+					<paragraph wId="gla4-od1-clan36-stav1">
+						<intro>
+							<p>Пратећи тим током инспекције осигурава да се међународни инспекцијски тим придржава обавеза и ужива права која су предвиђена одредбама Конвенције и у том циљу:</p>
+						</intro>
+						<point wId="gla4-od1-clan36-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> на улазном месту од шефа међународног инспекцијског тима прима писмено овлашћење издато од Организације о врсти, месту, времену и начину вршења инспекције;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan36-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> на улазном месту проверава опрему и инструменте које међународни инспекцијски тим уноси и прихвата их или одбија на основу листе издате од стране Организације и приложених докумената;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan36-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> обезбеђује транспорт како би инспекцијски тим дошао до места инспекције у року од 12 сати од момента доласка на улазно место;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan36-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> обезбеђује да се инспекција спроводи по процедури прописаној у Конвенцији;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan36-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> учествује у верификационим активностима које спроводи инспекцијски тим, надгледа стриктно придржавање мандата утврђеног од стране Организације и надгледа да се вршењем инспекције у што мањој мери ометају редовне активности на инспекцијском месту или у појединим погонима;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan36-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> проверава, након спроведене инспекције, опрему и инструменте као и узорке узете од стране међународних инспектора и учествује у испуњавању царинских формалности које су предвиђене за овакве случајеве;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan36-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> потписује прелиминарни извештај о извршеној инспекцији.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan37">
+					<num>37.</num>
+					<paragraph wId="gla4-od1-clan37-stav1">
+						<content>
+							<p>Правно лице из чл. <ref wId="ref62" href="akn/rs/act/2013/104-24/srp@/!main~art_11" >11</ref>, <ref wId="ref63" href="akn/rs/act/2013/104-24/srp@/!main~art_12" >12</ref>. и <ref wId="ref64" href="akn/rs/act/2013/104-24/srp@/!main~art_14" >14</ref>. овог закона дужно је да омогући међународну инспекцију, да сарађује са пратећим тимом и да му помаже у спровођењу међународне инспекције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan37-stav2">
+						<content>
+							<p>Начин и поступци сарадње правних лица из <ref wId="ref65" href="akn/rs/act/2013/104-24/srp@/!main~art_37__para_1" >става 1. овог</ref> члана са пратећим тимом упутством уређује министар надлежан за управљање хемикалијама у сарадњи са министром надлежним за одбрану.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan38">
+					<num>38.</num>
+					<paragraph wId="gla4-od2-clan38-stav1">
+						<content>
+							<p>Инспекцијски надзор над производњом, прерадом или коришћењем, односно складиштењем хемијске супстанце са Листе 1, 2. и 3. у војне сврхе дозвољене конвенцијом врши орган надлежан за инспекцијске послове у области одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan39">
+					<num>39.</num>
+					<paragraph wId="gla4-od2-clan39-stav1">
+						<content>
+							<p>Инспекцијски надзор над производњом, прерадом, коришћењем или складиштењем хемијске супстанце са Листе 2. и 3. и дискретних органских супстанци за индустријске, пољопривредне, истраживачке, медицинске, фармацеутске и друге мирољубиве сврхе врше инспектори за заштиту животне средине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan40">
+					<num>40.</num>
+					<paragraph wId="gla4-od2-clan40-stav1">
+						<intro>
+							<p>У вршењу послова инспекцијског надзора инспектор органа надлежног за инспекцијске послове у области одбране и инспектор за заштиту животне средине (у даљем тексту: инспектор) овлашћен је и дужан да контролише нарочито:</p>
+						</intro>
+						<point wId="gla4-od2-clan40-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> придржавање обавезе пријављивања производње, прераде, коришћења и складиштења хемијске супстанце из чл. <ref wId="ref66" href="akn/rs/act/2013/104-24/srp@/!main~art_11" >11</ref>, <ref wId="ref67" href="akn/rs/act/2013/104-24/srp@/!main~art_12" >12</ref>. и <ref wId="ref68" href="akn/rs/act/2013/104-24/srp@/!main~art_14" >14</ref>. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan40-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> тачност података из пријаве о производњи, преради, коришћењу и складиштењу хемијске супстанце;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan40-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> придржавање обавезе пријављивања реконструкције погона за производњу, прераду и коришћење хемијске супстанце као и све промене технологије производње, прераде и коришћења;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan40-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> тачност пријављених података о реконструкцији погона за производњу, прераду и коришћење хемијске супстанце као и поштовање рокова за пријављивање;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan40-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> придржавање обавезе подношења извештаја и информација о производњи, преради, коришћењу и складиштењу хемијске супстанце, као и податке о постројењима за производњу, прераду и коришћење те хемијске супстанце;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan40-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> тачност података у извештајима и информацијама и поштовање рокова достављања тих извештаја и информација.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan41">
+					<num>41.</num>
+					<paragraph wId="gla4-od2-clan41-stav1">
+						<intro>
+							<p>У вршењу надзора из <ref wId="ref69" href="akn/rs/act/2013/104-24/srp@/!main~art_40" >члана 40. овог</ref> закона инспектор је овлашћен и дужан да:</p>
+						</intro>
+						<point wId="gla4-od2-clan41-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> нареди пријављивање производње, прераде, коришћења и складиштења хемијске супстанце из чл. <ref wId="ref70" href="akn/rs/act/2013/104-24/srp@/!main~art_11" >11</ref>, <ref wId="ref71" href="akn/rs/act/2013/104-24/srp@/!main~art_12" >12</ref>. и <ref wId="ref72" href="akn/rs/act/2013/104-24/srp@/!main~art_14" >14</ref>. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan41-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> забрани производњу, прераду, коришћење и складиштење хемијске супстанце док се не изврши пријављивање;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan41-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> нареди достављање у пријави тачних података о производњи, преради, коришћењу и складиштењу хемијске супстанце;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan41-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> нареди придржавање рокова;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan41-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> нареди пријављивање реконструкције погона за производњу, прераду и коришћење хемијске супстанце као и промену технологије производње, прераде и коришћења хемијске супстанце;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan41-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> забрани рад погона за производњу, прераду, коришћење и складиштење хемијске супстанце као и промену технологије производње, прераде и коришћења хемијске супстанце док се не изврши пријављивање;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan41-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> нареди достављање тачних података у вези са реконструкцијом погона;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan41-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> нареди поштовање рокова пријављивања реконструкције и промене технологије;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan41-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> нареди достављање извештаја и информација.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan41-stav2">
+						<content>
+							<p>У вршењу послова из <ref wId="ref73" href="akn/rs/act/2013/104-24/srp@/!main~art_41__para_1" >става 1. овог</ref> члана инспектор може предузети и друге мере којима се онемогућава производња, прерада, коришћење и складиштење хемијске супстанце супротно овом закону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan42">
+					<num>42.</num>
+					<paragraph wId="gla4-od2-clan42-stav1">
+						<content>
+							<p>Ако инспектор у вршењу надзора из <ref wId="ref74" href="akn/rs/act/2013/104-24/srp@/!main~art_40" >члана 40. овог</ref> закона нађе да је приликом извоза и увоза хемијске супстанце повређен закон којим се уређује спољнотрговински промет наоружања, војне опреме и робе са двоструком наменом дужан је да о томе одмах обавести министарство надлежно за спољну трговину наоружањем, војном опремом и робом двоструке намене и заједно са њим изврши надзор и предузме одговарајуће мере.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan43">
+					<num>43.</num>
+					<paragraph wId="gla4-od2-clan43-stav1">
+						<content>
+							<p>Министарство надлежно за одбрану односно министарство надлежно за управљање хемикалијама, дужно је да поднесе извештај о инспекцијском надзору Комисији најмање једном у шест месеци, а у случају грубог кршења одредби овог закона одмах. Инспекцијски извештај мора да садржи нарочито податке о извршеним инспекцијама, издатим налозима и другим мерама, као и о поднетим пријавама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan44">
+					<num>44.</num>
+					<paragraph wId="gla4-od2-clan44-stav1">
+						<content>
+							<p>Против решења инспектора о одређивању мера из <ref wId="ref75" href="akn/rs/act/2013/104-24/srp@/!main~art_41" >члана 41. овог</ref> закона, може се изјавити жалба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan44-stav2">
+						<content>
+							<p>Жалба на решење не задржава његово извршење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan44-stav3">
+						<content>
+							<p>По жалби на првостепено решење решава министар надлежан за одбрану односно министар надлежан за управљање хемикалијама.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla5-od1-clan45">
+					<num>45.</num>
+					<paragraph wId="gla5-od1-clan45-stav1">
+						<intro>
+							<p>Новчаном казном од 150.000 до 3.000.000 динара казниће се за привредни преступ привредно друштво и друго правно лице које производи, прерађује, користи или складишти хемијске супстанце ако:</p>
+						</intro>
+						<point wId="gla5-od1-clan45-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> развија, производи, стиче, задржава или, директно или индиректно преноси хемијско оружје на друга лица, односно употребљава хемијско оружје, односно на било који начин укључује у војне припреме употребу хемијског оружја, односно на било који начин помаже, охрабрује или подстиче друге да се укључе у активности које су забрањене овим законом, односно користи агенсе за сузбијање нереда као метод ратовања (<ref wId="ref76" href="akn/rs/act/2013/104-24/srp@/!main~art_3" >члан 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> пре започињања производње хемијске супстанце са Листе 1. нема одобрење министарства надлежног за одбрану (<ref wId="ref77" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_1" >члан 11. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> уз захтев за одобрење из <ref wId="ref78" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_1" >члана 11. став 1. овог</ref> закона не поднесе тачне податке (<ref wId="ref79" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_2" >члан 11. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> захтев из <ref wId="ref80" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_2" >члана 11. став 2. овог</ref> закона не поднесе у прописаном року (<ref wId="ref81" href="akn/rs/act/2013/104-24/srp@/!main~art_11__para_3" >члан 11. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> не пријави министарству надлежном за одбрану коришћење и складиштење хемијске супстанце са Листе 1, односно производњу, прераду, коришћење и складиштење хемијске супстанце са Листе 2. или производњу хемијске супстанце са Листе 3. у сврхе из члана 4. став 1. тач. <ref wId="ref83" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1__point_2" >2</ref>) и <ref wId="ref84" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1__point_3" >3</ref>) овог закона (<ref wId="ref82" href="akn/rs/act/2013/104-24/srp@/!main~art_12" >члан 12</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> не достави тачне податке у пријави за започињање делатности као и детаљан опис постројења укључујући инвентар опреме и детаљни дијаграм (<ref wId="ref85" href="akn/rs/act/2013/104-24/srp@/!main~art_12__para_2" >члан 12. став 2. </ref>и <ref wId="ref86" href="akn/rs/act/2013/104-24/srp@/!main~art_13__para_1" >члан 13. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> не пријави започињање делатности министарству надлежном за управљање хемикалијама (<ref wId="ref87" href="akn/rs/act/2013/104-24/srp@/!main~art_14__para_1" >члан 14. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> не достави тачне податке у пријави за започињање делатности министарству надлежном за управљање хемикалијама (<ref wId="ref88" href="akn/rs/act/2013/104-24/srp@/!main~art_14__para_2" >члан 14. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> не пријави сваку реконструкцију погона за производњу и коришћење хемијске супстанце, као и све примене у технологији производње и коришћења хемијских супстанци са Листе 1. или не пријави најкасније 180 дана пре започињања реконструкције, односно започињања рада по новој технологији (<ref wId="ref89" href="akn/rs/act/2013/104-24/srp@/!main~art_15" >члан 15</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> не поднесе извештај о производњи, преради и складиштењу хемијске супстанце, као и податке о погону односно постројењима за производњу, прераду и коришћење хемијске супстанце до 31. јануара текуће године за претходну календарску годину (<ref wId="ref90" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члан 16. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> не поднесе информацију о плановима за производњу, прераду, коришћење и складиштење хемијске супстанце као и о плановима који се односе на погоне и постројења у којима ће се те делатности обављати најкасније до 15. септембра текуће године за наредну календарску годину (<ref wId="ref91" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_2" >члан 16. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> не поднесе информацију о насталим променама у плановима за производњу, прераду и коришћење хемијске супстанце са Листе 2. односно у плановима за производњу хемијске супстанце са Листе 3, после достављања информације у року из <ref wId="ref92" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_3" >члана 16. став 3. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> производи, користи и складишти хемијску супстанцу са Листе 1. супротно условима из <ref wId="ref93" href="akn/rs/act/2013/104-24/srp@/!main~art_18" >члана 18. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> производи хемијску супстанцу са Листе 1. у недозвољеним постројењима односно у реакционим судовима у којима се може континуирано производити или је запремина реакционих судова већа од прописане (<ref wId="ref94" href="akn/rs/act/2013/104-24/srp@/!main~art_19" >члан 19</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od1-clan45-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> производњу хемијске супстанце са Листе 1. обавља ван малог постројења са једним погоном а укупна количина произведене хемијске супстанце је већа од 10 килограма годишње и ако та хемијска супстанца не служи за заштитне сврхе, као ни за истраживачке, медицинске и фармацеутске сврхе (<ref wId="ref95" href="akn/rs/act/2013/104-24/srp@/!main~art_20" >члан 20</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan45-stav2">
+						<content>
+							<p>За привредни преступ из <ref wId="ref96" href="akn/rs/act/2013/104-24/srp@/!main~art_45__para_1" >става 1. овог</ref> члана казниће се и одговорно лице у привредном друштву или другом правном лицу новчаном казном од 50.000 до 200.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan45-stav3">
+						<content>
+							<p>За привредни преступ из <ref wId="ref97" href="akn/rs/act/2013/104-24/srp@/!main~art_45__para_1" >става 1. овог</ref> члана привредном друштву или другом правном лицу може се уз изречену казну изрећи и заштитна мера забране обављања одређене привредне делатности до 10 година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan45-stav4">
+						<content>
+							<p>За привредни преступ из <ref wId="ref98" href="akn/rs/act/2013/104-24/srp@/!main~art_45__para_1" >става 1. овог</ref> члана одговорном лицу у привредном друштву или другом правном лицу може се уз изречену казну изрећи и заштитна мера забране вршења одређене делатности до 10 година.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od1-clan46">
+					<num>46.</num>
+					<paragraph wId="gla5-od1-clan46-stav1">
+						<content>
+							<p>Новчаном казном од 50.000 до 200.000 динара казниће се за привредни преступ привредно друштво или друго правно лице које има дозволу за извоз и увоз хемијске супстанце са Листе 1, 2. и 3. прописане Законом о спољној трговини наоружањем, војном опремом и робом са двоструком наменом („Службени лист СЦГ”, број <ref wId="ref100" href="akn/rs/act/05/7/srp@">7/05</ref>), а који до 15. септембра текуће године органу надлежном за издавање дозволе не достави информацију о активностима планираним у наредној календарској години (<ref wId="ref99" href="akn/rs/act/2013/104-24/srp@/!main~art_17__para_3" >члан 17. став 3</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan46-stav2">
+						<content>
+							<p>За радње из <ref wId="ref101" href="akn/rs/act/2013/104-24/srp@/!main~art_46__para_1" >става 1. овог</ref> члана за привредни преступ казниће се и одговорно лице у привредном друштву или другом правном лицу новчаном казном од 20.000 до 100.000 динара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od2-clan47">
+					<num>47.</num>
+					<paragraph wId="gla5-od2-clan47-stav1">
+						<intro>
+							<p>Новчаном казном од 10.000 до 1.000.000 динара казниће се за прекршаје привредно друштво или друго правно лице које производи, прерађује или користи, односно складишти хемијску супстанцу ако:</p>
+						</intro>
+						<point wId="gla5-od2-clan47-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> не поднесе извештаје и информације из <ref wId="ref102" href="akn/rs/act/2013/104-24/srp@/!main~art_16" >члана 16. овог</ref> закона за хемијске супстанце са Листе 1. (чл. <ref wId="ref103" href="akn/rs/act/2013/104-24/srp@/!main~art_21" >21</ref>. и <ref wId="ref104" href="akn/rs/act/2013/104-24/srp@/!main~art_22" >22</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> извештај из <ref wId="ref105" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона за хемијску супстанцу са Листе 1. не садржи податке из <ref wId="ref106" href="akn/rs/act/2013/104-24/srp@/!main~art_21" >члана 21. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> информација из <ref wId="ref107" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_2" >члана 16. став 2. овог</ref> закона за хемијску супстанцу са Листе 1. не садржи податке из <ref wId="ref108" href="akn/rs/act/2013/104-24/srp@/!main~art_22" >члана 22. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> не поднесе извештај из <ref wId="ref109" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. </ref>за хемијску супстанцу са Листе 2. а производио је или прерађивао или користио ту хемијску супстанцу у току три претходне календарске године односно ако наставља са наведеним делатностима, односно ако је за те делатности утрошио више од количине прописане у <ref wId="ref110" href="akn/rs/act/2013/104-24/srp@/!main~art_23" >члану 23. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> извештај из <ref wId="ref111" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона за хемијску супстанцу са Листе 2. не садржи податке из <ref wId="ref112" href="akn/rs/act/2013/104-24/srp@/!main~art_24" >члана 24. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> информација о плановима из <ref wId="ref113" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_2" >члана 16. став 2. овог</ref> закона за хемијску супстанцу са Листе 2. не обухвата податке из <ref wId="ref114" href="akn/rs/act/2013/104-24/srp@/!main~art_25" >члана 25. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> не поднесе извештај из <ref wId="ref115" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. </ref>за хемијску супстанцу са Листе 3. а претходне календарске године је произведено односно у наредној календарској години биће произведено више од 30 тона ове хемијске супстанце чија је концентрација најмање 30% у односу на укупну масу (<ref wId="ref116" href="akn/rs/act/2013/104-24/srp@/!main~art_26" >члан 26</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> извештај из <ref wId="ref117" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона за хемијску супстанцу са Листе 3. не садржи податке из <ref wId="ref118" href="akn/rs/act/2013/104-24/srp@/!main~art_27" >члана 27. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> информација о плановима из <ref wId="ref119" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_2" >члана 16. став 2. овог</ref> закона за хемијску супстанцу са Листе 3. не обухвата податке из <ref wId="ref120" href="akn/rs/act/2013/104-24/srp@/!main~art_28" >члана 28. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> не поднесе извештај из <ref wId="ref121" href="akn/rs/act/2013/104-24/srp@/!main~art_16__para_1" >члана 16. став 1. </ref>за дискретну органску супстанцу која је синтезом произведена у претходној календарској години у количини већој од 200 тона или већој од 30 тона ако садржи елементе фосфор, сумпор и флуор (<ref wId="ref122" href="akn/rs/act/2013/104-24/srp@/!main~art_29" >члан 29</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> извештај из <ref wId="ref123" href="akn/rs/act/2013/104-24/srp@/!main~art_29" >члана 29. </ref>не садржи податке из <ref wId="ref124" href="akn/rs/act/2013/104-24/srp@/!main~art_30" >члана 30. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-od2-clan47-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> спречава међународну инспекцију или не сарађује и не помаже пратећем тиму у спровођењу међународне инспекције (<ref wId="ref125" href="akn/rs/act/2013/104-24/srp@/!main~art_37" >члан 37</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan47-stav2">
+						<content>
+							<p>За прекршаје из <ref wId="ref126" href="akn/rs/act/2013/104-24/srp@/!main~art_47__para_1" >става 1. овог</ref> члана казниће се одговорно лице у привредном друштву или другом правном лицу новчаном казном од 10.000 до 50.000 динара или казном затвора до 30 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan47-stav3">
+						<content>
+							<p>За прекршаје из <ref wId="ref127" href="akn/rs/act/2013/104-24/srp@/!main~art_47__para_1" >става 1. овог</ref> члана казниће се предузетник новчаном казном од 50.000 до 500.000 динара или казном затвора до 30 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan47-stav4">
+						<content>
+							<p>За прекршаје из <ref wId="ref128" href="akn/rs/act/2013/104-24/srp@/!main~art_47__para_1" >става 1. овог</ref> члана казниће се физичко лице новчаном казном од 10.000 до 50.000 динара или казном затвора до 30 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan47-stav5">
+						<content>
+							<p>За прекршаје из <ref wId="ref129" href="akn/rs/act/2013/104-24/srp@/!main~art_47__para_1" >става 1. овог</ref> члана привредном друштву или другом правном лицу може се уз изречену казну изрећи и заштитна мера забране вршења одређене делатности до једне године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan47-stav6">
+						<content>
+							<p>За прекршаје из <ref wId="ref130" href="akn/rs/act/2013/104-24/srp@/!main~art_47__para_1" >става 1. овог</ref> члана одговорном лицу у привредном друштву или другом правном лицу може се уз изречену казну изрећи и заштитна мера забране вршења одређених послова у трајању до једне године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan47-stav7">
+						<content>
+							<p>За прекршаје из <ref wId="ref131" href="akn/rs/act/2013/104-24/srp@/!main~art_47__para_1" >става 1. овог</ref> члана предузетнику или физичком лицу може се уз изречену казну изрећи и заштитна мера забране вршења одређене делатности до три године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan48">
+					<num>48.</num>
+					<paragraph wId="gla6-clan48-stav1">
+						<content>
+							<p>Правна лица која производе хемијску супстанцу са Листе 1. дужна су да поднесу захтев за издавање одобрења министарству надлежном за одбрану најкасније у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav2">
+						<content>
+							<p>Правно лице које користи или складишти хемијску супстанцу са Листе 1, производи, прерађује, користи или складишти хемијску супстанцу са Листе 2, односно производи хемијску супстанцу са Листе 3. у сврхе из члана 4. став 1. тач. <ref wId="ref132" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1__point_2" >2</ref>) и <ref wId="ref133" href="akn/rs/act/2013/104-24/srp@/!main~art_4__para_1__point_3" >3</ref>) овог закона, као и власник односно корисник фабрике, погона односно постројења за њихову производњу, прераду и коришћење, дужан је да поднесе пријаву о обављању делатности министарству надлежном за одбрану најкасније у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav3">
+						<content>
+							<p>Правно лице које производи, прерађује или користи односно складишти хемијску супстанцу са Листе 2, односно производи хемијску супстанцу са Листе 3. и дискретну органску супстанцу у индустријске, пољопривредне, истраживачке, медицинске, фармацеутске или друге мирољубиве сврхе као и власник односно корисник фабрике, погона односно постројења за њихову производњу, прераду и коришћење, дужан је да поднесе пријаву о обављању делатности министарству надлежном за управљање хемикалијама најкасније у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan49">
+					<num>49.</num>
+					<paragraph wId="gla6-clan49-stav1">
+						<content>
+							<p>Упутство из <ref wId="ref134" href="akn/rs/act/2013/104-24/srp@/!main~art_13" >члана 13. овог</ref> закона министар надлежан за одбрану донеће у року од 12 месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav2">
+						<content>
+							<p>Упутство из <ref wId="ref135" href="akn/rs/act/2013/104-24/srp@/!main~art_35__para_2" >члана 35. став 2. овог</ref> закона и <ref wId="ref136" href="akn/rs/act/2013/104-24/srp@/!main~art_37__para_2" >члана 37. став 2. овог</ref> закона министар надлежан за управљање хемикалијама у сарадњи са министром надлежним за одбрану донеће у року од 12 месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan50">
+					<num>50.</num>
+					<paragraph wId="gla6-clan50-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о забрани развоја, производње, складиштења и употребе хемијског оружја и о његовом уништавању („Службени лист СЦГ”, број <ref wId="ref137" href="akn/rs/act/05/44/srp@">44/05</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan51">
+					<num>51.</num>
+					<paragraph wId="gla6-clan51-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav2">
+						<content>
+							<p>Прилог</p>
+						</content>
+					</paragraph>
+					<paragraph class="special" wId="gla6-clan51-stav3">
+						<content>
+							<table>
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Листа 1. 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(CAS 
+
+1 број)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+А. Токсичне хемијске супстанце:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(1) О-алкил (мање или једнако 
+
+C10, 
+укључујући циклоалкил) алкил (Me, 
+Et, n-Pr 
+
+или 
+
+i-Pr)-флуорофосфонати
+
+</p>
+										
+
+										<p>
+
+На пример: Сарин: О-изопропил метилфлуорофосфонат 
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(107-44-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Соман: О-пинаколил метилфлуорофосфонат 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(96-64-0)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(2) О-алкил (мање или једнако С10, укључујући циклоалкил) N,N-диалкил 
+(Me, Et, n-Pr или i-Pr) амидоцијанофосфат 
+
+</p>
+										
+
+										<p>
+
+На пример: Табун: О-етил 
+
+N,N 
+
+диметиламидоцијанофосфат 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(77-81-6)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(3) О-алкил (H
+
+или мање или једнако С10, укључујући циклоалкил) S-2-диалкил 
+(Me, Et, n-Pr или i-Pr)-аминоетил алкил (Me, Et, n-Pr или i-Pr) 
+тиофосфонати и одговарајуће алкиловане или протоноване соли 
+
+</p>
+										
+
+										<p>
+
+На пример: 
+
+VX: 
+О-етил S-2-диизопропиламиноетилметилтиофосфонат
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(50782-69-9)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(4) Сумпорни иперити: 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+2-хлоретилхлорметилсулфид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(2625-76-5) 
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Иперит: дихлордиетилсулфид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(505-60-2)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Bis(2-хлоретилтио)метан
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(63869-13-6)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Сесквиниперит:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+1,2-Bis(2-хлоретилтио)етан
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(3563-36-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+1,3-Bis(2-хлоретилтио)-н-пропан
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(63905-10-2)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+1,4-Bis(2- 
+хлоретилтио)-н-бутан 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(142868-93-7)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+1,5-Bis(2- 
+хлоретилтио)-н-пентан 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(142868-94-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Bis(2-хлоретилтиометил)етар
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(63918-90-1)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+О-иперит: 
+
+Bis(2-хлоретилтиоетил)етар
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(63918-89-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(5) Луизити:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Луизит 1: 2-хлоровинилдихлорарсин 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(541-25-3)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Луизит 2: 
+
+Bis(2-хлорвинил)хлорарсин
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(40334-69-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Луизит 3: 
+
+Tris(2-хлорвинил)арсин
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(40334-70-1)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(6) Азотни иперити:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+HN1: Bis(2-хлоретил)етиламин
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(538-07-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+HN2: Bis(2-хлоретил)метиламин
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(51-75-2)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+HN3: Tris(2-хлоретил)амин
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(555-77-1)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(7) Сакситоксин 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(35523-89-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(8) Рицин 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(9009-86-3)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Б. Прекурсори:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(9) Алкил (Me, Et, n-Pr или i-Pr) фосфонилдифлуориди</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+На пример: 
+
+DF:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Метилфосфонилдифлуорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(676-99-3)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(10) О-алкил (H
+
+или мање или једнако С10, уључујући циклоалкил) О-2-диалкил (Me, Et, 
+n-Pr или i-Pr)-аминоетил алкил (Me, Et, n-Pr или i-Pr) фосфонити и 
+одговарајуће алкиловане или протоноване соли</p>
+										
+
+										<p>
+
+На пример: 
+
+QL: 
+
+О-етил О-2-диизопропиламиноетилметилфосфонит</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(57856-11-8)</p>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(11) Хлорсарин: О-изопропил метилхлорфосфонат 
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(1445-76-7)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(12) Хлорсоман: О-пинаколил метилхлорфосфонат 
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(7040-57-5)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										<p>
+</p>
+									</td>
+									
+
+									<td>
+										<p>
+</p>
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										<p>
+</p>
+									</td>
+									
+
+									<td>
+										<p>
+</p>
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Листа 2. 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(CAS 
+
+1 број)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+А. Токсичне хемијске супстанце:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(1) Амитон: О,О-диетил 
+S-[2-(диетиламино)етил]тиофосфонат
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(78-53-5)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+и одговарајуће алкиловане или протоноване соли 
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(2) 
+
+PFIB: 
+
+1,1,3,3,3-пентафлуор-2-(трифлуорметил)-1-пропен 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(382-21-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(3) 
+BZ: 
+
+3-хинуклидинил бензилат (*) 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(6581-06-2)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Б. Прекурсори:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(4) Хемијске супстанце, осим оних наведених у Листи 1, које садрже атом 
+фосфора за који је везана једна метил, етил или пропил (нормална или 
+изо) група, али не и други атоми угљеника</p>
+										
+
+										<p>
+
+На пример: Метилфосфонил дихлорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(676-97-1)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Диметил метилфосфонат 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(756-79-6)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Изузетак: Фонофос: О-етил S-фенил1</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+етилфосфонотиолотионат 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(944-22-9)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(5) N,N-диалкил 
+(Me, Et, n-Pr или i-Pr) амидофосфатни дихалиди</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(6) Диалкил (Me, Et, n-Pr или i-Pr) 
+
+N,N-диалкил 
+(Me, Et, n-Pr или i-Pr)-амидофосфати</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(7) Арсен трихлорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(7784-34-1)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(8) 2,2-дифенил-2-хидрокси сирћетна киселина 
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(76-93-7)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(9) Хинуклидин-3-ол 
+
+</p>
+									</td>
+									
+
+									<td>
+										<p>
+</p>
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(10) N,N-диалкил 
+(Me, Et, n-Pr или i-Pr) аминоетил-2-хлориди и одговарајуће протоноване 
+соли</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(11) 
+
+N,N-диалкил 
+(Me, Et, n-Pr или i-Pr) аминоетан-2-оли и одговарајуће протоноване соли </p>
+										
+
+										<p>
+Изузеци: 
+
+ N,N-диметиламиноетанол
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(108-01-0)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+и одговарајуће протоноване соли</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+ 
+
+N,N-диетиламиноетанол
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(100-37-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+и одговарајуће протоноване соли</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(12) 
+
+N,N-диалкил 
+(Me, Et, n-Pr или i-Pr) аминоетан-2-тиоли и одговарајуће протоноване 
+соли</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(13) Тиодигликол:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Bis(2-хидроксиетил)сулфид
+
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(111-48-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(14) Пинаколил алкохол:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+3,3-диметилбутан-2-ол 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(464-07-3)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										<p>
+</p>
+									</td>
+									
+
+									<td>
+										<p>
+</p>
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										<p>
+</p>
+									</td>
+									
+
+									<td>
+										<p>
+</p>
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Листа 3. 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(CAS 
+1 
+број)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+А. Токсичне хемијске супстанце:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(1) Фозген: Карбонил дихлорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(75-44-5)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(2) Хлорцијан 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(506-77-4)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(3) Цианводоник</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(74-90-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(4) Хлорпикрин: Трихлорнитрометан 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(76-06-2)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+Б. Прекурсори:</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(5) Фосфор оксихлорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(10025-87-3)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(6) Фосфор трихлорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(7719-12-2)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(7) Фосфор пентахлорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(10026-13-8)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(8) Триметил фосфит 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(121-45-9)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(9) Триетил фосфит 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(122-52-1)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(10) Диметил фосфит 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(868-85-9)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(11) Диетил фосфит 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(762-04-9)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(12) Сумпор монохлорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(10025-67-9)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(13) Сумпор дихлорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(10545-99-0)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(14) Тионил хлорид 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(7719-09-7)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(15) Етилдиетаноламин 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(139-87-7)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(16) Метилдиетаноламин 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(105-59-9)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+								<tr>
+									
+
+									<td>
+										
+
+										<p>
+
+(17) Триетаноламин 
+</p>
+										
+
+									</td>
+									
+
+									<td>
+										
+
+										<p>
+
+(102-71-6)</p>
+										
+
+									</td>
+									
+
+								</tr>
+								
+
+							</table>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav4">
+						<content>
+							<p>1Службени  гласник РС, број <ref wId="ref138" href="akn/rs/act/2013/104/srp@">104/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

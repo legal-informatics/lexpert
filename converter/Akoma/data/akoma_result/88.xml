@@ -1,0 +1,1689 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о испитивању, жигосању и обележавању оружја, направа и муниције">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2018/87-44/main"/>
+					<FRBRuri value="akn/rs/act/2018/87-44"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/87-44/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/87-44/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/87-44/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/87-44/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-11-13" name="службени гласник рс" number="87" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="5. Оружје, муниција, опасне и експлозивне материје" value="5. оружје, муниција, опасне и експлозивне материје" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2018-11-09" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2018-11-21" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2019-11-21" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="овлашћених"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезе"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="оружја"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="делова"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="муниције"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="основних"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="направа"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="жигосање"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="овлашћеног"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="продаваца"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="обележавање"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="правног"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="сервисера"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="испитивање"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="лица"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="хомологација"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="елемената"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="власника"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="увозника"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="произвођача"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agenciji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agenciji i"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agenciji i Ministarstvu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Tormentacija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije a"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije i Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agenciji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agenciju za ispitivanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="J"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="L"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva finansija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo )"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O izvršenoj kategorizaciji Agencija izdaje rešenje podnosiocu zahteva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="P"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SCG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Stalna međunarodna komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zavod za ispitivanje oružja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zavodu za ispitivanje oružja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstva nadležnog za unutrašnje poslove"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1. tačka 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1. tačka 5"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. stav 4. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. stav 4. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. stav 1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="kalibra"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 21. новембра 2018. године, а почиње да се примењује у року од годину дана од дана ступања на снагу овог закона, осим на произвођаче оружја, направа и муниције у поступку извоза у земље Ц.И.П.-а, на које се одредбе овог закона примењују од дана пријема Републике Србије у пуноправно чланство Ц.И.П.-а (види члан 46. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О испитивању, жигосању и обележавању оружја, направа и муниције "Службени гласник РС", број <ref wId="ref71" href="akn/rs/act/2018/87/srp@">87 од 13. новембра 2018</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се испитивање, жигосање, обележавање и хомологација оружја, основних делова оружја, направа и муниције, права и обавезе произвођача, увозника, овлашћених продаваца, овлашћених сервисера и власника оружја, основних делова оружја, направа и муниције и елемената муниције, права и обавезе овлашћеног правног лица за испитивање, жигосање и обележавање оружја, направа и муниције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Под оружјем, у смислу овог закона, подразумева се ватрено оружје, конвертибилно оружје, ваздушно оружје и оружје са тетивом (у даљем тексту: оружје), које је утврђено законом који уређује набављање, држање и ношење оружја и муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Под основним деловима оружја, у смислу овог закона, подразумевају се основни делови оружја који су утврђени законом који уређује набављање, држање и ношење оружја и муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<intro>
+							<p>Под направама, у смислу овог закона, подразумевају се сви преносиви уређаји, апарати или индустријски алати који могу да активирају пуњења која су израђена од експлозивних или пиротехничких материја и који су намењени за погон или да доведу у кретање гас, течност, чврсте честице или чврсте предмете или само да произведу светлосни или звучни ефекат, који су конструисани као:</p>
+						</intro>
+						<point wId="gla1-clan2-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> пиротехничка средства (ваздушног, звучног или светлосно звучног дејства);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> уређаји за техничке и индустријске сврхе под условом да могу да се користе само за ту, прецизно дефинисану намену (за обраду метала деформацијом, за спајање и закивање материјала, за бушење рупа);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> уређаји за омамљивање животиња и хумано лишавање животиња живота.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>Под муницијом, у смислу овог закона, подразумевају се меци и патроне који се користе за оружје, који чине целину и који се састоје од експлозивних или пиротехничких материја, иницијалне каписле и чауре, намењене за испаљење, погон или за покретање пројектила, гасовитих, течних или чврстих честица или само да произведу светлосни или звучни ефекат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav5">
+						<content>
+							<p>Под елементима муниције, у смислу овог закона подразумевају се чауре са капислом, патроне, каписле, пројектили и барут.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav6">
+						<content>
+							<p>Под типом муниције, у смислу овог закона, подразумева се калибар утврђен називом, са димензијама и нивоом притиска.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav7">
+						<content>
+							<p>Под серијом муниције, у смислу овог закона, подразумева се скуп метака истог типа серијски произведених под истим условима код једног произвођача, израђених од чауре истог произвођача, модела и серије, зрна истог произвођача, типа, модела и масе, барута истог произвођача највише две серије, као и каписле истог произвођача, типа и највише две серије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav8">
+						<content>
+							<p>Под безбедношћу при гађању, у смислу овог закона, подразумева се да ватрено оружје, направе и њихови основни делови морају да издрже притисак торментачне муниције која се користи при пробном гађању (торментација), као и да при гађању трајно издрже притисак муниције која је у општој употреби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav9">
+						<content>
+							<p>Под испитивањем и еталонирањем, у смислу овог закона, подразумева се поступак у коме се на прописан начин врши провера оружја, направа, муниције и елемената муниције у складу са техничким захтевима и стандардима и врше активности у току којих се, помоћу пробног гађања, техничким методама и мерењима, утврђују техничке карактеристике мерне опреме, уређаја, оружја, направа и муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav10">
+						<content>
+							<p>Под категоризацијом оружја, у смислу овог закона, подразумева се одређивање категорије ваздушног оружја и оружја са тетивом у складу са одредбама закона који уређује набављање, држање и ношење оружја и муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav11">
+						<content>
+							<p>Под техничким захтевима и стандардима, у смислу овог закона подразумевају се домаћи и међународно прихваћени стандарди као и прописи који проистичу из овог и законa који уређује набављање, држање и ношење оружја и муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav12">
+						<content>
+							<p>Хомологација оружја, направа и муниције, у смислу овог закона, јесте поступак којим се проверава усаглашеност оружја, направа и муниције и елемената муниције са међународним прописима, одредбама овог закона и прописима донетим на основу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav13">
+						<content>
+							<p>Под контролом типа муниције, у смислу овог закона, подразумева се провера усаглашености муниције са техничким захтевима и прописима донетим на основу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav14">
+						<content>
+							<p>Под појмом појединачног испитивања, у смислу овог закона, подразумева се да поступку испитивања подлеже свака јединица оружја, направе, паковања муниције, елемената муниције и оружја коме је трајно промењена намена у цивилно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav15">
+						<content>
+							<p>Под добровољним испитивањем, у смислу овог закона, подразумева се испитивање већ испитаног оружја, направа, муниције и елемената муниције на захтев произвођача, увозника односно власника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav16">
+						<content>
+							<p>Торментација, у смислу овог закона, је испитивање отпорности материјала ватреног оружја, односно основних делова ватреног оружја оптерећених повишеним притиском, које се одређује за сваки тип и калибар муниције, посебно на основу њихових номиналних притисака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav17">
+						<content>
+							<p>Појачана торментација оружја са глатким цевима, у смислу овог закона, представља испитивање које се врши на исти начин и под истим условима као и појединачно испитивање оружја, осим пробног гађања код кога се користи муниција са вишим нивоом притиска у односу на торментачну муницију за пробно гађање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav18">
+						<content>
+							<p>Под испитивањем онеспособљеног оружја, у смислу овог закона, подразумева се поступак којим се врши провера да ли су основни делови оружја трајно онеспособљени на начин да њиховим уклањањем, заменом или поправком, оружје не може бити поново оспособљено за употребу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav19">
+						<content>
+							<p>Обележавање муниције, у смислу овог закона, јесте поступак којим се на сваки метак утискује ознака за идентификацију произвођача и калибар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav20">
+						<content>
+							<p>Обележавање оружја и направа, у смислу овог закона, јесте поступак којим се на сваки комад оружја и направа утискује ознака за идентификацију произвођача, земље порекла, године производње, модела и серијског (фабричког) броја оружја и направа, с тим да се на сваки комад оружја утискује и ознака за калибар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav21">
+						<content>
+							<p>Жигосање, у смислу овог закона, представља поступак којим се утискују посебне ознаке на оружје или паковање муниције која су прошла одређена испитивања у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav22">
+						<intro>
+							<p>Под безбедношћу функционисања, у смислу овог закона, подразумева се да конструкција оружја, направа и муниције обезбеђује потпуну примену и коришћење према намени предвиђеној од стране произвођача, и то да:</p>
+						</intro>
+						<point wId="gla1-clan2-stav22-tac1">
+							<num>1)</num>
+							<content>
+								<p> код оружја, направа и њихових делова њихова конструкција због специфичне конструкције и израде, спречава да дође до опасности које могу створити услове за проузроковање смрти или озбиљних повреда лица која рукују оружјем, употребљавају их или одржавају на начин предвиђен од стране произвођача;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav22-tac2">
+							<num>2)</num>
+							<content>
+								<p> код муниције, конструкција спречава да дође до опасности које могу створити услове за проузроковање смрти или озбиљних повреда лица која рукују, употребљавају, манипулишу, одржавају или складиште муницију на начин предвиђен од стране произвођача.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav23">
+						<content>
+							<p>Под ознаком Ц.И.П, у смислу овог закона, подразумева се Стална међународна комисија за испитивање ручног ватреног оружја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav24">
+						<content>
+							<p>Под подносиоцем захтева, у смислу овог закона, подразумевају се, зависно од врсте испитивања прописане овим законом, власник, произвођач, увозник, овлашћени сервисер, односно овлашћени продавац оружја, направа, муниције и елемената муниције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Ватрено оружје, основни делови оружја и муниција коjи се производе и/или стављају на тржиште морају бити обележени, испитани и жигосани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Конвертибилно оружје, направе, ваздушно оружје и оружје са тетивом пре стављања у промет морају бити обележени и испитани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Испитивању и жигосању подлеже и ватрено оружје код кога је поправком или преправком замењен или уграђен његов основни део, изведен други захват на оружју којим се утиче на његово функционисање и на безбедност при гађању или код кога су трајно или привремено промењене оригиналне техничке карактеристике и конструкцијска решења произвођача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Онеспособљено оружје мора бити испитано, обележено и жигосано у складу са одредбама овог закона, закона који уређује набављање, држање и ношење оружја и муниције, као и прописом који ближе уређује онеспособљавање оружја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>Одредбе овог закона које се односе на оружје сходно се примењују и на основне делове за оружје утврђене законом који уређује набављање, држање и ношење оружја и муниције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Ваздушно оружје и оружје са тетивом пре стављања у промет мора бити подвргнуто хомологацији у сврху утврђивања категорије оружја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Информације о извршеној категоризацији јавно се објављују.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Ваздушно оружје исте марке, модела и калибра, односно оружје са тетивом исте марке и модела, које је категоризовано у складу са <ref wId="ref0" href="akn/rs/act/2018/87-44/srp@/!main~art_4__para_1" >ставом 1. овог</ref> члана, не подлеже поновном испитивању и категоризацији и може се стављати у промет, осим у случају ако је произвођач променио неку од битних карактеристика оружја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Оружје и направе подлежу обавезној хомологацији или појединачном и поновљеном испитивању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Муниција подлеже обавезној контроли типа или појединачном испитивању производње сваке серије или хомологацији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<paragraph wId="gla1-clan6-stav1">
+						<intro>
+							<p>Испитивању и жигосању оружја, направа и муниције, не подлежу оружје, направе и муниција који су:</p>
+						</intro>
+						<point wId="gla1-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> намењени за потребе војске, полиције или других државних органа који набављају, држе, носе и превозе оружје и муницију у складу са посебним прописима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> пре увоза, испитани и жигосани, у складу са прописима Ц.И.П. односно у складу са правилима потврђених међународних споразума чији је потписник Република Србија;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> намењени искључиво за истраживачке и студијске сврхе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> саставни део збирки регистрованих културних и историјских организација које се не користи за гађање;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> старо оружје утврђено законом који уређује набављање, држање и ношење оружја;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> привремено увезени или се налазе у транзиту кроз Републику Србију;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> сагласно прописима о безбедности и здрављу на раду, обавезно атестирани;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> доказно средство у неком истражном или судском поступку.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Ватрено оружје из става 1. тачка <ref wId="ref1" href="akn/rs/act/2018/87-44/srp@/!main~art_6__para_1__point_1" >1</ref>) овог члана коме се трајно мења намена за цивилну употребу подлеже обавезном испитивању, жигосању и обележавању.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>АГЕНЦИЈА ЗА ИСПИТИВАЊЕ, ЖИГОСАЊЕ И ОБЕЛЕЖАВАЊЕ ОРУЖЈА, НАПРАВА И МУНИЦИЈЕ</heading>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Влада, на предлог министарства надлежног за унутрашње послове (у даљем тексту: Министарство), оснива Агенцију за испитивање, жигосање и обележавање оружја, направа и муниције као јавну агенцију (у даљем тексту: Агенција).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Агенција обавља послове испитивања (појединачно испитивање оружја и направа, појединачно испитивање муниције, добровољно испитивање, торментација и појачано испитивање, испитивање онеспособљеног оружја), жигосања, обележавања, хомологације оружја, њихових основних делова, направа, муниције, елемената муниције и контроле типа муниције према одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Послове из <ref wId="ref2" href="akn/rs/act/2018/87-44/srp@/!main~art_7__para_2" >става 2. овог</ref> члана Агенција врши као поверене послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Надзор над радом Агенције врши Министарство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<intro>
+							<p>Агенција се финансира из:</p>
+						</intro>
+						<point wId="gla2-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> цене услуга које плаћају корисници услуга;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> донација, прилога и других бесповратних давања датих оснивачу или Агенцији;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> осталих извора у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Цене услуга Агенције утврђују се у складу са законом којим се уређује буџетски систем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Висину цена из става 1. тачка <ref wId="ref3" href="akn/rs/act/2018/87-44/srp@/!main~art_8__para_1__point_1" >1</ref>) овог члана утврђује Влада на предлог Агенције а по прибављеном мишљењу Министарства унутрашњих послова и Министарства финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav4">
+						<content>
+							<p>Сагласност на акт којим се утврђује висина плата и број запослених у Агенцији даје Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Агенција је дужна да део средстава од цена услуга које плаћају корисници услуга из члана 8. став 1. тачка <ref wId="ref4" href="akn/rs/act/2018/87-44/srp@/!main~art_8__para_1__point_1" >1</ref>) овог закона, уплати у буџет Републике Србије, по завршном рачуну за претходну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Висина и рок за уплату дела средстава од цена услуга које плаћају корисници услуга из члана 8. став 1. тачка <ref wId="ref5" href="akn/rs/act/2018/87-44/srp@/!main~art_8__para_1__point_1" >1</ref>) овог закона утврђује се законом о буџету за наредну годину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Агенција је дужна да испитивање, жигосање и обележавање оружја, направа и муниције, изврши у року од 30 дана од дана подношења захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Агенција је дужна да приликом обележавања увезеног оружја утврди да ли је оружје испитано, жигосано и обележено у складу са овим законом и прописима Ц.И.П.-а и о томе изда решење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Агенција је дужна да изврши категоризацију ваздушног оружја и оружја са тетивом у року од 30 дана од дана подношења захтева и да у том року информације о извршеној категоризацији јавно објави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>О извршеној категоризацији Агенција издаје решење подносиоцу захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav5">
+						<content>
+							<p>Агенција на захтев издаје потврду о извршеној категоризацији сваком увознику који је увезао већ категоризовано оружје, без поновног испитивања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Техничка документација коју произвођач доставља Агенцији садржи само оне елементе који су неопходни за спровођење поступка испитивања, жигосања и обележавање оружја, направа и муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Ако је техничка документација из <ref wId="ref6" href="akn/rs/act/2018/87-44/srp@/!main~art_11__para_1" >става 1. овог</ref> члана означена као поверљива, запослени и одговорна лица у Агенцији дужна су да са њом поступају у складу са прописима којима је уређена тајност података и да је чувају као пословну тајну за време док су запослени у Агенцији, као и 10 година по престанку рада у Агенцији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<intro>
+							<p>Агенција обезбеђује обавештавање у области рада Ц.И.П.-а:</p>
+						</intro>
+						<point wId="gla2-clan12-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> учешћем у систему обавештавања Ц.И.П.-а;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan12-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> издавањем гласила, каталошких и других публикација;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan12-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> прикупљањем, обрадом и давањем обавештења у области рада Ц.И.П.-а ;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan12-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> достављањем радних и других материјала у поступку израде и доношења међународних прописа из ове области произвођачима оружја и муниције и другим заинтересованим странама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan12-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> пружањем техничке помоћи на захтев корисника.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>За обавештавање, односно услуге из <ref wId="ref7" href="akn/rs/act/2018/87-44/srp@/!main~art_12__para_1" >става 1. овог</ref> члана које се не достављају односно не врше по службеној дужности, односно по захтеву државног органа, плаћа се такса.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ДВОСТЕПЕНОСТ У ОДЛУЧИВАЊУ И НАДЗОР</heading>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>На решења Агенције донета на основу овог закона може се изјавити жалба министру надлежном за унутрашње послове (у даљем тексту: министар).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Жалба се подноси у року од 15 дана од дана достављања решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>Жалба не одлаже извршење решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Надзор над применом овог закона и прописа донетих на основу овог закона врши Министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Надзору подлежу постројења, објекти, уређаји, специфична и друга опрема у објектима који се користе за испитивање, контролу, сервисирање и преправку оружја, основних делова оружја, направа, муниције и елемената муниције, који су предмет овог закона, као и материјал, делови и склопови за њихову израду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav3">
+						<content>
+							<p>Ако се при вршењу надзора утврди да процеси, производи и услуге, односно оружје, направе и муниција који су предмет овог закона, не одговарају одредбама истог, као и прописима донетим за његово спровођење, и да услед тога постоји опасност за живот и здравље људи, животну средину или могућност настанка знатне материјалне штете, односно да су стављени у промет, доноси се решење којим се забрањује одвијање таквих процеса, и пружање услуга, односно забрањује рад произвођачу, увознику, продавцу, сервисеру или радњи и промет таквог оружја, направа и муниције док се недостаци не отклоне.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ВРСТЕ ИСПИТИВАЊА, ЖИГОСАЊА И ОБЕЛЕЖАВАЊА ОРУЖЈА, МУНИЦИЈЕ И НАПРАВА</heading>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>Врсте испитивања су: хомологација, контрола типа муниције, појединачно испитивање, добровољно испитивање, торментација и појачано испитивање и испитивање онеспособљеног оружја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav2">
+						<content>
+							<p>Начин вршења провера, приликом испитивања, обележавања, појединачног испитивања, хомологације, контроле типа муниције, испитивања онеспособљеног оружја, као и изглед ознака и жигова ближе прописује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>Испитивање се врши на захтев подносиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav2">
+						<content>
+							<p>Агенција обавештава подносиоца захтева уколико оружје, направе и муниција који нису испунили услове испитивања, о утврђеним недостацима и оставља рок до 60 дана за отклањање недостатака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav3">
+						<content>
+							<p>Подносилац захтева, по отклањању утврђених недостатака, може подвргнути оружје, направе или муницију поновљеном испитивању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav4">
+						<content>
+							<p>Ако се у поновљеном испитивању утврди да нису отклоњени недостаци, Агенција доноси решење којим утврђује да нису испуњени услови.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav5">
+						<content>
+							<p>Поступак испитивања врши се за све врсте испитивања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<paragraph wId="gla4-clan17-stav1">
+						<intro>
+							<p>Хомологација обухвата:</p>
+						</intro>
+						<point wId="gla4-clan17-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> проверу ознака за идентификацију;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> проверу усаглашености техничке документације;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> проверу усаглашености основних димензија са стандардима или техничком документацијом;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> проверу безбедности при пробном гађању;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> проверу безбедности функционисања, проверу усаглашености саставних делова и склапање;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> проверу усаглашености мерне опреме, уређаја, контролног и мерног алата;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> проверу усаглашености балистичке мерне опреме, кад се врши хомологација муниције;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> појединачно испитивање најмање два узорка, предмета хомологације.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav2">
+						<intro>
+							<p>Хомологацији се подвргавају следеће оружје, направе и муниција, и то:</p>
+						</intro>
+						<point wId="gla4-clan17-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> једнометно ватрено оружје, серијски произведено, са лежиштем метка чији пречник није већи од 5 mm (П&lt;5 mm) и дужине која није већа од 15 mm (Л&lt;15 mm);</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> једнометно ватрено оружје серијски произведено, чији пречник и дужина лежишта метка нису већи од 6 mm (П&lt;6 mm и Л&lt;6 mm), с тим што је иницијално пуњење једино пропулзивно пуњење које зрну даје енергију не већу од 7,5 Ј;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> алармно (сигнално) оружје, серијски произведено, чији пречник лежишта метка није већи од 6 mm (П&lt;6 mm) и са дужином лежишта не већом од 7 mm (Л&lt;7 mm); – односи се на конвертибилно оружје па не знамо да ли ће бити предмет закона;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> ваздушно оружје, са циљем утврђивања категорије;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> остала ватрена оружја, серијски произведена, чија кинетичка енергија зрна на устима цеви није већа од 7,5 Ј;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> улошци цеви које немају сопствени механизам за брављење и окидање, чија муниција развија средњу вредност максималног притиска до 2000 bar;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> носиви апарати за гађање, индустријску или техничку намену код којих је иницијално пуњење једино пропулзивно пуњење које даје енергију за покретање предмета или других механичких делова.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<paragraph wId="gla4-clan18-stav1">
+						<content>
+							<p>За предмете хомологације из <ref wId="ref8" href="akn/rs/act/2018/87-44/srp@/!main~art_17__para_2" >члана 17. став 2. овог</ref> закона, који су испунили услове хомологације, Агенција издаје решење о испуњености услова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav2">
+						<content>
+							<p>За ватрено и ваздушно оружје, направе и муницију који су испунили услове хомологације, Агенција на захтев произвођача или увозника издаје решење о испуњености услова и даје им овлашћење за издавање потврда да су оружје, направе или муниција, које је било предмет хомологације, испунили услове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav3">
+						<content>
+							<p>Проверу испуњености услова Агенција врши сваке две године након издавања овлашћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav4">
+						<content>
+							<p>Ако се приликом провере из <ref wId="ref9" href="akn/rs/act/2018/87-44/srp@/!main~art_18__para_2" >става 2. овог</ref> члана утврде одступања од утврђених услова за хомологацију, Агенција ће донети решење којим се одузима овлашћење за издавање потврде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav5">
+						<content>
+							<p>Податке о увознику односно произвођачу, као и о оружју, направама и муницији који нису испунили услове из овог члана, а нису подвргнути поновљеној хомологацији, Агенција доставља Министарству у року од 60 дана од дана достављања решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Контроли типа муниције подвргава сe сваки тип муниције која је први пут серијски произведена или се први пут увози.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav2">
+						<content>
+							<p>Произвођач или увозник подноси Агенцији захтев за контролу типа муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav3">
+						<intro>
+							<p>Контрола типа обухвата:</p>
+						</intro>
+						<point wId="gla4-clan19-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> проверу усаглашености техничке документације са домаћим и међународним стандардима;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan19-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> проверу усаглашености мерне опреме, уређаја, контролног и мерног алата и контролника за димензионалну контролу са домаћим и међународним стандардима;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan19-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> проверу усаглашености балистичких цеви, прихватача балистичких цеви и оружја за контролу сигурности функционисања муниције;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan19-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> испитивање производње муниције, које се обавља на двоструком броју узорака за контролисани тип муниције.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav4">
+						<content>
+							<p>Агенција на захтев произвођача или увозника за тип муниције која је испунила услове контроле типа доноси решење о испуњености услова за појединачно испитивање серија муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav5">
+						<content>
+							<p>Проверу испуњености услова Агенција врши сваке две године након издавања решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav6">
+						<content>
+							<p>Ако се приликом провере из <ref wId="ref10" href="akn/rs/act/2018/87-44/srp@/!main~art_19__para_5" >става 5. овог</ref> члана утврде одступања од утврђених услова за појединачно испитивање серија муниције, Агенција ће донети решење којим утврђује да нису испуњени услови.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav7">
+						<content>
+							<p>Податке о увознику односно произвођачу, као и муницији који нису испунили услове из овог члана, а нису подвргнути поновљеном испитивању, Агенција доставља Министарству у року од 60 дана од дана достављања решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<paragraph wId="gla4-clan20-stav1">
+						<intro>
+							<p>Појединачном испитивању подвргавају се:</p>
+						</intro>
+						<point wId="gla4-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> оружја и направе из <ref wId="ref11" href="akn/rs/act/2018/87-44/srp@/!main~art_2" >члана 2. овог</ref> закона који нису предмет хомологације из <ref wId="ref12" href="akn/rs/act/2018/87-44/srp@/!main~art_17__para_2" >члана 17. став 2. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> серија муниције која је испунила услове контроле типа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> оружја коме је трајно промењена намена у цивилно.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<paragraph wId="gla4-clan21-stav1">
+						<intro>
+							<p>Појединачно испитивање оружја и направа обухвата:</p>
+						</intro>
+						<point wId="gla4-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> контролу ознака за идентификацију;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> визуелни преглед;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> контролу безбедности функционисања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> контролу основних димензија пре пробног гађања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> пробно гађање;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> визуелну контролу после пробног гађања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> контролу безбедности функционисања након пробног гађања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> контролу основних димензија после пробног гађања.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav2">
+						<content>
+							<p>Произвођач, увозник, овлашћени сервисер или власник подносе захтев за појединачно испитивање Агенцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav3">
+						<content>
+							<p>Податке о увознику односно произвођачу, као и о свакој јединици оружја која није испунила услове из овог члана, а није подвргнута поновљеном испитивању, Агенција доставља Министарству у року од 60 дана од дана достављања решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<paragraph wId="gla4-clan22-stav1">
+						<intro>
+							<p>Појединачно испитивање муниције и елемената муниције, серијски произведене, врши се провером узорака сваке серије, које обухвата:</p>
+						</intro>
+						<point wId="gla4-clan22-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> узорковање;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan22-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> проверу ознака за идентификацију на сваком метку или елементу муниције;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan22-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> проверу ознака за идентификацију на свакој јединици паковања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan22-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> визуелну проверу;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan22-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> контролу основних димензија;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan22-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> проверу максималног притиска или еквивалентне карактеристике и брзине зрна или сачме;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan22-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> проверу безбедности функционисања.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav2">
+						<content>
+							<p>За сваку серију муниције која је испунила услове појединачног испитивања, Агенција, на захтев произвођача или увозника, издаје решење о испуњености услова, на основу кога подносилац захтева на сваку јединицу паковања испитане серије муниције наноси прописане жигове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav3">
+						<content>
+							<p>Проверу испуњености услова Агенција врши сваке две године након издавања решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav4">
+						<content>
+							<p>Ако се приликом провере из <ref wId="ref13" href="akn/rs/act/2018/87-44/srp@/!main~art_22__para_3" >става 3. овог</ref> члана утврде одступања од утврђених услова за наношење прописаних жигова, Агенција ће донети решење којим се одузима овлашћење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav5">
+						<content>
+							<p>Податке о увознику односно произвођачу, као и о свакој серији муниције која није испунила услове из овог члана, а није подвргнута поновљеном испитивању, Агенција доставља Министарству у року од 60 дана од дана достављања решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>Произвођач, увозник односно власник оружја, направа или муниције који су испитани може да поднесе захтев за добровољно испитивање Агенцији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<paragraph wId="gla4-clan24-stav1">
+						<content>
+							<p>Агенцији се може поднети захтев за торментацију оружја, као и захтев за појачано испитивање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav2">
+						<content>
+							<p>Предмет појачаног испитивања из <ref wId="ref14" href="akn/rs/act/2018/87-44/srp@/!main~art_24__para_1" >става 1. овог</ref> члана може бити само оружје са глатком цеви.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav3">
+						<content>
+							<p>Подносилац захтева сноси евентуалну штету насталу на оружју услед торментације или појачаног испитивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav4">
+						<content>
+							<p>Ако се у поступку торментације или појачаног испитивања утврди да би даља употреба оружја могла изазвати тешке последице по живот, здравље или имовину људи, Агенција издаје решење да такво оружје није безбедно за даљу употребу и без одлагања доставља Министарству писано обавештење о утврђеним недостацима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>За онеспособљено оружје које је испунило услове садржане у прописима који уређују набављање, држање и ношење оружја и муниције и онеспособљавање оружја, Агенција издаје потврду о испуњености услова и на основне делове оружја наноси прописане жигове и годину испитивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Податке о онеспособљеном оружју и издатим потврдама Агенција доставља Министарству у року од 15 дана од дана испитивања онеспособљеног оружја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<paragraph wId="gla4-clan26-stav1">
+						<content>
+							<p>Обележавање оружја је поступак којим се трајно утискује ознака која омогућава идентификацију произвођача, земљу порекла, годину производње, калибар, модел и серијски (фабрички) број оружја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav2">
+						<content>
+							<p>На свакој направи, у моменту производње, од стране произвођача морају бити нанесене видљиве, трајне и јединствене ознаке како би се идентификовала земља порекла, произвођач, модел, година производње, серијски број.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav3">
+						<content>
+							<p>Оружје и направе који нису обележени у складу са <ref wId="ref15" href="akn/rs/act/2018/87-44/srp@/!main~art_26__para_1->para_2" >ст. 1. и 2. овог</ref> члана не смеју бити стављени у промет.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav4">
+						<content>
+							<p>Увезено оружје мора да поседује ознаке из <ref wId="ref16" href="akn/rs/act/2018/87-44/srp@/!main~art_26__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav5">
+						<content>
+							<p>Ако оружје не поседује ознаке из ст. <ref wId="ref17" href="akn/rs/act/2018/87-44/srp@/!main~art_26__para_1" >1</ref>. и <ref wId="ref18" href="akn/rs/act/2018/87-44/srp@/!main~art_26__para_4" >4</ref>. овог члана Агенција ће нанети прописане ознаке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav6">
+						<content>
+							<p>Трошкове обележавања оружја сноси увозник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav7">
+						<content>
+							<p>Одредбе <ref wId="ref19" href="akn/rs/act/2018/87-44/srp@/!main~art_26__para_4" >става 4. овог</ref> члана не примењују се на оружје које се привремено увози или је у транзиту кроз Републику Србију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<paragraph wId="gla4-clan27-stav1">
+						<content>
+							<p>Обележавање муниције је поступак који се врши од стране произвођача, тако што се на сваки метак наносе видљиве и трајне ознаке како би се идентификовали произвођач и калибар. Код муниције са високим перформансама наноси се и знак упозорења. На јединицу паковања муниције наноси се земља порекла, серијски број и жиг коначног пријема или жиг хомологације.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРАВА И ОБАВЕЗЕ ПРОИЗВОЂАЧА, УВОЗНИКА, ПРОДАВЦА, СЕРВИСЕРА И ВЛАСНИКА ОРУЖЈА, НАПРАВА И МУНИЦИЈЕ</heading>
+				<article wId="gla5-clan28">
+					<num>28.</num>
+					<paragraph wId="gla5-clan28-stav1">
+						<intro>
+							<p>Произвођач је обавезан да:</p>
+						</intro>
+						<point wId="gla5-clan28-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> у складишту држи само обележено оружје, основне делове оружја, направе и муницију који представљају финалне производе, а да пре стављања у промет, изврши хомологацију, испитивање и жигосање оружја, направа, муниције и онеспособљеног оружја у складу са одредбама овог закона и других прописа који регулишу жигосање онеспособљеног оружја;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> у писаној форми информише Агенцију о свим изменама у производњи оружја, направа и муниције, ако те измене могу да утичу на особине неког од тих производа, у року од 30 дана од дана измене;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> на основним деловима оружја и направама обезбеди погодно место за наношење одговарајућих жигова;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> обележи оружје, његове основне делове, направе и муницију у складу са <ref wId="ref21" href="akn/rs/act/2018/87-44/srp@/!main~art_26__para_1->para_2" >чланом 26. ст. 1. и 2. </ref>и <ref wId="ref20" href="akn/rs/act/2018/87-44/srp@/!main~art_27" >чланом 27. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> омогући улаз и приступ месту производње и коришћење објеката и опреме за испитивање, потребно особље, као и да обезбеди потребну сарадњу са запосленима у Агенцији и Министарству.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan29">
+					<num>29.</num>
+					<paragraph wId="gla5-clan29-stav1">
+						<content>
+							<p>Правно лице, предузетник или физичко лице (у даљем тексту: увозник) дужан је да у року од 30 дана од дана увоза оружја, основних делова за оружје, направа и муниције достави исто Агенцији, уз захтев за обележавање и/или жигосање и/или испитивање и/или хомологацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan29-stav2">
+						<content>
+							<p>Увозник је дужан да изврши испитивање у року од 30 дана од дана увоза оружја, за оне врсте оружја за које је овим законом прописана категоризација у складу са <ref wId="ref22" href="akn/rs/act/2018/87-44/srp@/!main~art_4" >чланом 4. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan29-stav3">
+						<content>
+							<p>Увозник је дужан да приликом продаје преда купцу превод упутства издатог од стране произвођача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan29-stav4">
+						<content>
+							<p>Упутства домаћих произвођача и преводи упутстава из <ref wId="ref23" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_3" >става 3. овог</ref> члана морају бити на језику који је у службеној употреби у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan30">
+					<num>30.</num>
+					<paragraph wId="gla5-clan30-stav1">
+						<content>
+							<p>Овлашћени продавац, односно правно лице или предузетник коме је одобрено бављење прометом оружја, основним деловима за оружје и муницијом дужан је да држи и стави у промет само оружје, основне делове оружја, направе и муницију који су испитани, категоризовани, жигосани и обележени у складу са одредбама овог закона и другим прописом којим је уређено жигосање онеспособљеног оружја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan31">
+					<num>31.</num>
+					<paragraph wId="gla5-clan31-stav1">
+						<content>
+							<p>Овлашћени сервисер, односно, правно лице или предузетник који је овлашћен да се бави поправљањем и преправљањем оружја, који изврши поправку или преправку оружја, којом је замењен или уграђен његов основни део, изведен други захват на оружју којим се утиче на његово функционисање и на безбедност при гађању или су трајно или привремено промењене оригиналне техничке карактеристике и конструкцијска решења произвођача, дужан је да достави поправљено или преправљено оружје у року од 15 дана од дана поправке или преправке на поновљено појединачно испитивање Агенцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav2">
+						<content>
+							<p>Овлашћени сервисер из <ref wId="ref24" href="akn/rs/act/2018/87-44/srp@/!main~art_31__para_1" >става 1. </ref>који изврши онеспособљавање оружја дужан је да, у року од 15 дана од дана онеспособљавања, Агенцији достави онеспособљено оружје на испитивање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav3">
+						<content>
+							<p>Трошкови испитивања из <ref wId="ref25" href="akn/rs/act/2018/87-44/srp@/!main~art_31__para_1->para_2" >ст. 1. и 2. овог</ref> члана падају на терет власника оружја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav4">
+						<intro>
+							<p>Овлашћени сервисер дужан је да:</p>
+						</intro>
+						<point wId="gla5-clan31-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> изврши поправку или преправку оружја, тако да обезбеди безбедност функционисања у складу са техничким захтевима;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan31-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> достави Агенцији на увид писано обавештење са описом начина и технолошког поступка преправке и модификације оружја.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan32">
+					<num>32.</num>
+					<paragraph wId="gla5-clan32-stav1">
+						<content>
+							<p>Увозник, произвођач односно овлашћени превозник дужан је да поднесе захтев за одобрење превоза Министарству, ради испитивања, жигосања и обележавања у складу са законом који уређује набављање, држање и ношење оружја и муниције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan33">
+					<num>33.</num>
+					<paragraph wId="gla5-clan33-stav1">
+						<content>
+							<p>Забрањено је неовлашћено испитивање, жигосање и обележавање оружја, направа и муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav2">
+						<content>
+							<p>Забрањено је неовлашћено уклањање или измена ознака и жигова на оружју, муницији и направама.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ЕВИДЕНЦИЈЕ</heading>
+				<article wId="gla6-clan34">
+					<num>34.</num>
+					<paragraph wId="gla6-clan34-stav1">
+						<content>
+							<p>Агенција је дужна да води евиденцију о поднетим захтевима и испитаном, жигосаном, хомологованом, обележеном и категоризованом оружју и направама, као и онеспособљеном оружју (врста, произвођач, земља порекла, марка, модел, калибар, серијски (фабрички) број, број оружног листа), о контролисаној муницији и елементима муниције (врста, произвођач, земља порекла, марка, тип зрна или сачме, калибар, серијски број), евиденцију о подносиоцима захтева (име, презиме/назив, јединствени матични број грађана/матични број, број личне карте односно идентификационог документа, пребивалиште/седиште), о датуму пријема оружја, направа и муниције у Агенцији и о датуму преузимања оружја, направа и муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav2">
+						<content>
+							<p>Агенција је дужна да води евиденцију о поднетим захтевима, решењима о испуњености или неиспуњености услова за хомологацију и за наношење жига на контролисану серију муниције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav3">
+						<content>
+							<p>Евиденције из овог члана морају се водити уредно, ажурно и чувају се трајно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav4">
+						<content>
+							<p>Агенција Министарству за сваку годину, у року од 30 дана од истека календарске године, предаје примерак евиденција које су прописане овим законом у писаном или електронском облику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav5">
+						<content>
+							<p>Изглед евиденција које води Агенција ближе прописује министар, на предлог Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan35">
+					<num>35.</num>
+					<paragraph wId="gla6-clan35-stav1">
+						<content>
+							<p>Министарство води евиденције о поднетим жалбама и решењима којима се одлучује о решењима Агенције, о извршеним надзорима, о решењима којима се забрањује одвијање процеса и пружања услуга увознику, овлашћеним продавцима, овлашћеним сервисерима и другим правним лицима и предузетницима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav2">
+						<content>
+							<p>Наведене евиденције садрже следеће податке:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav3">
+						<content>
+							<p>назив правног лица и предузетника, седиште, матични број, податке о оружју, направама и муницији, просторијама, средствима, као и податке о личности власника, одговорног лица и запослених код правног лица и предузетника: име и презиме, јединствени матични број грађана, датум и место рођења, држављанство, број личне карте односно идентификационог документа, адресу пребивалишта односно боравишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav4">
+						<content>
+							<p>Све наведене евиденције чувају се трајно и у електронском облику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav5">
+						<content>
+							<p>Податке из наведених евиденција Министарство је дужно да даје државним и другим органима и организацијама, као и другим правним и физичким лицима, у складу са законом који уређује општи управни поступак и у складу са законом који уређује заштиту података о личности.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>МЕЂУНАРОДНА САРАДЊА</heading>
+				<article wId="gla7-clan36">
+					<num>36.</num>
+					<paragraph wId="gla7-clan36-stav1">
+						<intro>
+							<p>Међународна сарадња у области испитивања, обележавања и жигосања ручног ватреног оружја, направа и муниције остварује се:</p>
+						</intro>
+						<point wId="gla7-clan36-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> закључивањем међународних уговора;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan36-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> чланством и учешћем у раду међународне организације Ц.И.П.;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan36-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> међусобним обавештавањем и разменом информација са другим државама чланицама Ц.И.П.-а и Сталним бироом Ц.И.П-а;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan36-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> припремањем, организовањем и учествовањем на међународним пленарним седницама, поткомисијама и радним групама Ц.И.П.-а.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕКРШАЈИ</heading>
+				<article wId="gla8-clan37">
+					<num>37.</num>
+					<paragraph wId="gla8-clan37-stav1">
+						<intro>
+							<p>Новчаном казном од 50.000 до 2.000.000 динара, казниће се за прекршај правно лице:</p>
+						</intro>
+						<point wId="gla8-clan37-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> које стави у промет ватрено оружје и његове основне делове који нису обележени, испитани, жигосани или онеспособљени (члан 3. ст. <ref wId="ref26" href="akn/rs/act/2018/87-44/srp@/!main~art_3__para_1" >1</ref>. и <ref wId="ref27" href="akn/rs/act/2018/87-44/srp@/!main~art_3__para_4" >4</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> које стави у промет конвертибилно оружје, направе, ваздушно оружје и оружје са тетивом, који нису обележени и испитани (<ref wId="ref28" href="akn/rs/act/2018/87-44/srp@/!main~art_3__para_2" >члан 3. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> које стави у промет ваздушно оружје и оружје са тетивом за које није извршена категоризација (<ref wId="ref29" href="akn/rs/act/2018/87-44/srp@/!main~art_4__para_1" >члан 4. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> које стави у промет ваздушно оружје или оружје са тетивом на коме је произвођач извршио измену неких од битних карактеристика оружја, а да претходно није извршио претходну категоризацију (<ref wId="ref30" href="akn/rs/act/2018/87-44/srp@/!main~art_4__para_3" >члан 4. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> које не испита, жигоше и обележи ватрено оружје из члана 6. став 1. тачка <ref wId="ref32" href="akn/rs/act/2018/87-44/srp@/!main~art_6__para_1__point_1" >1</ref>) коме је трајно промењена намена за цивилну употребу (<ref wId="ref31" href="akn/rs/act/2018/87-44/srp@/!main~art_6__para_2" >члан 6. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> произвођач, који пре стављања у промет не изврши хомологацију, испитивање и жигосање оружја, направа, муниције и онеспособљеног оружја (члан 28. став 1. тачка <ref wId="ref33" href="akn/rs/act/2018/87-44/srp@/!main~art_28__para_1__point_1" >1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> произвођач, који у писаној форми не информише Агенцију о свим изменама у производњи оружја, направа и муниције, ако те измене могу да утичу на особине неког од тих производа (члан 28. став 1. тачка <ref wId="ref34" href="akn/rs/act/2018/87-44/srp@/!main~art_28__para_1__point_2" >2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> произвођач, који на основним деловима оружја, и направама не обезбеди погодно место за наношење одговарајућих жигова (члан 28. став 1. тачка <ref wId="ref35" href="akn/rs/act/2018/87-44/srp@/!main~art_28__para_1__point_3" >3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> произвођач, који у складишту држи оружје које није обележено (члан 28. став 1. тачка <ref wId="ref36" href="akn/rs/act/2018/87-44/srp@/!main~art_28__para_1__point_4" >4</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> произвођач, који не омогући улаз и приступ месту производње и коришћење објеката и опреме за испитивање, потребно особље, и не обезбеди потребну сарадњу са запосленима Агенције и Министарства (члан 28. став 1. тачка <ref wId="ref37" href="akn/rs/act/2018/87-44/srp@/!main~art_28__para_1__point_5" >5</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> увозник, који у року од 30 дана од дана увоза не поднесе Агенцији захтев за обележавање и/или испитивање и/или хомологацију оружја, направа и муниције (<ref wId="ref38" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_1" >члан 29. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> увозник, који не изврши испитивање у року од 30 дана од дана увоза оружја, за оне врсте оружја за које је овим законом прописана категоризација (<ref wId="ref39" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_2" >члан 29. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> увозник, који приликом продаје не преда купцу превод упутства издатог од стране произвођача (<ref wId="ref40" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_3" >члан 29. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> овлашћени продавац, који држи и стави у промет само оружје, основне делове оружја, направе и муницију који нису испитани, жигосани и обележени (<ref wId="ref41" href="akn/rs/act/2018/87-44/srp@/!main~art_30" >члан 30</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> овлашћени сервисер, који није испитао и жигосао, поправком или преправком замењен или уграђен основни део ватреног оружја, или није испитао и жигосао оружје на коме је изведен други захват којим се утиче на његово функционисање и на безбедност при гађању или су трајно или привремено промењене оригиналне техничке карактеристике и конструкцијска решења произвођача (<ref wId="ref42" href="akn/rs/act/2018/87-44/srp@/!main~art_31__para_1" >члан 31. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p> овлашћени сервисер, који у року од 15 дана од дана онеспособљавања оружја не достави Агенцији онеспособљено оружје на испитивање (<ref wId="ref43" href="akn/rs/act/2018/87-44/srp@/!main~art_31__para_2" >члан 31. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p> овлашћени сервисер, који изврши поправку или преправку оружја на начин да не обезбеди безбедност функционисања у складу са техничким захтевима (члан 31. став 4. тачка <ref wId="ref44" href="akn/rs/act/2018/87-44/srp@/!main~art_31__para_4__point_1" >1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan37-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p> овлашћени сервисер, не достави Агенцији на увид писано обавештење са описом начина и технолошког поступка преправке и модификације оружја (члан 31. став 4. тачка <ref wId="ref45" href="akn/rs/act/2018/87-44/srp@/!main~art_31__para_4__point_2" >2</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla8-clan37-stav2">
+						<content>
+							<p>За прекршаје из <ref wId="ref46" href="akn/rs/act/2018/87-44/srp@/!main~" >става 1. тач. 1)</ref>–18) овог члана казниће се и одговорно лице у правном лицу новчаном казном од 5.000 до 150.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan37-stav3">
+						<content>
+							<p>Поред новчане казне може се изрећи и заштитна мера одузимања предмета, заштитна мера забране вршења одређених делатности, заштитна мера забране правном лицу да врши одређене делатности и заштитна мера забране одговорном лицу да врши одређене послове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan38">
+					<num>38.</num>
+					<paragraph wId="gla8-clan38-stav1">
+						<intro>
+							<p>Новчаном казном од 10.000 до 500.000 динара, казниће се за прекршај предузетник:</p>
+						</intro>
+						<point wId="gla8-clan38-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> увозник, који у року од 30 дана од дана увоза не поднесе Агенцији захтев за обележавање и/или испитивање и/или хомологацију оружја, направа и муниције (<ref wId="ref47" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_1" >члан 29. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> увозник, који приликом продаје не изврши испитивање у року од 30 дана од дана увоза оружја, за оне врсте оружја за које је овим законом прописана категоризација (<ref wId="ref48" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_2" >члан 29. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> увозник, који приликом продаје не преда купцу превод упутства издатог од стране произвођача (<ref wId="ref49" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_3" >члан 29. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> који стави у промет направе и конвертибилно оружје који нису обележени и испитани (<ref wId="ref50" href="akn/rs/act/2018/87-44/srp@/!main~art_3__para_2" >члан 3. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> који стави у промет ваздушно оружје и оружје са тетивом за које није извршена категоризација (<ref wId="ref51" href="akn/rs/act/2018/87-44/srp@/!main~art_4" >члан 4</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> који стави у промет ваздушно оружје или оружје са тетивом на коме је произвођач извршио измену неких од битних карактеристика оружја, а да претходно није извршио претходну категоризацију (<ref wId="ref52" href="akn/rs/act/2018/87-44/srp@/!main~art_4__para_3" >члан 4. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> произвођач, који у писаној форми не информише Агенцију о свим изменама у производњи оружја, направа и муниције, ако те измене могу да утичу на особине неког од тих производа (члан 28. став 1. тачка <ref wId="ref53" href="akn/rs/act/2018/87-44/srp@/!main~art_28__para_1__point_2" >2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> произвођач, који на основним деловима оружја, и направама не обезбеди погодно место за наношење одговарајућих жигова (члан 28. став 1. тачка <ref wId="ref54" href="akn/rs/act/2018/87-44/srp@/!main~art_28__para_1__point_3" >3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> овлашћени продавац, који држи и стави у промет само оружје, основне делове оружја, направе и муницију који нису испитани, жигосани и обележени (<ref wId="ref55" href="akn/rs/act/2018/87-44/srp@/!main~art_30" >члан 30</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> овлашћени сервисер, који изврши поправку или преправку оружја на начин да не обезбеди безбедност функционисања у складу са техничким захтевима (члан 31. став 4. тачка <ref wId="ref56" href="akn/rs/act/2018/87-44/srp@/!main~art_31__para_4__point_1" >1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan38-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> овлашћени сервисер, ако не достави Агенцији на увид писано обавештење са описом начина и технолошког поступка преправке и модификације оружја (члан 31. став 4. тачка <ref wId="ref57" href="akn/rs/act/2018/87-44/srp@/!main~art_31__para_4__point_2" >2</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla8-clan38-stav2">
+						<content>
+							<p>Учиниоцима прекршаја из овог члана поред новчане казне може се изрећи и заштитна мера одузимања предмета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan39">
+					<num>39.</num>
+					<paragraph wId="gla8-clan39-stav1">
+						<intro>
+							<p>Новчаном казном од 5.000 до 150.000 динара, казниће се за прекршај физичко лице:</p>
+						</intro>
+						<point wId="gla8-clan39-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> увозник, који у року од 30 дана од дана увоза не поднесе Агенцији захтев за обележавање и/или испитивање и/или хомологацију оружја, направа и муниције (<ref wId="ref58" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_1" >члан 29. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan39-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> увозник, који приликом продаје не изврши испитивање у року од 30 дана од дана увоза оружја, за оне врсте оружја за које је овим законом прописана категоризација (<ref wId="ref59" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_2" >члан 29. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan39-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> увозник, који приликом продаје не преда купцу превод упутства издатог од стране произвођача (<ref wId="ref60" href="akn/rs/act/2018/87-44/srp@/!main~art_29__para_3" >члан 29. став 3</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>КРИВИЧНА ДЕЛА</heading>
+				<article wId="gla9-clan40">
+					<num>40.</num>
+					<paragraph wId="gla9-clan40-stav1">
+						<content>
+							<p>Ко неовлашћено испитује, жигоше и обележава оружје, направе или муницију, казниће се казном затвора од шест месеци до пет година и новчаном казном.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan40-stav2">
+						<content>
+							<p>Оружје, његови делови, направе, муниција и средства намењена за извршење дела из <ref wId="ref61" href="akn/rs/act/2018/87-44/srp@/!main~art_40__para_1" >става 1. овог</ref> члана одузеће се.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan41">
+					<num>41.</num>
+					<paragraph wId="gla9-clan41-stav1">
+						<content>
+							<p>Ко у намери да их употреби као праве, направи лажне жигове или ознаке за испитивање, жигосање и обележавање оружја, направа и муниције или ко у истој намери такве праве жигове или ознаке преиначи или ко такве лажне или преиначене жигове или ознаке употреби као праве, казниће се новчаном казном или затвором до три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan41-stav2">
+						<content>
+							<p>Жигови или ознаке из <ref wId="ref62" href="akn/rs/act/2018/87-44/srp@/!main~art_41__para_1" >става 1. овог</ref> члана одузеће се.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla10-clan42">
+					<num>42.</num>
+					<paragraph wId="gla10-clan42-stav1">
+						<intro>
+							<p>Министар ближе уређује:</p>
+						</intro>
+						<point wId="gla10-clan42-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> начин вршења провера, приликом испитивања, обележавања, појединачног испитивања, хомологације, контроле типа муниције, испитивања онеспособљеног оружја и оружја коме је трајно промењена намена у цивилно, као и изглед ознака и жигова из <ref wId="ref63" href="akn/rs/act/2018/87-44/srp@/!main~art_15__para_2" >члана 15. став 2. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan42-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> на предлог Агенције, изглед евиденција из <ref wId="ref64" href="akn/rs/act/2018/87-44/srp@/!main~art_34__para_5" >члана 34. став 5. овог</ref> закона.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla10-clan42-stav2">
+						<content>
+							<p>Прописи за спровођење овог закона донеће се у року од годину дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan42-stav3">
+						<content>
+							<p>До доношења прописа из <ref wId="ref65" href="akn/rs/act/2018/87-44/srp@/!main~art_42__para_1" >става 1. овог</ref> члана примењиваће се важећи прописи, ако нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan42-stav4">
+						<content>
+							<p>Прописи из <ref wId="ref68" href="akn/rs/act/2018/87-44/srp@/!main~art_42__para_1" >став 1. овог</ref> члана примењују се даном почетка примене овог закона, односно даном стављања ван снаге прописа донетих на основу Закона о испитивању ручног ватреног оружја, направа и муниције („Службени гласник СЦГ”, број <ref wId="ref66" href="akn/rs/act/04/31/srp@">31/04</ref>) и Закона о испитивању, жигосању и обележавању ватреног оружја и муниције („Службени гласник РС”, број <ref wId="ref67" href="akn/rs/act/95/46/srp@">46/95</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan43">
+					<num>43.</num>
+					<paragraph wId="gla10-clan43-stav1">
+						<content>
+							<p>Даном оснивања Агенције престаје са радом Завод за испитивање оружја и муниције, друштво са ограниченом одговорношћу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan43-stav2">
+						<content>
+							<p>Права, обавезе, послове, запослене, средства, документацију и предмете у Заводу за испитивање оружја и муниције, друштво са ограниченом одговорношћу, преузима Агенција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan44">
+					<num>44.</num>
+					<paragraph wId="gla10-clan44-stav1">
+						<content>
+							<p>Поступци започети до дана почетка примене овог закона окончаће се по прописима који су важили до дана почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan44-stav2">
+						<content>
+							<p>Ваздушно оружје и оружје са тетивом увезено до почетка примене овог закона не подлеже категоризацији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan45">
+					<num>45.</num>
+					<paragraph wId="gla10-clan45-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престаје да важи Закон о испитивању ручног ватреног оружја, направа и муниције („Службени гласник СЦГ”, број <ref wId="ref69" href="akn/rs/act/04/31/srp@">31/04</ref>) и Закон о испитивању, жигосању и обележавању ватреног оружја и муниције („Службени гласник РС”, број <ref wId="ref70" href="akn/rs/act/95/46/srp@">46/95</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan46">
+					<num>46.</num>
+					<paragraph wId="gla10-clan46-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а почиње да се примењује у року од годину дана од дана ступања на снагу овог закона, осим на произвођаче оружја, направа и муниције у поступку извоза у земље Ц.И.П.-а, на које се одредбе овог закона примењују од дана пријема Републике Србије у пуноправно чланство Ц.И.П.-а.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

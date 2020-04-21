@@ -1,0 +1,575 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о правосудном испиту">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/1997/16-286/main"/>
+					<FRBRuri value="akn/rs/act/1997/16-286"/>
+					<FRBRdate date="1997-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/1997/16-286/srp@/main"/>
+					<FRBRuri value="akn/rs/act/1997/16-286/srp@"/>
+					<FRBRdate date="1997-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/1997/16-286/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/1997/16-286/srp@.akn"/>
+					<FRBRdate date="1997-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1997-04-16" name="службени гласник рс“" number="16" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="6. Правосудна академија и правосудни испит" value="6. правосудна академија и правосудни испит" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="1997-04-16" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="1998-01-01" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="1998-01-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="другим"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="проверава"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="предвиђен"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="обављање"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="услов"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="послова"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="оспособљеност"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="функција"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="стручна"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописом"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="правосудном"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="испиту"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="полагање"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="испит"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="испита"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ispitnog odbora"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ispitni odbor"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ispitnim odborom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ispitnog odbora"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ispitnog odbora i filologa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ispitnom odboru"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo pravde"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 1998."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. oktobra 1997."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. aprila 1997."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон се примењује од 1. јануара 1998. године (види члан 33. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О правосудном испиту „Службени гласник РС“, број <ref wId="ref1" href="akn/rs/act/1997/16/srp@">16 од 16. априла 1997</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОПШТЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-od1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-od1-clan1-stav1">
+						<content>
+							<p>На правосудном испиту проверава се стручна оспособљеност за обављање функција и послова за које је законом или другим прописом као услов предвиђен тај испит.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od2-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-od2-clan2-stav1">
+						<content>
+							<p>Правосудни испит може полагати лице које је дипломирало на правном факултету и које је после завршеног правног факултета стекло две године радног искуства на пословима правне струке у суду, јавном тужилаштву, јавном правобранилаштву и адвокатури или три године радног искуства на пословима правне струке у органу за прекршаје, другом државном органу, органу територијалне аутономије и локалне самоуправе или четири године радног искуства на пословима правне струке у предузећу, установи или другој организацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan2-stav2">
+						<content>
+							<p>Сваких шест месеци радног искуства на пословима правне струке у суду, јавном тужилаштву, јавном правобранилаштву и адвокатури рачуна се као девет месеци радног искуства на пословима правне струке у органу за прекршаје, другом државном органу, органу територијалне аутономије и локалне самоуправе, односно као једна година радног искуства на пословима правне струке у предузећу, установи или другој организацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan2-stav3">
+						<content>
+							<p>Сваких годину дана радног искуства на пословима правне струке у органу за прекршаје, другом државном органу, органу територијалне аутономије и локалне самоуправе рачуна се као шеснаест месеци радног искуства на пословима правне струке у предузећу, установи или другој организацији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od3-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-od3-clan3-stav1">
+						<content>
+							<p>Правосудни испит има писмени и усмени део.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od3-clan3-stav2">
+						<content>
+							<p>На писменом делу испита решавају се практични задаци из кривичног и грађанског права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od3-clan3-stav3">
+						<intro>
+							<p>На усменом делу испита полажу се:</p>
+						</intro>
+						<point wId="gla1-od3-clan3-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> Уставно право и правосудно организационо право,</p>
+							</content>
+						</point>
+						<point wId="gla1-od3-clan3-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> Кривично право,</p>
+							</content>
+						</point>
+						<point wId="gla1-od3-clan3-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> Грађанско право,</p>
+							</content>
+						</point>
+						<point wId="gla1-od3-clan3-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> Трговинско (привредно) право,</p>
+							</content>
+						</point>
+						<point wId="gla1-od3-clan3-stav3-tac5">
+							<num>5)</num>
+							<content>
+								<p> Међународно приватно право,</p>
+							</content>
+						</point>
+						<point wId="gla1-od3-clan3-stav3-tac6">
+							<num>6)</num>
+							<content>
+								<p> Управно право,</p>
+							</content>
+						</point>
+						<point wId="gla1-od3-clan3-stav3-tac7">
+							<num>7)</num>
+							<content>
+								<p> Радно право.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-od3-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-od3-clan4-stav1">
+						<content>
+							<p>Правосудни испит полаже се према програму који садржи градиво, правне изворе и правну књижевност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od3-clan4-stav2">
+						<content>
+							<p>Програм правосудног испита прописује министар правде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od4-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-od4-clan5-stav1">
+						<content>
+							<p>Правосудни испит полаже се пред Испитним одбором.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od4-clan5-stav2">
+						<content>
+							<p>Испитни одбор има седам чланова, од којих је један председник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od4-clan5-stav3">
+						<content>
+							<p>Испитни одбор одлучује већином гласова, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od4-clan6">
+					<num>6.</num>
+					<paragraph wId="gla1-od4-clan6-stav1">
+						<content>
+							<p>Министар правде образује Испитни одбор из редова истакнутих правника с положеним правосудним испитом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od4-clan6-stav2">
+						<content>
+							<p>Професор правног факултета на позитивноправном предмету може бити члан Испитног одбора и ако нема положен правосудни испит.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od4-clan6-stav3">
+						<content>
+							<p>Решењем о образовању Испитног одбора одређују се и предмети које његови чланови испитују.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od4-clan7">
+					<num>7.</num>
+					<paragraph wId="gla1-od4-clan7-stav1">
+						<content>
+							<p>Министар правде може образовати више испитних одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od4-clan7-stav2">
+						<content>
+							<p>Министар правде може сазвати чланове свих испитних одбора ради разматрања питања од значаја за остваривање сврхе правосудног испита.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od4-clan8">
+					<num>8.</num>
+					<paragraph wId="gla1-od4-clan8-stav1">
+						<content>
+							<p>Распоред рада Испитног одбора одређује министар правде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od4-clan8-stav2">
+						<content>
+							<p>Административне послове за Испитни одбор обавља Министарство правде.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОЛАГАЊЕ ПРАВОСУДНОГ ИСПИТА</heading>
+				<article wId="gla2-od1-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-od1-clan9-stav1">
+						<content>
+							<p>Захтев за полагање правосудног испита подноси се Министарству правде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan9-stav2">
+						<content>
+							<p>Уз захтев кандидат прилаже доказе да је испунио услове за полагање испита.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-od1-clan10-stav1">
+						<content>
+							<p>Захтевом за полагање правосудног испита мора се пријавити полагање писменог дела испита и најмање четири предмета из усменог дела испита.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-od1-clan11-stav1">
+						<content>
+							<p>Министар правде решењем одлучује о захтеву за полагање правосудног испита.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav2">
+						<content>
+							<p>Решење се доставља кандидату,  а ако је полагање одобрено –  и председнику Испитног одбора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-od2-clan12-stav1">
+						<content>
+							<p>Правосудни испит почиње израдом писменог рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan12-stav2">
+						<content>
+							<p>Задатке поставља и рад оцењује члан Испитног одбора који испитује предмет из кога се израђује писмени рад.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan12-stav3">
+						<content>
+							<p>Време за израду писменог рада одређује Испитни одбор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-od2-clan13-stav1">
+						<content>
+							<p>Писмени рад кандидата оцењује се са „одлично”, „добро”  и „не задовољава”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan13-stav2">
+						<content>
+							<p>Кандидат не може усмено полагати предмет из кога је његов писмени рад оцењен са „не задовољава”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan14">
+					<num>14.</num>
+					<paragraph wId="gla2-od2-clan14-stav1">
+						<content>
+							<p>Писмене радове који су оцењени са „одлично” и „добро” прегледа филолог.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan14-stav2">
+						<content>
+							<p>Филолог оцењује правилност изражавања, јасноћу израза и језичку културу кандидата са „одлично” и „добро”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan14-stav3">
+						<content>
+							<p>Филолога одређује министар правде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan15">
+					<num>15.</num>
+					<paragraph wId="gla2-od3-clan15-stav1">
+						<content>
+							<p>Усмени део правосудног испита полаже се јавно,  истовремено пред свим члановима Испитног одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan15-stav2">
+						<content>
+							<p>Испитни предмет испитује члан Испитног одбора који је за тај предмет одређен за испитивача.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan16">
+					<num>16.</num>
+					<paragraph wId="gla2-od3-clan16-stav1">
+						<content>
+							<p>Успех кандидата на усменом делу испита оцењује се из сваког предмета посебно,  са „одлично”, „добро”  и „не задовољава”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan16-stav2">
+						<content>
+							<p>При оцењивању успеха кандидата вреднују се познавање позитивних прописа и судске праксе,  разумевање суштине правних установа,  правилно правничко расуђивање и начин излагања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan17">
+					<num>17.</num>
+					<paragraph wId="gla2-od4-clan17-stav1">
+						<content>
+							<p>Кандидат чији је успех из најмање четири испитна предмета оцењен са „одлично”  или „добро”  има право да преостале предмете накнадно полаже.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan17-stav2">
+						<content>
+							<p>Накнадно полагање може уследити најраније два а најдоцније шест месеци од завршетка претходног полагања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan17-stav3">
+						<content>
+							<p>Ако последњи дан за накнадно полагање пада на дан када се правосудни испит не одржава,  полаже се првог наредног дана када се испит одржава.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan18">
+					<num>18.</num>
+					<paragraph wId="gla2-od5-clan18-stav1">
+						<content>
+							<p>Пошто оцени успех кандидата на усменом делу испита из сваког предмета посебно, Испитни одбор утврђује општи успех кандидата на правосудном испиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan18-stav2">
+						<content>
+							<p>Општи успех кандидата на правосудном испиту утврђује се са „положио са одликом”, „положио врло добро”, „положио”  и „није положио”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan19">
+					<num>19.</num>
+					<paragraph wId="gla2-od5-clan19-stav1">
+						<content>
+							<p>Само кандидату чији је успех и на писменом и на усменом делу испита из сваког предмета оцењен са „одлично”  и чији је рад филолог оценио са „одлично”  општи успех на правосудном испиту утврђује се оценом „положио са одликом”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan20">
+					<num>20.</num>
+					<paragraph wId="gla2-od6-clan20-stav1">
+						<content>
+							<p>На молбу кандидата,  председник Испитног одбора може започети испит одложити до три месеца,  ако је кандидат због болести или других оправданих разлога спречен да настави полагање испита.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan20-stav2">
+						<content>
+							<p>Молби за одлагање започетог испита прилажу се докази који молбу оправдавају.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan21">
+					<num>21.</num>
+					<paragraph wId="gla2-od6-clan21-stav1">
+						<content>
+							<p>Време за које је испит одложен почиње да тече од дана доношења решења о одлагању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan21-stav2">
+						<content>
+							<p>У наставку одложеног испита полажу се предмети који до одлагања нису полагани.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od7-clan22">
+					<num>22.</num>
+					<paragraph wId="gla2-od7-clan22-stav1">
+						<content>
+							<p>Правосудни испит није положио кандидат који је у првом полагању оцењен са „не задовољава” из најмање четири испитна предмета, као и кандидат који приликом накнадног полагања из најмање једног испитног предмета буде оцењен са „не задовољава”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od7-clan22-stav2">
+						<content>
+							<p>Правосудни испит није положио ни кандидат који изричито или прећутно одустане од полагања већ започетог испита (не преда писмени задатак,  не приступи испиту у време почетка накнадног полагања и слично).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od7-clan22-stav3">
+						<content>
+							<p>Кандидат није положио правосудни испит ни ако не приступи полагању у року за који је испит одложен.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od8-clan23">
+					<num>23.</num>
+					<paragraph wId="gla2-od8-clan23-stav1">
+						<content>
+							<p>Кад кандидат не приступи полагању правосудног испита у време одређено за полагање испита или пре почетка писменог дела испита изјави да од испита одустаје,  сматра се да није ни полагао правосудни испит.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od9-clan24">
+					<num>24.</num>
+					<paragraph wId="gla2-od9-clan24-stav1">
+						<content>
+							<p>Кандидат који сматра да његов општи успех или успех из неког предмета није правилно оцењен има право да у року од двадесет и четири часа после саопштеног успеха писмено приговори Испитном одбору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od9-clan24-stav2">
+						<content>
+							<p>Испитни одбор је дужан да о приговору одлучи у року од три дана од пријема приговора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od9-clan25">
+					<num>25.</num>
+					<paragraph wId="gla2-od9-clan25-stav1">
+						<content>
+							<p>Ако усвоји приговор Испитни одбор може поновити испит из једног или више предмета или преиначити раније већ дату оцену или утврђени општи успех.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОНОВНО ПОЛАГАЊЕ ПРАВОСУДНОГ ИСПИТА</heading>
+				<article wId="gla3-clan26">
+					<num>26.</num>
+					<paragraph wId="gla3-clan26-stav1">
+						<content>
+							<p>Кандидат који је правосудни испит полагао и није положио може испит поново полагати кад истекне шест месеци од завршетка претходног полагања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav2">
+						<content>
+							<p>Кандидат који правосудни испит није положио због тога што није приступио полагању одложеног испита, може га поново полагати после шест месеци од истека времена за које је испит одложен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav3">
+						<content>
+							<p>Кандидат који ни други ни сваки следећи пут не положи правосудни испит може га поново полагати кад истекну две године од завршетка претходног испита.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>УВЕРЕЊЕ О ПРАВОСУДНОМ ИСПИТУ И ОСТАЛА ПИТАЊА</heading>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<paragraph wId="gla4-clan27-stav1">
+						<content>
+							<p>О положеном правосудном испиту издаје се уверење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav2">
+						<content>
+							<p>Уверење издаје и његову садржину прописује министар правде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan28">
+					<num>28.</num>
+					<paragraph wId="gla4-clan28-stav1">
+						<content>
+							<p>Министар правде ближе прописује начин полагања правосудног испита, трошкове полагања испита, накнаду за рад чланова Испитног одбора и филолога и уређује остала питања у вези са правосудним испитом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla5-clan29">
+					<num>29.</num>
+					<paragraph wId="gla5-clan29-stav1">
+						<content>
+							<p>С правосудним испитом, у смислу овог закона, изједначава се правосудни испит положен по прописима који су важили до почетка примене овог закона, односно судијски и адвокатски испит који су законом изједначени са правосудним испитом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan30">
+					<num>30.</num>
+					<paragraph wId="gla5-clan30-stav1">
+						<content>
+							<p>Кандидат који је полагање правосудног испита започео по прописима који су важили пре почетка примене овог закона има право да полагање започетог правосудног испита доврши према прописима који су важили у време када је полагање започео и после почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan31">
+					<num>31.</num>
+					<paragraph wId="gla5-clan31-stav1">
+						<content>
+							<p>Министар правде прописаће програм за полагање правосудног испита до 1. октобра 1997. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan32">
+					<num>32.</num>
+					<paragraph wId="gla5-clan32-stav1">
+						<content>
+							<p>Закон о правосудном испиту („Службени гласник Републике Србије”, број 67/93) престаје да важи почетком примене овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan33">
+					<num>33.</num>
+					<paragraph wId="gla5-clan33-stav1">
+						<content>
+							<p>Овај закон примењује се од 1. јануара 1998. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav2">
+						<content>
+							<p>о правосудном испиту</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav3">
+						<content>
+							<p>„Службени гласник РС“, број <ref wId="ref0" href="akn/rs/act/1997/16/srp@">16 од 16.  априла 1997</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

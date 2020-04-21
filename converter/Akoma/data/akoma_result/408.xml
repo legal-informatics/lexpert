@@ -1,0 +1,2901 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о правној заштити индустријског дизајна">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2009/104-115/main"/>
+					<FRBRuri value="akn/rs/act/2009/104-115"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/44-27/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/44-27/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/44-27/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/44-27/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-12-16" name="службени гласник рс“" number="104" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="7. Индустријска својина и техничка унапређења" value="7. индустријска својина и техничка унапређења" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="104/2009-115" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2015-01-01" refersTo="45/2015-3" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2018-01-01" refersTo="44/2018-27" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2009-12-11" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2009-12-24" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2009-12-24" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="стицања"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="производа"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="производ"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="индустријског"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштите"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="сусреће"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="потрошач"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="потрошача"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="изгледом"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="појам"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="занатског"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="корисник"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="ii"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="хашки"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="реч"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="информисани"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="хашког"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="регистровању"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="споразума"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="територију"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="редовно"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="спољашњим"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="споразум"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="питањима"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="типом"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="хашким"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="свим"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="визуелни"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="регистрован"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународном"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="споразумом"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="дизајна"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="укупан"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="подразумева"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="утисак"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређена"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="информисаног"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="спољашњи"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународно"/>
+				<TLCConcept eId="cocnept42" href="http://purl.org/vocab/frbr/core#Concept" showAs="оставља"/>
+				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="изглед"/>
+				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="предмет"/>
+				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="корисника"/>
+				<TLCConcept eId="cocnept46" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept47" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept48" href="http://purl.org/vocab/frbr/core#Concept" showAs="под"/>
+				<TLCConcept eId="cocnept49" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registar"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakonom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije za privredne registre"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskog ekonomskog prostora"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskoj uniji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Haški sporazum"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="IZDAVAČA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Industrijski dizajn"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Lokarnskim aranžmanom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Međunarodne klasifikacije industrijskog dizajna"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pariske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privredna komora Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar dizajna"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar industrijskih dizajna"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar industrijskog dizajna"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar prijava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar zastupnika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registru industrijskog dizajna"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registru prijava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SCG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Svetske trgovinske organizacije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ZAKONA"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Prenos"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. oktobra 2018."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 5. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. decembra 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="160. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. i 21."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. maja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="36. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="39."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. i 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="44."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="45."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="49. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="53. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="54."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="58. i 71."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="59."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="64."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="68. sud"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. i 41."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 1. tačka 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 1. tačka 7"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 24. децембра 2009. године (види члан 82. Закона).Подзаконски прописи за извршење овог закона биће донети у року од четири месеца од дана ступања на снагу овог закона. До доношења подзаконских прописа, примењују се одредбе прописа донетих на основу Закона о правној заштити дизајна („Службени лист СЦГ”, број 61/04), ако нису супротне овом закону (види члан 80. Закона).Закон о изменама и допунама Закона о правној заштити индустријског дизајна („Службени гласник РС“, број 45/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. маја 2015. године (види члан 52. Закона – 45/2015-3).Поступци започети до дана ступања на снагу Закона о изменама и допунама Закона о правној заштити индустријског дизајна („Службени гласник РС“, број 45/2015) окончаће се по прописима по којима су започети (види члан 50. Закона – 45/2015-3).Подзаконски пропис за извршење Закона о изменама и допунама Закона о правној заштити индустријског дизајна („Службени гласник РС“, број 45/2015) биће донет у року од четири месеца од дана ступања на снагу овог закона. До доношења наведеног подзаконског прописа примењују се одредбе прописа донетог на основу Закона о правној заштити индустријског дизајна („Службени гласник РС”, број 104/09), ако нису супротне овом закону (види члан 51. Закона – 45/2015-3).Престаје да важи одредба члана 15. став 5. Закона, у делу у ком се установљава обавеза употребе печата у пословању друштава и предузетника, даном почетка примене члана 160. Закона о изменама и допунама Закона о привредним друштвима („Службени гласник РС“, број 44/2018), односно 1. октобра 2018. године (види члан 160. Закона – 44/2018-27).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 24. децембра 2009. године (види члан 82. Закона).Подзаконски прописи за извршење овог закона биће донети у року од четири месеца од дана ступања на снагу овог закона. До доношења подзаконских прописа, примењују се одредбе прописа донетих на основу Закона о правној заштити дизајна („Службени лист СЦГ”, број 61/04), ако нису супротне овом закону (види члан 80. Закона).Закон о изменама и допунама Закона о правној заштити индустријског дизајна („Службени гласник РС“, број 45/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. маја 2015. године (види члан 52. Закона – 45/2015-3).Поступци започети до дана ступања на снагу Закона о изменама и допунама Закона о правној заштити индустријског дизајна („Службени гласник РС“, број 45/2015) окончаће се по прописима по којима су започети (види члан 50. Закона – 45/2015-3).Подзаконски пропис за извршење Закона о изменама и допунама Закона о правној заштити индустријског дизајна („Службени гласник РС“, број 45/2015) биће донет у року од четири месеца од дана ступања на снагу овог закона. До доношења наведеног подзаконског прописа примењују се одредбе прописа донетог на основу Закона о правној заштити индустријског дизајна („Службени гласник РС”, број 104/09), ако нису супротне овом закону (види члан 51. Закона – 45/2015-3).Престаје да важи одредба члана 15. став 5. Закона, у делу у ком се установљава обавеза употребе печата у пословању друштава и предузетника, даном почетка примене члана 160. Закона о изменама и допунама Закона о привредним друштвима („Службени гласник РС“, број 44/2018), односно 1. октобра 2018. године (види члан 160. Закона – 44/2018-27).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О правној заштити индустријског дизајна „Службени гласник РС“, бр. <ref wId="ref270" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref>, <ref wId="ref271" href="akn/rs/act/2015/45/srp@">45 од 22. маја 2015</ref>, <ref wId="ref272" href="akn/rs/act/2018/44/srp@">44 од 8. јуна 2018</ref> - др. закон</p>
+			</longTitle>
+			<p>Редкцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се начин стицања и заштита права на спољашњи изглед  индустријског или занатског производа (у даљем тексту: производ).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Под спољашњим изгледом производа подразумева се укупан визуелни утисак који  производ оставља на информисаног потрошача или корисника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Информисани потрошач или корисник, у смислу овог закона, је физичко лице које  се редовно сусреће са типом производа о којима је реч.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav4">
+						<content>
+							<p>На поступак стицања и заштите индустријског дизајна који је међународно  регистрован за територију Републике Србије на основу Хашког споразума о  међународном регистровању индустријског дизајна (у даљем тексту: Хашки  споразум), примењују се одредбе овог закона у свим питањима која нису уређена  Хашким споразумом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРЕДМЕТ И УСЛОВИ ЗАШТИТЕ</heading>
+				<article wId="gla2-clan2">
+					<num>2.</num>
+					<heading>Појам индустријског дизајна</heading>
+					<paragraph wId="gla2-clan2-stav1">
+						<content>
+							<p>Индустријски дизајн је тродимензионални или дводимензионални изглед целог  производа, или његовог дела, који је одређен његовим визуелним карактеристикама,  посебно линијама, контурама, бојама, обликом, текстуром и/или материјалима од  којих је производ сачињен, или којима је украшен, као и њиховом комбинацијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan2-stav2">
+						<content>
+							<p>Производ је индустријски или занатски предмет, укључујући, између осталог, и  делове који су намењени за спајање у сложени производ, паковање производа,  укупни визуелни идентитет производа, графичке симболе и типографске знаке,  искључујући компјутерске програме.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan2-stav3">
+						<content>
+							<p>Сложени производ је производ који је састављен од више делова који могу да  буду замењени и који омогућавају састављање и растављање производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan2-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan3">
+					<num>3.</num>
+					<heading>Услови за заштиту индустријског дизајна</heading>
+					<paragraph wId="gla2-clan3-stav1">
+						<content>
+							<p>Индустријски дизајн се штити на основу овог закона ако је нов и ако има  индивидуални карактер.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Новост</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Индустријски дизајн се сматра новим ако идентичан индустријски дизајн није  постао доступан јавности пре дана подношења пријаве за признање тог  индустријског дизајна, или пре датума признатог права првенства, уколико је оно  затражено, или ако не постоји раније поднета пријава за признање идентичног  индустријског дизајна која је постала доступна јавности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref3" href="akn/rs/act/2018/44-27/srp@/!main~art_4__para_2" >став 2. </ref>(види <ref wId="ref2" href="akn/rs/act/2015/45/srp@/!main~/art_3">члан 3. Закона - 45/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<content>
+							<p>Индустријски дизајни се сматрају идентичним ако се разликују само у небитним  детаљима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Индивидуални карактер</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Индустријски дизајн има индивидуални карактер ако се  укупан утисак који оставља на информисаног корисника разликује од укупног утиска  који на тог корисника оставља било који други индустријски дизајн који је постао  доступан јавности пре дана подношења пријаве индустријског дизајна, или датума  признатог права првенства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Приликом утврђивања индивидуалног карактера  индустријског дизајна узима се у обзир степен слободе аутора приликом стварања  индустријског дизајна одређеног производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Индустријски дизајн производа који чини саставни део сложеног производа</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>За индустријски дизајн примењен на производу, или садржан у производу који  чини саставни део сложеног производа, сматра се да је нов и да има индивидуални  карактер:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако саставни део који је уграђен у сложени производ остаје видљив током  редовне употребе сложеног производа и</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако видљиве карактеристике саставног дела испуњавају услове новости и  индивидуалног карактера.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Под редовном употребом из става 1. тачка <ref wId="ref6" href="akn/rs/act/2018/44-27/srp@/!main~art_6__para_1__point_1" >1</ref>) овог члана подразумева се  употреба од стране крајњег корисника, искључујући одржавање, сервисирање или  поправке производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref7" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Доступност јавности</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Сматра се да је индустријски дизајн постао доступан  јавности у смислу чл. <ref wId="ref8" href="akn/rs/act/2018/44-27/srp@/!main~art_4" >4</ref>. и <ref wId="ref9" href="akn/rs/act/2018/44-27/srp@/!main~art_5" >5</ref>. овог закона ако је објављен након регистрације или  на други начин, ако је излаган, коришћен у промету или на други начин откривен  пре дана подношења пријаве индустријског дизајна, или датума признатог права  првенства, ако је оно затражено, осим у случају када није постојала разумна  могућност да пословни кругови специјализовани за дату област сазнају за поменуте  догађаје у стандардним токовима пословања у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Не сматра се да је индустријски дизајн постао доступан јавности у смислу  <ref wId="ref10" href="akn/rs/act/2018/44-27/srp@/!main~art_7__para_1" >става 1. овог</ref> члана уколико је откривен трећем лицу под  експлицитним или  имплицитним условом чувања тајности .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Не сматра се да је индустријски дизајн постао доступан јавности, у смислу чл.  <ref wId="ref11" href="akn/rs/act/2018/44-27/srp@/!main~art_4" >4</ref>. и <ref wId="ref12" href="akn/rs/act/2018/44-27/srp@/!main~art_5" >5</ref>. овог закона, ако је индустријски дизајн открио аутор, његов правни  следбеник или треће лице на основу информације добијене од аутора или његовог  правног следбеника, или радње коју је један од њих предузео, под условом да је,  од тренутка када је индустријски дизајн откривен до тренутка подношења пријаве  за признање права на индустријски дизајн, односно до тренутка затраженог права  првенства, протекло мање од 12 месеци, као и ако је индустријски дизајн постао  доступан јавности као последица злоупотребе везане за аутора или његовог правног  следбеника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>Искључење заштите због техничке функције  и супротности са јавним поретком и моралом</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref20" href="akn/rs/act/2015/45/srp@">45/2015</ref></heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Индустријским дизајном не може се заштитити спољашњи изглед производа који  је искључиво одређен техничком функцијом производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Индустријским дизајном не може се заштитити спољашњи изглед производа који  мора да буде репродукован у свом тачном облику и димензијама, како би се  омогућило да буде механички повезан са, или постављен у, око или уз други  производ, тако да сваки производ може да обавља своју функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Под условима из чл. <ref wId="ref14" href="akn/rs/act/2018/44-27/srp@/!main~art_4" >4</ref>. и <ref wId="ref15" href="akn/rs/act/2018/44-27/srp@/!main~art_5" >5</ref>. овог закона, независно од <ref wId="ref16" href="akn/rs/act/2018/44-27/srp@/!main~art_8__para_2" >става 2. овог</ref> члана,  биће одобрена заштита индустријском дизајну* који омогућава вишеструко  састављање, или повезивање међусобно замењивих производа у модуларном систему.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav4">
+						<content>
+							<p>Индустријским дизајном не може се заштитити спољашњи  изглед производа чије је објављивање или употреба противна јавном поретку или  прихваћеним моралним принципима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref17" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav6">
+						<content>
+							<p>Право на заштиту индустријског дизајна</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref18" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav8">
+						<content>
+							<p>Члан 8а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav9">
+						<content>
+							<p>Право на заштиту индустријског дизајна припада аутору  или његовом правном следбенику, односно послодавцу, у случајевима предвиђеним  овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav10">
+						<content>
+							<p>Страна физичка и правна лица у погледу заштите  индустријског дизајна уживају иста права као и домаћа физичка и правна лица, ако  то произлази из међународних уговора или из начела узајамности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav11">
+						<content>
+							<p>Постојање узајамности доказује лице које се на  узајамност позива.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav12">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Индустријски дизајн који не може да се заштити</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<intro>
+							<p>На основу овог закона заштита се не може одобрити  индустријском дизајну:</p>
+						</intro>
+						<point wId="gla2-clan9-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> који не представља индустријски дизајн у смислу  <ref wId="ref21" href="akn/rs/act/2018/44-27/srp@/!main~art_2__para_1" >члана 2. став 1. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> који не испуњава услове из <ref wId="ref22" href="akn/rs/act/2018/44-27/srp@/!main~art_3->art_8" >чл. 3</ref>–8. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако је пријаву за признање индустријског дизајна  поднело лице које нема право на заштиту индустријског дизајна у смислу <ref wId="ref23" href="akn/rs/act/2018/44-27/srp@/!main~art_8а__para_1" >члана 8а  став 1. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако је индустријски дизајн у супротности са  индустријским дизајном који је постао доступан јавности након дана подношења  пријаве, или датума признатог права првенства, а који је заштићен у Републици  Србији од дана који претходи датуму подношења пријаве за заштиту индустријског  дизајна или датуму признатог првенства;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> који користи препознатљив знак, а закон којим се  уређује такав знак омогућава носиоцу права на знак право да забрани такво  коришћење;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> који повређује ауторско право или права  индустријске својине другог лица;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> који садржи државни или други јавни грб, заставу  или симбол, назив или скраћеницу назива неке земље или међународне организације,  религиозне и националне симболе, као и њихово подражавање, осим по одобрењу  надлежног органа.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref24" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Брисан је ранији назив изнад <ref wId="ref26" href="akn/rs/act/2018/44-27/srp@/!main~art_10" >члана 10. </ref>(види <ref wId="ref27" href="akn/rs/act/2015/45/srp@/!main~/art_10">члан 10. Закона - 45/2015-3</ref>)</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref25" href="akn/rs/act/2015/45/srp@/!main~/art_10">члан 10. Закона - 45/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Трајање заштите</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Право на индустријски дизајн стиче се уписом у  регистар индустријског дизајна и траје пет година од датума подношења пријаве  надлежном органу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Заштита индустријског дизајна може се, уз подношење  захтева и плаћање одговарајуће прописане таксе, продужавати за периоде од по пет  година, а најдуже до 25 година рачунајући од датума подношења пријаве за  признање права на индустријски дизајн.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Захтев за продужење заштите индустријског дизајна из  <ref wId="ref28" href="akn/rs/act/2018/44-27/srp@/!main~art_11__para_2" >става 2. овог</ref> члана садржи нарочито: назначење регистарског броја индустријског  дизајна и датум до ког индустријски дизајн важи; податке о носиоцу права на  индустријски дизајн; податак о плаћеној такси за продужење заштите индустријског  дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Влада ближе прописује садржину захтева из <ref wId="ref29" href="akn/rs/act/2018/44-27/srp@/!main~art_11__para_2" >става 2.  овог</ref> члана, одређује прилоге који се подносе уз захтев и прописује њихову  садржину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref30" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЗАШТИТЕ</heading>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>Заједничке одредбе</heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Правна заштита индустријског дизајна остварује се у управном поступку који  води надлежни орган.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Против одлука надлежног органа из <ref wId="ref31" href="akn/rs/act/2018/44-27/srp@/!main~art_12__para_1" >става 1. овог</ref> члана, може се изјавити жалба  Влади у року од 15 дана од дана пријема одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav3">
+						<content>
+							<p>Када је одлуком надлежног органа из <ref wId="ref33" href="akn/rs/act/2018/44-27/srp@/!main~art_12__para_1" >става 1. овог</ref>  члана одбијено признање индустријског дизајна из разлога што нису били испуњени  услови за заштиту наведени у <ref wId="ref32" href="akn/rs/act/2018/44-27/srp@/!main~art_3->art_9" >чл. 3</ref>–9. овог закона, Влада у одлуци по жалби може  признати индустријски дизајн у измењеном облику, уколико у том облику  индустријски дизајн испуњава услове за заштиту и ако је задржан индивидуални  карактер индустријског дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav4">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана  од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref34" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Регистри</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Надлежни орган води Регистар домаћих пријава за признање права на  индустријски дизајн (у даљем тексту: Регистар пријава) и Регистар индустријских  дизајна (у даљем тексту: Регистар индустријског дизајна).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Регистри из <ref wId="ref35" href="akn/rs/act/2018/44-27/srp@/!main~art_13__para_1" >става 1. овог</ref> члана су јавне књиге и заинтересована лица могу да  их разгледају у присуству службеног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>Списе регистрованих индустријских дизајна заинтересована лица могу да  разгледају на усмени захтев, у присуству службеног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav4">
+						<content>
+							<p>На писмени захтев заинтересованог лица и уз плаћање прописане таксе, надлежни  орган издаје копије докумената и одговарајуће потврде и уверења о чињеницама о  којима води службену евиденцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav5">
+						<content>
+							<p>Регистар пријава садржи нарочито: податке о подносиоцу пријаве; датум  подношења пријаве; број пријаве; стваран и кратак назив предмета заштите;  податке о променама које се односе на пријаву (статусне промене подносиоца  пријаве, пренос права, лиценца, залога, франшиза и др.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav6">
+						<content>
+							<p>Регистар индустријског дизајна садржи нарочито: податке о носиоцу  индустријског дизајна; регистарски број и датум регистровања индустријског  дизајна; назив предмета заштите; назначење класе међународне класификације  прописане Локарнским аранжманом о установљењу међународне класификације  индустријског дизајна (у даљем тексту: Међународна класификација индустријског  дизајна); податке о променама које се односе на регистровани индустријски дизајн  (статусне промене носиоца права на индустријски дизајн, пренос права, лиценца,  залога, франшиза и сл.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav7">
+						<content>
+							<p>Влада ближе прописује садржину регистара из <ref wId="ref36" href="akn/rs/act/2018/44-27/srp@/!main~art_13__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>Доступност документације</heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Надлежни орган дужан је да заинтересованим лицима учини доступним своју  документацију и информације о признатим правима на индустријски дизајн.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Међународно регистровање индустријског дизајна</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Носилац права на индустријски дизајн, односно подносилац пријаве за признање  права на индустријски дизајн, може да поднесе захтев за међународно регистровање  индустријског дизајна, у складу са Хашким споразумом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Захтев за међународно регистровање индустријског дизајна из <ref wId="ref37" href="akn/rs/act/2018/44-27/srp@/!main~art_15__para_1" >става 1. овог</ref>  члана подноси се преко надлежног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>За захтев за међународно регистровање индустријског дизајна плаћа се  прописана такса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav4">
+						<intro>
+							<p>Уз захтев за међународно регистровање индустријског дизајна подноси се и:</p>
+						</intro>
+						<point wId="gla3-clan15-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> приказ индустријског дизајна;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan15-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> пуномоћје, ако се захтев подноси преко пуномоћника;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan15-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> доказ о уплати таксе за захтев.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav5">
+						<content>
+							<p>Захтев за међународно регистровање индустријског дизајна садржи нарочито:  податке о подносиоцу захтева; број пријаве, односно регистарски број  индустријског дизајна; број предмета заштите ако је поднета пријава за више  предмета заштите; назначење земаља у којима се тражи заштита; износ плаћених  такси за пријаву и потпис и печат подносиоца пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav6">
+						<content>
+							<p>Влада ближе прописује садржину захтева из <ref wId="ref38" href="akn/rs/act/2018/44-27/srp@/!main~art_15__para_1" >става 1. овог</ref> члана, одређује  прилоге који се подносе уз захтев и прописује њихову садржину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav7">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА: Престаје да важи одредба <ref wId="ref39" href="akn/rs/act/2018/44-27/srp@/!main~art_15__para_5" >члана 15. став 5. </ref>Закона, у делу  у ком се установљава обавеза употребе печата у пословању друштава и  предузетника, даном почетка примене <ref wId="ref40" href="akn/rs/act/2018/44-27/srp@/!main~art_160" >члана 160. </ref>Закона о изменама и допунама  Закона о привредним друштвима („Службени гласник РС“, број <ref wId="ref42" href="akn/rs/act/2018/44/srp@">44/2018</ref>), односно 1.  октобра 2018. године (види <ref wId="ref41" href="akn/rs/act/2018/44/srp@/!main~/art_160">члан 160. Закона – 44/2018-27</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Заступање</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>Страно физичко или правно лице које нема пребивалиште, односно седиште на  територији Републике Србије у поступку пред надлежним органом мора заступати  заступник који је уписан у Регистар заступника који води надлежни орган или  домаћи адвокат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<heading>Регистар заступника</heading>
+					<paragraph wId="gla3-clan17-stav1">
+						<content>
+							<p>У Регистар заступника који води надлежни орган уписују се физичка и правна  лица која испуњавају услове утврђене законом којим се уређују патенти.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan18">
+					<num>18.</num>
+					<heading>Пријава за признање права на индустријски дизајн</heading>
+					<paragraph wId="gla3-clan18-stav1">
+						<content>
+							<p>Поступак за признање права на индустријски дизајн покреће се пријавом за  признање права на индустријски дизајн (у даљем тексту: пријава).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav2">
+						<content>
+							<p>Пријава из <ref wId="ref44" href="akn/rs/act/2018/44-27/srp@/!main~art_18__para_1" >става 1. овог</ref> члана подноси се надлежном органу у писаном облику,  непосредно или поштом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav3">
+						<intro>
+							<p>Пријава мора да садржи:</p>
+						</intro>
+						<point wId="gla3-clan18-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> захтев за признање права на индустријски дизајн;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan18-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> опис индустријског дизајна;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan18-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> дводимензионални приказ индустријског дизајна (у даљем тексту: приказ).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav4">
+						<content>
+							<p>Једна пријава може да садржи захтев за признање права  на индустријски дизајн за један или више, а највише до 100 индустријских  дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav5">
+						<content>
+							<p>Ако пријава индустријског дизајна садржи захтев за  признање права за више индустријских дизајна (у даљем тексту: вишеструка  пријава), сви производи на којима се тај индустријски дизајн примењује морају  бити сврстани у исту класу и поткласу међународне класификације индустријског  дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref45" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan19">
+					<num>19.</num>
+					<heading>Захтев за признање права на индустријски дизајн</heading>
+					<paragraph wId="gla3-clan19-stav1">
+						<intro>
+							<p>Захтев за признање права на индустријски дизајн садржи нарочито:</p>
+						</intro>
+						<point wId="gla3-clan19-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о подносиоцу пријаве;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> податке о аутору индустријског дизајна или изјаву аутора да не жели да  буде наведен у пријави;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> назначење да ли се пријава односи на један или више индустријских дизајна;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> стваран и кратак назив индустријског дизајна;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> правни основ за подношење пријаве, ако аутор индустријског дизајна није  подносилац пријаве;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> потпис подносиоца пријаве.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav2">
+						<content>
+							<p>Захтев за признање права на индустријски дизајн може да садржи и изјаву да се  захтева објављивање признатог права на индустријски дизајн 12 месеци након  датума доношења решења о признању права на индустријски дизајн (одложено  објављивање).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav3">
+						<content>
+							<p>Брисан је ранији <ref wId="ref47" href="akn/rs/act/2018/44-27/srp@/!main~art_19__para_3" >став 3. </ref>(види <ref wId="ref46" href="akn/rs/act/2015/45/srp@/!main~/art_15">члан 15. Закона - 45/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav4">
+						<content>
+							<p>Аутор индустријског дизајна може током поступка заштите, као и током целог  рока трајања права на индустријски дизајн, повући своју изјаву да не жели да му  име буде наведено у пријави, регистрима, као ни у другим исправама предвиђеним  овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav5">
+						<content>
+							<p>Влада ближе прописује садржину захтева из <ref wId="ref48" href="akn/rs/act/2018/44-27/srp@/!main~art_19__para_1" >става 1. овог</ref> члана, одређује  прилоге који се подносе уз захтев и прописује њихову садржину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref49" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan20">
+					<num>20.</num>
+					<heading>Опис индустријског дизајна</heading>
+					<paragraph wId="gla3-clan20-stav1">
+						<content>
+							<p>Опис индустријског дизајна садржи прецизан и сажет  опис битних карактеристика оних елемената индустријског дизајна који га чине  новим у смислу <ref wId="ref50" href="akn/rs/act/2018/44-27/srp@/!main~art_4" >члана 4. овог</ref> закона и различитим од индустријских дизајна који  су постали доступни јавности у смислу <ref wId="ref51" href="akn/rs/act/2018/44-27/srp@/!main~art_5" >члана 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav2">
+						<content>
+							<p>Опис индустријског дизајна мора да буде заснован на  поднетом приказу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav3">
+						<content>
+							<p>Опис индустријског дизајна не треба да садржи податке који се односе на  конструкцију, функцију или функционалне предности и сличне податке о телу или  његовим деловима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav4">
+						<content>
+							<p>Брисан је ранији <ref wId="ref53" href="akn/rs/act/2018/44-27/srp@/!main~art_20__para_4" >став 4. </ref>(види <ref wId="ref52" href="akn/rs/act/2015/45/srp@/!main~/art_16">члан 16. Закона - 45/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav5">
+						<content>
+							<p>Влада ближе прописује садржину описа индустријског дизајна, као и број  примерака описа индустријског дизајна који се подносе уз захтев за признање  права на индустријски дизајн.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref54" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan21">
+					<num>21.</num>
+					<heading>Приказ</heading>
+					<paragraph wId="gla3-clan21-stav1">
+						<content>
+							<p>Приказом се представља спољашњи изглед предмета  заштите као и његови делови који се виде стално или приликом његове редовне  употребе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav2">
+						<content>
+							<p>У приказу морају да се јасно представе сви елементи  индустријског дизајна који га чине новим у смислу <ref wId="ref55" href="akn/rs/act/2018/44-27/srp@/!main~art_4" >члана 4. овог</ref> закона и  различитим од индустријских дизајна који су постали доступни јавности у смислу  <ref wId="ref56" href="akn/rs/act/2018/44-27/srp@/!main~art_5" >члана 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav3">
+						<content>
+							<p>Приказ може бити поднет као фотографија или нацрт и мора да испуњава прописане услове који се односе  на квалитет и техничке карактеристике приказа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav4">
+						<content>
+							<p>Ако је у питању пријава за признање права на дводимензионални индустријски  дизајн, као приказ се може доставити дводимензионални примерак (узорак)  пријављеног индустријског дизајна, с тим да се најдоцније у року од шест месеци  од дана подношења пријаве надлежном органу мора доставити приказ из <ref wId="ref57" href="akn/rs/act/2018/44-27/srp@/!main~art_21__para_1" >става 1.  овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav5">
+						<content>
+							<p>Влада ближе прописује техничке карактеристике приказа, као и број примерака  приказа који се подносе уз захтев за признање права на индустријски дизајн.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref58" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan22">
+					<num>22.</num>
+					<heading>Таксе и трошкови поступка</heading>
+					<paragraph wId="gla3-clan22-stav1">
+						<content>
+							<p>У управном поступку пред надлежним органом плаћају се таксе и накнаде  трошкова поступка, сагласно прописима којима се уређују административне таксе и  накнаде трошкова поступка и трошкова за пружање информационих услуга.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav2">
+						<content>
+							<p>За увид у списе предмета, издавање копија докумената и  потврда и уверења о чињеницама о којима води службену евиденцију, објаву  података о регистрованим индустријским дизајнима и друге информационе услуге  које пружа надлежни орган у складу са овим законом плаћају се трошкови.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav3">
+						<content>
+							<p>Висину и начин плаћања трошкова из <ref wId="ref59" href="akn/rs/act/2018/44-27/srp@/!main~art_22__para_2" >става 2. овог</ref> члана  утврђује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref60" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan23">
+					<num>23.</num>
+					<heading>Датум подношења пријаве</heading>
+					<paragraph wId="gla3-clan23-stav1">
+						<intro>
+							<p>За признање датума подношења пријаве потребно је да пријава поднета надлежном  органу на тај датум садржи:</p>
+						</intro>
+						<point wId="gla3-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> назначење да се тражи признање права на индустријски дизајн;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> име и презиме, односно назив и адресу подносиоца пријаве;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> приказ.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav2">
+						<content>
+							<p>По пријему пријаве, надлежни орган испитује да ли су испуњени услови из <ref wId="ref61" href="akn/rs/act/2018/44-27/srp@/!main~art_23__para_1" >става  1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav3">
+						<content>
+							<p>На пријаву непосредно поднету надлежном органу, која садржи делове из <ref wId="ref62" href="akn/rs/act/2018/44-27/srp@/!main~art_23__para_1" >става  1. овог</ref> члана, уписује се број пријаве и дан и час њеног пријема у надлежном  органу и о томе се подносиоцу пријаве издаје потврда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav4">
+						<content>
+							<p>Ако пријава не садржи делове из <ref wId="ref63" href="akn/rs/act/2018/44-27/srp@/!main~art_23__para_1" >става 1. овог</ref> члана, надлежни орган ће  позвати подносиоца пријаве да у року од 30 дана отклони недостатке због којих  пријава није могла бити уписана у одговарајући регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav5">
+						<content>
+							<p>Ако подносилац пријаве у року из <ref wId="ref64" href="akn/rs/act/2018/44-27/srp@/!main~art_23__para_4" >става 4. овог</ref> члана отклони недостатке,  надлежни орган закључком признаје као датум подношења пријаве онај датум кад је  подносилац пријаве отклонио уочене недостатке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav6">
+						<content>
+							<p>Пријава којој је признат датум подношења уписује се у Регистар пријава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav7">
+						<content>
+							<p>Ако подносилац пријаве у року из <ref wId="ref65" href="akn/rs/act/2018/44-27/srp@/!main~art_23__para_4" >става 4. овог</ref> члана не отклони недостатке,  надлежни орган закључком одбацује пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav8">
+						<content>
+							<p>Против закључка из <ref wId="ref66" href="akn/rs/act/2018/44-27/srp@/!main~art_23__para_7" >става 7. овог</ref> члана може се изјавити жалба.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan24">
+					<num>24.</num>
+					<heading>Право првенства</heading>
+					<paragraph wId="gla3-clan24-stav1">
+						<content>
+							<p>Подносилац пријаве ужива од датума подношења пријаве право првенства у односу  на сва друга лица која су за исти дизајн доцније поднела пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav2">
+						<content>
+							<p>Конвенцијско право првенства</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan25">
+					<num>25.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref77" href="akn/rs/act/2015/45/srp@">45/2015</ref></heading>
+					<paragraph wId="gla3-clan25-stav1">
+						<content>
+							<p>Правном или физичком лицу које је поднело уредну пријаву индустријског  дизајна са дејством у некој земљи чланици Париске уније или Светске трговинске  организације, признаће се у Републици Србији конвенцијско право првенства од  датума подношења те пријаве ако у Републици Србији за исти индустријски дизајн  поднесе пријаву у року од шест месеци од дана подношења пријаве са дејством у  односној земљи. У захтеву за признање индустријског дизајна назначава се датум  подношења, број пријаве и земља за коју је пријава поднета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav2">
+						<content>
+							<p>Уредном пријавом из <ref wId="ref67" href="akn/rs/act/2018/44-27/srp@/!main~art_25__para_1" >става 1. овог</ref> члана сматра се свака пријава која испуњава  услове уредности према националном законодавству земље чланице Париске уније или  Светске трговинске организације за коју је пријава поднета или према  међународном уговору закљученом између ових земаља, без обзира на доцнију правну  судбину те пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav3">
+						<content>
+							<p>Правно или физичко лице из <ref wId="ref68" href="akn/rs/act/2018/44-27/srp@/!main~art_25__para_1" >става 1. овог</ref> члана дужно је да, у року од три  месеца од дана подношења пријаве у Републици Србији, достави надлежном органу  препис пријаве из <ref wId="ref69" href="akn/rs/act/2018/44-27/srp@/!main~art_25__para_1" >става 1. овог</ref> члана, оверен од надлежног органа земље чланице  Париске уније, Светске трговинске организације, односно међународне организације  којој је та пријава поднесена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav4">
+						<content>
+							<p>Брисани су ранији <ref wId="ref71" href="akn/rs/act/2018/44-27/srp@/!main~art_25__para_4->para_6" >ст. 4</ref>-6. (види <ref wId="ref70" href="akn/rs/act/2015/45/srp@/!main~/art_19">члан 19. Закона - 45/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref72" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav6">
+						<content>
+							<p>Уверење о праву првенства</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref73" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav8">
+						<content>
+							<p>Члан 25а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav9">
+						<content>
+							<p>На захтев домаћег или страног физичког или правног  лица које је код надлежног органа поднело уредну пријаву за признање права на  индустријски дизајн, надлежни орган издаје уверење о праву првенства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav10">
+						<content>
+							<p>Захтев за издавање уверења о праву првенства садржи  нарочито: податке о подносиоцу пријаве; приказ истоветан приказу у пријави; опис  истоветан опису у пријави; доказ о уплати таксе за издавање уверења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav11">
+						<content>
+							<p>Уверење о праву првенства садржи нарочито: податке о  подносиоцу пријаве; податке о аутору индустријског дизајна; број пријаве и датум  подношења пријаве; приказ истоветан приказу у пријави; опис истоветан опису у  пријави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav12">
+						<content>
+							<p>Влада ближе прописује садржину захтева из <ref wId="ref74" href="akn/rs/act/2018/44-27/srp@/!main~art_25__para_2" >става 2.  овог</ref> члана и садржину уверења о праву првенства из <ref wId="ref75" href="akn/rs/act/2018/44-27/srp@/!main~art_25__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav13">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref76" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan26">
+					<num>26.</num>
+					<heading>Сајамско право првенства</heading>
+					<paragraph wId="gla3-clan26-stav1">
+						<content>
+							<p>Подносилац пријаве који је, у року од три месеца пре дана подношења пријаве,  на домаћем сајму или изложби међународног карактера, или у некој другој земљи  чланици Париске уније или Светске трговинске организације излагао индустријски  дизајн, може да у пријави тражи признање права првенства од дана првог излагања  тог индустријског дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav2">
+						<content>
+							<p>Подносилац пријаве из <ref wId="ref78" href="akn/rs/act/2018/44-27/srp@/!main~art_26__para_1" >става 1. овог</ref> члана уз пријаву доставља потврду  надлежног органа земље чланице Париске уније или Светске трговинске организације  да је у питању сајам, односно изложба међународног карактера, уз назначење  података о врсти сајма, односно изложбе, месту одржавања, датуму отварања и  затварања сајма, односно изложбе, и датуму првог излагања тог дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav3">
+						<content>
+							<p>Уверење да је изложби, односно сајму одржаном у Републици Србији званично  признат међународни карактер издаје Привредна комора Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav4">
+						<content>
+							<p>Признањем права првенства из <ref wId="ref80" href="akn/rs/act/2018/44-27/srp@/!main~art_26__para_1" >става 1. овог</ref> члана не продужавају се рокови из  <ref wId="ref79" href="akn/rs/act/2018/44-27/srp@/!main~art_25" >члана 25. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan27">
+					<num>27.</num>
+					<heading>Измена приказа</heading>
+					<paragraph wId="gla3-clan27-stav1">
+						<content>
+							<p>У пријави не може се накнадно изменити приказ индустријског дизајна тако да  се по свом обиму и садржини битно разликује од оног који је одређен описом  достављеним приликом подношења пријаве.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan28">
+					<num>28.</num>
+					<heading>Редослед испитивања пријава</heading>
+					<paragraph wId="gla3-clan28-stav1">
+						<content>
+							<p>Пријаве се испитују по редоследу одређеном датумом и сатом њиховог подношења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav2">
+						<content>
+							<p>Изузетно од одредбе <ref wId="ref81" href="akn/rs/act/2018/44-27/srp@/!main~art_28__para_1" >става 1. овог</ref> члана, пријава се  може решавати по хитном поступку у случају судског спора или покренутог  инспекцијског надзора или царинског поступка, на захтев суда или надлежног  органа тржишне инспекције, односно царинског органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav3">
+						<content>
+							<p>Брисан је ранији <ref wId="ref83" href="akn/rs/act/2018/44-27/srp@/!main~art_28__para_3" >став 3. </ref>(види <ref wId="ref82" href="akn/rs/act/2015/45/srp@/!main~/art_21">члан 21. Закона - 45/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref84" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan29">
+					<num>29.</num>
+					<heading>Испитивање уредности пријаве</heading>
+					<paragraph wId="gla3-clan29-stav1">
+						<content>
+							<p>Пријава је уредна ако садржи све елементе из чл. <ref wId="ref85" href="akn/rs/act/2018/44-27/srp@/!main~art_19" >19</ref>, <ref wId="ref86" href="akn/rs/act/2018/44-27/srp@/!main~art_20" >20</ref>. и <ref wId="ref87" href="akn/rs/act/2018/44-27/srp@/!main~art_21" >21</ref>. овог закона,  доказ о уплати таксе за пријаву и друге прописане делове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav2">
+						<content>
+							<p>Ако утврди да пријава није уредна, надлежни орган ће писмено, уз навођење  разлога, позвати подносиоца пријаве да је уреди у року који надлежни орган  одреди.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav3">
+						<content>
+							<p>На образложени захтев подносиоца пријаве, уз плаћање прописане таксе,  надлежни орган може да продужи рок из <ref wId="ref88" href="akn/rs/act/2018/44-27/srp@/!main~art_29__para_2" >става 2. овог</ref> члана за време које сматра  примереним, а најдуже три месеца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav4">
+						<content>
+							<p>Ако подносилац пријаве у остављеном року не уреди пријаву, или не плати  прописане таксе, надлежни орган ће пријаву одбацити закључком.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav5">
+						<content>
+							<p>Против закључка из <ref wId="ref89" href="akn/rs/act/2018/44-27/srp@/!main~art_29__para_4" >става 4. овог</ref> члана може се изјавити жалба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav6">
+						<content>
+							<p>У случају из <ref wId="ref90" href="akn/rs/act/2018/44-27/srp@/!main~art_29__para_4" >става 4. овог</ref> члана, уз плаћање прописане таксе, подносилац  пријаве може да поднесе предлог за повраћај у пређашње стање, у року од три  месеца од дана пријема закључка о одбацивању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan30">
+					<num>30.</num>
+					<heading>Испитивање услова за признање права на индустријски дизајн</heading>
+					<paragraph wId="gla3-clan30-stav1">
+						<content>
+							<p>Ако је пријава уредна у смислу <ref wId="ref91" href="akn/rs/act/2018/44-27/srp@/!main~art_29__para_1" >члана 29. став 1. овог</ref> закона, надлежни орган  испитује да ли су испуњени услови за признање права на индустријски дизајн.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan31">
+					<num>31.</num>
+					<heading>Решење о одбијању признања права на индустријски дизајн</heading>
+					<paragraph wId="gla3-clan31-stav1">
+						<content>
+							<p>Ако утврди да пријава не испуњава услове за признање права на индустријски  дизајн, надлежни орган ће писменим путем обавестити подносиоца пријаве о  разлозима због којих се право на индустријски дизајн не може признати и позваће  га да се, у року који надлежни орган одреди, изјасни о тим разлозима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav2">
+						<content>
+							<p>На образложени захтев подносиоца пријаве, уз плаћање прописане таксе,  надлежни орган може да продужи рок из <ref wId="ref92" href="akn/rs/act/2018/44-27/srp@/!main~art_31__para_1" >става 1. овог</ref> члана за време које сматра  примереним, а најдуже до три месеца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav3">
+						<content>
+							<p>Надлежни орган ће решењем одбити захтев за признање права на индустријски  дизајн ако се подносилац пријаве уопште не изјасни, или ако се изјасни, а  надлежни орган и даље сматра да се право на индустријски дизајн не може  признати.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan32">
+					<num>32.</num>
+					<heading>Одустанак од пријаве</heading>
+					<paragraph wId="gla3-clan32-stav1">
+						<content>
+							<p>Подносилац пријаве може у току целог поступка одустати од пријаве у целини  или само за неке индустријске дизајне.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav2">
+						<content>
+							<p>Ако је у Регистру пријава уписано одређено право у корист трећег лица,  подносилац пријаве не може одустати од пријаве без писмене сагласности лица на  чије име је уписано то право.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav3">
+						<content>
+							<p>У случају када подносилац пријаве одустане од пријаве у целини, надлежни  орган ће донети закључак о обустави поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav4">
+						<content>
+							<p>Против закључка из <ref wId="ref93" href="akn/rs/act/2018/44-27/srp@/!main~art_32__para_3" >става 3. овог</ref> члана, може се изјавити жалба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav5">
+						<content>
+							<p>У случају из <ref wId="ref94" href="akn/rs/act/2018/44-27/srp@/!main~art_32__para_3" >става 3. овог</ref> члана, пријава престаје да важи наредног дана од  дана предаје надлежном органу изјаве о одустанку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan33">
+					<num>33.</num>
+					<heading>Раздвајање пријаве</heading>
+					<paragraph wId="gla3-clan33-stav1">
+						<content>
+							<p>Подносилац вишеструке пријаве у смислу <ref wId="ref95" href="akn/rs/act/2018/44-27/srp@/!main~art_18__para_5" >члана 18. став 5. овог</ref> закона може,  уз плаћање прописане таксе, да поднесе захтев за раздвајање своје вишеструке  пријаве на више појединачних, или вишеструких издвојених пријава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav2">
+						<content>
+							<p>Свака од издвојених пријава из <ref wId="ref96" href="akn/rs/act/2018/44-27/srp@/!main~art_33__para_1" >става 1. овог</ref> члана добија нови број пријаве и  заводи се у Регистар пријава, али задржава датум подношења првобитне вишеструке  пријаве и њено право првенства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav3">
+						<content>
+							<p>О раздвајању пријаве доноси се посебно решење, у коме се назначава број,  односно бројеви нових пријава, индустријски дизајни који остају у првобитној  вишеструкој пријави и индустријски дизајни који су у издвојеној, или издвојеним  пријавама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav4">
+						<content>
+							<p>Захтев из <ref wId="ref97" href="akn/rs/act/2018/44-27/srp@/!main~art_33__para_1" >става 1. овог</ref> члана садржи нарочито: број и датум подношења  првобитне пријаве чије се раздвајање тражи; опис и приказ индустријског дизајна;  назначење бројева класа Међународне класификације индустријског дизајна које  остају у првобитној пријави и бројева класа Међународне класификације  индустријског дизајна које се раздвајају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav5">
+						<content>
+							<p>Влада ближе прописује садржину захтева из <ref wId="ref98" href="akn/rs/act/2018/44-27/srp@/!main~art_33__para_1" >става 1. овог</ref> члана, одређује  прилоге који се подносе уз захтев и прописује њихову садржину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref99" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan34">
+					<num>34.</num>
+					<heading>Делимично признање вишеструке пријаве</heading>
+					<paragraph wId="gla3-clan34-stav1">
+						<content>
+							<p>Ако утврди да вишеструка пријава, поред индустријских дизајна којима се може  признати заштита, садржи и један или више индустријских дизајна којима се, на  основу овога закона, не може признати заштита, надлежни орган ће писменим путем  о томе обавестити подносиоца пријаве и позваће га да се у року који надлежни  орган одреди изјасни о наведеним разлозима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav2">
+						<content>
+							<p>На образложени захтев подносиоца пријаве, надлежни орган може да продужи рок  из <ref wId="ref100" href="akn/rs/act/2018/44-27/srp@/!main~art_34__para_1" >става 1. овог</ref> члана за време које сматра примереним, а најдуже три месеца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav3">
+						<content>
+							<p>Надлежни орган ће донети решење о делимичном признању вишеструке пријаве ако  се подносилац пријаве уопште не изјасни, или ако се изјасни, а надлежни орган и  даље сматра да се неким индустријским дизајнима из вишеструке пријаве не може  признати заштита.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan35">
+					<num>35.</num>
+					<heading>Претварање пријаве за признање права на индустријски дизајн у пријаву за  признање патента, односно малог патента</heading>
+					<paragraph wId="gla3-clan35-stav1">
+						<content>
+							<p>До окончања поступка, пријава за признање права на индустријски дизајн може  се претворити у пријаву за признање патента, односно малог патента.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan36">
+					<num>36.</num>
+					<heading>Закључак за плаћање таксе ради признања права на индустријски дизајн</heading>
+					<paragraph wId="gla3-clan36-stav1">
+						<content>
+							<p>Ако пријава испуњава услове за признање права на индустријски дизајн,  надлежни орган закључком позива подносиоца пријаве да плати таксу за првих пет  година заштите и трошкове објаве индустријског дизајна и да достави доказе о  извршеним уплатама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav2">
+						<content>
+							<p>Ако подносилац пријаве у остављеном року не достави доказе о извршеним  уплатама из <ref wId="ref101" href="akn/rs/act/2018/44-27/srp@/!main~art_36__para_1" >става 1. овог</ref> члана, сматраће се да је пријава повучена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav3">
+						<content>
+							<p>У случају из <ref wId="ref102" href="akn/rs/act/2018/44-27/srp@/!main~art_36__para_2" >става 2. овог</ref> члана, надлежни орган ће донети закључак о  обустави поступка, против кога се може изјавити жалба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav4">
+						<content>
+							<p>У случају из <ref wId="ref103" href="akn/rs/act/2018/44-27/srp@/!main~art_36__para_2" >става 2. овог</ref> члана, подносилац пријаве може, уз плаћање  прописане таксе, да поднесе предлог за повраћај у пређашње стање у року од три  месеца од дана пријема закључка о обустави поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan37">
+					<num>37.</num>
+					<heading>Упис права на индустријски дизајн у Регистар индустријског дизајна</heading>
+					<paragraph wId="gla3-clan37-stav1">
+						<content>
+							<p>Када подносилац пријаве достави доказе о извршеним уплатама из <ref wId="ref104" href="akn/rs/act/2018/44-27/srp@/!main~art_36__para_1" >члана 36. став  1. овог</ref> закона, надлежни орган признато право на индустријски дизајн, са  прописаним подацима, уписује у Регистар индустријског дизајна, а носиоцу права  на индустријски дизајн издаје исправу о индустријском дизајну.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav2">
+						<content>
+							<p>Исправа о индустријском дизајну има карактер решења у управном поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav3">
+						<content>
+							<p>Исправа о индустријском дизајну садржи нарочито: регистарски број  регистрованог индустријског дизајна и број пријаве; податке о аутору дизајна;  приказ и опис индустријског дизајна; датум уписа у Регистар индустријског  дизајна; датум до ког регистровани индустријски дизајн важи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav4">
+						<content>
+							<p>Влада ближе прописује садржину исправе о индустријском дизајну из <ref wId="ref105" href="akn/rs/act/2018/44-27/srp@/!main~art_37__para_1" >става 1.  овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan38">
+					<num>38.</num>
+					<heading>Објављивање признатог права</heading>
+					<paragraph wId="gla3-clan38-stav1">
+						<content>
+							<p>Признато право на индустријски дизајн објављује се у службеном гласилу  надлежног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav2">
+						<content>
+							<p>У службеном гласилу надлежног органа објављују се нарочито следећи подаци:  подаци о носиоцу права на индустријски дизајн; регистарски број регистрованог  индустријског дизајна; датум уписа права на индустријски дизајн у Регистар  индустријског дизајна; датум до ког регистровани индустријски дизајн важи; назив  предмета заштите; приказ; број класе Међународне класификације индустријског  дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav3">
+						<content>
+							<p>Влада ближе прописује податке из <ref wId="ref106" href="akn/rs/act/2018/44-27/srp@/!main~art_38__para_2" >става 2. овог</ref> члана који се објављују у  службеном гласилу надлежног органа.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>САДРЖИНА, ОБИМ И ОГРАНИЧЕЊЕ ПРАВА НА ИНДУСТРИЈСКИ ДИЗАЈН</heading>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<heading>Садржина права на индустријски дизајн</heading>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Носилац права на индустријски дизајн има искључиво право  да користи заштићен  индустријски дизајн и да то право ускрати сваком трећем лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav2">
+						<content>
+							<p>Под коришћењем из <ref wId="ref107" href="akn/rs/act/2018/44-27/srp@/!main~art_39__para_1" >става 1. овог</ref> члана подразумева се  нарочито израда, понуда, стављање у промет, увоз, извоз или употреба производа у  који је дизајн уграђен или на коме је примењен или складиштење таквог производа  у наведене сврхе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref108" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan40">
+					<num>40.</num>
+					<heading>Права аутора индустријског дизајна</heading>
+					<paragraph wId="gla4-clan40-stav1">
+						<content>
+							<p>Аутор индустријског дизајна има морална и имовинска права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav2">
+						<content>
+							<p>Морално право је право аутора индустријског дизајна да његово име буде  наведено у пријави, списима и исправи о индустријском дизајну.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav3">
+						<content>
+							<p>Имовинско право је право аутора индустријског дизајна да ужива економску  корист од искоришћавања заштићеног индустријског дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav4">
+						<content>
+							<p>Ако аутор индустријског дизајна није носилац права на индустријски дизајн,  облик економске користи коју ужива аутор заштићеног индустријског дизајна од  његовог искоришћавања одређује се уговором између носиоца индустријског дизајна  и аутора индустријског дизајна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan41">
+					<num>41.</num>
+					<heading>Обим права на индустријски дизајн</heading>
+					<paragraph wId="gla4-clan41-stav1">
+						<content>
+							<p>Право које се стиче на основу регистрованог  индустријског дизајна обухвата сваки индустријски дизајн који на информисаног  корисника не оставља другачији укупан утисак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav2">
+						<content>
+							<p>Подносилац пријаве може сам, или на писмени захтев надлежног органа у  остављеном року, да изјави да не тражи било каква искључива права на елементу  индустријског дизајна наведеном у опису индустријског дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav3">
+						<content>
+							<p>При утврђивању обима права узима се у обзир степен  слободе аутора приликом стварања дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref109" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan42">
+					<num>42.</num>
+					<heading>Право раније употребе</heading>
+					<paragraph wId="gla4-clan42-stav1">
+						<content>
+							<p>Право на индустријски дизајн не делује према савесном лицу које је пре датума  признатог права првенства пријаве у земљи већ отпочело коришћење истог  индустријског дизајна у производњи, или је извршило све неопходне припреме за  отпочињање таквог коришћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav2">
+						<content>
+							<p>Лице из <ref wId="ref110" href="akn/rs/act/2018/44-27/srp@/!main~art_42__para_1" >става 1. овог</ref> члана има право да индустријски дизајн користи  искључиво у производне сврхе, у свом привредном друштву или радионици, или туђем  привредном друштву или радионици за сопствене потребе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav3">
+						<content>
+							<p>Лице из <ref wId="ref111" href="akn/rs/act/2018/44-27/srp@/!main~art_42__para_1" >става 1. овог</ref> члана не може да пренесе своје право на коришћење  индустријског дизајна на другог, осим ако заједно са правом преноси и привредно  друштво или радионицу, односно огранак у коме је припремљено, односно отпочело  коришћење тог индустријског дизајна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan43">
+					<num>43.</num>
+					<heading>Ограничење права</heading>
+					<paragraph wId="gla4-clan43-stav1">
+						<intro>
+							<p>Носилац права на индустријски дизајн не може да забрани трећем лицу :</p>
+						</intro>
+						<point wId="gla4-clan43-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> радње учињене у приватне и некомерцијалне сврхе;</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan43-stav2">
+						<intro>
+							<p>1а) радње учињене у експерименталне сврхе;</p>
+						</intro>
+						<point wId="gla4-clan43-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> радње умножавања у сврху подучавања или цитирања, под условом да су такве  радње у складу са праксом лојалне конкуренције и да неоправдано не угрожавају  нормално искоришћавање индустријског дизајна, као и да је наведено одакле је  индустријски дизајн преузет.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan43-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref112" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan44">
+					<num>44.</num>
+					<heading>Ограничење права ради несметаног обављања међународног саобраћаја</heading>
+					<paragraph wId="gla4-clan44-stav1">
+						<intro>
+							<p>Право стечено признањем индустријског дизајна није  могуће остварити у вези са:</p>
+						</intro>
+						<point wId="gla4-clan44-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> опремом брода или ваздухоплова регистрованим у  другој земљи, који се привремено нађе на територији Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan44-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> увозом у Републику Србију резервних и припадајућих  делова намењених поправци возила из тачке <ref wId="ref113" href="akn/rs/act/2018/44-27/srp@/!main~art_44__para_1__point_1" >1</ref>) овог члана;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan44-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> вршењем поправки на возилу из тачке <ref wId="ref114" href="akn/rs/act/2018/44-27/srp@/!main~art_44__para_1__point_1" >1</ref>) овог члана.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref115" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan45">
+					<num>45.</num>
+					<heading>Исцрпљење права</heading>
+					<paragraph wId="gla4-clan45-stav1">
+						<content>
+							<p>Ако је носилац права на индустријски дизајн у Републици Србији ставио у  промет производ који садржи заштићени индустријски дизајн, односно производ који  је обликован према заштићеном индустријском дизајну или ако је носилац права на  индустријски дизајн овластио неко лице да у Републици Србији такав производ  стави у промет, нема право да забрани трећим лицима даље располагање тим  производом, купљеним у легалним токовима промета .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan45-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref117" href="akn/rs/act/2018/44-27/srp@/!main~art_45__para_2" >став 2. </ref>(види <ref wId="ref116" href="akn/rs/act/2015/45/srp@/!main~/art_27">члан 27. Закона - 45/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan45-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref118" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan46">
+					<num>46.</num>
+					<heading>Однос са другим облицима заштите</heading>
+					<paragraph wId="gla4-clan46-stav1">
+						<content>
+							<p>Одредбе овог закона неће утицати на постојећа права везана за жигове  или  друге знакове разликовања, патенте или мале патенте, типографске знаке,  нерегистроване индустријске дизајне, као и на примену прописа који уређују  грађанскоправну одговорност или нелојалну конкуренцију. Индустријски дизајн  заштићен по одредбама овог закона ужива заштиту и на основу закона којим се  уређује ауторско право од датума када је индустријски дизајн настао, односно  када је изражен у одређеној форми.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan46-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref119" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРАВНА ЗАШТИТА ИНДУСТРИЈСКОГ ДИЗАЈНА СТВОРЕНОГ У РАДНОМ ОДНОСУ</heading>
+				<article wId="gla5-clan47">
+					<num>47.</num>
+					<heading>Дизајн створен у радном односу</heading>
+					<paragraph wId="gla5-clan47-stav1">
+						<content>
+							<p>На правну заштиту индустријског дизајна створеног у радном односу сходно се  примењују одредбе закона којим се уређују патенти.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРОМЕНЕ У ПРИЈАВИ, ОДНОСНО РЕГИСТРАЦИЈИ ИНДУСТРИЈСКОГ ДИЗАЈНА</heading>
+				<article wId="gla6-clan48">
+					<num>48.</num>
+					<heading>Промена имена и адресе носиоца права</heading>
+					<paragraph wId="gla6-clan48-stav1">
+						<content>
+							<p>Надлежни орган, на захтев носиоца права на индустријски дизајн, односно  подносиоца пријаве, доноси решење о упису у одговарајући регистар надлежног  органа, промене имена и адресе носиоца права на индустријски дизајн, односно  подносиоца пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav2">
+						<content>
+							<p>Једним захтевом из <ref wId="ref120" href="akn/rs/act/2018/44-27/srp@/!main~art_48__para_1" >става 1. овог</ref> члана може се затражити упис промене имена и  адресе носиоца права који се односи на више регистрованих индустријских дизајна,  односно више пријава, под условом да су регистарски бројеви, односно бројеви  пријава назначени у захтеву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav3">
+						<content>
+							<p>Ако захтев за упис промене имена и адресе носиоца права не садржи прописане  податке, надлежни орган ће писменим путем позвати подносиоца захтева да га уреди  у року који надлежни орган одреди.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav4">
+						<content>
+							<p>На образложени захтев подносиоца захтева за упис промене имена и адресе, уз  плаћање прописане таксе, надлежни орган ће продужити рок из <ref wId="ref121" href="akn/rs/act/2018/44-27/srp@/!main~art_48__para_3" >става 3. овог</ref> члана  за време које сматра примереним.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav5">
+						<content>
+							<p>Ако подносилац захтева у остављеном року не поступи по позиву, надлежни орган  ће донети закључак о одбацивању захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav6">
+						<content>
+							<p>Против закључка из <ref wId="ref122" href="akn/rs/act/2018/44-27/srp@/!main~art_48__para_5" >става 5. овог</ref> члана може се изјавити жалба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav7">
+						<content>
+							<p>Захтев за упис промене из <ref wId="ref123" href="akn/rs/act/2018/44-27/srp@/!main~art_48__para_1" >става 1. овог</ref> члана садржи нарочито: регистарски  број регистрованог индустријског дизајна, односно број пријаве; податке о  носиоцу права на индустријски дизајн, односно подносиоцу пријаве; назначење  врсте промене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav8">
+						<content>
+							<p>Влада прописује ближу садржину захтева за упис промене из <ref wId="ref124" href="akn/rs/act/2018/44-27/srp@/!main~art_48__para_1" >става 1. овог</ref>  члана, као и садржину прилога и прилоге који се подносе уз захтев.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan49">
+					<num>49.</num>
+					<heading>Пренос права</heading>
+					<paragraph wId="gla6-clan49-stav1">
+						<content>
+							<p>Пренос права на индустријски дизајн, односно права из пријаве може бити  последица уговора о преносу права, статусне промене носиоца права на  индустријски дизајн, односно подносиоца пријаве, судске или административне  одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav2">
+						<content>
+							<p>Пренос права из <ref wId="ref125" href="akn/rs/act/2018/44-27/srp@/!main~art_49__para_1" >става 1. овог</ref> члана уписује се у одговарајући регистар  надлежног органа на захтев носиоца права на индустријски дизајн, односно  подносиоца пријаве или стицаоца права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav3">
+						<content>
+							<p>Упис преноса права из <ref wId="ref126" href="akn/rs/act/2018/44-27/srp@/!main~art_49__para_1" >става 1. овог</ref> члана у одговарајући регистар надлежног  органа, производи правно дејство према трећим лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav4">
+						<content>
+							<p>О упису преноса права из <ref wId="ref127" href="akn/rs/act/2018/44-27/srp@/!main~art_49__para_1" >става 1. овог</ref> члана у одговарајући регистар  надлежног органа, доноси се посебно решење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan50">
+					<num>50.</num>
+					<heading>Уговор о преносу права</heading>
+					<paragraph wId="gla6-clan50-stav1">
+						<content>
+							<p>Уговором о преносу права из <ref wId="ref128" href="akn/rs/act/2018/44-27/srp@/!main~art_49__para_1" >члана 49. став 1. овог</ref> закона, носилац права на  индустријски дизајн, односно подносилац пријаве може пренети право на  регистровани индустријски дизајн, односно право из пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav2">
+						<content>
+							<p>Уговор о преносу права из <ref wId="ref129" href="akn/rs/act/2018/44-27/srp@/!main~art_50__para_1" >става 1. овог</ref> члана саставља се у писменој форми и  мора садржати назначење уговорних страна, број регистрованог индустријског  дизајна, односно број пријаве и висину накнаде, ако је уговорена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav3">
+						<content>
+							<p>На сва питања која се односе на уговор о преносу  права, а која нису уређена овим законом, примењују се прописи којима се уређују  облигациони односи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref130" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan51">
+					<num>51.</num>
+					<heading>Лиценца</heading>
+					<paragraph wId="gla6-clan51-stav1">
+						<content>
+							<p>Носилац права на индустријски дизајн, односно подносилац пријаве може  уговором о лиценци уступити право коришћења регистрованог индустријског дизајна,  односно права из пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav2">
+						<content>
+							<p>Уговор о лиценци из <ref wId="ref131" href="akn/rs/act/2018/44-27/srp@/!main~art_51__para_1" >става 1. овог</ref> члана саставља се у писменој форми и мора  садржати назначење уговорних страна, број регистрованог индустријског дизајна  или број пријаве, време трајања лиценце и обим лиценце.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav3">
+						<content>
+							<p>Уговор о лиценци из <ref wId="ref132" href="akn/rs/act/2018/44-27/srp@/!main~art_51__para_1" >става 1. овог</ref> члана уписује се у одговарајући регистар  надлежног органа на захтев носиоца права на индустријски дизајн, односно  подносиоца пријаве или стицаоца права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav4">
+						<content>
+							<p>Упис уговора о лиценци из <ref wId="ref133" href="akn/rs/act/2018/44-27/srp@/!main~art_51__para_1" >става 1. овог</ref> члана у одговарајући регистар  надлежног органа производи правно дејство према трећим лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav5">
+						<content>
+							<p>О упису уговора о лиценци из <ref wId="ref134" href="akn/rs/act/2018/44-27/srp@/!main~art_51__para_1" >става 1. овог</ref> члана у одговарајући регистар  надлежног органа, доноси се посебно решење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav6">
+						<content>
+							<p>На сва питања која се односе на уступање права  коришћења регистрованог индустријског дизајна, односно права из пријаве, а која  нису уређена овим законом примењују се прописи којима се уређују облигациони  односи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref135" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan52">
+					<num>52.</num>
+					<heading>Залога</heading>
+					<paragraph wId="gla6-clan52-stav1">
+						<content>
+							<p>Регистровани индустријски дизајн, односно право из пријаве може бити предмет  уговора о залози.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan52-stav2">
+						<content>
+							<p>Уговор о залози из <ref wId="ref136" href="akn/rs/act/2018/44-27/srp@/!main~art_52__para_1" >става 1. овог</ref> члана саставља се у писменој форми и мора  садржати: дан закључења; име и презиме или пословно име, пребивалиште или  боравиште, односно седиште уговорних страна као и дужника ако су то различита  лица; регистарски број регистрованог индустријског дизајна, односно број пријаве  индустријског дизајна и податке о потраживању које се обезбеђује заложним  правом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan52-stav3">
+						<content>
+							<p>Уговор о залози из <ref wId="ref137" href="akn/rs/act/2018/44-27/srp@/!main~art_52__para_1" >става 1. овог</ref> члана уписује се у одговарајући регистар  надлежног органа на захтев носиоца права на индустријски дизајн, односно  подносиоца пријаве или заложног повериоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan52-stav4">
+						<content>
+							<p>Поверилац стиче заложно право уписом у одговарајући регистар надлежног  органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan52-stav5">
+						<content>
+							<p>О упису уговора о залози из <ref wId="ref138" href="akn/rs/act/2018/44-27/srp@/!main~art_52__para_1" >става 1. овог</ref> члана у одговарајући регистар  надлежног органа, доноси се посебно решење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan52-stav6">
+						<content>
+							<p>На сва питања која се односе на залогу права на индустријски дизајн, а која  нису регулисана овим законом, примењују се прописи којима се уређује  бездржавинска залога, облигациони и својинскоправни односи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan52-stav7">
+						<content>
+							<p>У регистар надлежног органа уписују се нарочито следећи подаци: подаци о  залогодавцу и дужнику, када то нису иста лица, као и подаци о заложном  повериоцу; регистарски број регистрованог индустријског дизајна, односно број  пријаве за признање права; подаци о потраживању које се обезбеђује заложним  правом уз назначење основног и максималног износа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan52-stav8">
+						<content>
+							<p>У регистар надлежног органа уписују се и све промене података из <ref wId="ref139" href="akn/rs/act/2018/44-27/srp@/!main~art_52__para_7" >става 7.  овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan52-stav9">
+						<content>
+							<p>Влада ближе прописује податаке који се уписују у регистар надлежног органа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan53">
+					<num>53.</num>
+					<heading>Поступак за упис преноса права, лиценце и залоге</heading>
+					<paragraph wId="gla6-clan53-stav1">
+						<content>
+							<p>Поступак за упис преноса права, лиценце и залоге, покреће се писаним  захтевом, који се подноси надлежном органу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan53-stav2">
+						<intro>
+							<p>Уз захтев из <ref wId="ref140" href="akn/rs/act/2018/44-27/srp@/!main~art_53__para_1" >става 1. овог</ref> члана подноси се и:</p>
+						</intro>
+						<point wId="gla6-clan53-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> доказ о правном основу уписа који се тражи;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan53-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> пуномоћје, ако се поступак за упис преноса права, лиценце, или залоге  покреће преко пуномоћника;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan53-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> доказ о уплати прописане таксе по захтеву за упис преноса права, лиценце  или залоге.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan53-stav3">
+						<content>
+							<p>Једним захтевом из <ref wId="ref141" href="akn/rs/act/2018/44-27/srp@/!main~art_53__para_1" >става 1. овог</ref> члана може се затражити упис преноса права,  који се односи на више регистрованих индустријских дизајна, односно више  пријава, под условом да су ранији носилац права и нови носилац права, исти у  сваком регистрованом индустријском дизајну, односно пријави и да су регистарски  бројеви, односно бројеви пријава назначени у захтеву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan53-stav4">
+						<content>
+							<p>Једним захтевом из <ref wId="ref142" href="akn/rs/act/2018/44-27/srp@/!main~art_53__para_1" >става 1. овог</ref> члана може се затражити упис лиценце,  односно залоге, који се односи на више регистрованих индустријских дизајна,  односно више пријава, под условом да су носилац права и стицалац лиценце,  односно залоге исти у сваком регистрованом индустријском дизајну, односно  пријави и да су регистарски бројеви, односно бројеви пријава назначени у  захтеву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan53-stav5">
+						<content>
+							<p>Захтев из <ref wId="ref143" href="akn/rs/act/2018/44-27/srp@/!main~art_53__para_1" >става 1. овог</ref> члана садржи нарочито: регистарски број регистрованог  индустријског дизајна, односно број пријаве; податке о носиоцу права на  индустријски дизајн, односно подносиоцу пријаве; назначење врсте промене,  односно уписа права који се тражи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan53-stav6">
+						<content>
+							<p>Влада ближе прописује садржину захтева из <ref wId="ref144" href="akn/rs/act/2018/44-27/srp@/!main~art_53__para_1" >става 1. овог</ref> члана, као и врсту и  садржину прилога који се подносе уз захтев.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan54">
+					<num>54.</num>
+					<paragraph wId="gla6-clan54-stav1">
+						<content>
+							<p>Захтев за упис преноса права, лиценце, односно залоге је уредан ако садржи  податке из <ref wId="ref145" href="akn/rs/act/2018/44-27/srp@/!main~art_53__para_2" >члана 53. став 2. овог</ref> закона и друге прописане податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan54-stav2">
+						<content>
+							<p>Ако захтев за упис преноса права, лиценце, односно залоге није уредан,  надлежни орган ће позвати подносиоца захтева да га у року од 30 дана од дана  пријема позива уреди.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan54-stav3">
+						<content>
+							<p>На образложени захтев подносиоца захтева за упис преноса права, лиценце или  залоге, уз плаћање прописане таксе, надлежни орган ће продужити рок из <ref wId="ref146" href="akn/rs/act/2018/44-27/srp@/!main~art_54__para_2" >става 2.  овог</ref> члана за време које сматра примереним.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan54-stav4">
+						<content>
+							<p>Ако подносилац захтева у остављеном року не поступи по позиву, надлежни орган  ће донети закључак о одбацивању захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan54-stav5">
+						<content>
+							<p>Против закључка из <ref wId="ref147" href="akn/rs/act/2018/44-27/srp@/!main~art_54__para_4" >става 4. овог</ref> члана може се изјавити жалба.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan55">
+					<num>55.</num>
+					<paragraph wId="gla6-clan55-stav1">
+						<content>
+							<p>Ако је захтев за упис преноса права, лиценце или залоге уредан у смислу <ref wId="ref148" href="akn/rs/act/2018/44-27/srp@/!main~art_54" >члана  54. овог</ref> закона, надлежни орган испитује да ли правни основ на коме се тај  захтев заснива испуњава законом прописане услове за упис преноса права, лиценце  или залоге.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan55-stav2">
+						<content>
+							<p>Ако правни основ на коме се заснива захтев за упис преноса права, лиценце или  залоге не испуњава услове прописане овим законом, надлежни орган ће позвати  подносиоца захтева да се у року од 30 дана од дана пријема позива изјасни о  разлозима због којих се упис не може извршити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan55-stav3">
+						<content>
+							<p>На образложени захтев подносиоца захтева за упис преноса права, лиценце или  залоге, уз плаћање прописане таксе, надлежни орган ће продужити рок из <ref wId="ref149" href="akn/rs/act/2018/44-27/srp@/!main~art_55__para_2" >става 2.  овог</ref> члана за време које сматра примереним.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan55-stav4">
+						<content>
+							<p>Надлежни орган ће решењем одбити захтев за упис преноса права, лиценце или  залоге, ако се подносилац захтева, у остављеном року не изјасни о разлозима због  којих се упис не може одобрити, или се изјасни, а надлежни орган и даље сматра  да се упис не може одобрити.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕСТАНАК ПРАВА</heading>
+				<article wId="gla7-clan56">
+					<num>56.</num>
+					<paragraph wId="gla7-clan56-stav1">
+						<intro>
+							<p>Право на индустријски дизајн престаје:</p>
+						</intro>
+						<point wId="gla7-clan56-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако носилац права на индустријски дизајн пропусти да плати прописану таксу  за одржавање права;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan56-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако се носилац права на индустријски дизајн одрекне права – наредног дана  од дана предаје надлежном органу поднеска о одрицању;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan56-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> на основу судске одлуке или одлуке надлежног органа, у случајевима  предвиђеним овим законом – даном који је одређен том одлуком;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan56-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако је престало да постоји правно лице или ако је умрло физичко лице које  је носилац права на индустријски дизајн – даном престанка правног лица, односно  смрти физичког лица, осим ако је право на индустријски дизајн прешло на правне  следбенике ових лица.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan57">
+					<num>57.</num>
+					<paragraph wId="gla7-clan57-stav1">
+						<content>
+							<p>Ако је у Регистру индустријског дизајна уписано одређено право у корист  трећег лица (лиценца, залога, или неко слично право), носилац права на  индустријски дизајн не може да се одрекне свог права без писмене сагласности  лица на чије име је уписано то право.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan57-stav2">
+						<content>
+							<p>Ако носилац права на индустријски дизајн у прописаном року не плати  одговарајућу таксу за одржавање важења регистрованог индустријског дизајна, а у  Регистру индустријског дизајна је уписана лиценца, залога или неко друго право у  корист трећег лица, надлежни орган ће то лице обавестити да није плаћена такса и  да је може платити у року од шест месеци од почетка године за коју се уплаћује  такса, и тиме одржати важење уписаног права.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ОГЛАШАВАЊЕ НИШТАВИМ РЕГИСТРАЦИЈЕ ИНДУСТРИЈСКОГ ДИЗАЈНА</heading>
+				<article wId="gla8-clan58">
+					<num>58.</num>
+					<paragraph wId="gla8-clan58-stav1">
+						<content>
+							<p>Регистровани индустријски дизајн се може огласити ништавим ако се утврди да у  време његовог регистровања нису били испуњени услови за признање индустријског  дизајна, и то на предлог заинтересованог лица или  на предлог јавног тужиоца (у даљем тексту: предлагач).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan58-stav2">
+						<content>
+							<p>Регистровани индустријски дизајн се може огласити  ништавим и након протека рока трајања заштите, односно одрицања носиоца права од  права на индустријски дизајн.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan58-stav3">
+						<content>
+							<p>Ако се разлог за оглашавање ништавим заснива на члану  9. став 1. тачка <ref wId="ref150" href="akn/rs/act/2018/44-27/srp@/!main~art_9__para_1__point_3" >3</ref>) овог закона, предлог за оглашавање ништавим индустријског  дизајна може поднети само лице које испуњава услове да стекне право на  индустријски дизајн.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan58-stav4">
+						<content>
+							<p>Ако се разлог за оглашавање ништавим заснива на члану  9. став 1. тач. <ref wId="ref151" href="akn/rs/act/2018/44-27/srp@/!main~art_9__para_1__point_4" >4</ref>), <ref wId="ref152" href="akn/rs/act/2018/44-27/srp@/!main~art_9__para_1__point_5" >5</ref>) и <ref wId="ref153" href="akn/rs/act/2018/44-27/srp@/!main~art_9__para_1__point_6" >6</ref>) овог закона, предлог за оглашавање ништавим  индустријског дизајна може поднети само подносилац раније пријаве или носилац  права које се супротставља праву на индустријски дизајн.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan58-stav5">
+						<content>
+							<p>Ако се разлог за оглашавање ништавим заснива на члану  9. став 1. тачка <ref wId="ref154" href="akn/rs/act/2018/44-27/srp@/!main~art_9__para_1__point_7" >7</ref>) овог закона, предлог за оглашавање ништавим индустријског  дизајна може поднети јавни тужилац или физичко или правно лице које користи  државни или други јавни грб, заставу или симбол, назив или скраћеницу назива  неке земље или међународне организације или религиозни или национални симбол.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan58-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref155" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan59">
+					<num>59.</num>
+					<heading>Предлог за оглашавање ништавим</heading>
+					<paragraph wId="gla8-clan59-stav1">
+						<content>
+							<p>Поступак за оглашавање ништавим регистрованог индустријског дизајна покреће  се писаним предлогом за оглашавање ништавим.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan59-stav2">
+						<content>
+							<p>Предлог из <ref wId="ref156" href="akn/rs/act/2018/44-27/srp@/!main~art_59__para_1" >става 1. овог</ref> члана мора да садржи податке о предлагачу и о  носиоцу права на индустријски дизајн, назначење да се тражи оглашавање ништавим  регистрованог индустријског дизајна, регистарски број регистрованог  индустријског дизајна, разлоге због којих се предлаже оглашавање ништавим и  потребне доказе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan60">
+					<num>60.</num>
+					<heading>Поступак по уредном предлогу за оглашавање ништавим</heading>
+					<paragraph wId="gla8-clan60-stav1">
+						<content>
+							<p>Ако предлог за оглашавање ништавим регистрованог индустријског дизајна не  испуњава прописане услове из <ref wId="ref157" href="akn/rs/act/2018/44-27/srp@/!main~art_59" >члана 59. овог</ref> закона, надлежни орган ће писменим  путем позвати предлагача да уреди предлог, у року од 30 дана од дана пријема  позива.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan60-stav2">
+						<content>
+							<p>На образложени захтев предлагача, уз плаћање прописане таксе, надлежни орган  ће продужити рок из <ref wId="ref158" href="akn/rs/act/2018/44-27/srp@/!main~art_60__para_1" >става 1. овог</ref> члана за време које сматра примереним.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan60-stav3">
+						<content>
+							<p>Ако предлагач у остављеном року не поступи по позиву, надлежни орган ће  донети закључак о одбацивању предлога.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan60-stav4">
+						<content>
+							<p>Против закључка из <ref wId="ref159" href="akn/rs/act/2018/44-27/srp@/!main~art_60__para_3" >става 3. овог</ref> члана може се изјавити жалба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan60-stav5">
+						<content>
+							<p>Уредан предлог из <ref wId="ref160" href="akn/rs/act/2018/44-27/srp@/!main~art_59" >члана 59. овог</ref> закона надлежни орган ће доставити  противнику предлагача и позвати га да у року од 30 дана од дана пријема позива,  достави свој одговор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan60-stav6">
+						<content>
+							<p>У поступку по предлогу за оглашавање ништавим надлежни орган може да закаже  усмену расправу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan60-stav7">
+						<content>
+							<p>После спроведеног поступка по предлогу за оглашавање ништавим, надлежни орган  може да донесе решење о делимичном или потпуном оглашавању ништавим  регистрованог индустријског дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan60-stav8">
+						<content>
+							<p>Решењем о делимичном оглашавању ништавим регистрованог  индустријског дизајна право на индустријски дизајн се може задржати у измењеном  облику уколико у том облику испуњава услове за заштиту из <ref wId="ref161" href="akn/rs/act/2018/44-27/srp@/!main~art_3->art_9" >чл. 3</ref>–9. овог закона и  ако је задржан индивидуални карактер дизајна. У поступку по предлогу за  оглашавање ништавим регистрованог индустријског дизајна, носилац права на  индустријски дизајн се може делимично одрећи права на индустријски дизајн да би  се право на индустријски дизајн задржало у измењеном облику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan60-stav9">
+						<content>
+							<p>У року од три месеца од правноснажности одлуке о оглашавању ништавим  регистрованог индустријског дизајна, надлежни орган ће у свом службеном гласилу  објавити прописане податке о поништеном праву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan61">
+					<num>61.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref162" href="akn/rs/act/2015/45/srp@">45/2015</ref></heading>
+					<paragraph wId="gla8-clan61-stav1">
+						<content>
+							<p>Оглашавање ништавим регистрованог индустријског дизајна нема дејство на  судске одлуке у вези са утврђивањем повреде права које су у моменту доношења тог  решења биле правноснажне, као и на закључене уговоре о преносу права, односно  уступању лиценце, ако су и у мери у којој су ти уговори извршени, под условом да  је тужилац, односно носилац права на индустријски дизајн савестан.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>ГРАЂАНСКОПРАВНА ЗАШТИТА</heading>
+				<article wId="gla9-clan62">
+					<num>62.</num>
+					<heading>Брисан је ранији назив изнад <ref wId="ref164" href="akn/rs/act/2018/44-27/srp@/!main~art_62" >члана 62. </ref>(види <ref wId="ref165" href="akn/rs/act/2015/45/srp@/!main~/art_33">члан 33. Закона - 45/2015-3</ref>)</heading>
+					<paragraph wId="gla9-clan62-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref163" href="akn/rs/act/2015/45/srp@/!main~/art_33">члан 33. Закона - 45/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan62-stav2">
+						<content>
+							<p>Повреда права</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan63">
+					<num>63.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref172" href="akn/rs/act/2015/45/srp@">45/2015</ref></heading>
+					<paragraph wId="gla9-clan63-stav1">
+						<content>
+							<p>Повредом права сматра се свако неовлашћено искоришћавање регистрованог  индустријског дизајна у смислу <ref wId="ref166" href="akn/rs/act/2018/44-27/srp@/!main~art_39" >члана 39. овог</ref> закона и неовлашћено објављивање  предмета пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan63-stav2">
+						<content>
+							<p>Повредом права из <ref wId="ref167" href="akn/rs/act/2018/44-27/srp@/!main~art_63__para_1" >става 1. овог</ref> члана сматра се и подражавање  регистрованог,  односно пријављеног индустријског дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan63-stav3">
+						<content>
+							<p>Приликом утврђивања да ли постоји повреда права на индустријски дизајн, суд  нарочито води рачуна о одредбама чл. <ref wId="ref168" href="akn/rs/act/2018/44-27/srp@/!main~art_8" >8</ref>, <ref wId="ref169" href="akn/rs/act/2018/44-27/srp@/!main~art_9" >9</ref>. и <ref wId="ref170" href="akn/rs/act/2018/44-27/srp@/!main~art_41" >41</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan63-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref171" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan63-stav5">
+						<content>
+							<p>Право на тужбу</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan64">
+					<num>64.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref183" href="akn/rs/act/2015/45/srp@">45/2015</ref></heading>
+					<paragraph wId="gla9-clan64-stav1">
+						<content>
+							<p>Тужбу због повреде права из <ref wId="ref173" href="akn/rs/act/2018/44-27/srp@/!main~art_63" >члана 63. овог</ref> закона могу да поднесу подносилац  пријаве, носилац права на индустријски дизајн и стицалац искључиве лиценце.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav2">
+						<content>
+							<p>Стицалац искључиве лиценце може поднети тужбу због  повреде права уколико другачије није предвиђено уговором о лиценци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav3">
+						<content>
+							<p>Брисани су ранији <ref wId="ref175" href="akn/rs/act/2018/44-27/srp@/!main~art_64__para_2->para_3" >ст. 2. и 3. </ref>(види <ref wId="ref174" href="akn/rs/act/2015/45/srp@/!main~/art_35">члан 35. Закона - 45/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref176" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav5">
+						<content>
+							<p>Тужба због повреде права</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref177" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav7">
+						<content>
+							<p>Члан 64а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav8">
+						<intro>
+							<p>У случају повреде права, тужилац може тужбом да  захтева:</p>
+						</intro>
+						<point wId="gla9-clan64-stav8-tac1">
+							<num>1)</num>
+							<content>
+								<p> утврђење повреде права или озбиљне претње да ће  право бити повређено;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan64-stav8-tac2">
+							<num>2)</num>
+							<content>
+								<p> забрану радњи којима се повређује право или радњи  које представљају озбиљну претњу да ће право бити повређено, као и забрану  понављања таквих или сличних радњи под претњом новчане казне;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan64-stav8-tac3">
+							<num>3)</num>
+							<content>
+								<p> накнаду имовинске и неимовинске штете због повреде  права;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan64-stav8-tac4">
+							<num>4)</num>
+							<content>
+								<p> објављивање пресуде о трошку туженог;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan64-stav8-tac5">
+							<num>5)</num>
+							<content>
+								<p> искључење из промета, одузимање или уништење, или  преиначење без било какве накнаде, производа којима се повређује право;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan64-stav8-tac6">
+							<num>6)</num>
+							<content>
+								<p> забрану отуђења, одузимање или уништење, без било  какве накнаде, материјала и предмета који су претежно употребљени у стварању или  производњи производа којима се повређује право;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan64-stav8-tac7">
+							<num>7)</num>
+							<content>
+								<p> давање података о трећим лицима која су учествовала  у повреди права.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav9">
+						<content>
+							<p>Лице које повреди право, дужно је да тужиоцу у  потпуности надокнади штету произашлу из те повреде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav10">
+						<content>
+							<p>Ако суд утврди да је повреда права учињена, тужбом се  против лица чије су услуге коришћене при повреди права (посредник) може  захтевати забрана понављања радњи којима се право повређује или њима сличних  радњи под претњом новчане казне.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav11">
+						<content>
+							<p>Суд ће, у границама тужбеног захтева из става 1. тачка  <ref wId="ref178" href="akn/rs/act/2018/44-27/srp@/!main~art_64__para_1__point_4" >4</ref>) овог члана, одлучити у којем ће средству јавног саопштавања бити објављена  пресуда. Aко суд одлучи да се објави само део пресуде одредиће да се објави  изрека и према потреби онај део пресуде из којег је видљиво о каквој се повреди  ради и ко је извршио повреду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav12">
+						<content>
+							<p>При разматрању тужбених захтева из става 1. тач. <ref wId="ref179" href="akn/rs/act/2018/44-27/srp@/!main~art_64__para_1__point_5" >5</ref>) и  <ref wId="ref180" href="akn/rs/act/2018/44-27/srp@/!main~art_64__para_1__point_6" >6</ref>) овог члана, суд узима у обзир сразмеру између озбиљности повреде права и  тужбеног захтева, као и интерес трећих лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav13">
+						<content>
+							<p>При одређивању висине накнаде штете ако је учинилац  повреде знао или могао да зна да чини повреду права суд ће узети у обзир све  околности конкретног случаја, као што су негативне економске последице које трпи  оштећени, укључујући изгубљену добит, добит коју је штетник остварио повредом  права и, у одговарајућим случајевима, околности које немају економски карактер,  као што је неимовинска штета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav14">
+						<content>
+							<p>Суд може уместо накнаде штете из <ref wId="ref181" href="akn/rs/act/2018/44-27/srp@/!main~art_64__para_6" >става 6. овог</ref> члана,  када околности случаја то оправдавају, да досуди оштећеном паушалну накнаду која  не може бити нижа од уобичајене накнаде коју би примио за конкретни облик  коришћења предмета заштите, да је то коришћење било законито.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav15">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref182" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav16">
+						<content>
+							<p>Поступак по тужби</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan65">
+					<num>65.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref191" href="akn/rs/act/2015/45/srp@">45/2015</ref></heading>
+					<paragraph wId="gla9-clan65-stav1">
+						<content>
+							<p>Тужба због повреде права може да се поднесе у року од три године од дана  када је тужилац сазнао за повреду и учиниоца, а најдоцније у року од пет година  од дана када је повреда први пут учињена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan65-stav2">
+						<content>
+							<p>Поступак по тужби из <ref wId="ref184" href="akn/rs/act/2018/44-27/srp@/!main~art_65__para_1" >става 1. овог</ref> члана је хитан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan65-stav3">
+						<content>
+							<p>Поступак по тужби због повреде права из пријаве суд ће  прекинути до коначне одлуке надлежног органа по пријави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan65-stav4">
+						<content>
+							<p>Ако је пред надлежним органом, односно судом покренут  поступак из чл. <ref wId="ref185" href="akn/rs/act/2018/44-27/srp@/!main~art_58" >58</ref>. и <ref wId="ref186" href="akn/rs/act/2018/44-27/srp@/!main~art_71" >71</ref>. овог закона, суд који поступа по тужби из чл. <ref wId="ref187" href="akn/rs/act/2018/44-27/srp@/!main~art_64" >64</ref>. и  <ref wId="ref188" href="akn/rs/act/2018/44-27/srp@/!main~art_64а" >64а</ref> овог закона дужан је да прекине поступак до коначне одлуке надлежног органа,  односно правноснажне одлуке суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan65-stav5">
+						<content>
+							<p>На поступак по тужби из <ref wId="ref189" href="akn/rs/act/2018/44-27/srp@/!main~art_65__para_1" >става 1. овог</ref> члана примењују  се одредбе закона којим се уређује парнични поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan65-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref190" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan66">
+					<num>66.</num>
+					<heading>Привремена мера</heading>
+					<paragraph wId="gla9-clan66-stav1">
+						<intro>
+							<p>На предлог лица које учини вероватним да је његово  право из пријаве или признато право повређено или да ће бити повређено, суд може  одредити привремену меру:</p>
+						</intro>
+						<point wId="gla9-clan66-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> одузимања или искључења из промета производа којима  се повређује право;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan66-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> одузимања или забране отуђења средстава за  производњу претежно употребљених у стварању или производњи предмета којима се  повређује право;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan66-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> забране предузимања радњи којима се повређује право  или које представљају озбиљну претњу да ће право бити повређено.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav2">
+						<content>
+							<p>Привремена мера из ставa 1. тачкa 3) овог члана може,  под истим условима, да се одреди и против сваког лица чије услуге се користе да  би се извршила повреда права (посредник).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav3">
+						<intro>
+							<p>На предлог лица које учини вероватним да је његово  право из пријаве или признато право повређено или да ће бити повређено на  комерцијалној основи и које учини вероватним постојање околности које би  угрозиле накнаду штете у случају повреде права, суд може поред привремених мера  из <ref wId="ref192" href="akn/rs/act/2018/44-27/srp@/!main~art_66__para_1" >става 1. овог</ref> члана одредити и привремене мере:</p>
+						</intro>
+						<point wId="gla9-clan66-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> заплене покретне и непокретне имовине лица против  кога се предлаже одређивање привремене мере;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan66-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> забране исплате новчаних средстава са рачуна лица  против кога се предлаже одређивање привремене мере.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav4">
+						<content>
+							<p>Ради одређивања привремене мере из <ref wId="ref193" href="akn/rs/act/2018/44-27/srp@/!main~art_66__para_3" >става 3. овог</ref> члана  суд може наложити достављање банкарских, финансијских, пословних или других  битних докумената и података или наложити да се омогући приступ тим документима  и подацима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav5">
+						<content>
+							<p>Лице коме је изречена мера из става 1. тач. <ref wId="ref195" href="akn/rs/act/2018/44-27/srp@/!main~art_66__para_1__point_2" >2</ref>) и <ref wId="ref196" href="akn/rs/act/2018/44-27/srp@/!main~art_66__para_1__point_3" >3</ref>) и  става 2. тачка <ref wId="ref197" href="akn/rs/act/2018/44-27/srp@/!main~art_66__para_2__point_2" >2</ref>) и налог из <ref wId="ref194" href="akn/rs/act/2018/44-27/srp@/!main~art_66__para_4" >става 4. овог</ref> члана, а кoje не поступи по изреченој  мери, односно налогу, казниће се у складу са одговарајућим одредбама закона  којим се уређује поступак извршења и обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref198" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav7">
+						<content>
+							<p>Поступак за одређивање привремене мере</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref199" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav9">
+						<content>
+							<p>Члан 66а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav10">
+						<content>
+							<p>Суд може одредити привремену меру одмах по пријему  предлога за одређивање привремене мере и без претходног изјашњења противне  странке, a нарочито ако постоји опасност да због одлагања предлагач претрпи  ненадокнадиву штету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav11">
+						<content>
+							<p>Решење којим је одређена привремена мера, у случају из  <ref wId="ref200" href="akn/rs/act/2018/44-27/srp@/!main~art_66__para_1" >става 1. овог</ref> члана, доставиће се странкама у поступку без одлагања, а  најкасније по спровођењу мере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav12">
+						<content>
+							<p>Када је привремена мера одређена пре покретања  парничног или другог поступка, тужба, односно предлог за покретање другог  поступка ради оправдања мере, мора се поднети у року од 30 дана од дана доношења  решења о одређивању привремене мере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav13">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref201" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav14">
+						<content>
+							<p>Укидање привремене мере и накнада штете</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav15">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref202" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav16">
+						<content>
+							<p>Члан 66б</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav17">
+						<content>
+							<p>Ако тужба не буде поднета у року из <ref wId="ref203" href="akn/rs/act/2018/44-27/srp@/!main~art_66а" >члана 66а, </ref>односно  ако не буде покренут други поступак ради оправдања привремене мере, суд ће на  предлог лица против кога је привремена мера одређена обуставити поступак и  укинути спроведене радње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav18">
+						<content>
+							<p>Ако је привремена мера одређена без изјашњења противне  странке суд ће у разумном року омогућити тој странци, на њен предлог, да се  изјасни о привременој мери, након чега може обуставити поступак и укинути  спроведене радње или изменити одређену меру.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav19">
+						<content>
+							<p>Ако поступак буде обустављен и спроведене радње буду  укинуте у складу са овим чланом или ако суд утврди да повреда права није учињена  или да није постојала озбиљна претња да ће право бити повређено, лице против  кога је одређена привремена мера има право на накнаду штете која му је нанета  привременом мером.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav20">
+						<content>
+							<p>Суд може условити одређивање привремене мере полагањем  одговарајућег износа као средства обезбеђења у случају штете из <ref wId="ref204" href="akn/rs/act/2018/44-27/srp@/!main~art_66__para_3" >става 3. овог</ref>  члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav21">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref205" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav22">
+						<content>
+							<p>Прибављање доказа</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav23">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref206" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav24">
+						<content>
+							<p>Члан 66в</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav25">
+						<content>
+							<p>Ако се странка у поступку која је учинила вероватним  своје тврдње позива на доказ, који се налази у поседу друге странкe или под  њеном контролом, суд ће другу странку позвати да достави поменути доказ, под  условом да поверљиве информације буду заштићене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav26">
+						<content>
+							<p>Под условима из <ref wId="ref207" href="akn/rs/act/2018/44-27/srp@/!main~art_66__para_1" >става 1. овог</ref> члана, у случају да је  право повређено на комерцијалној основи, суд ће, на предлог једне странке у  поступку, позвати другу странку да достави банкарске, финансијске и пословне  документе који се налазе у њеном поседу, или под њеном контролом, под условом да  поверљиве информације буду заштићене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan66-stav27">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref208" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan67">
+					<num>67.</num>
+					<heading>Обезбеђење доказа</heading>
+					<paragraph wId="gla9-clan67-stav1">
+						<content>
+							<p>На предлог лица које учини вероватним да је његово  право из објављене пријаве или признато право повређено или да ће бити  повређено, суд може у току, као и пре покретања парнице одредити обезбеђење  доказа, под условом да поверљиве информације буду заштићене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan67-stav2">
+						<intro>
+							<p>Обезбеђењем доказа у смислу овог закона сматра се:</p>
+						</intro>
+						<point wId="gla9-clan67-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> узимање детаљног описа производа којима се  повређује право, са или без узимања узорка тих производа;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan67-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> одузимање производа или дела производа којима се  повређује право, а ако је то оправдано, и одузимање материјала и предмета  претежно употребљених у стварању или производњи, или стављању у промет производа  којима се повређује право, као и докумената који се односе на наведено.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-clan67-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref209" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan67-stav4">
+						<content>
+							<p>Поступак за одређивање обезбеђењa доказа</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan68">
+					<num>68.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref219" href="akn/rs/act/2015/45/srp@">45/2015</ref></heading>
+					<paragraph wId="gla9-clan68-stav1">
+						<content>
+							<p>Суд може одредити обезбеђење доказа одмах по пријему  предлога за обезбеђење доказа и без изјашњења противне странке, a нарочито ако  постоји опасност да због одлагања предлагач претрпи ненадокнадиву штету или aкo  постоји очигледан ризик да ће докази бити уништени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav2">
+						<content>
+							<p>Решење којим је одређено обезбеђење доказа, у случају  из <ref wId="ref210" href="akn/rs/act/2018/44-27/srp@/!main~art_68__para_1" >става 1. овог</ref> члана, доставиће се странкaмa у поступку без одлагања,  најкасније по спровођењу мере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav3">
+						<content>
+							<p>Када је обезбеђење доказа одређено пре покретања  парничног поступка тужба се мора поднети у року од 30 дана од дана доношења  решења о одређивању обезбеђења доказа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav4">
+						<content>
+							<p><ref wId="ref211" href="akn/rs/act/2018/44-27/srp@/!main~art_68__para_1" >Став 1. овог</ref> члана примењује се и на трећа лица од  којих се докази прибављају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref212" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav6">
+						<content>
+							<p>Укидање обезбеђења доказа и накнада штете</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref213" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav8">
+						<content>
+							<p>Члан 68а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav9">
+						<content>
+							<p>Ако тужба не буде поднета у року из <ref wId="ref214" href="akn/rs/act/2018/44-27/srp@/!main~art_68" >члана 68. </ref>суд ће  на предлог противне странке обуставити поступак и укинути спроведене радње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav10">
+						<content>
+							<p>Ако је обезбеђење доказа одређено без изјашњења  противне странке суд ће у разумном року омогућити тој странци, на њен предлог,  да се изјасни о решењу о обезбеђењу доказа, након чега може обуставити поступак  и укинути спроведене радње или изменити одређено обезбеђење доказа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav11">
+						<content>
+							<p>Ако поступак буде обустављен и спроведене радње буду  укинуте или ако суд утврди да повреда права није учињена или да није постојала  озбиљна претња да ће право бити повређено, противна странка има право на накнаду  штете која јој је нанета обезбеђењем доказа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav12">
+						<content>
+							<p>Суд може условити одређивање обезбеђења доказа  полагањем одговарајућег новчаног износа као средства обезбеђења у случају  настанка штете из <ref wId="ref215" href="akn/rs/act/2018/44-27/srp@/!main~art_68__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav13">
+						<content>
+							<p>Одредбе ст. <ref wId="ref216" href="akn/rs/act/2018/44-27/srp@/!main~art_68__para_2" >2</ref>. и <ref wId="ref217" href="akn/rs/act/2018/44-27/srp@/!main~art_68__para_4" >4</ref>. овог члана примењују се и на трећа  лица од којих се докази прибављају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav14">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref218" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan69">
+					<num>69.</num>
+					<heading>Средство обезбеђења</heading>
+					<paragraph wId="gla9-clan69-stav1">
+						<content>
+							<p>На захтев лица против кога је покренут поступак због повреде  права или  поступак за одређивање привремене мере, односно за обезбеђење доказа, суд може  да одреди полагање одговарајућег новчаног износа као средства обезбеђења у  случају неоснованости захтева, на терет подносиоца захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan69-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref220" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan70">
+					<num>70.</num>
+					<heading>Обавеза пружања информација</heading>
+					<paragraph wId="gla9-clan70-stav1">
+						<content>
+							<p>Суд може да нареди лицу које је извршило повреду права или права из пријаве  да пружи информације о трећим лицима која су учествовала у повреди  права или  права из пријаве и о њиховим дистрибутивним каналима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav2">
+						<intro>
+							<p>Достављање информација из <ref wId="ref221" href="akn/rs/act/2018/44-27/srp@/!main~art_70__para_1" >става 1. овог</ref> члана суд може  наложити и другом лицу:</p>
+						</intro>
+						<point wId="gla9-clan70-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> код кога је пронађена роба која се налази у  промету, а којом се повређује право;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan70-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> које пружа услуге у промету, а којима се повређује  право;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan70-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> за које је утврђено да на комерцијалној основи  пружа услуге које се користе у активностима којима се повређује право;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan70-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> које је од стране лица из тач. <ref wId="ref222" href="akn/rs/act/2018/44-27/srp@/!main~art_70__para_2__point_1" >1</ref>), <ref wId="ref223" href="akn/rs/act/2018/44-27/srp@/!main~art_70__para_2__point_2" >2</ref>) или <ref wId="ref224" href="akn/rs/act/2018/44-27/srp@/!main~art_70__para_2__point_3" >3</ref>) овог  става наведено као лице укључено у производњу или дистрибуцију роба или пружање  услуга којима се повређује право.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav3">
+						<intro>
+							<p>Под информацијама из <ref wId="ref225" href="akn/rs/act/2018/44-27/srp@/!main~art_70__para_1" >става 1. овог</ref> члана сматрају се  нарочито:</p>
+						</intro>
+						<point wId="gla9-clan70-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> подаци о произвођачима, дистрибутерима, добављачима  и другим лицима која су претходно била укључена у производњу или дистрибуцију  робе или пружање услуга, као и о продавцима којима је роба намењена;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan70-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> подаци о количинама произведене, испоручене или  наручене робе или услуга, као и ценама оствареним за такву робу или услуге.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav4">
+						<content>
+							<p>Ако лица из <ref wId="ref226" href="akn/rs/act/2018/44-27/srp@/!main~art_70__para_1->para_2" >ст. 1. и 2. овог</ref> члана из неоправданих  разлога не поступе по налогу суда и не доставе тражене информације одговараће за  штету која на тај начин настане.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav5">
+						<intro>
+							<p>Одредбе овог члана не искључују:</p>
+						</intro>
+						<point wId="gla9-clan70-stav5-tac1">
+							<num>1)</num>
+							<content>
+								<p> право да се лицу чије је право повређено пруже  потпуније информације;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan70-stav5-tac2">
+							<num>2)</num>
+							<content>
+								<p> коришћење у грађанским и кривичним поступцима  информација достављених у складу са овим чланом;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan70-stav5-tac3">
+							<num>3)</num>
+							<content>
+								<p> право да се одбије давање информација којим би се  признало учешће у повреди права или учешће ближе родбине у повреди права;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan70-stav5-tac4">
+							<num>4)</num>
+							<content>
+								<p> примену одредаба о одговорности за злоупотребу  добијених информација и одредаба којима се уређује заштита података о личности.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref227" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav7">
+						<content>
+							<p>Сходна примена других закона</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref228" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav9">
+						<content>
+							<p>Члан 70а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav10">
+						<content>
+							<p>На поступак по тужби, предлогу за одређивање  привремене мере, предлогу за обезбеђење доказа и правном леку сходно се  примењују одговарајуће одредбе закона којим се уређује парнични поступак и  закона којим се уређује поступак извршења и обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav11">
+						<content>
+							<p>На питања у вези са накнадом штете сходно се примењују  одговарајуће одредбе закона којим се уређују облигациони односи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav12">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref229" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav13">
+						<content>
+							<p>Тужба за оспоравање права</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan71">
+					<num>71.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref232" href="akn/rs/act/2015/45/srp@">45/2015</ref></heading>
+					<paragraph wId="gla9-clan71-stav1">
+						<content>
+							<p>Аутор индустријског дизајна или његов правни следбеник може тужбом да захтева  од суда да утврди да он има право на подношење пријаве уместо лица, или заједно  са лицем које је поднело пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan71-stav2">
+						<content>
+							<p>Аутор индустријског дизајна или његов правни следбеник може тужбом да захтева  од суда да утврди да је он носилац регистрованог индустријског дизајна уместо  лица, или заједно са лицем на чије име је код надлежног органа регистрован  индустријски дизајн.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan71-stav3">
+						<content>
+							<p>Тужба из <ref wId="ref230" href="akn/rs/act/2018/44-27/srp@/!main~art_71__para_1" >става 1. овог</ref> члана може да се поднесе до окончања поступка за  признање индустријског дизајна, а тужба из <ref wId="ref231" href="akn/rs/act/2018/44-27/srp@/!main~art_71__para_2" >става 2. овог</ref> члана може да се  поднесе до истека рока важења индустријског дизајна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan72">
+					<num>72.</num>
+					<heading>Упис судске одлуке у регистар</heading>
+					<paragraph wId="gla9-clan72-stav1">
+						<content>
+							<p>Ако се правноснажном судском одлуком усвоји тужбени захтев из <ref wId="ref233" href="akn/rs/act/2018/44-27/srp@/!main~art_71" >члана 71. овог</ref>  закона, надлежни орган ће по пријему правноснажне пресуде, или на захтев  тужиоца, уписати тужиоца у одговарајући регистар као подносиоца пријаве, односно  носиоца права на индустријски дизајн.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan73">
+					<num>73.</num>
+					<heading>Права трећег савесног лица</heading>
+					<paragraph wId="gla9-clan73-stav1">
+						<content>
+							<p>Право које је треће савесно лице прибавило од ранијег подносиоца пријаве, или  носиоца права на индустријски дизајн из <ref wId="ref234" href="akn/rs/act/2018/44-27/srp@/!main~art_71" >члана 71. овог</ref> закона, престаје даном  уписа новог носиоца права, односно подносиоца пријаве у одговарајући регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan73-stav2">
+						<content>
+							<p>Тужба за признање ауторства</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan74">
+					<num>74.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref239" href="akn/rs/act/2015/45/srp@">45/2015</ref></heading>
+					<paragraph wId="gla9-clan74-stav1">
+						<content>
+							<p>Лице које себе сматра аутором индустријског дизајна или његов правни  следбеник, може тужбом да захтева од суда да утврди да је он аутор индустријског  дизајна који је предмет пријаве, или признатог права на индустријски дизајн, и  да буде наведен као аутор у пријави и свим другим документима, као и у  одговарајућим регистрима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan74-stav2">
+						<content>
+							<p>Тужилац из <ref wId="ref235" href="akn/rs/act/2018/44-27/srp@/!main~art_74__para_1" >става 1. овог</ref> члана може да захтева и објављивање пресуде о трошку  туженог, накнаду моралне и имовинске штете и трошкова поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan74-stav3">
+						<content>
+							<p>Рок за подношење тужбе из <ref wId="ref236" href="akn/rs/act/2018/44-27/srp@/!main~art_74__para_1" >става 1. овог</ref> члана није временски ограничен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan74-stav4">
+						<content>
+							<p>Ревизија</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan74-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref237" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan74-stav6">
+						<content>
+							<p>Члан 74а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan74-stav7">
+						<content>
+							<p>Ревизија је дозвољена против правноснажних пресуда  донетих у другом степену у споровима који се односе на заштиту и употребу  регистрованог индустријског дизајна или права из пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan74-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref238" href="akn/rs/act/2015/45/srp@">45/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla10-clan75">
+					<num>75.</num>
+					<paragraph wId="gla10-clan75-stav1">
+						<content>
+							<p>Казниће се за привредни преступ новчаном казном у износу од 100.000 до  3.000.000 динара привредно друштво или друго правно лице које на начин из <ref wId="ref240" href="akn/rs/act/2018/44-27/srp@/!main~art_63" >члана  63. овог</ref> закона повреди право на индустријски дизајн, односно право из пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan75-stav2">
+						<content>
+							<p>За радње из <ref wId="ref241" href="akn/rs/act/2018/44-27/srp@/!main~art_75__para_1" >става 1. овог</ref> члана казниће се за привредни преступ новчаном  казном у износу од 50.000 до 200.000 одговорно лице у привредном друштву или  другом правном лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan75-stav3">
+						<content>
+							<p>Предмети извршења привредног преступа и предмети који су били употребљени за  извршење привредног преступа из <ref wId="ref242" href="akn/rs/act/2018/44-27/srp@/!main~art_75__para_1" >става 1. овог</ref> члана биће одузети, а предмети  извршења привредног преступа биће и уништени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan75-stav4">
+						<content>
+							<p>Пресуда којом је учиниоцу изречена казна за привредни преступ из <ref wId="ref243" href="akn/rs/act/2018/44-27/srp@/!main~art_75__para_1" >става 1.  овог</ref> члана јавно се објављује.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan76">
+					<num>76.</num>
+					<paragraph wId="gla10-clan76-stav1">
+						<content>
+							<p>Казниће се за прекршај новчаном казном у износу од 50.000 до 500.000 динара  предузетник, ако повреди право на индустријски дизајн или право из пријаве на  начин из <ref wId="ref244" href="akn/rs/act/2018/44-27/srp@/!main~art_63" >члана 63. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan76-stav2">
+						<content>
+							<p>За радње из <ref wId="ref245" href="akn/rs/act/2018/44-27/srp@/!main~art_76__para_1" >става 1. овог</ref> члана казниће се и физичко лице новчаном казном у  износу од 10.000 до 50.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan76-stav3">
+						<content>
+							<p>Предмети извршења прекршаја и предмети који су били употребљени за извршење  прекршаја из <ref wId="ref246" href="akn/rs/act/2018/44-27/srp@/!main~art_76__para_1" >става 1. овог</ref> члана биће одузети, а предмети извршења прекршаја  биће и уништени.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan77">
+					<num>77.</num>
+					<paragraph wId="gla10-clan77-stav1">
+						<content>
+							<p>Казниће се за прекршај новчаном казном у износу од 100.000 до 1.000.000  динара правно лице које се неовлашћено бави заступањем у остваривању права из  овог закона (<ref wId="ref247" href="akn/rs/act/2018/44-27/srp@/!main~art_16" >члан 16</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan77-stav2">
+						<content>
+							<p>За радње из <ref wId="ref248" href="akn/rs/act/2018/44-27/srp@/!main~art_77__para_1" >става 1. овог</ref> члана казниће се за прекршај новчаном казном у  износу од 10.000 до 50.000 динара одговорно лице у правном лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan77-stav3">
+						<content>
+							<p>Казниће се за прекршај новчаном казном у износу од 10.000 до 50.000 динара  физичко лице које се неовлашћено бави заступањем у остваривању права из овог  закона (<ref wId="ref249" href="akn/rs/act/2018/44-27/srp@/!main~art_16" >члан 16</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan78">
+					<num>78.</num>
+					<heading>XИ. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+					<paragraph wId="gla10-clan78-stav1">
+						<content>
+							<p>Регистар пријава за признање дизајна, преименоваће се у Регистар пријава за  признање права на индустријски дизајн, а Регистар дизајна, преименоваће се у  Регистар индустријских дизајна, и наставиће да се воде од одговарајућег редног  броја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan78-stav2">
+						<content>
+							<p>Регистар заступника установљен Законом о патентима („Службени лист СЦГ”, бр.  <ref wId="ref250" href="akn/rs/act/04/32/srp@">32/04</ref> и <ref wId="ref251" href="akn/rs/act/04/35/srp@">35/04</ref> – исправка и „Службени гласник РС”, број <ref wId="ref252" href="akn/rs/act/06/115/srp@">115/06</ref> – исправка),  наставља да се води у складу са законом којим је установљен и овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan78-stav3">
+						<content>
+							<p>Регистровани индустријски дизајни који важе на дан ступања на снагу овог  закона остају и даље на снази и на њих ће се примењивати одредбе овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan78-stav4">
+						<content>
+							<p>Одредбе овог закона примењиваће се и на пријаве за признање права на дизајн  поднете до дана ступања на снагу овог закона, а по којима управни поступак није  окончан, као и на друге започете поступке у вези са дизајнима који до дана  ступања на снагу овог закона нису окончани.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan79">
+					<num>79.</num>
+					<paragraph wId="gla10-clan79-stav1">
+						<content>
+							<p>Залоге које су до дана ступања на снагу овог закона уписане у Регистар  заложног права на покретним стварима и правима код Агенције за привредне  регистре остају на снази и биће уписане у одговарајући регистар надлежног  органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan79-stav2">
+						<content>
+							<p>Агенција за привредне регистре, дужна је да у року од 30 дана од дана ступања  на снагу овог закона надлежном органу достави податке и документацију на основу  којих је извршен упис залоге на индустријским дизајнима у Регистар заложног  права на покретним стварима и правима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan80">
+					<num>80.</num>
+					<paragraph wId="gla10-clan80-stav1">
+						<content>
+							<p>Подзаконски прописи за извршење овог закона биће донети у року од четири  месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan80-stav2">
+						<content>
+							<p>До доношења подзаконских прописа из <ref wId="ref254" href="akn/rs/act/2018/44-27/srp@/!main~art_80__para_1" >става 1. овог</ref> члана, примењују се одредбе  прописа донетих на основу Закона о правној заштити дизајна („Службени лист СЦГ”,  број <ref wId="ref253" href="akn/rs/act/04/61/srp@">61/04</ref>), ако нису супротне овом закону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan81">
+					<num>81.</num>
+					<paragraph wId="gla10-clan81-stav1">
+						<intro>
+							<p>Даном ступања на снагу овог закона престају да важе:</p>
+						</intro>
+						<point wId="gla10-clan81-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Закон о правној заштити дизајна („Службени лист СЦГ”, број <ref wId="ref255" href="akn/rs/act/04/61/srp@">61/04</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla10-clan81-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Одредбе чл. <ref wId="ref256" href="akn/rs/act/2018/44-27/srp@/!main~art_37" >37</ref>. и <ref wId="ref257" href="akn/rs/act/2018/44-27/srp@/!main~art_38" >38</ref>. и члана 44. став. 1. тачка <ref wId="ref259" href="akn/rs/act/2018/44-27/srp@/!main~art_44__para_1__point_2" >2</ref>) Закона о посебним  овлашћењима ради ефикасне заштите права интелектуалне својине („Службени гласник  РС”, број <ref wId="ref258" href="akn/rs/act/06/46/srp@">46/06</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan82">
+					<num>82.</num>
+					<paragraph wId="gla10-clan82-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном  гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan82-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У &quot;ПРЕЧИШЋЕН ТЕКСТ&quot; ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan49">
+					<num>49.</num>
+					<heading>Закон о изменама и допунама Закона о правној заштити индустријског дизајна:  "Службени гласник РС", број <ref wId="ref264" href="akn/rs/act/2015/45/srp@">45/2015</ref>-3</heading>
+					<paragraph wId="gla10-clan49-stav1">
+						<content>
+							<p>Од дана приступања Републике Србије Европској унији, одредба <ref wId="ref260" href="akn/rs/act/2018/44-27/srp@/!main~art_7__para_1" >члана 7. став 1.  овог</ref> закона о доступности јавности индустријског дизајна примењиваће се и у  случају када у стандардним токовима пословања није постојала разумна могућност  да пословни кругови специјализовани за дату област на територији Европске уније  или Европског економског простора сазнају за откривање индустријског дизајна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan49-stav2">
+						<content>
+							<p>Од дана приступања Републике Србије Европској унији, одредба члана 9. став 1.  тачка <ref wId="ref261" href="akn/rs/act/2018/44-27/srp@/!main~art_9__para_1__point_4" >4</ref>) овог закона примењиваће се и у случају када је индустријски дизајн у  супротности са ранијим дизајном који је постао доступан јавности након дана  подношења пријаве за заштиту индустријског дизајна, или датума признатог права  првенства, признавањем дизајна Европске уније, односно дизајна државе чланице  Европске уније, а који је заштићен у Европској унији или држави чланици Европске  уније од датума који претходи датуму подношења пријаве за заштиту индустријског  дизајна у Републици Србији или датуму признатог права првенства такве пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan49-stav3">
+						<content>
+							<p>Oд дана приступања Републике Србије Европској унији одредба <ref wId="ref262" href="akn/rs/act/2018/44-27/srp@/!main~art_44" >члана 44. овог</ref>  закона примењиваће се и у случају када се опрема брода или ваздухоплова  регистрованог у другој земљи привремено нађе на територији државе чланице  Европске уније, као и када се врши увоз резервних и припадајућих делова  намењених поправци напред наведених возила и поправка истих у држави чланици  Европске уније.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan49-stav4">
+						<content>
+							<p>Од дана приступања Републике Србије Европској унији, одредба <ref wId="ref263" href="akn/rs/act/2018/44-27/srp@/!main~art_45" >члана 45. овог</ref>  закона о исцрпљењу права примењиваће се и у случају да је носилац права на  индустријски дизајн, односно лице које је он овластио ставио у промет на  територији Европске уније или Европског економског простора производ који садржи  заштићени индустријски дизајн, односно производ који је обликован према  заштићеном индустријском дизајну.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan50">
+					<num>50.</num>
+					<paragraph wId="gla10-clan50-stav1">
+						<content>
+							<p>Поступци започети до дана ступања на снагу овог закона окончаће се по  прописима по којима су започети.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan51">
+					<num>51.</num>
+					<paragraph wId="gla10-clan51-stav1">
+						<content>
+							<p>Подзаконски пропис за извршење овог закона биће донет у року од четири месеца  од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan51-stav2">
+						<content>
+							<p>До доношења подзаконског прописа из <ref wId="ref266" href="akn/rs/act/2018/44-27/srp@/!main~art_51__para_1" >става 1. овог</ref> члана, примењују се одредбе  прописа донетог на основу Закона о правној заштити индустријског дизајна  („Службени гласник РС”, број <ref wId="ref265" href="akn/rs/act/09/104/srp@">104/09</ref>), ако нису супротне овом закону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan52">
+					<num>52.</num>
+					<paragraph wId="gla10-clan52-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном  гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan52-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan52-stav3">
+						<content>
+							<p>о правној заштити индустријског дизајна</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan52-stav4">
+						<content>
+							<p>„Службени гласник РС“, бр. <ref wId="ref267" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref>,  <ref wId="ref268" href="akn/rs/act/2015/45/srp@">45 од 22. маја 2015</ref>, <ref wId="ref269" href="akn/rs/act/2018/44/srp@">44 од 8. јуна 2018</ref> -  др. закон</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

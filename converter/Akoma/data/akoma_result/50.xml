@@ -1,0 +1,1063 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о лобирању">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2018/87-85/main"/>
+					<FRBRuri value="akn/rs/act/2018/87-85"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2019/86-11/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2019/86-11/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2019/86-11/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2019/86-11/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-11-13" name="службени гласник рс" number="87" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="16. Борба против корупције, заштита узбуњивача и лобирање" value="16. борба против корупције, заштита узбуњивача и лобирање" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2018-01-01" refersTo="87/2018-85" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2019-01-01" refersTo="86/2019-11" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2018-11-09" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2019-08-14" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2019-08-14" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="лобирања"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="појам"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="вези"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="правила"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="лобирањем"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="евиденције"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="обављања"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="регистар"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agencije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agenciji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kodeksom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Lobista"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="lobistu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije najkasnije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije za borbu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije za borbu protiv korupcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="IZDAVAČA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O završenoj obuci za lobistu Agencija izdaje uverenje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbora Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar lobista"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar lobista i Registar"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registra lobista"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Lobista"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 5"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. stav 3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. decembra 2019."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. januara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33. stav 2. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="71. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон ступа на снагу по истеку девет месеци од дана објављивања у „Службеном гласнику Републике Србије”, односно 14. августа 2019. године (види члан 36. Закона).Престала је да важи одредба члана 13. став 3. Закона, у делу којим је прописано да накнаду за спровођење обуке за лобисту прописује директор Агенције за борбу против корупције, даном ступања на снагу Закона о изменама и допунама Закона о републичким административним таксама (Службени гласник РС, број 86/2019), односно 14. децембра 2019. године (види члан 71. Закона - 86/2019-11).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О лобирању "Службени гласник РС", бр. <ref wId="ref41" href="akn/rs/act/2018/86/srp@">86 од 9. новембра 2018</ref>, <ref wId="ref42" href="akn/rs/act/2019/86/srp@">86 од 6. децембра 2019</ref> - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови и начин обављања лобирања, правила лобирања, регистар и евиденције у вези са лобирањем и друга питања од значаја за лобирање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Појам лобирања</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Лобирање је активност којом се врши утицај на органе Републике Србије, аутономне покрајине и јединице локалне самоуправе, органе ималаца јавних овлашћења, чији је оснивач Република Србија, аутономна покрајина, односно јединица локалне самоуправе (у даљем тексту: орган власти), у поступку доношења закона, других прописа и општих аката, из надлежности тих органа власти, ради остваривања интереса корисника лобирања, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Активности које се не сматрају лобирањем</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Лобирањем се не сматрају:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> информације, ставови и мишљења о законима, другим прописима и општим актима, предлозима или нацртима закона, других прописа и општих аката, објављеним у средствима јавног информисања и другим средствима којима се јавност обавештава;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> активности лица која јавно саопштавају своје ставове, односно достављају предлоге и стручна мишљења органима власти ради иницирања, припреме, разматрања, усвајања и давања образложења предложених решења закона, других прописа и општих аката или учествују по позиву органа власти са или без накнаде или у оквиру пројеката чији је корисник орган власти, у припреми, разматрању или давању стручних мишљења о предложеним решењима закона, других прописа и општих аката;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> грађанске иницијативе упућене органима власти на предложена решења закона, других прописа и општих аката;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> активности функционера и запослених у органима власти ради иницирања, припреме, разматрања, усвајања и давања образложења предложених решења закона, других прописа и општих аката, ако се те активности обављају у складу са њиховим овлашћењима.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Лобиста и правно лице које обавља лобирање</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Лобирањe може да обавља физичко лице које је уписано у Регистар лобиста, у складу са овим законом (у даљем тексту: лобиста) и привредно друштво, односно удружење које је уписано у Регистар правних лица која обављају лобирање у складу са овим законом (у даљем тексту: правно лице које обавља лобирање).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Лобирање може да обавља физичко лице које није уписано у Регистар лобиста ако је законски заступник или је запослен код корисника лобирања или заступа интересе удружења или привредног друштва чији је члан корисник лобирања (у даљем тексту: нерегистровани лобиста).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Корисник лобирања</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Корисник лобирања је физичко или правно лице у чијем интересу се врши лобирање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Лобирано лице</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Лобирано лице је изабрано, именовано, постављено, запослено или на други начин радно ангажовано лице у органу власти, као и лице на чији избор, именовање или постављење орган власти даје сагласност, а које учествује у поступку припреме и доношења закона, других прописа и општих аката или може утицати на садржај закона других прописа и општих аката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Начело заштите јавног интереса</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Лобирано лице је дужно да спречи настанак штетних последица по јавни интерес које могу настати услед лобирања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Начело интегритета</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Лобиста, правно лице које обавља лобирање и нерегистовани лобиста дужни су да приликом лобирања поступају у складу са начелом интегритета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Начело интегритета подразумева законитост, транспарентност и одговорност у раду, као и етичност, у циљу очувања личног угледа, угледа правног лица које обавља лобирање и угледа корисника лобирања, као и лобирања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav3">
+						<content>
+							<p>Лобиста, правно лице које обавља лобирање и нерегистовани лобиста не могу да заступају два или више корисника лобирања који у конкретном случају имају супротне интересе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Кодекс понашања учесника у лобирању</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Кодекс понашања учесника у лобирању садржи етичка правила о понашању свих учесника у лобирању са циљем да се лобирање обавља транспарентно, у складу са овим законом и јавним интересом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav2">
+						<content>
+							<p>Кодекс из <ref wId="ref0" href="akn/rs/act/2019/86-11/srp@/!main~art_9__para_1" >става 1. овог</ref> члана доноси директор Агенције за борбу против корупције (у даљем тексту: Агенција).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>УСЛОВИ ЗА ОБАВЉАЊЕ ЛОБИРАЊА</heading>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Услови за обављање лобирања за физичко лице</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<intro>
+							<p>У Регистар лобиста може се уписати лице:</p>
+						</intro>
+						<point wId="gla2-clan10-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> које је држављанин Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> које је потпуно пословно способно;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> које има високу стручну спрему;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> које није осуђивано за кривично дело које га чини недостојним за обављање лобирања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> коме није изречена или је престала мера безбедности, односно заштитна мера забране обављања делатности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> које је завршило обуку за лобисту.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Страно физичко лице може да обавља лобирање у Републици Србији ако је регистровано за обављање лобирања у држави чији је држављанин и ако је уписано у посебну евиденцију о страним физичким лицима која обављају лобирање на територији Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Уписом у посебну евиденцију страно физичко лице стиче иста права и обавезе као и лобиста.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Услови за обављање лобирања за правно лице</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<intro>
+							<p>У Регистар правних лица која обављају лобирање може се уписати правно лице, ако:</p>
+						</intro>
+						<point wId="gla2-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> је уписано у регистар привредних субјеката, односно у регистар удружења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> има запосленог најмање једног лобисту;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> није осуђено за кривично дело или му није изречена, односно ако му је престала мера безбедности, односно заштитна мера забране обављања делатности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> одговорно лице у привредном друштву, односно удружењу није осуђивано за кривично дело које га чини недостојним за обављање лобирања и коме није изречена или је престала мера безбедности, односно заштитна мера забране обављања делатности.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Страно правно лице може да обавља лобирање у Републици Србији ако је регистровано за обављање лобирања у држави у којој има седиште и ако је уписано у посебну евиденцију о страним правним лицима која обављају лобирање на територији Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Уписом у посебну евиденцију страно правно лице стиче иста права и обавезе као и домаће правно лице које обавља лобирање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Забрана обављања лобирања</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Изабраном, именованом, постављеном, запосленом или на други начин радно ангажованом лицу у органу власти, као и лицу на чији избор, именовање или постављење орган власти даје сагласност забрањено је да обавља лобирање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Забрана обављања лобирања престаје по истеку две године од дана престанка функције, односно престанка радног односа или радног ангажовања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Обука за лобисту</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Обуку за лобисту спроводи Агенција у складу са програмом обуке који доноси директор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>О завршеној обуци за лобисту Агенција издаје уверење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav3">
+						<content>
+							<p>Образац уверења о завршеној обуци за  лобисту и накнаду за спровођење обуке за лобисту прописује директор  Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav4">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА: Престала је да важи  одредба <ref wId="ref1" href="akn/rs/act/2019/86-11/srp@/!main~art_13__para_3" >члана 13. став 3. </ref>Закона, у делу којим је прописано да  накнаду за спровођење обуке за лобисту прописује директор Агенције  за борбу против корупције, даном ступања на снагу Закона о изменама  и допунама Закона о републичким административним таксама (&quot;Службени  гласник РС&quot;, број 86/2019), односно 14. децембра 2019. године (види  <ref wId="ref2" href="akn/rs/act/2019/86/srp@/!main~/art_71">члан 71. Закона - 86/2019-11</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Захтев за упис у Регистар лобиста</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Захтев за упис у Регистар лобиста подноси се Агенцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Захтев из <ref wId="ref3" href="akn/rs/act/2019/86-11/srp@/!main~art_14__para_1" >става 1. овог</ref> члана садржи име и презиме, јединствени матични број грађана и пребивалиште подносиоца захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav3">
+						<content>
+							<p>Уз захтев из <ref wId="ref4" href="akn/rs/act/2019/86-11/srp@/!main~art_14__para_1" >става 1. овог</ref> члана прилажу се докази о испуњености услова за обављање лобирања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav4">
+						<content>
+							<p>Изглед и ближи садржај обрасца захтева из <ref wId="ref5" href="akn/rs/act/2019/86-11/srp@/!main~art_14__para_1" >става 1. овог</ref> члана прописује директор Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Захтев за упис у Регистар правних лица која обављају лобирање</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Правно лице подноси Агенцији захтев за упис у Регистар правних лица која обављају лобирање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Захтев из <ref wId="ref6" href="akn/rs/act/2019/86-11/srp@/!main~art_15__para_1" >става 1. овог</ref> члана садржи назив и седиште правног лица, матични број и порески идентификациони број, као и име и презиме, јединствени матични број грађана и пребивалиште овлашћеног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav3">
+						<content>
+							<p>Уз захтев из <ref wId="ref7" href="akn/rs/act/2019/86-11/srp@/!main~art_15__para_1" >става 1. овог</ref> члана се прилажу докази о испуњености услова за обављање лобирања за правно лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav4">
+						<content>
+							<p>Изглед и ближи садржај обрасца захтева из <ref wId="ref8" href="akn/rs/act/2019/86-11/srp@/!main~art_15__para_1" >става 1. овог</ref> члана прописује директор Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<heading>Брисање из Регистра лобиста</heading>
+					<paragraph wId="gla2-clan16-stav1">
+						<intro>
+							<p>Агенција доноси решење о брисању из Регистра лобиста:</p>
+						</intro>
+						<point wId="gla2-clan16-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> на захтев лобисте;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan16-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је лобиста осуђен за кривично дело које га чини недостојним за обављање лобирања;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan16-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако је лобисти изречена мера безбедности или заштитна мера забране обављања делатности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan16-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако је лобиста поступао супротно начелу интегритета;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan16-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> губитком пословне способности лобисте;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan16-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> ако лобиста постане функционер или се запосли, односно радно ангажује у органу власти.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<heading>Брисање из Регистра правних лица која обављају лобирање</heading>
+					<paragraph wId="gla2-clan17-stav1">
+						<intro>
+							<p>Агенција доноси решење о брисању из Регистра правних лица која обављају лобирање:</p>
+						</intro>
+						<point wId="gla2-clan17-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> на захтев правног лица;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> због престанка правног лица;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако правно лице нема запосленог најмање једног лобисту;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако је правно лице осуђено за кривично дело или му је изречена мера безбедности, односно заштитна мера забране обављања делатности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ако је одговорно лице у правном лицу осуђено за кривично дело које га чини недостојним за обављање лобирања, као и ако му је изречена мера безбедности, односно заштитна мера забране обављања делатности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> ако је правно лице повредило одредбе овог закона које уређују начело интегритета.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<heading>Решење о упису и брисању из регистра</heading>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>Решење о упису у Регистар лобиста, односно Регистар правних лица која обављају лобирање доноси директор Агенције у року од 15 дана за физичка лица, односно у року од 30 дана за правна лица, од дана подношења уредног и потпуног захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Решење о брисању из Регистра лобиста, односно Регистра правних лица која обављају лобирање доноси директор Агенције најкасније у року од 15 дана од дана сазнања за постојање разлога за брисање из регистра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav3">
+						<content>
+							<p>Против решења директора Агенције из <ref wId="ref9" href="akn/rs/act/2019/86-11/srp@/!main~art_18__para_1->para_2" >ст. 1. и 2. овог</ref> члана може се изјавити жалба Одбору Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav4">
+						<content>
+							<p>Одлука Одбора Агенције је коначна и против ње се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<heading>Регистар</heading>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>Агенција води Регистар лобиста и Регистар правних лица која обављају лобирање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav2">
+						<content>
+							<p>Регистар из <ref wId="ref10" href="akn/rs/act/2019/86-11/srp@/!main~art_19__para_1" >става 1. овог</ref> члана је јаван и објављује се на интернет страници Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav3">
+						<content>
+							<p>При вођењу регистра из <ref wId="ref11" href="akn/rs/act/2019/86-11/srp@/!main~art_19__para_1" >става 1. овог</ref> члана Агенција је дужна да поштује прописе који уређују заштиту података о личности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav4">
+						<content>
+							<p>Начин вођења и образац регистра из <ref wId="ref12" href="akn/rs/act/2019/86-11/srp@/!main~art_19__para_1" >става 1. овог</ref> члана ближе се уређује актом директора Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan20">
+					<num>20.</num>
+					<heading>Садржина Регистра лобиста</heading>
+					<paragraph wId="gla2-clan20-stav1">
+						<intro>
+							<p>У Регистар лобиста уписују се подаци о лобистима, и то:</p>
+						</intro>
+						<point wId="gla2-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> број и датум уписа у Регистар лобиста;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> име и презиме, јединствени матични број грађана и пребивалиште лобисте;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> број и датум решења о упису у Регистар лобиста;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> број и датум решења о брисању из Регистра лобиста са подацима о разлозима за брисање.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan21">
+					<num>21.</num>
+					<heading>Садржина Регистра правних лица која обављају лобирање</heading>
+					<paragraph wId="gla2-clan21-stav1">
+						<intro>
+							<p>У Регистар правних лица која обављају лобирање уписују се подаци о том правним лицу, и то:</p>
+						</intro>
+						<point wId="gla2-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> број и датум уписа у Регистар правних лица која обављају лобирање;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> назив и седиште правног лица;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> број и датум решења о упису у регистар привредних субјеката, односно регистар удружења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> матични број и порески идентификациони број правног лица;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> име и презиме, пребивалиште и јединствени матични број грађана одговорног лица у правном лицу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> име и презиме, пребивалиште и јединствени матични број грађана лобисте запосленог у правном лицу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> број и датум решења о упису у регистар за лобисту запосленог у правном лицу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan21-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> број и датум решења о брисању из регистра са подацима о разлозима за брисање.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan22">
+					<num>22.</num>
+					<heading>Обавеза обавештавања о променама</heading>
+					<paragraph wId="gla2-clan22-stav1">
+						<content>
+							<p>Лобиста је дужан да обавести Агенцију о промени података о пребивалишту, а правно лице које обавља лобирање о промени која се односи на податке из регистра привредних субјеката, односно регистра удружења, пореском идентификационом броју, као и промене које се односе на лобисту запосленог у том правном лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav2">
+						<content>
+							<p>О променама из <ref wId="ref13" href="akn/rs/act/2019/86-11/srp@/!main~art_22__para_1" >става 1. овог</ref> члана, лобиста, односно правно лице које обавља лобирање, дужни су да у писменој форми обавесте Агенцију, у року од 15 дана од дана настанка промене.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan23">
+					<num>23.</num>
+					<heading>Упис података у регистар</heading>
+					<paragraph wId="gla2-clan23-stav1">
+						<content>
+							<p>Агенција, по службеној дужности, врши упис података у регистар из <ref wId="ref14" href="akn/rs/act/2019/86-11/srp@/!main~art_19__para_1" >члана 19. став 1. овог</ref> закона, одмах по коначности решења о упису, односно брисању из регистра, као и по достављању обавештења о променама из <ref wId="ref15" href="akn/rs/act/2019/86-11/srp@/!main~art_22" >члана 22. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan23-stav2">
+						<content>
+							<p>Агенција може од органа надлежног за вођење казнене евиденције да затражи податке који су од значаја за упис лобисте и правног лица које обавља лобирање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan24">
+					<num>24.</num>
+					<heading>Посебна евиденција о страним физичким и правним лицима која обављају лобирање</heading>
+					<paragraph wId="gla2-clan24-stav1">
+						<content>
+							<p>Агенција води посебну евиденцију о страним физичким и правним лицима која обављају лобирање на територији Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav2">
+						<content>
+							<p>Посебна евиденција из <ref wId="ref16" href="akn/rs/act/2019/86-11/srp@/!main~art_24__para_1" >става 1. овог</ref> члана садржи име и презиме страног физичког лица, односно назив страног правног лица, као и друге податке из акта органа стране државе на основу којих та лица обављају лобирање у страној држави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav3">
+						<content>
+							<p>Начин вођења и образац евиденције из <ref wId="ref17" href="akn/rs/act/2019/86-11/srp@/!main~art_24__para_1" >става 1. овог</ref> члана прописује се актом директора Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav4">
+						<content>
+							<p>Посебна евиденција из <ref wId="ref18" href="akn/rs/act/2019/86-11/srp@/!main~art_24__para_1" >става 1. овог</ref> члана је јавна и објављује се на интернет страници Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan25">
+					<num>25.</num>
+					<heading>Примена Закона о општем управном поступку</heading>
+					<paragraph wId="gla2-clan25-stav1">
+						<content>
+							<p>На поступак доношења решења о упису, односно брисању из Регистра лобиста и Регистра правних лица која обављају лобирање примењују се одредбе закона који уређује општи управни поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>СПРОВОЂЕЊЕ ЛОБИРАЊА</heading>
+				<article wId="gla3-clan26">
+					<num>26.</num>
+					<heading>Започињање лобирања</heading>
+					<paragraph wId="gla3-clan26-stav1">
+						<content>
+							<p>Лобирање започиње обраћањем лобисте или нерегистрованог лобисте лобираном лицу у писменој форми.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav2">
+						<content>
+							<p>Лобиста је дужан да уз допис којим се обраћа лобираном лицу достави и доказ о упису у Регистар лобиста, уговор о лобирању без навођења висине уговорене накнаде за лобирање, као и назив закона, другог прописа или општег акта за који обавља лобирање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan27">
+					<num>27.</num>
+					<heading>Уговор о лобирању</heading>
+					<paragraph wId="gla3-clan27-stav1">
+						<content>
+							<p>Лобиста, односно правно лице које обавља лобирање, могу започети лобирање тек након закључења уговора о лобирању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav2">
+						<intro>
+							<p>Уговор о лобирању нарочито садржи:</p>
+						</intro>
+						<point wId="gla3-clan27-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о уговорним странама (име, презиме и пребивалиште физичког лица, односно назив и седиште правног лица);</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> предмет лобирања (опис предмета и циљ лобирања);</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> податке о начину и времену трајања лобирања;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> висину накнаде за лобирање;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> изјаву лобисте, односно одговорног лица у правном лицу које обавља лобирање да ће поступати у складу са правилима лобирања прописаним овим законом и Кодексом понашања учесника у лобирању.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav3">
+						<content>
+							<p>Ако је уговорна страна правно лице које обавља лобирање, уговор о лобирању садржи и име и презиме лобисте запосленог код тог правног лица које ће спроводити лобирање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav4">
+						<content>
+							<p>Лобиста, односно правно лице које обавља лобирање, не могу се уговором обавезати на одређени исход лобирања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan28">
+					<num>28.</num>
+					<heading>Раскид уговора и прекид поступка лобирања</heading>
+					<paragraph wId="gla3-clan28-stav1">
+						<content>
+							<p>Раскид уговора о лобирању може да захтева свака уговорна страна у сваком тренутку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav2">
+						<intro>
+							<p>Лобиста, односно правно лице које обавља лобирање дужни су да, без одлагања, прекину поступак лобирања и раскину уговор о лобирању ако:</p>
+						</intro>
+						<point wId="gla3-clan28-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> посумњају да ће повредити начело интегритета;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan28-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> лобиста, односно одговорно лице у правном лицу које обавља лобирање постане функционер, запослени или на други начин радно ангажовани у органу власти.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan29">
+					<num>29.</num>
+					<heading>Права лобисте</heading>
+					<paragraph wId="gla3-clan29-stav1">
+						<content>
+							<p>Лобиста после подношења дописа из <ref wId="ref19" href="akn/rs/act/2019/86-11/srp@/!main~art_26" >члана 26. овог</ref> закона има право да тражи од лобираног лица да га прими у благовременом року и да му пружи податке у вези са предметом лобирања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav2">
+						<content>
+							<p>Лобиста има право да буде благовремено обавештен о свим јавним расправама и другим облицима јавних консултација у вези са припремом и доношењем прописа за које обавља лобирање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan30">
+					<num>30.</num>
+					<heading>Обавезе лобираног лица и органа власти</heading>
+					<paragraph wId="gla3-clan30-stav1">
+						<content>
+							<p>Лобирано лице дужно је да о пријему дописа из <ref wId="ref20" href="akn/rs/act/2019/86-11/srp@/!main~art_26" >члана 26. овог</ref> закона сачини обавештење и да га у року од 15 дана од дана пријема достави Агенцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav2">
+						<content>
+							<p>Агенција може од лобираног лица да захтева достављање ванредних обавештења о контактима које је имао у току лобирања са лобистом, односно нерегистрованим лобистом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav3">
+						<content>
+							<p>Обавештење из <ref wId="ref21" href="akn/rs/act/2019/86-11/srp@/!main~art_30__para_1->para_2" >ст. 1. и 2. овог</ref> члана садржи име и презиме лобираног лица, податке о његовој функцији, запослењу или радном ангажовању, име, презиме и пребивалиште лобисте, односно назив и седиште правног лица које обавља лобирање, као и друге податке од значаја за обавештавање Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav4">
+						<content>
+							<p>Агенција може користити податке из обавештења из <ref wId="ref22" href="akn/rs/act/2019/86-11/srp@/!main~art_30__para_1->para_2" >ст. 1. и 2. овог</ref> члана за потребе провере тачности података наведених у извештају о раду лобиста.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav5">
+						<content>
+							<p>Начин подношења, ближа садржина и образац обавештења из <ref wId="ref23" href="akn/rs/act/2019/86-11/srp@/!main~art_30__para_1->para_2" >ст. 1. и 2. овог</ref> члана уређују се актом директора Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav6">
+						<content>
+							<p>Орган власти дужан је да води евиденцију о лобистичким контактима за функционере који су изабрани, постављени, именовани, запослени или на други начин радно ангажовани у том органу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav7">
+						<content>
+							<p>Евиденција из <ref wId="ref24" href="akn/rs/act/2019/86-11/srp@/!main~art_30__para_6" >става 6. овог</ref> члана садржи име и презиме лобираног лица, податке о његовој функцији, запослењу или радном ангажовању, име, презиме и пребивалиште лобисте, односно назив и седиште правног лица које обавља лобирање, као и друге податке од значаја за обавештавање Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav8">
+						<content>
+							<p>Ближа садржина и начин вођења евиденције из <ref wId="ref25" href="akn/rs/act/2019/86-11/srp@/!main~art_30__para_6" >става 6. овог</ref> члана уређују се актом директора Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav9">
+						<content>
+							<p>Агенција врши контролу садржине и начина вођења евиденције из <ref wId="ref26" href="akn/rs/act/2019/86-11/srp@/!main~art_30__para_6" >става 6. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav10">
+						<content>
+							<p>У случају кршења обавезе из ст. <ref wId="ref27" href="akn/rs/act/2019/86-11/srp@/!main~art_30__para_1->para_2" >1, 2</ref>. и <ref wId="ref28" href="akn/rs/act/2019/86-11/srp@/!main~art_30__para_6" >6</ref>. овог члана и члана 33. став 2. тачка <ref wId="ref29" href="akn/rs/act/2019/86-11/srp@/!main~art_33__para_2__point_3" >3</ref>) и став 3. овог закона, Агенција може лобираном лицу, односно одговорном лицу у органу власти изрећи меру, у складу са законом који уређује спречавање корупције, односно иницирати покретање дисциплинског поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ИЗВЕШТАВАЊЕ</heading>
+				<article wId="gla4-clan31">
+					<num>31.</num>
+					<heading>Извештај о раду</heading>
+					<paragraph wId="gla4-clan31-stav1">
+						<content>
+							<p>Лобиста, односно правно лице које обавља лобирање дужни су да Агенцији доставе писмени извештај о раду, најкасније до 31. јануара текуће за претходну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav2">
+						<content>
+							<p>Лобиста, односно правно лице за које је донето решење о брисању из регистра, дужни су да, у року од 15 дана од дана коначности решења, Агенцији доставе извештај о раду за период од подношења последњег извештаја до дана коначности решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<heading>Садржај извештаја о раду</heading>
+					<paragraph wId="gla4-clan32-stav1">
+						<intro>
+							<p>Извештај о раду садржи:</p>
+						</intro>
+						<point wId="gla4-clan32-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> број и датум решења о упису у регистар;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan32-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> податке кориснику лобирања у извештајном периоду (име, презиме и пребивалиште физичког лица, односно назив и седиште правног лица);</p>
+							</content>
+						</point>
+						<point wId="gla4-clan32-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> податке о лобираним лицима и органима власти код којих је обављено лобирање (име, презиме, функција, запослење или радно ангажовање лобираног лица и назив и седиште органа власти);</p>
+							</content>
+						</point>
+						<point wId="gla4-clan32-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> предмет лобирања.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan32-stav2">
+						<content>
+							<p>Ближи садржај и образац извештаја о раду прописује се актом директора Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan33">
+					<num>33.</num>
+					<heading>Провера извештаја</heading>
+					<paragraph wId="gla4-clan33-stav1">
+						<content>
+							<p>Тачност података из <ref wId="ref30" href="akn/rs/act/2019/86-11/srp@/!main~art_32" >члана 32. овог</ref> закона проверава Агенција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan33-stav2">
+						<intro>
+							<p>У циљу провере из <ref wId="ref31" href="akn/rs/act/2019/86-11/srp@/!main~art_33__para_1" >става 1. овог</ref> члана Агенција може:</p>
+						</intro>
+						<point wId="gla4-clan33-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> затражити од лобисте, односно правног лица које обавља лобирање достављање уговора о лобирању;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan33-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> затражити податке од корисника лобирања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan33-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> затражити податке од лобираних лица и органа власти.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan33-stav3">
+						<content>
+							<p>Лобиста, правно лице које обавља лобирање, корисник лобирања, орган власти и лобирано лице дужни су да Агенцији доставе тражене податке у року од 15 дана од дана достављања захтева Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla5-clan34">
+					<num>34.</num>
+					<heading>Прекршаји правног лица које обавља лобирање, лобисте и корисника лобирања</heading>
+					<paragraph wId="gla5-clan34-stav1">
+						<intro>
+							<p>Новчаном казном у износу од 50.000 до 2.000.000 динара казниће се за прекршај правно лице које обавља лобирање, ако:</p>
+						</intro>
+						<point wId="gla5-clan34-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> писменим путем не обавести Агенцију о промени података, најкасније у року од 15 дана о дана настанака промене (<ref wId="ref32" href="akn/rs/act/2019/86-11/srp@/!main~art_22" >члан 22</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan34-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> отпочне поступак лобирања пре закључивања уговора о лобирању (<ref wId="ref33" href="akn/rs/act/2019/86-11/srp@/!main~art_27__para_1" >члан 27. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan34-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> не достави писмени извештај о раду Агенцији, најкасније до 31. јануара текуће за претходну годину (<ref wId="ref34" href="akn/rs/act/2019/86-11/srp@/!main~art_31__para_1" >члан 31. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan34-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> у року од 15 дана од дана коначности решења о брисању из регистра, Агенцији не достави извештај о раду за период од подношења последњег извештаја до дана коначности решења (<ref wId="ref35" href="akn/rs/act/2019/86-11/srp@/!main~art_31__para_2" >члан 31. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan34-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ако Агенцији не достави тражене податке у прописаном року (<ref wId="ref36" href="akn/rs/act/2019/86-11/srp@/!main~art_33__para_3" >члан 33. став 3</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan34-stav2">
+						<content>
+							<p>За прекршај из <ref wId="ref37" href="akn/rs/act/2019/86-11/srp@/!main~art_34__para_1" >става 1. овог</ref> члана казниће се одговорно лице у правном лицу, новчаном казном у износу од 30.000 до 150.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan34-stav3">
+						<content>
+							<p>За прекршај из <ref wId="ref38" href="akn/rs/act/2019/86-11/srp@/!main~art_34__para_1" >става 1. овог</ref> члана казниће се лобиста, новчаном казном у износу од 30.000 до 150.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan34-stav4">
+						<content>
+							<p>За прекршај из става 1. тачка <ref wId="ref39" href="akn/rs/act/2019/86-11/srp@/!main~art_34__para_1__point_5" >5</ref>) овог члана казниће се правно лице корисник лобирања, новчаном казном у износу од 50.000 до 2.000.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan34-stav5">
+						<content>
+							<p>За прекршај из става 1. тачка <ref wId="ref40" href="akn/rs/act/2019/86-11/srp@/!main~art_34__para_1__point_5" >5</ref>) овог члана казниће се физичко лице корисник лобирања, односно одговорно лице у правном лицу кориснику лобирања, новчаном казном у износу од 30.000 до 150.000 динара.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan35">
+					<num>35.</num>
+					<heading>Рок за доношење подзаконских аката</heading>
+					<paragraph wId="gla6-clan35-stav1">
+						<content>
+							<p>Подзаконски акти за спровођење овог закона донеће се до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan36">
+					<num>36.</num>
+					<heading>Ступање на снагу</heading>
+					<paragraph wId="gla6-clan36-stav1">
+						<content>
+							<p>Овај закон ступа на снагу по истеку девет месеци од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

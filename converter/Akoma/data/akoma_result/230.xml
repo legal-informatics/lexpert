@@ -1,0 +1,811 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о стечају и ликвидацији банака и друштава за осигурање">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2015/14-6/main"/>
+					<FRBRuri value="akn/rs/act/2015/14-6"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/44-8/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/44-8/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/44-8/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/44-8/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-02-04" name="службени гласник рс" number="14" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="2. Банке и друге финансијске организације" value="2. банке и друге финансијске организације" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2015-01-01" refersTo="14/2015-6" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2018-01-01" refersTo="44/2018-8" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2015-02-03" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2015-02-12" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2015-04-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="давалаца"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="лизинга"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="финансијског"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="банака"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="друштава"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="ликвидације"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="осигурање"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="стечаја"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agencije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije stečajni sudija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije za obavljanje poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agenciji za licenciranje stečajnih upravnika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Fonda za zaštitu investitora"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Nadležni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Srbije i Agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj banci Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="nadležnom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="nadležnom sudu za pokretanje postupka stečaja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. aprila 2015."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 12. фебруара 2015. године, а примењује се од 1. априла 2015. године (види члан 37. Закона).Поступци стечаја и ликвидације банака започети по Закону о санацији, стечају и ликвидацији банака („Службени лист СФРЈ”, бр. 84/89 и 63/90 и „Службени лист СРЈ”, бр. 37/93, 26/95, 28/96, 16/99, 44/99 и 53/01), Закону о принудном поравнању, стечају и ликвидацији („Службени лист СФРЈ”, број 84/89 и „Службени лист СРЈ”, бр. 37/93 и 28/96), Закону о стечајном поступку („Службени гласник РС”, број 84/04) и Закону о стечају и ликвидацији банака и друштава за осигурање („Службени гласник РС”, бр. 61/05, 116/08 и 91/10), наставиће се по одредбама Закона о стечају („Службени гласник РС”, бр. 104/09, 99/11 – др. закон, 71/12 – УС и 83/14), овог закона, осим члана 20. овог закона, и по члану 17. Закона о стечају и ликвидацији банака и друштава за осигурање („Службени гласник РС”, бр. 61/05, 116/08 и 91/10). Ако је Народна банка Србије одузела дозволу за рад банке, а надлежни суд до момента ступања на снагу овог закона није донео решење о отварању поступка стечаја, односно поступка ликвидације, поступак стечаја, односно поступак ликвидације банке спровешће се по одредбама овог закона (види члан 33. Закона).Поступци стечаја и ликвидације друштава за осигурање започети по Закону о принудном поравнању, стечају и ликвидацији („Службени лист СФРЈ”, број 84/89 и „Службени лист СРЈ”, бр. 37/93 и 28/96), Закону о привредним друштвима („Службени гласник РС”, број 125/04), Закону о стечајном поступку („Службени гласник РС”, број 84/04) и Закону о стечају и ликвидацији банака и друштава за осигурање („Службени гласник РС”, бр. 61/05, 116/08 и 91/10), наставиће се по одредбама Закона о стечају („Службени гласник РС”, бр. 104/09, 99/11 – др. закон, 71/12 – УС и 83/14) и овог закона. Ако је Народна банка Србије одузела дозволу за обављање послова осигурања друштву за осигурање, а надлежни суд до момента ступања на снагу овог закона није донео решење о отварању поступка стечаја, односно поступка ликвидације, поступак стечаја и поступак ликвидације друштва за осигурање спровешће се по одредбама овог закона (види члан 34. Закона).Поступци стечаја и ликвидације штедно-кредитних организација, започети по Закону о стечајном поступку („Службени гласник РС”, број 84/04), наставиће се по одредбама Закона о стечају („Службени гласник РС”, бр. 104/09, 99/11 – др. закон, 71/12 – УС и 83/14) и овог закона (види члан 35. Закона).Даном почетка примене Закона о финансијском обезбеђењу (Службени гласник РС, број 44 /2018). односно 1. јануара 2019. године, престају да важе одредбе члана 12. овог закона (види члан 25. Закона - 44/2018-8).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О стечају и ликвидацији банака и друштава за осигурање "Службени гласник РС", број <ref wId="ref71" href="akn/rs/act/2015/14/srp@">14 од 4. фебруара 2015</ref>, <ref wId="ref72" href="akn/rs/act/2018/44/srp@">44 од 8. јуна 2018</ref> - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се услови и поступак стечаја и ликвидације банака, друштава за осигурање и давалаца финансијског лизинга.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Поступак стечаја над банком и друштвом за осигурање покреће се решењем надлежног суда о покретању поступка стечаја, које се доноси на основу решења Народне банке Србије о испуњености услова за покретање поступка стечаја над банком, односно друштвом за осигурање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Поступак стечаја над банком и друштвом за осигурање спроводи се и на предлог ликвидационог управника кад утврди да имовина ликвидационог дужника није довољна да подмири сва потраживања поверилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Поступак ликвидације над банком и друштвом за осигурање покреће се решењем надлежног суда о покретању поступка ликвидације, које се доноси на основу решења Народне банке Србије о испуњености услова за покретање поступка ликвидације над банком, односно друштвом за осигурање.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСТУПАК СТЕЧАЈА</heading>
+				<article wId="gla2-od1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-od1-clan4-stav1">
+						<content>
+							<p>Истовремено са доношењем решења о одузимању дозволе за рад банци, Народна банка Србије доноси решење о испуњености услова за покретање поступка стечаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan4-stav2">
+						<intro>
+							<p>Изузетно од <ref wId="ref0" href="akn/rs/act/2018/44-8/srp@/!main~art_4__para_1" >става 1. овог</ref> члана, ако је над банком којој је одузета дозвола за рад покренут поступак реструктурирања, решење о испуњености услова за покретање поступка стечаја или поступка ликвидације банке Народна банка Србије доноси у следећим случајевима:</p>
+						</intro>
+						<point wId="gla2-od1-clan4-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> када је, у складу са законом којим се уређују банке, применом инструмената реструктурирања извршен пренос имовине и обавеза банке, а Народна банка Србије оцени да су тим преносом испуњени циљеви реструктурирања;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan4-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> када се, у складу са законом којим се уређују банке, у току поступка реструктурирања утврди да је потребно обезбедити додатна средства за финансирање реструктурирања, а ова средства не буду обезбеђена;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan4-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> када Народна банка Србије оцени да се циљеви реструктурирања више не могу испунити.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan4-stav3">
+						<content>
+							<p>На основу решења о одузимању дозволе за обављање послова осигурања, Народна банка Србије истовремено доноси решење о испуњености услова за покретање поступка стечаја над друштвом за осигурање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan4-stav4">
+						<content>
+							<p>Решење о испуњености услова за покретање поступка стечаја над банком, односно друштвом за осигурање је коначно, а извршно је моментом достављања надлежном суду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-od1-clan5-stav1">
+						<content>
+							<p>Против решења Народне банке Србије о испуњености услова за покретање поступка стечаја из <ref wId="ref1" href="akn/rs/act/2018/44-8/srp@/!main~art_4" >члана 4. овог</ref> закона може се покренути управни спор, у складу са законом којим се уређују банке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav2">
+						<content>
+							<p>У управном спору против решења из <ref wId="ref2" href="akn/rs/act/2018/44-8/srp@/!main~art_5__para_1" >става 1. овог</ref> члана суд не може решити управну ствар за чије је решавање законом којим се уређују банке, законом којим се уређује осигурање и овим законом утврђена надлежност Народне банке Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav3">
+						<content>
+							<p>Тужбом против решења из <ref wId="ref3" href="akn/rs/act/2018/44-8/srp@/!main~art_5__para_1" >става 1. овог</ref> члана може се тражити само утврђење незаконитости тог решења и, ако се не тражи у посебном поступку, накнада штете.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav4">
+						<content>
+							<p>Ако је решење Народне банке Србије поништено у управном спору, па у поновном поступку Народна банка Србије донесе ново решење о испуњености услова за покретање поступка стечаја, правне последице покретања поступка стечаја наступају даном истицања првог огласа о отварању поступка стечаја на огласној табли надлежног суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-od1-clan6-stav1">
+						<content>
+							<p>Решење о испуњености услова за покретање поступка стечаја из <ref wId="ref4" href="akn/rs/act/2018/44-8/srp@/!main~art_4" >члана 4. овог</ref> закона доставља се банци, односно друштву за осигурање, агенцији за осигурање депозита основаној посебним законом (у даљем тексту: Агенција) и надлежном суду, који је дужан да најкасније првог наредног радног дана од дана пријема овог решења донесе решење о покретању поступка стечаја над банком, односно друштвом за осигурање (у даљем тексту: стечајни дужник).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-od1-clan7-stav1">
+						<content>
+							<p>Надлежни суд је дужан да у решењу о покретању поступка стечаја из <ref wId="ref5" href="akn/rs/act/2018/44-8/srp@/!main~art_6" >члана 6. овог</ref> закона одреди рок који не може бити краћи од 30 нити дужи од 90 дана од дана објављивања обавештења о покретању поступка стечаја у „Службеном гласнику Републике Србије” у којем повериоци могу пријавити своја обезбеђена и необезбеђена потраживања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-od2-clan8-stav1">
+						<content>
+							<p>Органи поступка стечаја су стечајни судија, стечајни управник и одбор поверилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan8-stav2">
+						<content>
+							<p>Агенција врши функцију стечајног управника, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan8-stav3">
+						<content>
+							<p>На предлог Агенције стечајни судија бира и разрешава чланове одбора поверилаца, водећи рачуна о висини њихових потраживања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan8-stav4">
+						<content>
+							<p>Одбор поверилаца има пет чланова, а изузетно, на образложени предлог Агенције, може имати и више чланова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-od3-clan9-stav1">
+						<content>
+							<p>Правне последице покретања поступка стечаја наступају даном истицања огласа о покретању поступка стечаја на огласној табли надлежног суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-od3-clan10-stav1">
+						<content>
+							<p>Агенција је дужна да исплати осигуране депозите банке над којом је покренут поступак стечаја, односно ликвидације, у складу са законом којим се уређује осигурање депозита.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-od3-clan11-stav1">
+						<content>
+							<p>Агенција је дужна да исплати осигуране износе потраживања клијената банке члана Фонда за заштиту инвеститора над којом је покренут поступак стечаја, до висине осигураних потраживања, у складу са законом којим се уређује тржиште капитала.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-od3-clan12-stav1">
+						<content>
+							<p>Престао је да важи  (види <ref wId="ref6" href="akn/rs/act/2018/44-8/srp@/!main~art_25" >члан 25. </ref>Закона о финансијском обезбеђењу - 44/2018-44)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-od3-clan13-stav1">
+						<content>
+							<p>Агенција, у року од 30 дана од дана покретања поступка стечаја, путем јавног позива, започиње поступак преноса целог или дела портфеља осигурања, сагласно расположивим новчаним средствима стечајног дужника и исплатним редовима, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav2">
+						<content>
+							<p>Уз пренос портфеља осигурања на друштво за осигурање које преузима портфељ осигурања, преносе се и одговарајућа новчана средства, при чему је Агенција дужна да утврди расположивост активе која се преноси.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav3">
+						<content>
+							<p>Народна банка Србије даје сагласност на избор друштва за осигурање које преузима портфељ осигурања у року од 15 дана од дана пријема обавештења Агенције. При одлучивању о давању те сагласности Народна банка Србије процењује способност предложеног друштва за осигурање да преузме портфељ осигурања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav4">
+						<content>
+							<p>Пренос портфеља осигурања врши се уговором који се закључује између стечајног дужника и друштва за осигурање – преузимаоца портфеља, у року од два радна дана од дана добијања сагласности из <ref wId="ref7" href="akn/rs/act/2018/44-8/srp@/!main~art_13__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav5">
+						<content>
+							<p>О закључењу уговора из <ref wId="ref8" href="akn/rs/act/2018/44-8/srp@/!main~art_13__para_4" >става 4. овог</ref> члана Агенција је дужна да, путем огласа у средствима јавног информисања, обавести осигуранике и друге кориснике у року од два радна дана од дана закључења уговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav6">
+						<content>
+							<p>На пренос портфеља осигурања сходно се примењују одредбе закона којим се уређује осигурање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan14">
+					<num>14.</num>
+					<paragraph wId="gla2-od3-clan14-stav1">
+						<content>
+							<p>Агенција и повериоци имају право побијања правних послова и правних радњи којима је стечајни дужник погодовао повериоце, у смислу закона којим се уређује стечај привредних друштава, осим правних послова и правних радњи које у вези са поступком реструктурирања банке предузимају Народна банка Србије и Агенција, у складу са законом којим се уређују банке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav2">
+						<content>
+							<p>Правни послови и правне радње из <ref wId="ref9" href="akn/rs/act/2018/44-8/srp@/!main~art_14__para_1" >става 1. овог</ref> члана могу се побијати ако су извршени у року од шест месеци пре дана наступања правних последица покретања поступка стечаја, а у року од годину дана ако су ти послови извршени са повезаним лицем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav3">
+						<content>
+							<p>Рокови из <ref wId="ref10" href="akn/rs/act/2018/44-8/srp@/!main~art_14__para_2" >става 2. овог</ref> члана почињу од дана наступања правних последица покретања поступка ликвидације у случају да се поступак стечаја спроводи на предлог ликвидационог управника када он утврди да имовина банке, односно друштва за осигурање у поступку ликвидације (у даљем тексту: ликвидациони дужник) није довољна да подмири сва потраживања поверилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav4">
+						<content>
+							<p>Повезана лица, у смислу <ref wId="ref11" href="akn/rs/act/2018/44-8/srp@/!main~art_14__para_2" >става 2. овог</ref> члана, имају значење утврђено законом којим се уређују банке у случају стечаја или ликвидације банке, односно значење утврђено законом којим се уређује осигурање у случају стечаја или ликвидације друштва за осигурање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav5">
+						<content>
+							<p>Правни послови и правне радње из <ref wId="ref12" href="akn/rs/act/2018/44-8/srp@/!main~art_14__para_1" >става 1. овог</ref> члана побијају се тужбом која се може поднети најкасније у року од 12 месеци од дана наступања правних последица покретања поступка стечаја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan15">
+					<num>15.</num>
+					<paragraph wId="gla2-od3-clan15-stav1">
+						<content>
+							<p>У поступку стечаја над банком, друштвом за осигурање и даваоцем финансијског лизинга није дозвољена продаја стечајног дужника као правног лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan16">
+					<num>16.</num>
+					<paragraph wId="gla2-od4-clan16-stav1">
+						<content>
+							<p>Агенција је дужна да, у року од 60 дана од дана наступања правних последица покретања поступка стечаја, односно од дана преузимања имовине и права стечајног дужника, изврши попис имовине стечајног дужника и сачини почетни стечајни биланс који садржи, по хронолошком реду, информације о значајним трансакцијама стечајног дужника, које су закључене у периоду од шест месеци пре покретања поступка стечаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav2">
+						<intro>
+							<p>Заједно са пописом имовине и почетним стечајним билансом из <ref wId="ref13" href="akn/rs/act/2018/44-8/srp@/!main~art_16__para_1" >става 1. овог</ref> члана, Агенција је дужна да припреми и достави надлежном суду и извештај који садржи податке о:</p>
+						</intro>
+						<point wId="gla2-od4-clan16-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> активи, односно имовини стечајног дужника, укључујући и инвестиције у друга правна лица, у динарима или у страној валути, по основу уговора о кредитима и гаранцијама и уговора о купопродаји;</p>
+							</content>
+						</point>
+						<point wId="gla2-od4-clan16-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> пасиви стечајног дужника, односно обавезама из уговора на основу којих се имовина налази у поседу трећих лица, укључујући уговоре о издавању, закупу и средствима обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla2-od4-clan16-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> значајним трансакцијама које је стечајни дужник закључио у периоду од 180 дана пре дана наступања правних последица покретања поступка стечаја;</p>
+							</content>
+						</point>
+						<point wId="gla2-od4-clan16-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> пословима које је стечајни дужник обављао у име и за рачун других правних лица.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav3">
+						<content>
+							<p>У попису имовине и почетном стечајном билансу из <ref wId="ref14" href="akn/rs/act/2018/44-8/srp@/!main~art_16__para_1" >става 1. овог</ref> члана, вредности имовине исказују се по књиговодственој и ликвидационој вредности, а процену ликвидационе вредности имовине врши овлашћени судски вештак или лиценцирани овлашћени ревизор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav4">
+						<content>
+							<p>На основу процене наплативости потраживања коју је извршио овлашћени судски вештак или лиценцирани овлашћени ревизор из <ref wId="ref15" href="akn/rs/act/2018/44-8/srp@/!main~art_16__para_3" >става 3. овог</ref> члана, а у вези са постојећим средствима обезбеђења потраживања, у књиговодственој евиденцији стечајног дужника врши се отпис, односно умањење потраживања према дужницима стечајног дужника, у складу са Међународним стандардима финансијског извештавања, у смислу закона којим се уређује рачуноводство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav5">
+						<content>
+							<p>Агенција је дужна да извештај о стању стечајне масе и току поступка стечаја квартално ажурира и објављује на интернет страници Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan17">
+					<num>17.</num>
+					<paragraph wId="gla2-od4-clan17-stav1">
+						<content>
+							<p>Агенција је дужна да утврди основаност и висину пријављених потраживања поверилаца у року од шест месеци од дана истека рока за њихово пријављивање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan17-stav2">
+						<content>
+							<p>Испитно рочиште на коме ће се сачинити коначна листа о свим пријавама потраживања одржаће се најкасније у року од 60 дана од дана истека рока из <ref wId="ref16" href="akn/rs/act/2018/44-8/srp@/!main~art_17__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan18">
+					<num>18.</num>
+					<paragraph wId="gla2-od4-clan18-stav1">
+						<content>
+							<p>Агенција може одлучити да трошкове стечајног поступка привремено обезбеди из сопствених средстава, уз право на повраћај ових средстава након формирања стечајне масе у мери која је довољна за намирење тих трошкова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan19">
+					<num>19.</num>
+					<paragraph wId="gla2-od5-clan19-stav1">
+						<intro>
+							<p>Стечајни дужник на терет стечајне масе, као трошкове поступка, а пре намирења стечајних поверилаца, исплаћује:</p>
+						</intro>
+						<point wId="gla2-od5-clan19-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> неисплаћене нето зараде запослених у висини минималних зарада за последњих годину дана пре отварања поступка стечаја;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan19-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> неисплаћене доприносе за пензијско и инвалидско осигурање запослених за последње две године пре отварања поступка стечаја;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan19-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> месечне зараде лица у радном односу код стечајног дужника;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan19-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> трошкове који терете имовину стечајног дужника и трошкове уновчења те имовине;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan19-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> трошкове поступка стечаја;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan19-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> потраживања Агенције по основу исплате осигураног износа депозита, односно осигураног износа потраживања, у смислу закона којим се уређује заштита инвеститора, заједно с трошковима које Агенција има у поступку исплате тих износа, потраживања Агенције настала по основу коришћења средстава фонда за осигурање депозита, у складу са законом којим се уређују банке, као и потраживања Републике Србије по основу финансирања реструктурирања банака, у складу са законом којим се уређују банке;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan19-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> друге трошкове и обавезе настале после отварања поступка стечаја.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan19-stav2">
+						<content>
+							<p>Трошкове из <ref wId="ref17" href="akn/rs/act/2018/44-8/srp@/!main~art_19__para_1" >става 1. овог</ref> члана стечајни дужник исплаћује месечно, у складу са динамиком прилива средстава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan19-stav3">
+						<content>
+							<p>Министар надлежан за послове финансија прописује основе и мерила за одређивање награде за рад и накнаде стварних трошкова Агенције за обављање послова из овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan20">
+					<num>20.</num>
+					<paragraph wId="gla2-od5-clan20-stav1">
+						<intro>
+							<p>Потраживања поверилаца банке у стечају утврђују се на испитном рочишту и исплаћују по следећим редовима приоритета (исплатни редови):</p>
+						</intro>
+						<point wId="gla2-od5-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> потраживања поверилаца преосталих након исплате износа депозита осигураних у смислу закона којим се уређује осигурање депозита;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> потраживања по основу јавних прихода доспела у последња три месеца пре отварања поступка стечаја, осим доприноса за пензијско и инвалидско осигурање запослених;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> потраживања Народне банке Србије, укључујући и потраживања по основу кредита одобрених банци која нису намирена у потпуности због разлике у вредности средстава обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan20-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> потраживања поверилаца по основу депозита, осим депозита банака и других финансијских институција;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan20-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> потраживања других поверилаца, осим поверилаца из тач. <ref wId="ref18" href="akn/rs/act/2018/44-8/srp@/!main~art_20__para_1__point_6" >6</ref>) и <ref wId="ref19" href="akn/rs/act/2018/44-8/srp@/!main~art_20__para_1__point_7" >7</ref>) овог члана;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan20-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> потраживања поверилаца по основу субординираних обавеза банке;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan20-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> потраживање поверилаца који су и акционари банке, изузев потраживања по основу оснивачког капитала које се намирује из вишка деобне масе у складу са законом којим се уређује стечај привредних друштава.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan21">
+					<num>21.</num>
+					<paragraph wId="gla2-od5-clan21-stav1">
+						<intro>
+							<p>Потраживања поверилаца друштва за осигурање у стечају утврђују се на испитном рочишту и исплаћују по следећим редовима приоритета (исплатни редови):</p>
+						</intro>
+						<point wId="gla2-od5-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> потраживања поверилаца по основу уговора о осигурању и реосигурању живота, до висине обавеза исказаних у средствима математичке резерве у складу са законом којим се уређује осигурање;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> потраживања поверилаца по основу уговора о осигурању од последица незгода;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan21-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> потраживања поверилаца по основу уговора о осигурању свих осталих врста осигурања;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan21-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> потраживања поверилаца по основу уговора о реосигурању свих осталих врста осигурања;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan21-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> потраживања по основу јавних прихода доспела у последња три месеца пре покретања поступка стечаја, осим доприноса за пензијско и инвалидско осигурање;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan21-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> потраживања осталих поверилаца;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan21-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> потраживања поверилаца који су и акционари друштва за осигурање, односно чланова (осигураника) друштва за узајамно осигурање.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan22">
+					<num>22.</num>
+					<paragraph wId="gla2-od6-clan22-stav1">
+						<content>
+							<p>На поступак стечаја банака и друштава за осигурање, ако овим законом није друкчије одређено, примењују се одредбе закона којим се уређује стечај привредних друштава, изузев одредаба о претходном стечајном поступку, скупштини поверилаца, националним стандардима које прописује министар надлежан за послове привреде, Агенцији за лиценцирање стечајних управника и реорганизацији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan23">
+					<num>23.</num>
+					<paragraph wId="gla2-od6-clan23-stav1">
+						<content>
+							<p>На поступак стечаја, односно ликвидације давалаца финансијског лизинга сходно се примењују одредбе овог закона којима се уређује поступак стечаја и ликвидације друштава за осигурање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan23-stav2">
+						<content>
+							<p>На редослед намирења поверилаца у поступку стечаја давалаца финансијског лизинга, примењују се одредбе закона којим се уређује поступак стечаја привредних друштава.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЛИКВИДАЦИЈЕ</heading>
+				<article wId="gla3-clan24">
+					<num>24.</num>
+					<paragraph wId="gla3-clan24-stav1">
+						<content>
+							<p>Надлежни суд је дужан да најкасније првог наредног радног дана од дана пријема решења Народне банке Србије о испуњености услова за покретање поступка ликвидације над банком, односно друштвом за осигурање донесе решење о покретању поступка ликвидације над банком, односно друштвом за осигурање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan25">
+					<num>25.</num>
+					<paragraph wId="gla3-clan25-stav1">
+						<content>
+							<p>Одредбе закона којим се уређује стечај привредних друштава и одредбе овог закона којима се уређује поступак стечаја, сходно се примењују и код поступка ликвидације, осим одредаба којима се уређује одбор поверилаца, разлучни и излучни повериоци, побијање правних радњи и исплатни редови.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav2">
+						<content>
+							<p>Агенција може у току поступка ликвидације извршити пренос целог или дела портфеља осигурања, сходном применом одредаба <ref wId="ref20" href="akn/rs/act/2018/44-8/srp@/!main~art_13" >члана 13. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan26">
+					<num>26.</num>
+					<paragraph wId="gla3-clan26-stav1">
+						<content>
+							<p>Органи поступка ликвидације су ликвидациони судија и ликвидациони управник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav2">
+						<content>
+							<p>Агенција врши функцију ликвидационог управника, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan27">
+					<num>27.</num>
+					<paragraph wId="gla3-clan27-stav1">
+						<content>
+							<p>Ако Агенција у поступку ликвидације банке, односно друштва за осигурање утврди да су испуњени услови за покретање поступка стечаја, одмах ће поднети предлог надлежном суду за покретање поступка стечаја над банком, односно друштвом за осигурање у ликвидацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav2">
+						<content>
+							<p>У случају из <ref wId="ref21" href="akn/rs/act/2018/44-8/srp@/!main~art_27__para_1" >става 1. овог</ref> члана, радње спроведене у поступку ликвидације важе и у поступку стечаја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan28">
+					<num>28.</num>
+					<paragraph wId="gla3-clan28-stav1">
+						<content>
+							<p>Поступак добровољне ликвидације спроводи се, уз сагласност Народне банке Србије, над друштвом за осигурање, чија је скупштина донела одлуку о престанку рада тог лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav2">
+						<content>
+							<p>Председник извршног одбора лица из <ref wId="ref22" href="akn/rs/act/2018/44-8/srp@/!main~art_28__para_1" >става 1. овог</ref> члана чија је скупштина донела одлуку о престанку рада, дужан је да поднесе захтев за давање сагласности за спровођење поступка добровољне ликвидације Народној банци Србије, најкасније наредног радног дана од дана доношења те одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav3">
+						<content>
+							<p>Уз захтев из <ref wId="ref23" href="akn/rs/act/2018/44-8/srp@/!main~art_28__para_2" >става 2. овог</ref> члана председник извршног одбора је дужан да поднесе доказе да друштво за осигурање располаже имовином чија је вредност довољна да се из ње намире потраживања свих поверилаца, као и другу документацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav4">
+						<content>
+							<p>Народна банка Србије решењем одлучује о захтеву из <ref wId="ref24" href="akn/rs/act/2018/44-8/srp@/!main~art_28__para_2" >става 2. овог</ref> члана, у року од 60 дана од дана пријема тог захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav5">
+						<content>
+							<p>Решење из <ref wId="ref25" href="akn/rs/act/2018/44-8/srp@/!main~art_28__para_4" >става 4. овог</ref> члана је коначно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav6">
+						<content>
+							<p>Народна банка Србије може ближе прописати садржину документације из <ref wId="ref26" href="akn/rs/act/2018/44-8/srp@/!main~art_28__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan29">
+					<num>29.</num>
+					<paragraph wId="gla3-clan29-stav1">
+						<content>
+							<p>Ако Народна банка Србије да сагласност за спровођење поступка добровољне ликвидације над друштвом за осигурање, тај поступак се спроводи у складу са законом којим се уређују привредна друштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav2">
+						<content>
+							<p>Правне последице поступка добровољне ликвидације настају даном достављања решења Народне банке Србије из <ref wId="ref27" href="akn/rs/act/2018/44-8/srp@/!main~art_28" >члана 28. овог</ref> закона друштву за осигурање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav3">
+						<content>
+							<p>Ако Народна банка Србије одбије захтев из <ref wId="ref28" href="akn/rs/act/2018/44-8/srp@/!main~art_28__para_2" >члана 28. став 2. овог</ref> закона, покренуће поступак принудне ликвидације, односно поступак стечаја друштва за осигурање, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav4">
+						<content>
+							<p>На ликвидационог управника друштва за осигурање у поступку добровољне ликвидације сходно се примењују одредбе прописа којим се уређује осигурање, које се односе на услове за обављање функције члана управе друштва за осигурање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav5">
+						<content>
+							<p>Народна банка Србије врши посредни и непосредни надзор над поступком добровољне ликвидације друштва за осигурање, у складу са прописима којим се уређује осигурање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav6">
+						<content>
+							<p>Ако у току вршења надзора из <ref wId="ref29" href="akn/rs/act/2018/44-8/srp@/!main~art_29__para_5" >става 5. овог</ref> члана Народна банка Србије утврди да су угрожена права поверилаца, донеће решење о принудној ликвидацији друштва за осигурање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav7">
+						<content>
+							<p>Скупштина друштва за осигурање усваја извештај о спроведеној ликвидацији, завршни ликвидациони биланс и извештај лиценцираног овлашћеног ревизора о овом билансу, као и предлог о расподели ликвидационог остатка, по претходно прибављеној сагласности Народне банке Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan30">
+					<num>30.</num>
+					<paragraph wId="gla3-clan30-stav1">
+						<content>
+							<p>У случају ликвидације друштва за узајамно осигурање, имовина друштва користи се за повраћај улога оснивачима и поделу између чланова (осигураника), сразмерно висини њиховог уплаћеног доприноса у последње три године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan31">
+					<num>31.</num>
+					<paragraph wId="gla3-clan31-stav1">
+						<content>
+							<p>Ради измиривања обавеза из насталих а непријављених штета, као и штета у спору средства за исплату тих штета обезбеђују се и резервишу у завршном ликвидационом билансу друштва за осигурање, у складу са правилима o критеријумима и начину обрачунавања резервисаних штета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav2">
+						<content>
+							<p>Средства из <ref wId="ref30" href="akn/rs/act/2018/44-8/srp@/!main~art_31__para_1" >става 1. овог</ref> члана чине саставни део ликвидационе масе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan32">
+					<num>32.</num>
+					<paragraph wId="gla3-clan32-stav1">
+						<content>
+							<p>Ако по окончању поступка ликвидације преостану средства, та средства се деле акционарима ликвидационог дужника сагласно правима из акција и у висини која је сразмерна учешћу у акционарском капиталу ликвидационог дужника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav2">
+						<content>
+							<p>Потраживања поверилаца која нису пријављена до дана деобе ликвидационе масе, осим потраживања за измиривање обавеза из <ref wId="ref31" href="akn/rs/act/2018/44-8/srp@/!main~art_31" >члана 31. овог</ref> закона, измириће, по окончању поступка ликвидације, лица у чију је корист уплаћен остатак ликвидационе масе после главне деобе, и то само до висине вредности преузете имовине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav3">
+						<content>
+							<p>Тужбу за исплату потраживања из <ref wId="ref32" href="akn/rs/act/2018/44-8/srp@/!main~art_32__para_2" >става 2. овог</ref> члана повериоци подносе против лица у чију је корист уплаћен остатак ликвидационе масе, најкасније у року од две године након окончања поступка ликвидације, односно ликвидационе масе у случају да се након окончања поступка ликвидације, поступак настави над делом ликвидационе масе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla4-clan33">
+					<num>33.</num>
+					<paragraph wId="gla4-clan33-stav1">
+						<content>
+							<p>Поступци стечаја и ликвидације банака започети по Закону о санацији, стечају и ликвидацији банака („Службени лист СФРЈ”, бр. <ref wId="ref35" href="akn/rs/act/89/84/srp@"><ref wId="ref43" href="akn/rs/act/89/84/srp@">84/89</ref></ref> и <ref wId="ref36" href="akn/rs/act/90/63/srp@">63/90</ref> и „Службени лист СРЈ”, бр. <ref wId="ref37" href="akn/rs/act/93/37/srp@"><ref wId="ref44" href="akn/rs/act/93/37/srp@">37/93</ref></ref>, <ref wId="ref38" href="akn/rs/act/95/26/srp@">26/95</ref>, <ref wId="ref39" href="akn/rs/act/96/28/srp@"><ref wId="ref45" href="akn/rs/act/96/28/srp@">28/96</ref></ref>, <ref wId="ref40" href="akn/rs/act/99/16/srp@">16/99</ref>, <ref wId="ref41" href="akn/rs/act/99/44/srp@">44/99</ref> и <ref wId="ref42" href="akn/rs/act/01/53/srp@">53/01</ref>), Закону о принудном поравнању, стечају и ликвидацији („Службени лист СФРЈ”, број 84/89 и „Службени лист СРЈ”, бр. 37/93 и 28/96), Закону о стечајном поступку („Службени гласник РС”, број <ref wId="ref46" href="akn/rs/act/04/84/srp@">84/04</ref>) и Закону о стечају и ликвидацији банака и друштава за осигурање („Службени гласник РС”, бр. <ref wId="ref47" href="akn/rs/act/05/61/srp@"><ref wId="ref52" href="akn/rs/act/05/61/srp@">61/05</ref></ref>, <ref wId="ref48" href="akn/rs/act/08/116/srp@"><ref wId="ref53" href="akn/rs/act/08/116/srp@">116/08</ref></ref> и <ref wId="ref49" href="akn/rs/act/10/91/srp@"><ref wId="ref54" href="akn/rs/act/10/91/srp@">91/10</ref></ref>), наставиће се по одредбама Закона о стечају („Службени гласник РС”, бр. <ref wId="ref50" href="akn/rs/act/09/104/srp@">104/09</ref>, <ref wId="ref51" href="akn/rs/act/11/99/srp@">99/11</ref> – др. закон, 71/12 – УС и 83/14), овог закона, осим <ref wId="ref33" href="akn/rs/act/2018/44-8/srp@/!main~art_20" >члана 20. овог</ref> закона, и по <ref wId="ref34" href="akn/rs/act/2018/44-8/srp@/!main~art_17" >члану 17. </ref>Закона о стечају и ликвидацији банака и друштава за осигурање („Службени гласник РС”, бр. 61/05, 116/08 и 91/10).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan33-stav2">
+						<content>
+							<p>Ако је Народна банка Србије одузела дозволу за рад банке, а надлежни суд до момента ступања на снагу овог закона није донео решење о отварању поступка стечаја, односно поступка ликвидације, поступак стечаја, односно поступак ликвидације банке спровешће се по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan34">
+					<num>34.</num>
+					<paragraph wId="gla4-clan34-stav1">
+						<content>
+							<p>Поступци стечаја и ликвидације друштава за осигурање започети по Закону о принудном поравнању, стечају и ликвидацији („Службени лист СФРЈ”, број <ref wId="ref55" href="akn/rs/act/89/84/srp@">84/89</ref> и „Службени лист СРЈ”, бр. <ref wId="ref56" href="akn/rs/act/93/37/srp@">37/93</ref> и <ref wId="ref57" href="akn/rs/act/96/28/srp@">28/96</ref>), Закону о привредним друштвима („Службени гласник РС”, број <ref wId="ref58" href="akn/rs/act/04/125/srp@">125/04</ref>), Закону о стечајном поступку („Службени гласник РС”, број <ref wId="ref59" href="akn/rs/act/04/84/srp@">84/04</ref>) и Закону о стечају и ликвидацији банака и друштава за осигурање („Службени гласник РС”, бр. <ref wId="ref60" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref61" href="akn/rs/act/08/116/srp@">116/08</ref> и <ref wId="ref62" href="akn/rs/act/10/91/srp@">91/10</ref>), наставиће се по одредбама Закона о стечају („Службени гласник РС”, бр. <ref wId="ref63" href="akn/rs/act/09/104/srp@">104/09</ref>, <ref wId="ref64" href="akn/rs/act/11/99/srp@">99/11</ref> – др. закон, 71/12 – УС и 83/14) и овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan34-stav2">
+						<content>
+							<p>Ако је Народна банка Србије одузела дозволу за обављање послова осигурања друштву за осигурање, а надлежни суд до момента ступања на снагу овог закона није донео решење о отварању поступка стечаја, односно поступка ликвидације, поступак стечаја и поступак ликвидације друштва за осигурање спровешће се по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan35">
+					<num>35.</num>
+					<paragraph wId="gla4-clan35-stav1">
+						<content>
+							<p>Поступци стечаја и ликвидације штедно-кредитних организација, започети по Закону о стечајном поступку („Службени гласник РС”, број <ref wId="ref65" href="akn/rs/act/04/84/srp@">84/04</ref>), наставиће се по одредбама Закона о стечају („Службени гласник РС”, бр. <ref wId="ref66" href="akn/rs/act/09/104/srp@">104/09</ref>, <ref wId="ref67" href="akn/rs/act/11/99/srp@">99/11</ref> – др. закон, 71/12 – УС и 83/14) и овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan36">
+					<num>36.</num>
+					<paragraph wId="gla4-clan36-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престаје да важи Закон о стечају и ликвидацији банака и друштава за осигурање („Службени гласник РС”, бр. <ref wId="ref68" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref69" href="akn/rs/act/08/116/srp@">116/08</ref> и <ref wId="ref70" href="akn/rs/act/10/91/srp@">91/10</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan37">
+					<num>37.</num>
+					<paragraph wId="gla4-clan37-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а примењује се од 1. априла 2015. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

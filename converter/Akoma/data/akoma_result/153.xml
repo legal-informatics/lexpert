@@ -1,0 +1,1597 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о извршењу ванзаводских санкција и мера">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2014/55-35/main"/>
+					<FRBRuri value="akn/rs/act/2014/55-35"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/87-77/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/87-77/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/87-77/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/87-77/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2014-05-23" name="службени гласник рс" number="55" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="9. Извршење кривичних санкција и алтернативних санкција и мера" value="9. извршење кривичних санкција и алтернативних санкција и мера" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2014-01-01" refersTo="55/2014-35" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2018-01-01" refersTo="87/2018-77" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2014-05-23" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2014-05-31" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2014-09-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="садржај"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="сврха"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступку"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="извршења"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="санкција"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописано"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="другачије"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="прекршајном"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="судском"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописује"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="извршавају"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="изречених"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="заједници"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="другом"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="кривичном"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="положај"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="сходно"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="примењују"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="одредбе"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="извршење"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="ванзаводских"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="извршењу"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="кривичних"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="извршењем"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="мера"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="лица"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Poverenika"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Poverenikom i Nacionalnom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Povereničkoj službi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="24 časa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Krivičnog zakonika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Molba za saglasnost za promenu prebivališta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poverenik"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poverenik dostavlja sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poverenika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poverenička služba"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Povereničke službe"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Povereničke službe i direktoru Uprave"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Povereničkoj kancelariji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Povereničkoj službi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Povereničku službu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprave"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprave odluku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprave za izvršenje krivičnih sankcija"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Poverenik"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stava 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. st. 4. do 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. stav 1. tačka 6"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="61. i 63."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 31. маја 2014. године, а примењује се по истеку три месеца од дана ступања на снагу, односно од 1. септембра 2014. године (види члан 65. Закона).Закон о изменама и допунама Закона о извршењу ванзаводских санкција и мера („Службени гласник РС“, број 87/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 21. новембра 2018. године (види члан 8. Закона – 87/2018-77).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О извршењу ванзаводских санкција и мера "Службени гласник РС", бр. <ref wId="ref65" href="akn/rs/act/2014/55/srp@">55 од 23. маја 2014</ref>, <ref wId="ref66" href="akn/rs/act/2018/87/srp@">87 од 13. новембра 2018</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>прва</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Садржина закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се поступак извршења ванзаводских санкција и мера изречених у кривичном, прекршајном или другом судском поступку, које се извршавају у заједници (у даљем тексту: извршење), прописује се сврха, садржај, начин извршења, положај лица у поступку, као и надзор над извршењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>На извршење из <ref wId="ref0" href="akn/rs/act/2018/87-77/srp@/!main~art_1__para_1" >става 1. овог</ref> члана сходно се примењују одредбе Закона о извршењу кривичних санкција, ако овим законом није другачије прописано.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Сврха и садржај извршења</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Извршења ванзаводских санкција и мера спроводе се ради заштите друштва од криминалитета извршењем ванзаводских санкција и мера у заједници са циљем ресоцијализације и реинтеграције осуђених лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Послови извршења спроводе се приликом одлучивања о кривичном гоњењу, одређивању и извршењу мера обезбеђења присуства окривљеног, извршењу санкције изречене учиниоцу кажњивог дела, извршењу условног отпуста и пружању подршке и помоћи после извршене казне затвора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Послови извршења обављају се на основу одлуке јавног тужиоца, суда или на захтев завода за извршење кривичних санкција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Повереничка служба</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Послове извршења спроводи организациона јединица надлежна за алтернативне санкције (у даљем тексту: Повереничка служба), у оквиру Управе за извршење кривичних санкција (у даљем тексту: Управа).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>У оквиру Повереничке службе образују се повереничке канцеларије за подручје територијалне надлежности једног или више виших судова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Месна надлежност повереничке канцеларије из <ref wId="ref1" href="akn/rs/act/2018/87-77/srp@/!main~art_3__para_2" >става 2. овог</ref> члана одређује се према месту пребивалишта, односно боравишта лица укљученог у извршење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>У вршењу послова из своје надлежности повереничка канцеларија сарађује и размењује податке са државним органима, научним установама, органима локалне заједнице, удружењима и другим институцијама које су од значаја за обављање њихових послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>Повереничка канцеларија може ради обављања послова из своје надлежности ангажовати стручњаке, као и друга лица, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>друга</num>
+				<heading>ПОЛОЖАЈ ЛИЦА УКЉУЧЕНОГ У ИЗВРШЕЊЕ И ОВЛАШЋЕЊА ПОВЕРЕНИКА</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Положај лица укљученог у извршење</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>У поступку извршења јемчи се поштовање достојанства лица према којем се спроводе санкције и мере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Лице према којем се спроводи извршење не сме бити стављено у неравноправан положај због расе, боје коже, пола, језика, вере, политичких и других уверења, националног или социјалног порекла, имовног стања, образовања, друштвеног положаја, сексуалне оријентације или другог личног својства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Послови извршења</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<intro>
+							<p>Послови извршења су:</p>
+						</intro>
+						<point wId="gla2-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> праћење извршења обавеза према одлуци јавног тужиоца, када се у односу на осумњиченог одлаже кривично гоњење, као и спровођење обавеза по пресуди донетој на основу закљученог споразума о признању кривичног дела;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> праћење извршења мере забране напуштања стана (у даљем тексту: кућни притвор) и мере забране прилажења, састајања или комуницирања са одређеним лицем;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> организација, спровођење и праћење извршења казне затвора у просторијама у којима осуђени станује (у даљем тексту: кућни затвор);</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> организација, спровођење и праћење извршења казне рада у јавном интересу и заштитног надзора код условне осуде;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> надзор над условно отпуштеним лицем и подршка да лице поштује ограничења која је изрекао суд;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> саветовање и пружање подршке и помоћи лицу после извршене казне затвора да избегну поновно чињење кривичних дела;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> други послови који су од значаја за обављање послова извршења.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Овлашћења Повереника</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Послове извршења обавља државни службеник из повереничке канцеларије (у даљем тексту: Повереник).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Повереник је овлашћен да прикупља податке о лицима према којима се спроводи извршење, да успостави контакт са породицом, да изврши увид у службену документацију надлежних органа и правних лица и да од њих затражи да му се доставе потребни подаци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Повереник има својство службеног лица и сва права и дужности која произилазе из тог својства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav4">
+						<content>
+							<p>Повереник има службену легитимацију и  службену значку чију садржину и изглед прописује министар надлежан за послове правосуђа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2018/87/srp@">87/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav6">
+						<content>
+							<p>Први разговор</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2018/87/srp@">87/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav8">
+						<content>
+							<p>Члан 6а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav9">
+						<content>
+							<p>Након достављања правноснажне и извршне одлуке  суда, Повереник позива на први разговор лице према којем се спроводи  извршење кућног затвора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav10">
+						<content>
+							<p>Повереник писмено налаже лицу из <ref wId="ref4" href="akn/rs/act/2018/87-77/srp@/!main~art_6__para_1" >става 1. овог</ref>  члана да се одређеног дана јави у повереничку канцеларију на први разговор,  како би одредио датум започињања извршења кривичне санкције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav11">
+						<content>
+							<p>Ако се лице из <ref wId="ref5" href="akn/rs/act/2018/87-77/srp@/!main~art_6__para_1" >става 1. овог</ref> члана не јави на први  разговор у повереничку канцеларију у року од три дана од дана када је  требало да се јави, Повереник обавештава надлежни суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav12">
+						<content>
+							<p>У случају из <ref wId="ref6" href="akn/rs/act/2018/87-77/srp@/!main~art_6__para_3" >става 3. овог</ref> члана суд наређује  довођење, а ако се лице крије или је у бекству, наређује издавање потернице  и о томе обавештава Повереника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav13">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref7" href="akn/rs/act/2018/87/srp@">87/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Права, обавезе и заштита лица према којем се спроводи извршење</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Лице према којем се спроводи извршење оствариваће своју здравствену заштиту према општим прописима о здравственој заштити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Лице према којем се спроводи извршење може променити место пребивалишта или боравишта само уз сагласност органа чијом је одлуком одређено спровођење извршења. Молба за сагласност за промену пребивалишта или боравишта подноси се преко повереничке канцеларије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Лице према којем се спроводи извршење дужно је да  надокнади штету Управи, за оштећење или уништење уређаја за лоцирање, коју  проузрокује намерно или крајњом непажњом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Лице према којем се спроводи извршење има право приговора директору Управе на рад Повереника, ако сматра да су поступањем Повереника повређена његова права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>Повереник је дужан да писмено одговори на наводе из приговора у року од три дана од дана пријема приговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav6">
+						<content>
+							<p>Директор Управе одлуку о приговору донеће у року од осам дана од дана пријема приговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav7">
+						<content>
+							<p>Против појединачних аката директора Управе којима се решава о правима и обавезама лица према којем се спроводи извршење дозвољена је судска заштита, коју у складу са овим законом обезбеђује судија за извршење кривичних санкција (у даљем тексту: судија за извршење).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/2018/87/srp@">87/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Заштита података о личности лица према којем се спроводи извршење</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Подаци о лицу према којем се спроводи извршење представљају нарочито осетљиве податке о личности и њихова заштита се врши у складу са законом који уређује заштиту података о личности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Сви подаци о лицу укљученом у извршење евидентирају се и чувају у досијеу поступања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Лице укључено у извршење има право увида у свој досије поступања, осим у запажања и стручна мишљења Повереника и других стручних лица, као и података који се односе на трећа лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Евиденције</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Евиденције послова извршења води Повереничка служба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Евиденције се могу водити ручно и електронски.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>У оквиру евиденција воде се матичне књиге и досијеи поступања за лица према којима се спроводи извршење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav4">
+						<content>
+							<p>Евиденције из <ref wId="ref9" href="akn/rs/act/2018/87-77/srp@/!main~art_9__para_1" >става 1. овог</ref> члана садрже податке о личности и изреченој санкцији, мери или обавези, као и податке од значаја за њихово извршење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav5">
+						<content>
+							<p>У матичне књиге уписују се следећи подаци о личности: име и презиме, име једног родитеља, јединствени матични број грађана и адреса пребивалишта, односно боравишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav6">
+						<content>
+							<p>У досије поступања уписују се следећи подаци о личности: школска спрема, занимање, посебне потребе, брачно стање и подаци о личности чланова породице лица према коме се спроводи извршење (име и презиме чланова породице, сродство, адреса пребивалишта, односно боравишта и број телефона).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav7">
+						<content>
+							<p>Упутство о начину вођења евиденција из <ref wId="ref10" href="akn/rs/act/2018/87-77/srp@/!main~art_9__para_1" >става 1. овог</ref> члана доноси министар надлежан за послове правосуђa.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Појединачни програм поступања</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Повереник за послове извршења израђује појединачни програм поступања за свако лице према којем се спроводи извршење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Појединачни програм поступања израђује се на основу процене личности, личних прилика, здравственог стања, стручних квалификација, процене ризика и потреба лица према којем се спроводи извршење. Програм се израђује у сарадњи са осуђеним лицем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Појединачни програм поступања садржи методе, поступке и рокове за његово спровођење, носиоце појединих активности и остале податке од значаја за испуњавање сврхе извршења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Појединачни програм поступања обавезно садржи преузете обавезе или мере које је одредио надлежни орган.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav5">
+						<content>
+							<p>Лице према којем се спроводи извршење упознаће се са садржином појединачног програма поступања, као и са последицама неизвршења обавеза, прихвати га својим потписом, после чега је обавезно извршавати утврђене поступке и мере.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>трећа</num>
+				<heading>НАДЗОР НАД ИЗВРШЕЊЕМ ОБАВЕЗА ПРЕМА ОДЛУЦИ ЈАВНОГ ТУЖИОЦА</heading>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<heading>Надзор над извршењем обавеза према одлуци јавног тужиоца о одлагању кривичног гоњења</heading>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Када јавни тужилац донесе одлуку о одлагању кривичног гоњења, надзор над извршењем обавеза које су одређене осумњиченом обавља Повереник.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>Достављање одлуке јавног тужилаштва</heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Јавни тужилац доставља одлуку о одлагању кривичног гоњења са подацима о личности осумњиченог надлежној повереничкој канцеларији у року од три дана од дана доношења одлуке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Поступање Повереника</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Повереник је дужан да одмах по пријему одлуке предузме потребне радње за њено извршење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Када је то потребно, и према врсти обавезе, Повереник прибавља потребне податке од породице осумњиченог, полиције, установа здравствене и социјалне заштите, послодавца и других установа, организација и удружења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>Повереник има право непосредног проверавања извршења обавеза.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>Извршавање обавеза</heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Осумњичени према којем се спроводи извршење, дужан је да испуни обавезе у року и на начин одређеним одлуком јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Ако је осумњичени оправдано спречен да испуни обавезе из <ref wId="ref11" href="akn/rs/act/2018/87-77/srp@/!main~art_14__para_1" >става 1. овог</ref> члана, дужан је да о томе обавести Повереника без одлагања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Надзор над спровођењем обавеза</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Повереник надзире извршење обавеза и обавештава надлежног јавног тужиоца о спроведеном надзору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Ако осумњичени не испуњава обавезе које су му одређене, као и у случају из <ref wId="ref12" href="akn/rs/act/2018/87-77/srp@/!main~art_14__para_2" >члана 14. става 2. овог</ref> закона, Повереник ће о томе обавестити јавног тужиоца и Повереничку службу, уз навођење разлога.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Извештавање</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>Повереник, према потреби, доставиће извештај о околностима које битно утичу на извршење обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>Када осумњичени испуни обавезе Повереник о томе, без одлагања, обавештава надлежног јавног тужиоца и Повереничку службу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>четврта</num>
+				<heading>ИЗВРШЕЊЕ ВАНЗАВОДСКИХ САНКЦИЈА И МЕРА КОЈЕ ЈЕ ОДРЕДИО СУД</heading>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<heading>Надзор над извршењем мере кућног притвора</heading>
+					<paragraph wId="gla4-clan17-stav1">
+						<content>
+							<p>Када суд према окривљеном одреди примену мере кућног притвора контролу поштовања ограничења која су окривљеном одређена одлуком суда обавља Повереничка служба преко Повереника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav2">
+						<content>
+							<p>Суд ће у својој одлуци назначити да ли се мера кућног притвора извршава са или без примене електронског надзора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav3">
+						<content>
+							<p>Суд одмах доставља одлуку о примени мере кућног притвора Повереничкој служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav4">
+						<content>
+							<p>Ако суд донесе одлуку да се мера кућног притвора извршава уз примену електронског надзора, опрема за електронски надзор активира се одмах после достављања одлуке из <ref wId="ref13" href="akn/rs/act/2018/87-77/srp@/!main~art_17__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav5">
+						<content>
+							<p>Уређај за лоцирање окривљеног (одашиљач са пратећом опремом), који је нешкодљив по здравље, поставља стручно лице, које при томе даје потребно упутство окривљеном о начину рада уређаја. Повереничка служба управља и уређајем којим се даљински прати кретање окривљеног и његов положај у простору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav6">
+						<content>
+							<p>Приликом контроле спровођења мере из <ref wId="ref14" href="akn/rs/act/2018/87-77/srp@/!main~art_17__para_1" >става 1. овог</ref> члана Повереник сарађује са полицијом или другим надлежним државним органом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav7">
+						<content>
+							<p>Право на боравак ван просторија</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2018/87/srp@">87/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav9">
+						<content>
+							<p>Члан 17а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav10">
+						<content>
+							<p>Окривљени према коме се примењује мера кућног  притвора има право на боравак ван просторија у којима се примењује мера у  трајању од највише један час дневно у периоду од 7 до 17 часова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav11">
+						<content>
+							<p>Ако се утврди злоупотреба права из <ref wId="ref16" href="akn/rs/act/2018/87-77/srp@/!main~art_17__para_1" >става 1. овог</ref>  члана суд ће, на образложени предлог Повереника, донети одлуку о одузимању  тог права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav12">
+						<content>
+							<p>Против одлуке из <ref wId="ref17" href="akn/rs/act/2018/87-77/srp@/!main~art_17__para_2" >става 2. овог</ref> члана окривљени  може изјавити жалбу у року од три дана од дана достављања ванрасправном већу  истог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav13">
+						<content>
+							<p>Жалба из <ref wId="ref18" href="akn/rs/act/2018/87-77/srp@/!main~art_17__para_3" >става 3. овог</ref> члана не задржава извршење  одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav14">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2018/87/srp@">87/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<heading>Обавезе Повереника</heading>
+					<paragraph wId="gla4-clan18-stav1">
+						<content>
+							<p>О кршењу ограничења које је суд окривљеном одредио Повереник без одлагања обавештава суд, полицију и Повереничку службу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav2">
+						<content>
+							<p>Повереник обавештава суд и о другим околностима од значаја за примену електронског надзора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<heading>Надзор над извршењем мере забране прилажења, састајања или комуницирања са одређеним лицем, односно друге мере одређене одлуком суда</heading>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Када суд донесе одлуку којом је окривљеном изречена забрана прилажења, састајања или комуницирања са одређеним лицем, односно друге мере одређене одлуком суда, са обавезом јављања окривљеног Поверенику, одлуку доставља Повереничкој служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav2">
+						<content>
+							<p>Повереник је дужан да у року од три дана од дана пријема одлуке изради програм поступања са којим упознаје окривљеног.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav3">
+						<content>
+							<p>Повереник одмах обавештава суд, полицију и Повереничку службу о кршењу обавезе јављања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<heading>Извршење казне кућног затвора</heading>
+					<paragraph wId="gla4-clan20-stav1">
+						<content>
+							<p>Пре доношења одлуке о извршењу казне кућног затвора са применом електронског надзора, суд ће утврдити да ли постоје техничке и друге могућности за извршење ове казне.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav2">
+						<content>
+							<p>Ако није у могућности да утврди услове из <ref wId="ref20" href="akn/rs/act/2018/87-77/srp@/!main~art_20__para_1" >става 1. овог</ref> члана, суд ће од Повереничке службе затражити извештај о постојању техничких и других могућности од значаја за извршење ове казне.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav3">
+						<content>
+							<p>После добијања извештаја суд ће у својој одлуци назначити да ли ће се казна кућног затвора извршавати са или без примене електронског надзора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav4">
+						<content>
+							<p>Ако суд није назначио у пресуди да ли ће се казна извршавати са или без примене електронског надзора, суд је дужан да се без одлагања изјасни о начину извршења казне.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<heading>Праћење извршења казне кућног затвора</heading>
+					<paragraph wId="gla4-clan21-stav1">
+						<content>
+							<p>Правноснажну и извршну одлуку о кућном затвору суд доставља Повереничкој служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav2">
+						<content>
+							<p>Повереник утврђује програм поступања и прати извршење казне из <ref wId="ref21" href="akn/rs/act/2018/87-77/srp@/!main~art_21__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<heading>Извршење казне кућног затвора са применом мере електронског надзора</heading>
+					<paragraph wId="gla4-clan22-stav1">
+						<content>
+							<p>Када суд одреди да се извршење казне кућног затвора спроводи са применом мере електронског надзора, примену спроводи Повереничка служба, у сарадњи са полицијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav2">
+						<content>
+							<p>Постављање уређаја за лоцирање осуђеног (одашиљач са пратећом опремом) обавља се на начин предвиђен одредбама <ref wId="ref22" href="akn/rs/act/2018/87-77/srp@/!main~art_17__para_4" >члана 17. ст. 4. </ref>до 6. овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Права и обавезе осуђеног</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>Осуђени коме је одређен кућни затвор не сме напуштати просторије у којима станује, осим у случајевима предвиђеним овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav2">
+						<content>
+							<p>Осуђени из <ref wId="ref23" href="akn/rs/act/2018/87-77/srp@/!main~art_23__para_1" >става 1. овог</ref> члана има право на боравак ван просторија у којима станује у трајању од највише два часа дневно у периоду од  7 до 17 часова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav3">
+						<content>
+							<p>Директор Управе, на образложени предлог Повереника, донеће одлуку о одузимању права из <ref wId="ref24" href="akn/rs/act/2018/87-77/srp@/!main~art_23__para_2" >става 2. овог</ref> члана ако се утврди да је дошло до злоупотребе тог права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav4">
+						<content>
+							<p>Против одлуке директора Управе из <ref wId="ref25" href="akn/rs/act/2018/87-77/srp@/!main~art_23__para_3" >става 3. овог</ref> члана осуђени може изјавити жалбу у року од три дана од дана достављања судији за извршење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav5">
+						<content>
+							<p>Жалба из <ref wId="ref26" href="akn/rs/act/2018/87-77/srp@/!main~art_23__para_4" >става 4. овог</ref> члана не задржава извршење одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav6">
+						<content>
+							<p>Осуђени може напустити просторије у којима станује  на позив суда или другог државног органа. Повереник позив доставља  Повереничкој служби, а време које је осуђени провео ван просторија у којима  станује евидентира се у листи праћења и у досијеу који се води у  Повереничкој служби у електронској форми.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2018/87/srp@">87/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<heading>Посебни разлози за напуштање просторије</heading>
+					<paragraph wId="gla4-clan24-stav1">
+						<intro>
+							<p>Одлуком директора Управе осуђени може напустити просторије у којима станује у следећим случајевима:</p>
+						</intro>
+						<point wId="gla4-clan24-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> због пружања нужне медицинске помоћи осуђеном или члану његовог породичног домаћинства, ако је за пружање медицинске помоћи неопходно напуштање просторија;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ради одласка на посао, ако кривично дело за које је осуђен није у вези са радом;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ради похађања наставе током редовног школовања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> брисана је (види <ref wId="ref28" href="akn/rs/act/2018/87/srp@/!main~/art_6">члан 6. Закона - 87/2018-77</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> због одласка на полагање испита;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> због тешке, акутне или хроничне болести, ради одласка на редовне здравствене прегледе или стационарног лечења;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> због свог венчања или венчања крвног сродника до другог степена сродства;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> због смрти блиског сродника;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> због обавезе старања према члановима уже породице предвиђене законом, у случају да ту обавезу не може да обавља друго лице;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> због сезонских пољопривредних радова, ако се осуђени бави пољопривредом као сталном делатношћу;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> због других нарочито оправданих разлога за које осуђени може поднети образложену молбу.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav2">
+						<content>
+							<p>Одлуку о дозволи напуштања просторија у којима осуђени станује, у случајевима из <ref wId="ref29" href="akn/rs/act/2018/87-77/srp@/!main~art_24__para_1" >става 1. овог</ref> члана, доноси директор Управе, на молбу осуђеног.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav3">
+						<content>
+							<p>Осуђени подноси молбу преко Повереника који је са мишљењем о основаности доставља Повереничкој служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav4">
+						<content>
+							<p>Са одлуком о дозволи напуштања просторија у којима осуђени станује упознаје се суд и месно надлежна полицијска управа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<heading>Прекид извршења казне кућног затвора</heading>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Ако је осуђеном дозвољен боравак ван просторија у којима станује из разлога прописаним у <ref wId="ref30" href="akn/rs/act/2018/87-77/srp@/!main~art_24__para_1" >члану 24. став 1. </ref>тачкa 6) овог закона, а на стационарном или бањском лечењу се налази дуже од 15 дана прекида му се извршење казне, док траје лечење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Одлуку о прекиду казне доноси директор Управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav3">
+						<content>
+							<p>Директор Управе опозива одлуку о прекиду извршења казне ако накнадно утврди да нису постојали или су престали разлози због којих је прекид одобрио или осуђени прекид користи противно одобреној сврси.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav4">
+						<content>
+							<p>Против одлуке којом се опозива прекид извршења казне, осуђени може изјавити жалбу судији за извршење, у року од три дана од дана пријема одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav5">
+						<content>
+							<p>Жалба из <ref wId="ref31" href="akn/rs/act/2018/87-77/srp@/!main~art_25__para_4" >става 4. овог</ref> члана не одлаже извршење одлуке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>Поступак у случају хитне медицинске интервенције</heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<content>
+							<p>У случају да осуђени није у могућности да унапред поднесе молбу, због потребе пружања хитне медицинске помоћи осуђеном или члану његовог породичног домаћинства, осуђени може напустити просторије у којима станује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav2">
+						<content>
+							<p>О напуштању просторија из <ref wId="ref32" href="akn/rs/act/2018/87-77/srp@/!main~art_26__para_1" >става 1. овог</ref> члана осуђени или члан његовог породичног домаћинства у најкраћем могућем року телефоном или на други начин обавештава Повереника и доставља му извештај здравствене установе о здравственом стању осуђеног, односно члана његовог породичног домаћинства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav3">
+						<content>
+							<p>У случају из <ref wId="ref33" href="akn/rs/act/2018/87-77/srp@/!main~art_26__para_1" >става 1. овог</ref> члана, Повереник одмах обавештава руководиоца Повереничке службе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav4">
+						<content>
+							<p>По прибављеном извештају здравствене установе, ако је осуђени задржан на даљем лечењу, а на предлог руководиоца Повереничке службе, директор Управе у најкраћем року доноси одлуку о дозволи напуштања просторија у којима осуђени станује.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<heading>Опозив одлуке о дозволи напуштања просторије</heading>
+					<paragraph wId="gla4-clan27-stav1">
+						<intro>
+							<p>Директор Управе опозива одлуку о дозволи напуштања просторија у којима осуђени станује, ако:</p>
+						</intro>
+						<point wId="gla4-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> више не постоје околности из <ref wId="ref34" href="akn/rs/act/2018/87-77/srp@/!main~art_24__para_1" >члана 24. став 1. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan27-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> се накнадно утврди да су подаци наведени у молби осуђеног, на основу којих је донета одлука о дозволи напуштања просторија у којима осуђени станује, неистинити;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan27-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> осуђени злоупотребљава дозволу напуштања просторије.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav2">
+						<content>
+							<p>Против одлуке којом се опозива дозвола за напуштање просторија у којима осуђени станује, осуђени може изјавити жалбу судији за извршење, у року од три дана од дана пријема одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav3">
+						<content>
+							<p>Жалба из <ref wId="ref35" href="akn/rs/act/2018/87-77/srp@/!main~art_27__para_2" >става 2. овог</ref> члана не одлаже извршење одлуке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan28">
+					<num>28.</num>
+					<heading>Обавештавање о кршењу обавеза осуђеног</heading>
+					<paragraph wId="gla4-clan28-stav1">
+						<content>
+							<p>Повереник преко Повереничке службе обавештава суд о кршењу обавеза осуђеног, односно о околностима које онемогућавају извршење казне.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan29">
+					<num>29.</num>
+					<heading>Самовољно напуштање просторија</heading>
+					<paragraph wId="gla4-clan29-stav1">
+						<content>
+							<p>У случају да осуђени самовољно напусти просторије у којима станује једном у трајању преко шест часова или два пута у трајању до шест часова Повереничка служба о томе, без одлагања, обавештава суд који је донео првостепену пресуду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav2">
+						<content>
+							<p>По пријему обавештења из <ref wId="ref36" href="akn/rs/act/2018/87-77/srp@/!main~art_29__para_1" >става 1. овог</ref> члана судија појединац суда који је донео првостепену пресуду без одлагања, а најкасније у року од 24 часа, донеће решење да осуђени остатак казне затвора издржи у заводу за извршење казне затвора и наређује издавање потернице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav3">
+						<content>
+							<p>Наредба за издавање потернице доставља се органима полиције ради извршења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav4">
+						<content>
+							<p>Време проведено у бекству не урачунава се у време извршења казне.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan30">
+					<num>30.</num>
+					<heading>Поступање Повереника</heading>
+					<paragraph wId="gla4-clan30-stav1">
+						<content>
+							<p>У поступку извршења казне кућног затвора Повереник може без претходне најаве да проверава да ли се осуђени налази у просторијама у којима станује или другом месту које је предвиђено програмом поступања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan30-stav2">
+						<content>
+							<p>Провере из <ref wId="ref37" href="akn/rs/act/2018/87-77/srp@/!main~art_30__para_1" >става 1. овог</ref> члана обављају се посетом осуђеном у просторијaма у којима станује, односно месту где ради и разговорима са члановима његовог породичног домаћинства и послодавцем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan30-stav3">
+						<content>
+							<p>Провера путем телефонског разговора обавља се на тај начин што Повереник позива фиксни телефонски број власника просторија у којима осуђени станује и разговара са осуђеним, као и са члановима његовог породичног домаћинства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan31">
+					<num>31.</num>
+					<heading>Обавештавање</heading>
+					<paragraph wId="gla4-clan31-stav1">
+						<content>
+							<p>По извршеној казни кућног затвора Повереник обавештава суд и полицију преко Повереничке службе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<heading>Извршење казне кућног затвора без мера електронског надзора</heading>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>На начин извршења казне кућног затвора без примене мера електронског надзора, сходно се примењују одредбе овог закона којима се уређује извршење казне кућног затвора са применом мере електронског надзора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan33">
+					<num>33.</num>
+					<heading>Превремено отпуштање</heading>
+					<paragraph wId="gla4-clan33-stav1">
+						<content>
+							<p>Директор Управе може превремено отпустити осуђеног са издржавања казне највише три месецa до истека казне, ако је издржао девет десетина казне, због доброг владања осуђеног и постигнутих резултата у програму поступања, на предлог руководиоца Повереничке службе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan33-stav2">
+						<content>
+							<p>Предлог из <ref wId="ref38" href="akn/rs/act/2018/87-77/srp@/!main~art_33__para_1" >става 1. овог</ref> члана подноси се на основу мишљења Повереника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan34">
+					<num>34.</num>
+					<heading>Извршење условне осуде са заштитним надзором</heading>
+					<paragraph wId="gla4-clan34-stav1">
+						<content>
+							<p>Суд који је одлучивао у првом степену дужан је да извршну одлуку, с подацима о личности осуђеног лица прибављеним током кривичног поступка, достави надлежној повереничкој канцеларији у року од три дана од дана када је одлука постала извршна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan35">
+					<num>35.</num>
+					<heading>Дужности и права Повереника и осуђеног лица</heading>
+					<paragraph wId="gla4-clan35-stav1">
+						<content>
+							<p>Повереник је дужан да одмах, по пријему одлуке, предузме потребне радње за њено извршење и да по потреби успостави сарадњу са породицом осуђеног, полицијом, установама здравствене и социјалне заштите, послодавцем и другим установама, организацијама и удружењима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav2">
+						<content>
+							<p>Повереник је дужан да у року од 15 дана од дана пријема одлуке изради програм извршења заштитног надзора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav3">
+						<content>
+							<p>Повереник упознаје осуђеног са програмом и са последицама неизвршења обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav4">
+						<content>
+							<p>Програм из <ref wId="ref39" href="akn/rs/act/2018/87-77/srp@/!main~art_35__para_2" >става 2. овог</ref> члана Повереник доставља надлежном суду и одговарајућем органу, установи, организацији, односно послодавцу из <ref wId="ref40" href="akn/rs/act/2018/87-77/srp@/!main~art_35__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav5">
+						<content>
+							<p>На програм из <ref wId="ref41" href="akn/rs/act/2018/87-77/srp@/!main~art_35__para_2" >става 2. овог</ref> члана осуђено лице има право на приговор надлежном суду у року од три дана од дана упознавања са програмом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan36">
+					<num>36.</num>
+					<heading>Праћење извршења и обавештавање</heading>
+					<paragraph wId="gla4-clan36-stav1">
+						<content>
+							<p>Повереник ће одмах обавестити суд и Повереничку службу о почетку и завршетку заштитног надзора у вези са извршењем условне осуде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav2">
+						<content>
+							<p>У случају да извршење заштитног надзора не отпочне у року од 30 дана после пријема извршне одлуке или осуђени не прихвати извршење заштитног надзора, Повереник је дужан да одмах о томе обавести суд који је одредио заштитни надзор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav3">
+						<content>
+							<p>Ако осуђени током спровођења програма не испуњава обавезе које су му одређене, Повереник ће о томе обавестити суд и Повереничку службу, уз навођење разлога.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav4">
+						<content>
+							<p>Повереник ће доставити суду и Повереничкој служби извештај о околностима које битно утичу на спровођење програма.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan37">
+					<num>37.</num>
+					<heading>Предлог за измену обавеза или укидање заштитног надзора</heading>
+					<paragraph wId="gla4-clan37-stav1">
+						<content>
+							<p>На основу оствареног успеха у извршењу заштитног надзора Повереник ће у извештају предложити суду да замени или укине поједине обавезе осуђеног.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan37-stav2">
+						<content>
+							<p>Ако на основу остварених позитивних резултата сматра да је у потпуности испуњена сврха заштитног надзора, Повереник ће у извештају предложити суду да се осуђеном укине заштитни надзор пре истека рока проверавања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan38">
+					<num>38.</num>
+					<heading>Извршење казне рада у јавном интересу</heading>
+					<paragraph wId="gla4-clan38-stav1">
+						<content>
+							<p>Суд који је одлучивао у првом степену дужан је да извршну одлуку, с подацима о личности осуђеног лица прибављеним током кривичног поступка, достави Повереничкој канцеларији у року од три дана од дана када је одлука постала извршна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<heading>Закључење уговора о извршењу казне рада у јавном интересу</heading>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Рад у јавном интересу не сме угрожавати здравље и безбедност осуђеног и обавља се код правног лица које се бави пословима од јавног интереса, а нарочито хуманитарним, здравственим, еколошким или комуналним делатностима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav2">
+						<content>
+							<p>Управа закључује уговор о сарадњи са правним лицем из <ref wId="ref42" href="akn/rs/act/2018/87-77/srp@/!main~art_39__para_1" >става 1. овог</ref> члана о обављању рада у јавном интересу којим се одређују међусобни односи Управе, послодавца и осуђених у вези са обављањем рада у јавном интересу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav3">
+						<content>
+							<p>Повереничка служба води евиденцију о закљученим уговорима из <ref wId="ref43" href="akn/rs/act/2018/87-77/srp@/!main~art_39__para_2" >става 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav4">
+						<content>
+							<p>Руководилац Повереничке службе или лице које он овласти, доноси одлуку о упућивању осуђеног на рад у јавном интересу код одређеног послодавца, коју доставља осуђеном и послодавцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav5">
+						<content>
+							<p>Избор послодавца, врсту посла и програм рада одређује Повереник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav6">
+						<content>
+							<p>Управа осигурава осуђене за случај повреде на раду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan40">
+					<num>40.</num>
+					<heading>Праћење извршења и обавештавање</heading>
+					<paragraph wId="gla4-clan40-stav1">
+						<content>
+							<p>Повереник ће обавестити суд и Повереничку службу о почетку и завршетку извршења казне рада у јавном интересу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav2">
+						<content>
+							<p>Повереник ће суду и Повереничкој служби доставити извештај о околностима које битно утичу на реализацију програма.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan41">
+					<num>41.</num>
+					<heading>Обавезе и права осуђеног</heading>
+					<paragraph wId="gla4-clan41-stav1">
+						<content>
+							<p>Осуђени је дужан да обави рад у предвиђеном року и на начин одређен програмом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav2">
+						<content>
+							<p>Ако је осуђени оправдано спречен да испуни програмом предвиђене обавезе, дужан је да о томе обавести Повереника и послодавца најкасније у року од 24 часа од настанка разлога спречености.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav3">
+						<content>
+							<p>Осуђени има право да контактира Повереника на договорен начин.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan42">
+					<num>42.</num>
+					<heading>Предлог за умањење трајања казне рада у јавном интересу</heading>
+					<paragraph wId="gla4-clan42-stav1">
+						<content>
+							<p>Ако Повереник утврди да осуђени испуњава све своје обавезе везане за рад у јавном интересу, благовремено ће писмено предложити суду да трајање казне рада у јавном интересу умањи за једну четвртину, у складу са одредбама Кривичног законика.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan43">
+					<num>43.</num>
+					<heading>Поступање Повереника у случају занемаривања радне обавезе</heading>
+					<paragraph wId="gla4-clan43-stav1">
+						<content>
+							<p>Ако Повереник на основу обавештења представника послодавца установи да осуђени током спровођења програма грубо занемарује своје радне обавезе, обавиће разговор са осуђеним, дати му потребне савете и упозорити га на последице таквог његовог поступања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan43-stav2">
+						<content>
+							<p>Ако осуђени и после упозорења настави да грубо занемарује своје радне обавезе, Повереник ће о томе известити суд и Повереничку службу, уз навођење чињеница, околности и разлога.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>пета</num>
+				<heading>НАДЗОР НАД ИЗВРШЕЊЕМ МЕРА ОДРЕЂЕНИХ УЗ УСЛОВНИ ОТПУСТ</heading>
+				<article wId="gla5-clan44">
+					<num>44.</num>
+					<heading>Извршење условног отпуста</heading>
+					<paragraph wId="gla5-clan44-stav1">
+						<intro>
+							<p>Надзор над условно отпуштеним лицем обавља Повереничка служба ако је у одлуци о условном отпусту суд одредио да је осуђени дужан да испуни једну од следећих обавеза:</p>
+						</intro>
+						<point wId="gla5-clan44-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> јављање органу надлежном за извршење заштитног надзора;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan44-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> оспособљавање учиниоца за одређено занимање;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan44-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> прихватање запослења које одговара способностима учиниоца;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan44-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> уздржавање од посећивања одређених места, локала или приредби, ако то може бити прилика или подстицај за поновно вршење кривичних дела;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan44-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> благовремено обавештавање о промени места боравка, адресе или радног места;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan44-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> уздржавање од употребе дрога или алкохолних пића;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan44-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> посећивање одређених професионалних и других саветовалишта или установа, и поступање по њиховим упутствима;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan44-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> испуњење других обавеза које су предвиђене кривичноправним одредбама.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan44-stav2">
+						<content>
+							<p>Суд који је донео одлуку о условном отпусту којом одређује испуњење једне или више обавеза из <ref wId="ref44" href="akn/rs/act/2018/87-77/srp@/!main~art_44__para_1" >става 1. овог</ref> члана, дужан је да извршну одлуку без одлагања достави Повереничкој служби.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<heading>Надзор над спровођењем обавеза</heading>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Надзор над условно отпуштеним лицем спроводи Повереник, који утврђује и прати програм извршења условног отпуста.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<heading>Примена електронског надзора</heading>
+					<paragraph wId="gla5-clan46-stav1">
+						<content>
+							<p>У случају да је суд донео одлуку о условном отпусту којом је одредио да је осуђени дужан да испуни обавезе предвиђене кривичноправним одредбама уз примену електронског надзора, електронски надзор не може трајати дуже од једне године, нити дуже од трајања условног отпуста.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>На примену електронског надзора из <ref wId="ref45" href="akn/rs/act/2018/87-77/srp@/!main~art_46__para_1" >става 1. овог</ref> члана, сходно се примењују одредбе овог закона којима се уређује извршење казне затвора без напуштања просторија у којима осуђени станује са електронским надзором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan47">
+					<num>47.</num>
+					<heading>Дужности и права Повереника и осуђеног лица</heading>
+					<paragraph wId="gla5-clan47-stav1">
+						<content>
+							<p>Осуђени је дужан да се одмах по пуштању на условни отпуст јави надлежној Повереничкој канцеларији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav2">
+						<content>
+							<p>Повереник је дужан да одмах по пријему одлуке успостави контакт са службом третмана у заводу, предузме потребне радње за њено извршење и да по потреби успостави сарадњу са породицом осуђеног, полицијом, установама здравствене и социјалне заштите, послодавцем и другим установама, организацијама и удружењима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav3">
+						<content>
+							<p>Повереник је дужан да у року од осам дана од дана пријема одлуке донесе програм, узимајући у обзир утврђени програм припреме за отпуст завода у коме је осуђени издржавао казну затвора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav4">
+						<content>
+							<p>Повереник упознаје осуђеног са програмом из <ref wId="ref46" href="akn/rs/act/2018/87-77/srp@/!main~art_47__para_3" >става 3. овог</ref> члана, као и са последицама неизвршења обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav5">
+						<content>
+							<p>Програм из <ref wId="ref47" href="akn/rs/act/2018/87-77/srp@/!main~art_47__para_3" >става 3. овог</ref> члана Повереник доставља суду који је донео одлуку о условном отпусту и одговарајућем органу, установи, организацији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan48">
+					<num>48.</num>
+					<heading>Јављање надлежном органу</heading>
+					<paragraph wId="gla5-clan48-stav1">
+						<content>
+							<p>У циљу успешног спровођења програма извршења обавеза осуђени мора да се јавља Поверенику у време, на начин и на месту које Повереник одреди.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan49">
+					<num>49.</num>
+					<heading>Оспособљавање осуђеног за занимање</heading>
+					<paragraph wId="gla5-clan49-stav1">
+						<content>
+							<p>Осуђени је дужан да испуњава обавезе редовног или ванредног школовања или друге утврђене облике стручног оспособљавања или стицања вештина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan50">
+					<num>50.</num>
+					<heading>Прихватање одговарајућег запослења</heading>
+					<paragraph wId="gla5-clan50-stav1">
+						<content>
+							<p>Осуђени у сарадњи са Повереником и Националном службом за запошљавање активно учествује у проналажењу одговарајућег запослења према понуђеним пословима на тржишту рада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan51">
+					<num>51.</num>
+					<heading>Уздржавање од посећивања одређених места</heading>
+					<paragraph wId="gla5-clan51-stav1">
+						<content>
+							<p>Осуђени је дужан да се придржава забране посећивања одређених места која могу бити прилика или подстицај за поновно вршење кривичних дела.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan52">
+					<num>52.</num>
+					<heading>Обавештавање о промени места боравка и радног места</heading>
+					<paragraph wId="gla5-clan52-stav1">
+						<content>
+							<p>Осуђени је дужан да у року од три дана обавести Повереника о промени места боравка, адреси или промени радног места, ако то не учини сматраће се да није испунио обавезу из одлуке о условном отпусту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan53">
+					<num>53.</num>
+					<heading>Уздржавање од употребе дрога и алкохола</heading>
+					<paragraph wId="gla5-clan53-stav1">
+						<content>
+							<p>Осуђени је дужан да се уздржава од употребе дроге, алкохола и других психоактивних супстанци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav2">
+						<content>
+							<p>Ако Повереник основано сумња да се осуђени не придржава обавезе из <ref wId="ref48" href="akn/rs/act/2018/87-77/srp@/!main~art_53__para_1" >става 1. овог</ref> члана, а на основу непосредног увида или информација добијених од породице или других лица блиских осуђеном, овлашћен је да обави одговарајуће тестирање на присуство психоактивних супстанци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav3">
+						<content>
+							<p>Ако Повереник на основу резултата теста утврди да се осуђени не придржава обавезе из <ref wId="ref49" href="akn/rs/act/2018/87-77/srp@/!main~art_53__para_1" >става 1. овог</ref> члана, или ако осуђени одбије тестирање сматраће се да није испунио обавезу из одлуке о условном отпусту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan54">
+					<num>54.</num>
+					<heading>Посећивање саветовалишта</heading>
+					<paragraph wId="gla5-clan54-stav1">
+						<content>
+							<p>Осуђени је дужан да се укључи у третман у одговарајућем саветовалишту или установи, у складу са програмом извршења обавеза.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan55">
+					<num>55.</num>
+					<heading>Дужност обавештавања суда</heading>
+					<paragraph wId="gla5-clan55-stav1">
+						<content>
+							<p>Повереник је дужан да након истека условног отпуста обавести надлежни суд о испуњености обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan55-stav2">
+						<content>
+							<p>Ако кривицом осуђеног извршење обавеза не отпочне у року од 15 дана од дана израде програма или осуђени не испуњава обавезе које су му одређене, односно испуњава их делимично, Повереник је дужан да одмах о томе обавести надлежни суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan55-stav3">
+						<content>
+							<p>У случају из <ref wId="ref50" href="akn/rs/act/2018/87-77/srp@/!main~art_55__para_2" >става 2. овог</ref> члана надлежни суд ће у року од осам дана донети одлуку о опозиву условног отпуста или обавестити Повереника и осуђеног о наставку извршења условног отпуста.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>шеста</num>
+				<heading>ПРУЖАЊЕ ПОМОЋИ ЛИЦУ ПОСЛЕ ИЗВРШЕНЕ КАЗНЕ ЗАТВОРА</heading>
+				<article wId="gla6-clan56">
+					<num>56.</num>
+					<heading>Услови за израду програма помоћи</heading>
+					<paragraph wId="gla6-clan56-stav1">
+						<content>
+							<p>Ако служба за третман процени да постоји потреба за пружањем помоћи осуђеном након извршене казне затвора, или осуђени сам затражи помоћ, Повереник ће најкасније у року од месец дана пре отпуста започети израду програма помоћи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav2">
+						<content>
+							<p>Приликом израде програма помоћи Повереник сарађује са службом за третман и осуђеним.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan57">
+					<num>57.</num>
+					<heading>Програм помоћи</heading>
+					<paragraph wId="gla6-clan57-stav1">
+						<intro>
+							<p>Програм помоћи је скуп мера и поступака које лице после извршене казне затвора добровољно прихвата, а који се примењује у циљу укључивања у живот на слободи. Програм помоћи се састоји од:</p>
+						</intro>
+						<point wId="gla6-clan57-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> пружања помоћи приликом проналажења смештаја и исхране;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan57-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> пружање помоћи у остваривању права на здравствену и социјалну заштиту;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan57-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> давања савета у циљу усклађивања породичних односа;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan57-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> пружања подршке и помоћи приликом проналажења запослења, односно довршавања школовања или стручног оспособљавања;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan57-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> успостављања сарадње са надлежним центром за социјални рад у циљу давања новчане подршке за подмиривање најнужнијих потреба;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan57-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> пружање подршке и помоћи у уздржавању од употребе опојних дрога и алкохола;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan57-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> пружање других облика помоћи и подршке.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan57-stav2">
+						<content>
+							<p>На израду програма помоћи сходно се примењују одредбе <ref wId="ref51" href="akn/rs/act/2018/87-77/srp@/!main~art_10" >члана 10. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan57-stav3">
+						<content>
+							<p>Програм се обуставља, ако лице према којем се програм помоћи спроводи не сарађује.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>седма</num>
+				<heading>ПРИМЕНА ПОСЕБНИХ МЕРА ЗА СПРЕЧАВАЊЕ ВРШЕЊА КРИВИЧНИХ ДЕЛА ПРОТИВ ПОЛНЕ СЛОБОДЕ ПРЕМА МАЛОЛЕТНИМ ЛИЦИМА</heading>
+				<article wId="gla7-clan58">
+					<num>58.</num>
+					<heading>Обавезно јављање повереничкој канцеларији</heading>
+					<paragraph wId="gla7-clan58-stav1">
+						<content>
+							<p>Учинилац кривичног дела из <ref wId="ref52" href="akn/rs/act/2018/87-77/srp@/!main~art_3" >члана 3. </ref>Закона о посебним мерама за спречавање вршења кривичних дела против полне слободе према малолетним лицима („Службени гласник РС”, број <ref wId="ref53" href="akn/rs/act/13/32/srp@">32/13</ref>, (у даљем тексту: учинилац)) дужан је да се лично јави надлежном Поверенику у року од три дана од дана извршења кривичне санкције која му је изречена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan59">
+					<num>59.</num>
+					<heading>Поступање Повереника</heading>
+					<paragraph wId="gla7-clan59-stav1">
+						<content>
+							<p>Повереник је дужан да у року од три дана од дана јављања учиниоца отпочне припреме за извршење мера из <ref wId="ref54" href="akn/rs/act/2018/87-77/srp@/!main~art_7" >члана 7. </ref>Закона о посебним мерама за спречавање вршења кривичних дела против полне слободе према малолетним лицима и да успостави сарадњу са полицијом, професионалним саветовалиштима и установама, битним за спровођење програма извршења посебних мера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan59-stav2">
+						<content>
+							<p>Повереник је дужан да у року од осам дана од дана јављања учиниоца изради програм извршења посебних мера и да упозна учиниоца са програмом и са последицама неизвршења обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan59-stav3">
+						<content>
+							<p>Програм из <ref wId="ref55" href="akn/rs/act/2018/87-77/srp@/!main~art_59__para_2" >става 2. овог</ref> члана Повереник доставља суду који је донео одлуку, као и полицији, саветовалишту и установи из <ref wId="ref56" href="akn/rs/act/2018/87-77/srp@/!main~art_59__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan60">
+					<num>60.</num>
+					<heading>Обавештавање суда</heading>
+					<paragraph wId="gla7-clan60-stav1">
+						<content>
+							<p>На захтев надлежног суда, Повереник у року од три дана доставља извештај о спровођењу програма извршења посебних мера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan60-stav2">
+						<content>
+							<p>У случају неизвршења посебних мера од стране учиниоца, Повереник је дужан да о томе обавести суд.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan61">
+					<num>61.</num>
+					<heading>Пропис о извршењу ванзаводских санкција и мера</heading>
+					<paragraph wId="gla7-clan61-stav1">
+						<content>
+							<p>Организацију и рад Повереника, извршење ванзаводских санкција и мера изречених у кривичном, прекршајном поступку или другом судском поступку које се извршавају у заједници уређује министар надлежан за послове правосуђа.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>осма</num>
+				<heading>НАДЗОР НАД ИЗВРШЕЊЕМ ВАНЗАВОДСКИХ САНКЦИЈА И МЕРА</heading>
+				<article wId="gla8-clan62">
+					<num>62.</num>
+					<heading>Стручни надзор</heading>
+					<paragraph wId="gla8-clan62-stav1">
+						<content>
+							<p>Стручни надзор над извршењем ванзаводских санкција и мера обављају овлашћена лица у саставу  Управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan62-stav2">
+						<content>
+							<p>Овлашћено лице из <ref wId="ref57" href="akn/rs/act/2018/87-77/srp@/!main~art_62__para_1" >става 1. овог</ref> члана може наложити мере и одредити рокове за отклањање уочених недостатака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan62-stav3">
+						<content>
+							<p>О обављеном надзору саставља се записник који може садржати и предлог мера за побољшање рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan62-stav4">
+						<content>
+							<p>Записник о извршеном надзору доставља се руководиоцу Повереничке службе и директору Управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan62-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref58" href="akn/rs/act/2018/87/srp@">87/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan63">
+					<num>63.</num>
+					<heading>Пропис о вршењу надзора</heading>
+					<paragraph wId="gla8-clan63-stav1">
+						<content>
+							<p>Пропис о начину вршења надзорa над извршењем ванзаводских санкција и мера доноси министар надлежан за правосуђе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>девета</num>
+				<heading>ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla9-clan64">
+					<num>64.</num>
+					<heading>Рок за доношење прописа за спровођење закона</heading>
+					<paragraph wId="gla9-clan64-stav1">
+						<content>
+							<p>Прописи из чл. <ref wId="ref59" href="akn/rs/act/2018/87-77/srp@/!main~art_61" >61</ref>. и <ref wId="ref60" href="akn/rs/act/2018/87-77/srp@/!main~art_63" >63</ref>. овог закона, донеће се у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan64-stav2">
+						<content>
+							<p>До доношења прописа из <ref wId="ref64" href="akn/rs/act/2018/87-77/srp@/!main~art_64__para_1" >става 1. овог</ref> закона примењују се прописи донети према одредбама Закона о извршењу кривичних санкција („Службени гласник РС”, бр. <ref wId="ref61" href="akn/rs/act/05/85/srp@">85/05</ref>, <ref wId="ref62" href="akn/rs/act/09/72/srp@">72/09</ref> и <ref wId="ref63" href="akn/rs/act/11/31/srp@">31/11</ref>), ако нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan65">
+					<num>65.</num>
+					<heading>Ступање закона на снагу</heading>
+					<paragraph wId="gla9-clan65-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а примењује се по истеку три месеца од дана ступања на снагу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

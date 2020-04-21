@@ -1,0 +1,1866 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о иновационој делатности">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2005/110-3/main"/>
+					<FRBRuri value="akn/rs/act/2005/110-3"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2013/55-41/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2013/55-41/srp@"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2013/55-41/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2013/55-41/srp@.akn"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-12-12" name="службени гласник рс“" number="110" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="7. Индустријска својина и техничка унапређења" value="7. индустријска својина и техничка унапређења" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2005-01-01" refersTo="110/2005-3" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="18/2010-88" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2013-01-01" refersTo="55/2013-41" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2005-12-08" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2005-12-20" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2005-12-20" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="побољшаних"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="циљеви"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="технолошку"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="инвентивности"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="сазнања"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="постојећу"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="начела"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="основна"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="техничко"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="односу"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="проналазаштва"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="функцији"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="покретача"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="техничких"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="процеса"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="научних"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="технолошких"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="изнад"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="наслов"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="основу"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="стварања"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="нових"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="развоја"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="примене"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="знања"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="производа"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="услуга"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="88"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="види"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="брисан"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="члан"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="реализације"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="члана"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Fonda"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Fonda Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Fondu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registar"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registru"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Fond"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Fond za inovacionu delatnost"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Fonda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Fondu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisiju za praćenje razvoja i komercijalne eksploatacije inovacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za inovacionu delatnost"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za naučnoistraživačku delatnost i tehnološki razvoj"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo u Registru"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo vodi Registar inovacione delatnosti"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo vrši"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registru"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada za period"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zakonodavni odbor Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="de minimis"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Fond"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Fonda"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Pronalazač"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. decembra 2005"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. i 20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. juna 2013."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. marta 2010"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. marta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="32. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="32. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="38. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="49."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="Registru"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 20. децембра 2005. године (види члан 56. Закона).Закон о изменама и допунама Закона о иновационој делатности („Службени гласник РС“, број 18/2010) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 3. априла 2010. године (види члан 43. Закона – 18/2010-88).Закон о изменама и допунама Закона о иновационој делатности („Службени гласник РС“, број 55/2013) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 3. јула 2013. године (види члан 14. Закона – 55/2013-41).Усклађивање подзаконских аката за спровођење Закона о изменама и допунама Закона о иновационој делатности („Службени гласник РС“, број 55/2013) и статута Фонда, извршиће се у року од три месеца од дана ступања на снагу овог закона (види члан 12. Закона – 55/2013-41).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О иновационој делатности „Службени гласник РС“, бр. <ref wId="ref106" href="akn/rs/act/2005/110/srp@">110 од 12. децембра 2005</ref>, <ref wId="ref107" href="akn/rs/act/2010/18/srp@">18 од 26. марта 2010</ref>, <ref wId="ref108" href="akn/rs/act/2013/55/srp@">55 од 25. јуна 2013</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се основна начела, циљеви и организација примене научних сазнања, техничких и технолошких знања, инвентивности и проналазаштва, у функцији стварања и реализације, у односу на постојећу техничко-технолошку основу, нових и побољшаних производа, процеса и услуга, као покретача развоја Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Брисан је наслов изнад <ref wId="ref2" href="akn/rs/act/2013/55-41/srp@/!main~art_2" >члана 2. </ref>(види <ref wId="ref3" href="akn/rs/act/2010/18/srp@/!main~/art_1">члан 1. Закона – 18/2010-88</ref>)</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:*</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> национални иновациони систем јесте скуп организација, институција и њихових веза у функцији генерисања, дифузије и примене научних и технолошких знања у Републици Србији;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> иновациона делатност јесу активности које се предузимају ради стварања нових производа, технологија, процеса и услуга или значајне измене постојећих, а у складу са потребама тржишта;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> инвенција јесте концепт, идеја и метод за добијање новог производа или процеса, укључујући откриће нове технологије (производа или процеса) за искоришћавање природних ресурса;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<intro>
+								<p> иновација јесте успешна тржишна примена инвенције, односно примена новог или значајно побољшаног производа, процеса или услуге (укључује значајна побољшања техничких карактеристика, компоненти и материјала, уграђеног софтвера, корисничке орјентисаности или других функционалних карактеристика) или маркетиншке методе или нове организационе методе у пословању, организацији рада или односима правног лица са окружењем, па може бити:*</p>
+							</intro>
+							<alinea wId="gla1-clan2-stav1-tac4-ali1">
+								<content>
+									<p>новација производа, као примена новог или значајно побољшаног производа, које је ново за односно правно лице (не мора бити нова за тржиште), а није промена естетске природе или искључиво продаја иновираних производа које је произвело и развило друго правно лице;*</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-clan2-stav1-tac4-ali2">
+								<content>
+									<p>новација процеса, као примена новог или значајно побољшаног начина производње или испоруке (укључујући значајне промене у техници, опреми или софтверу, али не искључиво организационе и менаџерске промене) која је нова или унапређена за посматрано правно лице, без обзира ко је развио;*</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-clan2-stav1-tac4-ali3">
+								<content>
+									<p>новација организације, као примена нових или знатних промена у структури или методама менаџмента, с намером да се у односном правном лицу побољша коришћење знања, квалитета производа или услуга, или повећа ефикасност пословних токова;*</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-clan2-stav1-tac4-ali4">
+								<content>
+									<p>аркетиншка иновација, као примена нове маркетиншке методе, укључујући значајне промене у дизајну производа, паковању, пласману и промоцији производа и наплаћивању производа;*</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> субјекат иновационе делатности јесте правно или физичко лице које обавља иновациону делатност, укључујући и правна лица основана ради пружања услуга у области иновационе делатности;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> регистровани субјекат иновационе делатности јесте субјекат иновационе делатности уписан у регистар иновационе делатности, у складу са овим законом;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> носилац реализације иновационе активности јесте правно или физичко лице које обједињује и координира иновационе активности суфинансиране средствима буџета Републике Србије;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> иновациони пројекат  јесте*  скуп  активности којима се реализују програми** иновационе делатности, а који за резултат има стварање нових производа, технологија, процеса и услуга или значајну измену постојећих у складу са потребама тржишта;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> развојни пројекат јесте*   скуп активности којима се реализују програми** иновационе делатности, а који обједињује примењена и развојна истраживања у одређеној научној и технолошкој области;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> иновациона инфраструктура јесте окружење створено у области информационих и комуникационих технологија, техничко-технолошког опремања, физичке инфраструктуре (просторне, транспортне, интернет и интранет), као и инфраструктуре знања (ресурси научноистраживачких организација и други образовни и консалтинг ресурси), које је у функцији покретача реструктурирања пословног сектора и умрежавања субјеката иновационе делатности из академског сектора и сектора привреде;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> технопредузетништво јесте делатност која обухвата знања, вештине и способности усмерене на покретање, организовање, развој и иновирање технолошких процеса, са основним циљем стварања новог тржишта и остваривања добити;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> новоосновано привредно друштво јесте привредно друштво од чијег оснивања, до момента подношења захтева за финансирање средствима буџета Републике Србије, у складу са законом, није прошло више од две године.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>**Службени гласник РС, број  <ref wId="ref1" href="akn/rs/act/2013/55/srp@">55/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>Иновациона политика*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Иновациона политика је постављање циљева и обезбеђење системских услова за стварање, развој и примену иновација.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Иновациону политику, као стратешки документ, утврђује Влада за период од пет година, на предлог министарства надлежног за иновациону делатност, а у складу са ресурсима, ограничењима и тежњама у технолошком развоју државе.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Брисан је наслов изнад <ref wId="ref7" href="akn/rs/act/2013/55-41/srp@/!main~art_4" >члана 4. </ref>(види <ref wId="ref8" href="akn/rs/act/2010/18/srp@/!main~/art_3">члан 3. Закона – 18/2010-88</ref>)</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Иновациона политика реализује се путем програма иновационе делатности, у складу са овим законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>У складу са приоритетима дефинисаним у иновационој политици, министарство надлежно за иновациону делатност обезбеђује услове и прати реализацију програма иновационе делатности и по потреби предлаже Влади мере за отклањање уочених проблема.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Брисан је наслов изнад <ref wId="ref10" href="akn/rs/act/2013/55-41/srp@/!main~art_5" >члана 5. </ref>(види <ref wId="ref11" href="akn/rs/act/2010/18/srp@/!main~/art_4">члан 4. Закона – 18/2010-88</ref>)</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>У обављању иновационе делатности, као и коришћењу подстицајних мера, приватни и јавни сектор су равноправни.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref9" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav3">
+						<content>
+							<p>Министарство надлежно за иновациону делатност*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Министарство надлежно за научноистраживачку делатност и технолошки развој (у даљем тексту: Министарство) одговорно је за утврђивање и реализацију иновационе политике, подстицање технопредузетништва, трансфера знања и технологија у привреду, развој и унапређење иновационог система у Републици Србији и прописе у области заштите и промета права интелектуалне својине.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Брисан је наслов изнад <ref wId="ref14" href="akn/rs/act/2013/55-41/srp@/!main~art_7" >члана 7. </ref>(види <ref wId="ref15" href="akn/rs/act/2010/18/srp@/!main~/art_6">члан 6. Закона – 18/2010-88</ref>)</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<intro>
+							<p>Министарство:*</p>
+						</intro>
+						<point wId="gla1-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> сарађује са другим министарствима с циљем подстицања развоја укупних иновационих капацитета у Републици Србији;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> предлаже Влади политику у области иновационе делатности и програме иновационе делатности;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> прати реализацију постојећих активности у иновационој делатности, и предлаже програме у складу са развојним потенцијалом Републике Србије; доноси акт о начину реализације и финансирања програма иновационе делатности у складу са развојним потенцијалом Републике Србије, акт о условима конкурисања, критеријумима за избор реализатора и условима под којима се програми иновационе делатности реализују и финансирају, врши расподелу средства буџета Републике Србије за њихово финансирање и контролише њихово наменско коришћење, у складу са овим законом;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> реализује јавне позиве за финансирање иновационе делатности, у складу са законом;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> остварује међународну сарадњу и стара се о укључивању носилаца иновационе делатности у европски и међународни иновациони простор, у складу са законом;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> подноси Влади најмање једном годишње извештај о стању и резултатима иновационе делатности у Републици Србији.*</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref17" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Министар надлежан за иновациону делатност (у даљем тексту: министар) образује Комисију за праћење развоја и комерцијалне експлоатације иновација (у даљем тексту: Комисија).*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<intro>
+							<p>Комисија:*</p>
+						</intro>
+						<point wId="gla1-clan8-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> припрема експертске анализе у области иновационе делатности;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> анализира инострану праксу у овој области;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> иницира измене важећих закона и осталих прописа у овој области, с циљем подстицања иновационе делатности.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav3">
+						<content>
+							<p>Комисија доноси пословник о свом раду.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref16" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Брисан је наслов изнад <ref wId="ref18" href="akn/rs/act/2013/55-41/srp@/!main~art_9" >члана 9. </ref>(види <ref wId="ref19" href="akn/rs/act/2010/18/srp@/!main~/art_8">члан 8. Закона – 18/2010-88</ref>)</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Министар може образовати посебна тела за праћење и подстицање иновационе делатности у посебним областима и привредним гранама, ради координирања рада, остваривања заједничких интереса, набавке и коришћења неопходне опреме, простора и стручних публикација, а посебно неговања стручне критике и вредновања сопственог иновационог стваралаштва.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref21" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Министарство води електронску и јавно доступну базу података и евиденција о регистрованим субјектима иновационе делатности и иновационим и развојним пројектима и иновационим активностима којима се реализују програми иновационе делатности, у складу са овим законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref20" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>РЕГИСТАР ИНОВАЦИОНЕ ДЕЛАТНОСТИ</heading>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Министарство води Регистар иновационе делатности (у даљем тексту: Регистар).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Министар прописује облик, садржај и начин вођења Регистра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Регистар је део електронске и јавно доступне базе података коју води Министарство, у складу са овим законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Корисници државних подстицајних мера и буџетских средстава за развој иновационе делатности могу бити само субјекти који су уписани у Регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>Министар утврђује услове у погледу потребне организационе и стручне структуре правног лица, као и у погледу стручности и резултата рада физичког лица, под којима правно, односно физичко лице може бити уписано у Регистар, као и у погледу услова под којима се брише из Регистра.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref24" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Сви субјекти који се баве иновационом делатношћу, а воде се у Регистру, дужни су да о свом раду, стању опреме и ресурса, као и плановима њиховог коришћења, подносе годишњи извештај Министарству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Садржај, рок за достављање и поступање у случају  недостављања годишњег извештаја из <ref wId="ref22" href="akn/rs/act/2013/55-41/srp@/!main~art_12__para_1" >става 1. овог</ref> члана прописује министар.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav3">
+						<content>
+							<p>*Службени гласник РС, број  <ref wId="ref23" href="akn/rs/act/2013/55/srp@">55/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav4">
+						<content>
+							<p>Технолошка привредна друштва*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref30" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>У Регистру се посебно воде подаци о технолошким* привредним друштвима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Као технолошка привредна друштва у Регистру се евидентирају она привредна друштва која примењују или развијају технологију као важну компоненту својих пословних активности, а баве се истраживањем и развојем, сопственим или нарученим код других привредних друштава, организација, установа или појединаца.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav3">
+						<content>
+							<p>Министар прописује услове под којима привредно друштво из <ref wId="ref25" href="akn/rs/act/2013/55-41/srp@/!main~art_13__para_1" >става 1. овог</ref> члана може бити евидентирано у Регистар, као и услове под којима се верификују улагања у истраживања и развој.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav4">
+						<content>
+							<p>Субјекти из <ref wId="ref26" href="akn/rs/act/2013/55-41/srp@/!main~art_13__para_1" >става 1. овог</ref> члана финансирају се средствима буџета Републике Србије, по посебном програму, у складу са овим законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav5">
+						<content>
+							<p>Евиденција из <ref wId="ref27" href="akn/rs/act/2013/55-41/srp@/!main~art_13__para_1" >става 1. овог</ref> члана је део електронске и јавно доступне базе података коју води Министарство, у складу са овим законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav6">
+						<content>
+							<p>На финансирање технолошких  привредних друштава средствима буџета Републике Србије по посебном програму  примењује се закон којим се уређује државна помоћ мале вредности (de  minimis), као и подзаконски прописи и други општи акти донети ради  његовог извршавања.**</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref28" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav8">
+						<content>
+							<p>**Службени гласник РС, број  <ref wId="ref29" href="akn/rs/act/2013/55/srp@">55/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ОРГАНИЗАЦИЈЕ ЗА ОБАВЉАЊЕ ИНОВАЦИОНЕ ДЕЛАТНОСТИ</heading>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Правно лице може бити уписано у Регистар као организација за обављање иновационе делатности, ако је регистровано у складу са законом који уређује оснивање и пословање привредних друштава и законом који регулише поступак за упис у регистар привредних субјеката и то у основи за обављање делатности у области истраживања и експерименталног рада у природним наукама и технолошком развоју, у складу са законом којим се уређује класификација делатности и регистар јединица разврставања, уз могућност обављања и других делатности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<paragraph wId="gla3-clan15-stav1">
+						<intro>
+							<p>Ради обављања делатности истраживања, стварања, развоја, примене и пласмана иновација, као и добијања статуса организације за обављање иновационе делатности (у даљем тексту: иновациона организација), у Министарству се може регистровати:</p>
+						</intro>
+						<point wId="gla3-clan15-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> развојно-производни центар;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan15-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> истраживачко-развојни центар;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan15-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> иновациони центар.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Министарство издаје решење о регистрацији иновационе организације, у року од 45 дана од дана пријема захтева од стране правног лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Развојно-производни центар</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>Развојно-производни центар је иновациона организација која ствара иновације, примењује нове технологије, врши пласман производа, услуга и технологија, заснованих на сопственом иноваторском раду и развоју.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>Министар прописује услове у погледу потребних програмских, просторних и стручних капацитета под којима правно лице може бити уписано у Регистар у својству развојно-производног центра, као и у погледу услова под којима се брише из Регистра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref31" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<heading>Истраживачко-развојни центар</heading>
+					<paragraph wId="gla3-clan17-stav1">
+						<content>
+							<p>Истраживачко-развојни центар је иновациона организација у којој се обављају примењена и развојна истраживања, стварају иновације и врши пласирање нових знања и технологија, у сопствену производњу и услуге или у производњу и услуге других привредних субјеката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan18">
+					<num>18.</num>
+					<paragraph wId="gla3-clan18-stav1">
+						<content>
+							<p>Министар прописује услове у погледу потребних програмских, просторних и стручних капацитета под којима правно лице може бити уписано у Регистар у својству иновационог центра, као и у погледу услова под којима се брише из Регистра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref32" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan19">
+					<num>19.</num>
+					<heading>Иновациони центар</heading>
+					<paragraph wId="gla3-clan19-stav1">
+						<content>
+							<p>Иновациони центар је иновациона организација у којој се на оригинални и систематски начин примењују сопствени и туђи научни резултати и савремени технолошки процеси ради стварања иновација, развоја прототипа, нових производа, процеса и услуга или побољшања постојећих у одређеној области и истовремено врши трансфер знања и технологија у производњу и услуге других привредних субјеката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav2">
+						<content>
+							<p>Министар прописује услове у погледу потребних програмских, просторних и стручних капацитета под којима правно лице може бити уписано у Регистар у својству иновационог центра, као и у погледу услова под којима се брише из Регистра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref33" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОРГАНИЗАЦИЈЕ ЗА ПРУЖАЊЕ ИНФРАСТРУКТУРНЕ ПОДРШКЕ ИНОВАЦИОНОЈ ДЕЛАТНОСТИ</heading>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<paragraph wId="gla4-clan20-stav1">
+						<intro>
+							<p>Привредно друштво основано ради пружања инфраструктурне подршке и повезивања научноистраживачких, односно иновационих организација и привредних субјеката - у Министарству се може регистровати као:</p>
+						</intro>
+						<point wId="gla4-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> пословно-технолошки инкубатор;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> научно-технолошки парк.</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> организација за подстицај иновационих активности у приоритетној области науке и технологије;*</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> центар за трансфер технологија.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav2">
+						<content>
+							<p>Министарство издаје решење о регистровању у року од 45 дана од дана пријема захтева од стране правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref34" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<heading>Пословно-технолошки инкубатор</heading>
+					<paragraph wId="gla4-clan21-stav1">
+						<content>
+							<p>Пословно-технолошки инкубатор је привредно друштво чија је основна делатност стављање на располагање, уз накнаду, пословног простора, административних, техничких и других услуга новооснованим привредним друштвима *, најдуже пет година од њиховог оснивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav2">
+						<content>
+							<p>Права и обавезе корисника услуга и пословно-технолошког инкубатора уређују се међусобним уговором.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav3">
+						<content>
+							<p>Сви субјекти који користе услуге пословно-технолошког инкубатора стичу статус станара пословно-технолошког инкубатора.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref36" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla4-clan22-stav1">
+						<content>
+							<p>Министар прописује услове у погледу потребних програмских, просторних и стручних капацитета под којима правно лице може бити уписано у Регистар у својству пословно-технолошког инкубатора, као и у погледу услова под којима се брише из Регистра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref35" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Научно-технолошки парк</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>Научно-технолошки парк је привредно друштво које у оквиру дефинисаног простора пружа инфраструктурне и стручне услуге високошколским установама, научноистраживачким и иновационим организацијама, као и високотехнолошким и средњетехнолошким привредним друштвима у одређеној научној, истраживачко-развојној или производној групацији с циљем њиховог повезивања и што брже примене нових технологија, стварања и пласмана нових производа и услуга на тржишту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav2">
+						<content>
+							<p>Сви субјекти који користе услуге научно-технолошког парка,* стичу статус члана научно-технолошког парка, којем научно-технолошки парк на једној или више локација омогућава просторне и инфраструктурне услове за рад и истовремено пружа остале услуге ради подизања нивоа високошколског, научноистраживачког, развојног, иновационог или производног рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav3">
+						<content>
+							<p>Међусобна права и обавезе члана и научно-технолошког парка уређују се уговором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref37" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla4-clan24-stav1">
+						<content>
+							<p>Министар прописује услове у погледу потребних програмских, просторних и стручних капацитета под којима правно лице може бити уписано у Регистар у својству научно-технолошког парка, као и у погледу услова под којима се брише из Регистра.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref46" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla4-clan25-stav1">
+						<intro>
+							<p>Пословно-технолошки инкубатор и научно-технолошки парк * могу пружати следеће услуге:</p>
+						</intro>
+						<point wId="gla4-clan25-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> коришћење пословног простора за рад, који може бити опремљен намештајем, опремом и инсталацијама;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> коришћење заједничких пословних просторија, које служе за пословне састанке, пријеме и друге сврхе;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> секретарске услуге;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> административне услуге;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> књиговодствене и рачуноводствене услуге;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> услуге рекламе и продаје;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> услуге пословног саветовања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> телекомуникационе и информационе услуге, које између осталог обухватају приступ телефону, телефаксу, електронској пошти и интернету;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> услуге пословног планирања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> услуге финансијског саветовања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> услуге обуке и тренинга;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> финансијске услуге;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> техничке и друге услуге, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Научно-технолошки парк свом члану може омогућити коришћење дела земљишта, у оквиру научно-технолошког парка, за изградњу развојних и производних капацитета, а у складу са основном делатношћу парка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref38" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav4">
+						<content>
+							<p>Организација за подстицај иновационих активности у приоритетној области науке и технологије*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref39" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav6">
+						<content>
+							<p>Члан 25а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav7">
+						<content>
+							<p>Организација за подстицај иновационих активности у приоритетној области науке и технологије је привредно друштво основано искључиво ради обављања делатности подстицаја иновационих активности у приоритетним областима науке и технологије утврђеним стратешким документом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav8">
+						<content>
+							<p>Организација из <ref wId="ref40" href="akn/rs/act/2013/55-41/srp@/!main~art_25__para_1" >става 1. овог</ref> члана подстиче иновационе активности првенствено кроз улагања у новооснована привредна друштва из приоритетних области из <ref wId="ref41" href="akn/rs/act/2013/55-41/srp@/!main~art_25__para_1" >става 1. овог</ref> члана, која имају пословну идеју са потенцијалом да добит и раст обезбеде на основу комерцијалног успеха иновације и која развијају, производе или продају иновативне производе, процесе и услуге са високим учешћем научних знања и нових технологија.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav10">
+						<content>
+							<p>Члан 25б*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav11">
+						<content>
+							<p>Делатност подстицаја иновационих активности организација из <ref wId="ref43" href="akn/rs/act/2013/55-41/srp@/!main~art_25а" >члана 25а овог</ref> закона може обављати само у правној форми друштва с ограниченом одговорношћу и на основу сагласности Министарства, у складу са законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav12">
+						<content>
+							<p>Министар прописује услове у погледу потребних програмских, просторних и стручних капацитета под којим правно лице може бити уписано у Регистар у својству организације за подстицај иновационих активности у приоритетној области науке и технологије, као и у погледу услова под којима се брише из Регистра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav13">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref44" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav14">
+						<content>
+							<p>Центар за трансфер технологија*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav15">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref45" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav16">
+						<content>
+							<p>Члан 25в*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav17">
+						<content>
+							<p>Центар за трансфер технологија је привредно друштво основано искључиво ради обављања делатности трансфера технологија ради примене технолошких иновација, што обухвата нарочито трагање за идејама и партнерима за трансфер технологија, процену комерцијалног потенцијала трансфера, подстицаје за реализацију и комерцијализацију трансфера технологија и помоћ у заштити интелектуалне својине технолошким привредним друштвима која развијају, производе и продају иновативне производе, процесе и услуге са високим нивоом  knоw-hоw и нових технологија.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav18">
+						<content>
+							<p>Министар прописује услове у погледу потребних програмских, просторних и стручних капацитета под којим правно лице може бити уписано у Регистар у својству центра за трансфер технологија, као и у погледу услова под којима се брише из Регистра.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref49" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<content>
+							<p>Република Србија*, аутономна покрајина, јединице локалне самоуправе, привредна друштва, научноистраживачке и образовне организације, друга правна и физичка лица, у складу са законом, могу бити оснивачи или суоснивачи иновационих организација или привредних друштава за инфраструктурну подршку иновационој делатности, из чл.*  15. и 20.** овог закона*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref47" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav3">
+						<content>
+							<p>**Службени гласник РС, број  <ref wId="ref48" href="akn/rs/act/2013/55/srp@">55/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРОГРАМИ ИНОВАЦИОНЕ ДЕЛАТНОСТИ</heading>
+				<article wId="gla5-clan27">
+					<num>27.</num>
+					<paragraph wId="gla5-clan27-stav1">
+						<content>
+							<p>Ради подршке развоју иновативних производа и услуга, подстицаја примене и комерцијализације научноистраживачких резултата, подршке коришћењу савремених технологија и изградњи инфраструктуре иновационих организација, Влада, на предлог министра, усваја програме иновационе делатности за наредну* буџетску годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan27-stav2">
+						<content>
+							<p>Начин реализације појединог програма иновационе делатности прописује министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan27-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref50" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan27-stav4">
+						<content>
+							<p>Иновациони и развојни пројекти*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan28">
+					<num>28.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref54" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla5-clan28-stav1">
+						<content>
+							<p>Реализација програма из <ref wId="ref51" href="akn/rs/act/2013/55-41/srp@/!main~art_27" >члана 27. овог</ref> закона врши се путем иновационих и развојних пројеката.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan28-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref53" href="akn/rs/act/2013/55-41/srp@/!main~art_28__para_2" >став 2. </ref>(види <ref wId="ref52" href="akn/rs/act/2013/55/srp@/!main~/art_5">члан 5. Закона - 55/2013-41</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan28-stav3">
+						<content>
+							<p>По правилу, иновациони пројекти трају до једне, а развојни до две* године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan28-stav4">
+						<content>
+							<p>У случају када један пројекат реализује више организација, међусобним уговором одређују носиоца реализације пројекта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan29">
+					<num>29.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref55" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla5-clan29-stav1">
+						<intro>
+							<p>Министар прописује:</p>
+						</intro>
+						<point wId="gla5-clan29-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> услове конкурисања на иновационим и развојним* пројектима и критеријуме за избор реализатора пројеката који се финансирају из буџетских средстава и фондова са већинским државним власништвом;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan29-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> услове финансирања пројеката или изградње инфраструктуре намењене реализацији иновационих и развојних* пројеката;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan29-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> поступак евиденције, презентацију садржаја и постигнутих резултата на иновационим и развојним* пројектима.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan30">
+					<num>30.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref56" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla5-clan30-stav1">
+						<content>
+							<p>Министарство у Регистру води евиденцију иновационих и развојних пројеката, која је део електронске и јавно доступне базе података коју води Министарство, у складу са овим законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav2">
+						<content>
+							<p>По завршетку периода предвиђеног за реализацију пројекта, у року од 30 дана, учесници на пројекту достављају Министарству извештај о постигнутим резултатима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan31">
+					<num>31.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref58" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla5-clan31-stav1">
+						<content>
+							<p>Контролу наменског трошења  средстава буџета Републике Србије и реализације иновационих и развојних  пројеката Министарство врши у складу са уговором којим се одобрава суфинансирање  иновационе делатности буџетским средствима, у складу са овим законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav2">
+						<content>
+							<p>*Службени гласник РС, број  <ref wId="ref57" href="akn/rs/act/2013/55/srp@">55/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav3">
+						<content>
+							<p>Vа ПРАВА ИНТЕЛЕКТУАЛНЕ СВОЈИНЕ НАД РЕЗУЛТАТИМА ИНОВАЦИОНИХ И РАЗВОЈНИХ ПРОЈЕКАТА*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan32">
+					<num>32.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref62" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla5-clan32-stav1">
+						<content>
+							<p>Интелектуална својина (проналазак, индустријски дизајн, топографија интегрисаних кола) која настане у току реализације иновационог и развојног пројекта који се финансира и средствима буџета Републике Србије припада организацији у којој је интелектуална својина настала.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav2">
+						<content>
+							<p>Организација из <ref wId="ref59" href="akn/rs/act/2013/55-41/srp@/!main~art_32__para_1" >става 1. овог</ref> члана има право на заштиту проналаска (право на стицање патента и малог патента), индустријског дизајна и топографије интегрисаних кола.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav3">
+						<content>
+							<p>Проналазач, аутор дизајна и аутор топографије интегрисаних кола имају право да у том својству буду наведени у пријави за признање патента, малог патента, индустријског дизајна и топографије интегрисаних кола, као и у списима, регистрима, исправама и другим публикацијама.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav4">
+						<content>
+							<p>Уколико је патент или мали патент економски искоришћаван, проналазач из <ref wId="ref60" href="akn/rs/act/2013/55-41/srp@/!main~art_32__para_3" >става 3. овог</ref> члана има право на накнаду у износу од најмање 50% добити коју је организација из <ref wId="ref61" href="akn/rs/act/2013/55-41/srp@/!main~art_32__para_2" >става 2. овог</ref> члана остварила искоришћавањем патента, односно малог патента.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav5">
+						<content>
+							<p>Када је више учесника у пројекту, односно више проналазача створило проналазак, учешће у добити утврђују зависно од њиховог појединачног доприноса стварању проналаска.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan33">
+					<num>33.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref73" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla5-clan33-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref63" href="akn/rs/act/2013/55/srp@/!main~/art_7">члан 7. Закона  - 55/2013-41</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav2">
+						<content>
+							<p>Члан 33а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav3">
+						<content>
+							<p>Организација која је суфинансирала реализацију иновационог и развојног пројекта има право да користи интелектуалну својину из <ref wId="ref64" href="akn/rs/act/2013/55-41/srp@/!main~art_32__para_1" >члана 32. став 1. овог</ref> закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref65" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav5">
+						<content>
+							<p>Члан 33б*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav6">
+						<content>
+							<p>Носилац реализације иновационе активности и лице одређено за руководиоца пројекта који се финансира средствима из буџета Републике Србије предузимају мере испитивања потенцијалне новости производа и поступака до којих дође у току реализације пројекта у односу на постојеће стање технологије и у случају позитивног налаза старају се да у складу са <ref wId="ref66" href="akn/rs/act/2013/55-41/srp@/!main~art_32__para_2" >чланом 32. став 2. овог</ref> закона такви производи или поступци буду заштићени патентом или малим патентом у Републици Србији. О поднетим домаћим, односно међународним пријавама патената или малих патената и о стеченим правима дужни су да без одлагања обавесте Министарство.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref67" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav8">
+						<content>
+							<p>Члан 33в*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav9">
+						<content>
+							<p>Сваки учесник у пројекту који створи проналазак дужан је да одмах по настанку проналаска организацији у којој је проналазак настао и лицу које је одређено за руководиоца пројекта поднесе писмени извештај којим их обавештава о проналаску.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav10">
+						<content>
+							<p>Организација у којој је проналазак настао дужна је да, у року од 60 дана од дана пријема извештаја из <ref wId="ref68" href="akn/rs/act/2013/55-41/srp@/!main~art_33__para_1" >става 1. овог</ref> члана, испита потенцијалну новост проналаска, могућност његовог економског искоришћавања и оправданост заштите проналаска патентом, односно малим патентом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav11">
+						<content>
+							<p>Рок из <ref wId="ref69" href="akn/rs/act/2013/55-41/srp@/!main~art_33__para_2" >става 2. овог</ref> члана може се продужити у сагласности са проналазачем.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav12">
+						<content>
+							<p>Ако организација у којој је проналазак настао у роковима из <ref wId="ref70" href="akn/rs/act/2013/55-41/srp@/!main~art_33__para_2->para_3" >ст. 2. и 3. овог</ref> члана донесе одлуку да поднесе пријаву патента, односно малог патента, дужна је да о томе писмено обавести проналазача.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav13">
+						<content>
+							<p>Учесник у пројекту који створи проналазак који је у директној вези са пројектом, нема право да га објави, нити га на било који други начин учини доступним јавности, док организација у којој је проналазак настао не поднесе пријаву патента, односно малог патента.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav14">
+						<content>
+							<p>Ако реализатор пројекта у роковима из <ref wId="ref71" href="akn/rs/act/2013/55-41/srp@/!main~art_33__para_2->para_3" >ст. 2. и 3. овог</ref> члана не обавести проналазача да има намеру да поднесе пријаву патента, односно малог патента, или га обавести да не жели да поднесе такву пријаву, проналазач има право да поднесе пријаву патента, односно малог патента на своје име.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav15">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref72" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ФИНАНСИРАЊЕ ИНОВАЦИОНЕ ДЕЛАТНОСТИ</heading>
+				<article wId="gla6-clan34">
+					<num>34.</num>
+					<paragraph wId="gla6-clan34-stav1">
+						<content>
+							<p>Република Србија*, аутономна покрајина и јединица локалне самоуправе могу обезбеђивати финансирање иновационе делатности ради остваривања циљева иновационе политике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav2">
+						<intro>
+							<p>Економски инструменти којима се обезбеђује и подстиче иновациона делатност јесу:</p>
+						</intro>
+						<point wId="gla6-clan34-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> средства буџета Републике Србије*;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan34-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> средства буџета аутономне покрајине;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan34-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> средства буџета јединице локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan34-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> средства међународних финансијских организација;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan34-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> фонд за иновациону делатност;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan34-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> други фондови;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan34-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> економске подстицајне мере и друге мере, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref74" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav4">
+						<content>
+							<p>Средства буџета Републике Србије*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan35">
+					<num>35.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref76" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla6-clan35-stav1">
+						<intro>
+							<p>За финансирање иновационе делатности могу се користити средства буџета Републике Србије*, под следећим условима:</p>
+						</intro>
+						<point wId="gla6-clan35-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да се иновациона делатност финансира коришћењем бесповратних буџетских средстава;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan35-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да средства буџета Републике Србије* не буду већа од 50% неопходних средстава за реализацију појединих иновационих делатности и пројеката.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav2">
+						<content>
+							<p>На финансирање иновационе  делатности средствима буџета Републике Србије примењује се закон којим се  уређује државна помоћ мале вредности (de minimis),  као и подзаконски прописи и други општи акти донети ради његовог извршавања.**</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref75" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan36">
+					<num>36.</num>
+					<heading>**Службени гласник РС, број  <ref wId="ref78" href="akn/rs/act/2013/55/srp@">55/2013</ref></heading>
+					<paragraph wId="gla6-clan36-stav1">
+						<content>
+							<p>Средства буџета Републике Србије* могу се доделити * по основу јавног позива за подношење захтева за доделу средстава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan36-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref77" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan37">
+					<num>37.</num>
+					<heading>Средства буџета аутономне покрајине</heading>
+					<paragraph wId="gla6-clan37-stav1">
+						<content>
+							<p>Аутономна покрајина може у свом буџету обезбедити средства за подстицај и финансирање посебних програма иновационе делатности и инфраструктуре иновационих организација на својој територији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan38">
+					<num>38.</num>
+					<heading>Средства буџета јединице локалне самоуправе</heading>
+					<paragraph wId="gla6-clan38-stav1">
+						<content>
+							<p>Јединица локалне самоуправе може у свом буџету обезбедити средства за подстицај  и финансирање посебних програма иновационе делатности и инфраструктуре иновационих организација на својој територији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan39">
+					<num>39.</num>
+					<heading>Средства међународних финансијских организација</heading>
+					<paragraph wId="gla6-clan39-stav1">
+						<content>
+							<p>У обављању иновационе делатности, ради реализације одређених пројеката и програма, могу се користити и средства међународних финансијских организација.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ФОНД ЗА ИНОВАЦИОНУ ДЕЛАТНОСТ</heading>
+				<article wId="gla7-clan40">
+					<num>40.</num>
+					<paragraph wId="gla7-clan40-stav1">
+						<content>
+							<p>Ради обезбеђивања финансијских средстава за подстицање иновативности, оснива се Фонд за иновациону делатност (у даљем тексту: Фонд).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan40-stav2">
+						<content>
+							<p>Фонд има својство правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan40-stav3">
+						<content>
+							<p>Седиште Фонда је у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan40-stav4">
+						<content>
+							<p>Фонд се уписује у регистар привредних субјеката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan41">
+					<num>41.</num>
+					<heading>Послови Фонда</heading>
+					<paragraph wId="gla7-clan41-stav1">
+						<intro>
+							<p>Фонд обавља послове у вези са финансирањем припреме, реализације и развоја програма, пројеката и других активности у области спровођења * иновационе политике, а нарочито:</p>
+						</intro>
+						<point wId="gla7-clan41-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> стручне и друге послове у вези са прибављањем средстава Фонда, управљањем тим средствима и њиховим коришћењем;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan41-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> посредовање у вези са финансирањем иновационе делатности из средстава међународних организација, финансијских институција и тела, као и домаћих и страних правних и физичких лица, нарочито у областима науке и технологије које стратешки документи утврде као приоритетне*;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan41-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> вођење базе података о програмима, пројектима и другим активностима у области иновационе делатности које Фонд финансира, као и потребним и расположивим финансијским средствима за њихову реализацију;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan41-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> подстицање, успостављање и остваривање сарадње са међународним и домаћим финансијским институцијама и другим правним и физичким лицима ради финансирања иновационе делатности, у складу са иновационом политиком и другим стратешким плановима и програмима, као и закљученим међународним уговорима за намене утврђене овим законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan41-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref79" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan42">
+					<num>42.</num>
+					<heading>Приходи Фонда</heading>
+					<paragraph wId="gla7-clan42-stav1">
+						<intro>
+							<p>Приходи Фонда остварују се из:</p>
+						</intro>
+						<point wId="gla7-clan42-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> средстава буџета Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan42-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> донација, прилога, поклона и помоћи;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan42-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> средстава остварених по основу реализације иновације чији је развој Фонд финансирао, а у складу са уговором одређеним правима на интелектуалну и другу својину;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan42-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> средстава остварених по основу продаје свог удела у власништву привредног друштва и других организација, а оствареног улагањем Фонда у развој иновација;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan42-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> прихода остварених на основу међународне билатералне и мултилатералне сарадње на програмима, пројектима и другим активностима у области иновационе делатности;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan42-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> прихода од управљања слободним новчаним средствима Фонда;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan42-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> других извора, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan42-stav2">
+						<content>
+							<p>Брисан је  ранији <ref wId="ref81" href="akn/rs/act/2013/55-41/srp@/!main~art_42__para_2" >став 2. </ref>(види <ref wId="ref80" href="akn/rs/act/2010/18/srp@/!main~/art_34">члан 34. Закона – 18/2010-88</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan43">
+					<num>43.</num>
+					<heading>Коришћење средстава Фонда</heading>
+					<paragraph wId="gla7-clan43-stav1">
+						<content>
+							<p>Фонд у обављању својих послова, а нарочито у планирању и коришћењу средстава, примењује принципе објективности и одговорности, међународно признате стандарде добре праксе и јавности у раду и доношењу одлука.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav2">
+						<intro>
+							<p>Средства Фонда користе се за финансирање иновационе делатности, а нарочито за:*</p>
+						</intro>
+						<point wId="gla7-clan43-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> улагања у реализацију и пласман тржишно орјентисаних иновација новооснованих привредних субјеката;*</p>
+							</content>
+						</point>
+						<point wId="gla7-clan43-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> подстицање иновативности у приоритетним областима науке и технологије;*</p>
+							</content>
+						</point>
+						<point wId="gla7-clan43-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> остваривање делатности Фонда.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav3">
+						<content>
+							<p>Фонд може учествовати и у суфинансирању програма, пројеката и других активности за намене из <ref wId="ref82" href="akn/rs/act/2013/55-41/srp@/!main~art_43__para_2" >става 2. овог</ref> члана, ако их организују и финансирају међународне организације, финансијске институције и тела или друга страна и домаћа правна и физичка лица*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav4">
+						<content>
+							<p>На финансирање иновационе  делатности средствима буџета Републике Србије примењује се закон којим се  уређује државна помоћ мале вредности (de minimis),  као и подзаконски прописи и други општи акти донети ради његовог извршавања.**</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref83" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav6">
+						<content>
+							<p>**Службени гласник РС, број  <ref wId="ref84" href="akn/rs/act/2013/55/srp@">55/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan44">
+					<num>44.</num>
+					<heading>Програми Фонда</heading>
+					<paragraph wId="gla7-clan44-stav1">
+						<intro>
+							<p>Фонд:</p>
+						</intro>
+						<point wId="gla7-clan44-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> доноси годишњи и средњорочни програм рада;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan44-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> утврђује финансијски план, периодични обрачун и годишњи обрачун;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan44-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> прати реализацију програма и врши контролу над рационалним коришћењем средстава;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan44-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> одлучује о другим питањима и врши друге послове утврђене статутом Фонда.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan44-stav2">
+						<content>
+							<p>На средњорочни програм рада Фонда сагласност даје Влада, а на годишњи програм рада Министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan44-stav3">
+						<content>
+							<p>Фонд доставља Министарству извештај о остваривању програма рада за протеклу годину, најкасније до 31. марта текуће године, као и у друго време на захтев Министарства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan45">
+					<num>45.</num>
+					<heading>Органи Фонда</heading>
+					<paragraph wId="gla7-clan45-stav1">
+						<content>
+							<p>Органи Фонда су: управни одбор, директор и надзорни одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan45-stav2">
+						<content>
+							<p>Чланове управног и надзорног одбора именује и разрешава Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan45-stav3">
+						<content>
+							<p>Управни одбор има пет чланова, од  којих су три члана представници Владе, а два члана се именују на предлог Фонда,  и то један из реда запослених у Фонду, а други представник Фонда је из реда  независних стручњака у области иновационе делатности.**</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan45-stav4">
+						<content>
+							<p>Председника управног одбора именује Влада из реда чланова, на предлог министра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan45-stav5">
+						<content>
+							<p>Надзорни одбор има три члана које чине: два представника Владе и један представник Фонда.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan45-stav6">
+						<content>
+							<p>Председника надзорног одбора именује Влада из реда чланова, на предлог министра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan45-stav7">
+						<content>
+							<p>Директора Фонда, на предлог министра, а по прибављеном мишљењу управног одбора, именује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan45-stav8">
+						<content>
+							<p>Чланови управног и надзорног одбора, као и директор Фонда, именују се на период од четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan45-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref85" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan45-stav10">
+						<content>
+							<p>**Службени гласник РС, број  <ref wId="ref86" href="akn/rs/act/2013/55/srp@">55/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan46">
+					<num>46.</num>
+					<heading>Општи акти Фонда</heading>
+					<paragraph wId="gla7-clan46-stav1">
+						<content>
+							<p>Фонд има статут и друге опште акте у складу са законом и статутом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan46-stav2">
+						<content>
+							<p>Статут доноси управни одбор Фонда уз сагласност Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan46-stav3">
+						<content>
+							<p>Статутом Фонда уређује се: организација и начин пословања Фонда, начин предлагања представника запослених у органе Фонда,* надлежност управног одбора, надзорног одбора и директора Фонда, заступање и представљање Фонда, права, обавезе и одговорности запослених у Фонду, начин организовања послова и друга питања од значаја за рад и пословање Фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan46-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref87" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan47">
+					<num>47.</num>
+					<heading>Јавност рада Фонда</heading>
+					<paragraph wId="gla7-clan47-stav1">
+						<content>
+							<p>Рад Фонда је јаван.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan47-stav2">
+						<content>
+							<p>Фонд благовремено и истинито обавештава јавност о обављању своје делатности за коју је основан, на начин прописан статутом Фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan47-stav3">
+						<content>
+							<p>На захтев јавности Фонд даје информације о обављању послова из своје делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan47-stav4">
+						<content>
+							<p>Брисан је  ранији <ref wId="ref89" href="akn/rs/act/2013/55-41/srp@/!main~art_47__para_4" >став 4. </ref>(види <ref wId="ref88" href="akn/rs/act/2010/18/srp@/!main~/art_38">члан 38. Закона – 18/2010-88</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan48">
+					<num>48.</num>
+					<heading>Обављање стручних и других послова</heading>
+					<paragraph wId="gla7-clan48-stav1">
+						<content>
+							<p>Стручне и административно-техничке послове обављају запослени у Фонду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan48-stav2">
+						<content>
+							<p>Запослени у Фонду имају права и обавезе у складу са законом којим се уређује рад.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРОМЕНА ПРАВНЕ ФОРМЕ ФОНДА</heading>
+				<article wId="gla8-clan49">
+					<num>49.</num>
+					<paragraph wId="gla8-clan49-stav1">
+						<content>
+							<p>Управни одбор може, уз сагласност Владе, донети одлуку о промени правне форме Фонда у акционарско друштво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan49-stav2">
+						<content>
+							<p>Ако се донесе одлука о промени правне форме Фонда у акционарско друштво, приликом продаје акција мора се обезбедити да учешће државног капитала у капиталу Фонда буде најмање 51%.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>ФОНДОВИ АУТОНОМНЕ ПОКРАЈИНЕ И ЈЕДИНИЦА ЛОКАЛНЕ САМОУПРАВЕ</heading>
+				<article wId="gla9-clan50">
+					<num>50.</num>
+					<paragraph wId="gla9-clan50-stav1">
+						<content>
+							<p>Аутономна покрајина, јединица локалне самоуправе, односно две или више јединица локалне самоуправе, могу основати фонд за иновациону делатност, који ће се финансирати из прихода остварених на њиховој територији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan50-stav2">
+						<content>
+							<p>На фонд из <ref wId="ref91" href="akn/rs/act/2013/55-41/srp@/!main~art_50__para_1" >става 1. овог</ref> члана сходно се примењују одредбе <ref wId="ref90" href="akn/rs/act/2013/55-41/srp@/!main~art_40->art_49" >чл. 40</ref>-49. овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>ЕКОНОМСКЕ ПОДСТИЦАЈНЕ МЕРЕ</heading>
+				<article wId="gla10-clan51">
+					<num>51.</num>
+					<paragraph wId="gla10-clan51-stav1">
+						<content>
+							<p>За правна и физичка лица која примењују савремене технологије, стварају и стављају у промет иновативне производе и услуге, реализују патентна решења или финансијски потпомажу развој иновационе делатности, могу се утврдити пореске, царинске и друге олакшице или ослобађања од обавезе плаћања, под условима и на начин утврђен законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan51-stav2">
+						<content>
+							<p>За привредна друштва и предузетнике који у свом раду улажу у развој и повећање обима иновативности и проналазаштва могу се утврдити посебне подстицајне мере у виду субвенција, депозита и његовог рефундирања, под условима и на начин утврђен законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla11">
+				<num>XI</num>
+				<heading>ГОДИШЊИ ИЗВЕШТАЈ О ИНОВАЦИОНОЈ ДЕЛАТНОСТИ</heading>
+				<article wId="gla11-clan52">
+					<num>52.</num>
+					<paragraph wId="gla11-clan52-stav1">
+						<content>
+							<p>Аутономна покрајина и јединица локалне самоуправе ** подноси Министарству годишњи извештај о резултатима и стању иновационе делатности на својој територији, као и утрошку сопствених буџетских средстава за ту намену, а што представља саставни део укупног годишњег извештаја о стању иновационе делатности у Републици Србији*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan52-stav2">
+						<content>
+							<p>Садржај  и рок за достављање** годишњих извештаја из <ref wId="ref92" href="akn/rs/act/2013/55-41/srp@/!main~art_52__para_1" >става 1. овог</ref> члана прописује министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan52-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref93" href="akn/rs/act/2010/18/srp@">18/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan52-stav4">
+						<content>
+							<p>**Службени гласник РС, број  <ref wId="ref94" href="akn/rs/act/2013/55/srp@">55/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla12">
+				<num>XII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla12-clan53">
+					<num>53.</num>
+					<paragraph wId="gla12-clan53-stav1">
+						<content>
+							<p>Надлежни органи дужни су да у року од три месеца од дана ступања на снагу овог закона донесу подзаконске акте за његово спровођење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan54">
+					<num>54.</num>
+					<paragraph wId="gla12-clan54-stav1">
+						<content>
+							<p>Фонд за иновациону делатност почиње са радом најкасније у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan55">
+					<num>55.</num>
+					<paragraph wId="gla12-clan55-stav1">
+						<content>
+							<p>Председника управног одбора и чланове управног и надзорног одбора, као и директора Фонда, Влада ће именовати у року од 90 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan55-stav2">
+						<content>
+							<p>Влада може, на предлог министра, до именовања директора Фонда, да именује вршиоца дужности.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan55-stav3">
+						<content>
+							<p>Влада може, на предлог министра, да именује представнике Фонда у првом сазиву органа управљања Фонда, до испуњења услова за њихово предлагање у складу са статутом Фонда.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan55-stav4">
+						<content>
+							<p>Управни одбор донеће статут Фонда у року од 30 дана од дана именовања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan56">
+					<num>56.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref95" href="akn/rs/act/2010/18/srp@">18/2010</ref></heading>
+					<paragraph wId="gla12-clan56-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у &quot;Службеном гласнику Републике Србије&quot;.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan56-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan41">
+					<num>41.</num>
+					<heading>Закон о изменама и допунама Закона о иновационој делатности: „Службени гласник РС“, број <ref wId="ref98" href="akn/rs/act/2010/18/srp@">18/2010</ref>-88</heading>
+					<paragraph wId="gla12-clan41-stav1">
+						<content>
+							<p>Реализација и финансирање иновационих активности започетих по одредбама Закона о иновационој делатности („Службени гласник РС”, број <ref wId="ref96" href="akn/rs/act/05/110/srp@">110/05</ref>), окончаће се у складу са одредбама тог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan41-stav2">
+						<content>
+							<p>До доношења одговарајућих прописа на основу овог закона, примењиваће се подзаконски акти донети на основу Закона о иновационој делатности („Службени гласник РС”, број <ref wId="ref97" href="akn/rs/act/05/110/srp@">110/05</ref>), ако нису у супротности са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan42">
+					<num>42.</num>
+					<paragraph wId="gla12-clan42-stav1">
+						<content>
+							<p>Овлашћује се Законодавни одбор Народне скупштине да утврди пречишћен текст Закона о иновационој делатности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan43">
+					<num>43.</num>
+					<paragraph wId="gla12-clan43-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan12">
+					<num>12.</num>
+					<heading>Закон о изменама и допунама Закона о иновационој делатности: „Службени гласник РС“, број  <ref wId="ref99" href="akn/rs/act/2013/55/srp@">55/2013</ref>-41</heading>
+					<paragraph wId="gla12-clan12-stav1">
+						<content>
+							<p>Усклађивање подзаконских аката за  спровођење овог закона и статута Фонда, извршиће се у року од три месеца од дана  ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan13">
+					<num>13.</num>
+					<paragraph wId="gla12-clan13-stav1">
+						<content>
+							<p>Председника и чланове управног  одбора Фонда Влада ће именовати, у складу са овим законом, у року од три месеца  од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan13-stav2">
+						<content>
+							<p>Даном доношења акта о именовању  из <ref wId="ref102" href="akn/rs/act/2013/55-41/srp@/!main~art_13__para_1" >става 1. овог</ref> члана престаје мандат председнику и члановима управног одбора  именованим у складу са Законом о иновационој делатности („Службени гласник РС”,  бр. <ref wId="ref100" href="akn/rs/act/05/110/srp@">110/05</ref> и <ref wId="ref101" href="akn/rs/act/10/18/srp@">18/10</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan14">
+					<num>14.</num>
+					<paragraph wId="gla12-clan14-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог  дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan14-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan14-stav3">
+						<content>
+							<p>о иновационој делатности</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan14-stav4">
+						<content>
+							<p>„Службени гласник РС“, бр. <ref wId="ref103" href="akn/rs/act/2005/110/srp@">110 од  12. децембра 2005</ref>, <ref wId="ref104" href="akn/rs/act/2010/18/srp@">18 од 26. марта 2010</ref>, <ref wId="ref105" href="akn/rs/act/2013/55/srp@">55 од 25. јуна 2013</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

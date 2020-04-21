@@ -1,0 +1,710 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о пријављивању и евидентирању одузете имовине">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2005/45-25/main"/>
+					<FRBRuri value="akn/rs/act/2005/45-25"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2011/72-125/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2011/72-125/srp@"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2011/72-125/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2011/72-125/srp@.akn"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-05-31" name="службени гласник рс“" number="45" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="3. Експропријација и други облици ограничавања својине и враћање имовине" value="3. експропријација и други облици ограничавања својине и враћање имовине" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2005-01-01" refersTo="45/2005-25" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2011-01-01" refersTo="72/2011-125" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2005-05-23" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2005-06-08" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2005-06-08" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="накнаде"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописа"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="реформи"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="територији"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="других"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="аката"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="марта"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="тржишне"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="конфискацији"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="без"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="донетих"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="национализацији"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="секвестрацији"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="после"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="вредности"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="правичне"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="аграрној"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="примењиваних"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="експропријацији"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="евидентирања"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="пријављивања"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="1945"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="применом"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="године"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="одузета"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="имовине"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Gračanička"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="A"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="B"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Direkcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="G"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I VREME ODUZIMANJA IMOVINE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="IMOVINE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="JMBG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="KO"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="M2"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="NEPOKRETNOSTI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O PODNOSIOCU PRIJAVE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Obrascu POI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PRAVNI OSNOV"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkoj direkciji za imovinu Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="V"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Obrazac POI"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna 2006."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. marta 1945."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 8. јуна 2005. године (види члан 11. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О пријављивању и евидентирању одузете имовине „Службени гласник РС“, бр. <ref wId="ref10" href="akn/rs/act/2005/45/srp@">45 од 31. маја 2005</ref>, <ref wId="ref11" href="akn/rs/act/2011/72/srp@">72 од 28. септембра 2011</ref> - др. закон</p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређује се поступак пријављивања и евидентирања имовине која је на територији Републике Србије одузета без накнаде тржишне вредности или правичне накнаде, применом прописа и аката о национализацији, аграрној реформи, конфискацији, секвестрацији, експропријацији и других прописа донетих и примењиваних после 9. марта 1945. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Имовином, у смислу овог закона, сматра се право својине на непокретним и покретним стварима, као и друга имовинска права.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Пријаву одузете имовине по одредбама овог закона подносе физичка лица којима је имовина одузета применом прописа из <ref wId="ref0" href="akn/rs/act/2011/72-125/srp@/!main~art_1" >члана 1. овог</ref> закона (у даљем тексту: ранији власник) или њихови наследници, односно правни следбеници.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Пријава из <ref wId="ref1" href="akn/rs/act/2011/72-125/srp@/!main~art_3__para_1" >става 1. овог</ref> члана подноси се Републичкој дирекцији за имовину Републике Србије (у даљем тексту: Дирекција), у два примерка, непосредно или поштом препоручено, на Обрасцу ПОИ, који је одштампан уз овај закон и чини његов саставни део.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>Евиденција пријављене имовине – регистар имовине води се као јавна и електронска база података.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Одредбе овог закона не односе се на раније власнике или њихове наследнике, односно правне следбенике којима је законом или међународним уговором, односно споразумом утврђено право на накнаду за одузету имовину на терет иностране државе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<intro>
+						<p>Уз пријаву из <ref wId="ref2" href="akn/rs/act/2011/72-125/srp@/!main~art_3" >члана 3. овог</ref> закона подноси се:</p>
+					</intro>
+					<point wId="clan5-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> копија акта о одузимању имовине или други материјални доказ из кога се виде подаци о одузетој имовини и основу одузимања;</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> доказ о својству подносиоца пријаве, уколико није ранији власник (решење о наслеђивању, односно други доказ о правном следбеништву са ранијим власником или доказ о смрти лица чија је имовина одузета и доказ о сродству са тим лицем);</p>
+						</content>
+					</point>
+					<point wId="clan5-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> други акти и подаци за које подносилац пријаве сматра да су од значаја за његову идентификацију и идентификацију одузете имовине.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>О извршеном евидентирању имовине издаје се потврда најкасније у року од седам дана од дана подношења пријаве из <ref wId="ref3" href="akn/rs/act/2011/72-125/srp@/!main~art_3" >члана 3. овог</ref> закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Пријава из <ref wId="ref4" href="akn/rs/act/2011/72-125/srp@/!main~art_3" >члана 3. овог</ref> закона може се поднети најкасније до 30. јуна 2006. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Дирекција води евиденцију о пријављеној имовини, на основу података садржаних у пријави из <ref wId="ref5" href="akn/rs/act/2011/72-125/srp@/!main~art_3" >члана 3. овог</ref> закона и података којима располажу државни органи и организације, органи и организације јединица територијалне аутономије и локалне самоуправе, јавне службе и други органи и организације.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<heading>Пртестао је да важи (види <ref wId="ref8" href="akn/rs/act/2011/72/srp@/!main~/art_66">члан  66. Закона - 72/2011-125</ref>)</heading>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Правни основ и права у погледу враћања имовине или обештећења по основу одузете имовине пријављене по одредбама овог закона, као и поступак по захтеву за остваривање права на повраћај одузете имовине или обештећење за ту имовину, уредиће се посебним законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav2">
+					<content>
+						<p>Захтев за остваривање права по посебном закону из <ref wId="ref7" href="akn/rs/act/2011/72-125/srp@/!main~art_9__para_1" >става 1. овог</ref> члана, може се поднети само ако је пријава одузете имовине поднета у року из <ref wId="ref6" href="akn/rs/act/2011/72-125/srp@/!main~art_6" >члана 6. овог</ref> закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan10">
+				<num>10.</num>
+				<paragraph wId="clan10-stav1">
+					<content>
+						<p>Враћање одузете имовине црквама и верским заједницама уредиће се посебним законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan11">
+				<num>11.</num>
+				<paragraph wId="clan11-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav2">
+					<content>
+						<p>Образац ПОИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav3">
+					<content>
+						<p>Републичка дирекција за имовину</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav4">
+					<content>
+						<p>Републике Србије</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav5">
+					<content>
+						<p>ул. Грачаничка бр. 8</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav6">
+					<content>
+						<p>11 000 Београд</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav7">
+					<content>
+						<p>ПРИЈАВА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav8">
+					<content>
+						<p>ОДУЗЕТЕ ИМОВИНЕ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav9">
+					<content>
+						<p>У складу са <ref wId="ref9" href="akn/rs/act/2011/72-125/srp@/!main~art_3" >чланом 3. </ref>Закона о пријављивању и евидентирању одузете имовине,  подносим пријаву одузете имовине:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav10">
+					<content>
+						<p>ПОДАЦИ О ПОДНОСИОЦУ ПРИЈАВЕ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav11">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav12">
+					<content>
+						<p>име (име родитеља) презиме</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav13">
+					<content>
+						<p>ЈМБГ (лични број)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav14">
+					<content>
+						<p>АДРЕСА  _________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav15">
+					<content>
+						<p>ОПШТИНА  _______________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav16">
+					<content>
+						<p>ПОДАЦИ О ОДУЗЕТОЈ ИМОВИНИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav17">
+					<content>
+						<p>А) ПРАВНИ ОСНОВ, НАЧИН И ВРЕМЕ ОДУЗИМАЊА ИМОВИНЕ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav18">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav19">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav20">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav21">
+					<content>
+						<p>Б) НЕПОКРЕТНОСТИ</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan11-stav22">
+					<content>
+						<table>
+							<tr>
+								
+
+								<td>
+									
+
+									<p>
+
+ВРСТА</p>
+									
+
+									<p>
+
+(стан, кућа, пословни простор, земљиште и друго)</p>
+									
+
+									<p>
+
+И ПОВРШИНА У М2</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+ЛОКАЦИЈА НЕПОКРЕТНОСТИ</p>
+									
+
+									<p>
+
+(општина, место, улица, број, КО)</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+НАЗИВ,</p>
+									
+
+									<p>
+
+односно име лица које је у поседу непокретности</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+							<tr>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+								<td>
+									
+
+									<p>
+
+</p>
+								</td>
+								
+
+							</tr>
+							
+
+						</table>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav23">
+					<content>
+						<p>В) ПОКРЕТНЕ СТВАРИ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav24">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav25">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav26">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav27">
+					<content>
+						<p>(врста, количина)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav28">
+					<content>
+						<p>Г) ИМОВИНСКА ПРАВА</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav29">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav30">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav31">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav32">
+					<content>
+						<p>(врста, количина)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav33">
+					<content>
+						<p>Уз пријаву подносим:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav1">
+					<content>
+						<p>________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav2">
+					<content>
+						<p>________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav3">
+					<content>
+						<p>________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav4">
+					<content>
+						<p>У _____________________________________, дана _____________ године</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav5">
+					<content>
+						<p>Подносилац пријаве</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav6">
+					<content>
+						<p>_____________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav7">
+					<content>
+						<p>Напомена Дирекције:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav8">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav9">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav10">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav11">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od3-clan11-stav12">
+					<content>
+						<p>___________________________________________________________________________________________</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

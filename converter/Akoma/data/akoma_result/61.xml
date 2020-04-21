@@ -1,0 +1,729 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о одликовањима Републике Србије">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2009/88-43/main"/>
+					<FRBRuri value="akn/rs/act/2009/88-43"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2010/36-10/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2010/36-10/srp@"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2010/36-10/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2010/36-10/srp@.akn"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-10-28" name="службени гласник рс“" number="88" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="20. Државна одликовања" value="20. државна одликовања" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="88/2009-43" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="36/2010-10" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2009-10-26" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2009-11-05" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2009-11-05" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="додељивање"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="одликовања"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="утврђују"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезе"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="одликованих"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="одузимање"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="лица"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Karađorđeve"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Komisije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike ukazom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalni sekretar predsednika Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalnom sekretarijatu predsednika Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kancelarija ordena"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije za odlikovanja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike obrazovaće Komisiju za odlikovanja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savezne Republike Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Srpska akademija nauka i umetnosti"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Miloš Obilić"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="februaru"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="junu"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 5. новембра 2009. године (види члан 33. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О одликовањима републике србије „Службени гласник РС“, бр. <ref wId="ref26" href="akn/rs/act/2009/88/srp@">88 од 28. октобра 2009</ref>, <ref wId="ref27" href="akn/rs/act/2010/36/srp@">36 од 28. маја 2010</ref>.</p>
+			</longTitle>
+			<p>Special value.</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом утврђују се одликовања Републике Србије (у даљем тексту: одликовања) и уређује поступак за њихово додељивање и одузимање, права и обавезе одликованих лица, као и друга питања од значаја за одликовања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Одликовања су највиши знаци јавног признања који се додељују за изузетне заслуге и дела од великог значаја за Републику Србију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Одликовања се утврђују законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Одликовања могу бити додељена држављанима Републике Србије, домаћим правним лицима и другим субјектима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Одликовања могу бити додељена и посмртно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Одликовања могу бити додељена и страним држављанима, страним правним лицима и међународним организацијама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Држављани Републике Србије могу носити одликовања стране државе, односно међународне организације, уз претходну сагласност министарства надлежног за спољне послове, ако законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Израда, промет, јавно ношење и употреба знакова и других предмета који имају изглед одликовања Републике Србије нису дозвољени.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Одликовања могу да се израђују и да се носе у смањеним димензијама (у даљем тексту: минијатуре).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОДЛИКОВАЊА</heading>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Одликовања су: ордени, медаље и споменице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Највиши степен одликовања које има више степена јесте први степен тог одликовања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-od1-clan8-stav1">
+						<intro>
+							<p>Ордени су:</p>
+						</intro>
+						<point wId="gla2-od1-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Орден Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Орден српске заставе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan8-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Орден „Карађорђеве звезде“;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan8-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Сретењски орден;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan8-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> Орден белог орла са мачевима;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan8-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> Орден заслуга за одбрану и безбедност.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav2">
+						<content>
+							<p>Орден Републике Србије има два степена и додељује се у првом степену на великој огрлици (председницима или суверенима држава), а у другом степену на ленти (председницима држава или влада).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav3">
+						<content>
+							<p>Орден српске заставе има три степена и додељује се за нарочите заслуге у развијању међународних односа између Републике Србије и других држава, односно међународних организација, као и за истакнуте заслуге у развијању и учвршћивању мирољубиве сарадње и пријатељских односа између Републике Србије и других држава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav4">
+						<content>
+							<p>Орден „Карађорђеве звезде“ има три степена и додељује се за нарочите заслуге и успехе у представљању државе и њених грађана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav5">
+						<content>
+							<p>Сретењски орден има три степена и додељује се за нарочите заслуге за Републику Србију и њене грађане у областима јавних, привредних, културних, просветних, спортских и хуманитарних делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav6">
+						<content>
+							<p>Брисан је ранији <ref wId="ref1" href="akn/rs/act/2010/36-10/srp@/!main~art_8__para_5" >став 5. </ref>(види <ref wId="ref0" href="akn/rs/act/2010/36/srp@/!main~/art_1">члан 1. Закона – 36/2010-10</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav7">
+						<content>
+							<p>Орден белог орла са мачевима има три степена и додељује се за нарочите заслуге у изградњи система одбране или нарочите заслуге у командовању и руковођењу војним јединицама, односно војним установама и њиховом оспособљавању за одбрану Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav8">
+						<content>
+							<p>Орден заслуга за одбрану и безбедност има три степена и додељује се за натпросечно, узорно и часно извршавање дужности и задатака у областима одбране и безбедности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2010/36/srp@">36/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-od2-clan9-stav1">
+						<intro>
+							<p>Медаље су:</p>
+						</intro>
+						<point wId="gla2-od2-clan9-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Медаља за храброст  &quot;Милош Обилић&quot;*;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan9-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Медаља за заслуге;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan9-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Медаља за ревносну службу*.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan9-stav2">
+						<content>
+							<p>Медаља за храброст  &quot;Милош Обилић&quot;* има два степена (златна и сребрна медаља) и додељује се за дела у којима је до снажног изражаја дошла лична храброст или за дела у којима је у изузетно опасним ситуацијама у спасавању људских живота или материјалних добара испољена изванредна храброст и самопрегор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan9-stav3">
+						<content>
+							<p>Медаља за заслуге има два степена (златна и сребрна медаља) и додељује се за изузетне заслуге и постигнуте резултате у свим областима живота и рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan9-stav4">
+						<content>
+							<p>Медаља за ревносну службу* има два степена (златна и сребрна медаља) и додељује се за заслуге и изузетне резултате показане у обављању дужности и задатака у областима одбране и безбедности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan10">
+					<num>10.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2010/36/srp@">36/2010</ref></heading>
+					<paragraph wId="gla2-od2-clan10-stav1">
+						<content>
+							<p>За сваки орден и медаљу прописују се посебна правила (у даљем тексту: статут) која садрже опис ордена, односно медаља и њихових минијатура и којима се ближе уређује начин њиховог ношења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-od3-clan11-stav1">
+						<content>
+							<p>Споменице се додељују ради обележавања догађаја од великог значаја за Републику Србију.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ДОДЕЛА ОДЛИКОВАЊА</heading>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Председник Републике указом додељује одликовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Указ о додели одликовања објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Одликовања се додељују, по правилу, два пута годишње, у фебруару и јуну.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Председник Републике може доделити одликовања и ван термина одређеног у <ref wId="ref4" href="akn/rs/act/2010/36-10/srp@/!main~art_13__para_1" >ставу 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Предлог за доделу одликовања могу поднети државни органи, Српска академија наука и уметности, органи аутономне покрајине и јединице локалне самоуправе, организације и удружења (у даљем тексту: овлашћени предлагачи).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Предлог из <ref wId="ref5" href="akn/rs/act/2010/36-10/srp@/!main~art_14__para_1" >става 1. овог</ref> члана доставља се Канцеларији ордена, у писменом облику, са образложењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav3">
+						<content>
+							<p>Уз предлог за доделу одликовања страним држављанима, страним правним лицима и међународним организацијама овлашћени предлагач доставља и мишљење министарства надлежног за спољне послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav4">
+						<content>
+							<p>Уз предлог за доделу одликовања припадницима, јединицама и установама Војске Србије овлашћени предлагач доставља и мишљење министарства надлежног за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav5">
+						<content>
+							<p>Уз предлог за доделу одликовања полицијским службеницима овлашћени предлагач доставља и мишљење министарства надлежног за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav6">
+						<content>
+							<p>Председник Републике може доделити одликовање и самоиницијативно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Лицу које се први пут одликује одређеним орденом или медаљом то одликовање даје се, по правилу, у најнижем степену.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Нико не може бити одликован истим орденом или медаљом у нижем степену од онога којим је већ одликован.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>Носиоцу ордена или медаље изузетно се може доделити исти орден, односно медаља, у истом степену.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav4">
+						<content>
+							<p>У случају из <ref wId="ref6" href="akn/rs/act/2010/36-10/srp@/!main~art_15__para_3" >става 3. овог</ref> члана не додељује се поново одликовање, већ посебна ознака која се носи на претходно додељеном одликовању.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>КОМИСИЈА ЗА ОДЛИКОВАЊА</heading>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>Комисију за одликовања образује Генерални секретар председника Републике, а председник Републике поставља председника и чланове Комисије из реда угледних личности у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav2">
+						<content>
+							<p>Комисија за одликовања разматра предлоге за доделу и одузимање одликовања и доставља их председнику Републике, заједно са својим ставом, на коначно одлучивање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav3">
+						<content>
+							<p>Комисија за одликовања обавља послове у складу са пословником.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>КАНЦЕЛАРИЈА ОРДЕНА</heading>
+				<article wId="gla5-clan17">
+					<num>17.</num>
+					<paragraph wId="gla5-clan17-stav1">
+						<content>
+							<p>У Генералном секретаријату председника Републике образује се Канцеларија ордена, која врши стручну обраду предлога за доделу и одузимање одликовања за потребе Комисије за одликовања и обавља друге административно-техничке послове, у складу са актом о унутрашњем уређењу и систематизацији радних места у Генералном секретаријату председника Републике.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>УРУЧИВАЊЕ ОДЛИКОВАЊА И ПРАВА И ОБАВЕЗЕ ОДЛИКОВАНИХ ЛИЦА</heading>
+				<article wId="gla6-clan18">
+					<num>18.</num>
+					<paragraph wId="gla6-clan18-stav1">
+						<content>
+							<p>Свечано уручивање одликовања састоји се од јавног саопштавања текста указа о одликовању, предаје одликовања и уручења повеље о одликовању одликованим лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan18-stav2">
+						<content>
+							<p>Свечано уручивање ордена и медаља врши председник Републике или лични изасланик председника Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan18-stav3">
+						<content>
+							<p>Свечано уручивање споменица врши лице које овласти председник Републике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan19">
+					<num>19.</num>
+					<paragraph wId="gla6-clan19-stav1">
+						<content>
+							<p>Свечано уручивање одликовања у иностранству врши председник Републике или лични изасланик председника Републике, односно највиши дипломатски представник Републике Србије у земљи у којој се врши уручивање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan20">
+					<num>20.</num>
+					<paragraph wId="gla6-clan20-stav1">
+						<content>
+							<p>Одликовање и повеља о одликовању посмртно одликованог лица, односно лица којем одликовање није уручено за живота, предају се члановима породице тог лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav2">
+						<content>
+							<p>Члановима породице, у смислу овог закона, сматрају се супружник, деца, усвојеници, унуци, родитељи, усвојитељи и браћа и сестре одликованог лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav3">
+						<content>
+							<p>Ако одликовано лице нема чланове породице из <ref wId="ref7" href="akn/rs/act/2010/36-10/srp@/!main~art_20__para_2" >става 2. овог</ref> члана, указ о одликовању јавно ће се саопштити, а одликовање и повеља о одликовању могу, по одлуци председника Републике, да се предају на чување музеју, у складу са прописима којима се уређује заштита културних добара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan21">
+					<num>21.</num>
+					<paragraph wId="gla6-clan21-stav1">
+						<content>
+							<p>Ако одликовано лице умре а нема наследника, односно ако правно лице престане да постоји а нема правног следбеника, одликовање и повеља о одликовању враћају се председнику Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan21-stav2">
+						<content>
+							<p>Одликовања враћена у складу са <ref wId="ref8" href="akn/rs/act/2010/36-10/srp@/!main~art_21__para_1" >ставом 1. овог</ref> члана могу, по одлуци председника Републике, да се предају на чување музеју, у складу са прописима којима се уређује заштита културних добара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan21-stav3">
+						<content>
+							<p>Ако одликовано лице одбије да прими одликовање, сматра се да одликовање није ни додељено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan22">
+					<num>22.</num>
+					<paragraph wId="gla6-clan22-stav1">
+						<content>
+							<p>Одликовање може носити само одликовано лице, на прописани начин.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan22-stav2">
+						<content>
+							<p>Одликовања се носе у време државних празника и у другим свечаним приликама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan22-stav3">
+						<content>
+							<p>Лице које је изгубило одликовање, остало без њега без своје кривице или чије је одликовање оштећено има право да захтева и уз одговарајућу накнаду добије дупликат додељеног одликовања. У случају губитка или оштећења повеље о додељеном одликовању може се, на захтев одликованог лица, уз одговарајућу накнаду, издати њен препис.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan23">
+					<num>23.</num>
+					<paragraph wId="gla6-clan23-stav1">
+						<content>
+							<p>Лица одликована на основу ранијих прописа о одликовањима имају право да носе та одликовања, а поступак одузимања одликовања спроводи се у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ОДУЗИМАЊЕ ОДЛИКОВАЊА</heading>
+				<article wId="gla7-clan24">
+					<num>24.</num>
+					<paragraph wId="gla7-clan24-stav1">
+						<content>
+							<p>Одликованом лицу може се одузети одликовање ако поступа супротно јавном поретку и моралу или из других разлога који га чине недостојним положаја носиоца одликовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan24-stav2">
+						<content>
+							<p>Председник Републике указом одузима одликовање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan24-stav3">
+						<content>
+							<p>Предлог за одузимање одликовања могу поднети овлашћени предлагачи по поступку предвиђеном у <ref wId="ref9" href="akn/rs/act/2010/36-10/srp@/!main~art_14" >члану 14. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan24-stav4">
+						<content>
+							<p>Председник Републике може одузети одликовање и самоиницијативно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan24-stav5">
+						<content>
+							<p>Указ о одузимању одликовања објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ЕВИДЕНЦИЈА О ОДЛИКОВАНИМ ЛИЦИМА</heading>
+				<article wId="gla8-clan25">
+					<num>25.</num>
+					<paragraph wId="gla8-clan25-stav1">
+						<content>
+							<p>О одликованим лицима води се евиденција, која садржи име и презиме носиоца одликовања са подацима о називу и степену одликовања и датуму доношења указа о одликовању, евентуалном одузимању одликовања, као и друге прописане податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan25-stav2">
+						<content>
+							<p>Евиденцију из <ref wId="ref10" href="akn/rs/act/2010/36-10/srp@/!main~art_25__para_1" >става 1. овог</ref> члана води Канцеларија ордена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan25-stav3">
+						<content>
+							<p>Канцеларија ордена води и евиденцију о држављанима Републике Србије који су примили одликовање стране државе, односно међународне организације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan25-stav4">
+						<content>
+							<p>Држављанин Републике Србије обавештава Канцеларију ордена о томе да је примио одликовање стране државе, односно међународне организације.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>ОВЛАШЋЕЊЕ ЗА ДОНОШЕЊЕ ПРОПИСА</heading>
+				<article wId="gla9-clan26">
+					<num>26.</num>
+					<paragraph wId="gla9-clan26-stav1">
+						<content>
+							<p>Статуте ордена и медаља, начин израде одликовања, ближа правила о свечаном уручивању одликовања у земљи и иностранству, предаји одликовања и повеље о одликовању посмртно одликованог лица, ношењу одликовања, подацима у евиденцији одликованих лица, накнадама из <ref wId="ref11" href="akn/rs/act/2010/36-10/srp@/!main~art_22__para_3" >члана 22. став 3. </ref>и <ref wId="ref12" href="akn/rs/act/2010/36-10/srp@/!main~art_30" >члана 30. овог</ref> закона, као и друга питања од значаја за спровођење овог закона прописује Влада на предлог министарства надлежног за културу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla10-clan27">
+					<num>27.</num>
+					<paragraph wId="gla10-clan27-stav1">
+						<content>
+							<p>Новчаном казном у износу од 50.000 до 500.000 динара казниће се за привредни преступ привредно друштво или друго правно лице ако изради, употреби или пусти у промет знак или други предмет који има изглед одликовања Републике Србије (<ref wId="ref13" href="akn/rs/act/2010/36-10/srp@/!main~art_5" >члан 5. овог</ref> закона).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan27-stav2">
+						<content>
+							<p>За привредни преступ из <ref wId="ref14" href="akn/rs/act/2010/36-10/srp@/!main~art_27__para_1" >става 1. овог</ref> члана казниће се и одговорно лице у привредном друштву или другом правном лицу новчаном казном у износу од 10.000 до 100.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan27-stav3">
+						<content>
+							<p>Предмети настали и имовинска корист стечена извршењем привредног преступа из <ref wId="ref15" href="akn/rs/act/2010/36-10/srp@/!main~art_27__para_1" >става 1. овог</ref> члана одузеће се.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan28">
+					<num>28.</num>
+					<paragraph wId="gla10-clan28-stav1">
+						<content>
+							<p>Новчаном казном у износу од 40.000 до 200.000 динара казниће се за прекршај предузетник ако изради, употреби или пусти у промет знак или други предмет који има изглед одликовања Републике Србије (<ref wId="ref16" href="akn/rs/act/2010/36-10/srp@/!main~art_5" >члан 5. овог</ref> закона).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan28-stav2">
+						<content>
+							<p>Уз казну за прекршај из <ref wId="ref17" href="akn/rs/act/2010/36-10/srp@/!main~art_28__para_1" >става 1. овог</ref> члана обавезно се изриче заштитна мера одузимања предмета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan29">
+					<num>29.</num>
+					<paragraph wId="gla10-clan29-stav1">
+						<intro>
+							<p>Новчаном казном у износу од 10.000 до 50.000 динара казниће се за прекршај физичко лице:</p>
+						</intro>
+						<point wId="gla10-clan29-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> које носи страно одликовање без прибављене сагласности надлежног органа (<ref wId="ref18" href="akn/rs/act/2010/36-10/srp@/!main~art_4" >члан 4. овог</ref> закона);</p>
+							</content>
+						</point>
+						<point wId="gla10-clan29-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> које носи или употребљава знак или други предмет који има изглед одликовања Републике Србије (<ref wId="ref19" href="akn/rs/act/2010/36-10/srp@/!main~art_5" >члан 5. овог</ref> закона);</p>
+							</content>
+						</point>
+						<point wId="gla10-clan29-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> које носи одликовање Републике Србије којим није одликовано или које носи одликовање на начин који је супротан прописима (<ref wId="ref20" href="akn/rs/act/2010/36-10/srp@/!main~art_22" >члан 22. овог</ref> закона).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla11">
+				<num>XI</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla11-clan30">
+					<num>30.</num>
+					<paragraph wId="gla11-clan30-stav1">
+						<content>
+							<p>Држављанину Републике Србије одликованом по ранијим прописима о одликовањима који је изгубио повељу о одликовању, може се, на његов захтев, уз одговарајућу накнаду, издати њен препис.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan31">
+					<num>31.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2010/36/srp@">36/2010</ref></heading>
+					<paragraph wId="gla11-clan31-stav1">
+						<content>
+							<p>Акт о унутрашњем уређењу и систематизацији радних места у Генералном секретаријату председника Републике ускладиће се са овим законом у року од 30 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan31-stav2">
+						<content>
+							<p>Пропис из <ref wId="ref21" href="akn/rs/act/2010/36-10/srp@/!main~art_26" >члана 26. овог</ref> закона Влада ће донети у року од 90 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan31-stav3">
+						<content>
+							<p>Генерални секретар председника Републике образоваће Комисију за одликовања у року од 30 дана од дана ступања на снагу прописа из <ref wId="ref22" href="akn/rs/act/2010/36-10/srp@/!main~art_26" >члана 26. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan31-stav4">
+						<content>
+							<p>Комисија за одликовања донеће пословник на својој првој седници.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan32">
+					<num>32.</num>
+					<paragraph wId="gla11-clan32-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о одликовањима Савезне Републике Југославије („Службени лист СРЈ”, бр. <ref wId="ref24" href="akn/rs/act/98/59/srp@">59/98</ref> и <ref wId="ref25" href="akn/rs/act/01/21/srp@">21/01</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan33">
+					<num>33.</num>
+					<paragraph wId="gla11-clan33-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

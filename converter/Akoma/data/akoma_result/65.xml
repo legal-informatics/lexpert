@@ -1,0 +1,1902 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Војнобезбедносној агенцији и Војнообавештајној агенцији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2009/88-35/main"/>
+					<FRBRuri value="akn/rs/act/2009/88-35"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2013/17-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2013/17-3/srp@"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2013/17-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2013/17-3/srp@.akn"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-10-28" name="службени гласник рс“" number="88" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Одбрана и безбедност" value="1. одбрана и безбедност" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="88/2009-35" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2012-01-01" refersTo="55/2012-183" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2013-01-01" refersTo="17/2013-3" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2009-10-26" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2009-11-05" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2009-11-05" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="агенције"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="војнобезбедносне"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="војнообавештајне"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="контрола"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="надзор"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="задаци"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="послови"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="рад"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="сарадња"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="овлашћења"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежности"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike ukazom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ustavom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="VBA"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="VOA"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalnog sekretarijata predsednika Republike i službene legitimacije sudija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalštaba Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Krivičnim zakonikom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva odbrane"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva odbrane i Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo odbrane"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu odbrane"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu odbrane i pripadnika Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SCG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta za nacionalnu bezbednost"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savezne Republike Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="VBA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="VOA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višeg suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višem sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojnobezbednosne agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojnoobaveštajne agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojska Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojsku Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovni sud Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnom kasacionom sudu"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Direktore VBA"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. stav 1. tačka 5"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="54."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 3."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 5. новембра 2009. године (види члан 65. Закона).Прописи донети за извршење Закона о службама безбедности Савезне Републике Југославије („Службени лист СРЈ”, број 37/02 и „Службени лист СЦГ”, број 17/04) настављају да се примењују до доношења одговарајућих прописа за извршење овог закона, ако нису супротни одредбама овог закона (види члан 63. Закона).Одлуком Уставног суда IУз број 1218/2010 („Службени гласник РС“, број 55/2012) престале су да важе одредбе члана 13. став 1. у вези са чланом 12. став 1. тачка 6) и члана 16. став 2. Закона о Војнобезбедносној агенцији и Војнообавештајној агенцији („Службени гласник РС”, број 88/2009) јер је утврђено да нису у сагласности с Уставом (види Одлуку УС - 55/2012-183). Законом о изменама и допунама Закона о Војнобезбедносној агенцији и Војнообавештајној агенцији (Службени гласник РС, број 17/2013) ранији члан 12. став 1. и члан 13. у целини су замењени (види чл. 6. и 7. Закона - 17/2013-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О војнобезбедносној агенцији и војнообавештајној агенцији „Службени гласник РС“, бр. <ref wId="ref118" href="akn/rs/act/2009/88/srp@">88 од 28. октобра 2009</ref>, <ref wId="ref119" href="akn/rs/act/2012/55/srp@">55 од 1. јуна 2012</ref> - УС, <ref wId="ref120" href="akn/rs/act/2013/17/srp@">17 од 21. фебруара 2013</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се надлежности, послови, задаци, овлашћења, надзор и контрола Војнобезбедносне агенције (у даљем тексту: ВБА) и Војнообавештајне агенције</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>(у даљем тексту: ВОА), сарадња као и друга питања од значаја за њихов рад.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>ВБА и ВОА су органи управе у саставу Министарства одбране који обављају безбедносно-обавештајне послове од значаја за одбрану и део су јединственог безбедносно-обавештајног система Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>У обављању послова из своје надлежности, ВБА и ВОА су самосталне.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>ВБА и ВОА међусобно сарађују и размењују податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Начин и садржај међусобне сарадње и размене података из <ref wId="ref0" href="akn/rs/act/2013/17-3/srp@/!main~art_3__para_2" >става 2. овог</ref> члана уређује министар одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>ВБА и ВОА сарађују и размењују податке са надлежним органима, организацијама, службама и телима Републике Србије, као и са службама безбедности других држава и међународних организација, у складу са Уставом, законом, другим прописима и општим актима, утврђеном безбедносно-обавештајном политиком Републике Србије и потврђеним међународним уговорима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>У свом раду, ВБА и ВОА су политички, идеолошки и интересно неутралне.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>ВБА и ВОА имају статус правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>ВБА и ВОА имају своје знакове, симболе и друга обележја и ознаке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Влада уређује изглед и начин коришћења знакова, симбола и других обележја и ознака из <ref wId="ref1" href="akn/rs/act/2013/17-3/srp@/!main~art_4__para_2" >става 2. овог</ref> члана, на предлог министра одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>НАДЛЕЖНОСТИ, ПОСЛОВИ, ЗАДАЦИ И ОВЛАШЋЕЊА ВБА</heading>
+				<article wId="gla2-od1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-od1-clan5-stav1">
+						<content>
+							<p>ВБА је надлежна за безбедносну и контраобавештајну заштиту Министарства одбране и Војске Србије у оквиру које обавља безбедносне*, контраобавештајне и остале послове и задатке од значаја за одбрану Републике Србије, у складу са законом и прописима донетим на основу закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav2">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref2" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-od2-clan6-stav1">
+						<intro>
+							<p>У оквиру безбедносне заштите Министарства одбране и  Војске Србије, послови које ВБА обавља су:*</p>
+						</intro>
+						<point wId="gla2-od2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> безбедносна заштита снага, објеката, средстава и  активности;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> безбедносна заштита тајних података;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> персонална безбедност (безбедносна провера лица и  издавање безбедносних сертификата за лица којима је приступ тајним подацима  потребан ради обављања функције или радних дужности у ВБА и ВОА);*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> индустријска безбедност;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> безбедносна заштита  информационо-телекомуникационих система и криптозаштите;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> безбедносна заштита других субјеката система  одбране;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> остали послови и задаци безбедносне заштите.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan6-stav2">
+						<intro>
+							<p>У оквиру контраобавештајне заштите, ВБА:*</p>
+						</intro>
+						<point wId="gla2-od2-clan6-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> открива, прати и онемогућава обавештајно  деловање, субверзивне и друге активности страних држава, страних организација,  група или лица усмерених против Министарства одбране и Војске Србије;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> открива, прати и онемогућава унутрашњи и  међународни тероризам, екстремизам и друге облике организованог насиља усмерених  против Министарства одбране и Војске Србије;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> открива, истражује и прикупља доказе за кривична  дела против уставног уређења и безбедности Републике Србије, кривична дела  против човечности и других добара заштићених међународним правом, кривична дела  организованог криминала, кривично дело прање новца, као и кривична дела  корупције (злоупотреба службеног положаја, трговина утицајем, примање мита и  давање мита) и ако нису резултат деловања организоване криминалне групе, унутар  Министарства одбране и Војске Србије;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> открива, истражује и прикупља доказе за кривична  дела којима се угрожавају тајни подаци и кривична дела против безбедности  рачунарских података, прописана Кривичним закоником, законом којим се уређује  тајност података, као и другим законима када су наведена кривична дела усмерена  против Министарства одбране и Војске Србије;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> планира, организује и спроводи контраобавештајну  заштиту лица, објеката, активности и тајних података Министарства одбране и  Војске Србије;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> прикупља, анализира, обрађује и процењује  контраобавештајне податке из своје надлежности;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> обавља и друге контраобавештајне послове и  задатке.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan6-stav3">
+						<content>
+							<p>Ако су активности и дела из става 2. тач. <ref wId="ref3" href="akn/rs/act/2013/17-3/srp@/!main~art_6__para_2__point_1" >1</ref>), <ref wId="ref4" href="akn/rs/act/2013/17-3/srp@/!main~art_6__para_2__point_2" >2</ref>), <ref wId="ref5" href="akn/rs/act/2013/17-3/srp@/!main~art_6__para_2__point_3" >3</ref>) и <ref wId="ref6" href="akn/rs/act/2013/17-3/srp@/!main~art_6__para_2__point_4" >4</ref>) овог члана усмерена према Министарству одбране и Војсци Србије од лица која нису припадници Војске Србије и запослени у Министарству одбране, ВБА своје активности и мере на плану њиховог откривања, праћења и онемогућавања, односно истраживања и документовања предузима уз обавезну сарадњу са Безбедносно-информативном агенцијом или полицијом, са којима заједно утврђује начин даљег поступања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan6-stav4">
+						<intro>
+							<p>Поред послова из <ref wId="ref7" href="akn/rs/act/2013/17-3/srp@/!main~art_6__para_1->para_2" >ст.1. и 2. овог</ref> члана, ВБА:</p>
+						</intro>
+						<point wId="gla2-od2-clan6-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> планира, организује и спроводи унутрашњу контролу рада припадника ВБА;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> планира школовање и организује специјалистичке курсеве и центре за обуку својих припадника, врши научна истраживања, формира архиве и објављује сопствена издања;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> сарађује и размењује податке са службама, организацијама и институцијама које се баве пословима безбедности, као и са безбедносним службама других земаља;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav4-tac4">
+							<num>4)</num>
+							<content>
+								<p> обрађује, проверава, сређује, процењује и штити прикупљене податке и информације од неовлашћеног откривања, давања, мењања, коришћења, губитка или уништавања;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav4-tac5">
+							<num>5)</num>
+							<content>
+								<p> обезбеђује и штити своје снаге, припаднике и објекте од противправних радњи и претњи;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav4-tac6">
+							<num>6)</num>
+							<content>
+								<p> штити опрему и средства која користи у раду од неовлашћеног приступа;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav4-tac7">
+							<num>7)</num>
+							<content>
+								<p> обавља безбедносну проверу кандидата за пријем у радни однос у Министарство одбране и на службу у Војску Србије, као и других лица која су од значаја за обављање послова из <ref wId="ref8" href="akn/rs/act/2013/17-3/srp@/!main~art_5" >члана 5. овог</ref> закона у сарадњи са Безбедносно-информативном агенцијом и полицијом;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav4-tac8">
+							<num>8)</num>
+							<content>
+								<p> планира опремање и врши набавку ствари за своје потребе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav4-tac9">
+							<num>9)</num>
+							<content>
+								<p> обавља и друге послове из своје надлежности.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan6-stav5">
+						<content>
+							<p>Начин обављања безбедносне провере из става 4. тачка <ref wId="ref9" href="akn/rs/act/2013/17-3/srp@/!main~art_6__para_4__point_7" >7</ref>) овог члана уређује  министар одбране, у складу са законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan6-stav6">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref10" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan7">
+					<num>7.</num>
+					<heading>Прикупљање података</heading>
+					<paragraph wId="gla2-od3-clan7-stav1">
+						<intro>
+							<p>ВБА је у оквиру својих надлежности овлашћена да прикупља податке:</p>
+						</intro>
+						<point wId="gla2-od3-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> из јавних извора;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan7-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> од физичких и правних лица;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> од државних органа, организација и служби, као и од ималаца јавних овлашћења.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-od3-clan8-stav1">
+						<content>
+							<p>ВБА је овлашћена да прикупља податке од физичких лица само уз њихов претходни пристанак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav2">
+						<content>
+							<p>Уз писани пристанак физичког лица са којим се разговор обавља, разговор се може звучно и визуелно забележити. Физичко лице потписом на записник оверава добровољност разговора и истинитост и потпуност снимљеног разговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav3">
+						<content>
+							<p>Овлашћено службено лице ВБА дужно је да, пре прикупљања података од физичког лица, том лицу покаже службену легитимацију са значком и упозори га да је дужно да чува као тајну сва сазнања о предмету интересовања ВБА.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav4">
+						<content>
+							<p>Члан 8а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav5">
+						<content>
+							<p>ВБА може прикупљати податке од лица са којима је  успостављена тајна сарадња.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav6">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref11" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav7">
+						<content>
+							<p>Члан 8б*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav8">
+						<content>
+							<p>ВБА и Војска Србије међусобно сарађују и размењују  податке.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav9">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref12" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav10">
+						<content>
+							<p>Члан 8в*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan8-stav11">
+						<content>
+							<p>ВБА прикупља обавештења, ради обављања послова из  своје надлежности, од запослених у Министарству одбране и припадника Војске  Србије и остварује увид у документацију и податке Министарства одбране и Војске  Србије.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan9">
+					<num>9.</num>
+					<heading>*Службени  гласник РС, број <ref wId="ref15" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan9-stav1">
+						<content>
+							<p>Државни органи, организације и службе, органи аутономних покрајина, јединице локалне самоуправе, организације које врше јавна овлашћења * и правна лица дужни су да овлашћеним службеним лицима ВБА омогуће увид у регистре, збирке података, електронске базе података и другу службену документацију као и приступ  другим подацима од значаја за примену овлашћења ВБА*, осим служби безбедности и полиције са којима се размена података врши у складу са законима којима су уређене службе безбедности и полиција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan9-stav2">
+						<content>
+							<p>Ако подаци из регистра и других збирки података представљају тајни податак,  субјекти из <ref wId="ref13" href="akn/rs/act/2013/17-3/srp@/!main~art_9__para_1" >става 1. овог</ref> члана, осим служби безбедности и полиције, дужни су да  омогуће ВБА увид у ове регистре и збирке података, у складу са законом којим се  уређује тајност података.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan9-stav3">
+						<content>
+							<p>Руководиоци и запослени у државним органима, организацијама и службама,  органима аутономних покрајина, јединицама локалне самоуправе, организацијама  које врше јавна овлашћења, правним лицима и припадници Војске Србије, дужни су  да као тајни податак чувају сва сазнања о предмету интересовања ВБА.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan9-stav4">
+						<content>
+							<p>Независно од одредаба из <ref wId="ref14" href="akn/rs/act/2013/17-3/srp@/!main~art_9__para_1->para_2" >ст. 1. и 2. овог</ref> члана, ВБА остварује сарадњу и размењује податке са Безбедносно-информативном агенцијом и полицијом у складу са одредбама закона којима су уређене службе безбедности и полиција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan10">
+					<num>10.</num>
+					<heading>*Службени  гласник РС, број <ref wId="ref16" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan10-stav1">
+						<content>
+							<p>ВБА је овлашћена да, у оквиру своје надлежности, тајно прикупља податке применом посебних поступака и мера.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-od3-clan11-stav1">
+						<content>
+							<p>ВБА је овлашћена да прикупља податке применом посебних поступака и мера када се подаци не могу прикупити на други начин или је њихово прикупљање у вези са несразмерним ризиком по живот и здравље људи и имовину, односно са несразмерним трошковима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan11-stav2">
+						<content>
+							<p>ВБА прикупљање података применом посебних поступака и мера врши превасходно у превентивне сврхе, односно са циљем да се предупреде претње које су усмерене према Министарству одбране и Војсци Србије. Подаци који су прикупљени применом  посебних поступака и мера у превентивне сврхе не могу се користити као доказ у  кривичном поступку.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan11-stav3">
+						<content>
+							<p>У случају да постоји могућност избора између више посебних поступака и мера, примениће се мера којом се мање задире у Уставом зајемчена људска права и слободе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan12">
+					<num>12.</num>
+					<heading>*Службени  гласник РС, број <ref wId="ref19" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan12-stav1">
+						<intro>
+							<p>Посебни поступци и мере тајног прикупљања података  из надлежности ВБА (у даљем тексту: посебни поступци и мере) су:*</p>
+						</intro>
+						<point wId="gla2-od3-clan12-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> оперативни продор у организације, групе и  институције;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan12-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> тајно прибављање и откуп докумената и предмета;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan12-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> тајни увид у евиденције података, у складу са  законом;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan12-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> тајно праћење и надзор лица на отвореном простору  и јавним местима уз коришћење техничких средстава;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan12-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> тајни електронски надзор телекомуникација и  информационих система ради прикупљања задржаних података о телекомуникационом  саобраћају, без увида у њихов садржај;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan12-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> тајно снимање и документовање разговора на  отвореном и у затвореном простору уз коришћење техничких средстава;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan12-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> тајни надзор садржине писама и других средстава  комуницирања, укључујући и тајни електронски надзор садржаја телекомуникација и  информационих система;*</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan12-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> тајни надзор и снимање унутрашњости објеката,  затворених простора и предмета.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan12-stav2">
+						<content>
+							<p>Примену посебних поступака и мера из <ref wId="ref17" href="akn/rs/act/2013/17-3/srp@/!main~art_12__para_1" >става 1. овог</ref> члана уређује министар одбране, на предлог директора ВБА, уз мишљење Савета за националну безбедност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan12-stav3">
+						<content>
+							<p>Ако се мишљење из <ref wId="ref18" href="akn/rs/act/2013/17-3/srp@/!main~art_12__para_2" >става 2. овог</ref> члана не достави у року од 30 дана од дана пријема поднетог захтева, сматраће се да је мишљење позитивно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan13">
+					<num>13.</num>
+					<heading>*Службени  гласник РС, број <ref wId="ref32" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan13-stav1">
+						<content>
+							<p>Посебни поступци и мере из <ref wId="ref20" href="akn/rs/act/2013/17-3/srp@/!main~" >члана  12. тач. 1) </ref>до 4) овог закона предузимају се на основу писаног и образложеног  налога директора ВБА или овлашћеног службеног лица ВБА које он овласти.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav2">
+						<content>
+							<p>О издатим налозима из <ref wId="ref21" href="akn/rs/act/2013/17-3/srp@/!main~art_13__para_1" >става 1.  овог</ref> члана води се евиденција.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav3">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref22" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav4">
+						<content>
+							<p>Члан 13а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav5">
+						<content>
+							<p>Посебан поступак и мера из члана  12. став 1. тачка <ref wId="ref23" href="akn/rs/act/2013/17-3/srp@/!main~art_12__para_1__point_5" >5</ref>) овог закона предузима се на основу образложене одлуке  надлежног вишег суда.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav6">
+						<content>
+							<p>За доношење одлуке из <ref wId="ref24" href="akn/rs/act/2013/17-3/srp@/!main~art_13__para_1" >става 1.  овог</ref> члана надлежан је виши суд у седишту апелационог суда за подручје  апелационог суда на чијем подручју се припрема или је предузета радња чије је  откривање, праћење и онемогућавање у надлежности ВБА.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav7">
+						<content>
+							<p>Председник Вишег суда одређује  судије овлашћене за доношење одлуке из <ref wId="ref25" href="akn/rs/act/2013/17-3/srp@/!main~art_13__para_1" >става 1. овог</ref> члана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav8">
+						<content>
+							<p>Писани предлог за примену  посебног поступка и мере из члана 12. став 1. тачка <ref wId="ref26" href="akn/rs/act/2013/17-3/srp@/!main~art_12__para_1__point_5" >5</ref>) овог закона директор ВБА  или овлашћено службено лице ВБА које он овласти подноси надлежном Вишем суду.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav9">
+						<content>
+							<p>Судија из <ref wId="ref27" href="akn/rs/act/2013/17-3/srp@/!main~art_13__para_3" >става 3. овог</ref> члана без  одлагања, а најкасније у року од осам сати, доноси одлуку за примену посебног  поступка и мере из члана 12. став 1. тачка <ref wId="ref28" href="akn/rs/act/2013/17-3/srp@/!main~art_12__para_1__point_5" >5</ref>) овог закона и доставља је ВБА.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav10">
+						<content>
+							<p>Предлог из <ref wId="ref29" href="akn/rs/act/2013/17-3/srp@/!main~art_13__para_4" >става 4. овог</ref> члана,  односно одлука из <ref wId="ref30" href="akn/rs/act/2013/17-3/srp@/!main~art_13__para_1" >става 1. овог</ref> члана садржи назив посебног поступка и мере из  члана 12. став 1. тачка <ref wId="ref31" href="akn/rs/act/2013/17-3/srp@/!main~art_12__para_1__point_5" >5</ref>) овог закона, податке о лицу, групи и организацији  према којима ће се примењивати посебан поступак и мера, разлоге због којих се  посебан поступак и мера спроводи, као и место и рок трајања примене.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav11">
+						<content>
+							<p>Након добијања одлуке суда,  директор ВБА или овлашћено службено лице ВБА које он овласти издаје налог за  примену посебног поступка и мере.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav12">
+						<content>
+							<p>Предлог, одлука и налог за  примену посебног поступка и мере представљају тајну. Службена и друга лица која  учествују у поступку одлучивања и предузимања посебног поступка и мере дужна су  да чувају као тајну све податке које су при томе сазнала.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan14">
+					<num>14.</num>
+					<heading>*Службени гласник РС,  број <ref wId="ref41" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan14-stav1">
+						<content>
+							<p>Посебни поступци и мере из <ref wId="ref33" href="akn/rs/act/2013/17-3/srp@/!main~" >члана  12. тач. 6) </ref>до 8) овог закона предузимају се на основу писане и образложене  одлуке Врховног касационог суда.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav2">
+						<content>
+							<p>Председник Врховног касационог  суда одређује судије овлашћене за доношење одлуке из <ref wId="ref34" href="akn/rs/act/2013/17-3/srp@/!main~art_14__para_1" >става 1. овог</ref> члана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav3">
+						<content>
+							<p>Писани предлог за примену  посебних поступака и мера из <ref wId="ref35" href="akn/rs/act/2013/17-3/srp@/!main~" >члана 12. тач. 6) </ref>до 8) овог закона директор ВБА  подноси Врховном касационом суду.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav4">
+						<content>
+							<p>Судија из <ref wId="ref36" href="akn/rs/act/2013/17-3/srp@/!main~art_14__para_2" >става 2. овог</ref> члана без  одлагања, а најкасније у року од 24 сата од пријема писаног предлога, доноси  одлуку поводом предлога за примену посебних поступака и мера и доставља је ВБА.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav5">
+						<content>
+							<p>Након добијања одлуке суда о  примени посебног поступка и мере, директор ВБА издаје налог за примену посебног  поступка и мере.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav6">
+						<content>
+							<p>Одлука из <ref wId="ref37" href="akn/rs/act/2013/17-3/srp@/!main~art_14__para_1" >става 1</ref>, предлог из  <ref wId="ref38" href="akn/rs/act/2013/17-3/srp@/!main~art_14__para_3" >става 3. </ref>и налог из <ref wId="ref39" href="akn/rs/act/2013/17-3/srp@/!main~art_14__para_5" >става 5. овог</ref> члана, садрже назив посебног поступка и мере  које ће се примењивати, податке о лицу, групи и организацији према којима ће се  примењивати посебан поступак и мера, разлоге због којих се посебан поступак и  мера спроводе, као и место и рок трајања примене.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav7">
+						<content>
+							<p>Предлог, одлука и налог за  примену посебног поступка и мере из <ref wId="ref40" href="akn/rs/act/2013/17-3/srp@/!main~art_14__para_6" >става 6. овог</ref> члана представљају тајну.  Службена и друга лица која учествују у поступку одлучивања и предузимања  посебног поступка и мере дужна су да чувају као тајну све податке које су при  томе сазнала.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan15">
+					<num>15.</num>
+					<heading>*Службени гласник РС,  број <ref wId="ref50" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan15-stav1">
+						<content>
+							<p>Када разлози хитности то  захтевају, а посебно у случајевима унутрашњег и међународног тероризма, директор  ВБА може да наложи почетак примене посебног поступка и мере из члана 12. тачка  <ref wId="ref44" href="akn/rs/act/2013/17-3/srp@/!main~art_12__para_1__point_5" >5</ref>) овог закона уз претходно прибављену сагласност надлежног судије из <ref wId="ref42" href="akn/rs/act/2013/17-3/srp@/!main~art_13а__para_3" >члана 13а  став 3. овог</ref> закона и посебних поступака и мера из <ref wId="ref45" href="akn/rs/act/2013/17-3/srp@/!main~" >члана 12. тач. 6) </ref>до 8) овог  закона уз претходно прибављену сагласност надлежног судије из <ref wId="ref43" href="akn/rs/act/2013/17-3/srp@/!main~art_14__para_2" >члана 14. став 2.  овог</ref> закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan15-stav2">
+						<content>
+							<p>Судија из <ref wId="ref46" href="akn/rs/act/2013/17-3/srp@/!main~art_15__para_1" >става 1. овог</ref> члана, на  основу поднетог предлога за примену посебних поступака и мера, доноси одлуку о  наставку примене одговарајућих мера, односно њиховој обустави у року од 24 сата  од почетка њихове примене.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan15-stav3">
+						<content>
+							<p>Ако надлежни судија не одобри  примену посебних поступака и мера у року од 24 сата у складу са <ref wId="ref49" href="akn/rs/act/2013/17-3/srp@/!main~art_15__para_2" >ставом 2. овог</ref>  члана, директор ВБА је дужан да одмах прекине њихову примену и наложи комисијско  уништавање прикупљених података, а записник о томе достави надлежном суду из  <ref wId="ref47" href="akn/rs/act/2013/17-3/srp@/!main~art_13а__para_1" >члана 13а став 1. </ref>и <ref wId="ref48" href="akn/rs/act/2013/17-3/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan16">
+					<num>16.</num>
+					<heading>*Службени гласник РС,  број <ref wId="ref53" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan16-stav1">
+						<content>
+							<p>Поштанска, телеграфска и друга јавна предузећа, привредна друштва и лица регистрована за послове телекомуникационих оператора, друге начине преношења информација и послове доставе поштанских пошиљки дужни су да обезбеде услове и да омогуће ВБА примену мера тајног прикупљања података и извршења посебних поступака и мера из <ref wId="ref51" href="akn/rs/act/2013/17-3/srp@/!main~art_12" >члана 12. овог</ref> закона и мера из <ref wId="ref52" href="akn/rs/act/2013/17-3/srp@/!main~art_18__para_3" >члана 18. став 3. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan17">
+					<num>17.</num>
+					<heading>Престао је да важи  ранији  <ref wId="ref60" href="akn/rs/act/2013/17-3/srp@/!main~art_17__para_2" >став  2.  </ref>(види  Одлуку УС - 55/2012-183)</heading>
+					<paragraph wId="gla2-od3-clan17-stav1">
+						<content>
+							<p>Посебни поступци и мере тајног  прикупљања података из <ref wId="ref54" href="akn/rs/act/2013/17-3/srp@/!main~" >члана 12. тач. 1) </ref>до 4) овог закона примењиваће се све  док постоје разлози за њихову примену.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan17-stav2">
+						<content>
+							<p>Посебни поступци и мере тајног  прикупљања података из <ref wId="ref57" href="akn/rs/act/2013/17-3/srp@/!main~" >члана 12. тач. 5) </ref>до 8) овог закона, по одлуци надлежног  судије из <ref wId="ref55" href="akn/rs/act/2013/17-3/srp@/!main~art_13а__para_3" >члана 13а став 3. </ref>и <ref wId="ref56" href="akn/rs/act/2013/17-3/srp@/!main~art_14__para_2" >члана 14. став 2. овог</ref> закона, могу се примењивати  шест месеци, а на основу новог предлога могу се продужити још једанпут, најдуже  на шест месеци.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan17-stav3">
+						<content>
+							<p>О примени посебних поступака и  мера из <ref wId="ref59" href="akn/rs/act/2013/17-3/srp@/!main~" >члана 12. тач. 5) </ref>до 8) овог закона, израђује се и доставља обавештење о  окончању примене мере надлежном судији из <ref wId="ref58" href="akn/rs/act/2013/17-3/srp@/!main~art_17__para_2" >става 2. овог</ref> члана.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan18">
+					<num>18.</num>
+					<heading>*Службени гласник РС,  број <ref wId="ref63" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan18-stav1">
+						<content>
+							<p>Ако подаци прикупљени применом посебних поступака и мера из <ref wId="ref61" href="akn/rs/act/2013/17-3/srp@/!main~art_12" >члана 12. овог</ref> закона указују на припремање или извршење кривичног дела за које се гони по службеној дужности, ВБА о основама сумње обавештава надлежно јавно тужилаштво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan18-stav2">
+						<content>
+							<p>Обавештење из <ref wId="ref62" href="akn/rs/act/2013/17-3/srp@/!main~art_18__para_1" >става 1. овог</ref> члана не садржи податке о примењеним посебним поступцима и мерама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan18-stav3">
+						<content>
+							<p>ВБА, на основу резултата примене посебних поступака и мера, надлежном тужилаштву може да предложи примену надзора и снимања телефонских и других разговора или комуникација другим техничким средствима и оптичка снимања лица и примену других мера за кривична дела организованог криминала, корупције и друга изузетно тешка кривична дела, под условима и на начин прописан законом којим се уређује кривични поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan19">
+					<num>19.</num>
+					<paragraph wId="gla2-od3-clan19-stav1">
+						<content>
+							<p>ВБА је овлашћена да у обављању послова и задатака из своје надлежности примењује посебне поступке и мере из <ref wId="ref64" href="akn/rs/act/2013/17-3/srp@/!main~art_12" >члана 12. </ref>и мере из <ref wId="ref65" href="akn/rs/act/2013/17-3/srp@/!main~art_18__para_3" >члана 18. став 3. овог</ref> закона, према запосленима у Министарству одбране и припадницима Војске Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan19-stav2">
+						<content>
+							<p>Када ВБА у вршењу послова и задатака из своје надлежности оцени да би посебне поступке и мере из <ref wId="ref67" href="akn/rs/act/2013/17-3/srp@/!main~" >члана 12. тач. 4) </ref>до 8)* овог закона, као и мере из <ref wId="ref66" href="akn/rs/act/2013/17-3/srp@/!main~art_18__para_3" >члана 18. став 3. овог</ref> закона требало применити и према другим физичким лицима, дужна је да о томе одмах обавести Безбедносно-информативну агенцију или полицију, са којом заједно утврђује начин даљег поступања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan20">
+					<num>20.</num>
+					<heading>*Службени  гласник РС, број <ref wId="ref70" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan20-stav1">
+						<content>
+							<p>Овлашћено службено лице ВБА има приступ свим местима ради инсталирања уређаја за примену посебних поступака и мера из <ref wId="ref68" href="akn/rs/act/2013/17-3/srp@/!main~art_12" >члана 12. </ref>и мера из <ref wId="ref69" href="akn/rs/act/2013/17-3/srp@/!main~art_18__para_3" >члана 18. став 3. овог</ref> закона, у складу са одлуком* надлежног суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan21">
+					<num>21.</num>
+					<heading>*Службени  гласник РС, број <ref wId="ref73" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla2-od3-clan21-stav1">
+						<content>
+							<p>Приликом примене посебних поступака и мера из <ref wId="ref71" href="akn/rs/act/2013/17-3/srp@/!main~art_12" >члана 12. овог</ref> закона, ВБА је овлашћена да користи податке, документа и средства која служе за прикривање идентитета ВБА, идентитета њених припадника и физичких лица са којима је успостављена тајна сарадња.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan21-stav2">
+						<content>
+							<p>За намене из <ref wId="ref72" href="akn/rs/act/2013/17-3/srp@/!main~art_21__para_1" >става 1. овог</ref> члана не могу се користити легитимације посланика Народне скупштине, чланова Владе, Генералног секретаријата Владе, Генералног секретаријата председника Републике и службене легитимације судија, јавних тужилаца, припадника других служби безбедности Републике Србије, полиције и других овлашћених службених лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan22">
+					<num>22.</num>
+					<paragraph wId="gla2-od3-clan22-stav1">
+						<content>
+							<p>Ако безбедносни разлози то захтевају, ВБА може да користи пословне и стамбене просторије, као и друге непокретности у својини Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan22-stav2">
+						<content>
+							<p>Начин и услове давања на коришћење непокретности из <ref wId="ref74" href="akn/rs/act/2013/17-3/srp@/!main~art_22__para_1" >става 1. овог</ref> члана уређује Влада, на образложени предлог министра одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan22-stav3">
+						<content>
+							<p>У обављању послова из своје надлежности, ВБА по потреби предузима и мере прикривања својине над стварима и правним лицима, као и саме сврхе прикупљања података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan22-stav4">
+						<content>
+							<p>ВБА може уз накнаду тајно да користи услуге физичких и правних лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan22-stav5">
+						<content>
+							<p>Начин и услове утврђивања накнаде из <ref wId="ref75" href="akn/rs/act/2013/17-3/srp@/!main~art_22__para_4" >става 4. овог</ref> члана прописује министар одбране, на предлог директора ВБА.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan22-stav6">
+						<content>
+							<p>Ради обављања послова из своје надлежности, ВБА може оснивати правна лица и уредити њихов рад на начин који их не доводи у везу са ВБА.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan23">
+					<num>23.</num>
+					<heading>Овлашћења у откривању, истраживању и документовању кривичних дела</heading>
+					<paragraph wId="gla2-od3-clan23-stav1">
+						<intro>
+							<p>Овлашћено службено лице ВБА у откривању, истраживању и документовању кривичних дела из члана 6. став 2. тач. <ref wId="ref77" href="akn/rs/act/2013/17-3/srp@/!main~art_6__para_2__point_3" >3</ref>) и <ref wId="ref78" href="akn/rs/act/2013/17-3/srp@/!main~art_6__para_2__point_4" >4</ref>) и <ref wId="ref76" href="akn/rs/act/2013/17-3/srp@/!main~art_6__para_3" >члана 6. став 3. овог</ref> закона има следећа овлашћења:</p>
+						</intro>
+						<point wId="gla2-od3-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> провера и утврђивање идентитета лица и идентификација предмета;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> позивање;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan23-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> тражење обавештења;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan23-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> привремено одузимање предмета;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan23-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> преглед простора, објеката и документације и противтерористички преглед;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan23-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> опсервирање;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan23-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> прикупљање, обрада и коришћење личних података;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan23-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> полиграфско тестирање;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan23-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> овлашћења полиције за вршење мера надзора и снимања телефонских и других разговора или комуникација другим техничким средствима и оптичка снимања лица и предузимање других мера и радњи, у складу са законом којим се уређује кривични поступак.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan23-stav2">
+						<content>
+							<p>Када овлашћено службено лице ВБА у вршењу послова и задатака из своје надлежности оцени да би овлашћења из <ref wId="ref79" href="akn/rs/act/2013/17-3/srp@/!main~art_23__para_1" >става 1. овог</ref> члана требало применити према лицима која нису припадници Војске Србије и запослени у Министарству одбране, ВБА о томе одмах обавештава Безбедносно-информативну агенцију или полицију, са којима заједно утврђује начин даљег поступања.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАДЛЕЖНОСТИ, ПОСЛОВИ, ЗАДАЦИ И ОВЛАШЋЕЊА ВОА</heading>
+				<article wId="gla3-od1-clan24">
+					<num>24.</num>
+					<paragraph wId="gla3-od1-clan24-stav1">
+						<content>
+							<p>ВОА је надлежна за обављање обавештајних послова од значаја за одбрану који се односе на прикупљање, анализу, процену, заштиту и достављање података и информација о потенцијалним и реалним опасностима, активностима, плановима или намерама страних држава и њихових оружаних снага, међународних организација, група и појединаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan24-stav2">
+						<content>
+							<p>Подаци и информације из <ref wId="ref80" href="akn/rs/act/2013/17-3/srp@/!main~art_24__para_1" >става 1. овог</ref> члана су војног, војно-политичког, војно-економског карактера и други подаци и информације који се односе на пролиферацију наоружања и војне опреме и претње тероризмом усмерени из иностранства према систему одбране Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan25">
+					<num>25.</num>
+					<paragraph wId="gla3-od2-clan25-stav1">
+						<intro>
+							<p>У оквиру своје надлежности ВОА:</p>
+						</intro>
+						<point wId="gla3-od2-clan25-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> прикупља и проверава податке и информације, обрађује их, анализира, процењује и доставља надлежним органима;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> сарађује и размењује информације и податке са службама, организацијама и институцијама Републике Србије које се баве безбедносно-обавештајним пословима, као и са службама других земаља и организација у складу са утврђеном безбедносно-обавештајном политиком, међународним уговорима и преузетим обавезама;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> чува прикупљене податке и информације у складу са законом, подзаконским актима и штити их од неовлашћеног откривања, давања, коришћења, губитка или уништавања;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> планира, организује и спроводи безбедносну заштиту својих активности, лица, објеката и докумената;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> организује безбедносну заштиту објеката Министарства одбране и Војске Србије у иностранству и лица која су од стране Министарства одбране и Војске Србије службено упућена у иностранство;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> штити опрему и средства која користи у раду од неовлашћеног приступа;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> прибавља, развија и користи информационе системе, системе веза и системе за пренос података, као и средства за заштиту информација;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> организује обуку припадника ВОА, организује специјалистичке курсеве, врши истраживања, формира архиве и објављује сопствена издања;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> планира, организује и спроводи унутрашњу контролу рада припадника ВОА;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> захтева од надлежних служби безбедности безбедносне провере правних и физичких лица када је то неопходно за обављање послова из надлежности ВОА утврђених овим законом;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> планира опремање и врши набавку ствари за своје потребе;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan25-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> обавља и друге послове из своје надлежности.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan26">
+					<num>26.</num>
+					<heading>Прикупљање података</heading>
+					<paragraph wId="gla3-od3-clan26-stav1">
+						<intro>
+							<p>ВОА је у оквиру својих надлежности овлашћена да прикупља податке:</p>
+						</intro>
+						<point wId="gla3-od3-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> из јавних извора;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> од физичких и правних лица;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> разменом података са другим службама безбедности;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> применом посебних поступака и мера.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan27">
+					<num>27.</num>
+					<heading>Примена посебних поступака и мера за тајно прикупљање података</heading>
+					<paragraph wId="gla3-od3-clan27-stav1">
+						<intro>
+							<p>Посебни поступци и мере за тајно прикупљање података су:</p>
+						</intro>
+						<point wId="gla3-od3-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> тајна сарадња са физичким и правним лицима ради прикупљања података и информација из <ref wId="ref81" href="akn/rs/act/2013/17-3/srp@/!main~art_24__para_2" >члана 24. став 2. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan27-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> тајно прибављање и откуп докумената и предмета;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan27-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> оперативни продор у организације, институције и групе;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan27-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> предузимање мера на прикривању идентитета и својине;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan27-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> оснивање правних лица и уређење њиховог рада на начин који их не доводи у везу са ВОА;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan27-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> прикривено коришћење имовине и услуга физичких и правних лица уз накнаду;</p>
+							</content>
+						</point>
+						<point wId="gla3-od3-clan27-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> коришћење посебних докумената и средстава којима се штити ВОА, њени припадници, просторије и средства.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan27-stav2">
+						<content>
+							<p>Посебни поступци и мере из <ref wId="ref82" href="akn/rs/act/2013/17-3/srp@/!main~art_27__para_1" >става 1. овог</ref> члана предузимају се на основу налога директора ВОА или лица које он овласти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan27-stav3">
+						<content>
+							<p>О издатим налозима из <ref wId="ref83" href="akn/rs/act/2013/17-3/srp@/!main~art_27__para_2" >става 2. овог</ref> члана води се евиденција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan27-stav4">
+						<content>
+							<p>Примену посебних поступака и мера из <ref wId="ref84" href="akn/rs/act/2013/17-3/srp@/!main~art_27__para_1" >става 1. овог</ref> члана уређује министар одбране, на предлог директора ВОА, уз мишљење Савета за националну безбедност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan27-stav5">
+						<content>
+							<p>Ако се мишљење из <ref wId="ref85" href="akn/rs/act/2013/17-3/srp@/!main~art_27__para_4" >става 4. овог</ref> члана не достави у року од 30 дана од дана пријема поднетог захтева, сматраће се да је мишљење позитивно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan28">
+					<num>28.</num>
+					<paragraph wId="gla3-od3-clan28-stav1">
+						<content>
+							<p>У примени посебних поступака и мера из <ref wId="ref86" href="akn/rs/act/2013/17-3/srp@/!main~art_27__para_1" >члана 27. став 1. овог</ref> закона не могу се користити легитимације посланика Народне скупштине, чланова Владе, Генералног секретаријата Владе, Генералног секретаријата председника Републике и службене легитимације судија, јавних тужилаца, припадника других служби безбедности Републике Србије, полиције и других овлашћених службених лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan29">
+					<num>29.</num>
+					<paragraph wId="gla3-od3-clan29-stav1">
+						<content>
+							<p>Ако безбедносни разлози то захтевају, ВОА може да користи пословне и стамбене просторије, као и друге непокретности у својини Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan29-stav2">
+						<content>
+							<p>Начин и услове давања на коришћење непокретности из <ref wId="ref87" href="akn/rs/act/2013/17-3/srp@/!main~art_29__para_1" >става 1. овог</ref> члана уређује Влада, на образложени предлог министра одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan30">
+					<num>30.</num>
+					<paragraph wId="gla3-od3-clan30-stav1">
+						<content>
+							<p>Подаци који се односе на методе рада и функционисање ВОА представљају тајне податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan30-stav2">
+						<content>
+							<p>Степен тајности података из <ref wId="ref88" href="akn/rs/act/2013/17-3/srp@/!main~art_30__para_1" >става 1. овог</ref> члана одређује се у складу са законом којим се уређује тајност података*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan30-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref89" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ЕВИДЕНТИРАЊЕ ПОДАТАКА И ЊИХОВО КОРИШЋЕЊЕ</heading>
+				<article wId="gla4-clan31">
+					<num>31.</num>
+					<paragraph wId="gla4-clan31-stav1">
+						<content>
+							<p>ВБА установљава и води збирке и  регистре личних и других података, као и документа о тим подацима.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav2">
+						<content>
+							<p>ВОА установљава и води збирке и  регистре података из своје надлежности.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav3">
+						<content>
+							<p>Збирке и регистри података, као и  документа из <ref wId="ref90" href="akn/rs/act/2013/17-3/srp@/!main~art_31__para_1->para_2" >ст. 1. и 2. овог</ref> члана представљају тајне податке, у складу са  законом којим се уређује тајност података.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav4">
+						<content>
+							<p>Ако ВБА или ВОА дође у посед  података и информација из надлежности других служби безбедности или полиције, те  податке и информације доставиће другим службама безбедности ако су од значаја за  националну безбедност, а полицији ако се односе на кривична дела на која се, у  складу са одредбама Законика о кривичном поступку, примењују посебне доказне  радње.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav5">
+						<content>
+							<p>Ако подаци и информације нису из  надлежности органа из <ref wId="ref91" href="akn/rs/act/2013/17-3/srp@/!main~art_31__para_4" >става 4. овог</ref> члана, ВБА или ВОА је дужна да их неодложно  уништи у року од 30 дана, о чему ће комисија сачинити записник.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<heading>*Службени гласник РС,  број <ref wId="ref92" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>Врсте регистара, збирки личних података и евиденција ВБА или ВОА, начин њиховог вођења, приступ, руковање и заштиту, рокове чувања, архивирање и уништавање уређује министар одбране, на предлог директора ВБА, односно директора ВОА, а по прибављеном мишљењу Савета за националну безбедност.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОСЕБНА ОВЛАШЋЕЊА</heading>
+				<article wId="gla5-clan33">
+					<num>33.</num>
+					<paragraph wId="gla5-clan33-stav1">
+						<content>
+							<p>Овлашћено службено лице ВБА има право и дужност да држи, носи и употребљава ватрено оружје у оквиру надлежности прописаних овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav2">
+						<content>
+							<p>Овлашћено службено лице ВБА и ВОА има право да користи средства за осматрање, снимање, навигацију и везу, као и да се послужи саобраћајним средством и средством везе правног или физичког лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav3">
+						<content>
+							<p>Државни органи Републике Србије и правна лица имају обавезу да овлашћеном службеном лицу ВБА и ВОА пруже неопходну помоћ ради извршења задатака из надлежности ВБА или ВОА.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav4">
+						<content>
+							<p>Начин и услове примене овлашћења из <ref wId="ref93" href="akn/rs/act/2013/17-3/srp@/!main~art_33__para_1->para_2" >ст. 1. и 2. овог</ref> члана прописује министар одбране на предлог директора ВБА, односно директора ВОА, по прибављеном мишљењу Савета за националну безбедност.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ИЗВЕШТАВАЊЕ И ОБАВЕШТАВАЊЕ</heading>
+				<article wId="gla6-clan34">
+					<num>34.</num>
+					<paragraph wId="gla6-clan34-stav1">
+						<content>
+							<p>ВБА и ВОА редовно, по потреби и на захтев достављају из своје надлежности извештаје, информације и процене од значаја за одбрану председнику Републике, министру одбране и начелнику Генералштаба Војске Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav2">
+						<content>
+							<p>Ако је непосредно угрожена безбедност Министарства одбране, односно команди, јединица и установа Војске Србије, ВБА и ВОА су дужне да са подацима до којих дођу у вршењу послова и овлашћења прописаних овим законом, без одлагања упознају надлежне органе руковођења и командовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav3">
+						<content>
+							<p>Извештаји, информације и процене из <ref wId="ref94" href="akn/rs/act/2013/17-3/srp@/!main~art_34__para_1->para_2" >ст. 1. и 2. овог</ref> члана представљају тајну, у складу са законом којим се уређује заштита тајних података.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan35">
+					<num>35.</num>
+					<paragraph wId="gla6-clan35-stav1">
+						<content>
+							<p>ВБА и ВОА су дужне да тачно, истинито и потпуно пруже обавештења о прикупљеним подацима о личности и о подацима од јавног значаја, у складу са прописима којима се уређује област заштите података о личности, област слободног приступа информацијама од јавног значаја и одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav2">
+						<content>
+							<p>Право на обавештење и увид у податке из <ref wId="ref95" href="akn/rs/act/2013/17-3/srp@/!main~art_35__para_1" >става 1. овог</ref> члана ограничава се у складу са прописима којима се уређују област слободног приступа информацијама од јавног значаја, тајност података*, заштита података о личности и одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav3">
+						<content>
+							<p>Право на обавештење и увид у податке из <ref wId="ref96" href="akn/rs/act/2013/17-3/srp@/!main~art_35__para_1" >става 1. овог</ref> члана не односи се на податке о: овлашћеним службеним лицима ВБА или ВОА који су предузимали мере; идентитету садашњих и бивших сарадника службе; припадницима службе са прикривеним идентитетом; трећим лицима којима би откривање тих података могло да штети; методама прибављања безбедносних и обавештајних података; акцијама које су у току; начину примене посебних поступака и мера; као и на податке и информације које су прибављене разменом са страним службама и међународним организацијама и тајне податке и информације других државних органа у поседу службе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav4">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref97" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan36">
+					<num>36.</num>
+					<heading>Размена података са органима и службама безбедности страних држава и међународних организација</heading>
+					<paragraph wId="gla6-clan36-stav1">
+						<content>
+							<p>ВБА и ВОА, сходно утврђеној безбедносно-обавештајној политици Републике Србије, размењују податке из <ref wId="ref98" href="akn/rs/act/2013/17-3/srp@/!main~art_31" >члана 31. овог</ref> закона са органима и службама безбедности страних држава и међународних организација, у складу са Уставом, законом, другим прописима и општим актима и потврђеним међународним уговорима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan36-stav2">
+						<content>
+							<p>Начин и поступак размене података о непосредном угрожавању безбедности стране државе или међународне организације, односно вредности заштићене међународним правом, на основу смерница Савета за националну безбедност, прописује министар одбране, на предлог директора ВБА, односно директора ВОА.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan36-stav3">
+						<content>
+							<p>Достављени подаци из <ref wId="ref99" href="akn/rs/act/2013/17-3/srp@/!main~art_36__para_1->para_2" >ст. 1. и 2. овог</ref> члана могу се користити само у сврху због којих су прикупљени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan36-stav4">
+						<content>
+							<p>О достављеним подацима из <ref wId="ref100" href="akn/rs/act/2013/17-3/srp@/!main~art_36__para_1" >става 1. овог</ref> члана води се евиденција.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>РУКОВОЂЕЊЕ И УНУТРАШЊЕ УРЕЂЕЊЕ ВБА И ВОА</heading>
+				<article wId="gla7-od1-clan37">
+					<num>37.</num>
+					<paragraph wId="gla7-od1-clan37-stav1">
+						<content>
+							<p>Радом ВБА и ВОА руководе директори који за свој рад одговарају министру одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-od1-clan37-stav2">
+						<content>
+							<p>Директори ВБА и ВОА имају заменике, који за свој рад одговарају директору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-od1-clan37-stav3">
+						<content>
+							<p>Директоре ВБА и ВОА и њихове заменике поставља и разрешава председник Републике указом на предлог министра одбране, ако се ради о професионалном војном лицу, односно Влада, на предлог министра одбране, у складу са законом којим се уређује положај државних службеника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-od1-clan37-stav4">
+						<content>
+							<p>Директори ВБА и ВОА, као и њихови заменици постављају се на период од пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-od1-clan37-stav5">
+						<content>
+							<p>Директори ВБА и ВОА и њихови заменици не могу бити чланови политичке странке, нити обављати другу јавну функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-od1-clan37-stav6">
+						<content>
+							<p>За директоре ВБА и ВОА и њихове заменике може бити постављено лице које је завршило генералштабно усавршавање и које има најмање девет година радног искуства на обавештајно-безбедносним пословима у систему одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-od1-clan38">
+					<num>38.</num>
+					<paragraph wId="gla7-od1-clan38-stav1">
+						<intro>
+							<p>Директор ВБА, односно директор ВОА:</p>
+						</intro>
+						<point wId="gla7-od1-clan38-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> даје налоге и инструкције за рад органа и припадника агенције;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> одговара за законито и стручно функционисање агенције;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> одговара за наменско коришћење финансијских и других средстава;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> предлаже министру одбране план развоја, опремања и годишњи план рада;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> врши избор и одлучује о пријему и престанку рада у агенцији, у складу са прописаним критеријумима;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> предлаже надлежном органу ослобађање припадника агенције од обавезе чувања тајне;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> подноси извештај о раду;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> предлаже министру одбране доношење прописа из надлежности агенције;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> обавља и друге послове и задатке утврђене законом и подзаконским актима.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-od1-clan38-stav2">
+						<intro>
+							<p>Директор ВБА, односно директор ВОА или њихови заменици могу, поред услова утврђених законом, бити разрешени и пре истека времена на које су постављени, у следећим случајевима:</p>
+						</intro>
+						<point wId="gla7-od1-clan38-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> на лични захтев;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако трајно изгуби здравствену способност да обавља своју дужност;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> када је осуђен за кривично дело на безусловну казну затвора од најмање шест месеци или за кажњиво дело које га чини недостојним за вршење дужности;</p>
+							</content>
+						</point>
+						<point wId="gla7-od1-clan38-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако у руковођењу ВБА или ВОА не поступа у складу са Уставом, законом и другим прописима, према правилима струке, савесно, непристрасно и политички неутрално, чиме је проузроковано незаконито и нестручно функционисање агенције.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-od1-clan38-stav3">
+						<content>
+							<p>Предлог за разрешење директора ВБА, односно директора ВОА или њихових заменика подноси министар одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-od2-clan39">
+					<num>39.</num>
+					<paragraph wId="gla7-od2-clan39-stav1">
+						<content>
+							<p>Акта о унутрашњем уређењу и систематизацији ВБА и ВОА,  као и о начину њиховог рада*, на предлог директора ВБА, односно директора ВОА, доноси министар одбране, у складу са законом и другим прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-od2-clan39-stav2">
+						<content>
+							<p>Акта о унутрашњем уређењу и систематизацији ВБА и ВОА и начин њиховог  рада означавају се одговарајућим степеном тајности, у складу са прописима  који уређују тајност података*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-od2-clan39-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref101" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРИПАДНИЦИ ВБА И ВОА</heading>
+				<article wId="gla8-clan40">
+					<num>40.</num>
+					<paragraph wId="gla8-clan40-stav1">
+						<content>
+							<p>Припадници ВБА и ВОА су професионални припадници Војске Србије, државни службеници и намештеници.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od1-clan41">
+					<num>41.</num>
+					<paragraph wId="gla8-od1-clan41-stav1">
+						<content>
+							<p>На пријем у радни однос, права и дужности и престанак радног односа професионалних припадника Војске Србије на служби у ВБА или ВОА примењује се закон и други прописи којима се уређује Војска Србије, ако овим законом и прописима који су донети на основу овог закона није другачије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan41-stav2">
+						<content>
+							<p>На пријем у радни однос, права и дужности и престанак радног односа државних службеника и намештеника на служби у ВБА или ВОА примењује се закон којим се уређује одбрана Републике Србије и прописи о државним службеницима и намештеницима, ако овим законом и прописима који су донети на основу овог закона није другачије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan41-stav3">
+						<content>
+							<p>Посебне критеријуме и поступак за пријем у радни однос и престанак радног односа лица из <ref wId="ref102" href="akn/rs/act/2013/17-3/srp@/!main~art_41__para_1->para_2" >ст. 1. и 2. овог</ref> члана уређује Влада, на предлог министра одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od1-clan42">
+					<num>42.</num>
+					<paragraph wId="gla8-od1-clan42-stav1">
+						<intro>
+							<p>Припадник ВБА, односно ВОА:</p>
+						</intro>
+						<point wId="gla8-od1-clan42-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> дужан је да извршава налоге директора ВБА, односно директора ВОА или непосредно претпостављеног и да га извештава о свом раду;</p>
+							</content>
+						</point>
+						<point wId="gla8-od1-clan42-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> не сме да изражава и заступа своја политичка уверења приликом обављања службених дужности;</p>
+							</content>
+						</point>
+						<point wId="gla8-od1-clan42-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> самосталан је у раду и лично је одговоран за незаконито поступање.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan42-stav2">
+						<content>
+							<p>Ако припадник ВБА, односно ВОА сматра да је налог директора ВБА, односно директора ВОА или претпостављеног незаконит, дужан је да га у писаној форми на то упозори, а ако претпостављени и даље инсистира на његовом извршењу, дужан је да тражи писану потврду налога. Ако налог буде потврђен, обавезан је да о томе извести вишег претпостављеног и унутрашњу контролу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan42-stav3">
+						<content>
+							<p>У случају да припадник ВБА, односно ВОА има сазнања о незаконитом поступању у служби, обавезан је да то пријави директору и унутрашњој контроли, без последица по свој статус.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan42-stav4">
+						<content>
+							<p>Ако директор ВБА, односно ВОА или унутрашња контрола не поступе по пријави из <ref wId="ref103" href="akn/rs/act/2013/17-3/srp@/!main~art_42__para_3" >става 3. овог</ref> члана припадник ВБА, односно ВОА може да се обрати телима за надзор и контролу, без последица по свој статус.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od2-clan43">
+					<num>43.</num>
+					<paragraph wId="gla8-od2-clan43-stav1">
+						<content>
+							<p>Припадник ВБА, односно ВОА, као и физичко лице са којим је успостављена тајна сарадња може да сведочи пред правосудним органима у поступку против лица која су осумњичена на основу поступања ВБА или ВОА, само уколико је обезбеђена заштита његовог идентитета, на основу овог закона, односно закона којим се уређује кривични поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od2-clan44">
+					<num>44.</num>
+					<paragraph wId="gla8-od2-clan44-stav1">
+						<content>
+							<p>Овлашћено службено лице је припадник ВБА, односно ВОА који у свом раду примењује овлашћења прописана овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od2-clan44-stav2">
+						<content>
+							<p>Које лице се сматра овлашћеним службеним лицем ВБА, односно ВОА, као и обим његовог овлашћења прописује министар одбране на предлог директора ВБА, односно директора ВОА.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od2-clan44-stav3">
+						<content>
+							<p>Овлашћено службено лице ВБА, односно ВОА има службену легитимацију са значком, а припадник ВБА, односно ВОА који нема статус овлашћеног службеног лица има само службену легитимацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od2-clan44-stav4">
+						<content>
+							<p>Врсту, облик и садржај службене легитимације и изглед значке ВБА и ВОА прописује Влада, на предлог министра одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od3-clan45">
+					<num>45.</num>
+					<paragraph wId="gla8-od3-clan45-stav1">
+						<content>
+							<p>Овлашћеном службеном лицу ВБА, односно ВОА, на предлог директора ВБА, односно директора ВОА припада додатни коефицијент на плату у висини одређеној прописом који доноси министар одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od3-clan45-stav2">
+						<content>
+							<p>Припаднику ВБА, односно ВОА који нема статус из <ref wId="ref104" href="akn/rs/act/2013/17-3/srp@/!main~art_45__para_1" >става 1. овог</ref> члана, на предлог директора ВБА, односно директора ВОА, може се утврдити додатни коефицијент на плату у висини одређеној прописом који доноси министар одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od4-clan46">
+					<num>46.</num>
+					<paragraph wId="gla8-od4-clan46-stav1">
+						<content>
+							<p>Припаднику ВБА, односно ВОА је забрањено да јавно иступа и износи податке и сазнања о раду ВБА или ВОА, као и друге податке из области безбедности од значаја за одбрану, без сагласности директора ВБА, односно директора ВОА.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od5-clan47">
+					<num>47.</num>
+					<paragraph wId="gla8-od5-clan47-stav1">
+						<content>
+							<p>Лице које приликом тајне сарадње са ВБА или ВОА претрпи телесно оштећење, односно изгуби способност за рад, има права по том основу као припадник ВБА, односно ВОА.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od5-clan47-stav2">
+						<content>
+							<p>У случају смрти лица из <ref wId="ref105" href="akn/rs/act/2013/17-3/srp@/!main~art_47__para_1" >става 1. овог</ref> члана, чланови његове породице имају иста права као чланови породице припадника ВБА, односно ВОА.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od6-clan48">
+					<num>48.</num>
+					<paragraph wId="gla8-od6-clan48-stav1">
+						<content>
+							<p>Ако се против припадника или бившег припадника ВБА, односно ВОА или лица са којим је успостављена тајна сарадња са ВБА или ВОА покрене кривични поступак због радњи учињених у вршењу службе, односно у тајној сарадњи, има право на правног заступника кога му предложи ВБА или ВОА, осим ако је кривични поступак покренут на основу кривичне пријаве ВБА или ВОА.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od6-clan48-stav2">
+						<content>
+							<p>Припадници ВБА и ВОА, лица са којима је успостављена тајна сарадња и чланови њихових породица имају право на правну и материјалну помоћ Републике Србије, ако су у вршењу службе задржани, ухапшени или осуђени ван територије Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od6-clan48-stav3">
+						<content>
+							<p>Ако су због послова из надлежности ВБА или ВОА, односно тајне сарадње доведени у опасност живот, лична и имовинска безбедност припадника ВБА, односно ВОА или лица са којима је успостављена тајна сарадња, односно чланова њихових породица, агенција ће им, осим правне помоћи, обезбедити и другу помоћ и заштиту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od7-clan49">
+					<num>49.</num>
+					<paragraph wId="gla8-od7-clan49-stav1">
+						<content>
+							<p>ВБА и ВОА за своје припаднике могу да уговоре животно осигурање, осигурање за случај смрти или губитка радне способности, у складу са ризицима у вршењу службе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od8-clan50">
+					<num>50.</num>
+					<paragraph wId="gla8-od8-clan50-stav1">
+						<content>
+							<p>Припадници ВБА, односно ВОА могу бити упућени у иностранство у оквиру сарадње са страном службом безбедности или другом одговарајућом службом, на основу међународног уговора, односно у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od9-clan51">
+					<num>51.</num>
+					<paragraph wId="gla8-od9-clan51-stav1">
+						<content>
+							<p>Припадник ВБА, односно ВОА који дође до сазнања да је у раду ВБА или ВОА дошло до повреде уставности и законитости, људских права и слобода, професионалности, сразмерности у примени овлашћења и политичке и идеолошке неутралности, може непосредно да се обрати генералном инспектору, министру одбране, Влади и надлежном одбору Народне скупштине, без последица по свој статус.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od9-clan51-stav2">
+						<content>
+							<p>Припадник ВБА, односно ВОА може да се обрати генералном инспектору и надлежном одбору Народне скупштине и када сматра да је због повреда из <ref wId="ref106" href="akn/rs/act/2013/17-3/srp@/!main~art_51__para_1" >става 1. овог</ref> члана дошло до угрожавања његових права у обављању послова и задатака из надлежности ВБА или ВОА.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>НАДЗОР И КОНТРОЛА РАДА</heading>
+				<article wId="gla9-od1-clan52">
+					<num>52.</num>
+					<paragraph wId="gla9-od1-clan52-stav1">
+						<content>
+							<p>Народна скупштина врши надзор над радом ВБА и ВОА, у складу са одредбама закона којим се уређују основе уређења служби безбедности Републике Србије и овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan53">
+					<num>53.</num>
+					<paragraph wId="gla9-od2-clan53-stav1">
+						<content>
+							<p>Влада преко Министарства одбране спроводи контролу, обезбеђује потребне ресурсе за рад ВБА и ВОА и остварује остала овлашћења, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od3-clan54">
+					<num>54.</num>
+					<paragraph wId="gla9-od3-clan54-stav1">
+						<intro>
+							<p>Генерални инспектор:</p>
+						</intro>
+						<point wId="gla9-od3-clan54-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> надзире примену начела политичке, идеолошке и интересне неутралности у раду ВБА и ВОА и њихових припадника;</p>
+							</content>
+						</point>
+						<point wId="gla9-od3-clan54-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> надзире законитост примене посебних поступака и мера за тајно прикупљање података;</p>
+							</content>
+						</point>
+						<point wId="gla9-od3-clan54-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> надзире законитост трошења буџетских и других средстава за рад;</p>
+							</content>
+						</point>
+						<point wId="gla9-od3-clan54-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> даје мишљење на нацрте закона, других прописа и општих аката из надлежности ВБА и ВОА;</p>
+							</content>
+						</point>
+						<point wId="gla9-od3-clan54-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> утврђује чињенице о уоченим незаконитостима или неправилностима у раду ВБА и ВОА и њихових припадника;</p>
+							</content>
+						</point>
+						<point wId="gla9-od3-clan54-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> подноси извештај министру одбране о резултатима надзора са предлогом мера.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-od3-clan54-stav2">
+						<content>
+							<p>Генералног инспектора поставља Влада на период од пет година, на предлог министра одбране, уз мишљење Савета за националну безбедност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od3-clan54-stav3">
+						<content>
+							<p>Генерални инспектор је одговоран за рад министру одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od3-clan54-stav4">
+						<content>
+							<p>Генерални инспектор подноси извештај о спроведеној контроли најмање једном годишње надлежном одбору Народне скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od3-clan54-stav5">
+						<content>
+							<p>Генерални инспектор не може бити члан политичке странке, нити обављати другу јавну функцију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od3-clan55">
+					<num>55.</num>
+					<paragraph wId="gla9-od3-clan55-stav1">
+						<content>
+							<p>За генералног инспектора може бити постављено лице које има најмање девет година радног искуства у струци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od3-clan55-stav2">
+						<content>
+							<p>Генерални инспектор има статус државног службеника у III групи положаја у Министарству одбране, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od3-clan55-stav3">
+						<intro>
+							<p>Генерални инспектор може, поред услова предвиђених законом, бити разрешен дужности и пре истека периода на који је постављен, у следећим случајевима:</p>
+						</intro>
+						<point wId="gla9-od3-clan55-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> на лични захтев;</p>
+							</content>
+						</point>
+						<point wId="gla9-od3-clan55-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако трајно изгуби здравствену способност да обавља своју дужност;</p>
+							</content>
+						</point>
+						<point wId="gla9-od3-clan55-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> када је осуђен за кривично дело на безусловну казну затвора од најмање шест месеци или кажњиво дело које га чини недостојним за вршење дужности;</p>
+							</content>
+						</point>
+						<point wId="gla9-od3-clan55-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако не поступа у складу са Уставом, законом и другим прописом, према правилима струке, непристрасно и политички неутрално.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-od3-clan55-stav4">
+						<content>
+							<p>Поступак за разрешење генералног инспектора може покренути Влада или министар одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od3-clan56">
+					<num>56.</num>
+					<paragraph wId="gla9-od3-clan56-stav1">
+						<content>
+							<p>Начин извршавања послова и задатака из <ref wId="ref107" href="akn/rs/act/2013/17-3/srp@/!main~art_54" >члана 54. овог</ref> закона уређује министар  одбране, уз прибављено мишљење надлежног одбора Народне скупштине.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od3-clan56-stav2">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref108" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od4-clan57">
+					<num>57.</num>
+					<paragraph wId="gla9-od4-clan57-stav1">
+						<content>
+							<p>Унутрашња контрола ВБА, односно ВОА врши контролу законитости рада и примене овлашћења њихових припадника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od4-clan57-stav2">
+						<content>
+							<p>Руководилац унутрашње контроле је непосредно потчињен директору ВБА, односно ВОА коме редовно подноси извештаје о раду и о евентуалним злоупотребама и неправилностима у раду ВБА или ВОА.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od4-clan57-stav3">
+						<content>
+							<p>Руководилац унутрашње контроле је дужан да обавести генералног инспектора, а по потреби и надлежни одбор Народне скупштине, када има сазнања да директор ВБА, односно директор ВОА није отклонио незаконитост или неправилност у раду коју је утврдила унутрашња контрола.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od4-clan57-stav4">
+						<content>
+							<p>На захтев унутрашње контроле, а по одлуци директора ВБА, односно директора ВОА, припадник ВБА, односно ВОА је обавезан да се подвргне безбедносној провери, провери психофизичке способности, провери здравственог стања, полиграфском тестирању и другим проверама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od4-clan57-stav5">
+						<content>
+							<p>Начин вршења унутрашње контроле ВБА, односно ВОА, као и друга питања од  значаја за њен рад уређује министар одбране.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od4-clan57-stav6">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref109" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>ФИНАНСИРАЊЕ</heading>
+				<article wId="gla10-clan58">
+					<num>58.</num>
+					<heading>Средства за рад</heading>
+					<paragraph wId="gla10-clan58-stav1">
+						<content>
+							<p>Средства за рад ВБА и ВОА се обезбеђују у буџету Републике Србије, у складу са законом којим се уређује буџетски систем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan58-stav2">
+						<content>
+							<p>Подаци о финансијском и материјалном пословању ВБА и ВОА представљају тајне податке, у складу са законом којим се уређује тајност података*.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan59">
+					<num>59.</num>
+					<heading>*Службени  гласник РС, број <ref wId="ref111" href="akn/rs/act/2013/17/srp@">17/2013</ref></heading>
+					<paragraph wId="gla10-clan59-stav1">
+						<content>
+							<p>За набавку ствари намењених за извршавање послова и задатака из надлежности ВБА и ВОА примењују се прописи којима се уређују набавке за потребе Министарства одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan59-stav2">
+						<content>
+							<p>Приликом набавки из <ref wId="ref110" href="akn/rs/act/2013/17-3/srp@/!main~art_59__para_1" >става 1. овог</ref> члана, ВБА и ВОА су овлашћене да користе податке, документа и средства која служе за прикривање идентитета агенције и њених припадника.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla11">
+				<num>XI</num>
+				<heading>ЗАШТИТА И ЧУВАЊЕ ТАЈНИХ ПОДАТАКА</heading>
+				<article wId="gla11-clan60">
+					<num>60.</num>
+					<paragraph wId="gla11-clan60-stav1">
+						<content>
+							<p>Припадник ВБА, односно ВОА, који има приступ подацима и документима који су законом и другим прописима одређени као тајни, дужан је да их штити и чува за време и после престанка рада у ВБА или ВОА, у складу са прописима из области одбране и  тајности података*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan60-stav2">
+						<content>
+							<p>Припадник ВБА, односно ВОА је дужан да и после престанка рада у ВБА или ВОА штити тајност идентитета припадника ВБА, односно ВОА, лица са којима је успостављена тајна сарадња, као и других извора података, односно начина на који је податак прикупљен, у складу са законом којим се уређује тајност података*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan60-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref112" href="akn/rs/act/2013/17/srp@">17/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla12">
+				<num>XII</num>
+				<heading>ЗАШТИТА ПРАВА ГРАЂАНА</heading>
+				<article wId="gla12-clan61">
+					<num>61.</num>
+					<paragraph wId="gla12-clan61-stav1">
+						<content>
+							<p>Грађанин који сматра да су му појединачним актом или радњом ВБА или ВОА повређена или ускраћена људска права или слободе, ради заштите својих права, може да се обрати генералном инспектору, односно органима и институцијама Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan62">
+					<num>62.</num>
+					<paragraph wId="gla12-clan62-stav1">
+						<content>
+							<p>За штету коју својим незаконитим или неправилним радом ВБА или ВОА проузрокује физичким и правним лицима одговара Република Србија.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla13">
+				<num>XIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla13-clan63">
+					<num>63.</num>
+					<paragraph wId="gla13-clan63-stav1">
+						<content>
+							<p>Прописи за извршење овог закона донеће се у року од шест месеци од дана почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan63-stav2">
+						<content>
+							<p>Прописи донети за извршење Закона о службама безбедности Савезне Републике Југославије („Службени лист СРЈ”, број <ref wId="ref113" href="akn/rs/act/02/37/srp@">37/02</ref> и „Службени лист СЦГ”, број <ref wId="ref114" href="akn/rs/act/04/17/srp@">17/04</ref>) настављају да се примењују до доношења одговарајућих прописа за извршење овог закона, ако нису супротни одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan63-stav3">
+						<content>
+							<p>До доношења прописа о уређењу судова и почетка рада Врховног касационог суда, послове Врховног касационог суда из одредаба <ref wId="ref115" href="akn/rs/act/2013/17-3/srp@/!main~art_14" >члана 14. овог</ref> закона вршиће Врховни суд Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla13-clan64">
+					<num>64.</num>
+					<paragraph wId="gla13-clan64-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о службама безбедности Савезне Републике Југославије („Службени лист СРЈ”, број <ref wId="ref116" href="akn/rs/act/02/37/srp@">37/02</ref> и „Службени лист СЦГ”, број  <ref wId="ref117" href="akn/rs/act/04/17/srp@">17/04</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla13-clan65">
+					<num>65.</num>
+					<paragraph wId="gla13-clan65-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

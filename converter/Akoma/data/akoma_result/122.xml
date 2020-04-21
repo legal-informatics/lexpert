@@ -1,0 +1,3296 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о јавном тужилаштву">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2008/116-27/main"/>
+					<FRBRuri value="akn/rs/act/2008/116-27"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2016/63-23/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2016/63-23/srp@"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2016/63-23/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2016/63-23/srp@.akn"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2008-12-22" name="службени гласник рс“" number="116" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="2. Тужилаштво" value="2. тужилаштво" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2008-01-01" refersTo="116/2008-27" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2009-01-01" refersTo="104/2009-3" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2010-01-01" refersTo="101/2010-4" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2011-01-01" refersTo="78/2011-3" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2011-01-01" refersTo="101/2011-273" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2012-01-01" refersTo="38/2012-39" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2012-01-01" refersTo="121/2012-7" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="2013-01-01" refersTo="101/2013-13" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="2014-01-01" refersTo="111/2014-54" source="#somebody" type="amendment" wId="e9"/>
+				<eventRef date="2014-01-01" refersTo="117/2014-3" source="#somebody" type="amendment" wId="e10"/>
+				<eventRef date="2015-01-01" refersTo="106/2015-61" source="#somebody" type="amendment" wId="e11"/>
+				<eventRef date="2016-01-01" refersTo="63/2016-23" source="#somebody" type="amendment" wId="e12"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2008-12-22" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="0001-01-01" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2010-01-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="тужиоца"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавног"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="тужилаштава"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="управе"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="заменика"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавних"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="напредовање"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="рад"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="обезбеђивање"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="тужилачке"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="обављање"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="средстава"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="правосудне"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="одговорност"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="дисциплинска"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="послова"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="дужности"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="престанак"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="вредновање"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="тужилаштвима"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="рада"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавним"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="избор"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sekretara"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinska komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinske komisije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinskog tužioca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinskom komisijom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnim većem tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državno veće tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnog veća tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnom veću tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Etičkim kodeksom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Etičkog kodeksa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za pravosuđe"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna skupština"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnom skupštinom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluka Državnog veća tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluka US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odlukom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluku US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebno odeljenje za suzbijanje organizovanog kriminala"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnog odeljenja za suzbijanje organizovanog kriminala Okružnog javnog tužilaštva u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privrednog apelacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkim javnim tužiocem"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkog javnog tužilaštva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkog javnog tužioca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkom javnom tužilaštvu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkom javnom tužiocu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužilaštvo za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužilaštvo za organizovani kriminal i Tužilaštvo za ratne zločine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužilaštvo za ratne zločine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužilaštvu za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstvo nadležno za pravosuđe"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Koeficijent"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Niko"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ništav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. decembra 2009."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2014."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. septembra 2009."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. septembra 2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="100."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="104/2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="115."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="127."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="130. stav 1. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. jula 2016"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. oktobra 2014"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. decembra 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 2. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. oktobra 2011"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. novembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. aprila 2012"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. decembra 2010"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. oktobra 2014"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3,00."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2009."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2012."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="55. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="57."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6,00."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="65."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="82. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="84."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="88. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="89."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. i 10. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="99. i 100."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу даном конституисања Државног већа тужилаца, а примењује се од 1. јануара 2010. године, изузев одредаба чл. 74–84. овог закона, које се примењују од дана конституисања Државног већа тужилаца (види члан 140. Закона).До доношења подзаконских прописа из овог закона примењују се одредбе прописа донетих на основу Закона о јавном тужилаштву („Службени гласник РС“, бр. 63/2001, 42/02, 39/03, 44/04, 51/04, 61/05, 46/06 и 106/06), ако нису супротни одредбама овог закона (види члан 137. Закона).Престао је да важи члан 136. (види члан 10. Закона о изменама и допунама Закона о буџету Републике Србије за 2011. годину - 78/2011-3).Одлуком Уставног суда број IУз 1633/2010 (Службени гласник РС, број 38/2012) престала је да важи одредба члана 7. став 1. Закона о изменама и допунама Закона о јавном тужилаштву („Службени гласник РС”, број 101/2010) (одредбе које нису унете у пречишћени текст Закона о јавном тужилаштву), у делу који гласи: „односно постојања разлога који указују на повреду поступка у доношењу одлуке о избору појединог заменика јавног тужиоца или предлогу за избор појединог јавног тужиоца и заменика јавног тужиоца”, јер је утврђено да није у сагласности са Уставом (види Одлуку УС - 38/2012-39).Одлуком Уставног суда број IУз 428/2013 (Службени гласник РС, број 111/2014) престала је да важи друга реченица члана 75. став 2. Закона о јавном тужилаштву („Службени гласник РС”, бр. 116/2008, 104/2009, 101/2010, 78/2011 – други закон, 101/2011, 38/2012 – УС, 121/2012, 101/2013), која гласи: „Државно веће тужилаца дужно је да приликом предлагања кандидата за избор заменика основног јавног тужиоца, предложи кандидата који је завршио почетну обуку у Правосудној академији, у складу са посебним законом.”, јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 111/2014-54).Закон о допунама Закона о јавном тужилаштву („Службени гласник РС“, број 106/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2015. године, а члан 1. овог закона почиње да се примењује од 1. септембра 2016. године (види члан 4. Закона – 106/2015-61).Одлуком Уставног суда број IУз 80/2014 (Службени гласник РС, број 63/2016) престалe су да важи одредбе члана 73. ст. 2, 5. и 6. Закона о јавном тужилаштву („Службени гласник РС”, бр. 116/08, 104/09, 101/10, 78/11 – др. закон, 101/11, 38/12 – Одлука УС, 121/12, 101/13, 111/14 – Одлука УС, 117/14 и 106/15) јер је утврђено да нису у сагласности са Уставом (види Одлуку УС – 63/2016-23).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу даном конституисања Државног већа тужилаца, а примењује се од 1. јануара 2010. године, изузев одредаба чл. 74–84. овог закона, које се примењују од дана конституисања Државног већа тужилаца (види члан 140. Закона).До доношења подзаконских прописа из овог закона примењују се одредбе прописа донетих на основу Закона о јавном тужилаштву („Службени гласник РС“, бр. 63/2001, 42/02, 39/03, 44/04, 51/04, 61/05, 46/06 и 106/06), ако нису супротни одредбама овог закона (види члан 137. Закона).Престао је да важи члан 136. (види члан 10. Закона о изменама и допунама Закона о буџету Републике Србије за 2011. годину - 78/2011-3).Одлуком Уставног суда број IУз 1633/2010 (Службени гласник РС, број 38/2012) престала је да важи одредба члана 7. став 1. Закона о изменама и допунама Закона о јавном тужилаштву („Службени гласник РС”, број 101/2010) (одредбе које нису унете у пречишћени текст Закона о јавном тужилаштву), у делу који гласи: „односно постојања разлога који указују на повреду поступка у доношењу одлуке о избору појединог заменика јавног тужиоца или предлогу за избор појединог јавног тужиоца и заменика јавног тужиоца”, јер је утврђено да није у сагласности са Уставом (види Одлуку УС - 38/2012-39).Одлуком Уставног суда број IУз 428/2013 (Службени гласник РС, број 111/2014) престала је да важи друга реченица члана 75. став 2. Закона о јавном тужилаштву („Службени гласник РС”, бр. 116/2008, 104/2009, 101/2010, 78/2011 – други закон, 101/2011, 38/2012 – УС, 121/2012, 101/2013), која гласи: „Државно веће тужилаца дужно је да приликом предлагања кандидата за избор заменика основног јавног тужиоца, предложи кандидата који је завршио почетну обуку у Правосудној академији, у складу са посебним законом.”, јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 111/2014-54).Закон о допунама Закона о јавном тужилаштву („Службени гласник РС“, број 106/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2015. године, а члан 1. овог закона почиње да се примењује од 1. септембра 2016. године (види члан 4. Закона – 106/2015-61).Одлуком Уставног суда број IУз 80/2014 (Службени гласник РС, број 63/2016) престалe су да важи одредбе члана 73. ст. 2, 5. и 6. Закона о јавном тужилаштву („Службени гласник РС”, бр. 116/08, 104/09, 101/10, 78/11 – др. закон, 101/11, 38/12 – Одлука УС, 121/12, 101/13, 111/14 – Одлука УС, 117/14 и 106/15) јер је утврђено да нису у сагласности са Уставом (види Одлуку УС – 63/2016-23).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О јавном тужилаштву „Службени гласник РС“, бр. <ref wId="ref153" href="akn/rs/act/2008/116/srp@">116 од 22. децембра 2008</ref>, <ref wId="ref154" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref>, <ref wId="ref155" href="akn/rs/act/2010/101/srp@">101 од 29. децембра 2010</ref>, <ref wId="ref156" href="akn/rs/act/2011/78/srp@">78 од 19. октобра 2011</ref> - др. закон, <ref wId="ref157" href="akn/rs/act/2011/101/srp@">101 од 30. децембра 2011</ref>, <ref wId="ref158" href="akn/rs/act/2012/38/srp@">38 од 25. априла 2012</ref> - УС, <ref wId="ref159" href="akn/rs/act/2012/121/srp@">121 од 24. децембра 2012</ref>, <ref wId="ref160" href="akn/rs/act/2013/101/srp@">101 од 20. новембра 2013</ref>, <ref wId="ref161" href="akn/rs/act/2014/111/srp@">111 од 15. октобра 2014</ref> - УС, <ref wId="ref162" href="akn/rs/act/2014/117/srp@">117 од 29. октобра 2014</ref>, <ref wId="ref163" href="akn/rs/act/2015/106/srp@">106 од 21. децембра 2015</ref>, <ref wId="ref164" href="akn/rs/act/2016/63/srp@">63 од 15. јула 2016</ref> - УС</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>прва</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом се уређује организација и надлежност јавних тужилаштава, услови и поступак за избор и престанак функције јавног тужиоца и заменика јавног тужиоца, права и дужности јавног тужиоца и заменика јавног тужиоца, вредновање рада јавног тужиоца и заменика јавног тужиоца, напредовање и дисциплинска одговорност јавног тужиоца и заменика јавног тужиоца, обављање послова правосудне управе и тужилачке управе у јавним тужилаштвима, обезбеђивање средстава за рад јавних тужилаштава и друга питања од значаја за рад јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Јавно тужилаштво</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Јавно тужилаштво је самостални  државни орган који гони учиниоце кривичних дела и других кажњивих дела и предузима мере за заштиту уставности и законитости.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Јавно тужилаштво врши своју функцију на основу Устава, закона, потврђеног међународног уговора и прописа донетог на основу закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Оснивање и организација</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Републичко јавно тужилаштво је највише јавно тужилаштво у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Седиште Републичког јавног тужилаштва је у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Оснивање, седишта и подручја других јавних тужилаштава уређују се законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Функција јавног тужилаштва</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Функцију јавног тужилаштва врше Републички јавни тужилац и други јавни тужиоци у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Самосталност у раду</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца је самосталан у вршењу својих овлашћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Забрањен је сваки утицај на рад јавног тужилаштва и на поступање у предметима од стране извршне и законодавне власти, коришћењем јавног положаја, средстава јавног информисања или на било који други начин којим може да се угрози самосталност у раду јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav3">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца дужни су да  одбију сваку радњу која представља утицај на самосталност у раду јавног  тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav4">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref0" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Обележја јавног тужилаштва</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Јавно тужилаштво има печат који садржи назив и седиште јавног тужилаштва и назив и грб Републике Србије, у складу са посебним законима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>На згради у којој је смештено јавно тужилаштво морају бити истакнути назив јавног тужилаштва, грб и застава Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav3">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца у вршењу јавнотужилачке функције користе службену легитимацију и значку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav4">
+						<content>
+							<p>Образац, изглед и начин употребе службене легитимације и значке ближе ће се уредити Правилником о управи у јавним тужилаштвима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Службени језик и писмо</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>У јавним тужилаштвима у Републици Србији у службеној употреби су српски језик и ћириличко писмо.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<content>
+							<p>Службена употреба других језика и писама уређује се законом на основу Устава.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Дужност достављања списа јавном тужилаштву</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Судови, други државни органи, органи јединица локалне самоуправе и аутономне покрајине, као и друге организације и правна лица дужни су да јавном тужилаштву на његов захтев, доставе списе и обавештења потребна за предузимање радњи за које је надлежно. Када јавно тужилаштво везује законски рок, дужни су да му списе неодложно доставе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Дужност пружања података и објашњења јавном тужилаштву</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Сви су дужни да јавном тужилаштву, на његов захтев, непосредно пруже објашњења и податке који су му потребни за предузимање радњи на које је законом овлашћено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav2">
+						<content>
+							<p>Јавно тужилаштво дужно је да прима поднеске и изјаве о стварима из своје надлежности, а може да тражи и допуне и објашњења у вези с примљеним поднесцима и изјавама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<heading>Обавештавање јавности</heading>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Јавно тужилаштво може да упозна јавност о стању криминалитета и другим појавама које запази у раду, у складу са Правилником о управи у јавним тужилаштвима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav2">
+						<content>
+							<p>У границама својих законом одређених овлашћења и у складу с интересима поступка, водећи рачуна о заштити приватности учесника поступка, јавно тужилаштво може обавештавати јавност и о појединим предметима у којима поступа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav3">
+						<content>
+							<p>Начела у вршењу јавнотужилачке функције</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav4">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref1" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav5">
+						<content>
+							<p>Члан 10а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav6">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца дужни су  да стручно, савесно, непристрасно, правично и без непотребног одлагања врше  своју функцију посебно водећи рачуна о заштити оштећених и спречавању  дискриминације по било ком основу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav7">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref2" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan11">
+					<num>11.</num>
+					<heading>Значење израза у овом закону</heading>
+					<paragraph wId="gla1-clan11-stav1">
+						<content>
+							<p>Поједини изрази употребљени у овом закону имају значење:</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>друга</num>
+				<heading>УРЕЂЕЊЕ ЈАВНОГ ТУЖИЛАШТВА</heading>
+				<article wId="gla2-od1-clan12">
+					<num>12.</num>
+					<heading>Појам</heading>
+					<paragraph wId="gla2-od1-clan12-stav1">
+						<content>
+							<p>Јавно тужилаштво чине јавни тужилац, заменици јавног тужиоца и особље јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan12-stav2">
+						<content>
+							<p>Функцију јавног тужилаштва врши јавни тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan12-stav3">
+						<content>
+							<p>Сви у јавном тужилаштву подређени су јавном тужиоцу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan13">
+					<num>13.</num>
+					<heading>Врсте јавних тужилаштава</heading>
+					<paragraph wId="gla2-od1-clan13-stav1">
+						<content>
+							<p>Јавно тужилаштво Републике Србије чине Републичко јавно тужилаштво, апелациона јавна тужилаштва, виша јавна тужилаштва, основна јавна тужилаштва и јавна тужилаштва посебне надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav2">
+						<content>
+							<p>Јавна тужилаштва посебне надлежности су Тужилаштво за организовани криминал и Тужилаштво за ратне злочине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav3">
+						<content>
+							<p>Републичко јавно тужилаштво, Тужилаштво за организовани криминал и Тужилаштво за ратне злочине, оснивају се за територију Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav4">
+						<content>
+							<p>Тужилаштво за организовани криминал и Тужилаштво за ратне злочине имају седиште у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav5">
+						<content>
+							<p>Апелационо јавно тужилаштво оснива се за подручје апелационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav6">
+						<content>
+							<p>Више јавно тужилаштво оснива се за подручје вишег суда, а  основно јавно тужилаштво се оснива за подручје једног или више основних судова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav7">
+						<content>
+							<p>Оснивање,  седиштa и подручја апелационих, виших и основних јавних тужилаштава уређују се посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav8">
+						<content>
+							<p>Јавно тужилаштво може имати одељења ван свог  седишта, као и посебна одељења која се образују за гоњење одређених кривичних  дела, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav9">
+						<content>
+							<p>Тужилаштво за организовани криминал може имати одељења ван свог седишта, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav10">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref3" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan14">
+					<num>14.</num>
+					<heading>Стварна надлежност</heading>
+					<paragraph wId="gla2-od1-clan14-stav1">
+						<content>
+							<p>Стварна надлежност јавног тужилаштва одређује се у складу са одредбама закона које важе за утврђивање стварне надлежности суда, осим када законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan15">
+					<num>15.</num>
+					<heading>Месна надлежност</heading>
+					<paragraph wId="gla2-od1-clan15-stav1">
+						<content>
+							<p>Месна надлежност јавног тужилаштва одређује се у складу са законом којим се уређују седишта и подручја јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan16">
+					<num>16.</num>
+					<heading>Надређеност непосредно вишег јавног тужиоца нижем јавном тужиоцу</heading>
+					<paragraph wId="gla2-od2-clan16-stav1">
+						<content>
+							<p>Нижи јавни тужилац подређен је непосредно вишем јавном тужиоцу, а ниже јавно тужилаштво непосредно вишем јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan16-stav2">
+						<content>
+							<p>Основно јавно тужилаштво је ниже у односу на више јавно тужилаштво, а више јавно тужилаштво је ниже у односу на апелационо јавно тужилаштво. Јавно тужилаштво посебне надлежности и апелационо јавно тужилаштво је ниже у односу на Републичко јавно тужилаштво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan16-stav3">
+						<content>
+							<p>Сваки јавни тужилац је подређен Републичком јавном тужиоцу и свако јавно тужилаштво Републичком јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan17">
+					<num>17.</num>
+					<heading>Сукоб надлежности</heading>
+					<paragraph wId="gla2-od2-clan17-stav1">
+						<content>
+							<p>Сукоб надлежности између јавних тужилаца решава непосредно виши јавни тужилац који је надређен за јавне тужиоце који су у сукобу надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan17-stav2">
+						<content>
+							<p>Сукоб надлежности између јавних тужилаца посебне надлежности међусобно и сукоб надлежности јавних тужилаца посебне надлежности и других јавних тужилаца решава Републички јавни тужилац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan18">
+					<num>18.</num>
+					<heading>Обавезна упутства непосредно вишег јавног тужиоца нижем јавном тужиоцу</heading>
+					<paragraph wId="gla2-od2-clan18-stav1">
+						<content>
+							<p>Непосредно виши јавни тужилац може издати нижем јавном тужиоцу обавезно упутство за поступање у појединим предметима када постоји сумња у ефикасност и законитост његовог поступања, а Републички јавни тужилац сваком јавном тужиоцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav2">
+						<content>
+							<p>Обавезно упутство издаје се у писменој форми и мора садржати разлог и образложење за његово издавање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref4" href="akn/rs/act/2016/63-23/srp@/!main~art_18__para_2" >става 2. овог</ref> члана, јавни тужилац може да изда усмено обавезно  упутство када је то неопходно ради предузимања радњи које не трпе одлагање. У  том случају обавезно упутство у писменом облику доставља се у року од три дана  од дана издавања усменог упутства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav4">
+						<content>
+							<p>Нижи јавни тужилац који сматра да је обавезно упутство незаконито и неосновано може изјавити приговор са образложењем Републичком јавном тужиоцу у року од осам дана од дана пријема упутства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav5">
+						<content>
+							<p>Приговор се подноси преко јавног тужиоца који је издао обавезно упутство и који је дужан да у року од три дана од дана пријема приговора преиспита обавезно упутство које је издао.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav6">
+						<content>
+							<p>Јавни тужилац који је изјавио приговор је дужан да поступа по упутству до одлуке непосредно вишег јавног тужиоца, односно одлуке Републичког јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav7">
+						<content>
+							<p>Непосредно виши јавни тужилац, у поступку преиспитивања, може да донесе одлуку којом ставља ван снаге своје обавезно упутство и у том случају приговор се не доставља Републичком јавном тужиоцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav8">
+						<content>
+							<p>Републички јавни тужилац дужан је да донесе одлуку у року од 15 дана од дана пријема приговора на обавезно упутство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav9">
+						<content>
+							<p>Против обавезног упутства Републичког јавног тужиоца приговор није допуштен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav10">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref5" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan19">
+					<num>19.</num>
+					<heading>Деволуција</heading>
+					<paragraph wId="gla2-od2-clan19-stav1">
+						<content>
+							<p>Непосредно виши јавни тужилац може предузети све радње за које је овлашћен нижи јавни тужилац и тада је дужан да донесе образложено решење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan19-stav2">
+						<content>
+							<p>Нижи јавни тужилац који сматра да је решење непосредно вишег јавног тужиоца неосновано може изјавити приговор Републичком јавном тужиоцу у року од осам дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan19-stav3">
+						<content>
+							<p>Приговор се подноси преко јавног тужиоца који је донео решење и који је дужан да у року од три дана од дана пријема приговора преиспита решење које је издао. До доношења одлуке по приговору нижи јавни тужилац не може предузимати радње у предмету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan19-stav4">
+						<content>
+							<p>Непосредно виши јавни тужилац, у поступку преиспитивања, може да донесе одлуку којом ставља ван снаге своје решење и у том случају приговор се не доставља Републичком јавном тужиоцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan19-stav5">
+						<content>
+							<p>Републички јавни тужилац дужан је да донесе одлуку у року од 15 дана од дана пријема приговора на решење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan20">
+					<num>20.</num>
+					<heading>Супституција</heading>
+					<paragraph wId="gla2-od2-clan20-stav1">
+						<content>
+							<p>Непосредно виши јавни тужилац може овластити нижег јавног тужиоца да поступа у ствари из надлежности другог нижег јавног тужиоца када је надлежни јавни тужилац спречен из правних или стварних разлога да поступа у поједином предмету и тада је дужан да донесе образложено решење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan20-stav2">
+						<content>
+							<p>Изузетно, Републички јавни тужилац може овластити Тужиоца за организовани криминал да поступа у поједином предмету из надлежности другог тужиоца ради ефикаснијег вођења поступка или других важних разлога и тада је дужан да донесе образложено решење. Против решења Републичког тужиоца приговор није допуштен.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan21">
+					<num>21.</num>
+					<heading>Увид у предмете нижег јавног тужиоца</heading>
+					<paragraph wId="gla2-od2-clan21-stav1">
+						<content>
+							<p>Ради остваривања надређености, Републички јавни тужилац има право да изврши увид у сваки предмет, а непосредно виши јавни тужилац у сваки предмет нижег јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan21-stav2">
+						<content>
+							<p>Захтев за увид доставља се нижем јавном тужиоцу који након тога неодложно доставља предмет непосредно вишем јавном тужиоцу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan22">
+					<num>22.</num>
+					<heading>Одговорност</heading>
+					<paragraph wId="gla2-od2-clan22-stav1">
+						<content>
+							<p>Републички јавни тужилац руководи радом и представља јавно тужилаштво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav2">
+						<content>
+							<p>Републички јавни тужилац одговоран је за рад јавног тужилаштва и за свој рад Народној скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav3">
+						<content>
+							<p>Јавни тужилац одговара за рад јавног тужилаштва и за свој рад Републичком јавном тужиоцу и Народној скупштини, а нижи јавни тужилац и непосредно вишем јавном тужиоцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav4">
+						<content>
+							<p>Заменици јавног тужиоца одговарају за свој рад јавном тужиоцу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan23">
+					<num>23.</num>
+					<heading>Надређеност јавног тужиоца заменику јавног тужиоца</heading>
+					<paragraph wId="gla2-od2-clan23-stav1">
+						<content>
+							<p>Заменик јавног тужиоца дужан је да изврши све радње које му јавни тужилац повери.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav2">
+						<content>
+							<p>Заменик јавног тужиоца може без посебног овлашћења да предузме сваку радњу на коју је тужилац овлашћен.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan24">
+					<num>24.</num>
+					<heading>Обавезна упутства јавног тужиоца заменику јавног тужиоца</heading>
+					<paragraph wId="gla2-od2-clan24-stav1">
+						<content>
+							<p>Јавни тужилац може своме заменику издати обавезна упутства за рад и поступање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav2">
+						<content>
+							<p>Обавезно упутство јавни тужилац издаје у писменој форми и мора да садржи образложење за његово издавање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref6" href="akn/rs/act/2016/63-23/srp@/!main~art_24__para_2" >става 2. овог</ref> члана, јавни тужилац може да изда усмено обавезно  упутство када је то неопходно ради предузимања радњи које не трпе одлагање. У  том случају обавезно упутство у писменом облику доставља се у року од три дана  од дана издавања усменог упутства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav4">
+						<content>
+							<p>Заменик јавног тужиоца који сматра да је обавезно упутство незаконито и неосновано може изјавити приговор са образложењем непосредно вишем јавном тужиоцу у року од осам дана од дана пријема упутства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav5">
+						<content>
+							<p>Приговор се подноси преко јавног тужиоца који је издао обавезно упутство и који је дужан да у року од три дана од дана пријема приговора преиспита обавезно упутство које је издао.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav6">
+						<content>
+							<p>Јавни тужилац, у поступку преиспитивања, може донети одлуку да стави ван снаге своје обавезно упутство и у том случају приговор се не доставља непосредно вишем јавном тужиоцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav7">
+						<content>
+							<p>Заменик јавног тужиоца који је изјавио приговор је дужан да поступа по упутству до одлуке непосредно вишег јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav8">
+						<content>
+							<p>Непосредно виши јавни тужилац дужан је да донесе одлуку у року од осам дана од дана пријема приговора на обавезно упутство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav9">
+						<content>
+							<p>Одлука непосредно вишег јавног тужиоца по приговору је коначна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav10">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref7" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan25">
+					<num>25.</num>
+					<heading>Општа упутства Републичког јавног тужиоца</heading>
+					<paragraph wId="gla2-od2-clan25-stav1">
+						<content>
+							<p>Републички јавни тужилац издаје у писменој форми општа обавезна упутства за поступање свих јавних тужилаца ради постизања законитости, делотворности и једнообразности у поступању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan25-stav2">
+						<content>
+							<p>Општа обавезна упутства Републички јавни тужилац може да изда и на предлог Колегијума Републичког јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan26">
+					<num>26.</num>
+					<heading>Општа надлежност</heading>
+					<paragraph wId="gla2-od3-clan26-stav1">
+						<content>
+							<p>Код гоњења за кривична дела, привредне преступе и прекршаје, јавни тужилац поступа пред судом и другим државним органом, предузимајући радње на које је законом овлашћен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan26-stav2">
+						<content>
+							<p>Јавни тужилац поступа у парничном, управном, извршном, ванпарничном и другом поступку, вршећи при томе радње на које је посебним законима овлашћен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan26-stav3">
+						<content>
+							<p>Јавни тужилац поступа у границама своје стварне и месне надлежности, у оквиру надлежности органа пред којим поступа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan27">
+					<num>27.</num>
+					<heading>Захтев за одлагање и прекид извршења</heading>
+					<paragraph wId="gla2-od3-clan27-stav1">
+						<content>
+							<p>Јавни тужилац може захтевати одлагање или прекид извршења одлуке кад сматра да постоје разлози да се ванредним правним средством побија одлука донета у судском или другом поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav2">
+						<content>
+							<p>Захтев се подноси органу који дозвољава извршење одлуке, а ако је извршење почело – органу који га спроводи заједно са доказом да је уложио ванредно правно средство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan28">
+					<num>28.</num>
+					<heading>Последице усвајања захтева</heading>
+					<paragraph wId="gla2-od3-clan28-stav1">
+						<content>
+							<p>У случају усвајања захтева јавног тужиоца из <ref wId="ref8" href="akn/rs/act/2016/63-23/srp@/!main~art_27" >члана 27. овог</ref> закона, одлагање или прекид извршења траје до доношења одлуке о ванредном правном средству јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan28-stav2">
+						<content>
+							<p>Одлука о одлагању или прекиду извршења престаје да важи ако јавни тужилац у року од 30 дана од њеног пријема не уложи ванредно правно средство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan29">
+					<num>29.</num>
+					<heading>Надлежност Републичког јавног тужиоца</heading>
+					<paragraph wId="gla2-od3-clan29-stav1">
+						<content>
+							<p>Републички јавни тужилац врши надлежност јавног тужилаштва у оквиру права и дужности Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan29-stav2">
+						<content>
+							<p>Републички јавни тужилац надлежан је да поступа пред свим судовима и другим органима у Републици Србији и да предузима све радње на које је јавно тужилаштво овлашћено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan29-stav3">
+						<content>
+							<p>Надлежан је и да:</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="gla2-od5-clan29-stav1">
+					<content>
+						<p>У пословима из своје надлежности, Републички јавни тужилац поступа непосредно и преко својих заменика.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od5-clan29-stav2">
+					<content>
+						<p>*Службени гласник РС,  број 101/2013</p>
+					</content>
+				</paragraph>
+				<article wId="gla2-od5-clan30">
+					<num>30.</num>
+					<heading>Надлежност апелационог и јавних тужилаца посебне надлежности</heading>
+					<paragraph wId="gla2-od5-clan30-stav1">
+						<content>
+							<p>Апелациони јавни тужилац врши надлежност апелационог јавног тужилаштва и надлежан је да поступа пред апелационим судом и другим судовима и органима на начин прописан законом, као и да надзире и усмерава основна и виша јавна тужилаштва са своје територије, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan30-stav2">
+						<content>
+							<p>Апелациони јавни тужилац у седишту Привредног апелационог суда поступа и пред тим судом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan30-stav3">
+						<content>
+							<p>Тужилац за организовани криминал и Тужилац за ратне злочине поступају пред надлежним судовима у првом и другом степену и врше друге послове у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan31">
+					<num>31.</num>
+					<heading>Надлежност вишег и основног јавног тужиоца</heading>
+					<paragraph wId="gla2-od5-clan31-stav1">
+						<content>
+							<p>Виши јавни тужилац врши надлежност вишег јавног тужилаштва и надлежан је да поступа пред вишим судом и другим судовима и органима на начин прописан законом и да надзире и усмерава подручна основна јавна тужилаштва на начин прописан овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan31-stav2">
+						<content>
+							<p>Основни јавни тужилац врши надлежност основног јавног тужилаштва и поступа пред основним судом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan31-stav3">
+						<content>
+							<p>Основни јавни тужилац у седишту привредног суда поступа и пред тим судом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan32">
+					<num>32.</num>
+					<heading>Преношење надлежности</heading>
+					<paragraph wId="gla2-od5-clan32-stav1">
+						<content>
+							<p>Ако јавно тужилаштво не може да врши надлежност, Републички јавни тужилац може пренети његову надлежност на друго јавно тужилаштво истог или вишег степена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan32-stav2">
+						<content>
+							<p>Преношење надлежности траје док се не створе услови за рад надлежног јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan33">
+					<num>33.</num>
+					<heading>Одлучивање о захтеву за изузеће</heading>
+					<paragraph wId="gla2-od5-clan33-stav1">
+						<content>
+							<p>Одлуку о изузећу заменика јавног тужиоца доноси јавни тужилац, а о захтеву за изузеће јавног тужиоца непосредно виши јавни тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan33-stav2">
+						<content>
+							<p>Државно веће тужилаца доноси одлуку о изузећу Републичког јавног тужиоца, по прибављеном мишљењу Колегијума Републичког јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan34">
+					<num>34.</num>
+					<heading>Руковођење пословима управе у јавном тужилаштву</heading>
+					<paragraph wId="gla2-od4-clan34-stav1">
+						<content>
+							<p>Јавни тужилац је носилац управе у јавном тужилаштву и одговоран је за правилан и благовремен рад јавног тужилаштва, у складу са законом и Правилником о управи у јавним тужилаштвима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan34-stav2">
+						<content>
+							<p>Јавни тужилац одређује организацију и рад јавног тужилаштва, одлучује о правима по основу рада заменика јавног тужиоца и о радним односима особља у јавном тужилаштву, отклања неправилност и одуговлачење у раду, стара се о одржавању самосталности у раду и угледу јавног тужилаштва и врши друге послове на које је овлашћен законом или другим прописом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan35">
+					<num>35.</num>
+					<heading>Замењивање јавног тужиоца у управи</heading>
+					<paragraph wId="gla2-od4-clan35-stav1">
+						<content>
+							<p>Јавног тужиоца који је одсутан или спречен да руководи јавним тужилаштвом замењује заменик јавног тужиоца одређен годишњим распоредом послова .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan35-stav2">
+						<content>
+							<p>Ако није одређено или нема услова да се одреди ко руководи уместо јавног тужиоца, непосредно виши јавни тужилац одређује руководиоца из реда заменика јавних тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan36">
+					<num>36.</num>
+					<heading>Вршилац функције јавног тужиоца</heading>
+					<paragraph wId="gla2-od4-clan36-stav1">
+						<content>
+							<p>Ако јавном тужиоцу престане функција, Републички јавни тужилац поставља вршиоца функције јавног тужиоца док нови јавни тужилац не ступи на функцију, а највише на годину дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan36-stav2">
+						<content>
+							<p>Вршиоца функције Републичког јавног тужиоца поставља Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan37">
+					<num>37.</num>
+					<heading>Лични лист</heading>
+					<paragraph wId="gla2-od4-clan37-stav1">
+						<content>
+							<p>Државно веће тужилаца води лични лист за сваког јавног тужиоца, заменика јавног тужиоца и запосленог у јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan37-stav2">
+						<content>
+							<p>Податке које лични лист садржи Државном већу тужилаца прослеђује јавни тужилац и одговоран је за њихову тачност, као и лице на које се подаци односе ако их је оно саопштило.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan37-stav3">
+						<content>
+							<p>Подаци које садржи лични лист јесу службена тајна и могу да се користе само у сврху примене овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan37-stav4">
+						<content>
+							<p>Обавезе јавних тужилаца при достављању података потребних за вођење личих листова прописује Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan38">
+					<num>38.</num>
+					<heading>Садржина личног листа</heading>
+					<paragraph wId="gla2-od4-clan38-stav1">
+						<content>
+							<p>Лични лист јавног тужиоца и заменика јавног тужиоца садржи име, презиме, име родитеља, место, дан, месец и годину рођења, податке о пребивалишту, завршеном правном факултету, успеху на студијама, приправничкој пракси, правосудном испиту, кретању у служби, датуму навршења радног века, испуњавању норме, упућивању на рад у друго јавно тужилаштво, удаљавању са функције, дисциплинским мерама, престанку функције, објављеним стручним или научним радовима, вредновању рада, учешћу у програмима стручног усавршавања, знању страних језика и другим посебним знањима, имовинском стању, стамбеним приликама и друге податке везане за рад и положај јавног тужиоца и заменика јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan38-stav2">
+						<content>
+							<p>Лични лист запосленог у јавном тужилаштву садржи име и презиме и податке о рођењу, пребивалишту, завршеној школи, звању или занимању, вредновању рада, кретању у служби, објављеним радовима, учешћу у програмима стручног усавршавања, знању страних језика, имовинском стању, стамбеним приликама и друге податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan38-stav3">
+						<content>
+							<p>Органи који имају податке који се уписују у лични лист дужни су да их доставе на захтев Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan38-stav4">
+						<content>
+							<p>Образац и ближу садржину личних листова из <ref wId="ref9" href="akn/rs/act/2016/63-23/srp@/!main~art_38__para_1->para_2" >ст. 1. и 2. овог</ref> члана прописује Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan39">
+					<num>39.</num>
+					<heading>Правилник о управи у јавним тужилаштвима</heading>
+					<paragraph wId="gla2-od4-clan39-stav1">
+						<content>
+							<p>Правилником о управи у јавним тужилаштвима уређују се: однос јавног тужилаштва према другим државним органима, грађанима и јавности, начин вођења евиденција, начин расподеле предмета, руковање предметима, поступање са архивским материјалом и друга питања значајна за рад јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan39-stav2">
+						<content>
+							<p>Правилник о управи у јавним тужилаштвима доноси министар надлежан за правосуђе, по прибављеном мишљењу Републичког јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan39-stav3">
+						<content>
+							<p>Правилник о управи у јавним тужилаштвима објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan40">
+					<num>40.</num>
+					<heading>Надзор над применом Правилника</heading>
+					<paragraph wId="gla2-od4-clan40-stav1">
+						<content>
+							<p>Министарство надлежно за правосуђе врши надзор над применом Правилника о управи у јавним тужилаштвима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan40-stav2">
+						<content>
+							<p>Министарство надлежно за правосуђе може у вршењу послова надзора од јавних тужилаштава тражити извештаје и податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan40-stav3">
+						<content>
+							<p>Лице које врши надзор може бити само оно које испуњава услове за избор заменика јавног тужиоца у тужилаштву чији рад надзире.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan41">
+					<num>41.</num>
+					<heading>Последице надзора</heading>
+					<paragraph wId="gla2-od4-clan41-stav1">
+						<content>
+							<p>Записник о извршеном надзору доставља се јавном тужиоцу тужилаштва у коме је вршен надзор, непосредно вишем јавном тужиоцу и министру надлежном за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan41-stav2">
+						<content>
+							<p>Јавни тужилац је дужан да непосредно вишег јавног тужиоца, Републичког јавног тужиоца и министра надлежног за правосуђе обавести о мерама предузетим да се уочени недостаци отклоне, роковима за отклањање недостатака, као и разлозима због којих су недостаци и пропусти настали.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan41-stav3">
+						<content>
+							<p>Рок за обавештавање одређује се Правилником о управи у јавним тужилаштвима.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>трећа</num>
+				<heading>ПРАВОСУДНА УПРАВА</heading>
+				<article wId="gla3-clan42">
+					<num>42.</num>
+					<heading>Послови правосудне управе у тужилаштву</heading>
+					<paragraph wId="gla3-clan42-stav1">
+						<content>
+							<p>У правосудну управу спадају послови којима се обезбеђује вршење послова у јавним тужилаштвима, посебно обезбеђивање материјалних, финансијских, просторних и других услова за рад јавних тужилаштава, обезбеђују финансијска средства за стручно усавршавање јавних тужилаца, заменика јавних тужилаца и особља, прописивање стандарда за простор и опрему у јавном тужилаштву, давање сагласности на акт о унутрашњем уређењу и систематизацији јавног тужилаштва и други послови.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan43">
+					<num>43.</num>
+					<heading>Надлежност у пословима правосудне управе</heading>
+					<paragraph wId="gla3-clan43-stav1">
+						<content>
+							<p>Послове правосудне управе врши министарство надлежно за правосуђе, изузев послова правосудне управе који се односе на обезбеђивање финансијских услова за рад јавних тужилаштава, које обавља Државно веће тужилаца, у складу са одредбом <ref wId="ref10" href="akn/rs/act/2016/63-23/srp@/!main~art_127" >члана 127. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan43-stav2">
+						<content>
+							<p>Министарство надлежно за правосуђе може у вршењу послова правосудне управе од јавних тужилаштава тражити извештаје и податке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan44">
+					<num>44.</num>
+					<heading>Забрана утицаја на самосталност јавног тужилаштва</heading>
+					<paragraph wId="gla3-clan44-stav1">
+						<content>
+							<p>Ништав је сваки појединачни акт правосудне управе, којим се дира у самосталност јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan44-stav2">
+						<content>
+							<p>Ништавост акта из <ref wId="ref11" href="akn/rs/act/2016/63-23/srp@/!main~art_44__para_1" >става 1. овог</ref> члана утврђује Управни суд.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>четврта</num>
+				<heading>ПОЛОЖАЈ ЈАВНОГ ТУЖИОЦА И ЗАМЕНИКА ЈАВНОГ ТУЖИОЦА</heading>
+				<article wId="gla4-od1-clan45">
+					<num>45.</num>
+					<heading>Самосталност јавног тужиоца и заменика јавног тужиоца</heading>
+					<paragraph wId="gla4-od1-clan45-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца су у вршењу функције самостални од извршне и законодавне власти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan45-stav2">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца дужни су да очувају поверење у своју самосталност у раду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan45-stav3">
+						<content>
+							<p>Нико изван јавног тужилаштва нема право да одређује послове јавном тужиоцу и заменику јавног тужиоца, нити да утиче на одлучивање у предметима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan45-stav4">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца своје одлуке морају да образлажу само надлежном јавном тужиоцу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan46">
+					<num>46.</num>
+					<heading>Непристрасност</heading>
+					<paragraph wId="gla4-od1-clan46-stav1">
+						<content>
+							<p>Функција јавног тужиоца врши се у јавном интересу ради обезбеђивања примене Устава и закона, при чему се мора обезбедити поштовање и заштита људских права и основних слобода.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan46-stav2">
+						<content>
+							<p>Функција јавног тужиоца мора се вршити непристрасно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan47">
+					<num>47.</num>
+					<heading>Етички кодекс</heading>
+					<paragraph wId="gla4-od1-clan47-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца у вршењу своје функције поступају у складу са Етичким кодексом, који доноси Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan48">
+					<num>48.</num>
+					<heading>Јавност рада</heading>
+					<paragraph wId="gla4-od1-clan48-stav1">
+						<content>
+							<p>Рад јавног тужиоца и заменика јавног тужиоца је јаван, осим ако законом није другачије прописано.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan49">
+					<num>49.</num>
+					<heading>Забрана политичког деловања и послови неспојиви са јавнотужилачком функцијом</heading>
+					<paragraph wId="gla4-od1-clan49-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца не могу бити чланови политичких странака, нити политички деловати на други начин.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan49-stav2">
+						<content>
+							<p>Службе, послови и поступци неспојиви са јавнотужилачком функцијом одређују се законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan50">
+					<num>50.</num>
+					<heading>Материјална независност и права из радног односа</heading>
+					<paragraph wId="gla4-od1-clan50-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца имају право на плату довољну да обезбеди њихову самосталност и сигурност њихових породица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan50-stav2">
+						<content>
+							<p>Плата носилаца јавнотужилачке функције мора бити у складу са достојанством јавнотужилачке функције и теретом одговорности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan50-stav3">
+						<content>
+							<p>Плата носилаца јавнотужилачке функције уређује се овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan50-stav4">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца остварују права из радног односа у складу са прописима који уређују права из радног односа изабраних лица, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan51">
+					<num>51.</num>
+					<heading>Имунитет</heading>
+					<paragraph wId="gla4-od1-clan51-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца не могу бити позвани на одговорност за изражено мишљење у вршењу тужилачке функције, осим ако се ради о кривичном делу кршења закона од стране јавног тужиоца, односно заменика јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan51-stav2">
+						<content>
+							<p>Јавни тужилац, односно заменик јавног тужиоца не могу бити лишени слободе у поступку покренутом због кривичног дела учињеног у вршењу тужилачке функције, односно службе, без одобрења надлежног одбора Народне скупштине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan52">
+					<num>52.</num>
+					<heading>Одговорност за штету</heading>
+					<paragraph wId="gla4-od1-clan52-stav1">
+						<content>
+							<p>За штету коју јавни тужилац и заменик јавног тужиоца проузрокују незаконитим или неправилним радом одговара Република Србија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan52-stav2">
+						<content>
+							<p>Кад је коначном одлуком Уставног суда, правоснажном судском одлуком, односно поравнањем пред судом или другим надлежним органом утврђено да је штета проузрокована намерно или крајњом непажњом Република Србија може тражити од јавног тужиоца, односно заменика јавног тужиоца накнаду исплаћеног износа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan53">
+					<num>53.</num>
+					<heading>Право на удруживање</heading>
+					<paragraph wId="gla4-od1-clan53-stav1">
+						<content>
+							<p>Јавни тужиоци, заменици јавних тужилаца, тужилачки помоћници и приправници имају  право да се удружују у струковна удружења ради заштите својих интереса и очувањa  самосталности у раду јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan53-stav2">
+						<content>
+							<p>Право струковног удруживања подразумева и учешће у активностима струковних  удружења у току радног времена, ако се тиме не ремети рад у јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan53-stav3">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref12" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan54">
+					<num>54.</num>
+					<heading>Стручно усавршавање</heading>
+					<paragraph wId="gla4-od1-clan54-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца имају право и обавезу на стручно усавршавање о трошку Републике Србије, на начин уређен законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan55">
+					<num>55.</num>
+					<heading>Трајање функције јавног тужиоца</heading>
+					<paragraph wId="gla4-od2-clan55-stav1">
+						<content>
+							<p>Јавни тужилац се бира из реда јавних тужилаца или заменика јавних тужилаца, односно међу лицима која испуњавају прописане услове за избор, на период од шест година и може бити поново биран.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan55-stav2">
+						<content>
+							<p>Јавни тужилац коме функција престане на лични захтев или ако не буде поново изабран, обавезно се бира на функцију заменика јавног тужиоца коју је обављао пре избора. Уколико је биран за јавног тужиоца вишег степена из нижег јавног тужилаштва, тада се након престанка функције јавног тужиоца обавезно бира на функцију заменика јавног тужиоца у јавном тужилаштву вишег степена, којим је руководио. Ако је јавни тужилац изабран међу лицима која нису били заменици јавног тужиоца, након престанка функције, такво лице се обавезно бира на функцију заменика јавног тужиоца у јавном тужилаштву у којем је био јавни тужилац. Одлуку о избору доноси Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan55-stav3">
+						<content>
+							<p>Пре истека времена на који је биран или пре навршења радног века функција јавном тужиоцу може престати само под условима и из разлога предвиђеним овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan56">
+					<num>56.</num>
+					<heading>Трајање функције заменика јавног тужиоца</heading>
+					<paragraph wId="gla4-od2-clan56-stav1">
+						<content>
+							<p>Мандат заменика јавног тужиоца који је први пут изабран на функцију траје три године, а сваки наредни избор је трајан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan56-stav2">
+						<content>
+							<p>Пре истека времена на који је биран или пре навршења радног века функција заменику јавног тужиоца може престати само под условима и из разлога предвиђеним овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan57">
+					<num>57.</num>
+					<heading>Настављање функције</heading>
+					<paragraph wId="gla4-od2-clan57-stav1">
+						<content>
+							<p>Ако јавно тужилаштво буде укинуто јавни тужилац, односно заменик јавног тужиоца  настављају да врше функцију заменика јавног тужиоца у јавном тужилаштву које  одреди Државно веће тужилаца, на предлог Републичког јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan57-stav2">
+						<content>
+							<p>Сматра се да је јавно тужилаштво укинуто и ако је подручје на којем врши  надлежност подељено на два или више јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan57-stav3">
+						<content>
+							<p>Ако буде смањен број заменика јавног тужиоца у јавном  тужилаштву заменик јавног тужиоца наставља да врши ту функцију у јавном  тужилаштву које одреди Државно веће тужилаца, на предлог Републичког јавног  тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan57-stav4">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref13" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan58">
+					<num>58.</num>
+					<heading>Разлози за удаљење</heading>
+					<paragraph wId="gla4-od3-clan58-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца удаљују се са функције кад им је одређен притвор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan58-stav2">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца могу бити удаљени са функције кад је покренут поступак за њихово разрешење или кривични поступак за дело због кога могу бити разрешени.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan59">
+					<num>59.</num>
+					<heading>Одлучивање о удаљењу</heading>
+					<paragraph wId="gla4-od3-clan59-stav1">
+						<content>
+							<p>Одлуку о обавезном удаљењу заменика јавног тужиоца доноси јавни тужилац, а о обавезном удаљењу јавног тужиоца непосредно виши јавни тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan59-stav2">
+						<content>
+							<p>Ако удаљење није обавезно одлуку доноси Републички јавни тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan59-stav3">
+						<content>
+							<p>Одлуку о удаљењу Републичког јавног тужиоца доноси Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan60">
+					<num>60.</num>
+					<heading>Право на приговор</heading>
+					<paragraph wId="gla4-od3-clan60-stav1">
+						<content>
+							<p>Против одлуке Републичког јавног тужиоца о удаљењу када оно није обавезно, јавни тужилац, односно заменик јавног тужиоца има право приговора Државном већу тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan60-stav2">
+						<content>
+							<p>Против одлуке Државног већа тужилаца о удаљењу када оно није било обавезно, Републички јавни тужилац има право приговора надлежном одбору Народне скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan60-stav3">
+						<content>
+							<p>Приговор из <ref wId="ref14" href="akn/rs/act/2016/63-23/srp@/!main~art_60__para_1->para_2" >ст. 1. и 2. овог</ref> члана подноси се у року од три дана, а надлежни орган доноси одлуку по приговору у року од 30 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan60-stav4">
+						<content>
+							<p>Изјављени приговор из <ref wId="ref15" href="akn/rs/act/2016/63-23/srp@/!main~art_60__para_1->para_2" >ст. 1. и 2. овог</ref> члана не задржава извршење одлуке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan61">
+					<num>61.</num>
+					<heading>Трајање удаљења</heading>
+					<paragraph wId="gla4-od3-clan61-stav1">
+						<content>
+							<p>Удаљење са функције траје до укидања притвора, правоснажног окончања поступка за разрешење или правоснажног окончања кривичног поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan61-stav2">
+						<content>
+							<p>Републички јавни тужилац или Државно веће тужилаца могу укинути одлуку о удаљењу пре окончања поступка за разрешење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od4-clan62">
+					<num>62.</num>
+					<heading>Премештај</heading>
+					<paragraph wId="gla4-od4-clan62-stav1">
+						<content>
+							<p>Заменик јавног тужиоца може бити трајно премештен у друго јавно тужилаштво истог степена, само уз своју писмену сагласност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan62-stav2">
+						<content>
+							<p>Решење о премештају доноси Републички јавни тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan62-stav3">
+						<content>
+							<p>У случају из <ref wId="ref16" href="akn/rs/act/2016/63-23/srp@/!main~art_57" >члана 57. овог</ref> закона, заменик јавног тужиоца може бити премештен и без своје сагласности, на основу одлуке Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan62-stav4">
+						<content>
+							<p>Заменик јавног тужиоца наставља трајно да обавља функцију у јавном тужилаштву у које је премештен.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od4-clan63">
+					<num>63.</num>
+					<heading>Упућивање</heading>
+					<paragraph wId="gla4-od4-clan63-stav1">
+						<content>
+							<p>Заменик јавног тужиоца може, уз своју писмену сагласност, бити упућен у друго јавно тужилаштво најдуже на једну годину. На предлог јавног тужиоца посебне надлежности, заменик јавног тужиоца може, уз своју писмену сагласност, бити упућен у јавно тужилаштво посебне надлежности најдуже на четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan63-stav2">
+						<content>
+							<p>Када се заменик јавног тужиоца упућује у тужилаштво вишег степена, мора испуњавати услове за избор за заменика јавног тужиоца тужилаштва у које се упућује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan63-stav3">
+						<content>
+							<p>Изузетно, заменик јавног тужиоца може бити упућен и без своје сагласности у друго јавно тужилаштво истог или нижег степена, због недовољног броја заменика јавног тужиоца у другом јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan63-stav4">
+						<content>
+							<p>Упућивање из <ref wId="ref17" href="akn/rs/act/2016/63-23/srp@/!main~art_63__para_3" >става 3. овог</ref> члана може трајати најдуже једну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan63-stav5">
+						<content>
+							<p>Решење о упућивању доноси Републички јавни тужилац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od4-clan64">
+					<num>64.</num>
+					<heading>Упућивање у други државни орган, институцију надлежну за обуку у правосуђу или међународну организацију</heading>
+					<paragraph wId="gla4-od4-clan64-stav1">
+						<content>
+							<p>Заменик јавног тужиоца може бити упућен, ради обављања стручних послова, у Државно веће тужилаца, министарство надлежно за правосуђе, институцију надлежну за обуку у правосуђу и међународну организацију у области правосуђа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan64-stav2">
+						<content>
+							<p>Упућивање из <ref wId="ref18" href="akn/rs/act/2016/63-23/srp@/!main~art_64__para_1" >става 1. овог</ref> члана врши се на предлог руководиоца органа, односно институције или организације у коју се заменик јавног тужиоца упућује, по прибављеном мишљењу јавног тужиоца у коме заменик јавног тужиоца врши своју функцију, уз писмену сагласност заменика јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan64-stav3">
+						<content>
+							<p>Упућивање може трајати најдуже три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od4-clan64-stav4">
+						<content>
+							<p>Решење о упућивању доноси Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od5-clan65">
+					<num>65.</num>
+					<heading>Однос других функција, послова или приватних интереса са функцијом јавног тужиоца и заменика јавног тужиоца</heading>
+					<paragraph wId="gla4-od5-clan65-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца не могу бити на функцији у органима који доносе прописе, и органима извршне власти, јавним службама и органима покрајинске аутономије и јединица локалне самоуправе, бити чланови политичке странке, бавити се јавним или приватним плаћеним послом, нити пружати правне услуге или давати правне савете уз накнаду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan65-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref19" href="akn/rs/act/2016/63-23/srp@/!main~art_65__para_1" >става 1. овог</ref> члана, јавни тужилац, односно заменик јавног тужиоца, може бити члан органа управљања институције надлежне за обуку у правосуђу, на основу одлуке Државног већа тужилаца, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan65-stav3">
+						<content>
+							<p>Са јавнотужилачком функцијом неспојиви су и друге функције, послови или приватни интереси који су супротни достојанству и самосталности јавног тужилаштва или штете његовом угледу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan65-stav4">
+						<content>
+							<p>Државно веће тужилаца утврђује друге функције и послове који су у супротности са достојанством, односно нарушавају самосталност или штете угледу јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan65-stav5">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца може, ван радног времена, да се без посебног одобрења бави наставном и научном делатношћу, уз накнаду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan65-stav6">
+						<content>
+							<p>У случајевима одређеним законом, јавни тужилац и заменик јавног тужиоца може, у току радног времена, да обавља наставну и научну делатност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan65-stav7">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца може бити упућен на студијско, односно друго стручно путовање у иностранство, на основу одлуке Државног већа тужилаца, уз прибављено мишљење непосредно вишег јавног тужиоца, односно јавног тужиоца, при чему се посебно узимају у обзир оцене о раду из личног листа јавног тужиоца, односно заменика јавног тужиоца, као и познавање страног језика.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan65-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref20" href="akn/rs/act/2009/104/srp@">104/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od5-clan66">
+					<num>66.</num>
+					<heading>Дужност обавештавања</heading>
+					<paragraph wId="gla4-od5-clan66-stav1">
+						<content>
+							<p>Заменик јавног тужиоца је дужан да писмено обавести јавног тужиоца о другој функцији, послу или приватном интересу за које постоји могућност да су неспојиви са његовом функцијом, као и о послу или приватном интересу чланова своје уже породице за које постоји могућност да су неспојиви са његовом функцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan66-stav2">
+						<content>
+							<p>Јавни тужилац о таквој својој функцији, послу или приватном интересу обавештава непосредно вишег јавног тужиоца, а Републички јавни тужилац обавештава Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od5-clan67">
+					<num>67.</num>
+					<heading>Покретање поступка</heading>
+					<paragraph wId="gla4-od5-clan67-stav1">
+						<content>
+							<p>Јавни тужилац је дужан да покрене поступак одлучивања о неспојивости функције нижег јавног тужиоца или заменика јавног тужиоца пред Републичким јавним тужиоцем, када сазна и оцени да је вероватно постојање разлога из члана 65.  ст. <ref wId="ref21" href="akn/rs/act/2016/63-23/srp@/!main~art_65__para_1" >1</ref>, <ref wId="ref22" href="akn/rs/act/2016/63-23/srp@/!main~art_65__para_3->para_4" >3. и 4</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan67-stav2">
+						<content>
+							<p>Државно веће тужилаца покреће и води поступак одлучивања о неспојивости функције Републичког јавног тужиоца са другим функцијама, пословима или његовим приватним интересима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan67-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2009/104/srp@">104/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od5-clan68">
+					<num>68.</num>
+					<heading>Одлучивање о неспојивости</heading>
+					<paragraph wId="gla4-od5-clan68-stav1">
+						<content>
+							<p>Када Републички јавни тужилац утврди да су друга функција или посао који врши јавни тужилац или заменик јавног тужиоца или приватни интерес који остварује неспојиви са јавнотужилачком функцијом, а не постоје разлози за разрешење, о томе обавештава непосредно вишег јавног тужиоца, јавног тужиоца или заменика јавног тужиоца на кога се одлука о неспојивости односи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan68-stav2">
+						<content>
+							<p>Када Државно веће тужилаца утврди да су друга функција или посао које врши Републички јавни тужилац или приватни интерес који остварује неспојиви са јавнотужилачком функцијом о томе обавештава Републичког јавног тужиоца, а ако постоје разлози за разрешење о томе обавештава Владу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od5-clan68-stav3">
+						<content>
+							<p>Државно веће тужилаца, односно Републички јавни тужилац из <ref wId="ref24" href="akn/rs/act/2016/63-23/srp@/!main~art_68__para_1->para_2" >ст. 1. и 2. овог</ref> члана дужни су да поднесу дисциплинску пријаву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od6-clan69">
+					<num>69.</num>
+					<heading>Основна плата</heading>
+					<paragraph wId="gla4-od6-clan69-stav1">
+						<content>
+							<p>Плата јавног тужиоца и заменика јавног тужиоца одређује се на основу основне плате.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan69-stav2">
+						<content>
+							<p>Основна плата одређује се множењем коефицијената за обрачун и исплату плата са основицом за обрачун и исплату плата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan69-stav3">
+						<content>
+							<p>Основица за обрачун и исплату плата јавних тужилаца и заменика јавних тужилаца једнака је основици за обрачун и исплату плата судија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan69-stav4">
+						<content>
+							<p>Коефицијент за обрачун и исплату плате одређује се тиме што се сваки заменик јавног тужиоца разврстава у једну од пет платних група.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan69-stav5">
+						<content>
+							<p>Основна плата, према овом закону, јесте вредност у коју се не урачунава проценат за вредновање минулог рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan69-stav6">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца не могу да уз плату примају и пензију  остварену у складу са посебним прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan69-stav7">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref25" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od6-clan70">
+					<num>70.</num>
+					<heading>Платне групе</heading>
+					<paragraph wId="gla4-od6-clan70-stav1">
+						<content>
+							<p>Заменици јавних тужилаца су разврстани у четири платне групе, које су изражене у коефицијентима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan70-stav2">
+						<content>
+							<p>У првој платној групи су заменици основних јавних тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan70-stav3">
+						<content>
+							<p>У другој платној групи су заменици виших јавних тужилаца и заменици тужилаца посебне надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan70-stav4">
+						<content>
+							<p>У трећој платној групи су заменици апелационих тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan70-stav5">
+						<content>
+							<p>У четвртој платној групи су заменици Републичког јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan70-stav6">
+						<content>
+							<p>У петој платној групи је Републички јавни тужилац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od6-clan71">
+					<num>71.</num>
+					<heading>Коефицијенти</heading>
+					<paragraph wId="gla4-od6-clan71-stav1">
+						<content>
+							<p>Прва платна група има коефицијент 3,00.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan71-stav2">
+						<content>
+							<p>Друга платна група има коефицијент 3,50.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan71-stav3">
+						<content>
+							<p>Трећа платна група има коефицијент 4,00.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan71-stav4">
+						<content>
+							<p>Четврта платна група има коефицијент 5,00.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan71-stav5">
+						<content>
+							<p>Пета платна група има коефицијент 6,00.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od6-clan72">
+					<num>72.</num>
+					<heading>Основна плата јавног тужиоца</heading>
+					<paragraph wId="gla4-od6-clan72-stav1">
+						<content>
+							<p>Основна плата јавног тужиоца једнака је основној плати председника суда опште надлежности пред којим јавни тужилац поступа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan72-stav2">
+						<content>
+							<p>Основна плата јавног тужиоца посебне надлежности једнака је плати председника вишег суда пред којим тај тужилац поступа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan72-stav3">
+						<content>
+							<p>Основна плата Републичког јавног тужиоца једнака је плати председника Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan72-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref26" href="akn/rs/act/2009/104/srp@">104/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od6-clan73">
+					<num>73.</num>
+					<heading>Плата у случају премештаја, односно упућивања и увећање основне плате</heading>
+					<paragraph wId="gla4-od6-clan73-stav1">
+						<content>
+							<p>Заменик јавног тужиоца који је премештен, односно упућен у друго јавно тужилаштво, министарство надлежно за правосуђе, установу или међународну организацију има право на основну плату заменика јавног тужиоца тог јавног тужилаштва, односно основну плату у министарству надлежном за правосуђе, установи или међународној организацији у коју је премештен, односно упућен, ако је за њега повољнија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan73-stav2">
+						<content>
+							<p>Престао је да важи ранији  <ref wId="ref27" href="akn/rs/act/2016/63-23/srp@/!main~art_73__para_2" >став 2. </ref>(види   Одлуку УС - 63/2016-23)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan73-stav3">
+						<content>
+							<p>Основна плата заменика јавних тужилаца који обавља функцију у јавном тужилаштву у коме се не могу попунити места заменика јавних тужилаца може се увећати до 50%, на основу одлуке Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan73-stav4">
+						<content>
+							<p>Основна плата јавног тужиоца, односно заменика јавног тужиоца који поступа у предметима кривичних дела са елементом организованог криминала и ратног злочина, може се увећати до 100%, на основу одлуке Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od6-clan73-stav5">
+						<content>
+							<p>Престали су да важе ранији <ref wId="ref28" href="akn/rs/act/2016/63-23/srp@/!main~art_73__para_5->para_6" >ст. 5. и 6. </ref>(види   Одлуку УС - 63/2016-23)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>пета</num>
+				<heading>ИЗБОР</heading>
+				<article wId="gla5-clan74">
+					<num>74.</num>
+					<heading>Основна правила за избор јавног тужиоца</heading>
+					<paragraph wId="gla5-clan74-stav1">
+						<content>
+							<p>Јавног тужиоца, на предлог Владе, бира Народна скупштина на период од шест година и може бити поново биран. О предложеним кандидатима за Републичког јавног тужиоца прибавља се мишљење надлежног одбора Народне скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan74-stav2">
+						<content>
+							<p>Влада предлаже Народној скупштини једног или више кандидата за избор на функцију јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan74-stav3">
+						<content>
+							<p>Кандидате из <ref wId="ref29" href="akn/rs/act/2016/63-23/srp@/!main~art_74__para_2" >става 2. овог</ref> члана Влада предлаже са листе кандидата које утврђује Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan74-stav4">
+						<content>
+							<p>Државно веће тужилаца доставља Влади листу једног или више кандидата за избор на функцију јавног тужиоца. У случају да Државно веће тужилаца предложи Влади само једног кандидата, Влада може вратити предлог Државном већу тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan74-stav5">
+						<content>
+							<p>Уколико Републички јавни тужилац не буде поново изабран на исту функцију када му престане мандат или му је функција Републичког јавног тужиоца престала на лични захтев, обавезно се бира за заменика Републичког јавног тужиоца. Одлуку о избору доноси Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan74-stav6">
+						<content>
+							<p>Уколико јавни тужилац не буде поново изабран на исту функцију када му престане мандат или му је функција јавног тужиоца престала на лични захтев, бира се за заменика јавног тужиоца у смислу <ref wId="ref30" href="akn/rs/act/2016/63-23/srp@/!main~art_55__para_2" >члана 55. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan75">
+					<num>75.</num>
+					<heading>Основна правила за избор заменика јавног тужиоца</heading>
+					<paragraph wId="gla5-clan75-stav1">
+						<content>
+							<p>Народна скупштина, на предлог Државног већа тужилаца, бира за заменика јавног тужиоца лице које се први пут бира на ову функцију на период од три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan75-stav2">
+						<content>
+							<p>Државно веће тужилаца предлаже Народној скупштини једног кандидата за избор на  једно место заменика јавног тужиоца.,</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan75-stav3">
+						<content>
+							<p>Државно веће тужилаца бира заменике јавних тужилаца за трајно обављање функције, у истом или другом јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan75-stav4">
+						<content>
+							<p>Државно веће тужилаца одлучује и о избору заменика јавних тужилаца који су на сталној функцији у друго или више јавно тужилаштво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan75-stav5">
+						<content>
+							<p>Број заменика јавних тужилаца за свако јавно тужилаштво утврђује Државно веће тужилаца, уз претходно прибављену сагласност министра надлежног за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan75-stav6">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref31" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan75-stav7">
+						<content>
+							<p>**Службени гласник РС,  број <ref wId="ref32" href="akn/rs/act/2014/111/srp@">111/2014</ref> (Одлука  УС)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od1-clan76">
+					<num>76.</num>
+					<heading>Општи услови</heading>
+					<paragraph wId="gla5-od1-clan76-stav1">
+						<content>
+							<p>За јавног тужиоца и заменика јавног тужиоца може бити изабран држављанин Републике Србије који испуњава опште услове за рад у државним органима, који је завршио правни факултет, положио правосудни испит и достојан је функције јавног тужиоца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od1-clan77">
+					<num>77.</num>
+					<heading>Посебни услови</heading>
+					<paragraph wId="gla5-od1-clan77-stav1">
+						<intro>
+							<p>За јавног тужиоца и заменика јавног тужиоца може бити изабрано лице које, поред општих услова, има радно искуство у правној струци након положеног правосудног испита, и то:</p>
+						</intro>
+						<alinea wId="gla5-od1-clan77-stav1-ali1">
+							<content>
+								<p>етири године за основног јавног тужиоца и три године за заменика основног јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-od1-clan77-stav1-ali2">
+							<content>
+								<p>едам година за вишег јавног тужиоца и шест година за заменика вишег јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-od1-clan77-stav1-ali3">
+							<content>
+								<p>есет година за апелационог јавног тужиоца и јавног тужиоца посебне надлежности и осам година за заменике апелационог јавног тужиоца и заменика јавног тужиоца посебне надлежности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-od1-clan77-stav1-ali4">
+							<content>
+								<p>ванаест година за Републичког јавног тужиоца и једанаест година за заменика Републичког јавног тужиоца.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan77-stav2">
+						<content>
+							<p>Утврђивање стручности и оспособљености кандидата за  заменика јавног тужиоца који се први пут бира</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan77-stav3">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref33" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan77-stav4">
+						<content>
+							<p>Члан 77а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan77-stav5">
+						<content>
+							<p>У поступку избора заменика јавног тужиоца који се први  пут бира на функцију у јавном тужилаштву проверава се стручност и оспособљеност  кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan77-stav6">
+						<content>
+							<p>Стручност и оспособљеност кандидата проверава се на  испиту који организује Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan77-stav7">
+						<content>
+							<p>Успех на испиту изражава се оценама од 1 до 5.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan77-stav8">
+						<content>
+							<p>Кандидат за заменика јавног тужиоца који се први пут  бира на функцију у основном јавном тужилаштву и који је завршио почетну обуку на  Правосудној академији није дужан да полаже испит који организује Државно веће  тужилаца, већ се њему као мерило стручности и оспособљености узима завршна оцена  на почетној обуци на Правосудној академији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan77-stav9">
+						<content>
+							<p>Државно веће тужилаца прописује програм и начин  полагања испита на коме се проверава стручност и оспособљеност кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan77-stav10">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref34" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od2-clan78">
+					<num>78.</num>
+					<heading>Оглашавање избора</heading>
+					<paragraph wId="gla5-od2-clan78-stav1">
+						<content>
+							<p>Избор јавних тужилаца и заменика јавних тужилаца оглашава Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan78-stav2">
+						<content>
+							<p>Оглас се објављује у „Службеном гласнику Републике Србије” и другом средству јавног обавештавања које покрива територију целе Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od2-clan79">
+					<num>79.</num>
+					<heading>Подношење пријава</heading>
+					<paragraph wId="gla5-od2-clan79-stav1">
+						<content>
+							<p>Пријаве се подносе Државном већу тужилаца у року од 15 дана од дана објављивања огласа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan79-stav2">
+						<content>
+							<p>Уз пријаве се подносе докази о испуњењу услова за избор, уколико се већ не налазе у јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od2-clan80">
+					<num>80.</num>
+					<heading>Прибављање података и мишљења</heading>
+					<paragraph wId="gla5-od2-clan80-stav1">
+						<content>
+							<p>Државно веће тужилаца прибавља податке и мишљења о стручности, оспособљености у раду и достојности кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan80-stav2">
+						<content>
+							<p>Подаци и мишљења прибављају се од органа и организација у којима је кандидат радио у правној струци.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od2-clan81">
+					<num>81.</num>
+					<heading>Разговор са кандидатима</heading>
+					<paragraph wId="gla5-od2-clan81-stav1">
+						<content>
+							<p>Пре доношења одлуке о избору Државно веће тужилаца обавља разговор са пријављеним кандидатом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan81-stav2">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref35" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od2-clan82">
+					<num>82.</num>
+					<heading>Предлагање и избор</heading>
+					<paragraph wId="gla5-od2-clan82-stav1">
+						<content>
+							<p>При предлагању и избору кандидата за јавнотужилачку функцију Државно веће  тужилаца саставља ранг листу кандидата на основу стручности, оспособљености и  достојности кандидата, а према критеријумима и мерилима за оцену стручности,  оспособљености и достојности које прописује Државно веће тужилаца, у складу са  законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan82-stav2">
+						<content>
+							<p>Стручност подразумева поседовање теоријског и практичког знања потребног за  обављање јавнотужилачке функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan82-stav3">
+						<content>
+							<p>Оспособљеност подразумева вештине које омогућавају ефикасну примену специфичних  правничких знања у решавању јавнотужилачких предмета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan82-stav4">
+						<content>
+							<p>Достојност подразумева моралне особине које јавни тужилац, односно заменик  јавног тужиоца треба да поседује и понашање у складу са тим особинама. Моралне  особине су: поштење, савесност, правичност, достојанственост, истрајност и  узорност, а понашање у складу са тим особинама подразумева чување угледа јавног  тужилаштва у служби и изван ње, свест о друштвеној одговорности, одржавање  самосталности и непристрасности, поузданости и достојанства у служби и изван ње  и преузимање одговорности за унутрашњу организацију и позитивну слику о јавном  тужилаштву у јавности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan82-stav5">
+						<content>
+							<p>При избору и предлагању за избор јавних тужилаца и заменика јавних тужилаца води  се рачуна о националном саставу становништва, одговарајућој заступљености  припадника националних мањина и познавању стручне правне терминологије на језику  националне мањине која је у службеној употреби у суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan82-stav6">
+						<content>
+							<p>Приликом избора и предлагања кандидата за јавнотужилачку функцију забрањена је  дискриминација по било ком основу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan82-stav7">
+						<content>
+							<p>Ранг листа из <ref wId="ref36" href="akn/rs/act/2016/63-23/srp@/!main~art_82__para_1" >става 1. овог</ref> члана објављује се на интернет страници Државног  већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan82-stav8">
+						<content>
+							<p>Државно веће тужилаца образлаже предлог и одлуку о избору кандидата за  јавнотужилачку функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan82-stav9">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref37" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od3-clan83">
+					<num>83.</num>
+					<heading>Полагање заклетве</heading>
+					<paragraph wId="gla5-od3-clan83-stav1">
+						<content>
+							<p>Републички јавни тужилац полаже заклетву пред Народном скупштином.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan83-stav2">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца који се први пут бира пре ступања на функцију полаже заклетву пред председником Народне скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan83-stav3">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца који је изабран из реда јавних тужилаца и заменика јавних тужилаца не полаже поново заклетву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od3-clan84">
+					<num>84.</num>
+					<heading>Текст заклетве</heading>
+					<paragraph wId="gla5-od3-clan84-stav1">
+						<content>
+							<p>Текст заклетве гласи: „Заклињем се својом чашћу да ћу јавнотужилачку функцију вршити предано, савесно и непристрасно и штитити уставност и законитост, људска права и грађанске слободе”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od3-clan85">
+					<num>85.</num>
+					<heading>Ступање на функцију</heading>
+					<paragraph wId="gla5-od3-clan85-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца ступају на функцију на свечаној седници у јавном тужилаштву за које су изабрани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan85-stav2">
+						<content>
+							<p>Ступањем на функцију престаје им друга функција у јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od3-clan86">
+					<num>86.</num>
+					<heading>Кад се сматра да није било избора</heading>
+					<paragraph wId="gla5-od3-clan86-stav1">
+						<content>
+							<p>Сматра се да јавни тужилац и заменик јавног тужиоца није изабран ако без оправданог разлога не ступи на функцију у року од 30 дана од дана избора на функцију, о чему одлуку доноси Републички јавни тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan86-stav2">
+						<content>
+							<p>На одлуку из <ref wId="ref38" href="akn/rs/act/2016/63-23/srp@/!main~art_86__para_1" >става 1. овог</ref> члана допуштен је приговор Државном већу тужилаца у року од осам дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan86-stav3">
+						<content>
+							<p>О одлуци Републичког јавног тужиоца и Државног већа тужилаца обавештава се Народна скупштина, у случају када је надлежна за избор јавних тужилаца и заменика јавних тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan86-stav4">
+						<content>
+							<p>Одлуку о разлозима за неступање на функцију Републичког јавног тужиоца доноси Државно веће тужилаца, а одлуку о приговору надлежни одбор Народне скупштине.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>шеста</num>
+				<heading>ПРЕСТАНАК ФУНКЦИЈЕ</heading>
+				<article wId="gla6-clan87">
+					<num>87.</num>
+					<heading>Сви разлози за престанак функције</heading>
+					<paragraph wId="gla6-clan87-stav1">
+						<content>
+							<p>Функција јавног тужиоца и заменика јавног тужиоца престаје на лични захтев, кад наврши радни век, кад трајно изгуби радну способност или кад буде разрешен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan87-stav2">
+						<content>
+							<p>Јавном тужиоцу функција престаје и ако не буде поново изабран, а заменику јавног тужиоца ако не буде изабран на сталну функцију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan88">
+					<num>88.</num>
+					<heading>Престанак функције на лични захтев</heading>
+					<paragraph wId="gla6-od1-clan88-stav1">
+						<content>
+							<p>Јавни тужилац подноси писмени захтев за престанак функције Народној скупштини, о чему обавештава Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan88-stav2">
+						<content>
+							<p>Заменик јавног тужиоца подноси писмени захтев за престанак функције Државном већу тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan88-stav3">
+						<content>
+							<p>Захтев може бити повучен док функција јавног тужиоца или заменика јавног тужиоца не престане одлуком Народне скупштине, односно Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan88-stav4">
+						<content>
+							<p>Ако о захтеву за престанак функције не буде одлучено у року од 30 дана, сматра се да је функција јавног тужиоца, односно заменика јавног тужиоца престала истеком рока од 30 дана од дана подношења захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan89">
+					<num>89.</num>
+					<heading>Навршење радног века</heading>
+					<paragraph wId="gla6-od1-clan89-stav1">
+						<content>
+							<p>Јавном тужиоцу и заменику јавног тужиоца престаје  функција кад наврше 65 година, по сили закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan89-stav2">
+						<content>
+							<p>*Службени гласник  РС, број <ref wId="ref39" href="akn/rs/act/2014/117/srp@">117/2014</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan90">
+					<num>90.</num>
+					<heading>Трајни губитак радне способности</heading>
+					<paragraph wId="gla6-od1-clan90-stav1">
+						<content>
+							<p>Јавном тужиоцу и заменику јавног тужиоца престаје функција јавног тужиоца и заменика јавног тужиоца када се на основу мишљења стручне комисије надлежног органа утврди да је због здравственог стања неспособан за вршење функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan90-stav2">
+						<content>
+							<p>Одлуку за упућивање на обавезан здравствени преглед доноси Државно веће тужилаца, на предлог јавног тужиоца, непосредно вишег јавног тужиоца и самог јавног тужиоца, односно заменика јавног тужиоца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan91">
+					<num>91.</num>
+					<heading>Надлежност и покретање поступка</heading>
+					<paragraph wId="gla6-od1-clan91-stav1">
+						<content>
+							<p>Поступак за утврђивање разлога за престанак функције јавног тужиоца на лични захтев, услед навршења радног века или трајног губитка способности за обављање функције, води Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan91-stav2">
+						<content>
+							<p>О утврђеним разлозима Државно веће тужилаца доноси одлуку коју доставља Народној скупштини ради одлучивања о престанку функције јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan91-stav3">
+						<content>
+							<p>Утврђивање разлога за престанак функције заменика јавног тужиоца на лични захтев, услед навршења радног века или трајног губитка способности за обављање функције, врши Државно веће тужилаца и о томе доноси одлуку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan91-stav4">
+						<content>
+							<p>Одлука из <ref wId="ref40" href="akn/rs/act/2016/63-23/srp@/!main~art_91__para_3" >става 3. овог</ref> члана садржи разлоге за престанак функције и датум престанка функције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan92">
+					<num>92.</num>
+					<heading>Разлози за разрешење</heading>
+					<paragraph wId="gla6-od2-clan92-stav1">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца разрешавају се кад су правноснажно осуђени за кривично дело на казну затвора од најмање шест месеци или за кажњиво дело које их чини недостојним јавнотужилачке функције, кад нестручно врши функцију или због учињеног тешког дисциплинског прекршаја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan93">
+					<num>93.</num>
+					<heading>Посебно о нестручном вршењу функције</heading>
+					<paragraph wId="gla6-od2-clan93-stav1">
+						<content>
+							<p>Нестручним се сматра недовољно успешно вршење јавнотужилачке функције, ако јавни тужилац, односно заменик јавног тужиоца добије оцену „не задовољава”, сходно критеријумима и мерилима за вредновање рада јавних тужилаца и заменика јавних тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan94">
+					<num>94.</num>
+					<heading>Надлежност и покретање поступка за разрешење</heading>
+					<paragraph wId="gla6-od2-clan94-stav1">
+						<content>
+							<p>Иницијативу за разрешење јавног тужиоца, односно заменика јавног тужиоца може поднети свако лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan94-stav2">
+						<content>
+							<p>Поступак за разрешење покреће се предлогом јавног тужиоца, непосредно вишег јавног тужиоца, Републичког јавног тужиоца, министра надлежног за правосуђе, органа надлежних за вредновање рада и Дисциплинске комисије. Поступак за разрешење јавног тужиоца и заменика јавног тужиоца може покренути и Државно веће тужилаца по службеној дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan94-stav3">
+						<content>
+							<p>Разлоге за разрешење утврђује Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan94-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref41" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan95">
+					<num>95.</num>
+					<heading>Поступак пред Државним већем тужилаца</heading>
+					<paragraph wId="gla6-od2-clan95-stav1">
+						<content>
+							<p>Државно веће тужилаца утврђује чињенице и одлучује у поступку затвореном за  јавност. Поступак може бити јаван на захтев јавног тужиоца или заменика јавног  тужиоца против којег се води поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan95-stav2">
+						<content>
+							<p>Државно веће тужилаца дужно је да спроведе поступак и донесе одлуку у року од 45 дана од дана достављања акта којим се поступак покреће.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan95-stav3">
+						<content>
+							<p>Одлука Државног већа тужилаца мора бити образложена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan95-stav4">
+						<content>
+							<p>Против одлуке Државног већа тужилаца којом су утврђени разлози за разрешење, јавни тужилац, односно заменик јавног тужиоца може изјавити приговор Државном већу тужилаца у року од 15 дана од дана достављања одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan95-stav5">
+						<content>
+							<p>Државно веће тужилаца може одбацити приговор ако није изјављен у року, усвојити приговор и изменити одлуку или одбити приговор и потврдити одлуку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan95-stav6">
+						<content>
+							<p>Одлука којом су утврђени разлози за разрешење постаје правноснажна када је потврђена у поступку по приговору или истеком рока за изјављивање приговора ако приговор није изјављен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan95-stav7">
+						<content>
+							<p>Одлука Државног већа тужилаца којом су утврђени разлози за разрешење јавног тужиоца доставља се Влади.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan95-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan95-stav9">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan96">
+					<num>96.</num>
+					<heading>Положај јавног тужиоца, односно заменика јавног тужиоца у поступку</heading>
+					<paragraph wId="gla6-od2-clan96-stav1">
+						<content>
+							<p>Јавни тужилац, односно заменик јавног тужиоца има право да одмах буде обавештен о разлозима за покретање поступка, да се упозна с предметом, пратећом документацијом и током поступка и да сам или преко заступника пружи објашњења и доказе за своје наводе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan96-stav2">
+						<content>
+							<p>Јавни тужилац, односно заменик јавног тужиоца има право да своје наводе усмено изложи пред Државним већем тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan97">
+					<num>97.</num>
+					<heading>Доношење одлуке</heading>
+					<paragraph wId="gla6-od3-clan97-stav1">
+						<content>
+							<p>Одлуку о престанку функције јавног тужиоца доноси Народна скупштина, при чему одлуку о разрешењу доноси на предлог Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan97-stav2">
+						<content>
+							<p>Влада предлаже разрешење јавног тужиоца на основу разлога за разрешење утврђених од стране Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan97-stav3">
+						<content>
+							<p>Одлуку о престанку функције заменика јавног тужиоца доноси Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan97-stav4">
+						<content>
+							<p>Јавнотужилачка функција престаје оног дана који Народна скупштина, односно Државно веће тужилаца наведе у својој одлуци, изузев у случају из <ref wId="ref44" href="akn/rs/act/2016/63-23/srp@/!main~art_88__para_4" >члана 88. став 4. </ref>и <ref wId="ref45" href="akn/rs/act/2016/63-23/srp@/!main~art_89" >члана 89. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan97-stav5">
+						<content>
+							<p>Одлука о престанку функције објављује се у „Службеном гласнику Републике Србије.”</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan97-stav6">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref46" href="akn/rs/act/2014/117/srp@">117/2014</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan98">
+					<num>98.</num>
+					<heading>Жалба Уставном суду</heading>
+					<paragraph wId="gla6-od3-clan98-stav1">
+						<content>
+							<p>Против одлуке Народне скупштине, односно Државног већа тужилаца о престанку функције, јавни тужилац, односно заменик јавног тужиоца има право жалбе Уставном суду, у року од 30 дана од дана достављања одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan98-stav2">
+						<content>
+							<p>Уставни суд својом одлуком може одбити жалбу или усвојити жалбу и поништити одлуку о престанку функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan98-stav3">
+						<content>
+							<p>Одлука Уставног суда је коначна и објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan98-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref47" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>седма</num>
+				<heading>ВРЕДНОВАЊЕ РАДА ЈАВНОГ ТУЖИОЦА И ЗАМЕНИКА ЈАВНОГ ТУЖИОЦА</heading>
+				<article wId="gla7-clan99">
+					<num>99.</num>
+					<heading>Појам</heading>
+					<paragraph wId="gla7-clan99-stav1">
+						<content>
+							<p>Вредновање рада јавног тужиоца и заменика јавног тужиоца представља основ за избор, обавезну обуку и разрешење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan99-stav2">
+						<content>
+							<p>Вредновање рада врши се на основу јавно објављених, објективизираних и јединствених критеријума заснованих на примењивим и упоредивим мерилима које утврђује Државно веће тужилаца Правилником о критеријумима и мерилима вредновања рада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan100">
+					<num>100.</num>
+					<heading>Период за који се врши вредновање</heading>
+					<paragraph wId="gla7-clan100-stav1">
+						<content>
+							<p>Рад јавног тужиоца и заменика јавног тужиоца на сталној функцији редовно се вреднује једном у три године, а заменика јавног тужиоца који је први пут изабран једном годишње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan100-stav2">
+						<content>
+							<p>Изузетно, на основу одлуке Државног већа тужилаца, рад јавног тужиоца и заменика јавног тужиоца може се вредновати и ванредно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan101">
+					<num>101.</num>
+					<heading>Оцене</heading>
+					<paragraph wId="gla7-clan101-stav1">
+						<content>
+							<p>Вредновање се изражава оценом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan101-stav2">
+						<content>
+							<p>Оцене су: „изузетно успешно обавља јавнотужилачку функцију”, „успешно обавља јавнотужилачку функцију” и „не задовољава”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan101-stav3">
+						<content>
+							<p>Оцена се уписује у лични лист јавног тужиоца, односно заменика јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan101-stav4">
+						<content>
+							<p>Јавни тужилац, односно заменик јавног тужиоца има право приговора Државном већу тужилаца у року од 15 дана од дана достављања одлуке о вредновању рада, која мора бити образложена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan102">
+					<num>102.</num>
+					<heading>Поступак вредновања</heading>
+					<paragraph wId="gla7-clan102-stav1">
+						<content>
+							<p>Вредновање рада јавног тужиоца врши непосредно виши јавни тужилац, уз прибављено мишљење колегијума непосредно вишег јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan102-stav2">
+						<content>
+							<p>Вредновање рада заменика јавног тужиоца врши јавни тужилац, уз прибављено мишљење колегијума јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan102-stav3">
+						<content>
+							<p>Приликом вредновања рада узимају се у обзир периодични извештаји о прегледу рада јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>осма</num>
+				<heading>ДИСЦИПЛИНСКА ОДГОВОРНОСТ И ДИСЦИПЛИНСКИ ПОСТУПАК</heading>
+				<article wId="gla8-clan103">
+					<num>103.</num>
+					<heading>Дисциплински прекршај</heading>
+					<paragraph wId="gla8-clan103-stav1">
+						<content>
+							<p>Дисциплински прекршај је несавесно вршење јавнотужилачке функције или понашање јавног тужиоца, односно заменика јавног тужиоца недостојно јавнотужилачке функције, а који је прописан овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan104">
+					<num>104.</num>
+					<heading>Дисциплински прекршаји</heading>
+					<paragraph wId="gla8-clan104-stav1">
+						<intro>
+							<p>Јавни тужилац, односно заменик јавног тужиоца чини дисциплински прекршај ако:</p>
+						</intro>
+						<alinea wId="gla8-clan104-stav1-ali1">
+							<content>
+								<p>е израђује јавнотужилачке одлуке и не улаже редовна и ванредна правна средства у прописаном року;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali2">
+							<content>
+								<p>честало пропушта или касни на заказане претресе, расправе и друге процесне радње у предметима који су му додељени у рад;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali3">
+							<content>
+								<p>ропусти да тражи изузеће у предметима где за то постоје законски разлози;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali4">
+							<content>
+								<p>дбије вршење послова и задатака који су му поверени;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali5">
+							<content>
+								<p>е извршава писмена упутства надређеног јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali6">
+							<content>
+								<p>чигледно крши обавезе правилног поступања према судијама у поступку, странкама, њиховим правним заступницима, сведоцима, особљу или колегама;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali7">
+							<content>
+								<p>е упушта у непримерене односе са странкама или њиховим правним заступницима у поступку који води;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali8">
+							<content>
+								<p>аје непотпуне или нетачне податке од значаја за рад Државног већа тужилаца у поступку избора и разрешења јавних тужилаца и заменика јавних тужилаца, утврђивања дисциплинске одговорности и другим питањима из његове надлежности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali9">
+							<content>
+								<p>рши начело непристрасности и угрожава поверење грађана у јавно тужилаштво;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali10">
+							<content>
+								<p>бавља активности које су законом одређене као неспојиве са јавнотужилачком функцијом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali11">
+							<content>
+								<p>рихвата поклоне супротно прописима који регулишу сукоб интереса;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali12">
+							<content>
+								<p>е поштује радно време;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali13">
+							<content>
+								<p>ко значајно крши одредбе Етичког кодекса;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla8-clan104-stav1-ali14">
+							<content>
+								<p>еоправдано не похађа обавезне програме обуке.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla8-clan104-stav2">
+						<content>
+							<p>Тежак дисциплински прекршај постоји ако је услед дисциплинског прекршаја из <ref wId="ref48" href="akn/rs/act/2016/63-23/srp@/!main~art_104__para_1" >става 1. овог</ref> члана дошло до озбиљног поремећаја у вршењу јавнотужилачке функције или обављања радних задатака у јавном тужилаштву или до тешког нарушавања угледа и поверења јавности у јавно тужилаштво, а нарочито застаревања кривичног гоњења, као и у случају поновљеног дисциплинског прекршаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan104-stav3">
+						<content>
+							<p>Под поновљеним дисциплинским прекршајем из <ref wId="ref49" href="akn/rs/act/2016/63-23/srp@/!main~art_104__para_2" >става 2. овог</ref> члана сматра се три пута правноснажно утврђена одговорност јавног тужиоца, односно заменика јавног тужиоца за дисциплински прекршај.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan105">
+					<num>105.</num>
+					<heading>Дисциплинске санкције</heading>
+					<paragraph wId="gla8-clan105-stav1">
+						<content>
+							<p>Дисциплинске санкције су: јавна опомена, умањење плате до 50% до једне године и забрана напредовања у трајању од три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan105-stav2">
+						<content>
+							<p>Дисциплинска санкција изриче се сразмерно тежини учињеног дисциплинског прекршаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan105-stav3">
+						<content>
+							<p>Јавна опомена може бити изречена само када се први пут утврди одговорност јавног тужиоца, односно заменика јавног тужиоца за дисциплински прекршај.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan106">
+					<num>106.</num>
+					<heading>Дисциплински органи</heading>
+					<paragraph wId="gla8-clan106-stav1">
+						<content>
+							<p>Дисциплински органи су: Дисциплински тужилац и његови заменици и Дисциплинска комисија, које образује Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan106-stav2">
+						<content>
+							<p>Чланове дисциплинских органа именује Државно веће тужилаца из реда јавних тужилаца, односно заменика јавних тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan106-stav3">
+						<content>
+							<p>Састав, услове за именовање, трајање мандата и начин престанка дужности, начин рада и одлучивања у дисциплинским органима, уређује Државно веће тужилаца, својим актом, који се објављује у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan107">
+					<num>107.</num>
+					<heading>Дисциплински поступак</heading>
+					<paragraph wId="gla8-clan107-stav1">
+						<content>
+							<p>Дисциплински поступак води Дисциплинска комисија на предлог Дисциплинског тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan107-stav2">
+						<content>
+							<p>Предлог за вођење дисциплинског поступка, Дисциплински тужилац подноси на основу дисциплинске пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan107-stav3">
+						<content>
+							<p>Дисциплински поступак је хитан и затворен за јавност, изузев уколико јавни тужилац, односно заменик јавног тужиоца у односу на кога се поступак води не захтева да поступак буде јаван.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan107-stav4">
+						<content>
+							<p>Вођење дисциплинског поступка застарева у року од две године од дана када је дисциплински прекршај учињен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan107-stav5">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref50" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan108">
+					<num>108.</num>
+					<heading>Одлуке Дисциплинског тужиоца</heading>
+					<paragraph wId="gla8-clan108-stav1">
+						<content>
+							<p>Дисциплински тужилац може да одбаци дисциплинску пријаву као неосновану или да је прихвати и поднесе предлог за вођење дисциплинског поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan109">
+					<num>109.</num>
+					<heading>Положај јавног тужиоца, односно заменика јавног тужиоца у дисциплинском поступку</heading>
+					<paragraph wId="gla8-clan109-stav1">
+						<content>
+							<p>Јавни тужилац, односно заменик јавног тужиоца има право да одмах буде обавештен о предлогу Дисциплинског тужиоца, да се упозна са предметом и пратећом документацијом и да сам или преко заступника пружи објашњења и доказе за своје наводе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan109-stav2">
+						<content>
+							<p>Јавни тужилац, односно заменик јавног тужиоца има право да своје наводе усмено изложи пред Дисциплинском комисијом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan110">
+					<num>110.</num>
+					<heading>Одлуке Дисциплинске комисије</heading>
+					<paragraph wId="gla8-clan110-stav1">
+						<content>
+							<p>Након спроведеног дисциплинског поступка, Дисциплинска комисија може да одбије предлог Дисциплинског тужиоца или да усвоји предлог и изрекне дисциплинску санкцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan110-stav2">
+						<content>
+							<p>Против одлуке Дисциплинске комисије, Дисциплински тужилац и јавни тужилац, односно заменик јавног тужиоца против кога се води дисциплински поступак, могу изјавити жалбу Државном већу тужилаца, у року од осам дана од дана достављања одлуке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan111">
+					<num>111.</num>
+					<heading>Одлуке Државног већа тужилаца</heading>
+					<paragraph wId="gla8-clan111-stav1">
+						<content>
+							<p>Одлучујући по жалби, Државно веће тужилаца може да потврди првостепену одлуку Дисциплинске комисије или да је преиначи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan111-stav2">
+						<content>
+							<p>Државно веће тужилаца је дужно да о жалби одлучи у року од 30 дана од дана достављања жалбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan111-stav3">
+						<content>
+							<p>Одлука Државног већа тужилаца је коначна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan111-stav4">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца коме је изречена дисциплинска санкција  може покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan111-stav5">
+						<content>
+							<p>Правноснажна одлука којом је изречена дисциплинска санкција уписује се у лични лист јавног тужиоца, односно заменика јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan111-stav6">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref51" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>девета</num>
+				<heading>КОЛЕГИЈУМ ЈАВНОГ ТУЖИЛАШТВА</heading>
+				<article wId="gla9-clan112">
+					<num>112.</num>
+					<heading>Састав колегијума јавног тужилаштва</heading>
+					<paragraph wId="gla9-clan112-stav1">
+						<content>
+							<p>Колегијум јавног тужилаштва сачињавају јавни тужилац и сви заменици јавног тужиоца у том јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan113">
+					<num>113.</num>
+					<heading>Сазивање колегијума јавног тужилаштва</heading>
+					<paragraph wId="gla9-clan113-stav1">
+						<content>
+							<p>Колегијум јавног тужилаштва сазива и њиме руководи јавни тужилац или заменик јавног тужиоца којег он одреди.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan113-stav2">
+						<content>
+							<p>Јавни тужилац је дужан да сазове колегијум јавног тужилаштва на захтев најмање трећине својих заменика.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan114">
+					<num>114.</num>
+					<heading>Начин рада и одлучивања</heading>
+					<paragraph wId="gla9-clan114-stav1">
+						<content>
+							<p>Колегијум јавног тужилаштва одлучује ако је присутно најмање две трећине заменика јавног тужиоца, а одлука је пуноважна ако за њу гласа већина присутних чланова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan115">
+					<num>115.</num>
+					<heading>Надлежност колегијума јавног тужилаштва</heading>
+					<paragraph wId="gla9-clan115-stav1">
+						<intro>
+							<p>Колегијум јавног тужилаштва:</p>
+						</intro>
+						<alinea wId="gla9-clan115-stav1-ali1">
+							<content>
+								<p>аје мишљење Државном већу тужилаца о кандидатима за заменике јавног тужиоца у свом или непосредно нижем јавном тужилаштву;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan115-stav1-ali2">
+							<content>
+								<p>аје мишљење Државном већу тужилаца о кандидатима за јавне тужиоце у непосредно нижем јавном тужилаштву;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan115-stav1-ali3">
+							<content>
+								<p>азматра извештај о раду јавног тужилаштва за претходну годину;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan115-stav1-ali4">
+							<content>
+								<p>азматра питања од значаја за стручно усавршавање и организацију јавног тужилаштва;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan115-stav1-ali5">
+							<content>
+								<p>рши и друге послове у складу са Правилником о управи у јавном тужилаштву.</p>
+							</content>
+						</alinea>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan116">
+					<num>116.</num>
+					<heading>Колегијум Републичког јавног тужилаштва</heading>
+					<paragraph wId="gla9-clan116-stav1">
+						<content>
+							<p>Колегијум Републичког јавног тужилаштва чине Републички јавни тужилац и сви заменици Републичког јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan116-stav2">
+						<intro>
+							<p>Поред надлежности из <ref wId="ref52" href="akn/rs/act/2016/63-23/srp@/!main~art_115" >члана 115. овог</ref> закона, Колегијум Републичког јавног тужилаштва:</p>
+						</intro>
+						<alinea wId="gla9-clan116-stav2-ali1">
+							<content>
+								<p>аје мишљење о нацртима закона или других прописа од значаја за рад јавног тужилаштва или обављање јавнотужилачке функције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan116-stav2-ali2">
+							<content>
+								<p>аје мишљење Државном већу тужилаца у поступку решавања захтева за изузеће Републичког јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan116-stav2-ali3">
+							<content>
+								<p>бавља и друге послове у складу са Правилником о управи у јавном тужилаштву.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla9-clan116-stav3">
+						<content>
+							<p>Ради разматрања питања од значаја за рад јавног тужилаштва, Републички јавни тужилац може сазвати проширени Колегијум Републичког јавног тужилаштва, који чине Републички јавни тужилац, заменици Републичког јавног тужиоца, апелациони јавни тужиоци, тужиоци посебне надлежности и виши јавни тужиоци.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>десета</num>
+				<heading>ОСОБЉЕ У ЈАВНОМ ТУЖИЛАШТВУ</heading>
+				<article wId="gla10-clan117">
+					<num>117.</num>
+					<heading>Састав и број особља</heading>
+					<paragraph wId="gla10-clan117-stav1">
+						<content>
+							<p>Особље у јавном тужилаштву чине тужилачки помоћници, тужилачки приправници и државни службеници и намештеници запослени на административним, техничким, рачуноводственим, информационим и другим пратећим пословима значајним за јавно тужилаштво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan117-stav2">
+						<content>
+							<p>Број особља у јавном тужилаштву одређује јавни тужилац актом о унутрашњем уређењу и систематизацији радних места, уз сагласност министра надлежног за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan117-stav3">
+						<content>
+							<p>Мерила за одређивање броја особља у јавном тужилаштву утврђује министар надлежан за послове правосуђа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan118">
+					<num>118.</num>
+					<heading>Секретар</heading>
+					<paragraph wId="gla10-clan118-stav1">
+						<content>
+							<p>Републичко јавно тужилаштво има секретара који помаже Републичком јавном тужиоцу у вршењу послова тужилачке управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan118-stav2">
+						<content>
+							<p>За секретара у Републичком јавном тужилаштву може бити постављено лице које испуњава услове за избор за заменика апелационог јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan118-stav3">
+						<content>
+							<p>Секретар Републичког јавног тужилаштва има статус државног службеника на положају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan118-stav4">
+						<content>
+							<p>Јавно тужилаштво може имати секретара који помаже јавном тужиоцу у вршењу послова тужилачке управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan118-stav5">
+						<content>
+							<p>Секретара јавног тужилаштва распоређује јавни тужилац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan119">
+					<num>119.</num>
+					<heading>Тужилачки помоћник</heading>
+					<paragraph wId="gla10-clan119-stav1">
+						<content>
+							<p>Тужилачки помоћник помаже јавном тужиоцу и заменику јавног тужиоца, израђује нацрте аката, прима на записник пријаве, поднеске и изјаве грађана и самостално или под надзором врши послове предвиђене законом и другим прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan119-stav2">
+						<content>
+							<p>Јавни тужилац или заменик јавног тужиоца кога он одреди, надзире рад тужилачког помоћника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan119-stav3">
+						<content>
+							<p>Поступак пријема тужилачких помоћника ближе се уређује актом министра надлежног  за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan119-stav4">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref53" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan120">
+					<num>120.</num>
+					<heading>Звања тужилачких помоћника</heading>
+					<paragraph wId="gla10-clan120-stav1">
+						<content>
+							<p>Тужилачки помоћници стичу следећа звања: тужилачки сарадник, виши тужилачки сарадник, саветник и виши саветник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan120-stav2">
+						<content>
+							<p>Звање тужилачког сарадника може стећи лице које има положени правосудни испит, а звање вишег тужилачког сарадника лице које после положеног правосудног испита има најмање две године радног искуства у правној струци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan120-stav3">
+						<content>
+							<p>Звање саветника може стећи лице које испуњава услове за заменика вишег јавног тужиоца. Звање саветника постоји у Републичком јавном тужилаштву, јавном тужилаштву посебне надлежности и апелационом јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan120-stav4">
+						<content>
+							<p>У Републичком јавном тужилаштву постоји и звање вишег саветника, које се стиче одлуком Колегијума Републичког јавног тужилаштва, а може га стећи лице које има звање саветника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan120-stav5">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref54" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan121">
+					<num>121.</num>
+					<heading>Вредновање рада тужилачких помоћника</heading>
+					<paragraph wId="gla10-clan121-stav1">
+						<content>
+							<p>Рад тужилачког помоћника вреднује јавни тужилац, по прибављеном мишљењу заменика јавног тужиоца с којим тужилачки помоћник ради.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan121-stav2">
+						<content>
+							<p>На вредновање и последице вредновања тужилачког помоћника сходно се примењују правила о вредновању судијског помоћника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan122">
+					<num>122.</num>
+					<heading>Тужилачки приправник</heading>
+					<paragraph wId="gla10-clan122-stav1">
+						<content>
+							<p>За тужилачког приправника прима се лице које је завршило правни факултет и испуњава опште услове за рад у државним органима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan122-stav2">
+						<content>
+							<p>Тужилачки приправник прима се у основно и више јавно тужилаштво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan122-stav3">
+						<content>
+							<p>Број тужилачких приправника одређује се посебно за свако јавно  тужилаштво актом министра надлежног за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan122-stav4">
+						<content>
+							<p>Брисан је  ранији <ref wId="ref56" href="akn/rs/act/2016/63-23/srp@/!main~art_122__para_3" >став 3. </ref>(види <ref wId="ref55" href="akn/rs/act/2013/101/srp@/!main~/art_19">члан 19. Закона - 101/2013-13</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan122-stav5">
+						<content>
+							<p>При пријему тужилачких приправника нарочито се води рачуна о националном саставу становништва, одговарајућој заступљености припадника националних мањина и познавању стручне правне терминологије на језику националне мањине, који је у службеној употреби у суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan122-stav6">
+						<content>
+							<p>Поступак пријема тужилачких приправника ближе се  уређује актом министра надлежног за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan122-stav7">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref57" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan122-stav8">
+						<content>
+							<p>**Службени гласник РС,  број <ref wId="ref58" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan123">
+					<num>123.</num>
+					<heading>Радни однос тужилачког приправника</heading>
+					<paragraph wId="gla10-clan123-stav1">
+						<content>
+							<p>Тужилачки приправник прима се у радни однос на три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan123-stav2">
+						<content>
+							<p>Тужилачки приправник који је на првосудном испиту оцењен са „положио са одликом”  прима се у радни однос на неодређено време у звању тужилачког сарадника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan123-stav3">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref59" href="akn/rs/act/2014/117/srp@">117/2014</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan124">
+					<num>124.</num>
+					<heading>Волонтер</heading>
+					<paragraph wId="gla10-clan124-stav1">
+						<content>
+							<p>Дипломирани правник може бити примљен на обуку у јавно тужилаштво, без заснивања радног односа, ради стицања радног искуства и услова за полагање правосудног испита (волонтер).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan125">
+					<num>125.</num>
+					<heading>Обука</heading>
+					<paragraph wId="gla10-clan125-stav1">
+						<content>
+							<p>Програм обуке тужилачких приправника и тужилачких помоћника утврђује Државно веће тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan125-stav2">
+						<content>
+							<p>Тужилачки приправник и тужилачки помоћник може одређено време бити упућен на обуку у друго јавно тужилаштво, државни орган или орган јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan126">
+					<num>126.</num>
+					<heading>Остала правила о особљу у јавном тужилаштву</heading>
+					<paragraph wId="gla10-clan126-stav1">
+						<content>
+							<p>Особље у јавном тужилаштву дужно је да савесно и непристрасно врши своје послове и чува углед јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan126-stav2">
+						<content>
+							<p>На заснивање радног односа, права, обавезе, стручно усавршавање, оцењивање и одговорности особља у јавном тужилаштву примењују се прописи који уређују радне односе државних службеника и намештеника, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla11">
+				<num>једанаеста</num>
+				<heading>СРЕДСТВА ЗА РАД ЈАВНИХ ТУЖИЛАШТАВА</heading>
+				<article wId="gla11-clan127">
+					<num>127.</num>
+					<paragraph wId="gla11-clan127-stav1">
+						<content>
+							<p>Средства за рад јавних тужилаштава обезбеђују се у буџету Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan127-stav2">
+						<content>
+							<p>Средства за рад јавних тужилаштава треба да обимом и приливом одржавају самосталност и редован рад јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan127-stav3">
+						<content>
+							<p>Државно веће тужилаца предлаже обим и структуру буџетских средстава неопходних за рад јавних тужилаштава за текуће расходе,  осим расхода за особље у јавним тужилаштвима, уз претходно прибављено мишљење министарства надлежног за правосуђе и врши расподелу ових средстава на јавна тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan127-stav4">
+						<content>
+							<p>Надзор над трошењем средстава буџета опредељених за рад јавних тужилаштава врши Државно веће тужилаца, министарство надлежно за правосуђе и министарство надлежно за финансије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan127-stav5">
+						<content>
+							<p>Брисан је   ранији <ref wId="ref61" href="akn/rs/act/2016/63-23/srp@/!main~art_127__para_5" >став 5. </ref>(види <ref wId="ref60" href="akn/rs/act/2010/101/srp@/!main~/art_4">члан  4. Закона – 101/2010-4</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan127-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref62" href="akn/rs/act/2011/101/srp@">101/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla12">
+				<num>дванаеста</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla12-od1-clan128">
+					<num>128.</num>
+					<heading>Наставак функције јавних тужилаца и заменика јавних тужилаца</heading>
+					<paragraph wId="gla12-od1-clan128-stav1">
+						<content>
+							<p>Јавни тужиоци и заменици јавних тужилаца настављају своју дужност у јавним тужилаштвима у којима су изабрани или распоређени по Закону о јавном тужилаштву („Службени гласник РС”, бр. <ref wId="ref63" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref64" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref65" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref66" href="akn/rs/act/04/44/srp@">44/04</ref>, <ref wId="ref67" href="akn/rs/act/04/51/srp@">51/04</ref>, <ref wId="ref68" href="akn/rs/act/05/61/srp@"><ref wId="ref73" href="akn/rs/act/05/61/srp@">61/05</ref></ref>, <ref wId="ref69" href="akn/rs/act/06/46/srp@">46/06</ref> и <ref wId="ref70" href="akn/rs/act/06/106/srp@">106/06</ref>) и Закону о организацији и надлежности државних органа у поступку за ратне злочине („Службени гласник РС”, бр. <ref wId="ref71" href="akn/rs/act/03/67/srp@">67/03</ref>, <ref wId="ref72" href="akn/rs/act/04/135/srp@">135/04</ref>, 61/05 и <ref wId="ref74" href="akn/rs/act/07/101/srp@">101/07</ref>) до 31. децембра 2009. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od1-clan129">
+					<num>129.</num>
+					<heading>Избор заменика јавних тужилаца</heading>
+					<paragraph wId="gla12-od1-clan129-stav1">
+						<content>
+							<p>Одлуку о броју заменика јавних тужилаца доноси Државно веће тужилаца у року од 30 дана од дана избора првог састава Државног већа тужилаца, уз претходно прибављену сагласност министра надлежног за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav2">
+						<content>
+							<p>Избор заменика јавних тужилаца, у складу са овим законом, извршиће се до 1. децембра 2009. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav3">
+						<content>
+							<p>Заменици јавних тужилаца изабрани у складу са овим законом ступају на функцију 1. јануара 2010. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav4">
+						<content>
+							<p>Првим избором на јавнотужилачку функцију сматра се избор на дужност јавног тужиоца, односно заменика јавног тужиоца, у складу са раније важећим законима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav5">
+						<content>
+							<p>Избор заменика јавних тужилаца на сталну функцију</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav6">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref75" href="akn/rs/act/2012/121/srp@">121/2012</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav7">
+						<content>
+							<p>Члан 129а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav8">
+						<content>
+							<p>Изузетно од одредаба чл. <ref wId="ref77" href="akn/rs/act/2016/63-23/srp@/!main~art_99" >99</ref>. и <ref wId="ref78" href="akn/rs/act/2016/63-23/srp@/!main~art_100" >100</ref>. овог закона, заменике јавних тужилаца који  су први пут изабрани на функцију Одлуком о избору заменика јавног тужиоца  („Службени гласник РС”, број <ref wId="ref79" href="akn/rs/act/09/111/srp@">111/09</ref>) и Одлуком о избору заменика јавног тужиоца  („Службени гласник РС”, број <ref wId="ref80" href="akn/rs/act/10/52/srp@">52/10</ref>), а чији рад током трогодишњег мандата није  вреднован у складу са <ref wId="ref76" href="akn/rs/act/2016/63-23/srp@/!main~art_100" >чланом 100. овог</ref> закона, Државно веће тужилаца ће изабрати  на сталну функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav9">
+						<content>
+							<p>Одлуку о избору заменика јавних тужилаца из <ref wId="ref81" href="akn/rs/act/2016/63-23/srp@/!main~art_129__para_1" >става 1. овог</ref> члана Државно веће  тужилаца донеће најкасније до 31. децембра 2012. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav10">
+						<content>
+							<p>Заменици јавних тужилаца из <ref wId="ref82" href="akn/rs/act/2016/63-23/srp@/!main~art_129__para_1" >става 1. овог</ref> члана ступају на сталну функцију даном  истека трогодишњег мандата на који су први пут бирани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav11">
+						<content>
+							<p>Одлука из <ref wId="ref83" href="akn/rs/act/2016/63-23/srp@/!main~art_129__para_2" >става 2. овог</ref> члана објављује се у „Службеном гласнику Републике  Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan129-stav12">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref84" href="akn/rs/act/2012/121/srp@">121/2012</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od1-clan130">
+					<num>130.</num>
+					<heading>Престанак дужности и права јавних тужилаца и заменика јавних тужилаца који су изабрани по ранијем закону</heading>
+					<paragraph wId="gla12-od1-clan130-stav1">
+						<content>
+							<p>Јавним тужиоцима и заменицима јавних тужилаца који нису изабрани у складу са овим законом дужност престаје 31. децембра 2009. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan130-stav2">
+						<content>
+							<p>Јавни тужиоци и заменици јавних тужилаца из <ref wId="ref85" href="akn/rs/act/2016/63-23/srp@/!main~art_130__para_1" >става 1. овог</ref> члана, имају право на накнаду плате у трајању од шест месеци у висини плате коју су имали у тренутку престанка дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan130-stav3">
+						<content>
+							<p>Право на накнаду плате из <ref wId="ref86" href="akn/rs/act/2016/63-23/srp@/!main~art_130__para_2" >става 2. овог</ref> члана престаје пре протека рока од шест месеци ако јавни тужилац или заменик јавног тужиоца коме је престала дужност заснује радни однос или стекне право на пензију, а може бити продужено за још шест месеци ако у тих шест месеци стиче право на пензију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od1-clan131">
+					<num>131.</num>
+					<heading>Избор јавних тужилаца</heading>
+					<paragraph wId="gla12-od1-clan131-stav1">
+						<content>
+							<p>Избор Републичког јавног тужиоца извршиће се у року од 90 дана од дана ступања на снагу овог закона, а избор осталих јавних тужилаца у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan131-stav2">
+						<content>
+							<p>Јавни тужиоци из <ref wId="ref87" href="akn/rs/act/2016/63-23/srp@/!main~art_131__para_1" >става 1. овог</ref> члана, изабрани у складу са овим законом, ступају на функцију 1. јануара 2010. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od1-clan132">
+					<num>132.</num>
+					<heading>Уступање предмета</heading>
+					<paragraph wId="gla12-od1-clan132-stav1">
+						<content>
+							<p>Предмете у којима до 31. децембра 2009. године поступа јавни тужилац, у складу са Законом о јавном тужилаштву („Службени гласник РС”, бр. <ref wId="ref88" href="akn/rs/act/01/63/srp@"><ref wId="ref96" href="akn/rs/act/01/63/srp@">63/01</ref></ref>, <ref wId="ref89" href="akn/rs/act/02/42/srp@"><ref wId="ref97" href="akn/rs/act/02/42/srp@">42/02</ref></ref>, <ref wId="ref90" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref91" href="akn/rs/act/04/44/srp@">44/04</ref>, <ref wId="ref92" href="akn/rs/act/04/51/srp@">51/04</ref>, <ref wId="ref93" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref94" href="akn/rs/act/06/46/srp@">46/06</ref> и <ref wId="ref95" href="akn/rs/act/06/106/srp@">106/06</ref>) и Законом о седиштима и подручјима судова и јавних тужилаштава („Службени гласник РС”, бр. 63/01 и 42/02), а који нису окончани, уступају се јавним тужиоцима у чију надлежност предмети спадају по овом закону и закону који уређује седишта и подручја јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan132-stav2">
+						<content>
+							<p>Предмети за које је до 31. децембра 2009. године надлежно Посебно одељење за сузбијање организованог криминала, које је образовано у Окружном јавном тужилаштву у Београду, у складу са Законом о организацији и надлежности државних органа у сузбијању организованог криминала („Службени гласник РС”, бр. <ref wId="ref98" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref99" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref100" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref101" href="akn/rs/act/03/67/srp@">67/03</ref>, <ref wId="ref102" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref103" href="akn/rs/act/04/58/srp@">58/04</ref>, <ref wId="ref104" href="akn/rs/act/05/45/srp@">45/05</ref> и <ref wId="ref105" href="akn/rs/act/05/61/srp@">61/05</ref>), а који нису окончани, уступају се Тужилаштву за организовани криминал, које почиње са радом 1. јануара 2010. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od1-clan133">
+					<num>133.</num>
+					<heading>Доношење привремених аката о унутрашњем уређењу и систематизацији радних места у Републичком јавном тужилаштву, апелационим јавним тужилаштвима и Тужилаштву за организовани криминал</heading>
+					<paragraph wId="gla12-od1-clan133-stav1">
+						<content>
+							<p>Привремене акте о унутрашњем уређењу и систематизацији радних места у Републичком јавном тужилаштву, апелационим јавним тужилаштвима и Тужилаштву за организовани криминал донеће министар надлежан за правосуђе до 1. септембра 2009. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan133-stav2">
+						<content>
+							<p>Акте о унутрашњем уређењу и систематизацији радних места у Републичком јавном тужилаштву, апелационим јавним тужилаштвима и Тужилаштву за организовани криминал донеће јавни тужиоци ових тужилаштава у року од шест месеци од дана њиховог ступања на функцију у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od1-clan134">
+					<num>134.</num>
+					<heading>Преузимање средстава за рад, опреме, архиве и запослених</heading>
+					<paragraph wId="gla12-od1-clan134-stav1">
+						<content>
+							<p>Потребна средства за рад, опрему, архиву и запослене Републичког јавног тужилаштва преузимају Републичко јавно тужилаштво и апелациона јавна тужилаштава, у складу са надлежношћу одређеном овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan134-stav2">
+						<content>
+							<p>Министар надлежан за правосуђе образоваће комисију која ће извршити расподелу средстава за рад, опрему и архиву из <ref wId="ref106" href="akn/rs/act/2016/63-23/srp@/!main~art_134__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan134-stav3">
+						<content>
+							<p>Државно веће тужилаца образоваће комисију која ће донети решења о распоређивању запослених из Републичког јавног тужилаштва у апелациона јавна тужилаштва, у складу са привременим актом о унутрашњем уређењу и систематизацији радних места.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan134-stav4">
+						<content>
+							<p>Потребна средства за рад, опрему, архиву и запослене Посебног одељења за сузбијање организованог криминала Окружног јавног тужилаштва у Београду преузеће Тужилаштво за организовани криминал.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan134-stav5">
+						<content>
+							<p>Тужилаштво за организовани криминал преузеће запослене из <ref wId="ref107" href="akn/rs/act/2016/63-23/srp@/!main~art_134__para_4" >става 4. овог</ref> члана, у складу са привременим актом о унутрашњем уређењу и систематизацији радних места.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od1-clan135">
+					<num>135.</num>
+					<heading>Права запослених у Републичком јавном тужилаштву</heading>
+					<paragraph wId="gla12-od1-clan135-stav1">
+						<content>
+							<p>На права запослених у Републичком јавном тужилаштву примењују се одредбе закона који уређује права државних службеника и намештеника при промени уређења државних органа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od1-clan136">
+					<num>136.</num>
+					<heading>Надлежност Државног већа тужилаца у вези са средствима за рад јавних тужилаштава</heading>
+					<paragraph wId="gla12-od1-clan136-stav1">
+						<content>
+							<p>Престао је да  важи од 1. септембра  2011. године  (види чл.  <ref wId="ref108" href="akn/rs/act/2016/63-23/srp@/!main~art_9" >9</ref>. и <ref wId="ref109" href="akn/rs/act/2016/63-23/srp@/!main~art_10" >10</ref>. Закона о изменама и допунама Закона о буџету Републике Србије за 2011.  годину - 78/2011-3)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od1-clan137">
+					<num>137.</num>
+					<heading>Подзаконски прописи</heading>
+					<paragraph wId="gla12-od1-clan137-stav1">
+						<content>
+							<p>Подзаконски прописи чије је доношење предвиђено овим законом, донеће се у року од шест месеци од дана ступања на снагу овог закона, изузев акта из <ref wId="ref110" href="akn/rs/act/2016/63-23/srp@/!main~art_82__para_1" >члана 82. став 1. овог</ref> закона, који ће се донети у року од 60 дана од дана конституисања Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od1-clan137-stav2">
+						<content>
+							<p>До доношења подзаконских прописа из <ref wId="ref119" href="akn/rs/act/2016/63-23/srp@/!main~art_137__para_1" >става 1. овог</ref> члана, примењују се одредбе прописа донетих на основу Закона о јавном тужилаштву („Службени гласник РС”, бр. <ref wId="ref111" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref112" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref113" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref114" href="akn/rs/act/04/44/srp@">44/04</ref>, <ref wId="ref115" href="akn/rs/act/04/51/srp@">51/04</ref>, <ref wId="ref116" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref117" href="akn/rs/act/06/46/srp@">46/06</ref> и <ref wId="ref118" href="akn/rs/act/06/106/srp@">106/06</ref>), ако нису супротни одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan138">
+					<num>138.</num>
+					<heading>Престанак важења закона</heading>
+					<paragraph wId="gla12-od2-clan138-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престаје да важи Закон о јавном тужилаштву („Службени гласник РС”, бр. <ref wId="ref120" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref121" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref122" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref123" href="akn/rs/act/04/44/srp@">44/04</ref>, <ref wId="ref124" href="akn/rs/act/04/51/srp@">51/04</ref>, <ref wId="ref125" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref126" href="akn/rs/act/06/46/srp@">46/06</ref> и <ref wId="ref127" href="akn/rs/act/06/106/srp@">106/06</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan139">
+					<num>139.</num>
+					<heading>Престанак важења других закона</heading>
+					<paragraph wId="gla12-od2-clan139-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престају да важе одредбе Закона о платама у државним органима и јавним службама („Службени гласник РС”, бр. <ref wId="ref128" href="akn/rs/act/01/34/srp@">34/01</ref>, <ref wId="ref129" href="akn/rs/act/06/62/srp@">62/06</ref> – др. закон и 63/06 – исправка др. закона) у делу који се односи на начин утврђивања плата, додатака и накнада јавних тужилаца и заменика јавних тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan140">
+					<num>140.</num>
+					<heading>Ступање закона на снагу и почетак примене</heading>
+					<paragraph wId="gla12-od2-clan140-stav1">
+						<content>
+							<p>Овај закон ступа на снагу даном конституисања Државног већа тужилаца, а примењује се од 1. јануара 2010. године, изузев одредаба <ref wId="ref130" href="akn/rs/act/2016/63-23/srp@/!main~art_74->art_84" >чл. 74</ref>–84. овог закона, које почињу да се примењују од дана конституисања Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan140-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan4">
+					<num>4.</num>
+					<heading>Закон о изменама и допунама Закона о јавном тужилаштву: „Службени гласник РС“, број <ref wId="ref131" href="akn/rs/act/2009/104/srp@">104/2009</ref>-3</heading>
+					<paragraph wId="gla12-od2-clan4-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије“, а примењује се од 1. јануара 2010. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan6">
+					<num>6.</num>
+					<heading>Закон о изменама и допунама Закона о јавном тужилаштву: „Службени гласник РС“, број <ref wId="ref144" href="akn/rs/act/2010/101/srp@">101/2010</ref>-4</heading>
+					<paragraph wId="gla12-od2-clan6-stav1">
+						<content>
+							<p>Стални састав Државног већа тужилаца преиспитаће одлуке првог састава Државног већа тужилаца о престанку дужности јавних тужилаца и заменика јавних тужилаца из <ref wId="ref132" href="akn/rs/act/2016/63-23/srp@/!main~art_130__para_1" >члана 130. став 1. </ref>Закона о јавном тужилаштву („Службени гласник РС”, бр. <ref wId="ref133" href="akn/rs/act/08/116/srp@">116/08</ref> и <ref wId="ref134" href="akn/rs/act/09/104/srp@">104/09</ref>), у складу са критеријумима и мерилима за оцену стручности, оспособљености и достојности, које ће донети стални састав Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan6-stav2">
+						<content>
+							<p>Поступци по жалбама, односно по уставним жалбама које су јавни тужиоци и заменици јавних тужилаца из <ref wId="ref135" href="akn/rs/act/2016/63-23/srp@/!main~art_6__para_1" >става 1. овог</ref> члана поднели Уставном суду, окончавају се ступањем на снагу овог закона и предмети се уступају Државном већу тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan6-stav3">
+						<content>
+							<p>Жалбе, односно уставне жалбе из <ref wId="ref136" href="akn/rs/act/2016/63-23/srp@/!main~art_6__para_2" >става 2. овог</ref> члана сматраће се приговором на одлуку Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan6-stav4">
+						<content>
+							<p>Јавни тужиоци и заменици јавних тужилаца из <ref wId="ref137" href="akn/rs/act/2016/63-23/srp@/!main~art_6__para_1" >става 1. овог</ref> члана који нису поднели жалбу, односно уставну жалбу Уставном суду, могу изјавити приговор на одлуку из <ref wId="ref138" href="akn/rs/act/2016/63-23/srp@/!main~art_6__para_1" >става 1. овог</ref> члана у року од 30 дана од дана ступања на снагу овог закона. О овом приговору одлучује стални састав Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan6-stav5">
+						<content>
+							<p>У поступку по приговору из <ref wId="ref141" href="akn/rs/act/2016/63-23/srp@/!main~art_6__para_3->para_4" >ст. 3. и 4. овог</ref> члана, јавни тужилац и заменик јавног тужиоца из <ref wId="ref140" href="akn/rs/act/2016/63-23/srp@/!main~art_6__para_1" >става 1. овог</ref> члана има право да се упозна са предметом, пратећом документацијом и током поступка, као и да усмено пред сталним саставом Државног већа тужилаца изложи своје наводе. Одлука Државног већа тужилаца донета по приговору мора бити образложена, у складу са <ref wId="ref139" href="akn/rs/act/2016/63-23/srp@/!main~art_17__para_2" >чланом 17. став 2. </ref>Закона о Државном већу тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan6-stav6">
+						<content>
+							<p>Против одлуке сталног састава Државног већа тужилаца донете по приговору из <ref wId="ref143" href="akn/rs/act/2016/63-23/srp@/!main~art_6__para_3->para_4" >ст. 3. и 4. овог</ref> члана, којом се потврђује одлука првог састава Државног већа тужилаца о престанку дужности, јавни тужилац и заменик јавног тужиоца из <ref wId="ref142" href="akn/rs/act/2016/63-23/srp@/!main~art_6__para_1" >става 1. овог</ref> члана може изјавити жалбу Уставном суду, у року од 30 дана од дана достављања одлуке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla12-od2-clan7-stav1">
+						<content>
+							<p>Стални састав  Државног већа тужилаца преиспитаће одлуке првог састава Државног већа тужилаца о  избору заменика јавних тужилаца на сталну функцију, односно одлуке о предлогу за  избор јавних тужилаца и заменика јавних тужилаца који се први пут бирају, ради  утврђивања постојања разлога који указују на сумњу у стручност, оспособљеност и  достојност појединог јавног тужиоца и заменика јавног тужиоца, .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan7-stav2">
+						<content>
+							<p>Одлука сталног састава Државног већа тужилаца којом се утврђује постојање разлога из <ref wId="ref145" href="akn/rs/act/2016/63-23/srp@/!main~art_7__para_1" >става 1. овог</ref> члана, представља посебан основ за покретање поступка за разрешење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan7-stav3">
+						<content>
+							<p>Поступак за разрешење из <ref wId="ref146" href="akn/rs/act/2016/63-23/srp@/!main~art_7__para_2" >става 2. овог</ref> члана, стални састав Државног већа тужилаца покреће по службеној дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan7-stav4">
+						<content>
+							<p>Прво вредновање заменика јавног тужиоца који су први пут изабрани извршиће стални састав Државног већа тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan8">
+					<num>8.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref148" href="akn/rs/act/2012/38/srp@">38/2012</ref> (Одлука УС)</heading>
+					<paragraph wId="gla12-od2-clan8-stav1">
+						<content>
+							<p>Критеријуме и мерила из <ref wId="ref147" href="akn/rs/act/2016/63-23/srp@/!main~art_6__para_1" >члана 6. став 1. овог</ref> закона, донеће стални састав Државног већа тужилаца у року од 15 дана од дана избора чланова сталног састава Државног већа тужилаца из реда јавних тужилаца и заменика јавних тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla12-od2-clan9-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan20">
+					<num>20.</num>
+					<heading>Закон о изменама и допунама Закона о јавном тужилаштву: „Службени гласник РС“, број <ref wId="ref150" href="akn/rs/act/2013/101/srp@">101/2013</ref>-15</heading>
+					<paragraph wId="gla12-od2-clan20-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном  гласнику Републике Србије”, осим одредаба <ref wId="ref149" href="akn/rs/act/2016/63-23/srp@/!main~art_17->art_19" >чл. 17. </ref>до 19, које почињу да се  примењују од 1. јануара 2014. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-od2-clan3">
+					<num>3.</num>
+					<heading>Закон о допунама Закона о јавном тужилаштву: „Службени гласник РС“, број <ref wId="ref152" href="akn/rs/act/2015/106/srp@">106/2015</ref>-61</heading>
+					<paragraph wId="gla12-od2-clan3-stav1">
+						<content>
+							<p>Државно веће тужилаца дужно је да пропише програм  и начин полагања испита на коме се оцењује стручност и оспособљеност кандидата у  року од 90 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-od2-clan3-stav2">
+						<content>
+							<p>Министар надлежан за правосуђе донеће акт из  <ref wId="ref151" href="akn/rs/act/2016/63-23/srp@/!main~art_2" >члана 2. овог</ref> закона у року од 60 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="gla12-od2-clan4-stav2">
+					<content>
+						<p>ЗАКОН</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla12-od2-clan4-stav3">
+					<content>
+						<p>о јавном тужилаштву</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla12-od2-clan4-stav4">
+					<content>
+						<p>„Службени гласник РС“, бр. 116 од 22. децембра 2008, 104 од 16. децембра 2009, 101 од 29. децембра 2010, 78 од 19. октобра 2011 -  др. закон, 101 од 30. децембра 2011, 38 од 25. априла 2012 - УС, 121 од 24. децембра 2012, 101 од 20. новембра 2013, 111 од 15. октобра 2014 -  УС,  117 од 29. октобра 2014, 106 од 21. децембра 2015, 63 од 15. јула 2016 -  УС</p>
+					</content>
+				</paragraph>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

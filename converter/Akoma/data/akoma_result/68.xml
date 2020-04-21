@@ -1,0 +1,754 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о критичној инфраструктури">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2018/87-41/main"/>
+					<FRBRuri value="akn/rs/act/2018/87-41"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/87-41/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/87-41/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/87-41/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/87-41/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-11-13" name="службени гласник рс" number="87" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Одбрана и безбедност" value="1. одбрана и безбедност" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2018-11-09" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2018-11-21" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2018-11-21" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="инфраструктуре"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="критичне"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="области"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="одлучивању"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="одговорност"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="пружање"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштитa"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="национална"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="подршке"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="израза"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="извештавање"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="органа"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="организације"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежни"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="значење"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="инфраструктура"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="критична"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="органи"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="података"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="надзор"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="информације"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="идентификација"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштита"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="европска"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="одређивање"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="управљање"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Oficira"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbijeˮ"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Bezbednosnog plana operatora za upravljanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropska komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskoj komisiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskoj uniji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropsku kritičnu infrastrukturu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva na Bezbednosni plan operatora za upravljanje rizikom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva odbrane i Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva odmah"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo )"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu predlog za imenovanje oficira za vezu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republički štab za vanredne situacije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada aktom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstva nadležnog za unutrašnje poslove"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. septembra 2005."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. oktobra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 3"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од објављивања у Службеном гласнику Републике Србије, односно 21. новембра 2018. године (види члан 25. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О критичној инфраструктури "Службени гласник РС", број <ref wId="ref17" href="akn/rs/act/2018/87/srp@">87 од 13. новембра 2018</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се национална и европска критична инфраструктура, идентификација и одређивање критичне инфраструктуре Републике Србије (у даљем тексту: критична инфраструктура), заштита критичне инфраструктуре, надлежност и одговорност органа и организација у области критичне инфраструктуре (у даљем тексту: надлежни органи и организације) и информације, извештавање, пружање подршке одлучивању, заштитa података, управљање и надзор у области критичне инфраструктуре.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Значење израза</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> сектори критичне инфраструктуре су области одређене овим законом, у којима се врши поступак идентификације и одређивања критичне инфраструктуре;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> идентификација критичне инфраструктуре је поступак утврђивања система, мрежа, објеката или њихових делова у одређеном сектору који се, у складу са утврђеним критеријумима, идентификују као критична инфраструктура;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> одређивање критичне инфраструктуре подразумева поступак утврђивања система, мрежа, објеката, или њихових делова као критичне инфраструктуре у складу са овим законом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> заштита критичне инфраструктуре представља скуп активности и мера које имају за циљ осигурање функционисања критичне инфраструктуре у случају ометања или уништења, односно заштиту у случају претњи и спречавање настанка последице ометања или уништења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> оператори критичне инфраструктуре су државни органи, органи аутономне покрајине, органи јединице локалне самоуправе, јавна предузећа, привредна друштва или друга правна лица која управљају системима, мрежама, објектима или њиховим деловима који су одређени као критична инфраструктура;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> Безбедносни план оператора за управљање ризиком је план који израђује оператор критичне инфраструктуре, којим се дефинишу безбедносни циљеви и мере оператора на основу анализе ризика коју план садржи;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> официр за везу је лице запослено код оператора критичне инфраструктуре, а које је контакт између оператора критичне инфраструктуре и министарства надлежног за унутрашње послове (у даљем тексту: Министарство);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> европска критична инфраструктура подразумева критичну инфраструктуру која се налази на територији земље чланице Европске уније, чије би ометање или уништење имало значајан утицај на најмање две земље чланице.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Начела деловања</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Надлежни органи и организације, грађани и други субјекти дужни су да се у предузимању мера и активности утврђених овим и другим законом, програмима, плановима и другим документима у области критичне инфраструктуре руководе следећим начелима:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> начело интегрисаног приступа – у заштити критичне инфраструктуре пре, за време и после ометања или прекида у функционисању критичне инфраструктуре, учествују сви надлежни органи и организације, грађани и други субјекти узимајући у обзир различите врсте опасности које проистичу из анализе ризика, и узимајући у обзир међузависност сектора критичне инфраструктуре и њихову интеракцију;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> начело одговорности – за функционисање критичне инфраструктуре директно су одговорни оператори критичне инфраструктуре, а за унапређење заштите критичне инфраструктуре, поред оператора, и сви надлежни органи и организације, грађани и други субјекти;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> начело заштите од разних врста претњи – оператори, надлежни органи и организације, грађани и други субјекти у обезбеђивању континуираног рада критичне инфраструктуре дужни су да узму у обзир различите врсте ризика;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> начело континуираног планирања заштите критичне инфраструктуре – заштита критичне инфраструктуре заснива се на сталном процесу анализе ризика по функционисање критичне инфраструктуре и процене адекватности мера заштите;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> начело размене података и информација и заштите података – оператори, надлежни органи и организације, грађани и други субјекти дужни су да благовремено и континуирано размењују потребне податке и информације истовремено штитећи податке везане за критичну инфраструктуру, у складу са прописима којима се уређује заштита тајних података.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Критична инфраструктура</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Критична инфраструктура су системи, мреже, објекти или њихови делови, чији прекид функционисања или прекид испоруке роба односно услуга може имати озбиљне последице на националну безбедност, здравље и животе људи, имовину, животну средину, безбедност грађана, економску стабилност, односно угрозити функционисање Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Министарство уређује, планира, координира, контролише активности, комуницира и даје информације у вези са критичном инфраструктуром.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ИДЕНТИФИКАЦИЈА И ОДРЕЂИВАЊЕ КРИТИЧНЕ ИНФРАСТРУКТУРЕ</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Идентификација критичне инфраструктуре</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Идентификација критичне инфраструктуре врши се секторски у складу са утврђеним критеријумима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>За спровођење поступка идентификације критичне инфраструктуре у одређеном сектору задужена су министарства надлежна за одређене области.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Критеријуме за идентификацију критичне инфраструктуре и начин извештавања, прописује Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Сектори критичне инфраструктуре</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Сектори у којима се врши идентификација и одређивање критичне инфраструктуре јесу:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> енергетика;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> саобраћај;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> снабдевање водом и храном;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> здравство;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> финансије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> телекомуникационе и информационе технологије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> заштита животне средине;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> функционисање државних органа.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Осим сектора из <ref wId="ref0" href="akn/rs/act/2018/87-41/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, критична инфраструктура може се одредити и у другим секторима, на предлог министарства надлежног за одређену област, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Утврђивање сектора из <ref wId="ref2" href="akn/rs/act/2018/87-41/srp@/!main~art_6__para_2" >става 2. овог</ref> члана и критеријуме за идентификацију критичне инфраструктуре у тим секторима, прописује Влада актом из <ref wId="ref1" href="akn/rs/act/2018/87-41/srp@/!main~art_5__para_3" >члана 5. став 3. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Одређивање критичне инфраструктуре</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Критичну инфраструктуру на предлог Mинистарства одређује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Министарства задужена за секторе критичне инфраструктуре дужна су да у року од шест месеци од доношења акта из <ref wId="ref3" href="akn/rs/act/2018/87-41/srp@/!main~art_5__para_3" >члана 5. став 3. овог</ref> закона, а након завршеног поступка идентификације у складу са утврђеним критеријумима, Министарству доставе предлоге критичне инфраструктуре у свом сектору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Министарства задужена за секторе критичне инфраструктуре дужна су да редовно, а најмање једном квартално извештавају Министарство о новонасталим променама у свом сектору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Министарства задужена за секторе критичне инфраструктуре дужна су да након завршеног поступка идентификације Министарству сваке године, најкасније до 31. октобра, доставе предлоге измена и допуна критичне инфраструктуре у свом сектору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>Министарство може указати министарствима задуженим за секторе критичне инфраструктуре на потенцијалне критичне инфраструктуре.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav6">
+						<content>
+							<p>Заштита, чување, коришћење, контрола и надзор критичне инфраструктуре у надлежности Министарства одбране и Војске Србије спроводи се у складу са Законом о одбрани и Законом о војсци Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav7">
+						<content>
+							<p>Акт о одређивању критичне инфраструктуре ажурира се сваке године, најкасније до 31. децембра.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ЗАШТИТА КРИТИЧНЕ ИНФРАСТРУКТУРЕ</heading>
+				<article wId="gla3-clan8">
+					<num>8.</num>
+					<heading>Безбедносни план оператора за управљање ризиком</heading>
+					<paragraph wId="gla3-clan8-stav1">
+						<content>
+							<p>Безбедносни план оператора за управљање ризиком је документ којим се утврђују мере смањења ризика, дефинишу одговорности и одређују дужности, те успоставља оквир за поступање у циљу отклањања, односно смањења последица безбедносних претњи дефинисаних у анализи ризика, која је саставни део плана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav2">
+						<content>
+							<p>Оператори критичне инфраструктуре дужни су да израде Безбедносни план оператора за управљање ризиком и на исти прибаве сагласност Министарства одмах, а најкасније шест месеци по одређивању система, мрежа, објеката или њихових делова за критичну инфраструктуру.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav3">
+						<content>
+							<p>Методологију, начин израде и садржај Безбедносног плана оператора за управљање ризиком прописује министар надлежан за унутрашње послове (у даљем тексту: министар).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<heading>Официр за везу</heading>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>Оператори критичне инфраструктуре морају имати официра за везу, односно лице које служи као контакт између оператора и Министарства, које обезбеђује сталну контролу ризика и претњи, обавештава о променама у односу на критичну инфраструктуру, обавештава Министарство о евалуацији ризика, претњи и рањивости, координира Безбедносним планом оператора за управљање ризиком, врши тестирања кроз вежбе и друге активности предвиђене планом и обавља све друге послове везане за критичну инфраструктуру.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav2">
+						<content>
+							<p>Официра за везу именује Министарство на предлог оператора критичне инфраструктуре из редова запослених.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav3">
+						<content>
+							<p>Оператор критичне инфраструктуре Министарству доставља предлог за именовање официра за везу најкасније три месеца по одређивању система, мрежа, објеката или њихових делова за критичну инфраструктуру.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav4">
+						<content>
+							<p>Предложено лице мора поседовати лиценцу за официра за везу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav5">
+						<intro>
+							<p>Министарство издаје лиценцу из <ref wId="ref4" href="akn/rs/act/2018/87-41/srp@/!main~art_9__para_4" >става 4. овог</ref> члана лицу које има:</p>
+						</intro>
+						<point wId="gla3-clan9-stav5-tac1">
+							<num>1)</num>
+							<content>
+								<p> високo образовање (мастер академске студије, специјалистичке академске или специјалистичке струковне студије, односно основне студије у трајању од најмање четири године по пропису који је уређивао високо образовање до 10. септембра 2005. године);</p>
+							</content>
+						</point>
+						<point wId="gla3-clan9-stav5-tac2">
+							<num>2)</num>
+							<content>
+								<p> положен посебан стручни испит за официра за везу.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav6">
+						<content>
+							<p>Полагање посебног стручног испита из тачке <ref wId="ref5" href="akn/rs/act/2018/87-41/srp@/!main~art_9__para_6__point_2" >2</ref>) овог члана организује и спроводи Министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav7">
+						<content>
+							<p>Начин и програм за полагање посебног стручног испита прописује министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav8">
+						<content>
+							<p>Оператори критичне инфраструктуре обезбеђују континуитет вршења функције официра за везу у случају његовог одсуства обавештавањем Министарства о привременом обављању ових послова од стране другог лица, са свим потребним подацима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<heading>Критична инфраструктура у планским документима</heading>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>Приликом израде планских докумената у области просторног и урбанистичког планирања, докумената из области националне безбедности и области смањења ризика и управљања ванредним ситуацијама, критична инфраструктура мора се третирати на посебан начин, нарочито у делу превентивних активности и активности везаних за одговор на ванредне ситуације у којима мора имати приоритет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<heading>Републички штаб за ванредне ситуације</heading>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>У случају наступања околности угрожавања, ометања рада или уништења критичне инфраструктуре руковођење и координацију спровођења мера и задатака у наведеним околностима предузима Републички штаб за ванредне ситуације, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>Министарство пружа стручну подршку штабу из <ref wId="ref6" href="akn/rs/act/2018/87-41/srp@/!main~art_11__para_1" >става 1. овог</ref> члана и доставља све неопходне податке и информације у циљу несметаног обављања активности на спровођењу утврђених задатака.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ЕВРОПСКА КРИТИЧНА ИНФРАСТРУКТУРА</heading>
+				<article wId="gla4-clan12">
+					<num>12.</num>
+					<heading>Појам</heading>
+					<paragraph wId="gla4-clan12-stav1">
+						<content>
+							<p>Европска критична инфраструктура је критична инфраструктура од интереса за најмање две државе чланице Европске уније.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan13">
+					<num>13.</num>
+					<heading>Одређивање европске критичне инфраструктуре</heading>
+					<paragraph wId="gla4-clan13-stav1">
+						<content>
+							<p>Европска критична инфраструктура може се одредити у секторима које одређује Европска комисија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav2">
+						<content>
+							<p>Европску критичну инфраструктуру на територији Републике Србије, на предлог Министарства, одређује Влада, на захтев и у сагласности са заинтересованим државама чланицама Европске уније и обавештава заинтересоване државе чланице о одређивању европске критичне инфраструктуре на територији Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav3">
+						<content>
+							<p>Ако се критична инфраструктура од значаја за Републику Србију налази на подручју друге државе чланице Европске уније, Влада предлаже надлежном телу те државе одређивање европске критичне инфраструктуре.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan14">
+					<num>14.</num>
+					<heading>Заштита европске критичне инфраструктуре</heading>
+					<paragraph wId="gla4-clan14-stav1">
+						<content>
+							<p>Европска критична инфраструктура на територији Републике Србије штити се на исти начин као и критична инфраструктура Републике Србије, осим када је то прописима Европске уније другачије уређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<heading>Извештавање о европској критичној инфраструктури</heading>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>Влада усваја годишњи извештај о броју европске критичне инфраструктуре по сектору и броју заинтересованих држава на које свака одређена критична инфраструктура има утицај, на предлог Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav2">
+						<content>
+							<p>Извештај из <ref wId="ref7" href="akn/rs/act/2018/87-41/srp@/!main~art_15__para_1" >става 1. овог</ref> члана доставља се Европској комисији и заинтересованим државама на које свака одређена критична инфраструктура има утицај.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<heading>Размена информација о европској критичној инфраструктури</heading>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>Контакт тачка за потребе размене информација и координацију активности у вези са европском критичном инфраструктуром са другим државама чланицама и телима Европске уније је Министарство.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОСТУПАЊЕ СА ТАЈНИМ ПОДАЦИМА</heading>
+				<article wId="gla5-clan17">
+					<num>17.</num>
+					<heading>Одређивање и размена</heading>
+					<paragraph wId="gla5-clan17-stav1">
+						<content>
+							<p>Одређени подаци у вези са критичном инфраструктуром могу се одредити као тајни подаци у складу са прописима којима се уређује тајност података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan17-stav2">
+						<content>
+							<p>Тајни подаци који се односе на Европску критичну инфраструктуру размењују се са страним државама и органима Европске уније у складу са законом којим је уређена тајност података и потписаним међународним споразумима о размени тајних података.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla6-clan18">
+					<num>18.</num>
+					<heading>Надлежност</heading>
+					<paragraph wId="gla6-clan18-stav1">
+						<content>
+							<p>Надзор над применом овог закона и прописа донетих на основу њега врши Министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan18-stav2">
+						<content>
+							<p>Министарство врши инспекцијски надзор преко инспектора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan19">
+					<num>19.</num>
+					<heading>Овлашћења инспектора</heading>
+					<paragraph wId="gla6-clan19-stav1">
+						<intro>
+							<p>У вршењу инспекцијског надзора, инспектор има право да:</p>
+						</intro>
+						<point wId="gla6-clan19-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> утврди стање извршавања обавеза предвиђених овим законом, упозори на уочене неправилности и одреди мере и рокове за њихово отклањање;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> врши увид у документа која се односе на критичну инфраструктуру;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> проверава спровођење издатих наредби и закључака и наложи мере за извршење;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> наложи израду, доношење и ажурирање докумената предвиђених овим законом;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> наложи обуставу мера и радњи које нису у складу са Безбедносним планом оператора за управљање ризиком;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> наложи отклањање утврђених недостатака у спровођењу прописаних мера утврђених Безбедносним планом оператора за управљање ризиком;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> поднесе предлог за покретање поступака за утврђивање прекршајне одговорности против правних и одговорних лица;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> нареди предузимање хитних мера;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan19-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> предузме и друге мере за које је овлашћен законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan19-stav2">
+						<content>
+							<p>Против решења инспектора може се изјавити жалба у року од осам дана од дана достављања решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan19-stav3">
+						<content>
+							<p>Жалба против решења инспектора донетог на основу става 1. тач. <ref wId="ref8" href="akn/rs/act/2018/87-41/srp@/!main~art_19__para_1__point_5" >5</ref>) и <ref wId="ref9" href="akn/rs/act/2018/87-41/srp@/!main~art_19__para_1__point_8" >8</ref>) овог члана не одлаже извршење решења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan20">
+					<num>20.</num>
+					<paragraph wId="gla7-clan20-stav1">
+						<intro>
+							<p>Новчаном казном у износу од 100.000 до 1.000.000 динара казниће се за прекршај јавно предузеће, привредно друштво или друго правно лице које управља системима, мрежама, објектима или њиховим деловима који су одређени као критична инфраструктура ако:</p>
+						</intro>
+						<point wId="gla7-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> не прибави сагласност Министарства на Безбедносни план оператора за управљање ризиком (<ref wId="ref10" href="akn/rs/act/2018/87-41/srp@/!main~art_8__para_2" >члан 8. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla7-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> не достави Министарству предлог за именовање официра за везу (<ref wId="ref11" href="akn/rs/act/2018/87-41/srp@/!main~art_9__para_3" >члан 9. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla7-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> не поступи по налогу инспектора (<ref wId="ref12" href="akn/rs/act/2018/87-41/srp@/!main~art_19__para_1" >члан 19. став 1</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan21">
+					<num>21.</num>
+					<paragraph wId="gla7-clan21-stav1">
+						<intro>
+							<p>Новчаном казном од 50.000 до 100.000 динара казниће се за прекршај одговорно лице у надлежном државном органу, органу територијалне аутономије или органу јединице локалне самоуправе, ако:</p>
+						</intro>
+						<point wId="gla7-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> не достави Министарству предлоге критичне инфраструктуре у свом сектору (<ref wId="ref13" href="akn/rs/act/2018/87-41/srp@/!main~art_7__para_2" >члан 7. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla7-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> не извештава Министарство о новонасталим променама у свом сектору (<ref wId="ref14" href="akn/rs/act/2018/87-41/srp@/!main~art_7__para_3" >члан 7. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla7-clan21-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> не достави Министарству предлоге измена и допуна критичне инфраструктуре у свом сектору (<ref wId="ref15" href="akn/rs/act/2018/87-41/srp@/!main~art_7__para_4" >члан 7. став 4</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla7-clan21-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> не поступи по налогу инспектора (<ref wId="ref16" href="akn/rs/act/2018/87-41/srp@/!main~art_19__para_1" >члан 19. став 1</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan22">
+					<num>22.</num>
+					<heading>Рок за доношење подзаконских аката</heading>
+					<paragraph wId="gla8-clan22-stav1">
+						<content>
+							<p>Подзаконски акти за спровођење овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan23">
+					<num>23.</num>
+					<heading>Рок за усаглашавање општег акта</heading>
+					<paragraph wId="gla8-clan23-stav1">
+						<content>
+							<p>Измене акта о унутрашњем уређењу и систематизацији радних места у Министарству унутрашњих послова донеће министар у року од 30 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan24">
+					<num>24.</num>
+					<heading>Примена одредаба о европској критичној инфраструктури</heading>
+					<paragraph wId="gla8-clan24-stav1">
+						<content>
+							<p>Одредбе овог закона које се односе на европску критичну инфраструктуру почињу да се примењују даном приступања Републике Србије Европској унији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan25">
+					<num>25.</num>
+					<heading>Ступање на снагу</heading>
+					<paragraph wId="gla8-clan25-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од објављивања у „Службеном гласнику Републике Србијеˮ.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

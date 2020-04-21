@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон Чл. 1. до 12.">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2000/73-27/main"/>
+					<FRBRuri value="akn/rs/act/2000/73-27"/>
+					<FRBRdate date="2000-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2003/72-1/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2003/72-1/srp@"/>
+					<FRBRdate date="2003-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2003/72-1/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2003/72-1/srp@.akn"/>
+					<FRBRdate date="2003-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2000-12-29" name="службени гласник рс" number="73" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="14. Удружења, политичке странке, цркве, верске заједнице и друге организације" value="14. удружења, политичке странке, цркве, верске заједнице и друге организације" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2000-01-01" refersTo="73/2000-27" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2003-01-01" refersTo="72/2003-1" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2000-12-28" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2001-01-06" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2001-01-06" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="југославије"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="овог"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="савеза"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="имовине"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="снагу"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="ступања"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="става"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="члана"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="савезне"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Jugoslavije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Jugoslavija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Savezne Republike Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveza komunista Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveza socijalističke omladine Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savezne Republike Jugoslavije"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. do 18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је престао да важи даном ступања на снагу Закона о финансирању политичких странака (Службени гласник РС, број 72/2003), односно 26. јула 2003. године, осим одредаба чл. 13. и 14. (види члан 24. став 2. и члан 25. Закона - 72/2003-1).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је престао да важи даном ступања на снагу Закона о финансирању политичких странака (Службени гласник РС, број 72/2003), односно 26. јула 2003. године, осим одредаба чл. 13. и 14. (види члан 24. став 2. и члан 25. Закона - 72/2003-1).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон Чл. 1. до 12. Престали су да важе (види <ref wId="ref7" href="akn/rs/act/2003/72/srp@/!main~/art_24">члан 24. Закона - 72/2003-1</ref></p>
+			</longTitle>
+			<p>„Службени лист СРЈ”, број 73 од 29. децембра 2000,  „Службени гласник РС”, број  72 од 18. јула 2003 - др. закон</p>
+		</preface>
+		<preamble>
+			<p>о финансирању политичких странака</p>
+		</preamble>
+		<body>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРАВО ПОЛИТИЧКИХ СТРАНАКА НА КОРИШЋЕЊЕ ИМОВИНЕ СКЈ, ССРНЈ И ССОЈ</heading>
+				<article wId="gla5-clan13">
+					<num>13.</num>
+					<paragraph wId="gla5-clan13-stav1">
+						<content>
+							<p>Имовина која је била на управљању, коришћењу и располагању Савеза комуниста Југославије, Социјалистичког савеза радног народа Југославије и Савеза социјалистичке омладине Југославије, а коју су чинили објекти, пословни простор, опрема, канцеларијски намештај и сл., својина је Савезне Републике Југославије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan13-stav2">
+						<content>
+							<p>Савезни орган надлежан за послове правде сачиниће евиденцију имовине из <ref wId="ref0" href="akn/rs/act/2003/72-1/srp@/!main~art_13__para_1" >става 1. овог</ref> члана према корисницима, до ступања на снагу овог закона, врсти, количини, односно површини и локацији, утврдити њено стање и предложити начин коришћења и корисника те имовине, с тим што ће најмање једна половина непокретности, које су у својину Савезне Републике Југославије прешле применом <ref wId="ref1" href="akn/rs/act/2003/72-1/srp@/!main~art_13__para_1" >става 1. овог</ref> члана, бити додељена парламентарним странкама на коришћење за редован рад.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan13-stav3">
+						<content>
+							<p>Корисници имовине из <ref wId="ref2" href="akn/rs/act/2003/72-1/srp@/!main~art_13__para_1" >става 1. овог</ref> члана дужни су да је предају Савезној влади најкасније у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan14">
+					<num>14.</num>
+					<paragraph wId="gla5-clan14-stav1">
+						<content>
+							<p>Одлуке, уговори и други акти којима су непокретности, на којима су право коришћења, односно располагања имале друштвено-политичке организације из <ref wId="ref3" href="akn/rs/act/2003/72-1/srp@/!main~art_13__para_1" >члана 13. став 1. овог</ref> закона и које су служиле за обављање делатности тих организација, пренете на друга правна или физичка лица после њиховог престанка или којима је право коришћења, односно располагања пренето на политичке странке, удружења грађана или друштвене организације настале преображајем, спајањем или припајањем друштвено-политичких организација, или којима су на друга правна или физичка лица пренете са дејством у моменту престанка рада друштвено-политичких организација, ништави су.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan14-stav2">
+						<content>
+							<p>Савезна Република Југославија има право да захтева брисање права својине или другог стварног права стеченог супротно <ref wId="ref4" href="akn/rs/act/2003/72-1/srp@/!main~art_14__para_1" >ставу 1. овог</ref> члана и предају непокретности на којима су право коришћења, односно располагања имале ове савезне друштвено-политичке организације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan14-stav3">
+						<content>
+							<p>Применом одредбе <ref wId="ref5" href="akn/rs/act/2003/72-1/srp@/!main~art_14__para_2" >става 2. овог</ref> члана не може се дирати у права која су стекли савесни стицаоци и трећа савесна лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan14-stav4">
+						<content>
+							<p>Чл. 15. до 18.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan14-stav5">
+						<content>
+							<p>Престали су  да важе (види <ref wId="ref6" href="akn/rs/act/2003/72/srp@/!main~/art_24">члан 24. Закона - 72/2003-1</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

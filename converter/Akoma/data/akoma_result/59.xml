@@ -1,0 +1,769 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о објављивању закона и других прописа и аката">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2013/45-32/main"/>
+					<FRBRuri value="akn/rs/act/2013/45-32"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2013/45-32/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2013/45-32/srp@"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2013/45-32/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2013/45-32/srp@.akn"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2013-05-22" name="службени гласник рс" number="45" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="18. Објављивање прописа" value="18. објављивање прописа" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2013-05-22" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2013-06-01" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2013-06-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="предузеће"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавно"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="службени"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="гласник"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="објављивање"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="гласило"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="оснивач"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавља"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="ii"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="србија"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="службено"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="републичко"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="општег"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="интереса"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="делатност"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="чији"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="чије"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="издавање"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="гласнику"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="службеном"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезно"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograda"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sekretarijata"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ustava"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnog veća tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskim sudom za ljudska prava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskog suda za ljudska prava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalni sekretarijat predsednika Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalnog sekretarijata Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="HTML"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O objavljivanju akata Vlade u Službenom glasniku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O objavljivanju akata predsednika Republike u Službenom glasniku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PDF"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravosudnoj akademiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prosvetnom glasniku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="RDF"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republički sekretarijat za zakonodavstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SUS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sekretarijata"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Služba Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenog glasnika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenog glasnika Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenog glasnika u RDF"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ujedinjenih nacija za zaštitu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustava Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokog saveta sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojsku Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sekretarijat"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Zakoni"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2014."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. juna 2013."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. marta 2013."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. i 33."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу 1. јуна 2013. године, осим одредаба чл. 28, 29, 30, 31. и 33, које се односе на успостављање, приступ и вођење Правно-информационог система, на Одбор уредника Правно-информационог система и на обезбеђивање дела средстава за обавезно објављивање у Службеном гласнику и за вођење Правно-информационог система, које су ступиле на снагу 1. јануара 2014. године (види члан 39. Закона),Електронски облик Службеног гласника постао је званично издање Службеног гласника од 1. јануара 2014. године (види члан 37. Закона).Јавно предузеће „Службени гласник” основано Законом о објављивању закона и других прописа и општих аката и о издавању „Службеног гласника Републике Србије” („Службени гласник РС”, број 72/91, „Службени лист СРЈ”, број 11/93 – СУС и „Службени гласник РС”, број 30/10) наставља да послује у складу са Одлуком о усклађивању пословања Јавног предузећа „Службени гласник” Београд са Законом о јавним предузећима, коју је Влада донела под бр. 023-2140/2013, од 14. марта 2013. године (види члан 36. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О објављивању закона и других прописа и аката "Службени гласник РС", број <ref wId="ref11" href="akn/rs/act/2013/45/srp@">45 од 22. маја 2013</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНА ОДРЕДБA</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Републичко службено гласило је „Службени гласник Републике Србије” (у даљем тексту: Службени гласник).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Издавање Службеног гласника је делатност од општег интереса, коју обавља јавно предузеће чији је оснивач Република Србија (у даљем тексту: јавно предузеће).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОБЈАВЉИВАЊЕ У СЛУЖБЕНОМ ГЛАСНИКУ</heading>
+				<article wId="gla2-od1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla2-od1-clan2-stav1">
+						<content>
+							<p>У Службеном гласнику се, у складу са овим законом, обавезно објављују: акти Народне скупштине, међународни споразуми, акти председника Републике, акти Владе, акти министарстава и посебних организација, акти Уставног суда, акти Високог савета судства, акти Државног већа тужилаца, акти судова и јавних тужилаштава, aкти других републичких органа, акти Народне банке Србије, пресуде Европског суда за људска права, одлуке уговорних тела Уједињених нација за заштиту људских права, прописи које доносе имаоци јавних овлашћења, други акти за које је то одређено законом, пречишћени текстови и исправке аката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan3">
+					<num>3.</num>
+					<heading>Акти Народне скупштине</heading>
+					<paragraph wId="gla2-od1-clan3-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују: Устав Републике Србије, акт о промени Устава, уставни закон за спровођење Устава Републике Србије, уставни закон за спровођење промене Устава Републике Србије, закони, други прописи и општи акти Народне скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan3-stav2">
+						<content>
+							<p>У Службеном гласнику се објављују и други акти Народне скупштине за које је то одређено посебним законом или за које Народна скупштина одлучи да се објаве у Службеном гласнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan3-stav3">
+						<content>
+							<p>О објављивању аката Народне скупштине у Службеном гласнику стара се Служба Народне скупштине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan4">
+					<num>4.</num>
+					<heading>Међународни споразуми</heading>
+					<paragraph wId="gla2-od1-clan4-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују потврђени међународни уговори.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan4-stav2">
+						<content>
+							<p>О објављивању потврђених међународних уговора стара се Служба Народне скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan4-stav3">
+						<content>
+							<p>У Службеном гласнику се објављују и други међународни споразуми и акти за које је то одређено у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan4-stav4">
+						<content>
+							<p>О објављивању других међународних споразума и аката стара се министарство надлежно за спољне послове, ако посебним законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan5">
+					<num>5.</num>
+					<heading>Акти председника Републике</heading>
+					<paragraph wId="gla2-od1-clan5-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују укази о проглашењу закона и укази о додели одликовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav2">
+						<content>
+							<p>У Службеном гласнику се објављују и други акти председника Републике за које је то одређено посебним законом или за које председник Републике одлучи да се објаве у Службеном гласнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav3">
+						<content>
+							<p>О објављивању аката председника Републике у Службеном гласнику стара се Генерални секретаријат председника Републике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan6">
+					<num>6.</num>
+					<heading>Акти Владе</heading>
+					<paragraph wId="gla2-od1-clan6-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују уредбе и други општи акти Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan6-stav2">
+						<content>
+							<p>У Службеном гласнику се објављују и други акти Владе за које је то одређено посебним законом или за које Влада одлучи да се објаве у Службеном гласнику и акти председника Владе, у складу са законом и другим прописом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan6-stav3">
+						<content>
+							<p>О објављивању аката Владе у Службеном гласнику стара се Републички секретаријат за законодавство (у даљем тексту: Секретаријат).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan7">
+					<num>7.</num>
+					<heading>Акти министарстава и посебних организација</heading>
+					<paragraph wId="gla2-od1-clan7-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују прописи које доносе министарства и посебне организације (правилници, наредбе и упутства).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan7-stav2">
+						<content>
+							<p>У Службеном гласнику се објављују и други акти министарстава и посебних организација за које је то одређено посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan7-stav3">
+						<content>
+							<p>О објављивању аката министарстава и посебних организација у Службеном гласнику стара се Секретаријат.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan8">
+					<num>8.</num>
+					<heading>Акти Уставног суда</heading>
+					<paragraph wId="gla2-od1-clan8-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују одлуке и други акти Уставног суда у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav2">
+						<content>
+							<p>О објављивању аката Уставног суда у Службеном гласнику стара се његова надлежна служба.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan9">
+					<num>9.</num>
+					<heading>Акти Високог савета судства, Државног већа тужилаца, судова и јавних тужилаштава</heading>
+					<paragraph wId="gla2-od1-clan9-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују општи акти Високог савета судства, Државног већа тужилаца и Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan9-stav2">
+						<content>
+							<p>У Службеном гласнику се објављују и други акти Високог савета судства, Државног већа тужилаца, судова и јавних тужилаштава за које је то одређено посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan9-stav3">
+						<content>
+							<p>О објављивању аката Високог савета судства, Државног већа тужилаца, судова и јавних тужилаштава у Службеном гласнику старају се органи који су их донели или њихове службе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan10">
+					<num>10.</num>
+					<heading>Акти Народне банке Србије</heading>
+					<paragraph wId="gla2-od1-clan10-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују општи и други акти Народне банке Србије у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav2">
+						<content>
+							<p>О објављивању аката Народне банке Србије у Службеном гласнику стара се Народна банка Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan11">
+					<num>11.</num>
+					<heading>Пресуде Европског суда за људска права и одлуке уговорних тела Уједињених нација за заштиту људских права</heading>
+					<paragraph wId="gla2-od1-clan11-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују пресуде Европског суда за људска права које се односе на Републику Србију и одлуке уговорних тела Уједињених нација за заштиту људских права које се односе на Републику Србију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav2">
+						<content>
+							<p>О објављивању пресуда Европског суда за људска права у Службеном гласнику стара се орган надлежан за заступање Републике Србије пред Европским судом за људска права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav3">
+						<content>
+							<p>О објављивању одлука уговорних тела Уједињених нација за заштиту људских права у Службеном гласнику стара се министарство надлежно за послове заштите људских права.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan12">
+					<num>12.</num>
+					<heading>Прописи ималаца јавних овлашћења</heading>
+					<paragraph wId="gla2-od1-clan12-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују прописи које имаоци јавних овлашћења доносе у вршењу јавних овлашћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan12-stav2">
+						<content>
+							<p>О објављивању прописа ималаца јавних овлашћења у Службеном гласнику старају се њихови доносиоци, осим ако посебним законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan13">
+					<num>13.</num>
+					<heading>Остали акти</heading>
+					<paragraph wId="gla2-od1-clan13-stav1">
+						<content>
+							<p>У Службеном гласнику се обавезно објављују и други општи акти републичких органа, као и остали акти за које је то одређено посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav2">
+						<content>
+							<p>О објављивању тих аката у Службеном гласнику старају се њихови доносиоци, осим ако овим или посебним законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan14">
+					<num>14.</num>
+					<heading>Пречишћени текстови</heading>
+					<paragraph wId="gla2-od1-clan14-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују пречишћени текстови закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav2">
+						<content>
+							<p>У Службеном гласнику се објављују пречишћени текстови и других прописа за које је овим или посебним законом одређено да се објављују у Службеном гласнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav3">
+						<content>
+							<p>О објављивању пречишћеног текста закона и других прописа у Службеном гласнику стара се орган, организација, односно служба која се стара о објављивању акта чији се пречишћен текст утврђује.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan15">
+					<num>15.</num>
+					<heading>Исправке аката</heading>
+					<paragraph wId="gla2-od1-clan15-stav1">
+						<content>
+							<p>У Службеном гласнику се објављују исправке закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan15-stav2">
+						<content>
+							<p>У Службеном гласнику се објављују исправке и других прописа и аката за које је овим или посебним законом одређено да се објављују у Службеном гласнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan15-stav3">
+						<content>
+							<p>О објављивању исправке акта у Службеном гласнику стара се орган, организација, односно служба која се стара о објављивању акта чија се исправка даје.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan16">
+					<num>16.</num>
+					<heading>Ослобађање од плаћања накнаде за обавезно објављивање у Службеном гласнику</heading>
+					<paragraph wId="gla2-od1-clan16-stav1">
+						<content>
+							<p>Органи, организације, односно службе који се старају о објављивању аката у Службеном гласнику не плаћају накнаду за објављивање закона, других прописа и аката који се обавезно објављују у Службеном гласнику, осим ако посебним законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan17">
+					<num>17.</num>
+					<paragraph wId="gla2-od2-clan17-stav1">
+						<content>
+							<p>Акти органа, правних и физичких лица чије објављивање у Службеном гласнику није обавезно могу, уз накнаду, да се објављују у Службеном гласнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan17-stav2">
+						<content>
+							<p>У Службеном гласнику могу, уз накнаду, да се објављују и јавни конкурси, огласи, јавни позиви и друга обавештења органа, правних и физичких лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan17-stav3">
+						<content>
+							<p>Висина накнаде за објављивање одређује се актом јавног предузећа, на који сагласност даје Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan18">
+					<num>18.</num>
+					<paragraph wId="gla2-od3-clan18-stav1">
+						<content>
+							<p>Службени гласник има основно издање и посебна издања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan18-stav2">
+						<content>
+							<p>Основно издање Службеног гласника је „Службени гласник Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan18-stav3">
+						<content>
+							<p>Посебна издања Службеног гласника су: „Службени гласник Републике Србије – Међународни уговори” и „Службени гласник Републике Србије – Просветни гласник”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan19">
+					<num>19.</num>
+					<paragraph wId="gla2-od3-clan19-stav1">
+						<content>
+							<p>У основном издању Службеног гласника објављују се акти који се не објављују у посебним издањима Службеног гласника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan19-stav2">
+						<content>
+							<p>У „Службеном гласнику Републике Србије – Међународни уговори” објављују се потврђени међународни уговори и други међународни споразуми и акти за које је то одређено у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan19-stav3">
+						<content>
+							<p>У „Службеном гласнику Републике Србије – Просветном гласнику” објављују се републички прописи којима се уређују наставни планови и програми образовања, простор, опрема и наставна средства, програм приправничког стажа и програми усавршавања и оспособљавања наставника и сарадника у основним и средњим школама, као и други акти за које је посебним законом одређено да се објављују у „Службеном гласнику Републике Србије – Просветном гласнику”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАЧИН ОБЈАВЉИВАЊА ЗАКОНА И ДРУГИХ ПРОПИСА И АКАТА</heading>
+				<article wId="gla3-clan20">
+					<num>20.</num>
+					<heading>Објављивање у изворном тексту</heading>
+					<paragraph wId="gla3-clan20-stav1">
+						<content>
+							<p>Закони, други прописи и акти објављују се у тексту који је утврдио њихов доносилац, на основу налога органа, организација, односно служби који се старају о њиховом објављивању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav2">
+						<content>
+							<p>Налог за објављивање издаје се јавном предузећу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav3">
+						<content>
+							<p>Закони, други прописи и акти по правилу се објављују у првом наредном броју Службеног гласника, ако су прописно достављени на објављивање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan21">
+					<num>21.</num>
+					<heading>Надлежност Секретаријата</heading>
+					<paragraph wId="gla3-clan21-stav1">
+						<content>
+							<p>Кад Секретаријат сматра да пропис министарства или посебне организације није у сагласности са Уставом Републике Србије, законом или другим општим актом Народне скупштине или прописом Владе, пре објављивања тог прописа указује министарству, односно посебној организацији која му је доставила пропис, на ту несагласност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav2">
+						<content>
+							<p>Уколико министарство или посебна организација остане при ставу да се пропис објави, Секретаријат о томе обавештава Владу и предлаже јој да предузме мере за које је овлашћена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan22">
+					<num>22.</num>
+					<heading>Исправка закона и других прописа и аката</heading>
+					<paragraph wId="gla3-clan22-stav1">
+						<content>
+							<p>Органи, организације, односно службе који се старају о објављивању аката у Службеном гласнику дужни су да, одмах по објављивању аката о чијем се објављивању старају, утврде да ли су ти акти објављени у изворном тексту и ако утврде да текст објављен у Службеном гласнику не одговара изворном тексту, припреме исправку и доставе је на објављивање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav2">
+						<content>
+							<p>Министарства, односно посебне организације који су били доносиоци аката или предлагачи аката Владе дужни су да, одмах по објављивању аката чији су били доносиоци или аката Владе чији су били предлагачи, утврде да ли су ти акти објављени у изворном тексту и ако утврде да текст објављен у Службеном гласнику не одговара изворном тексту, о томе обавесте Секретаријат, који припрема исправку и доставља је на објављивање.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ИЗДАВАЊЕ И УРЕЂИВАЊЕ СЛУЖБЕНОГ ГЛАСНИКА</heading>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Уређивање Службеног гласника</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>О редоследу и начину објављивања закона, других прописа и аката, као и о другим питањима везаним за уређивање Службеног гласника стара се јавно предузеће.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<heading>Издавање Службеног гласника за време ратног стања</heading>
+					<paragraph wId="gla4-clan24-stav1">
+						<content>
+							<p>Организацију и начин издавања Службеног гласника за време ратног стања уређује Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<heading>Састав надзорног одбора јавног предузећа</heading>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Надзорни одбор јавног предузећа има пет чланова, које именује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Један члан надзорног одбора јавног предузећа именује се из реда запослених у јавном предузећу, један члан надзорног одбора јавног предузећа мора бити независан члан надзорног одбора јавног предузећа, а три члана надзорног одбора јавног предузећа именују се из реда функционера или државних службеника на положају, и то по један из министарства надлежног за послове државне управе, из Генералног секретаријата Владе, односно из Секретаријата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav3">
+						<content>
+							<p>Чланови надзорног одбора јавног предузећа који су именовани из реда функционера или државних службеника на положају дужни су да поред своје функције врше и функцију члана надзорног одбора јавног предузећа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>Електронски и штампани облик Службеног гласника</heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<content>
+							<p>Основно и посебна издања Службеног гласника издају се у штампаном облику и у електронском облику у РDF и HTML формату.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav2">
+						<content>
+							<p>Штампани облик Службеног гласника и електронски облик Службеног гласника у РDF формату су званична издања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<heading>Однос штампаног и електронског облика</heading>
+					<paragraph wId="gla4-clan27-stav1">
+						<content>
+							<p>Дан издавања одређеног броја Службеног гласника јесте датум који је означен на електронском и штампаном облику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav2">
+						<content>
+							<p>Електронски и штампани облик Службеног гласника морају имати исти датум и морају бити садржински усаглашени.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРАВНО-ИНФОРМАЦИОНИ СИСТЕМ РЕПУБЛИКЕ СРБИЈЕ</heading>
+				<article wId="gla5-clan28">
+					<num>28.</num>
+					<heading>Успостављање Правно-информационог система Републике Србије</heading>
+					<paragraph wId="gla5-clan28-stav1">
+						<content>
+							<p>Успоставља се Правно-информациони систем Републике Србије (у даљем тексту: Правно-информациони систем) као збирка података у електронском облику која садржи: електронски облик Службеног гласника, архиву службених гласила, базу која садржи регистар и текстове важећих прописа и других аката Републике Србије објављених у Службеном гласнику, базу која садржи судску праксу, друге податке о правном систему Републике Србије и везу са правним актима Европске уније.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan28-stav2">
+						<content>
+							<p>Правно-информациони систем објављује се на интернет странама јавног предузећа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan29">
+					<num>29.</num>
+					<heading>Приступ Правно-информационом систему</heading>
+					<paragraph wId="gla5-clan29-stav1">
+						<content>
+							<p>У бази која садржи регистар и текстове важећих прописа и других аката Републике Србије објављених у Службеном гласнику свим корисницима интернета доступни су без накнаде: незванично пречишћени текстови прописа, оригинална службена гласила у PDF формату у којима су објављени основни текстови прописа и службена гласила у којима су објављене њихове измене и допуне.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan29-stav2">
+						<content>
+							<p>За приступ осталим подацима које садржи Правно-информациони систем плаћа се накнада чија се висина одређује актом јавног предузећа, на који сагласност даје Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan29-stav3">
+						<content>
+							<p>База која садржи судску праксу доступна је без накнаде свим судовима и јавним тужилаштвима, Републичком јавном правобранилаштву, Правосудној академији, Заштитнику грађана, Поверенику за информације од јавног значаја и заштиту података о личности и јавним правобранилаштвима општина, градова, града Београда и градских општина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan30">
+					<num>30.</num>
+					<heading>Вођење Правно-информационог система</heading>
+					<paragraph wId="gla5-clan30-stav1">
+						<content>
+							<p>Правно-информациони систем води јавно предузеће.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav2">
+						<content>
+							<p>Вођење Правно-информационог система је делатност од општег интереса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav3">
+						<content>
+							<p>Сви државни органи и државне и друге организације дужни су да пруже податке и документацију потребну за вођење Правно-информационог система.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan31">
+					<num>31.</num>
+					<heading>Одбор уредника Правно-информационог система</heading>
+					<paragraph wId="gla5-clan31-stav1">
+						<content>
+							<p>Правно-информациони систем има Одбор уредника Правно-информационог система.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav2">
+						<content>
+							<p>Одбор уредника Правно-информационог система усмерава и надзире развој Правно-информационог система и прати да ли државни органи и државне и друге организације благовремено пружају податке и документацију потребну за вођење Правно-информационог система.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav3">
+						<content>
+							<p>У Одбор уредника Правно-информационог система именују се лица из реда функционера и државних службеника у државним органима, запослених у јавном предузећу и стручњака из области права и информатике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav4">
+						<content>
+							<p>Председника и чланове Одбора уредника Правно-информационог система именује Влада на предлог Секретаријата.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan32">
+					<num>32.</num>
+					<heading>Доношење прописа о Правно-информационом систему</heading>
+					<paragraph wId="gla5-clan32-stav1">
+						<content>
+							<p>Влада ближе прописује начин на који се успоставља и води Правно-информациони систем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav2">
+						<content>
+							<p>Прописом о успостављању и вођењу Правно-информационог система посебно се уређује: ближа садржина Правно-информационог система, управљање подацима и документацијом, размена и достављање података и документације, приступ том систему и начин његовог коришћења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ОБЕЗБЕЂИВАЊЕ ДЕЛА СРЕДСТАВА ЗА ОБАВЕЗНО ОБЈАВЉИВАЊЕ У СЛУЖБЕНОМ ГЛАСНИКУ И ЗА ВОЂЕЊЕ ПРАВНО-ИНФОРМАЦИОНОГ СИСТЕМА</heading>
+				<article wId="gla6-clan33">
+					<num>33.</num>
+					<paragraph wId="gla6-clan33-stav1">
+						<content>
+							<p>За објављивање закона, других прописа и аката који се обавезно објављују у Службеном гласнику, као и за вођење Правно-информационог система, јавном предузећу се обезбеђује део потребних средстава у буџету Републике Србије, у висини која се за сваку годину одређује законом о буџету Републике Србије у оквиру раздела министарства надлежног за послове државне управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan33-stav2">
+						<content>
+							<p>Износ средстава која се обезбеђују у буџету Републике Србије одређује се на основу просечних цена упоредивих услуга на тржишту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan33-stav3">
+						<intro>
+							<p>Под упоредивим услугама на тржишту сматрају се:</p>
+						</intro>
+						<point wId="gla6-clan33-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> услуге припреме за штампу и штампе;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan33-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> услуге уређивања и ажурирања електронске базе прописа.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПОСЕБНИ НАЧИНИ ОБЈАВЉИВАЊА</heading>
+				<article wId="gla7-clan34">
+					<num>34.</num>
+					<paragraph wId="gla7-clan34-stav1">
+						<content>
+							<p>Укази и други акти председника Републике, прописи и други акти Владе и министра надлежног за одбрану који се односе на Војску Србије објављују се у „Службеном војном листу”, о чијем се издавању стара министарство надлежно за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan34-stav2">
+						<content>
+							<p>Општи акти привредних друштава, установа и других организација објављују се на начин који одреде те организације.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan35">
+					<num>35.</num>
+					<heading>Рок за доношење прописа Владе</heading>
+					<paragraph wId="gla8-clan35-stav1">
+						<content>
+							<p>Пропис о успостављању и вођењу Правно-информационог система Влада ће донети у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan36">
+					<num>36.</num>
+					<paragraph wId="gla8-clan36-stav1">
+						<content>
+							<p>Јавно предузеће „Службени гласник” основано Законом о објављивању закона и других прописа и општих аката и о издавању „Службеног гласника Републике Србије” („Службени гласник РС”, број <ref wId="ref0" href="akn/rs/act/91/72/srp@">72/91</ref>, „Службени лист СРЈ”, број <ref wId="ref1" href="akn/rs/act/93/11/srp@">11/93</ref> – СУС и „Службени гласник РС”, број <ref wId="ref2" href="akn/rs/act/10/30/srp@">30/10</ref>) наставља да послује у складу са Одлуком о усклађивању пословања Јавног предузећа „Службени гласник” Београд са Законом о јавним предузећима, коју је Влада донела под бр. 023-2140/2013, од 14. марта 2013. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan37">
+					<num>37.</num>
+					<heading>Почетак издавања електронског облика Службеног гласника</heading>
+					<paragraph wId="gla8-clan37-stav1">
+						<content>
+							<p>Електронски облик Службеног гласника постаје званично издање Службеног гласника од 1. јануара 2014. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan38">
+					<num>38.</num>
+					<heading>Престанак важења ранијег закона</heading>
+					<paragraph wId="gla8-clan38-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о објављивању закона и других прописа и општих аката и о издавању „Службеног гласника Републике Србије” („Службени гласник РС”, број <ref wId="ref3" href="akn/rs/act/91/72/srp@">72/91</ref>, „Службени лист СРЈ”, број <ref wId="ref4" href="akn/rs/act/93/11/srp@">11/93</ref> – СУС и „Службени гласник РС”, број <ref wId="ref5" href="akn/rs/act/10/30/srp@">30/10</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan39">
+					<num>39.</num>
+					<heading>Ступање на снагу овог закона</heading>
+					<paragraph wId="gla8-clan39-stav1">
+						<content>
+							<p>Овај закон ступа на снагу 1. јуна 2013. године, осим одредаба чл. <ref wId="ref6" href="akn/rs/act/2013/45-32/srp@/!main~art_28" >28</ref>, <ref wId="ref7" href="akn/rs/act/2013/45-32/srp@/!main~art_29" >29</ref>, <ref wId="ref8" href="akn/rs/act/2013/45-32/srp@/!main~art_30" >30</ref>, <ref wId="ref9" href="akn/rs/act/2013/45-32/srp@/!main~art_31" >31</ref>. и <ref wId="ref10" href="akn/rs/act/2013/45-32/srp@/!main~art_33" >33</ref>. које ступају на снагу 1. јануара 2014. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

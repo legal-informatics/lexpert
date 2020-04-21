@@ -1,0 +1,3117 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о судским  таксама">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/1994/28-762/main"/>
+					<FRBRuri value="akn/rs/act/1994/28-762"/>
+					<FRBRdate date="1994-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/95-338/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/95-338/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/95-338/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/95-338/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1994-04-22" name="службени гласник рс“" number="28" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="3. Таксе и друге дажбине" value="3. таксе и друге дажбине" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1994-01-01" refersTo="28/1994-762" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="1995-01-01" refersTo="53/1995-1999" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="1997-01-01" refersTo="16/1997-288" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2001-01-01" refersTo="34/2001-1" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2002-01-01" refersTo="9/2002-20" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2004-01-01" refersTo="29/2004-1" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2005-01-01" refersTo="61/2005-4" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="2008-01-01" refersTo="116/2008-11" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="2009-01-01" refersTo="31/2009-91" source="#somebody" type="amendment" wId="e9"/>
+				<eventRef date="2011-01-01" refersTo="101/2011-273" source="#somebody" type="amendment" wId="e10"/>
+				<eventRef date="2012-01-01" refersTo="93/2012-29" source="#somebody" type="amendment" wId="e11"/>
+				<eventRef date="2014-01-01" refersTo="93/2014-7" source="#somebody" type="amendment" wId="e12"/>
+				<eventRef date="2015-01-01" refersTo="106/2015-63" source="#somebody" type="amendment" wId="e13"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-338" source="#somebody" type="amendment" wId="e14"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="1994-04-21" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="1994-04-23" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="1994-04-23" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="саставни"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="тарифе"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="судовима"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="део"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="пред"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="таксене"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="судске"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="одредбама"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="плаћају"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="таксе"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступку"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="овог"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Taksa"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Taksenom tarifom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="A4"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="B. Posebne odredbe"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Crvenog krsta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ispitivanje vrednosti spora sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PZF"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="TARIFA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Taksene tarife"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Taksenoj tarifi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovni kasacioni sud"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Propis"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Republici Srbiji"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. 2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. do 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2019."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. septembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. aprila 1997"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. marta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. jula 2005"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. juna 2001"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. do 27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. do 28."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. aprila 1994"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. decembra 2008"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. i 25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. februara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. septembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. aprila 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31/2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="32."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33. i 46."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="37."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="37. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="39."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="39. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="41."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="43. i 44."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. st. 1. i 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. decembra 2018."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. априла 1994. године (види члан 54. Закона).Одредбе члана 11. став 2. и чл. 33. и 46. Закона о изменама и допунама Закона о судским таксама (Службени гласник РС, 31/2009) примењују се од дана почетка примене Закона о уређењу судова („Службени гласник РС”, број 116/08), односно од 1. јануара 2010. године (види члан 47. Закона- 31/2009-92).Закон о допунама Закона о судским таксама (Службени гласник РС, број 93/2014) ступио је на снагу 1. септембра 2014. године (види члан 2. Закона - 93/2014-7).Закон о изменама и допунама Закона о судским таксама (Службени гласник РС, број 106/2015) ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, осим одредаба члана 1, чл. 3–6, члана 7. (новелирани члан 48. ст. 1. и 2) и члана 8. овог закона које ступају на снагу 1. јануара 2016. године (види члан 14. Закона - 106/2015-63).Закон о изменама и допунама Закона о судским таксама (Службени гласник РС, број 95/2018) ступио је на снагу 1. јануара 2019. године (види члан 3. Закона – 95/2018-338).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. априла 1994. године (види члан 54. Закона).Одредбе члана 11. став 2. и чл. 33. и 46. Закона о изменама и допунама Закона о судским таксама (Службени гласник РС, 31/2009) примењују се од дана почетка примене Закона о уређењу судова („Службени гласник РС”, број 116/08), односно од 1. јануара 2010. године (види члан 47. Закона- 31/2009-92).Закон о допунама Закона о судским таксама (Службени гласник РС, број 93/2014) ступио је на снагу 1. септембра 2014. године (види члан 2. Закона - 93/2014-7).Закон о изменама и допунама Закона о судским таксама (Службени гласник РС, број 106/2015) ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, осим одредаба члана 1, чл. 3–6, члана 7. (новелирани члан 48. ст. 1. и 2) и члана 8. овог закона које ступају на снагу 1. јануара 2016. године (види члан 14. Закона - 106/2015-63).Закон о изменама и допунама Закона о судским таксама (Службени гласник РС, број 95/2018) ступио је на снагу 1. јануара 2019. године (види члан 3. Закона – 95/2018-338).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О судским  таксама „Службени гласник РС“, бр. <ref wId="ref103" href="akn/rs/act/1994/28/srp@">28 од 22. априла 1994</ref>, <ref wId="ref104" href="akn/rs/act/1995/53/srp@">53 од 28. децембра 1995</ref>, <ref wId="ref105" href="akn/rs/act/1997/16/srp@">16 од 16. априла 1997</ref>, <ref wId="ref106" href="akn/rs/act/2001/34/srp@">34 од 18. јуна 2001</ref> - др. закон, <ref wId="ref107" href="akn/rs/act/2002/9/srp@">9 од 26. фебруара 2002</ref>, <ref wId="ref108" href="akn/rs/act/2004/29/srp@">29 од 17. марта 2004</ref>, <ref wId="ref109" href="akn/rs/act/2005/61/srp@">61 од 18. јула 2005</ref>, <ref wId="ref110" href="akn/rs/act/2008/116/srp@">116 од 22. децембра 2008</ref> - др. закон, 31 oд 30. априла 2009, <ref wId="ref111" href="akn/rs/act/2011/101/srp@">101 од 30. децембра 2011</ref>, <ref wId="ref112" href="akn/rs/act/2012/93/srp@">93 од 28. септембра 2012</ref>, <ref wId="ref113" href="akn/rs/act/2014/93/srp@">93 од 1. септембра 2014</ref>, <ref wId="ref114" href="akn/rs/act/2015/106/srp@">106 од 21. децембра 2015</ref>, <ref wId="ref115" href="akn/rs/act/2018/95/srp@">95 од 8. децембра 2018</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОПШТЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>У поступку пред судовима плаћају се судске таксе (у даљем тексту: таксе) по одредбама овог закона и Таксене тарифе која је његов саставни део.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Таксе прописане овим законом плаћају лица по чијем предлогу или у чијем интересу се предузимају радње у судском поступку, за који је овим законом утврђено плаћање таксе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>За поднеске и за записнике који замењују поднеске таксу је дужно да плати лице које их подноси, односно  лице на чији захтев се саставља записник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>За одлуку првостепеног суда таксу је дужан да плати тужилац, односно предлагач, а за судско поравнање таксу су дужне да плате обе стране, уколико у поравнању није другачије уговорено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>За одлуку другостепеног суда и за одлуку по ванредном правном средству, судску таксу је дужан да плати подносилац жалбе, односно лице у чијем интересу је покренут поступак по ванредном правном средству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav5">
+						<content>
+							<p>Када су, у складу са одредбама овог закона, таксу дужна да плате два или више лица заједно, њихова обавеза је солидарна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav6">
+						<content>
+							<p>Лица из <ref wId="ref0" href="akn/rs/act/2018/95-338/srp@/!main~art_2__para_1->para_5" >ст. 1. </ref>до 5. овог члана су таксени обвезници у смислу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Обавеза плаћања таксе (у даљем тексту: таксена обавеза) настаје:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> за поднеске – када се предају суду, односно кад се изврши обрачун таксе, ако њен износ зависи од вредности предмета спора, а за поднеске предате на записник – када jе записник састављен;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> за судске преписе – када се затраже од суда;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> за судске одлуке – када се објаве, а ако странка није присутна објављивању или ако одлука није јавно објављена – када се странци или њеном заступнику достави препис одлуке;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> судска поравнања – када се закључе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> за паушалну таксу у поступку расправљања заоставштине – када решење о наслеђивању постане правоснажно;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> у поступку реорганизације и у стечајном поступку –  када одлука којом се усваја план реорганизације, односно одлука о главној деоби  у стечајном поступку постану правноснажне.</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> за остале радње – када се затражи њихово предузимање.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref1" href="akn/rs/act/2018/95-338/srp@/!main~art_3__para_1" >става 1. овог</ref> члана за тужбу и одговор на тужбу таксена обавеза  настаје даном закључења првог рочишта за главну расправу, уколико поступак није  окончан посредовањем, судским поравнањем, признањем тужбеног захтева или  одрицањем од тужбеног захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2005/61/srp@">61/2005</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>**Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2018/95/srp@">95/2018</ref></heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Такса се плаћа најкасније у року од  осам дана од дана настанка таксене обавезе, ако овим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2009/31/srp@">31/2009</ref></heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>За поднеске и одлуке у управним споровима у стварима пензијског, инвалидског и здравственог осигурања, дечијег додатка, старатељства, усвојења и социјалне помоћи, такса се плаћа само ако тужба буде правоснажно одбијена или одбачена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Таксена обавеза из <ref wId="ref4" href="akn/rs/act/2018/95-338/srp@/!main~art_5__para_1" >става 1. овог</ref> члана настаје даном правоснажности одлуке којом је тужба одбијена или одбачена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Таксе предвиђене Таксеном тарифом плаћају се у судским таксеним маркама или у готовом новцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Таксене марке лепе се на поднеску или на судском спису и поништавају се игличастим штамбиљем који буши таксену марку тако да на њој пише: „поништено” или округлим штамбиљем суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav3">
+						<content>
+							<p>Такса у износу до 5.000 динара плаћа се, по правилу, у  судским таксеним маркама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav4">
+						<content>
+							<p>Такса у износу преко 5.000 динара плаћа се у готовом новцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav5">
+						<content>
+							<p>Судске таксене марке су у апоенима од 10, 20, 50, 100, 200, 500, 1000, 2000 и  5000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav6">
+						<content>
+							<p>Ако се таксена обавеза утврди у износу за који не постоји одговарајући апоен  судске таксене марке, износ таксе се заокружује, и то од 1 до 9 динара на 0  динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav7">
+						<content>
+							<p>Таксени обвезник таксу у готовом новцу плаћа тако што износ таксе уплаћује на прописани рачун и потврду о уплати прилаже уз поднесак за који је такса плаћена. Када се подноси потврда о плаћеној такси за судску одлуку, таксени обвезник је дужан да на њој означи број одлуке за коју се такса плаћа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>*Службени гласник РС, број  <ref wId="ref8" href="akn/rs/act/2015/106/srp@">106/2015</ref></heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Недовољно плаћена или неплаћена такса не задржава ток судског поступка, ако овим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<content>
+							<p>Ако таксени обвезник захтева, суд је дужан да прими поднеске који нису таксирани или су недовољно таксирани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav3">
+						<content>
+							<p>У случајевима из <ref wId="ref7" href="akn/rs/act/2018/95-338/srp@/!main~art_7__para_1->para_2" >ст. 1. и 2. овог</ref> члана такса се наплаћује у складу са одредбом <ref wId="ref6" href="akn/rs/act/2018/95-338/srp@/!main~art_37" >члана 37. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Наплата таксе застарева у року од три године по истеку календарске године у којој је настала таксена обавеза.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОСЛОБАЂАЊЕ ОД ПЛАЋАЊА ТАКСЕ</heading>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Од плаћања таксе ослобођени су Република Србија, државни органи  и посебне организације,  органи аутономне покрајине и органи јединице локалне самоуправе, организације Црвеног крста, као и издржавана лица у поступцима у вези законског издржавања  и лица која захтевају исплату минималне зараде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Таксу за поднеске и радње не плаћају лица која Републици Србији, социјално-хуманитарним, научним или културним организацијама, установама или фондацијама поклањају своју имовину или се у њихову корист одричу права својине на непокретностима или им без накнаде уступају друга стварна права на непокретностима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Страна држава је ослобођена плаћања таксе ако је то предвиђено међународним уговором или под условом узајамности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav4">
+						<content>
+							<p>У случају сумње о постојању узајамности мишљење даје министарство надлежно за послове правосуђа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav5">
+						<content>
+							<p>Странка у ванпарничнoм поступку ослобођена је од плаћања таксе за радње или  поступке које је суд поверио јавном бележнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav6">
+						<content>
+							<p>Странке се ослобађају од плаћања таксе уколико се парнични поступак оконча до  дана закључења првог рочишта за главну расправу посредовањем, судским  поравнањем, признањем тужбеног захтева или одрицањем од тужбеног захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref9" href="akn/rs/act/1997/16/srp@">16/1997</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav8">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref10" href="akn/rs/act/2005/61/srp@">61/2005</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav9">
+						<content>
+							<p>***Службени гласник РС, број <ref wId="ref11" href="akn/rs/act/2009/31/srp@">31/2009</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav10">
+						<content>
+							<p>****Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>*****Службени гласник РС, број <ref wId="ref14" href="akn/rs/act/2018/95/srp@">95/2018</ref></heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Суд може ослободити таксеног обвезника од плаћања таксе ако би плаћањем таксе, имајући у виду висину средстава из којих се обвезник и чланови његовог домаћинства издржавају, та средства била у толикој мери умањена да би тиме била угрожена њихова социјална сигурност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Одлуку из <ref wId="ref13" href="akn/rs/act/2018/95-338/srp@/!main~art_10__para_1" >става 1. овог</ref> члана доноси првостепени суд на предлог таксеног обвезника. Пре доношења одлуке суд ће оценити све околности, а нарочито ће узети у обзир вредност меродавну за наплату таксе, укупан приход таксеног обвезника и чланова његовог домаћинства, број лица која таксени обвезник издржава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Под домаћинством се, у смислу овог закона, подразумева заједница живота, привређивања и трошења остварених прихода.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<intro>
+							<p>Издржавана лица, у смислу овог закона су:</p>
+						</intro>
+						<point wId="gla2-clan10-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> малолетна деца, односно усвојеници,</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> деца, односно усвојеници на редовном школовању или на ванредним студијама, ако су незапослени – до навршене 26. године живота,</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> унуци, ако их родитељи не издржавају и ако живе у домаћинству са обвезником,</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav4-tac4">
+							<num>4)</num>
+							<content>
+								<p> брачни друг и</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav4-tac5">
+							<num>5)</num>
+							<content>
+								<p> родитељи, односно усвојиоци.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Висину прихода таксеног обвезника суд утврђује на основу уверења надлежног органа, односно других доказа које таксени обвезник поднесе о свом имовном стању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Уверење из <ref wId="ref15" href="akn/rs/act/2018/95-338/srp@/!main~art_11__para_1" >става 1. овог</ref> члана садржи податке о висини прихода таксеног обвезника и чланова његовог домаћинства, као и о другим изворима прихода и уопште о имовном стању лица коме се издаје уверење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Уверење из <ref wId="ref16" href="akn/rs/act/2018/95-338/srp@/!main~art_11__para_1" >става 1. овог</ref> члана служи као доказ за ослобођење од плаћања таксе само ако од његовог издавања до подношења предлога за ослобођење није протекло више од шест месеци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Уверење из <ref wId="ref17" href="akn/rs/act/2018/95-338/srp@/!main~art_11__para_1" >става 1. овог</ref> члана подноси таксени обвезник уз предлог за ослобођење од плаћања таксе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>Суд може по службеној дужности прибавити и проверити потребне податке о имовном стању таксеног обвезника и чланова његовог домаћинства, а може о томе саслушати и противну странку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav6">
+						<content>
+							<p>Против решења суда којим се усваја предлог за ослобођење од плаћања таксе није дозвољена жалба.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Страни држављанин ослободиће се од плаћања таксе ако је то предвиђено међународним уговором или под условом узајамности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>У случају сумње о постојању узајамности мишљење даје министарство надлежно за послове правосуђа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Ослобођење од плаћања таксе дато у парничном, ванпарничном и кривичном поступку, као и у поступку у управним споровима важи и у поступку извршења одлука донетих у тим поступцима, ако се извршење захтева у року од три месеца по правоснажном окончању поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Ослобођење од плаћања таксе у ванпарничном и извршном поступку важи и у парничном поступку који настане у току и поводом ванпарничног и извршног поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Решење о ослобађању од плаћања таксе односи се на све таксе по одговарајућем предмету без обзира када је настала таксена обавеза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Уколико је покренут поступак за наплату таксе за поднеске, радње и исправе за које је таксена обавеза настала пре доношења решења из <ref wId="ref18" href="akn/rs/act/2018/95-338/srp@/!main~art_14__para_1" >става 1. овог</ref> члана, поступак ће се обуставити, а такса која је била наплаћена ће се вратити.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Суд може у току поступка укинути решење о ослобађању од плаћања таксе ако утврди да је таксени обвезник у стању да плати таксу а том приликом ће одлучити да ли ће обвезник у потпуности или делимично платити таксе од којих је био раније ослобођен.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Ако судски поступак траје дуже од две године лице ослобођено од плаћања судске таксе дужно је да по истеку друге и сваке следеће године трајања поступка поднесе ново уверење о свом имовном стању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Старалац одсутног лица чије је боравиште непознато, старалац имовине чији је сопственик непознат, привремени заступник странке кога суд постави у поступку  и бранилац по службеној дужности, нису дужни да плаћају таксе за лице које заступају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav2">
+						<content>
+							<p>Наплата таксе у случајевима из <ref wId="ref19" href="akn/rs/act/2018/95-338/srp@/!main~art_17__para_1" >става 1. овог</ref> члана врши се из имовине лица које је заступано.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav3">
+						<content>
+							<p>Неплаћене таксе суд ће уносити у попис такса и по завршетку поступка поступиће као у случају из <ref wId="ref20" href="akn/rs/act/2018/95-338/srp@/!main~art_37__para_3" >члана 37. став 3. овог</ref> закона када лице не присуствује судској радњи за коју је дужно да плати таксу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref21" href="akn/rs/act/2009/31/srp@">31/2009</ref></heading>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>Ослобођење од плаћања таксе користи само лицу коме је то ослобођење признато.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Када више лица заједнички предају поднесак или заједно предузму радњу у поступку, а једно или више њих је ослобођено од плаћања таксе, лице које није ослобођено дужно је да плати таксу као да нема ослобођених од плаћања таксе, осим у случајевима формалног супарничарства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>Ако у парничном, извршном или кривичном поступку по приватној тужби лице ослобођено од плаћања таксе успе у поступку, таксе које би оно било дужно да плати да није било ослобођено, платиће странка која не ужива ослобођење и то у сразмери у којој је ослобођена странка успела у поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav2">
+						<content>
+							<p>Ако се између странке ослобођене од плаћања таксе и странке која није ослобођена закључи поравнање, таксу коју би требало да плати ослобођена странка платиће странка која није ослобођена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan20">
+					<num>20.</num>
+					<paragraph wId="gla2-clan20-stav1">
+						<content>
+							<p>Када у поступку пред судом учествују на једној страни лице ослобођено од плаћања таксе, а на другој лице које није ослобођено, суд је дужан да води попис такса које би требало да плати ослобођено лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav2">
+						<content>
+							<p>Попис такса се закључује по завршетку поступка. Ако се поступак заврши на начин предвиђен <ref wId="ref22" href="akn/rs/act/2018/95-338/srp@/!main~art_19" >чланом 19. овог</ref> закона, суд ће сходно <ref wId="ref23" href="akn/rs/act/2018/95-338/srp@/!main~art_37" >члану 37. овог</ref> закона издати налог за плаћање таксе лицу обавезном да таксу плати.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>УТВРЂИВАЊЕ ВРЕДНОСТИ РАДИ НАПЛАТЕ ТАКСЕ</heading>
+				<article wId="gla3-od1-clan21">
+					<num>21.</num>
+					<paragraph wId="gla3-od1-clan21-stav1">
+						<content>
+							<p>У парничном поступку таксе се плаћају према вредности предмета спора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan21-stav2">
+						<content>
+							<p>Ако овим законом није другачије одређено, одредбе прописа о парничном поступку на основу којих се утврђује вредност спора ради одређивања стварне надлежности и састава суда примењују се и приликом одређивања вредности спора ради наплате таксе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan21-stav3">
+						<content>
+							<p>Вредност предмета спора ради наплате таксе утврђује се према вредности коју предмет спора има у време подношења тужбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan21-stav4">
+						<content>
+							<p>Под вредношћу предмета спора у смислу <ref wId="ref24" href="akn/rs/act/2018/95-338/srp@/!main~art_21__para_2" >става 2. овог</ref> члана подразумева се вредност главног захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan22">
+					<num>22.</num>
+					<paragraph wId="gla3-od1-clan22-stav1">
+						<content>
+							<p>Ако се једном тужбом обухвати више захтева против истог туженог, без обзира да ли се сви захтеви заснивају на истом чињеничном и правном основу или не, вредност предмета спора ради наплате таксе одређује се према збиру вредности свих захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan22-stav2">
+						<content>
+							<p>У случају формалног супарничарства – ако више лица поднесе једну тужбу или ако је више лица тужено једном тужбом, а предмет спора су захтеви, односно обавезе исте врсте који се заснивају на битно истоврсном чињеничном и правном основу, вредност предмета спора ради наплате таксе одређује се према вредности сваког појединог захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan23">
+					<num>23.</num>
+					<paragraph wId="gla3-od1-clan23-stav1">
+						<content>
+							<p>Ако тужилац једном тужбом обухвати два или више тужених и тражи да тужбени захтев буде усвојен према следећем туженом за случај да не буде усвојен према ономе који је у тужби наведен пре њега или ако према сваком од њих поставља исти захтев или ако према појединим од њих истиче различите захтеве који су у међусобној вези, вредност предмета спора ради наплате таксе одређује се према захтеву чија је вредност већа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan24">
+					<num>24.</num>
+					<paragraph wId="gla3-od1-clan24-stav1">
+						<content>
+							<p>Ако је предмет спора право на законско издржавање или потраживање појединих износа законског издржавања, вредност предмета спора ради наплате таксе рачуна се према збиру давања за три месеца, ако се издржавање не тражи за краће време.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan25">
+					<num>25.</num>
+					<paragraph wId="gla3-od1-clan25-stav1">
+						<content>
+							<p>Ако је предмет спора наследно право на целој заоставштини, као вредност предмета спора узима се вредност чисте заоставштине, а ако је предмет спора само један део заоставштине или одређена ствар из заоставштине, као вредност предмета спора узима се чиста вредност тог дела, односно ствари.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan26">
+					<num>26.</num>
+					<paragraph wId="gla3-od1-clan26-stav1">
+						<intro>
+							<p>Вредност предмета спора у својинским и државинским споровима о непокретностима и у споровима о праву коришћења непокретности, одређује се према тржишној вредности непокретности која је предмет спора, али не може бити мања:</p>
+						</intro>
+						<point wId="gla3-od1-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> за земљиште: од троструког износа катастарског прихода са земљишта;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> за зграде или посебне делове зграда – од трогодишњег износа станарине, односно закупнине, а ако не постоји уговор којим се утврђује висина станарине, односно закупнине, та висина ће се утврдити према висини станарине, односно закупнине сличне зграде или посебног дела зграде у месту у коме се налази зграда.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan27">
+					<num>27.</num>
+					<paragraph wId="gla3-od1-clan27-stav1">
+						<intro>
+							<p>Као вредност предмета спора ради наплате таксе узима се:</p>
+						</intro>
+						<point wId="gla3-od1-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> у деобним парницама - вредност оног дела имовине који тужилац тражи да му се деобом издвоји из заједничке имовине али да та вредност не може бити мања од  7.500 динара;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> у парницама у којима је предмет спора извршење какве радње, нечињење или трпљење или изјава воље или утврђење да постоји или не постоји неко право или правни однос или да се утврди истинитост или неистинитост какве исправе - износ који је тужилац означио у тужби, али тај износ не може бити мањи од 4.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> у парницама за поништај пресуде избраног суда - износ који је странци досуђен, а ако се тужбени захтев не односи на новчани износ меродавна је вредност коју је тужилац означио у тужби, а која не може бити мања од 4.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> у парницама за проглашење престанка важности уговора о избраном суду – износ од 19.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> у споровима о отказу уговора о најму или закупу ствари, о отказу уговора о коришћењу, односно закупу стана или подстанарског уговора и у споровима за исељење из стана - износ од 4.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> у споровима о отказу уговора о закупу пословних просторија или по тужби за исељење из пословних просторија – једногодишњи износ закупнине;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> у споровима због сметања поседа – износ од 4.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> у споровима ради утврђивања или оспоравања  очинства – износ од 4.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> у споровима ради утврђења пуноважности брака, поништења или развода брака – износ од 19.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> у споровима о стварним и личним службеностима и о доживотном издржавању – износ од 19.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan27-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> у споровима о утврђивању реда првенства потраживања у извршном поступку - висина потраживања, а највише 4.000 динара.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan27-stav2">
+						<content>
+							<p>Ако се заједно са бракоразводним спором или спором ради утврђивања очинства  расправља и захтев за издржавање детета или брачног друга, наплаћује се само  једна такса и то према вредности према којој се наплаћује такса за бракоразводни  спор, односно за спор за утврђивање очинства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan27-stav3">
+						<content>
+							<p>Ако се у неком од поступака тражи обезбеђење доказа пре покретања парничног поступка као вредност меродавна за наплату таксе узима се износ од 4.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan27-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref25" href="akn/rs/act/1995/53/srp@">53/1995</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan27-stav5">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref26" href="akn/rs/act/2002/9/srp@">9/2002</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan28">
+					<num>28.</num>
+					<heading>***Службени гласник РС, број <ref wId="ref28" href="akn/rs/act/2009/31/srp@">31/2009</ref></heading>
+					<paragraph wId="gla3-od1-clan28-stav1">
+						<content>
+							<p>Ако се по одредбама <ref wId="ref27" href="akn/rs/act/2018/95-338/srp@/!main~art_21->art_27" >чл. 21. </ref>до 27. овог закона не може утврдити вредност предмета спора, као вредност се узима износ од  15.000 динара, без обзира који је суд надлежан за решавање спора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan29">
+					<num>29.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref32" href="akn/rs/act/2009/31/srp@">31/2009</ref></heading>
+					<paragraph wId="gla3-od1-clan29-stav1">
+						<content>
+							<p>Износ таксе коју је таксени обвезник дужан да плати обрачунава, у складу са одредбама овог закона, лице које одреди председник суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan29-stav2">
+						<content>
+							<p>Контролу обрачунате и наплаћене таксе врши судија – председник већа који води поступак, односно овлашћено лице које предузима радње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan29-stav3">
+						<content>
+							<p>Контрола из <ref wId="ref29" href="akn/rs/act/2018/95-338/srp@/!main~art_29__para_2" >става 2. овог</ref> члана врши се на тај начин што је суд дужан да по пријему тужбе на брз и погодан начин утврди вредност спора, односно да провери вредност означену у тужби, као и на основу ње одређени износ таксе. Испитивање вредности спора суд ће предузети најкасније на припремном рочишту, а ако оно није одржано, на првом рочишту за главну расправу, пре почетка расправљања о главној ствари. Ако утврди да у тужби није означена одговарајућа вредност спора или ако утврди да такса није правилно обрачуната и наплаћена суд ће решењем одредити износ таксе, коју је таксени обвезник дужан да плати.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan29-stav4">
+						<content>
+							<p>Када се ради о наплати таксе и тужени може поднети приговор да је у тужби вредност предмета спора превисоко одређена и тада ће суд решењем одредити вредност меродавну за наплату таксе и износ таксе коју је таксени обвезник дужан да плати.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan29-stav5">
+						<content>
+							<p>Приговор из <ref wId="ref30" href="akn/rs/act/2018/95-338/srp@/!main~art_29__para_4" >става 4. овог</ref> члана тужени може истаћи најкасније до завршетка припремног рочишта, а ако оно није одржано на првом рочишту за главну расправу, док се суд није упустио у расправљање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan29-stav6">
+						<content>
+							<p>Против решења из <ref wId="ref31" href="akn/rs/act/2018/95-338/srp@/!main~art_29__para_3->para_4" >ст. 3. и 4. овог</ref> члана није дозвољена посебна жалба.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan30">
+					<num>30.</num>
+					<paragraph wId="gla3-od2-clan30-stav1">
+						<content>
+							<p>У извршном поступку плаћа се такса према вредности захтева који треба извршити или обезбедити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan30-stav2">
+						<content>
+							<p>При утврђивању вредности захтева за наплату таксе сходно се примењују одредбе <ref wId="ref33" href="akn/rs/act/2018/95-338/srp@/!main~art_21->art_28" >чл. 21. </ref>до 28. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan30-stav3">
+						<content>
+							<p>Парнични трошкови, односно трошкови поступка и споредна тражења узимају се у обзир само ако су сами за себе предмет захтева који треба извршити или обезбедити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan30-stav4">
+						<content>
+							<p>Ако је извршном поступку претходила парница о истом захтеву, као вредност захтева за наплату таксе у извршном поступку узеће се вредност предмета спора утврђена у парници, ако се не захтева мањи износ.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan31">
+					<num>31.</num>
+					<paragraph wId="gla3-od2-clan31-stav1">
+						<content>
+							<p>Кад поверилац не назначи вредност меродавну за наплату таксе, нити се она може утврдити на основу <ref wId="ref34" href="akn/rs/act/2018/95-338/srp@/!main~art_30" >члана 30. овог</ref> закона, као вредност узима се износ од 7.500 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan31-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref35" href="akn/rs/act/1995/53/srp@">53/1995</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan32">
+					<num>32.</num>
+					<heading>**Службени гласник РС, број   <ref wId="ref37" href="akn/rs/act/2009/31/srp@">31/2009</ref></heading>
+					<paragraph wId="gla3-od2-clan32-stav1">
+						<content>
+							<p>У поступку извршења примењиваће се сходно одредбе <ref wId="ref36" href="akn/rs/act/2018/95-338/srp@/!main~art_29" >члана 29. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan33">
+					<num>33.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref40" href="akn/rs/act/2005/61/srp@">61/2005</ref></heading>
+					<paragraph wId="gla3-od3-clan33-stav1">
+						<content>
+							<p>У управним споровима плаћа се такса према вредности предмета спора, ако је предмет спора процењив.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan33-stav2">
+						<content>
+							<p>Вредност процењивог спора утврђује се сходно одредбама <ref wId="ref38" href="akn/rs/act/2018/95-338/srp@/!main~art_21->art_28" >чл. 21. </ref>до 28. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan33-stav3">
+						<content>
+							<p>Ако предмет спора није процењив, као вредност се узима износ од  3.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan33-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref39" href="akn/rs/act/2005/61/srp@">61/2005</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan34">
+					<num>34.</num>
+					<heading>**Службени гласник РС, број   <ref wId="ref43" href="akn/rs/act/2009/31/srp@">31/2009</ref></heading>
+					<paragraph wId="gla3-od3-clan34-stav1">
+						<content>
+							<p>У поступку у управним споровима сходно се примењују одредбе <ref wId="ref41" href="akn/rs/act/2018/95-338/srp@/!main~art_29" >члана 29. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan34-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2005/61/srp@">61/2005</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od4-clan35">
+					<num>35.</num>
+					<paragraph wId="gla3-od4-clan35-stav1">
+						<content>
+							<p>Када је у ванпарничном поступку, у земљишнокњижном поступку, у стечајном поступку и у поступку  реорганизације за плаћање таксе меродавна вредност захтева, за њено утврђивање ће се сходно примењивати одредбе <ref wId="ref44" href="akn/rs/act/2018/95-338/srp@/!main~art_21->art_28" >чл. 21. </ref>до 28. овог закона, ако у Таксеној тарифи није другачије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan35-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref45" href="akn/rs/act/2005/61/srp@">61/2005</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan36">
+					<num>36.</num>
+					<paragraph wId="gla3-od5-clan36-stav1">
+						<content>
+							<p>Првобитно утврђена вредност остаје као основ за плаћање таксе, без обзира да ли се та вредност променила у току поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan36-stav2">
+						<content>
+							<p>Ако се у смислу <ref wId="ref46" href="akn/rs/act/2018/95-338/srp@/!main~art_29" >члана 29. овог</ref> закона утврди нова вредност, као основ за плаћање таксе узима се та нова вредност и то од дана када се решење суда о томе саопшти странкама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan36-stav3">
+						<content>
+							<p>Када се вредност промени због преиначења захтева или због тога што је захтев делимично решен, као вредност за плаћање таксе узима се промењена вредност и то за све поднеске и радње учињене после такве промене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan36-stav4">
+						<content>
+							<p>Ако је изјаву о промени вредности странка дала у поднеску и такса за тај поднесак плаћа се по промењеној вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan36-stav5">
+						<content>
+							<p>Ако се правним леком, односно приговором против решења о извршењу одлука побије само у једном делу, за плаћање таксе за правни лек, односно приговор, узима се вредност само побијaног дела.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan36-stav6">
+						<content>
+							<p>Ако правни лек, улажу обе странке, такса за правни лек одређује се посебно за сваку странку према вредности оног дела одлуке који се правним леком побија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan36-stav7">
+						<content>
+							<p>У статусним споровима, у споровима за утврђивање и у споровима у којима се тужбени захтев не односи на новчани износ, за плаћање таксе за правни лек, меродавна је вредност према којој је плаћена такса за тужбу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan36-stav8">
+						<content>
+							<p>За правни лек који се улаже само против одлуке о трошковима поступка или одлуке о споредним тражењима, такса се плаћа само према износу трошкова поступка или износа споредних тражења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan36-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref47" href="akn/rs/act/2012/93/srp@">93/2012</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПОСТУПАК ЗА НАПЛАТУ НЕПЛАЋЕНЕ ТАКСЕ</heading>
+				<article wId="gla4-clan37">
+					<num>37.</num>
+					<paragraph wId="gla4-clan37-stav1">
+						<content>
+							<p>Ако странка присуствује судској радњи за коју је дужна да плати таксу, а не плати је одмах, суд ће је упозорити да је дужна да таксу плати у року од  осам дана и упозориће је на последице неплаћања таксе (<ref wId="ref48" href="akn/rs/act/2018/95-338/srp@/!main~art_40" >члан 40</ref>). На судском спису ће се назначити да је извршено ово упозорење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan37-stav2">
+						<content>
+							<p>На начин из <ref wId="ref49" href="akn/rs/act/2018/95-338/srp@/!main~art_37__para_1" >става 1. овог</ref> члана поступиће се и када странка предаје непосредно суду поднесак који није таксиран или је недовољно таксиран, а на поднеску и на судском спису ће се назначити да је странка упозорена на последице неплаћања таксе у року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan37-stav3">
+						<content>
+							<p>Ако странка не присуствује судској радњи за коју је дужна да плати таксу, суд ће јој послати налог да плати таксу коју дугује у року од  осам дана од дана доставе налога и упозориће је на последице неплаћања таксе у року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan37-stav4">
+						<content>
+							<p>За поднесак примљен преко поште, а за који такса није плаћена или је плаћена недовољно, суд ће подносиоцу послати опомену да плати таксу у року од  осам дана од дана доставе опомене и упозориће је на последице неплаћања таксе у року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan37-stav5">
+						<content>
+							<p>Уколико странка у поступку има пуномоћника, налог, односно опомена за плаћање таксе из <ref wId="ref50" href="akn/rs/act/2018/95-338/srp@/!main~art_37__para_2->para_4" >ст. 2, 3. и 4. овог</ref> члана доставиће се њеном пуномоћнику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan38">
+					<num>38.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref51" href="akn/rs/act/2009/31/srp@">31/2009</ref></heading>
+					<paragraph wId="gla4-clan38-stav1">
+						<content>
+							<p>Ако укупан износ такса које је таксени обвезник дужан да плати премашује 1/3 његових месечних примања, суд може, на захтев таксеног обвезника, решењем одредити да таксену обавезу измири у ратама и то највише у три месечне рате.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Када је таксу дужно да плати лице које има пребивалиште или боравиште у иностранству, без обзира да ли је  држављанин Републике Србије или страни држављанин, или ако је таксу дужно да плати правно лице које има седиште у иностранству, а таксу није платило у тренутку настанка таксене обавезе, суд ће водити попис неплаћених такса и по завршетку поступка издаће налог за плаћање таксе у смислу <ref wId="ref52" href="akn/rs/act/2018/95-338/srp@/!main~art_37__para_3" >члана 37. став 3. овог</ref> закона, с тим да рок за плаћање таксе не може бити краћи од 30 ни дужи од 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref53" href="akn/rs/act/2005/61/srp@">61/2005</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan40">
+					<num>40.</num>
+					<heading>**Службени гласник РС, број   <ref wId="ref56" href="akn/rs/act/2009/31/srp@">31/2009</ref></heading>
+					<paragraph wId="gla4-clan40-stav1">
+						<content>
+							<p>Ако физичко лице, као таксени обвезник, не плати таксу  у року одређеном у <ref wId="ref54" href="akn/rs/act/2018/95-338/srp@/!main~art_37" >члану 37. овог</ref> закона, суд у наредних пет дана доноси решење  о извршењу у коме обавезује таксеног обвезника да у року од пет дана од дана  пријема решења плати дуговану таксу и казнену таксу од 50% од висине таксе и у  коме не одређује средство и предмет извршења, и решење о извршењу доставља  извршитељу, а у спису забележава да је решење достављено извршитељу. Уз решење о  извршењу суд прилаже и доказ о томе да је таксеном обвезнику достављен налог,  односно опомена о плаћању таксе. Извршитељ доставља решење о извршењу таксеном  обвезнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav2">
+						<content>
+							<p>Редовни правни лек против решења о извршењу, који може  да се изјави у року од осам дана од дана достављања решења, не одлаже извршење  решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav3">
+						<content>
+							<p>Поступак извршења спроводи се према закону којим се  уређује извршење и обезбеђење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav4">
+						<content>
+							<p>Извршитеља који спроводи извршење одређује председник  суда, тако што решење о извршењу доставља извршитељу чије се седиште налази на  подручју суда који је донео решење о извршењу, а ако више извршитеља има седиште  на подручју тог суда, решења о извршењу достављају се равномерно, према  редоследу по коме су извршитељи уписани у Именик извршитеља и заменика  извршитеља.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav5">
+						<content>
+							<p>Казнена такса из <ref wId="ref55" href="akn/rs/act/2018/95-338/srp@/!main~art_40__para_1" >става 1. овог</ref> члана не може бити мања  од двоструког износа најниже таксе прописане Таксеном тарифом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav6">
+						<content>
+							<p>Од средстава остварених наплатом таксе извршитељ на  име награде задржава за себе 10% наплаћене вредности таксе и казнене таксе,  остатак уплаћује на рачун прописан за наплату судских такси, а трошкове извршења  наплаћује од таксеног обвезника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav7">
+						<content>
+							<p>Суд не плаћа предујам извршитељу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan41">
+					<num>41.</num>
+					<heading>*Службени гласник РС, број  <ref wId="ref60" href="akn/rs/act/2015/106/srp@">106/2015</ref></heading>
+					<paragraph wId="gla4-clan41-stav1">
+						<content>
+							<p>Кад је таксени обвезник привредно друштво или друго правно лице суд ће решењем  утврдити износ неплаћене таксе и износ казнене таксе и решење ће ради извршења  доставити банци код које се води рачун таксеног обвезника, односно организацији  за принудну наплату.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav2">
+						<content>
+							<p>Против решења из <ref wId="ref57" href="akn/rs/act/2018/95-338/srp@/!main~art_41__para_1" >става 1. овог</ref> члана  привредно друштво  или друго правно лице може изјавити жалбу у року од  осам дана од дана достављања решења. Жалба не задржава наплату таксе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav3">
+						<content>
+							<p>Није дозвољена жалба ако је решење из <ref wId="ref58" href="akn/rs/act/2018/95-338/srp@/!main~art_41__para_1" >става 1. овог</ref> члана донео  Врховни касациони суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref59" href="akn/rs/act/2005/61/srp@">61/2005</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan42">
+					<num>42.</num>
+					<heading>**Службени гласник РС, број   <ref wId="ref61" href="akn/rs/act/2009/31/srp@">31/2009</ref></heading>
+					<paragraph wId="gla4-clan42-stav1">
+						<content>
+							<p>Ако износ неплаћене таксе у једном предмету, по извршењу свих радњи, односно по правоснажности предмета не прелази износ најниже таксе која се плаћа за тужбу у парничном поступку, суд неће покретати поступак за принудну наплату таксе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОВРАЋАЈ ТАКСЕ</heading>
+				<article wId="gla5-clan43">
+					<num>43.</num>
+					<paragraph wId="gla5-clan43-stav1">
+						<content>
+							<p>Лице које је платило таксу коју уопште није било дужно да плати или је платило таксу у износу већем од прописаног, као и лице које је платило таксу за судску радњу, а та радња из било ког разлога није извршена, има право на повраћај таксе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan43-stav2">
+						<content>
+							<p>Лице које је платило таксу за судску радњу која није извршена има право да тражи повраћај таксе за неизвршену радњу, али не и за поднесак којим је захтевало њено извршење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan44">
+					<num>44.</num>
+					<paragraph wId="gla5-clan44-stav1">
+						<content>
+							<p>Захтев за повраћај таксе подноси се суду који је решавао у првом степену и то у року од  30 дана од дана када је такса погрешно плаћена, односно од дана сазнања да судска радња није извршена, а најкасније у року од  шест месеци од дана када је такса плаћена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan44-stav2">
+						<content>
+							<p>Ако усвоји захтев, суд доноси решење о повраћају таксе  и доставља га Управи за трезор, ради извршења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan44-stav3">
+						<content>
+							<p>*Службени гласник РС, број   <ref wId="ref62" href="akn/rs/act/2009/31/srp@">31/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<heading>**Службени гласник РС, број   <ref wId="ref63" href="akn/rs/act/2015/106/srp@">106/2015</ref></heading>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<heading>Брисан је  (види <ref wId="ref69" href="akn/rs/act/2015/106/srp@/!main~/art_5">члан 5. Закона - 106/2015-63</ref>)</heading>
+					<paragraph wId="gla5-clan46-stav1">
+						<content>
+							<p>Ако у поступку у управним споровима управни акт по тужби буде поништен или ако у истом поступку одлука првостепеног суда по жалби буде преиначена или укинута, или ако се дозволи обнова поступка, такса за тужбу, односно жалбу ће се вратити странци на њен захтев, а у случају преиначења, на захтев странке ће се вратити и остале таксе плаћене у том спору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>Захтев за повраћај таксе подноси се у року од 90 дана од дана достављања одлуке из <ref wId="ref64" href="akn/rs/act/2018/95-338/srp@/!main~art_46__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav3">
+						<content>
+							<p>У случају повраћаја таксе из <ref wId="ref67" href="akn/rs/act/2018/95-338/srp@/!main~art_46__para_1" >става 1. овог</ref> члана, примењиваће се одредбе чл. <ref wId="ref65" href="akn/rs/act/2018/95-338/srp@/!main~art_43" >43</ref>.   и <ref wId="ref66" href="akn/rs/act/2018/95-338/srp@/!main~art_44" >44</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref68" href="akn/rs/act/2005/61/srp@">61/2005</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan47">
+					<num>47.</num>
+					<heading>**Службени гласник РС, број  <ref wId="ref70" href="akn/rs/act/2015/106/srp@">106/2015</ref></heading>
+					<paragraph wId="gla5-clan47-stav1">
+						<content>
+							<p>У поступку за повраћај таксе не плаћа се такса.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>МАЛОПРОДАЈА ТАКСЕНИХ МАРАКА</heading>
+				<article wId="gla6-clan48">
+					<num>48.</num>
+					<paragraph wId="gla6-clan48-stav1">
+						<content>
+							<p>Малопродају судских таксених марака врше привредна друштва и друга правна лица  (у даљем тексту: овлашћени продавци).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav2">
+						<content>
+							<p>Овлашћење за продају судских таксених марака даје Влада, на предлог министарства  надлежног за послове правосуђа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav3">
+						<content>
+							<p>Изглед судских таксених марака, поступак израде, дистрибуција и располагање  судским таксеним маркама ближе се уређују прописом министра надлежног за послове  правосуђа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan49">
+					<num>49.</num>
+					<heading>*Службени гласник РС, број  <ref wId="ref73" href="akn/rs/act/2015/106/srp@">106/2015</ref></heading>
+					<paragraph wId="gla6-clan49-stav1">
+						<content>
+							<p>Овлашћење из   <ref wId="ref71" href="akn/rs/act/2018/95-338/srp@/!main~art_48__para_2" >члана 48. став 2. овог</ref> закона садржи обавезе овлашћених продаваца у малопродаји таксених марака, посебно у односу на место, време и начин продаје.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav2">
+						<content>
+							<p>Овлашћени продавац је дужан да малопродају таксених марака врши у складу са издатим овлашћењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav3">
+						<content>
+							<p>Ако овлашћени продавац врши продају супротну <ref wId="ref72" href="akn/rs/act/2018/95-338/srp@/!main~art_49__para_2" >ставу 2. овог</ref> члана  Влада, на предлог министра надлежног за послове правосуђа, доноси решење о престанку важења овлашћења за малопродају.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan50">
+					<num>50.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref74" href="akn/rs/act/2015/106/srp@">106/2015</ref></heading>
+					<paragraph wId="gla6-clan50-stav1">
+						<content>
+							<p>Овлашћеном продавцу припада провизија од 10% од номиналне вредности износа купљених таксених марака.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>НАЧИН КОРИШЋЕЊА ДЕЛА СРЕДСТАВА ОД НАПЛАЋЕНИХ СУДСКИХ ТАКСА</heading>
+				<article wId="gla7-clan51">
+					<num>51.</num>
+					<paragraph wId="gla7-clan51-stav1">
+						<content>
+							<p>Наплаћене таксе приход су буџета Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav2">
+						<content>
+							<p>Престали су да важе  ранији  <ref wId="ref76" href="akn/rs/act/2018/95-338/srp@/!main~art_51__para_2->para_3" >ст. 2. и 3. </ref>(види <ref wId="ref75" href="akn/rs/act/2001/34/srp@/!main~/art_15">члан 15. Закона – 34/2001-1</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav3">
+						<content>
+							<p>Oд наплаћених такси 40% расподељује се за текуће  расходе судова, осим за расходе за судско особље и особље у јавном тужилаштву, а  20% за побољшање материјалног положаја запослених у судовима и јавним  тужилаштвима који су судско особље и особље у јавном тужилаштву, друге расходе,  као и инвестиције у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref77" href="akn/rs/act/1995/53/srp@">53/1995</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav5">
+						<content>
+							<p>**Службени гласник РС, број  <ref wId="ref78" href="akn/rs/act/2011/101/srp@">101/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan52">
+					<num>52.</num>
+					<paragraph wId="gla8-clan52-stav1">
+						<content>
+							<p>За поднеске, радње и исправе по којима је таксена обавеза настала до дана ступања на снагу овог закона, а такса није плаћена, плаћаће се такса у складу са прописима и тарифом који су важили до његовог ступања на снагу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan52-stav2">
+						<content>
+							<p>Ако је до ступања на снагу овог закона плаћена такса за радњу која ће се извршити после његовог ступања на снагу неће се плаћати нова такса по овом закону, нити ће се враћати више наплаћена такса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan52-stav3">
+						<content>
+							<p>Уколико по ступању на снагу овог закона виши суд укине одлуку нижег суда која је донета пре ступања на снагу овог закона, неће се плаћати такса за нову одлуку нижег суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan52-stav4">
+						<content>
+							<p>Ако је у поступку који до ступања на снагу овог закона није окончан таксени обвезник ослобођен плаћања таксе, дато ослобођење важи и после ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan53">
+					<num>53.</num>
+					<paragraph wId="gla8-clan53-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о судским таксама („Службени гласник РС”, бр. <ref wId="ref79" href="akn/rs/act/92/11/srp@">11/92</ref>, <ref wId="ref80" href="akn/rs/act/93/20/srp@">20/93</ref>, <ref wId="ref81" href="akn/rs/act/93/47/srp@">47/93</ref> и <ref wId="ref82" href="akn/rs/act/93/67/srp@">67/93</ref>) и Уредба о валоризацији судских такса („Службени гласник РС”, број <ref wId="ref83" href="akn/rs/act/94/8/srp@">8/94</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan54">
+					<num>54.</num>
+					<paragraph wId="gla8-clan54-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan54-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan47">
+					<num>47.</num>
+					<heading>Закон о изменама и допунама Закона о судским таксама: „Службени гласник РС“, број <ref wId="ref88" href="akn/rs/act/2009/31/srp@">31/2009</ref>-92</heading>
+					<paragraph wId="gla8-clan47-stav1">
+						<content>
+							<p>Одредбе <ref wId="ref84" href="akn/rs/act/2018/95-338/srp@/!main~art_11__para_2" >члана 11. став 2. </ref>и чл. <ref wId="ref85" href="akn/rs/act/2018/95-338/srp@/!main~art_33" >33</ref>. и <ref wId="ref86" href="akn/rs/act/2018/95-338/srp@/!main~art_46" >46</ref>. овог закона примењиваће се од дана почетка примене Закона о уређењу судова („Службени гласник РС”, број <ref wId="ref87" href="akn/rs/act/08/116/srp@">116/08</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan48">
+					<num>48.</num>
+					<paragraph wId="gla8-clan48-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan13">
+					<num>13.</num>
+					<heading>Закон о изменама и допунама Закона о судским таксама: „Службени гласник РС“, број  <ref wId="ref96" href="akn/rs/act/2015/106/srp@">106/2015</ref>-63</heading>
+					<paragraph wId="gla8-clan13-stav1">
+						<content>
+							<p>Овлашћења за продају добијена на основу <ref wId="ref89" href="akn/rs/act/2018/95-338/srp@/!main~art_48" >члана 48. </ref>Закона о судским  таксама („Службени гласник РС”, бр. <ref wId="ref90" href="akn/rs/act/94/28/srp@">28/94</ref>, <ref wId="ref91" href="akn/rs/act/95/53/srp@">53/95</ref>, <ref wId="ref92" href="akn/rs/act/97/16/srp@">16/97</ref>, <ref wId="ref93" href="akn/rs/act/01/34/srp@">34/01</ref> – др. закон,  9/02, 29/04, 61/05, <ref wId="ref94" href="akn/rs/act/08/116/srp@">116/08 – др. закон</ref>, 31/09, 101/11, 93/12 и 93/14), престају  да важе 1. јануара 2016. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan13-stav2">
+						<content>
+							<p>Пропис из <ref wId="ref95" href="akn/rs/act/2018/95-338/srp@/!main~art_7" >члана 7. овог</ref> закона донеће се у року од 30 дана од дана  ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan14">
+					<num>14.</num>
+					<paragraph wId="gla8-clan14-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном  гласнику Републике Србије”, осим одредаба <ref wId="ref97" href="akn/rs/act/2018/95-338/srp@/!main~art_1" >члана 1, </ref><ref wId="ref100" href="akn/rs/act/2018/95-338/srp@/!main~art_3->art_6" >чл. 3</ref>–6, <ref wId="ref98" href="akn/rs/act/2018/95-338/srp@/!main~art_7" >члана 7. </ref>(новелирани  <ref wId="ref101" href="akn/rs/act/2018/95-338/srp@/!main~art_48__para_1->para_2" >члан 48. ст. 1. и 2</ref>) и <ref wId="ref99" href="akn/rs/act/2018/95-338/srp@/!main~art_8" >члана 8. овог</ref> закона које ступају на снагу 1. јануара  2016. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan3">
+					<num>3.</num>
+					<heading>Закон о изменама и допунама Закона о судским таксама: „Службени гласник РС“,  број <ref wId="ref102" href="akn/rs/act/2018/95/srp@">95/2018</ref>-338</heading>
+					<paragraph wId="gla8-clan3-stav1">
+						<content>
+							<p>Овај закон ступа на снагу 1. јануара 2019.  године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan3-stav2">
+						<content>
+							<p>ТАКСЕНА ТАРИФА</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<paragraph wId="gla1-od1-clan3-stav1">
+				<intro>
+					<p>Тарифни број 1.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla1-od1-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<intro>
+						<p> За  тужбу и противтужбу поднету пред судом опште надлежности плаћа се према вредности предмета спора:</p>
+					</intro>
+					<alinea wId="gla1-od1-clan3-stav1-podtac1-ali1">
+						<content>
+							<p>о 10.000 динара вредности – 1.900 динара;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-od1-clan3-stav1-podtac1-ali2">
+						<content>
+							<p>реко 10.000 до 100.000 динара вредности – 1.900 динара увећано за 4% од вредности предмета спора;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-od1-clan3-stav1-podtac1-ali3">
+						<content>
+							<p>реко 100.000 до 500.000 динара вредности – 9.800 динара увећано за 2% од вредности предмета спора;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-od1-clan3-stav1-podtac1-ali4">
+						<content>
+							<p>реко 500.000 до 1.000.000 динара вредности – 29.300 динара увећано за 1% од вредности предмета спора;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-od1-clan3-stav1-podtac1-ali5">
+						<content>
+							<p>реко 1.000.000 динара вредности – 48.800 динара увећано за 0,5% од вредности спора, а највише 97.500 динара.</p>
+						</content>
+					</alinea>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od1-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<intro>
+						<p> За  тужбу и противтужбу поднету пред привредним судом  плаћа се према вредности спора:</p>
+					</intro>
+					<alinea wId="gla1-od1-clan3-stav1-podtac2-ali1">
+						<content>
+							<p>о 10.000 динара вредности – 3.900 динара;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-od1-clan3-stav1-podtac2-ali2">
+						<content>
+							<p>д 10.000 до 100.000 динара вредности – 3.900 динара увећано за 6% од вредности предмета спора;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-od1-clan3-stav1-podtac2-ali3">
+						<content>
+							<p>д 100.000 до 1.000.000 динара вредности – 15.600 динара увећано за 2% од вредности предмета спора;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-od1-clan3-stav1-podtac2-ali4">
+						<content>
+							<p>д 1.000.000 до 10.000.000 динара вредности – 54.600 динара увећано за 1% од вредности предмета спора;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-od1-clan3-stav1-podtac2-ali5">
+						<content>
+							<p>реко 10.000.000 динара вредности – 249.600 динара увећано за 0,5% од вредности предмета спора, а највише 390.000 динара.</p>
+						</content>
+					</alinea>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od1-clan3-stav1-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> За предлог да се одреди извршење на основу извршне или веродостојне исправе,  за предлог за обезбеђење, за приговор и жалбу поднете у поступку побијања решења  о извршењу на основу извршне или веродостојне исправе или решења о обезбеђењу,  за предлог за обезбеђење доказа, за одговор на тужбу и за одговор на жалбу или  ревизију, плаћа се половина таксе из става (1) овог тарифног броја, а у поступку  пред привредним судом плаћа се половина таксе из става (2) овог тарифног броја.  Ако је за спровођење извршења надлежан извршитељ, за предлог да се одреди  извршење на основу извршне или веродостојне исправе или обезбеђење и за приговор  и жалбу, плаћа се трећина таксе из става (1) овог тарифног броја, а у поступку  пред привредним судом плаћа се трећина таксе из става (2) овог тарифног броја.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od1-clan3-stav1-podtac4">
+					<num>(4)</num>
+					<content>
+						<p> За жалбу против пресуде или решења и за жалбу против решења у споровима због сметања поседа, плаћа се такса из става (1) овог тарифног броја, а у поступку пред   привредним судом  плаћа се такса из става (2) овог тарифног броја.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od1-clan3-stav1-podtac5">
+					<num>(5)</num>
+					<content>
+						<p> За ревизију против пресуде или решења и за предлог за понављање поступка плаћа се двострука такса из става (1) овог тарифног броја, а ако се ревизијом, односно предлогом за понављање поступка побија одлука   привредног суда - плаћа се двострука такса из става (2) овог тарифног броја.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od1-clan3-stav1-podtac6">
+					<num>(6)</num>
+					<content>
+						<p> За предлог да се призна одлука страног суда и за жалбу против решења по предлогу плаћа се такса у износу од 1.900 динара пред судом опште надлежности, а у поступку пред  привредним судом  у износу од 19.500 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od1-clan3-stav1-podtac7">
+					<num>(7)</num>
+					<content>
+						<p> За жалбу против решења којим се одбија или одбацује предлог за повраћај у пређашње стање плаћа се половина таксе из става (1) овог тарифног броја, а у поступку пред привредним судом  плаћа се половина таксе из става (2) овог тарифног броја, али не више од 1.900 динара, односно не више од 19.500 динара у поступку пред привредним судом.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od1-clan3-stav1-podtac8">
+					<num>(8)</num>
+					<content>
+						<p> Када је у поступку пред привредним судом  једна од странака физичко лице које није предузетник, плаћа се такса као пред судом опште надлежности.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla1-od1-clan3-stav2">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od11-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 53/1995</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od11-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od11-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број 9/2002</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od11-clan3-stav4">
+				<content>
+					<p>****Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od11-clan3-stav5">
+				<content>
+					<p>*****Службени  гласник РС, број  93/2012</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od11-clan3-stav6">
+				<content>
+					<p>*6Службени гласник РС, број 106/2015</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od2-clan3-stav1">
+				<intro>
+					<p>Тарифни број 2.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За првостепену пресуду и за решење у споровима због сметања поседа плаћа се према вредности предмета спора такса из става (1) тарифног броја 1, а у поступку пред привредним судом  плаћа се такса из става (2) тарифног броја 1.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> За пресуду због   пропуштања и за пресуду на основу признања, односно одрицања, плаћа се половина таксе из става (1) овог тарифног броја.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> За решење о одбацивању тужбе плаћа се половина таксе из става (1) овог тарифног броја, али не више од 9.800 динара, односно не више од 19.500 динара у поступку пред привредним судом.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac4">
+					<num>(4)</num>
+					<content>
+						<p> За решење о издавању платног налога плаћа се половина таксе из става (1)  овог тарифног броја.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac5">
+					<num>(5)</num>
+					<content>
+						<p> За решење донето по предлогу за обезбеђење и за решење донето по приговору  против решења које је донето по предлогу за извршење на основу веродостојне  исправе плаћа се половина таксе из става (1) овог тарифног броја, а за решење о  извршењу које је донето на основу иностраних извршних исправа плаћа се пуна  такса из става (1) овог тарифног броја. Ако је за спровођење извршења надлежан  извршитељ, за решење донето по предлогу за обезбеђење и за решење донето по  приговору против решења које је донето по предлогу за извршење на основу  веродостојне исправе плаћа се трећина таксе из става (1) овог тарифног броја, а  за решење о извршењу које је донето на основу иностраних извршних исправа плаћа  се половина таксе из става (1) овог тарифног броја.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac6">
+					<num>(6)</num>
+					<content>
+						<p> За решење којим се усваја, одбија или одбацује предлог за повраћај у пређашње стање плаћа се половина таксе из става (1) овог тарифног броја, али не више од 1.900 динара, односно не више од 19.500 динара у поступку пред привредним судом.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac7">
+					<num>(7)</num>
+					<content>
+						<p> За решење о предлогу за признање и извршење одлуке иностраног суда или арбитраже плаћа се такса од 1.900 динара пред судом опште надлежности, а у поступку пред привредним судом  плаћа се 19.500 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac8">
+					<num>(8)</num>
+					<content>
+						<p> За решење о трошковима поступка, кад се о њима одвојено одлучује, плаћа се  такса из става (1) овог тарифног броја.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac9">
+					<num>(9)</num>
+					<content>
+						<p> Брисан је  (види члан 3. Закона - 93/2012-29)</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac10">
+					<num>(10)</num>
+					<content>
+						<p> За одлуке другостепеног суда по жалбама на првостепене одлуке наведене у  ст. (1) – (8) овог тарифног броја плаћа се такса као за првостепену одлуку,  изузев ако се одлуком другостепеног суда жалба одбацује или ако се првостепена  одлука укида, у ком случају се не плаћа такса.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac11">
+					<num>(11)</num>
+					<content>
+						<p> За одлуку суда по ванредним правним средствима плаћа се трострука такса из  овог тарифног броја, изузев ако је том одлуком одбачено ванредно правно средство  или ако је одлука суда нижег степена укинута, у ком случају се такса не плаћа.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od2-clan3-stav1-podtac12">
+					<num>(12)</num>
+					<content>
+						<p> Када је у поступку пред привредним судом  једна од странака физичко лице које није предузетник, плаћа се такса као пред судом опште надлежности.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla1-od2-clan3-stav2">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od7-clan3-stav1">
+				<content>
+					<p>Ако је такса за одлуку донета поводом приговора против платног налога већа од таксе плаћене за одлуку по предлогу за издавање платног налога, односно налога за исељење из пословних просторија, наплатиће се разлика, а ако је мања, разлика се неће враћати.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od12-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 53/1995</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od12-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od12-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број 61/2005</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od12-clan3-stav4">
+				<content>
+					<p>****Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od12-clan3-stav5">
+				<content>
+					<p>*****Службени гласник РС, број 93/2012</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od12-clan3-stav6">
+				<content>
+					<p>*6Службени гласник РС, број 106/2015</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od3-clan3-stav1">
+				<intro>
+					<p>Тарифни број 3.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla1-od3-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За судско поравнање у току првостепеног поступка плаћа се, према вредности на коју су се странке поравнале, половина таксе из става (1) тарифног броја 1, а у поступку пред привредним судом  плаћа се половина таксе из става (2) тарифног броја 1.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla1-od3-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Када је у поступку пред  привредним судом  једна од странака физичко лице које није предузетник, плаћа се такса као пред судом опште надлежности.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla1-od3-clan3-stav2">
+				<content>
+					<p>*Службени гласник РС, број 53/1995</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od3-clan3-stav3">
+				<content>
+					<p>**Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla1-od3-clan3-stav4">
+				<content>
+					<p>***Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-clan3-stav1">
+				<content>
+					<p>А. Опште одредбе</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-clan3-stav2">
+				<intro>
+					<p>Тарифни број 4.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla2-clan3-stav2-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За предлог да се покрене поступак у ванпарничним стварима које нису обухваћене посебним одредбама којим се прописује плаћање такси у појединим врстама ванпарничног поступка, плаћа се такса у износу од 390 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla2-clan3-stav2-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> За жалбу против одлуке првостепеног суда, плаћа се такса у износу од 390 динара.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla2-clan3-stav3">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od1-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od1-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od1-clan3-stav3">
+				<content>
+					<p>Тарифни број 5.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od1-clan3-stav4">
+				<content>
+					<p>За коначну одлуку првостепеног суда у ванпарничним стварима из тарифног броја 4. плаћа се такса у износу од 390 динара.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od1-clan3-stav5">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od2-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od2-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od2-clan3-stav3">
+				<content>
+					<p>Тарифни број 6.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od2-clan3-stav4">
+				<content>
+					<p>За судска поравнања у свим ванпарничним стварима, плаћа се такса предвиђена у тарифном броју 3, али она не може бити већа него што је прописано за одлуку у тарифном броју 5.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od2-clan3-stav5">
+				<content>
+					<p>Б. Посебне одредбе за поједине врсте ванпарничног поступка</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od7-clan3-stav1">
+				<content>
+					<p>*Службени  гласник РС, број 93/2012</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od7-clan3-stav2">
+				<content>
+					<p>Тарифни број 8.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od7-clan3-stav3">
+				<content>
+					<p>За жалбу против решења о наслеђу или о испоруци  плаћа се такса из тарифног броја 7.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od7-clan3-stav4">
+				<content>
+					<p>*Службени гласник РС, број 61/2005</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od7-clan3-stav5">
+				<content>
+					<p>**Службени  гласник РС, број 93/2012</p>
+				</content>
+			</paragraph>
+			<hcontainer name="subpoint" wId="gla2-od2-clan3-stav1-podtac1">
+				<num>(1)</num>
+				<content>
+					<p> За састављање судског тестамента и међународног тестамента, као и за чување или опозив тестамента у суду, плаћа се по 980 динара.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla2-od2-clan3-stav1-podtac2">
+				<num>(2)</num>
+				<content>
+					<p>  Брисан је (види  члан 6. Закона - 93/2012-29)</p>
+				</content>
+			</hcontainer>
+			<paragraph wId="gla2-od5-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od5-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od5-clan3-stav3">
+				<content>
+					<p>***Службени  гласник РС, број 93/2012</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od3-clan3-stav1">
+				<content>
+					<p>Тарифни број 10.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od3-clan3-stav2">
+				<content>
+					<p>За предлог да се спроведе деоба заједничке ствари или имовине, за одлуку по предлогу за деобу, за жалбу против одлуке по предлогу, плаћа се по 1.900 динара.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od3-clan3-stav3">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od3-clan3-stav4">
+				<content>
+					<p>За деобу у оставинском поступку не плаћа се такса из овог тарифног броја под условом наведеним у напомени под бројем 6. уз тарифни број 7.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od3-clan3-stav5">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od3-clan3-stav6">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od3-clan3-stav7">
+				<content>
+					<p>***Службени  гласник РС, број 93/2012</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od4-clan3-stav1">
+				<content>
+					<p>Тарифни број 11.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od4-clan3-stav2">
+				<content>
+					<p>За предлог за уређење међа, за одлуку по предлогу, за жалбу против одлуке по предлогу, плаћа се по 1.900 динара.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od4-clan3-stav3">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od4-clan3-stav4">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od4-clan3-stav5">
+				<content>
+					<p>***Службени  гласник РС, број 93/2012</p>
+				</content>
+			</paragraph>
+			<hcontainer name="subpoint" wId="gla2-od5-clan3-stav1-podtac1">
+				<num>(1)</num>
+				<content>
+					<p> За предлог да се спроведе поступак за поништај  исправе и за жалбу против одлуке о предлогу, плаћа се по  980 динара.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla2-od5-clan3-stav1-podtac2">
+				<num>(2)</num>
+				<intro>
+					<p> За одлуку по предлогу плаћа се такса према вредности исправе, и то:</p>
+				</intro>
+				<alinea wId="gla2-od5-clan3-stav1-podtac2-ali1">
+					<content>
+						<p>о 5.000 динара вредности –  980 динара;</p>
+					</content>
+				</alinea>
+				<alinea wId="gla2-od5-clan3-stav1-podtac2-ali2">
+					<content>
+						<p>реко 5.000 до 20.000 динара вредности – 980 динара увећано за 4% вредности исправе;</p>
+					</content>
+				</alinea>
+				<alinea wId="gla2-od5-clan3-stav1-podtac2-ali3">
+					<content>
+						<p>реко 20.000 до 50.000 динара вредности – 2.500 динара увећано за 2% вредности исправе;</p>
+					</content>
+				</alinea>
+				<alinea wId="gla2-od5-clan3-stav1-podtac2-ali4">
+					<content>
+						<p>реко 50.000 динара вредности – 4.500 динара увећано за 1% вредности  исправе, а највише 9.800  динара.</p>
+					</content>
+				</alinea>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla2-od5-clan3-stav1-podtac3">
+				<num>(3)</num>
+				<content>
+					<p> Ако на исправи није означена вредност, плаћа се 980 динара.</p>
+				</content>
+			</hcontainer>
+			<paragraph wId="gla2-od5-clan3-stav4">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od5-clan3-stav5">
+				<content>
+					<p>**Службени гласник РС, број 9/2002</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od5-clan3-stav6">
+				<content>
+					<p>***Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od6-clan3-stav1">
+				<intro>
+					<p>Тарифни број 13.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla2-od6-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За молбу, усмену или писмену, којом се тражи  оверавање потписа, рукописа или преписа, плаћа се  70 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla2-od6-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Плаћа се 160 динара за:</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<hcontainer name="subpoint" wId="gla2-od4-clan3-podtac3">
+				<num>(3)</num>
+				<content>
+					<p> Плаћа се 490 динара за:</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla2-od2-clan3-podtac4">
+				<num>(4)</num>
+				<content>
+					<p> 1. За молбу, усмену или писмену, којом се тражи овера потписа, преписа или рукописа за употребу у иностранству, плаћа се 190 динара,</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla2-od2-clan3-podtac5">
+				<num>(5)</num>
+				<content>
+					<p> За оверу потписа на уговорима, плаћа се и то:</p>
+				</content>
+			</hcontainer>
+			<alinea wId="gla2-od1-clan3-ali1">
+				<content>
+					<p>о 10.000 динара вредности – 980 динара;</p>
+				</content>
+			</alinea>
+			<alinea wId="gla2-od1-clan3-ali2">
+				<content>
+					<p>д 10.000 до 100.000 динара вредности – 980 динара увећано за 1% вредности уговора;</p>
+				</content>
+			</alinea>
+			<alinea wId="gla2-od1-clan3-ali3">
+				<content>
+					<p>реко 100.000 до 1.000.000 динара вредности – 2.900 динара увећано за 0,5% вредности уговора;</p>
+				</content>
+			</alinea>
+			<alinea wId="gla2-od1-clan3-ali4">
+				<content>
+					<p>реко 1.000.000 динара вредности – 12.600 динара увећано за 0,25% од вредности уговора, а највише 39.000 динара.</p>
+				</content>
+			</alinea>
+			<paragraph wId="gla2-od11-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od11-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 9/2002</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla2-od11-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<hcontainer name="subpoint" wId="gla2-od7-clan3-stav2-podtac1">
+				<num>(1)</num>
+				<intro>
+					<p> За сачињавање правних послова који имају облик јавнобележничког записа плаћа  се такса према вредности имовине која је предмет правног посла, и то:</p>
+				</intro>
+				<alinea wId="gla2-od7-clan3-stav2-podtac1-ali1">
+					<content>
+						<p>о 600.000 динара вредности – 9.000 динара;</p>
+					</content>
+				</alinea>
+				<alinea wId="gla2-od7-clan3-stav2-podtac1-ali2">
+					<content>
+						<p>рекo 600.000 до 2.500.000 динара вредности – 15.000 динара;</p>
+					</content>
+				</alinea>
+				<alinea wId="gla2-od7-clan3-stav2-podtac1-ali3">
+					<content>
+						<p>реко 2.500.000 до 5.000.000 динара вредности – 21.000 динара;</p>
+					</content>
+				</alinea>
+				<alinea wId="gla2-od7-clan3-stav2-podtac1-ali4">
+					<content>
+						<p>реко 5.000.000 до 7.000.000 динара вредности – 30.000 динара;</p>
+					</content>
+				</alinea>
+				<alinea wId="gla2-od7-clan3-stav2-podtac1-ali5">
+					<content>
+						<p>реко 7.000.000 до 10.000.000 динара вредности – 36.000 динара;</p>
+					</content>
+				</alinea>
+				<alinea wId="gla2-od7-clan3-stav2-podtac1-ali6">
+					<content>
+						<p>реко 10.000.000 до 14.000.000 динара вредности – 42.000 динара;</p>
+					</content>
+				</alinea>
+				<alinea wId="gla2-od7-clan3-stav2-podtac1-ali7">
+					<content>
+						<p>реко 14.000.000 динара вредности – 42.000 динара увећано за 1.500 динара за  сваких започетих 1.000.000 динара вредности, а највише до 600.000 динара.</p>
+					</content>
+				</alinea>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla2-od7-clan3-stav2-podtac2">
+				<num>(2)</num>
+				<content>
+					<p> За сачињавање јавнобележничког записа уговора о поклону између родитеља, као  поклонодавца и детета, као поклонопримца, када је предмет поклона непокретност,  плаћа се 50% од таксе из става 1. овог тарифног броја.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla2-od7-clan3-stav2-podtac3">
+				<num>(3)</num>
+				<content>
+					<p> Ако се правни посао у облику јавнобележничког записа сачињава за више  странака, такса се увећава 1.500 динара за трећу и сваку наредну странку, али  највише до 50% од таксе из става 1. овог тарифног броја.</p>
+				</content>
+			</hcontainer>
+			<paragraph wId="gla3-clan3-stav1">
+				<content>
+					<p>А. Земљишно-књижни поступак</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od1-clan3-stav1">
+				<intro>
+					<p>Тарифни број 14.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla3-od1-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За поднеске којима се тражи упис у земљишну књигу или брисање укњижбе или  предбележбе из земљишне књиге, плаћа се:</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<alinea wId="gla3-od1-clan3-ali1">
+				<content>
+					<p>о 5.000 динара вредности – 390 динара;</p>
+				</content>
+			</alinea>
+			<alinea wId="gla3-od1-clan3-ali2">
+				<content>
+					<p>реко 5.000 до 20.000 динара вредности – 390 динара увећано за 1% вредности;</p>
+				</content>
+			</alinea>
+			<alinea wId="gla3-od1-clan3-ali3">
+				<content>
+					<p>реко 20.000 динара вредности – 780 динара увећано за 0,5% вредности, а највише 3.900 динара.</p>
+				</content>
+			</alinea>
+			<hcontainer name="subpoint" wId="gla3-od2-clan3-podtac2">
+				<num>(2)</num>
+				<content>
+					<p> За жалбу против одлуке из става (1) овог тарифног броја, плаћа се 390 динара.</p>
+				</content>
+			</hcontainer>
+			<paragraph wId="gla3-od2-clan3-stav1">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od5-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od5-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 9/2002</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od5-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<hcontainer name="subpoint" wId="gla3-od2-clan3-stav1-podtac1">
+				<num>(1)</num>
+				<content>
+					<p> За укњижбу или за предбележбу права својине, ако правни посао или основ стицања на основу кога се има извршити упис не подлежу порезу на пренос апсолутних права, плаћа се 1.900 динара, без обзира на вредност права које се уписује.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla3-od2-clan3-stav1-podtac2">
+				<num>(2)</num>
+				<content>
+					<p> За укњижбу или за предбележбу права својине, ако је основ стицања на основу кога се има извршити упис уговор о поклону, плаћа се 980 динара, без обзира на вредност права које се уписује.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla3-od2-clan3-stav1-podtac3">
+				<num>(3)</num>
+				<content>
+					<p> За укњижбу или за предбележбу других стварних права или њима једнаких права,  плаћа се:</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla3-od2-clan3-podtac4">
+				<num>(4)</num>
+				<content>
+					<p> За забележбу плаћа се:</p>
+				</content>
+			</hcontainer>
+			<paragraph wId="gla3-od7-clan3-stav1">
+				<content>
+					<p>Ако ова такса није плаћена уз поднесак којим се захтева упис, суд ће по извршеном упису поступити по члану 37. став 3. овог закона.</p>
+				</content>
+			</paragraph>
+			<point wId="gla3-od8">
+				<num>8.</num>
+				<intro>
+					<p> Не плаћа се такса за следеће уписе:</p>
+				</intro>
+				<point wId="gla3-od8-clan3-tac1">
+					<num>1)</num>
+					<content>
+						<p> за упис оправдања предбележбе;</p>
+					</content>
+				</point>
+				<point wId="gla3-od8-clan3-tac2">
+					<num>2)</num>
+					<content>
+						<p> за потпуно или делимично брисање неког уписаног права;</p>
+					</content>
+				</point>
+				<point wId="gla3-od8-clan3-tac3">
+					<num>3)</num>
+					<content>
+						<p> за службене радње у поступку уређења, оснивања и исправљања земљишних књига, као и за усаглашавање земљишних књига са фактичким стањем. У овим поступцима ослобађање се односи на све поднеске, улошке и прилоге, молбе за издавање катастарских планова и поседовних листова, разна уверења и оверавање преписа.</p>
+					</content>
+				</point>
+				<paragraph wId="gla3-od8-clan3-stav1">
+					<intro>
+						<p>Ово ослобађање важи и за поступак за обнављање уништених земљишних књига, ако се веродостојном исправом утврди да је упис раније био спроведен и да је, према томе, била плаћена такса за тај упис;</p>
+					</intro>
+					<point wId="gla3-od8-clan3-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> за поновни упис истог, макар делимично угашеног права, услед парничног или извршног поступка, у корист истог лица. Ако је вредност поново уписаног права већа, плаћа се на вишак вредности прописана такса;</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac5">
+						<num>5)</num>
+						<content>
+							<p> за упис истог права, макар делимично и угашеног, на више непокретности које се воде по књигама једног суда или више судова, за пренос истог права с једне непокретности на другу непокретност истог сопственика; за ограничење или сужавање истог права на један део исте непокретности; за проширење истог права и на друге непокретности истог сопственика; за проширење заједничког јемства на поједина земљишно-књижна тела, с тим што ово ослобађање важи само ако нису наступиле промене у погледу обима права или овлашћеног лица;</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac6">
+						<num>6)</num>
+						<content>
+							<p> за упис права својине или права службености и плодоуживања по извршеној деоби, ако су деобничари били уписани као сувласници тих права, с тим да ово ослобађање важи и у случају деобе породичних (кућних) задруга на задругаре, ако је задруга била уписана као власник у земљишним књигама;</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac7">
+						<num>7)</num>
+						<content>
+							<p> за упис на основу решења о наслеђивању;</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac8">
+						<num>8)</num>
+						<content>
+							<p> за упис заложног права на непокретности јемца, ако је то право већ уписано и на непокретности главног дужника и ако је за тај упис плаћена такса;</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac9">
+						<num>9)</num>
+						<content>
+							<p> за исправку грешке у упису, при чему ако је грешка настала кривицом титулара права, плаћа се такса за поднесак којим се тражи исправка уписа (тар. бр. 14. став 1);</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac10">
+						<num>10)</num>
+						<content>
+							<p> за све уписе у корист Републике Србије;</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac11">
+						<num>11)</num>
+						<content>
+							<p> за забележбу привремене управе одређене у току поступка принудне јавне продаје, као и за забележбу принудне управе одређене уместо принудне јавне продаје;</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac12">
+						<num>12)</num>
+						<content>
+							<p> за накнадни упис сусвојине брачног друга на основу судске одлуке ако је један од брачних другова уписан као власник у земљишним књигама, као и за упис којим се означава идеални део сваког брачног друга на непокретностима које су у њиховој сусвојини;</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac13">
+						<num>13)</num>
+						<content>
+							<p> за све уписе у земљишне књиге у корист грађана у вези са разменом земљишта у циљу арондације и комасације, као и на основу прописа о експропријацији и прописа о враћању земље у складу са законом којим се уређују начин и услови признавања права и враћању земљишта које је пренето у друштвену својину по основу ПЗФ и конфискације због неизвршених обавеза из обавезног откупа пољопривредних производа,</p>
+						</content>
+					</point>
+					<point wId="gla3-od8-clan3-stav1-tac14">
+						<num>14)</num>
+						<content>
+							<p> за упис заложног права за обезбеђење кредита код откупа друштвеног стана од стране носиоца станарског права, или код куповине стана, преко стамбене задруге или код изградње или адаптације стамбеног простора.</p>
+						</content>
+					</point>
+				</paragraph>
+			</point>
+			<paragraph wId="gla3-od9-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od9-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 61/2005</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od9-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od3-clan3-stav1">
+				<content>
+					<p>Тарифни број 16.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od3-clan3-stav2">
+				<content>
+					<p>За решење поводом приговора повериоца против отцепљења дела непокретности или размене земљишта у изазивачком поступку, по правилима о земљишно-књижним деобама, отписима и приписима, плаћа се 590 динара.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od3-clan3-stav3">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od3-clan3-stav4">
+				<content>
+					<p>Таксу из овог тарифног броја плаћа странка која је покренула поступак за бестеретни отпис дела земљишно-књижног тела.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od3-clan3-stav5">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od3-clan3-stav6">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od3-clan3-stav7">
+				<content>
+					<p>Б. Упис у интабулационе, заставне, тапијске и друге јавне књиге о непокретностима</p>
+				</content>
+			</paragraph>
+			<hcontainer name="subpoint" wId="gla3-od1-clan3-stav1-podtac2">
+				<num>(2)</num>
+				<content>
+					<p> За жалбу против одлуке суда по предмету из става 1. овог тарифног броја, плаћа се 590 динара.</p>
+				</content>
+			</hcontainer>
+			<paragraph wId="gla3-od1-clan3-stav2">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od1-clan3-stav3">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od1-clan3-stav4">
+				<intro>
+					<p>Тарифни број 18.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla3-od1-clan3-stav4-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За упис потврђене тапије у књигу тапија, као и за упис права својине путем преноса тапије на истог или новог сопственика, ако правни посао или основ стицања на основу кога се има извршити упис не подлеже порезу   на пренос апсолутних права, плаћа се 1.900 динара, без обзира на вредност права.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla3-od1-clan3-stav4-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> За упис из става (1) овог тарифног броја, ако је основ стицања на основу кога се има извршити упис уговор о поклону, плаћа се 980 динара, без обзира на вредност права.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla3-od1-clan3-stav4-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> За упис стицања других стварних права плаћа се:</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<point wId="gla3-od2-clan3-tac1">
+				<num>1)</num>
+				<content>
+					<p> за радњу у поступку око издавања тапија у крајевима где нема земљишних књига и у том поступку ослобађање се односи на све поднеске, захтеве, прилоге, молбе за издавање катастарских планова и поседовних листова, разна уверења, оверавање преписа и потврде тапија;</p>
+				</content>
+			</point>
+			<point wId="gla3-od2-clan3-tac2">
+				<num>2)</num>
+				<content>
+					<p> за радње у поступку обнављања уништених тапијских књига, ако се веродостојном исправом утврди да је упис раније био спроведен и да је, према томе, била плаћена такса за тај упис;</p>
+				</content>
+			</point>
+			<point wId="gla3-od2-clan3-tac3">
+				<num>3)</num>
+				<content>
+					<p> напомена уз тарифни број 15. сходно ће се примењивати и уз овај тарифни број.</p>
+				</content>
+			</point>
+			<paragraph wId="gla3-od2-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 61/2005</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od2-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od2-clan3-stav4">
+				<content>
+					<p>**Службени гласник РС, број 9/2002</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od2-clan3-stav5">
+				<content>
+					<p>***Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od2-clan3-stav6">
+				<intro>
+					<p>Тарифни број 20.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla3-od2-clan3-stav6-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За упис интабулације, надинтабулације, прибелешке или хипотеке, односно за упис права у другим посебним јавним књигама о непокретностима, плаћа се 1.900 динара, без обзира на вредност права.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla3-od2-clan3-stav6-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> За упис забележбе принудне управе и дозволе принудне продаје, ако за исту тражбину већ није уписана интабулација (заложно право) на непокретности која је предмет принудне управе или продаје, плаћа се 980 динара, без обзира на вредност повериочевог потраживања.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla3-od2-clan3-stav6-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> За упис осталих забележби које се по важећим прописима могу уписати у интабулационе књиге, плаћа се 980 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla3-od2-clan3-stav6-podtac4">
+					<num>(4)</num>
+					<content>
+						<p> За пропуштање интабулације или хипотеке плаћа се 190 динара.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla3-od2-clan3-stav7">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od2-clan3-stav8">
+				<content>
+					<p>Напомена уз тарифни број 15. сходно ће се примењивати и уз овај тарифни број.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od2-clan3-stav9">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla3-od2-clan3-stav10">
+				<content>
+					<p>**Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 61/2005</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od1-clan3-stav1">
+				<intro>
+					<p>Тарифни број 21.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla4-od1-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За предлог за покретање стечајног поступка и за подношење плана реорганизације плаћа се 980 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla4-od1-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<intro>
+						<p> За пријаву поверилаца у стечајном поступку плаћа се према вредности  потраживања:</p>
+					</intro>
+					<alinea wId="gla4-od1-clan3-stav1-podtac2-ali1">
+						<content>
+							<p>о 250.000 динара вредности – 980 динара;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla4-od1-clan3-stav1-podtac2-ali2">
+						<content>
+							<p>реко 250.000 динара вредности – 980 динара, увећано за 1% вредности потраживања, а највише 3.900 динара;</p>
+						</content>
+					</alinea>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla4-od1-clan3-stav1-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> За жалбу против одлуке стечајног већа плаћа се 980 динара.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla4-od1-clan3-stav2">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<point wId="gla4-od2">
+				<num>2.</num>
+				<intro>
+					<p> Такса се не плаћа:</p>
+				</intro>
+				<point wId="gla4-od2-clan3-tac1">
+					<num>1)</num>
+					<content>
+						<p> за поднеске стечајног управника,</p>
+					</content>
+				</point>
+				<point wId="gla4-od2-clan3-tac2">
+					<num>2)</num>
+					<content>
+						<p> за поднеске који нису означени у овом тарифном броју и за прилоге уз поднеске.</p>
+					</content>
+				</point>
+				<point wId="gla4-od2-clan3-tac3">
+					<num>3)</num>
+					<content>
+						<p> брисана је  (види члан 28. Закона – 61/2005-4)</p>
+					</content>
+				</point>
+				<point wId="gla4-od2-clan3-tac4">
+					<num>4)</num>
+					<content>
+						<p>   брисана је  (види члан 28. Закона – 61/2005-4)</p>
+					</content>
+				</point>
+				<paragraph wId="gla4-od2-clan3-stav1">
+					<content>
+						<p>*Службени гласник РС, број 61/2005</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od2-clan3-stav2">
+					<content>
+						<p>**Службени гласник РС, број 31/2009</p>
+					</content>
+				</paragraph>
+			</point>
+			<paragraph wId="gla4-od3-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od3-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 61/2005</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od3-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od3-clan3-stav4">
+				<content>
+					<p>IVa УПИС У СУДСКИ РЕГИСТАР</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od3-clan3-stav5">
+				<content>
+					<p>*Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od1-clan3-stav3">
+				<content>
+					<p>За сваку пријаву за упис у судски регистар, плаћа се 590 динара.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od1-clan3-stav4">
+				<content>
+					<p>Напомена:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od1-clan3-stav5">
+				<content>
+					<p>Ако се једном пријавом тражи више уписа за исти субјекат уписа плаћа се само  једна такса из овог тарифног броја.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od1-clan3-stav6">
+				<content>
+					<p>*Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<hcontainer name="subpoint" wId="gla4-od2-clan3-stav2-podtac1">
+				<num>(1)</num>
+				<content>
+					<p> За решење донето по пријави за упис оснивања субјекта уписа плаћа се 1.900  динара.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla4-od2-clan3-stav2-podtac2">
+				<num>(2)</num>
+				<content>
+					<p> За решења донета по пријавама за остале врсте уписа који нису наведени у  ставу (1) овог тарифног броја плаћа се 590 динара.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla4-od2-clan3-stav2-podtac3">
+				<num>(3)</num>
+				<content>
+					<p> За жалбу на решење донето у поступку уписа из ст. (1) и (2) овог тарифног  броја плаћа се 590 динара.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla4-od2-clan3-stav2-podtac4">
+				<num>(4)</num>
+				<content>
+					<p> За захтев за брисање уписа из судског регистра плаћа се 590 динара.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla4-od2-clan3-stav2-podtac5">
+				<num>(5)</num>
+				<content>
+					<p> За решење по захтеву за брисање уписа плаћа се 590 динара.</p>
+				</content>
+			</hcontainer>
+			<paragraph wId="gla4-od2-clan3-stav3">
+				<content>
+					<p>Напомена:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od2-clan3-stav4">
+				<content>
+					<p>Ако се једним поднеском тражи више уписа, плаћа се такса за сваки упис посебно.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od2-clan3-stav5">
+				<content>
+					<p>*Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od3-clan3-stav6">
+				<content>
+					<p>*Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od3-clan3-stav7">
+				<content>
+					<p>Брисан је назив главе  V. УПИС У СУДСКИ РЕГИСТАР (види члан 30. Закона – 61/2005)</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od3-clan3-stav8">
+				<content>
+					<p>Брисани су називи пододељака 1. 2. и 3. (види члан 30.  Закона – 61/2005)</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla4-od3-clan3-stav9">
+				<content>
+					<p>Брисани су тарифни бр. 23,  24. и 25. (види члан 30. Закона – 61/2005)</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla6-od1-clan3-stav1">
+				<intro>
+					<p>Тарифни број 26.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla6-od1-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За приватну тужбу и противтужбу, плаћа се по 980 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla6-od1-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p>  Брисан је (види  члан 9. Закона - 93/2012-29)</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla6-od1-clan3-stav1-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> За захтев за понављање кривичног поступка, плаћа се 590 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla6-od1-clan3-stav1-podtac4">
+					<num>(4)</num>
+					<content>
+						<p> За жалбу против пресуде и за жалбу против решења којим се изриче судска опомена, плаћа се по 590 динара.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla6-od1-clan3-stav2">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla6-od3-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla6-od3-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla6-od2-clan3-stav1">
+				<content>
+					<p>Тарифни број 27.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla6-od2-clan3-stav2">
+				<content>
+					<p>За пресуду и за решење којим се изриче судска опомена плаћа се 980 динара, а за остала решења којима се окончава поступак плаћа се 390 динара.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla6-od2-clan3-stav3">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla6-od3-clan3-stav3">
+				<content>
+					<p>VIа ПРЕКРШАЈНИ ПОСТУПАК</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla6-od3-clan3-stav4">
+				<content>
+					<p>*Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla6-od3-clan3-stav5">
+				<intro>
+					<p>Тарифни број 27а</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla6-od3-clan3-stav5-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За жалбу против пресуде прекршајног суда плаћа се 900 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla6-od3-clan3-stav5-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> За захтев за понављање прекршајног поступка и захтев за ванредно  преиспитивање правноснажне пресуде плаћа се 1.750 динара.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla6-od3-clan3-stav6">
+				<content>
+					<p>*Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla7-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 61/2005</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla7-od1-clan3-stav1">
+				<intro>
+					<p>Тарифни број 28.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla7-od1-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За тужбу против управног акта којом се покреће управни спор, плаћа се  390 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla7-od1-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> За жалбу против одлуке првостепеног суда, плаћа се 390 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla7-od1-clan3-stav1-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> За тужбу за понављање поступка, плаћа се 390 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla7-od1-clan3-stav1-podtac4">
+					<num>(4)</num>
+					<content>
+						<p> За захтев за ванредно преиспитивање судске одлуке у управном спору, плаћа се 980 динара.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla7-od1-clan3-stav2">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla7-od3-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla7-od3-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 61/2005</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla7-od3-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla7-od2-clan3-stav1">
+				<intro>
+					<p>Тарифни број 29.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla7-od2-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За првостепену пресуду у управном спору плаћа се:</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<hcontainer name="subpoint" wId="gla7-od2-clan3-podtac2">
+				<num>(2)</num>
+				<content>
+					<p> Такса из става (1) овог тарифног броја не може бити мања од 590 динара.</p>
+				</content>
+			</hcontainer>
+			<paragraph wId="gla7-od4-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla7-od4-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број 61/2005</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla7-od4-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број 31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla7-od4-clan3-stav4">
+				<content>
+					<p>****Службени гласник РС, број 93/2012</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od1-clan3-stav1">
+				<intro>
+					<p>Тарифни број 30.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla8-od1-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p>  Брисан је (види  члан 11. Закона - 93/2012-29).</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla8-od1-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> За уверења, плаћа се 190 динара.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla8-od1-clan3-stav2">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od9-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od9-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od9-clan3-stav3">
+				<content>
+					<p>Брисан је наслов &quot;2. Пуномоћје&quot; изнад тарифног броја 31. (види члан 12. Закона - 93/2012-29)</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od9-clan3-stav4">
+				<content>
+					<p>Тарифни број 31.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od9-clan3-stav5">
+				<content>
+					<p>Брисан  је (види члан 12. Закона - 93/2012-29).</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od9-clan3-stav6">
+				<content>
+					<p>Брисане су напомене уз тарифни број 31. (види члан 12. Закона - 93/2012-29)</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav1">
+				<content>
+					<p>Тарифни број 32.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav2">
+				<content>
+					<p>За извештаје и податке који се траже од суда из завршених предмета плаћа се 390  динара.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav3">
+				<content>
+					<p>Брисана је напомена уз тарифни број 32. (види члан 13. Закона - 93/2012-29)</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav4">
+				<content>
+					<p>*Службени гласник РС, број  93/2012</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od4-clan3-stav1">
+				<intro>
+					<p>Тарифни број 33.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla8-od4-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За преписивање судских аката, аката из збирке исправа, као и јавнотужилачких  аката, које је суд, односно јавно тужилаштво извршило на захтев странке, плаћа  се 20 динара по страници текста изворника.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla8-od4-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Под преписом у смислу става 1. овог тарифног броја подразумева се и фотокопирање или штампање из меморије рачунара или писаће машине.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla8-od4-clan3-stav2">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od5-clan3-stav1">
+				<intro>
+					<p>Тарифни број 34.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla8-od5-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За изводе из земљишних или других јавних књига о непокретностима, ако се издају на захтев странке, плаћа се по листу формата А4, 100 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla8-od5-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p>   Брисан је (види члан 39. Закона – 61/2005-4)</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla8-od5-clan3-stav2">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od2-clan3-stav1">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od2-clan3-stav2">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od6-clan3-stav1">
+				<content>
+					<p>Тарифни број 35.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od6-clan3-stav2">
+				<content>
+					<p>За чување (депозит) новца, ствари и вредносних папира на захтев странке, плаћа се годишње 2% од вредности депонованих ствари.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od6-clan3-stav3">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od7-clan3-stav1">
+				<intro>
+					<p>Тарифни број 36.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla8-od7-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За усмену или писмену молбу за протест менице, чека (и других исправа или уговора) због неакцептирања, неисплате или неиспуњења, плаћа се 100 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla8-od7-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<intro>
+						<p> За протест се плаћа према вредности:</p>
+					</intro>
+					<alinea wId="gla8-od7-clan3-stav1-podtac2-ali1">
+						<content>
+							<p>о 5.000 динара вредности – 190 динара;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla8-od7-clan3-stav1-podtac2-ali2">
+						<content>
+							<p>реко 5.000 до 20.000 динара вредности – 190 динара увећано за 2% вредности;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla8-od7-clan3-stav1-podtac2-ali3">
+						<content>
+							<p>реко 20.000 динара вредности – 980 динара увећано за 1% вредности, а највише 3.900 динара.</p>
+						</content>
+					</alinea>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla8-od7-clan3-stav2">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od2-clan3-stav3">
+				<content>
+					<p>***Службени гласник РС, број  31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od8-clan3-stav1">
+				<intro>
+					<p>Тарифни број 37.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla8-od8-clan3-stav1-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За поднесак који се предаје усмено на записник пред судом, плаћа се такса предвиђена у тарифи за односни поднесак.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla8-od8-clan3-stav1-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> За састављање пред судом уговора о земљишно-књижним, интабулационим или  тапијским стварима плаћа се:</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<alinea wId="gla8-od1-clan3-ali1">
+				<content>
+					<p>о 5.000 динара вредности – 590 динара;</p>
+				</content>
+			</alinea>
+			<alinea wId="gla8-od1-clan3-ali2">
+				<content>
+					<p>реко 5.000 до 20.000 динара вредности – 590 динара увећано за 1% вредности;</p>
+				</content>
+			</alinea>
+			<alinea wId="gla8-od1-clan3-ali3">
+				<content>
+					<p>реко 20.000 динара вредности – 980 динара увећано за 0,5% вредности, а највише 3.900 динара.</p>
+				</content>
+			</alinea>
+			<hcontainer name="subpoint" wId="gla8-od3-clan3-stav4-podtac1">
+				<num>(1)</num>
+				<content>
+					<p> За предлог странке да суд постави судију или председника избраног суда, плаћа се 590 динара.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla8-od3-clan3-stav4-podtac2">
+				<num>(2)</num>
+				<content>
+					<p> За предлог о изузећу судије избраног суда, плаћа се 590 динара.</p>
+				</content>
+			</hcontainer>
+			<hcontainer name="subpoint" wId="gla8-od3-clan3-stav4-podtac3">
+				<num>(3)</num>
+				<content>
+					<p> За издавање потврде о правноснажности или  извршности пресуде избраног суда, плаћа се  980 динара.</p>
+				</content>
+			</hcontainer>
+			<paragraph wId="gla8-od3-clan3-stav5">
+				<content>
+					<p>НАПОМЕНА:</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav6">
+				<content>
+					<p>Не плаћа се такса из става 1. овог тарифног броја ако је предлог за постављање председника избраног суда поднео избрани судија.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav7">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav8">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav9">
+				<content>
+					<p>Тарифни број 39.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav10">
+				<content>
+					<p>За опомену којом се неко позива да плати таксу коју је био дужан да плати и без опомене, плаћа се   390 динара, а у поступку пред привредним судом  780 динара.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav11">
+				<content>
+					<p>Када је у поступку пред привредним судом  једна од странака физичко лице које није предузетник, плаћа се опомена као пред судом опште надлежности.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav12">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav13">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav14">
+				<intro>
+					<p>Тарифни број 40.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla8-od3-clan3-stav14-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За одлуку којом се одбацује или одбија захтев за изузеће судије, судије поротника, председника суда, јавног тужиоца, заменика јавног тужиоца и других службених лица, плаћа се такса у износу од   590 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla8-od3-clan3-stav14-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> У решењу из става 1. овог тарифног броја, суд, односно јавно тужилаштво ће опоменути странку да је дужна да плати таксу у року од пет дана од дана пријема одлуке.</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav15">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav16">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav17">
+				<content>
+					<p>***Службени гласник РС, број  106/2015</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav18">
+				<intro>
+					<p>Тарифни број 41.</p>
+				</intro>
+				<hcontainer name="subpoint" wId="gla8-od3-clan3-stav18-podtac1">
+					<num>(1)</num>
+					<content>
+						<p> За молбу којом се тражи одлагање извршења кривичне санкције, плаћа се 590 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla8-od3-clan3-stav18-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> За одлуку првостепеног  суда, по молби плаћа се 980 динара.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla8-od3-clan3-stav18-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> За жалбу на одлуку првостепеног суда плаћа се такса из става (1) овог  тарифног броја.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="gla8-od3-clan3-stav18-podtac4">
+					<num>(4)</num>
+					<content>
+						<p>  Брисан  је (види члан 14. Закона - 93/2012-29)</p>
+					</content>
+				</hcontainer>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav19">
+				<content>
+					<p>*Службени гласник РС, број 16/1997</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav20">
+				<content>
+					<p>**Службени гласник РС, број   31/2009</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav21">
+				<content>
+					<p>ЗАКОН</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav22">
+				<content>
+					<p>о судским  таксама</p>
+				</content>
+			</paragraph>
+			<paragraph wId="gla8-od3-clan3-stav23">
+				<content>
+					<p>„Службени гласник РС“, бр. 28 од 22.  априла  1994, 53 од 28.  децембра 1995, 16 од 16.  априла 1997,  34 од 18. јуна 2001  - др. закон, 9 од 26.  фебруара 2002, 29 од 17.  марта 2004, 61 од 18.  јула 2005,  116 од 22. децембра 2008 - др. закон, 31 oд  30. априла 2009, 101 од 30. децембра 2011, 93 од 28. септембра 2012, 93 од 1.  септембра 2014, 106 од 21. децембра 2015, 95 од 8. децембра 2018.</p>
+				</content>
+			</paragraph>
+		</body>
+	</act>
+</akomaNtoso>

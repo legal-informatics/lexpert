@@ -1,0 +1,603 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о регулисању јавног дуга Републике Србије по основу неисплаћене девизне штедње грађана положене код банака чије је седиште на територији Републике Србије и њиховим филијалама на територијама бивших република СФРЈ">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2016/108-27/main"/>
+					<FRBRuri value="akn/rs/act/2016/108-27"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2019/52-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2019/52-3/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2019/52-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2019/52-3/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2016-12-29" name="службени гласник рс" number="108" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2016-01-01" refersTo="108/2016-27" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2017-01-01" refersTo="113/2017-257" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2019-01-01" refersTo="52/2019-3" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2016-12-28" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2016-12-30" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2016-12-30" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="сфрј"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="бивших"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="става"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="односе"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="територији"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="овог"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописима"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="складу"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="члана"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="држављана"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="држављани"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="исплаћена"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="седиштем"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="чијој"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="право"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="територијама"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="банака"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="положена"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезе"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Banke"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Centralnom registru"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Uprava"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija za osiguranje depozita"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije za osiguranje depozita"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralne arhive Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralni registar"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralnog registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnog pravobranilaštva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva finansija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo finansija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="OTC"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprava za javni dug"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprave"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 1998."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2002."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. juna 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. stav 1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. st. 2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. st. 3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="23. decembra 2019."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. aprila 1992."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. februara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. februara 2020."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. avgusta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. avgustom 2023."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 1997."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. maja 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. i 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2016. године (види члан 22. Закона).Даном ступања на снагу овог закона обустављају се судски поступци за наплату девизне штедње обухваћене овим законом, укључујући и поступке извршења (види члан 21. Закона).Закон о изменама и допунама Закона о регулисању јавног дуга Републике Србије по основу неисплаћене девизне штедње грађана положене код банака чије је седиште на територији Републике Србије и њиховим филијалама на територијама бивших република СФРЈ („Службени гласник РС“, број 113/2017) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 25. децембра 2017. године (види члан 7. Закона - 113/2017-257).Закон о изменама и допуни Закона о регулисању јавног дуга Републике Србије по основу неисплаћене девизне штедње грађана положене код банака чије је седиште на територији Републике Србије и њиховим филијалама на територијама бивших република СФРЈ (Службени гласник РС, број 53/2019) ступио је на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. јула 2019. године (види члан 5. Закона - 52/2019-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О регулисању јавног дуга републике србије по основу неисплаћене девизне штедње грађана положене код банака чије је седиште на територији републике србије и њиховим филијалама на територијама бивших република сфрј "Службени гласник РС", бр. <ref wId="ref51" href="akn/rs/act/2016/108/srp@">108 од 29. децембра 2016</ref>, <ref wId="ref52" href="akn/rs/act/2017/113/srp@">113 од 17. децембра 2017</ref>, <ref wId="ref53" href="akn/rs/act/2019/52/srp@">52 од 22. јула 2019</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<intro>
+							<p>Овим законом уређују се услови, начин и поступак регулисања обавеза по основу неисплаћене девизне штедње грађана коју су до 27. aприла 1992. године положили:</p>
+						</intro>
+						<point wId="gla1-clan1-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> држављани бивших република СФРЈ, осим Републике Србије, код банака са седиштем на територији Републике Србије и њиховим филијалама на територијама бивших република СФРЈ;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan1-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> држављани Републике Србије код филијала банака са седиштем на територији Републике Србије, а које су се налазиле на територијама бивших република СФРЈ.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Обавезе из <ref wId="ref0" href="akn/rs/act/2019/52-3/srp@/!main~art_1__para_1" >става 1. овог</ref> члана односе се на остваривање појединачних права држављана из <ref wId="ref1" href="akn/rs/act/2019/52-3/srp@/!main~art_1__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Обавезе из <ref wId="ref2" href="akn/rs/act/2019/52-3/srp@/!main~art_1__para_1" >става 1. овог</ref> члана односе се и на наследнике држављана из тог става.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav4">
+						<content>
+							<p>Одредбе овог закона не односе се на девизну штедњу из <ref wId="ref3" href="akn/rs/act/2019/52-3/srp@/!main~art_1__para_1" >става 1. овог</ref> члана која је у потпуности исплаћена у складу са прописима бивших република СФРЈ на чијој територији је положена, или коју су бивше републике СФРЈ својим прописима пренеле на друга правна лица, односно конвертовале у друга права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav5">
+						<content>
+							<p>У случају када је девизна штедња из <ref wId="ref4" href="akn/rs/act/2019/52-3/srp@/!main~art_1__para_1" >става 1. овог</ref> члана исплаћена делимично у складу са прописима бивших република СФРЈ на чијој територији је положена, право на исплату преосталог дела те штедње остварује се у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav6">
+						<content>
+							<p>Право на исплату из <ref wId="ref5" href="akn/rs/act/2019/52-3/srp@/!main~art_1__para_1" >става 1. овог</ref> члана, утврђује се појединачно за сваког девизног штедишу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav7">
+						<content>
+							<p>Република Србија задржава право потраживања од држава сукцесора СФРЈ по основу исплата девизне штедње извршених у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Обавеза Републике Србије по основу неисплаћене девизне штедње из <ref wId="ref6" href="akn/rs/act/2019/52-3/srp@/!main~art_1" >члана 1. овог</ref> закона представљаће њен јавни дуг даном емитовања обвезница којима се ове обавезе регулишу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Лица из члана 1. став 1. тачка <ref wId="ref7" href="akn/rs/act/2019/52-3/srp@/!main~art_1__para_1__point_1" >1</ref>) овог закона остварују право на исплату девизне штедње само под условом реципроцитета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Постојање реципроцитета из <ref wId="ref8" href="akn/rs/act/2019/52-3/srp@/!main~art_3__para_1" >става 1. овог</ref> члана, утврђује министарство надлежно за послове правде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<intro>
+							<p>Обавеза Републике Србије по основу неисплаћене девизне штедње из <ref wId="ref9" href="akn/rs/act/2019/52-3/srp@/!main~art_1" >члана 1. овог</ref> закона износи до 310 милиона евра и обухвата:</p>
+						</intro>
+						<alinea wId="gla1-clan4-stav1-ali1">
+							<content>
+								<p>евизну штедњу положену до 27. априла 1992. године, умањену за извршене исплате по основу прописа из <ref wId="ref10" href="akn/rs/act/2019/52-3/srp@/!main~art_1__para_4" >члана 1. став 4. овог</ref> закона;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan4-stav1-ali2">
+							<content>
+								<p>амату обрачунату по уговореној каматној стопи, односно по каматној стопи од 5% годишње ако се не може утврдити уговорена каматна стопа – до 31. децембра 1997. године;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan4-stav1-ali3">
+							<content>
+								<p>амату обрачунату по каматној стопи од 2% годишње за период од 1. јануара 1998. године до 31. маја 2016. године;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan4-stav1-ali4">
+							<content>
+								<p>амату обрачунату по каматној стопи од 0,5% годишње за период од 1. јуна 2016. године до рокова доспећа рата обвезница.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Обрачун камате се врши применом простог интересног рачуна и обрачун броја дана по методи  30/360.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref11" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>НАЧИН РЕГУЛИСАЊА ОБАВЕЗА РЕПУБЛИКЕ СРБИЈЕ</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Обавезе према лицима којима се по одредбама овог закона призна право на исплату девизне штедње из <ref wId="ref12" href="akn/rs/act/2019/52-3/srp@/!main~art_1" >члана 1. овог</ref> закона или њиховим наследницима (у даљем тексту: девизне штедише) извршавају се у  осам једнаких полугодишњих рата  које доспевају сваког 28. фебруара  и 31. августа, почев од 28. фебруара 2020. године и закључно са  31. августом 2023. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2019/52/srp@">52/2019</ref></heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Ради регулисања јавног дуга, у складу са одредбама овог закона, Република Србија емитоваће амортизационе обвезнице без купона, које гласе на евро (у даљем тексту: амортизационе обвезнице).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Амортизационе обвезнице се емитују у нематеријализованом облику без купона и региструју се код Централног регистра, депоа и клиринга хартија од вредности (у даљем тексту: Централни регистар).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Амортизационе обвезнице гласе на име и преносиве су, исплаћују се у еврима по динамици из <ref wId="ref13" href="akn/rs/act/2019/52-3/srp@/!main~art_5" >члана 5. овог</ref> закона и садрже унапред обрачунату камату из <ref wId="ref14" href="akn/rs/act/2019/52-3/srp@/!main~art_4__para_1" >члана 4. став 1. </ref>алинеја четврта овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav4">
+						<content>
+							<p>Основне елементе амортизационих обвезница прописује Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Амортизационим обвезницама се регулишу обавезе према девизним штедишама утврђене у смислу чл. <ref wId="ref16" href="akn/rs/act/2019/52-3/srp@/!main~art_4" >4</ref>. и <ref wId="ref17" href="akn/rs/act/2019/52-3/srp@/!main~art_5" >5</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Обавезе према девизним штедишама извршавају се конверзијом штедних улога у амортизационе обвезнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Конверзија различитих валута у којима је положена девизна штедња у евре, врши се по међувалутним односима према средњем курсу динара из курсне листе Народне банке Југославије која је важила на дан 1. јануара 2002. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Средства за исплату амортизационих обвезница обезбеђују се у буџету Републике Србије, у складу са роковима и у висини утврђеним овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЗА УТВРЂИВАЊЕ ПРАВА НА ИСПЛАТУ ДЕВИЗНЕ ШТЕДЊЕ</heading>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>Утврђивање права на исплату девизне штедње, у складу са овим законом, врши Министарство финансија – Управа за јавни дуг (у даљем тексту: Управа) на предлог посебне комисије, кojу образује Влада на предлог министра надлежног за послове финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav2">
+						<content>
+							<p>Комисија из <ref wId="ref18" href="akn/rs/act/2019/52-3/srp@/!main~art_9__para_1" >става 1. овог</ref> члана мора имати најмање 11 чланова, међу којима обавезно морају бити представници Министарства финансија, Управе, Агенције за осигурање депозита, Народне банке Србије и Државног правобранилаштва (у даљем тексту: Комисија).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav3">
+						<content>
+							<p>Чланови Комисије имају право на накнаду, која се утврђује актом о образовању Комисије и која се обезбеђује из буџета Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>Ради утврђивања права из <ref wId="ref19" href="akn/rs/act/2019/52-3/srp@/!main~art_9" >члана 9. овог</ref> закона, Управа ће објавити позив за пријаву потраживања по основу девизне штедње у „Службеном гласнику Републике Србије” и у по једном високотиражном дневном листу који се дистрибуира на целој територији бивше републике СФРЈ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav2">
+						<content>
+							<p>Позив из <ref wId="ref20" href="akn/rs/act/2019/52-3/srp@/!main~art_10__para_1" >става 1. овог</ref> члана објавиће се и на званичним интернет презентацијама Министарства финансија, Управе, Агенције за осигурање депозита и Народне банке Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav3">
+						<content>
+							<p>Позив из <ref wId="ref21" href="akn/rs/act/2019/52-3/srp@/!main~art_10__para_1" >става 1. овог</ref> члана обавезно садржи начин пријаве потраживања, образац пријаве потраживања, коме се подноси пријава, рок за подношење пријаве, документацију која се подноси уз пријаву и остале податке у вези са подношењем пријаве.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Пријава потраживања може се поднети у року од две године од дана објављивања позива у дневном листу који се дистрибуира на целој територији бивше републике СФРЈ из <ref wId="ref22" href="akn/rs/act/2019/52-3/srp@/!main~art_10__para_1" >члана 10. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>По истеку рока из <ref wId="ref24" href="akn/rs/act/2019/52-3/srp@/!main~art_11__para_1" >става 1. овог</ref> члана губи се право на потраживање по основу неисплаћене девизне штедње из <ref wId="ref23" href="akn/rs/act/2019/52-3/srp@/!main~art_1" >члана 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2017/113/srp@">113/2017</ref></heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Пријава потраживања подноси се Управи на посебном обрасцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Уз пријаву потраживања доставља се оверена копија личне карте или пасоша, као и оригинал штедне књижице,  односно оригинал картице девизног рачуна, правноснажног решења о наслеђивању и изјаве девизног штедише дате под кривичном и материјалном одговорношћу, оверене код надлежног органа да није пренео своју девизну штедњу на друго лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav3">
+						<content>
+							<p>Уз пријаву потраживања доставља се и оригинал потврде  надлежних органа, односно  финансијских институција бивших република СФРЈ о томе да девизни штедиша није остварио своје право по основу девизне штедње, нити да му је то право признато од стране бивших република СФРЈ. Ако је девизни штедиша положио девизну штедњу у филијалама на територијама више бивших република СФРЈ, односно ако је мењао пребивалиште у више тих република, доставља оригинале потврда надлежних органа свих бивших република СФРЈ на чијој територији је положио девизну штедњу, односно у којима је имао пребивалиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav4">
+						<content>
+							<p>У случају када је право по основу девизне штедње остварено делимично, у потврди из <ref wId="ref25" href="akn/rs/act/2019/52-3/srp@/!main~art_12__para_3" >става 3. овог</ref> члана, уносе се подаци о висини исплаћених износа и датумима тих исплата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav5">
+						<content>
+							<p>Надлежни орган, односно финансијска  институција из <ref wId="ref26" href="akn/rs/act/2019/52-3/srp@/!main~art_12__para_3" >става 3. овог</ref> члана јесте орган, односно  финансијска институција коју је бивша република СФРЈ овластила  да издаје потврде из тог става.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref33" href="akn/rs/act/2017/113/srp@">113/2017</ref></heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Уколико уз пријаву није достављена комплетна документација из <ref wId="ref28" href="akn/rs/act/2019/52-3/srp@/!main~art_12__para_2->para_3" >члана 12. ст. 2. и 3. овог</ref> закона, Управа ће од подносиоца пријаве тражити да у року од 30 дана комплетира документацију, а може тражити и другу документацију ради утврђивања права у смислу овог закона, уз упозорење на правне последице ако не уреди пријаву у року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>На начин из <ref wId="ref29" href="akn/rs/act/2019/52-3/srp@/!main~art_13__para_1" >става 1. </ref>oвог члана поступа се и у случају кад подносилац пријаве није доставио оригинал штедне књижице,  односно оригинал картице девизног рачуна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>У случају кад уз пријаву није достављен оригинал штедне књижице,  односно оригинал картице девизног рачуна или из другог разлога постоји основана сумња о постојању потраживања и његове висине, Управа ће упутити подносиоца пријаве да код надлежног суда у Републици Србији покрене одговарајући поступак за утврђивање постојања потраживања и његове висине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav4">
+						<content>
+							<p>Уз поднесак из <ref wId="ref30" href="akn/rs/act/2019/52-3/srp@/!main~art_13__para_3" >става 3. овог</ref> члана подносилац пријаве доставља надлежном суду документацију којом се несумњиво доказује потраживање по основу штедног улога и његове висине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav5">
+						<content>
+							<p>Утврђивање чињеница из <ref wId="ref31" href="akn/rs/act/2019/52-3/srp@/!main~art_13__para_3->para_4" >ст. 3. и 4. овог</ref> члана у поступку пред надлежним судом сматра се претходним питањем у управном поступку, о чему Управа доноси одговарајући закључак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav6">
+						<content>
+							<p>У поступку пред судом, у име Републике Србије, учествује државни правобранилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav7">
+						<content>
+							<p>На основу правноснажне одлуке суда донете у поступку из <ref wId="ref32" href="akn/rs/act/2019/52-3/srp@/!main~art_13__para_3->para_4" >ст. 3. и 4. овог</ref> члана Управа доноси решење по пријави девизног штедише.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref34" href="akn/rs/act/2017/113/srp@">113/2017</ref></heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>У поступку утврђивања права на исплату девизне штедње Управа, односно Комисија може предузети додатне активности ради провере тачности података и документације која је достављена уз пријаву потраживања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Банке код којих је положена девизна штедња, односно њихови правни следбеници, као и банке које су у складу с прописима преузеле послове у вези са исплатом девизне штедње положене код банака над којима је покренут поступак стечаја или ликвидације, а код којих се воде девизни штедни улози, у смислу овог закона, дужне су да, на захтев Управе, доставе расположиве податке о тим улозима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav3">
+						<content>
+							<p>У случају да је поступак стечаја или  ликвидације над банком код које је положена девизна штедња  окончан, на захтев Управе, Агенција за осигурање депозита  доставља расположиве податке о девизним штедним улозима код ових  банака, на основу документације из Централне архиве Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref37" href="akn/rs/act/2019/52/srp@">52/2019</ref></heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Управа на предлог Комисије утврђује право на исплату девизне штедње на основу података и документације из <ref wId="ref35" href="akn/rs/act/2019/52-3/srp@/!main~art_12" >члана 12. овог</ref> закона која јој је достављена уз пријаву потраживања и на основу података и документације којом располажу банке из <ref wId="ref36" href="akn/rs/act/2019/52-3/srp@/!main~art_14__para_2" >члана 14. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Ако утврди да су за то испуњени прописани услови, Управа решењем утврђује право на исплату девизне штедње и висину потраживањa, односно права на обвезнице по том основу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>Остваривањем права по одредбама овог закона девизни штедиша се одриче, односно губи право на вођење поступка за утврђивање права и наплату девизне штедње пред судом и другим органом, односно организацијом, укључујући и поступке извршења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>О утврђивању права на исплату девизне  штедње Управа одлучује најкасније до 23. децембра 2019. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>Управа одбацује пријаву потраживања ако уз пријаву или накнадно није поднета комплетна документација, ако je пријава неблаговремена или је пријаву поднело неовлашћено лице, као и у другим случајевима прописаним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav3">
+						<content>
+							<p>Управа одбија пријаву потраживањa ако нису испуњени прописани услови за признавање права по основу девизне штедње прописане овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav4">
+						<content>
+							<p>Акт Управе донет по пријави доставља се девизном штедиши и државном правобраниоцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav5">
+						<content>
+							<p>Против акта Управе није допуштена жалба, али се може водити управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav6">
+						<content>
+							<p>У име Републике Србије управни спор покреће Државно правобранилаштво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav7">
+						<content>
+							<p>На поступак утврђивања права на исплату девизне штедње сходно се примењују одредбе закона којим се уређује општи управни поступак, ако овим законом није друкчије уређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2019/52/srp@">52/2019</ref></heading>
+					<paragraph wId="gla3-clan17-stav1">
+						<content>
+							<p>По правноснажности решења из <ref wId="ref38" href="akn/rs/act/2019/52-3/srp@/!main~art_15" >члана 15. овог</ref> закона, Управа ће поништити оригинал штедне књижице,  односно оригинал картице девизног рачуна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav2">
+						<content>
+							<p>На основу правноснажног решења из <ref wId="ref39" href="akn/rs/act/2019/52-3/srp@/!main~art_15" >члана 15. овог</ref> закона, банке код којих је положена девизна штедња, односно њихови правни следбеници, као и банке које су у складу с прописима преузеле послове у вези са исплатом девизне штедње положене код банака над којима је покренут поступак стечаја или ликвидације, уз присуство девизног штедише или лица које поседује за то оверено пуномоћје девизног штедише, и стављања на увид поништене штедне књижице,  односно картице девизног рачуна, или потврде Управе да је то решење донето на основу одлуке суда из <ref wId="ref40" href="akn/rs/act/2019/52-3/srp@/!main~art_13__para_3->para_4" >члана 13. ст. 3. и 4. овог</ref> закона (у случају кад Управи није приложен оригинал штедне књижице,  односно оригинал картице девизног рачуна) отварају за девизног штедишу власнички рачун хартија од вредности у Централном регистру.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav3">
+						<content>
+							<p>Истовремено са отварањем власничког рачуна из  <ref wId="ref41" href="akn/rs/act/2019/52-3/srp@/!main~art_17__para_2" >става 2. овог</ref> члана, банке девизном штедиши отварају наменски девизни рачун на који се, у роковима доспећа, преносе средства у висини доспеле рате.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan18">
+					<num>18.</num>
+					<heading>**Службени гласник РС, број <ref wId="ref48" href="akn/rs/act/2019/52/srp@">52/2019</ref></heading>
+					<paragraph wId="gla3-clan18-stav1">
+						<content>
+							<p>Влада ће прописати образац пријаве потраживања из <ref wId="ref44" href="akn/rs/act/2019/52-3/srp@/!main~art_10__para_3" >члана 10. став 3. овог</ref> закона, начин обраде документације из <ref wId="ref45" href="akn/rs/act/2019/52-3/srp@/!main~art_12" >члана 12. овог</ref> закона, начин вршења конверзије штедних улога у амортизационе обвезнице, начин њиховог књиговодственог евидентирања, начин уписа амортизационих обвезница у Централном регистру, извештавања и ближе уредити друга питања од значаја за остваривање права по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav2">
+						<content>
+							<p>Позив за пријаву потраживања из <ref wId="ref46" href="akn/rs/act/2019/52-3/srp@/!main~art_10" >члана 10. овог</ref> закона објавиће се у року од 45 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav3">
+						<content>
+							<p>Прописe из <ref wId="ref47" href="akn/rs/act/2019/52-3/srp@/!main~art_18__para_1" >става 1. овог</ref> члана Влада ће донети у року од 30 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПОСЕБНЕ ОДРЕДБЕ</heading>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Промет обвезница емитованих у складу са овим законом је слободан.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<paragraph wId="gla4-clan20-stav1">
+						<content>
+							<p>Амортизационе обвезнице могу се куповати и продавати на регулисаном тржишту и ОТЦ (ванберзанском) тржишту у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav2">
+						<content>
+							<p>Девизе остварене продајом амортизационих обвезница у смислу <ref wId="ref49" href="akn/rs/act/2019/52-3/srp@/!main~art_20__para_1" >става 1. овог</ref> члана држе се на девизном рачуну.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav3">
+						<content>
+							<p>Девизе из <ref wId="ref50" href="akn/rs/act/2019/52-3/srp@/!main~art_20__para_2" >става 2. овог</ref> члана, као и девизе остварене наплатом амортизационих обвезница у року доспећа, страна физичка и правна лица могу слободно трансферисати у иностранство.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРЕЛАЗНA И ЗАВРШНА ОДРЕДБА</heading>
+				<article wId="gla5-clan21">
+					<num>21.</num>
+					<paragraph wId="gla5-clan21-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона обустављају се судски поступци за наплату девизне штедње обухваћене овим законом, укључујући и поступке извршења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<paragraph wId="gla5-clan22-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

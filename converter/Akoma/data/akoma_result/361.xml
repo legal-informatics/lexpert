@@ -1,0 +1,966 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о задужењу   Савезне  Републике  Југославије  код   Европске  заједнице">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2001/53-13/main"/>
+					<FRBRuri value="akn/rs/act/2001/53-13"/>
+					<FRBRdate date="2001-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2001/53-13/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2001/53-13/srp@"/>
+					<FRBRdate date="2001-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2001/53-13/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2001/53-13/srp@.akn"/>
+					<FRBRdate date="2001-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2001-09-28" name="службени лист срј" number="53" showAs="Службени лист СРЈ"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="9. Задуживање и гаранције" value="9. задуживање и гаранције" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2001-09-27" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2001-10-06" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2001-10-06" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="европске"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="југославија"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="евра"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="износу"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="измирења"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="милиона"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="зајмовима"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="задужиће"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="југословенских"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="неплаћених"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="ради"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="225"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="доспелих"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="савезна"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="инвестиционе"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="заједнице"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="код"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="банке"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="предузећа"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавеза"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Elektroprivreda Crne Gore"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Jugoslaviju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Jugoslaviju I Srb"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Jugoslaviju I Voj"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Jugoslavija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Savezne Republike Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="A"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="B"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="C"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="CG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="D"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="D Srb"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Direkcija za puteve Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="EUR"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="EVRO"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Elektroprivreda Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropska komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske investicione banke"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske zajednice"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskoj zajednici dospele obaveze"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="JŽTP"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="S Voj"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savezna vlada Savezne Republike Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveznoj Republici Jugoslaviji kontragarancije za uredno obezbeoeenje sredstava za izmirivanje obaveza"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="V Srb"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Crna Gora"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jugoslaviju II Srb"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jugoslaviju II Voj"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jugoslaviju III Srb"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jugoslaviju Srb"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jugoslaviju V"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jugoslaviju V A Voj"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jugoslaviju VII Srb"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jugoslaviju Voj"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kos"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Srb"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. septembra 2001."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. avgusta 2001."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 2."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у “Службеном листу СРЈ”, односно 6. октобра 2001. године (види члан 7. Закона)</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О задужењу   савезне  републике  југославије  код   европске  заједнице "Службени лист СРЈ", број <ref wId="ref12" href="akn/rs/act/2001/53/srp@">53 од 28. септембра 2001</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Савезна Република Југославија задужиће се у износу до 225 милиона евра код Европске заједнице ради измирења доспелих а неплаћених обавеза југословенских предузећа по зајмовима Европске  инвестиционе банке.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Задужење из <ref wId="ref0" href="akn/rs/act/2001/53-13/srp@/!main~art_1" >члана 1. овог</ref> закона извршиће се склапањем уговора о зајму измеоеу Европске заједнице, као зајмодавца, коју заступа Европска комисија, и Савезне Републике Југославије, као  зајмопримца, коју заступа Савезна влада Савезне Републике Југославије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Ради измиривања обавеза по уговору из <ref wId="ref1" href="akn/rs/act/2001/53-13/srp@/!main~art_2" >члана 2. овог</ref>а закона Република Србија и Република Црна Гора даће Савезној Републици Југославији контрагаранције за уредно обезбеоеење средстава  за измиривање обавеза по том уговору за део дугова предузећа са њихових територија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Контрагаранцијама Република Србија и Република Црна Гора се обавезују да у свакој години обезбеде средства у својим буџетима за измирење свог дела обавеза по основу уговора из <ref wId="ref2" href="akn/rs/act/2001/53-13/srp@/!main~art_2" >члана 2. овог</ref> закона, које доспевају у тој години.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>Средства из <ref wId="ref4" href="akn/rs/act/2001/53-13/srp@/!main~art_3__para_2" >става 2. овог</ref> члана Република Србија и Република Црна Гора преносе на посебан рачун Савезне Републике Југославије код Народне банке Југославије са искључивом наменом отплате зајма из <ref wId="ref3" href="akn/rs/act/2001/53-13/srp@/!main~art_2" >члана 2. овог</ref>а закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>Средства из <ref wId="ref5" href="akn/rs/act/2001/53-13/srp@/!main~art_3__para_3" >става 3. овог</ref> члана не чине део савезног буџета.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<intro>
+						<p>Средства зајма из <ref wId="ref6" href="akn/rs/act/2001/53-13/srp@/!main~art_2" >члана 2. овог</ref> закона користе се за измирење доспелих а неплаћених уговорних обавеза за финансијске уговоре склопљене измеоеу Европске инвестиционе банке и југословенских предузећа-зајмопримаца за финансирање следећих пројеката:</p>
+					</intro>
+					<point wId="clan4-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> Пројекат за изградњу аутопута кроз Југославију  VII</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> Пројекат за југословенску железницу II/C</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> Пројекат за југословенску железницу II/D</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac4">
+						<num>4)</num>
+						<content>
+							<p> Пројекат за изградњу аутопута кроз Југославију V/А</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac5">
+						<num>5)</num>
+						<content>
+							<p> Пројекат за изградњу аутопута кроз Југославију IV/B</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac6">
+						<num>6)</num>
+						<content>
+							<p> Пројекат за изградњу аутопута кроз Југославију III</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac7">
+						<num>7)</num>
+						<content>
+							<p> Пројекат за железницу</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac8">
+						<num>8)</num>
+						<content>
+							<p> Пројекат за изградњу аутопута кроз Југославију II</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac9">
+						<num>9)</num>
+						<content>
+							<p> Систем управљања електро енергијом</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac10">
+						<num>10)</num>
+						<content>
+							<p> Пројекат за изградњу аутопута кроз Југославију</p>
+						</content>
+					</point>
+					<point wId="clan4-stav1-tac11">
+						<num>11)</num>
+						<content>
+							<p> Мрежа за пренос електричне енергије.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Зајмопримци из <ref wId="ref7" href="akn/rs/act/2001/53-13/srp@/!main~art_4__para_1" >става 1. овог</ref> члана су: ЈП Електропривреда Србије; Електропривреда Црне Горе А.Д.; ЈЖТП Београд; Дирекција за путеве Републике Србије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Висина обавеза зајмопримца из <ref wId="ref8" href="akn/rs/act/2001/53-13/srp@/!main~art_4__para_2" >члана 4. став 2. овог</ref> закона утвроеена је на дан 31. августа 2001. године и исказана је у ЕУР по курсу на тај дан, појединачно за сваки пројекат, што је исказано у  следећој табели:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan5-stav2">
+					<content>
+						<table>
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      Број 
+зајма
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Назив зајма
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Укупно у 
+ЕВРО
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      13555
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Аутопут кроз Југославију 
+IV 
+
+В Срб.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      43,279,918.92
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      13641
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Аутопут кроз Југославију 
+V 
+А Вој.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      28,808,466.46
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      14256
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Железница кроз Југославију 
+II 
+С Вој.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      2,285,667.30
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      14257
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Железница кроз Југославију 
+II 
+Д Срб.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      4,606,901.62
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      14737
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Аутопут кроз Југославију 
+VII 
+Срб.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      11,802,920.87
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16266
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Мрежа за пренос ел. енергије ЦГ.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      1,206,828.65
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16268
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Мрежа за пренос ел. енергије Срб.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      2,062,389.66
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16272
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Аутопут кроз Југославију 
+I 
+Срб.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      6,791,453.97
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16273
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Аутопут кроз Југославију 
+I 
+Вој.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      1,415.649.04
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16277
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Систем управљања ел. енергијом Кос.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      427,815.91
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16280
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Аутопут кроз Југославију 
+II 
+Вој.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15,426,074.25
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16281
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Аутопут кроз Југославију 
+II 
+Срб.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      45,217,221.96
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16285
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Железница кроз Југославију Вој.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      11,969,729.08
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16286
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Железница кроз Југославију Срб.
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      17,008,573.76
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      16290
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      Аутопут кроз Југославију 
+III 
+Срб
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      33,335,576.98
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      УКУПНО:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      225,643,188.43
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+  
+						</table>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Народна банка Југославије измириваће према Европској заједници доспеле обавезе по зајму из <ref wId="ref9" href="akn/rs/act/2001/53-13/srp@/!main~art_2" >члана 2. овог</ref> закона, средствима са рачуна из <ref wId="ref10" href="akn/rs/act/2001/53-13/srp@/!main~art_3__para_3" >члана 3. став 3. овог</ref> закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у “Службеном листу СРЈ”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>о задужењу   Савезне  Републике  Југославије  код   Европске  заједнице</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav3">
+					<content>
+						<p>&quot;Службени лист СРЈ&quot;, број <ref wId="ref11" href="akn/rs/act/2001/53/srp@">53 од 28. септембра 2001</ref>.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

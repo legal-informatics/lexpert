@@ -1,0 +1,2372 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о царинској служби">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2018/95-225/main"/>
+					<FRBRuri value="akn/rs/act/2018/95-225"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/95-225/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/95-225/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/95-225/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/95-225/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-12-08" name="службени гласник рс" number="95" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Царине и друге увозне дажбине" value="1. царине и друге увозне дажбине" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2018-12-07" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2018-12-16" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2018-12-16" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавности"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="одговорности"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="послови"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="службе"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="овлашћења"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="царинске"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="професионалности"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="доследности"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="органом"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="пружања"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="законских"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="интегритета"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="руковођење"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="услуга"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="начела"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="примени"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="употреби"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређење"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="основу"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="обављају"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="унутрашње"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="намештеника"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавља"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="рада"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="дужности"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="послове"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Carina"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Carinskom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakonom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Carinskim zakonom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Carinskog zakona"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Carinskoj tarifi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centar za stručno osposobljavanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centar za stručno osposobljavanje i usavršavanje carinskih službenika Uprave carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centrala Uprave carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centrale Uprave carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centrali Uprave carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinska komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="JMBG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kodeksa ponašanja carinskih službenika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Konkursna komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Nacionalne službe za zapošljavanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službe za upravljanje kadrovima"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprava carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprave carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprave carina nadležna za pripremu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprave carina obavljaju Centrala Uprave carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprave carina za carinske službenike u Centrali Uprave carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravi carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravu carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="prekršajnom sudu"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačke 6"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="41. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="69. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. decembra 2018."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="84."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. децембра 2018. године (види члан 109. Закона).Царински службеници који на дан ступања на снагу овог закона немају положен посебан стручни испит за царинског службеника, дужни су да исти положе најкасније у року од три године од дана ступања на снагу овог закона (види члан 105. Закона).Поступци одлучивања о правима, обавезама и одговорностима царинских службеника, започети пре ступања на снагу овог закона, окончаће се применом прописа који су важили пре ступања на снагу овог закона (види члан 106. Закона).Подзаконски акти за извршавање овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона. До доношења и ступања на снагу подзаконских аката из става 1. овог члана, примењиваће се подзаконски акти донети на основу Царинског закона („Службени гласник РС”, бр. 73/03, 61/05, 85/05 – др. закон, 62/06 – др. закон, 9/10 – УС и 18/10 – др. закон) ако нису у супротности са одредбама овог закона (види члан 107. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. децембра 2018. године (види члан 109. Закона).Царински службеници који на дан ступања на снагу овог закона немају положен посебан стручни испит за царинског службеника, дужни су да исти положе најкасније у року од три године од дана ступања на снагу овог закона (види члан 105. Закона).Поступци одлучивања о правима, обавезама и одговорностима царинских службеника, започети пре ступања на снагу овог закона, окончаће се применом прописа који су важили пре ступања на снагу овог закона (види члан 106. Закона).Подзаконски акти за извршавање овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона. До доношења и ступања на снагу подзаконских аката из става 1. овог члана, примењиваће се подзаконски акти донети на основу Царинског закона („Службени гласник РС”, бр. 73/03, 61/05, 85/05 – др. закон, 62/06 – др. закон, 9/10 – УС и 18/10 – др. закон) ако нису у супротности са одредбама овог закона (види члан 107. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О царинској служби "Службени гласник РС", број <ref wId="ref53" href="akn/rs/act/2018/95/srp@">95 од 8. децембра 2018</ref>.</p>
+			</longTitle>
+			<p>Zakon</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се послови царинске службе, унутрашње уређење и руковођење органом који обавља послове царинске службе, овлашћења, права, дужности и одговорности царинских службеника и намештеника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Послови царинске службе обављају се на основу начела професионалности и интегритета, јавности рада, пружања услуга јавности, одговорности и доследности у примени закона и употреби законских овлашћења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Послове царинске службе обавља орган државне управе надлежан за стручне послове који се односе на: царињење робе, царински надзор и друге послове контроле путника и промета робе и услуга са иностранством, као и друге послове одређене законом (у даљем тексту: Управа царина).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Царински службеник је државни службеник који обавља послове царинске службе из делокруга Управе царина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Седиште Управе царина је у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Управа царина има свој знак и заставу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Знак из <ref wId="ref0" href="akn/rs/act/2018/95-225/srp@/!main~art_3__para_2" >става 2. овог</ref> члана је саставни део службене одеће и отискује се на службеној значки царинских службеника. Изглед знака и заставе и њихову употребу прописује министар надлежан за послове финансија (у даљем тексту: министар).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Дан царинске службе је 25. мај.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>На царинске службенике примењују се прописи о државним службеницима и намештеницима, ако овим законом није другачије прописано.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>На рад царинске службе не примењују се одредбе закона којим се уређује инспекцијски надзор.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСЛОВИ ЦАРИНСКЕ СЛУЖБЕ</heading>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Послови царинске службе су:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> спровођење мера царинског надзора и царинске контроле која обухвата претходне, превентивне и накнадне царинске контроле над царинском робом, одређене законом и другим прописима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> спровођење царинских поступања и царинских формалности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> вршење обрачуна и наплате увозних и других дажбина, акциза и пореза на додату вредност и накнада за робу која се увози, односно извози у складу са прописима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> вршење послова у вези са принудном наплатом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> издавање обавештења о примени царинских и других прописа из надлежности Управе царина и обавезујућих обавештења о сврставању и пореклу робе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> спровођење законом предвиђених поступака у циљу откривања царинских прекршаја, привредних преступа и кривичних дела и подношење пријава тужилаштву или другим надлежним државним органима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> подношење захтева за покретање прекршајних поступака и издавање прекршајног налога, улагање редовних и ванредних правних лекова, те учествовање у процесним радњама и радњама извршења судских одлука;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> прикупљање, евидентирање и обрада података потребних за спровођење поступка на сузбијању кријумчарења, истражних поступака и за спровођење накнадне царинске контроле;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> вођење управног поступка за поступке који су јој дати у надлежност Царинским законом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> вршење контроле уношења и изношења динарских и страних средстава плаћања у међународном путничком и пограничном промету са иностранством;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> вршење контроле уношења, изношења и провоза робе за коју су прописане посебне мере ради сигурности, заштите здравља и живота људи, животиња и биљака, заштите животне средине, националног блага, историјских, уметничких или археолошких вредности, заштите интелектуалне или индустријске својине и друго;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> вођење евиденција из свог делокруга;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> обрада и статистичко праћење података о увозу и извозу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> иницијативе за покретање поступка за вођење преговора и закључивање међународних уговора из делокруга царинске службе и сарадња и размена података са страним царинским и другим службама и међународним организацијама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> сарадња и размена информација са надлежним државним органима, јавним или другим организацијама и страним администрацијама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p> испитивање у име других царинских администрација (замолним путем), у складу са међународним уговорима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p> хемијско-технолошка и друга испитивања узорака робе у царинској лабораторији, у сврху правилног сврставања робе по Царинској тарифи;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p> други послови у складу са законом и другим прописима.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Управа царина обавља послове из своје надлежности на целом царинском подручју Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>На предлог министра, изузетно, уколико је то економичније, Влада може одредити да спровођење мера царинског надзора и послова царинске контроле путничког промета са иностранством на аеродромима са мањим обимом ваздушног саобраћаја, у лукама наутичког туризма и другим граничним организационим јединицама са мањим обимом промета, обавља орган државне управе надлежан за контролу преласка државне границе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Када спровођење мера царинског надзора и послова царинске контроле путничког промета са иностранством обављају службеници органа државне управе надлежног за контролу преласка државне границе, царинска служба им пружа стручну помоћ и даје упутства за рад.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>УНУТРАШЊЕ УРЕЂЕЊЕ И РУКОВОЂЕЊЕ</heading>
+				<article wId="gla3-clan8">
+					<num>8.</num>
+					<paragraph wId="gla3-clan8-stav1">
+						<content>
+							<p>Послове из надлежности Управе царина обављају Централа Управе царина и царинарнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav2">
+						<content>
+							<p>Централа обавља послове у седишту Управе царина преко унутрашњих организационих јединица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav3">
+						<content>
+							<p>Царинарнице се оснивају у већим привредним и саобраћајним центрима када то захтевају обим, структура и токови роба у путничком и робном промету са иностранством или други интереси привреде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav4">
+						<content>
+							<p>За обављање свих или неких послова из надлежности царинарница оснивају се као организационе јединице царинарнице одсеци, реферати, царинске испоставе, царински реферати и царински пунктови, и могу бити у седишту или изван седишта царинарнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav5">
+						<content>
+							<p>Влада може прописати другачије услове за организовање унутрашњих јединица Управе царина од услова и начела за унутрашње уређење органа државне управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav6">
+						<content>
+							<p>Одлуку о оснивању, почетку и престанку рада царинарница, царинских испостава, одсека и царинских реферата, доноси Влада на предлог министра.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>Управом царина руководи директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav2">
+						<content>
+							<p>Директор Управе царина обезбеђује координацију рада и јединствену примену овог закона и прописа из делокруга Управе царина на целом царинском подручју.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>Директор Управе царина има више помоћника директора који руководе једном од области рада органа и помоћника директора – координатора који координише рад више повезаних области, помаже директору у раду и замењује га док је одсутан.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Радом царинарнице руководи управник који је одговоран директору за законито и благовремено обављање послова из делокруга рада царинарнице.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОВЛАШЋЕЊА ДИРЕКТОРА И ЦАРИНСКИХ СЛУЖБЕНИКА</heading>
+				<article wId="gla4-clan12">
+					<num>12.</num>
+					<heading>Овлашћења директора</heading>
+					<paragraph wId="gla4-clan12-stav1">
+						<content>
+							<p>Директор може, у писаној форми, да пренесе овлашћење за вршење одређених послова, осим послова руковођења, царинском службенику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan12-stav2">
+						<content>
+							<p>Директор може да формира радну групу или комисију царинских службеника ради извршења одређених задатака из надлежности више унутрашњих јединица или ради учествовања у припреми предлога, директива и других аката, а у циљу једнообразног и ефикаснијег поступања царинске службе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan12-stav3">
+						<content>
+							<p>Директор може да формира и тим царинских службеника ради спровођења пројекта, увођења иновација у спровођењу послова из надлежности Управе царина или ради извршења других сложених задатака из надлежности више унутрашњих јединица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan12-stav4">
+						<content>
+							<p>Тим царинских службеника у свом саставу има вођу тима, заменика вође тима, као и чланове, који могу имати своје заменике. По потреби, тим може имати појединачне руководиоце и њихове заменике. Унутар тима могу бити формирани подтимови, чији је састав идентичан саставу тима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan13">
+					<num>13.</num>
+					<paragraph wId="gla4-clan13-stav1">
+						<content>
+							<p>Директор може, када сматра да је то потребно, да захтева од царинских службеника и намештеника да прођу кроз стручну здравствену проверу ради утврђивања физичке и менталне способности за обављање послова радног места на које је распоређен.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan14">
+					<num>14.</num>
+					<paragraph wId="gla4-clan14-stav1">
+						<content>
+							<p>У зависности од потребе посла директор одређује радно време, укључујући и рад у време празника и прековремени рад.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav2">
+						<content>
+							<p>Директор може да одреди посебно радно време за поједине унутрашње јединице у зависности од потреба службе и обављања посебних послова, као и када царински службеник треба да буде на располагању ради обављања посебних послова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>Директор може да даје обавештења за јавност, у вези са пословима из надлежности Управе царина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>Директор одлучује о увођењу, коришћењу и употреби видео надзора у Управи царина, у складу са прописима који регулишу ову област.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<paragraph wId="gla4-clan17-stav1">
+						<content>
+							<p>Министар на предлог директора прописује врсту и тип царинских обележја и начин њихове употребе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<paragraph wId="gla4-clan18-stav1">
+						<content>
+							<p>Директор може, ради заштите прихода и спровођења забране или ограничења која су на снази, на основу закона и других прописа у вези са увозом или извозом робе, да одреди места за подношење декларације и преглед робе, која се увози или извози.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Директор може да изда појединачни акт којим уређује под којим условима и на који начин се роба, која се увози или извози може кретати местима одређеним за њено пријављивање, преглед и смештај.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<paragraph wId="gla4-clan20-stav1">
+						<intro>
+							<p>Директор може појединачним актом да утврди услове или ограничења у погледу:</p>
+						</intro>
+						<point wId="gla4-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> кретања увезене робе од места увоза до места које је одредио као место царињења;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav1-tac2">
+							<num>2)</num>
+							<intro>
+								<p> кретања робе између:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla4-clan20-stav1-tac2-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> складишта или слободне зоне и места које је одредио као место царињења;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla4-clan20-stav1-tac2-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> одобреног места и складишта из подтачке <ref wId="ref1" href="akn/rs/act/2018/95-225/srp@/!main~art_20__para_1__point_1" >1</ref>. ове тачке или слободне зоне;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla4-clan20-stav1-tac2-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> складишта или слободне зоне и другог складишта.</p>
+								</content>
+							</hcontainer>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav2">
+						<intro>
+							<p>Директор може, у складу са одредбама <ref wId="ref2" href="akn/rs/act/2018/95-225/srp@/!main~art_20__para_1" >става 1. овог</ref> члана, да:</p>
+						</intro>
+						<point wId="gla4-clan20-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> захтева да се роба, у одређеном периоду, креће одређеним путем;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> захтева да се превоз робе возилом или контејнером обави на одређени начин и под одређеним условима, уз одговарајуће мере обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan20-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> забрани истовар или утовар у возило или контејнер, осим у изузетним случајевима и уз одговарајуће обезбеђење робе.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<paragraph wId="gla4-clan21-stav1">
+						<intro>
+							<p>Министар може, ради спровођења мера царинског надзора и царинске контроле, да пропише услове:</p>
+						</intro>
+						<point wId="gla4-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> у погледу стандарда возила, пловила или авиона за превоз одређене робе;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> у погледу начина утовара, истовара, кретања и пуштања робе приликом њеног увоза.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<paragraph wId="gla4-clan22-stav1">
+						<intro>
+							<p>Директор може да наложи лицу које је, у складу са одредбама овог закона, дужно да обезбеди просторије за царинске службенике или места која се користе за преглед робе, да:</p>
+						</intro>
+						<point wId="gla4-clan22-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> обезбеди и одржава неопходне услове, инвентар и средства која су потребна да царински службеник изврши преглед или претрес или да обавља своје дужности у просторијама тог лица, у просторијама под царинским надзором или на месту које одрeди директор, као и да чува тај инвентар и средства;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan22-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> дозволи овлашћеном царинском службенику да користи инвентар и средства из тачке <ref wId="ref3" href="akn/rs/act/2018/95-225/srp@/!main~art_22__para_1__point_1" >1</ref>) овог става и пружи му сву неопходну помоћ у обављању његових дужности.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Овлашћења царинских службеника</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>У обављању послова царинске службе царински службеник има, у оквиру радног места на које је распоређен, овлашћења прописана овим законом и другим прописима који регулишу овлашћења запослених у државним органима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<paragraph wId="gla4-clan24-stav1">
+						<content>
+							<p>Царински службеник обавља послове царинске службе у службеној или цивилној одећи, у случајевима и под условима које утврђује директор Управе царина. Службена одећа је царинска униформа и радно одело, с прописаним знаком Управе царина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav2">
+						<content>
+							<p>Царински службеник доказује овлашћење за обављање царинских послова службеном легитимацијом и службеном значком са идентификационим бројем.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Поступак издавања службене легитимације и значке, начин употребе и трајање службене одеће, као и радна места на којима су царински службеници дужни да носе службену одећу и врсту службене одеће, на предлог директора прописује министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Царински службеник је дужан да се, на захтев учесника у царинском поступку легитимише службеном легитимацијом и значком, а када послове обавља у цивилној одећи мора се легитимисати службеном легитимацијом пре предузимања било које службене радње.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<paragraph wId="gla4-clan26-stav1">
+						<content>
+							<p>Превозна средства која се користе у службене сврхе могу се обележити знаком царинске службе и натписом „Царина” у складу са одлуком директора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<paragraph wId="gla4-clan27-stav1">
+						<content>
+							<p>При обављању службених радњи царински службеник дужан је да поступа на начин који не вређа углед, част и достојанство лица на које се радња односи, примерено околностима случаја, водећи рачуна о заштити Уставом и законом загарантованих људских права и основних слобода.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav2">
+						<content>
+							<p>При обављању службених радњи према правним лицима, другим правним субјектима и одговорним лицима, царински службеник је дужан да поступа на начин прописан у <ref wId="ref4" href="akn/rs/act/2018/95-225/srp@/!main~art_27__para_1" >ставу 1. овог</ref> члана, водећи рачуна да у обављању службених радњи у што мањој мери омета редован посао наведених субјеката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan28">
+					<num>28.</num>
+					<paragraph wId="gla4-clan28-stav1">
+						<content>
+							<p>Царински службеник који обавља послове сузбијања кријумчарења, обавештајне послове и послове унутрашње контроле има право и обавезу да носи оружје и муницију под условима и на начин који пропише министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav2">
+						<content>
+							<p>За утврђивање оспособљености и психофизичке способности царинских службеника за ношење, као и за саму употребу оружја, примењују се прописи који важе за овлашћена службена лица министарства надлежног за унутрашње послове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan29">
+					<num>29.</num>
+					<paragraph wId="gla4-clan29-stav1">
+						<intro>
+							<p>Царински службеник, при обављању службених радњи, може да употребљава:</p>
+						</intro>
+						<point wId="gla4-clan29-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> посебну техничку опрему;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan29-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> службена возила и пловила са употребом светлосних и звучних сигнала у складу са прописима о безбедности саобраћаја на путевима и пловидби на унутрашњим водама;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan29-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> посебно обучене службене псе.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan30">
+					<num>30.</num>
+					<paragraph wId="gla4-clan30-stav1">
+						<content>
+							<p>Царински службеник при обављању царинске контроле може да употреби средства принуде, сходно прописима који важе за овлашћена службена лица министарства надлежног за унутрашње послове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan31">
+					<num>31.</num>
+					<paragraph wId="gla4-clan31-stav1">
+						<content>
+							<p>Царински службеник обавља послове царинске контроле према одредбама овог и других закона, поштујући приликом њиховог спровођења прописе о безбедности друмског, ваздушног, железничког и речног саобраћаја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>Царински службеник може да, од учесника у промету робе са иностранством, захтева давање усмених или писаних обавештења у вези са царинским статусом робе, као и да примењује друге радње у вези са царинским статусом робе, укључујући преглед робе и узимање узорака ради лабораторијских испитивања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan33">
+					<num>33.</num>
+					<paragraph wId="gla4-clan33-stav1">
+						<intro>
+							<p>Царински службеник може, осим ако није друкчије одређено овим законом или међународним уговором, у свако доба, да изврши пресретање, уђе у превозно средство, изврши преглед и претрес ма ког његовог дела, док то средство:</p>
+						</intro>
+						<point wId="gla4-clan33-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> улази или излази из царинског подручја;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan33-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> налази се унутар одобреног простора;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan33-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> налази се у границама простора који служи за упловљавање или испловљавање из пристаништа или копна уз пристаниште које се користи за активности које се изводе у пристаништу;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan33-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> долази на аеродром или га напушта;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan33-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> долази или напушта одобрено пристаниште, царинско складиште или слободну зону.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan34">
+					<num>34.</num>
+					<paragraph wId="gla4-clan34-stav1">
+						<intro>
+							<p>Царински службеник има слободан приступ сваком делу возила, пловила или ваздухоплова, на месту одређеном за царинску контролу и може да:</p>
+						</intro>
+						<point wId="gla4-clan34-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> нареди да се роба означи пре него што се истовари;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan34-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> закључа, пломбира, означи или на други начин обезбеди робу која се транспортује, као и место или контејнер у коме се роба превози;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan34-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> нареди да се отвори место или контејнер који је закључан.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan35">
+					<num>35.</num>
+					<paragraph wId="gla4-clan35-stav1">
+						<content>
+							<p>Царински службеник може да задржи превозно средство док не буду плаћени трошкови настали у поступку царинског надзора и царинске контроле или трошкови претовара робе у царинско складиште који је извршен по његовом налогу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan36">
+					<num>36.</num>
+					<paragraph wId="gla4-clan36-stav1">
+						<intro>
+							<p>Царински службеник може да захтева да капетан ваздухоплова омогући, у свако доба и на сваком месту, улазак у ваздухоплов и преглед:</p>
+						</intro>
+						<point wId="gla4-clan36-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ваздухоплова и робе коју превози;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan36-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> докумената која се односе на ваздухоплов, робу или лица која превози.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav2">
+						<content>
+							<p>Царински службеник може да захтева од службеника аеродрома, у свако доба, да дозволи царинском службенику да уђе и изврши преглед аеродрома, зграда и робе у њима, да направи копије и узме изводе из докумената и евиденције коју службеник аеродрома води у складу са прописима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan37">
+					<num>37.</num>
+					<paragraph wId="gla4-clan37-stav1">
+						<intro>
+							<p>Царински службеник може да прегледа робу која се превози или ће се превозити пловилом:</p>
+						</intro>
+						<point wId="gla4-clan37-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> у свако доба док је роба на пловилу, или</p>
+							</content>
+						</point>
+						<point wId="gla4-clan37-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> било где на царинском подручју где је роба смештена ради транспорта пловилом или на којем је истоварена са пловила.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan37-stav2">
+						<content>
+							<p>Ради прегледа робе у складу са одредбом <ref wId="ref5" href="akn/rs/act/2018/95-225/srp@/!main~art_37__para_1" >става 1. овог</ref> члана, царински службеник може да захтева да се отвори контејнер или да се роба распакује, а трошкове отварања, распакивања или поновног паковања сноси власник робе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan37-stav3">
+						<intro>
+							<p>Царински службеник може да:</p>
+						</intro>
+						<point wId="gla4-clan37-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> уђе на пловило и изврши преглед пловила током пловидбе;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan37-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> затражи да му се изда или донесе на увид сваки документ који треба да се налази на пловилу. Царински службеник може да направи копије и узме изводе из тих докумената.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan38">
+					<num>38.</num>
+					<paragraph wId="gla4-clan38-stav1">
+						<intro>
+							<p>Царински службеник може од сваког лица да захтева да покаже робу:</p>
+						</intro>
+						<point wId="gla4-clan38-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> коју је набавило ван царинског подручја,</p>
+							</content>
+						</point>
+						<point wId="gla4-clan38-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> која подлеже царињењу или опорезивању, а коју је лице набавило на царинском подручју без плаћања увозних и других дажбина.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Лице које улази на царинско подручје или га напушта, дужно је да одговори на питања царинског службеника која се односе на његово путовање, пртљаг, предмете у пртљагу или друге предмете које носи са собом, а ако царински службеник затражи, дужно је да пртљаг и предмете да на преглед.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan40">
+					<num>40.</num>
+					<paragraph wId="gla4-clan40-stav1">
+						<intro>
+							<p>Царински службеник може да заустави и претресе превозно средство на било ком месту на царинском подручју Републике Србије, ако из оправданих разлога, посумња да превозно средство превози робу:</p>
+						</intro>
+						<point wId="gla4-clan40-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> за коју се плаћају увозне и друге дажбине, а које нису плаћене или обезбеђене,</p>
+							</content>
+						</point>
+						<point wId="gla4-clan40-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> која је бесправно премештена,</p>
+							</content>
+						</point>
+						<point wId="gla4-clan40-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> чији је увоз, извоз или транзит забрањен, ограничен или уређен посебним прописима.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav2">
+						<content>
+							<p>Лице које превози или носи робу из <ref wId="ref6" href="akn/rs/act/2018/95-225/srp@/!main~art_40__para_1" >става 1. овог</ref> члана, дужно је да одговори на питања царинског службеника која се односе на превозно средство и робу која се у њему налази или коју оно носи са собом, а ако царински службеник затражи, дужно је да покаже робу и документа ради прегледа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav3">
+						<content>
+							<p>Царински службеник може да испита свако лице за које претпоставља да поседује сазнања о околностима из <ref wId="ref7" href="akn/rs/act/2018/95-225/srp@/!main~art_40__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav4">
+						<content>
+							<p>Царински службеник може, у складу са прописима, да привремено задржи превозно средство и робу из <ref wId="ref8" href="akn/rs/act/2018/95-225/srp@/!main~art_40__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav5">
+						<content>
+							<p><ref wId="ref9" href="akn/rs/act/2018/95-225/srp@/!main~art_40__para_1" >Став 1. овог</ref> члана примењује се и на робу која се преноси другим средством или путем скривене цеви.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav6">
+						<content>
+							<p>Царински службеник може да користи сва примерена средства ради проналажења скривене цеви и путева те цеви.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan41">
+					<num>41.</num>
+					<paragraph wId="gla4-clan41-stav1">
+						<content>
+							<p>При вршењу послова царинске службе, царински службеник ради утврђивања идентитета лица може тражити на увид путну исправу, личну карту или другу исправу на основу које се може утврдити идентитет тог лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav2">
+						<content>
+							<p>При вршењу послова царинске контроле, царински службеник може привремено задржати присутно лице, уколико, из оправданих разлога, посумња да је дошло до извршења или покушаја извршења кривичног дела, прекршаја или када то налаже заштита јавног интереса и безбедности. О наведеном без одлагања обавештава најближу организациону јединицу министарства надлежног за унутрашње послове. Привремено задржавање лица може трајати најдуже до доласка овлашћених службеника организационе јединице министарства надлежног за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav3">
+						<intro>
+							<p>Царински службеник, уколико из оправданих разлога, посумња да је лице прећутало или дало нетачне податке на његова питања, чиме је извршена или би могла бити извршена повреда одредаба Царинског закона или другог прописа, или ако постоји доказ о томе, или ако је лице сакрило робу чији је увоз или извоз забрањен, ограничен или уређен посебним прописима, може да претресе:</p>
+						</intro>
+						<point wId="gla4-clan41-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> лице које улази у царинско подручје,</p>
+							</content>
+						</point>
+						<point wId="gla4-clan41-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> лице које напушта царинско подручје или</p>
+							</content>
+						</point>
+						<point wId="gla4-clan41-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> лице које је имало приступ подручју које је под посебном царинском контролом и које је означено као подручје под посебном царинском контролом, које користи лице које одлази из тог подручја, али не и из царинског подручја.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav4">
+						<content>
+							<p>Царински службеник дужан је да одмах обавести непосредног руководиоца о потреби претреса лица из <ref wId="ref10" href="akn/rs/act/2018/95-225/srp@/!main~art_41__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav5">
+						<content>
+							<p>Ако непосредни руководилац из <ref wId="ref11" href="akn/rs/act/2018/95-225/srp@/!main~art_41__para_4" >става 4. овог</ref> члана утврди да нема основа за претрес, пустиће то лице, а ако има основа за претрес, наложиће да се претрес обави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav6">
+						<content>
+							<p>Изузетно, уколико непосредни руководилац није доступан царинском службенику, претрес лица се може извршити и без његовог налога, с тим што ће разлог претреса лица без налога непосредног руководиоца царински службеник унети у записник о личном претресу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav7">
+						<content>
+							<p>Претрес лица из <ref wId="ref12" href="akn/rs/act/2018/95-225/srp@/!main~art_41__para_3" >става 3. овог</ref> члана врши царински службеник истог пола, а ако га у месту где се претрес врши нема, царински службеник може да одреди погодно лице истог пола да изврши претрес.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav8">
+						<content>
+							<p>Претрес малолетних лица врши лице које је за то обучено, у присуству лица које је за малолетно лице одговорно или уколико то лице није присутно, у присуству социјалног радника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav9">
+						<content>
+							<p>Претрес који подразумева физички преглед телесних отвора извршиће лекар или други медицински радник јавне здравствене установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav10">
+						<content>
+							<p>Одредбе овога члана примењују се и на возаче превозних средстава и на друга лица према којима се спроводи царински надзор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan42">
+					<num>42.</num>
+					<paragraph wId="gla4-clan42-stav1">
+						<content>
+							<p>Ако се при прегледу или претресу робе, превозног средства или лица, пронађе оружје, друге опасне ствари, опојне дроге или друге ствари које се неовлашћено преносе у или из царинског подручја Републике Србије, лица код којих су предметне ствари пронађене, као и возачи превозних средстава, привремено ће се задржати у смислу <ref wId="ref13" href="akn/rs/act/2018/95-225/srp@/!main~art_41__para_2" >члана 41. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav2">
+						<content>
+							<p>Приликом привременог задржавања робе из <ref wId="ref14" href="akn/rs/act/2018/95-225/srp@/!main~art_42__para_1" >става 1. овог</ref> члана, сходно се примењују одредбе закона који регулише кривични поступак, које се односе на привремено одузимање предмета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav3">
+						<content>
+							<p>Ако се код лица из <ref wId="ref15" href="akn/rs/act/2018/95-225/srp@/!main~art_42__para_1" >става 1. овог</ref> члана пронађу домаћа или страна средства плаћања у износима већим од дозвољених, поступиће се у складу са девизним и другим прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav4">
+						<content>
+							<p>Ако се при прегледу или претресу робе, превозног средства или лица пронађе скривена или непријављена роба иста ће се привремено задржати до окончања прописаног поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan43">
+					<num>43.</num>
+					<paragraph wId="gla4-clan43-stav1">
+						<content>
+							<p>Царински службеник може, у оквиру царинског подручја, од лица које превози страну или домаћу робу, да захтева да докаже да је роба набављена у царинском подручју или да је увезена у складу са законом и другим прописима, као и да то лице са робом поступа у складу са одредбама овог и других закона за чију примену је надлежна Управа царина. Ако се такви докази не обезбеде, покренуће се поступак у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan44">
+					<num>44.</num>
+					<paragraph wId="gla4-clan44-stav1">
+						<content>
+							<p>Царински службеник може да захтева од лица које улази или излази из слободне зоне одговор на питања у вези са робом. То лице је дужно да стави робу на увид ради прегледа, ако то царински службеник захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav2">
+						<content>
+							<p>Царински службеник може, приликом уласка или изласка возила из слободне зоне, да уђе у возило и претражи сваки његов део.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav3">
+						<content>
+							<p>Царински службеник може, у свако доба, да уђе и изврши преглед слободне зоне и свих зграда и робе у слободној зони.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan45">
+					<num>45.</num>
+					<paragraph wId="gla4-clan45-stav1">
+						<content>
+							<p>Царински службеник може привремено да задржи робу која је увезена или намењена извозу, док се не утврди да се са робом поступало у складу са Царинским законом и другим законима којима се ограничава, забрањује или посебно уређује увоз или извоз робе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan46">
+					<num>46.</num>
+					<paragraph wId="gla4-clan46-stav1">
+						<content>
+							<p>Царински службеник може, у изузетним случајевима, привремено задржану робу или превозно средство под надзором, да остави под надзором на чување лицу које сматра погодним за то.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan46-stav2">
+						<content>
+							<p>Ако царински службеник остави робу или превозно средство под надзором лицу које сматра погодним, обавештава о томе лице коме је привремено задржало робу. Роба, односно превозно средство сматра се привремено задржаним од дана када је дато обавештење о привременом задржавању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan46-stav3">
+						<content>
+							<p>Лице коме је дата на чување роба или превозно средство из <ref wId="ref16" href="akn/rs/act/2018/95-225/srp@/!main~art_46__para_1" >става 1. овог</ref> члана, дужно је да ту робу, односно превозно средство држи на безбедном месту, без трошкова по државу, до доношења коначне одлуке у вези те робе, односно превозног средства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan46-stav4">
+						<content>
+							<p>Царинском службенику роба мора бити доступна на његов захтев и робом се не може располагати нити се она може однети из царинског подручја за све време док је под надзором у складу са <ref wId="ref17" href="akn/rs/act/2018/95-225/srp@/!main~art_46__para_1" >ставом 1. овог</ref> члана, осим ако се не одлучи другачије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan46-stav5">
+						<content>
+							<p>Царински службеник може у свако доба да врши надзор над робом или превозним средством остављеним на чување лицу из <ref wId="ref18" href="akn/rs/act/2018/95-225/srp@/!main~art_46__para_1" >става 1. овог</ref> члана, а после коначног одузимања робе или превозног средства, дужан је да ту робу, односно превозно средство, преузме.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan47">
+					<num>47.</num>
+					<paragraph wId="gla4-clan47-stav1">
+						<content>
+							<p>Извештај у писаној форми о чињеничном стању утврђеном приликом претреса лица, превозних средстава и пословних просторија, као и привремено задржани предмети и документација у било којој форми или они предмети који су прибављени у складу са законом и другим прописима које примењује царинска служба, могу се користити као доказ у прекршајном, односно кривичном поступку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan48">
+					<num>48.</num>
+					<paragraph wId="gla4-clan48-stav1">
+						<intro>
+							<p>Царински службеник који руководи организационом јединицом у чијој надлежности су послови везани за прекршајни поступак поред овлашћења из <ref wId="ref19" href="akn/rs/act/2018/95-225/srp@/!main~art_48__para_1" >става 1. овог</ref> члана, има и овлашћења да:</p>
+						</intro>
+						<point wId="gla4-clan48-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> подноси захтев за покретање прекршајног поступка месно и стварно надлежном прекршајном суду;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan48-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> одустане од поднетог захтева за покретање прекршајног поступка;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan48-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> изјављује редовне и ванредне правне лекове на пресуде суда;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan48-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> изјављује да одустаје од подношења редовног правног лека.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan48-stav2">
+						<intro>
+							<p>Царински службеник који води послове везане за прекршајни поступак овлашћен је да:</p>
+						</intro>
+						<point wId="gla4-clan48-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> заступа поднети захтев у својству овлашћеног подносиоца, да исти прецизира или измени на претресу када за то постоје разлози, у складу са Царинским законом и Законом о прекршајима;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan48-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> се стара о извршењу заштитне мере изречене пресудом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan48-stav3">
+						<content>
+							<p>Прекршајни налог издаје овлашћени царински службеник у складу са Царинским законом и Законом о прекршајима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan49">
+					<num>49.</num>
+					<heading>Накнадна контрола</heading>
+					<paragraph wId="gla4-clan49-stav1">
+						<content>
+							<p>Царински службеник може да захтева од лица, које је по закону и другим прописима, дужно да дậ податке или да испуни одређену обавезу, да у одређеном року и на одређеном месту преда књиговодствену исправу, уговор, евиденцију из банке, коју сматра потребном за спровођење накнадне царинске контроле.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav2">
+						<content>
+							<p>Царински службеник може да захтева испуњење обавезе из <ref wId="ref20" href="akn/rs/act/2018/95-225/srp@/!main~art_49__para_1" >става 1. овог</ref> члана, од подносиоца декларације, произвођача или другог лица које располаже или би могло располагати траженим исправама или подацима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav3">
+						<content>
+							<p>Царински службеник има право, ако се пословне књиге и прописане евиденције воде електронским путем, да прегледа базу података рачунарског система, као и да захтева израду, односно предају сваког документа или декларације која потврђује неки податак вођен на електронском медију, а који је неопходан за спровођење накнадне царинске контроле.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav4">
+						<content>
+							<p>Царински службеник може да узме копије и направи изводе из документа који је прибављен у складу са одредбама овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav5">
+						<content>
+							<p>Царински службеник, при спровођењу накнадне царинске контроле, а сходно одредбама закона који уређује царински и прекршајни поступак и које се односе на привремено одузимање предмета, може привремено да задржи или да забрани располагање исправама из <ref wId="ref21" href="akn/rs/act/2018/95-225/srp@/!main~art_49__para_3" >става 3. овог</ref> члана, као и предметима и узорцима предмета у вези са којима се спроводи накнадна царинска контрола спроведеног царинског поступка, у року који не може бити дужи од 15 дана од дана њиховог привременог задржавања, односно забране располагања, ако је то потребно ради осигурања доказа, утврђивања неисправности или ако је лице те исправе, носаче података, предмете и узорке користило за повреде царинских и других прописа, односно ако је до њих дошло повредом царинских и других прописа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan50">
+					<num>50.</num>
+					<paragraph wId="gla4-clan50-stav1">
+						<content>
+							<p>Лица од којих се захтева достава података дужна су да царинском службенику који спроводи накнадну царинску контролу дозволе приступ земљишту и просторима у којима се обавља делатност, утовар, истовар или складиштење стране или домаће робе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav2">
+						<content>
+							<p>Царински службеник има право да приликом спровођења накнадне царинске контроле уђе и у било који објекат и простор на аеродрому, железничкој станици, речној луци, да ступи на земљиште на коме се налази или би се могла налазити страна или домаћа роба, као и на земљиште преко којег је изведена или је могла бити изведена нека инсталација која омогућава преношење стране или домаће робе, као и на обалу, односно друго земљиште где би могло бити место за пристајање пловила или ваздухоплова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav3">
+						<content>
+							<p>Царински службеник може да уђе у пословне просторије у току редовног радног времена корисника тих просторија ако, из оправданих разлога, посумња да се те просторије користе у вези са набавком, увозом или извозом робе, да се та роба налази у тим просторијама, као и да изврши преглед тих просторија и робе, укључујући и просторије које су означене као седиште привредног субјекта или просторије које се користе као складиште робе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav4">
+						<content>
+							<p>Уколико постоји потреба да се радње из <ref wId="ref22" href="akn/rs/act/2018/95-225/srp@/!main~art_50__para_3" >става 3. овог</ref> члана врше ван радног времена и без присуства корисника просторија, царински службеник је дужан да обавести и затражи помоћ надлежне организационе јединице министарства надлежног за унутрашње послове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan51">
+					<num>51.</num>
+					<paragraph wId="gla4-clan51-stav1">
+						<content>
+							<p>Царински службеник контролише усклађеност пословања физичких и правних лица са царинским и другим прописима за чију примену је надлежна Управа царина, и то прегледом робе или њеним узорковањем ради лабораторијских испитивања уколико је роба доступна, као и провером постојања, веродостојности и тачности пословних књига, евиденција и других исправа, утврђујући врсте и количине непријављене робе, исправност обрачуна и плаћања царине, пореза, акциза и других дажбина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav2">
+						<content>
+							<p>Царински службеник, при спровођењу накнадне царинске контроле, ради спречавања и откривања неправилности у примени царинских и других прописа за чију промену је надлежна Управа царина, овлашћен је да прегледа и претреса пословни, производни, складишни и други простор који се користи за обављање делатности, као и земљишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav3">
+						<content>
+							<p>Изузетно, накнадна царинска контрола може се отпочети без обавештавања физичког и правног лица у случају када постоје разлози за неодложно поступање или оправдана бојазан да би обавештење утицало на даљу недоступност субјекта контроле, када би се умањило остварење циља спровођења накнадне царинске контроле или када то налаже заштита јавног интереса и безбедности, односно када постоји потреба отклањања предстојеће опасности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav4">
+						<content>
+							<p>Накнадна царинска контрола се сматра започетом даном доставе обавештења (или налога) о започетој накнадној контроли писаним или електронским путем, физичком или правном лицу, односно даном уручења налога за обављање накнадне контроле у ситуацијама када се накнадна царинска контрола може спроводити без претходног обавештавања. Уколико се накнадна царинска контрола спроводи на основу захтева друге царинске администрације, основ за спровођење накнадне царинске контроле је међународни билатерални или мултилатерални споразум на основу којег је такав захтев упућен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav5">
+						<content>
+							<p>Код прегледа и претреса пословног простора, објеката и земљишта царински службеник има право да прегледа робу, пословне књиге, евиденцију и друге исправе у вези са страном или домаћом робом и да користи техничке уређаје у сврху прегледа и претреса, односно растављања опреме, машина, уређаја и робе која се налази у простору, у објекту или на земљишту као и да утврђује наменску употребу стране или домаће робе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav6">
+						<content>
+							<p>Физичка и правна лица код којих се врши спровођење накнадне царинске контроле дужна су да царинском службенику омогуће услове за несметан рад и да му дају на увид све пословне књиге и друге исправе, односно да му омогуће увид у базе података електронских евиденција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav7">
+						<content>
+							<p>Под пословним простором у смислу овог члана подразумева се и стамбени простор уколико је регистрован као седиште правног лица, односно другог правног субјекта, или ако се користи као пословни простор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav8">
+						<content>
+							<p>Лицу из <ref wId="ref23" href="akn/rs/act/2018/95-225/srp@/!main~art_51__para_1" >става 1. овог</ref> члана мора се пружити могућност да присуствују прегледу просторија, објеката, земљишта односно стамбеног простора. Ако ова лица не користе могућност да присуствују прегледу земљишта, просторија, односно стана, а царински службеник оцени да се на тај начин онемогућава или одлаже спровођење царинске контроле, обавиће контролу и без њиховог присуства, уз присуство два пунолетна сведока, и ту чињеницу унети у записник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav9">
+						<content>
+							<p>Царински службеник саставља записник о утврђеном чињеничном стању и доставља га лицу код којег је спроведена накнадна царинска контрола у року од пет дана од дана завршетка контроле. Лице код којег је спроведена накнадна царинска контрола има право да поднесе примедбе на записник у року од пет дана од дана пријема. Ако су у примедбама изнети нови докази и чињенице, због којих би требало променити чињенично стање утврђено у записнику или изменити раније правне оцене, царински службеник ће о таквим доказима и чињеницама или о новим правним оценама саставити допунски записник и доставити га лицу коме је достављен записник, а на који се не могу износити нове примедбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav10">
+						<content>
+							<p>Ако се након спроведене накнадне царинске контроле утврди да прописи који се односе на одређени царински поступак нису правилно примењени, на основу записника о утврђеном чињеничном стању, односно допунског записника, доноси се решење у царинско-управном поступку без одлагања, а најкасније у року од 60 дана од дана достављања записника, односно допунског записника, на решавање у царинско-управном поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan51-stav11">
+						<content>
+							<p>Начин вршења накнадне контроле, на предлог директора Управе царина, ближе прописује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan52">
+					<num>52.</num>
+					<heading>Унутрашња контрола</heading>
+					<paragraph wId="gla4-clan52-stav1">
+						<content>
+							<p>У вршењу унутрашње контроле рада царинске службе, царински службеници који обављају послове унутрашње контроле овлашћени су да предузимају радње, утврђују чињенично стање и прикупљају доказе у циљу вођења дисциплинског поступка за повреде службене дужности, и подносе кривичне пријаве за кривична дела извршена на раду или у вези са радом у Управи царина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan52-stav2">
+						<content>
+							<p>Начин вршења унутрашње контроле, на предлог директора Управе царина, ближе прописује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan53">
+					<num>53.</num>
+					<paragraph wId="gla4-clan53-stav1">
+						<intro>
+							<p>Царински службеници који обављају послове унутрашње контроле поред свих овлашћења царинских службеника прописаних овим законом имају и овлашћења да:</p>
+						</intro>
+						<point wId="gla4-clan53-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> остваре увид у списе, документацију и збирке података које у складу са својим надлежностима прибавља, сачињава или издаје Управа царина;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan53-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> издају налог да царински службеник или намештеник не напушта радно место или да задрже царинског службеника или намештеника на радном месту најдуже до шест сати након завршетка радног времена, када за то постоје оправдани разлози контроле;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan53-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> у циљу прикупљања доказа од утицаја на покретање дисциплинског поступка узму изјаве од царинских службеника и намештеника, као и од оштећених лица и сведока;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan53-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> од свих организационих јединица у саставу Управе царина, као и царинских службеника и намештеника захтевају достављање других података и информација из њихове надлежности који су потребни за вршење послова унутрашње контроле;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan53-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> остваре увид и изврше претрес службених просторија, инвентара и возила које царински службеници и намештеници користе, као и да изврше лични претрес царинских службеника и намештеника за које постоје основи сумње да су повредили дужности из радног односа, као и да привремено задрже предмете за које постоји основи сумње да се користе у циљу извршења повреде прописа или да су настали као последица извршене повреде прописа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan53-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> припреме захтев за достављање информација, обавештења и уверења од других државних органа и организација, институција и привредних субјеката, који се тичу вршења послова из надлежности унутрашње контроле Управе царина.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan53-stav2">
+						<content>
+							<p>У поступку прибављања тражених података из става 1. тачке <ref wId="ref24" href="akn/rs/act/2018/95-225/srp@/!main~art_53__para_1__point_6" >6</ref>) овог члана, Управа царина не плаћа таксе, накнаде и друге трошкове.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРИКУПЉАЊЕ, ЕВИДЕНТИРАЊЕ, ОБРАДА И ЗАШТИТА ПОДАТАКА КОЈИ СУ У ВЕЗИ СА ПОСЛОВИМА ЦАРИНСКЕ СЛУЖБЕ</heading>
+				<article wId="gla5-clan54">
+					<num>54.</num>
+					<paragraph wId="gla5-clan54-stav1">
+						<content>
+							<p>Управа царина прикупља податке о личности и друге податке за обављање послова из своје надлежности, непосредно од лица на које се ти подаци односе, као и од лица која поседују тражене податке или из већ постојећих евиденција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan54-stav2">
+						<content>
+							<p>Ако царински службеник, за обављање послова из делокруга рада, прикупља податке о личности или друге податке из већ постојећих евиденција, органи, организације и други субјекти који те податке воде по службеној дужности, на захтев царинског службеника (Управе царина), пружиће те податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan54-stav3">
+						<content>
+							<p>У циљу идентификације физичког лица, Управа царина од података о личности прикупља и обрађује име и презиме, адресу и ЈМБГ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan54-stav4">
+						<content>
+							<p>У зависности од врсте царинског поступка и процедуре, Управа царина може прикупљати и обрађивати и друге податке о личности: фотографију, е-маил, број телефона, занимање, као и друге потребне податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan54-stav5">
+						<content>
+							<p>Царински службеник је дужан да физичко лице обавести о сврси прикупљања и обраде података о личности у складу са законом којим се уређује заштита података о личности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan55">
+					<num>55.</num>
+					<paragraph wId="gla5-clan55-stav1">
+						<content>
+							<p>Управа царина своди прикупљање и обраду података о личности на меру и у сврху која је неопходна ради обављања послова из своје надлежности и спровођења царинских поступака и процедура и врши следеће радње обраде: прикупљање, бележење, копирање, преношење, претраживање, прослеђивање, разврставање, обједињавање, коришћење, стављање на увид, мењање, снимање, као и спровођење других радњи у вези са наведеним подацима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan55-stav2">
+						<content>
+							<p>Размењивање и уступање података о личности другим државним органима, организацијама, носиоцима јавних овлашћења и страним царинским администрацијама и међународним организацијама обавља се у складу са законом, закљученим уговорима и споразумима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan56">
+					<num>56.</num>
+					<paragraph wId="gla5-clan56-stav1">
+						<content>
+							<p>Подаци о личности садржани у папирној документацији чувају се у складу са прописима којима се уређује канцеларијско пословање и заштићени су од неовлашћеног приступа и коришћења података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan56-stav2">
+						<content>
+							<p>Подаци о личности садржани у електронској форми чувају се у складу са прописима којима се уређује канцеларијско пословање на заштићеним носачима података којима царински службеник приступа пријавом у информациони систем својим корисничким именом и лозинком.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan56-stav3">
+						<content>
+							<p>У циљу заштите података о личности, Управа царина је дужна да обезбеди неопходне техничке, организационе и кадровске услове како би се подаци о личности заштитили од уништења, губитка неовлашћеног приступа, обраде, откривања и злоупотребе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan57">
+					<num>57.</num>
+					<paragraph wId="gla5-clan57-stav1">
+						<content>
+							<p>Управа царина води евиденцију података о личности и о другим подацима који се прикупљају и обједињују у вези са обављањем њених послова, у складу са законом којим се уређује заштита података о личности, другим законима којима је уређена заштита, прикупљање и чување података о личности и података о привредним активностима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan57-stav2">
+						<intro>
+							<p>Управа царина, ради обављања послова царинске службе, води евиденције које прикупљају, користе и одржавају царински службеници, и то:</p>
+						</intro>
+						<point wId="gla5-clan57-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> евиденцију царинских декларација;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> евиденцију повластица;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> евиденцију робе под царинским надзором;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> евиденцију о обрачуну, наплати и принудној наплати царинског дуга;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> евиденцију поднетих средстава обезбеђења царинског дуга;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> евиденцију о царинским заступницима;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> друге евиденције.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan58">
+					<num>58.</num>
+					<paragraph wId="gla5-clan58-stav1">
+						<content>
+							<p>Тајност података и начин њиховог коришћења одређује директор у складу са законом који регулише тајност података и другим прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan58-stav2">
+						<content>
+							<p>Подаци из евиденције коју води и користи Управа царина чувају се у роковима предвиђеним прописима.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРАВА, ДУЖНОСТИ И ОДГОВОРНОСТИ ЦАРИНСКИХ СЛУЖБЕНИКА</heading>
+				<article wId="gla6-clan59">
+					<num>59.</num>
+					<heading>Пријем у царинску службу и попуњавање слободних радних места</heading>
+					<paragraph wId="gla6-clan59-stav1">
+						<intro>
+							<p>У Управу царина, као царински службеник може да се запосли лице које, поред услова утврђених за пријем државних службеника и намештеника и других услова предвиђених овим законом, испуњава следеће услове:</p>
+						</intro>
+						<point wId="gla6-clan59-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да није осуђивано за кривично дело на казну затвора (условно или безусловно) од најмање три месеца, нити је осуђивано за кажњиво дело које га чини неподобним за обављање послова у Управи царина;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan59-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да испуњава опште и посебне здравствене и психофизичке услове за вршење послова радног места;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan59-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> да се против лица не води кривични поступак за кривично дело које се гони по службеној дужности;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan59-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> и друге услове одређене актом о унутрашњем уређењу и систематизацији радних места у Управи царина.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan60">
+					<num>60.</num>
+					<paragraph wId="gla6-clan60-stav1">
+						<content>
+							<p>Уколико се пријем царинских службеника у радни однос на неодређено време у Управу царина спроводи путем јавног конкурса, јавни конкурс расписује Централа Управе царина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan60-stav2">
+						<content>
+							<p>Јавни конкурс спроводи конкурсна комисија коју именује директор, односно управник царинарнице за попуњавање радних места у царинарници, тако да један њен члан обавезно буде државни службеник из организационе јединице надлежне за управљање људским ресурсима у Централи Управе царина, односно царинарници. По потреби, као и у случају да постоје финансијске и просторно-организационе могућности, као члан конкурсне комисије може бити именован и државни службеник из Службе за управљање кадровима. Конкурсна комисија има председника и два члана који, по потреби, могу имати заменике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan61">
+					<num>61.</num>
+					<heading>Рад на одређено време</heading>
+					<paragraph wId="gla6-clan61-stav1">
+						<content>
+							<p>Радни однос на одређено време у Управи царина, поред случајева утврђених за заснивање радног односа на одређено време државних службеника и намештеника, може да се заснује без расписивања јавног конкурса и ради попуњавања упражњеног радног места, до окончања поступка попуне на неодређено време.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan62">
+					<num>62.</num>
+					<heading>Звања царинских службеника</heading>
+					<paragraph wId="gla6-clan62-stav1">
+						<content>
+							<p>Радна места царинских службеника разврставају се у царинска звања у зависности од сложености послова, овлашћења и одговорности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan63">
+					<num>63.</num>
+					<paragraph wId="gla6-clan63-stav1">
+						<content>
+							<p>У звању вишег царинског саветника и вишег царинског инспектора обављају се најсложенији послови царинске службе и са њима повезани послови који знатно утичу на постизање резултата у некој области из делокруга Управе царина, који захтевају стваралачке способности, предузимљивост и висок степен стручности, самосталности и искуства. За рад на пословима у звању вишег царинског саветника и вишег царинског инспектора царински службеник мора да има стечено високо образовање на основним академским студијама у обиму од најмање 240 ЕСПБ бодова, мастер академским студијама, специјалистичким академским студијама, специјалистичким струковним студијама, односно на основним студијама у трајању од најмање четири године или специјалистичким студијама на факултету и најмање седам година радног искуства у струци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan63-stav2">
+						<content>
+							<p>У звању самосталног царинског саветника и самосталног царинског инспектора обављају се сложени послови царинске службе и са њима повезани послови који захтевају посебно специјалистичко знање и искуство, аналитичке способности, самосталан рад без надзора претпостављеног и доношење одлука у сложеним случајевима уз само општа усмерења и упутства претпостављеног. За рад на пословима у звању самосталног царинског саветника и самосталног царинског инспектора царински службеник мора да има стечено високо образовање на основним академским студијама у обиму од најмање 240 ЕСПБ бодова, мастер академским студијама, специјалистичким академским студијама, специјалистичким струковним студијама, односно на основним студијама у трајању од најмање четири године или специјалистичким студијама на факултету и најмање пет година радног искуства у струци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan63-stav3">
+						<content>
+							<p>У звању царинског саветника и царинског инспектора обављају се сложени послови царинске службе и са њима повезани послови који захтевају способност да се проблеми решавају без појединачних упутстава, углавном су прецизно одређени и подразумевају примену утврђених метода рада, поступака или стручних техника са јасним оквиром самосталног деловања, уз повремени надзор претпостављеног и обраћање само када је проблем сложен и захтева додатно знање и искуство. За рад на пословима у звању царинског саветника и царинског инспектора царински службеник мора да има стечено високо образовање на основним академским студијама у обиму од најмање 240 ЕСПБ бодова, мастер академским студијама, специјалистичким академским студијама, специјалистичким струковним студијама, односно на основним студијама у трајању од најмање четири године или специјалистичким студијама на факултету и најмање три године радног искуства у струци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan63-stav4">
+						<content>
+							<p>У звању млађег царинског саветника и млађег царинског инспектора обављају се сложени послови царинске службе и са њима повезани послови који подразумевају примену утврђених метода рада, поступака или стручних техника унутар прецизно одређеног оквира деловања, уз редован надзор претпостављеног и доношење одлука на основу постојеће праксе или општих или појединачних упутстава претпостављеног. За рад на пословима у звању млађег царинског саветника и млађег царинског инспектора царински службеник мора да има стечено високо образовање на основним академским студијама у обиму од најмање 240 ЕСПБ бодова, мастер академским студијама, специјалистичким академским студијама, специјалистичким струковним студијама, односно на основним студијама у трајању од најмање четири године или специјалистичким студијама на факултету и завршен приправнички стаж или најмање пет година радног стажа у државним органима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan64">
+					<num>64.</num>
+					<paragraph wId="gla6-clan64-stav1">
+						<content>
+							<p>У звању царинског сарадника и царинског прегледача обављају се мање сложени послови царинске службе и са њима повезани послови који обухватају ограничен круг међусобно повезаних различитих задатака и захтевају способност самосталне примене утврђених метода рада, поступака или стручних техника унутар прецизно одређеног оквира деловања, уз општа усмерења и упутства и повремени надзор претпостављеног. За рад на пословима у звању царинског сарадника и царинског прегледача царински службеник мора да има стечено високо образовање на основним академским студијама у обиму од најмање 180 ЕСПБ бодова, основним струковним студијама, односно на студијама у трајању до три године и најмање три године радног искуства у струци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan64-stav2">
+						<content>
+							<p>У звању млађег царинског сарадника и млађег царинског прегледача обављају се мање сложени послови царинске службе и са њима повезани послови који су прецизно одређени и подразумевају примену утврђених метода рада, поступака или стручних техника уз способност решавања рутинских проблема, уз општа и појединачна упутства и редован надзор претпостављеног. За рад на пословима у звању млађег царинског сарадника и млађег царинског прегледача царински службеник мора да има стечено високо образовање на основним академским студијама у обиму од најмање 180 ЕСПБ бодова, основним струковним студијама, односно на студијама у трајању до три године и завршен приправнички стаж или најмање пет година радног стажа у државним органима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan65">
+					<num>65.</num>
+					<paragraph wId="gla6-clan65-stav1">
+						<content>
+							<p>У звању царинског референта и царинског надзорника обављају се стручно-оперативни, административни и технички и други претежно рутински послови царинске службе и са њима повезани послови који обухватају широк круг задатака и захтевају познавање и примену једноставнијих метода рада или поступака, а раде се самостално и уз повремени надзор претпостављеног. За рад на пословима у звању царинског референта и царинског надзорника царински службеник мора да има завршену средњу школу и најмање две године радног искуства у струци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan65-stav2">
+						<content>
+							<p>У звању млађег царинског референта и млађег царинског надзорника обављају се стручно-оперативни, административни и технички и други рутински послови царинске службе и са њима повезани послови са ограниченим кругом сличних задатака који захтевају познавање и примену једноставнијих метода рада или поступака, уз повремени надзор претпостављеног. За рад на пословима у звању млађег царинског референта и млађег царинског надзорника царински службеник мора да има завршену средњу школу и шест месеци радног искуства у струци, односно завршен приправнички стаж.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan66">
+					<num>66.</num>
+					<paragraph wId="gla6-clan66-stav1">
+						<intro>
+							<p>Код преузимања царинских службеника у други државни орган, царинска звања уподобљавају се звањима државних службеника, и то:</p>
+						</intro>
+						<point wId="gla6-clan66-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> виши царински саветник и виши царински инспектор звању виши саветник,</p>
+							</content>
+						</point>
+						<point wId="gla6-clan66-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> самостални царински саветник и самостални царински инспектор звању самостални саветник,</p>
+							</content>
+						</point>
+						<point wId="gla6-clan66-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> царински саветник и царински инспектор звању саветник,</p>
+							</content>
+						</point>
+						<point wId="gla6-clan66-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> млађи царински саветник и млађи царински инспектор звању млађи саветник,</p>
+							</content>
+						</point>
+						<point wId="gla6-clan66-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> царински сарадник и царински прегледач звању сарадник,</p>
+							</content>
+						</point>
+						<point wId="gla6-clan66-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> млађи царински сарадник и млађи царински прегледач звању млађи сарадник,</p>
+							</content>
+						</point>
+						<point wId="gla6-clan66-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> царински референт и царински надзорник звању референт,</p>
+							</content>
+						</point>
+						<point wId="gla6-clan66-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> млађи царински референт и млађи царински надзорник звању млађи референт.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan67">
+					<num>67.</num>
+					<heading>Дужности царинских службеника</heading>
+					<paragraph wId="gla6-clan67-stav1">
+						<content>
+							<p>Лице које се први пут прима у Управу царина, полаже и потписује заклетву следеће садржине:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav2">
+						<content>
+							<p>„Заклињем се да ћу поштовати Устав Републике Србије и законе, да ћу савесно и одговорно обављати послове царинског службеника/намештеника и да ћу градити и чувати углед Управе царина.”</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan67-stav3">
+						<content>
+							<p>Потписана заклетва чува се у персоналном досијеу царинског службеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan68">
+					<num>68.</num>
+					<heading>Сукоб интереса</heading>
+					<paragraph wId="gla6-clan68-stav1">
+						<content>
+							<p>Царински службеник не сме да прими поклон у вези са вршењем послова царинске службе, без обзира на његову вредност, изузев поклона у виду рекламног материјала мање вредности, нити било какву услугу или другу корист за себе или друга лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan68-stav2">
+						<content>
+							<p>Царински службеник не сме да користи рад у Управи царина да би утицао на остваривање својих права или права са њиме повезаних лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan68-stav3">
+						<content>
+							<p>На одређивање круга повезаних лица и на пријем поклона примењују се прописи којима се уређује спречавање сукоба интереса при вршењу јавних функција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan69">
+					<num>69.</num>
+					<paragraph wId="gla6-clan69-stav1">
+						<content>
+							<p>Царински службеник и намештеник, приликом заснивања радног односа, под пуном материјалном и кривичном одговорношћу, даје Управи царина писану изјаву о свом имовинском стању, имовинском стању чланова своје уже породице, као и писану изјаву да могу да се врше провере у вези приказаног стања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan69-stav2">
+						<content>
+							<p>Царински службеник и намештеник је дужан да пријави сваку промену у смислу <ref wId="ref25" href="akn/rs/act/2018/95-225/srp@/!main~art_69__para_1" >става 1. овог</ref> члана чија вредност прелази износ годишње просечне зараде без пореза и доприноса у Републици Србији, и то у року од 30 дана од када је промена настала.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan69-stav3">
+						<content>
+							<p>Писана изјава из <ref wId="ref26" href="akn/rs/act/2018/95-225/srp@/!main~art_69__para_1->para_2" >ст. 1. и 2. овог</ref> члана чува се у персоналном досијеу царинског службеника, у који могу имати увид царински службеници унутрашњих јединица за људске ресурсе и за унутрашњу контролу, ради провере могућих злоупотреба почињених од стране царинског службеника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan69-stav4">
+						<content>
+							<p>Члановима уже породице, у смислу одредбе овог члана сматрају се брачни и ванбрачни друг, деца (брачна, ванбрачна, усвојена и на издржавању), а родитељи царинског службеника, као и родитељи брачног друга, ако их царински службеник издржава или са њима живи у заједничком домаћинству.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan70">
+					<num>70.</num>
+					<paragraph wId="gla6-clan70-stav1">
+						<content>
+							<p>Царински службеник не може да буде власник или сувласник привредног субјекта чија је делатност у вези са радом Управе царина, не сме да се бави предузетништвом нити да обавља други плаћени или неплаћени посао који је забрањен посебним законом или другим прописом, који ствара могућност сукоба интереса или утиче на непристрасност рада царинског службеника, или је у вези са његовим послом у Управи царина или са радом Управе царина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav2">
+						<content>
+							<p>У царинској служби не може да на пословима царинског службеника ради лице чији је члан уже породице, дефинисан у <ref wId="ref27" href="akn/rs/act/2018/95-225/srp@/!main~art_69__para_4" >члану 69. став 4. овог</ref> закона, власник или сувласник привредног субјекта, чија је делатност у вези са радом Управе царина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav3">
+						<content>
+							<p>Уколико се утврди да је наступила околност из <ref wId="ref28" href="akn/rs/act/2018/95-225/srp@/!main~art_70__para_2" >става 2. овог</ref> члана, а нема одговарајућег радног места на које царински службеник може да буде распоређен, он остаје нераспоређен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav4">
+						<content>
+							<p>Послове и делатности из <ref wId="ref30" href="akn/rs/act/2018/95-225/srp@/!main~art_70__para_1->para_2" >ст. 1. и 2. овог</ref> члана, као и поступак из <ref wId="ref29" href="akn/rs/act/2018/95-225/srp@/!main~art_70__para_3" >става 3. овог</ref> члана, ближе одређује министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav5">
+						<content>
+							<p>Царински службеник је дужан да да писану изјаву о чињеницама из <ref wId="ref31" href="akn/rs/act/2018/95-225/srp@/!main~art_70__para_1->para_2" >ст. 1. и 2. овог</ref> члана и да пријави сваку промену, у року од 30 дана од дана настале промене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav6">
+						<content>
+							<p>Изјава из <ref wId="ref32" href="akn/rs/act/2018/95-225/srp@/!main~art_70__para_5" >става 5. овог</ref> члана чува се у персоналном досијеу царинског службеника, у који могу имати увид царински службеници унутрашњих јединица за људске ресурсе и за унутрашњу контролу, ради провере могућих злоупотреба почињених од стране царинског службеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan71">
+					<num>71.</num>
+					<paragraph wId="gla6-clan71-stav1">
+						<content>
+							<p>Царински службеник и намештеник дужан је да се ван радног времена понаша на начин којим се чува углед и достојанство царинске службе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan72">
+					<num>72.</num>
+					<paragraph wId="gla6-clan72-stav1">
+						<content>
+							<p>Ако царински службеник спроводи царински поступак у коме је учесник лице које је са њим у сродству (крвном сродству у правој линији без ограничења, у побочној закључно до четвртог степена или у тазбинском сродству закључно до другог степена сродства), или у односу старатеља, усвојитеља, усвојеника или хранитеља, или у коме је учесник предузеће чији је власник или сувласник са њим у истакнутом односу сродства, у односу старатеља, усвојитеља, усвојеника или хранитеља, одмах ће о томе обавестити свог непосредног руководиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan72-stav2">
+						<content>
+							<p>Царински службеник, у случајевима из <ref wId="ref33" href="akn/rs/act/2018/95-225/srp@/!main~art_72__para_1" >става 1. овог</ref> члана, одмах ће се изузети из царинског поступка у складу са законом који уређује општи управни поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan73">
+					<num>73.</num>
+					<paragraph wId="gla6-clan73-stav1">
+						<content>
+							<p>Царински службеници не смеју да користе податке, сазнања и обавештења које имају или су им доступни приликом обављања послова службе, у неслужбене сврхе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan73-stav2">
+						<content>
+							<p>Царински службеници не смеју да користе нити да дају обавештења, податке или сазнања за остваривање било какве имовинске или друге користи за себе или за друго лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan73-stav3">
+						<content>
+							<p>Дужност заштите службене и друге тајне траје и после престанка радног односа у служби у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan74">
+					<num>74.</num>
+					<paragraph wId="gla6-clan74-stav1">
+						<intro>
+							<p>Царински службеници, запослени у одређеним организационим јединицама унутар Управе царина, због потребе обављања послова из делокруга тих јединица, природе посла и уколико потребе царинске службе то налажу, обављају:</p>
+						</intro>
+						<point wId="gla6-clan74-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> рад у сменама;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan74-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> рад суботом, недељом, празницима и другим нерадним данима;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan74-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> рад дужи од пуног радног времена – прековремени рад;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan74-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> поподневни и ноћни рад;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan74-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> рад у турнусима.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan74-stav2">
+						<content>
+							<p>Рад у сменама и турнусима укључује обављање послова и задатака суботом и недељом, празницима и другим нерадним данима, као и рад у поподневним и ноћним сатима, са прерасподелом у оквиру одређеног редовног месечног, односно годишњег распореда радног времена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan74-stav3">
+						<content>
+							<p>Радом у турнусима сматра се рад који се обавља у сменама од 12 сати, односно 12 сати рада у дневној смени, након чега следи 24 сата одмора, затим 12 сати рада у ноћној смени након чега следи 48 сати одмора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan75">
+					<num>75.</num>
+					<paragraph wId="gla6-clan75-stav1">
+						<content>
+							<p>Сагласно одлуци директора Управе царина царински службеници и намештеници дужни су да буду доступни (у приправности за рад на свом радном месту), ван радног времена ради извршавања неког посла свог радног места.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan76">
+					<num>76.</num>
+					<heading>Кодекс понашања царинских службеника</heading>
+					<paragraph wId="gla6-clan76-stav1">
+						<content>
+							<p>Кодексом понашања царинских службеника утврђују се општа правила понашања царинских службеника приликом обављања послова у Управи царина и ван ње, као и понашање царинских службеника у току и ван радног времена. Кодексом понашања утврђује се понашање царинских службеника према јавности, колегама, руководиоцима и службеницима којима руководе, као и другим државним службеницима. Кодекс понашања, на предлог директора Управе царина, доноси министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan77">
+					<num>77.</num>
+					<heading>Премештај царинских службеника и намештеника</heading>
+					<paragraph wId="gla6-clan77-stav1">
+						<content>
+							<p>Царински службеник може бити трајно или привремено премештен због потреба службе, у исту или другу унутрашњу јединицу, у истом или другом месту рада на друго радно место у истом, непосредно вишем или непосредно нижем звању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan78">
+					<num>78.</num>
+					<paragraph wId="gla6-clan78-stav1">
+						<content>
+							<p>Директор може, на захтев царинског службеника и намештеникa, да одобри његов сталан или привремени премештај, имајући у виду потребе Управе царина и личне разлоге царинског службеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan79">
+					<num>79.</num>
+					<paragraph wId="gla6-clan79-stav1">
+						<content>
+							<p>Поред случајева привременог премештаја државних службеника у истом државном органу уређених прописима о радним односима у државним органима, царински службеник у изузетним случајевима, иако не испуњава услове у погледу радног искуства прописане за то радно место, уколико је потребно да се радно место хитно попуни, може бити премештен на радно место у вишем звању, у трајању до шест месеци, уколико испуњава услове у погледу степена и врсте стручне спреме, као и поседује знања и способности за обављање послова тог радног места.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan79-stav2">
+						<content>
+							<p>Царински службеник који је привремено премештен у складу са <ref wId="ref34" href="akn/rs/act/2018/95-225/srp@/!main~art_79__para_1" >ставом 1. овог</ref> члана, стиче сва права радног места на које је привремено премештен, док премештај траје.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan80">
+					<num>80.</num>
+					<heading>Корективни коефицијент</heading>
+					<paragraph wId="gla6-clan80-stav1">
+						<content>
+							<p>Царински службеници распоређени на радна места разврстана у звање млађи царински надзорник, царински надзорник, млађи царински прегледач и царински прегледач имају право на увећање основног коефицијента утврђеног у складу са законом којим се уређују плате државних службеника и намештеника у висини од 20 одсто.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan80-stav2">
+						<content>
+							<p>Царински службеници који у обављању свог радног места имају овлашћења за ношење и употребу оружја, имају право на увећање основног коефицијента од 20 одсто његове вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan80-stav3">
+						<content>
+							<p>Право на корективни коефицијент из <ref wId="ref35" href="akn/rs/act/2018/95-225/srp@/!main~art_80__para_1" >става 1. овог</ref> члана искључује право на корективни коефицијент из <ref wId="ref36" href="akn/rs/act/2018/95-225/srp@/!main~art_80__para_2" >става 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan80-stav4">
+						<content>
+							<p>Корективни коефицијент утврђује се решењем.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan81">
+					<num>81.</num>
+					<heading>Посебан стручни испит за царинског службеника</heading>
+					<paragraph wId="gla6-clan81-stav1">
+						<content>
+							<p>Царински службеник, поред државног стручног испита, мора да има положен посебан стручни испит за царинског службеника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan81-stav2">
+						<content>
+							<p>Министар ближе уређује програм и начин полагања посебног стручног испита за царинског службеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan82">
+					<num>82.</num>
+					<heading>Рок за полагање посебног стручног испита за царинског службеника</heading>
+					<paragraph wId="gla6-clan82-stav1">
+						<content>
+							<p>Царински службеник има обавезу да положи посебан стручни испит за царинског службеника у року од две године од дана заснивања радног односа, односно од дана распоређивања на радно место царинског службеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan83">
+					<num>83.</num>
+					<heading>Евиденција о положеним испитима</heading>
+					<paragraph wId="gla6-clan83-stav1">
+						<content>
+							<p>Управа царина води Евиденцију о полагању посебног стручног испита за царинског службеника, која садржи: име и презиме кандидата, јединствени матични број грађана, назив завршене средње школе и образовни профил кандидата, односно назив високошколске установе, стечено високо образовање и стручни назив, датум полагања испита, податке о општем успеху на испиту и број и датум издатог уверења о положеном посебном стручном испиту за царинског службеника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan83-stav2">
+						<content>
+							<p>Министар ближе уређује начин уписа и вођења евиденције из <ref wId="ref37" href="akn/rs/act/2018/95-225/srp@/!main~art_83__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan84">
+					<num>84.</num>
+					<heading>Стручно усавршавање царинских службеника</heading>
+					<paragraph wId="gla6-clan84-stav1">
+						<content>
+							<p>Стручно усавршавање царинских службеника остварује су у складу са законом који уређује права и дужности државних службеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan85">
+					<num>85.</num>
+					<heading>Посебни програми обуке царинских службеника</heading>
+					<paragraph wId="gla6-clan85-stav1">
+						<content>
+							<p>Посебне програме обуке царинских службеника спроводи организациона јединица Управе царина надлежна за припрему, развој и спровођење посебних програма стручног усавршавања – Центар за стручно оспособљавање и усавршавање царинских службеника Управе царина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan85-stav2">
+						<content>
+							<p>Управа царина може одлучити да посебни програм обуке спроведе и у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan85-stav3">
+						<content>
+							<p>Царински службеник који учествује у посебном програму обуке који спроводи Центар за стручно оспособљавање и усавршавање царинских службеника Управе царина, остварује право на смештај и исхрану у интернату Управе царина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan86">
+					<num>86.</num>
+					<heading>Провера знања стеченог на стручном усавршавању</heading>
+					<paragraph wId="gla6-clan86-stav1">
+						<content>
+							<p>Центар за стручно оспособљавање и усавршавање царинских службеника Управе царина спроводи проверу знања царинских службеника стеченог на стручном усавршавању из <ref wId="ref38" href="akn/rs/act/2018/95-225/srp@/!main~art_84" >члана 84. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan86-stav2">
+						<content>
+							<p>Директор доноси програм и начин провере знања из <ref wId="ref39" href="akn/rs/act/2018/95-225/srp@/!main~art_86__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan87">
+					<num>87.</num>
+					<heading>Кадровска евиденција</heading>
+					<paragraph wId="gla6-clan87-stav1">
+						<content>
+							<p>Управа царина води евиденцију о личним и професионалним подацима царинских службеника и намештеника. Евиденција о подацима може да се води и у електронској форми и чува се у складу са законом којим се уређује заштита података о личности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan87-stav2">
+						<content>
+							<p>Персонални досије царинског службеника и намештеника је поверљив. Царински службеник и намештеник има право увида у свој персонални досије. Приступ персоналном досијеу је ограничен и податке које садржи, могу користити царински службеници унутрашњих јединица за људске ресурсе и унутрашњу контролу у свом раду, као и непосредни руководилац. Подаци који се налазе у досијеу дају се суду на његов захтев.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan88">
+					<num>88.</num>
+					<heading>Дисциплинска одговорност царинских службеника</heading>
+					<paragraph wId="gla6-clan88-stav1">
+						<content>
+							<p>Царински службеник који не извршава дужности из радног односа или несавесно обавља поверене послове и радне задатке, односно ако се не придржава закона и других прописа или Кодекса понашања царинских службеника, чини повреду службене дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan88-stav2">
+						<content>
+							<p>Царински службеник дисциплински је одговоран за повреде службене дужности, које могу бити лакше и теже.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan89">
+					<num>89.</num>
+					<paragraph wId="gla6-clan89-stav1">
+						<content>
+							<p>Одговорност за кривично дело или прекршај не искључује дисциплинску одговорност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan89-stav2">
+						<content>
+							<p>Царински службеник може бити дисциплински кажњен уколико је радњом извршења која је била предмет кривичног, односно прекршајног поступка, учинио повреду службене дужности, и поред тога што је оптужба одбијена, или је ослобођен кривичне, односно прекршајне одговорности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan89-stav3">
+						<content>
+							<p>Ако је кривични поступак покренут због исте радње извршења, дисциплински поступак се може прекинути до окончања кривичног поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan90">
+					<num>90.</num>
+					<paragraph wId="gla6-clan90-stav1">
+						<content>
+							<p>Лакшом повредом службене дужности, поред оних утврђених законом који уређује радне односе у државним органима, сматра се и повреда правила понашања прописана Кодексом понашања царинских службеника, која није обухваћена неком од тежих повреда службених дужности утврђених овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan91">
+					<num>91.</num>
+					<paragraph wId="gla6-clan91-stav1">
+						<intro>
+							<p>Теже повреде службених дужности, поред оних утврђених законом који уређује радне односе у државним органима, су и:</p>
+						</intro>
+						<point wId="gla6-clan91-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> незаконит рад или пропуштање радњи за које је царински службеник овлашћен ради спречавања незаконитости или штете или прекорачење овлашћења свог радног места, односно примена овлашћења у сврхе за које није намењена;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> уписивање неисправних или неистинитих података у службене исправе, књиге или списа, односно употреба или овера такве службене исправе, књиге или списа као да су истините или уништење истих или подношење лажног обрачуна, односно довођење у заблуду надлежног органа да треба извршити незакониту или неправилну исплату;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> употреба фалсификоване дипломе о завршеној школи и стеченој стручној спреми;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> непредузимање или недовољно предузимање мера заштите на раду;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> одбијање давања података или давање нетачних података уколико је давање тих података прописано Царинским законом, овим законом, другим законима и прописима донетим на основу закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> понашање на раду или ван рада које наноси штету угледу царинске службе;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> неношење или непрописно и неуредно ношење службеног одела или службених ознака;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> злоупотреба службене одеће, ознака, оружја или службене легитимације при обављању или у вези са обављањем послова службе, као и ван рада;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> одбијање тестирања на алкохол, односно одбијање стручног прегледа којим се утврђује присутност алкохола или неког другог наркотичког средства у организму, а које умањује способност за рад;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> одбијање здравственог прегледа или неоправдано избегавање прописаног здравственог прегледа;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan91-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> обављање плаћеног и неплаћеног посла који је забрањен посебним законом или другим прописом, који ствара могућност сукоба интереса или утиче на непристрасност рада царинског службеника, или је у вези са његовим послом у Управи царина или са радом Управе царина.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan92">
+					<num>92.</num>
+					<heading>Дисциплинске мере и казне</heading>
+					<paragraph wId="gla6-clan92-stav1">
+						<intro>
+							<p>Поред дисциплинских казни за лакше и теже повреде службене дужности утврђених законом који уређује радне односе у државним органима, може се изрећи:</p>
+						</intro>
+						<point wId="gla6-clan92-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> дисциплинска мера – јавна опомена, за лакшу повреду службене дужности;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan92-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> новчана казна у висини од 10% до 30% основне плате за месец у коме је новчана казна изречена у трајању до 12 месеци, за тежу повреду службене дужности.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan92-stav2">
+						<content>
+							<p>Јавна опомена извршава се објављивањем коначне одлуке којом је иста изречена на огласним таблама царинарница и огласној табли Централе Управе царина, у трајању од 30 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan92-stav3">
+						<content>
+							<p>Царинском службенику коме је изречена дисциплинска казна престанка радног односа, радни однос престаје даном уручења коначног решења којим је дисциплинска казна изречена, односно даном коначности предметног решења, уколико жалба није изјављена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan93">
+					<num>93.</num>
+					<heading>Дисциплински поступак због лакше повреде службене дужности</heading>
+					<paragraph wId="gla6-clan93-stav1">
+						<content>
+							<p>Дисциплински поступак због лакше повреде службене дужности, на предлог непосредног руководиоца, покреће, води и о дисциплинској одговорности у виду решења одлучује директор Управе царина за царинске службенике у Централи Управе царина, односно управник царинарнице за царинске службенике у царинарници.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan93-stav2">
+						<content>
+							<p>Директор Управе царина, односно управник царинарнице може одредити царинског или државног службеника са завршеним Правним факултетом да спроведе одређене радње које су од значаја за покретање и вођење дисциплинског поступка, утврђивање дисциплинске одговорности за лакшу повреду службене дужности и изрицање дисциплинске мере, односно казне.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan94">
+					<num>94.</num>
+					<heading>Дисциплински поступак због теже повреде службене дужности</heading>
+					<paragraph wId="gla6-clan94-stav1">
+						<content>
+							<p>Дисциплински поступак због теже повреде службене дужности покрећу помоћник директора сектора, руководилац организационе јединице ван сектора и управник царинарнице против царинских службеника распоређених у организационим јединицама којима руководе, док дисциплински поступак против руководилаца организационих јединица ван сектора и управника царинарнице покреће помоћник директора – координатор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan94-stav2">
+						<content>
+							<p>Дисциплински поступак може покренути и начелник Одељења за унутрашњу контролу у случајевима које, на предлог директора, ближе утврђује министар у акту којим се уређује начин спровођења дисциплинског поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan94-stav3">
+						<content>
+							<p>У сваком случају, дисциплински поступак за тежу повреду службене дужности може покренути и директор Управе царина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan95">
+					<num>95.</num>
+					<paragraph wId="gla6-clan95-stav1">
+						<content>
+							<p>Дисциплински поступак због теже повреде службене дужности води и директору подноси предлог одлуке о одговорности дисциплинска комисија Управе царина (у даљем тексту: дисциплинска комисија), састављена у већу од три члана (председник и два члана).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan95-stav2">
+						<content>
+							<p>Коначну одлуку о одговорности у дисциплинском поступку доноси директор у виду решења, којим се царински службеник ослобађа од одговорности или оглашава кривим и изриче му се дисциплинска казна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan95-stav3">
+						<content>
+							<p>У случају постојања разлога за обуставу поступка, директор, на предлог дисциплинске комисије, доноси решење којим се дисциплински поступак обуставља.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan95-stav4">
+						<content>
+							<p>Дисциплинска комисија није везана за правну квалификацију повреде службене дужности назначену у акту о покретању дисциплинског поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan96">
+					<num>96.</num>
+					<paragraph wId="gla6-clan96-stav1">
+						<content>
+							<p>Начин спровођења дисциплинског поступка због лакше и теже повреде службене дужности, састав, избор и број чланова дисциплинске комисије, избор већа дисциплинске комисије, као и поступак утврђивања присутности алкохола или неког другог наркотичког средства у организму, а које умањује способност за рад, на предлог директора, ближе уређује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan97">
+					<num>97.</num>
+					<paragraph wId="gla6-clan97-stav1">
+						<content>
+							<p>Застарелост за покретање и вођење дисциплинског поступка наступа протеком рокова прописаних законом који уређује радне односе у државним органима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan97-stav2">
+						<content>
+							<p>Застарелост дисциплинског поступка не тече док дисциплински поступак није могуће покренути или водити због одсуства царинског службеника (боловање, годишњи одмор и други разлози одсуствовања са рада) или из других оправданих разлога.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan97-stav3">
+						<content>
+							<p>Застарелост дисциплинског поступка не тече и за време док траје судски спор чији је предмет испитивање правилности дисциплинске одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan97-stav4">
+						<content>
+							<p>Ако је кривични поступак покренут због исте радње извршења, дисциплински поступак се може прекинути до окончања кривичног поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan98">
+					<num>98.</num>
+					<paragraph wId="gla6-clan98-stav1">
+						<content>
+							<p>Дисциплинска мера, односно казна, изречена коначним решењем уписује се у одговарајућу евиденцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan98-stav2">
+						<content>
+							<p>Дисциплинска мера, односно казна, брише се из евиденције ако царинском службенику не буде изречена нова дисциплинска мера, односно казна, у наредне две године од изречене дисциплинске мере, односно казне, за лакшу повреду службене дужности, или у наредне четири године од изречене дисциплинске казне за тежу повреду службене дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan98-stav3">
+						<content>
+							<p>О раније изреченим дисциплинским мерама, односно казнама, дисциплинска комисија води рачуна само ако у време спровођења поступка нису брисане из евиденције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan99">
+					<num>99.</num>
+					<paragraph wId="gla6-clan99-stav1">
+						<content>
+							<p>Царинском службенику који је привремено удаљен са рада одузима се службена легитимација, службена значка, оружје и друга опрема и ствари са којима је био задужен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan99-stav2">
+						<content>
+							<p>Царински службеник који је привремено удаљен са рада не сме да носи службено одело.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan100">
+					<num>100.</num>
+					<paragraph wId="gla6-clan100-stav1">
+						<intro>
+							<p>Царински службеник за време док је био привремено удаљен са рада има право на разлику између исплаћене накнаде плате и пуног износа основне плате:</p>
+						</intro>
+						<point wId="gla6-clan100-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако је ослобођен од одговорности у правоснажно окончаном дисциплинском поступку или је поступак обустављен због одустанка подносиоца дисциплинског захтева или је захтев за покретање дисциплинског поступка одбијен;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan100-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је у правноснажно окончаном кривичном поступку ослобођен од оптужбе или оптужба буде одбијена, али не због ненадлежности или је кривични поступак против њега обустављен правноснажном одлуком, али не ако је склопљен споразум о одлагању кривичног гоњења.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕСТАНАК РАДНОГ ОДНОСА</heading>
+				<article wId="gla7-clan101">
+					<num>101.</num>
+					<heading>Престанак радног односа по сили закона</heading>
+					<paragraph wId="gla7-clan101-stav1">
+						<intro>
+							<p>Поред случајева предвиђених другим прописима који регулишу права запослених у државном органу као и разлога утврђених општим прописима о раду, царинском службенику престаје радни однос по сили закона и:</p>
+						</intro>
+						<point wId="gla7-clan101-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако је правноснажно осуђен за кривично дело учињено на раду или у вези са радом у царинској служби без обзира на врсту и висину кривичне санкције-даном достављања правноснажне одлуке суда.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan102">
+					<num>102.</num>
+					<heading>Посебне одредбе о намештеницима</heading>
+					<paragraph wId="gla7-clan102-stav1">
+						<content>
+							<p>Пријем намештеника у радни однос у Управу царина врши се непосредно или посредно преко Националне службе за запошљавање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan102-stav2">
+						<content>
+							<p>У погледу услова за пријем у радни однос намештеника у Управу царина, примењују се одредбе овог закона којима су прописани услови за пријем царинских службеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan103">
+					<num>103.</num>
+					<heading>Средства за рад Управе царина</heading>
+					<paragraph wId="gla7-clan103-stav1">
+						<content>
+							<p>Средства за рад царинске службе обезбеђују се из буџета Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan103-stav2">
+						<content>
+							<p>Распоред средства одобрених за финансирање рада царинске службе врши се према предрачуну унутрашњих јединица, односно Финансијском плану расхода, који доноси директор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan104">
+					<num>104.</num>
+					<paragraph wId="gla7-clan104-stav1">
+						<content>
+							<p>Управа царина је дужна да извршава своје обавезе у складу са прописима који уређују спровођење и унапређење безбедности и здравља на раду лица која учествују у радном процесу, као и лица која се затекну у радној околини, како би се спречиле повреде на раду, професионална обољења и обољења у вези са радом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan104-stav2">
+						<content>
+							<p>Царински службеници који прегледају превозна средства, царинску и другу робу у царинским и другим складиштима, царински службеници који обављају стручне и помоћне послове у царинској лабораторији, имају право на радну одећу и друга заштитна средства (маске, рукавице, специјална одећа и др.).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan105">
+					<num>105.</num>
+					<paragraph wId="gla8-clan105-stav1">
+						<content>
+							<p>Царински службеници који на дан ступања на снагу овог закона немају положен посебан стручни испит за царинског службеника, дужни су да исти положе најкасније у року од три године од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan106">
+					<num>106.</num>
+					<paragraph wId="gla8-clan106-stav1">
+						<content>
+							<p>Поступци одлучивања о правима, обавезама и одговорностима царинских службеника, започети пре ступања на снагу овог закона, окончаће се применом прописа који су важили пре ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan107">
+					<num>107.</num>
+					<paragraph wId="gla8-clan107-stav1">
+						<content>
+							<p>Подзаконски акти за извршавање овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan107-stav2">
+						<content>
+							<p>До доношења и ступања на снагу подзаконских аката из <ref wId="ref45" href="akn/rs/act/2018/95-225/srp@/!main~art_107__para_1" >става 1. овог</ref> члана, примењиваће се подзаконски акти донети на основу Царинског закона („Службени гласник РС”, бр. <ref wId="ref40" href="akn/rs/act/03/73/srp@">73/03</ref>, <ref wId="ref41" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref42" href="akn/rs/act/05/85/srp@">85/05</ref> – др. закон, <ref wId="ref43" href="akn/rs/act/06/62/srp@">62/06 – др. закон</ref>, 9/10 – УС и <ref wId="ref44" href="akn/rs/act/10/18/srp@">18/10 – др. закон</ref>) ако нису у супротности са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan108">
+					<num>108.</num>
+					<paragraph wId="gla8-clan108-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престају да важе <ref wId="ref46" href="akn/rs/act/2018/95-225/srp@/!main~art_252->art_329" >чл. 252</ref>–329. Царинског закона („Службени гласник РС”, бр. <ref wId="ref47" href="akn/rs/act/03/73/srp@">73/03</ref>, <ref wId="ref48" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref49" href="akn/rs/act/05/85/srp@">85/05</ref> – др. закон, <ref wId="ref50" href="akn/rs/act/06/62/srp@">62/06 – др. закон</ref>, 9/10 – УС и <ref wId="ref51" href="akn/rs/act/10/18/srp@">18/10 – др. закон</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan109">
+					<num>109.</num>
+					<paragraph wId="gla8-clan109-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan109-stav2">
+						<content>
+							<p>о царинској служби</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan109-stav3">
+						<content>
+							<p>&quot;Службени гласник РС&quot;, број <ref wId="ref52" href="akn/rs/act/2018/95/srp@">95 од 8. децембра 2018</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

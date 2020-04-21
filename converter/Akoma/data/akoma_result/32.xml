@@ -1,0 +1,962 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о референдуму и народној иницијативи">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/1994/48-1506/main"/>
+					<FRBRuri value="akn/rs/act/1994/48-1506"/>
+					<FRBRdate date="1994-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/1998/11-273/srp@/main"/>
+					<FRBRuri value="akn/rs/act/1998/11-273/srp@"/>
+					<FRBRdate date="1998-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/1998/11-273/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/1998/11-273/srp@.akn"/>
+					<FRBRdate date="1998-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1994-07-20" name="службени гласник рс“" number="48" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="13. Избори, референдум и народна иницијатива" value="13. избори, референдум и народна иницијатива" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1994-01-01" refersTo="48/1994-1506" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="1998-01-01" refersTo="11/1998-273" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="1994-07-19" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="1994-07-28" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="1994-07-28" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="одлучивања"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="непосредног"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="остваривања"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="референдумом"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="иницијативе"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="изјашњавања"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="народне"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="грађана"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="односно"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republička komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnom sudu"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Građanin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organ"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Referendum"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. jula"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. aprila 1998."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 28. јула 1994. године (види члан 44. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О референдуму и народној иницијативи „Службени гласник РС“, бр. <ref wId="ref24" href="akn/rs/act/1994/48/srp@">48 од 20. јула 1994</ref>, <ref wId="ref25" href="akn/rs/act/1998/11/srp@">11 од 6. априла 1998</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређује се начин непосредног изјашњавања,  односно одлучивања грађана референдумом и начин остваривања народне иницијативе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Референдумом грађани одлучују о питањима за која је то  Уставом и законом одређено и о питањима из надлежности Народне скупштине,  односно скупштине аутономне покрајине, општине и града за која скупштина то  одлучи.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Референдум се може расписати и ради претходног изјашњавања  о питањима из <ref wId="ref0" href="akn/rs/act/1998/11-273/srp@/!main~art_2__para_1" >става 1. овог</ref> члана, односно ради потврђивања акта који је донео  надлежни орган.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>О питањима одређеним статутом аутономне покрајине, општине  или града, односно о другим питањима из њихове надлежности референдум се  спроводи на начин и по поступку утврђеним овим законом, ако законом није  друкчије одређено.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>На начин утврђен овим законом грађани предлажу промену  Устава, закона, других прописа и општих аката из надлежности Народне скупштине,  односно скупштине аутономне покрајине, општине или града, расписивање  референдума о одређеном питању и подносе друге предлоге у складу с Уставом,  законом и статутом (у даљем тексту: народна иницијатива).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Право изјашњавања на референдуму имају грађани који у  складу с прописима о изборима имају бирачко право и пребивалиште на територији  за коју се расписује референдум.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>На референдуму којим се стварају права и обавезе грађана  чије је пребивалиште ван територије за коју се расписује референдум право  изјашњавања имају и ти грађани.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav3">
+					<content>
+						<p>Орган надлежан за расписивање референдума, односно тело  које он овласти сачињава списак грађана који имају право изјашњавања на  референдуму а немају пребивалиште на подручју за које се спроводи референдум, на  начин утврђен прописима о изборима.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Право учествовања у народној иницијативи имају грађани који  у складу с прописима о изборима имају бирачко право.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Референдумом и народном иницијативом грађани се слободно  изјашњавају.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<content>
+						<p>Нико не може позвати грађанина на одговорност због  изјашњавања на референдуму, односно због учествовања у народној иницијативи у  складу с овим законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>На референдуму грађани се изјашњавају лично и тајно, на  гласачким листићима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>У наредној иницијативи грађани учествују потписивањем  одговарајућег предлога.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>На акте за спровођење референдума и остваривање народне  иницијативе не плаћају се таксе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Грађани имају право на приговор због неправилности у  поступку спровођења референдума, као и право да указују на пропусте и недостатке  у поступку остваривања народне иницијативе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>СПРОВОЂЕЊЕ РЕФЕРЕНДУМА</heading>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Акт о расписивању републичког референдума доноси Народна  скупштина на предлог најмање педесет народних посланика, Владе или најмање  100.000 бирача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Акт о расписивању референдума о питањима из надлежности  аутономне покрајине, општине и града доноси скупштина аутономне покрајине,  односно општине или града у складу са статутом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Од дана расписивања до дана спровођења референдума не може  протећи мање од 15 ни више од 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Статутом аутономне покрајине, општине и града одређује се  рок из <ref wId="ref1" href="akn/rs/act/1998/11-273/srp@/!main~art_10__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/1998/11/srp@">11/1998</ref></heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Грађани с дела територије Републике, односно аутономне  покрајине, општине или града могу одлучити на референдуму о питањима која су од  значаја за те грађане.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Акт о расписивању референдума садржи нарочито: назначење  територије за коју се референдум расписује; акт, односно питање о коме се  грађани изјашњавају; датум спровођења референдума и време одређено за  изјашњавање на референдуму.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Акт о расписивању референдума објављује се на начин на који  се објављују прописи органа који је расписао референдум.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Органи за спровођење референдума јесу комисија и гласачки  одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Комисију образује орган који је расписао референдум, а  комисија образује гласачке одборе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Кад се референдум расписује за територију Републике,  аутономне покрајине и града или њихов део, комисије се образују и у општинама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Комисије у општинама образује републичка комисија кад се  референдум расписује за територију Републике или њен део, покрајинска кад се  референдум расписује за територију аутономне покрајине или њен део, а градска  кад се референдум расписује за територију града или њен део.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<paragraph wId="gla2-clan15-stav1">
+						<intro>
+							<p>Комисија за спровођење референдума обавља следеће послове:</p>
+						</intro>
+						<point wId="gla2-clan15-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> стара се о законитом спровођењу републичког референдума;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> стара се о обезбеђивању материјала за спровођење  републичког референдума;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> прописује обрасце за спровођење републичког референдума;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> утврђује и проглашава укупне резултате републичког  референдума;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обавља и друге послове одређене овим законом и актом о  расписивању референдума.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Комисија за спровођење републичког референдума, односно  референдума за територију аутономне покрајине или града даје упутства за рад  општинским комисијама у погледу примене одредаба овог закона и усклађује њихов  рад.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav3">
+						<content>
+							<p>Општинска комисија обавља техничке припреме за спровођење  републичког референдума, односно референдума за територију аутономне покрајине  или града, одређује гласачка места, утврђује резултате републичког референдума  на територији општине на основу примљеног материјала са свих гласачких места и  доставља Републичкој, односно покрајинској или градској комисији и обавља друге  послове одређене овим законом и одлуком о расписивању референдума.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Гласачки одбори руководе гласањем на гласачким местима,  обезбеђују правилност и тајност гласања и утврђују резултате гласања на  гласачким местима, у складу с упутствима комисије за спровођење референдума.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Актом о образовању органа за спровођење референдума у  аутономној покрајини, општини и граду утврђују се њихови задаци.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>Време гласања на референдуму одређује се тако да се омогући  гласање свим грађанима који имају право изјашњавања на референдуму.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Гласање се закључује истеком времена одређеног за гласање,  а грађанима који су се затекли на гласачком месту у тренутку његовог затварања  омогућиће се да гласају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav3">
+						<content>
+							<p>Ако су гласали сви грађани на гласачком месту који су  уписани у евиденцију грађана с бирачким правом, гласање се може закључити и пре  истека времена одређеног за гласање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>Питање о коме се грађани референдумом изјашњавају мора бити изражено јасно  тако да се на њега може одговорити речју „за” или „против”,  односно „да” или „не”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav2">
+						<content>
+							<p>Кад се референдумом одлучује истовремено о више питања, свако питање мора  бити посебно формулисано на гласачком листићу тако да се на свако може  одговорити речју „за” или „против”, односно „да”  или „не”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav3">
+						<content>
+							<p>Кад се референдум расписује ради претходног изјашњавања  грађана, питање о коме грађани треба да се изјасне може бити формулисано тако да  се у одговору на њега грађанин опредељује за једину од више предложених  могућности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan20">
+					<num>20.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/1998/11/srp@">11/1998</ref></heading>
+					<paragraph wId="gla2-clan20-stav1">
+						<intro>
+							<p>Гласачки листић за изјашњавање на референдуму (у даљем  тексту: гласачки листић) садржи:</p>
+						</intro>
+						<point wId="gla2-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> назив органа који је расписао референдум;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> дан одржавања референдума;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> питање о коме грађани треба да се изјасне на  референдуму;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> речи „за” и „против”, односно „да” или „не” једна поред  друге.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav2">
+						<content>
+							<p>Гласа се заокруживањем на гласачком листићу једног од  могућих одговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav3">
+						<content>
+							<p>У погледу начина гласања лица која нису у могућности да  гласају на гласачком месту, односно да сама гласају, сходно се примењују прописи  о избору народних посланика којима је уређен начин гласања ових лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan21">
+					<num>21.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/1998/11/srp@">11/1998</ref></heading>
+					<paragraph wId="gla2-clan21-stav1">
+						<content>
+							<p>Гласачке листиће припрема комисија за спровођење  референдума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav2">
+						<content>
+							<p>Комисија за спровођење референдума утврђује број гласачких  листића који мора бити једнак броју грађана који имају право изјашњавања на  референдуму уписаних у бирачки списак, као и број резервних гласачких листића за  спровођење републичког референдума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav3">
+						<content>
+							<p>Гласачки листићи штампају се на једном месту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav4">
+						<content>
+							<p>Орган који је расписао референдум може одредити до три лица  која ће ради контроле присуствовати штампању гласачких листића, односно која ће  контролисати поступак достављања гласачких листића органима за спровођење  референдума.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan22">
+					<num>22.</num>
+					<paragraph wId="gla2-clan22-stav1">
+						<content>
+							<p>По завршеном гласању гласачки одбор утврђује резултате  гласања на гласачком месту и о томе саставља записник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav2">
+						<content>
+							<p>Неважећи гласачки листић је онај листић на коме су  заокружене и реч „за” и реч „против” односно и реч „да” и реч „не”, непопуњен  листић и листић који је тако попуњен да се не може са сигурношћу утврдити како  се грађанин изјаснио.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav3">
+						<content>
+							<p>У записнику о резултату гласања на гласачком месту наводе  се: датум и место одржавања гласања; гласачко место; предлог који је стављен на  референдум; лична имена чланова гласачког одбора; број грађана с бирачким правом  на гласачком месту; број грађана с бирачким правом који је гласао и резултат  гласања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav4">
+						<content>
+							<p>Записник потписују сви чланови гласачког одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav5">
+						<content>
+							<p>Записник и остале материјале са гласања гласачки одбор  доставља надлежној комисији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan23">
+					<num>23.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/1998/11/srp@">11/1998</ref></heading>
+					<paragraph wId="gla2-clan23-stav1">
+						<content>
+							<p>Извештај о спроведеном референдуму комисија за спровођење  референдума доставља органу који је расписао референдум.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan23-stav2">
+						<content>
+							<p>Резултат републичког референдума објављује се у форми  извештаја у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan23-stav3">
+						<content>
+							<p>Резултати референдума спроведених за територију аутономне  покрајине, општине и града утврђују се у складу с њиховим одлукама и објављују  се на начин на који се објављује одлука о расписивању референдума.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan24">
+					<num>24.</num>
+					<paragraph wId="gla2-clan24-stav1">
+						<content>
+							<p>Референдум је пуноважан ако је на њему гласала већина  грађана који имају бирачко право и који су уписани у бирачки списак у складу с  овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav2">
+						<content>
+							<p>Одлука о питању које је било предмет изјашњавања на  референдуму сматра се донетом уколико је за њу гласала већина грађана из <ref wId="ref6" href="akn/rs/act/1998/11-273/srp@/!main~art_24__para_1" >става  1. овог</ref> члана, ако Уставом, законом или статутом није за то предвиђен већи број.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav3">
+						<content>
+							<p>Акт који је потврђен на референдуму проглашава се у складу  с Уставом, законом и статутом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan25">
+					<num>25.</num>
+					<paragraph wId="gla2-clan25-stav1">
+						<content>
+							<p>Одлука донета на референдуму обавезна је.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav2">
+						<content>
+							<p>Кад су се грађани референдумом претходно изјаснили о  одређеном питању, орган који доноси акт којим се уређује то питање дужан је да  га донесе у складу с вољом грађана израженом на референдуму, у року одређеном  актом о расписивању референдума, а најкасније у року од 60 дана од дана  одржавања референдума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav3">
+						<content>
+							<p>Ако су се грађани референдумом изјаснили за потврђивање  акта, акт је усвојен даном одржавања референдума, односно даном проглашавања тог  акта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav4">
+						<content>
+							<p>Ако грађани референдумом нису потврдили акт, сматра се да  тај акт није ни донет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan26">
+					<num>26.</num>
+					<paragraph wId="gla2-clan26-stav1">
+						<content>
+							<p>Ако грађани референдумом нису потврдили акт, односно нису  се изјаснили за питање које је било предмет изјашњавања, о том акту, односно  питању не може се поново одлучивати на референдуму у року краћем од шест месеци  од дана гласања на референдуму.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan27">
+					<num>27.</num>
+					<paragraph wId="gla2-clan27-stav1">
+						<content>
+							<p>Грађанин има право, у року од 24 сата од тренутка кад је  донета одлука, односно извршена радња или је учињен пропуст, да поднесе приговор  комисији за спровођење референдума ако сматра да су тиме учињене неправилности у  спровођењу референдума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav2">
+						<content>
+							<p>Приговор из <ref wId="ref7" href="akn/rs/act/1998/11-273/srp@/!main~art_27__para_1" >става 1. овог</ref> члана који се односи на поступке  општинске комисије подноси се Републичкој комисији кад је референдум спроведен  за територију Републике, покрајинској комисији кад је референдум спроведен за  територију аутономне покрајине, а градској комисији кад је референдум спроведен  за територију града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav3">
+						<content>
+							<p>Комисија којој је поднет приговор одлучује о приговору у  року од 48 сати од подношења приговора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan28">
+					<num>28.</num>
+					<paragraph wId="gla2-clan28-stav1">
+						<content>
+							<p>Ако је неправилност учињена на једном или више гласачких  места битно утицала на резултате гласања, надлежна комисија за спровођење избора  поништиће изјашњавање на тим гласачким местима и одредити време поновног  изјашњавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan28-stav2">
+						<content>
+							<p>О поништавању гласања општинска комисија обавештава  Републичку комисију кад је референдум спроведен за територију Републике,  покрајинску комисију кад је референдум спроведен за територију аутономне  покрајине, а градску комисију кад је референдум спроведен за територију града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan28-stav3">
+						<content>
+							<p>Ако је до неправилности у спровођењу референдума дошло  поступком општинске комисије, Републичка комисија, односно покрајинска и градска  комисија поништиће радње општинске комисије које су неправилно спроведене и  одредити да се оне понове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan29">
+					<num>29.</num>
+					<paragraph wId="gla2-clan29-stav1">
+						<content>
+							<p>Против решења општинске, градске, покрајинске или  Републичке комисије донетог по приговору из <ref wId="ref8" href="akn/rs/act/1998/11-273/srp@/!main~art_27" >члана 27. овог</ref> закона, као и у  случају кад надлежна комисија није одлучила по приговору у прописаном року,  подносилац приговора може поднети жалбу Врховном суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan29-stav2">
+						<content>
+							<p>Врховни суд решава по жалби из <ref wId="ref9" href="akn/rs/act/1998/11-273/srp@/!main~art_29__para_1" >става 1. овог</ref> члана у року  од 48 сати од пријема жалбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan29-stav3">
+						<content>
+							<p>Одлука Врховног суда по жалби коначна је.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan30">
+					<num>30.</num>
+					<paragraph wId="gla2-clan30-stav1">
+						<content>
+							<p>Средства за спровођење референдума обезбеђује скупштина  која је расписала референдум.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ОСТВАРИВАЊЕ НАРОДНЕ ИНИЦИЈАТИВЕ</heading>
+				<article wId="gla3-clan31">
+					<num>31.</num>
+					<paragraph wId="gla3-clan31-stav1">
+						<content>
+							<p>Грађани ради остваривања народне иницијативе образују  иницијативни одбор од најмање три члана који имају бирачко право.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav2">
+						<content>
+							<p>Иницијативни одбор може образовати посебне одборе за  прикупљање потписа на појединим местима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan32">
+					<num>32.</num>
+					<paragraph wId="gla3-clan32-stav1">
+						<content>
+							<p>Предлог за промену или доношење одговарајућег акта, односно  други предлог обухваћен народном иницијативом мора бити сачињен тако да се из  њега јасно виде правци промена, односно решења о којима надлежни орган треба да  се изјасни.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav2">
+						<content>
+							<p>Предлог из <ref wId="ref10" href="akn/rs/act/1998/11-273/srp@/!main~art_32__para_1" >става 1. овог</ref> члана потписују чланови  иницијативног одбора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan33">
+					<num>33.</num>
+					<paragraph wId="gla3-clan33-stav1">
+						<content>
+							<p>Иницијативни одбор доставља предлог органу надлежном за  доношење акта, односно за решавање о питању на који се предлог односи (у даљем  тексту: надлежни орган) ради обавештења да се за тај предлог прикупљају потписи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav2">
+						<content>
+							<p>Надлежни орган потврђује пријем предлога за који се  прикупљају потписи на првој страници текста предлога и оверава сваку страницу  текста предлога у оноликом броју копија колико поднесе иницијативни одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav3">
+						<content>
+							<p>Надлежни орган задржава једну копију предлога за који се  прикупљају потписи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav4">
+						<content>
+							<p>Од подношења предлога за који се прикупљају потписи предлог  се не може мењати ни допуњавати.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan34">
+					<num>34.</num>
+					<paragraph wId="gla3-clan34-stav1">
+						<content>
+							<p>Иницијативни одбор пријављује прикупљање потписа  Министарству унутрашњих послова – организационој јединици у општини на чијој ће  се територији прикупљати потписи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav2">
+						<content>
+							<p>Пријава из <ref wId="ref11" href="akn/rs/act/1998/11-273/srp@/!main~art_34__para_1" >става 1. овог</ref> члана подноси се најкасније три  дана пре почетка прикупљања потписа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav3">
+						<content>
+							<p>У пријави се наводе: назив органа коме је поднет предлог за  који се прикупљају потписи и пријемни број под којим је тај предлог заведен;  место, време и начин прикупљања потписа; лични подаци лица која ће прикупљати  потписе и мере које ће иницијативни одбор предузети ради спречавања евентуалних  злоупотреба у вези с прикупљањем потписа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav4">
+						<content>
+							<p>Пријаву потписују чланови иницијативног одбора, односно  чланови одбора који ће прикупљати потписе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan35">
+					<num>35.</num>
+					<paragraph wId="gla3-clan35-stav1">
+						<intro>
+							<p>Листа потписника народне иницијативе садржи:</p>
+						</intro>
+						<point wId="gla3-clan35-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> назначење предлога за који се прикупљају потписи с  пријемним бројем надлежног органа;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan35-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> податке о потписницима иницијативе, који се уписују у  следеће рубрике: радни број потписника народне иницијативе; лично име потписника  иницијативе, које се исписује читким штампаним словима и потврђује његовим  својеручним потписом; адреса потписника иницијативе; лични број потписника  иницијативе ако га има; регистарски број личне карте потписника иницијативе;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan35-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> датум и место прикупљања потписа;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan35-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> изјаву иницијативног одбора, односно одбора који је  прикупљао потписе да сви потписници на листи имају право учествовања у народној  иницијативи у складу с законом и да су се само једном потписали на листи, као и  напомену о евентуалном повлачењу потписа грађана;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan35-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> потписе чланова иницијативног одбора, односно одбора  који је прикупљао потписе.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan36">
+					<num>36.</num>
+					<paragraph wId="gla3-clan36-stav1">
+						<content>
+							<p>Прикупљање потписа грађана који учествују у народној  иницијативи траје најдуже седам дана, рачунајући од дана који је у пријави  Министарству унутрашњих послова означен као почетни дан прикупљања потписа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav2">
+						<content>
+							<p>Грађанин се може само једном потписати на листи потписника  народне иницијативе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav3">
+						<content>
+							<p>Грађанин може свој потпис повући до истека последњег дана  одређеног за прикупљање потписа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav4">
+						<content>
+							<p>Потпис се повлачи у писменој форми, а одбор за прикупљање  потписа констатује то у листи потписника народне иницијативе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan37">
+					<num>37.</num>
+					<paragraph wId="gla3-clan37-stav1">
+						<content>
+							<p>На месту где се прикупљају потписи текст предлога за који  се прикупљају потписи, оверен од надлежног органа и снабдевен његовим пријемним  бројем, мора бити истакнут тако да буде доступан грађанима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan38">
+					<num>38.</num>
+					<paragraph wId="gla3-clan38-stav1">
+						<content>
+							<p>Грађанин има право да надлежном органу укаже на пропусте и  недостатке у поступку прикупљања потписа за предлог обухваћен народном  иницијативом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan39">
+					<num>39.</num>
+					<paragraph wId="gla3-clan39-stav1">
+						<content>
+							<p>Иницијативни одбор доставља листу потписника народне  иницијативе надлежном органу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan39-stav2">
+						<content>
+							<p>Надлежни орган проверава да ли је листа потписника народне  иницијативе сачињена у складу с одредбама овог закона и да ли је прикупљен  потребан број потписа, при чему разматра и евентуалне примедбе грађана на  поступак прикупљања потписа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan39-stav3">
+						<content>
+							<p>Ако грађанин, односно иницијативни одбор сматра да је  надлежан орган неправилно поступио приликом обављања радњи из <ref wId="ref12" href="akn/rs/act/1998/11-273/srp@/!main~art_39__para_2" >става 2. овог</ref>  члана, може поднети жалбу Врховном суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan39-stav4">
+						<content>
+							<p>Врховни суд решава по жалби из <ref wId="ref13" href="akn/rs/act/1998/11-273/srp@/!main~art_39__para_3" >става 3. овог</ref> члана у року  од 48 сати од пријема жалбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan39-stav5">
+						<content>
+							<p>Одлука Врховног суда по жалби коначна је.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan40">
+					<num>40.</num>
+					<paragraph wId="gla3-clan40-stav1">
+						<content>
+							<p>Кад је листа потписника народне иницијативе сачињена у  складу с одредбама овог закона а прикупљен је потребан број потписа, надлежни  орган дужан је да о предлогу за који су прикупљени потписи одлучи на начин и по  поступку утврђеном Уставом и законом, односно одговарајућим статутом или  пословником.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan41">
+					<num>41.</num>
+					<paragraph wId="gla3-clan41-stav1">
+						<content>
+							<p>Кад надлежни орган не прихвати предлог из <ref wId="ref14" href="akn/rs/act/1998/11-273/srp@/!main~art_40" >члана 40. овог</ref>  закона, дужан је да о томе обавести иницијативни одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan41-stav2">
+						<content>
+							<p>Ако иницијативни одбор сматра да надлежни орган није  правилно поступио у случају из <ref wId="ref15" href="akn/rs/act/1998/11-273/srp@/!main~art_41__para_1" >става 1. овог</ref> члана, може поднети жалбу Врховном  суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan41-stav3">
+						<content>
+							<p>Врховни суд решава по жалби из <ref wId="ref16" href="akn/rs/act/1998/11-273/srp@/!main~art_41__para_2" >става 2. овог</ref> члана у року  од 15 дана од пријема жалбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan41-stav4">
+						<content>
+							<p>Одлука Врховног суда по жалби коначна је.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla4-clan42">
+					<num>42.</num>
+					<paragraph wId="gla4-clan42-stav1">
+						<content>
+							<p>У погледу гласачких места, материјала за гласање, начина  рада гласачких одбора, гласања, утврђивања резултата гласања на гласачком месту  и других питања у вези с гласањем која нису уређена овим законом сходно се  примењују одговарајуће одредбе Закона о избору народних посланика („Службени  гласник РС”, бр. <ref wId="ref17" href="akn/rs/act/92/79/srp@">79/92</ref> и <ref wId="ref18" href="akn/rs/act/92/83/srp@">83/92</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan43">
+					<num>43.</num>
+					<paragraph wId="gla4-clan43-stav1">
+						<intro>
+							<p>Даном ступања на снагу овог закона престају да важе:</p>
+						</intro>
+						<point wId="gla4-clan43-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Закон о референдуму („Службени гласник СРС”, број  <ref wId="ref19" href="akn/rs/act/89/40/srp@">40/89</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla4-clan43-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Закон о поступку претходног изјашњавања на Републичком  референдуму о државним симболима („Службени гласник РС”, број <ref wId="ref20" href="akn/rs/act/91/66/srp@">66/91</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan44">
+					<num>44.</num>
+					<paragraph wId="gla4-clan44-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav3">
+						<content>
+							<p>о референдуму и народној иницијативи</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav4">
+						<content>
+							<p>„Службени гласник РС“, бр. <ref wId="ref21" href="akn/rs/act/1994/48/srp@">48 од 20. јула 1994</ref>, <ref wId="ref22" href="akn/rs/act/1998/11/srp@">11 од 6.  априла 1998</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan1">
+					<num>1.</num>
+					<paragraph wId="gla4-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се начин непосредног изјашњавања,  односно одлучивања грађана референдумом и начин остваривања народне иницијативе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan2">
+					<num>2.</num>
+					<paragraph wId="gla4-clan2-stav1">
+						<content>
+							<p>Референдумом грађани одлучују о питањима за која је то  Уставом и законом одређено и о питањима из надлежности Народне скупштине,  односно скупштине аутономне покрајине, општине и града за која скупштина то  одлучи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan2-stav2">
+						<content>
+							<p>Референдум се може расписати и ради претходног изјашњавања  о питањима из <ref wId="ref23" href="akn/rs/act/1998/11-273/srp@/!main~art_2__para_1" >става 1. овог</ref> члана, односно ради потврђивања акта који је донео  надлежни орган.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan2-stav3">
+						<content>
+							<p>О питањима одређеним статутом аутономне покрајине, општине  или града, односно о другим питањима из њихове надлежности референдум се  спроводи на начин и по поступку утврђеним овим законом, ако законом није  друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan3">
+					<num>3.</num>
+					<paragraph wId="gla4-clan3-stav1">
+						<content>
+							<p>На начин утврђен овим законом грађани предлажу промену  Устава, закона, других прописа и општих аката из надлежности Народне скупштине,  односно скупштине аутономне покрајине, општине или града, расписивање  референдума о одређеном питању и подносе друге предлоге у складу с Уставом,  законом и статутом (у даљем тексту: народна иницијатива).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan4">
+					<num>4.</num>
+					<paragraph wId="gla4-clan4-stav1">
+						<content>
+							<p>Право изјашњавања на референдуму имају грађани који у  складу с прописима о изборима имају бирачко право и пребивалиште на територији  за коју се расписује референдум.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan4-stav2">
+						<content>
+							<p>На референдуму којим се стварају права и обавезе грађана  чије је пребивалиште ван територије за коју се расписује референдум право  изјашњавања имају и ти грађани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan4-stav3">
+						<content>
+							<p>Орган надлежан за расписивање референдума, односно тело  које он овласти сачињава списак грађана који имају право изјашњавања на  референдуму а немају пребивалиште на подручју за које се спроводи референдум, на  начин утврђен прописима о изборима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan5">
+					<num>5.</num>
+					<paragraph wId="gla4-clan5-stav1">
+						<content>
+							<p>Право учествовања у народној иницијативи имају грађани који  у складу с прописима о изборима имају бирачко право.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan6">
+					<num>6.</num>
+					<paragraph wId="gla4-clan6-stav1">
+						<content>
+							<p>Референдумом и народном иницијативом грађани се слободно  изјашњавају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan6-stav2">
+						<content>
+							<p>Нико не може позвати грађанина на одговорност због  изјашњавања на референдуму, односно због учествовања у народној иницијативи у  складу с овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan7">
+					<num>7.</num>
+					<paragraph wId="gla4-clan7-stav1">
+						<content>
+							<p>На референдуму грађани се изјашњавају лично и тајно, на  гласачким листићима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan7-stav2">
+						<content>
+							<p>У наредној иницијативи грађани учествују потписивањем  одговарајућег предлога.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan8">
+					<num>8.</num>
+					<paragraph wId="gla4-clan8-stav1">
+						<content>
+							<p>На акте за спровођење референдума и остваривање народне  иницијативе не плаћају се таксе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan9">
+					<num>9.</num>
+					<paragraph wId="gla4-clan9-stav1">
+						<content>
+							<p>Грађани имају право на приговор због неправилности у  поступку спровођења референдума, као и право да указују на пропусте и недостатке  у поступку остваривања народне иницијативе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

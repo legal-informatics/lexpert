@@ -1,0 +1,890 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о заштити права на суђење у разумном року">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2015/40-3/main"/>
+					<FRBRuri value="akn/rs/act/2015/40-3"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2015/40-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2015/40-3/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2015/40-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2015/40-3/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-05-07" name="службени гласник рс" number="40" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Суд" value="1. суд" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2015-05-07" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2016-01-01" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2016-01-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштита"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="суђење"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="разумном"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="року"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="правa"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="предупреди"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="настајање"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="имаоци"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="пружи"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="судска"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="сврха"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="кривичном"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="укључује"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштиту"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="судску"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="тиме"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="истрагу"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="повреда"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="спроводи"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="овог"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступку"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Pravobranilaštvo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnog pravobranilaštva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskom sudu za ljudska prava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravobranilaštva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravobranilaštvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravobranilaštvo i sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravobranilaštvom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravobranilaštvu predlog za poravnanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije za novčano obeštećenje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužba"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovni kasacioni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="82. stav 2. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон ступа на снагу 1. јануара 2016. године (види члан 37. Закона).Поступак за заштиту права на суђење у разумном року који је до ступања на снагу овог закона покренут према Закону о уређењу судова („Службени гласник РС”, бр. 116/08, 104/09, 101/10, 31/11 – др. закон, 78/11 – др. закон, 101/11 и 101/13) наставља се према том закону. Овај закон примењује се на судске поступке који још нису окончани у време покретања поступка за заштиту права према овом закону, ако је евентуална повреда права на суђење у разумном року настала пре почетка примене одредаба чл. 8а–8в Закона о уређењу судова, а о њој није одлучивао Уставни суд у поступку о уставној жалби. Овај закон примењује се и на судске поступке који још нису окончани у време покретања поступка за заштиту права према овом закону, ако је евентуална повреда права на суђење у разумном року настала после престанка важења одредаба чл. 8а–8в Закона о уређењу судова (види члан 34. Закона).Лица која су Европском суду за људска права поднела представку због тога што сматрају да је повређено њихово право на суђење у разумном року, о којој није донета одлука о прихватљивости или основаности, могу у року од шест месеци од дана ступања на снагу овог закона да поднесу Правобранилаштву предлог за поравнање о новчаном обештећењу, уз навођење датума предаје представке Европском суду за људска права и броја представке у предлогу за поравнање. Закључено поравнање представља извршну исправу. Уместо предлога за поравнање или пошто одустане од покушаја поравнања, странка може у року од једне године од дана ступања на снагу овог закона да поднесе тужбу за новчано обештећење против Републике Србије суду који је надлежан по овом закону. Тужба није дозвољена ако странка и Правобранилаштво закључе поравнање. Независно од врсте и висине тужбеног захтева, у поступку пред судом сходно се примењују одредбе о споровима мале вредности из закона којим се уређује парнични поступак и одредбе овог закона (види члан 35. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон ступа на снагу 1. јануара 2016. године (види члан 37. Закона).Поступак за заштиту права на суђење у разумном року који је до ступања на снагу овог закона покренут према Закону о уређењу судова („Службени гласник РС”, бр. 116/08, 104/09, 101/10, 31/11 – др. закон, 78/11 – др. закон, 101/11 и 101/13) наставља се према том закону. Овај закон примењује се на судске поступке који још нису окончани у време покретања поступка за заштиту права према овом закону, ако је евентуална повреда права на суђење у разумном року настала пре почетка примене одредаба чл. 8а–8в Закона о уређењу судова, а о њој није одлучивао Уставни суд у поступку о уставној жалби. Овај закон примењује се и на судске поступке који још нису окончани у време покретања поступка за заштиту права према овом закону, ако је евентуална повреда права на суђење у разумном року настала после престанка важења одредаба чл. 8а–8в Закона о уређењу судова (види члан 34. Закона).Лица која су Европском суду за људска права поднела представку због тога што сматрају да је повређено њихово право на суђење у разумном року, о којој није донета одлука о прихватљивости или основаности, могу у року од шест месеци од дана ступања на снагу овог закона да поднесу Правобранилаштву предлог за поравнање о новчаном обештећењу, уз навођење датума предаје представке Европском суду за људска права и броја представке у предлогу за поравнање. Закључено поравнање представља извршну исправу. Уместо предлога за поравнање или пошто одустане од покушаја поравнања, странка може у року од једне године од дана ступања на снагу овог закона да поднесе тужбу за новчано обештећење против Републике Србије суду који је надлежан по овом закону. Тужба није дозвољена ако странка и Правобранилаштво закључе поравнање. Независно од врсте и висине тужбеног захтева, у поступку пред судом сходно се примењују одредбе о споровима мале вредности из закона којим се уређује парнични поступак и одредбе овог закона (види члан 35. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О заштити права на суђење у разумном року "Службени гласник РС", број <ref wId="ref29" href="akn/rs/act/2015/40/srp@">40 од 7. маја 2015</ref>. године</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>OСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет и сврха закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се заштита права на суђење у разумном року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Сврха овог закона јесте да пружи судску заштиту правa на суђење у разумном року и тиме предупреди настајање повреда права на суђење у разумном року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Судска заштита права на суђење у разумном року укључује и истрагу коју у кривичном поступку спроводи јавни тужилац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Имаоци права на суђење у разумном року</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Право на суђење у разумном року има свака странка у судском поступку, што укључује и извршни поступак, сваки учесник по закону којим се уређује ванпарнични поступак, а оштећени у кривичном поступку, приватни тужилац и оштећени као тужилац само ако су истакли имовинско-правни захтев (у даљем тексту: странка).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Јавни тужилац као странка у кривичном поступку нема право на суђење у разумном року.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Правна средства којима се штити право на суђење у разумном року</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Правна средства којима се штити право на суђење у разумном року јесу:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> приговор ради убрзавања поступка (у даљем тексту: приговор);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> жалба;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> захтев за правично задовољење.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Странка не плаћа судску таксу у поступцима у којима се штити право на суђење у разумном року. Oни су хитни и имају првенство у одлучивању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Мерила за оцену трајања суђења у разумном року</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>При одлучивању о правним средствима којима се штити право на суђење у разумном року уважавају се све околности предмета суђења, пре свега сложеност чињеничних и правних питања, целокупно трајање поступка и поступање суда, јавног тужилаштва или другог државног органа, природа и врста предмета суђења или истраге, значај предмета суђења или истраге по странку, понашање странака током поступка, посебно поштовање процесних права и обавеза, затим поштовање редоследа решавања предмета и законски рокови за заказивање рочишта и главног претреса и израду одлука.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРИГОВОР И ЖАЛБА</heading>
+				<article wId="gla2-od1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-od1-clan5-stav1">
+						<content>
+							<p>Приговор и жалба могу да се поднесу док се поступак не оконча.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav2">
+						<content>
+							<p>Решење о приговору и жалби не сме да утиче на чињенична и правна питања која су предмет суђења или истраге.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav3">
+						<content>
+							<p>Решење којим се усвајају или одбијају приговор и жалба мора бити подробно образложено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-od2-clan6-stav1">
+						<content>
+							<p>Поступак у коме се штити право на суђење у разумном року почиње подношењем приговорa.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan6-stav2">
+						<intro>
+							<p>Приговор садржи следеће обавезне елементе:</p>
+						</intro>
+						<point wId="gla2-od2-clan6-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> лично или пословно име странке и њено пребивалиште, боравиште или седиште;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> лично или пословно име заступника или пуномоћника странке и његово пребивалиште, боравиште или седиште;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> назив суда који води поступак или пред којим се води поступак, као и назив јавног тужилаштва које спроводи истрагу;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> пословни број судског предмета или предмета јавног тужилаштва;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> време трајања поступка, укључујући и време трајања истраге коју спроводи јавни тужилац;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> податке о предмету суђења који указују на то да суд непотребно касни с одлучивањем;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> податке о предмету истраге који указују на то да јавни тужилац одуговлачи спровођење истраге;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan6-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> својеручни потпис странке или заступника или пуномоћника странке.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan7">
+					<num>7.</num>
+					<heading>Подношење приговора и поступак по приговору</heading>
+					<paragraph wId="gla2-od2-clan7-stav1">
+						<content>
+							<p>Странка подноси приговор суду који води поступак или суду пред којим се води поступак ако сматра да је јавни тужилац повредио њено право.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan7-stav2">
+						<content>
+							<p>Поступак по приговору води председник суда, који и одлучује о приговору. Годишњим распоредом послова он може одредити једног судију или више судија да поред њега воде поступак и одлучују о приговорима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan7-stav3">
+						<content>
+							<p>Усмена расправа се не одржава, а на остала питања сходно се примењује закон којим се уређује ванпарнични поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan7-stav4">
+						<content>
+							<p>Председник суда дужан је да одлучи о приговору у року од два месеца од дана пријема приговора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan8">
+					<num>8.</num>
+					<heading>Одлучивање о приговору без испитног поступка</heading>
+					<paragraph wId="gla2-od2-clan8-stav1">
+						<content>
+							<p>Председник суда решењем одбацује или одбија приговор без испитног поступка, или води испитни поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan8-stav2">
+						<content>
+							<p>Приговор се одбацује ако одсуство неког обавезног елемента приговора онемогућава да се по њему поступа, затим ако је приговор поднело неовлашћено лице или ако је преурањен. Против решења о одбацивању приговора није дозвољена жалба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan8-stav3">
+						<content>
+							<p>Приговор се одбија без испитног поступка ако је, с обзиром на трајање поступка које је наведено у приговору, очигледно неоснован.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan9">
+					<num>9.</num>
+					<heading>Испитни поступак</heading>
+					<paragraph wId="gla2-od2-clan9-stav1">
+						<content>
+							<p>Испитни поступак почиње тиме што председник суда захтева од судије, или председника већа (у даљем тексту: судија), или од јавног тужиоца, да му достави извештај у року од 15 дана или у краћем року, ако је реч о поступку у коме је посебним законом одређено хитно поступање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan9-stav2">
+						<content>
+							<p>Извештај садржи изјашњење о развоју поступка у времену и предлог рока у коме поступак може да се оконча.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan9-stav3">
+						<content>
+							<p>Председник суда може захтевати да му се доставе списи предмета ако, с обзиром на садржину приговора, сматра да их треба проучити.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan10">
+					<num>10.</num>
+					<heading>Одлучивање о приговору после испитног поступка</heading>
+					<paragraph wId="gla2-od2-clan10-stav1">
+						<content>
+							<p>Председник суда проучава извештај и списе предмета и примењује мерила за оцену трајања суђења у разумном року (<ref wId="ref0" href="akn/rs/act/2015/40-3/srp@/!main~art_4" >члан 4</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan10-stav2">
+						<content>
+							<p>После тога, решењем приговор одбија или га усваја и утврђује повреду права на суђење у разумном року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan10-stav3">
+						<content>
+							<p>Судија и јавни тужилац немају право на жалбу против решења којим се приговор усваја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan11">
+					<num>11.</num>
+					<heading>Налози судији</heading>
+					<paragraph wId="gla2-od2-clan11-stav1">
+						<content>
+							<p>У решењу којим се приговор усваја и утврђује повреда права на суђење у разумном року председник суда указује судији или јавном тужиоцу на разлоге због којих је повређено право странке и налаже судији процесне радње које делотворно убрзавају поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan11-stav2">
+						<content>
+							<p>Истим решењем председник суда одређује и рок у коме је судија дужан да предузме наложене процесне радње, а који не може бити краћи од 15 дана, нити дужи од четири месеца, и примерен рок у коме га судија извештава о предузетим радњама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan11-stav3">
+						<content>
+							<p>У зависности од околности, а посебно ако је поступак хитан, председник суда може одредити првенство у одлучивању, затим одузети предмет судији и доделити га другом, ако је право странке повређено због преоптерећености или дужег одсуства судије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan12">
+					<num>12.</num>
+					<heading>Налози јавном тужиоцу који спроводи истрагу</heading>
+					<paragraph wId="gla2-od2-clan12-stav1">
+						<content>
+							<p>Председник суда доставља непосредно вишем јавном тужиоцу и странци извештај јавног тужиоца и решење којим је приговор усвојен и утврђено да је јавни тужилац повредио право на суђење у разумном року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan12-stav2">
+						<content>
+							<p>Непосредно виши јавни тужилац дужан је да у року од осам дана од дана пријема решења донесе обавезно упутство којим јавном тужиоцу налаже процесне радње које делотворно убрзавају поступак. У обавезном упутству он одређује и рок у коме је јавни тужилац дужан да предузме наложене процесне радње, а који не може бити краћи од 15 дана, нити дужи од четири месеца, и примерен рок у коме га јавни тужилац извештава о предузетим радњама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan12-stav3">
+						<content>
+							<p>Обавезно упутство доставља се и председнику суда и странци.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan13">
+					<num>13.</num>
+					<heading>Право на нови приговор</heading>
+					<paragraph wId="gla2-od2-clan13-stav1">
+						<content>
+							<p>Странка чији је приговор одбијен, а која није поднела жалбу, може да поднесе нови приговор када истекну четири месеца од дана пријема решења о одбијању приговора, странка чији је приговор одбијен, а која је поднела жалбу која је одбијена када истекну четири месеца од дана пријема решења о одбијању жалбе, а странка чији је приговор усвојен, а која није поднела жалбу – када истекне пет месеци од дана пријема решења о усвајању приговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan13-stav2">
+						<content>
+							<p>Странка чија је жалба усвојена, и странка чији је приговор усвојен, а жалба одбијена, могу да поднесу нови приговор одмах после истека рока у коме је судија или јавни тужилац био дужан да предузме делотворне процесне радње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan13-stav3">
+						<content>
+							<p>Ограничења права на подношење новог приговора не важе у поступку у коме су предложени или одређени притвор или привремена мера, у извршном поступку и у поступку против малолетника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan13-stav4">
+						<content>
+							<p>Странка чији су приговор или жалба одбачени може одмах поднети нови приговор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan14">
+					<num>14.</num>
+					<paragraph wId="gla2-od3-clan14-stav1">
+						<content>
+							<p>Странка има право на жалбу ако је њен приговор одбијен или ако председник суда о њему не одлучи у року од два месеца од дана пријема приговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav2">
+						<content>
+							<p>Жалба може да се поднесе и ако је приговор усвојен, али непосредно виши јавни тужилац није донео обавезно упутство у року од осам дана од дана пријема решења председника суда, затим ако председник суда или непосредно виши јавни тужилац није наложио судији или јавном тужиоцу процесне радње које делотворно убрзавају поступак, или ако судија или јавни тужилац није предузео наложене процесне радње у року који му је одређен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan14-stav3">
+						<content>
+							<p>Поред осталог, жалба садржи исте обавезне елементе као приговор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan15">
+					<num>15.</num>
+					<heading>Рок за жалбу</heading>
+					<paragraph wId="gla2-od3-clan15-stav1">
+						<content>
+							<p>Ако председник суда није одлучио о приговору, жалба се подноси у року од осам дана од дана када је истекао рок од два месеца од дана пријема приговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan15-stav2">
+						<content>
+							<p>Ако је приговор одбијен, жалба се подноси у року од осам дана од дана када је странка примила решење о одбијању приговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan15-stav3">
+						<intro>
+							<p>Ако је приговор усвојен, а странка има право на жалбу (<ref wId="ref1" href="akn/rs/act/2015/40-3/srp@/!main~art_14__para_2" >члан 14. став 2</ref>), жалба се подноси у року од осам дана:</p>
+						</intro>
+						<point wId="gla2-od3-clan15-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> од дана истека рока у коме је непосредно виши јавни тужилац био дужан да донесе обавезно упутство – ако се жалба подноси зато што непосредно виши јавни тужилац није донео обавезно упутство;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan15-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> од дана када је странка примила решење – ако се жалба подноси зато што председник суда није судији наложио процесне радње које делотворно убрзавају поступак;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan15-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> од дана када је странка примила обавезно упутство – ако се жалба подноси зато што непосредно виши јавни тужилац није наложио јавном тужиоцу процесне радње које делотворно убрзавају поступак;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan15-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> од дана истека рока у коме је судија или јавни тужилац био дужан да предузме наложене процесне радње – ако се жалба подноси зато што судија или јавни тужилац није предузео наложене процесне радње у року који му је одређен.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan16">
+					<num>16.</num>
+					<heading>Надлежност за одлучивање о жалби</heading>
+					<paragraph wId="gla2-od3-clan16-stav1">
+						<content>
+							<p>Жалба се подноси председнику суда који је одлучивао о приговору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan16-stav2">
+						<content>
+							<p>Он одмах доставља председнику непосредно вишег суда жалбу и списе предмета. Председник непосредно вишег суда води поступак по жалби и одлучује о њој.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan16-stav3">
+						<content>
+							<p>Ако поступак у коме странка сматра да је повређено њено право на суђење у разумном року води Врховни касациони суд, поступак по жалби води и о жалби одлучује веће од три судије Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan16-stav4">
+						<content>
+							<p>Председник непосредно вишег суда може годишњим распоредом послова одредити једног судију или више судија да поред њега воде поступак и одлучују о жалбама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan17">
+					<num>17.</num>
+					<heading>Одлучивање о жалби без испитног поступка</heading>
+					<paragraph wId="gla2-od3-clan17-stav1">
+						<content>
+							<p>Председник непосредно вишег суда решењем одбацује или одбија жалбу без испитног поступка, или води испитни поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan17-stav2">
+						<content>
+							<p>Жалба се одбацује ако је непотпуна, ако ју је поднело неовлашћено лице, ако је преурањена, неблаговремена, ако се лице одрекло права на жалбу или ако је повукло жалбу, или нема правни интерес за њу. Жалба је непотпуна ако није потписана или ако из њене садржине не може да се утврди које решење се побија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan17-stav3">
+						<content>
+							<p>Против решења о одбацивању жалбе није дозвољена жалба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan17-stav4">
+						<content>
+							<p>Жалба се одбија без испитног поступка ако је, с обзиром на трајање поступка које је наведено у жалби, очигледно неоснована.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan18">
+					<num>18.</num>
+					<heading>Одлучивање о жалби после испитног поступка</heading>
+					<paragraph wId="gla2-od3-clan18-stav1">
+						<content>
+							<p>Председник непосредно вишег суда разматра списе предмета и примењује мерила за оцену трајања суђења у разумном року (<ref wId="ref2" href="akn/rs/act/2015/40-3/srp@/!main~art_4" >члан 4</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan18-stav2">
+						<content>
+							<p>После тога, решењем одбија жалбу и потврђује првостепено решење, усваја жалбу и преиначава првостепено решење, усваја жалбу и одлучује о приговору, или усваја жалбу и доставља је надлежном јавном тужиоцу (<ref wId="ref3" href="akn/rs/act/2015/40-3/srp@/!main~art_19" >члан 19</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan18-stav3">
+						<content>
+							<p>Председник непосредно вишег суда може, у зависности од околности, а посебно ако је поступак хитан, одредити првенство у одлучивању, затим наложити председнику суда коме је поднесен приговор да одузме предмет судији и додели га другом, ако је право странке повређено због преоптерећености или дужег одсуства судије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan18-stav4">
+						<content>
+							<p>Ако је жалба поднета зато што председник суда није одлучио о приговору, при доношењу решења којим одлучује о приговору председник непосредно вишег суда има иста права и обавезе као председник суда коме је поднет приговор (<ref wId="ref4" href="akn/rs/act/2015/40-3/srp@/!main~art_8->art_11" >чл. 8</ref>–11).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan19">
+					<num>19.</num>
+					<heading>Налози јавном тужиоцу који спроводи истрагу</heading>
+					<paragraph wId="gla2-od3-clan19-stav1">
+						<content>
+							<p>Председник непосредно вишег суда који преиначи првостепено решење о одбијању приговора поднетог зато што странка сматра да је њено право повредио јавни тужилац, и утврди повреду, доставља своје решење непосредно вишем јавном тужиоцу од оног јавног тужиоца коме се доставља решење председника суда о усвајању приговора (<ref wId="ref5" href="akn/rs/act/2015/40-3/srp@/!main~art_12__para_1" >члан 12. став 1</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan19-stav2">
+						<content>
+							<p>Истом јавном тужиоцу председник непосредно вишег суда доставља жалбу и решење о усвајању жалбе зато што председник суда није о приговору одлучио у року од два месеца од пријема приговора, или зато што јавни тужилац није донео обавезно упутство, или зато што непосредно виши јавни тужилац није јавном тужиоцу наложио процесне радње које делотворно убрзавају поступак, или зато што јавни тужилац није предузео наложене процесне радње у року који му је одређен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan19-stav3">
+						<content>
+							<p>Јавни тужилац коме је председник непосредно вишег суда доставио своје решење има иста права и обавезе као јавни тужилац коме је председник суда доставио решење о усвајању приговора (<ref wId="ref6" href="akn/rs/act/2015/40-3/srp@/!main~art_12__para_2" >члан 12. став 2</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan20">
+					<num>20.</num>
+					<heading>Остала правила о поступку по жалби и рок за одлучивање по жалби</heading>
+					<paragraph wId="gla2-od3-clan20-stav1">
+						<content>
+							<p>Жалба се не доставља на одговор, а усмена расправа се не одржава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan20-stav2">
+						<content>
+							<p>На остала питања сходно се примењује закон којим се уређује ванпарнични поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan20-stav3">
+						<content>
+							<p>Председник непосредно вишег суда дужан је да одлучи о жалби у року од 30 дана од дана пријема жалбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan20-stav4">
+						<content>
+							<p>Надлежни јавни тужилац (<ref wId="ref7" href="akn/rs/act/2015/40-3/srp@/!main~art_19" >члан 19</ref>) дужан је да донесе обавезно упутство у року од осам дана од дана када му је председник непосредно вишег суда доставио решење о преиначењу или решење којим се жалба усваја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan21">
+					<num>21.</num>
+					<heading>Искључење жалбе</heading>
+					<paragraph wId="gla2-od3-clan21-stav1">
+						<content>
+							<p>Против решења председника непосредно вишег суда о жалби није дозвољена жалба.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ЗАХТЕВ ЗА ПРАВИЧНО ЗАДОВОЉЕЊЕ</heading>
+				<article wId="gla3-od1-clan22">
+					<num>22.</num>
+					<paragraph wId="gla3-od1-clan22-stav1">
+						<content>
+							<p>Право на правично задовољење има странка чији је приговор усвојен, а која није поднела жалбу, затим странка чија је жалба одбијена уз потврђивање првостепеног решења о усвајању приговора и странка чија је жалба усвојена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan22-stav2">
+						<content>
+							<p>Странка чији је приговор усвојен, а која није поднела жалбу и странка чија је жалба одбијена уз потврђивање првостепеног решења о усвајању приговора стиче право на правично задовољење када истекне рок у коме је судија или јавни тужилац био дужан да предузме наложене процесне радње, а странка чија је жалба усвојена – када прими решење о усвајању жалбе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan23">
+					<num>23.</num>
+					<paragraph wId="gla3-od2-clan23-stav1">
+						<intro>
+							<p>Врсте правичног задовољења јесу:</p>
+						</intro>
+						<point wId="gla3-od2-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> право на исплату новчаног обештећења за неимовинску штету која је странци изазвана повредом права на суђење у разумном року (у даљем тексту: новчано обештећење);</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> право на објављивање писмене изјаве Државног правобранилаштва (у даљем тексту: Правобранилаштво) којом се утврђује да је странци било повређено право на суђење у разумном року;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan23-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> право на објављивање пресуде којом се утврђује да је странци било повређено право на суђење у разумном року.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan23-stav2">
+						<content>
+							<p>Одговорност Републике Србије за неимовинску штету изазвану повредом права на суђење у разумном року је објективна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan23-stav3">
+						<content>
+							<p>При одлучивању о правичном задовољењу, Правобранилаштво и судови везани су решењима председника судова којима је утврђена повреда права странке на суђење у разумном року.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan24">
+					<num>24.</num>
+					<paragraph wId="gla3-od3-clan24-stav1">
+						<content>
+							<p>Странка може да поднесе Правобранилаштву предлог за поравнање у року од шест месеци од дана када је стекла право на правично задовољење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan24-stav2">
+						<content>
+							<p>У предлогу за поравнање странка наводи да ли тражи исплату новчаног обештећења или издавање и објављивање писмене изјаве Правобранилаштва којом се утврђује да је било повређено њено право на суђење у разумном року, или и једно и друго.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan24-stav3">
+						<content>
+							<p>Правобранилаштво покушава да постигне споразум са странком у року од два месеца од дана пријема предлога за поравнање. Ако споразум буде постигнут, оно закључује са странком вансудско поравнање које представља извршну исправу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan24-stav4">
+						<content>
+							<p>Правобранилаштво је дужно да се у поступку поравнања креће у висини новчаног обештећења одређеног овим законом (<ref wId="ref8" href="akn/rs/act/2015/40-3/srp@/!main~art_30__para_1" >члан 30. став 1</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan24-stav5">
+						<content>
+							<p>Странка је слободна да у свако доба писмено одустане од покушаја поравнања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od4-clan25">
+					<num>25.</num>
+					<paragraph wId="gla3-od4-clan25-stav1">
+						<content>
+							<p>Правобранилаштво може, после процене да ли је правично задовољење за неимовинску штету могуће и ако се само објави писмена изјава којом се утврђује да је странци било повређено право на суђење у разумном року, предложити странци да јој, уместо исплате новчаног обештећења, изда и објави писмену изјаву којом се утврђује да јој је било повређено право.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan25-stav2">
+						<content>
+							<p>Код теже повреде права на суђење у разумном року Правобранилаштво може, на захтев странке да изда и објави писмену изјаву, као и да странци исплати новчано обештећење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan25-stav3">
+						<content>
+							<p>Писмена изјава којом се утврђује да је странци било повређено право на суђење у разумном року садржи њено лично или пословно име и пребивалиште, боравиште или седиште, лично или пословно име заступника или пуномоћника странке и његово пребивалиште, боравиште или седиште, назив суда или јавног тужилаштва који су повредили право странке на суђење у разумном року, пословни број судског предмета, односно предмета јавног тужилаштва, и изричиту изјаву којом се утврђује да је странци било повређено право на суђење у разумном року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan25-stav4">
+						<content>
+							<p>Правобранилаштво издаје странци писмену изјаву у облику вансудског поравнања и објављује је у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan26">
+					<num>26.</num>
+					<paragraph wId="gla3-od5-clan26-stav1">
+						<content>
+							<p>Странка може да поднесе тужбу против Републике Србије за новчано обештећење у року од једне године од дана када је стекла право на правично задовољење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan26-stav2">
+						<content>
+							<p>Тужба није дозвољена док траје покушај поравнања с Правобранилаштвом, нити ако су странка и Правобранилаштво закључили поравнање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan27">
+					<num>27.</num>
+					<heading>Поступак по тужби</heading>
+					<paragraph wId="gla3-od5-clan27-stav1">
+						<content>
+							<p>Независно од врсте и висине тужбеног захтева, у поступку пред судом сходно се примењују одредбе о споровима мале вредности из закона којим се уређује парнични поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan27-stav2">
+						<content>
+							<p>Суд не може досудити новчано обештећење у висини већој од оне одређене овим законом (<ref wId="ref9" href="akn/rs/act/2015/40-3/srp@/!main~art_30__para_1" >члан 30. став 1</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan27-stav3">
+						<content>
+							<p>Ревизија није дозвољена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan28">
+					<num>28.</num>
+					<heading>Стварна и месна надлежност судова</heading>
+					<paragraph wId="gla3-od5-clan28-stav1">
+						<content>
+							<p>За одлучивање по тужби месно је надлежан основни суд на чијем подручју тужилац има пребивалиште, боравиште или седиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan28-stav2">
+						<content>
+							<p>Ако тужилац нема пребивалиште, боравиште или седиште у Републици Србији, месно је надлежан основни суд који има седиште у месту седишта суда који је утврдио повреду права на суђење у разумном року.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od6-clan29">
+					<num>29.</num>
+					<paragraph wId="gla3-od6-clan29-stav1">
+						<content>
+							<p>Код теже повреде права на суђење у разумном року суд може, на захтев странке да донесе и објави пресуду којом се утврђује да је странци било повређено право, као и да јој досуди новчано обештећење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od6-clan29-stav2">
+						<content>
+							<p>Пресуда којом се утврђује да је странци било повређено право на суђење у разумном року садржи следеће податке о странци: њено лично или пословно име, затим пребивалиште, боравиште или седиште странке, лично или пословно име заступника или пуномоћника странке и његово пребивалиште, боравиште или седиште, и датум рођења ако га је странка навела у тужби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od6-clan29-stav3">
+						<content>
+							<p>Суд, односно јавно тужилаштво који су повредили право странке објављују правноснажну пресуду суда у „Службеном гласнику Републике Србије” о свом трошку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od7-clan30">
+					<num>30.</num>
+					<paragraph wId="gla3-od7-clan30-stav1">
+						<content>
+							<p>Новчано обештећење признаје се у висини од 300 евра до 3.000 евра у динарској противвредности на дан исплате према средњем курсу Народне банке Србије по предмету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od7-clan30-stav2">
+						<content>
+							<p>При одређивању висине новчаног обештећења, Правобранилаштво и суд примењују мерила за оцену трајања суђења у разумном року (<ref wId="ref10" href="akn/rs/act/2015/40-3/srp@/!main~art_4" >члан 4</ref>), пре свега сложеност предмета суђења или истраге, поступање надлежног државног органа и странке током поступка и значај предмета суђења или истраге по странку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od8-clan31">
+					<num>31.</num>
+					<paragraph wId="gla3-od8-clan31-stav1">
+						<content>
+							<p>Странка може да поднесе тужбу против Републике Србије за накнаду имовинске штете изазване повредом права на суђење у разумном року, у року од једне године од дана када је стекла право на правично задовољење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od8-clan31-stav2">
+						<content>
+							<p>Поред одредаба закона којим се уређују облигациони односи, суд примењује и мерила за оцену трајања суђења у разумном року (<ref wId="ref11" href="akn/rs/act/2015/40-3/srp@/!main~art_4" >члан 4</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od8-clan31-stav3">
+						<content>
+							<p>Одговорност Републике Србије за имовинску штету изазвану повредом права на суђење у разумном року је објективна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od9-clan32">
+					<num>32.</num>
+					<paragraph wId="gla3-od9-clan32-stav1">
+						<content>
+							<p>Новчано обештећење и накнаду имовинске штете исплаћује суд или јавно тужилаштво који су повредили право на суђење у разумном року.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od9-clan33">
+					<num>33.</num>
+					<heading>Обезбеђивање средстава за исплату</heading>
+					<paragraph wId="gla3-od9-clan33-stav1">
+						<content>
+							<p>Средства за исплату новчаног обештећења и накнаду имовинске штете обезбеђују се из буџета Републике Србије, у оквиру средстава која су намењена покрићу текућих расхода судова и јавних тужилаштава, од којих се изузимају расходи за запослене и текуће одржавање објеката и опреме.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla4-clan34">
+					<num>34.</num>
+					<heading>Однос Закона о уређењу судова и овог закона</heading>
+					<paragraph wId="gla4-clan34-stav1">
+						<content>
+							<p>Поступак за заштиту права на суђење у разумном року који је до ступања на снагу овог закона покренут према Закону о уређењу судова („Службени гласник РС”, бр. <ref wId="ref12" href="akn/rs/act/08/116/srp@">116/08</ref>, <ref wId="ref13" href="akn/rs/act/09/104/srp@">104/09</ref>, <ref wId="ref14" href="akn/rs/act/10/101/srp@">101/10</ref>, <ref wId="ref15" href="akn/rs/act/11/31/srp@">31/11</ref> – др. закон, <ref wId="ref16" href="akn/rs/act/11/78/srp@">78/11 – др. закон</ref>, 101/11 и 101/13) наставља се према том закону.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan34-stav2">
+						<content>
+							<p>Овај закон примењује се на судске поступке који још нису окончани у време покретања поступка за заштиту права према овом закону, ако је евентуална повреда права на суђење у разумном року настала пре почетка примене одредаба <ref wId="ref17" href="akn/rs/act/2015/40-3/srp@/!main~art_8а->art_8в" >чл. 8а</ref>–8в Закона о уређењу судова, а о њој није одлучивао Уставни суд у поступку о уставној жалби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan34-stav3">
+						<content>
+							<p>Овај закон примењује се и на судске поступке који још нису окончани у време покретања поступка за заштиту права према овом закону, ако је евентуална повреда права на суђење у разумном року настала после престанка важења одредаба <ref wId="ref18" href="akn/rs/act/2015/40-3/srp@/!main~art_8а->art_8в" >чл. 8а</ref>–8в Закона о уређењу судова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan35">
+					<num>35.</num>
+					<heading>Могућност поравнања и тужбе ако се води поступак пред Европским судом за људска права</heading>
+					<paragraph wId="gla4-clan35-stav1">
+						<content>
+							<p>Лица која су Европском суду за људска права поднела представку због тога што сматрају да је повређено њихово право на суђење у разумном року, о којој није донета одлука о прихватљивости или основаности, могу у року од шест месеци од дана ступања на снагу овог закона да поднесу Правобранилаштву предлог за поравнање о новчаном обештећењу, уз навођење датума предаје представке Европском суду за људска права и броја представке у предлогу за поравнање. Закључено поравнање представља извршну исправу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav2">
+						<content>
+							<p>Уместо предлога за поравнање или пошто одустане од покушаја поравнања, странка може у року од једне године од дана ступања на снагу овог закона да поднесе тужбу за новчано обештећење против Републике Србије суду који је надлежан по овом закону. Тужба није дозвољена ако странка и Правобранилаштво закључе поравнање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav3">
+						<content>
+							<p>Независно од врсте и висине тужбеног захтева, у поступку пред судом сходно се примењују одредбе о споровима мале вредности из закона којим се уређује парнични поступак и одредбе овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan36">
+					<num>36.</num>
+					<heading>Престанак важења појединих одредаба других закона</heading>
+					<paragraph wId="gla4-clan36-stav1">
+						<intro>
+							<p>Даном ступања на снагу овог закона престају да важе:</p>
+						</intro>
+						<point wId="gla4-clan36-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> одредбе <ref wId="ref19" href="akn/rs/act/2015/40-3/srp@/!main~art_8а->art_8в" >чл. 8а</ref>–8в Закона о уређењу судова („Службени гласник РС”, бр. <ref wId="ref20" href="akn/rs/act/08/116/srp@">116/08</ref>, <ref wId="ref21" href="akn/rs/act/09/104/srp@">104/09</ref>, <ref wId="ref22" href="akn/rs/act/10/101/srp@">101/10</ref>, <ref wId="ref23" href="akn/rs/act/11/31/srp@">31/11</ref> – др. закон, <ref wId="ref24" href="akn/rs/act/11/78/srp@">78/11 – др. закон</ref>, 101/11 и 101/13);</p>
+							</content>
+						</point>
+						<point wId="gla4-clan36-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> одредба <ref wId="ref25" href="akn/rs/act/2015/40-3/srp@/!main~art_82__para_2" >члана 82. став 2. </ref>Закона о Уставном суду („Службени гласник РС”, бр. <ref wId="ref26" href="akn/rs/act/07/109/srp@">109/07</ref>, <ref wId="ref27" href="akn/rs/act/11/99/srp@">99/11</ref> и <ref wId="ref28" href="akn/rs/act/13/18/srp@">18/13</ref> – УС).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan37">
+					<num>37.</num>
+					<heading>Завршна одредба</heading>
+					<paragraph wId="gla4-clan37-stav1">
+						<content>
+							<p>Овај закон ступа на снагу 1. јануара 2016. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

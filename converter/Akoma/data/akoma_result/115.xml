@@ -1,0 +1,2163 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о уређењу судова">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2008/116-3/main"/>
+					<FRBRuri value="akn/rs/act/2008/116-3"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/88-80/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/88-80/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/88-80/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/88-80/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2008-12-22" name="службени гласник рс“" number="116" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Суд" value="1. суд" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2008-01-01" refersTo="116/2008-3" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2009-01-01" refersTo="104/2009-3" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2010-01-01" refersTo="101/2010-3" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2011-01-01" refersTo="31/2011-34" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2011-01-01" refersTo="78/2011-3" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2011-01-01" refersTo="101/2011-273" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2013-01-01" refersTo="101/2013-8" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="2015-01-01" refersTo="40/2015-3" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="2015-01-01" refersTo="106/2015-60" source="#somebody" type="amendment" wId="e9"/>
+				<eventRef date="2016-01-01" refersTo="13/2016-13" source="#somebody" type="amendment" wId="e10"/>
+				<eventRef date="2016-01-01" refersTo="108/2016-4" source="#somebody" type="amendment" wId="e11"/>
+				<eventRef date="2017-01-01" refersTo="113/2017-304" source="#somebody" type="amendment" wId="e12"/>
+				<eventRef date="2018-01-01" refersTo="65/2018-189" source="#somebody" type="amendment" wId="e13"/>
+				<eventRef date="2018-01-01" refersTo="87/2018-53" source="#somebody" type="amendment" wId="e14"/>
+				<eventRef date="2018-01-01" refersTo="88/2018-80" source="#somebody" type="amendment" wId="e15"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2008-12-22" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2008-12-30" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2010-01-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="судови"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="уставност"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="слободе"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="интересе"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="устава"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="грађана"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="обезбеђују"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународног"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="независни"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="потврђених"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="самостални"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="штите"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="општеприхваћених"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="уговора"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="субјеката"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="предвиђено"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="законитост"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="утврђена"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="правила"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународних"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="аката"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="суде"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="оснивање"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="општих"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="државни"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="органи"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="правних"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="основу"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="других"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ustava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacioni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluka US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odlukom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Opšta sednica"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Opštu sednicu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Osnovni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prekršajni apelacioni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prekršajni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prekršajnog apelacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prekršajnom apelacionom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privredni apelacioni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privredni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privrednog apelacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privrednom apelacionom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sudskim poslovnikom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravni sud i apelacioni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravnom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet sudstva i ministarstvo nadležno za pravosuđe"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokog saveta sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokom savetu sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višeg trgovinskog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višem prekršajnom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Viši prekršajni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Viši trgovinski sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovni kasacioni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovni sud Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda bitne za praksu sudova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog suda Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnom kasacionom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstvo nadležno za pravosuđe"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ništav"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2014."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. jula 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. septembra 2009."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. septembra 2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="104/2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. novembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. novembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. decembra 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. februara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. oktobra 2011"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. novembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. avgusta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. decembra 2010"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2009."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="36. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. maja 2015"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. maja 2011"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон о допунама Закона о уређењу судова (Службени гласник РС, број 101/2011) ступио је на снагу 1. јануара 2012. године (види члан 3. Закона - 101/2011-273).Закон о изменама и допунама Закона о уређењу судова (Службени гласник РС, број 101/2013) ступио је на снагу наредног дана од дана објављивања у Службеном гласнику РС, односно 21. новембра 2013. године, а примењује се од 1. јануара 2014. године, осим одредаба члана 2. којима се додају нови чланови 8а, 8б и 8в, које се примењују по истеку шест месеци од дана ступања на снагу Закона о изменама и допунама Закона о уређењу судова, односно од 21. маја 2014. године (види члан 33. Закона - 101/2013-8).Даном почетка примене Закона о изменама и допунама Закона о уређењу судова (Службени гласник РС, број 101/2013), односно 1. јануара 2014. године, Виши прекршајни суд наставља рад као Прекршајни апелациони суд (види члан 31. Закона – 101/2013-8).Надлежности министарства надлежног за правосуђе из члана 57. став 3, члана 70. ст. 2, 4. и 5, члана 74. став 2. и члана 75. став 1, од 1. јануара 2018. године преузима Високи савет судства. Надлежности министарства надлежног за правосуђе прописане у чл. 83. и 84, престају од 1. јануара 2019. године (види члан 32. Закона - 101/2013-8, члан 1. Закона - 13/2016-13, члан 1. Закона - 108/2016-4 и члан 1. Закона – 113/2017-304).Одредбе чл. 8а–8в Закона о уређењу судова („Службени гласник РС”, бр. 116/08, 104/09, 101/10, 31/11 – др. закон, 78/11 – др. закон, 101/11 и 101/13) престају да важе даном ступања на снагу Закона о заштити права на суђење у разумном року („Службени гласник РС“, број 40/2015), односно 1. јануара 2016. године (види члан 36. Закона – 40/2015-3).Закон о изменама и допунама Закона о уређењу судова (Службени гласник РС, број 106/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2015. године, осим одредбе члана 1. став 2. овог закона која ступа на снагу 1. јула 2016. године (види члан 6. Закона).Закон о изменама Закона о уређењу судова („Службени гласник РС“, број 13/2016) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србиje”, односно 27. фебруара 2016. године (види члан 2. Закона – 13/2016-13).Закон о измени Закона о уређењу судова(„Службени гласник РС“, број 108/2016) је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2016. године (види члан 2. Закона - 108/2016-4).Закон о измени Закона о уређењу судова („Службени гласник РС“, број 113/2017) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 25. децембра 2017. године (види члан 2. Закона – 113/2017-304).Одлуком Уставног суда број IУз 258/2016 („Службени гласник РС“, број 65/2018) престала је да важи одредба члана 63. став 1. у делу који гласи: „и објављени стручни и научни радови” Закона о уређењу судова („Службени гласник РС“, бр. 116/08, 104/09, 101/10, 31/11 – др. закон, 78/11 – др. закон, 101/11, 101/13, 40/15 – др. закон, 106/15, 13/16 и 108/16), јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 65/2018-189).Закон о измени Закона о уређењу судова („Службени гласник РС“, број 87/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србиje”, односно 21. новембра 2018. године (види члан 2. Закона – 87/2018-53).Одлуком Уставног суда број IУз 34/2016 („Службени гласник РС“, број 88/2018) престала је да важи одредба члана 32. Закона о изменама и допунама Закона о уређењу судова („Службени гласник РС“, бр. 101/13 и 13/16), јер је утврђено да нису у сагласности са Уставом (види Одлуку УС – 88/2018-80).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон о допунама Закона о уређењу судова (Службени гласник РС, број 101/2011) ступио је на снагу 1. јануара 2012. године (види члан 3. Закона - 101/2011-273).Закон о изменама и допунама Закона о уређењу судова (Службени гласник РС, број 101/2013) ступио је на снагу наредног дана од дана објављивања у Службеном гласнику РС, односно 21. новембра 2013. године, а примењује се од 1. јануара 2014. године, осим одредаба члана 2. којима се додају нови чланови 8а, 8б и 8в, које се примењују по истеку шест месеци од дана ступања на снагу Закона о изменама и допунама Закона о уређењу судова, односно од 21. маја 2014. године (види члан 33. Закона - 101/2013-8).Даном почетка примене Закона о изменама и допунама Закона о уређењу судова (Службени гласник РС, број 101/2013), односно 1. јануара 2014. године, Виши прекршајни суд наставља рад као Прекршајни апелациони суд (види члан 31. Закона – 101/2013-8).Надлежности министарства надлежног за правосуђе из члана 57. став 3, члана 70. ст. 2, 4. и 5, члана 74. став 2. и члана 75. став 1, од 1. јануара 2018. године преузима Високи савет судства. Надлежности министарства надлежног за правосуђе прописане у чл. 83. и 84, престају од 1. јануара 2019. године (види члан 32. Закона - 101/2013-8, члан 1. Закона - 13/2016-13, члан 1. Закона - 108/2016-4 и члан 1. Закона – 113/2017-304).Одредбе чл. 8а–8в Закона о уређењу судова („Службени гласник РС”, бр. 116/08, 104/09, 101/10, 31/11 – др. закон, 78/11 – др. закон, 101/11 и 101/13) престају да важе даном ступања на снагу Закона о заштити права на суђење у разумном року („Службени гласник РС“, број 40/2015), односно 1. јануара 2016. године (види члан 36. Закона – 40/2015-3).Закон о изменама и допунама Закона о уређењу судова (Службени гласник РС, број 106/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2015. године, осим одредбе члана 1. став 2. овог закона која ступа на снагу 1. јула 2016. године (види члан 6. Закона).Закон о изменама Закона о уређењу судова („Службени гласник РС“, број 13/2016) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србиje”, односно 27. фебруара 2016. године (види члан 2. Закона – 13/2016-13).Закон о измени Закона о уређењу судова(„Службени гласник РС“, број 108/2016) је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2016. године (види члан 2. Закона - 108/2016-4).Закон о измени Закона о уређењу судова („Службени гласник РС“, број 113/2017) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 25. децембра 2017. године (види члан 2. Закона – 113/2017-304).Одлуком Уставног суда број IУз 258/2016 („Службени гласник РС“, број 65/2018) престала је да важи одредба члана 63. став 1. у делу који гласи: „и објављени стручни и научни радови” Закона о уређењу судова („Службени гласник РС“, бр. 116/08, 104/09, 101/10, 31/11 – др. закон, 78/11 – др. закон, 101/11, 101/13, 40/15 – др. закон, 106/15, 13/16 и 108/16), јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 65/2018-189).Закон о измени Закона о уређењу судова („Службени гласник РС“, број 87/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србиje”, односно 21. новембра 2018. године (види члан 2. Закона – 87/2018-53).Одлуком Уставног суда број IУз 34/2016 („Службени гласник РС“, број 88/2018) престала је да важи одредба члана 32. Закона о изменама и допунама Закона о уређењу судова („Службени гласник РС“, бр. 101/13 и 13/16), јер је утврђено да нису у сагласности са Уставом (види Одлуку УС – 88/2018-80).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О уређењу судова „Службени гласник РС“, бр. <ref wId="ref128" href="akn/rs/act/2008/116/srp@">116 од 22. децембра 2008</ref>, <ref wId="ref129" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref>, <ref wId="ref130" href="akn/rs/act/2010/101/srp@">101 од 29. децембра 2010</ref>, <ref wId="ref131" href="akn/rs/act/2011/31/srp@">31 од 9. маја 2011</ref> - др. закон, <ref wId="ref132" href="akn/rs/act/2011/78/srp@">78 од 19. октобра 2011</ref> - др. закон, <ref wId="ref133" href="akn/rs/act/2011/101/srp@">101 од 30. децембра 2011</ref>, <ref wId="ref134" href="akn/rs/act/2013/101/srp@">101 од 20. новембра 2013</ref>, <ref wId="ref135" href="akn/rs/act/2015/40/srp@">40 од 7. маја 2015</ref> - др. закон, <ref wId="ref136" href="akn/rs/act/2015/106/srp@">106 од 21. децембра 2015</ref>, <ref wId="ref137" href="akn/rs/act/2016/13/srp@">13 од 19. фебруара 2016</ref>, <ref wId="ref138" href="akn/rs/act/2016/108/srp@">108 од 29. децембра 2016</ref>, <ref wId="ref139" href="akn/rs/act/2017/113/srp@">113 од 17. децембра 2017</ref>, <ref wId="ref140" href="akn/rs/act/2018/65/srp@">65 од 24. августа 2018</ref> - УС, <ref wId="ref141" href="akn/rs/act/2018/87/srp@">87 од 13. новембра 2018</ref>, <ref wId="ref142" href="akn/rs/act/2018/88/srp@">88 од 15. новембра 2018</ref> - УС</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>прва</num>
+				<heading>НАЧЕЛА</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Судска власт</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Судови су самостални и независни државни органи који штите слободе и права  грађана, законом утврђена права и интересе правних субјеката и обезбеђују  уставност и законитост.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Судови суде на основу Устава, закона и других општих аката, када је то  предвиђено законом, општеприхваћених правила међународног права и потврђених  међународних уговора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Оснивање судова</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Судови се оснивају и укидају законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Не могу се оснивати привремени, преки или ванредни судови.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>За оснивање мировних већа, арбитража и других изабраних судова важе посебни  прописи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Независност судске власти</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Судска власт припада судовима и независна је од законодавне и извршне власти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Судске одлуке су обавезне за све и не могу бити предмет вансудске контроле.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Судску одлуку може преиспитивати само надлежни суд у законом прописаном  поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Свако је дужан да поштује извршну судску одлуку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Судска надлежност</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Судска надлежност одређује се Уставом и законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Суд не може одбити да поступа и одлучује у ствари за коју је надлежан.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Одређивање судећег судије</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Судија који суди одређује се независно од тога ко су странке и какве су  околности правне ствари.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Само судска власт може судијама да распоређује предмете, по унапред утврђеним  правилима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Забрана утицаја на суд</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Ради чувања ауторитета и непристрасности суда  забрањено је коришћење јавног положаја и јавно иступање којим се утиче на ток и  исход судског поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Забрањен је сваки други утицај на суд и притисак на  учеснике у поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Јавност</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Расправљање пред судом је јавно и може се ограничити само законом, у складу  са Уставом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Право на притужбу</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Странка и други учесник у судском поступку имају право притужбе на рад суда  кад сматрају да се поступак одуговлачи, да је неправилан или да постоји било  какав недозвољен утицај на његов ток и исход.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Члан 8а-8в</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav3">
+						<content>
+							<p>Престали су да важе (види <ref wId="ref1" href="akn/rs/act/2015/40/srp@/!main~/art_36">члан 36. Закона - 40/2015-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav4">
+						<content>
+							<p>Сарадња судова и других органа</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2013/101/srp@">101/2013</ref></heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Судови су дужни да једни другима пружају правну помоћ  и сарађују, а други државни органи и организације су дужни да судовима  достављају потребне податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav2">
+						<content>
+							<p>Судови могу другим државним органима да доставе списе  и исправе, односно њихове копије, потребне за вођење поступка, у складу са  посебним прописима, само кад се тиме не омета судски поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<heading>Обележја државне власти, службена употреба језика и писма</heading>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Суд има печат који садржи назив и седиште суда и назив и грб Републике  Србије, у складу са посебним законима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav2">
+						<content>
+							<p>Назив и седиште суда и назив, грб и застава Републике Србије истичу се на  видном месту судске зграде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav3">
+						<content>
+							<p>Застава и грб Републике Србије истичу се и у судници.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav4">
+						<content>
+							<p>У судовима у Републици Србији у службеној употреби су српски језик и  ћириличко писмо.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav5">
+						<content>
+							<p>У судовима, одељењима изван седишта судова и судским јединицама у службеној  употреби су и други језици и писма, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>друга</num>
+				<heading>СПОЉАШЊЕ УРЕЂЕЊЕ СУДОВА</heading>
+			</chapter>
+			<article wId="gla1-clan11">
+				<num>11.</num>
+				<heading>Судови Републике Србије</heading>
+				<paragraph wId="gla1-clan11-stav1">
+					<content>
+						<p>Судска власт је јединствена на територији Републике Србије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan11-stav2">
+					<content>
+						<p>Судска власт у Републици Србији припада судовима опште и посебне надлежности.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan11-stav3">
+					<content>
+						<p>Судови опште надлежности су основни судови, виши судови, апелациони судови и  Врховни касациони суд.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan11-stav4">
+					<content>
+						<p>Судови посебне надлежности су привредни судови, Привредни апелациони суд,  прекршајни судови, Прекршајни апелациони суд и Управни суд.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan11-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan12">
+				<num>12.</num>
+				<heading>Врховни касациони суд</heading>
+				<paragraph wId="gla1-clan12-stav1">
+					<content>
+						<p>Врховни касациони суд је највиши суд у Републици Србији.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan12-stav2">
+					<content>
+						<p>Седиште Врховног касационог суда је у Београду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan13">
+				<num>13.</num>
+				<heading>Остали судови републичког ранга</heading>
+				<paragraph wId="gla1-clan13-stav1">
+					<content>
+						<p>Привредни апелациони суд, Прекршајни апелациони суд и Управни суд оснивају  се за територију Републике Србије, са седиштима у Београду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan13-stav2">
+					<content>
+						<p>Прекршајни апелациони суд и Управни суд могу имати одељења изван седишта, у  складу са законом, у којем трајно суде и предузимају остале судске радње.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan13-stav3">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan14">
+				<num>14.</num>
+				<heading>Основни, виши, апелациони, привредни и прекршајни судови</heading>
+				<paragraph wId="gla1-clan14-stav1">
+					<content>
+						<p>Основни суд оснива се за територију града, односно једне или више општина, а  виши суд за подручје једног или више основних судова.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan14-stav2">
+					<content>
+						<p>Привредни суд оснива се за територију једног или више градова, односно више  општина.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan14-stav3">
+					<content>
+						<p>Апелациони суд оснива се за подручје више виших судова.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan14-stav4">
+					<content>
+						<p>Прекршајни суд оснива се за територију града, односно једне или више општина.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan14-stav5">
+					<content>
+						<p>Оснивање, седишта и подручја основних, виших, апелационих, привредних и  прекршајних судова уређују се посебним законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan14-stav6">
+					<content>
+						<p>Одељења прекршајних судова и судске јединице основних и привредних судова  одређују се посебним законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan15">
+				<num>15.</num>
+				<heading>Непосредно виши суд</heading>
+				<paragraph wId="gla1-clan15-stav1">
+					<content>
+						<p>Врховни касациони суд је непосредно виши суд за Привредни апелациони суд,  Прекршајни апелациони суд, Управни суд и апелациони суд.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan15-stav2">
+					<content>
+						<p>Апелациони суд је непосредно виши суд за виши суд и основни суд, Привредни  апелациони суд је непосредно виши суд за привредни суд, а Прекршајни апелациони суд је непосредно виши суд за прекршајни суд.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan15-stav3">
+					<content>
+						<p>Виши суд је непосредно виши суд за основни суд када је то одређено овим  законом, као и за питања унутрашњег уређења судова и примене Закона о судијама.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan15-stav4">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od1-clan16">
+				<num>16.</num>
+				<heading>Седиште и подручје суда</heading>
+				<paragraph wId="gla2-od1-clan16-stav1">
+					<content>
+						<p>Седиште суда је у згради где је суд.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan16-stav2">
+					<content>
+						<p>Подручје суда је територија на којој се простире надлежност суда.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od1-clan17">
+				<num>17.</num>
+				<heading>Место предузимања судских радњи</heading>
+				<paragraph wId="gla2-od1-clan17-stav1">
+					<content>
+						<p>Судске радње предузимају се у седишту суда, а изван седишта – само кад је то  законом одређено.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan17-stav2">
+					<content>
+						<p>Основни суд, виши, привредни и прекршајни суд може изван свог седишта да  одржава судске дане.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan17-stav3">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref7" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od1-clan18">
+				<num>18.</num>
+				<heading>Судски дани</heading>
+				<paragraph wId="gla2-od1-clan18-stav1">
+					<content>
+						<p>За време судских дана суд из <ref wId="ref8" href="akn/rs/act/2018/88-80/srp@/!main~art_17__para_2" >члана 17. став 2. овог</ref> закона суди и предузима  друге судске радње.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan18-stav2">
+					<content>
+						<p>Место, дан и време одржавања судских дана одређује председник суда, у складу  са Судским пословником.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan18-stav3">
+					<content>
+						<p>Судски дани оглашавају се у месту у коме се одржавају.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od1-clan19">
+				<num>19.</num>
+				<heading>Одељење изван седишта прекршајног суда, односно судске јединице изван седишта  основног и привредног суда</heading>
+				<paragraph wId="gla2-od1-clan19-stav1">
+					<content>
+						<p>Прекршајни суд може имати одељење изван свог седишта у којем суди и предузима  друге судске радње.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan19-stav2">
+					<content>
+						<p>Одељење изван седишта прекршајног суда одређује се за територију града,  односно једне или више општина са подручја суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan19-stav3">
+					<content>
+						<p>Основни и привредни суд може имати судску јединицу изван свог седишта у  којој суди и предузима друге судске радње, у складу са годишњим распоредом  послова у суду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan19-stav4">
+					<content>
+						<p>Брисан је ранији <ref wId="ref10" href="akn/rs/act/2018/88-80/srp@/!main~art_19__para_4" >став 4. </ref>(види <ref wId="ref9" href="akn/rs/act/2013/101/srp@/!main~/art_5">члан 5. Закона - 101/2013-8</ref>)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan19-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref11" href="akn/rs/act/2009/104/srp@">104/2009</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan19-stav6">
+					<content>
+						<p>**Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od2-clan20">
+				<num>20.</num>
+				<heading>Време предузимања судских радњи</heading>
+				<paragraph wId="gla2-od2-clan20-stav1">
+					<content>
+						<p>Судске радње предузимају се сваког радног дана, а радње које не трпе одлагање  и у време и у дане када суд не ради.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan20-stav2">
+					<content>
+						<p>Судским пословником се одређују судске радње које се предузимају у  време и у  дане кад се не ради.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan20-stav3">
+					<content>
+						<p>Судским пословником одређује се које се судске радње предузимају у судским  јединицама изван седишта основних и привредних судова.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan20-stav4">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2009/104/srp@">104/2009</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od2-clan21">
+				<num>21.</num>
+				<heading>Поштовање радног времена</heading>
+				<paragraph wId="gla2-od2-clan21-stav1">
+					<content>
+						<p>Брисан је (види <ref wId="ref14" href="akn/rs/act/2013/101/srp@/!main~/art_6">члан 6. Закона - 101/2013-8</ref>)</p>
+					</content>
+				</paragraph>
+			</article>
+			<chapter wId="gla3">
+				<num>трећа</num>
+				<heading>НАДЛЕЖНОСТ СУДОВА</heading>
+				<article wId="gla3-od1-clan22">
+					<num>22.</num>
+					<paragraph wId="gla3-od1-clan22-stav1">
+						<content>
+							<p>Основни суд у првом степену суди за кривична дела за која је као главна казна  предвиђена новчана казна или казна затвора до десет и десет година ако за  поједина од њих није надлежан други суд и одлучује о молби за престанак мере  безбедности или правне последице осуде за кривична дела из своје надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan22-stav2">
+						<content>
+							<p>Основни суд у првом степену суди у грађанскоправним споровима ако за поједине  од њих није надлежан други суд и води извршне и ванпарничне поступке за које  није надлежан неки други суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan22-stav3">
+						<content>
+							<p>Основни суд у првом степену суди у стамбеним споровима; споровима поводом  заснивања, постојања и престанка радног односа; о правима, обавезама и  одговорностима из радног односа; о накнади штете коју запослени претрпи на раду  или у вези са радом; споровима поводом задовољавања стамбених потреба на основу  рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan22-stav4">
+						<content>
+							<p>Основни суд пружа грађанима правну помоћ, међународну правну помоћ  ако није  надлежан други суд и врши друге послове одређене законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan22-stav5">
+						<content>
+							<p>Законом се може предвидети да у одређеним врстама правних ствари поступају  само неки основни судови са подручја истог вишег суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan22-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2009/104/srp@">104/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan23">
+					<num>23.</num>
+					<paragraph wId="gla3-od2-clan23-stav1">
+						<content>
+							<p>Виши суд у првом степену:</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="gla3-od8-clan23-stav1">
+					<content>
+						<p>Виши суд у другом степену одлучује о жалбама на одлуке  основних судова:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od3-clan23-stav1">
+					<content>
+						<p>Виши суд води поступак за изручење окривљених и  осуђених лица, пружа међународну правну помоћ у поступцима за кривична дела из  своје надлежности, извршава кривичну пресуду иностраног суда, одлучује о  признању и извршењу страних судских и арбитражних одлука ако није надлежан други  суд, одлучује о сукобу надлежности основних судова са свог подручја, обезбеђује  и пружа помоћ и подршку сведоцима и оштећенима и врши друге послове одређене  законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od3-clan23-stav2">
+					<content>
+						<p>Законом се може предвидети да у одређеним врстама  правних ствари поступа само одређени виши суд.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od3-clan23-stav3">
+					<content>
+						<p>*Службени гласник РС, број 101/2013</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od3-clan23-stav4">
+					<content>
+						<p>**Службени гласник РС, број 106/2015</p>
+					</content>
+				</paragraph>
+				<article wId="gla3-od3-clan24">
+					<num>24.</num>
+					<paragraph wId="gla3-od3-clan24-stav1">
+						<content>
+							<p>Апелациони суд одлучује о жалбама:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan24-stav2">
+						<content>
+							<p>Апелациони судови одржавају заједничке седнице и  обавештавају Врховни касациони суд о спорним питањима од значаја за  функционисање судова у Републици Србији и уједначавање судске праксе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan24-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref16" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od4-clan25">
+					<num>25.</num>
+					<paragraph wId="gla3-od4-clan25-stav1">
+						<content>
+							<p>Привредни суд у првом степену суди:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan25-stav2">
+						<content>
+							<p>Привредни суд у првом степену одлучује о привредним  преступима и с тим у вези о престанку заштитне мере или правне последице осуде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan25-stav3">
+						<content>
+							<p>Привредни суд пружа међународну правну помоћ за питања  из своје надлежности и врши и друге послове одређене законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan25-stav4">
+						<content>
+							<p>Законом се може предвидети да у одређеним врстама  правних ствари поступа само одређени привредни суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan25-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref17" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan25-stav6">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref18" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan26">
+					<num>26.</num>
+					<paragraph wId="gla3-od5-clan26-stav1">
+						<content>
+							<p>Привредни апелациони суд одлучује о жалбама на одлуке привредних судова и  других органа, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan26-stav2">
+						<content>
+							<p>Привредни апелациони суд одлучује о сукобу надлежности и о преношењу  надлежности привредних судова, утврђује правне ставове ради јединствене примене  закона из надлежности привредних судова и врши друге послове одређене законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od6-clan27">
+					<num>27.</num>
+					<paragraph wId="gla3-od6-clan27-stav1">
+						<content>
+							<p>Прекршајни суд у првом степену суди у прекршајним  поступцима ако није надлежан орган управе, пружа међународну правну помоћ у  оквиру своје надлежности и врши друге послове одређене законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od6-clan27-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od7-clan28">
+					<num>28.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref21" href="akn/rs/act/2013/101/srp@">101/2013</ref></heading>
+					<paragraph wId="gla3-od7-clan28-stav1">
+						<content>
+							<p>Прекршајни апелациони суд одлучује о жалбама на одлуке  прекршајних судова, о жалбама на одлуке које у прекршајном поступку доносе  органи управе, о сукобу и преношењу месне надлежности прекршајних судова и врши  друге послове одређене законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od7-clan28-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref20" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od8-clan29">
+					<num>29.</num>
+					<paragraph wId="gla3-od8-clan29-stav1">
+						<content>
+							<p>Управни суд суди у управним споровима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od8-clan29-stav2">
+						<content>
+							<p>Управни суд пружа међународну правну помоћ у оквиру  своје надлежности и врши и друге послове одређене законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od8-clan29-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref22" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od9-clan30">
+					<num>30.</num>
+					<heading>Надлежност у суђењу</heading>
+					<paragraph wId="gla3-od9-clan30-stav1">
+						<content>
+							<p>Врховни касациони суд одлучује о ванредним правним средствима изјављеним на  одлуке судова Републике Србије и у другим стварима одређеним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od9-clan30-stav2">
+						<content>
+							<p>Врховни касациони суд одлучује о сукобу надлежности између судова, ако за  одлучивање није надлежан други суд, као и о преношењу надлежности судова ради  лакшег вођења поступка или других важних разлога.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od9-clan31">
+					<num>31.</num>
+					<heading>Надлежност изван суђења</heading>
+					<paragraph wId="gla3-od9-clan31-stav1">
+						<content>
+							<p>Врховни касациони суд обезбеђује јединствену судску примену права и једнакост  странака у судским поступцима; разматра примену закона и других прописа и рад  судова; именује судије Уставног суда, даје мишљење о кандидату за председника  Врховног касационог суда и врши друге надлежности одређене законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od9-clan31-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od9-clan32">
+					<num>32.</num>
+					<heading>Састав већа</heading>
+					<paragraph wId="gla3-od9-clan32-stav1">
+						<content>
+							<p>Ако законом није друкчије одређено, Врховни касациони суд о правним  средствима одлучује у већу од пет судија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od9-clan32-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref24" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od9-clan33">
+					<num>33.</num>
+					<heading>Објављивање одлука Врховног касационог суда</heading>
+					<paragraph wId="gla3-od9-clan33-stav1">
+						<content>
+							<p>Одлуке Врховног касационог суда битне за праксу судова објављују се у  посебној збирци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od9-clan33-stav2">
+						<content>
+							<p>Све одлуке Врховног касационог суда из <ref wId="ref25" href="akn/rs/act/2018/88-80/srp@/!main~art_30__para_1" >члана 30. став 1. овог</ref> закона  објављују се на веб-страници Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od9-clan33-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref26" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>четврта</num>
+				<heading>УНУТРАШЊЕ УРЕЂЕЊЕ СУДА</heading>
+			</chapter>
+			<article wId="gla1-clan34">
+				<num>34.</num>
+				<paragraph wId="gla1-clan34-stav1">
+					<content>
+						<p>Пошто прибави мишљење судија, председник суда писмено утврђује распоред  послова за наредну годину и саопштава га на седници свих судија до 1. децембра.  Годишњи распоред послова судија утврђује се према правној области у којој судија  поступа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan34-stav2">
+					<content>
+						<p>На годишњи распоред послова судија може изјавити приговор у року од три дана  од дана саопштавања на седници свих судија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan34-stav3">
+					<content>
+						<p>О приговору судије одлучује председник непосредно вишег суда у року од осам  дана од дана подношења приговора.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan34-stav4">
+					<content>
+						<p>О приговору судије на годишњи распоред послова у Врховном касационом суду,  одлучује Општа седница.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od1-clan35">
+				<num>35.</num>
+				<heading>Образовање и руковођење</heading>
+				<paragraph wId="gla2-od1-clan35-stav1">
+					<content>
+						<p>Судска одељења постоје у судовима у којима више већа или судија појединаца  поступа у истој правној области.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan35-stav2">
+					<content>
+						<p>Судским одељењем руководи председник одељења, кога по прибављеном мишљењу  судија одељења поставља председник суда.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od1-clan36">
+				<num>36.</num>
+				<heading>Делокруг</heading>
+				<paragraph wId="gla2-od1-clan36-stav1">
+					<content>
+						<p>На седници судског одељења разматра се рад одељења, правна питања, начини  побољшања рада и стручности судија, судијских помоћника и судијских приправника  и друга питања од значаја за одељење.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan36-stav2">
+					<content>
+						<p>Одељења апелационог суда, Привредног апелационог суда и  Прекршајног  апелационог суда разматрају и питања важна за рад подручних судова.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan36-stav3">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od1-clan37">
+				<num>37.</num>
+				<heading>Сазивање седнице и руковођење седницом</heading>
+				<paragraph wId="gla2-od1-clan37-stav1">
+					<content>
+						<p>Седницу судског одељења могу сазвати председник одељења или председник суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan37-stav2">
+					<content>
+						<p>Седница судског одељења сазива се и на захтев једне  трећине судија тог одељења.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan37-stav3">
+					<content>
+						<p>Председник суда увек може да учествује у раду и одлучивању седнице одељења.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan37-stav4">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref28" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od2-clan38">
+				<num>38.</num>
+				<paragraph wId="gla2-od2-clan38-stav1">
+					<content>
+						<p>Одељење судске праксе постоји у суду с већим бројем судија, у складу са  Судским пословником.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan38-stav2">
+					<content>
+						<p>Одељење судске праксе прати и проучава праксу судова и међународних судских  органа и обавештава судије, судијске помоћнике и судијске приправнике о правним  схватањима судова.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan38-stav3">
+					<content>
+						<p>Одељењем судске праксе руководи судија кога одређује председник суда.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od3-clan39">
+				<num>39.</num>
+				<heading>*Службени гласник РС, број <ref wId="ref30" href="akn/rs/act/2013/101/srp@">101/2013</ref></heading>
+				<paragraph wId="gla2-od3-clan39-stav1">
+					<content>
+						<p>У вишим и апелационим судовима постоје одељења за кривичне поступке против  малолетника и за радне спорове.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od3-clan39-stav2">
+					<content>
+						<p>У појединим вишим и апелационим судовима могу се образовати одељења за  кривична дела против Војске Србије, за кривична дела организованог криминала,  ратних злочина и високотехнолошког криминала, у складу са законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od3-clan39-stav3">
+					<content>
+						<p>У прекршајним судовима и Прекршајном апелационом суду могу се образовати  одељења за вођење прекршајног поступка за прекршаје из области јавних прихода,  царинског, спољнотрговинског и девизног пословања, у складу са Судским  пословником.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od3-clan39-stav4">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref29" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od4-clan40">
+				<num>40.</num>
+				<paragraph wId="gla2-od4-clan40-stav1">
+					<content>
+						<p>Заједничка седница одељења сазива се кад је за разматрање правног питања  потребна сарадња најмање два одељења.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od4-clan40-stav2">
+					<content>
+						<p>Заједничку седницу сазивају заједно председници одељења или председник суда,  а њоме руководи председник суда или председник одељења у чијем је делокругу  питање које се разматра.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od5-clan41">
+				<num>41.</num>
+				<paragraph wId="gla2-od5-clan41-stav1">
+					<content>
+						<p>На седници свих судија разматрају се извештаји о раду суда и судија, одлучује  о покретању поступка за оцену уставности закона и законитости прописа и других  општих аката, разматра примена прописа којима се уређују питања из делокруга  судова, даје мишљење о кандидатима за судије и судије поротнике и одлучује о  другим питањима важним за цео суд.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od5-clan41-stav2">
+					<content>
+						<p>Седницом свих судија руководи председник суда, а сазива је по потреби,  односно на захтев судског одељења или најмање трећине свих судија.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-od1-clan42">
+				<num>42.</num>
+				<paragraph wId="gla3-od1-clan42-stav1">
+					<content>
+						<p>Врховни касациони суд може имати одељења у складу са Пословником о уређењу и  раду Врховног касационог суда.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-od2-clan43">
+				<num>43.</num>
+				<paragraph wId="gla3-od2-clan43-stav1">
+					<content>
+						<p>Седница одељења Врховног касационог суда разматра питања из делокруга судских  одељења.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od2-clan43-stav2">
+					<content>
+						<p>Седница одељења сазива се и ако између појединих већа настане несагласност у  примени прописа или ако једно веће одступи од правног схватања прихваћеног у  својој пракси или од правног схватања које су прихватила сва већа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od2-clan43-stav3">
+					<content>
+						<p>Правно схватање усвојено на седници одељења обавезује сва већа у саставу  одељења.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-od3-clan44">
+				<num>44.</num>
+				<heading>Делокруг</heading>
+				<paragraph wId="gla3-od3-clan44-stav1">
+					<content>
+						<p>Општа седница Врховног касационог суда разматра примену закона и других  прописа и рад судова; именује судије Уставног суда; даје мишљење о кандидату за  председника Врховног касационог суда; доноси Пословник о уређењу и раду Врховног  касационог суда и врши друге послове одређене законом и Пословником о уређењу и  раду Врховног касационог суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od3-clan44-stav2">
+					<content>
+						<p>Општа седница разматра и остала питања из делокруга седнице свих судија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od3-clan44-stav3">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref31" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-od3-clan45">
+				<num>45.</num>
+				<heading>Усвајање начелних правних ставова</heading>
+				<paragraph wId="gla3-od3-clan45-stav1">
+					<content>
+						<p>Брисан је (види <ref wId="ref32" href="akn/rs/act/2013/101/srp@/!main~/art_18">члан 18. Закона - 101/2013-8</ref>)</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-od3-clan46">
+				<num>46.</num>
+				<heading>Састав и одлучивање</heading>
+				<paragraph wId="gla3-od3-clan46-stav1">
+					<content>
+						<p>Општу седницу чине председник и судије Врховног касационог суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od3-clan46-stav2">
+					<content>
+						<p>За пуноважно одлучивање на Општој седници потребно је учешће већине судија од  укупног броја судија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od3-clan46-stav3">
+					<content>
+						<p>Одлуке се доносе већином гласова присутних судија Врховног касационог суда.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-od3-clan47">
+				<num>47.</num>
+				<heading>Сазивање седнице и руковођење седницом</heading>
+				<paragraph wId="gla3-od3-clan47-stav1">
+					<content>
+						<p>Општу седницу сазива председник суда, по потреби, односно на захтев судског  одељења или најмање трећине свих судија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od3-clan47-stav2">
+					<content>
+						<p>Општом седницом руководи председник Врховног касационог суда.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-od4-clan48">
+				<num>48.</num>
+				<heading>Делокруг</heading>
+				<paragraph wId="gla3-od4-clan48-stav1">
+					<content>
+						<p>Врховни касациони суд има Секретаријат.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od4-clan48-stav2">
+					<content>
+						<p>Секретаријат помаже председнику суда у судској управи, обавља административне  послове за Општу седницу и врши друге послове који су му Пословником о уређењу и  раду Врховног касационог суда стављени у делокруг.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-od4-clan49">
+				<num>49.</num>
+				<heading>Секретар</heading>
+				<paragraph wId="gla3-od4-clan49-stav1">
+					<content>
+						<p>Секретаријатом руководи секретар суда, кога на предлог председника суда  поставља Општа седница.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od4-clan49-stav2">
+					<content>
+						<p>Секретар Врховног касационог суда има статус државног службеника на положају.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od4-clan49-stav3">
+					<content>
+						<p>Секретар Врховног касационог суда мора да испуњава услове за судију  апелационог суда.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-od5-clan50">
+				<num>50.</num>
+				<paragraph wId="gla3-od5-clan50-stav1">
+					<content>
+						<p>Врховни касациони суд има пословник којим се детаљније прописује унутрашње  уређење и рад суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-od5-clan50-stav2">
+					<content>
+						<p>Пословник о уређењу и раду Врховног касационог суда објављује се у „Службеном  гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-clan51">
+				<num>51.</num>
+				<heading>Послови који чине судску управу</heading>
+				<paragraph wId="gla4-clan51-stav1">
+					<content>
+						<p>Судску управу чине послови који служе вршењу судске власти, пре свега:  уређивање унутрашњег пословања у суду; позивање и распоређивање судија  поротника; послови везани за сталне судске вештаке и тумаче; разматрање притужби  и представки; вођење статистика и израда извештаја; извршење кривичних и  прекршајних санкција; финансијско и материјално пословање суда и овера исправа  намењених употреби у иностранству.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan51-stav2">
+					<content>
+						<p>У судској управи виших судова, као и других судова  које одреди Високи савет судства, може се организовати служба за пружање подршке  и помоћи сведоцима и оштећенима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan51-stav3">
+					<content>
+						<p>Судска управа детаљније се уређује Судским пословником.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan51-stav4">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref33" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-clan52">
+				<num>52.</num>
+				<heading>Права и обавезе председника суда</heading>
+				<paragraph wId="gla4-clan52-stav1">
+					<content>
+						<p>Председник суда представља суд, руководи судском управом и одговоран је за  правилан и благовремен рад суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan52-stav2">
+					<content>
+						<p>Председник суда обезбеђује законитост, ред и тачност у суду, налаже отклањање  неправилности и спречава одуговлачење у раду, одређује браниоце по службеној  дужности по азбучном реду са листе адвоката које доставља адвокатска комора,  стара се о одржавању независности судија и угледу суда и врши друге послове  одређене законом и Судским пословником.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan52-stav3">
+					<content>
+						<p>Суд има једног или више заменика председника суда, који замењује председника  суда у случају спречености или одсутности.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan52-stav4">
+					<content>
+						<p>Када суд има више од једног заменика председника суда, председник суда  одређује једног заменика који га замењује.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-clan53">
+				<num>53.</num>
+				<heading>Поверавање судске управе другима</heading>
+				<paragraph wId="gla4-clan53-stav1">
+					<content>
+						<p>Поједине послове судске управе председник суда може  поверити заменику председника суда, председницима одељења и управитељу суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan53-stav2">
+					<content>
+						<p>Председник суда не може поверити одлучивање о правима судија на основу рада,  утврђивање годишњег распореда послова, одлучивање о радним односима судског  особља у случају када је то законом одређено, као и о удаљењу судије и судије  поротника са дужности.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan53-stav3">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref34" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-clan54">
+				<num>54.</num>
+				<heading>Овлашћења председника непосредно вишег суда</heading>
+				<paragraph wId="gla4-clan54-stav1">
+					<content>
+						<p>Председник непосредно вишег суда има право да надзире судску управу нижег  суда, као и да при нечињењу председника нижег суда донесе акте из његовог  делокруга.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan54-stav2">
+					<content>
+						<p>Председник непосредно вишег суда може тражити од нижег суда обавештења о  примени прописа, току поступка, као и све податке о раду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan54-stav3">
+					<content>
+						<p>Председник непосредно вишег суда може наложити непосредан увид у рад нижег  суда, о чему се сачињава писмени извештај.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-clan55">
+				<num>55.</num>
+				<heading>Поступак по притужби</heading>
+				<paragraph wId="gla4-clan55-stav1">
+					<content>
+						<p>Кад странка или други учесник у поступку поднесу  притужбу, председник суда дужан је да је размотри, да је достави на изјашњење  судији на кога се односи и да о њеној основаности и предузетим мерама обавести  подносиоца притужбе, као и председника непосредно вишег суда, у року од 15 дана  од дана пријема притужбе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav2">
+					<content>
+						<p>Председник суда може да одбаци притужбу, у потпуности  или у одређеном делу, ако утврди да подносилац злоупотребљава право на притужбу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav3">
+					<content>
+						<p>Сматраће се да подносилац притужбе злоупотребљава  право на притужбу ако притужба има увредљиву садржину или ако поднесе притужбу  исте или сличне садржине о којој је претходно одлучено.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav4">
+					<content>
+						<p>Ако је притужба неразумљива, председник суда ће  наложити подносиоцу да је уреди у року од осам дана од дана пријема налога, а  ако подносилац то не учини, одбациће притужбу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav5">
+					<content>
+						<p>Ако је притужба поднета преко министарства надлежног  за правосуђе, непосредно вишег суда или Високог савета судства, о основаности  притужбе и предузетим мерама обавештава се и орган преко којег је притужба  поднета.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav6">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref35" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav7">
+					<content>
+						<p>Управитељ суда</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav8">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref36" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav9">
+					<content>
+						<p>Члан 55а</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav10">
+					<content>
+						<p>Суд републичког ранга, апелациони суд и суд са 30 и  више судија има управитеља суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav11">
+					<content>
+						<p>Ако се у једном месту налази седиште више судова који  не испуњавају услове из <ref wId="ref37" href="akn/rs/act/2018/88-80/srp@/!main~art_55__para_1" >става 1. овог</ref> члана, ти судови имају заједничког  управитеља суда који се распоређује у суд опште надлежности највишег степена у  том месту.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav12">
+					<content>
+						<p>Изузетно од <ref wId="ref38" href="akn/rs/act/2018/88-80/srp@/!main~art_55__para_1" >става 1. овог</ref> члана, ако се више судова  налази у истој згради, могу имати заједничког управитеља суда који се одређује у  складу са договором председника тих судова.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav13">
+					<content>
+						<p>Председник суда поверава управитељу суда обављање  материјално-финансијских и организационо-техничких послова.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav14">
+					<content>
+						<p>Послови управитеља суда се детаљније уређују Судским  пословником.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav15">
+					<content>
+						<p>Управитељ суда за послове који су му поверени одговара  председнику суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan55-stav16">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref39" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-clan56">
+				<num>56.</num>
+				<heading>Секретар суда</heading>
+				<paragraph wId="gla4-clan56-stav1">
+					<content>
+						<p>Суд има секретара суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan56-stav2">
+					<content>
+						<p>Секретар суда помаже председнику суда у пословима  судске управе, у складу са Судским пословником.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan56-stav3">
+					<content>
+						<p>Ако суд нема управитеља суда, организационо-техничке  послове председник суда може поверити секретару суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-clan56-stav4">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref40" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<chapter wId="gla5">
+				<num>пета</num>
+				<heading>СУДСКО ОСОБЉЕ</heading>
+				<article wId="gla5-od1-clan57">
+					<num>57.</num>
+					<paragraph wId="gla5-od1-clan57-stav1">
+						<content>
+							<p>Судско особље чине судијски помоћници, судијски приправници и државни  службеници и намештеници запослени на административним, техничким,  рачуноводственим, информационим и осталим пратећим пословима значајним са судску  власт.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan57-stav2">
+						<content>
+							<p>Број судског особља одређује председник суда, актом о унутрашњем уређењу и  систематизацији радних места у суду, у складу са кадровским планом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od1-clan57-stav3">
+						<content>
+							<p>Мерила за одређивање броја судског особља утврђује министар надлежан за  послове правосуђа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od2-clan58">
+					<num>58.</num>
+					<heading>Послови судијског помоћника</heading>
+					<paragraph wId="gla5-od2-clan58-stav1">
+						<content>
+							<p>Судијски помоћник помаже судији, израђује нацрте судских одлука, проучава  правна питања, судску праксу и правну литературу, израђује нацрте правних  схватања, усвојена правна схватања припрема за објављивање и самостално или уз  надзор и упутства судије врши послове одређене законом и Судским пословником.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan58-stav2">
+						<content>
+							<p>Поступак пријема судијских помоћника ближе се уређује  актом министра надлежног за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan58-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref41" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od2-clan59">
+					<num>59.</num>
+					<heading>Звања судијских помоћника</heading>
+					<paragraph wId="gla5-od2-clan59-stav1">
+						<content>
+							<p>Судијски помоћници стичу следећа звања: судијски сарадник, виши судијски  сарадник и судски саветник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan59-stav2">
+						<content>
+							<p>Звање судијског сарадника може стећи лице које има положени правосудни испит,  а звање вишег судијског сарадника лице које после положеног правосудног испита  има најмање две године радног искуства у правној струци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan59-stav3">
+						<content>
+							<p>Звање судског саветника може стећи онај ко испуњава услове за судију вишег  суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od2-clan60">
+					<num>60.</num>
+					<heading>Судски саветник</heading>
+					<paragraph wId="gla5-od2-clan60-stav1">
+						<content>
+							<p>Судски саветник врши стручне послове значајне за судско одељење или цео суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan60-stav2">
+						<content>
+							<p>Звање судског саветника постоји у судовима републичког  ранга и апелационим судовима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan60-stav3">
+						<content>
+							<p>У Врховном касационом суду постоји звање саветника Врховног касационог суда,  које се стиче у складу са Пословником о уређењу и раду Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od2-clan60-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od3-clan61">
+					<num>61.</num>
+					<heading>Време оцењивања</heading>
+					<paragraph wId="gla5-od3-clan61-stav1">
+						<content>
+							<p>Рад судијског помоћника оцењује се једном годишње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan61-stav2">
+						<content>
+							<p>Рад судијског помоћника који је у току календарске године радио краће од шест  месеци не оцењује се за ту годину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od3-clan62">
+					<num>62.</num>
+					<heading>Надлежност за оцењивање</heading>
+					<paragraph wId="gla5-od3-clan62-stav1">
+						<content>
+							<p>Рад судијског помоћника оцењује председник суда, по прибављеном мишљењу  седнице одељења у које је судијски помоћник распоређен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan62-stav2">
+						<content>
+							<p>Кад судијски помоћник није распоређен у одељење суда, мишљење се прибавља од  судије или већа с којим судијски помоћник ради.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od3-clan63">
+					<num>63.</num>
+					<heading>Оцене</heading>
+					<paragraph wId="gla5-od3-clan63-stav1">
+						<content>
+							<p>При оцењивању вреднују се обим и квалитет посла, савесност, предузимљивост .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan63-stav2">
+						<content>
+							<p>Оцењивање рада судијских помоћника врши се на основу објективних и  јединствених критеријума и мерила.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan63-stav3">
+						<content>
+							<p>Оцене су: „не задовољава”, „задовољава”, „добар”, „истиче се” и „нарочито се  истиче”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan63-stav4">
+						<content>
+							<p>Виши судијски сарадник чији је рад најмање две године узастопно оцењен са  „нарочито се истиче” може стећи звање судског саветника и ако не испуњава услове  за судију вишег суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan63-stav5">
+						<content>
+							<p>Критеријуми, мерила и поступак за оцењивање рада  судијских помоћника уређују се актом Високог савета судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan63-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan63-stav7">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref44" href="akn/rs/act/2018/65/srp@">65/2018</ref> (Одлука  УС)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od3-clan64">
+					<num>64.</num>
+					<heading>Решење о оцени</heading>
+					<paragraph wId="gla5-od3-clan64-stav1">
+						<content>
+							<p>Председник суда доноси решење о оцени судијског помоћника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od3-clan64-stav2">
+						<content>
+							<p>На решење о оцени судијски помоћник има право да уложи приговор радном телу  Високог савета судства, у року од 15 дана од дана пријема решења о оцени.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od4-clan65">
+					<num>65.</num>
+					<heading>Пријем судијског приправника</heading>
+					<paragraph wId="gla5-od4-clan65-stav1">
+						<content>
+							<p>За судијског приправника прима се лице које је завршило правни факултет и  испуњава опште услове за рад у државним органима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od4-clan65-stav2">
+						<content>
+							<p>Судијски приправник прима се у основни, виши, привредни и прекршајни суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od4-clan65-stav3">
+						<content>
+							<p>Брисан је ранији <ref wId="ref46" href="akn/rs/act/2018/88-80/srp@/!main~art_65__para_3" >став 3. </ref>(види <ref wId="ref45" href="akn/rs/act/2013/101/srp@/!main~/art_26">члан 26. Закона - 101/2013-8</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od4-clan65-stav4">
+						<content>
+							<p>Број судијских приправника одређује се посебно за  сваки суд, актом министра надлежног за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od4-clan65-stav5">
+						<content>
+							<p>При пријему судијских приправника нарочито се води рачуна о националном  саставу становништва, одговарајућој заступљености припадника националних мањина  и познавању стручне правне терминологије на језику националне мањине, који је у  службеној употреби у суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od4-clan65-stav6">
+						<content>
+							<p>Поступак пријема судијских приправника ближе се  уређује актом министра надлежног за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od4-clan65-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref47" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od4-clan65-stav8">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref48" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od4-clan66">
+					<num>66.</num>
+					<heading>Радни однос судијског приправника</heading>
+					<paragraph wId="gla5-od4-clan66-stav1">
+						<content>
+							<p>Судијски приправник прима се у радни однос на три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od4-clan66-stav2">
+						<content>
+							<p>Судијски приправник који је на правосудном испиту оцењен са „положио са  одликом” прима се у радни однос на неодређено време, у звању судијског  сарадника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od4-clan67">
+					<num>67.</num>
+					<heading>Волонтер</heading>
+					<paragraph wId="gla5-od4-clan67-stav1">
+						<content>
+							<p>Дипломирани правник може бити примљен на обуку у суд ради стицања радног  искуства и услова за полагање правосудног испита без заснивања радног односа  (волонтер).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od5-clan68">
+					<num>68.</num>
+					<paragraph wId="gla5-od5-clan68-stav1">
+						<content>
+							<p>Програм обуке судијских приправника и судијских помоћника прописује  институција надлежна за обуку у правосуђу, уз сагласност Високог савета судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od5-clan68-stav2">
+						<content>
+							<p>Судијски приправник и судијски помоћник може одређено време бити упућен на  обуку у други суд, државни орган или орган јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-od6-clan69">
+					<num>69.</num>
+					<paragraph wId="gla5-od6-clan69-stav1">
+						<content>
+							<p>Судско особље дужно је да савесно и непристрасно врши своје послове и чува  углед суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-od6-clan69-stav2">
+						<content>
+							<p>На заснивање радног односа и на права, обавезе, стручно усавршавање,  оцењивање и одговорности судског особља примењују се прописи који уређују радне  односе државних службеника и намештеника, ако овим законом није друкчије  одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>шеста</num>
+				<heading>ПРАВОСУДНА УПРАВА</heading>
+				<article wId="gla6-clan70">
+					<num>70.</num>
+					<heading>Послови који чине правосудну управу</heading>
+					<paragraph wId="gla6-clan70-stav1">
+						<content>
+							<p>Правосудна управа се стара о спровођењу закона и других прописа у вези са  уређењем и радом судова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav2">
+						<content>
+							<p>Послове правосудне управе врше Високи савет судства и министарство надлежно  за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav3">
+						<content>
+							<p>Послови правосудне управе које врши Високи савет  судства су: доношење упутства за састављање извештаја о раду судова; утврђивање  општих смерница за унутрашње уређење судова; вођење личних листова судија,  судија поротника и судског особља; предлагање дела буџета за рад судова за  текуће расходе, осим расхода за судско особље и одржавање опреме и објеката, као  и расподелу ових средстава; вршење надзора над наменским коришћењем буџетских  средстава и вршење надзора над финансијским и материјалним пословањем судова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav4">
+						<content>
+							<p>Послови правосудне управе које врши министарство  надлежно за правосуђе су: праћење рада судова; прикупљање статистичких и других  података о раду судова; давање сагласности на правилник о унутрашњој  организацији и систематизацији радних места у суду; надзор над поступањем у  предметима у прописаним роковима и поступањем по притужбама и представкама;  предлагање дела буџета за расходе за судско особље и за одржавање опреме и  објеката, као и расподела ових средстава; предлагање дела буџета за инвестиције,  пројекте и друге програме за рад правосудних органа; старање о смештајним  условима, опремању и обезбеђењу судова; надзор над финансијским и материјалним  пословањем судова и Високог савета судства; уређење и развој правосудног  информационог система; развој и спровођење капиталних пројеката и других  програма за правосудне органе; постављање и разрешење судских вештака и тумача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav5">
+						<content>
+							<p>Капиталне расходе из <ref wId="ref49" href="akn/rs/act/2018/88-80/srp@/!main~art_70__para_4" >става 4. овог</ref> члана извршава министарство надлежно за  правосуђе, односно правосудни орган уз сагласност министарства надлежног за  правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan70-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref50" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan71">
+					<num>71.</num>
+					<heading>Забрана утицаја на самосталност и независност суда и судија</heading>
+					<paragraph wId="gla6-clan71-stav1">
+						<content>
+							<p>Ништав је сваки појединачни акт правосудне управе, којим се дира у  самосталност и независност суда и судија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan71-stav2">
+						<content>
+							<p>Ништавост акта из <ref wId="ref51" href="akn/rs/act/2018/88-80/srp@/!main~art_71__para_1" >става 1. овог</ref> члана утврђује Управни суд.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan72">
+					<num>72.</num>
+					<heading>Лични лист</heading>
+					<paragraph wId="gla6-clan72-stav1">
+						<content>
+							<p>Високи савет судства води лични лист за сваког судију, судију поротника и  запосленог у суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan72-stav2">
+						<content>
+							<p>Податке које лични лист садржи Високом савету судства прослеђује председник  суда и одговоран је за њихову тачност, као и лице на које се подаци односе ако  их је оно саопштило.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan72-stav3">
+						<content>
+							<p>Подаци које садржи лични лист јесу службена тајна и могу да се обрађују и  користе само у сврху примене овог закона и закона којим се уређује положај  судија, у складу са прописима којима се уређује заштита података о личности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan73">
+					<num>73.</num>
+					<heading>Садржина личног листа</heading>
+					<paragraph wId="gla6-clan73-stav1">
+						<content>
+							<p>Лични лист судије садржи име и презиме, име родитеља, место, дан, месец и  годину рођења, податке о пребивалишту, завршеном правном факултету, успеху на  студијама, приправничкој пракси, правосудном испиту, кретању у служби, датуму  навршења радног века, оценама рада, упућивању на рад у други суд, удаљавању са  дужности, дисциплинским мерама, вођеним кривичним поступцима, престанку  дужности, објављеним стручним и научним радовима, знању страних језика,  имовинском стању, стамбеним приликама и друге податке везане за рад и положај  судије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan73-stav2">
+						<content>
+							<p>Лични лист судије поротника и запосленог садржи име и презиме, податке о  рођењу, пребивалишту, завршеној школи, звању или занимању, оценама рада, кретању  у служби и знању страних језика .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan73-stav3">
+						<content>
+							<p>Органи који имају податке који се уписују у лични лист дужни су да их доставе  Високом савету судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan73-stav4">
+						<content>
+							<p>Судија има право увида у свој лични лист и право  приговора Високом савету судства на његову садржину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan73-stav5">
+						<content>
+							<p>Ближу садржину и образац личних листова из <ref wId="ref52" href="akn/rs/act/2018/88-80/srp@/!main~art_73__para_1->para_2" >ст. 1. и 2. овог</ref> члана прописује  Високи савет судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan73-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref53" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan74">
+					<num>74.</num>
+					<heading>Судски пословник</heading>
+					<paragraph wId="gla6-clan74-stav1">
+						<content>
+							<p>Судским пословником прописују се унутрашње уређење и  рад суда, а нарочито: уређење и рад одељења и осталих унутрашњих јединица суда;  рад заједничке седнице одељења и седнице свих судија; обавештавање јавности о  раду судова; вођење поступка и достављање одлука на језицима националних мањина;  пружање правне помоћи и одржавање судских дана; пружање међународне правне  помоћи; евидентирање, позивање и распоређивање судија поротника; приправничка  пракса; поступање судског особља са странкама; вођење уписника и помоћних књига;  поступање са списима; поступање по представкама и притужбама; вођење статистика  и израда извештаја о раду; наплата новчаних казни, трошкова кривичног поступка и  одузете имовинске користи; поступање са судским депозитима; увођење заједничких  служби у местима с више судова и других правосудних органа; одевање судија,  судског особља, странака, других учесника у судском поступку и свих који своје  послове обављају у суду, као и друга питања уређења и рада суда, за која је  законом одређено да се уређују Судским пословником.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan74-stav2">
+						<content>
+							<p>Судски пословник доноси министар надлежан за правосуђе, уз претходно  прибављено мишљење председника Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan74-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref54" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan75">
+					<num>75.</num>
+					<heading>Надзор над применом Судског пословника</heading>
+					<paragraph wId="gla6-clan75-stav1">
+						<content>
+							<p>Примену Судског пословника надзире министарство надлежно за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan75-stav2">
+						<content>
+							<p>Лице које врши надзор може бити само оно које испуњава услове за избор судије  суда чији рад надзире.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan76">
+					<num>76.</num>
+					<heading>Последице надзора</heading>
+					<paragraph wId="gla6-clan76-stav1">
+						<content>
+							<p>После надзора сачињава се записник који се доставља председнику суда у коме  је вршен надзор, председнику непосредно вишег суда, председнику Врховног  касационог суда и министру надлежном за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan76-stav2">
+						<content>
+							<p>Председник непосредно вишег суда дужан је да обавести председника Врховног  касационог суда и министра надлежног за правосуђе о мерама предузетим да се  уочени недостаци отклоне, роковима за отклањање недостатака, као и разлозима  због којих су недостаци и пропусти настали.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan76-stav3">
+						<content>
+							<p>Рок за обавештавање одређује се Судским пословником.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>седма</num>
+				<heading>ОБЕЗБЕЂЕЊЕ СУДА</heading>
+				<article wId="gla7-clan77">
+					<num>77.</num>
+					<heading>Правосудна стража</heading>
+					<paragraph wId="gla7-clan77-stav1">
+						<content>
+							<p>Правосудна стража је наоружана и униформисана служба која се стара о  сигурности људи и имовине, реду и миру и несметаном спровођењу службених радњи у  згради правосудног органа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan78">
+					<num>78.</num>
+					<heading>Овлашћења правосудне страже</heading>
+					<paragraph wId="gla7-clan78-stav1">
+						<content>
+							<p>Правосудни стражар овлашћен је да утврди идентитет и разлоге доласка лица у  зграду правосудног органа; по потреби претресе лице и ствари и забрани улазак у  зграду са оружјем, опасним оруђем, под дејством алкохола или других омамљивих  средстава; удаљи из зграде лице које омета ред и мир, лица која нису прикладно  одевена и то на начин којим се чува углед и достојанство суда, као и да другим  радњама штити лица и имовину у суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan78-stav2">
+						<content>
+							<p>Правосудни стражар овлашћен је да употреби физичку силу и гумену палицу, а  ватрено оружје – само ако друкчије не може да заштити људски живот или одбије  напад на зграду правосудног органа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan79">
+					<num>79.</num>
+					<heading>Уређење правосудне страже</heading>
+					<paragraph wId="gla7-clan79-stav1">
+						<content>
+							<p>Уређење правосудне страже, униформу њених припадника, наоружање и службену  легитимацију детаљније прописује министар надлежан за правосуђе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan80">
+					<num>80.</num>
+					<heading>Помоћ правосудној стражи и обезбеђење</heading>
+					<paragraph wId="gla7-clan80-stav1">
+						<content>
+							<p>На захтев руководиоца правосудног органа, орган унутрашњих послова пружа  помоћ правосудној стражи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan80-stav2">
+						<content>
+							<p>Руководилац правосудног органа има право да од министарства надлежног за  унутрашње послове захтева да се судији, судији поротнику, јавном тужиоцу,  заменику јавног тужиоца, судији за прекршаје и њиховим породицама или имовини  пружи посебна заштита.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan81">
+					<num>81.</num>
+					<heading>Сходна примена прописа</heading>
+					<paragraph wId="gla7-clan81-stav1">
+						<content>
+							<p>На заснивање радног односа и на права, обавезе, оцењивање и одговорност  правосудне страже примењују се прописи који уређују радне односе државних  службеника и намештеника, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>осма</num>
+				<heading>СРЕДСТВА ЗА РАД СУДОВА</heading>
+				<article wId="gla8-clan82">
+					<num>82.</num>
+					<heading>Основна одредба</heading>
+					<paragraph wId="gla8-clan82-stav1">
+						<content>
+							<p>Средства за рад судова обезбеђује се у буџету Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan82-stav2">
+						<content>
+							<p>Средства за рад судова треба да обимом и приливом одржавају независност  судске власти и омогућавају уредан рад судова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan83">
+					<num>83.</num>
+					<heading>Предлагање и извршење буџетских средстава</heading>
+					<paragraph wId="gla8-clan83-stav1">
+						<content>
+							<p>Високи савет судства предлаже обим и структуру буџетских средстава неопходних  за текуће расходе, осим расхода за судско особље, уз претходно прибављено  мишљење министарства надлежног за правосуђе и врши расподелу ових средстава на  судове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan83-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref55" href="akn/rs/act/2011/101/srp@">101/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan84">
+					<num>84.</num>
+					<heading>Надзор над трошењем буџетских средстава</heading>
+					<paragraph wId="gla8-clan84-stav1">
+						<content>
+							<p>Надзор над трошењем буџетских средстава опредељених за рад судова спроводе  Високи савет судства, министарство надлежно за правосуђе и министарство надлежно  за финансије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan84-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref57" href="akn/rs/act/2018/88-80/srp@/!main~art_84__para_2" >став 2. </ref>(види <ref wId="ref56" href="akn/rs/act/2010/101/srp@/!main~/art_1">члан 1. Закона – 101/2010-3</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan85">
+					<num>85.</num>
+					<heading>Коришћење средстава и самосталних прихода</heading>
+					<paragraph wId="gla8-clan85-stav1">
+						<content>
+							<p>У буџету Републике Србије посебно се исказују приходи од рада судова и  усмеравају се за редован рад правосудних органа, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan85-stav2">
+						<content>
+							<p>Висина и намена средстава из <ref wId="ref58" href="akn/rs/act/2018/88-80/srp@/!main~art_85__para_1" >става 1. овог</ref> члана утврђују се Законом о  буџету.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan86">
+					<num>86.</num>
+					<heading>Подмирење судских трошкова</heading>
+					<paragraph wId="gla8-clan86-stav1">
+						<content>
+							<p>Детаљније услове, висину и начин накнаде износа које странке и остали  учесници у поступку плаћају за подмирење трошкова у судским поступцима прописује  министар надлежан за правосуђе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>девета</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<paragraph wId="gla9-clan86-stav1">
+					<content>
+						<p>ПРЕЛАЗНЕ ОДРЕДБЕ</p>
+					</content>
+				</paragraph>
+				<article wId="gla9-clan87">
+					<num>87.</num>
+					<heading>Наставак рада постојећих судова</heading>
+					<paragraph wId="gla9-clan87-stav1">
+						<content>
+							<p>Врховни суд Србије и Виши трговински суд, који су образовани ранијим  законима, настављају да раде до 31. децембра 2009. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan88">
+					<num>88.</num>
+					<heading>Наставак рада постојећих органа за прекршаје</heading>
+					<paragraph wId="gla9-clan88-stav1">
+						<content>
+							<p>Већа за прекршаје, општински органи за прекршаје, комисија за прекршаје при  министарству надлежном за послове финансија, већа за другостепени прекршајни  поступак при министарству надлежном за послове финансија, првостепени и  другостепени порескопрекршајни органи настављају да раде у складу са Законом о  прекршајима („Службени гласник СРС”, број <ref wId="ref59" href="akn/rs/act/89/44/srp@">44/89</ref> и „Службени гласник РС”, бр.  <ref wId="ref60" href="akn/rs/act/90/21/srp@">21/90</ref>, <ref wId="ref61" href="akn/rs/act/92/11/srp@">11/92</ref>, <ref wId="ref62" href="akn/rs/act/93/6/srp@">6/93</ref>, <ref wId="ref63" href="akn/rs/act/93/20/srp@">20/93</ref>, <ref wId="ref64" href="akn/rs/act/93/53/srp@">53/93</ref>, <ref wId="ref65" href="akn/rs/act/93/67/srp@">67/93</ref>, <ref wId="ref66" href="akn/rs/act/94/28/srp@">28/94</ref>, <ref wId="ref67" href="akn/rs/act/97/16/srp@">16/97</ref>, <ref wId="ref68" href="akn/rs/act/97/37/srp@">37/97</ref>, <ref wId="ref69" href="akn/rs/act/98/36/srp@">3<ref wId="ref84" href="akn/rs/act/98/6/srp@">6/98</ref></ref>, <ref wId="ref70" href="akn/rs/act/98/44/srp@">44/98</ref>,  <ref wId="ref71" href="akn/rs/act/01/62/srp@">62/01</ref>, <ref wId="ref72" href="akn/rs/act/01/65/srp@">65/01</ref> и <ref wId="ref73" href="akn/rs/act/04/55/srp@">55/04</ref>), посебним законима који уређују њихову надлежност и  Одлуком о образовању општинских органа за прекршаје и утврђивању броја судија у  органима за прекршаје („Службени гласник РС”, бр. <ref wId="ref74" href="akn/rs/act/93/72/srp@">72/93</ref>, <ref wId="ref75" href="akn/rs/act/94/9/srp@">9/94</ref>, <ref wId="ref76" href="akn/rs/act/94/30/srp@">30/94</ref>, <ref wId="ref77" href="akn/rs/act/95/5/srp@">5/95</ref>,  <ref wId="ref78" href="akn/rs/act/95/12/srp@">12/95</ref>, <ref wId="ref79" href="akn/rs/act/95/50/srp@">50/95</ref>, <ref wId="ref80" href="akn/rs/act/96/27/srp@">27/96</ref>, <ref wId="ref81" href="akn/rs/act/96/47/srp@">47/96</ref>, <ref wId="ref82" href="akn/rs/act/97/9/srp@">9/97</ref>, <ref wId="ref83" href="akn/rs/act/98/3/srp@">3/98</ref>, 6/98, <ref wId="ref85" href="akn/rs/act/98/17/srp@">17/98</ref>, <ref wId="ref86" href="akn/rs/act/98/41/srp@">41/98</ref>, <ref wId="ref87" href="akn/rs/act/02/91/srp@">91/02</ref>, <ref wId="ref88" href="akn/rs/act/03/37/srp@">37/03</ref>, <ref wId="ref89" href="akn/rs/act/03/76/srp@">76/03</ref>,  <ref wId="ref90" href="akn/rs/act/03/115/srp@">115/03</ref>, <ref wId="ref91" href="akn/rs/act/05/97/srp@">97/05</ref> и <ref wId="ref92" href="akn/rs/act/07/91/srp@">91/07</ref>), до 31. децембра 2009. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan89">
+					<num>89.</num>
+					<heading>Почетак рада Врховног касационог суда, Привредног апелационог суда, Управног  суда и Вишег прекршајног суда</heading>
+					<paragraph wId="gla9-clan89-stav1">
+						<content>
+							<p>Врховни касациони суд, Привредни апелациони суд, Управни суд и Виши  прекршајни суд почињу да раде 1. јануара 2010. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan90">
+					<num>90.</num>
+					<heading>Уступање предмета Врховног суда Србије</heading>
+					<paragraph wId="gla9-clan90-stav1">
+						<content>
+							<p>Предмете у којима до 31. децембра 2009. године не буде донета коначна одлука  Врховни суд Србије уступа Врховном касационом суду, односно судовима у чију  надлежност предмети спадају по овом закону и закону којим се уређују седишта и  подручја судова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan90-stav2">
+						<content>
+							<p>Ако после 1. јануара 2010. године Врховни касациони суд, одлучујући о правном  средству, предмет врати на поновни поступак, он се уступа суду у чију надлежност  спада по овом закону и закону којим се уређују седишта и подручја судова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan91">
+					<num>91.</num>
+					<heading>Преузимање предмета</heading>
+					<paragraph wId="gla9-clan91-stav1">
+						<content>
+							<p>Предмете у којима није окончан поступак пред већима за прекршаје, већима за  другостепени прекршајни поступак при министарству надлежном за послове финансија  и другостепеним порескопрекршајним органима до 31. децембра 2009. године  преузеће Виши прекршајни суд, у складу са надлежношћу одређеном овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan91-stav2">
+						<content>
+							<p>Ако после 1. јануара 2010. године Виши прекршајни суд, одлучујући о правном  средству, предмет врати на поновни поступак, предмет преузима прекршајни суд у  чију надлежност спада према закону којим се уређују седишта и подручја судова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan91-stav3">
+						<content>
+							<p>Предмете Вишег трговинског суда преузеће 1. јануара 2010. године Привредни  апелациони суд.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan92">
+					<num>92.</num>
+					<heading>Доношење привремених аката о унутрашњем уређењу и систематизацији радних  места у Врховном касационом суду, Привредном апелационом суду, Управном суду,  апелационим судовима и Вишем прекршајном суду</heading>
+					<paragraph wId="gla9-clan92-stav1">
+						<content>
+							<p>Привремене акте о унутрашњем уређењу и систематизацији радних места у  Врховном касационом суду, Привредном апелационом суду, Управном суду,  апелационим судовима и Вишем прекршајном суду донеће министар надлежан за  правосуђе до 1. септембра 2009. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan92-stav2">
+						<content>
+							<p>Акте о унутрашњем уређењу и систематизацији радних места у Врховном  касационом суду, Привредном апелационом суду, Управном суду, апелационим  судовима и Вишем прекршајном суду донеће председници ових судова у року од шест  месеци од дана њиховог избора у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan93">
+					<num>93.</num>
+					<heading>Преузимање средстава за рад, опреме, архиве и запослених</heading>
+					<paragraph wId="gla9-clan93-stav1">
+						<content>
+							<p>Потребна средства за рад, опрему, архиву и запослене Врховног суда Србије  преузима Врховни касациони суд, Управни суд и апелациони судови, у складу са  надлежношћу одређеном овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan93-stav2">
+						<content>
+							<p>Министар надлежан за правосуђе образоваће комисију која ће извршити расподелу  средстава за рад, опреме и архиве из <ref wId="ref93" href="akn/rs/act/2018/88-80/srp@/!main~art_93__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan93-stav3">
+						<content>
+							<p>Високи савет судства образоваће комисију која ће донети решења о  распоређивању запослених из Врховног суда Србије у Врховни касациони суд,  Управни суд и апелационе судове, у складу са привременим актом о унутрашњем  уређењу и систематизацији радних места.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan93-stav4">
+						<content>
+							<p>Потребна средства за рад, опрему, архиву и запослене постојећих већа за  прекршаје, већа за другостепени прекршајни поступак при министарству надлежном  за послове финансија и другостепених порескопрекршајних органа, преузеће Виши  прекршајни суд, у складу са надлежношћу одређеном овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan93-stav5">
+						<content>
+							<p>Министар надлежан за правосуђе образоваће комисију која ће извршити расподелу  средстава за рад, опреме и архиве из <ref wId="ref94" href="akn/rs/act/2018/88-80/srp@/!main~art_93__para_4" >става 4. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan93-stav6">
+						<content>
+							<p>Високи савет судства образоваће комисију која ће распоредити запослене из  <ref wId="ref95" href="akn/rs/act/2018/88-80/srp@/!main~art_93__para_4" >става 4. овог</ref> члана на радна места у Вишем прекршајном суду и прекршајним  судовима, у складу са привременим актом о унутрашњем уређењу и систематизацији  радних места.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan93-stav7">
+						<content>
+							<p>Расподела средстава за рад, опреме и архиве, као и распоређивање запослених  из већа за другостепени прекршајни поступак при министарству надлежном за  послове финансија и другостепених порескопрекршајних органа, спровешће се у  сарадњи са министарством надлежним за финансије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan93-stav8">
+						<content>
+							<p>Потребна средства за рад, опрему, архиву и запослене Вишег трговинског суда  преузима Привредни апелациони суд.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan94">
+					<num>94.</num>
+					<heading>Права запослених из Врховног суда Србије, Вишег трговинског суда и органа за  прекршаје</heading>
+					<paragraph wId="gla9-clan94-stav1">
+						<content>
+							<p>На права запослених из Врховног суда Србије, Вишег трговинског суда, већа за  прекршаје, већа за другостепени прекршајни поступак при министарству надлежном  за послове финансија и другостепених порескопрекршајних органа, примењују се  одредбе закона који уређује права државних службеника и намештеника при промени  уређења државних органа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan95">
+					<num>95.</num>
+					<heading>Надлежност Високог савета судства у вези са средствима за рад судова</heading>
+					<paragraph wId="gla9-clan95-stav1">
+						<content>
+							<p>Престао је да важи од 1. септембра 2011. године (види чл. <ref wId="ref96" href="akn/rs/act/2018/88-80/srp@/!main~art_10" >10</ref>. и <ref wId="ref97" href="akn/rs/act/2018/88-80/srp@/!main~art_11" >11</ref>. Закона о  изменама и допунама Закона о буџету Републике Србије за 2011. годину -  78/2011-3)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan96">
+					<num>96.</num>
+					<heading>Подзаконски прописи</heading>
+					<paragraph wId="gla9-clan96-stav1">
+						<content>
+							<p>Подзаконски прописи чије је доношење предвиђено овим законом, донеће се у  року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan96-stav2">
+						<content>
+							<p>До доношења подзаконских прописа из <ref wId="ref98" href="akn/rs/act/2018/88-80/srp@/!main~art_96__para_1" >става 1. овог</ref> члана, примењују се одредбе  прописа донетих на основу Закона о уређењу судова, ако нису супротне овом  закону.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan96-stav3">
+						<content>
+							<p>ЗАВРШНЕ ОДРЕДБЕ</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan97">
+					<num>97.</num>
+					<heading>Престанак важења закона</heading>
+					<paragraph wId="gla9-clan97-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престају да важе Закон о уређењу судова  („Службени гласник РС”, бр. <ref wId="ref100" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref101" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref102" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref103" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref104" href="akn/rs/act/05/101/srp@">101/05</ref> и <ref wId="ref105" href="akn/rs/act/06/46/srp@">46/06</ref>) и  одредбе <ref wId="ref99" href="akn/rs/act/2018/88-80/srp@/!main~art_12->art_20" >чл. 12</ref>–20. Закона о судовима („Службени гласник Републике Србије”, бр.  46/91, 60/91 – исправка, 18/92 – исправка, 71/92, 63/01, 42/02, 27/03 и 29/04).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan98">
+					<num>98.</num>
+					<heading>Ступање закона на снагу и почетак примене</heading>
+					<paragraph wId="gla9-clan98-stav1">
+						<content>
+							<p>Овај закон на снагу ступа осмог дана од дана објављивања у „Службеном  гласнику Републике Србије”, а примењује се од 1. јануара 2010. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan98-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan5">
+					<num>5.</num>
+					<heading>Закон о изменама и допунама Закона о уређењу судова: „Службени гласник РС“,  број <ref wId="ref106" href="akn/rs/act/2009/104/srp@">104/2009</ref>-3</heading>
+					<paragraph wId="gla9-clan5-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном  гласнику Републике Србије“, а примењује се од 1. јануара 2010. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan31">
+					<num>31.</num>
+					<heading>Закон о изменама и допунама Закона о уређењу судова: „Службени гласник РС“,  број <ref wId="ref110" href="akn/rs/act/2013/101/srp@">101/2013</ref>-8</heading>
+					<paragraph wId="gla9-clan31-stav1">
+						<content>
+							<p>Виши судови настављају да суде, у првом степену, у предметима примљеним до  дана почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan31-stav2">
+						<content>
+							<p>Ако одлука у предметима из <ref wId="ref107" href="akn/rs/act/2018/88-80/srp@/!main~art_31__para_1" >става 1. овог</ref> члана буде укинута после дана  почетка примене овог закона поступак ће се наставити пред надлежним судом у  складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan31-stav3">
+						<content>
+							<p>Апелациони судови настављају да суде, у другом степену, у предметима  примљеним до дана почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan31-stav4">
+						<content>
+							<p>Ако одлука у предметима из <ref wId="ref108" href="akn/rs/act/2018/88-80/srp@/!main~art_31__para_3" >става 3. овог</ref> члана буде укинута после дана  почетка примене овог закона, поступак ће се наставити пред надлежним судом у  складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan31-stav5">
+						<content>
+							<p>До дана почетка примене Закона о прекршајима („Службени гласник РС”, број  <ref wId="ref109" href="akn/rs/act/13/65/srp@">65/13</ref>), прекршајни судови настављају да суде у поступцима по жалбама на одлуке  које у прекршајном поступку доносе органи управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan31-stav6">
+						<content>
+							<p>Даном почетка примене овог закона Виши прекршајни суд наставља рад као  Прекршајни апелациони суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan31-stav7">
+						<content>
+							<p>Управитељи судова биће изабрани у року од шест месеци од дана почетка примене  овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan32">
+					<num>32.</num>
+				</article>
+				<article wId="gla9-clan33">
+					<num>33.</num>
+					<heading>Престао је да важи (види  Одлуку УС - 88/2018-80)</heading>
+					<paragraph wId="gla9-clan33-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном  гласнику Републике Србије”, а примењује се од 1. јануара 2014. године, осим  <ref wId="ref111" href="akn/rs/act/2018/88-80/srp@/!main~art_2" >члана 2. </ref>који се примењује по истеку шест месеци од дана ступања на снагу овог  закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="gla9-clan5-stav2">
+					<content>
+						<p>Министар надлежан за правосуђе доноси акт којим се одређује број судијских  приправника у сваком суду у року од 60 дана од дана ступања на снагу овог  закона.</p>
+					</content>
+				</paragraph>
+				<article wId="gla9-clan6">
+					<num>6.</num>
+					<paragraph wId="gla9-clan6-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном  гласнику Републике Србије” осим одредбе <ref wId="ref112" href="akn/rs/act/2018/88-80/srp@/!main~art_1__para_2" >члана 1. став 2. овог</ref> закона која ступа  на снагу 1. јула 2016. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan6-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan6-stav3">
+						<content>
+							<p>о уређењу судова</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan6-stav4">
+						<content>
+							<p>„Службени гласник РС“, бр. <ref wId="ref113" href="akn/rs/act/2008/116/srp@">116 од 22. децембра 2008</ref>, <ref wId="ref114" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref>, <ref wId="ref115" href="akn/rs/act/2010/101/srp@">101 од 29. децембра 2010</ref>,  <ref wId="ref116" href="akn/rs/act/2011/31/srp@">31 од 9. маја 2011</ref> - др. закон, <ref wId="ref117" href="akn/rs/act/2011/78/srp@">78 од 19. октобра 2011</ref> -  др. закон, <ref wId="ref118" href="akn/rs/act/2011/101/srp@">101 од 30. децембра 2011</ref>, <ref wId="ref119" href="akn/rs/act/2013/101/srp@">101 од 20. новембра 2013</ref>, <ref wId="ref120" href="akn/rs/act/2015/40/srp@">40 од 7. маја 2015</ref> -  др. закон, <ref wId="ref121" href="akn/rs/act/2015/106/srp@">106 од 21. децембра 2015</ref>, <ref wId="ref122" href="akn/rs/act/2016/13/srp@">13 од 19.  фебруара 2016</ref>, <ref wId="ref123" href="akn/rs/act/2016/108/srp@">108 од 29. децембра 2016</ref>, <ref wId="ref124" href="akn/rs/act/2017/113/srp@">113 од 17. децембра 2017</ref>, <ref wId="ref125" href="akn/rs/act/2018/65/srp@">65 од 24.  августа 2018</ref> -  УС, <ref wId="ref126" href="akn/rs/act/2018/87/srp@">87 од 13. новембра 2018</ref>,  <ref wId="ref127" href="akn/rs/act/2018/88/srp@">88 од 15. новембра 2018</ref> - УС</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

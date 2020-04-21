@@ -1,0 +1,833 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о младима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2011/50-3/main"/>
+					<FRBRuri value="akn/rs/act/2011/50-3"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2011/50-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2011/50-3/srp@"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2011/50-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2011/50-3/srp@.akn"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2011-07-08" name="службени гласник рс“" number="50" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="15. Заштита људских права и права припадника националних мањина" value="15. заштита људских права и права припадника националних мањина" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2011-07-05" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2011-07-16" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2012-01-17" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="циљ"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="стварање"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="услова"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="деловању"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="oвим"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="интереса"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="предузимају"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="омладинска"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="политика"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="република"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="организовању"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="сектор"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="друштвену"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="србија"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="добробит"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="личну"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="остваривању"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="потенцијала"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="покрајина"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="положаја"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="омладински"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="мере"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="аутономна"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="развоју"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="свим"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="друштвеном"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="младима"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="друштвеног"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="остваривање"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="младих"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="имају"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="подршку"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="унапређивање"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединица"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="потреба"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="самоуправе"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="локалне"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Strategije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Nacionalne strategije za mlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savet"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savet za mlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta za mlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Strategije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Strategijom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. i 14."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 1. tačka 11"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 1. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у ,,Службеном гласнику Републике Србије”, односно 16. јула 2011. године, а примењује истеком рока од шест месеци од дана ступања на снагу, односно од 17. јануара 2012. године (види члан 29. Закона - 50/2011-3).Прописи за спровођење овог закона из члана 15. став 3. и члана 24. овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона (види члан 28. Закона - 50/2011-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О младима "Службени гласник РС", број <ref wId="ref26" href="akn/rs/act/2011/50/srp@">50 од 8. јула 2011</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет и циљ закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Oвим законом уређују се мере и активности које предузимају Република Србија, аутономна покрајина и јединица локалне самоуправе, а које имају за циљ унапређивање друштвеног положаја младих и стварање услова за остваривање потреба и интереса младих у свим областима које су од интереса за младе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Циљ закона је стварање услова за подршку младима у организовању, друштвеном деловању, развоју и остваривању потенцијала на личну и друштвену добробит.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Омладинска политика и омладински сектор</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Омладинска политика обухвата и подразумева све мере и активности државних органа, установа, удружења и других субјеката које су усмерене на побољшање и унапређивање положаја младих.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Омладински сектор обухвата све области у којима се обављају омладинске активности, а које су дефинисане општим циљевима Националне стратегије за младе (у даљем тексту: Стратегија).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Омладинску политику у областима омладинског сектора спроводи министарство надлежно за послове омладине (у даљем тексту: Министарство) спровођењем Стратегије и других програмских докумената из области омладинске политике и координирањем активности на њиховом спровођењу, уз учешће органа надлежних за посебне области у омладинском сектору и свих других субјеката омладинске политике, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Значење појединих израза у овом закону</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини изрази у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> омладина или млади су лица од навршених 15 година до навршених 30 година живота;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> субјекти омладинске политике су: Република Србија, аутономна покрајина и јединица локалне самоуправе као носиоци омладинске политике, установе, удружења која спроводе омладинске активности и други субјекти који учествују у спровођењу омладинске политике;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> омладинске активности представљају различите активности у областима омладинског сектора које спроводе млади или субјекти омладинске политике и које су усмерене ка унапређивању положаја младих и њиховом оснаживању за активно учешће у друштву на личну и друштвену добробит;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> омладински рад представља онај део омладинских активности које се организују са младима и за младе, заснивају на неформалном образовању, одвијају у оквиру слободног времена младих и предузимају ради унапређивања услова за лични и друштвени развој младих у складу с њиховим потребама и могућностима и уз њихово добровољно учешће;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> неформално образовање младих јесте скуп организованих и младима прилагођених образовних активности које нису предвиђене системом формалног образовања, заснованих на потребама и интересовањима младих, принципима добровољног и активног учешћа младих у процесу учења и промоцији демократских вредности, кроз које млади стичу компетенције неопходне за развој личних потенцијала, активно учешће у друштву и бољу запошљивост.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Сви изрази који се користе у овом закону користе се родно неутрално.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Начело подршке младима</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Сви, а посебно субјекти омладинске политике, у оквиру својих послова и делокруга подржавају друштвено оснаживање младих на начин утврђен законом, Стратегијом и другим инструментима омладинске политике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Начело једнакости и забране дискриминације</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Сви млади су једнаки.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Забрањено је свако прављење разлике или неједнако поступање према младима, посредно или непосредно, по било ком основу, а нарочито по основу расе, пола, националне припадности, верског убеђења, језика, друштвеног порекла, имовног стања, чланства у политичким, синдикалним и другим организацијама, психичког или физичког инвалидитета, здравственог стања, физичког изгледа, сексуалне оријентације, родног идентитета и другог стварног, односно претпостављеног личног својства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Начело једнаких шанси</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Млади имају право на једнаке шансе и учешће у свим областима друштвеног живота у складу са сопственим избором и способностима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Начело јачања свести о значају младих и њиховој друштвеној улози</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Сви, а посебно субјекти омладинске политике, подстичу и подржавају јачање свести о значају младих и друштвене улоге младих кроз реализацију омладинске политике, друштвено оснаживање у циљу остваривања добробити младих, промоцију и заштиту њихових интереса, потреба и могућности за активно учешће у друштву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Начело активног учешћа младих</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Сви, а посебно субјекти омладинске политике, обезбеђују подстицајно окружење и дају активну подршку у реализацији омладинских активности младих, предузимању иницијативе и њиховом смисленом укључивању у процесе доношења и спровођења одлука које доприносе личном и друштвеном развоју, а на основу пуне обавештености младих.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Начело одговорности и солидарности младих</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Млади треба да активно доприносе изградњи и неговању друштвених вредности и развоју своје заједнице, нарочито путем различитих облика волонтерских активности и да изражавају међугенерацијску солидарност и активно раде на стварању услова за једнако и пуно учешће у свим аспектима друштвеног живота младих особа са инвалидитетом, припадника националних мањина и свих других лица и друштвених група које могу бити у ризику од дискриминације, односно дискриминаторног поступања.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>НАЦИОНАЛНА СТРАТЕГИЈА ЗА МЛАДЕ</heading>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Стратегија је документ који, на предлог Министарства, доноси Влада, којим се уређује нарочито: активно учешће младих у друштвеном животу, обезбеђивање остваривања права младих на једнаке шансе, информисање младих, подстицање и вредновање толеранције, демократије, изузетних постигнућа младих, подстицање и развијање формалног и неформалног образовања, подстицање и стимулисање запошљавања и самозапошљавања младих и омладинског предузетништва, унапређивање безбедности младих, одрживог развоја и здраве животне средине, очување и унапређивање здравља младих и друге активности и области од значаја за младе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Стратегија се доноси за период од десет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>У припреми и реализацији Стратегије учествују млади, Министарство, министарства надлежна за посебне области у омладинском сектору и сви други субјекти омладинске политике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Министарство усмерава и прати спровођење Стратегије на локалном нивоу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Субјекти омладинске политике делују у складу с принципима Стратегије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Средства за реализацију Стратегије</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Средства за реализацију Стратегије обезбеђују се у буџету Републике Србије, као и у буџету аутономне покрајине и јединице локалне самоуправе и из других извора, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>У складу са Стратегијом, аутономна покрајина и јединица локалне самоуправе утврђују акционе планове за спровођење Стратегије на својој територији и у свом буџету обезбеђују средства за реализацију тих планова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav3">
+						<content>
+							<p>Аутономна покрајина и јединица локалне самоуправе достављају на захтев Министарства, а најмање једном годишње, извештај о спровођењу акционог плана за спровођење Стратегије на својој територији.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>УДРУЖЕЊА КОЈА СПРОВОДЕ ОМЛАДИНСКЕ АКТИВНОСТИ</heading>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Удружење младих и удружење за младе</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Ради обављања омладинских активности, унапређења услова за лични и друштвени развој младих према њиховим потребама и могућностима и укључивања младих у друштвени живот заједнице и њиховог информисања могу се оснивати удружења младих и удружења за младе, у складу са законом којим се уређује оснивање и правни положај удружења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Удружења из <ref wId="ref0" href="akn/rs/act/2011/50-3/srp@/!main~art_13__para_1" >става 1. овог</ref> члана уписују се у регистар удружења који води надлежни орган, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>Удружење младих је удружење које је уписано у регистар и делује у складу са законом којим се уређује оснивање и правни положај удружења, а чије чланство чини најмање две трећине младих и чији су циљеви или област остваривања циљева усмерени на младе, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav4">
+						<content>
+							<p>Удружење за младе је свако друго удружење које је уписано у регистар и делује у складу са законом којим се уређује оснивање и правни положај удружења, а чији су циљеви или област остваривања циљева, поред осталог, усмерени и на младе, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav5">
+						<content>
+							<p>Млади могу да се удружују и у неформална удружења чији су циљеви или област остваривања циљева усмерени на младе, у складу са овим законом, а која делују у складу са законом којим се уређује оснивање и правни положај удружења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>Савези удружења младих и удружења за младе</heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Сва регистрована удружења младих и удружења за младе могу се, ради остваривања заједничких циљева и интереса, удруживати у савезе чији су циљеви и област остваривања циљева усмерени на младе (у даљем тексту: савези).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>На оснивање, упис у регистар и деловање савеза примењују се одредбе закона којим се уређује оснивање и правни положај удружења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav3">
+						<content>
+							<p>Статус кровног савеза (у даљем тексту: кровни савез) стиче онај савез у који се удружи најмање 60 регистрованих удружења из <ref wId="ref1" href="akn/rs/act/2011/50-3/srp@/!main~art_13" >члана 13. овог</ref> закона и савеза из става 1. овог члана, која имају седиште на територији најмање две трећине управних округа у Републици Србији и најмање две године спроводе омладинске активности у више јединица локалне самоуправе и који окупља најмање 2000 индивидуалних, jeдном уписаних, чланова од којих је најмање две трећине младих.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav4">
+						<content>
+							<p>На основу евиденције коју води, у складу са овим законом, Министарство издаје савезу потврду о испуњености услова из <ref wId="ref2" href="akn/rs/act/2011/50-3/srp@/!main~art_14__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav5">
+						<content>
+							<p>Кровни савез представља и заступа интересе својих чланова, предлаже кандидате за Савет за младе и учествује у процесу израде и спровођења Стратегије и других докумената из области омладинске политике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Вођење евиденција</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Министарство води јединствену евиденцију удружења и савеза из чл. <ref wId="ref3" href="akn/rs/act/2011/50-3/srp@/!main~art_13" >13</ref>. и <ref wId="ref4" href="akn/rs/act/2011/50-3/srp@/!main~art_14" >14</ref>. овог закона, на основу података органа надлежног за њихову регистрацију и података које достављају удружења, ради организованог и систематског праћења стања у областима омладинског сектора и праћења спровођења омладинске политике, као и финансирања програма и пројеката од јавног интереса у областима омладинског сектора, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Евиденција из <ref wId="ref5" href="akn/rs/act/2011/50-3/srp@/!main~art_15__para_1" >става 1. овог</ref> члана садржи, нарочито, следеће податке:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>- назив удружења, седиште и адресу;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav4">
+						<content>
+							<p>- датум оснивања удружења;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav5">
+						<content>
+							<p>- област остваривања циљева;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav6">
+						<content>
+							<p>- циљеве ради којих се оснива удружење;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav7">
+						<content>
+							<p>- лично име и јединствени матични број грађана, односно број путне исправе и државу издавања путне исправе заступника удружења;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav8">
+						<content>
+							<p>- чланство у савезима;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav9">
+						<content>
+							<p>- укупан број чланова удружења;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav10">
+						<content>
+							<p>- број чланова узраста од 15 до 30 година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav11">
+						<content>
+							<p>Садржину и начин вођења јединствене евиденције из <ref wId="ref6" href="akn/rs/act/2011/50-3/srp@/!main~art_15__para_1" >става 1. овог</ref> члана ближе уређује министар надлежан за послове омладине (у даљем тексту: министар).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>САВЕТ, КАНЦЕЛАРИЈА И АГЕНЦИЈА ЗА МЛАДЕ</heading>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<heading>Савет за младе</heading>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>Влада, на предлог Министарства, у складу с прописима који уређују рад Владе, образује Савет за младе као саветодавно тело које подстиче и усклађује активности у вези са развојем, остваривањем и спровођењем омладинске политике и предлаже мере за њено унапређивање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav2">
+						<content>
+							<p>Савет за младе чине представници органа државне управе у чијем су делокругу области од интереса за младе, покрајинског органа управе надлежног за питања младих, удружења и савеза из чл. <ref wId="ref7" href="akn/rs/act/2011/50-3/srp@/!main~art_13" >13</ref>. и <ref wId="ref8" href="akn/rs/act/2011/50-3/srp@/!main~art_14" >14</ref>. овог закона, канцеларија за младе, заједнички представник националних савета националних мањина и угледни стручњаци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav3">
+						<content>
+							<p>Најмање једну трећину чланова Савета за младе чине представници младих из реда удружења и савеза из чл. <ref wId="ref9" href="akn/rs/act/2011/50-3/srp@/!main~art_13" >13</ref>. и <ref wId="ref10" href="akn/rs/act/2011/50-3/srp@/!main~art_14" >14</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<heading>Покрајински савет за младе и савет за младе јединице локалне самоуправе</heading>
+					<paragraph wId="gla4-clan17-stav1">
+						<content>
+							<p>Ради усклађивања активности у вези са остваривањем омладинске политике на територији аутономне покрајине и јединице локалне самоуправе, надлежни орган аутономне покрајине и надлежни орган јединице локалне самоуправе може основати покрајински, градски и општински савет за младе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<heading>Канцеларија за младе</heading>
+					<paragraph wId="gla4-clan18-stav1">
+						<content>
+							<p>Ради обезбеђивања услова за активно укључивање младих у живот и рад друштвене заједнице, оснаживања младих, пружања подршке организовању различитих друштвених активности младих, учењу и креативном испољавању потреба младих, јединица локалне самоуправе може, у оквиру својих овлашћења, потреба и могућности, основати канцеларију за младе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav2">
+						<content>
+							<p>Канцеларија за младе финансира се из буџета јединице локалне самоуправе, као и из других извора, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav3">
+						<content>
+							<p>Активности из <ref wId="ref11" href="akn/rs/act/2011/50-3/srp@/!main~art_18__para_1" >става 1. овог</ref> члана реализују се у складу са Стратегијом и локалним акционим плановима за младе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<heading>Агенција за младе</heading>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>За реализацију програма за младе, а у складу са програмима Европске уније који се односе на младе, може се образовати агенција, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ФИНАНСИРАЊЕ ПРОГРАМА И ПРОЈЕКАТА ОД ЈАВНОГ ИНТЕРЕСА У ОБЛАСТИМА ОМЛАДИНСКОГ СЕКТОРА</heading>
+				<article wId="gla5-clan20">
+					<num>20.</num>
+					<paragraph wId="gla5-clan20-stav1">
+						<intro>
+							<p>У буџету Републике Србије обезбеђују се средства за финансирање програма и пројеката од јавног интереса у областима омладинског сектора којима се:</p>
+						</intro>
+						<point wId="gla5-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> обезбеђују услови за развој и унапређивање омладинских активности кроз подстицање младих да активно учествују у друштвеним токовима;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> подстичу удружења младих, удружења за младе и савези да учествују у спровођењу омладинских активности и остваривању циљева Стратегије;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> млади информишу о питањима од значаја за младе и издају публикације од значаја за младе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> подстиче каријерно вођење и саветовање младих и организују обуке, семинари и манифестације од значаја за запошљавање, самозапошљавање и предузетништво младих;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> подстиче неформално образовање младих у областима омладинског сектора и развија квалитет неформалног образовања младих;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> врши друштвено оснаживање младих, нарочито кроз подстицање волонтеризма и омладинског рада и изградњу капацитета удружења младих;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> млади подстичу за активно и квалитетно провођење слободног времена, неговање здравих и безбедних стилова живота, као и за задовољавање потреба младих у области културе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> подстиче активност младих у областима омладинског сектора на локалном нивоу кроз подршку реализацији локалних акционих планова за младе и програма и пројеката локалних канцеларија за младе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> спроводе истраживања о положају и потребама младих у Републици Србији;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> реализује и афирмише међународна сарадња у областима омладинског сектора;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> пружа подршка младим талентима кроз награђивање, стипендирање и усавршавање ученика и студената.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav2">
+						<content>
+							<p>За финансирање подршке младим талентима кроз награђивање, стипендирање и усавршавање ученика и студената, средства у буџету Републике Србије обезбеђују се у оквиру буџетског фонда који је Влада основала за те намене (у даљем тексту: Фонд за младе таленте), у складу са законом којим се уређује буџетски систем.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan21">
+					<num>21.</num>
+					<heading>Финансирање и суфинансирање програма и пројеката од јавног интереса у областима омладинског сектора</heading>
+					<paragraph wId="gla5-clan21-stav1">
+						<intro>
+							<p>Финансирање и суфинансирање програма и пројеката од јавног интереса у областима омладинског сектора из <ref wId="ref12" href="akn/rs/act/2011/50-3/srp@/!main~" >члана 20. став 1. тач. 1)</ref>-10) овог закона остварује се кроз финансирање или суфинансирање програма и пројеката које реализују носиоци програма и пројеката, и то:</p>
+						</intro>
+						<point wId="gla5-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> удружења младих, удружења за младе и савези;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan21-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> установе, научноистраживачки институти и друга правна лица са седиштем у Републици Србији.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav2">
+						<content>
+							<p>Подршка младим талентима из члана 20. став 1. тачка <ref wId="ref13" href="akn/rs/act/2011/50-3/srp@/!main~art_20__para_1__point_11" >11</ref>) овог закона остварује се кроз финансирање ученика и студената у складу са условима из овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav3">
+						<content>
+							<p>Носилац програма и пројеката од јавног интереса у областима омладинског сектора који се финансирају и суфинансирају у складу са одредбама овог закона не може за финансирање истих активности да користи истовремено средства из републичког, покрајинског и локалног буџета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<heading>Услови за финансирање, суфинансирање и спровођење програма и пројеката</heading>
+					<paragraph wId="gla5-clan22-stav1">
+						<content>
+							<p>Носиоци програма и пројеката из члана 21. став 1. тач. <ref wId="ref14" href="akn/rs/act/2011/50-3/srp@/!main~art_21__para_1__point_1" >1</ref>) и <ref wId="ref15" href="akn/rs/act/2011/50-3/srp@/!main~art_21__para_1__point_3" >3</ref>) овог закона морају да буду регистровани на територији Републике Србије у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav2">
+						<content>
+							<p>Носиоци програма и пројеката из члана 21. став 1. тачка <ref wId="ref16" href="akn/rs/act/2011/50-3/srp@/!main~art_21__para_1__point_2" >2</ref>) овог закона морају да имају основану канцеларију за младе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav3">
+						<content>
+							<p>Корисници средстава Фонда за младе таленте морају да буду држављани Републике Србије или да имају статус избеглице, да имају пребивалиште у Републици Србији, односно боравиште – за лица која имају статус избеглице, као и да испуњавају друге услове предвиђене актом о оснивању тог буџетског фонда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav4">
+						<content>
+							<p>Финансирање или суфинансирање програма и пројеката из <ref wId="ref17" href="akn/rs/act/2011/50-3/srp@/!main~art_21" >члана 21. овог</ref> закона врши се на основу јавног конкурса, у складу са средствима утврђеним у буџету Републике Србије за финансирање јавног интереса у областима омладинског сектора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav5">
+						<content>
+							<p>Министар, у складу с прописима којима се уређује државна управа, решењем образује посебну радну групу – Комисију за стручни преглед поднетих предлога програма и пројеката за финансирање из <ref wId="ref18" href="akn/rs/act/2011/50-3/srp@/!main~" >члана 20. став 1. тач. 1)</ref>-10) овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav6">
+						<content>
+							<p>Министар, на предлог комисије из <ref wId="ref19" href="akn/rs/act/2011/50-3/srp@/!main~art_22__para_5" >става 5. овог</ref> члана, утврђује који ће се програми и пројекти од јавног интереса у областима омладинског сектора финансирати или суфинансирати из средстава буџета Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav7">
+						<content>
+							<p>Министарство на званичној интернет презентацији објављује списак свих учесника у поступку, одобрених програма и пројеката, са износом одобрених средстава, као и списак одобрених стипендија и награда из <ref wId="ref20" href="akn/rs/act/2011/50-3/srp@/!main~art_21__para_2" >члана 21. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan23">
+					<num>23.</num>
+					<paragraph wId="gla5-clan23-stav1">
+						<content>
+							<p>Са носиоцем програма или пројекта коме се доделе финансијска средства, Министарство закључује уговор о реализацији програма или пројекта од значаја за младе у областима омладинског сектора из <ref wId="ref21" href="akn/rs/act/2011/50-3/srp@/!main~art_20" >члана 20. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav2">
+						<content>
+							<p>Уколико се носилац програма или пројекта не одазове позиву за закључење уговора у року од 15 дана од дана пријема позива, сматраће се да је одустао од предлога програма или пројекта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav3">
+						<content>
+							<p>Носилац одобреног програма или пројекта дужан је да на захтев Министарства, а најмање два пута годишње, достави извештај о реализацији програма или пројекта и утрошку средстава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav4">
+						<content>
+							<p>Министар може обуставити даље финансирање програма или пројекта носиоцу одобреног програма или пројекта који не достави извештај у предвиђеном року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav5">
+						<content>
+							<p>Носилац одобреног програма или пројекта дужан је да, у случају ненаменске употребе средстава, изврши повраћај укупно додељеног новчаног износа даваоцу средстава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav6">
+						<content>
+							<p>Носилац одобреног програма или пројекта дужан је да чува евиденцију, односно документацију која се односи на реализовање тог програма или пројекта, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan24">
+					<num>24.</num>
+					<paragraph wId="gla5-clan24-stav1">
+						<content>
+							<p>Министар ближе уређује начин одобрења програма и доделе средстава, изглед и садржину обрасца за конкурисање и документацију која се уз предлог пројекта или програма подноси, садржину и изглед извештаја о реализацији програма или пројекта и начин праћења реализације одобрених програма и пројеката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan25">
+					<num>25.</num>
+					<heading>Остваривање потреба и интереса младих у областима омладинског сектора у аутономној покрајини</heading>
+					<paragraph wId="gla5-clan25-stav1">
+						<intro>
+							<p>Финансирање потреба и интереса младих у аутономној покрајини врши се у складу са интересима и потребама аутономне покрајине и њеним економском могућностима, и то за:</p>
+						</intro>
+						<point wId="gla5-clan25-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> обезбеђивање услова за учешће младих у изради и спровођењу покрајинског акционог плана за младе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan25-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> подстицање младих да активно учествују у друштвеним токовима кроз афирмацију и подршку омладинских активности на територији аутономне покрајине;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan25-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> подстицање удружења младих, удружења за младе и савеза да учествују у спровођењу омладинске политике, укључујући изградњу капацитета удружења младих, на територији аутономне покрајине;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan25-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> организацију обука, семинара, конференција и манифестација из области омладинске политике који су од посебног интереса за аутономну покрајину.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan25-stav2">
+						<content>
+							<p>За остваривање потреба и интереса младих из <ref wId="ref22" href="akn/rs/act/2011/50-3/srp@/!main~art_25__para_1" >става 1. овог</ref> члана средства се обезбеђују у буџету аутономне покрајине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan25-stav3">
+						<content>
+							<p>Надлежни орган аутономне покрајине ближе уређује услове и начин доделе средстава из буџета аутономне покрајине, односно одобрења пројеката за остваривање потреба и интереса младих на територији аутономне покрајине и начин јавног објављивања података о предложеним програмима и пројектима за финансирање, одобреним програмима и пројектима и реализацији одобрених програма и пројеката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan26">
+					<num>26.</num>
+					<heading>Остваривање потреба и интереса младих у областима омладинског сектора у јединици локалне самоуправе</heading>
+					<paragraph wId="gla5-clan26-stav1">
+						<intro>
+							<p>Финансирање потреба и интереса младих у јединици локалне самоуправе врши се у складу са интересима и потребама јединице локалне самоуправе и њеним економским могућностима, и то за:</p>
+						</intro>
+						<point wId="gla5-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> подстицање младих да активно учествују у друштвеним токовима кроз афирмацију и подршку омладинским активностима, омладинском раду и неформалном образовању на територији јединице локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> подстицање удружења младих, удружења за младе и савеза да учествују у спровођењу омладинске политике, укључујући изградњу капацитета удружења младих, на територији локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> оснивање и рад канцеларије за младе, клубова за младе, омладинских центара и др.;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> активности установа преко којих се остварује јавни интерес у областима омладинског сектора, а које су основане од стране локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan26-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обезбеђивање услова за учешће младих у изради и спровођењу локалног акционог плана за младе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan26-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> стварање услова за активно и квалитетно провођење слободног времена младих, бављење спортом, неговање здравих и безбедних стилова живота, спровођење волонтерских активности, организацију обука, семинара и манифестација од значаја за запошљавање и усавршавање младих, као и за потребе младих у области културе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan26-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> подршку активностима и пројектима којима се подстиче одрживи развој и заштита животног окружења.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan26-stav2">
+						<content>
+							<p>За остваривање потреба и интереса младих из <ref wId="ref23" href="akn/rs/act/2011/50-3/srp@/!main~art_26__para_1" >става 1. овог</ref> члана средства се обезбеђују у буџету јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan26-stav3">
+						<content>
+							<p>Надлежни орган јединице локалне самоуправе ближе уређује услове и начин доделе средстава из буџета јединице локалне самоуправе, односно одобрења пројеката за задовољавање потреба младих на територији јединице локалне самоуправе и начин јавног објављивања података о предложеним програмима и пројектима за финансирање, одобреним програмима и пројектима и реализацији одобрених програма и пројеката.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla6-clan27">
+					<num>27.</num>
+					<paragraph wId="gla6-clan27-stav1">
+						<content>
+							<p>Надзор над спровођењем овог закона врши Министарство.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan28">
+					<num>28.</num>
+					<paragraph wId="gla7-clan28-stav1">
+						<content>
+							<p>Прописи за спровођење овог закона из <ref wId="ref24" href="akn/rs/act/2011/50-3/srp@/!main~art_15__para_3" >члана 15. став 3. </ref>и <ref wId="ref25" href="akn/rs/act/2011/50-3/srp@/!main~art_24" >члана 24. овог</ref> закона донеће се у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan29">
+					<num>29.</num>
+					<paragraph wId="gla7-clan29-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у &quot;Службеном гласнику Републике Србије&quot;, а примењује истеком рока од шест месеци од дана ступања на снагу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

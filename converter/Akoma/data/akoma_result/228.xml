@@ -1,0 +1,1116 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о финансијском обезбеђењу">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2018/44-8/main"/>
+					<FRBRuri value="akn/rs/act/2018/44-8"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/44-8/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/44-8/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/44-8/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/44-8/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2018-06-08" name="службени гласник рс" number="44" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="2. Банке и друге финансијске организације" value="2. банке и друге финансијске организације" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2018-06-08" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2018-06-16" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2019-01-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="тржишту"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="финансијском"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="сигурности"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="извршавања"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="ефикасности"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="унапређивање"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="стабилности"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="учесници"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="јачања"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="извршавању"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="циљ"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавеза"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="очувања"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="система"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="закључују"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="посебног"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="остваривање"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="правне"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="обезбеђењу"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="ради"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="финансијског"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="уговор"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="финансијских"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="основу"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="17."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Banka za međunarodna poravnanja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropska centralna banka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropska investiciona banka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropska unija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Fond za razvoj Republike Srbije i Agencija za osiguranje i finansiranje izvoza Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisija za hartije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Prihodi"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2019."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. do 17."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. do 17."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. i 16."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. st. 3. do 7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. st. 4. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. st. 5. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 1. tačka 8"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. i 8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. јуна 2018. године, а примењује се од 1. јануара 2019. године (види члан 26. Закона),Уговори закључени између субјеката из члана 4. овог закона којима су установљена средства обезбеђења у смислу овог закона, односно финансијски уговори у смислу члана 20. овог закона – а који до дана почетка примене овог закона нису извршени – извршиће се по прописима који су били на снази до почетка примене овог закона (види члан 24. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. јуна 2018. године, а примењује се од 1. јануара 2019. године (види члан 26. Закона),Уговори закључени између субјеката из члана 4. овог закона којима су установљена средства обезбеђења у смислу овог закона, односно финансијски уговори у смислу члана 20. овог закона – а који до дана почетка примене овог закона нису извршени – извршиће се по прописима који су били на снази до почетка примене овог закона (види члан 24. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О финансијском обезбеђењу "Службени гласник РС", број <ref wId="ref69" href="akn/rs/act/2018/44/srp@">44 од 8. јуна 2018</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет и циљ закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови и начин посебног обезбеђења извршавања финансијских обавеза, на основу уговора о финансијском обезбеђењу који закључују учесници на финансијском тржишту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Циљ овог закона јесте остваривање и унапређивање правне сигурности и ефикасности у извршавању обавеза на финансијском тржишту, ради очувања и јачања стабилности финансијског система.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Уговор о финансијском обезбеђењу</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Уговором о финансијском обезбеђењу обавезује се давалац обезбеђења да, ради обезбеђења извршења своје или туђе финансијске обавезе, пренесе средство обезбеђења примаоцу обезбеђења или да на том средству установи заложно право у корист примаоца обезбеђења, а прималац обезбеђења обавезује се да, у складу с тим уговором, примљена или еквивалентна средства обезбеђења врати даваоцу обезбеђења по извршењу финансијске обавезе, односно истовремено с тим извршењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<intro>
+							<p>Давалац обезбеђења, на основу уговора о финансијском обезбеђењу којим се преноси средство обезбеђења, примаоцу обезбеђења:</p>
+						</intro>
+						<point wId="gla1-clan2-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> преноси право својине на новчаним средствима или финансијским инструментима који су средство обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> преноси потраживање које је средство обезбеђења.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Уговор из <ref wId="ref0" href="akn/rs/act/2018/44-8/srp@/!main~art_2__para_2" >става 2. овог</ref> члана укључује и репо/реверзни репо уговор о куповини/продаји финансијских инструмената.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>Ако је на основу уговора o финансијском обезбеђењу пренето средство обезбеђења – прималац обезбеђења, ако није друкчије уговорено, има право да користи новчана средства и финансијске инструменте који чине средство обезбеђења и да њима располаже, укључујући право на њихово отуђење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav5">
+						<content>
+							<p>Ако је на основу уговора o финансијском обезбеђењу прималац обезбеђења стекао заложно право на средству обезбеђења, давалац обезбеђења задржава право својине на том средству, односно остаје ималац потраживања које је средство обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav6">
+						<content>
+							<p>Уговором о финансијском обезбеђењу могу се утврдити процедуре за одређивање вредности средстава обезбеђења и/или финансијске обавезе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Начин закључења и форма уговора о финансијском обезбеђењу</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Уговор о финансијском обезбеђењу може бити посебан уговор или саставни део оквирног или другог уговора, односно општих услова пословања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Уговор о финансијском обезбеђењу закључује се у писменој или електронској форми, односно на трајном носачу података који омогућава чување и репродуковање изворних података у неизмењеном облику (у даљем тексту: писмена форма).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Субјекти уговора о финансијском обезбеђењу</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<intro>
+							<p>Одредбе овог закона примењују се на уговор о финансијском обезбеђењу чије уговорне стране – давалац обезбеђења и прималац обезбеђења – припадају следећим категоријама субјеката:</p>
+						</intro>
+						<point wId="gla1-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Република Србија, аутономна покрајина, јединица локалне самоуправе, орган јавне власти, укључујући јавноправно тело и организацију у чијој су надлежности послови у вези са управљањем јавним дугом и/или вођењем рачуна корисника јавних средстава, као и Фонд за развој Републике Србије и Агенција за осигурање и финансирање извоза Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Народна банка Србије;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> финансијска институција са седиштем у Републици Србији над чијим пословањем врши надзор надлежни орган, укључујући банку, друштво за осигурање, брокерско-дилерско друштво, друштво за управљање инвестиционим фондом, инвестициони фонд, друштво за управљање добровољним пензијским фондом, институцију електронског новца, платну институцију, јавног поштанског оператора у вези с финансијским услугама које пружа, друштво које обавља послове факторинга и друштво које обавља послове даваоца финансијског лизинга;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> учесник у платном систему и систему за поравнање хартија од вредности са седиштем у Републици Србији – укључујући Централни регистар, депо и клиринг хартија од вредности, централног тржишног учесника, агента за поравнање, клириншку кућу и оператора овог система – који обавља послове у складу са законом којим се уређују платне услуге, односно законом којим се уређује тржиште капитала;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> Европска унија, држава чланица Европске уније, трећа држава, као и орган јавне власти у тим државама, укључујући јавноправно тело и организацију у чијој су надлежности послови у вези са управљањем јавним дугом или интервенцијама у вези с тим управљањем; и/или вођењем рачуна корисника, осим субјеката за чије обавезе јемчи држава, а који не припадају категоријама субјеката из тач. <ref wId="ref1" href="akn/rs/act/2018/44-8/srp@/!main~art_4__para_1__point_6" >6</ref>), <ref wId="ref2" href="akn/rs/act/2018/44-8/srp@/!main~art_4__para_1__point_8" >8</ref>), <ref wId="ref3" href="akn/rs/act/2018/44-8/srp@/!main~art_4__para_1__point_9" >9</ref>) и <ref wId="ref4" href="akn/rs/act/2018/44-8/srp@/!main~art_4__para_1__point_10" >10</ref>) овог става;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> Европска централна банка и друге централне банке;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> Међународни монетарни фонд, Банка за међународна поравнања, Европска инвестициона банка и међународне развојне банке којима се, према пропису Народне банке Србије којим се уређује адекватност капитала банке, додељује најнижи пондер кредитног ризика;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> финансијска институција у смислу прописа Европске уније над чијим пословањем врши надзор надлежни орган, укључујући кредитну институцију, инвестиционо друштво чија је делатност пружање једне или више инвестиционих услуга, финансијску институцију у смислу прописа Европске уније којима се уређују кредитне институције, институцију са седиштем у држави чланици Европске уније која обавља послове кредитне институције а на коју се не примењују прописи Европске уније којима се уређују кредитне институције, као и институцију са сличним положајем у трећој држави, друштво за осигурање, институцију колективног инвестирања у преносиве хартије од вредности и друштво за управљање институцијама колективног инвестирања у преносиве хартије од вредности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> централни тржишни учесник, агент за поравнање и клириншка кућа у смислу прописа Европске уније којима се уређује коначност поравнања у платним системима и системима за поравнање хартија од вредности, укључујући институцију која обавља сродне послове на тржишту фјучерса, опција и других финансијских деривата у складу с прописима државе чланице;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> правно лице које као заступник или на други начин делује у име и/или за рачун субјеката из<ref wId="ref5" href="akn/rs/act/2018/44-8/srp@/!main~" > тач. 1) </ref>до 9) овог става или имаoца дужничких хартија од вредности или других преносивих секјуритизованих инструмената дуга које су издала та лица.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Држава чланица Европске уније у смислу овог члана је и држава потписница Уговора о Европском економском простору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Трећа држава у смислу овог члана јесте страна држава која није држава чланица Европске уније, нити држава потписница Уговора о Европском економском простору.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Финансијска обавеза</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Финансијска обавеза је обавеза чије је извршење обезбеђено уговором о финансијском обезбеђењу а по основу које поверилац има право на новчано намирење и/или право да му се предају, односно пренесу финансијски инструменти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Финансијска обавеза може бити садашња или будућа, условна или безусловна, стална или повремена, одредива по врсти и/или класи, као и друга финансијска обавеза која произлази из уговора, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav3">
+						<content>
+							<p>Финансијска обавеза може гласити на динаре или на страну валуту.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>СРЕДСТВА ОБЕЗБЕЂЕЊА</heading>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Врсте средстава обезбеђења</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Средства обезбеђења, у смислу овог закона, могу бити:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> новчана средства;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> финансијски инструменти;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> кредитна потраживања.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Приходи и други приливи који проистичу из средстава обезбеђења припадају примаоцу обезбеђења, ако уговором о финансијском обезбеђењу није друкчије утврђено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Стицање, односно пренос новчаних средстава, финансијских инструмената и кредитних потраживања који су средства обезбеђења у смислу овог закона између резидената и/или нерезидената – субјеката из <ref wId="ref6" href="akn/rs/act/2018/44-8/srp@/!main~art_4" >члана 4. овог</ref> закона, као и установљавање заложног права на тим средствима, врши се у складу са ограничењима утврђеним прописима којима се уређује девизно пословање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav4">
+						<content>
+							<p>На извештавање о пословима с финансијским дериватима који се, у складу с прописима којима се уређује девизно пословање, закључују између резидената и/или нерезидената – субјеката из <ref wId="ref7" href="akn/rs/act/2018/44-8/srp@/!main~art_4" >члана 4. овог</ref> закона, уз које су дата средства обезбеђења у смислу овог закона – примењују се одредбе прописа Народне банке Србије којим се уређује обављање послова с финансијским дериватима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Новчана средства</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Новчана средства, као средство обезбеђења, јесу динарска или девизна средства на депозитном, платном или другом одређеном новчаном рачуну.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Новчана средства из <ref wId="ref8" href="akn/rs/act/2018/44-8/srp@/!main~art_7__para_1" >става 1. овог</ref> члана не односе се на готов новац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Финансијски инструменти</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Финансијски инструменти, као средство обезбеђења, јесу хартије од вредности, инструменти тржишта новца и други финансијски инструменти у смислу закона којим се уређује тржиште капитала.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Финансијски инструменти из <ref wId="ref9" href="akn/rs/act/2018/44-8/srp@/!main~art_8__para_1" >става 1. овог</ref> члана који се издају у Републици Србији могу бити искључиво у дематеријализованом облику у складу са законом којим се уређује тржиште капитала, а страни финансијски инструменти из тог става морају бити евидентирани у одговарајућем регистру или на рачуну тих инструмената и слободно преносиви, односно морају бити инструменти којима се може трговати.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Финансијски инструменти из <ref wId="ref10" href="akn/rs/act/2018/44-8/srp@/!main~art_8__para_1" >става 1. овог</ref> члана не могу бити сопствене акције даваоца обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav4">
+						<content>
+							<p>Вредност финансијских инструмената као средстава обезбеђења утврђује се према њиховој тржишној вредности, ако уговором о финансијском обезбеђењу није друкчије утврђено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav5">
+						<intro>
+							<p>Када су финансијски инструменти средство обезбеђења у смислу овог закона, на уговоре о финансијском обезбеђењу примењује се право државе у којој се налази седиште овлашћене институције која води регистар ових инструмената, односно рачун на коме су регистровани ти инструменти, а по питањима која се односе на следеће:</p>
+						</intro>
+						<point wId="gla2-clan8-stav5-tac1">
+							<num>1)</num>
+							<content>
+								<p> врсту и правну природу финансијских инструмената и права из тих инструмената;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav5-tac2">
+							<num>2)</num>
+							<content>
+								<p> захтеве у вези са закључивањем уговора о финансијском обезбеђењу и давањем финансијских инструмената као средстава обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav5-tac3">
+							<num>3)</num>
+							<content>
+								<p> утврђивање права према трећим лицима у односу на финансијске инструменте;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan8-stav5-tac4">
+							<num>4)</num>
+							<content>
+								<p> поступке намирења потраживања и нетирања по наступању услова за реализацију финансијских инструмената као средстава обезбеђења.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Кредитна потраживања</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Кредитна потраживања, као средство обезбеђења, јесу новчана потраживања из уговора о кредиту који одобрава банка или друго лице које, у складу са законом, може одобравати кредите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Под кредитним потраживањима из <ref wId="ref11" href="akn/rs/act/2018/44-8/srp@/!main~art_9__para_1" >става 1. овог</ref> члана подразумевају се и новчана потраживања из уговора о кредиту који одобрава кредитна институција или друга институција која обавља послове кредитне институције из члана 4. став 1. тачка <ref wId="ref12" href="akn/rs/act/2018/44-8/srp@/!main~art_4__para_1__point_8" >8</ref>) овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Само субјекти из <ref wId="ref13" href="akn/rs/act/2018/44-8/srp@/!main~art_9__para_1" >става 1. овог</ref> члана могу као средство обезбеђења уговарати, преносити и стицати кредитна потраживања код којих је дужник физичко лице, у складу са ограничењима која су утврђена законом којим се уређује заштита корисника финансијских услуга.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav4">
+						<content>
+							<p>Банка може, као средство обезбеђења, уговарати и преносити новчана потраживања према правном лицу из уговора о кредиту, у складу са ограничењима утврђеним законом и прописима Народне банке Србије којима се уређује управљање ризицима у банци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav5">
+						<intro>
+							<p>Кредитно потраживање може бити средство обезбеђења ако је дужник по кредитном потраживању, при закључењу уговора о кредиту или накнадно, учинио следеће:</p>
+						</intro>
+						<point wId="gla2-clan9-stav5-tac1">
+							<num>1)</num>
+							<content>
+								<p> дао сагласност за пренос и обраду само оних података који су примаоцу обезбеђења неопходни ради реализације тог средства обезбеђења а који се у складу са законом сматрају банкарском или другом тајном;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav5-tac2">
+							<num>2)</num>
+							<content>
+								<p> дао изјаву да неће извршити пребијање свог потраживања према повериоцу с кредитним потраживањем повериоца које је дато као финансијско обезбеђење, док траје то обезбеђење.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav6">
+						<content>
+							<p>Правo даваоца обезбеђења на приливе који проистичу из кредитних потраживања која су дата као средство обезбеђења не утиче на права примаоца обезбеђења по основу тог обезбеђења утврђена уговором о финансијском обезбеђењу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Еквивалентна средства обезбеђења</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<intro>
+							<p>Еквивалентна средства обезбеђења су:</p>
+						</intro>
+						<point wId="gla2-clan10-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> код новчаних средстава – новчана средства у истом износу и истој валути;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> код финансијских инструмената – финансијски инструменти истог издаваоца који чине део исте емисије или класе финансијског инструмента, исте су номиналне вредности, исте валуте и истих других основних елемената као првобитно дата средства обезбеђења, или друга средства обезбеђења ако је то утврђено уговором о финансијском обезбеђењу.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>На еквивалентна средства обезбеђења, односно на остваривање права и извршавање обавеза по основу тих средстава обезбеђења – примењују се одредбе уговора о финансијском обезбеђењу које се односе на првобитно дата средства обезбеђења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ДАВАЊЕ, КОРИШЋЕЊЕ И ПРОМЕНА СРЕДСТАВА ОБЕЗБЕЂЕЊА</heading>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<heading>Давање средстава обезбеђења</heading>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Одредбе овог закона примењују се само на уговоре о финансијском обезбеђењу код којих су примаоцу обезбеђења дата средства обезбеђења, односно код којих су прималац обезбеђења, његов заступник или друго лице које делује у његово име и/или за његов рачун, на основу пренетих средстава обезбеђења или установљеног заложног права, стекли државину или контролу над средством обезбеђења (у даљем тексту: давање средстава обезбеђења), о чему се може обезбедити одговарајући доказ у писменој форми (у даљем тексту: писмени доказ).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>Прималац обезбеђења стиче средство обезбеђења, односно заложно право на средству обезбеђења у тренутку кад му је то средство обезбеђења дато.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav3">
+						<content>
+							<p>Писмени доказ о давању средства обезбеђења сматра се одговарајућим ако се на основу њега може јасно утврдити да је средство обезбеђења дато у складу са уговором о финансијском обезбеђењу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav4">
+						<intro>
+							<p>Ради утврђивања да је средство обезбеђења дато, довољно је пружити писмени доказ о следећем:</p>
+						</intro>
+						<point wId="gla3-clan11-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> да су новчана средства одобрена и/или евидентирана на одређеном новчаном рачуну – ако се као средство обезбеђења дају новчана средства;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> да су финансијски инструменти пренети на одређени рачун финансијских инструмената, односно да је уписано заложно право на финансијском инструменту у корист примаоца обезбеђења – ако се као средство обезбеђења дају финансијски инструменти;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> да је примаоцу обезбеђења, уз уговор о финансијском обезбеђењу, достављен списак кредитних потраживања који обавезно садржи податке о дужнику тог потраживања, износу кредитног потраживања (главница, камата и накнаде) и датуму давања сагласности и изјаве из <ref wId="ref14" href="akn/rs/act/2018/44-8/srp@/!main~art_9__para_5" >члана 9. став 5. овог</ref> закона – ако се као средство обезбеђења дају кредитна потраживања.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav5">
+						<content>
+							<p>Сматра се да је кредитно потраживање као средство обезбеђења дато и кад дужник и/или треће лице нису обавештени о преносу тог потраживања, с тим да се дужник који је обавезу по основу овог потраживања извршио даваоцу обезбеђења – ослобађа те обавезе ако за тај пренос није знао.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav6">
+						<content>
+							<p>Централни регистар, депо и клиринг хартија од вредности прописује ближе услове и начин евидентирања преноса финансијских инструмената, односно уписа заложног права на финансијском инструменту као средстава обезбеђења по основу уговора о финансијском обезбеђењу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav7">
+						<content>
+							<p>Народна банка Србије може прописати ближе услове и начин евидентирања преноса новчаних средстава и кредитних потраживања као средстава обезбеђења по основу уговора о финансијском обезбеђењу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>Право коришћења и располагања заложеним средствима обезбеђења</heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Уговором o финансијском обезбеђењу може се утврдити да прималац обезбеђења има право коришћења средства обезбеђења на коме је уписано његово заложно право (у даљем тексту: заложено средство обезбеђења) и/или располагања заложеним средством обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Обим и садржина права коришћења и располагања из <ref wId="ref15" href="akn/rs/act/2018/44-8/srp@/!main~art_12__para_1" >става 1. овог</ref> члана уређују се уговором о финансијском обезбеђењу, а та права могу бити једнака правима која би прималац обезбеђења имао да је власник тог средства обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav3">
+						<intro>
+							<p>Ако прималац обезбеђења користи заложено средство обезбеђења и/или располаже њиме, дужан је да:</p>
+						</intro>
+						<point wId="gla3-clan12-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> најкасније на дан доспећа финансијске обавезе врати, односно пренесе иста или еквивалентна средства обезбеђења даваоцу обезбеђења, у складу са уговором о финансијском обезбеђењу; и/или</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> на дан доспећа финансијске обавезе, ако је то утврђено уговором о финансијском обезбеђењу, изврши пребијање вредности средстава обезбеђења с финансијском обавезом, односно ту вредност примени на извршење финансијске обавезе.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav4">
+						<content>
+							<p>Ако прималац обезбеђења, у складу са <ref wId="ref16" href="akn/rs/act/2018/44-8/srp@/!main~art_12__para_1->para_2" >ст. 1. и 2. овог</ref> члана, отуђи заложено средство обезбеђења – заложно право примаоца обезбеђења на том средству обезбеђења престаје да постоји, а треће лице стиче то средство без терета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav5">
+						<content>
+							<p>Право коришћења и располагања из овог члана престаје извршењем финансијске обавезе или намирењем из средства обезбеђења извршеним у складу с чл. <ref wId="ref18" href="akn/rs/act/2018/44-8/srp@/!main~art_15" >15</ref>. и <ref wId="ref19" href="akn/rs/act/2018/44-8/srp@/!main~art_16" >16</ref>. овог закона или нетирањем потраживања и обавеза извршеним у складу с <ref wId="ref17" href="akn/rs/act/2018/44-8/srp@/!main~art_17" >чланом 17. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav6">
+						<content>
+							<p>Прималац обезбеђења дужан је да при коришћењу заложеног средства обезбеђења и располагању њиме поступа с повећаном пажњом, према правилима струке и обичајима (пажња доброг стручњака), узимајући у обзир тржишне околности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav7">
+						<content>
+							<p>Прималац обезбеђења код залоге кредитног потраживања нема права из овог члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Промена средстава обезбеђења</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<intro>
+							<p>Уговором о финансијском обезбеђењу може се утврдити промена средстава обезбеђења, и то:</p>
+						</intro>
+						<point wId="gla3-clan13-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> обавеза даваоца обезбеђења да пружи, тј. да дâ додатна средства обезбеђења ако се смањи вредност средстава обезбеђења у односу на финансијску обавезу;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> право даваоца обезбеђења да повуче део средства обезбеђења ако се повећа вредност средстава обезбеђења у односу на финансијску обавезу;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> право даваоца обезбеђења да замени дато средство обезбеђења другим средством обезбеђења најмање исте вредности.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Ако у складу са ставом 1. тачка <ref wId="ref20" href="akn/rs/act/2018/44-8/srp@/!main~art_13__para_1__point_3" >3</ref>) овог члана врши замену средстава обезбеђења, давалац обезбеђења дужан је да нова средства обезбеђења пружи, тј. да их дâ примаоцу обезбеђења најкасније у тренутку повлачења, односно замене раније датих средстава обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>На нова, односно додатна средства обезбеђења примењују се одредбе уговора о финансијском обезбеђењу које се односе на првобитно дата средства обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav4">
+						<content>
+							<p>Право даваоца обезбеђења на повлачење, односно замену датих средстава обезбеђења не утиче на права примаоца обезбеђења по основу средства обезбеђења утврђена уговором о финансијском обезбеђењу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>РЕАЛИЗАЦИЈА СРЕДСТАВА ОБЕЗБЕЂЕЊА</heading>
+				<paragraph wId="gla4-clan13-stav1">
+					<content>
+						<p>Услови за реализацију средства обезбеђења</p>
+					</content>
+				</paragraph>
+				<article wId="gla4-clan14">
+					<num>14.</num>
+					<heading>(енг. enforcement event)</heading>
+					<paragraph wId="gla4-clan14-stav1">
+						<intro>
+							<p>Услови за реализацију средства обезбеђења јесу неизвршење доспеле финансијске обавезе или други сличан догађај или околност која се односи на једну од уговорних страна а који су предвиђени уговором о финансијском обезбеђењу и по чијем наступању:</p>
+						</intro>
+						<point wId="gla4-clan14-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> прималац обезбеђења стиче право да своје потраживање намири вансудским путем из средства обезбеђења у складу с чл. <ref wId="ref21" href="akn/rs/act/2018/44-8/srp@/!main~art_15" >15</ref>. и <ref wId="ref22" href="akn/rs/act/2018/44-8/srp@/!main~art_16" >16</ref>. овог закона; и/или</p>
+							</content>
+						</point>
+						<point wId="gla4-clan14-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> врши се нетирање потраживања и обавеза између даваоца обезбеђења и примаоца обезбеђења у складу с <ref wId="ref23" href="akn/rs/act/2018/44-8/srp@/!main~art_17" >чланом 17. овог</ref> закона.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav2">
+						<content>
+							<p>Реализација средстава обезбеђења врши се на начин утврђен уговором о финансијском обезбеђењу, у складу с <ref wId="ref24" href="akn/rs/act/2018/44-8/srp@/!main~art_15->art_17" >чл. 15. </ref>до 17. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav3">
+						<intro>
+							<p>Реализација средства обезбеђења, ако друкчије није утврђено уговором о финансијском обезбеђењу, извршава се на следећи начин:</p>
+						</intro>
+						<point wId="gla4-clan14-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> без достављања претходног обавештења, односно упозорења о намери реализације средстава обезбеђења, било даваоцу обезбеђења, било дужнику по финансијској обавези (ако то није исто лице као давалац обезбеђења);</p>
+							</content>
+						</point>
+						<point wId="gla4-clan14-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> без сагласности или одлуке суда, органа јавне власти или било ког другог лица;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan14-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> без јавне продаје или било ког другог прописаног начина реализације;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan14-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> без утврђивања посебног рока који мора протећи од наступања услова за реализацију средстава обезбеђења до те реализације.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav4">
+						<content>
+							<p>На реализацију средстава обезбеђења не утиче покретање/отварање поступка стечаја, ликвидације или примена мере реорганизације над даваоцем или примаоцем обезбеђења, нити било која одлука или сагласност надлежног органа у том поступку може бити претходни или накнадни услов за реализацију средства обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav5">
+						<content>
+							<p>Новчана средства и финансијски инструменти на којима је установљено заложно право у складу са овим законом – изузета су од извршења у смислу закона којим се уређује извршење и обезбеђење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<heading>Намирење потраживања из заложених средстава обезбеђења</heading>
+					<paragraph wId="gla4-clan15-stav1">
+						<intro>
+							<p>По наступању услова за реализацију средстава обезбеђења у складу с <ref wId="ref25" href="akn/rs/act/2018/44-8/srp@/!main~art_14" >чланом 14. овог</ref> закона, прималац обезбеђења нема више обавезу да даваоцу обезбеђења врати примљена или еквивалентна средства обезбеђења, већ своје потраживање може намирити из заложених средстава обезбеђења, на следећи начин:</p>
+						</intro>
+						<point wId="gla4-clan15-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> непосредним намирењем из новчаних средстава која су средство обезбеђења, тако што вредност новчаних средстава пребије с финансијском обавезом, односно ту вредност примени на извршење финансијске обавезе;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan15-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> продајом или присвајањем, тј. задржавањем у својину финансијског инструмента који је средство обезбеђења (прималац обезбеђења стиче право својине над финансијским инструментом);</p>
+							</content>
+						</point>
+						<point wId="gla4-clan15-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> продајом или присвајањем, тј. задржавањем кредитног потраживања које је средство обезбеђења (прималац обезбеђења постаје ималац тог потраживања).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav2">
+						<content>
+							<p>Прималац обезбеђења намирује се продајом заложеног средства обезбеђења тако што вредност новчаних средстава остварених продајом средства обезбеђења пребије с финансијском обавезом, односно ту вредност примени на извршење финансијске обавезе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav3">
+						<content>
+							<p>Прималац обезбеђења намирује се присвајањем заложеног средства обезбеђења – стицањем права својине на финансијском инструменту, односно стицањем кредитног потраживања тако што вредност присвојеног средства обезбеђења пребије с финансијском обавезом, односно ту вредност примени на извршење финансијске обавезе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav4">
+						<content>
+							<p>Присвајање заложеног средства обезбеђења могуће је само ако су прималац и давалац обезбеђења изричито уговорили то присвајање, као и начин утврђивања вредности средстава обезбеђења у том случају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav5">
+						<content>
+							<p>Прималац обезбеђења дужан је да евентуални вишак вредности заложених средстава обезбеђења преостао након намирења потраживања без одлагања врати даваоцу обезбеђења. У супротном, дужан је да даваоцу обезбеђења плати прописану затезну камату за период од дана намирења до дана враћања вишка вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav6">
+						<content>
+							<p>Прималац обезбеђења дужан је да, најкасније наредног дана од дана намирења потраживања из средстава обезбеђења, даваоцу обезбеђења и, ако то није исто лице, дужнику по финансијској обавези – достави обавештење о намирењу потраживања, које обавезно садржи податак о износу тог намирења и податак о евентуалном вишку вредности из <ref wId="ref26" href="akn/rs/act/2018/44-8/srp@/!main~art_15__para_5" >става 5. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav7">
+						<content>
+							<p>Прималац обезбеђења дужан је да при намирењу потраживања, односно утврђивању вредности средства обезбеђења и израчунавању финансијске обавезе поступа с пажњом доброг стручњака, узимајући у обзир тржишне околности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<heading>Намирење потраживања из стечених средстава обезбеђења</heading>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>Ако је стекао средство обезбеђења у складу са уговором о финансијском обезбеђењу из <ref wId="ref27" href="akn/rs/act/2018/44-8/srp@/!main~art_2__para_2" >члана 2. став 2. овог</ref> закона – прималац обезбеђења по наступању услова за реализацију средстава обезбеђења у складу с <ref wId="ref28" href="akn/rs/act/2018/44-8/srp@/!main~art_14" >чланом 14. овог</ref> закона нема више обавезу да даваоцу обезбеђења врати примљена или еквивалентна средства обезбеђења, већ своје потраживање може намирити из стечених средстава обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav2">
+						<content>
+							<p>На намирење потраживања примаоца обезбеђења у случају стечених средстава обезбеђења сходно се примењују одредбе о намирењу потраживања из заложених средстава обезбеђења из <ref wId="ref29" href="akn/rs/act/2018/44-8/srp@/!main~art_15__para_3" >члана 15. ст. 3. </ref>до 7. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav3">
+						<content>
+							<p>Нетирање по основу превременог доспећа или престанка обавеза</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<heading>(енг. close-out netting)</heading>
+					<paragraph wId="gla4-clan17-stav1">
+						<intro>
+							<p>Уговором о финансијском обезбеђењу може се утврдити да се, по наступању услова за реализацију средстава обезбеђења у складу с <ref wId="ref30" href="akn/rs/act/2018/44-8/srp@/!main~art_14" >чланом 14. овог</ref> закона, аутоматски или на захтев уговорне стране, предузима следеће:</p>
+						</intro>
+						<point wId="gla4-clan17-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> међусобне обавезе по основу једног или више уговора о финансијском обезбеђењу сматрају се доспелим и изражавају се као новчане обавезе или престају и замењују се новим новчаним обавезама, у складу с њиховом процењеном текућом вредношћу, односно вредношћу која је утврђена на начин из уговора о финансијском обезбеђењу; и/или</p>
+							</content>
+						</point>
+						<point wId="gla4-clan17-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> врши се нетирање (пребијање) међусобних потраживања и обавеза по основу једног или више уговора о финансијском обезбеђењу, тако да је уговорна страна која дугује већи износ дужна да плати разлику у износу потраживања (нето износ).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav2">
+						<content>
+							<p>Утврђивање вредности средства обезбеђења и израчунавање финансијских обавеза у случају из <ref wId="ref31" href="akn/rs/act/2018/44-8/srp@/!main~art_17__para_1" >става 1. овог</ref> члана врши се с пажњом доброг стручњака, узимајући у обзир тржишне околности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav3">
+						<content>
+							<p>На намирење потраживања нетирањем из овог члана – сходно се примењују одредбе о намирењу потраживања из заложених средстава обезбеђења из <ref wId="ref32" href="akn/rs/act/2018/44-8/srp@/!main~art_15__para_5->para_6" >члана 15. ст. 5. и 6. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРИМЕНА ДРУГИХ ПРОПИСА НА УГОВОР О ФИНАНСИЈСКОМ ОБЕЗБЕЂЕЊУ</heading>
+				<article wId="gla5-clan18">
+					<num>18.</num>
+					<heading>Заштита уговора о финансијском обезбеђењу у случају стечаја, ликвидације и примене мера реорганизације</heading>
+					<paragraph wId="gla5-clan18-stav1">
+						<content>
+							<p>Права и обавезе из уговора о финансијском обезбеђењу, укључујући давање, стицање, промену и реализацију средства обезбеђења, извршавају се несметано, без обзира на покретање/отварање и спровођење поступка стечаја, ликвидације или примене мера реорганизације над даваоцем или примаоцем обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav2">
+						<intro>
+							<p>Одредбе уговора о финансијском обезбеђењу, као ни давање, стицање и промена средства обезбеђења у складу с тим уговором – не могу се побијати нити утврђивати ништавим само због тога што је:</p>
+						</intro>
+						<point wId="gla5-clan18-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> уговор о финансијском обезбеђењу закључен, или је средство обезбеђења дато, стечено или промењено пре тренутка доношења одговарајуће одлуке о покретању/отварању поступка стечаја или ликвидације или примене мера реорганизације, односно предузимања правне радње у вези с тим поступком или у прописаном року пре покретања/отварања поступка стечаја или ликвидације или примене мера реорганизације над даваоцем или примаоцем обезбеђења;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan18-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> финансијска обавеза настала пре дана на који је средство обезбеђења дато, стечено или промењено.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav3">
+						<content>
+							<p>Ако је уговор о финансијском обезбеђењу закључен, или је средство обезбеђења дато, стечено или промењено, или је финансијска обавеза настала на дан покретања/отварања поступка стечаја или ликвидације или примене мера реорганизације а након тренутка доношења одговарајуће одлуке о покретању/отварању тог поступка или примени мера – уговор о финансијском обезбеђењу, као и давање, стицање и промена средстава обезбеђења, правно су важећи и обавезујући ако прималац обезбеђења докаже да није знао, нити је био дужан да зна за покретање/отварање тог поступка или примену тих мера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav4">
+						<content>
+							<p>На побијање правних послова и радњи стечајног дужника који је прималац или давалац обезбеђења примењују се одредбе закона којим се уређује стечај, ако нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav5">
+						<content>
+							<p>Побијање, односно утврђивање ништавим појединих одредаба уговора о финансијском обезбеђењу које се односе само на одређене финансијске обавезе – не повлачи ништавост целог уговора, а нетирање осталих обавеза по основу тог уговора спроводи се несметано, у складу с <ref wId="ref33" href="akn/rs/act/2018/44-8/srp@/!main~art_17" >чланом 17. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav6">
+						<content>
+							<p>Поступак стечаја или ликвидације, у смислу овог закона, означава поступак стечаја или ликвидације или други поступак колективног намирења поверилаца, акционара или других чланова друштва из имовине дужника, било да је покренут добровољно или принудно, а који се спроводи уз учешће судског или другог надлежног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav7">
+						<content>
+							<p>Мере реорганизације, у смислу овог закона, означавају мере које судски или други надлежни орган примењује ради очувања или побољшања финансијског стања дужника, ако те мере утичу на стечена права трећих лица, посебно мере које се односе на забрану или ограничење плаћања, извршење обавеза или смањење потраживања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan19">
+					<num>19.</num>
+					<heading>Однос према другим прописима</heading>
+					<paragraph wId="gla5-clan19-stav1">
+						<content>
+							<p>Средства обезбеђења из овог закона могу се уговарати било у складу са овим законом било у складу с другим законом којим се уређују средства обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan19-stav2">
+						<content>
+							<p>Ако уговором није изричито друкчије утврђено, сматра се да су средства обезбеђења из овог закона између субјеката из <ref wId="ref34" href="akn/rs/act/2018/44-8/srp@/!main~art_4" >члана 4. овог</ref> закона уговорена у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan19-stav3">
+						<content>
+							<p>На питања која нису уређена овим законом а односе се на уговор о финансијском обезбеђењу и средства обезбеђења из овог закона примењују се одредбе закона којим се уређују облигациони односи и одредбе других прописа, ако нису у супротности са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan19-stav4">
+						<content>
+							<p>Одредбе <ref wId="ref35" href="akn/rs/act/2018/44-8/srp@/!main~art_12->art_17" >чл. 12. </ref>до 17. овог закона не доводе у питање одредбе закона којим се уређују банке а које се односе на реструктурирање банака и банкарске групе, нити овлашћења Народне банке Србије у вези с реструктурирањем банке или банкарске групе која су утврђена тим законом а на основу којих се могу утврдити одређена ограничења која се односе на правне последице уговора о финансијском обезбеђењу, реализацију средства обезбеђења, нетирање по основу превременог доспећа или престанка обавеза или било који други начин и услове за реализацију средства обезбеђења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРИМЕНА ОДРЕДАБА ОВОГ ЗАКОНА О НЕТИРАЊУ (ЕНГ. CLOSE-OUT NETTING) НА ДРУГЕ ФИНАНСИЈСКЕ УГОВОРЕ</heading>
+				<article wId="gla6-clan20">
+					<num>20.</num>
+					<heading>Нетирање код других финансијских уговора</heading>
+					<paragraph wId="gla6-clan20-stav1">
+						<intro>
+							<p>Финансијским уговором могу се утврдити догађаји и околности (неизвршење доспеле финансијске обавезе или други сличан догађај или околност која се односи на једну од уговорних страна) по чијем се наступању, аутоматски или на захтев уговорне стране, предузима следеће:</p>
+						</intro>
+						<point wId="gla6-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> међусобне обавезе по основу једног или више финансијских уговора сматрају се доспелим и изражавају као новчане обавезе или престају и замењују се новим новчаним обавезама, у складу с њиховом процењеном текућом вредношћу, односно вредношћу која је утврђена на начин из тог уговора; и/или</p>
+							</content>
+						</point>
+						<point wId="gla6-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> врши се нетирање (пребијање) међусобних потраживања и обавеза по основу једног или више финансијских уговора, тако да је уговорна страна која дугује већи износ дужна да плати разлику у износу потраживања (нето износ).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav2">
+						<intro>
+							<p>Финансијски уговор из <ref wId="ref37" href="akn/rs/act/2018/44-8/srp@/!main~art_20__para_1" >става 1. овог</ref> члана јесте оквирни уговор или други уговор закључен на начин и у форми који су уобичајени у пословној пракси, чије су уговорне стране субјекти из <ref wId="ref36" href="akn/rs/act/2018/44-8/srp@/!main~art_4" >члана 4. овог</ref> закона и по основу кога за дужника настаје финансијска обавеза, а за повериоца право на новчано намирење и/или предају, односно пренос новчаних средстава, односно финансијских инструмената у складу са законом (финансијска трансакција), и то:</p>
+						</intro>
+						<point wId="gla6-clan20-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> уговор о финансијским дериватима у смислу закона којим се уређује тржиште капитала (опције, фјучерси, свопови, каматни форварди и др.);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan20-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> уговор о куповини и продаји или позајмљивању хартија од вредности, инструмената тржишта новца и других финансијских инструмената у смислу закона којим се уређује тржиште капитала, као и уговор о другој финансијској трансакцији која за предмет има ове финансијске инструменте;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan20-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> уговор о финансијској трансакцији закљученој на девизном тржишту у складу с прописима којима се уређује девизно пословање (терминска и своп куповина/продаја девиза и др.);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan20-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> други финансијски уговор утврђен у листи коју објављује Народна банка Србије.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav3">
+						<content>
+							<p>На новчана средства и финансијске инструменте који су предмет финансијске трансакције у смислу овог члана сходно се примењују одредбе чл. <ref wId="ref38" href="akn/rs/act/2018/44-8/srp@/!main~art_6" >6</ref>, <ref wId="ref39" href="akn/rs/act/2018/44-8/srp@/!main~art_7" >7</ref>. и <ref wId="ref40" href="akn/rs/act/2018/44-8/srp@/!main~art_8" >8</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav4">
+						<content>
+							<p>На нетирање по основу финансијских уговора из <ref wId="ref42" href="akn/rs/act/2018/44-8/srp@/!main~art_20__para_1" >става 1. овог</ref> члана сходно се примењују одредбе <ref wId="ref41" href="akn/rs/act/2018/44-8/srp@/!main~art_17" >члана 17. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav5">
+						<content>
+							<p>Покретање/отварање и спровођење поступка стечаја и ликвидације или примена мера реорганизације не утичу на остваривање права на нетирање из <ref wId="ref43" href="akn/rs/act/2018/44-8/srp@/!main~art_20__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav6">
+						<content>
+							<p>На заштиту права на нетирање у случају стечаја, ликвидације и примене мера реорганизације над уговорном страном финансијског уговора из <ref wId="ref45" href="akn/rs/act/2018/44-8/srp@/!main~art_20__para_1" >става 1. овог</ref> члана сходно се примењују одредбе <ref wId="ref44" href="akn/rs/act/2018/44-8/srp@/!main~art_18" >члана 18. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan20-stav7">
+						<content>
+							<p>Ако након нетирања међусобних потраживања и обавеза по основу финансијског уговора из <ref wId="ref46" href="akn/rs/act/2018/44-8/srp@/!main~art_20__para_1" >става 1. овог</ref> члана стечајни дужник није у потпуности измирио финансијску обавезу – поверилац може своје потраживање према њему намирити у стечајном поступку као стечајни поверилац.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla7-clan21">
+					<num>21.</num>
+					<heading>Надзор над применом одредаба овог закона</heading>
+					<paragraph wId="gla7-clan21-stav1">
+						<content>
+							<p>Народна банка Србије врши надзор над применом одредаба овог закона код субјеката над чијим пословањем врши контролу, односно надзор према посебним законима, у складу са одредбама тих закона којима се уређују контролна, односно надзорна овлашћења Народне банке Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan21-stav2">
+						<content>
+							<p>Комисија за хартије од вредности врши надзор над применом одредаба овог закона код субјеката над чијим пословањем врши надзор према посебним законима, у складу са одредбама тих закона којима се уређују њена надзорна овлашћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan21-stav3">
+						<content>
+							<p>Надзор над применом одредаба овог закона код субјеката који нису обухваћени контролом, односно надзором из <ref wId="ref47" href="akn/rs/act/2018/44-8/srp@/!main~art_21__para_1->para_2" >ст. 1. и 2. овог</ref> члана – врше надлежни органи у складу с њиховим овлашћењима уређеним посебним законима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan21-stav4">
+						<content>
+							<p>Надзорни орган из овог члана може ближе прописати услове и начин вршења контроле, односно надзора над спровођењем одредаба овог закона из своје надлежности.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan22">
+					<num>22.</num>
+					<heading>Прекршаји</heading>
+					<paragraph wId="gla8-clan22-stav1">
+						<intro>
+							<p>Новчаном казном од 100.000 до 2.000.000 динара казниће се за прекршај правно лице у следећим случајевима:</p>
+						</intro>
+						<point wId="gla8-clan22-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако је закључило уговор о финансијском обезбеђењу, односно финансијски уговор у смислу овог закона а није субјект из <ref wId="ref48" href="akn/rs/act/2018/44-8/srp@/!main~art_4" >члана 4. овог</ref> закона, у намери да се на тај уговор примењују одредбе овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla8-clan22-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је као субјект из <ref wId="ref49" href="akn/rs/act/2018/44-8/srp@/!main~art_4" >члана 4. овог</ref> закона закључило уговор о финансијском обезбеђењу, односно финансијски уговор у смислу овог закона, с другом уговорном страном која није субјект из тог члана, у намери да се на тај уговор примењују одредбе овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla8-clan22-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако је закључило уговор о финансијском обезбеђењу код којег је кредитно потраживање средство обезбеђења а нису испуњени услови из <ref wId="ref50" href="akn/rs/act/2018/44-8/srp@/!main~art_9__para_5" >члана 9. став 5. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla8-clan22-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако, као прималац обезбеђења, код намирења из заложених средстава обезбеђења поступи супротно члану 15. ст. <ref wId="ref51" href="akn/rs/act/2018/44-8/srp@/!main~art_15__para_4" >4</ref>. и <ref wId="ref52" href="akn/rs/act/2018/44-8/srp@/!main~art_15__para_6" >6</ref>. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla8-clan22-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ако, сходном применом члана 15. ст. <ref wId="ref54" href="akn/rs/act/2018/44-8/srp@/!main~art_15__para_4" >4</ref>. и <ref wId="ref55" href="akn/rs/act/2018/44-8/srp@/!main~art_15__para_6" >6</ref>. овог закона, као прималац обезбеђења, при намирењу потраживања из стечених средстава обезбеђења не поступи у складу с тим одредбама (<ref wId="ref53" href="akn/rs/act/2018/44-8/srp@/!main~art_16__para_2" >члан 16. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan22-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> ако, сходном применом <ref wId="ref56" href="akn/rs/act/2018/44-8/srp@/!main~art_15__para_6" >члана 15. став 6. овог</ref> закона, уговорна страна у уговору о финансијском обезбеђењу при намирењу потраживања нетирањем не поступи у складу с тим одредбама (<ref wId="ref57" href="akn/rs/act/2018/44-8/srp@/!main~art_17__para_3" >члан 17. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan22-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> ако, сходном применом <ref wId="ref58" href="akn/rs/act/2018/44-8/srp@/!main~art_17__para_3" >члана 17. став 3. овог</ref> закона, уговорна страна у финансијском уговору при намирењу потраживања нетирањем не поступи у складу са одредбама <ref wId="ref59" href="akn/rs/act/2018/44-8/srp@/!main~art_15__para_6" >члана 15. став 6. овог</ref> закона (<ref wId="ref60" href="akn/rs/act/2018/44-8/srp@/!main~art_20__para_4" >члан 20. став 4</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla8-clan22-stav2">
+						<content>
+							<p>За радње из <ref wId="ref61" href="akn/rs/act/2018/44-8/srp@/!main~art_22__para_1" >става 1. овог</ref> члана казниће се и одговорно лице у правном лицу новчаном казном од 20.000 до 150.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan22-stav3">
+						<content>
+							<p>За радње из <ref wId="ref62" href="akn/rs/act/2018/44-8/srp@/!main~art_22__para_1" >става 1. овог</ref> члана казниће се и предузетник новчаном казном од 30.000 до 500.000 динара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan23">
+					<num>23.</num>
+					<paragraph wId="gla8-clan23-stav1">
+						<content>
+							<p>За радње из <ref wId="ref63" href="akn/rs/act/2018/44-8/srp@/!main~art_22" >члана 22. овог</ref> закона, Народна банка Србије изриче мере и новчане казне субјектима над чијим пословањем врши контролу, односно надзор према посебним законима, у складу са одредбама тих закона којима се уређују њена контролна, односно надзорна овлашћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan23-stav2">
+						<content>
+							<p>За радње из <ref wId="ref64" href="akn/rs/act/2018/44-8/srp@/!main~art_22" >члана 22. овог</ref> закона, Комисија за хартије од вредности изриче мере и новчане казне субјектима над чијим пословањем врши контролу, односно надзор према посебним законима, у складу са одредбама тих закона којима се уређују њена надзорна овлашћења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>ПРЕЛАЗНА ОДРЕДБА И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla9-clan24">
+					<num>24.</num>
+					<heading>Уговори закључени пре почетка примене овог закона</heading>
+					<paragraph wId="gla9-clan24-stav1">
+						<content>
+							<p>Уговори закључени између субјеката из <ref wId="ref65" href="akn/rs/act/2018/44-8/srp@/!main~art_4" >члана 4. овог</ref> закона којима су установљена средства обезбеђења у смислу овог закона, односно финансијски уговори у смислу <ref wId="ref66" href="akn/rs/act/2018/44-8/srp@/!main~art_20" >члана 20. овог</ref> закона – а који до дана почетка примене овог закона нису извршени – извршиће се по прописима који су били на снази до почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan25">
+					<num>25.</num>
+					<heading>Престанак важења одредаба Закона о стечају и ликвидацији банака и друштава за осигурање</heading>
+					<paragraph wId="gla9-clan25-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престају да важе одредбе <ref wId="ref67" href="akn/rs/act/2018/44-8/srp@/!main~art_12" >члана 12. </ref>Закона о стечају и ликвидацији банака и друштава за осигурање („Службени гласник РС”, бр. <ref wId="ref68" href="akn/rs/act/15/14/srp@">14/15</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan26">
+					<num>26.</num>
+					<heading>Ступање на снагу</heading>
+					<paragraph wId="gla9-clan26-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а примењује се од 1. јануара 2019. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

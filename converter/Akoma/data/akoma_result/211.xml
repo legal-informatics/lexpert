@@ -1,0 +1,866 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о регулисању јавног дуга   Савезне  Републике  Југославије  по основу  девизне штедње грађана">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2002/36-6/main"/>
+					<FRBRuri value="akn/rs/act/2002/36-6"/>
+					<FRBRdate date="2002-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2016/108-26/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2016/108-26/srp@"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2016/108-26/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2016/108-26/srp@.akn"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2002-07-03" name="службени лист срј" number="36" showAs="Службени лист СРЈ"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="4. Јавни зајмови" value="4. јавни зајмови" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2002-01-01" refersTo="36/2002-6" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2004-01-01" refersTo="80/2004-31" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2005-01-01" refersTo="101/2005-28" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2016-01-01" refersTo="108/2016-26" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2002-07-02" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2002-07-04" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2002-07-04" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавеза"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="основу"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="постала"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="88"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="штедње"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="девизне"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="грађана"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="44"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="53"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="59"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="99"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="орочени"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="претворена"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="депозит"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="измирењу"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавни"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="закон"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="2001"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="лист"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="бр"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="срј"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="дуг"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="регулисања"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="чланом"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="овлашћених"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="код"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="савезне"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="службени"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="банака"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Centralnom registru"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Jugobanke Jugbanke"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Odluci"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Repubilke"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Crnoj Gori"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Crne Gore"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Savezna Republika Jugoslavija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Savezne Republike Jugoslavije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija i Republika Crna Gora"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="17."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="A i B"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="B"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralni registar"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralnog registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj banci Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odlukom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savezne Republike Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="USRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zakonom"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Crna Gora"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Crne Gore"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Inisijalnim"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kosovska Mitrovica"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Nosioci"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organ"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. aprila 2002."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 1998."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. maja 2003."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. maja 2004."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. jula 2004"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. i 20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1994."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1999."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2002."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2003. do 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2005."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2005. do 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2006."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2007."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2008."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2009."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2012."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2013."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2014."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2015."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. novembra 2005"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. decembra 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. jula"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 1997."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. maja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. marta 2002."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. i 7. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном листу СРЈ”, односно 4. јула 2002. године (види члан 38. Закона).Одлуком Уставног суда Републике Србије IУ број 221/2004 („Службени гласник РС“, број 80/2004) престала је да важи одредба члана 19. став 1. у делу у коме је прописана обавеза продаја акција чији је власник Република Србија, а који гласи: „домаћим правним лицима у приватној својини и страним правним лицима, при чему постојећи акционари банке који су приватна правна лица имају право прече куповине“, јер је утврђено да није у сагласности са Уставом (види Одлуку УСРС – РС 80/2004-31).Промењене су висине новчаних казни (види члан 28. Закона – РС 101/2005-28).Закон о изменама и допуни Закон о регулисању јавног дуга Савезне Републике Југославије по основу девизне штедње грађана (Службени гласник РС, број 108/2016) ступио је на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2016. године (види члан 4. Закона - 108/2016-26).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О регулисању јавног дуга   савезне  републике  југославије  по основу  девизне штедње грађана Службени лист СРЈ”, број <ref wId="ref112" href="akn/rs/act/2002/36/srp@">36 од 3. јула 2002</ref>, „Службени гласник РС“, бр <ref wId="ref113" href="akn/rs/act/2004/80/srp@">80 од 16. јула 2004</ref> - УСРС, <ref wId="ref114" href="akn/rs/act/2005/101/srp@">101 од 21. новембра 2005</ref> - др. закон, <ref wId="ref115" href="akn/rs/act/2016/108/srp@">108 од 29. децембра 2016</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови и начин регулисања обавеза по основу девизне штедње грађана из <ref wId="ref0" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члана 2. </ref>Закона о измирењу обавеза по основу девизне штедње грађана („Службени лист СРЈ”, бр. <ref wId="ref2" href="akn/rs/act/88/59/srp@">59/88</ref>, <ref wId="ref3" href="akn/rs/act/99/44/srp@">44/99</ref> и <ref wId="ref4" href="akn/rs/act/2001/53/srp@">53/2001</ref>) (у даљем тексту: Закон) која је, у складу с <ref wId="ref1" href="akn/rs/act/2016/108-26/srp@/!main~art_4" >чланом 4. </ref>Закона, претворена у орочени депозит код овлашћених банака и постала јавни дуг Савезне Републике Југославије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Јавни дуг из <ref wId="ref5" href="akn/rs/act/2016/108-26/srp@/!main~art_1" >члана 1. овог</ref> закона износи 4,00 милијарде евра и обухвата:</p>
+						</intro>
+						<alinea wId="gla1-clan2-stav1-ali1">
+							<content>
+								<p>тање девизне штедње грађана на дан 31. марта 2002. године, обрачунато као разлика стања девизне штедње код овлашћених банака из <ref wId="ref6" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члана 2. </ref>Закона на дан 31. децембра 1997. године и исплата извршених до 31. марта 2002. године – у износу  3,05 милијарде евра;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan2-stav1-ali2">
+							<content>
+								<p>риписану камату, обрачунату по каматној стопи од 2% годишње, и курсне разлике обрачунате за период од 1. јануара 1998. до 31. марта 2002. године – у износу  0,38 милијарде евра;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan2-stav1-ali3">
+							<content>
+								<p>амату, обрачунату по каматној стопи од 2% годишње, за период од 1. априла 2002. године до рокова доспећа утврђених овим законом – у износу  0,57 милијарде евра.</p>
+							</content>
+						</alinea>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/2016/108/srp@">108/2016</ref></heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Обавеза Савезне Републике Југославије по основу јавног дуга утврђеног на начин из <ref wId="ref7" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члана 2. овог</ref> закона постаје, од дана ступања на снагу тог закона, обавеза, односно дуг Републике Србије и Републике Црне Горе – сразмерно висини девизне штедње грађана чије је пребивалиште на територији тих република.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ДИНАМИКА ИЗВРШЕЊА ОБАВЕЗА ПРЕМА ДЕВИЗНИМ ШТЕДИШАМА</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-clan4-stav1">
+						<intro>
+							<p>Обавезе према девизним штедишама извршавају се према следећој динамици:</p>
+						</intro>
+						<alinea wId="gla2-clan4-stav1-ali1">
+							<content>
+								<p> току 2002. године – у висини до 276,10 евра,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav1-ali2">
+							<content>
+								<p>1. маја 2003. године – у висини до 380 евра,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav1-ali3">
+							<content>
+								<p>1. маја 2004. године – у висини до 530 евра.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<intro>
+							<p>Преостали износ обавеза према девизним штедишама исплаћује се у 12 годишњих рата, које расту по стопи геометријске прогресије од 10% и доспевају сваког 31. маја у периоду од 2005. до 2016. године, а израчунавају се множењем тог износа следећим коефицијентима:</p>
+						</intro>
+						<alinea wId="gla2-clan4-stav2-ali1">
+							<content>
+								<p>а 2005. годину – коефицијентом 0,05425092,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali2">
+							<content>
+								<p>а 2006. годину – коефицијентом 0,05967601,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali3">
+							<content>
+								<p>а 2007. годину – коефицијентом 0,06564361,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali4">
+							<content>
+								<p>а 2008. годину – коефицијентом 0,07220798,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali5">
+							<content>
+								<p>а 2009. годину – коефицијентом 0,07942877,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali6">
+							<content>
+								<p>а 2010. годину – коефицијентом 0,08737165,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali7">
+							<content>
+								<p>а 2011. годину – коефицијентом 0,09610881,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali8">
+							<content>
+								<p>а 2012. годину – коефицијентом 0,10571970,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali9">
+							<content>
+								<p>а 2013. годину – коефицијентом 0,11629167,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali10">
+							<content>
+								<p>а 2014. годину – коефицијентом 0,12792083,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali11">
+							<content>
+								<p>а 2015. годину – коефицијентом 0,14071292,</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan4-stav2-ali12">
+							<content>
+								<p>а 2016. годину – коефицијентом 0,15478421.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<content>
+							<p>Девизни штедиша има право на исплату годишње рате у висини од најмање 500 евра ако су годишње рате из <ref wId="ref9" href="akn/rs/act/2016/108-26/srp@/!main~art_4__para_2" >става 2. овог</ref> члана мање од тог износа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav4">
+						<content>
+							<p>Право на исплату у смислу овог члана, укључујући и унапред обрачунату камату по стопи од 2% годишње, утврђује се по једном девизном штедном улогу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАЧИН РЕГУЛИСАЊА ЈАВНОГ ДУГА САВЕЗНЕ РЕПУБЛИКЕ ЈУГОСЛАВИЈЕ – ОБВЕЗНИЦЕ</heading>
+				<article wId="gla3-clan5">
+					<num>5.</num>
+					<paragraph wId="gla3-clan5-stav1">
+						<content>
+							<p>Ради регулисања јавног дуга Савезне Републике Југославије који је постао дуг Републике Србије и Републике Црне Горе, Република Србија и Република Црна Гора, у складу са одредбама овог закона, емитоваће обвезнице, које гласе на евро.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan5-stav2">
+						<content>
+							<p>Обвезнице из <ref wId="ref10" href="akn/rs/act/2016/108-26/srp@/!main~art_5__para_1" >става 1. овог</ref> члана емитују се у нематеријалном облику, без купона, појединачно за сваку годину, и региструју код Народне банке Југославије – Завода за обрачун и плаћања – Централног регистра, депоа и клиринга хартија од вредности (у даљем тексту: Централни регистар).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan5-stav3">
+						<content>
+							<p>Обвезнице из <ref wId="ref11" href="akn/rs/act/2016/108-26/srp@/!main~art_5__para_1" >става 1. овог</ref> члана гласе на име и преносиве су, а исплаћују се у еврима или, на захтев власника тих обвезница – у динарима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan5-stav4">
+						<content>
+							<p>Основне елементе обвезница, износ емисије, као и услове дистрибуције и наплате обвезница, прописују владе Републике Србије и Републике Црне Горе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan6">
+					<num>6.</num>
+					<paragraph wId="gla3-clan6-stav1">
+						<content>
+							<p>Обвезницама из <ref wId="ref12" href="akn/rs/act/2016/108-26/srp@/!main~art_5" >члана 5. овог</ref> закона регулишу се обавезе према девизним штедишама утврђене у смислу <ref wId="ref13" href="akn/rs/act/2016/108-26/srp@/!main~art_4" >члана 4. </ref>тог закона, осим обавеза које су извршене до дана емисије обвезница из <ref wId="ref14" href="akn/rs/act/2016/108-26/srp@/!main~art_5" >члана 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan6-stav2">
+						<content>
+							<p>Обавезе према девизним штедишама утврђене у смислу <ref wId="ref15" href="akn/rs/act/2016/108-26/srp@/!main~art_4" >члана 4. овог</ref> закона регулишу се на дан емисије обвезница из <ref wId="ref16" href="akn/rs/act/2016/108-26/srp@/!main~art_6__para_1" >става 1. овог</ref> члана – конверзијом штедних улога грађана у обвезнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan6-stav3">
+						<content>
+							<p>Прописима из <ref wId="ref17" href="akn/rs/act/2016/108-26/srp@/!main~art_5__para_4" >члана 5. став 4. овог</ref> закона, владе Републике Србије и Републике Црне Горе утврдиће рок доспећа обвезница којима се регулишу обавезе које доспевају у 2002. години а нису измирене до дана емисије обвезница из тог члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan7">
+					<num>7.</num>
+					<paragraph wId="gla3-clan7-stav1">
+						<content>
+							<p>Вредност извршене конверзије штедних улога грађана у обвезнице евидентира се у штедним књижицама и региструје у Централном регистру – на рачуну хартија од вредности, а девизном штедиши се о томе уручује потврда. На основу рачуна отвореног у Централном регистру, девизни штедиша остварује права из обвезница – исплату у роковима из овог закона, пренос власништва, трговину и друга права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan7-stav2">
+						<content>
+							<p>Девизна књижица из <ref wId="ref18" href="akn/rs/act/2016/108-26/srp@/!main~art_7__para_1" >става 1. овог</ref> члана служи девизном штедиши као доказ да је његов штедни улог конвертован у обвезнице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan8">
+					<num>8.</num>
+					<paragraph wId="gla3-clan8-stav1">
+						<content>
+							<p>Овлашћене банке из <ref wId="ref19" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члана 2. </ref>Закона, банке које су услед статусних промена постале правни следбеници тих банака, као и банке које, у складу с прописима којима се уређују санација, стечај и ликвидација банака, преузимају послове у вези са исплатом девизне штедње грађана положене код овлашћених банака из тог члана над којима је покренут поступак стечаја или ликвидације – дужне су да, на дан емисије обвезница, неисплаћене девизне штедне улоге грађана прерачунају у евре и искажу у еврима, утврде обавезе према девизним штедишама у смислу <ref wId="ref20" href="akn/rs/act/2016/108-26/srp@/!main~art_4" >члана 4. овог</ref> закона и изврше конверзију тих улога у обвезнице на начин утврђен <ref wId="ref21" href="akn/rs/act/2016/108-26/srp@/!main~art_6" >чланом 6. </ref>тог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>Ближе услове и начин вршења конверзије штедних улога грађана у обвезнице у смислу овог закона, начин њиховог књиговодственог евидентирања, као и начин регистрације обвезница у Централном регистру, прописује Народна банка Југославије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>Промет обвезница емитованих у складу са овим законом је слободан и ослобођен ореза на промет, провизије на платни промет, пореза на капиталну добит, пореза на финансијске трансакције, као и других пореза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav2">
+						<content>
+							<p>Домаће правно лице и предузетник, домаће физичко лице и грађани на привременом раду у иностзранству, као и страно физичко лице, обвезнице из <ref wId="ref22" href="akn/rs/act/2016/108-26/srp@/!main~art_5" >члана 5. овог</ref> закона могу куповати и продавати на финансијској берзи за девизе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Девизе остварене продајом обвезница у смислу <ref wId="ref23" href="akn/rs/act/2016/108-26/srp@/!main~art_10__para_2" >члана 10. став 2. овог</ref> закона, домаће правно лице и предузетник и страно физичко и правно лице држе на девизном рачуну.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>Девизе из <ref wId="ref24" href="akn/rs/act/2016/108-26/srp@/!main~art_11__para_1" >става 1. овог</ref> члана, као и девизе остварене наплатом обвезница у року доспећа, страно физичко и правно лице могу слободно трансферисати у иностранство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<paragraph wId="gla3-clan12-stav1">
+						<intro>
+							<p>Обвезнице из <ref wId="ref25" href="akn/rs/act/2016/108-26/srp@/!main~art_5" >члана 5. овог</ref> закона којима су регулисане обавезе према девизним штедишама у смислу <ref wId="ref26" href="akn/rs/act/2016/108-26/srp@/!main~art_6__para_2" >члана 6. став 2. овог</ref> закона могу се, пре рока доспећа, користити за:</p>
+						</intro>
+						<point wId="gla3-clan12-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> куповину акција предузећа у процесу својинске трансформације, ради продаје друштвеног капитала;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> куповину акција овлашћених банака;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan12-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> куовину станова, стамбених објеката, пословног простора, земљишта и друге имовине у државној својини.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Ближе услове коришћења обвезница за намене из <ref wId="ref27" href="akn/rs/act/2016/108-26/srp@/!main~art_12__para_1" >става 1. овог</ref> члана утврђују власници имовине из тог става.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Власник обвезница из <ref wId="ref28" href="akn/rs/act/2016/108-26/srp@/!main~art_5" >члана 5. овог</ref> закона може тим обвезницама, у роковима њиховог доспећа, поред плаћања из <ref wId="ref29" href="akn/rs/act/2016/108-26/srp@/!main~art_12" >члана 12. </ref>тог закона – плаћати и порез на промет, акцизе, порез на имовину, порез на доходак грађана и порез на добит корпорација.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Иницијални власник обвезница из <ref wId="ref30" href="akn/rs/act/2016/108-26/srp@/!main~art_5" >члана 5. овог</ref> закона може те обвезнице користити и пре рока доспећа, и то за плаћање трошкова лечења, за набавку лекова, за плаћање трошкова сахране и у другим случајевима – до износа стварних трошкова, под условима и до износа које пропишу републичке владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Инисијалним влансиком из <ref wId="ref32" href="akn/rs/act/2016/108-26/srp@/!main~art_14__para_1" >става 1. овог</ref> члана сматра се девизни штедиша чија је штедња конвертована у обвезнице у смислу <ref wId="ref31" href="akn/rs/act/2016/108-26/srp@/!main~art_6__para_2" >члана 6. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ИЗВОРИ СРЕДСТАВА ЗА ИСПЛАТУ ОБВЕЗНИЦА</heading>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>Средства за исплату обвезница у смислу овог закона обезбеђују Република Србија и Република Црна Гора, у складу с роковима и у висини утврђеним тим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav2">
+						<content>
+							<p>Средства из <ref wId="ref33" href="akn/rs/act/2016/108-26/srp@/!main~art_15__para_1" >става 1. овог</ref> члана уплаћују се на посебан рачун отворен код Народне банке Југославије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav3">
+						<content>
+							<p>Ближе услове куповине девизних средстава ради исплате обвезница из <ref wId="ref34" href="akn/rs/act/2016/108-26/srp@/!main~art_5" >члана 5. овог</ref> закона утврђује Народна банка Југославије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>Овлашћене банке из <ref wId="ref35" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члана 2. </ref>Закона и банке правни следбеници тих банака, које су биле обавезне да обезбеђују средства за исплату јавног дуга Савезне Републике Југославије у смислу чл. <ref wId="ref36" href="akn/rs/act/2016/108-26/srp@/!main~art_6" >6</ref>. и <ref wId="ref37" href="akn/rs/act/2016/108-26/srp@/!main~art_7" >7</ref>. Закона – ослобађају се те обавезе и ступају у обавезу према Републици Србији, односно Републици Црној Гори.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav2">
+						<content>
+							<p>Обавезе банака из <ref wId="ref40" href="akn/rs/act/2016/108-26/srp@/!main~art_16__para_1" >става 1. овог</ref> члана, у висини од 15% јавног дуга утврђеног у <ref wId="ref38" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члану 2. овог</ref> закона, умањују се за износ који су те банке уплатиле до дана доношења одлуке о емисији обвезница у смислу тог закона и за износ неискомпензованог дела потраживања тих банака од Савезне Републике Југославије и република чланица у складу с <ref wId="ref39" href="akn/rs/act/2016/108-26/srp@/!main~art_26" >чланом 26. </ref>Закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav3">
+						<content>
+							<p>Начин и услове регулисања обавеза Републике Србије, односно Републике Црне Горе према банкама из <ref wId="ref41" href="akn/rs/act/2016/108-26/srp@/!main~art_16__para_1" >става 1. овог</ref> члана, ако су обавезе ових банака утврђене <ref wId="ref42" href="akn/rs/act/2016/108-26/srp@/!main~art_16__para_2" >ставом 2. </ref>тог члана мање од потраживања тих банака, прописују владе Републике Србије, односно Републике Црне Горе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<paragraph wId="gla4-clan17-stav1">
+						<content>
+							<p>Ради регулисања обавезе из <ref wId="ref43" href="akn/rs/act/2016/108-26/srp@/!main~art_16" >члана 16. овог</ref> закона, банке из тог члана дужне су да, у року од 30 дана од дана кад им Народна банка Југославије достави писмени налог, донесу одлуку о емисији акција – у износу наведеном у том налогу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav2">
+						<content>
+							<p>Акције из <ref wId="ref44" href="akn/rs/act/2016/108-26/srp@/!main~art_17__para_1" >става 1. овог</ref> члана су обичне акције, с правом гласа, и њихова номинална вредност износи 10.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav3">
+						<content>
+							<p>Једна акција из <ref wId="ref45" href="akn/rs/act/2016/108-26/srp@/!main~art_17__para_1" >става 1. овог</ref> члана носи један глас.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav4">
+						<content>
+							<p>Република Србија и Република Црна Гора акције из <ref wId="ref46" href="akn/rs/act/2016/108-26/srp@/!main~art_17__para_1" >става 1. овог</ref> члана купују од банака из тог става – конверзијом потраживања од тих банака у акционарски улог, чиме се побољшава структура биланса ових банака, смањују њихови оперативни трошкови и повећава њихов капитал.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav5">
+						<content>
+							<p>За емисију и куповину акција из овог члана није потребно одобрење надлежног савезног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav6">
+						<content>
+							<p>Банци која одлуку о емисији акција не донесе у року утврђеном у <ref wId="ref47" href="akn/rs/act/2016/108-26/srp@/!main~art_17__para_1" >ставу 1. овог</ref> члана. Народна банка Југославије одузеће дозволу за рад и покренуће против ње поступак ликвидације, у складу са савезним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<paragraph wId="gla4-clan18-stav1">
+						<content>
+							<p>Агенција за осигурање депозита, санацију, стечај и ликвидацију банака (у даљем тексту: Агенција) организује и прати куповину акција из <ref wId="ref48" href="akn/rs/act/2016/108-26/srp@/!main~art_17" >члана 17. овог</ref> закона и у име Републике Србије и Републике Црне Горе учествује у управљању банкама из <ref wId="ref49" href="akn/rs/act/2016/108-26/srp@/!main~art_16" >члана 16. </ref>тог закона по основу тих акција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Република Србија и Република Црна Гора дужне су да, најкасније у року од шест месеци од дана ступања на снагу овог закона, почну да продају акције из <ref wId="ref50" href="akn/rs/act/2016/108-26/srp@/!main~art_17" >члана 17. </ref>тог закона .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav2">
+						<content>
+							<p>Агенција организује и прати продају акција из <ref wId="ref51" href="akn/rs/act/2016/108-26/srp@/!main~art_19__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav3">
+						<content>
+							<p>Средства добијена продајом акција у смислу <ref wId="ref52" href="akn/rs/act/2016/108-26/srp@/!main~art_19__para_1" >става 1. овог</ref> члана уплаћују се на посебне рачуне Републике Србије и Репубилке Црне Горе код Народне банке Југославије и служе искључиво за измирење обавеза по овом закону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref56" href="akn/rs/act/2004/80/srp@">80/2004</ref> (Одлука  УСРС)</heading>
+					<paragraph wId="gla4-clan20-stav1">
+						<content>
+							<p>Средства за измирење обавеза банака из <ref wId="ref53" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члана 2. </ref>Закона над којима је отворен поступак стечаја, односно ликвидације, до окончања тог поступка, а у висини утврђеној на начин из <ref wId="ref54" href="akn/rs/act/2016/108-26/srp@/!main~art_16" >члана 16. овог</ref> закона обезбеђују Република Србија и Република Црна Гора – пропорционално обавезама тих банака по основу девизне штедње грађана чије је пребивалиште на територији тих република.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav2">
+						<content>
+							<p>Орган надлежан за спровођење поступака из <ref wId="ref55" href="akn/rs/act/2016/108-26/srp@/!main~art_20__para_1" >става 1. овог</ref> члана дужан је да средства из стечајне, односно ликвидационе масе пренесе на рачун буџета републике која измирује обавезу банака из тог става – до висине укупно утврђених обавеза тих банака.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОСЕБНЕ ОДРЕДБЕ</heading>
+				<article wId="gla5-clan21">
+					<num>21.</num>
+					<paragraph wId="gla5-clan21-stav1">
+						<content>
+							<p>Држављани бивших република СФРЈ, које нису у саставу Савезне Републике  Југославије, а који су девизну штедњу из <ref wId="ref57" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члана 2. </ref>Закона положили код овлашћених  банака са седиштем на територији Савезне Републике Југославије, као и држављани  Савезне Републике Југославије који су ту штедњу положили код филијала банака из  тог члана које су се налазиле на територији бивших република СФРЈ до момента  отцепљења тих република – своја потраживања по основу девизне штедње грађани  остварују у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav2">
+						<content>
+							<p>Грађани на привременом раду у иностранству и страна физичка лица, који су девизну штедњу положили код банака из <ref wId="ref58" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члана 2. </ref>Закона, право на исплату те штедње остварују у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav3">
+						<content>
+							<p>Средства за исплату девизне штедње из <ref wId="ref59" href="akn/rs/act/2016/108-26/srp@/!main~art_21__para_2" >става 2. овог</ref> члана обезбеђују Република Србија и Република Црна Гора – према седишту банака код којих је та штедња положена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref60" href="akn/rs/act/2016/108/srp@">108/2016</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav5">
+						<content>
+							<p>Члан 21а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav6">
+						<content>
+							<p>Влада ће одредити банку која ће сервисирати девизну  штедњу грађана положену код Југобанке Југбанке а.д. Косовска Митровица и ближе  уредити питања која се односе на сервисирање те штедње.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref61" href="akn/rs/act/2016/108/srp@">108/2016</ref></heading>
+				</article>
+				<article wId="gla5-clan23">
+					<num>23.</num>
+					<heading>Право на исплату обавеза према девизним штедишама утврђено <ref wId="ref62" href="akn/rs/act/2016/108-26/srp@/!main~art_4" >чланом 4. овог</ref> закона увећава се за износ исплата које, према <ref wId="ref63" href="akn/rs/act/2016/108-26/srp@/!main~art_10" >члану 10. </ref>Закона, нису извршене за 2000, 2001. и 2002. годину и умањује се за износ преузетих обвезница серије А за период од 2002. до 2004. године, а право на годишњу исплату утврђено у смислу <ref wId="ref64" href="akn/rs/act/2016/108-26/srp@/!main~art_4__para_3" >члана 4. став 3. овог</ref> закона умањује се за износ преузетих обвезница серије Б, емитованих на основу Одлуке о емисији обвезница Савезне Републике Југославије за измирење обавеза по основу девизне штедње грађана („Службени лист СРЈ”, бр. <ref wId="ref65" href="akn/rs/act/2001/4/srp@">4/2001</ref>, <ref wId="ref66" href="akn/rs/act/2001/6/srp@">6/2001</ref> и <ref wId="ref67" href="akn/rs/act/2001/27/srp@">27/2001</ref>) у даљем тексту: Одлука)</heading>
+					<paragraph wId="gla5-clan23-stav1">
+						<content>
+							<p>Право по основу обвезница серија А и Б, емитованих у складу са Одлуком, које су девизним штедишама уручене до дана доношења одлуке о емисији обвезница у смислу овог закона, остварује се према Одлуци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav2">
+						<content>
+							<p>Власници обвезница серије Б могу их заменити за нове обвезнице емитоване у смислу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan24">
+					<num>24.</num>
+					<paragraph wId="gla5-clan24-stav1">
+						<content>
+							<p>Обвезнице серије А и Б, које су емитоване у складу са Одлуком и штедишама уручене до дана доношења одлукед о емисији обвезница у смислу овог закона – домаће правно лице и предузетник, домаће физичко лице, грађани на привременом раду у иностранству, као и страно физичко и правно лице, могу износити из земље и уносити у земљу под условима и на начин које пропише Народна банка Југославије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan25">
+					<num>25.</num>
+					<paragraph wId="gla5-clan25-stav1">
+						<content>
+							<p>Обвезнице серија А и Б, које су емитоване у складу са Одлуком, дистрибуирају се до дана доношења одлуке о емисији обвезница у смислу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan25-stav2">
+						<content>
+							<p>Овлашћене банке из <ref wId="ref68" href="akn/rs/act/2016/108-26/srp@/!main~art_8" >члана 8. овог</ref> закона дужне су да неуручене обвезнице из <ref wId="ref69" href="akn/rs/act/2016/108-26/srp@/!main~art_25__para_1" >става 1. овог</ref> члана врате Народној банци Југославије, и то најкасније у року од пет дана од дана доношења одлуке о емисији обвезница у смислу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan26">
+					<num>26.</num>
+					<paragraph wId="gla6-clan26-stav1">
+						<intro>
+							<p>Новчаном казном од 900.000 до  3.000.000 динара казниће се за привредни преступ банка из <ref wId="ref70" href="akn/rs/act/2016/108-26/srp@/!main~art_8" >члана 8. овог</ref> закона:</p>
+						</intro>
+						<point wId="gla6-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако на дан емисије обвезница из <ref wId="ref71" href="akn/rs/act/2016/108-26/srp@/!main~art_5" >члана 5. овог</ref> закона не изврши конверзију штедних улога грађана у обвезнице (<ref wId="ref72" href="akn/rs/act/2016/108-26/srp@/!main~art_6__para_2" >члан 6. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако вредност извршене конверзије штедних улога грађана у обвезнице не евидентира у штедне књижице, не региструје у Централном регистру и девизном штедиши о томе не уручи потврду (<ref wId="ref73" href="akn/rs/act/2016/108-26/srp@/!main~art_7__para_1" >члан 7. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако на дан емисије обвезница, неисплаћене девизне штедне улоге грађана не прерачуна у евре и не искаже у еврима, као и ако не утврди обавезу према девизном штедиши у смислу <ref wId="ref74" href="akn/rs/act/2016/108-26/srp@/!main~art_4" >члана 4. овог</ref> закона (<ref wId="ref75" href="akn/rs/act/2016/108-26/srp@/!main~art_8" >члан 8</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако неуручене обвезнице серија А и Б, које су емитоване у складу са Одлуком, Народној банци Југославије не врати у утврђеном року (<ref wId="ref76" href="akn/rs/act/2016/108-26/srp@/!main~art_25__para_2" >члан 25. став 2.</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav2">
+						<content>
+							<p>За радње из <ref wId="ref78" href="akn/rs/act/2016/108-26/srp@/!main~art_26__para_1" >става 1. овог</ref> члана казниће се за привредни преступ и одговорно лице у банци из <ref wId="ref77" href="akn/rs/act/2016/108-26/srp@/!main~art_8" >члана 8. овог</ref> закона – новчаном казном од 20.000 до 200.000 динара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan27">
+					<num>27.</num>
+					<paragraph wId="gla6-clan27-stav1">
+						<intro>
+							<p>Новчаном казном од 90.000 до 450.000 динара казниће се за привредни преступ домаће правно или страно правно лице:</p>
+						</intro>
+						<point wId="gla6-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако девизе остварене продајом обвезница у смислу <ref wId="ref79" href="akn/rs/act/2016/108-26/srp@/!main~art_10__para_2" >члана 10. став 2. овог</ref> закона не држи на девизном рачуну (<ref wId="ref80" href="akn/rs/act/2016/108-26/srp@/!main~art_11__para_1" >члан 11. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan27-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако не поступи у складу с прописом Народне банке Југославије (<ref wId="ref81" href="akn/rs/act/2016/108-26/srp@/!main~art_24" >члан 24</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav2">
+						<content>
+							<p>За радње из <ref wId="ref82" href="akn/rs/act/2016/108-26/srp@/!main~art_27__para_1" >става 1. овог</ref> члана казниће се за привредни преступ и одговорно лице у домаћем правном, односно страном правном лицу – новчаном казном од 3.000 до 15.000 динара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan28">
+					<num>28.</num>
+					<paragraph wId="gla6-clan28-stav1">
+						<content>
+							<p>Новчаном казном  од 5.000 до 50.000 динара казниће се за прекршај предузетник за радње из <ref wId="ref83" href="akn/rs/act/2016/108-26/srp@/!main~art_27" >члана 27. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav2">
+						<content>
+							<p>За радње из <ref wId="ref84" href="akn/rs/act/2016/108-26/srp@/!main~art_28__para_1" >става 1. овог</ref> члана може се уз новчану казну изрећи и заштитна мера забране вршења самосталне делатности, у трајању од три месеца до једне године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan29">
+					<num>29.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref87" href="akn/rs/act/2005/101/srp@">101/2005</ref></heading>
+					<paragraph wId="gla6-clan29-stav1">
+						<content>
+							<p>Новчаном казном  од 5.000 до 50.000 динара казниће се за прекршај страно физичко лице ако девизе остварене продајом обвезница у смислу <ref wId="ref85" href="akn/rs/act/2016/108-26/srp@/!main~art_10__para_2" >члана 10. став 2. овог</ref> закона не држи на девизном рачуну (<ref wId="ref86" href="akn/rs/act/2016/108-26/srp@/!main~art_11__para_1" >члан 11. став 1</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan30">
+					<num>30.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref90" href="akn/rs/act/2005/101/srp@">101/2005</ref></heading>
+					<paragraph wId="gla6-clan30-stav1">
+						<content>
+							<p>Новчаном казном  од 5.000 до 50.000 динара казниће се за прекршај домаће и страно физичко лице, као и грађани на привременом раду у иностранству, ако не поступе у складу с прописом Народне банке Југославије (<ref wId="ref88" href="akn/rs/act/2016/108-26/srp@/!main~art_24" >члан 24</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref89" href="akn/rs/act/2005/101/srp@">101/2005</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan31">
+					<num>31.</num>
+					<paragraph wId="gla7-clan31-stav1">
+						<content>
+							<p>Депоновану девизну штедњу коју је Народна банка Југославије исплатила у периоду од 1994. до 1999. године, а која није обухваћена Законом, у висини од 550 милиона динара, измириће Савезна Република Југославија, у 12 годишњих рата, почев од 2005. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan32">
+					<num>32.</num>
+					<paragraph wId="gla7-clan32-stav1">
+						<content>
+							<p>Банкама које, у складу с прописима којима се уређују санација, стечај и ликвидација банака, преузимају послове у вези са исплатом девизне штедње грађана положене код овлашћених банака из <ref wId="ref91" href="akn/rs/act/2016/108-26/srp@/!main~art_2" >члана 2. </ref>Закона над којима је покренут поступак стечаја или ликвидације – Република Србија и Република Црна Гора обезбедиће посебна средства за обављање тих послова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan33">
+					<num>33.</num>
+					<paragraph wId="gla7-clan33-stav1">
+						<content>
+							<p>Носиоци обавеза из <ref wId="ref92" href="akn/rs/act/2016/108-26/srp@/!main~art_6" >члана 6. </ref>Закона дужни су да за исплате у 2002. години обезбеде средства за измирење обавеза у процентима утврђеним тим чланом, односно сразмерно учешћу у висини средстава утврђених за ту годину према <ref wId="ref93" href="akn/rs/act/2016/108-26/srp@/!main~art_7" >члану 7. </ref>Закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan33-stav2">
+						<content>
+							<p>У периоду од 2003. до 2016. године, средства за измиривање обавеза по овом закону обезбеђују се у складу са чл. <ref wId="ref94" href="akn/rs/act/2016/108-26/srp@/!main~art_15" >15</ref>, <ref wId="ref95" href="akn/rs/act/2016/108-26/srp@/!main~art_19" >19</ref>. и <ref wId="ref96" href="akn/rs/act/2016/108-26/srp@/!main~art_20" >20</ref>. тог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan34">
+					<num>34.</num>
+					<paragraph wId="gla7-clan34-stav1">
+						<content>
+							<p>Обвезнице серије А и Б, које су емитоване у складу са Одлуком, могу се, пре рока њиховог доспећа, користити за намене и до износа утврђених Одлуком о превременом откупу обвезница Савезне Републике Југославије по основу девизне штедње грађана ради плаћања одређених трошкова („Службени лист СРЈ”, бр. <ref wId="ref98" href="akn/rs/act/2001/7/srp@">7/2001</ref> и <ref wId="ref99" href="akn/rs/act/2002/10/srp@">10/2002</ref>) – до дана доношења прописа из <ref wId="ref97" href="akn/rs/act/2016/108-26/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan34-stav2">
+						<content>
+							<p>Прописом из <ref wId="ref100" href="akn/rs/act/2016/108-26/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона, републичке владе утврдиће да се обвезнице из <ref wId="ref102" href="akn/rs/act/2016/108-26/srp@/!main~art_34__para_1" >става 1. овог</ref> члана могу користити на исти начин и под истим условима као и обвезнице из <ref wId="ref101" href="akn/rs/act/2016/108-26/srp@/!main~art_5" >члана 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan35">
+					<num>35.</num>
+					<paragraph wId="gla7-clan35-stav1">
+						<content>
+							<p>Услови и начин измиривања обавеза по основу девизне штедње из <ref wId="ref103" href="akn/rs/act/2016/108-26/srp@/!main~art_3" >члана 3. </ref>Закона која је претворена у орочени депозит код овлашћених банака и представља јавни дуг Савезне Републике Југославије у складу с <ref wId="ref104" href="akn/rs/act/2016/108-26/srp@/!main~art_4" >чланом 4. </ref>Закона, регулисаће се посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan36">
+					<num>36.</num>
+					<paragraph wId="gla7-clan36-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона обустављају се судски поступци за наплату девизне штедње обухваћене овим законом, укључујући и извршне поступке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan37">
+					<num>37.</num>
+					<paragraph wId="gla7-clan37-stav1">
+						<content>
+							<p>Даном ступана на снагу овог закона престаје да важи Закон о измирењу обавеза по основу девизне штедње грађана („Службени лист СРЈ”, бр. <ref wId="ref105" href="akn/rs/act/98/59/srp@">59/98</ref>, <ref wId="ref106" href="akn/rs/act/99/44/srp@">44/99</ref> и <ref wId="ref107" href="akn/rs/act/2001/53/srp@">53/2001</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan38">
+					<num>38.</num>
+					<paragraph wId="gla7-clan38-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном листу СРЈ”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan38-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan38-stav3">
+						<content>
+							<p>о регулисању јавног дуга   Савезне  Републике  Југославије  по основу  девизне штедње грађана</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan38-stav4">
+						<content>
+							<p>Службени лист СРЈ”, број <ref wId="ref108" href="akn/rs/act/2002/36/srp@">36 од 3. јула 2002</ref>, „Службени гласник РС“, бр <ref wId="ref109" href="akn/rs/act/2004/80/srp@">80 од 16. јула 2004</ref> - УСРС, <ref wId="ref110" href="akn/rs/act/2005/101/srp@">101 од  21. новембра 2005</ref> - др. закон, <ref wId="ref111" href="akn/rs/act/2016/108/srp@">108 од 29. децембра 2016</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

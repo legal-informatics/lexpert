@@ -1,0 +1,1679 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Високом савету судства">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2008/116-21/main"/>
+					<FRBRuri value="akn/rs/act/2008/116-21"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2015/106-62/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2015/106-62/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2015/106-62/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2015/106-62/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2008-12-22" name="службени гласник рс“" number="116" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Суд" value="1. суд" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2008-01-01" refersTo="116/2008-21" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="101/2010-5" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2011-01-01" refersTo="88/2011-66" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2015-01-01" refersTo="106/2015-62" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2008-12-22" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2008-12-30" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2008-12-30" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="положај"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="савета"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="обезбеђење"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="њихове"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="средстава"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="независност"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="самосталност"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="услова"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="трајање"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="престанак"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="високог"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="судства"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="изборних"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="рад"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="мандата"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="рада"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="функције"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="избор"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="чланова"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Savetu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sekretara"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Višeg"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Administrativna kancelarija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Administrativne kancelarije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Administrativnoj kancelariji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Advokatska komora Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Advokatske komore Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnim većem tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Etički kodeks"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izborna komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izborna komisija Visokog saveta sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izborne komisije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izborne komisije Saveta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izbornoj komisiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupština"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Opšta sednica Vrhovnog suda Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Opšte sednice"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poslovnikom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privrednog apelacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savet"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta Narodnoj skupštini Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta bez odobrenja Saveta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta funkcija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta po položaju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta u"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta za dostavljanje informacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savetu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet pravosuđa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokog saveta pravosuđa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokog saveta sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokom savetu pravosuđa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokom savetu sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višeg prekršajnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda i predsednika suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog suda Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnom kasacionom sudu kandidate"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Niko"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. decembra 2015."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. novembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. decembra 2010"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2008. године (види члан 62. Закона).До доношења аката из овог закона примењиваће се општи акти Високог савета правосуђа, уколико нису у супротности са овим законом (види члан 59. Закона).Закон о изменама и допунама Закона о Високом савету судства (Службени гласник РС, број 106/2015), ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2015. године (види члан 5. Закона - 106/2015-62).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2008. године (види члан 62. Закона).До доношења аката из овог закона примењиваће се општи акти Високог савета правосуђа, уколико нису у супротности са овим законом (види члан 59. Закона).Закон о изменама и допунама Закона о Високом савету судства (Службени гласник РС, број 106/2015), ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2015. године (види члан 5. Закона - 106/2015-62).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О високом савету судства „Службени гласник РС“ бр. <ref wId="ref69" href="akn/rs/act/2008/116/srp@">116 од 22. децембра 2008</ref>, <ref wId="ref70" href="akn/rs/act/2010/101/srp@">101 од 29. децембра 2010</ref>, <ref wId="ref71" href="akn/rs/act/2011/88/srp@">88 од 24. новембра 2011</ref>, <ref wId="ref72" href="akn/rs/act/2015/106/srp@">106 од 21. децембра 2015</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Садржина закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се положај, надлежност, организација и начин рада Високог савета судства (у даљем тексту: Савет), услови и поступак за избор изборних чланова Савета, трајање мандата и престанак њихове функције и обезбеђење услова и средстава за рад Савета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od1-clan2">
+					<num>2.</num>
+					<heading>Независност и самосталност</heading>
+					<paragraph wId="gla1-od1-clan2-stav1">
+						<content>
+							<p>Савет је независан и самосталан орган који обезбеђује и гарантује независност и самосталност судова и судија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od1-clan2-stav2">
+						<content>
+							<p>У оквиру своје надлежности Савет остварује сарадњу са Државним већем тужилаца, државним и другим органима и организацијама, судским саветима других држава и међународним организацијама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od1-clan3">
+					<num>3.</num>
+					<heading>Средства за рад Савета</heading>
+					<paragraph wId="gla1-od1-clan3-stav1">
+						<content>
+							<p>Средства за рад Савета обезбеђују се у буџету Републике Србије, на предлог Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od1-clan3-stav2">
+						<content>
+							<p>Савет самостално располаже средствима из <ref wId="ref0" href="akn/rs/act/2015/106-62/srp@/!main~art_3__para_1" >става 1. овог</ref> члана, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od1-clan4">
+					<num>4.</num>
+					<heading>Седиште и обележја Савета</heading>
+					<paragraph wId="gla1-od1-clan4-stav1">
+						<content>
+							<p>Седиште Савета је у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od1-clan4-stav2">
+						<content>
+							<p>Савет има печат, који садржи назив и грб Републике Србије и назив и седиште органа, у складу са посебним законима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od1-clan5">
+					<num>5.</num>
+					<heading>Састав Савета</heading>
+					<paragraph wId="gla1-od1-clan5-stav1">
+						<content>
+							<p>Савет има 11 чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od1-clan5-stav2">
+						<content>
+							<p>Чланови Савета су председник Врховног касационог суда, министар надлежан за правосуђе и председник надлежног одбора Народне скупштине, као чланови по положају и осам изборних чланова које бира Народна скупштина, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od1-clan5-stav3">
+						<content>
+							<p>Изборне чланове чине шест судија са сталном судијском функцијом, од којих је најмање један са територије аутономних покрајина и два угледна и истакнута правника са најмање 15 година искуства у струци, од којих је један адвокат, а други професор правног факултета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od1-clan6">
+					<num>6.</num>
+					<heading>Председник Савета</heading>
+					<paragraph wId="gla1-od1-clan6-stav1">
+						<content>
+							<p>Председник Врховног касационог суда је по положају председник Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od1-clan6-stav2">
+						<content>
+							<p>Председник Савета представља Савет, руководи његовим радом и врши друге послове у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od1-clan7">
+					<num>7.</num>
+					<heading>Заменик председника</heading>
+					<paragraph wId="gla1-od1-clan7-stav1">
+						<content>
+							<p>Савет има заменика председника, кога из реда судија-изборних чланова Савета бира и разрешава Савет.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od1-clan7-stav2">
+						<content>
+							<p>Заменик председника обавља послове председника у случају његовог одсуства или спречености.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od1-clan7-stav3">
+						<content>
+							<p>Начин избора заменика председника Савета и трајање мандата уређује се Пословником о раду Високог савета судства (у даљем тексту: Пословник).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od1-clan8">
+					<num>8.</num>
+					<heading>Однос са другим органима</heading>
+					<paragraph wId="gla1-od1-clan8-stav1">
+						<content>
+							<p>Судови и други државни органи, као и судије и председници судова, су дужни да поступају по захтевима Савета за достављање информација, докумената и другог материјала у вези са вршењем послова из надлежности Савета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od2-clan9">
+					<num>9.</num>
+					<heading>Имунитет</heading>
+					<paragraph wId="gla1-od2-clan9-stav1">
+						<content>
+							<p>Члан Савета ужива имунитет као судија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav2">
+						<content>
+							<p>Члан Савета не може бити позван на одговорност за изражено мишљење или гласање приликом доношења одлука Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav3">
+						<content>
+							<p>Члан Савета не може бити лишен слободе у поступку покренутом због кривичног дела учињеног у обављању функције члана Савета без одобрења Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav4">
+						<content>
+							<p>Удаљење са функције члана Савета</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav5">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref1" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav6">
+						<content>
+							<p>Члан 9а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav7">
+						<content>
+							<p>Члан Савета обавезно се удаљује са те функције када му је одређен притвор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav8">
+						<content>
+							<p>Изборни члан Савета, поред разлога из <ref wId="ref2" href="akn/rs/act/2015/106-62/srp@/!main~art_9__para_1" >става 1. овог</ref> члана, обавезно се удаљује  са те функције и када је поднет предлог за његово разрешење са функције члана  Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav9">
+						<content>
+							<p>Изборни члан Савета може бити удаљен са те функције када је покренут поступак за  његово разрешење са функције члана Савета, односно кривични поступак за дело  због кога може бити разрешен са функције члана Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav10">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref3" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav11">
+						<content>
+							<p>Одлука о удаљењу и трајање удаљења</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav12">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref4" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav13">
+						<content>
+							<p>Члан 9б</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav14">
+						<content>
+							<p>Одлуку o удаљењу са функције члана Савета доноси председник Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav15">
+						<content>
+							<p>Члан Савета удаљује се са те функције до укидања притвора, окончања поступка за  разрешење са функције члана Савета или окончања кривичног поступка за дело због  кога може бити разрешен са функције члана Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav16">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref5" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav17">
+						<content>
+							<p>Право на приговор</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav18">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref6" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav19">
+						<content>
+							<p>Члан 9в</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav20">
+						<content>
+							<p>На одлуку о удаљењу из разлога прописаних у <ref wId="ref7" href="akn/rs/act/2015/106-62/srp@/!main~art_9а__para_3" >члану 9а став 3. овог</ref> закона,  изборни члан Савета има право приговора Савету, у року од осам дана од дана  достављања одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav21">
+						<content>
+							<p>Савет одлучује о приговору из <ref wId="ref8" href="akn/rs/act/2015/106-62/srp@/!main~art_9__para_1" >става 1. овог</ref> члана у року од осам дана од дана  достављања приговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav22">
+						<content>
+							<p>Изјављени приговор не задржава извршење одлуке из <ref wId="ref9" href="akn/rs/act/2015/106-62/srp@/!main~art_9__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan9-stav23">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref10" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od2-clan10">
+					<num>10.</num>
+					<heading>Плате и накнада за рад</heading>
+					<paragraph wId="gla1-od2-clan10-stav1">
+						<content>
+							<p>Изборни чланови Савета из реда судија за време обављања функције у Савету остварују права из радног односа у Савету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan10-stav2">
+						<content>
+							<p>Чланови Савета из <ref wId="ref11" href="akn/rs/act/2015/106-62/srp@/!main~art_10__para_1" >става 1. овог</ref> члана имају право на плату у висини износа који се одређује множењем коефицијента 6,00 са основицом за обрачун и исплату, у складу са Законом о судијама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan10-stav3">
+						<content>
+							<p>Члановима Савета по положају и члановима Савета из реда адвоката и професора правног факултета припада посебна накнада за рад у Савету, коју одређује надлежни одбор Народне скупштина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od2-clan11">
+					<num>11.</num>
+					<heading>Неспојивост послова</heading>
+					<paragraph wId="gla1-od2-clan11-stav1">
+						<content>
+							<p>Изборни члан Савета из реда адвоката, односно професора правног факултета, након ступања на функцију не може бити на функцијама у органима који доносе прописе, органима извршне власти, јавним службама и органима покрајинске аутономије и јединица локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan11-stav2">
+						<content>
+							<p>Изборни члан Савета и из реда судија ослобађа се вршења судијске функције за време обављања функције у Савету.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-od2-clan12">
+					<num>12.</num>
+					<heading>Мандат чланова</heading>
+					<paragraph wId="gla1-od2-clan12-stav1">
+						<content>
+							<p>Мандат чланова Савета траје пет година, осим за чланове по положају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan12-stav2">
+						<content>
+							<p>Изборни чланови Савета могу бити поново бирани, али не узастопно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-od2-clan12-stav3">
+						<content>
+							<p>За време трајања мандата, судија који је члан Савета не може бити биран за судију другог суда.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>НАДЛЕЖНОСТ И НАЧИН РАДА САВЕТА</heading>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Надлежност</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<intro>
+							<p>Савет:</p>
+						</intro>
+						<alinea wId="gla2-clan13-stav1-ali1">
+							<content>
+								<p>ира судије за трајно обављање судијске функције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali2">
+							<content>
+								<p>длучује о престанку судијске функције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali3">
+							<content>
+								<p>редлаже Народној скупштини кандидате за избор судија приликом првог избора на судијску функцију;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali4">
+							<content>
+								<p>редлаже Народној скупштини избор и разрешење председника Врховног касационог суда и председника суда;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali5">
+							<content>
+								<p>редлаже Врховном касационом суду кандидате за судије Уставног суда;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali6">
+							<content>
+								<p>менује судије поротнике;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali7">
+							<content>
+								<p>длучује о премештају, упућивању и приговору о удаљењу судија;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali8">
+							<content>
+								<p>длучује о неспојивости вршења других служби и послова са судијском функцијом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali9">
+							<content>
+								<p>длучује у поступку вредновања рада судија и председника суда;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali10">
+							<content>
+								<p>дређује састав, трајање и престанак мандата чланова дисциплинских органа, именује чланове дисциплинских органа и уређује начин рада и одлучивања у дисциплинским органима;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali11">
+							<content>
+								<p>длучује о правним лековима у дисциплинском поступку;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali12">
+							<content>
+								<p>аје сагласност на програм сталне обуке за судије и запослене у судовима и врши надзор над његовим спровођењем;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali13">
+							<content>
+								<p>тврђује програм почетне обуке за судије;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali14">
+							<content>
+								<p>оноси Етички кодекс;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali15">
+							<content>
+								<p>дређује број судија и судија поротника за сваки суд;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali16">
+							<content>
+								<p>бавља послове правосудне управе из своје надлежности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali17">
+							<content>
+								<p>длучује о питањима имунитета судија и чланова Савета;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali18">
+							<content>
+								<p>редлаже обим и структуру буџетских средстава неопходних за рад судова за текуће расходе и врши надзор над њиховим трошењем, у складу са законом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali19">
+							<content>
+								<p>длучује о приговорима у поступку избора за чланове Савета из реда судија;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali20">
+							<content>
+								<p>бразује своја радна тела и сталне и повремене комисије и врши избор њихових чланова;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali21">
+							<content>
+								<p>аје мишљење о изменама постојећих или доношењу нових закона који уређују положај судија, организацију и поступање судова, као и других системских закона које судови примењују или су од значаја за обављање судијске функције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali22">
+							<content>
+								<p>длучује о постојању услова за накнаду штете због незаконитог и неправилног рада судије;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali23">
+							<content>
+								<p>односи годишњи извештај о свом раду Народној скупштини;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali24">
+							<content>
+								<p>бавља послова у вези са спровођењем Националне стратегије реформе правосуђа из своје надлежности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali25">
+							<content>
+								<p>бавештава јавност о свом раду;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali26">
+							<content>
+								<p>арађује са судским саветима других држава и међународним организацијама;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali27">
+							<content>
+								<p>оноси акте предвиђене законом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali28">
+							<content>
+								<p>бавља и друге послове одређене законом.</p>
+							</content>
+						</alinea>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Начин рада</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Седнице Савета су јавне, а Савет може да одлучи да седница буде затворена за  јавност ако то налажу интереси јавног реда или заштита тајности података, као и  у случајевима одређеним Пословником.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Седнице Савета сазива председник по сопственој иницијативи или на предлог најмање три члана Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav3">
+						<content>
+							<p>Савет може да одржи седницу уколико је присутно најмање шест чланова Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Стална радна тела</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Стална радна тела Савета су: Комисија за вредновање рада судија и председника судова, Изборна комисија и дисциплински органи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Састав и начин рада тела из <ref wId="ref13" href="akn/rs/act/2015/106-62/srp@/!main~art_15__para_1" >става 1. овог</ref> члана уређује се актом Савета, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<heading>Повремена радна тела</heading>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Ради разматрања појединих питања из своје надлежности Савет може да образује повремена радна тела.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav2">
+						<content>
+							<p>Образовање, састав и начин рада повремених радних тела ближе се уређује Пословником.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<heading>Одлучивање</heading>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Одлуке Савета доносе се већином гласова свих чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav2">
+						<content>
+							<p>Одлуке Савета морају бити образложене, ако  Пословником није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref14" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<heading>Пословник</heading>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>Савет доноси Пословник којим се ближе уређује начин рада и одлучивање Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Пословник и друга општа акта Савета објављују се у „Службеном гласнику Републике Србије”  и на интернет страни Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<heading>Јавност рада</heading>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>Савет подноси годишњи извештај о свом раду Народној скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav2">
+						<content>
+							<p>Годишњи извештај о раду објављује се на интернет страни Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav3">
+						<content>
+							<p>Савет редовно обавештава јавност о свом раду на начин уређен Пословником.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref16" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЗА ИЗБОР ЧЛАНОВА САВЕТА</heading>
+				<article wId="gla3-od1-clan20">
+					<num>20.</num>
+					<heading>Овлашћени предлагачи</heading>
+					<paragraph wId="gla3-od1-clan20-stav1">
+						<content>
+							<p>Изборне чланове Савета бира Народна скупштина на предлог овлашћених предлагача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan20-stav2">
+						<content>
+							<p>Овлашћени предлагач за изборне чланове Савета из реда судија је Савет.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan20-stav3">
+						<content>
+							<p>Савет је обавезан да предложи Народној скупштини кандидате који су непосредно изабрани од стране судија на начин и у поступку предвиђеним овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan20-stav4">
+						<content>
+							<p>Овлашћени предлагач за изборног члана Савета из реда адвоката је Адвокатска комора Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan20-stav5">
+						<content>
+							<p>Кандидате за изборног члана Савета из реда професора правног факултета предлаже заједничка седница декана правних факултета у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan21">
+					<num>21.</num>
+					<heading>Кандидовање и предлагање</heading>
+					<paragraph wId="gla3-od1-clan21-stav1">
+						<content>
+							<p>Одлуку о отпочињању поступка предлагања кандидата за изборне чланове Савета доноси председник Савета најмање шест месеци пре истека мандата изборних чланова Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan21-stav2">
+						<content>
+							<p>Одлука из <ref wId="ref17" href="akn/rs/act/2015/106-62/srp@/!main~art_21__para_1" >става 1. овог</ref> члана објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan21-stav3">
+						<content>
+							<p>Одлуку о отпочињању поступка предлагања кандидата за изборне чланове Савета председник Савета доставља председнику Изборне комисије Савета, председнику Адвокатске коморе Србије и декану најстаријег правног факултета у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan21-stav4">
+						<content>
+							<p>Овлашћени предлагачи морају доставити имена кандидата за изборне чланове Савета Народној скупштини Републике Србије најкасније 90 дана пре дана истека мандата изборних чланова Савета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan22">
+					<num>22.</num>
+					<heading>Заступљеност судова</heading>
+					<paragraph wId="gla3-od2-podod1-clan22-stav1">
+						<intro>
+							<p>Изборни чланови Савета из реда судија бирају се из следећих судова:</p>
+						</intro>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali1">
+							<content>
+								<p>едан из Врховног касационог суда, Привредног апелационог суда и Управног суда;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali2">
+							<content>
+								<p>едан из апелационих судова;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali3">
+							<content>
+								<p>едан из виших и привредних судова;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali4">
+							<content>
+								<p>ва из основних судова, прекршајних судова и  Вишег прекршајног суда;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali5">
+							<content>
+								<p>рисана је  ранија алинеја 5. (види <ref wId="ref18" href="akn/rs/act/2010/101/srp@/!main~/art_1">члан 1. Закона – 101/2010-5</ref>)</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali6">
+							<content>
+								<p>едан из судова са територије аутономних покрајина.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan22-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan23">
+					<num>23.</num>
+					<heading>Услови за кандидовање</heading>
+					<paragraph wId="gla3-od2-podod1-clan23-stav1">
+						<content>
+							<p>Кандидат за изборног члана Савета из реда судија може  бити сваки судија са сталном судијском функцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref21" href="akn/rs/act/2015/106-62/srp@/!main~art_23__para_2" >став 2. </ref>(види <ref wId="ref20" href="akn/rs/act/2010/101/srp@/!main~/art_2">члан 2. Закона – 101/2010-5</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav3">
+						<content>
+							<p>Статус кандидата стиче судија кога предложи седница свих судија једног или  више судова према врсти и степену суда, односно суда са територије аутономних  покрајина у којима кандидат врши судијску функцију,  као и судија кога подржи најмање 20 судија према врсти и степену суда, односно  суда са територије аутономних покрајина у којем врши судијску функцију</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav4">
+						<content>
+							<p>Седница свих судија једног суда може да предложи само једног кандидата.  На седници свих судија, о предложеним кандидатима, гласа се тајно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav5">
+						<content>
+							<p>Изузетно од <ref wId="ref22" href="akn/rs/act/2015/106-62/srp@/!main~art_23__para_2" >става 2. овог</ref> члана, за стицање статуса кандидата за изборног члана Савета из реда судија Врховног касационог суда, Вишег прекршајног суда, Привредног апелационог суда и Управног суда није потребан предлог Опште седнице, односно седнице свих судија, већ се статус кандидата стиче пријавом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav6">
+						<content>
+							<p>Председник суда не може бити кандидат за избор у Савет.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan24">
+					<num>24.</num>
+					<heading>Бирачко право</heading>
+					<paragraph wId="gla3-od2-podod1-clan24-stav1">
+						<content>
+							<p>Судије бирају кандидате за Савет на основу слободног, општег, једнаког и непосредног изборног права, тајним гласањем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav2">
+						<content>
+							<p>Нико нема право да, по било ком основу, спречава или приморава судију да гласа или да га позива на одговорност због гласања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav3">
+						<content>
+							<p>Право да бирају кандидате за Савет имају све судије  са сталном судијском функцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav4">
+						<content>
+							<p>Судија гласа само за кандидата са листе кандидата врсте, односно степена суда у којем врши судијску функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav5">
+						<content>
+							<p>Судија са територије аутономних покрајина, поред листе кандидата из <ref wId="ref24" href="akn/rs/act/2015/106-62/srp@/!main~art_24__para_4" >става 4. овог</ref> члана, гласа и за листу кандидата за судове са територије аутономних покрајина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref25" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan25">
+					<num>25.</num>
+					<heading>Изборна комисија</heading>
+					<paragraph wId="gla3-od2-podod1-clan25-stav1">
+						<content>
+							<p>Поступак предлагања кандидата за изборне чланове Савета из реда судија организује и спроводи Изборна комисија Високог савета судства (у даљем тексу: Изборна комисија).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav2">
+						<content>
+							<p>Изборна комисија се састоји од председника и четири члана и њихових заменика, које бира Савет из реда судија на сталној судијској функцији, уз њихову сагласност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav3">
+						<content>
+							<p>Заменици чланова Изборне комисије имају иста права и одговорности као и чланови које замењују.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav4">
+						<content>
+							<p>Чланови Савета не могу истовремено бити чланови и заменици чланова Изборне комисије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav5">
+						<content>
+							<p>Мандат члановима Изборне комисије траје пет година, уз могућност поновног избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav6">
+						<content>
+							<p>Чланови Изборне комисије не могу се кандидовати за изборне чланове Савета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan26">
+					<num>26.</num>
+					<heading>Положај Изборне комисије</heading>
+					<paragraph wId="gla3-od2-podod1-clan26-stav1">
+						<content>
+							<p>Изборна комисија је самостална и независна у раду и ради на основу закона и прописа донетих на основу закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan26-stav2">
+						<content>
+							<p>Изборна комисија доноси одлуке већином гласова свих чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan26-stav3">
+						<content>
+							<p>За свој рад Изборна комисија одговара Савету који обезбеђује услове за њен рад.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan26-stav4">
+						<content>
+							<p>Сви судови су дужни да пружају помоћ Изборној комисији и да им достављају податке потребне за рад.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan27">
+					<num>27.</num>
+					<heading>Изборне радње</heading>
+					<paragraph wId="gla3-od2-podod1-clan27-stav1">
+						<content>
+							<p>Изборна комисија, по пријему одлуке о отпочињању поступка предлагања кандидата, доноси одлуку о изборним радњама и роковима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan27-stav2">
+						<content>
+							<p>Председник Изборне комисије доставља председницима судова одлуку о отпочињању поступка предлагања кандидата и одлуку о изборним радњама и роковима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan27-stav3">
+						<content>
+							<p>Председници судова су обавезни да одлуку о отпочињању поступка предлагања кандидата и одлуку о изборним радњама и роковима, учине доступним свим судијама у свом суду, на одговарајући начин.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan28">
+					<num>28.</num>
+					<heading>Кандидациона пријава</heading>
+					<paragraph wId="gla3-od2-podod2-clan28-stav1">
+						<content>
+							<p>Кандидациона пријава се доставља Изборној комисији у року од  15 дана од дана објављивања одлуке о отпочињању поступка предлагања кандидата за изборне чланове Савета у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan28-stav2">
+						<content>
+							<p>Уз кандидациону пријаву доставља се потписана изјава кандидата о прихватању кандидатуре, одлука седнице свих судија суда или судова којом се предлаже кандидат,  односно формулар са потписима судија који подржавају кандидата, као и лични и професионални подаци о кандидату.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan28-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref26" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan29">
+					<num>29.</num>
+					<heading>Поступак по пријави</heading>
+					<paragraph wId="gla3-od2-podod2-clan29-stav1">
+						<content>
+							<p>Изборна комисија испитује благовременост и потпуност пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan29-stav2">
+						<content>
+							<p>Неблаговремену пријаву Изборна комисија одбацује решењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan29-stav3">
+						<content>
+							<p>Изборна комисија ће, у року од 24 часа од пријема непотпуне пријаве, закључком позвати кандидата да поднету пријаву допуни у року од 48 сати од часа пријема, уз упозорење да ће у супротном бити одбачена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan30">
+					<num>30.</num>
+					<heading>Коначна листа кандидата</heading>
+					<paragraph wId="gla3-od2-podod2-clan30-stav1">
+						<content>
+							<p>Изборна комисија утврђује коначну листу кандидата у року од  осам дана од истека рока из <ref wId="ref27" href="akn/rs/act/2015/106-62/srp@/!main~art_28__para_1" >члана 28. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan30-stav2">
+						<content>
+							<p>Изборна комисија утврђује по једну коначну листу кандидата за сваки степен и врсту судова, односно из судова са територије аутономних покрајина, из којих се предлажу изборни чланови Савета из реда судија, у складу са одредбом <ref wId="ref28" href="akn/rs/act/2015/106-62/srp@/!main~art_22" >члана 22. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan30-stav3">
+						<content>
+							<p>Редослед кандидата на листама утврђује се према редоследу предаје кандидационих пријава Изборној комисији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan30-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref29" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan31">
+					<num>31.</num>
+					<heading>Време избора и бирачка места</heading>
+					<paragraph wId="gla3-od2-podod2-clan31-stav1">
+						<content>
+							<p>Датум и време спровођења избора одређује Изборна комисија и о томе обавештава све председнике судова десет дана пре избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan31-stav2">
+						<content>
+							<p>Председници судова ће седам дана пре дана одржавања избора обавестити јавним обавештењем све судије о дану и времену одржавања избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan31-stav3">
+						<content>
+							<p>Гласање за кандидате за изборне чланове из реда судија се обавља на бирачким местима у судовима одређеним од стране Изборне комисије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan32">
+					<num>32.</num>
+					<heading>Бирачки одбори и гласачки материјал</heading>
+					<paragraph wId="gla3-od2-podod2-clan32-stav1">
+						<content>
+							<p>Изборна комисија је дужна да припреми благовремено материјал за гласање за свако бирачко место и то: потребан број гласачких листића и утврђену листу кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan32-stav2">
+						<content>
+							<p>За свако бирачко место Изборна комисија именује бирачки одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan32-stav3">
+						<content>
+							<p>Бирачки одбор чине троје судија који нису кандидати за избор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan33">
+					<num>33.</num>
+					<heading>Начин гласања</heading>
+					<paragraph wId="gla3-od2-podod2-clan33-stav1">
+						<content>
+							<p>Утврђена листа кандидата на дан гласања мора бити видно истакнута на свим бирачким местима и у свим судовима према степену и врсти суда, односно суда са територије аутономних покрајина који бирају кандидата на тој листи кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan33-stav2">
+						<content>
+							<p>Сваки судија гласа лично.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan33-stav3">
+						<content>
+							<p>Гласање је тајно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan33-stav4">
+						<content>
+							<p>Гласа се на овереним гласачким листићима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan33-stav5">
+						<content>
+							<p>Бирачки одбор спроводи гласање у просторији суда коју благовремено одреди председник суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan34">
+					<num>34.</num>
+					<heading>Утврђивање резултата</heading>
+					<paragraph wId="gla3-od2-podod2-clan34-stav1">
+						<content>
+							<p>Изборна комисија утврђује укупан број судија и број судија који су гласали по бирачким местима, број неупотребљених, неважећих и важећих гласачких листића, број гласова који су кандидати добили на појединим бирачким местима, као и број укупно добијених гласова по кандидатима за сваку листу кандидата.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-podod1-clan35">
+					<num>35.</num>
+					<paragraph wId="gla3-od3-podod1-clan35-stav1">
+						<content>
+							<p>Савет предлаже једног кандидата са највећим бројем гласова са сваке листе, на основу записника о утврђивању резултата избора, коју им доставља Изборна комисија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod1-clan35-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref30" href="akn/rs/act/2015/106-62/srp@/!main~art_35__para_1" >става 1. овог</ref> члана, Савет предлаже два  кандидата са највећим бројем гласова са листе кандидата судија основних судова,  прекршајних судова и Вишег прекршајног суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod1-clan35-stav3">
+						<content>
+							<p>У случају када два или више кандидата на једној  изборној листи добије једнак највећи број гласова, Савет предлаже кандидата који  дуже обавља судијску функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod1-clan35-stav4">
+						<content>
+							<p>Коначну одлуку о предлогу кандидата из реда судија са сваке листе кандидата Савет доставља Народној скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod1-clan35-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref31" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-podod2-clan36">
+					<num>36.</num>
+					<paragraph wId="gla3-od3-podod2-clan36-stav1">
+						<content>
+							<p>Поступак предлагања кандидата за изборног члана Савета из реда адвоката организује и спроводи Адвокатска комора Србије на начин на који се обезбеђује најшира представљеност њених чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod2-clan36-stav2">
+						<content>
+							<p>Поступак кандидовања, избора и предлагања се спроводи на начин и у роковима које својим актом одреди Адвокатска комора Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod2-clan36-stav3">
+						<content>
+							<p>Адвокатска комора Србије доставља предлог кандидата Народној скупштини.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-podod3-clan37">
+					<num>37.</num>
+					<paragraph wId="gla3-od3-podod3-clan37-stav1">
+						<content>
+							<p>Предлагање кандидата за изборне чланове Савета из реда професора правног факултета спроводи се на начин и по поступку који утврди својим актом заједничка седница декана правних факултета у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod3-clan37-stav2">
+						<content>
+							<p>Декан најстаријег правног факултета у Републици Србији доставља предлог кандидата за члана Савета из реда професора правног факултета Народној скупштини, у складу са одлуком заједничке седнице свих декана правних факултета у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod3-clan37-stav3">
+						<content>
+							<p>Заједничку седницу декана правних факултета у Републици Србији сазива и њоме руководи декан најстаријег правног факултета у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od4-clan38">
+					<num>38.</num>
+					<heading>Избор чланова</heading>
+					<paragraph wId="gla3-od4-clan38-stav1">
+						<content>
+							<p>Чланове Савета бира Народна скупштина на предлог овлашћених предлагача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav2">
+						<content>
+							<p>Народна скупштина бира, за члана Савета из реда судија, два кандидата са листе кандидата основних судова, прекршајних судова и Вишег прекршајног суда, односно по једног кандидата са  осталих листа кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav3">
+						<content>
+							<p>Ако изборни члан Савета без оправданог разлога не ступи на функцију у року од 30 дана од дана избора у Народној скупштини, сматраће се да није ни изабран.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav4">
+						<content>
+							<p>Разлог за неступање на функцију из <ref wId="ref32" href="akn/rs/act/2015/106-62/srp@/!main~art_38__para_3" >става 3. овог</ref> члана, утврђује се одлуком Савета који о томе обавештава Народну скупштину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav5">
+						<content>
+							<p>Високи савет судства организује поновљене изборе за овог члана у року од 60 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref33" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕСТАНАК ФУНКЦИЈЕ ЧЛАНОВА САВЕТА</heading>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<heading>Разлози престанка</heading>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Члановима по положају престаје функција у Савету када им престане функција по основу које су постали чланови Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav2">
+						<content>
+							<p>Изборним члановима престаје функција у Савету трајним губитком радне способности за обављање функције члана Савета, оставком на чланство у Савету, истеком мандата и разрешењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav3">
+						<content>
+							<p>Изборним члановима Савета из реда судија престаје функција у Савету и престанком судијске функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav4">
+						<content>
+							<p>Изборном члану Савета из реда адвоката престаје функција у Савету и брисањем из именика адвоката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav5">
+						<content>
+							<p>Изборном члану Савета из реда професора престаје функција у Савету и престанком звања професора правног факултета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan40">
+					<num>40.</num>
+					<heading>Превремени престанак мандата</heading>
+					<paragraph wId="gla4-clan40-stav1">
+						<content>
+							<p>Ако изборном члану Савета престане мандат пре истека времена на који је изабран, Савет ће у року од 15 дана донети одлуку из <ref wId="ref34" href="akn/rs/act/2015/106-62/srp@/!main~art_21__para_1" >члана 21. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav2">
+						<content>
+							<p>Поступак предлагања и избора за новог члана спровешће се у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav3">
+						<content>
+							<p>Новоизабраном члану мандат траје пет година.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОСТУПАК ЗА РАЗРЕШЕЊЕ</heading>
+				<article wId="gla5-clan41">
+					<num>41.</num>
+					<heading>Разлози</heading>
+					<paragraph wId="gla5-clan41-stav1">
+						<content>
+							<p>Изборни члан Савета се разрешава функције пре истека времена на које је изабран ако функцију члана Савета не врши у складу са Уставом и законом и ако буде осуђен за кривично дело на безусловну казну затвора, односно за кривично дело које га чини недостојним за вршење функције члана Савета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan42">
+					<num>42.</num>
+					<heading>Иницијатива</heading>
+					<paragraph wId="gla5-clan42-stav1">
+						<content>
+							<p>Иницијативу за разрешење изборног члана Савета може поднети сваки члан Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan42-stav2">
+						<content>
+							<p>Иницијативу за разрешење изборног члана Савета из реда судија може поднети и председник било ког суда, на основу одлуке седнице свих судија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan42-stav3">
+						<content>
+							<p>Иницијативу за разрешење изборног члана Савета из реда адвоката, односно професора правног факултета могу поднети њихови овлашћени предлагачи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan43">
+					<num>43.</num>
+					<heading>Оцена прихватљивости иницијативе</heading>
+					<paragraph wId="gla5-clan43-stav1">
+						<content>
+							<p>Савет ће у року од седам дана по пријему иницијативе оценити вероватност разлога због којег се разрешење тражи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan43-stav2">
+						<content>
+							<p>Ако оцени да разлози за разрешење нису учињени вероватним, Савет ће писмено обавестити подносиоца да иницијатива није прихваћена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan44">
+					<num>44.</num>
+					<heading>Изјашњење</heading>
+					<paragraph wId="gla5-clan44-stav1">
+						<content>
+							<p>Када прихвати иницијативу Савет ће, пре доношења одлуке о покретању поступка, омогућити члану Савета чије се разрешење иницира, да се о наводима иницијативе изјасни.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<heading>Покретање поступка</heading>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Одлуку о покретању поступка разрешења доноси Савет у року од 15 дана од пријема иницијативе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref36" href="akn/rs/act/2015/106-62/srp@/!main~art_45__para_2" >став 2. </ref>(види <ref wId="ref35" href="akn/rs/act/2011/88/srp@/!main~/art_2">члан 2. Закона - 88/2011-66</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav3">
+						<content>
+							<p>Изборном члану ће се омогућити да се изјасни о свим наводима од значаја за доношење одлуке о разрешењу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<heading>Разрешење</heading>
+					<paragraph wId="gla5-clan46-stav1">
+						<content>
+							<p>Предлог за разрешење Савет доноси у року од 30 дана од дана покретања поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>У доношењу предлога из <ref wId="ref37" href="akn/rs/act/2015/106-62/srp@/!main~art_46__para_1" >става 1. овог</ref> члана не учествује члан Савета о чијем се разрешењу одлучује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav3">
+						<content>
+							<p>Одлуку о разрешењу, на основу предлога из <ref wId="ref38" href="akn/rs/act/2015/106-62/srp@/!main~art_46__para_1" >става 1. овог</ref> члана, доноси Народна скупштина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav4">
+						<content>
+							<p>Брисан је ранији <ref wId="ref40" href="akn/rs/act/2015/106-62/srp@/!main~art_46__para_4" >став 4. </ref>(види <ref wId="ref39" href="akn/rs/act/2011/88/srp@/!main~/art_3">члан 3. Закона - 88/2011-66</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>АДМИНИСТРАТИВНА КАНЦЕЛАРИЈА</heading>
+				<article wId="gla6-clan47">
+					<num>47.</num>
+					<heading>Послови и организација рада</heading>
+					<paragraph wId="gla6-clan47-stav1">
+						<content>
+							<p>За обављање стручних, административних и других послова у оквиру Савета образује се Административна канцеларија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan47-stav2">
+						<content>
+							<p>Организација, послови и начин рада Административне канцеларије ближе се уређује актом Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan47-stav3">
+						<content>
+							<p>На права и обавезе запослених у Административној канцеларији примењују се прописи који уређују положај државних службеника и намештеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan48">
+					<num>48.</num>
+					<heading>Секретар Савета</heading>
+					<paragraph wId="gla6-clan48-stav1">
+						<content>
+							<p>Савет има секретара који се поставља на период од пет година и може бити поново постављен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav2">
+						<content>
+							<p>Секретара поставља Савет.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav3">
+						<content>
+							<p>Секретар руководи Административном канцеларијом и за свој рад одговоран је Савету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav4">
+						<content>
+							<p>Секретар има статус државног службеника на положају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav5">
+						<content>
+							<p>Услови за постављење секретара одређују се актом Савета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan49">
+					<num>49.</num>
+					<heading>Упућивање судије</heading>
+					<paragraph wId="gla6-clan49-stav1">
+						<content>
+							<p>Судија може бити упућен, ради обављања стручних послова, у радна тела Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav2">
+						<content>
+							<p>Решење о упућивању доноси Савет, по прибављеном мишљењу председника суда у коме судија врши своју функцију, уз писмену сагласност судије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav3">
+						<content>
+							<p>Упућивање може трајати најдуже три године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan50">
+					<num>50.</num>
+					<heading>Први избор чланова Савета</heading>
+					<paragraph wId="gla7-clan50-stav1">
+						<content>
+							<p>Народна скупштина ће најкасније у року од 90 дана од дана ступања на снагу овог закона изабрати изборне чланове првог састава Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan50-stav2">
+						<content>
+							<p>Приликом избора, Народна скупштина обавезна је да изабере најмање једног члана Савета из реда који обавља судијску функцију у суду са територије аутономних покрајина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan50-stav3">
+						<content>
+							<p>До избора првог састава Савета, послове из надлежности Савета у вези са избором изборних чланова Савета из реда судија обавља Високи савет правосуђа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan51">
+					<num>51.</num>
+					<heading>Обављање функције члана Савета од стране председника Врховног суда Србије</heading>
+					<paragraph wId="gla7-clan51-stav1">
+						<content>
+							<p>До избора председника Врховног касационог суда, члан Савета по положају је председник Врховног суда Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan52">
+					<num>52.</num>
+					<heading>Изборни чланови првог састава Савета из реда судија</heading>
+					<paragraph wId="gla7-clan52-stav1">
+						<content>
+							<p>Изборне чланове првог састава Савета из реда судија, чине један судија из Врховног суда Србије, један судија из Вишег трговинског суда и трговинских судова, односно по двојица судија из окружних и општинских судова, с тим што најмање један члан мора бити из судова са територије аутономних покрајина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav2">
+						<content>
+							<p>Кандидате за изборне чланове првог састава Савета, Високом савету правосуђа, предлажу седнице свих судија судова према врсти и степену суда у коме кандидат врши судијску функцију. Седница свих судија једног суда може да предложи само једног кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref41" href="akn/rs/act/2015/106-62/srp@/!main~art_52__para_2" >става 2. овог</ref> члана Општа седница Врховног суда Србије, односно седница свих судија Вишег трговинског суда може предложити више од једног кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav4">
+						<content>
+							<p>Кандидати из <ref wId="ref42" href="akn/rs/act/2015/106-62/srp@/!main~art_52__para_2->para_3" >ст. 2. и 3. овог</ref> члана предлажу се Високом савету правосуђа у року од 15 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav5">
+						<content>
+							<p>Високи савет правосуђа у року од 30 дана од дана ступања на снагу овог закона предлаже Народној скупштини по једног или више кандидата за сваког изборног члана Савета из реда судија, у складу са бројем судија према врсти и степену суда прописаним у <ref wId="ref43" href="akn/rs/act/2015/106-62/srp@/!main~art_52__para_1" >ставу 1. овог</ref> члана. При предлагању кандидата Високи савет правосуђа узима у обзир предлоге из <ref wId="ref44" href="akn/rs/act/2015/106-62/srp@/!main~art_52__para_2->para_3" >ст. 2. и 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav6">
+						<content>
+							<p>Високи савет правосуђа утврђује предлог из <ref wId="ref45" href="akn/rs/act/2015/106-62/srp@/!main~art_52__para_5" >става 5. овог</ref> члана већином гласова ужег састава, који чине стални чланови и позивни чланови-судије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav7">
+						<content>
+							<p>До 1. јануара 2010. године, изборни чланови првог састава Савета из реда судија, имају право на основну плату једнаку основној плати председника Врховног суда Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan53">
+					<num>53.</num>
+					<heading>Изборни чланови првог састава Савета из реда адвоката и професора правног факултета</heading>
+					<paragraph wId="gla7-clan53-stav1">
+						<content>
+							<p>Адвокатска комора Србије и заједничка седница свих декана правних факултета у Републици Србији дужни су да у року од 30 дана од дана ступања на снагу овог закона предложе Народној скупштини једног или више кандидата за избор изборних чланова првог састава Савета из реда адвоката, односно професора правног факултета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan53-stav2">
+						<content>
+							<p>Предлагање кандидата из <ref wId="ref46" href="akn/rs/act/2015/106-62/srp@/!main~art_53__para_1" >става 1. овог</ref> члана спровешће се сходном применом овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan54">
+					<num>54.</num>
+					<heading>Конститутивна седница Савета</heading>
+					<paragraph wId="gla7-clan54-stav1">
+						<content>
+							<p>Конститутивна седница Савета одржаће се у року од седам дана од дана избора изборних чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan54-stav2">
+						<content>
+							<p>Конститутивну седницу сазива и њоме председава председник Врховног суда Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan55">
+					<num>55.</num>
+					<heading>Престанак мандата изборним члановима првог састава Савета</heading>
+					<paragraph wId="gla7-clan55-stav1">
+						<content>
+							<p>Изборним члановима првог састава Савета из реда судија престаје мандат даном ступања на функцију изборних чланова сталног састава, а најкасније истеком мандата од пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan55-stav2">
+						<content>
+							<p>Изборним члановима првог састава Савета из реда адвоката и професора правног факултета функција престаје истеком мандата прописаног овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan55-stav3">
+						<content>
+							<p>Изборним члановима првог састава Савета функција престаје и у свим осталим случајевима прописаним одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan56">
+					<num>56.</num>
+					<heading>Настављање судијске функције изборних чланова првог састава Савета</heading>
+					<paragraph wId="gla7-clan56-stav1">
+						<content>
+							<p>Изборни члан из реда судија, престанком мандата у првом саставу Савета, наставља да обавља судијску функцију у непосредно вишем суду у односу на суд у којем је обављао судијску функцију, под условом да испуњава услове за избор судије у том суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan56-stav2">
+						<content>
+							<p>Судија наставља да обавља судијску функцију у суду који је преузео надлажност суда у којем је обављао судијску функцију, уколико не испуњава услове за избор судије у непосредно вишем суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan56-stav3">
+						<content>
+							<p>Одлуке из <ref wId="ref47" href="akn/rs/act/2015/106-62/srp@/!main~art_56__para_1->para_2" >ст. 1. и 2. овог</ref> члана доноси Савет у сталном саставу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan57">
+					<num>57.</num>
+					<heading>Рок за спровођење изборног поступка за стални састав Савета</heading>
+					<paragraph wId="gla7-clan57-stav1">
+						<content>
+							<p>Изборни поступак чланова сталног састава Савета из реда судија, спровешће се у року од шест месеци од дана почетка рада судова одређених Законом о уређењу судова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan58">
+					<num>58.</num>
+					<heading>Обављање послова Административне канцеларије и преузимање запослених</heading>
+					<paragraph wId="gla7-clan58-stav1">
+						<content>
+							<p>Савет у року од 90 дана од дана конституисања преузима од министарства надлежног за правосуђе права, обавезе, предмете и архиву који су потребни за вршење преузетих послова, у складу са надлежношћу одређеном овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan58-stav2">
+						<content>
+							<p>Савет преузима и државне службенике и намештенике који раде у преузетом делокругу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan58-stav3">
+						<content>
+							<p>Начин преузимања предмета и државних службеника и намештеника уређује својим актом министар надлежан за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan58-stav4">
+						<content>
+							<p>Док се не попуне радна места предвиђена актом о унутрашњем уређењу и систематизацији радних места у административној канцеларији, одређене стручне и административне послове за потребе Савета може обављати министарство надлежно за правосуђе, у складу са актом Савета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan59">
+					<num>59.</num>
+					<heading>Подзаконски акти</heading>
+					<paragraph wId="gla7-clan59-stav1">
+						<content>
+							<p>Подзаконски акти предвиђени овим законом биће донети у року од 90 дана од дана конституисања Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan59-stav2">
+						<content>
+							<p>До доношења аката из <ref wId="ref48" href="akn/rs/act/2015/106-62/srp@/!main~art_59__para_1" >става 1. овог</ref> члана примењиваће се општи акти Високог савета правосуђа, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan60">
+					<num>60.</num>
+					<heading>Преузимање надлежности Високог савета правосуђа</heading>
+					<paragraph wId="gla7-clan60-stav1">
+						<content>
+							<p>Даном конституисања, Савет преузима надлежности Високог савета правосуђа прописане Законом о судијама („Службени гласник РС”, бр. <ref wId="ref49" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref50" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref51" href="akn/rs/act/03/17/srp@">17/03</ref>, <ref wId="ref52" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref53" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref54" href="akn/rs/act/04/35/srp@">35/04</ref>, <ref wId="ref55" href="akn/rs/act/04/44/srp@">44/04</ref>, <ref wId="ref56" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref57" href="akn/rs/act/05/101/srp@">101/05</ref> и <ref wId="ref58" href="akn/rs/act/06/46/srp@">46/06</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan61">
+					<num>61.</num>
+					<heading>Престанак важења Закона о Високом савету правосуђа</heading>
+					<paragraph wId="gla7-clan61-stav1">
+						<content>
+							<p>Даном конституисања Савета престаје да важи Закон о Високом савету правосуђа („Службени гласник РС”, бр. <ref wId="ref59" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref60" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref61" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref62" href="akn/rs/act/03/41/srp@">41/03</ref> – исправка, 44/04 и 61/05), у делу који се односи на судије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan62">
+					<num>62.</num>
+					<heading>Ступање закона на снагу</heading>
+					<paragraph wId="gla7-clan62-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan62-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan8">
+					<num>8.</num>
+					<heading>Закон о изменама и допунама Закона о Високом савету судства: „Службени гласник РС“, број <ref wId="ref64" href="akn/rs/act/2010/101/srp@">101/2010</ref>-5</heading>
+					<paragraph wId="gla7-clan8-stav1">
+						<content>
+							<p>Изузетно од одредбе <ref wId="ref63" href="akn/rs/act/2015/106-62/srp@/!main~art_3" >члана 3. овог</ref> закона, судије прекршајних судова и Вишег прекршајног суда, изабране на судијску функцију из реда судија за прекршаје, имају право да бирају чланове сталног састава Високог савета судства из реда судија, са листе кандидата судија основних судова, прекршајних судова и Вишег прекршајног суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan9">
+					<num>9.</num>
+					<paragraph wId="gla7-clan9-stav1">
+						<content>
+							<p>Изборни поступак за избор чланова сталног састава Високог савета судства из реда судија, спровешће се у року од 60 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan10">
+					<num>10.</num>
+					<paragraph wId="gla7-clan10-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan10-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan10-stav3">
+						<content>
+							<p>о Високом савету судства</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan10-stav4">
+						<content>
+							<p>„Службени гласник РС“ бр. <ref wId="ref65" href="akn/rs/act/2008/116/srp@">116 од 22.  децембра 2008</ref>,  <ref wId="ref66" href="akn/rs/act/2010/101/srp@">101 од 29. децембра 2010</ref>,  <ref wId="ref67" href="akn/rs/act/2011/88/srp@">88 од 24. новембра 2011</ref>, <ref wId="ref68" href="akn/rs/act/2015/106/srp@">106 од 21. децембра 2015</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

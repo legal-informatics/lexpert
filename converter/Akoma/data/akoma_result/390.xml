@@ -1,0 +1,2248 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о враћању одузете имовине и обештећењу">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2011/72-125/main"/>
+					<FRBRuri value="akn/rs/act/2011/72-125"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/95-241/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/95-241/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/95-241/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/95-241/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2011-09-28" name="службени гласник рс" number="72" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="3. Експропријација и други облици ограничавања својине и враћање имовине" value="3. експропријација и други облици ограничавања својине и враћање имовине" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2011-01-01" refersTo="72/2011-125" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2013-01-01" refersTo="108/2013-13" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2014-01-01" refersTo="142/2014-194" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2015-01-01" refersTo="88/2015-82" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-241" source="#somebody" type="amendment" wId="e5"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2011-09-26" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2011-10-06" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2011-10-06" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="територији"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописа"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="одређених"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="физичких"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="одузимање"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="прoписи"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="примењује"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="данас"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="имовине"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="холокауста"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="пренесена"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="задружну"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="овај"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="секвестрацији"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="територију"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="аката"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="последица"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="општенародну"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="аграрној"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="друштвену"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="правних"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="реформи"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="национализацији"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="чини"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="одузету"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="1945"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="државну"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="подржављењу"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="марта"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="враћање"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="закон"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="чије"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="после"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="применом"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept42" href="http://purl.org/vocab/frbr/core#Concept" showAs="имовину"/>
+				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="других"/>
+				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="лица"/>
+				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="одузета"/>
+				<TLCConcept eId="cocnept46" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept47" href="http://purl.org/vocab/frbr/core#Concept" showAs="својину"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agencije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Autonomnoj Pokrajini Vojvodini"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Centralni registar"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Dedinju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kosovo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kragujevcu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Metohija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Nišu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Novom Sadu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike i Vlade"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="17."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija za potrebe utvrđivanja koeficijenta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija za restituciju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije su"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencijom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencijom za ostvarivanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Autonomnoj Kosovsko-Metohijskoj oblasti"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralni registar"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralnog registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="DFJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Demokratske Federativne Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Direkciji za restituciju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="FNRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Federativne Narodne Republike Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="NRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Nacionalnog komiteta oslobođenja Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluka US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Predsedništva Prezidijuma Narodne skupštine Federativne Narodne Republike Jugoslavije U."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republička direkcija za imovinu Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkoj direkciji za imovinu Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uredbom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Koeficijent"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Obrazac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Republika Srbija"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2012."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="101. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="103. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="104. stav 1. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="108. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. maja 2003."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. decembra 2021."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. februara 1968."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. stav 1. tačka 9"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1945."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1958."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. st. 1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2021."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="23. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. tačka 6"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna 2020."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. oktobra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. marta 2020."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="47."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="50. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. aprila 1941."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. marta 1947."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. marta 1945."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="članu 23. st. 4. i 5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 6. октобра 2011. године (види члан 67. Закона).Примена овог закона на територији Аутономне покрајине Косово и Метохија уредиће се по престанку функционисања међународне управе успостављене у складу са Резолуцијом 1244 Савета безбедности Уједињених нација (види члан 65. Закона).Од ступања на снагу овог закона имовина која је одузета бившим власницима, а за коју је поднета пријава у складу са Законом о пријављивању и евидентирању одузете имовине („Службени гласник РС”, број 45/05), а по одредбама овог закона може бити враћена, не може бити предмет отуђивања, хипотеке или залоге, до правноснажног окончања поступка по захтеву за враћање. Враћена имовина је у слободном промету, а Република Србија, аутономна покрајина, односно јединица локалне самоуправе има право прече куповине приликом првог отуђења (види члан 62. ст. 1. и 3. Закона).Агенција за реституцију почиње са радом до 1. јануара 2012. године. Агенција ће преузети предмете, средства за рад, архиву и запослене у Дирекцији за реституцију (види члан 63. Закона).Аконтација обештећења по одредбама овог закона утврђује се и исплаћује почев од 31. марта 2017. године (види члан 37. Закона).Одлуком Уставног суда број IУз 90/2014 („Службени гласник РС“, број 88/2015) престалa je да важи одредбa члана 23. став 4. Закона о враћању одузете имовине и обештећењу („Службени гласник РС”, бр. 72/11, 108/13 и 142/14), у делу који гласи: „и ако се не изврши конверзија права коришћења у право својине уз накнаду у року од две године од дана подношења тог захтева”, јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 88/2015-82).Закон о изменама Закона о враћању одузете имовине и обештећењу („Службени гласник РС“, број 95/2018) је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. децембра 2018. године (види члан 6. Закона – 95/2018-241).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 6. октобра 2011. године (види члан 67. Закона).Примена овог закона на територији Аутономне покрајине Косово и Метохија уредиће се по престанку функционисања међународне управе успостављене у складу са Резолуцијом 1244 Савета безбедности Уједињених нација (види члан 65. Закона).Од ступања на снагу овог закона имовина која је одузета бившим власницима, а за коју је поднета пријава у складу са Законом о пријављивању и евидентирању одузете имовине („Службени гласник РС”, број 45/05), а по одредбама овог закона може бити враћена, не може бити предмет отуђивања, хипотеке или залоге, до правноснажног окончања поступка по захтеву за враћање. Враћена имовина је у слободном промету, а Република Србија, аутономна покрајина, односно јединица локалне самоуправе има право прече куповине приликом првог отуђења (види члан 62. ст. 1. и 3. Закона).Агенција за реституцију почиње са радом до 1. јануара 2012. године. Агенција ће преузети предмете, средства за рад, архиву и запослене у Дирекцији за реституцију (види члан 63. Закона).Аконтација обештећења по одредбама овог закона утврђује се и исплаћује почев од 31. марта 2017. године (види члан 37. Закона).Одлуком Уставног суда број IУз 90/2014 („Службени гласник РС“, број 88/2015) престалa je да важи одредбa члана 23. став 4. Закона о враћању одузете имовине и обештећењу („Службени гласник РС”, бр. 72/11, 108/13 и 142/14), у делу који гласи: „и ако се не изврши конверзија права коришћења у право својине уз накнаду у року од две године од дана подношења тог захтева”, јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 88/2015-82).Закон о изменама Закона о враћању одузете имовине и обештећењу („Службени гласник РС“, број 95/2018) је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. децембра 2018. године (види члан 6. Закона – 95/2018-241).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О враћању одузете имовине и обештећењу "Службени гласник РС", бр. <ref wId="ref194" href="akn/rs/act/2011/72/srp@">72 од 28. септембра 2011</ref>, <ref wId="ref195" href="akn/rs/act/2013/108/srp@">108 од 6. децембра 2013</ref>, <ref wId="ref196" href="akn/rs/act/2014/142/srp@">142 од 25. децембра 2014</ref>, <ref wId="ref197" href="akn/rs/act/2015/88/srp@">88 од 23. октобра 2015</ref> - УС, <ref wId="ref198" href="akn/rs/act/2018/95/srp@">95 од 8. децембра 2018</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>прва</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет уређивања</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови, начин и поступак враћања одузете имовине и обештећења за одузету имовину, која је на територији Републике Србије применом прописа о аграрној реформи, национализацији, секвестрацији, као и других прописа, на основу аката о подржављењу, после 9. марта 1945. године одузета од физичких и одређених правних лица и пренесена у општенародну, државну, друштвену или задружну својину (у даљем тексту: враћање имовине).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Овај закон се примењује и на враћање имовине чије је одузимање последица Холокауста на територији која данас чини територију Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Прoписи</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Право на враћање имовине по одредбама овог закона може се остварити за имовину одузету применом следећих прописа:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Одлука о прелазу у државну својину непријатељске имовине, о државној управи над имовином неприсутних лица и о секвестру над имовином коју су окупаторске власти присилно отуђиле („Службени лист ДФЈ”, број   <ref wId="ref0" href="akn/rs/act/45/2/srp@">2/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Закон о аграрној реформи и колонизацији („Службени лист ДФЈ”, број   <ref wId="ref1" href="akn/rs/act/45/64/srp@">64/45</ref> и „Службени лист ФНРЈ”, бр.  <ref wId="ref2" href="akn/rs/act/46/16/srp@">16/46</ref>,   <ref wId="ref3" href="akn/rs/act/46/24/srp@">24/46</ref>,   <ref wId="ref4" href="akn/rs/act/46/99/srp@">99/46</ref>,   <ref wId="ref5" href="akn/rs/act/47/101/srp@">101/47</ref>,   <ref wId="ref6" href="akn/rs/act/48/105/srp@">105/48</ref>,   <ref wId="ref7" href="akn/rs/act/51/19/srp@">19/51</ref>,   42-43/51,   21/56,   52/57,   55/57 и   10/65);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Закон о аграрној реформи и унутрашњој колонизацији („Службени гласник НРС”, бр.   <ref wId="ref8" href="akn/rs/act/45/39/srp@">39/45</ref> и   <ref wId="ref9" href="akn/rs/act/46/4/srp@">4/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Закон о аграрној реформи и унутрашњој колонизацији („Службени гласник НРС”, бр.   <ref wId="ref10" href="akn/rs/act/48/5/srp@">5/48</ref>,   <ref wId="ref11" href="akn/rs/act/49/11/srp@">11/49</ref> и   <ref wId="ref12" href="akn/rs/act/56/34/srp@">34/56</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> Одлука о установи суда за суђење злочина и преступа против српске националне части („Службени гласник НРС”, број   <ref wId="ref13" href="akn/rs/act/45/1/srp@">1/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> Одлука о суду за суђење злочина и преступа против српске националне части („Службени гласник НРС”, број   <ref wId="ref14" href="akn/rs/act/45/3/srp@">3/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> Закон о сузбијању недопуштене шпекулације и привредне саботаже („Службени лист ДФЈ”, број   <ref wId="ref15" href="akn/rs/act/45/26/srp@">26/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> Закон о забрани изазивања националне, расне и верске мржње и раздора („Службени лист ДФЈ”, број   <ref wId="ref16" href="akn/rs/act/45/36/srp@">36/45</ref> и „Службени лист ФНРЈ”, број   <ref wId="ref17" href="akn/rs/act/46/56/srp@">56/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> Закон о заштити народних добара и њиховом управљању („Службени лист ДФЈ”, број   <ref wId="ref18" href="akn/rs/act/45/36/srp@">36/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> Закон о конфискацији имовине и о извршењу конфискације („Службени лист ДФЈ”, број   <ref wId="ref19" href="akn/rs/act/45/40/srp@">40/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> Закон о потврди и изменама и допунама Закона о конфискацији имовине и о извршењу конфискације („Службени лист ФНРЈ”, бр.   <ref wId="ref20" href="akn/rs/act/46/61/srp@">61/46</ref> и   <ref wId="ref21" href="akn/rs/act/46/74/srp@">74/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> Закон о одузимању ратне добити стечене за време непријатељске окупације („Службени лист ДФЈ”, број   <ref wId="ref22" href="akn/rs/act/45/36/srp@">36/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> Закон о потврди и изменама и допунама Закона о одузимању ратне добити стечене за време непријатељске окупације („Службени лист ФНРЈ”, број   <ref wId="ref23" href="akn/rs/act/46/52/srp@">52/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> Закон о држављанству Демократске Федеративне Југославије („Службени лист ДФЈ”, број   <ref wId="ref24" href="akn/rs/act/45/64/srp@">64/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> Закон о држављанству Федеративне Народне Републике Југославије („Службени лист ФНРЈ”, бр.   <ref wId="ref25" href="akn/rs/act/46/54/srp@">54/46</ref> и   <ref wId="ref26" href="akn/rs/act/48/105/srp@">105/48</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p> Закон о одузимању држављанства официрима и подофицирима бивше југословенске војске, који неће да се врате у отаџбину и припадницима војних формација који су служили окупатору и одбегли у иностранство („Службени лист ДФЈ”, број   <ref wId="ref27" href="akn/rs/act/45/64/srp@">64/45</ref> и „Службени лист ФНРЈ”, број   <ref wId="ref28" href="akn/rs/act/46/86/srp@">86/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p> Закон о кривичним делима против народа и државе („Службени лист ДФЈ”, број   <ref wId="ref29" href="akn/rs/act/45/66/srp@">66/45</ref> и „Службени лист ФНРЈ”, бр.   <ref wId="ref30" href="akn/rs/act/46/59/srp@">59/46</ref>,   <ref wId="ref31" href="akn/rs/act/47/106/srp@">106/47</ref> и   <ref wId="ref32" href="akn/rs/act/47/110/srp@">110/47</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p> Закон о сузбијању недопуштене трговине, недопуштене шпекулације и привредне саботаже („Службени лист ФНРЈ”, бр.   <ref wId="ref33" href="akn/rs/act/46/56/srp@">56/46</ref> и   <ref wId="ref34" href="akn/rs/act/46/74/srp@">74/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac19">
+							<num>19)</num>
+							<content>
+								<p> Закон о прелазу у државну својину непријатељске имовине и о секвестрацији над имовином одсутних лица („Службени лист ФНРЈ”, бр.   <ref wId="ref35" href="akn/rs/act/46/63/srp@">63/46</ref> и   <ref wId="ref36" href="akn/rs/act/46/74/srp@">74/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac20">
+							<num>20)</num>
+							<content>
+								<p> Закон о поступању са имовином коју су власници морали напустити у току окупације и имовином која им је одузета од стране окупатора и његових помагача („Службени лист ДФЈ”, број   <ref wId="ref37" href="akn/rs/act/45/36/srp@">36/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac21">
+							<num>21)</num>
+							<content>
+								<p> Закон о потврди и изменама и допунама Закона о поступању са имовином коју су сопственици морали напустити у току окупације и имовином која им је одузета од стране окупатора и његових помагача („Службени лист ФНРЈ”, број   <ref wId="ref38" href="akn/rs/act/46/64/srp@">64/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac22">
+							<num>22)</num>
+							<content>
+								<p> Закон о заштити општенародне имовине и имовине под управом државе („Службени лист ФНРЈ”, број   <ref wId="ref39" href="akn/rs/act/46/86/srp@">86/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac23">
+							<num>23)</num>
+							<content>
+								<p> Закон о национализацији приватних привредних предузећа („Службени лист ФНРЈ”, бр.   <ref wId="ref40" href="akn/rs/act/46/98/srp@">98/46</ref> и   <ref wId="ref41" href="akn/rs/act/48/35/srp@">35/48</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac24">
+							<num>24)</num>
+							<content>
+								<p> Уредба о арондацији државних пољопривредних добара општедржавног значаја („Службени лист ФНРЈ”, број   <ref wId="ref42" href="akn/rs/act/46/99/srp@">99/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac25">
+							<num>25)</num>
+							<content>
+								<p> Одлука Националног комитета ослобођења Југославије о привременој забрани враћања колониста у њихова ранија места живљења („Службени лист ДФЈ”, број   <ref wId="ref43" href="akn/rs/act/45/13/srp@">13/45</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac26">
+							<num>26)</num>
+							<content>
+								<p> Закон о поступању са напуштеном земљом колониста у Аутономној Косовско-Метохијској области („Службени лист НРС”, број   <ref wId="ref44" href="akn/rs/act/47/9/srp@">9/47</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac27">
+							<num>27)</num>
+							<content>
+								<p> Закон о ревизији додељивања земље колонистима и аграрним интересентима у Аутономној Косовско-Метохијској области („Службени лист ФНРЈ”, број   <ref wId="ref45" href="akn/rs/act/46/89/srp@">89/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac28">
+							<num>28)</num>
+							<content>
+								<p> Закон о ликвидацији аграрне реформе вршене до 6. априла 1941. године на великим поседима у Аутономној Покрајини Војводини („Службени лист ФНРЈ”, број   <ref wId="ref46" href="akn/rs/act/47/9/srp@">9/47</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac29">
+							<num>29)</num>
+							<content>
+								<p> Основни закон о експропријацији („Службени лист ФНРЈ”, бр.   <ref wId="ref47" href="akn/rs/act/47/28/srp@">28/47</ref>, <ref wId="ref48" href="akn/rs/act/57/12/srp@">12/57</ref> и   <ref wId="ref49" href="akn/rs/act/62/53/srp@">53/62</ref> и „Службени лист СФРЈ”, бр.   <ref wId="ref50" href="akn/rs/act/65/13/srp@">13/65</ref>,   <ref wId="ref51" href="akn/rs/act/68/5/srp@">5/68</ref>,   <ref wId="ref52" href="akn/rs/act/68/7/srp@">7/68</ref> и   <ref wId="ref53" href="akn/rs/act/68/11/srp@">11/68</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac30">
+							<num>30)</num>
+							<content>
+								<p> Основни закон о поступању са експроприсаним и конфискованим шумским поседима („Службени лист ФНРЈ”, број   <ref wId="ref54" href="akn/rs/act/46/61/srp@">61/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac31">
+							<num>31)</num>
+							<content>
+								<p> Кривични законик („Службени лист ФНРЈ”, број   <ref wId="ref55" href="akn/rs/act/51/13/srp@">13/51</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac32">
+							<num>32)</num>
+							<content>
+								<p> Закон о извршењу казни, мера безбедности и васпитно-поправних мера („Службени лист ФНРЈ”, број   <ref wId="ref56" href="akn/rs/act/51/47/srp@">47/51</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac33">
+							<num>33)</num>
+							<content>
+								<p> Уредба о имовинским односима и реорганизацији сељачких радних задруга („Службени лист ФНРЈ”, број   <ref wId="ref57" href="akn/rs/act/53/14/srp@">14/53</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac34">
+							<num>34)</num>
+							<content>
+								<p> Закон о национализацији најамних зграда и грађевинског земљишта („Службени лист ФНРЈ”, број   <ref wId="ref58" href="akn/rs/act/58/52/srp@">52/58</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac35">
+							<num>35)</num>
+							<content>
+								<p> Закон о искоришћавању пољопривредног земљишта („Службени лист ФНРЈ”, бр.   <ref wId="ref59" href="akn/rs/act/59/43/srp@">43/59</ref> и   <ref wId="ref60" href="akn/rs/act/62/53/srp@">53/62</ref> и „Службени лист СФРЈ”, бр.   <ref wId="ref61" href="akn/rs/act/65/10/srp@">10/65</ref>,   <ref wId="ref62" href="akn/rs/act/65/25/srp@">25/65</ref> - пречишћен тек<ref wId="ref63" href="akn/rs/act/2018/95-241/srp@/!main~art_2__para_12" >ст,   12</ref>/67 и   14/70) - ако корисници права нису добили одговарајуће друго земљиште;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac36">
+							<num>36)</num>
+							<content>
+								<p> Закон о одређивању грађевинског земљишта у градовима и насељима градског карактера („Службени лист СФРЈ”, бр. <ref wId="ref64" href="akn/rs/act/68/5/srp@">5/68</ref> и   <ref wId="ref65" href="akn/rs/act/69/20/srp@">20/69</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac37">
+							<num>37)</num>
+							<content>
+								<p> Закон о откупу приватних апотека („Службени лист ФНРЈ”, број   <ref wId="ref66" href="akn/rs/act/49/50/srp@">50/49</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac38">
+							<num>38)</num>
+							<content>
+								<p> Закон о потврди и изменама и допунама Закона о уређењу и деловању кредитног система („Службени лист ФНРЈ”, број   <ref wId="ref67" href="akn/rs/act/46/68/srp@">68/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac39">
+							<num>39)</num>
+							<content>
+								<p> Уредба о ревизији дозвола за рад и ликвидацији приватних кредитних предузећа („Службени лист ФНРЈ”, број   <ref wId="ref68" href="akn/rs/act/46/51/srp@">51/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac40">
+							<num>40)</num>
+							<content>
+								<p> Правилник о поступку ликвидације приватних кредитних предузећа („Службени лист ФНРЈ”, број   <ref wId="ref69" href="akn/rs/act/46/57/srp@">57/46</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac41">
+							<num>41)</num>
+							<content>
+								<p> Указ Председништва Президијума Народне скупштине Федеративне Народне Републике Југославије У. бр. <ref wId="ref71" href="akn/rs/act/1947/392/srp@">392 од 8. марта 1947</ref>. године („Службени лист ФНРЈ”, број   <ref wId="ref70" href="akn/rs/act/47/64/srp@">64/47</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Значење појединих израза</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> под „имовином” се подразумевају одузете покретне и непокретне ствари, као и одузета предузећа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> под „подржављеном имовином” подразумева се имовина која је на основу прописа из <ref wId="ref72" href="akn/rs/act/2018/95-241/srp@/!main~art_2" >члана 2. овог</ref> закона одузета и пренесена у општенародну, државну, друштвену или задружну својину;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> под „актом о подржављењу” подразумева се правни акт који је имао непосредно дејство, као што је пресуда, одлука, решење и други правни акт државног, односно другог надлежног органа, којим је извршено подржављење имовине;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> под појмом „Агенција” подразумева се Агенција за реституцију која је основана <ref wId="ref73" href="akn/rs/act/2018/95-241/srp@/!main~art_51" >чланом 51. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> под појмом „захтев за враћање одузете имовине, односно обештећење” (у даљем тексту: захтев) подразумева се захтев који, на основу расписаног јавног позива, лице овлашћено овим законом подноси Агенцији;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> под појмом „право на враћање имовине или обештећење” подразумева се право које надлежни орган, у складу са овим законом, утврђује подносиоцу захтева;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> под појмом „предмет обештећења” подразумева се одузета имовина наведена у захтеву, а за коју је надлежни орган, у складу са условима прописаним овим законом, утврдио право на обештећење;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> под појмом „основица обештећења” подразумева се укупна вредност предмета обештећења утврђена од стране надлежног органа, у складу са овим законом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> под појмом „обештећење” подразумева се износ средстава утврђен у складу са овим законом, који ће на основу решења о обештећењу, у форми државних обвезница и новца, добити корисник обештећења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> под појмом „бивши власник” подразумева се физичко или правно лице које је било власник одузете имовине у моменту подржављења;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> под појмом „подносилац захтева” подразумева се лице које је Агенцији поднело захтев, на основу расписаног јавног позива од стране Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> под „корисником враћене имовине или обештећења” (у даљем тексту: корисник) подразумева се лице коме се враћа имовина, односно утврђује право на обештећење, у складу са овим законом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> под појмом „неизграђено грађевинско земљиште” подразумева се земљиште на коме нису изграђени објекти, на коме су изграђени објекти супротно закону и земљиште на коме су изграђени само објекти привременог карактера;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> појмови: објекат, грађење, реконструкција, доградња, адаптација и санација, и други грађевински појмови тумаче се и примењују у складу са прописима који уређују изградњу објеката.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Облици остварења права</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Имовина се враћа у натуралном облику или се даје обештећење у виду државних обвезница Републике Србије и у новцу, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Право на враћање имовине или обештећење</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<intro>
+							<p>Право на враћање имовине или обештећење има:</p>
+						</intro>
+						<point wId="gla1-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> домаће физичко лице које је бивши власник одузете имовине, а у случају његове смрти или проглашења умрлим – његови законски наследници, утврђени у складу са прописима који уређују наслеђивање у Републици Србији и са одредбама овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> задужбина којој је одузета имовина, односно њен правни следбеник;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> бивши власник који је своју некадашњу имовину која је одузета вратио у својину на основу теретног правног посла;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> физичко лице које је закључило уговор о купопродаји са државним органом у периоду од 1945. до 1958. године ако се у судском поступку утврди да је оштећено висином купопродајне цене има право искључиво на обештећење, у складу са овим законом, умањено за висину исплаћене купопродајне цене;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> физичко лице – страни држављанин, а у случају његове смрти или проглашења умрлим, његови законски наследници, под условом реципроцитета.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Претпоставља се да постоји реципроцитет са државом која није уређивала враћање имовине ако домаћи држављанин може да стекне право својине и наследи непокретности у тој држави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav3">
+						<intro>
+							<p>Право на враћање имовине или обештећење нема:</p>
+						</intro>
+						<point wId="gla1-clan5-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> физичко лице – страни држављанин, односно његови законски наследници, за које је обавезу обештећења преузела страна држава по основу међународног уговора;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> физичко лице – страни држављанин, односно његови законски наследници, који су и без постојања међународног уговора, обештећени или им је право на враћање имовине признато правом стране државе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> лице које је било припадник окупационих снага које су деловале на територији Републике Србије, за време Другог светског рата, као ни његови наследници.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav4">
+						<content>
+							<p>Отклањање последица одузимања имовине жртвама Холокауста и другим жртвама фашизма на територији Републике Србије, које немају живих законских наследника, уредиће се посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav5">
+						<content>
+							<p>Постојање реципроцитета са страном државом и међународног уговора, у смислу овог члана, утврђује Агенција по службеној дужности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Конфискована и експроприсана имовина</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Одредбе овог закона примењују се и на имовину која је конфискована после 9. марта 1945. године, под условом да је бивши власник рехабилитован до дана ступања на снагу овог закона, или буде рехабилитован на основу захтева за рехабилитацију из <ref wId="ref74" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_6" >члана 42. став 6. овог</ref> закона, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Бивши власник има право на враћање имовине, односно обештећење, у складу са овим законом за имовину одузету на основу прописа о експропријацији који су се примењивали до 15. фебруара 1968. године, ако бившем власнику на име накнаде за експроприсану имовину није уступљена друга непокретност у својину, станарско право или други облик најшире правне власти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav3">
+						<content>
+							<p>Бивши власник нема право на враћање имовине, односно обештећење, у складу са овим законом за имовину одузету на основу прописа о експропријацији који су се примењивали после 15. фебруара 1968. године, за коју је одређена накнада у новцу или другим стварима или правима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Виша сила</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Ако је одузета ствар престала да постоји услед дејства више силе, бивши власник нема право на обештећење у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Начело приоритета враћања у натуралном облику</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Одузета имовина враћа се бившем власнику у својину и државину, а ако то према овом закону није могуће, бивши власник има право на обештећење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Ако враћање државине на одузетој непокретности није одмах могуће, бившем власнику вратиће се својина на одузетој ствари, а са лицем које је држалац у време ступања на снагу овог закона, успоставиће се закупни однос под тржишним условима, ако овим законом није друкчије уређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Обвезник враћања имовине или обештећења</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Обвезник враћања подржављене имовине у натуралном облику (у даљем тексту: обвезник) је Република Србија, аутономна покрајина, јединица локалне самоуправе, јавно предузеће, привредно друштво или друго правно лице чији је оснивач Република Србија, аутономна покрајина или јединица локалне самоуправе, привредно друштво са већинским друштвеним капиталом и задруга, укључујући и привредна друштва и задруге у поступку стечаја и ликвидације, а који је, на дан ступања на снагу овог закона, власник, држалац или носилац права коришћења, односно располагања на подржављеној имовини – у односу на право које му припада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav2">
+						<content>
+							<p>У случају из <ref wId="ref75" href="akn/rs/act/2018/95-241/srp@/!main~art_23__para_4" >члана 23. став 4. овог</ref> закона обвезник је носилац права коришћења на грађевинском земљишту из тог става.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav3">
+						<content>
+							<p>Обвезник обештећења у виду државних обвезница и у новцу је Република Србија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<heading>Начело заштите стицаоца</heading>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Стицалац имовине који је, након подржављења имовине, у складу са законом, стекао право својине, остаје власник и држалац ствари, и његова стечена права не смеју бити повређена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan11">
+					<num>11.</num>
+					<heading>Примена других прописа</heading>
+					<paragraph wId="gla1-clan11-stav1">
+						<content>
+							<p>Поступак по захтеву спроводи се по одредбама овог закона. На питања која нису уређена овим законом примењиваће се одредбе закона којим се уређује општи управни поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan11-stav2">
+						<content>
+							<p>Овим законом се не дира у примену других прописа о заштити права својине и других права стечених у складу са законом, осим уколико су у супротности са њим.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan12">
+					<num>12.</num>
+					<heading>Сукоб основа за враћање имовине или обештећења</heading>
+					<paragraph wId="gla1-clan12-stav1">
+						<content>
+							<p>Подносилац захтева који има право да, по различитим основима, захтева враћање одређене имовине, за исти предмет обештећења може да то право оствари само по једном основу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan13">
+					<num>13.</num>
+					<heading>Издавање документације и података</heading>
+					<paragraph wId="gla1-clan13-stav1">
+						<content>
+							<p>Сви органи Републике Србије, органи аутономне покрајине, органи јединице локалне самоуправе и други органи и организације, дужни су да у оквиру својих надлежности и без одлагања, а најкасније у року од 30 дана од дана подношења захтева за издавање, издају сву потребну документацију и податке из <ref wId="ref76" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3->para_6" >члана 42. ст. 3 </ref>– 6. овог закона којима располажу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan14">
+					<num>14.</num>
+					<heading>Неурачунавање примљеног и изгубљена добит</heading>
+					<paragraph wId="gla1-clan14-stav1">
+						<content>
+							<p>Накнада која је на основу прописа из <ref wId="ref77" href="akn/rs/act/2018/95-241/srp@/!main~art_2" >члана 2. овог</ref> закона исплаћена у новцу или хартијама од вредности бившем власнику, не узима се у обзир при утврђивању права на враћање имовине, односно обештећење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan14-stav2">
+						<content>
+							<p>Не може се захтевати враћање плодова, нити накнада штете по основу изгубљене добити због немогућности коришћења, односно управљања подржављеном имовином, као и по основу њеног одржавања у периоду од дана подржављења до враћања имовине.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>друга</num>
+				<heading>ВРАЋАЊЕ ИМОВИНЕ</heading>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Предмет враћања</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Овим законом враћају се непокретне и покретне ствари у јавној својини Републике Србије, аутономне покрајине односно јединице локалне самоуправе, у државној, друштвеној и задружној својини, осим ствари у својини задругара и друштвеној и задружној својини које је ималац стекао уз накнаду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Предмет враћања су подржављене непокретности: грађевинско земљиште, пољопривредно земљиште, шуме и шумско земљиште, стамбене и пословне зграде, станови и пословне просторије и други објекти који постоје на дан ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav3">
+						<content>
+							<p>Предмет враћања су подржављене покретне ствари уписане у јавни регистар, као и друге покретне ствари које према прописима о културним добрима представљају културна добра и културна добра од великог и изузетног значаја, а која постоје на дан ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan16">
+					<num>16.</num>
+					<heading>Враћање својине и државине</heading>
+					<paragraph wId="gla2-od1-clan16-stav1">
+						<content>
+							<p>Заједничке одредбе о враћању непокретности примењују се увек када се овим законом не уређује друкчије за поједину врсту непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav2">
+						<content>
+							<p>Обвезник враћања дужан је да, у складу са овим законом, бившем власнику врати право својине и државину на одузетој непокретности, осим ако објекат није увећан у смислу <ref wId="ref78" href="akn/rs/act/2018/95-241/srp@/!main~art_17" >члана 17. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav3">
+						<content>
+							<p>Ако се одузета непокретност не може вратити у целини, бившем власнику вратиће се део одузете непокретности, уз обештећење за невраћени део, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan17">
+					<num>17.</num>
+					<heading>Увећани објекат</heading>
+					<paragraph wId="gla2-od1-clan17-stav1">
+						<content>
+							<p>Објекат се, у смислу овог закона, сматра увећаним уколико је дограђен или надзидан у складу са законом, чиме је увећана бруто површина. Извођење грађевинских радова унутар постојећег габарита и волумена не сматра се увећањем објекта у смислу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan17-stav2">
+						<content>
+							<p>Ако је након подржављења увећан објекат, бившем власнику се враћа својина на делу непокретности у површини која му је одузета, а државина му се враћа на основу споразума или судске одлуке, односно власник увећаног дела и бивши власник могу споразумно регулисати своје међусобне односе на предметном објекту, а ако се такав споразум не постигне, њихове међусобне односе уредиће надлежни суд.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan18">
+					<num>18.</num>
+					<heading>Изузеци од враћања у натуралном облику</heading>
+					<paragraph wId="gla2-od1-clan18-stav1">
+						<intro>
+							<p>Не враћа се право својине на непокретностима које на дан ступања на снагу овог закона имају следећу намену, односно статус:</p>
+						</intro>
+						<point wId="gla2-od1-clan18-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> непокретности које су по Уставу и закону искључиво у јавној својини;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> службене зграде и пословне просторије које служе за обављање законом утврђене надлежности државних органа, органа аутономне покрајине, органа јединице локалне самоуправе и органа месне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> непокретности које служе за обављање делатности установа из области здравства, васпитања и образовања, културе и науке или других установа, као јавних служби, основаних од стране носилаца јавне својине, а чијим би враћањем био битно ометен рад и функционисање тих служби;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> непокретности које су неодвојиви саставни део мрежа, објеката, уређаја или других средстава која служе за обављање претежне делатности јавних предузећа, друштава капитала основаних од стране носилаца јавне својине, као и њихових зависних друштава, из области енергетике, телекомуникација, саобраћаја, водопривреде и комуналних делатности;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> непокретности чије би враћање битно нарушило економску, односно технолошку одрживост и функционалност у обављању претежне делатности субјекта приватизације који није приватизован, као и субјекта који се продаје у поступку стечаја као правно лице а у чијој се имовини налазе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> непокретности које су намењене за репрезентативне потребе Народне скупштине, председника Републике и Владе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> непокретности у власништву Републике Србије намењене за смештај страних дипломатско-конзуларних представништава, војних и трговинских представништава и представника при дипломатско-конзуларним представништвима;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> Дворски комплекс на Дедињу, чији се статус уређује посебним законом, као и друга непокретна културна добра од изузетног значаја у државној својини;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> непокретна имовина која је продата, односно стечена у поступку приватизације као имовина или капитал субјеката приватизације, у складу са законом којим се уређује приватизација;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> непокретности које су продате у поступку стечаја над предузећима у већинској друштвеној, односно државној својини, као и непокретности које представљају имовину стечајних дужника у већинској друштвеној, односно државној својини која су као правна лица продати у поступку стечаја;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan18-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> у другим случајевима утврђеним овим законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan18-stav2">
+						<content>
+							<p>Не враћају се подржављена предузећа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan19">
+					<num>19.</num>
+					<heading>Одлагање преноса државине</heading>
+					<paragraph wId="gla2-od1-clan19-stav1">
+						<content>
+							<p>Обвезник враћања имовине има право да и након доношења решења о враћању непокретности, као закупац користи предметну непокретност за своју делатност, у периоду који је неопходан за прилагођавање његовог пословања, а у складу са <ref wId="ref79" href="akn/rs/act/2018/95-241/srp@/!main~art_20__para_1->para_2" >чланом 20. ст. 1. и 2. овог</ref> закона. Права и обавезе између бившег власника и обвезника за то време уређују се уговором.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan19-stav2">
+						<content>
+							<p>У случају да се уговор не закључи у року од три месеца од дана извршности решења о враћању имовине, свака страна може захтевати да суд својом одлуком уреди њихов однос.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan20">
+					<num>20.</num>
+					<heading>Правни положај закупца непокретности</heading>
+					<paragraph wId="gla2-od1-clan20-stav1">
+						<content>
+							<p>Закупац непокретности која је предмет враћања има право да користи непокретност за обављање своје делатности, али не дуже од три године од извршности решења о враћању имовине, с тим што се бивши власник и обвезник могу и друкчије споразумети.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan20-stav2">
+						<content>
+							<p>Изузетно, за вишегодишње засаде и винограде, закупац пољопривредног земљишта или лице које, до доношења решења о враћању имовине бившем власнику, а најкасније у року од годину дана од дана ступања на снагу овог закона, закључи уговор о закупу пољопривредног земљишта на основу права пречег закупа, има право да користи пољопривредно земљиште до 20 година за вишегодишње засаде, односно до 40 година за винограде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan20-stav3">
+						<content>
+							<p>У року из <ref wId="ref80" href="akn/rs/act/2018/95-241/srp@/!main~art_20__para_1->para_2" >ст. 1. и 2. овог</ref> члана бивши власник који је ступио на место закуподавца, има право на закупнину, али не може једнострано мењати висину закупнине и друге одредбе затеченог уговора о закупу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan20-stav4">
+						<content>
+							<p>Уговор о закупу закључен са намером да се осујети остварење права бившег власника не производи правно дејство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan21">
+					<num>21.</num>
+					<heading>Терет на непокретности</heading>
+					<paragraph wId="gla2-od1-clan21-stav1">
+						<content>
+							<p>Непокретности се враћају ослобођене хипотекарних терета који су установљени од момента њиховог подржављења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan21-stav2">
+						<content>
+							<p>За потраживања која су била обезбеђена хипотеком из <ref wId="ref81" href="akn/rs/act/2018/95-241/srp@/!main~art_21__para_1" >става 1. овог</ref> члана гарантује Република Србија, уз право регреса према хипотекарном дужнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan21-stav3">
+						<content>
+							<p>Постојеће стварне службености конституисане у корист или на терет непокретности не престају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan21-stav4">
+						<content>
+							<p>Постојеће личне службености у корист трећих лица се гасе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan22">
+					<num>22.</num>
+					<heading>Које се земљиште не враћа</heading>
+					<paragraph wId="gla2-od2-clan22-stav1">
+						<content>
+							<p>Предмет враћања, у смислу овог закона, јесте грађевинско земљиште у јавној својини Републике Србије, аутономне покрајине или јединице локалне самоуправе, као и грађевинско земљиште у државној, друштвеној односно задружној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav2">
+						<content>
+							<p>Не враћа се изграђено грађевинско земљиште, ако овим законом за поједине случајеве није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav3">
+						<content>
+							<p>Не враћа се грађевинско земљиште на коме се, у складу са овим законом, налазе јавне површине, или је планским документом, важећим на дан ступања на снагу овог закона, предвиђена изградња објеката јавне намене, у складу са законом којим се уређује просторно планирање, изградња и грађевинско земљиште, као ни грађевинско земљиште на коме су изграђени објекти који нису предмет враћања у натуралном облику у складу са <ref wId="ref82" href="akn/rs/act/2018/95-241/srp@/!main~art_18" >чланом 18. овог</ref> закона, као ни неизграђено грађевинско земљиште за које у складу са законом којим се уређује просторно планирање, изградња и грађевинско земљиште постоји правноснажно решење о локацијској дозволи у време ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav4">
+						<content>
+							<p>Не враћа се неизграђено грађевинско земљиште на коме је планским документом важећим на дан ступања на снагу овог закона предвиђена изградња објекта у функцији реализације пројекта економског развоја, објекта који је намењен за социјално становање, у складу са законом којим се уређује социјално становање и станова у складу са Уредбом о мерама подршке грађевинској индустрији кроз субвенционисање камате по кредитима за финансирање стамбене изградње у 2010. години („Службени гласник РС”, број <ref wId="ref83" href="akn/rs/act/10/4/srp@">4/10</ref>), када је инвеститор изградње тих станова Република Србија, у складу са Уредбом о условима и начину под којима локална самоуправа може да отуђи или да у закуп грађевинско земљиште по цени, мањој од тржишне цене, односно закупнине или без накнаде („Службени гласник РС”, бр. <ref wId="ref84" href="akn/rs/act/10/13/srp@">13/10</ref> и <ref wId="ref85" href="akn/rs/act/11/54/srp@">54/11</ref>), под условом да у року од 60 дана од дана ступања на снагу овог закона власници тог земљишта доставе Влади попис катастарских парцела тог грађевинског земљишта и Влада својим актом у року од 60 дана од дана достављања захтева изврши верификацију катастарских парцела за ове намене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav5">
+						<content>
+							<p>Не враћа се грађевинско земљиште на коме је изграђен објекат сталног карактера у складу са законом, а на том земљишту није извршена конверзија права коришћења у право својине у складу са <ref wId="ref86" href="akn/rs/act/2018/95-241/srp@/!main~art_101" >чланом 101. </ref>Закона о планирању и изградњи („Службени гласник РС”, бр. <ref wId="ref87" href="akn/rs/act/09/72/srp@">72/09</ref>, <ref wId="ref88" href="akn/rs/act/09/81/srp@">81/09</ref> – исправка, 64/10 – УС и 24/11 – у даљем тексту: Закон о планирању и изградњи).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav6">
+						<content>
+							<p>Не враћа се грађевинско земљиште на коме је изграђен објекат без грађевинске дозволе, које у поступку легализације буде одређено као земљиште за редовну употребу објекта, у складу са законом којим се уређује просторно планирање, изградња и грађевинско земљиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav7">
+						<content>
+							<p>У случају из <ref wId="ref89" href="akn/rs/act/2018/95-241/srp@/!main~art_22__para_5" >става 5. овог</ref> члана Агенција ће прекинути поступак до правноснажног окончања поступка легализације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan23">
+					<num>23.</num>
+					<heading>Које се земљиште враћа</heading>
+					<paragraph wId="gla2-od2-clan23-stav1">
+						<content>
+							<p>Бившем власнику на неизграђеном грађевинском земљишту у јавној својини, на коме је као власник или корисник уписана Република Србија, аутономна покрајина или јединица локалне самоуправе, грађевинско земљиште се враћа у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav2">
+						<content>
+							<p>Власник објекта или власник на посебном физичком делу зграде, без обзира на време изградње објекта, који је у време подржављења био власник на грађевинском земљишту на коме је тај објекат изграђен, остварује право својине, односно сусвојине на том грађевинском земљишту, ако то право не оствари по основу конверзије у складу са <ref wId="ref90" href="akn/rs/act/2018/95-241/srp@/!main~art_101" >чланом 101. </ref>Закона о планирању и изградњи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav3">
+						<content>
+							<p>Бившем власнику који је носилац права коришћења на неизграђеном грађевинском земљишту у државној својини, грађевинско земљиште се враћа уколико право својине не оствари конверзијом права коришћења у право својине у складу са <ref wId="ref91" href="akn/rs/act/2018/95-241/srp@/!main~art_101а" >чланом 101а </ref>Закона о планирању и изградњи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav4">
+						<content>
+							<p>Изузетно од члана 18. став 1. тачка <ref wId="ref93" href="akn/rs/act/2018/95-241/srp@/!main~art_18__para_1__point_9" >9</ref>) овог закона, бившем власнику вратиће се право својине и право коришћења на неизграђеном грађевинском земљишту, ако лице из <ref wId="ref92" href="akn/rs/act/2018/95-241/srp@/!main~art_103" >члана 103. </ref>Закона о планирању и изградњи није поднело или не поднесе захтев за конверзију у року од 60 дана од дана ступања на снагу овог закона , а све под условом да је купац у уговору о продаји капитала закљученом у поступку приватизације прихватио враћање имовине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav5">
+						<content>
+							<p>Бивши власник нема право на враћање неизграђеног грађевинског земљишта на коме је као носилац права коришћења уписано лице из <ref wId="ref94" href="akn/rs/act/2018/95-241/srp@/!main~art_104__para_1" >члана 104. став 1. </ref>Закона о планирању и изградњи, до окончања поступка конверзије уз накнаду, у складу са тим законом и подзаконским актом из <ref wId="ref95" href="akn/rs/act/2018/95-241/srp@/!main~art_108__para_1" >члана 108. став 1. </ref>тог закона и ако се конверзија права коришћења у право својине изврши у року од две године од дана подношења захтева за конверзију. Бивши власник нема право на враћање неизграђеног грађевинског земљишта датог у дугорочни закуп, од 13. маја 2003. године до дана ступања на снагу овог закона, у складу са законом којим се уређује просторно планирање, изградња и грађевинско земљиште, осим у случају раскида уговора, под условом да је бивши власник захтев поднео у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav6">
+						<content>
+							<p>Бившем власнику вратиће се право својине и право коришћења на неизграђеном грађевинском земљишту за које одређено лице – носилац права коришћења има право на конверзију у складу са прописима о планирању и изградњи, а право коришћења му је престало на његов захтев сагласно тим прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav7">
+						<content>
+							<p>Ако из неког разлога предвиђеног законом или уговором, уговор о дугорочном закупу из <ref wId="ref96" href="akn/rs/act/2018/95-241/srp@/!main~art_23__para_5" >става 5. овог</ref> члана буде раскинут, закуподавац је дужан да одмах, а најкасније у року од осам дана од дана раскида уговора, обавести Агенцију о овој чињеници, у циљу окончања поступка по захтеву бившег власника, ако је исти поднет у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav8">
+						<content>
+							<p>Бивши власник, који је пренео право коришћења на неизграђеном грађевинском земљишту на треће лице, нема право на враћање ни на обештећење у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav9">
+						<content>
+							<p>*Службени гласник РС,  број <ref wId="ref97" href="akn/rs/act/2015/88/srp@">88/2015</ref> (Одлука УС)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan24">
+					<num>24.</num>
+					<heading>Које се земљиште враћа</heading>
+					<paragraph wId="gla2-od3-clan24-stav1">
+						<content>
+							<p>Бившем власнику враћа се право својине на пољопривредном и шумском земљишту и шумама, одузетим применом прописа из <ref wId="ref98" href="akn/rs/act/2018/95-241/srp@/!main~art_2" >члана 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan24-stav2">
+						<content>
+							<p>Уколико је одузето пољопривредно, односно шумско земљиште било предмет комасације, односно арондације након одузимања, бивши власник има право на враћање земљишта које је добијено из комасационе масе за то земљиште.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan25">
+					<num>25.</num>
+					<heading>Које се земљиште не враћа</heading>
+					<paragraph wId="gla2-od3-clan25-stav1">
+						<intro>
+							<p>Не враћа се право својине на пољопривредном и шумском земљишту ако је, на дан ступања на снагу овог закона:</p>
+						</intro>
+						<point wId="gla2-od3-clan25-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> на катастарској парцели изграђен објекат који је у функцији на дан ступања на снагу овог закона, она површина катастарске парцеле која служи за редовну употребу тог објекта, односно ако је на комплексу земљишта изграђен већи број објеката који су у функцији на дан ступања на снагу овог закона - површина земљишта која економски оправдава коришћење тих објекатa;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan25-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> неопходна нова парцелација земљишта ради обезбеђивања приступног пута за земљиште које је предмет захтева за враћање;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan25-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> земљиште у друштвеној, односно задружној својини стечено теретним правним послом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan25-stav2">
+						<content>
+							<p>Ближи критеријуми за утврђивање површине земљишта које се не враћа у смислу става 1. тачка <ref wId="ref99" href="akn/rs/act/2018/95-241/srp@/!main~art_25__para_1__point_1" >1</ref>) овог члана, утврдиће се уредбом Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan26">
+					<num>26.</num>
+					<heading>Право коришћења и закуп</heading>
+					<paragraph wId="gla2-od3-clan26-stav1">
+						<content>
+							<p>Лицу које је на дан доношења извршног решења имало право коришћења пољопривредног земљишта, то право престаје даном извршности решења о враћању имовине бившем власнику. Лице које је имало право коришћења пољопривредног земљишта дужно је да преда државину бившем власнику по скидању усева, а најкасније до 30. октобра године у којој је решење постало извршно, а кад је решење постало извршно после овог датума – у року од осам дана од скидања првог наредног усева у следећој години.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan26-stav2">
+						<content>
+							<p>Уколико је пољопривредно земљиште, у складу са законом којим се уређује пољопривредно земљиште, дато у закуп, остаје у државини закупца до истека уговора о закупу, ако овим законом није друкчије одређено, осим у случају да се странке друкчије не споразумеју, с тим да закупнину од дана извршности решења о враћању земљишта закупац плаћа бившем власнику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan27">
+					<num>27.</num>
+					<heading>Стамбене зграде и станови</heading>
+					<paragraph wId="gla2-od4-clan27-stav1">
+						<content>
+							<p>Бившим власницима враћају се стамбене зграде, куће, станови, гараже и други пратећи објекти одузети применом прописа из <ref wId="ref100" href="akn/rs/act/2018/95-241/srp@/!main~art_2" >члана 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan27-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref101" href="akn/rs/act/2018/95-241/srp@/!main~art_27__para_1" >става 1. овог</ref> члана, не враћају се стамбене зграде и куће на којима је, у случају заснивања етажне својине, у складу са законом, престало да постоји право својине на згради, односно кући.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan27-stav3">
+						<content>
+							<p>Стамбене зграде, куће и станови на којима постоји законом заштићено станарско право, враћају се у својину бившем власнику, који од дана извршности решења о враћању постаје закуподавац заштићеном станару, под условима утврђеним законом којим се уређује становање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan28">
+					<num>28.</num>
+					<heading>Пословни објекти и пословне просторије</heading>
+					<paragraph wId="gla2-od4-clan28-stav1">
+						<content>
+							<p>Пословни објекти и пословне просторије враћају се бившем власнику у својину и државину, изузев ако су уложени у капитал подржављеног предузећа ради стицања удела, односно акција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan28-stav2">
+						<content>
+							<p>Пословни објекти и пословне просторије из <ref wId="ref102" href="akn/rs/act/2018/95-241/srp@/!main~art_28__para_1" >става 1. овог</ref> члана, дате у закуп било које врсте или сродан однос враћају се бившем власнику у својину у складу са овим законом, а по истеку три године од дана извршности решења о враћању имовине и у државину, ако се бивши власник и закупац другачије не споразумеју. У периоду од стицања својине до ступања у посед бившег власника, закупац ступа у правни однос са њим по уговору који је закључио са претходним власником.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan29">
+					<num>29.</num>
+					<heading>Враћање покретних ствари</heading>
+					<paragraph wId="gla2-od4-clan29-stav1">
+						<content>
+							<p>Враћају се у својину и државину постојеће подржављене покретне ствари из <ref wId="ref103" href="akn/rs/act/2018/95-241/srp@/!main~art_15__para_3" >члана 15. став 3. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan29-stav2">
+						<content>
+							<p>Не враћају се покретне ствари из <ref wId="ref104" href="akn/rs/act/2018/95-241/srp@/!main~art_29__para_1" >става 1. овог</ref> члана, које су, на дан ступања на снагу овог закона, саставни део збирки музеја, галерија, непокретних културних добара од изузетног значаја, или других сродних установа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan29-stav3">
+						<content>
+							<p>Не враћају се покретне ствари из <ref wId="ref105" href="akn/rs/act/2018/95-241/srp@/!main~art_29__para_1" >става 1. овог</ref> члана које су продате у поступку приватизације, у складу са законом којим се уређује приватизација.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>трећа</num>
+				<heading>ОБЕШТЕЋЕЊЕ</heading>
+				<article wId="gla3-clan30">
+					<num>30.</num>
+					<heading>Облик и укупан обим обештећења</heading>
+					<paragraph wId="gla3-clan30-stav1">
+						<content>
+							<p>Обештећење се врши у виду државних обвезница Републике Србије и у новцу за исплату аконтације обештећења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav2">
+						<content>
+							<p>Укупан износ обештећења из <ref wId="ref106" href="akn/rs/act/2018/95-241/srp@/!main~art_30__para_1" >става 1. овог</ref> члана не сме да угрози макроекономску стабилност и привредни раст Републике Србије, те се за ове намене опредељује износ од две милијарде евра, увећан за збир припадајућих камата за све кориснике обештећења, обрачунатих по каматној стопи од 2% годишње, за период од 30. јунa 2020. године године до рокова доспећа утврђених овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref107" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan31">
+					<num>31.</num>
+					<heading>Утврђивање обештећења</heading>
+					<paragraph wId="gla3-clan31-stav1">
+						<content>
+							<p>Износ обештећења утврђује се у еврима, тако што се основица обештећења помножи коефицијентом који се добија када се стави у однос износ од две милијарде евра и износ укупног збира основица обештећења утврђених решењима о праву на обештећење увећаног за процену неутврђених основица из <ref wId="ref108" href="akn/rs/act/2018/95-241/srp@/!main~art_31__para_5" >става 5. овог</ref> члана. Коефицијент се изражава са две децимале.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav2">
+						<content>
+							<p>Ради спровођења одредаба <ref wId="ref109" href="akn/rs/act/2018/95-241/srp@/!main~art_30" >члана 30. овог</ref> закона, Влада ће, на предлог министарства надлежног за послове финансија, утврдити коефицијент из <ref wId="ref111" href="akn/rs/act/2018/95-241/srp@/!main~art_31__para_1" >става 1. овог</ref> члана, у року од  осам година од дана објављивања јавног позива из <ref wId="ref110" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_1" >члана 42. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav3">
+						<content>
+							<p>По одредбама овог закона може се остварити укупно обештећење по основу одузете имовине једног бившег власника, по свим основима из <ref wId="ref112" href="akn/rs/act/2018/95-241/srp@/!main~art_1" >члана 1. овог</ref> закона, које, у општем интересу, не може прећи износ од 500.000 евра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav4">
+						<content>
+							<p>У случају кад један законски наследник по одредбама овог закона остварује право по основу одузете имовине од више бивших власника, обештећење том наследнику по основу свих бивших власника, у оквиру њиховог законског максимума, у општем интересу, не може прећи износ од 500.000 евра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav5">
+						<content>
+							<p>Ако у року од осам година од дана објављивања јавног позива из <ref wId="ref113" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_1" >члана 42. став 1. овог</ref> закона, нису донета сва решења о праву на обештећење, неутврђене основице процениће Агенција за потребе утврђивања коефицијента из <ref wId="ref114" href="akn/rs/act/2018/95-241/srp@/!main~art_31__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav6">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref115" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan32">
+					<num>32.</num>
+					<heading>Утврђивање вредности непокретности</heading>
+					<paragraph wId="gla3-clan32-stav1">
+						<content>
+							<p>Основица за обештећење за одузете непокретности једнака је вредности непокретности, утврђеној проценом надлежног органа, у складу са овим законом, израженој у еврима, према званичном средњем курсу Народне банке Србије на дан процене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav2">
+						<content>
+							<p>Надлежни орган из <ref wId="ref116" href="akn/rs/act/2018/95-241/srp@/!main~art_32__para_1" >става 1. овог</ref> члана ће, на захтев Агенције, у поступку који одговара поступку утврђивања пореске основице пореза на пренос апсолутних права, утврдити вредност непокретности, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav3">
+						<content>
+							<p>Вредност непокретности у смислу <ref wId="ref117" href="akn/rs/act/2018/95-241/srp@/!main~art_32__para_1" >става 1. овог</ref> члана утврђује надлежни орган према месту где се непокретност налази. Вредност непокретности утврђује се према стању на дан одузимања, а према вредности на дан процене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav4">
+						<content>
+							<p>Уколико је одузето земљиште у време одузимања било пољопривредно, а на дан процене има статус грађевинског земљишта, вредност тог земљишта процениће се као вредност грађевинског земљишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav5">
+						<content>
+							<p>Вредност објеката који не постоје у време процене, утврђује се на основу вредности истих или сличних објеката, са истом или сличном наменом, на истом месту или у ближој околини, у складу са одредбама овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav6">
+						<content>
+							<p>Ако је објекту, после одузимања, на основу повећања површине у квадратним метрима увећана вредност утврђена проценом из <ref wId="ref118" href="akn/rs/act/2018/95-241/srp@/!main~art_32__para_2" >става 2. овог</ref> члана, извршиће се смањење њене вредности, сразмерно увећању бруто површине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan33">
+					<num>33.</num>
+					<heading>Утврђивање вредности покретних ствари</heading>
+					<paragraph wId="gla3-clan33-stav1">
+						<content>
+							<p>Вредност постојећих покретних ствари из <ref wId="ref119" href="akn/rs/act/2018/95-241/srp@/!main~art_29__para_1" >члана 29. став 1. овог</ref> закона утврђује се у еврима према њиховој тржишној вредности, коју утврђује Агенција, преко судског вештака одговарајуће струке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav2">
+						<content>
+							<p>Начин и методологија утврђивања вредности покретних ствари из <ref wId="ref120" href="akn/rs/act/2018/95-241/srp@/!main~art_33__para_1" >става 1. овог</ref> члана, ближе ће се утврдити уредбом Владе, на предлог министарства надлежног за послове финансија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan34">
+					<num>34.</num>
+					<heading>Утврђивање вредности предузећа, односно дела предузећа</heading>
+					<paragraph wId="gla3-clan34-stav1">
+						<content>
+							<p>За одузета предузећа за која је у акту о одузимању имовине наведена чиста актива, сагласно одговарајућим прописима из <ref wId="ref121" href="akn/rs/act/2018/95-241/srp@/!main~art_2" >члана 2. овог</ref> закона, основица обештећења је вредност чисте активе, валоризоване на основу паритета динара према америчком долару на дан одузимања и паритета динара према америчком долару на дан доношења решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav2">
+						<content>
+							<p>Изузетно, за предузећа за која у акту о одузимању није наведена чиста актива, основицу обештећења чини регистрован основни капитал на дан одузимања, валоризован на начин из <ref wId="ref122" href="akn/rs/act/2018/95-241/srp@/!main~art_34__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav3">
+						<content>
+							<p>За одузето предузеће које има сувласнике, вредност предмета обештећења из <ref wId="ref123" href="akn/rs/act/2018/95-241/srp@/!main~art_34__para_1->para_2" >ст. 1. и 2. овог</ref> члана дели се на сувласнике сразмерно учешћу у власништву на том предузећу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav4">
+						<content>
+							<p>У случају одузимања акција, односно удела једног или више сувласника предузећа, сматра се да је, у смислу овог закона, одузет део предузећа, па се вредност предмета враћања утврђује сходном применом <ref wId="ref124" href="akn/rs/act/2018/95-241/srp@/!main~art_34__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan35">
+					<num>35.</num>
+					<heading>Државне обвезнице</heading>
+					<paragraph wId="gla3-clan35-stav1">
+						<content>
+							<p>Ради регулисања јавног дуга који настаје по основу обештећења из <ref wId="ref125" href="akn/rs/act/2018/95-241/srp@/!main~art_30" >члана 30. овог</ref> закона, Република Србија ће емитовати обвезнице које гласе на евро.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav2">
+						<content>
+							<p>Обвезнице из <ref wId="ref126" href="akn/rs/act/2018/95-241/srp@/!main~art_35__para_1" >става 1. овог</ref> члана емитују се у нематеријалном облику, без купона, појединачно за сваку годину, и региструју код Централног регистра, депоа и клиринга хартија од вредности (у даљем тексту: Централни регистар).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav3">
+						<content>
+							<p>Обвезнице из <ref wId="ref127" href="akn/rs/act/2018/95-241/srp@/!main~art_35__para_1" >става 1. овог</ref> члана гласе на име и преносиве су, а исплаћују се у еврима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav4">
+						<content>
+							<p>Основне елементе обвезница, износ емисије, као и услове дистрибуције и наплате обвезница, уредиће Влада, на предлог министарства надлежног за послове финансија, најкасније до 30. јуна 2020. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav5">
+						<content>
+							<p>Обвезнице доспевају у року од 12 година и исплаћују се у годишњим ратама почев од 15. децембра 2021. године, осим обвезница за лица која су на дан ступања на снагу овог закона старија од 70 година, које доспевају у року од пет година, односно лица која коју су на дан ступања на снагу овог закона старија од 65 година, које доспевају у року од 10 година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav6">
+						<content>
+							<p>У случају када је решење о обештећењу постало правноснажно после доспећа прве годишње рате обвезница  у 2021. години, кориснику ће се исплатити доспеле годишње рате обвезница са припадајућом каматом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav7">
+						<content>
+							<p>Промет обвезница емитованих у складу са овим законом је слободан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav8">
+						<content>
+							<p>Промет и поседовање обвезница емитованих у складу са овим законом ослобођено је сваке врсте пореза.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav9">
+						<content>
+							<p>Обвезнице из овог члана могу се куповати и продавати на берзи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav10">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref128" href="akn/rs/act/2014/142/srp@">142/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav11">
+						<content>
+							<p>**Службени  гласник РС, број <ref wId="ref129" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan36">
+					<num>36.</num>
+					<heading>Извори средстава</heading>
+					<paragraph wId="gla3-clan36-stav1">
+						<intro>
+							<p>Извори средстава за измирење обавеза по основу издатих обвезница и исплате новчане аконтације су:</p>
+						</intro>
+						<point wId="gla3-clan36-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> наменски издвојена средства у поступку приватизације;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> средства остварена конверзијом права коришћења грађевинског земљишта у својину уз накнаду, предвиђена посебним законом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> наменска средства предвиђена буџетом Републике Србије.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav2">
+						<content>
+							<p>Средства из <ref wId="ref130" href="akn/rs/act/2018/95-241/srp@/!main~art_36__para_1" >става 1. овог</ref> члана уплаћују се на наменски рачун министарства надлежног за финансије код Народне банке Србије и могу се користити само за исплату обештећења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav3">
+						<content>
+							<p>Република Србија, аутономна покрајина, односно јединица локалне самоуправе је дужна да средства остварена у складу са <ref wId="ref131" href="akn/rs/act/2018/95-241/srp@/!main~art_36__para_1" >ставом 1. овог</ref> члана уплати у року од 15 дана од дана наплате.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan37">
+					<num>37.</num>
+					<heading>Аконтација обештећења</heading>
+					<paragraph wId="gla3-clan37-stav1">
+						<content>
+							<p>Република Србија ће исплатити бесповратно аконтацију обештећења у новцу бившем власнику, на основу правноснажног решења о утврђивању износа обештећења, у износу од 10% од утврђеног износа обештећења по свим основима бившег власника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav2">
+						<content>
+							<p>У случају кад уместо бившег власника право из <ref wId="ref132" href="akn/rs/act/2018/95-241/srp@/!main~art_37__para_1" >става 1. овог</ref> члана остварују његови законски наследници, износ аконтације дели се на законске наследнике сагласно њиховим утврђеним уделима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav3">
+						<content>
+							<p>Износ аконтације из <ref wId="ref133" href="akn/rs/act/2018/95-241/srp@/!main~art_37__para_1" >става 1. овог</ref> члана не може бити већи од 10.000 евра по бившем власнику по свим основима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav4">
+						<content>
+							<p>За износ исплаћене аконтације из <ref wId="ref134" href="akn/rs/act/2018/95-241/srp@/!main~art_37__para_1" >става 1. овог</ref> члана умањиће се обештећење у виду обвезница.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav5">
+						<content>
+							<p>Аконтација обештећења по одредбама овог закона  утврђује се и исплаћује почев од 31. марта 2020. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref135" href="akn/rs/act/2013/108/srp@">108/2013</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav7">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref136" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan38">
+					<num>38.</num>
+					<heading>Порези, таксе и трошкови поступка</heading>
+					<paragraph wId="gla3-clan38-stav1">
+						<content>
+							<p>Стицање имовине и остваривање обештећења по овом закону не подлеже плаћању ни jeднe врсте пореза, административних и судских такси.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav2">
+						<content>
+							<p>Подносилац захтева сноси трошкове поступка у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref137" href="akn/rs/act/2018/95-241/srp@/!main~art_38__para_2" >става 2. овог</ref> члана, подносилац захтева није у обавези да плати трошкове за рад и пружање услуга Републичког геодетског завода, који падају на терет тог органа. Подносилац захтева је дужан да плати накнаду за рад геодетске организације у случају кад је њено ангажовање неопходно за правилно решење захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>четврта</num>
+				<heading>ПОСТУПАК ЗА ВРАЋАЊЕ ИМОВИНЕ И ОБЕШТЕЋЕЊЕ</heading>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<heading>Странке у поступку</heading>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Странка у поступку је лице по чијем је захтеву покренут поступак или које има правни интерес, обвезник, као и републички јавни правобранилац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan40">
+					<num>40.</num>
+					<heading>Надлежни орган</heading>
+					<paragraph wId="gla4-clan40-stav1">
+						<content>
+							<p>По захтеву за враћање имовине поступак води Агенција, као јавна агенција, преко подручних јединица, а у складу са овим законом и законом којим се уређује општи управни поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav2">
+						<content>
+							<p>Агенција ће објавити јавни позив за подношење захтева за враћање имовине у најмање два дневна листа који се дистрибуирају на целој територији Републике Србије, као и на званичном веб сајту министарства надлежног за послове финансија и Агенције, у року од 120 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan41">
+					<num>41.</num>
+					<heading>Подносилац захтева</heading>
+					<paragraph wId="gla4-clan41-stav1">
+						<content>
+							<p>Захтев за враћање имовине, у складу са овим законом, подносе сви бивши власници одузете имовине, односно њихови законски наследници и правни следбеници.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav2">
+						<content>
+							<p>Захтев из <ref wId="ref138" href="akn/rs/act/2018/95-241/srp@/!main~art_41__para_1" >става 1. овог</ref> члана могу поднети заједно сви законски наследници бившег власника или сваки од њих појединачно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav3">
+						<content>
+							<p>Право на подношење захтева у складу са овим законом имају сви бивши власници одузете имовине, њихови законски наследници или правни следбеници, без обзира да ли су поднели пријаву у складу са Законом о пријављивању и евидентирању одузете имовине („Службени гласник РС”, број <ref wId="ref139" href="akn/rs/act/05/45/srp@">45/05</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan42">
+					<num>42.</num>
+					<heading>Подношење и садржина захтева</heading>
+					<paragraph wId="gla4-clan42-stav1">
+						<content>
+							<p>Захтев се подноси у року од две године од дана објављивања јавног позива Агенције из <ref wId="ref140" href="akn/rs/act/2018/95-241/srp@/!main~art_40__para_2" >члана 40. став 2. овог</ref> закона на веб сајту министарства надлежног за послове финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav2">
+						<content>
+							<p>Захтев се подноси Агенцији – надлежној подручној јединици – на прописаном обрасцу и са потребним доказима, преко шалтера поште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav3">
+						<intro>
+							<p>Захтев садржи податке о:</p>
+						</intro>
+						<point wId="gla4-clan42-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> бившем власнику – име, име једног родитеља и презиме, датум и место рођења, пребивалиште, односно боравиштe у време одузимања имовине и држављанство, односно назив и седиште задужбине;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan42-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> одузетој имовини на коју се захтев односи – врста, назив, величина, односно површина, место где се непокретност налази, број катастарске парцеле по старом и важећем премеру, изглед и стање имовине у време одузимања, односно одговарајући подаци за покретне ствари;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan42-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> праву својине бившег власника на одузетој имовини;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan42-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> основу, времену и акту одузимања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan42-stav3-tac5">
+							<num>5)</num>
+							<content>
+								<p> подносиоцу захтева – име, име једног родитеља и презиме, податке о рођењу, пребивалишту, држављанству, јединствени матични број грађана, име, презиме и пребивалиште пуномоћника, односно назив и седиште задужбине, податке о лицу које представља задужбину и лицу које заступа задужбину;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan42-stav3-tac6">
+							<num>6)</num>
+							<content>
+								<p> правној вези подносиоца захтева са бившим власником.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav4">
+						<intro>
+							<p>Уз захтев се прилажу, у оригиналу или овереној фотокопији, следећи докази:</p>
+						</intro>
+						<point wId="gla4-clan42-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> за податке из става 3. тач. <ref wId="ref141" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3__point_1" >1</ref>) и <ref wId="ref142" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3__point_5" >5</ref>) овог члана – извод из матичне књиге рођених, односно умрлих, извод из регистра у коме је задужбина уписана, пуномоћје, а ако подносилац захтева нема стално пребивалиште на територији Републике Србије и пуномоћје за лице овлашћено за пријем писмена, као и други доказ на основу којег се могу несумњиво утврдити тражени подаци;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan42-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> за податке из става 3. тачка <ref wId="ref143" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3__point_2" >2</ref>) овог члана – извод из регистра непокретности, извод из регистра покретних ствари, уверење Републичког геодетског завода о идентификацији катастарске парцеле старог и новог премера, осим за катастарске парцеле за које је спроведена комасација;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan42-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> за податке из става 3. тачка <ref wId="ref144" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3__point_4" >4</ref>) овог члана – исправа о подржављењу имовине или назив, број и година службеног гласила у коме је објављен акт, уз конкретно навођење предмета одузимања и сл.;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan42-stav4-tac4">
+							<num>4)</num>
+							<content>
+								<p> за податке из става 3. тачка <ref wId="ref145" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3__point_6" >6</ref>) овог члана – извод из матичне књиге, решење о наслеђивању, извод из регистра правних лица, односно други доказ на основу којег се може несумњиво утврдити правна веза подносиоца захтева са бившим власником;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan42-stav4-tac5">
+							<num>5)</num>
+							<content>
+								<p> све друге доказе које подносилац захтева поседује, а који могу бити од значаја за одлучивање по захтеву.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav5">
+						<content>
+							<p>Лице које има страно држављанство дужно је да уз захтев достави доказ о непостојању сметњи из <ref wId="ref146" href="akn/rs/act/2018/95-241/srp@/!main~art_5" >члана 5. овог</ref> закона за остваривање права на враћање имовине, осим доказа, односно чињеница које Агенција утврђује по службеној дужности у смислу <ref wId="ref147" href="akn/rs/act/2018/95-241/srp@/!main~art_5__para_5" >члана 5. став 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav6">
+						<content>
+							<p>Лице из <ref wId="ref148" href="akn/rs/act/2018/95-241/srp@/!main~art_6__para_1" >члана 6. став 1. овог</ref> закона је у обавези да уз захтев приложи и правноснажну судску одлуку о рехабилитацији, односно доказ да је поднело захтев за рехабилитацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav7">
+						<content>
+							<p>Захтев мора да садржи податке из става 3. тач. <ref wId="ref149" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3__point_1" >1</ref>), <ref wId="ref150" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3__point_2" >2</ref>), <ref wId="ref151" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3__point_5" >5</ref>) и <ref wId="ref152" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_3__point_6" >6</ref>) овог члана. Уз захтев се обавезно прилажу и докази из става 4. тач. <ref wId="ref153" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_4__point_1" >1</ref>), <ref wId="ref154" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_4__point_3" >3</ref>) и <ref wId="ref155" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_4__point_4" >4</ref>) овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav8">
+						<content>
+							<p>Образац захтева, начин и поступак пријема и обраде захтева, као и списак пошта где ће се вршити подношење захтева прописаће министар надлежан за финансије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan43">
+					<num>43.</num>
+					<heading>Одбацивање захтева</heading>
+					<paragraph wId="gla4-clan43-stav1">
+						<content>
+							<p>Захтев који не садржи податке из <ref wId="ref156" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_7" >члана 42. став 7. овог</ref> закона и уз који нису приложени докази из тог става одбациће се као неуредан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan43-stav2">
+						<content>
+							<p>Лице чији је захтев одбачен у смислу <ref wId="ref158" href="akn/rs/act/2018/95-241/srp@/!main~art_43__para_1" >става 1. овог</ref> члана има право да нови захтев поднесе до истека рока из <ref wId="ref157" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_1" >члана 42. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan43-stav3">
+						<content>
+							<p>Против акта из <ref wId="ref159" href="akn/rs/act/2018/95-241/srp@/!main~art_43__para_1" >става 1. овог</ref> члана жалба није допуштена, али се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan44">
+					<num>44.</num>
+					<heading>Надлежност подручних јединица Агенције</heading>
+					<paragraph wId="gla4-clan44-stav1">
+						<content>
+							<p>Надлежност подручне јединице Агенције утврђује се према пребивалишту, односно боравишту бившег власника у Републици Србији у време одузимања имовине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav2">
+						<content>
+							<p>У случају да није могуће одредити месну надлежност на начин из <ref wId="ref160" href="akn/rs/act/2018/95-241/srp@/!main~art_44__para_1" >става 1. овог</ref> члана, надлежна је подручна јединица Агенције коју одреди директор Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan45">
+					<num>45.</num>
+					<heading>Прекид поступка</heading>
+					<paragraph wId="gla4-clan45-stav1">
+						<content>
+							<p>Агенција ће прекинути поступак до окончања поступка легализације, рехабилитације, или када се као претходно питање појави питање чије решавање спада у искључиву надлежност суда, као и у случају прописаном у <ref wId="ref161" href="akn/rs/act/2018/95-241/srp@/!main~art_23__para_4->para_5" >члану 23. ст. 4. и 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan46">
+					<num>46.</num>
+					<heading>Рок за доношење решења</heading>
+					<paragraph wId="gla4-clan46-stav1">
+						<content>
+							<p>Агенција је дужна да о потпуном захтеву одлучи најкасније у року од шест месеци, а изузетно код посебно сложених предмета, годину дана од дана пријема потпуног захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan47">
+					<num>47.</num>
+					<heading>Решење о враћању имовине или обештећењу</heading>
+					<paragraph wId="gla4-clan47-stav1">
+						<content>
+							<p>Агенција утврђује све чињенице и околности од значаја за одлучивање о захтеву и доноси решење којим утврђује корисника, имовину која се враћа, односно за коју се даје обештећење, висину основице обештећења и аконтације из <ref wId="ref162" href="akn/rs/act/2018/95-241/srp@/!main~art_37" >члана 37. овог</ref> закона, обвезника, начин и рокове за извршавање утврђених обавеза. Износ обештећења утврђује се по утврђивању коефицијента из <ref wId="ref163" href="akn/rs/act/2018/95-241/srp@/!main~art_31" >члана 31. овог</ref> закона, допуном решења о утврђивању права на обештећење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav2">
+						<content>
+							<p>Уколико захтев обухвата више непокретности, односно покретних ствари, орган из <ref wId="ref164" href="akn/rs/act/2018/95-241/srp@/!main~art_47__para_1" >става 1. </ref>може донети више решења којим се врши повраћај имовине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav3">
+						<content>
+							<p>У решењу о враћању налаже се надлежним органима извршење решења, као и брисање евентуалних терета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav4">
+						<content>
+							<p>Првостепено решење Агенција доставља подносиоцу захтева, обвезнику и републичком јавном правобраниоцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav5">
+						<intro>
+							<p>Решењем из <ref wId="ref165" href="akn/rs/act/2018/95-241/srp@/!main~art_47__para_1" >става 1. овог</ref> члана утврђује се корисник, односно корисници, и то:</p>
+						</intro>
+						<point wId="gla4-clan47-stav5-tac1">
+							<num>1)</num>
+							<content>
+								<p> бивши власник – ако је у животу;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan47-stav5-tac2">
+							<num>2)</num>
+							<content>
+								<p> законски наследници бившег власника – на основу правноснажног решења о наслеђивању бившег власника, ако такво решење постоји, а ако таквог решења нема, решењем ће се одредити корисници само у случају кад је из достављене документације могуће неспорно утврдити све законске наследнике.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav6">
+						<content>
+							<p>У случају кад је решењем из <ref wId="ref166" href="akn/rs/act/2018/95-241/srp@/!main~art_47__para_1" >става 1. овог</ref> члана одређено више корисника, сваком од њих одредиће се припадајући део имовине, односно обештећења, према правноснажном решењу о наслеђивању бившег власника, ако такво решење постоји или на основу споразума законских наследника закљученог пред првостепеним органом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav7">
+						<content>
+							<p>Ако се корисници и њихови удели не могу утврдити применом одредаба <ref wId="ref168" href="akn/rs/act/2018/95-241/srp@/!main~art_47__para_5->para_6" >ст. 5. и 6. овог</ref> члана, првостепени орган ће подносиоце захтева за остваривање права по овом закону, сагласно <ref wId="ref167" href="akn/rs/act/2018/95-241/srp@/!main~art_45" >члану 45. овог</ref> закона, упутити да ова питања, као претходна, реше пред надлежним судом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav8">
+						<content>
+							<p>У поступку из <ref wId="ref169" href="akn/rs/act/2018/95-241/srp@/!main~art_47__para_7" >става 7. овог</ref> члана, надлежни суд у ванпарничном поступку, сходном применом правила по којима се расправља заоставштина, утврђује законске наследнике бившег власника и њихове уделе у праву на повраћај одузете имовине или на обештећење, при чему се суд не упушта у то да ли та лица испуњавају прописане услове за остваривање ових права по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav9">
+						<content>
+							<p>Решење Агенције из става 5. тачка <ref wId="ref171" href="akn/rs/act/2018/95-241/srp@/!main~art_47__para_5__point_2" >2</ref>) овог члана, односно решење суда из <ref wId="ref170" href="akn/rs/act/2018/95-241/srp@/!main~art_47__para_8" >става 8. овог</ref> члана, о одређивању законских наследника бившег власника и њихових удела, важи само у поступку пред Агенцијом за остваривање права на враћање одузете имовине, односно права на обештећење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav10">
+						<content>
+							<p>Код утврђивања својства корисника, односно законских наследника по одредбама овог члана, није од значаја раније дата наследничка изјава лица које је поднело захтев за остваривање права по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav11">
+						<content>
+							<p>Подносиоци захтева за остваривање права по одредбама овог закона који по одредбама овог члана нису одређени за кориснике, могу своја права остварити у парничном поступку – подношењем тужбе против лица која су одређена за кориснике, односно законске наследнике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav12">
+						<content>
+							<p>У случају да орган из <ref wId="ref172" href="akn/rs/act/2018/95-241/srp@/!main~art_47__para_1" >става 1. овог</ref> члана утврди да не постоји законски основ за враћање или обештећење, донеће решење о одбијању поднетог захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav13">
+						<content>
+							<p>Правноснажно решење о враћању имовине Агенција доставља и Републичкој дирекцији за имовину Републике Србије, а за пољопривредно земљиште, шуме и шумско земљиште министарству надлежном за послове пољопривреде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan48">
+					<num>48.</num>
+					<heading>Правна средства</heading>
+					<paragraph wId="gla4-clan48-stav1">
+						<content>
+							<p>Против првостепеног решења из <ref wId="ref173" href="akn/rs/act/2018/95-241/srp@/!main~art_47" >члана 47. овог</ref> закона, подносилац захтева, обвезник и републички јавни правобранилац могу изјавити жалбу министарству надлежном за послове финансија, као другостепеном органу, у року од 15 дана од дана достављања решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan48-stav2">
+						<content>
+							<p>Министарство надлежно за послове финансија је дужно да одлучи о поднетој жалби у року од 90 дана од дана пријема.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan48-stav3">
+						<content>
+							<p>Против другостепеног решења може се покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan48-stav4">
+						<content>
+							<p>Поступак по тужби за покретање управног спора из <ref wId="ref174" href="akn/rs/act/2018/95-241/srp@/!main~art_48__para_3" >става 3. овог</ref> члана сматра се хитним.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan49">
+					<num>49.</num>
+					<heading>Извршење решења</heading>
+					<paragraph wId="gla4-clan49-stav1">
+						<content>
+							<p>На основу правноснажног решења о враћању имовине власник има право да упише својину на предметној непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav2">
+						<content>
+							<p>На основу правноснажног решења о враћању имовине чији је обвезник враћања друштво капитала или задруга у поступку стечаја, односно ликвидације, бивши власник има право да захтева излучење из стечајне, односно ликвидационе масе стечајног, односно ликвидационог дужника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav3">
+						<content>
+							<p>На основу извршног решења којим се одређује обештећење, орган или организација надлежна за предају државних обвезница, односно потврде о њиховом издавању, предаће обвезнице кориснику, односно корисницима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav4">
+						<content>
+							<p>Решење из <ref wId="ref175" href="akn/rs/act/2018/95-241/srp@/!main~art_49__para_3" >става 3. овог</ref> члана сматра се извршеним уписом власништва корисника на обвезницама у Централни регистар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan50">
+					<num>50.</num>
+					<heading>Евиденција о захтевима и подношење извештаја</heading>
+					<paragraph wId="gla4-clan50-stav1">
+						<content>
+							<p>Агенција води, у електронском облику, евиденцију о поднетим захтевима, утврђеној вредности имовине (основице обештећења) и обештећења по поднетим захтевима, као и решеним предметима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav2">
+						<content>
+							<p>На основу евиденције и података из <ref wId="ref177" href="akn/rs/act/2018/95-241/srp@/!main~art_50__para_1" >става 1. овог</ref> члана, Агенција ће најкасније у року од  осам година од дана објављивања јавног позива из <ref wId="ref176" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_1" >члана 42. став 1. овог</ref> закона доставити Влади, преко министарства надлежног за послове финансија, процену укупног износа основице обештећења по поднетим захтевима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav3">
+						<content>
+							<p>Агенција ће изводе из захтева из <ref wId="ref178" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_1" >члана 42. став 1. овог</ref> закона примљене у претходном периоду једном месечно збирно објављивати на веб сајту Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav4">
+						<content>
+							<p>Извод из <ref wId="ref179" href="akn/rs/act/2018/95-241/srp@/!main~art_50__para_3" >става 3. овог</ref> члана нарочито садржи: име, име једног родитеља и презиме подносиоца захтева, број под којим је захтев евидентиран, податке о имовини чије се враћање захтева и позив свима који испуњавају услове да се, у законском року, захтеву придруже.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav5">
+						<content>
+							<p>Облик и садржину извода из <ref wId="ref180" href="akn/rs/act/2018/95-241/srp@/!main~art_50__para_4" >става 4. овог</ref> члана прописаће министар надлежан за финансије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref181" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>пета</num>
+				<heading>АГЕНЦИЈА ЗА РЕСТИТУЦИЈУ</heading>
+				<article wId="gla5-clan51">
+					<num>51.</num>
+					<heading>Оснивање</heading>
+					<paragraph wId="gla5-clan51-stav1">
+						<content>
+							<p>Оснива се Агенција за реституцију, ради вођења поступка и одлучивања о захтевима за враћање имовине, као и ради исплате новчане накнаде и обештећења и обављања других послова утврђених законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan51-stav2">
+						<content>
+							<p>Послове из <ref wId="ref182" href="akn/rs/act/2018/95-241/srp@/!main~art_51__para_1" >става 1. овог</ref> члана Агенција обавља као поверене.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan52">
+					<num>52.</num>
+					<heading>Правни статус</heading>
+					<paragraph wId="gla5-clan52-stav1">
+						<content>
+							<p>Агенција послује у складу са прописима о јавним агенцијама, има својство правног лица, са правима, обавезама и одговорностима утврђеним овим законом и статутом. Агенција има рачун код пословне банке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan53">
+					<num>53.</num>
+					<heading>Седиште и организационе јединице</heading>
+					<paragraph wId="gla5-clan53-stav1">
+						<content>
+							<p>Седиште Агенције је у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav2">
+						<content>
+							<p>Агенција има подручне јединице у Београду, Крагујевцу, Нишу и Новом Саду, које се оснивају за територију општина према прописима којима се уређује регионални развој.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan54">
+					<num>54.</num>
+					<heading>Средства за рад и оснивање Агенције</heading>
+					<paragraph wId="gla5-clan54-stav1">
+						<intro>
+							<p>Средства за рад и оснивање Агенције обезбеђују се из:</p>
+						</intro>
+						<point wId="gla5-clan54-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> буџета Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan54-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> донација и других облика бесповратних средстава;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan54-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> других извора, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan55">
+					<num>55.</num>
+					<heading>Послови Агенције</heading>
+					<paragraph wId="gla5-clan55-stav1">
+						<intro>
+							<p>Агенција обавља послове који се односе на спровођење овог закона и закона којим се уређује враћање имовине црквама и верским заједницама, и то:</p>
+						</intro>
+						<point wId="gla5-clan55-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> води поступак и одлучује о захтевима за враћање имовине, односно обештећење;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan55-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> пружа стручну помоћ подносиоцима захтева и обвезницима враћања;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan55-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> води евиденције прописане законом;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan55-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> извештава Владу годишње, преко министарства надлежног за послове финансија, о обављеним пословима из своје надлежности;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan55-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обавља друге послове прописане законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan56">
+					<num>56.</num>
+					<heading>Органи</heading>
+					<paragraph wId="gla5-clan56-stav1">
+						<content>
+							<p>Органи Агенције су: управни одбор и директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan56-stav2">
+						<content>
+							<p>Чланове управног одбора и директора именује и разрешава Влада на период од пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan56-stav3">
+						<content>
+							<p>Лице које може остварити право на враћање имовине и обештећење у складу са овим законом, не може бити директор, односно члан управног одбора Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan57">
+					<num>57.</num>
+					<heading>Управни одбор</heading>
+					<paragraph wId="gla5-clan57-stav1">
+						<content>
+							<p>Управни одбор има председника и четири члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan57-stav2">
+						<intro>
+							<p>Управни одбор:</p>
+						</intro>
+						<point wId="gla5-clan57-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> доноси статут Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> доноси програм рада;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> усваја финансијски план;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> усваја годишњи извештај о раду Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> усваја завршни рачун;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> доноси опште акте;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> доноси пословник о свом раду;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan57-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> обавља и друге послове утврђене законом и статутом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan57-stav3">
+						<content>
+							<p>Одлуке управног одбора из<ref wId="ref183" href="akn/rs/act/2018/95-241/srp@/!main~" > тач. 1) </ref>до 5) овог члана доносе се уз сагласност Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan58">
+					<num>58.</num>
+					<heading>Директор</heading>
+					<paragraph wId="gla5-clan58-stav1">
+						<intro>
+							<p>Директор:</p>
+						</intro>
+						<point wId="gla5-clan58-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> заступа Агенцију;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan58-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> организује и руководи Агенцијом;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan58-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> предлаже акте које доноси управни одбор;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan58-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> извршава одлуке управног одбора и предузима мере за њихово спровођење;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan58-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> стара се о законитости рада и одговара за законитост рада и коришћење и располагање имовином агенције;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan58-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> доноси акт о унутрашњој организацији и систематизацији радних места;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan58-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> предлаже програм рада;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan58-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> врши и друге послове утврђене законом и статутом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan59">
+					<num>59.</num>
+					<heading>Статут и други општи акти</heading>
+					<paragraph wId="gla5-clan59-stav1">
+						<content>
+							<p>Општи акти Агенције су статут, правилник и други акти којима се на општи начин уређују одређена питања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan59-stav2">
+						<intro>
+							<p>Статут је основни општи акт Агенције, који садржи одредбе о:</p>
+						</intro>
+						<point wId="gla5-clan59-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> делатности Агенције;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan59-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> начину обављања послова;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan59-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> oрганима, организационим јединицама и њиховом деловању;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan59-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> заступању;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan59-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> правима, обавезама и одговорностима запослених;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan59-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> поступку сарадње са органима територијалне аутономије и локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan59-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> другим питањима од значаја за рад Агенције.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>шеста</num>
+				<heading>КАЗНЕНА ОДРЕДБА</heading>
+				<article wId="gla6-clan60">
+					<num>60.</num>
+					<heading>Прекршаји</heading>
+					<paragraph wId="gla6-clan60-stav1">
+						<content>
+							<p>Новчаном казном од 10.000 до 50.000 динара казниће се за прекршај одговорно лице у органу Републике Србије, органу аутономне јединице, органу јединице локалне самоуправе и другом органу и организацији које не изда потребну документацију којом располаже из оквира своје надлежности у складу са <ref wId="ref184" href="akn/rs/act/2018/95-241/srp@/!main~art_13" >чланом 13. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>седма</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan61">
+					<num>61.</num>
+					<heading>Доношење подзаконских аката</heading>
+					<paragraph wId="gla7-clan61-stav1">
+						<content>
+							<p>Министар надлежан за финансије донеће прописе из <ref wId="ref185" href="akn/rs/act/2018/95-241/srp@/!main~art_42__para_8" >члана 42. став 8. </ref>и <ref wId="ref186" href="akn/rs/act/2018/95-241/srp@/!main~art_50__para_5" >члана 50. став 5. овог</ref> закона, у року од 30 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan61-stav2">
+						<content>
+							<p>Влада ће донети прописе из <ref wId="ref187" href="akn/rs/act/2018/95-241/srp@/!main~art_25__para_2" >члана 25. став 2. </ref>и <ref wId="ref188" href="akn/rs/act/2018/95-241/srp@/!main~art_33__para_2" >члана 33. став 2. овог</ref> закона у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan62">
+					<num>62.</num>
+					<heading>Забрана отуђења и оптерећења подржављене имовине</heading>
+					<paragraph wId="gla7-clan62-stav1">
+						<content>
+							<p>Од ступања на снагу овог закона имовина која је одузета бившим власницима, а за коју је поднета пријава у складу са Законом о пријављивању и евидентирању одузете имовине („Службени гласник РС”, број <ref wId="ref189" href="akn/rs/act/05/45/srp@">45/05</ref>), а по одредбама овог закона може бити враћена, не може бити предмет отуђивања, хипотеке или залоге, до правноснажног окончања поступка по захтеву за враћање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan62-stav2">
+						<content>
+							<p>Забрана отуђења и оптерећења имовине из <ref wId="ref190" href="akn/rs/act/2018/95-241/srp@/!main~art_62__para_1" >става 1. овог</ref> члана у погледу имовине за коју нису поднети захтеви за враћање престаје по истеку рока за подношење захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan62-stav3">
+						<content>
+							<p>Враћена имовина је у слободном промету, а Република Србија, аутономна покрајина, односно јединица локалне самоуправе има право прече куповине приликом првог отуђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan62-stav4">
+						<content>
+							<p>Акт отуђења и оптерећења имовине који је супротан одредбама овог члана је ништав.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan63">
+					<num>63.</num>
+					<heading>Почетак рада Агенције за реституцију</heading>
+					<paragraph wId="gla7-clan63-stav1">
+						<content>
+							<p>Агенција за реституцију почиње са радом до 1. јануара 2012. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan63-stav2">
+						<content>
+							<p>Агенција ће преузети предмете, средства за рад, архиву и запослене у Дирекцији за реституцију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan64">
+					<num>64.</num>
+					<heading>Преузимање пријава одузете имовине</heading>
+					<paragraph wId="gla7-clan64-stav1">
+						<content>
+							<p>Пријаве са пратећом документацијом које су поднете Републичкој дирекцији за имовину Републике Србије на основу Закона о пријављивању и евидентирању одузете имовине („Службени гласник РС”, број <ref wId="ref191" href="akn/rs/act/05/45/srp@">45/05</ref>), Републичкa дирекцијa за имовину Републике Србије ће, у року од три месеца од дана ступања на снагу овог закона, доставити подносиоцима пријава препорученом пошиљком на адресу наведену у пријави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan64-stav2">
+						<content>
+							<p>У случају када више лица поседује потврде о извршеном евидентирању одузете имовине под истим бројем, пријава са пратећом документацијом се доставља првом потписнику пријаве.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan65">
+					<num>65.</num>
+					<heading>Примена Закона на територији Аутономне покрајине Косово и Метохија</heading>
+					<paragraph wId="gla7-clan65-stav1">
+						<content>
+							<p>Примена овог закона на територији Аутономне покрајине Косово и Метохија уредиће се по престанку функционисања међународне управе успостављене у складу са Резолуцијом 1244 Савета безбедности Уједињених нација.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan66">
+					<num>66.</num>
+					<heading>Престанак важења одредбе другог закона</heading>
+					<paragraph wId="gla7-clan66-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи <ref wId="ref192" href="akn/rs/act/2018/95-241/srp@/!main~art_8" >члан 8. </ref>Закона о пријављивању и евидентирању одузете имовине („Службени гласник РС”, број <ref wId="ref193" href="akn/rs/act/05/45/srp@">45/05</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan67">
+					<num>67.</num>
+					<heading>Завршна одредба</heading>
+					<paragraph wId="gla7-clan67-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,2420 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о ознакама географског порекла">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2010/18-96/main"/>
+					<FRBRuri value="akn/rs/act/2010/18-96"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/44-27/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/44-27/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/44-27/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/44-27/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2010-03-26" name="службени гласник рс“" number="18" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="7. Индустријска својина и техничка унапређења" value="7. индустријска својина и техничка унапређења" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2010-01-01" refersTo="18/2010-96" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2018-01-01" refersTo="44/2018-27" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2010-03-23" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2010-04-03" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2010-04-03" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="порекла"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="регистроване"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="географског"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="ознака"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="коришћења"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="стицања"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="алкохолна"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="територији"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="лисабонски"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="аранжман"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="стицање"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="ракију"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређени"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="директно"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="територију"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="исто"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="вино"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="остваривање"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="њиховом"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународном"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="пића"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="регистровању"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="пријављене"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштите"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="делу"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="систем"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="србији"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="аранжмана"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="лисабонског"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="производима"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="републици"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="дејство"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштити"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="употреба"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="имају"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="тим"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="ознаке"/>
+				<TLCConcept eId="cocnept42" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописима"/>
+				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="примењују"/>
+				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="правна"/>
+				<TLCConcept eId="cocnept46" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept47" href="http://purl.org/vocab/frbr/core#Concept" showAs="коме"/>
+				<TLCConcept eId="cocnept48" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept49" href="http://purl.org/vocab/frbr/core#Concept" showAs="посебним"/>
+				<TLCConcept eId="cocnept50" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштита"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske zajednice"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske zajednice i Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="IZDAVAČA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Lisabonski aranžman"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar ovlašćenih korisnika oznake geografskog porekla"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SCG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uredbom EU"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organ"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. oktobra 2018."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. st. 4. i 5. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. st. 2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="160. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. do 23."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. i 23."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. marta 2010"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. ili 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. do 37."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="41."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="44. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="56. i 57."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="57. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="57. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="68."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="68. i 70."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="72."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="75."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. juna"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 3. априла 2010. године (види члан 87. Закона).Регистри установљени у складу са раније важећим прописима у овој области настављају да се воде као Регистар пријава за признавање ознака географског порекла, Регистар пријава за признавање статуса овлашћених корисника ознаке географског порекла, Регистар ознака географског порекла, Регистар овлашћених корисника ознаке географског порекла, у складу са овим законом. Регистрована имена порекла и регистроване географске ознаке које важе на дан ступања на снагу овог закона остају на снази и на њих ће се примењивати одредбе овог закона. Одредбе овог закона примењиваће се и на пријаве за признавање ознака географског порекла, и на пријаве за признавање статуса овлашћеног корисника ознаке географског порекла поднете до дана ступања на снагу овог закона, а по којима управни поступак није окончан као и на друге започете поступке у вези са ознакама географског порекла који до дана ступања на снагу овог закона нису окончани(види члан 83. Закона).Одредба члана 57. став 1. овог закона ће се у погледу ознака географског порекла које су регистроване на нивоу Европске заједнице у складу са прописом Европске заједнице, а које представљају уобичајене изразе у општој употреби за одређене производе у Републици Србији, примењивати три године од дана ступања на снагу Прелазног споразума о трговини и трговинским питањима између Европске заједнице и Републике Србије. Одредба члана 57. став 3. овог закона ће се примењивати три године од дана ступања на снагу Прелазног споразума о трговини и трговинским питањима између Европске заједнице и Републике Србије (види члан 84. Закона).Престају да важе одредбе члана 14. ст. 4. и 5. Закона, у делу у ком се установљава обавеза употребе печата у пословању друштава и предузетника, даном почетка примене члана 160. Закона о изменама и допунама Закона о привредним друштвима („Службени гласник РС“, број 44/2018), односно 1. октобра 2018. године (види члан 160. Закона – 44/2018-27).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О ознакама географског порекла „Службени гласник РС“, бр. <ref wId="ref163" href="akn/rs/act/2010/18/srp@">18 од 26. марта 2010</ref>, <ref wId="ref164" href="akn/rs/act/2018/44/srp@">44 од 8. јуна 2018</ref> - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се начин стицања и правна заштита ознака географског порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Ознаке географског порекла су име порекла и географска ознака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Ознаке географског порекла које су за територију Републике Србије регистроване на основу Лисабонског аранжмана о заштити имена порекла и њиховом међународном регистровању (у даљем тексту: „Лисабонски аранжман”), имају на територији Републике Србије исто дејство као да су директно пријављене и регистроване у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav4">
+						<content>
+							<p>Одредбе овог закона не примењују се на вино и ракију и друга алкохолна пића у делу у коме су стицање и систем заштите, као и остваривање права коришћења ознаке географског порекла на тим производима уређени посебним прописима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Употреба ознака географског порекла</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Ознаке географског порекла употребљавају се за обележавање природних, пољопривредних, прехрамбених и индустријских производа, производа домаће радиности и услуга.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Појам имена порекла</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Име порекла је географски назив земље, региона, или локалитета, којим се означава производ који одатле потиче, чији су квалитет и посебна својства искључиво или битно условљени географском средином, укључујући природне и људске факторе и чија се производња, прерада и припрема у целини одвијају на одређеном ограниченом подручју.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Појам географске ознаке</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Географска ознака је ознака која идентификује одређени производ као производ пореклом са територије одређене земље, региона или локалитета са те територије, где се одређени квалитет, репутација или друге карактеристике производа суштински могу приписати његовом географском пореклу и чија се производња и/или, прерада и/или припрема одвијају на одређеном ограниченом подручју.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Традиционални и историјски називи</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Ознака географског порекла је и назив који није географски назив одређене земље, региона или локалитета, а који је дугом употребом у промету постао општепознат као традиционални назив производа који потиче са тог подручја, или је у питању историјски назив тог подручја, ако испуњава услове из чл. <ref wId="ref0" href="akn/rs/act/2018/44-27/srp@/!main~art_3" >3</ref>. или <ref wId="ref1" href="akn/rs/act/2018/44-27/srp@/!main~art_4" >4</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Хомонимни називи</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Ако су називи два или више места одакле производ потиче идентични, или готово идентични у писаном или изговореном облику (хомонимни називи), заштита таквих географских назива биће призната свим заинтересованим лицима која испуњавају услове прописане овим законом, на основу принципа праведног и равноправног третирања произвођача на тржишту и истинитог обавештавања потрошача, осим када то може да изазове забуну у јавности о тачном географском пореклу производа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Порекло сировине</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Производ може изузетно да се заштити именом порекла ако има доказано традиционално обележје, високу репутацију и добро је познат и када сировина за производњу тог производа потиче са подручја различитог или ширег од подручја прераде, ако је подручје производње сировине ограничено и постоје посебни услови за производњу те сировине, као и систем инспекцијске контроле који обезбеђује надзор над испуњавањем посебних услова за производњу сировина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<content>
+							<p>У случају пољопривредних и прехрамбених производа, сировинама се сматрају само живе животиње, месо и млеко.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav3">
+						<content>
+							<p>Услове, начин и поступак инспекцијске контроле сировина за производњу пољопривредних и прехрамбених производа са ознаком географског порекла, прописује министар надлежан за послове пољопривреде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Називи који се не могу заштитити</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<intro>
+							<p>Ознаком географског порекла не може да се заштити назив:</p>
+						</intro>
+						<point wId="gla1-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> чије је објављивање или употреба противна јавном поретку или прихваћеним моралним принципима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> који представља име заштићене биљне сорте или животињске врсте, уколико може да створи забуну код потрошача у погледу стварног порекла производа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> чији изглед или садржај може да створи забуну код потрошача у погледу природе, порекла, квалитета, начина производње или других карактеристика производа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> који је истоветан или битно сличан раније регистрованом жигу, уколико с обзиром на репутацију, познатост и дужину употребе тог жига постоји могућност настанка забуне код потрошача у погледу произвођачког порекла производа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> који представља тачан назив земље, региона или локалитета са кога производ потиче, али који код потрошача изазива лажну представу да производ потиче из друге земље, региона или локалитета;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> који је услед дуготрајне употребе постао генеричан, односно уобичајен назив за означавање одређеног производа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> који није заштићен, или је престао да буде заштићен у земљи порекла, или који је престао да се користи у тој земљи.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСТУПАК ЗАШТИТЕ</heading>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Заштита ознака географског порекла</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>У првом степену правна заштита ознака географског порекла остварује се у управном поступку који води орган државне управе надлежан за послове интелектуалне својине (у даљем тексту: орган надлежан за послове интелектуалне својине).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Таксе и трошкови поступка</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>У управном поступку пред органом надлежним за послове интелектуалне својине плаћају се таксе и накнаде трошкова поступка, сагласно посебним прописима којима се уређују административне таксе и накнаде трошкова поступка и трошкова за пружање информационих услуга.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Регистри</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине води Регистар пријава за признавање ознака географског порекла, Регистар пријава за признавање статуса овлашћеног корисника ознаке географског порекла, Регистар ознака географског порекла и Регистар овлашћених корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Регистар пријава за признавање ознака географског порекла садржи: број и датум подношења пријаве; податке о подносиоцу пријаве; податке о пуномоћнику ако се пријава подноси преко пуномоћника; назначење да ли је у питању пријава за признавање имена порекла или географске ознаке; географски назив, односно ознаку која се штити ознаком географског порекла; назив подручја или места из ког потиче производ који се обележава ознаком географског порекла; назначење врсте производа који се обележава ознаком географског порекла; регистарски број ознаке географског порекла; податке о статусним променама насталим код подносиоца пријаве; податке о начину окончања управног поступка; податке о променама насталим у току управног поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Регистар пријава за признавање статуса овлашћеног корисника ознаке географског порекла садржи: број и датум подношења пријаве; податке о подносиоцу пријаве; податке о пуномоћнику ако се пријава подноси преко пуномоћника; назначење да ли се пријава односи на признавање статуса овлашћеног корисника имена порекла или географске ознаке; географски назив, односно ознаку која се штити ознаком географског порекла; назив подручја или места у коме се обавља одређена делатност, односно производи одређени производ који се обележава ознаком географског порекла; назначење врсте производа који се обележава ознаком географског порекла; регистарски број, односно број пријаве за признавање ознаке географског порекла на коју се односи пријава за признавање статуса овлашћеног корисника; регистарски број овлашћеног корисника ознаке географског порекла; податке о статусним променама насталим код подносиоца пријаве; податке о начину окончања управног поступка; податке о променама насталим у току управног поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav4">
+						<content>
+							<p>Регистар ознака географског порекла садржи: регистарски број ознаке географског порекла; датум уписа у регистар; број и датум подношења пријаве за признавање ознаке географског порекла; назначење да ли је у питању име порекла или географска ознака; географски назив, односно ознаку која се штити ознаком географског порекла; назначење врсте производа који се обележава ознаком географског порекла; назив подручја или места из ког потиче производ који се обележава ознаком географског порекла; податке о овлашћеним корисницима ознаке географског порекла; регистарски број овлашћених корисника ознаке географског порекла; податке о престанку, односно оглашавању ништавим ознаке географског порекла, као и основ престанка, односно поништаја; назначење о томе који делови списа имају ознаку поверљивости; податке о променама насталим у току управног поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav5">
+						<content>
+							<p>Регистар овлашћених корисника ознаке географског порекла садржи: регистарски број овлашћеног корисника ознаке географског порекла; датум уписа у регистар; број и датум подношења пријаве за признавање статуса овлашћеног корисника ознаке географског порекла; назначење да ли је у питању овлашћени корисник имена порекла или географске ознаке; податке о овлашћеним корисницима ознаке географског порекла; регистарски број, односно број пријаве за признавање ознаке географског порекла; географски назив који се штити ознаком географског порекла; назив подручја или места у коме се обавља одређена делатност, односно производи одређени производ који се обележава ознаком географског порекла; назначење врсте производа који се обележава ознаком географског порекла; датум до када траје статус овлашћеног корисника ознаке географског порекла; податке о променама које се односе на овлашћеног корисника; податке о престанку, односно оглашавању ништавим статуса овлашћеног корисника, као и основ престанка, односно оглашавања ништавим статуса; податке о променама насталим у току управног поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Регистри из <ref wId="ref2" href="akn/rs/act/2018/44-27/srp@/!main~art_11" >члана 11. овог</ref> закона имају статус јавних књига и заинтересована лица могу да изврше увид у њихов садржај у присуству службеног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Списе регистрованих ознака географског порекла, осим делова који имају ознаку поверљивости, заинтересовано лице може да разгледа у присуству службеног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav3">
+						<content>
+							<p>Подаци о квалитету, посебним својствима, начину и поступку производње производа који се обележавају именом порекла, односно географском ознаком су јавни и доступни свим заинтересованим лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav4">
+						<content>
+							<p>На писмени захтев заинтересованог лица и уз плаћање прописане таксе, орган надлежан за послове интелектуалне својине издаје копије докумената и одговарајуће потврде и уверења о чињеницама о којима води службену евиденцију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Доступност документације</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине је дужан да заинтересованим лицима учини доступном своју документацију о ознакама географског порекла.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Међународно регистровање ознаке географског порекла и регистровање ознаке географског порекла на нивоу Европске заједнице</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Овлашћени корисник ознаке географског порекла, односно подносилац пријаве за признавање статуса овлашћеног корисника ознаке географског порекла може да поднесе захтев за међународно регистровање у складу са међународним уговором који обавезује Републику Србију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Овлашћени корисник ознаке географског порекла, односно подносилац пријаве за признавање статуса овлашћеног корисника ознаке географског порекла за пољопривредне и прехрамбене производе може да поднесе захтев за регистровање ознаке географског порекла на нивоу Европске заједнице, у складу са прописом Европске заједнице којим се уређује заштита ознака географског порекла за пољопривредне и прехрамбене производе (у даљем тексту: пропис Европске заједнице).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav3">
+						<content>
+							<p>Захтев за међународно регистровање из <ref wId="ref3" href="akn/rs/act/2018/44-27/srp@/!main~art_14__para_1" >става 1. овог</ref> члана, као и захтев за регистровање ознаке географског порекла на нивоу Европске заједнице из <ref wId="ref4" href="akn/rs/act/2018/44-27/srp@/!main~art_14__para_2" >става 2. овог</ref> члана, уз плаћање прописане таксе, подноси се преко органа надлежног за послове интелектуалне својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav4">
+						<content>
+							<p>Захтев за међународно регистровање из <ref wId="ref5" href="akn/rs/act/2018/44-27/srp@/!main~art_14__para_1" >става 1. овог</ref> члана садржи нарочито: географски назив који се штити и његову транслитерацију, назначење врсте производа који се обележава географским називом са преводом на енглески, француски или шпански језик; податке о овлашћеном кориснику или овлашћеним корисницима имена порекла подносиоцима захтева; податке о пуномоћнику ако се захтев подноси преко пуномоћника; доказ о плаћеној такси; потпис и печат подносиоца захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav5">
+						<content>
+							<p>Захтев за регистровање ознаке географског порекла на нивоу Европске заједнице из <ref wId="ref6" href="akn/rs/act/2018/44-27/srp@/!main~art_14__para_2" >става 2. овог</ref> члана садржи нарочито: податке о подносиоцу захтева; назначење врсте производа који се обележава географским називом; податке о пуномоћнику ако се захтев подноси преко пуномоћника; доказ о плаћеној такси; потпис и печат подносиоца захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav6">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину захтева из <ref wId="ref7" href="akn/rs/act/2018/44-27/srp@/!main~art_14__para_1->para_2" >ст. 1. и 2. овог</ref> члана, одређује прилоге који се подносе уз захтев и прописује њихову садржину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav7">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА: Престају да важе одредбе <ref wId="ref11" href="akn/rs/act/2018/44-27/srp@/!main~art_14__para_4->para_5" >члана  14. ст. 4. и 5. </ref>Закона, у делу у ком се установљава обавеза употребе печата у  пословању друштава и предузетника, даном почетка примене <ref wId="ref8" href="akn/rs/act/2018/44-27/srp@/!main~art_160" >члана 160. </ref>Закона о  изменама и допунама Закона о привредним друштвима („Службени гласник РС“, број  <ref wId="ref10" href="akn/rs/act/2018/44/srp@">44/2018</ref>), односно 1. октобра 2018. године (види <ref wId="ref9" href="akn/rs/act/2018/44/srp@/!main~/art_160">члан 160. Закона – 44/2018-27</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Заступање</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Страно физичко или правно лице у поступку пред органом надлежним за послове интелектуалне својине мора заступати заступник уписан у регистар заступника који води орган надлежан за послове интелектуалне својине или домаћи адвокат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>У Регистар заступника који води орган надлежан за послове интелектуалне својине уписују се физичка и правна лица која испуњавају услове утврђене законом којим се уређују патенти.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<heading>Контрола квалитета и посебних својстава производа</heading>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Контролом квалитета и посебних својстава производа у смислу овог закона, сматра се контрола усклађености квалитета и посебних својстава производа, начина производње производа и порекла сировине, са подацима садржаним у спецификацији, односно елаборату.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav2">
+						<content>
+							<p>Контролу квалитета и посебних својстава производа врши сертификационо тело које је акредитовано од стране националног акредитационог тела у складу са одговарајућим стандардима и прописима о акредитацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav3">
+						<content>
+							<p>Контролу квалитета и посебних својстава пољопривредних и прехрамбених производа врше сертификациона тела која су овлашћена од стране министарства надлежног за послове пољопривреде и која су акредитована од стране националног акредитационог тела у складу са одговарајућим стандардима и прописима о акредитацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav4">
+						<content>
+							<p>Министар надлежан за послове пољопривреде ближе прописује услове, начин и поступак контроле квалитета и посебних својстава пољопривредних и прехрамбених производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav5">
+						<content>
+							<p>У погледу ознака географског порекла којима се обележавају производи са географског подручја Републике Србије, за које је поднет захтев за регистровање на нивоу Европске заједнице у складу са Уредбом ЕУ 510/2006, контролу квалитета и посебних својстава тих производа, врше сертификациона тела из <ref wId="ref12" href="akn/rs/act/2018/44-27/srp@/!main~art_16__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<heading>Доказ о извршеној контроли квалитета и посебних својстава производа</heading>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Доказом о извршеној контроли квалитета и посебних својстава производа, односно специфичних карактеристика производа сматраће се сертификат о извршеној контроли квалитета и посебних својстава производа, издат од стране сертификационог тела из <ref wId="ref13" href="akn/rs/act/2018/44-27/srp@/!main~art_16__para_2->para_3" >члана 16. ст. 2. и 3. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav2">
+						<content>
+							<p>Сертификат из <ref wId="ref14" href="akn/rs/act/2018/44-27/srp@/!main~art_17__para_1" >става 1. овог</ref> члана не сме бити старији од три месеца.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ПО ПРИЈАВИ ЗА ПРИЗНАВАЊЕ ОЗНАКЕ ГЕОГРАФСКОГ ПОРЕКЛА</heading>
+				<article wId="gla3-clan18">
+					<num>18.</num>
+					<heading>Начин покретања поступка за регистровање ознаке географског порекла</heading>
+					<paragraph wId="gla3-clan18-stav1">
+						<content>
+							<p>Поступак за регистровање ознаке географског порекла покреће се пријавом за признавање имена порекла, односно географске ознаке (у даљем тексту: пријава).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav2">
+						<intro>
+							<p>Пријаву могу да поднесу:</p>
+						</intro>
+						<point wId="gla3-clan18-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> домаће физичко или правно лице које на одређеном географском подручју производи производе који се означавају називом тог географског подручја;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan18-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> удружења лица из тачке <ref wId="ref15" href="akn/rs/act/2018/44-27/srp@/!main~art_18__para_2__point_1" >1</ref>. овог става, привредне коморе, удружења потрошача и државни органи заинтересовани за заштиту имена порекла, односно географске ознаке у оквиру својих активности;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan18-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> страна физичка или правна лица, односно страна удружења, ако је име порекла, односно географска ознака призната у земљи порекла, када то произилази из међународних уговора.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav3">
+						<content>
+							<p>Пријава може да се односи само на једну ознаку или име географског подручја и само на једну врсту производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav4">
+						<content>
+							<p>За подношење пријаве плаћа се прописана такса.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan19">
+					<num>19.</num>
+					<heading>Битни делови пријаве</heading>
+					<paragraph wId="gla3-clan19-stav1">
+						<intro>
+							<p>Битни делови пријаве су :</p>
+						</intro>
+						<point wId="gla3-clan19-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> захтев за регистровање имена порекла, односно географске ознаке;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> опис географског подручја;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> подаци о специфичним карактеристикама производа.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan20">
+					<num>20.</num>
+					<paragraph wId="gla3-clan20-stav1">
+						<intro>
+							<p>Захтев за регистровање имена порекла, односно географске ознаке из члана 19. тачка <ref wId="ref16" href="akn/rs/act/2018/44-27/srp@/!main~art_19__para_1__point_1" >1</ref>) овог закона садржи:</p>
+						</intro>
+						<point wId="gla3-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о подносиоцу пријаве;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> географски назив који се штити;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> врсту производа који се обележава одређеним географским називом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan20-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> географски назив подручја или места из кога потиче производ који се обележава одређеним географским називом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan20-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> назив сертификационог тела које врши контролу квалитета и посебних својстава производа;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan20-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> потпис подносиоца пријаве;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan20-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> доказ о плаћеној прописаној такси.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav2">
+						<content>
+							<p>Ако пријаву подноси страно физичко или правно лице, односно страно удружење, захтев из <ref wId="ref17" href="akn/rs/act/2018/44-27/srp@/!main~art_20__para_1" >става 1. овог</ref> члана треба да садржи и јавну исправу коју издаје надлежни орган у држави порекла којом се потврђује да је име порекла, односно географска ознака призната у држави порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav3">
+						<content>
+							<p>Захтев за регистровање географске ознаке, поред елемената из <ref wId="ref18" href="akn/rs/act/2018/44-27/srp@/!main~art_20__para_1" >става 1. овог</ref> члана може да садржи и изглед географске ознаке, ако поред речи садржи и евентуалне фигуративне делове, или само фигуративне делове који су подобни да идентификују географско порекло одређене робе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav4">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину захтева из <ref wId="ref19" href="akn/rs/act/2018/44-27/srp@/!main~art_20__para_1" >става 1. овог</ref> члана, одређује прилоге који се подносе уз захтев и прописује њихову садржину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan21">
+					<num>21.</num>
+					<paragraph wId="gla3-clan21-stav1">
+						<content>
+							<p>Опис географског подручја из члана 19. тачка <ref wId="ref20" href="akn/rs/act/2018/44-27/srp@/!main~art_19__para_1__point_2" >2</ref>) овог закона садржи податке о географском подручју са кога потиче производ и обухвата ближе одређење граница тог подручја, географску мапу тог подручја и податке о географским и људским факторима који проузрокују специфичне карактеристике, квалитет или репутацију производа у питању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav2">
+						<content>
+							<p>Граница географског подручја из <ref wId="ref21" href="akn/rs/act/2018/44-27/srp@/!main~art_21__para_1" >става 1. овог</ref> члана одређује се прецизним навођењем насеља и природних географских објеката (планине, планински венци, реке, висоравни и сл.) које омогућава да се дато подручје разграничи од других подручја.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan22">
+					<num>22.</num>
+					<paragraph wId="gla3-clan22-stav1">
+						<intro>
+							<p>Подаци о специфичним карактеристикама производа из члана 19. тачка <ref wId="ref22" href="akn/rs/act/2018/44-27/srp@/!main~art_19__para_1__point_3" >3</ref>) овог закона, ако је у питању пријава географске ознаке, подносе се у виду спецификације која садржи:</p>
+						</intro>
+						<point wId="gla3-clan22-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о подносиоцу пријаве географске ознаке и лицу овлашћеном да га представља;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan22-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ознаку која се штити;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan22-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> опис начина производње производа;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan22-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> податке о квалитету или посебним својствима производа, или податке о стеченој репутацији;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan22-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> податке о узрочној вези између квалитета, или репутације, или других посебних својстава производа и описаног географског подручја, као и доказ да производ потиче са описаног географског подручја;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan22-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> податке којима се доказује да производ потиче са назначеног географског подручја;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan22-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> одредбе о начину обележавања производа.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav2">
+						<content>
+							<p>Ако се специфичне карактеристике производа односе на квалитет или посебна својства производа, саставни део спецификације из <ref wId="ref23" href="akn/rs/act/2018/44-27/srp@/!main~art_22__para_1" >става 1. овог</ref> члана је и доказ о извршеној контроли квалитета, односно посебних својстава тог производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav3">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину спецификације из <ref wId="ref24" href="akn/rs/act/2018/44-27/srp@/!main~art_22__para_1" >става 1. овог</ref> члана, одређује прилоге који се подносе уз спецификацију и прописује њихову садржину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan23">
+					<num>23.</num>
+					<paragraph wId="gla3-clan23-stav1">
+						<intro>
+							<p>Подаци о специфичним карактеристикама производа из члана 19. тачка <ref wId="ref25" href="akn/rs/act/2018/44-27/srp@/!main~art_19__para_1__point_3" >3</ref>) овог закона, ако је у питању пријава имена порекла, подносе се у виду елабората који садржи:</p>
+						</intro>
+						<point wId="gla3-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о подносиоцу пријаве имена порекла и лицу овлашћеном да га представља;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> географски назив који се штити;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> податке о устаљеном начину и поступку производње производа;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> податке о посебним својствима и квалитету производа;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> податке о узрочној вези између посебних својстава и квалитета производа и описаног географског подручја, као и доказ да производ потиче са описаног географског подручја;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> податке којима се доказује да производ потиче са назначеног географског подручја;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> доказ о извршеној контроли сировина у смислу <ref wId="ref26" href="akn/rs/act/2018/44-27/srp@/!main~art_7" >члана 7. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> одредбе о начину обележавања производа;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> податке о количини производа која се произведе у току једне године.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav2">
+						<content>
+							<p>Саставни део елабората из <ref wId="ref27" href="akn/rs/act/2018/44-27/srp@/!main~art_23__para_1" >става 1. овог</ref> члана је доказ о извршеној контроли квалитета и посебних својстава производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav3">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину елабората из <ref wId="ref28" href="akn/rs/act/2018/44-27/srp@/!main~art_23__para_1" >става 1. овог</ref> члана, одређује прилоге који се подносе уз елаборат и прописује њихову садржину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan24">
+					<num>24.</num>
+					<heading>Услови за признавање датума подношења пријаве</heading>
+					<paragraph wId="gla3-clan24-stav1">
+						<content>
+							<p>Пријава се заводи у одговарајући регистар пријава из <ref wId="ref29" href="akn/rs/act/2018/44-27/srp@/!main~art_11__para_1" >члана 11. став 1. овог</ref> закона само ако садржи све битне делове пријаве из <ref wId="ref30" href="akn/rs/act/2018/44-27/srp@/!main~art_19" >члана 19. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav2">
+						<content>
+							<p>На пријави која садржи све битне делове из <ref wId="ref31" href="akn/rs/act/2018/44-27/srp@/!main~art_19" >члана 19. овог</ref> закона забележиће се број пријаве и датум њеног пријема у органу надлежном за послове интелектуалне својине, о чему се подносиоцу пријаве издаје потврда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav3">
+						<content>
+							<p>Ако пријава не садржи све битне делове из <ref wId="ref32" href="akn/rs/act/2018/44-27/srp@/!main~art_19" >члана 19. овог</ref> закона, орган надлежан за послове интелектуалне својине о томе ће обавестити подносиоца пријаве и одредити му рок од 30 дана од дана пријема обавештења у коме је дужан да допуни пријаву битним делом који недостаје, уз упозорење да ће пријава бити одбачена ако у остављеном року не допуни пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav4">
+						<content>
+							<p>Ако подносилац пријаве у остављеном року допуни пријаву, као датум подношења пријаве сматраће се датум када је органу надлежном за послове интелектуалне својине достављена допуна пријаве, о чему се подносиоцу пријаве издаје потврда, а пријава се уписује у одговарајући регистар пријава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav5">
+						<content>
+							<p>Ако подносилац пријаве у остављеном року не допуни пријаву, орган надлежан за послове интелектуалне својине закључком ће одбацити пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav6">
+						<content>
+							<p>Против закључка из <ref wId="ref33" href="akn/rs/act/2018/44-27/srp@/!main~art_24__para_5" >става 5. овог</ref> члана може се изјавити жалба Влади у року од 15 дана од дана пријема закључка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav7">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan25">
+					<num>25.</num>
+					<heading>Редослед испитивања пријаве</heading>
+					<paragraph wId="gla3-clan25-stav1">
+						<content>
+							<p>Пријаве се испитују по редоследу подношења који се утврђује према датуму њиховог подношења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav2">
+						<intro>
+							<p>Изузетно од одредбе <ref wId="ref34" href="akn/rs/act/2018/44-27/srp@/!main~art_25__para_1" >става 1. овог</ref> члана, пријава се решава по хитном поступку:</p>
+						</intro>
+						<point wId="gla3-clan25-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> у случају поступка покренутог пред судом, царинским органом или органом инспекцијског надзора, на захтев суда, царинског органа или надлежног инспекцијског органа;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan25-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је поднет захтев за међународно регистровање ознаке географског порекла, односно захтев за регистровање ознаке географског порекла на нивоу Европске заједнице, у складу са прописом Европске заједнице.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan26">
+					<num>26.</num>
+					<heading>Испитивање уредности пријаве</heading>
+					<paragraph wId="gla3-clan26-stav1">
+						<content>
+							<p>Пријава се сматра уредном ако садржи све елементе из <ref wId="ref35" href="akn/rs/act/2018/44-27/srp@/!main~art_19->art_23" >чл. 19. </ref>до 23. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav2">
+						<content>
+							<p>Ако утврди да пријава није уредна, орган надлежан за послове интелектуалне својине обавестиће о томе подносиоца пријаве и позвати га да отклони утврђене недостатке у пријави у року од 30 дана од дана пријема обавештења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav3">
+						<content>
+							<p>На образложени захтев подносиоца пријаве, уз плаћање прописане таксе, орган надлежан за послове интелектуалне својине може да продужи рок из <ref wId="ref36" href="akn/rs/act/2018/44-27/srp@/!main~art_26__para_2" >става 2. овог</ref> члана за време које сматра примереним, а најдуже 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav4">
+						<content>
+							<p>Ако подносилац пријаве у остављеном року не уреди пријаву, или не плати таксу за њено уређивање, орган надлежан за послове интелектуалне својине закључком ће одбацити пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav5">
+						<content>
+							<p>Против закључка из <ref wId="ref37" href="akn/rs/act/2018/44-27/srp@/!main~art_26__para_4" >става 4. овог</ref> члана може се изјавити жалба Влади у року од 15 дана од дана пријема закључка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav6">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan27">
+					<num>27.</num>
+					<heading>Испитивање услова за признавање ознаке географског порекла</heading>
+					<paragraph wId="gla3-clan27-stav1">
+						<content>
+							<p>Ако је пријава уредна у смислу <ref wId="ref38" href="akn/rs/act/2018/44-27/srp@/!main~art_26__para_1" >члана 26. став 1. овог</ref> закона, орган надлежан за послове интелектуалне својине испитује да ли су испуњени услови за признавање имена порекла, односно географске ознаке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav2">
+						<content>
+							<p>У поступку испитивања услова за признавање имена порекла, односно географске ознаке, орган надлежан за послове интелектуалне својине дужан је да о испуњености услова за признавање имена порекла, односно географске ознаке прибави мишљење органа државне управе надлежног за област у оквиру које су производи, односно услуге који се штите именом порекла, односно географском ознаком (у даљем тексту: надлежни орган).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav3">
+						<content>
+							<p>Надлежни орган из <ref wId="ref39" href="akn/rs/act/2018/44-27/srp@/!main~art_27__para_2" >става 2. овог</ref> члана дужан је да тражено мишљење достави у року од 60 дана од дана када му је затражено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav4">
+						<content>
+							<p>Ако надлежни орган из <ref wId="ref40" href="akn/rs/act/2018/44-27/srp@/!main~art_27__para_2" >става 2. овог</ref> члана тражено мишљење не достави у року од 60 дана од када му је затражено, орган надлежан за послове интелектуалне својине ће испуњеност услова за признавање имена порекла, односно географске ознаке испитивати без прибављеног мишљења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav5">
+						<content>
+							<p>Одредбе <ref wId="ref41" href="akn/rs/act/2018/44-27/srp@/!main~art_27__para_2->para_4" >ст. 2, 3. и 4. овог</ref> члана не примењују се на поступак по међународним пријавама имена порекла које су поднете на основу Лисабонског аранжмана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan28">
+					<num>28.</num>
+					<heading>Решење о одбијању пријаве</heading>
+					<paragraph wId="gla3-clan28-stav1">
+						<content>
+							<p>Ако је надлежни орган дао негативно мишљење о испуњености услова за признавање имена порекла, односно географске ознаке или ако орган надлежан за послове интелектуалне својине утврди да пријава имена порекла, односно географске ознаке не испуњава услове прописане овим законом за признавање имена порекла, односно географске ознаке, орган надлежан за послове интелектуалне својине писменим путем ће обавестити подносиоца пријаве о разлозима због којих име порекла, односно географска ознака не може да буде призната и позваће га да се у року од 60 дана изјасни о тим разлозима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav2">
+						<content>
+							<p>На образложени захтев подносиоца пријаве, уз плаћање прописане таксе, орган надлежан за послове интелектуалне својине може да продужи рок из <ref wId="ref42" href="akn/rs/act/2018/44-27/srp@/!main~art_28__para_1" >става 1. овог</ref> члана за време које сматра примереним, а најдуже 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav3">
+						<content>
+							<p>Ако се подносилац пријаве у остављеном року изјасни о разлозима због којих име порекла, односно географска ознака не може да буде призната, орган надлежан за послове интелектуалне својине дужан је да о његовом изјашњењу прибави мишљење надлежног органа из <ref wId="ref43" href="akn/rs/act/2018/44-27/srp@/!main~art_27__para_2" >члана 27. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav4">
+						<content>
+							<p>Ако надлежни орган из <ref wId="ref44" href="akn/rs/act/2018/44-27/srp@/!main~art_27__para_2" >члана 27. став 2. овог</ref> закона тражено мишљење не достави у року од 60 дана од када му је затражено, орган надлежан за послове интелектуалне својине ће поступак испитивања испуњености услова за признавање имена порекла, односно географске ознаке наставити без прибављеног мишљења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav5">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине решењем ће одбити пријаву ако се подносилац пријаве уопште не изјасни, или ако се изјасни, а орган надлежан за послове интелектуалне својине или надлежни орган остану при ставу да се име порекла, односно географска ознака не може признати.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav6">
+						<content>
+							<p>Против решења из <ref wId="ref45" href="akn/rs/act/2018/44-27/srp@/!main~art_28__para_5" >става 5. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav7">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan29">
+					<num>29.</num>
+					<heading>Претварање пријаве имена порекла у пријаву географске ознаке и обрнуто</heading>
+					<paragraph wId="gla3-clan29-stav1">
+						<content>
+							<p>До окончања поступка, на захтев подносиоца пријаве имена порекла или географске ознаке, уз плаћање прописане таксе, пријава имена порекла може да се претвори у пријаву географске ознаке и обрнуто.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav2">
+						<content>
+							<p>Претворена пријава задржава датум подношења првобитно поднете пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav3">
+						<content>
+							<p>У поступку испитивања испуњености услова за признавање имена порекла, ако уочи да нису испуњени услови за признавање имена порекла, али да су испуњени услови за признавање географске ознаке, орган надлежан за послове интелектуалне својине дужан је да предложи подносиоцу пријаве имена порекла да се та пријава сматра пријавом географске ознаке и да се поступак настави по правилима поступка за ту врсту пријаве и одређује рок у коме је подносилац пријаве дужан да се изјасни.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav4">
+						<content>
+							<p>У поступку испитивања испуњености услова за признавање географске ознаке, ако уочи да су испуњени услови, или да би могли бити испуњени услови за признавање имена порекла, орган надлежан за послове интелектуалне својине дужан је да предложи подносиоцу пријаве географске ознаке да се та пријава сматра пријавом имена порекла и да се поступак настави по правилима поступка за ту врсту пријаве и одређује рок у коме је подносилац пријаве дужан да се изјасни.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav5">
+						<content>
+							<p>О претварању одговарајуће пријаве орган надлежан за послове интелектуалне својине доноси закључак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan30">
+					<num>30.</num>
+					<heading>Решење о признавању и упис у одговарајући регистар</heading>
+					<paragraph wId="gla3-clan30-stav1">
+						<content>
+							<p>Ако је надлежни орган дао позитивно мишљење о испуњености услова за признавање имена порекла, односно географске ознаке, или ако у року из <ref wId="ref46" href="akn/rs/act/2018/44-27/srp@/!main~art_27__para_3" >члана 27. став 3. овог</ref> закона није дао мишљење, и ако орган надлежан за послове интелектуалне својине нађе да пријава имена порекла, односно географске ознаке испуњава услове за признавање имена порекла, односно географске ознаке који су прописани овим законом, орган надлежан за послове интелектуалне својине донеће решење о признавању имена порекла, односно географске ознаке, и предметно име порекла, односно географску ознаку, са прописаним библиографским подацима уписати у Регистар ознака географског порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav2">
+						<content>
+							<p>Против решења из <ref wId="ref47" href="akn/rs/act/2018/44-27/srp@/!main~art_30__para_1" >става 1. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav3">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav4">
+						<content>
+							<p>Регистровано име порекла, односно регистрована географска ознака објављује се у службеном гласилу органа надлежног за послове интелектуалне својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav5">
+						<content>
+							<p>У службеном гласилу органа надлежног за послове интелектуалне својине објављују се следећи подаци: регистарски број ознаке географског порекла; датум уписа у Регистар ознака географског порекла; географски назив који се штити ознаком географског порекла; назначење да ли је у питању име порекла или географска ознака; назив подручја или места из ког потичу производи који се обележавају ознаком географског порекла; назначење врсте производа који се обележава ознаком географског порекла; подаци о престанку ознаке географског порекла, као и о основу престанка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan31">
+					<num>31.</num>
+					<heading>Трајање имена порекла, односно географске ознаке</heading>
+					<paragraph wId="gla3-clan31-stav1">
+						<content>
+							<p>Трајање регистрованог имена порекла, односно регистроване географске ознаке није ограничено.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПОСТУПАК ПО ПРИЈАВИ ЗА ПРИЗНАВАЊЕ СТАТУСА ОВЛАШЋЕНОГ КОРИСНИКА ОЗНАКЕ ГЕОГРАФСКОГ ПОРЕКЛА</heading>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>Статус овлашћеног корисника ознаке географског порекла може се признати сваком физичком или правном лицу, као и удружењима тих физичких или правних лица, уколико на одређеном географском подручју производе производе који се означавају називом тог географског подручја и који поседују квалитет, посебна својства, односно репутацију у складу са подацима о специфичним карактеристикама производа из <ref wId="ref48" href="akn/rs/act/2018/44-27/srp@/!main~art_22" >члана 22, </ref>односно <ref wId="ref49" href="akn/rs/act/2018/44-27/srp@/!main~art_23" >члана 23. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan33">
+					<num>33.</num>
+					<heading>Начин покретања поступка за признавање статуса овлашћеног корисника ознаке географског порекла</heading>
+					<paragraph wId="gla4-clan33-stav1">
+						<content>
+							<p>Поступак за признавање статуса овлашћеног корисника ознаке географског порекла покреће се пријавом за признавање статуса овлашћеног корисника имена порекла, односно географске ознаке (у даљем тексту: пријава за признавање статуса овлашћеног корисника).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan33-stav2">
+						<content>
+							<p>Пријаву за признавање статуса овлашћеног корисника могу да поднесу физичка или правна лица, као и удружења тих физичких и правних лица, која на одређеном географском подручју производе производе који се означавају називом тог географског подручја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan33-stav3">
+						<content>
+							<p>За подношење пријаве за признавање статуса овлашћеног корисника плаћа се прописана такса.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan34">
+					<num>34.</num>
+					<heading>Битни делови пријаве за признавање статуса овлашћеног корисника</heading>
+					<paragraph wId="gla4-clan34-stav1">
+						<intro>
+							<p>Битни делови пријаве за признавање статуса овлашћеног корисника су:</p>
+						</intro>
+						<point wId="gla4-clan34-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> захтев за признавање статуса овлашћеног корисника ознаке географског порекла;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan34-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> доказ о обављању одређене делатности на одређеном географском подручју;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan34-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> доказ о извршеној контроли квалитета и посебних својстава производа од стране сертификационог тела наведеног у пријави за признавање имена порекла, односно географске ознаке.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan35">
+					<num>35.</num>
+					<paragraph wId="gla4-clan35-stav1">
+						<intro>
+							<p>Захтев за признавање статуса овлашћеног корисника ознаке географског порекла садржи:</p>
+						</intro>
+						<point wId="gla4-clan35-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о подносиоцу пријаве;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> географски назив који се штити ознаком географског порекла;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> врсту производа који се обележава ознаком географског порекла;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> назив подручја или места одакле производ потиче;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> начин обележавања производа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> изглед географске ознаке или имена порекла;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> назначење специфичних карактеристика производа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> назначење да ли се пријава за признање статуса овлашћеног корисника односи на име порекла или на географску ознаку;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> назив сертификационог тела које врши контролу квалитета и посебних својстава производа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> потпис подносиоца пријаве;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan35-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> доказ о плаћеној прописаној такси.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav2">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину захтева из <ref wId="ref50" href="akn/rs/act/2018/44-27/srp@/!main~art_35__para_1" >става 1. овог</ref> члана, одређује прилоге који се подносе уз захтев и прописује њихову садржину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan36">
+					<num>36.</num>
+					<paragraph wId="gla4-clan36-stav1">
+						<content>
+							<p>Доказом о обављању одређене делатности, односно производњи одређеног производа на одређеном подручју сматраће се одговарајуће потврде и решења издати од надлежних органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav2">
+						<content>
+							<p>Потврде и решења из <ref wId="ref51" href="akn/rs/act/2018/44-27/srp@/!main~art_36__para_1" >става 1. овог</ref> члана не смеју да буду старија од три месеца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav3">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину доказа из <ref wId="ref52" href="akn/rs/act/2018/44-27/srp@/!main~art_36__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan37">
+					<num>37.</num>
+					<paragraph wId="gla4-clan37-stav1">
+						<content>
+							<p>Доказом о извршеној контроли квалитета и посебних својстава производа, сматраће се сертификат о извршеној контроли квалитета и посебних својстава производа, издат од стране сертификационог тела из <ref wId="ref55" href="akn/rs/act/2018/44-27/srp@/!main~art_16__para_2->para_3" >члана 16. ст. 2. и 3. овог</ref> закона које је у захтеву за регистровање имена порекла, односно географске ознаке и захтеву за признавање статуса овлашћеног корисника ознаке географског порекла, наведено као организација која врши контролу производа, којим се потврђује да контролисани производ поседује сва она посебна својства и квалитет који су наведени у подацима о специфичним карактеристикама производа из чл. <ref wId="ref53" href="akn/rs/act/2018/44-27/srp@/!main~art_22" >22</ref>. и <ref wId="ref54" href="akn/rs/act/2018/44-27/srp@/!main~art_23" >23</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan37-stav2">
+						<content>
+							<p>Сертификат из <ref wId="ref56" href="akn/rs/act/2018/44-27/srp@/!main~art_37__para_1" >става 1. овог</ref> члана не сме бити старији од три месеца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan38">
+					<num>38.</num>
+					<heading>Услови за признавање датума подношења пријаве за признавање статуса овлашћеног корисника</heading>
+					<paragraph wId="gla4-clan38-stav1">
+						<content>
+							<p>Пријава за признавање статуса овлашћеног корисника заводи се у одговарајући регистар пријава из <ref wId="ref57" href="akn/rs/act/2018/44-27/srp@/!main~art_11__para_1" >члана 11. став 1. овог</ref> закона само ако садржи све битне делове из <ref wId="ref58" href="akn/rs/act/2018/44-27/srp@/!main~art_34" >члана 34. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan38-stav2">
+						<content>
+							<p>На пријави која садржи све битне делове из <ref wId="ref59" href="akn/rs/act/2018/44-27/srp@/!main~art_34" >члана 34. овог</ref> закона забележиће се број пријаве и датум њеног пријема у органу надлежном за послове интелектуалне својине о чему се подносиоцу пријаве за признавање статуса овлашћеног корисника издаје потврда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan38-stav3">
+						<content>
+							<p>Ако пријава за признавање статуса овлашћеног корисника не садржи све битне делове из <ref wId="ref60" href="akn/rs/act/2018/44-27/srp@/!main~art_34" >члана 34. овог</ref> закона, орган надлежан за послове интелектуалне својине о томе ће обавестити подносиоца пријаве и одредити му рок од 30 дана од дана пријема обавештења у коме је дужан да допуни пријаву битним делом који недостаје, уз упозорење да ће пријава бити одбачена ако у наведеном року не допуни пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan38-stav4">
+						<content>
+							<p>Ако подносилац пријаве за признавање статуса овлашћеног корисника у остављеном року допуни пријаву, као датум подношења пријаве сматраће се датум када је органу надлежном за послове интелектуалне својине достављена допуна пријаве, о чему се подносиоцу пријаве издаје потврда, а пријава се уписује у одговарајући регистар пријава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan38-stav5">
+						<content>
+							<p>Ако подносилац пријаве за признавање статуса овлашћеног корисника у остављеном року не допуни пријаву, орган надлежан за послове интелектуалне својине закључком ће одбацити пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan38-stav6">
+						<content>
+							<p>Против закључка из <ref wId="ref61" href="akn/rs/act/2018/44-27/srp@/!main~art_38__para_5" >става 5. овог</ref> члана може се изјавити жалба Влади у року од 15 дана од дана пријема закључка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan38-stav7">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<heading>Редослед испитивања пријаве за признавање статуса овлашћеног корисника</heading>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Пријаве за признавање статуса овлашћеног корисника испитују се по редоследу подношења који се утврђује према датуму њиховог подношења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav2">
+						<intro>
+							<p>Изузетно од одредбе <ref wId="ref62" href="akn/rs/act/2018/44-27/srp@/!main~art_39__para_1" >става 1. овог</ref> члана, пријава се решава по хитном поступку :</p>
+						</intro>
+						<point wId="gla4-clan39-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> у случају поступка покренутог пред судом, царинским органом или органом инспекцијског надзора, на захтев суда, царинског органа или надлежног инспекцијског органа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan39-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је поднет захтев за међународно регистровање ознаке географског порекла, односно захтев за регистровање ознаке географског порекла на нивоу Европске заједнице, у складу са прописом Европске заједнице.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan40">
+					<num>40.</num>
+					<heading>Испитивање уредности пријаве за признавање статуса овлашћеног корисника</heading>
+					<paragraph wId="gla4-clan40-stav1">
+						<content>
+							<p>Пријава за признавање статуса овлашћеног корисника сматра се уредном ако садржи све елементе из <ref wId="ref63" href="akn/rs/act/2018/44-27/srp@/!main~art_35->art_37" >чл. 35. </ref>до 37. овог закона, доказ о уплати таксе за пријаву и друге прописане податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav2">
+						<content>
+							<p>Ако утврди да пријава за признавање статуса овлашћеног корисника није уредна, орган надлежан за послове интелектуалне својине обавестиће о томе подносиоца пријаве и позвати га да отклони утврђене недостатке у пријави у року од 30 дана од дана пријема обавештења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav3">
+						<content>
+							<p>На образложени захтев подносиоца пријаве за признавање статуса овлашћеног корисника, уз плаћање прописане таксе, орган надлежан за послове интелектуалне својине може да продужи рок из <ref wId="ref64" href="akn/rs/act/2018/44-27/srp@/!main~art_40__para_2" >става 2. овог</ref> члана за време које сматра примереним, а најдуже 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav4">
+						<content>
+							<p>Ако подносилац пријаве у остављеном року не уреди пријаву, или не плати прописану таксу, орган надлежан за послове интелектуалне својине закључком ће одбацити пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav5">
+						<content>
+							<p>Против закључка из <ref wId="ref65" href="akn/rs/act/2018/44-27/srp@/!main~art_40__para_4" >става 4. овог</ref> члана може се изјавити жалба Влади у року од 15 дана од дана пријема закључка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav6">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan41">
+					<num>41.</num>
+					<heading>Испитивање услова за признавање статуса овлашћеног корисника ознаке географског порекла</heading>
+					<paragraph wId="gla4-clan41-stav1">
+						<content>
+							<p>Ако је пријава за признавање статуса овлашћеног корисника уредна у смислу <ref wId="ref66" href="akn/rs/act/2018/44-27/srp@/!main~art_40__para_1" >члана 40. став 1. овог</ref> закона, орган надлежан за послове интелектуалне својине испитује да ли су испуњени услови за признавање статуса овлашћеног корисника ознаке географског порекла у смислу <ref wId="ref67" href="akn/rs/act/2018/44-27/srp@/!main~art_32" >члана 32. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav2">
+						<content>
+							<p>У поступку испитивања услова за признавање статуса овлашћеног корисника ознаке географског порекла, орган надлежан за послове интелектуалне својине дужан је да о испуњености услова за признавање статуса овлашћеног корисника ознаке географског порекла прибави мишљење надлежног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav3">
+						<content>
+							<p>Надлежни орган из <ref wId="ref68" href="akn/rs/act/2018/44-27/srp@/!main~art_41__para_2" >става 2. овог</ref> члана дужан је да тражено мишљење достави у року од 60 дана од дана када му је затражено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav4">
+						<content>
+							<p>Ако надлежни орган из <ref wId="ref69" href="akn/rs/act/2018/44-27/srp@/!main~art_41__para_2" >става 2. овог</ref> члана тражено мишљење не достави у року од 60 дана од када му је затражено, орган надлежан за послове интелектуалне својине ће испуњеност услова за признавање статуса овлашћеног корисника ознаке географског порекла испитивати без прибављеног мишљења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan42">
+					<num>42.</num>
+					<heading>Решење о одбијању пријаве за признавање статуса овлашћеног корисника</heading>
+					<paragraph wId="gla4-clan42-stav1">
+						<content>
+							<p>Ако је надлежни орган дао негативно мишљење о испуњености услова за признавање статуса овлашћеног корисника ознаке географског порекла, или ако орган надлежан за послове интелектуалне својине утврди да пријава за признавање статуса овлашћеног корисника не испуњава услове прописане овим законом за признавање статуса овлашћеног корисника ознаке географског порекла, орган надлежан за послове интелектуалне својине писменим путем ће обавестити подносиоца пријаве о разлозима због којих му се не може признати статус овлашћеног корисника ознаке географског порекла и позваће га да се у року од 60 дана изјасни о тим разлозима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav2">
+						<content>
+							<p>На образложени захтев подносиоца пријаве за признавање статуса овлашћеног корисника, уз плаћање прописане таксе, орган надлежан за послове интелектуалне својине може да продужи рок из <ref wId="ref70" href="akn/rs/act/2018/44-27/srp@/!main~art_42__para_1" >става 1. овог</ref> члана за време које сматра примереним, а најдуже 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav3">
+						<content>
+							<p>Ако се подносилац пријаве за признавање статуса овлашћеног корисника у остављеном року изјасни о разлозима због којих му се не може признати статус овлашћеног корисника ознаке географског порекла, орган надлежан за послове интелектуалне својине дужан је да о његовом изјашњењу прибави мишљење надлежног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav4">
+						<content>
+							<p>Ако надлежни орган тражено мишљење не достави у року од 60 дана од када му је затражено, орган надлежан за послове интелектуалне својине ће поступак испитивања испуњености услова за признавање статуса овлашћеног корисника ознаке географског порекла наставити без прибављеног мишљења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav5">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине решењем ће одбити пријаву за признавање статуса овлашћеног корисника ако се подносилац пријаве уопште не изјасни, или ако се изјасни, а орган надлежан за послове интелектуалне својине или надлежни орган остану при ставу да се подносиоцу пријаве не може признати статус овлашћеног корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav6">
+						<content>
+							<p>Против решења из <ref wId="ref71" href="akn/rs/act/2018/44-27/srp@/!main~art_42__para_5" >става 5. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav7">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan43">
+					<num>43.</num>
+					<heading>Претварање пријаве за признавање статуса овлашћеног корисника имена порекла у пријаву за признавање статуса овлашћеног корисника географске ознаке и обрнуто</heading>
+					<paragraph wId="gla4-clan43-stav1">
+						<content>
+							<p>Ако је у току поступка по пријави за признавање статуса овлашћеног корисника дошло до претварања пријаве имена порекла у пријаву географске ознаке, или претварања пријаве географске ознаке у пријаву имена порекла, у складу са <ref wId="ref72" href="akn/rs/act/2018/44-27/srp@/!main~art_29" >чланом 29. овог</ref> закона, подносилац пријаве за признавање статуса овлашћеног корисника која се односи на име порекла, односно географску ознаку чије је претварање извршено, дужан је да, уз плаћање прописане таксе, поднесе захтев за претварање пријаве за признавање статуса овлашћеног корисника имена порекла у пријаву за признавање статуса овлашћеног корисника географске ознаке, или обрнуто.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan43-stav2">
+						<content>
+							<p>Претворена пријава задржава датум подношења првобитно поднете пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan43-stav3">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине дужан је да без одлагања обавести све подносиоце пријаве за признавање статуса овлашћеног корисника која се односи на одређено име порекла, односно географску ознаку да је у складу са одредбом <ref wId="ref73" href="akn/rs/act/2018/44-27/srp@/!main~art_29" >члана 29. овог</ref> закона, поднет захтев за претварање пријаве имена порекла, односно географске ознаке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan43-stav4">
+						<content>
+							<p>О захтеву из <ref wId="ref74" href="akn/rs/act/2018/44-27/srp@/!main~art_43__para_1" >става 1. овог</ref> члана, орган надлежан за послове интелектуалне својине доноси закључак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan44">
+					<num>44.</num>
+					<heading>Закључак о плаћању таксе за признавање статуса овлашћеног корисника</heading>
+					<paragraph wId="gla4-clan44-stav1">
+						<content>
+							<p>Ако пријава за признавање статуса овлашћеног корисника испуњава услове који су прописани овим законом да се подносиоцу пријаве призна статус овлашћеног корисника ознаке географског порекла, орган надлежан за послове интелектуалне својине закључком ће позвати подносиоца пријаве да плати таксу за признавање статуса овлашћеног корисника ознаке географског порекла, за прве три године и трошкове објаве података о овлашћеном кориснику ознаке географског порекла, и да достави доказе о извршеним уплатама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav2">
+						<content>
+							<p>Ако подносилац пријаве за признавање статуса овлашћеног корисника у року од 30 дана не достави доказе о извршеним уплатама из <ref wId="ref75" href="akn/rs/act/2018/44-27/srp@/!main~art_44__para_1" >става 1. овог</ref> члана, сматраће се да је подносилац пријаве за признавање статуса овлашћеног корисника одустао од пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav3">
+						<content>
+							<p>У случају из <ref wId="ref76" href="akn/rs/act/2018/44-27/srp@/!main~art_44__para_2" >става 2. овог</ref> члана, орган надлежан за послове интелектуалне својине донеће закључак о обустави поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav4">
+						<content>
+							<p>Против закључка из <ref wId="ref77" href="akn/rs/act/2018/44-27/srp@/!main~art_44__para_3" >става 3. овог</ref> члана може се изјавити жалба Влади у року од 15 дана од дана пријема закључка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan44-stav5">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan45">
+					<num>45.</num>
+					<heading>Решење о признавању и упис у одговарајући регистар</heading>
+					<paragraph wId="gla4-clan45-stav1">
+						<content>
+							<p>Када подносилац пријаве за признавање статуса овлашћеног корисника достави доказе о извршеним уплатама из <ref wId="ref78" href="akn/rs/act/2018/44-27/srp@/!main~art_44__para_1" >члана 44. став 1. овог</ref> закона, орган надлежан за послове интелектуалне својине доноси решење о признавању статуса овлашћеног корисника ознаке географског порекла а признати статус са прописаним библиографским подацима уписује у Регистар овлашћених корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan45-stav2">
+						<content>
+							<p>Против решења из <ref wId="ref79" href="akn/rs/act/2018/44-27/srp@/!main~art_45__para_1" >става 1. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan45-stav3">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan46">
+					<num>46.</num>
+					<heading>Издавање исправе о признатом статусу овлашћеног корисника ознаке географског порекла</heading>
+					<paragraph wId="gla4-clan46-stav1">
+						<content>
+							<p>Овлашћеном кориснику ознаке географског порекла издаје се исправа о признатом статусу овлашћеног корисника ознаке географског порекла, а прописани подаци о признатом статусу објављују се у службеном гласилу органа надлежног за послове интелектуалне својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan46-stav2">
+						<content>
+							<p>Исправа о признатом статусу овлашћеног корисника из <ref wId="ref80" href="akn/rs/act/2018/44-27/srp@/!main~art_46__para_1" >става 1. овог</ref> члана садржи нарочито: регистарски број овлашћеног корисника ознаке географског порекла и број пријаве; датум подношења пријаве; датум уписа у Регистар овлашћених корисника ознаке географског порекла; податке о овлашћеном кориснику ознаке географског порекла; податке до када важи статус овлашћеног корисника ознаке географског порекла; датум издавања исправе, а може да садржи и друге податке који чине садржину одговарајућег регистра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan46-stav3">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину исправе из <ref wId="ref81" href="akn/rs/act/2018/44-27/srp@/!main~art_46__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan47">
+					<num>47.</num>
+					<heading>Објављивање признатог статуса овлашћеног корисника ознаке географског порекла</heading>
+					<paragraph wId="gla4-clan47-stav1">
+						<content>
+							<p>Признати статус овлашћеног корисника ознаке географског порекла, објављује се у службеном гласилу органа надлежног за послове интелектуалне својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan47-stav2">
+						<content>
+							<p>У службеном гласилу органа надлежног за послове интелектуалне својине објављују се следећи подаци: регистарски број овлашћеног корисника ознаке географског порекла; подаци о овлашћеном кориснику ознаке географског порекла; датум уписа у Регистар овлашћених корисника ознаке географског порекла; регистарски број ознаке географског порекла; назначење да ли је у питању овлашћени корисник имена порекла или географске ознаке; географски назив који се штити ознаком географског порекла; назив подручја или места из ког потиче производ који се обележава ознаком географског порекла; датум до ког важи признати статус овлашћеног корисника ознаке географског порекла; подаци о престанку статуса овлашћеног корисника ознаке географског порекла, као и о основу престанка; подаци о променама које се односе на овлашћеног корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan48">
+					<num>48.</num>
+					<heading>Трајање статуса овлашћеног корисника ознаке географског порекла</heading>
+					<paragraph wId="gla4-clan48-stav1">
+						<content>
+							<p>Статус овлашћеног корисника ознаке географског порекла траје три године од дана уписа признатог статуса у Регистар овлашћених корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan48-stav2">
+						<content>
+							<p>Статус овлашћеног корисника ознаке географског порекла ознаке може, на захтев овлашћеног корисника, уз подношење доказа о испуњености услова из <ref wId="ref82" href="akn/rs/act/2018/44-27/srp@/!main~art_32" >члана 32. овог</ref> закона и уз достављање доказа о плаћеној прописаној такси, да буде обновљен неограничен број пута, све док траје одговарајуће име порекла, односно географска ознака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan48-stav3">
+						<content>
+							<p>Захтев за обнову статуса овлашћеног корисника ознаке географског порекла садржи нарочито: регистарски број ознаке географског порекла; датум до када је уписан у Регистар овлашћених корисника ознаке географског порекла; податке о пословном имену и седишту подносиоца захтева, односно, имену и адреси физичког лица (према стању у регистрима); податке о извршеној контроли квалитета и посебних својстава производа (број и датум издавања исправе о испитаном и утврђеном квалитету и посебним својствима производа).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan48-stav4">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину захтева из <ref wId="ref83" href="akn/rs/act/2018/44-27/srp@/!main~art_48__para_2" >става 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan49">
+					<num>49.</num>
+					<heading>Поступак по захтеву за обнову статуса овлашћеног корисника ознаке географског порекла</heading>
+					<paragraph wId="gla4-clan49-stav1">
+						<content>
+							<p>Захтев за обнову статуса овлашћеног корисника ознаке географског порекла сматра се уредним ако садржи елементе из <ref wId="ref84" href="akn/rs/act/2018/44-27/srp@/!main~art_48" >члана 48. овог</ref> закона, доказ о уплати таксе за захтев и друге прописане податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav2">
+						<content>
+							<p>Ако утврди да захтев из <ref wId="ref85" href="akn/rs/act/2018/44-27/srp@/!main~art_49__para_1" >става 1. овог</ref> члана није уредан, орган надлежан за послове интелектуалне својине обавестиће о томе подносиоца захтева и позвати га да отклони утврђене недостатке у захтеву у року од 30 дана од дана пријема обавештења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav3">
+						<content>
+							<p>На образложени захтев подносиоца захтева за обнову статуса овлашћеног корисника ознаке географског порекла, уз плаћање прописане таксе, орган надлежан за послове интелектуалне својине може да продужи рок из <ref wId="ref86" href="akn/rs/act/2018/44-27/srp@/!main~art_49__para_2" >става 2. овог</ref> члана за време које сматра примереним, а најдуже 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav4">
+						<content>
+							<p>Ако подносилац захтева за обнову статуса овлашћеног корисника у остављеном року не уреди захтев, или не плати прописану таксу, орган надлежан за послове интелектуалне својине закључком ће одбацити захтев.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav5">
+						<content>
+							<p>Против закључка из <ref wId="ref87" href="akn/rs/act/2018/44-27/srp@/!main~art_49__para_4" >става 4. овог</ref> члана може се изјавити жалба Влади у року од 15 дана од дана пријема закључка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan49-stav6">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan50">
+					<num>50.</num>
+					<paragraph wId="gla4-clan50-stav1">
+						<content>
+							<p>Ако је захтев за обнову статуса овлашћеног корисника ознаке географског порекла уредан орган надлежан за послове интелектуалне својине испитује да ли су испуњени услови за обнову статуса овлашћеног корисника ознаке географског порекла у смислу <ref wId="ref88" href="akn/rs/act/2018/44-27/srp@/!main~art_32" >члана 32. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav2">
+						<content>
+							<p>Ако орган надлежан за послове интелектуалне својине утврди да захтев за обнову статуса овлашћеног корисника ознаке географског порекла не испуњава услове прописане овим законом, обавестиће о томе подносиоца захтева и позвати га да се у року од 30 дана од дана пријема обавештења изјасни о разлозима због којих се статус овлашћеног корисника ознаке географског порекла не може обновити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav3">
+						<content>
+							<p>На образложени захтев подносиоца захтева за обнову статуса овлашћеног корисника ознаке географског порекла, уз плаћање прописане таксе, орган надлежан за послове интелектуалне својине може да продужи рок из <ref wId="ref89" href="akn/rs/act/2018/44-27/srp@/!main~art_50__para_2" >става 2. овог</ref> члана за време које сматра примереним, а најдуже 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav4">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине решењем ће одбити захтев за обнову статуса овлашћеног корисника ознаке географског порекла ако се подносилац захтева уопште не изјасни, или ако се изјасни, а орган надлежан за послове интелектуалне својине остане при ставу да се подносиоцу захтева не може обновити статус овлашћеног корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav5">
+						<content>
+							<p>Против решења из <ref wId="ref90" href="akn/rs/act/2018/44-27/srp@/!main~art_50__para_4" >става 4. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan50-stav6">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan51">
+					<num>51.</num>
+					<heading>Упис обнове статуса овлашћеног корисника ознаке географског порекла у одговарајући регистар</heading>
+					<paragraph wId="gla4-clan51-stav1">
+						<content>
+							<p>Уколико су испуњени услови из <ref wId="ref91" href="akn/rs/act/2018/44-27/srp@/!main~art_48__para_2" >члана 48. став 2. овог</ref> закона, орган надлежан за послове интелектуалне својине уписује податак о обнови статуса овлашћеног корисника ознаке географског порекла у Регистар овлашћених корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРОМЕНЕ КОЈЕ СЕ ОДНОСЕ НА ОВЛАШЋЕНЕ КОРИСНИКЕ ОЗНАКА ГЕОГРАФСКОГ ПОРЕКЛА</heading>
+				<article wId="gla5-clan52">
+					<num>52.</num>
+					<paragraph wId="gla5-clan52-stav1">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине, на захтев овлашћеног корисника ознаке географског порекла, односно подносиоца пријаве за признавање статуса овлашћеног корисника, може донети решење о упису у одговарајући регистар надлежног органа, статусне промене, промене облика организовања и друге промене које се односе на овлашћеног корисника ознаке географског порекла, односно подносиоца пријаве за признавање статуса овлашћеног корисника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan52-stav2">
+						<content>
+							<p>Против решења <ref wId="ref92" href="akn/rs/act/2018/44-27/srp@/!main~art_52__para_1" >става 1. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan52-stav3">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan53">
+					<num>53.</num>
+					<heading>Поступак за упис промена које се односе на овлашћене кориснике ознака географског порекла</heading>
+					<paragraph wId="gla5-clan53-stav1">
+						<content>
+							<p>Поступак за упис промена које се односе на овлашћене кориснике ознака географског порекла покреће се писаним захтевом који се подноси органу надлежном за послове интелектуалне својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav2">
+						<intro>
+							<p>Уз захтев из <ref wId="ref93" href="akn/rs/act/2018/44-27/srp@/!main~art_53__para_1" >става 1. овог</ref> члана подноси се:</p>
+						</intro>
+						<point wId="gla5-clan53-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> доказ о правном основу промене чији се упис тражи;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan53-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> пуномоћје, ако се поступак за упис промене покреће преко пуномоћника;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan53-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> доказ о уплати прописане таксе.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav3">
+						<content>
+							<p>Захтев из <ref wId="ref94" href="akn/rs/act/2018/44-27/srp@/!main~art_53__para_1" >става 1. овог</ref> члана садржи нарочито: регистарски број овлашћеног корисника ознаке географског порекла, односно број пријаве за признавање статуса овлашћеног корисника; регистарски број ознаке географског порекла; податке о овлашћеном кориснику ознаке географског порекла, односно подносиоцу пријаве за признавање статуса овлашћеног корисника; назначење врсте промене чији се упис тражи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan53-stav4">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину захтева из <ref wId="ref95" href="akn/rs/act/2018/44-27/srp@/!main~art_53__para_1" >става 1. овог</ref> члана, као и врсту и садржину прилога који се подносе уз захтев.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan54">
+					<num>54.</num>
+					<paragraph wId="gla5-clan54-stav1">
+						<content>
+							<p>Захтев за упис промене која се односи на овлашћеног корисника ознаке географског порекла је уредан ако садржи податке из <ref wId="ref96" href="akn/rs/act/2018/44-27/srp@/!main~art_53" >члана 53. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan54-stav2">
+						<content>
+							<p>Ако утврди да захтев за упис промене није уредан, орган надлежан за послове интелектуалне својине обавестиће о томе подносиоца захтева и позвати га да отклони утврђене недостатке у захтеву у року од 30 дана од дана пријема обавештења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan54-stav3">
+						<content>
+							<p>На образложени захтев подносиоца захтева за упис промене, уз плаћање прописане таксе, орган надлежан за послове интелектуалне својине продужиће рок из <ref wId="ref97" href="akn/rs/act/2018/44-27/srp@/!main~art_54__para_2" >става 2. овог</ref> члана за време које сматра примереним а најдуже 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan54-stav4">
+						<content>
+							<p>Ако подносилац захтева у остављеном року не уреди захтев за упис промене, орган надлежан за послове интелектуалне својине закључком ће одбацити захтев.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan54-stav5">
+						<content>
+							<p>Против закључка из <ref wId="ref98" href="akn/rs/act/2018/44-27/srp@/!main~art_54__para_4" >става 4. овог</ref> члана може се изјавити жалба Влади у року од 15 дана од дана пријема закључка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan54-stav6">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan55">
+					<num>55.</num>
+					<paragraph wId="gla5-clan55-stav1">
+						<content>
+							<p>Ако је захтев за упис промене уредан, орган надлежан за послове интелектуалне својине испитује да ли правни основ на коме се тај захтев заснива испуњава законом прописане услове и да ли се подаци из захтева слажу са подацима у регистрима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan55-stav2">
+						<content>
+							<p>Ако правни основ на коме се заснива захтев за упис промене која се односи на овлашћеног корисника ознаке географског порекла не испуњава законом прописане услове, или ако се подаци из захтева не слажу са подацима у регистрима, орган надлежан за послове интелектуалне својине обавестиће о томе подносиоца захтева и позвати га да се у року од 30 дана од дана пријема обавештења изјасни о разлозима због којих се упис промене не може извршити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan55-stav3">
+						<content>
+							<p>На образложени захтев подносиоца захтева за упис промене, уз плаћање прописане таксе, орган надлежан за послове интелектуалне својине продужиће рок из <ref wId="ref99" href="akn/rs/act/2018/44-27/srp@/!main~art_55__para_2" >става 2. овог</ref> члана за време које сматра примереним а најдуже 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan55-stav4">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине решењем ће одбити захтев за упис промене, ако се подносилац захтева у остављеном року не изјасни о разлозима због којих се упис не може одобрити или се изјасни, а орган надлежан за послове интелектуалне својине остане при ставу да се упис промене не може одобрити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan55-stav5">
+						<content>
+							<p>Против решења из <ref wId="ref100" href="akn/rs/act/2018/44-27/srp@/!main~art_55__para_4" >става 4. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan55-stav6">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>САДРЖИНА И ОБИМ ПРАВА КОЈЕ ИМА ОВЛАШЋЕНИ КОРИСНИК ОЗНАКЕ ГЕОГРАФСКОГ ПОРЕКЛА</heading>
+				<article wId="gla6-clan56">
+					<num>56.</num>
+					<heading>Коришћење регистрованог имена порекла, односно географске ознаке</heading>
+					<paragraph wId="gla6-clan56-stav1">
+						<content>
+							<p>Регистровано име порекла, односно географску ознаку, могу да користе само лица којима је признат статус овлашћених корисника тог имена порекла, односно те географске ознаке, и која су уписана у одговарајући регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav2">
+						<content>
+							<p>Овлашћени корисници имена порекла, односно географске ознаке имају искључиво право да име порекла, односно географску ознаку користе за обележавање производа на које се име порекла, односно географска ознака односи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav3">
+						<content>
+							<p>Овлашћени корисници имена порекла имају искључиво право да свој производ обележавају ознаком „контролисано име порекла”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav4">
+						<content>
+							<p>Овлашћени корисници географске ознаке којом се обележава производ чије специфичне карактеристике се односе на квалитет или посебна својства, имају искључиво право да свој производ обележавају ознаком „контролисана географска ознака”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav5">
+						<content>
+							<p>Права из <ref wId="ref101" href="akn/rs/act/2018/44-27/srp@/!main~art_56__para_2->para_4" >ст. 2, 3. и 4. овог</ref> члана обухватају и употребу имена порекла, односно географске ознаке на амбалажи, каталозима, проспектима, огласима, постерима и другим облицима понуде, упутствима, рачунима, пословној преписци и другим облицима пословне документације, као и увоз и извоз производа обележених тим именом порекла, односно том географском ознаком.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav6">
+						<content>
+							<p>Министар надлежан за послове пољопривреде ближе прописује облик и садржину ознаке, као и начин контроле означавања пољопривредних и прехрамбених производа који носе неку од ознака географског порекла.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan57">
+					<num>57.</num>
+					<heading>Недозвољене радње</heading>
+					<paragraph wId="gla6-clan57-stav1">
+						<intro>
+							<p>Лица која немају статус овлашћених корисника ознаке географског порекла не смеју да:</p>
+						</intro>
+						<point wId="gla6-clan57-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> користе регистровано име порекла, односно регистровану географску ознаку за обележавање производа на које се та ознака географског порекла не односи, уколико су ти производи слични производима који се обележавају регистрованом ознаком географског порекла, или уколико се таквим коришћењем нарушава репутација заштићене ознаке географског порекла;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan57-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> копирају или подражавају, регистровану ознаку географског порекла, као и да користе превод, транскрипцију или транслитерацију регистроване ознаке географског порекла, чак и ако се тој ознаци географског порекла, додају речи „врста”, „тип”, „начин”, „имитација” и ако је наведено истинито географско порекло производа;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan57-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> користе на паковању, рекламном материјалу или документима лажне или преварне ознаке о географском пореклу, природи или квалитету производа, које могу да створе забуну у погледу порекла производа;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan57-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> врше било које друге радње које могу да створе забуну у промету у погледу стварног порекла производа.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan57-stav2">
+						<content>
+							<p>Одредба <ref wId="ref102" href="akn/rs/act/2018/44-27/srp@/!main~art_57__para_1" >става 1. овог</ref> члана односи се и на ознаке географског порекла које су регистроване на нивоу Европске заједнице у складу са прописом Европске заједнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan57-stav3">
+						<content>
+							<p>Лица која немају статус овлашћених корисника ознаке географског порекла не смеју да користе жиг који се састоји или у себи садржи назив који је идентичан или сличан ознаци географског порекла која је регистрована на нивоу Европске заједнице у складу са прописом Европске заједнице, а који се односи на сличне производе који не испуњавају услове за коришћење ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan58">
+					<num>58.</num>
+					<heading>Однос према раније регистрованом жигу</heading>
+					<paragraph wId="gla6-clan58-stav1">
+						<content>
+							<p>Одредбе овог закона неће утицати на услове за регистровање, ваљаност регистрације жига или права на коришћење жига, који је идентичан, или сличан регистрованој географској ознаци, уколико је жиг у питању пријављен или регистрован у доброј вери или су права на жиг стечена кроз употребу у доброј вери пре подношења пријаве географске ознаке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan58-stav2">
+						<content>
+							<p>Одредбе овог закона неће утицати на ваљаност регистрације или права на коришћење жига који је идентичан или сличан географској ознаци која је регистрована на нивоу Европске заједнице у складу са прописом Европске заједнице, уколико је жиг у питању регистрован у доброј вери или су права на жиг стечена кроз употребу у доброј вери пре него што је географска ознака заштићена на нивоу Европске заједнице у складу са прописом Европске заједнице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan59">
+					<num>59.</num>
+					<heading>Употреба личног имена</heading>
+					<paragraph wId="gla6-clan59-stav1">
+						<content>
+							<p>Одредбе овог закона ни на који начин неће утицати на било које лице да, у свом пословању, користи своје лично име, или име свог претходника у послу, осим ако се то име користи на такав начин да доведе потрошаче у заблуду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan60">
+					<num>60.</num>
+					<heading>Забрана преноса</heading>
+					<paragraph wId="gla6-clan60-stav1">
+						<content>
+							<p>Регистровано име порекла, односно регистрована географска ознака не може да буде предмет уговора о преносу права, лиценци, залоги, франшизи и слично.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan60-stav2">
+						<content>
+							<p>Ако је регистровано име порекла, односно регистрована географска ознака предмет пријављеног или регистрованог жига, такав жиг не може да се преноси, уступа, даје у залогу и слично.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan61">
+					<num>61.</num>
+					<heading>Измена података о специфичним карактеристикама производа</heading>
+					<paragraph wId="gla6-clan61-stav1">
+						<content>
+							<p>Свако лице из <ref wId="ref103" href="akn/rs/act/2018/44-27/srp@/!main~art_18__para_2" >члана 18. став 2. овог</ref> закона, као и лице коме је признат статус овлашћеног корисника ознаке географског порекла, може затражити одобрење за измену или допуну података о специфичним карактеристикама производа уколико су те измене, односно допуне резултат научних и техничких достигнућа, или када је измена, односно допуна последица примене обавезних ветеринарских, санитарних или фитосанитарних мера уведених посебним прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan61-stav2">
+						<content>
+							<p>Захтев из <ref wId="ref104" href="akn/rs/act/2018/44-27/srp@/!main~art_61__para_1" >става 1. овог</ref> члана садржи опис затражене измене, односно допуне и образложене разлоге због којих се тражи измена, односно допуна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan61-stav3">
+						<content>
+							<p>Под условима из <ref wId="ref105" href="akn/rs/act/2018/44-27/srp@/!main~art_61__para_1" >става 1. овог</ref> члана орган надлежан за послове интелектуалне својине може да донесе решење о измени или допуни података о специфичним карактеристикама производа само уколико се тиме не мењају основна физичка, хемијска и органолептичка својства производа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan61-stav4">
+						<content>
+							<p>У поступку по захтеву из <ref wId="ref107" href="akn/rs/act/2018/44-27/srp@/!main~art_61__para_1" >става 1. овог</ref> члана сходно се примењују одредбе <ref wId="ref106" href="akn/rs/act/2018/44-27/srp@/!main~art_27" >члана 27. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan61-stav5">
+						<content>
+							<p>Орган надлежан за послове интелектуалне својине ближе прописује садржину захтева из <ref wId="ref108" href="akn/rs/act/2018/44-27/srp@/!main~art_61__para_1" >става 1. овог</ref> члана, одређује прилоге који се подносе уз захтев и прописује њихову садржину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan61-stav6">
+						<content>
+							<p>Против решења из <ref wId="ref109" href="akn/rs/act/2018/44-27/srp@/!main~art_61__para_3" >става 3. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan61-stav7">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ОГЛАШАВАЊЕ НИШТАВИМ РЕШЕЊА О ПРИЗНАВАЊУ ОЗНАКЕ ГЕОГРАФСКОГ ПОРЕКЛА, ОДНОСНО РЕШЕЊА О ПРИЗНАВАЊУ СТАТУСА ОВЛАШЋЕНОГ КОРИСНИКА ОЗНАКЕ ГЕОГРАФСКОГ ПОРЕКЛА</heading>
+				<article wId="gla7-clan62">
+					<num>62.</num>
+					<heading>Услови за оглашавање ништавим решења</heading>
+					<paragraph wId="gla7-clan62-stav1">
+						<content>
+							<p>На писмени предлог заинтересованог лица, орган надлежан за послове интелектуалне својине може да огласи ништавим решење о признавању ознаке географског порекла, односно решење о признавању статуса овлашћеног корисника ознаке географског порекла, ако утврди да у време његовог доношења нису били испуњени услови за признавање ознаке географског порекла, односно за признавање статуса овлашћеног корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan63">
+					<num>63.</num>
+					<heading>Начин покретања поступка за оглашавање ништавим решења</heading>
+					<paragraph wId="gla7-clan63-stav1">
+						<intro>
+							<p>Предлог за оглашавање ништавим решења о признавању ознаке географског порекла, односно решења о признавању статуса овлашћеног корисника ознаке географског порекла подноси се органу надлежном за послове интелектуалне својине у два примерка и садржи:</p>
+						</intro>
+						<point wId="gla7-clan63-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о подносиоцу предлога;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan63-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> назначење да се тражи оглашавање ништавим решења о признавању ознаке географског порекла, односно о признавању статуса овлашћеног корисника;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan63-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> регистарски број ознаке географског порекла чије се оглашавање ништавим тражи, односно регистарски број овлашћеног корисника ознаке географског порекла чије се оглашавање ништавим тражи;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan63-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> податке о овлашћеном кориснику ознаке географског порекла чије се оглашавање ништавим тражи;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan63-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> разлоге због којих се тражи оглашавање ништавим;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan63-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> доказе о наведеним разлозима;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan63-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> уредно пуномоћје када се поступак покреће преко пуномоћника и</p>
+							</content>
+						</point>
+						<point wId="gla7-clan63-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> доказ о уплати прописане таксе.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan63-stav2">
+						<content>
+							<p>Ако предлог за оглашавање ништавим решења о признавању ознаке географског порекла, односно о признавању статуса овлашћеног корисника ознаке географског порекла не садржи све елементе из <ref wId="ref110" href="akn/rs/act/2018/44-27/srp@/!main~art_63__para_1" >става 1. овог</ref> члана, орган надлежан за послове интелектуалне својине обавестиће о томе предлагача и позвати га да отклони утврђене недостатке у року од 30 дана од дана пријема обавештења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan63-stav3">
+						<content>
+							<p>Ако предлагач у року из <ref wId="ref111" href="akn/rs/act/2018/44-27/srp@/!main~art_63__para_2" >става 2. овог</ref> члана не уреди предлог, орган надлежан за послове интелектуалне својине закључком ће одбацити предлог.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan63-stav4">
+						<content>
+							<p>Против закључка из <ref wId="ref112" href="akn/rs/act/2018/44-27/srp@/!main~art_63__para_3" >става 3. овог</ref> члана може се изјавити жалба Влади у року од 15 дана од дана пријема закључка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan63-stav5">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan64">
+					<num>64.</num>
+					<heading>Поступак по уредном предлогу</heading>
+					<paragraph wId="gla7-clan64-stav1">
+						<content>
+							<p>Уредан предлог из <ref wId="ref113" href="akn/rs/act/2018/44-27/srp@/!main~art_62" >члана 62. овог</ref> закона орган надлежан за послове интелектуалне својине доставиће противнику предлагача и позвати га да, у року од 30 дана од дана пријема позива, достави свој одговор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan64-stav2">
+						<content>
+							<p>У поступку по предлогу из <ref wId="ref114" href="akn/rs/act/2018/44-27/srp@/!main~art_62" >члана 62. овог</ref> закона орган надлежан за послове интелектуалне својине може да закаже усмену расправу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan64-stav3">
+						<content>
+							<p>Ако предлагач у току поступка одустане од свог предлога, орган надлежан за послове интелектуалне својине може да настави поступак по службеној дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan64-stav4">
+						<content>
+							<p>У поступку по предлогу за оглашавање ништавим решења о признавању ознаке географског порекла, односно решења о признавању статуса овлашћеног корисника ознаке географског порекла сходно се примењују одредбе <ref wId="ref116" href="akn/rs/act/2018/44-27/srp@/!main~art_27__para_2->para_4" >члана 27. ст. 2, 3. и 4</ref>, члана 28, <ref wId="ref117" href="akn/rs/act/2018/44-27/srp@/!main~art_41__para_2->para_4" >члана 41. ст. 2, 3. и 4. </ref>и <ref wId="ref115" href="akn/rs/act/2018/44-27/srp@/!main~art_42" >члана 42. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan65">
+					<num>65.</num>
+					<paragraph wId="gla7-clan65-stav1">
+						<content>
+							<p>После спроведеног поступка по предлогу из <ref wId="ref118" href="akn/rs/act/2018/44-27/srp@/!main~art_62" >члана 62. овог</ref> закона, орган надлежан за послове интелектуалне својине може да донесе решење о оглашавању ништавим решења о признавању ознаке географског порекла, односно решење о оглашавању ништавим решења о признавању статуса овлашћеног корисника ознаке географског порекла, или решење о одбијању предлога.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan65-stav2">
+						<content>
+							<p>Против решења из <ref wId="ref119" href="akn/rs/act/2018/44-27/srp@/!main~art_65__para_1" >става 1. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan65-stav3">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan65-stav4">
+						<content>
+							<p>У року од 90 дана од правоснажности решења којим је оглашено ништавим решење о признавању ознаке географског порекла, односно решење о признавању статуса овлашћеног корисника ознаке географског порекла орган надлежан за послове интелектуалне својине ће у свом службеном гласилу објавити прописане податке из тог решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan66">
+					<num>66.</num>
+					<paragraph wId="gla7-clan66-stav1">
+						<content>
+							<p>Оглашавање ништавим решења о признавању ознаке географског порекла, односно решења о признавању статуса овлашћеног корисника ознаке географског порекла, нема дејство на судске одлуке у вези са утврђивањем повреде права које су у моменту доношења тог решења биле правноснажне, под условом да је тужилац, односно овлашћени корисник ознаке географског порекла био савестан.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕСТАНАК ОЗНАКЕ ГЕОГРАФСКОГ ПОРЕКЛА</heading>
+				<article wId="gla8-clan67">
+					<num>67.</num>
+					<heading>Престанак имена порекла, односно географске ознаке у земљи порекла</heading>
+					<paragraph wId="gla8-clan67-stav1">
+						<content>
+							<p>Регистровано име порекла, односно регистрована географска ознака престаје да важи ако јој престане заштита у земљи њеног порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan67-stav2">
+						<content>
+							<p>На захтев заинтересованог лица, уз подношење потврде издате од стране надлежног органа земље порекла одређеног имена порекла, односно географске ознаке, или по пријему обавештења надлежног органа земље порекла одређеног имена порекла, односно географске ознаке да је том имену порекла, односно географској ознаци престала заштита у земљи порекла, орган надлежан за послове интелектуалне својине ће донети решење о престанку важења имена порекла, односно географске ознаке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan67-stav3">
+						<content>
+							<p>Против решења из <ref wId="ref120" href="akn/rs/act/2018/44-27/srp@/!main~art_67__para_2" >става 2. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan67-stav4">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan67-stav5">
+						<content>
+							<p>Решење из <ref wId="ref121" href="akn/rs/act/2018/44-27/srp@/!main~art_67__para_2" >става 2. овог</ref> члана орган надлежан за послове интелектуалне својине уписаће у одговарајући регистар и у свом службеном гласилу објавиће прописане податке о престанку важења имена порекла, односно географске ознаке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan68">
+					<num>68.</num>
+					<heading>Престанак географске ознаке на основу судске одлуке</heading>
+					<paragraph wId="gla8-clan68-stav1">
+						<content>
+							<p>Заинтересовано лице тужбом може да покрене поступак за утврђење да је одређена географска ознака постала генеричан, односно уобичајен назив за одређени производ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan68-stav2">
+						<content>
+							<p>Поступак из <ref wId="ref122" href="akn/rs/act/2018/44-27/srp@/!main~art_68__para_1" >става 1. овог</ref> члана води надлежни суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan68-stav3">
+						<content>
+							<p>Регистрована географска ознака престаје да важи на основу правоснажне судске одлуке којом се утврђује да је постала генеричан, односно уобичајени назив за одређени производ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan68-stav4">
+						<content>
+							<p>Регистрована географска ознака која је у својој земљи порекла регистрована и заштићена као име порекла не може да буде проглашена генеричним, односно уобичајеним називом за одређени производ, све док таква заштита траје у земљи порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan68-stav5">
+						<content>
+							<p>По пријему судске одлуке из <ref wId="ref123" href="akn/rs/act/2018/44-27/srp@/!main~art_68__para_3" >става 3. овог</ref> члана орган надлежан за послове интелектуалне својине ће одлуку уписати у одговарајући регистар, и у свом службеном гласилу ће објавити прописане податке о престанку важења географске ознаке.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>ПРЕСТАНАК И УКИДАЊЕ СТАТУСА ОВЛАШЋЕНОГ КОРИСНИКА ОЗНАКЕ ГЕОГРАФСКОГ ПОРЕКЛА</heading>
+				<article wId="gla9-clan69">
+					<num>69.</num>
+					<heading>Престанак статуса овлашћеног корисника ознаке географског порекла</heading>
+					<paragraph wId="gla9-clan69-stav1">
+						<intro>
+							<p>Статус овлашћеног корисника ознаке географског порекла престаје и пре истека рока из <ref wId="ref124" href="akn/rs/act/2018/44-27/srp@/!main~art_48__para_1" >члана 48. став 1. овог</ref> закона:</p>
+						</intro>
+						<point wId="gla9-clan69-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако се овлашћени корисник ознаке географског порекла одрекне свог статуса – наредног дана од дана предаје органу надлежном за послове интелектуалне својине поднеска о одрицању;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan69-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је на основу <ref wId="ref125" href="akn/rs/act/2018/44-27/srp@/!main~art_67" >члана 67, </ref>односно <ref wId="ref126" href="akn/rs/act/2018/44-27/srp@/!main~art_68" >члана 68. овог</ref> закона престало име порекла, односно географска ознака, на основу одлуке надлежног органа – даном одређеним том одлуком;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan69-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако је престало правно лице, односно ако је умрло физичко лице које има статус овлашћеног корисника ознаке географског порекла – даном престанка, односно смрти, осим ако тај статус није прешао на правне следбенике правног лица.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan70">
+					<num>70.</num>
+					<heading>Укидање решења о признавању статуса овлашћеног корисника ознаке географског порекла</heading>
+					<paragraph wId="gla9-clan70-stav1">
+						<content>
+							<p>На захтев заинтересованог лица, односно надлежног органа, орган надлежан за послове интелектуалне својине може да донесе решење о укидању решења о признавању статуса овлашћеног корисника ознаке географског порекла, ако утврди да су престали да постоје услови за признавање статуса овлашћеног корисника ознаке географског порекла, који су предвиђени овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav2">
+						<content>
+							<p>У поступку по захтеву за укидање решења о признавању статуса овлашћеног корисника ознаке географског порекла, овлашћени корисник ознаке географског порекла, дужан је да докаже да постоје законом прописани услови за признавање статуса овлашћеног корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav3">
+						<content>
+							<p>Ако подносилац захтева за укидање решења о признавању статуса овлашћеног корисника ознаке географског порекла, у току поступка одустане од свог захтева, орган надлежан за послове интелектуалне својине може да настави поступак по службеној дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav4">
+						<content>
+							<p>У поступку по захтеву за укидање решења о признавању статуса овлашћеног корисника ознаке географског порекла сходно се примењују одредбе <ref wId="ref128" href="akn/rs/act/2018/44-27/srp@/!main~art_41__para_2->para_4" >члана 41. ст. 2, 3. и 4. </ref>и <ref wId="ref127" href="akn/rs/act/2018/44-27/srp@/!main~art_42" >члана 42. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav5">
+						<content>
+							<p>Против решења из <ref wId="ref129" href="akn/rs/act/2018/44-27/srp@/!main~art_70__para_1" >става 1. овог</ref> члана, може се изјавити жалба Влади у року од 15 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav6">
+						<content>
+							<p>Против одлуке Владе о жалби, може се покренути управни спор у року од 30 дана од дана пријема одлуке Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan70-stav7">
+						<content>
+							<p>Лицу које је уписано као овлашћени корисник ознаке географског порекла у одговарајући регистар, статус овлашћеног корисника ознаке географског порекла престаје наредног дана од дана правоснажности решења о укидању решења о признавању статуса овлашћеног корисника ознаке географског порекла.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>ГРАЂАНСКО ПРАВНА ЗАШТИТА</heading>
+				<article wId="gla10-clan71">
+					<num>71.</num>
+					<heading>Заштита у случају повреде регистроване ознаке географског порекла</heading>
+					<paragraph wId="gla10-clan71-stav1">
+						<intro>
+							<p>У случају повреде регистрованог имена порекла, односно географске ознаке, тужилац може тужбом да захтева :</p>
+						</intro>
+						<point wId="gla10-clan71-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> утврђење повреде имена порекла, односно географске ознаке;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan71-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престанак повреде имена порекла, односно географске ознаке;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan71-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> уништење или преиначење предмета којима је извршена повреда имена порекла, односно географске ознаке;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan71-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> одузимање, уништење или преиначење алата и опреме уз помоћ којих су произведени предмети којима је извршена повреда имена порекла, односно географске ознаке, ако је то неопходно за спречавање повреде;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan71-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> накнаду имовинске штете и оправданих трошкова поступка;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan71-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> објављивање пресуде о трошку туженог;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan71-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> давање података о трећим лицима која су учествовала у повреди имена порекла, односно географске ознаке.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla10-clan71-stav2">
+						<content>
+							<p>Лице које повреди регистровано име порекла, односно географску ознаку одговара за штету по општим правилима о накнади штете.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan71-stav3">
+						<content>
+							<p>Ако је повреда регистрованог имена порекла, односно географске ознаке учињена намерно, тужилац може да захтева накнаду до троструког износа стварне штете и измакле добити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan71-stav4">
+						<content>
+							<p>Поступак по тужби из <ref wId="ref130" href="akn/rs/act/2018/44-27/srp@/!main~art_71__para_1" >става 1. овог</ref> члана је хитан.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan72">
+					<num>72.</num>
+					<heading>Повреда регистрованог имена порекла, односно географске ознаке</heading>
+					<paragraph wId="gla10-clan72-stav1">
+						<content>
+							<p>Повредом регистрованог имена порекла, односно географске ознаке сматра се свако неовлашћено коришћење имена порекла, односно географске ознаке од стране било ког учесника у промету, у смислу чл. <ref wId="ref131" href="akn/rs/act/2018/44-27/srp@/!main~art_56" >56</ref>. и <ref wId="ref132" href="akn/rs/act/2018/44-27/srp@/!main~art_57" >57</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan72-stav2">
+						<content>
+							<p>Повредом регистрованог имена порекла, односно географске ознаке, сматра се и подражавање тог имена порекла, односно географске ознаке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan73">
+					<num>73.</num>
+					<heading>Активна легитимација за тужбу</heading>
+					<paragraph wId="gla10-clan73-stav1">
+						<content>
+							<p>Тужбу због повреде регистрованог имена порекла, односно географске ознаке из <ref wId="ref133" href="akn/rs/act/2018/44-27/srp@/!main~art_71" >члана 71. овог</ref> закона могу да поднесу лица из <ref wId="ref134" href="akn/rs/act/2018/44-27/srp@/!main~art_18__para_2" >члана 18. став 2. овог</ref> закона, овлашћени корисници имена порекла, односно географске ознаке и јавни, односно државни тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan73-stav2">
+						<content>
+							<p>Ако је пред органом надлежним за послове интелектуалне својине или судом покренут поступак из чл. <ref wId="ref136" href="akn/rs/act/2018/44-27/srp@/!main~art_62" >62</ref>, <ref wId="ref137" href="akn/rs/act/2018/44-27/srp@/!main~art_67" >67</ref>, <ref wId="ref138" href="akn/rs/act/2018/44-27/srp@/!main~art_68" >68</ref>. и <ref wId="ref139" href="akn/rs/act/2018/44-27/srp@/!main~art_70" >70</ref>. овог закона, суд који поступа по тужби из <ref wId="ref135" href="akn/rs/act/2018/44-27/srp@/!main~art_71" >члана 71. овог</ref> закона дужан је да застане са поступком до коначне одлуке органа надлежног за послове интелектуалне својине, односно суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan74">
+					<num>74.</num>
+					<heading>Рок за подношење тужбе</heading>
+					<paragraph wId="gla10-clan74-stav1">
+						<content>
+							<p>Тужба због повреде регистрованог имена порекла, односно географске ознаке, може да се поднесе у року од три године од дана када је тужилац сазнао за повреду и учиниоца, а најдоцније у року од пет година од дана када је повреда први пут учињена.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla11">
+				<num>XI</num>
+				<heading>ПРИВРЕМЕНЕ МЕРЕ</heading>
+				<article wId="gla11-clan75">
+					<num>75.</num>
+					<heading>Привремена мера одузимања или искључења производа из промета</heading>
+					<paragraph wId="gla11-clan75-stav1">
+						<content>
+							<p>На захтев лица које учини вероватним да је регистровано име порекла, односно географска ознака повређена, или да ће бити повређена, суд може да одреди привремену меру одузимања или искључења из промета производа којима се врши повреда, средстава за производњу тих производа, односно меру забране настављања започетих радњи којима се врши или би се могла извршити повреда регистрованог имена порекла, односно географске ознаке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan76">
+					<num>76.</num>
+					<heading>Обезбеђење доказа</heading>
+					<paragraph wId="gla11-clan76-stav1">
+						<content>
+							<p>На захтев лица које учини вероватним да је регистровано име порекла, односно географска ознака повређена, односно да може да дође до такве повреде, или да постоји опасност од настанка неотклоњиве штете, као и да постоји оправдана сумња да ће докази о томе бити уништени или да ће их касније бити немогуће прибавити, суд може приступити обезбеђењу доказа без претходног обавештења или саслушања лица од кога се докази прикупљају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan76-stav2">
+						<content>
+							<p>Обезбеђењем доказа у смислу <ref wId="ref140" href="akn/rs/act/2018/44-27/srp@/!main~art_76__para_1" >става 1. овог</ref> члана сматра се преглед просторија, возила, књига, докумената, као и заплена предмета, испитивање сведока и вештака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan76-stav3">
+						<content>
+							<p>Лицу од кога се докази прикупљају судско решење о одређивању привремене мере ради обезбеђења доказа биће уручено у тренутку прикупљања доказа, а одсутном лицу чим то постане могуће.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan77">
+					<num>77.</num>
+					<heading>Рок за тражење привремених мера</heading>
+					<paragraph wId="gla11-clan77-stav1">
+						<content>
+							<p>Привремена мера из <ref wId="ref141" href="akn/rs/act/2018/44-27/srp@/!main~art_75" >члана 75. овог</ref> закона и обезбеђење доказа из <ref wId="ref142" href="akn/rs/act/2018/44-27/srp@/!main~art_76" >члана 76. овог</ref> закона, могу се тражити и пре подношења тужбе због повреде регистрованог имена порекла, односно географске ознаке, под условом да се тужба поднесе у року од 30 дана од дана доношења решења о одређивању привремене мере, односно решења о одређивању обезбеђења доказа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan77-stav2">
+						<content>
+							<p>Жалба против решења којим је суд одредио привремену меру из <ref wId="ref143" href="akn/rs/act/2018/44-27/srp@/!main~art_75" >члана 75. овог</ref> закона и меру обезбеђења доказа из <ref wId="ref144" href="akn/rs/act/2018/44-27/srp@/!main~art_76" >члана 76. овог</ref> закона не одлаже извршење решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan78">
+					<num>78.</num>
+					<heading>Средства обезбеђења</heading>
+					<paragraph wId="gla11-clan78-stav1">
+						<content>
+							<p>На захтев лица против кога је покренут поступак због повреде регистрованог имена порекла, односно географске ознаке, или поступак за изрицање привремене мере, суд може да одреди полагање одговарајућег новчаног износа као средства обезбеђења у случају неоснованости захтева, на терет подносиоца захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan79">
+					<num>79.</num>
+					<heading>Обавеза пружања информација</heading>
+					<paragraph wId="gla11-clan79-stav1">
+						<content>
+							<p>Суд може да нареди лицу које је извршило повреду регистрованог имена порекла, односно географске ознаке, да пружи информацију о трећим лицима која су учествовала у повреди регистрованог имена порекла, односно географске ознаке, и о њиховим дистрибутивним каналима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan79-stav2">
+						<content>
+							<p>Лице из <ref wId="ref145" href="akn/rs/act/2018/44-27/srp@/!main~art_79__para_1" >става 1. овог</ref> члана које не изврши обавезу пружања информације одговара за штету која из тога произађе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla12">
+				<num>XII</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla12-clan80">
+					<num>80.</num>
+					<paragraph wId="gla12-clan80-stav1">
+						<content>
+							<p>Казниће се за привредни преступ новчаном казном од 100.000 динара до 3.000.000 динара привредно друштво, предузеће или друго правно лице које на начин из <ref wId="ref146" href="akn/rs/act/2018/44-27/srp@/!main~art_72" >члана 72. </ref>повреди регистровано име порекла, односно регистровану географску ознаку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan80-stav2">
+						<content>
+							<p>За радње из <ref wId="ref147" href="akn/rs/act/2018/44-27/srp@/!main~art_80__para_1" >става 1. овог</ref> члана казниће се за привредни преступ новчаном казном од 50.000 до 200.000 динара и одговорно лице у привредном друштву, предузећу или другом правном лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan80-stav3">
+						<content>
+							<p>Предмети извршења привредног преступа и предмети који су били употребљени за извршење привредног преступа из <ref wId="ref148" href="akn/rs/act/2018/44-27/srp@/!main~art_80__para_1" >става 1. овог</ref> члана биће одузети, а предмети извршења привредног преступа биће и уништени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan80-stav4">
+						<content>
+							<p>Пресуда којом је учиниоцу изречена казна за привредни преступ из <ref wId="ref149" href="akn/rs/act/2018/44-27/srp@/!main~art_80__para_1" >става 1. овог</ref> члана јавно се објављује.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan81">
+					<num>81.</num>
+					<paragraph wId="gla12-clan81-stav1">
+						<content>
+							<p>Казниће се за прекршај новчаном казном од 50.000 до 500.000 динара предузетник, ако повреди регистровано име порекла, односно регистровану географску ознаку на начин из <ref wId="ref150" href="akn/rs/act/2018/44-27/srp@/!main~art_72" >члана 72. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan81-stav2">
+						<content>
+							<p>За радње из <ref wId="ref151" href="akn/rs/act/2018/44-27/srp@/!main~art_81__para_1" >става 1. овог</ref> члана казниће се физичко лице новчаном казном од 10.000 до 50.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan81-stav3">
+						<content>
+							<p>Предмети извршења прекршаја и предмети који су били употребљени за извршење прекршаја из <ref wId="ref152" href="akn/rs/act/2018/44-27/srp@/!main~art_81__para_1" >става 1. овог</ref> члана биће одузети, а предмети извршења прекршаја биће и уништени.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla12-clan82">
+					<num>82.</num>
+					<paragraph wId="gla12-clan82-stav1">
+						<content>
+							<p>Казниће се за прекршај новчаном казном од 100.000 до 1.000.000 динара правно лице које се неовлашћено бави заступањем у остваривању права из овог закона (<ref wId="ref153" href="akn/rs/act/2018/44-27/srp@/!main~art_15" >члан 15</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla12-clan82-stav2">
+						<content>
+							<p>За радње из <ref wId="ref154" href="akn/rs/act/2018/44-27/srp@/!main~art_82__para_1" >става 1. овог</ref> члана казниће се за прекршај новчаном казном од 10.000 до 50.000 динара одговорно лице у правном лицу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla13">
+				<num>XIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla13-clan83">
+					<num>83.</num>
+					<paragraph wId="gla13-clan83-stav1">
+						<content>
+							<p>Регистри установљени у складу са раније важећим прописима у овој области настављају да се воде као Регистар пријава за признавање ознака географског порекла, Регистар пријава за признавање статуса овлашћених корисника ознаке географског порекла, Регистар ознака географског порекла, Регистар овлашћених корисника ознаке географског порекла, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan83-stav2">
+						<content>
+							<p>Регистрована имена порекла и регистроване географске ознаке које важе на дан ступања на снагу овог закона остају на снази и на њих ће се примењивати одредбе овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan83-stav3">
+						<content>
+							<p>Одредбе овог закона примењиваће се и на пријаве за признавање ознака географског порекла, и на пријаве за признавање статуса овлашћеног корисника ознаке географског порекла поднете до дана ступања на снагу овог закона, а по којима управни поступак није окончан као и на друге започете поступке у вези са ознакама географског порекла који до дана ступања на снагу овог закона нису окончани.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla13-clan84">
+					<num>84.</num>
+					<paragraph wId="gla13-clan84-stav1">
+						<content>
+							<p>Одредба <ref wId="ref155" href="akn/rs/act/2018/44-27/srp@/!main~art_57__para_1" >члана 57. став 1. овог</ref> закона ће се у погледу ознака географског порекла које су регистроване на нивоу Европске заједнице у складу са прописом Европске заједнице, а које представљају уобичајене изразе у општој употреби за одређене производе у Републици Србији, примењивати три године од дана ступања на снагу Прелазног споразума о трговини и трговинским питањима између Европске заједнице и Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan84-stav2">
+						<content>
+							<p>Одредба <ref wId="ref156" href="akn/rs/act/2018/44-27/srp@/!main~art_57__para_3" >члана 57. став 3. овог</ref> закона ће се примењивати три године од дана ступања на снагу Прелазног споразума о трговини и трговинским питањима између Европске заједнице и Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla13-clan85">
+					<num>85.</num>
+					<paragraph wId="gla13-clan85-stav1">
+						<content>
+							<p>Подзаконски акти за спровођење овог закона биће донети у року од четири месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan85-stav2">
+						<content>
+							<p>До доношења подзаконских аката из <ref wId="ref158" href="akn/rs/act/2018/44-27/srp@/!main~art_85__para_1" >става 1. овог</ref> члана примењују се одредбе Уредбе о поступку за установљење географске ознаке порекла и признању својства овлашћеног корисника географске ознаке порекла („Службени лист СРЈ”, број <ref wId="ref157" href="akn/rs/act/96/7/srp@">7/96</ref>), ако нису супротне овом закону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla13-clan86">
+					<num>86.</num>
+					<paragraph wId="gla13-clan86-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о ознакама географског порекла („Службени лист СЦГ”, број <ref wId="ref159" href="akn/rs/act/06/20/srp@">20/06</ref> и „Службени гласник РС”, број <ref wId="ref160" href="akn/rs/act/09/41/srp@">41/09</ref> – др. закон).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla13-clan87">
+					<num>87.</num>
+					<paragraph wId="gla13-clan87-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan87-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan87-stav3">
+						<content>
+							<p>о ознакама географског порекла</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan87-stav4">
+						<content>
+							<p>„Службени гласник РС“, бр. <ref wId="ref161" href="akn/rs/act/2010/18/srp@">18 од 26. марта 2010</ref>, <ref wId="ref162" href="akn/rs/act/2018/44/srp@">44 од 8. јуна 2018</ref> -  др. закон</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

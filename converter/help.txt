@@ -1,0 +1,23 @@
+1)install:
+https://www.python.org/download/releases/2.7/
+https://www.microsoft.com/en-us/download/details.aspx?id=44266 (Za python 2.7 da radi marisa-trie)
+
+2)Podesavanja da radi CMD
+Dodati python u envirment variables u Windows ( Windows search env) -> Envirment Variables -> (Variable) Path - Edit -> (Dodati) C:\Python27 i C:\Python27\Scripts   (Python27 ime foldera koji se instalirao python2.7, ovo je da bi radilo u cmd python2 poziv)
+Kod python27 Preimenovati "python.exe" u "python2.exe" i "pythonw.exe" u "pythonw2.exe"
+
+3)Podesavanja interpetera u Pycharm-u, da bi radio poziv u njemu i kada se poziva sa CMD
+connector = python 3.7 intrepreter
+reldi-tagger = python 2.7 intrepreter
+
+4)Komande za insalaciju paketa za python2.7
+ cmd:
+  python2 -m pip install marisa-trie==0.7.5
+  python2 -m pip install python-crfsuite=0.9.6
+  python2 -m pip install scikit-learn==0.20.4
+5)Da bi radio reldi mora se skinuti sr.lexicon.guesser
+http://nlp.ffzg.hr/data/reldi/hr.lexicon.guesser
+http://nlp.ffzg.hr/data/reldi/sr.lexicon.guesser
+http://nlp.ffzg.hr/data/reldi/sl.lexicon.guesser
+
+Connector file implementiran u converting_rs_legal_acts_to_akoma_ntoso

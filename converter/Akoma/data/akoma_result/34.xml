@@ -1,0 +1,920 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о политичким странкама">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2009/36-155/main"/>
+					<FRBRuri value="akn/rs/act/2009/36-155"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2015/61-54/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2015/61-54/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2015/61-54/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2015/61-54/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-05-15" name="службени гласник рс“" number="36" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="14. Удружења, политичке странке, цркве, верске заједнице и друге организације" value="14. удружења, политичке странке, цркве, верске заједнице и друге организације" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="36/2009-155" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2015-01-01" refersTo="61/2015-54" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2009-05-12" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2009-05-23" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2009-07-23" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="странака"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="политичких"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="значајна"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="појам"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="положај"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="правни"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="престанак"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="брисање"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="оснивање"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="рад"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="регистра"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="упис"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registar"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registar Ministarstvo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registra"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registru"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo obavesti"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo preko upravne inspekcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo rešenjem"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo u roku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo utvrdi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluku US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar političkih organizacija i Registar udruženja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar političkih stranaka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registra političkih organizacija i Registra udruženja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registru"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Socijalističke Federativne Republike Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda Ministarstvu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="36. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="38. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. i 9."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. маја 2009. године, а почео је да се примењује даном истека 60 дана од дана ступања на снагу, односно 23. јула 2009. године (види члан 47. Закона).Одлуком Уставног суда број IУз 479/2014 („Службени гласник РС“, број 61/2015) престале су да важе одредбе чл. 30. и 36. Закона о политичким странкама („Службени гласник РС”, број 36/2009), јер је утврђено да нису у сагласности са Уставом (види Одлуку УС – 61/2015-54).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 23. маја 2009. године, а почео је да се примењује даном истека 60 дана од дана ступања на снагу, односно 23. јула 2009. године (види члан 47. Закона).Одлуком Уставног суда број IУз 479/2014 („Службени гласник РС“, број 61/2015) престале су да важе одредбе чл. 30. и 36. Закона о политичким странкама („Службени гласник РС”, број 36/2009), јер је утврђено да нису у сагласности са Уставом (види Одлуку УС – 61/2015-54).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О политичким странкама „Службени гласник РС“, бр. <ref wId="ref69" href="akn/rs/act/2009/36/srp@">36 од 15. маја 2009</ref>, <ref wId="ref70" href="akn/rs/act/2015/61/srp@">61 од 10. јула 2015</ref> - УС</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се оснивање и правни положај политичких странака, упис и брисање из регистра, престанак политичких странака и друга питања значајна за рад политичких странака.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Појам политичке странке</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Политичка странка у смислу овог закона је организација грађана слободно и добровољно удружених основана ради остваривања политичких циљева демократским обликовањем политичке воље грађана и учешћа на изборима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Појам политичке странке националне мањине</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Политичка странка националне мањине у смислу овог закона је политичка странка чије је деловање, поред обележја из <ref wId="ref0" href="akn/rs/act/2015/61-54/srp@/!main~art_2" >члана 2. овог</ref> закона, посебно усмерено на представљање и заступање интереса једне националне мањине и заштиту и унапређење права припадника те националне мањине у складу са уставом, законом и међународним стандардима, уређено оснивачким актом, програмом и статутом политичке странке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Начин организовања и деловање политичке странке</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Политичка странка се организује и делује искључиво на територијалном принципу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Деловање политичке странке не може бити усмерено на насилно рушење уставног поретка и нарушавање територијалне целокупности Републике Србије, кршење зајемчених људских или мањинских права или изазивање и подстицање расне, националне или верске мржње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Политичка странка не може непосредно вршити власт, нити је потчинити себи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Правни статус и почетак рада политичке странке</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Политичка странка стиче статус правног лица даном уписа у Регистар политичких странака (у даљем тексту: Регистар).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Политичка странка почиње са радом даном уписа у Регистар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Јавност рада</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Рад политичке странке је јаван.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Законитост рада политичке странке</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Политичка странка делује у складу са уставом, законом, програмом, статутом и другим општим актима.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОСНИВАЊЕ ПОЛИТИЧКЕ СТРАНКЕ</heading>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Оснивачи политичке странке</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Политичку странку могу основати најмање 10.000 пунолетних и пословно способних држављана Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Оснивачи политичке странке националне мањине</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Политичку странку националне мањине могу основати најмање 1.000 пунолетних и пословно способних држављана Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Оснивање политичке странке</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Политичка странка се оснива на оснивачкој скупштини доношењем оснивачког акта, програма, статута и избором лица овлашћеног за заступање политичке странке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Оснивачки акт</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Оснивачки акт политичке странке садржи: назив, седиште и адресу политичке странке; програмске циљеве; лично име, пребивалиште и адресу и јединствени матични број грађана лица овлашћеног за подношење пријаве за упис политичке странке у Регистар и датум доношења оснивачког акта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Саставни део оснивачког акта чине изјаве оснивача о оснивању политичке странке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Садржина изјаве оснивача о оснивању политичке странке</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Изјава оснивача о оснивању политичке странке садржи: лично име, пребивалиште и адресу и јединствени матични број грађана оснивача политичке странке; назив политичке странке; прихватање програма и статута политичке странке; датум потписивања изјаве и потпис оснивача политичке странке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Изјава из <ref wId="ref1" href="akn/rs/act/2015/61-54/srp@/!main~art_12__para_1" >става 1. овог</ref> члана мора да садржи потврду о овери потписа у складу са законом (у даљем тексту: овера потписа).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav3">
+						<content>
+							<p>Изглед изјаве из <ref wId="ref2" href="akn/rs/act/2015/61-54/srp@/!main~art_12__para_1" >става 1. овог</ref> члана ближе уређује министар надлежан за послове управе (у даљем тексту: Министар).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Програм политичке странке</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Програм политичке странке садржи опис политичких начела, циљева и вредности за које се политичка странка залаже.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Статут политичке странке</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Статут је основни општи акт политичке странке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Други општи акти, ако их политичка странка доноси, морају бити у сагласности са статутом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav3">
+						<content>
+							<p>Статутом се обавезно уређује: назив и седиште политичке странке; симболи визуелног идентитета; изглед и садржина печата политичке странке и организационих јединица по територијалном принципу; програмски циљеви; услови и начин учлањивања и престанка чланства; права, обавезе и одговорности чланова; организација по територијалном принципу и унутрашња организација, органи, њихова овлашћења, састав, начин избора и опозива, трајање мандата и начин одлучивања; заступање политичке странке; поступак за измене и допуне програма и статута и поступак доношења и измена других општих аката политичке странке, ако их доноси; остваривање јавности рада; начин одлучивања о удруживању политичке странке у шире политичке савезе у земљи и иностранству и спајању политичке странке; начин финансирања политичке странке; начин обављања унутрашње контроле финансијског пословања; лице одговорно за финансијско пословање, подношење извештаја и вођење књига политичке странке и лице овлашћено да контактира са надлежним органом; начин доношења одлуке о престанку рада; начин располагања имовином политичке странке у случају престанка, као и друга питања од значаја за рад и деловање политичке странке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Заступник политичке странке</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Политичку странку заступа лице овлашћено за заступање политичке странке (у даљем тексту: заступник политичке странке), изабрано односно именовано на начин утврђен статутом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Акт о избору, односно именовању заступника политичке странке обавезно садржи: лично име, пребивалиште и адресу и јединствени матични број грађана заступника политичке странке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav3">
+						<content>
+							<p>Заступник политичке странке је дужан да се придржава овлашћења утврђених статутом и одлукама надлежних органа политичке странке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<heading>Доступност података, програма, статута и других  општих аката политичке странке</heading>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Политичка странка је дужна да учини јавно доступним путем интернета оснивачки акт, лично име заступника политичке странке, програм, статут и друге опште акте политичке странке, ако их доноси.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<heading>Организационе јединице по територијалном принципу</heading>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Политичка странка може оснивати организационе јединице по територијалном принципу у складу са законом, статутом или другим општим актима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav2">
+						<content>
+							<p>Организационе јединице по територијалном принципу немају статус правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav3">
+						<content>
+							<p>Политичка странка, у складу са статутом, доноси одлуку о оснивању и престанку рада организационих јединица по територијалном принципу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<heading>Назив и скраћени назив политичке странке</heading>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>Назив политичке странке мора бити на српском језику и ћириличком писму.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Назив политичке странке националне мањине, ако је то предвиђено статутом, може бити и на језику и писму националне мањине. Назив на језику и писму националне мањине уписује се у Регистар после назива на српском језику и ћириличком писму.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav3">
+						<content>
+							<p>Назив политичке странке може да садржи реч „Србија” у одговарајућем падежу, на начин којим се истиче углед и достојанство Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav4">
+						<content>
+							<p>Назив политичке странке не може да садржи лично име, назив стране државе и страног правног лица, као и елементе предвиђене <ref wId="ref3" href="akn/rs/act/2015/61-54/srp@/!main~art_4__para_2" >чланом 4. став 2. овог</ref> закона. Такође, назив политичке странке не сме да асоцира на политичке странке које су спроводиле политику забрањену <ref wId="ref4" href="akn/rs/act/2015/61-54/srp@/!main~art_4__para_2" >чланом 4. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav5">
+						<content>
+							<p>Политичка странка може имати скраћени назив који се одређује статутом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<heading>Разликовање и употреба назива политичке странке</heading>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>Назив политичке странке не може бити идентичан називу друге политичке странке која је уписана или уредно пријављена за упис у Регистар, односно која је брисана из Регистра под условом да од дана брисања из Регистра није протекло више од четири године, односно такав да изазива забуну у јавности или повређује морална осећања грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav2">
+						<content>
+							<p>Назив политичке странке употребљава се у правном саобраћају у облику у коме је уписан у Регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav3">
+						<content>
+							<p>Организационе јединице по територијалном принципу политичке странке могу, у складу са статутом, уз назив политичке странке да употребљавају и додатак из кога се види да је у питању организациона јединица по територијалном принципу политичке странке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan20">
+					<num>20.</num>
+					<heading>Симболи визуелног идентитета</heading>
+					<paragraph wId="gla2-clan20-stav1">
+						<content>
+							<p>Политичка странка може имати симболе визуелног идентитета (свој знак, логотип и друге симболе), у складу са статутом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav2">
+						<content>
+							<p>Симболи визуелног идентитета не могу бити идентични симболима друге политичке странке која је уписана или уредно пријављена за упис у Регистар, односно која је брисана из Регистра под условом да од дана брисања није протекло више од четири године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan21">
+					<num>21.</num>
+					<heading>Чланство у политичкој странци</heading>
+					<paragraph wId="gla2-clan21-stav1">
+						<content>
+							<p>Чланство у политичкој странци је слободно и добровољно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav2">
+						<content>
+							<p>Чланом политичке странке може, под једнаким условима утврђеним статутом, постати сваки пунолетан и пословно способан држављанин Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav3">
+						<content>
+							<p>Судије Уставног суда, судије, јавни тужиоци, Заштитник грађана, припадници полиције и припадници војске, као и друга лица чија је функција у складу са законом неспојива са чланством у политичкој странци, не могу бити чланови политичких странака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav4">
+						<content>
+							<p>Политичка странка води евиденцију о својим члановима која обавезно садржи: лично име и име једног од родитеља, пребивалиште и адресу и јединствени матични број грађана члана политичке странке; датум учлањивања у политичку странку и престанка чланства у политичкој странци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav5">
+						<content>
+							<p>Евиденција из <ref wId="ref5" href="akn/rs/act/2015/61-54/srp@/!main~art_21__para_4" >става 4. овог</ref> члана води се у писаном облику и као јединствена централна електронска база података.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>УПИС У РЕГИСТАР</heading>
+				<article wId="gla3-clan22">
+					<num>22.</num>
+					<heading>Вођење Регистра</heading>
+					<paragraph wId="gla3-clan22-stav1">
+						<content>
+							<p>Регистар води Министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav2">
+						<content>
+							<p>Начин уписа и вођења Регистра из <ref wId="ref6" href="akn/rs/act/2015/61-54/srp@/!main~art_22__para_1" >става 1. овог</ref> члана ближе уређује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan23">
+					<num>23.</num>
+					<heading>Садржина Регистра</heading>
+					<paragraph wId="gla3-clan23-stav1">
+						<content>
+							<p>У Регистар се уписују: назив, скраћени назив, седиште и адреса политичке странке; датум оснивања политичке странке; датум доношења програма и статута, односно њихових измена; датум подношења пријаве за упис у Регистар; лично име, пребивалиште и адреса и јединствени матични број грађана заступника политичке странке; положај политичке странке националне мањине у смислу овог закона; чланство у ширим политичким савезима у земљи и иностранству; број и датум доношења решења о упису, промени података и брисању политичке странке из Регистра; забелешка о обнови уписа у Регистар; забелешка о покретању поступка за забрану рада политичке странке; престанак и забрана рада политичке странке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan24">
+					<num>24.</num>
+					<heading>Пријава за упис</heading>
+					<paragraph wId="gla3-clan24-stav1">
+						<content>
+							<p>Упис у Регистар врши се на основу пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav2">
+						<content>
+							<p>Садржину и изглед пријаве из <ref wId="ref7" href="akn/rs/act/2015/61-54/srp@/!main~art_24__para_1" >става 1. овог</ref> члана ближе уређује министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav3">
+						<content>
+							<p>Пријаву за упис подноси лице овлашћено за подношење пријаве за упис у Регистар (у даљем тексту: подносилац пријаве), у року од 30 дана од дана оснивања политичке странке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav4">
+						<content>
+							<p>Уз пријаву се обавезно подносе: записник са оснивачке скупштине; оснивачки акт; изјаве оснивача о оснивању политичке странке, на прописаном обрасцу, које садрже оверу потписа; потврде о упису оснивача политичке странке у бирачки списак; по два примерка програма и статута; акт о избору заступника политичке странке и оверену фотокопију личне карте заступника политичке странке, а ако она не садржи податак о пребивалишту и адреси и потврду о пребивалишту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan25">
+					<num>25.</num>
+					<heading>Одбацивање пријаве за упис</heading>
+					<paragraph wId="gla3-clan25-stav1">
+						<intro>
+							<p>Министарство позива подносиоца пријаве да у року који не може бити дужи од 30 нити краћи од 15 дана отклони недостатке ако:</p>
+						</intro>
+						<point wId="gla3-clan25-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> је назив политичке странке идентичан називу политичке странке која је уписана или уредно пријављена за упис у Регистар, односно која је брисана из Регистра под условом да од дана брисања из Регистра није протекло више од четири године, односно такав да изазива забуну у јавности или повређује морална осећања грађана;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan25-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> је пријава поднета од неовлашћеног лица, односно уз пријаву нису поднете прописане исправе;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan25-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> пријава, оснивачки акт, програм и статут политичке странке не садрже све податке прописане овим законом, односно ако пријава није поднета на прописаном обрасцу, односно ако изјаве оснивача нису дате на прописаном обрасцу или не садрже оверу потписа.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav2">
+						<content>
+							<p>Ако подносилац пријаве у остављеном року не отклони недостатке, Министарство решењем одбацује пријаву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav3">
+						<content>
+							<p>Решење из <ref wId="ref8" href="akn/rs/act/2015/61-54/srp@/!main~art_25__para_2" >става 2. овог</ref> члана је коначно и против њега се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan26">
+					<num>26.</num>
+					<heading>Решење о упису у Регистар</heading>
+					<paragraph wId="gla3-clan26-stav1">
+						<content>
+							<p>Министарство је дужно да донесе решење о упису политичке странке у Регистар у року од 30 дана од дана предаје уредне пријаве за упис.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav2">
+						<content>
+							<p>Решење из <ref wId="ref9" href="akn/rs/act/2015/61-54/srp@/!main~art_26__para_1" >става 1. овог</ref> члана је коначно и против њега се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav3">
+						<content>
+							<p>Решење о упису политичке странке у Регистар објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav4">
+						<content>
+							<p>Ако Министарство у року из <ref wId="ref10" href="akn/rs/act/2015/61-54/srp@/!main~art_26__para_1" >става 1. овог</ref> члана не донесе решење о упису политичке странке у Регистар, односно не одбаци пријаву за упис политичке странке у Регистар сматра се да је политичка странка уписана у Регистар наредног дана од дана истека рока.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav5">
+						<content>
+							<p>Уз решење о упису политичке странке у Регистар политичкој странци доставља се по један примерак програма и статута које Министарство оверава својим печатом и потписом одређеног службеног лица, чиме се потврђује њихова истоветност са примерком програма и статута који се чувају у Министарству.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan27">
+					<num>27.</num>
+					<heading>Промена података у Регистру</heading>
+					<paragraph wId="gla3-clan27-stav1">
+						<content>
+							<p>Политичка странка је дужна да Министарство обавести о свакој промени података који се уписују у Регистар у року од 15 дана од дана настале промене, подношењем пријаве за промену података у Регистру.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav2">
+						<content>
+							<p>Уз пријаву из <ref wId="ref11" href="akn/rs/act/2015/61-54/srp@/!main~art_27__para_1" >става 1. овог</ref> члана подноси се записник са седнице надлежног органа за доношење одлуке о промени података, у изворнику односно овереном препису и одлука о промени података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav3">
+						<content>
+							<p>Пријаву за промену података у Регистру подноси заступник политичке странке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan28">
+					<num>28.</num>
+					<heading>Одбацивање пријаве за упис промене података  у Регистар</heading>
+					<paragraph wId="gla3-clan28-stav1">
+						<content>
+							<p>Ако промена података који се уписују у Регистар није у складу са одредбама овог закона, програма и статута политичке странке, Министарство позива заступника политичке странке да у року од 15 дана од дана подношења пријаве за упис промене података у Регистар отклони недостатке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav2">
+						<content>
+							<p>Ако заступник политичке странке у остављеном року не отклони недостатке, Министарство решењем одбацује пријаву за упис промене података у Регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav3">
+						<content>
+							<p>Решење из <ref wId="ref12" href="akn/rs/act/2015/61-54/srp@/!main~art_28__para_2" >става 2. овог</ref> члана је коначно и против њега се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan29">
+					<num>29.</num>
+					<heading>Решење о упису промене података у Регистар</heading>
+					<paragraph wId="gla3-clan29-stav1">
+						<content>
+							<p>О упису промене података у Регистар, Министарство доноси решење о упису промене података у Регистар у року од 30 дана од дана предаје уредне пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav2">
+						<content>
+							<p>Решење из <ref wId="ref13" href="akn/rs/act/2015/61-54/srp@/!main~art_29__para_1" >става 1. овог</ref> члана је коначно и против њега се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan30">
+					<num>30.</num>
+					<heading>Обнова уписа у Регистар</heading>
+					<paragraph wId="gla3-clan30-stav1">
+						<content>
+							<p>Престао је да важи (види   Одлуку УС - 61/2015-54)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan31">
+					<num>31.</num>
+					<heading>Решење о обнови уписа у Регистар</heading>
+					<paragraph wId="gla3-clan31-stav1">
+						<content>
+							<p>О обнови уписа у Регистар Министарство доноси решење у року од 30 дана од дана предаје уредне пријаве за обнову уписа у Регистар, односно дана покретања поступка за утврђивање чињеница и података по службеној дужности из <ref wId="ref14" href="akn/rs/act/2015/61-54/srp@/!main~art_30__para_5" >члана 30. став 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav2">
+						<content>
+							<p>Решење из <ref wId="ref15" href="akn/rs/act/2015/61-54/srp@/!main~art_31__para_1" >става 1. овог</ref> члана је коначно и против њега се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan32">
+					<num>32.</num>
+					<heading>Јавност Регистра</heading>
+					<paragraph wId="gla3-clan32-stav1">
+						<content>
+							<p>Подаци уписани у Регистар су јавни, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav2">
+						<content>
+							<p>Свако се може поуздати у тачност података уписаних у Регистар.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>УДРУЖИВАЊЕ И СПАЈАЊЕ ПОЛИТИЧКИХ СТРАНАКА</heading>
+				<article wId="gla4-clan33">
+					<num>33.</num>
+					<heading>Удруживање политичке странке</heading>
+					<paragraph wId="gla4-clan33-stav1">
+						<content>
+							<p>Политичка странка се може удруживати у шире политичке савезе у земљи или иностранству, при чему задржава свој правни субјективитет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan34">
+					<num>34.</num>
+					<heading>Спајање политичких странака</heading>
+					<paragraph wId="gla4-clan34-stav1">
+						<content>
+							<p>Политичка странка се може спојити са другом или другим политичким странкама које су уписане у Регистар, ради стварања нове политичке странке и у том случају губи свој правни субјективитет, а нови правни субјекат постаје политичка странка која је настала спајањем две или више политичких странака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan34-stav2">
+						<content>
+							<p>Политичка странка која је настала спајањем две или више политичких странака уписује се у Регистар тако што уз пријаву за упис подноси: одлуку о спајању политичких странака; изјаве чланова политичке странке о чланству у политичкој странци која је настала спајањем две или више политичких странака, на прописаном обрасцу, које садрже оверу потписа најмање у броју који је потребан за оснивање политичке странке у смислу овог закона; извештај о обједињеној имовини (биланс стања); по два примерка програма и статута; акт о избору заступника политичке странке и оверену фотокопију личне карте заступника политичке странке, а ако она не садржи податак о пребивалишту и адреси и потврду о пребивалишту.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРЕСТАНАК ПОЛИТИЧКЕ СТРАНКЕ</heading>
+				<article wId="gla5-clan35">
+					<num>35.</num>
+					<heading>Општи услови за престанак политичке странке</heading>
+					<paragraph wId="gla5-clan35-stav1">
+						<content>
+							<p>Политичка странка престаје да постоји брисањем из Регистра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan35-stav2">
+						<content>
+							<p>Брисањем из Регистра политичка странка губи статус правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan35-stav3">
+						<intro>
+							<p>Политичка странка брише се из Регистра:</p>
+						</intro>
+						<point wId="gla5-clan35-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако орган утврђен статутом донесе одлуку о престанку рада;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan35-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако се политичка странка споји са другом или другим политичким странкама;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan35-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> кад јој Уставни суд забрани рад.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan35-stav4">
+						<content>
+							<p>У случајевима из става 3. тач. <ref wId="ref16" href="akn/rs/act/2015/61-54/srp@/!main~art_35__para_3__point_1" >1</ref>) и <ref wId="ref17" href="akn/rs/act/2015/61-54/srp@/!main~art_35__para_3__point_2" >2</ref>) овог члана заступник политичке странке је дужан да у року од 30 дана од дана настанка услова за престанак политичке странке поднесе пријаву за брисање политичке странке из Регистра и доказе на основу којих се утврђују те чињенице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan35-stav5">
+						<content>
+							<p>Ако заступник политичке странке у року из <ref wId="ref18" href="akn/rs/act/2015/61-54/srp@/!main~art_35__para_4" >става 4. овог</ref> члана не поднесе пријаву за брисање политичке странке из Регистра, а Министарство утврди или сазна да су настали услови из става 3. тач. <ref wId="ref19" href="akn/rs/act/2015/61-54/srp@/!main~art_35__para_3__point_1" >1</ref>) и <ref wId="ref20" href="akn/rs/act/2015/61-54/srp@/!main~art_35__para_3__point_2" >2</ref>) овог члана, покреће поступак за брисање политичке странке из Регистра по службеној дужности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan36">
+					<num>36.</num>
+					<heading>Посебан услов за престанак политичке странке</heading>
+					<paragraph wId="gla5-clan36-stav1">
+						<content>
+							<p>Престао је да важи (види   Одлуку УС - 61/2015-54)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan37">
+					<num>37.</num>
+					<heading>Забрана рада политичке странке</heading>
+					<paragraph wId="gla5-clan37-stav1">
+						<content>
+							<p>О забрани рада политичке странке одлучује Уставни суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan37-stav2">
+						<content>
+							<p>Забраниће се рад политичкој странци чије је деловање супротно <ref wId="ref21" href="akn/rs/act/2015/61-54/srp@/!main~art_4__para_2" >члану 4. став 2. овог</ref> закона или која се удружи у шире политичке савезе у земљи или иностранству, односно споји са политичком странком која делује супротно <ref wId="ref22" href="akn/rs/act/2015/61-54/srp@/!main~art_4__para_2" >члану 4. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan38">
+					<num>38.</num>
+					<heading>Поступак за забрану рада политичке странке</heading>
+					<paragraph wId="gla5-clan38-stav1">
+						<content>
+							<p>Поступак за забрану рада политичке странке покреће се на предлог Владе, Републичког јавног тужиоца и Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan38-stav2">
+						<content>
+							<p>Кад Уставни суд забрани рад политичке странке, та политичка странка брише се из Регистра даном достављања одлуке Уставног суда Министарству.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan39">
+					<num>39.</num>
+					<heading>Решење о брисању из Регистра</heading>
+					<paragraph wId="gla5-clan39-stav1">
+						<content>
+							<p>Министарство је дужно да у случајевима из члана 35. став 3. тач. <ref wId="ref25" href="akn/rs/act/2015/61-54/srp@/!main~art_35__para_3__point_1" >1</ref>) и <ref wId="ref26" href="akn/rs/act/2015/61-54/srp@/!main~art_35__para_3__point_2" >2</ref>) и <ref wId="ref23" href="akn/rs/act/2015/61-54/srp@/!main~art_36__para_1" >члана 36. став 1. овог</ref> закона донесе решење о брисању политичке странке из Регистра у року од 30 дана од дана предаје уредне пријаве за брисање политичке странке из Регистра, односно дана покретања поступка по службеној дужности, а у случају из <ref wId="ref24" href="akn/rs/act/2015/61-54/srp@/!main~art_38__para_2" >члана 38. став 2. овог</ref> закона даном достављања одлуке Уставног суда о забрани рада политичке странке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan39-stav2">
+						<content>
+							<p>Решење из <ref wId="ref27" href="akn/rs/act/2015/61-54/srp@/!main~art_39__para_1" >става 1. овог</ref> члана је коначно и против њега се може покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan39-stav3">
+						<content>
+							<p>Решење о брисању политичке странке из Регистра објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla6-clan40">
+					<num>40.</num>
+					<heading>Надлежност за вршење надзора</heading>
+					<paragraph wId="gla6-clan40-stav1">
+						<content>
+							<p>Надзор над спровођењем овог закона врши министарство надлежно за послове управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan40-stav2">
+						<content>
+							<p>Инспекцијски надзор врши Министарство преко управне инспекције.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan41">
+					<num>41.</num>
+					<heading>Прекршаји</heading>
+					<paragraph wId="gla7-clan41-stav1">
+						<intro>
+							<p>Новчаном казном од 50.000 до 500.000 динара казниће се за прекршај политичка странка ако:</p>
+						</intro>
+						<point wId="gla7-clan41-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> не учини јавно доступним путем интернета оснивачки акт, лично име заступника политичке странке, програм, статут и друге опште акте политичке странке, ако их доноси (<ref wId="ref28" href="akn/rs/act/2015/61-54/srp@/!main~art_16" >члан 16</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla7-clan41-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> назив не употребљава у правном саобраћају у облику у коме је уписан у Регистар (<ref wId="ref29" href="akn/rs/act/2015/61-54/srp@/!main~art_19__para_2" >члан 19. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla7-clan41-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> у прописаном року не пријави Министарству промену података који се уписују у Регистар, односно не поднесе пријаву за обнову уписа у Регистар, односно не поднесе пријаву за брисање из Регистра (<ref wId="ref30" href="akn/rs/act/2015/61-54/srp@/!main~art_27__para_1" >члан 27. став 1, </ref><ref wId="ref31" href="akn/rs/act/2015/61-54/srp@/!main~art_30__para_1" >члан 30. став 1. </ref>и <ref wId="ref32" href="akn/rs/act/2015/61-54/srp@/!main~art_35__para_4" >члан 35. став 4</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan41-stav2">
+						<content>
+							<p>За прекршај из <ref wId="ref33" href="akn/rs/act/2015/61-54/srp@/!main~art_41__para_1" >става 1. овог</ref> члана казниће се заступник политичке странке новчаном казном од 5.000 до 50.000 динара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan42">
+					<num>42.</num>
+					<paragraph wId="gla7-clan42-stav1">
+						<intro>
+							<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај:</p>
+						</intro>
+						<point wId="gla7-clan42-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> лице које делује у име политичке странке која није уписана у Регистар (<ref wId="ref34" href="akn/rs/act/2015/61-54/srp@/!main~art_5" >члан 5</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla7-clan42-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> лице овлашћено за подношење пријаве за упис политичке странке у Регистар ако у прописаном року не поднесе пријаву за упис политичке странке у Регистар (<ref wId="ref35" href="akn/rs/act/2015/61-54/srp@/!main~art_24__para_3" >члан 24. став 3</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan43">
+					<num>43.</num>
+					<paragraph wId="gla8-clan43-stav1">
+						<content>
+							<p>У року од 60 дана од дана ступања на снагу овог закона, Министар доноси прописе за извршавање овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan44">
+					<num>44.</num>
+					<paragraph wId="gla8-clan44-stav1">
+						<content>
+							<p>Поступак уписа у Регистар започет до дана ступања на снагу овог закона окончаће се по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan45">
+					<num>45.</num>
+					<paragraph wId="gla8-clan45-stav1">
+						<content>
+							<p>Политичке организације уписане у Регистар политичких организација према Закону о политичким организацијама („Службени гласник СРС”, број <ref wId="ref36" href="akn/rs/act/90/37/srp@">37/90</ref> и „Службени гласник РС”, бр. <ref wId="ref37" href="akn/rs/act/92/30/srp@">30/92</ref>, <ref wId="ref38" href="akn/rs/act/93/53/srp@">53/93</ref>, <ref wId="ref39" href="akn/rs/act/93/67/srp@">67/93</ref>, <ref wId="ref40" href="akn/rs/act/94/48/srp@">48/94</ref> и <ref wId="ref41" href="akn/rs/act/05/101/srp@">101/05</ref>), као и оне које су уписане у Регистар удружења, друштвених организација и политичких организација према Закону о удруживању грађана у удружења, друштвене организације и политичке организације који се оснивају за територију Социјалистичке Федеративне Републике Југославије („Службени лист СФРЈ”, број <ref wId="ref42" href="akn/rs/act/90/42/srp@">42/90</ref> и „Службени лист СРЈ”, бр. <ref wId="ref43" href="akn/rs/act/93/16/srp@">16/93</ref>, <ref wId="ref44" href="akn/rs/act/93/31/srp@">31/93</ref>, <ref wId="ref45" href="akn/rs/act/93/41/srp@">41/93</ref>, <ref wId="ref46" href="akn/rs/act/93/50/srp@">50/93</ref>, <ref wId="ref47" href="akn/rs/act/94/24/srp@">24/94</ref>, <ref wId="ref48" href="akn/rs/act/96/28/srp@">28/96</ref> и <ref wId="ref49" href="akn/rs/act/00/73/srp@">73/00</ref>) настављају са радом ако у року од шест месеци од дана почетка примене овог закона ускладе свој статут и друге опште акте са одредбама овог закона и поднесу пријаву за упис политичке странке у Регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan45-stav2">
+						<content>
+							<p>Политичке организације из <ref wId="ref52" href="akn/rs/act/2015/61-54/srp@/!main~art_45__para_1" >става 1. овог</ref> члана дужне су да уз пријаву за упис политичке странке у Регистар поднесу: по два примерка програма и статута, акт о избору, односно именовању заступника политичке странке и друге акте донете у поступку усклађивања, као и изјаве чланова политичке странке о чланству у политичкој странци које садрже оверу потписа, најмање у броју који је потребан за оснивање политичке странке сагласно чл. <ref wId="ref50" href="akn/rs/act/2015/61-54/srp@/!main~art_8" >8</ref>. и <ref wId="ref51" href="akn/rs/act/2015/61-54/srp@/!main~art_9" >9</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan45-stav3">
+						<content>
+							<p>Политичке организације које не поступе сагласно <ref wId="ref53" href="akn/rs/act/2015/61-54/srp@/!main~art_45__para_1->para_2" >ст. 1. и 2. овог</ref> члана бришу се из Регистра политичких организација и Регистра удружења, друштвених организација и политичких организација и губе статус правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan45-stav4">
+						<content>
+							<p>У року из <ref wId="ref54" href="akn/rs/act/2015/61-54/srp@/!main~art_45__para_1" >става 1. овог</ref> члана у Регистар политичких странака не може бити уписана политичка странка чији је назив идентичан називу политичке организације уписане у Регистар политичких организација и Регистар удружења, друштвених организација и политичких организација.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan46">
+					<num>46.</num>
+					<paragraph wId="gla8-clan46-stav1">
+						<intro>
+							<p>Даном ступања на снагу овог закона престају да важе:</p>
+						</intro>
+						<point wId="gla8-clan46-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Закон о политичким организацијама („Службени гласник СРС”, број <ref wId="ref55" href="akn/rs/act/90/37/srp@">37/90</ref> и „Службени гласник РС”, бр. <ref wId="ref56" href="akn/rs/act/92/30/srp@">30/92</ref>, <ref wId="ref57" href="akn/rs/act/93/53/srp@">53/93</ref>, <ref wId="ref58" href="akn/rs/act/93/67/srp@">67/93</ref>, <ref wId="ref59" href="akn/rs/act/94/48/srp@">48/94</ref> и <ref wId="ref60" href="akn/rs/act/05/101/srp@">101/05</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla8-clan46-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Закон о удруживању грађана у удружења, друштвене организације и политичке организације који се оснивају за територију Социјалистичке Федеративне Републике Југославије („Службени лист СФРЈ”, број <ref wId="ref61" href="akn/rs/act/90/42/srp@">42/90</ref> и „Службени лист СРЈ”, бр. <ref wId="ref62" href="akn/rs/act/93/16/srp@">16/93</ref>, <ref wId="ref63" href="akn/rs/act/93/31/srp@">31/93</ref>, <ref wId="ref64" href="akn/rs/act/93/41/srp@">41/93</ref>, <ref wId="ref65" href="akn/rs/act/93/50/srp@">50/93</ref>, <ref wId="ref66" href="akn/rs/act/94/24/srp@">24/94</ref>, <ref wId="ref67" href="akn/rs/act/96/28/srp@">28/96</ref> и <ref wId="ref68" href="akn/rs/act/00/73/srp@">73/00</ref>), у делу који се односи на политичке организације.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan47">
+					<num>47.</num>
+					<paragraph wId="gla8-clan47-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а почеће да се примењује даном истека 60 дана од дана ступања на снагу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

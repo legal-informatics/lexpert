@@ -1,0 +1,2475 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Агенцији за борбу против корупције">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2008/97-42/main"/>
+					<FRBRuri value="akn/rs/act/2008/97-42"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2019/88-4/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2019/88-4/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2019/88-4/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2019/88-4/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2008-10-27" name="службени гласник рс“" number="97" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="16. Борба против корупције, заштита узбуњивача и лобирање" value="16. борба против корупције, заштита узбуњивача и лобирање" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2008-01-01" refersTo="97/2008-42" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="53/2010-13" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2011-01-01" refersTo="66/2011-48" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2013-01-01" refersTo="67/2013-13" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2013-01-01" refersTo="112/2013-3" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2015-01-01" refersTo="8/2015-88" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2019-01-01" refersTo="88/2019-4" source="#somebody" type="amendment" wId="e7"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2008-10-23" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2008-11-04" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2010-01-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="оснивање"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="спречавањем"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="израза"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="пријављивањем"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="правила"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="увођење"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="правни"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="врше"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="значење"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="при"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="положај"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="одлучивање"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="борбу"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="рада"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="планова"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="вршењу"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="агенције"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="сукоба"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="интегритета"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="повреде"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="вези"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="имовине"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="случају"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="корупције"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="против"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="рад"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавних"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="интереса"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="функција"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="лица"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agencija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agencije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agenciji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agencijom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agenciju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Strategije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Strategije Agencija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije ne"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije su Odbor i direktor"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije za borbu protiv korupcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agenciji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agenciji za borbu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencijom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Akcioni plan"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Akcionim planom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Akcionog plana"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Akcionog plana za primenu Nacionalne strategije za borbu protiv korupcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Autentično tumačenje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Nacionalne strategije za borbu protiv korupcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine nadležnog za upravu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbor Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbor Agencije konstituisan"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbora Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbora Agencije Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbora Agencije koga"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbora Agencije najviše"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbora Agencije saziva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbora Agencije se"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbora Agencije vodi Odbor Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odboru Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluku US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poverenika za informacije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkim odborom za rešavanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkog odbora za rešavanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Strategije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Strategijom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovni sud Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Funkcioner"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Izveštaja"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organ"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. al. 1. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. aprila"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. marta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. septembra 2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. decembra 2019."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. decembra 2013"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. do 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. januara 2015"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. oktobra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. jula 2010"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. i 31."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. januara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. jula 2013"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. marta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="32. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="36. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="38. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="39. do 41."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="39. i 40."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. i 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="41. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="41. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="43. i 44."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="43. st. 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="43. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="44."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="50."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="50. st. 1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="52. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="55."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="69. i 70."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. septembra 2011"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 4. новембра 2008. године, а примењује се од 1. јануара 2010. године (види члан 83. Закона).Одлуком Уставног суда IУз број 1239/2010 (Службени гласник РС, број 66/2011) престала је да важи одредба члана 29. став 3. Закона о изменама и допунама Закона о Агенцији за борбу против корупције (Службени гласник РС, број 53/2010), којим је измењен члан 82. Закона о Агенцији за борбу против корупције („Службени гласник РС“, број 97/2008), јер је утврђено да није у сагласности са Уставом и потврђеним међународним уговором (види Одлуку УС - 66/2011-48).Одлуком Уставног суда IУз број 245/2011 (Службени гласник РС, број 67/2013) престале су да важе одредбе члана 28. став 9, члана 30. став 6. и члана 31. став 7. Закона о Агенцији за борбу против корупције (Службени гласник РС, бр. 97/2008, 53/2010 и 66/2011-УС), јер је утврђено да нису у сагласности са Уставом (види Одлуку УС - 67/2013-13).Народна скупштина Републике Србије, на Шестој седници Другог редовног заседања у 2013. години, одржаној 16. децембра 2013. године, донела је Аутентично тумачење одредбе члана 2. алинеја друга Закона о Агенцији за борбу против корупције („Службени гласник Републике Србије”, бр. 97/2008, 53/2010, 66/2011 – УС и 67/2013 – УС) (види Аутентично тумачење - 112/2013-3).Одлуком Уставног суда IУз број 295/2013 (Службени гласник РС, број 8/2015) престала је да важи одредба члана 56. став 5. Закона о Агенцији за борбу против корупције („Службени гласник РС”, бр. 97/2008, 53/2010, 66/2011 – УС, 67/2013 – УС, 112/2013 – аутентично тумачење), јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 8/2015-88).Закон престаје да важи даном почетка примене Закона о спречавању корупције (Службени гласник РС, број 35/2019), односно 1. септембра 2020. године (види члан 114. Закона - 35/2019-6).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 4. новембра 2008. године, а примењује се од 1. јануара 2010. године (види члан 83. Закона).Одлуком Уставног суда IУз број 1239/2010 (Службени гласник РС, број 66/2011) престала је да важи одредба члана 29. став 3. Закона о изменама и допунама Закона о Агенцији за борбу против корупције (Службени гласник РС, број 53/2010), којим је измењен члан 82. Закона о Агенцији за борбу против корупције („Службени гласник РС“, број 97/2008), јер је утврђено да није у сагласности са Уставом и потврђеним међународним уговором (види Одлуку УС - 66/2011-48).Одлуком Уставног суда IУз број 245/2011 (Службени гласник РС, број 67/2013) престале су да важе одредбе члана 28. став 9, члана 30. став 6. и члана 31. став 7. Закона о Агенцији за борбу против корупције (Службени гласник РС, бр. 97/2008, 53/2010 и 66/2011-УС), јер је утврђено да нису у сагласности са Уставом (види Одлуку УС - 67/2013-13).Народна скупштина Републике Србије, на Шестој седници Другог редовног заседања у 2013. години, одржаној 16. децембра 2013. године, донела је Аутентично тумачење одредбе члана 2. алинеја друга Закона о Агенцији за борбу против корупције („Службени гласник Републике Србије”, бр. 97/2008, 53/2010, 66/2011 – УС и 67/2013 – УС) (види Аутентично тумачење - 112/2013-3).Одлуком Уставног суда IУз број 295/2013 (Службени гласник РС, број 8/2015) престала је да важи одредба члана 56. став 5. Закона о Агенцији за борбу против корупције („Службени гласник РС”, бр. 97/2008, 53/2010, 66/2011 – УС, 67/2013 – УС, 112/2013 – аутентично тумачење), јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 8/2015-88).Закон престаје да важи даном почетка примене Закона о спречавању корупције (Службени гласник РС, број 35/2019), односно 1. септембра 2020. године (види члан 114. Закона - 35/2019-6).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О агенцији за борбу против корупције „Службени гласник РС“, бр. <ref wId="ref164" href="akn/rs/act/2008/97/srp@">97 од 27. октобра 2008</ref>, <ref wId="ref165" href="akn/rs/act/2010/53/srp@">53 од 29. јула 2010</ref>, <ref wId="ref166" href="akn/rs/act/2011/66/srp@">66 од 7. септембра 2011</ref> - УС, <ref wId="ref167" href="akn/rs/act/2013/67/srp@">67 од 31. јула 2013</ref> - УС, <ref wId="ref168" href="akn/rs/act/2013/112/srp@">112 од 17. децембра 2013</ref> - Аутентично тумачење, <ref wId="ref169" href="akn/rs/act/2015/8/srp@">8 од 26. јануара 2015</ref> - УС, <ref wId="ref170" href="akn/rs/act/2019/88/srp@">88 од 13. децембра 2019</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се оснивање, правни положај,  надлежност, организација и начин рада Агенције за борбу против корупције (у  даљем тексту: Агенција), правила у вези са спречавањем сукоба интереса при  вршењу јавних функција и пријављивањем имовине лица која врше јавне функције,  поступак и одлучивање у случају повреде овог закона, увођење планова  интегритета, као и друга питања од значаја за рад Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Значење израза</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>У смислу овог закона, поједини изрази имају следеће  значење:</p>
+						</intro>
+						<alinea wId="gla1-clan2-stav1-ali1">
+							<content>
+								<p>„корупција” је однос који се заснива злоупотребом  службеног, односно друштвеног положаја или утицаја, у јавном или приватном  сектору, у циљу стицања личне користи или користи за другога;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan2-stav1-ali2">
+							<content>
+								<p>„функционер” је свако изабрано, постављено или  именовано лице у органе Републике Србије, аутономне покрајине, јединице локалне  самоуправе и органе јавних предузећа и привредних друштава, установа и других  организација чији је оснивач, односно члан  Република Србија, аутономна покрајина, јединица локалне самоуправе и друго лице  које бира Народна скупштина;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan2-stav1-ali3">
+							<content>
+								<p>„јавна функција” је функција у органима Републике  Србије, аутономне покрајине, јединице локалне самоуправе, органима јавних  предузећа и привредних друштава, установа и других организација, чији је  оснивач, односно члан Република Србија, аутономна покрајина, јединица локалне  самоуправе, као и функција других лица које бира Народна скупштина, а  подразумева овлашћења руковођења, одлучивања, односно доношења општих или  појединачних аката;</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<intro>
+							<p>− „јавни ресурс” је непокретност, покретна ствар и  свако друго добро којe је у јавној својини, односно у другом облику својине којe  користе органи Републике Србије, аутономне покрајине, јединице локалне  самоуправе, јавна предузећа, привредна друштва, установе и друге организације  чији је оснивач, односно члан Република Србија, аутономна покрајина или јединица  локалне самоуправе;</p>
+						</intro>
+						<alinea wId="gla1-clan2-stav2-ali1">
+							<content>
+								<p>„повезано лице” је супружник или ванбрачни партнер  функционера, крвни сродник функционера у правој линији, односно у побочној  линији закључно са другим степеном сродства, усвојитељ или усвојеник  функционера, као и свако друго правно или физичко лице које се према другим  основама и околностима може оправдано сматрати интересно повезаним са  функционером;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan2-stav2-ali2">
+							<content>
+								<p>„приватни интерес” је било каква корист или  погодност за функционера или повезано лице;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan2-stav2-ali3">
+							<content>
+								<p>„сукоб интереса” је ситуација у којој функционер  има приватни интерес који утиче, може да утиче или изгледа као да утиче на  поступање функционера у вршењу јавне функције односно службене дужности, на  начин који угрожава јавни интерес;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan2-stav2-ali4">
+							<content>
+								<p>„поклон” је новац, ствар, право и услуга извршена  без одговарајуће накнаде и свака друга корист која је дата функционеру или  повезаном лицу у вези с вршењем јавне функције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan2-stav2-ali5">
+							<content>
+								<p>„протоколарни поклон” је поклон који функционер  прими од стране државе, њеног органа или организације, међународне организације  или страног правног лица, који је примљен приликом службене посете или у другим  сличним приликама.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2013/112/srp@">112/2013</ref> (види  Аутентично  тумачење)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav5">
+						<content>
+							<p>***Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2019/88/srp@">88/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>АГЕНЦИЈА</heading>
+				<article wId="gla2-clan3">
+					<num>3.</num>
+					<paragraph wId="gla2-clan3-stav1">
+						<content>
+							<p>Агенција је самосталан и независан државни орган.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav2">
+						<content>
+							<p>За обављање послова из своје надлежности Агенција је  одговорна Народној скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav3">
+						<content>
+							<p>Агенција има својство правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav4">
+						<content>
+							<p>У поступку пред Агенцијом који није уређен овим  законом, сходно се примењују одредбе закона који уређује општи управни поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav5">
+						<content>
+							<p>Средства за рад и функционисање Агенције обезбеђују  се у буџету Републике Србије, на предлог Агенције, као и из других извора, у  складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav6">
+						<content>
+							<p>Агенција самостално располаже средствима из <ref wId="ref3" href="akn/rs/act/2019/88-4/srp@/!main~art_3__para_5" >става 5.  овог</ref> члана, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Седиште и организационе јединице Агенције</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Седиште Агенције је у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Агенција може да образује организационе јединице  изван седишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<content>
+							<p>Организационе јединице из <ref wId="ref4" href="akn/rs/act/2019/88-4/srp@/!main~art_4__para_2" >става 2. овог</ref> члана немају  својство правног лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Надлежност Агенције</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<intro>
+							<p>Агенција:</p>
+						</intro>
+						<alinea wId="gla2-clan5-stav1-ali1">
+							<content>
+								<p>адзире спровођење Националне стратегије за борбу  против корупције (у даљем тексту: Стратегија), Акционог плана за примену  Националне стратегије за борбу против корупције (у даљем тексту: Акциони план) и  секторских акционих планова;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali2">
+							<content>
+								<p>окреће поступак и изриче мере због повреде овог  закона;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali3">
+							<content>
+								<p>ешава о сукобу интереса;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali4">
+							<content>
+								<p>бавља послове у складу са законом којим је уређено  финансирање политичких странака, односно политичких субјеката;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali5">
+							<content>
+								<p>аје мишљења и упутства за спровођење овог закона;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali6">
+							<content>
+								<p>аје иницијативе за измену и доношење прописа у  области борбе против корупције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali7">
+							<content>
+								<p>аје мишљења у вези са применом Стратегије,  Акционог плана и секторских акционих планова;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali8">
+							<content>
+								<p>рати и обавља послове који се односе на  организовање координације рада државних органа у борби против корупције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali9">
+							<content>
+								<p>оди регистар функционера;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali10">
+							<content>
+								<p>оди регистар имовине и прихода функционера (у  даљем тексту: Регистар имовине);</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali11">
+							<content>
+								<p>ружа стручну помоћ у области борбе против  корупције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali12">
+							<content>
+								<p>арађује са другим државним органима у припреми  прописа у области борбе против корупције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali13">
+							<content>
+								<p>аје смернице за израду планова интегритета у  јавном и приватном сектору;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali14">
+							<content>
+								<p>арађује са научним организацијама и организацијама  цивилног друштва у спровођењу активности превенције корупције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali15">
+							<content>
+								<p>води и спроводи програме обуке о корупцији, у  складу са овим законом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali16">
+							<content>
+								<p>оди посебне евиденције у складу са овим законом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali17">
+							<content>
+								<p>оступа по представкама правних и физичких лица;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali18">
+							<content>
+								<p>оступа по пријавама државних службеника, односно  запослених у органима Републике Србије, аутономне покрајине, јединице локалне  самоуправе и органима јавних предузећа, установа и других организација чији је  оснивач Република Србија, аутономна покрајина или јединица локалне самоуправе,  односно органима привредних друштава чији је оснивач, односно члан Република  Србија, аутономна покрајина или јединица локалне самоуправе и запослених у  државним органима и организацијама;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali19">
+							<content>
+								<p>рганизује истраживања, прати и анализира  статистичке и друге податке о стању корупције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali20">
+							<content>
+								<p> сарадњи са надлежним државним органима прати  међународну сарадњу у области борбе против корупције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan5-stav1-ali21">
+							<content>
+								<p>бавља и друге послове одређене законом.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Органи Агенције</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Органи Агенције су Одбор и директор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-podod1-clan7-stav1">
+						<content>
+							<p>Одбор Агенције бира и разрешава директора Агенције,  одлучује о увећању плате директора, одлучује по жалбама на одлуке директора  којима се изричу мере у складу са овим законом, усваја годишњи извештај о раду  Агенције који подноси Народној скупштини, врши надзор над радом и имовинским  стањем директора, предлаже буџетска средства за рад Агенције, доноси пословник о  свом раду и врши друге послове одређене овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan7-stav2">
+						<content>
+							<p>Одбор Агенције може, на предлог директора, да оснива  саветодавна или радна тела Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan7-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan8">
+					<num>8.</num>
+					<heading>Услови за избор члана Одбора Агенције</heading>
+					<paragraph wId="gla2-podod1-clan8-stav1">
+						<content>
+							<p>За члана Одбора Агенције може да буде изабрано лице  које испуњава опште услове за рад у државним органима, има завршен факултет,  најмање девет година радног искуства и није осуђено за кривично дело које га  чини недостојним за вршење функције члана Одбора Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan8-stav2">
+						<content>
+							<p>Члан Одбора Агенције не може да буде члан политичке  странке, односно политичког субјекта и подлеже истим обавезама и забранама које  се по овом закону односе на функционере, изузев забране из <ref wId="ref7" href="akn/rs/act/2019/88-4/srp@/!main~art_30__para_1" >члана 30. став 1.  овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan8-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan9">
+					<num>9.</num>
+					<heading>Састав Одбора Агенције</heading>
+					<paragraph wId="gla2-podod1-clan9-stav1">
+						<content>
+							<p>Одбор Агенције има девет чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan9-stav2">
+						<intro>
+							<p>Чланове Одбора Агенције бира Народна скупштина на  предлог:</p>
+						</intro>
+						<point wId="gla2-podod1-clan9-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> Административног одбора Народне скупштине;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> председника Републике;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> Владе;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> Врховног касационог суда;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> Државне ревизорске институције;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> Заштитника грађана и Повереника за информације од  јавног значаја, путем заједничког договора;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> Социјално-економског савета;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> Адвокатске коморе Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> удружења новинара у Републици Србији, путем  заједничког договора.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan9-stav3">
+						<content>
+							<p>Кандидат за члана Одбора Агенције кога предложе  предлагачи из става 1. тач. <ref wId="ref9" href="akn/rs/act/2019/88-4/srp@/!main~art_9__para_1__point_8" >8</ref>) и <ref wId="ref10" href="akn/rs/act/2019/88-4/srp@/!main~art_9__para_1__point_9" >9</ref>) овог члана може да буде из редова  предлагача.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan10">
+					<num>10.</num>
+					<heading>Мандат члана Одбора Агенције</heading>
+					<paragraph wId="gla2-podod1-clan10-stav1">
+						<content>
+							<p>Мандат члана Одбора Агенције траје четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan10-stav2">
+						<content>
+							<p>Исто лице може да буде изабрано за члана Одбора  Агенције највише два пута.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan11">
+					<num>11.</num>
+					<heading>Накнада за рад члана Одбора Агенције</heading>
+					<paragraph wId="gla2-podod1-clan11-stav1">
+						<content>
+							<p>Члан Одбора Агенције има право на месечну накнаду у  висини две просечне месечне зараде без пореза и доприноса у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan12">
+					<num>12.</num>
+					<heading>Престанак функције члана Одбора Агенције</heading>
+					<paragraph wId="gla2-podod1-clan12-stav1">
+						<content>
+							<p>Функција члана Одбора Агенције престаје истеком  мандата, оставком, ако је због болести, на основу налаза надлежне здравствене  установе, трајно неспособан за вршење функције и разрешењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan12-stav2">
+						<content>
+							<p>Предлагачи су дужни да три месеца пре истека мандата  члана Одбора Агенције, поднесу предлог за избор новог члана Одбора Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan12-stav3">
+						<content>
+							<p>Ако функција члана Одбора Агенције престане пре  истека мандата, предлагач је дужан да у року од 30 дана од дана наступања услова  из <ref wId="ref11" href="akn/rs/act/2019/88-4/srp@/!main~art_12__para_1" >става 1. овог</ref> члана поднесе листу кандидата за избор новог члана Народној  скупштини.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan13">
+					<num>13.</num>
+					<heading>Разрешење члана Одбора Агенције</heading>
+					<paragraph wId="gla2-podod1-clan13-stav1">
+						<content>
+							<p>Члан Одбора Агенције се разрешава ако несавесно врши  функцију члана Одбора Агенције, ако постане члан политичке странке, односно  политичког субјекта, нарушава углед или политичку непристрасност Агенције, ако  буде осуђен за кривично дело које га чини недостојним функције члана Одбора  Агенције или ако се утврди да је повредио овај закон.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan13-stav2">
+						<content>
+							<p>Поступак у коме се утврђује да ли постоје разлози за  разрешење члана Одбора Агенције води Одбор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan13-stav3">
+						<content>
+							<p>Поступак из <ref wId="ref12" href="akn/rs/act/2019/88-4/srp@/!main~art_13__para_2" >става 2. овог</ref> члана покреће се на предлог  председника Одбора Агенције, најмање три члана Одбора Агенције, директора  Агенције, као и предлагача тог члана Одбора Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan13-stav4">
+						<content>
+							<p>Одлуку о разрешењу, на предлог Одбора Агенције,  доноси Народна скупштина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan13-stav5">
+						<content>
+							<p>Одбор Агенције може да удаљи са функције члана против  кога се води поступак у коме се утврђује да ли постоје разлози за његово  разрешење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan13-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan14">
+					<num>14.</num>
+					<heading>Одлучивање</heading>
+					<paragraph wId="gla2-podod1-clan14-stav1">
+						<content>
+							<p>Одбор Агенције одлучује већином гласова свих чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan14-stav2">
+						<content>
+							<p>Радом Одбора Агенције руководи председник, кога  између себе бирају чланови Одбора Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan15">
+					<num>15.</num>
+					<paragraph wId="gla2-podod2-clan15-stav1">
+						<content>
+							<p>Директор представља Агенцију, руководи радом,  организује и обезбеђује законито и ефикасно обављање послова Агенције, доноси  одлуке о повреди овог закона и изриче мере, даје мишљења и упутства за  спровођење овог закона, припрема годишњи извештај о раду Агенције, израђује  предлог буџетских средстава за рад Агенције, доноси опште и појединачне акте,  одлучује о правима, обавезама и одговорностима запослених у Агенцији, спроводи  одлуке Одбора Агенције и врши друге послове одређене законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan15-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref14" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan16">
+					<num>16.</num>
+					<heading>Услови за избор директора</heading>
+					<paragraph wId="gla2-podod2-clan16-stav1">
+						<content>
+							<p>За директора може да буде изабрано лице које испуњава  опште услове за рад у државним органима, има завршен правни факултет и најмање  девет година радног искуства и није осуђено за кривично дело које га чини  недостојним за вршење функције директора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan16-stav2">
+						<content>
+							<p>Директор не може да буде члан политичке странке,  односно политичког субјекта и подлеже истим обавезама и забранама које се по  овом закону односе на функционере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan16-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan17">
+					<num>17.</num>
+					<heading>Јавни конкурс за избор директора</heading>
+					<paragraph wId="gla2-podod2-clan17-stav1">
+						<content>
+							<p>Директор се бира на јавном конкурсу, који расписује  Одбор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan17-stav2">
+						<content>
+							<p>Јавни конкурс се објављује у „Службеном гласнику  Републике Србије” и најмање једном средству јавног информисања које покрива целу  територију Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan18">
+					<num>18.</num>
+					<heading>Мандат директора</heading>
+					<paragraph wId="gla2-podod2-clan18-stav1">
+						<content>
+							<p>Мандат директора траје пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan18-stav2">
+						<content>
+							<p>Исто лице може да буде изабрано за директора највише  два пута.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan19">
+					<num>19.</num>
+					<heading>Престанак функције директора</heading>
+					<paragraph wId="gla2-podod2-clan19-stav1">
+						<content>
+							<p>Функција директора престаје истеком мандата,  оставком, ако је због болести, на основу налаза надлежне здравствене установе,  трајно неспособан за вршење дужности и разрешењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan19-stav2">
+						<content>
+							<p>Одбор Агенције дужан је да три месеца пре истека  мандата директора, распише конкурс за избор новог директора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan19-stav3">
+						<content>
+							<p>Ако функција директора престане пре истека мандата,  Одбор Агенције је дужан да у року од 15 дана од дана наступања услова из <ref wId="ref16" href="akn/rs/act/2019/88-4/srp@/!main~art_19__para_1" >става  1. овог</ref> члана распише конкурс за избор новог директора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan20">
+					<num>20.</num>
+					<heading>Разрешење директора</heading>
+					<paragraph wId="gla2-podod2-clan20-stav1">
+						<content>
+							<p>Директор се разрешава ако несавесно врши функцију,  ако постане члан политичке странке, односно политичког субјекта, нарушава углед  или политичку непристрасност Агенције, ако буде осуђен за кривично дело које га  чини недостојним функције или ако се утврди да је повредио овај закон.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan20-stav2">
+						<content>
+							<p>Поступак у коме се утврђује да ли постоје разлози за  разрешење директора води Одбор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan20-stav3">
+						<content>
+							<p>Поступак из <ref wId="ref17" href="akn/rs/act/2019/88-4/srp@/!main~art_20__para_2" >става 2. овог</ref> члана покреће се на предлог  председника Одбора Агенције или најмање три члана Одбора Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan20-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref18" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan21">
+					<num>21.</num>
+					<heading>Заменик директора</heading>
+					<paragraph wId="gla2-podod2-clan21-stav1">
+						<content>
+							<p>Агенција има заменика директора, који се бира на  јавном конкурсу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan21-stav2">
+						<content>
+							<p>Директор бира заменика директора између три предложена  кандидата са листе коју утврди Одбор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan21-stav3">
+						<content>
+							<p>Заменика директора разрешава директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan21-stav4">
+						<content>
+							<p>Мандат заменика директора престаје избором новог  директора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan21-stav5">
+						<content>
+							<p>Заменик директора обавља послове у оквиру овлашћења  које му одреди директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan21-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan22">
+					<num>22.</num>
+					<heading>Плата директора и заменика директора</heading>
+					<paragraph wId="gla2-podod2-clan22-stav1">
+						<content>
+							<p>Директор има право на плату у висини основне плате  судије Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan22-stav2">
+						<content>
+							<p>Основна плата из <ref wId="ref20" href="akn/rs/act/2019/88-4/srp@/!main~art_22__para_1" >става 1. овог</ref> члана, због посебне  сложености послова и одговорности радног места, може се одлуком Одбора Агенције  увећати до 20%.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan22-stav3">
+						<content>
+							<p>Заменик директора има право на плату у висини основне  плате судије Апелационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan22-stav4">
+						<content>
+							<p>Директор, односно заменик директора има право на  накнаду плате у трајању од шест месеци од дана када му је престала функција у  висини плате коју је имао на дан престанка функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan22-stav5">
+						<content>
+							<p>Право на накнаду плате из <ref wId="ref21" href="akn/rs/act/2019/88-4/srp@/!main~art_22__para_2" >става 2. овог</ref> члана  престаје пре рока од шест месеци ако бивши директор, односно заменик директора  заснује радни однос или стекне право на пензију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan22-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref22" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan23">
+					<num>23.</num>
+					<heading>Стручна служба Агенције</heading>
+					<paragraph wId="gla2-podod2-clan23-stav1">
+						<content>
+							<p>Агенција има стручну службу којом руководи директор  Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan23-stav2">
+						<content>
+							<p>На унутрашње уређење и систематизацију радних места у  стручној служби Агенције примењују се начела за унутрашње уређење и  систематизацију радних места у министарствима и посебним организацијама, осим  уколико обављање одређених послова у Агенцији не захтева другачији начин  организовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan23-stav3">
+						<content>
+							<p>Правилник о унутрашњем уређењу и систематизацији  радних места у стручној служби Агенције доноси директор, по прибављеном мишљењу  Одбора Агенције, уз сагласност одбора Народне скупштине надлежног за управу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan24">
+					<num>24.</num>
+					<heading>Положај запослених у стручној служби Агенције</heading>
+					<paragraph wId="gla2-podod2-clan24-stav1">
+						<content>
+							<p>На запослене у стручној служби Агенције примењују се  прописи о државним службеницима и намештеницима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan24-stav2">
+						<content>
+							<p>Директор може да донесе посебан кодекс понашања  запослених у стручној служби Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan25">
+					<num>25.</num>
+					<heading>Обавезе других органа и организација</heading>
+					<paragraph wId="gla2-podod2-clan25-stav1">
+						<content>
+							<p>У обављању послова из свог делокруга Агенција  сарађује са државним органима и организацијама, органима територијалне  аутономије и локалне самоуправе, јавним службама и другим правним лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan25-stav2">
+						<content>
+							<p>Државни органи и организације, органи територијалне  аутономије и локалне самоуправе, јавне службе и друга правна лица која врше  јавна овлашћења дужни су да на захтев Агенције, у року од 15 дана, доставе сва  документа и информације које су Агенцији потребне за обављање послова из њене  надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan25-stav3">
+						<content>
+							<p>Обавезу достављања докумената и информација из <ref wId="ref23" href="akn/rs/act/2019/88-4/srp@/!main~art_25__para_2" >става  2. овог</ref> члана имају и друга правна лица која имају обавезе одређене Стратегијом,  Акционим планом и секторским акционим плановима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan26">
+					<num>26.</num>
+					<heading>Подношење извештаја о раду Агенције</heading>
+					<paragraph wId="gla2-podod2-clan26-stav1">
+						<content>
+							<p>Агенција је дужна да поднесе годишњи извештај о раду  Народној скупштини, најкасније до 31. марта текуће године за претходну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan26-stav2">
+						<content>
+							<p>Извештај из <ref wId="ref24" href="akn/rs/act/2019/88-4/srp@/!main~art_26__para_1" >става 1. овог</ref> члана садржи и извештај о  спровођењу Стратегије, Акционог плана и секторских акционих планова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan26-stav3">
+						<content>
+							<p>Агенција може да подноси и ванредне извештаје о раду  на захтев Народне скупштине, односно по сопственој иницијативи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan26-stav4">
+						<content>
+							<p>Извештај из ст. <ref wId="ref25" href="akn/rs/act/2019/88-4/srp@/!main~art_26__para_1" >1</ref>. и <ref wId="ref26" href="akn/rs/act/2019/88-4/srp@/!main~art_26__para_3" >3</ref>. овог члана Агенција доставља  и Влади.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>СУКОБ ИНТЕРЕСА</heading>
+				<article wId="gla3-clan27">
+					<num>27.</num>
+					<paragraph wId="gla3-clan27-stav1">
+						<content>
+							<p>Функционер је дужан да јавну функцију врши тако да  јавни интерес не подреди приватном.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav2">
+						<content>
+							<p>Функционер је дужан да се придржава прописа који  уређују његова права и обавезе и да ствара и одржава поверење грађана у савесно  и одговорно вршење јавне функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav3">
+						<content>
+							<p>Функционер је дужан да избегава стварање односа  зависности према лицу које би могло да утиче на његову непристрасност у вршењу  јавне функције, а у случају да не може да избегне такав однос или такав однос  већ постоји, да учини све што је потребно ради заштите јавног интереса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan27-stav4">
+						<content>
+							<p>Функционер не сме да користи јавну функцију за  стицање било какве користи или погодности за себе или повезано лице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan28">
+					<num>28.</num>
+					<heading>Забрана вршења друге јавне функције</heading>
+					<paragraph wId="gla3-clan28-stav1">
+						<content>
+							<p>Функционер може да врши само једну јавну функцију,  осим ако је законом и другим прописом обавезан да врши више јавних функција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref27" href="akn/rs/act/2019/88-4/srp@/!main~art_28__para_1" >става 1. овог</ref> члана, функционер може да  врши другу јавну функцију, на основу сагласности Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav3">
+						<content>
+							<p>Функционер изабран на јавну функцију непосредно од  грађана може, без сагласности Агенције, да врши више јавних функција на које се  бира непосредно од грађана, осим у случајевима неспојивости утврђених Уставом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav4">
+						<content>
+							<p>Функционер који је изабран, постављен или именован на  другу јавну функцију и који намерава да више функција врши истовремено, дужан је  да у року од три дана од дана избора, постављења или именовања затражи  сагласност Агенције. Уз захтев, функционер доставља и прибављено позитивно  мишљење органа који га је изабрао, поставио или именовао на јавну функцију, а  функционер који је изабран на јавну функцију непосредно од грађана доставља  позитивно мишљење надлежног радног тела органа у коме је функционер.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav5">
+						<content>
+							<p>Агенција је дужна да одлучи по потпуном и уредном  захтеву из <ref wId="ref28" href="akn/rs/act/2019/88-4/srp@/!main~art_28__para_4" >става 4. овог</ref> члана у року од 15 дана од дана пријема захтева.  Агенција неће дати сагласност за вршење друге јавне функције, уколико је вршење  те функције у сукобу са јавном функцијом коју функционер већ врши, односно  уколико утврди постојање сукоба интереса, о чему доноси образложену одлуку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav6">
+						<content>
+							<p>У случају да Агенција не одлучи у року из <ref wId="ref29" href="akn/rs/act/2019/88-4/srp@/!main~art_28__para_5" >става 5.  овог</ref> члана, сматра се да је дала одобрење функционеру за вршење друге јавне  функције, осим ако је функционеру другим прописом забрањено истовремено вршење  те две јавне функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav7">
+						<content>
+							<p>Функционеру који је изабран, постављен или именован  на другу јавну функцију, супротно одредбама овог закона, каснија функција  престаје по сили закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav8">
+						<content>
+							<p>Одлуку о престанку функције у случају из <ref wId="ref30" href="akn/rs/act/2019/88-4/srp@/!main~art_28__para_7" >става 7. овог</ref>  члана доноси орган, односно стално радно тело органа који је функционера  изабрао, поставио или именовао на каснију функцију, у року од осам дана од дана  пријема одлуке Агенције којом се утврђује да је функционер изабран, постављен  или именован на другу јавну функцију супротно одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav9">
+						<content>
+							<p>Престао је да важи ранији <ref wId="ref31" href="akn/rs/act/2019/88-4/srp@/!main~art_28__para_9" >став 9. </ref>(види  Одлуку УС -  67/2013-13)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav10">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref32" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav11">
+						<content>
+							<p>Вршење функција у политичкој странци,  односно политичком субјекту</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan29">
+					<num>29.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref40" href="akn/rs/act/2010/53/srp@">53/2010</ref></heading>
+					<paragraph wId="gla3-clan29-stav1">
+						<content>
+							<p>Функционер може да врши функцију у политичкој  странци, односно политичком субјекту и да учествује у њеним активностима ако то  не угрожава вршење јавне функције и ако то није законом забрањено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav2">
+						<content>
+							<p>Функционер не може да користи јавне ресурсе за  промоцију политичких странака, односно политичких субјеката, под чиме се посебно  подразумева коришћење јавних ресурса у сврху јавног представљања учесника у  изборима и њихових изборних програма, позивања бирача да за њих гласају на  изборима, oдносно да бојкотују изборе, као и коришћење јавних ресурса за друге  видове политичких активности, као што су рад са бирачима и чланством,  организовање и одржавање скупова и промоција, израда и подела рекламног  материјала, брошура, лифлета и публикација, политичко оглашавање, истраживање  јавног мњења, медијске, маркетиншке и консултантске услуге и спровођење обука за  страначке активности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref33" href="akn/rs/act/2019/88-4/srp@/!main~art_29__para_2" >става 2. овог</ref> члана, функционер може да  користи јавне ресурсе ради заштите личне безбедности, уколико је таква употреба  јавних ресурса уређена прописима из те области или одлуком служби које се  старају о безбедности функционера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav4">
+						<content>
+							<p>Функционер је дужан да увек недвосмислено предочи  саговорницима и јавности да ли износи став органа у којем врши јавну функцију  или став политичке странке, односно политичког субјекта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav5">
+						<content>
+							<p>Функционер не може да користи јавне скупове на којима  учествује и сусрете које има у својству функционера, за промоцију политичких  странака, односно политичких субјеката, под чиме се посебно подразумева  коришћење тих јавних скупова и сусрета за јавно представљање учесника у изборима  и њихових изборних програма, позивање бирача да за њих гласају на одређеним  изборима, oдносно да бојкотују изборе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav6">
+						<content>
+							<p>Одредба <ref wId="ref34" href="akn/rs/act/2019/88-4/srp@/!main~art_29__para_4" >става 4. овог</ref> члана не односи се на  функционере који се бирају непосредно од грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav7">
+						<content>
+							<p>У току изборне кампање, у поступку из <ref wId="ref35" href="akn/rs/act/2019/88-4/srp@/!main~art_50__para_1->para_2" >члана 50. ст. 1.  и 2. овог</ref> закона, у коме одлучује да ли постоји повреда из ст. <ref wId="ref36" href="akn/rs/act/2019/88-4/srp@/!main~art_50__para_1->para_2" >1, 2</ref>, <ref wId="ref37" href="akn/rs/act/2019/88-4/srp@/!main~art_50__para_4->para_5" >4. и 5</ref>.  овог члана, Агенција одлучује у року од пет дана од дана покретања поступка по  службеној дужности, односно од дана пријема пријаве правног или физичког лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref38" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav9">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref39" href="akn/rs/act/2019/88/srp@">88/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan30">
+					<num>30.</num>
+					<heading>Обављање другог посла или делатности</heading>
+					<paragraph wId="gla3-clan30-stav1">
+						<content>
+							<p>Функционер не може да обавља други посао или  делатност за време вршења јавне функције која захтева  рад са пуним радним  временом или стални рад.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref41" href="akn/rs/act/2019/88-4/srp@/!main~art_30__para_1" >става 1. овог</ref> члана, функционер може да  се бави научноистраживачким радом, наставном, културно-уметничком, хуманитарном  и спортском делатношћу, без сагласности Агенције, ако тиме не угрожава  непристрасно вршење и углед јавне функције. Приходе од ових послова, односно  делатности, функционер је дужан да пријави Агенцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav3">
+						<content>
+							<p>Ако утврди да се обављањем посла, односно делатности  из <ref wId="ref42" href="akn/rs/act/2019/88-4/srp@/!main~art_30__para_2" >става 2. овог</ref> члана угрожава непристрасно вршење или углед јавне функције,  односно да представља сукоб интереса, Агенција одређује рок у којем је  функционер дужан да престане са обављањем тог посла, односно делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav4">
+						<content>
+							<p>Изузев послова, односно делатности из <ref wId="ref43" href="akn/rs/act/2019/88-4/srp@/!main~art_30__para_2" >става 2. овог</ref>  члана, Агенција може, на захтев функционера, да да сагласност за обављање и  других послова, односно делатности. Уз захтев функционер доставља позитивно  мишљење органа који га је изабрао, поставио или именовао на јавну функцију.  Државни службеник на положају дужан је да, уз захтев, достави сагласност  непосредно претпостављеног. О потпуном и уредном захтеву Агенција је дужна да  одлучи у року од 15 дана од дана пријема захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav5">
+						<content>
+							<p>У случају да Агенција не одлучи у року из <ref wId="ref44" href="akn/rs/act/2019/88-4/srp@/!main~art_30__para_4" >става 4.  овог</ref> члана, сматра се да је дала сагласност за обављање другог посла или  делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav6">
+						<content>
+							<p>Престао је да важи ранији <ref wId="ref45" href="akn/rs/act/2019/88-4/srp@/!main~art_30__para_6" >став 6. </ref>(види  Одлуку УС -  67/2013-13)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav7">
+						<content>
+							<p>Другим законом или прописом могу да буду прописани и  други послови или делатности које функционер не може да обавља за време вршења  јавне функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref46" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan31">
+					<num>31.</num>
+					<heading>Обављање другог посла или делатности у време ступања  на јавну функцију</heading>
+					<paragraph wId="gla3-clan31-stav1">
+						<content>
+							<p>Функционер који у тренутку ступања на јавну функцију  обавља други посао или делатност, дужан је да у року од 15 дана од дана ступања  на јавну функцију обавести Агенцију о обављању тог посла или делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav2">
+						<content>
+							<p>Агенција, по пријему обавештења, утврђује да ли се  обављањем посла, односно делатности угрожава непристрасно вршење јавне функције,  односно да ли то представља сукоб интереса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav3">
+						<content>
+							<p>Ако утврди да се обављањем посла, односно делатности  из <ref wId="ref47" href="akn/rs/act/2019/88-4/srp@/!main~art_31__para_2" >става 2. овог</ref> члана угрожава непристрасно вршење јавне функције, односно  представља сукоб интереса, Агенција доноси одлуку којом одређује рок, који не  може бити дужи од 60 дана, у којем је функционер дужан да престане са обављањем  тог посла, односно делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav4">
+						<content>
+							<p>Уколико функционер не поступи у року из <ref wId="ref48" href="akn/rs/act/2019/88-4/srp@/!main~art_31__para_3" >става 3. овог</ref>  члана Агенција спроводи поступак за утврђивање повреде закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav5">
+						<content>
+							<p>Ако Агенција не обавести функционера у року од 30 дана  од дана пријема обавештења из <ref wId="ref49" href="akn/rs/act/2019/88-4/srp@/!main~art_31__para_1" >става 1. овог</ref> члана да постоји сукоб интереса,  сматра се да функционер може да настави да обавља други посао или делатност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav6">
+						<content>
+							<p>Одредбе овог члана не односе се на члана управног или  надзорног одбора јавног предузећа и јавних установа из реда запослених.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav7">
+						<content>
+							<p>Престао је да важи ранији <ref wId="ref50" href="akn/rs/act/2019/88-4/srp@/!main~art_31__para_7" >став 7. </ref>(види  Одлуку УС -  67/2013-13)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref51" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan32">
+					<num>32.</num>
+					<heading>Обавеза пријављивања о постојању сукоба интереса</heading>
+					<paragraph wId="gla3-clan32-stav1">
+						<content>
+							<p>Функционер је дужан да, приликом ступања на дужност и  током вршења јавне функције, у року од осам дана, писмено обавести непосредно  претпостављеног и Агенцију о сумњи у постојање сукоба интереса или о сукобу  интереса који он или са њим повезано лице има.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav2">
+						<content>
+							<p>Агенција може да позове функционера и тражи да  достави потребне податке, у циљу прибављања информација о постојању сукоба  интереса из <ref wId="ref52" href="akn/rs/act/2019/88-4/srp@/!main~art_32__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav3">
+						<content>
+							<p>Ако Агенција утврди да постоји сукоб интереса из  <ref wId="ref53" href="akn/rs/act/2019/88-4/srp@/!main~art_32__para_1" >става 1. овог</ref> члана, о томе обавештава функционера и орган у коме он врши јавну  функцију и предлаже мере за отклањање сукоба интереса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav4">
+						<content>
+							<p>Одредбе ст. <ref wId="ref54" href="akn/rs/act/2019/88-4/srp@/!main~art_32__para_1" >1</ref>. и <ref wId="ref55" href="akn/rs/act/2019/88-4/srp@/!main~art_32__para_3" >3</ref>. овог члана не искључују примену  одредби о изузећу прописане законима којима је уређен судски или управни  поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav5">
+						<content>
+							<p>Појединачни акт у чијем доношењу је учествовао  функционер који се због сукоба интереса морао изузети, ништав је.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav6">
+						<content>
+							<p>Изузетно од <ref wId="ref56" href="akn/rs/act/2019/88-4/srp@/!main~art_32__para_5" >става 5. овог</ref> члана, неће бити ништав акт  у чијем је доношењу учествовао функционер који је пријавио сукоб интереса у  складу са овим законом, уколико није било могуће да се одреди друго лице које би  учествовало у доношењу акта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan33">
+					<num>33.</num>
+					<heading>Забрана оснивања привредног друштва или јавне службе  за време вршења јавне функције</heading>
+					<paragraph wId="gla3-clan33-stav1">
+						<content>
+							<p>Функционер чија јавна функција захтева рад са пуним  радним временом или стални рад, за време вршења јавне функције, не може да  оснује привредно друштво, односно јавну службу, нити да започне обављање  самосталне делатности, у смислу закона којим се уређује предузетништво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav2">
+						<content>
+							<p>Функционер чија јавна функција захтева рад са пуним  радним временом или стални рад не може да врши функцију управљања, надзора или  заступања приватног капитала у привредном друштву, приватној установи или другом  приватном правном лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref57" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan34">
+					<num>34.</num>
+					<heading>Чланство у удружењу и органима удружења</heading>
+					<paragraph wId="gla3-clan34-stav1">
+						<content>
+							<p>Изузетно од <ref wId="ref58" href="akn/rs/act/2019/88-4/srp@/!main~art_33__para_2" >члана 33. став 2. овог</ref> закона, функционер  може да врши функцију у органу струковног удружења. Функционер може , да буде  члан органа других удружења уколико Агенција не утврди да постоји сукоб  интереса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav2">
+						<content>
+							<p>На утврђивање постојања сукоба интереса из <ref wId="ref60" href="akn/rs/act/2019/88-4/srp@/!main~art_34__para_1" >става 1.  овог</ref> члана сходно се примењују одредбе <ref wId="ref59" href="akn/rs/act/2019/88-4/srp@/!main~art_31" >члана 31. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav3">
+						<content>
+							<p>Функционер који је члан удружења не може да прима  накнаду или поклоне по основу чланства у удружењу, изузев накнаде путних и  других трошкова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref61" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan35">
+					<num>35.</num>
+					<heading>Пренос управљачких права за време вршења јавне  функције</heading>
+					<paragraph wId="gla3-clan35-stav1">
+						<content>
+							<p>Функционер је дужан да у року од 30 дана од избора,  постављења или именовања, пренесе своја управљачка права у привредном друштву на  правно или физичко лице које није повезано лице, да их оно, у своје име, а за  рачун функционера, врши до престанка јавне функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav2">
+						<content>
+							<p>Функционер може изузетно своја управљачка права у  привредном друштву пренети на друго физичко или правно лице које је оснивач –  члан или директор привредног друштва у коме функционер има управљачка права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav3">
+						<content>
+							<p>У року од пет дана од дана преноса управљачких права,  функционер је дужан да надлежном органу привредног друштва и Агенцији достави  податке о лицу на које је пренео управљачка права и доказе о преносу управљачких  права. Функционер је дужан да о разлозима преноса управљачких права обавести  привредно друштво. Лице на које је функционер пренео управљачка права, постаје  повезано лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav4">
+						<content>
+							<p>Функционер не сме лицу на које је пренео управљачка  права, односно другом лицу које врши управљачка права у привредном друштву, да  даје обавештења, упутства и налоге, нити сме на други начин преко њега да утиче  на вршење права и обавеза у привредном друштву. Функционер има право да се  обавештава о пословању привредног друштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav5">
+						<content>
+							<p>Изузетно, функционер који поседује удео у привредном  друштву до 3% није дужан да пренесе своја управљачка права на друго правно или  физичко лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan35-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref62" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan36">
+					<num>36.</num>
+					<heading>Обавеза обавештавања Агенције у поступку јавне  набавке</heading>
+					<paragraph wId="gla3-clan36-stav1">
+						<content>
+							<p>Правно лице у којем је функционер власник више од 20%  удела или акција, ако учествује у поступку приватизације, јавних набавки или  другом поступку чији је исход закључивање уговора са органом Републике,  територијалне аутономије, локалне самоуправе, другим корисником буџета, односно  другим правним лицем чији је оснивач орган Републике, територијалне аутономије  или локалне самоуправе или правним лицем у којем је више од 20% капитала у  јавној својини, обавезно је да о томе обавести Агенцију у року од три дана од  дана предузимања прве радње у поступку, као и о коначном исходу поступка у року  од три дана од дана сазнања о његовом окончању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav2">
+						<content>
+							<p>Агенција води евиденцију правних лица и поступака из  <ref wId="ref63" href="akn/rs/act/2019/88-4/srp@/!main~art_36__para_1" >става 1. овог</ref> члана. Подаци из ове евиденција су јавни.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan37">
+					<num>37.</num>
+					<heading>Недозвољени утицај на функционера</heading>
+					<paragraph wId="gla3-clan37-stav1">
+						<content>
+							<p>Функционер је дужан да о недозвољеном утицају коме је  изложен у вршењу јавне функције, одмах обавести Агенцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav2">
+						<content>
+							<p>Агенција обавештава надлежни орган о наводима  функционера из <ref wId="ref64" href="akn/rs/act/2019/88-4/srp@/!main~art_37__para_1" >става 1. овог</ref> члана, ради покретања дисциплинског, прекршајног и  кривичног поступка, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav3">
+						<content>
+							<p>Орган из <ref wId="ref65" href="akn/rs/act/2019/88-4/srp@/!main~art_37__para_2" >става 2. овог</ref> члана, дужан је да у року од  30 дана од дана пријема обавештења обавести Агенцију о предузетим мерама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan38">
+					<num>38.</num>
+					<heading>Забрана заснивања радног односа или пословне сарадње  по престанку јавне функције</heading>
+					<paragraph wId="gla3-clan38-stav1">
+						<content>
+							<p>Функционер коме је престала јавна функција, две  године по престанку функције не може да заснује радни однос, односно пословну  сарадњу са правним лицем, предузетником или међународном организацијом која  обавља делатности у вези са функцијом коју је функционер вршио, осим по  добијеној сагласности Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav2">
+						<content>
+							<p>Функционер коме је престала јавна функција дужан је  да, пре заснивања радног односа, односно пословне сарадње из <ref wId="ref66" href="akn/rs/act/2019/88-4/srp@/!main~art_38__para_1" >става 1. овог</ref>  члана, затражи сагласност Агенције, која је дужна да одлучи по захтеву у року од  15 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav3">
+						<content>
+							<p>У случају да Агенција не одлучи у року из <ref wId="ref67" href="akn/rs/act/2019/88-4/srp@/!main~art_38__para_2" >става 2.  овог</ref> члана, сматра се да је дала сагласност за заснивање радног односа, односно  пословну сарадњу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav4">
+						<content>
+							<p>Забрана из <ref wId="ref68" href="akn/rs/act/2019/88-4/srp@/!main~art_38__para_1" >става 1. овог</ref> члана не односи се на  функционера изабраног непосредно од грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref69" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПОКЛОНИ</heading>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Функционер не сме да прими поклон у вези с вршењем  јавне функције, изузев протоколарног или пригодног поклона, али ни тада ако је у  новцу и хартијама од вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav2">
+						<content>
+							<p>Функционер је дужан да протоколарни поклон преда  органу надлежном за поступање са имовином у јавној својини, изузев ако вредност  поклона не прелази 5% просечне месечне зараде без пореза и доприноса у Републици  Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav3">
+						<content>
+							<p>Функционер не сме да задржи пригодни поклон чија  вредност прелази 5% просечне месечне зараде без пореза и доприноса у Републици  Србији, односно пригодне поклоне примљене у току календарске године чија укупна  вредност прелази износ од једне просечне месечне зараде без пореза и доприноса у  Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav4">
+						<content>
+							<p>Мерила према којима се одређује који се поклон сматра  пригодним и обавезу њиховог пријављивања и евидентирања утврђује Агенција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav5">
+						<content>
+							<p>У случају потребе Агенција утврђује вредност поклона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan40">
+					<num>40.</num>
+					<heading>Одбијање пријема поклона</heading>
+					<paragraph wId="gla4-clan40-stav1">
+						<content>
+							<p>Функционер коме је понуђен поклон који не сме да  прими, дужан је да понуду одбије и да саопшти поклонодавцу да поклон, ако га  прими, постаје јавна својина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav2">
+						<content>
+							<p>Ако функционер није могао да одбије пријем поклона,  дужан је да поклон преда органу надлежном за поступање са имовином у јавној  својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav3">
+						<content>
+							<p>Функционер је дужан да у најкраћем року поднесе  писмени извештај о случају из <ref wId="ref70" href="akn/rs/act/2019/88-4/srp@/!main~art_40__para_1" >става 1. овог</ref> члана непосредно претпостављеном и  Агенцији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan41">
+					<num>41.</num>
+					<heading>Обавеза обавештавања и вођење евиденције о поклону</heading>
+					<paragraph wId="gla4-clan41-stav1">
+						<content>
+							<p>Функционер је дужан да о сваком поклону у вези са  вршењем јавне функције обавести државни или други орган, организацију, јавну  службу у којој врши јавну функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav2">
+						<content>
+							<p>Државни или други орган, организација или јавна  служба из <ref wId="ref71" href="akn/rs/act/2019/88-4/srp@/!main~art_41__para_1" >става 1. овог</ref> члана обавезни су да о поклонима из <ref wId="ref72" href="akn/rs/act/2019/88-4/srp@/!main~art_41__para_1" >става 1. овог</ref> члана  воде посебну евиденцију. Копија евиденције за претходну календарску годину  доставља се Агенцији, најкасније до 1. марта текуће године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav3">
+						<content>
+							<p>Агенција обавештава државни или други орган,  организацију или јавну службу из <ref wId="ref73" href="akn/rs/act/2019/88-4/srp@/!main~art_41__para_1" >става 1. овог</ref> члана о утврђеним повредама  закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan41-stav4">
+						<content>
+							<p>Агенција објављује каталог поклона за претходну  календарску годину и обавештења из <ref wId="ref74" href="akn/rs/act/2019/88-4/srp@/!main~art_41__para_2" >става 2. овог</ref> члана, до 1. јуна текуће  године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan42">
+					<num>42.</num>
+					<heading>Забрана пријема поклона за повезано лице</heading>
+					<paragraph wId="gla4-clan42-stav1">
+						<content>
+							<p>Повезано лице не може да прими поклон у вези са  вршењем јавне функције функционера с којим је повезано.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref75" href="akn/rs/act/2019/88-4/srp@/!main~art_42__para_1" >става 1. овог</ref> члана, повезано лице може  да прими протоколарни поклон.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav3">
+						<content>
+							<p>Функционер неће бити одговоран уколико докаже да није  могао да утиче на понашање повезаног лица ако је оно поклон примило, односно ако  докаже да поклон није био у вези са вршењем његове јавне функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan42-stav4">
+						<content>
+							<p>На поклон из <ref wId="ref77" href="akn/rs/act/2019/88-4/srp@/!main~art_42__para_1->para_2" >ст. 1. и 2. овог</ref> члана примењују се  одредбе <ref wId="ref76" href="akn/rs/act/2019/88-4/srp@/!main~art_39->art_41" >чл. 39. </ref>до 41. овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРИЈАВЉИВАЊЕ ИМОВИНЕ</heading>
+				<article wId="gla5-clan43">
+					<num>43.</num>
+					<paragraph wId="gla5-clan43-stav1">
+						<content>
+							<p>Орган у коме функционер врши јавну функцију, дужан је  да обавести Агенцију да је функционер ступио на функцију, односно да му је  функција престала, у року од седам дана од дана ступања на функцију, односно  престанка функције. Агенција води Регистар функционера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan43-stav2">
+						<content>
+							<p>Функционер је дужан да у року од 30 дана од дана  избора, постављења или именовања поднесе Агенцији извештај о својој имовини и  приходима, односно праву коришћења стана за службене потребе и о имовини и  приходима супружника или ванбрачног партнера, као и малолетне деце уколико живе  у истом породичном домаћинству (у даљем тексту: Извештај), на дан избора,  постављења или именовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan43-stav3">
+						<content>
+							<p>Ако по истеку рока из <ref wId="ref78" href="akn/rs/act/2019/88-4/srp@/!main~art_43__para_2" >става 2. овог</ref> члана функционер  не достави Извештај, Агенција о томе обавештава орган у коме функционер врши  јавну функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan43-stav4">
+						<content>
+							<p>Извештај се подноси и у року од 30 дана од дана  престанка јавне функције, према стању на дан престанка јавне функције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan44">
+					<num>44.</num>
+					<heading>Ванредно пријављивање имовине</heading>
+					<paragraph wId="gla5-clan44-stav1">
+						<content>
+							<p>Функционер је дужан да поднесе Извештај најкасније до  31. јануара текуће године са стањем на дан 31. децембра претходне године,  уколико је дошло до битних промена у односу на податке из претходно поднетог  Извештаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan44-stav2">
+						<content>
+							<p>Битном променом из <ref wId="ref79" href="akn/rs/act/2019/88-4/srp@/!main~art_44__para_1" >става 1. овог</ref> члана сматра се  свака промена података из Извештаја, која се односи на имовину чија вредност  прелази износ годишње просечне зараде без пореза и доприноса у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan44-stav3">
+						<content>
+							<p>Функционер коме је престала јавна функција дужан је  да поднесе Извештај о битним променама у односу на податке из претходно поднетог  Извештаја једном годишње и у наредне две године по престанку јавне функције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<heading>Функционери који нису дужни да подносе Извештај</heading>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Одредбе <ref wId="ref81" href="akn/rs/act/2019/88-4/srp@/!main~art_43__para_2" >члана 43. ст. 2. </ref>до 4. и <ref wId="ref80" href="akn/rs/act/2019/88-4/srp@/!main~art_44" >члана 44. овог</ref>  закона не примењују се на функционера који је одборник, односно члан управног и  надзорног одбора јавног предузећа, установе и друге организације чији је оснивач  општина или град.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav2">
+						<content>
+							<p>Одредба <ref wId="ref82" href="akn/rs/act/2019/88-4/srp@/!main~art_45__para_1" >става 1. овог</ref> члана односи се и на  функционера који је члан управног и надзорног одбора јавног предузећа, установе  и друге организације чији је оснивач Република, аутономна покрајина или град  Београд, ако не прима накнаду по основу чланства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav3">
+						<content>
+							<p>Изузетно, Агенција може да затражи и од функционера  или категорије функционера из <ref wId="ref83" href="akn/rs/act/2019/88-4/srp@/!main~art_45__para_1->para_2" >ст. 1. и 2. овог</ref> члана да поднесу Извештај.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<heading>Садржина Извештаја</heading>
+					<paragraph wId="gla5-clan46-stav1">
+						<intro>
+							<p>Извештај садржи податке о:</p>
+						</intro>
+						<point wId="gla5-clan46-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> праву својине на непокретним стварима у земљи и  иностранству;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> праву својине на покретним стварима које подлежу  регистрацији код надлежних органа у Републици Србији и иностранству;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> праву својине на покретним стварима веће вредности  (драгоцености, збирке, уметнички предмети и сл.);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> депозитима у банкама и другим финансијским  организацијама, у земљи и иностранству;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> акцијама и уделима у правном лицу и другим  хартијама од вредности;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> правима по основу ауторских, патентних и сличних  права интелектуалне својине;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> дуговима (главница, камата и рок отплате) и  потраживањима;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> извору и висини нето прихода од вршења јавне  функције, односно јавних функција;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> праву коришћења стана за службене потребе;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> извору и висини других нето прихода;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> другим јавним функцијама, односно пословима и  делатностима које обавља у складу са законом и другим посебним прописом;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> чланству у органима удружења;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan46-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> друге податке и доказе које функционер сматра  битним за примену овог закона.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>Ближу садржину Извештаја, образац и начин на који се  подноси прописује директор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref84" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan47">
+					<num>47.</num>
+					<heading>Регистар имовине</heading>
+					<paragraph wId="gla5-clan47-stav1">
+						<content>
+							<p>Агенција води Регистар имовине, у коме се  евидентирају подаци из Извештаја и прати имовинско стање функционера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav2">
+						<content>
+							<p>Подаци о плати и другим приходима које функционер  прима из буџета и других јавних извора и подаци о јавним функцијама које врши су  јавни.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav3">
+						<intro>
+							<p>Поред података из <ref wId="ref85" href="akn/rs/act/2019/88-4/srp@/!main~art_47__para_2" >става 2. овог</ref> члана, јавни су и  подаци о имовини функционера који се односе на:</p>
+						</intro>
+						<alinea wId="gla5-clan47-stav3-ali1">
+							<content>
+								<p>раво својине на непокретним стварима у земљи и  иностранству, без навођења адресе где се непокретности налазе;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan47-stav3-ali2">
+							<content>
+								<p>раво својине на превозном средству, без навођења  регистарског броја;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan47-stav3-ali3">
+							<content>
+								<p>тедне улоге, без навођења банке и броја рачуна;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan47-stav3-ali4">
+							<content>
+								<p>раво коришћења стана за службене потребе.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav4">
+						<content>
+							<p>Јавни су и подаци о имовини функционера који су јавни  у складу са другим прописима, као и други подаци за које функционер, односно  супружник или ванбрачни партнер да сагласност да се објаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav5">
+						<content>
+							<p>Подаци из <ref wId="ref86" href="akn/rs/act/2019/88-4/srp@/!main~art_47__para_2->para_4" >ст. 2. </ref>до 4. овог члана објављују се на  интернет презентацији Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav6">
+						<content>
+							<p>Подаци из Извештаја који нису јавни не могу да се  користе у друге сврхе, осим у поступку у коме се одлучује да ли постоји повреда  закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan48">
+					<num>48.</num>
+					<heading>Годишњи план провере Извештаја имовине</heading>
+					<paragraph wId="gla5-clan48-stav1">
+						<content>
+							<p>Агенција проверава благовременост подношења Извештаја  и тачност и потпуност података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan48-stav2">
+						<content>
+							<p>Агенција обавезно проверава тачност података из  Извештаја према годишњем плану провере за одређени број функционера и категорије  функционера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan48-stav3">
+						<content>
+							<p>Ради обављања провере из <ref wId="ref87" href="akn/rs/act/2019/88-4/srp@/!main~art_48__para_1->para_2" >ст. 1. и 2. овог</ref> члана,  Агенција може затражити од надлежних органа да прибаве податке од финансијских  организација, привредних друштава и других лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan49">
+					<num>49.</num>
+					<heading>Праћење имовинског стања функционера</heading>
+					<paragraph wId="gla5-clan49-stav1">
+						<content>
+							<p>Ако се у поступку праћења имовинског стања  функционера утврди да постоји несагласност између података поднетих у Извештају  и стварног стања или да постоји несагласност између увећане вредности имовине  функционера и његових законитих и пријављених прихода, Агенција утврђује разлоге  несагласности и о томе обавештава орган у коме функционер врши јавну функцију,  односно друге надлежне органе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav2">
+						<content>
+							<p>Агенција може да захтева од функционера да достави  податке о имовини и приходима других повезаних лица, у року од 30 дана, уколико  постоји основана сумња да функционер прикрива стварну вредност своје имовине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav3">
+						<content>
+							<p>У случају из <ref wId="ref88" href="akn/rs/act/2019/88-4/srp@/!main~art_49__para_1->para_2" >ст. 1. и 2. овог</ref> члана, Агенција позива  функционера, односно повезано лице, ради прибављања информација о стварној  вредности имовине функционера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan49-stav4">
+						<content>
+							<p>Органи из <ref wId="ref89" href="akn/rs/act/2019/88-4/srp@/!main~art_49__para_1" >става 1. овог</ref> члана дужни су да, у року од  три месеца од дана пријема обавештења, упознају Агенцију о предузетим мерама.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПОСТУПАЊЕ И ОДЛУЧИВАЊЕ У СЛУЧАЈУ ПОВРЕДЕ ЗАКОНА</heading>
+				<article wId="gla6-clan50">
+					<num>50.</num>
+					<paragraph wId="gla6-clan50-stav1">
+						<content>
+							<p>Поступак у коме се одлучује да ли постоји повреда  овог закона и изричу мере у складу са овим законом покреће и води Агенција, по  службеној дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav2">
+						<content>
+							<p>Поступак из <ref wId="ref90" href="akn/rs/act/2019/88-4/srp@/!main~art_50__para_1" >става 1. овог</ref> члана покреће се и на  захтев функционера и његовог непосредно претпостављеног, а може се покренути и  на основу пријаве правног или физичког лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav3">
+						<content>
+							<p>О покретању поступка из <ref wId="ref91" href="akn/rs/act/2019/88-4/srp@/!main~art_50__para_1" >става 1. овог</ref> члана, Агенција  обавештава функционера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav4">
+						<content>
+							<p>Агенција може да позове функционера, повезано лице,  као и лице на основу чије пријаве је покренут поступак ради прибављања  информација, као и да тражи да доставе потребне податке, у циљу одлучивања о  постојању повреде овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav5">
+						<content>
+							<p>Функционеру се мора дати могућност да се изјасни у  поступку пред Агенцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav6">
+						<content>
+							<p>У поступку пред Агенцијом искључена је јавност.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan51">
+					<num>51.</num>
+					<heading>Мере</heading>
+					<paragraph wId="gla6-clan51-stav1">
+						<content>
+							<p>Мере које се изричу функционеру због повреде овог  закона су: мера упозорења и мера јавног објављивања препоруке за разрешење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav2">
+						<content>
+							<p>Функционеру који је изабран на јавну функцију  непосредно од грађана, функционеру коме је престала јавна функција и повезаном  лицу може се изрећи мера упозорења и мера јавног објављивања одлуке о повреди  овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav3">
+						<content>
+							<p>Ако лице из <ref wId="ref92" href="akn/rs/act/2019/88-4/srp@/!main~art_51__para_1->para_2" >ст. 1. и 2. овог</ref> члана не поступи по  изреченој мери упозорења до истека рока који му је у одлуци одређен, изриче му  се мера јавног објављивања препоруке за разрешење, односно мера јавног  објављивања одлуке о повреди овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan51-stav4">
+						<content>
+							<p>Ако је функционеру изречена мера јавног објављивања  препоруке за разрешење, Агенција подноси иницијативу за разрешење функционера  органу који га је изабрао, поставио или именовао. Надлежни орган је дужан да  обавести Агенцију о мерама предузетим поводом изречене мере јавног објављивања  препоруке за разрешење, односно иницијативе, у року од 60 дана од дана  објављивања мере.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan52">
+					<num>52.</num>
+					<heading>Одлука директора</heading>
+					<paragraph wId="gla6-clan52-stav1">
+						<content>
+							<p>Одлуку којом се утврђује повреда овог закона и изриче  мера из <ref wId="ref93" href="akn/rs/act/2019/88-4/srp@/!main~art_51" >члана 51. овог</ref> закона доноси директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan52-stav2">
+						<content>
+							<p>Против одлуке из <ref wId="ref94" href="akn/rs/act/2019/88-4/srp@/!main~art_52__para_1" >става 1. овог</ref> члана може се изјавити  жалба Одбору Агенције, у року од 15 дана од дана достављања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan53">
+					<num>53.</num>
+					<heading>Одлука Одбора Агенције</heading>
+					<paragraph wId="gla6-clan53-stav1">
+						<content>
+							<p>Одлука Одбора Агенције из <ref wId="ref95" href="akn/rs/act/2019/88-4/srp@/!main~art_52__para_2" >члана 52. став 2. овог</ref>  закона је коначна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan53-stav2">
+						<content>
+							<p>Против ове одлуке може се покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan54">
+					<num>54.</num>
+					<heading>Објављивање одлуке о мерама</heading>
+					<paragraph wId="gla6-clan54-stav1">
+						<content>
+							<p>Агенција јавно објављује меру која је изречена због  повреде овог закона, осим мере упозорења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan54-stav2">
+						<content>
+							<p>Изрека и сажето образложење одлуке којом је изречена  мера јавног објављивања одлуке о повреди овог закона, односно препоруке за  разрешење, објављује се у „Службеном гласнику Републике Србије” и у другом  средству јавног информисања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan54-stav3">
+						<content>
+							<p>Трошкове објављивања одлуке из <ref wId="ref96" href="akn/rs/act/2019/88-4/srp@/!main~art_54__para_2" >става 2. овог</ref> члана  сноси функционер коме је мера изречена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan55">
+					<num>55.</num>
+					<heading>Обавеза повраћаја имовинске користи</heading>
+					<paragraph wId="gla6-clan55-stav1">
+						<content>
+							<p>Ако се утврди да је функционер, супротно одредбама  овог закона, вршио другу јавну функцију, посао или делатност, дужан је да  имовинску корист стечену по овом основу, уплати на рачун буџета Републике  Србије, односно територијалне аутономије или локалне самоуправе, у року од 15  дана од дана пријема одлуке којом је утврђена повреда овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan56">
+					<num>56.</num>
+					<heading>Заштита подносиоца пријаве и других лица у поступку</heading>
+					<paragraph wId="gla6-clan56-stav1">
+						<content>
+							<p>Лице на основу чије пријаве је покренут поступак,  односно друго лице које даје изјаву у поступку из <ref wId="ref97" href="akn/rs/act/2019/88-4/srp@/!main~art_50" >члана 50. овог</ref> закона, не може  због тога да сноси штетне последице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav2">
+						<content>
+							<p>Државни службеник, односно запослени у органима  Републике Србије, аутономне покрајине, јединице локалне самоуправе и органима  јавних предузећа, установа и других организација чији је оснивач Република  Србија, аутономна покрајина или јединица локалне самоуправе, односно органима  привредних друштава чији је оснивач, односно члан Република Србија, аутономна  покрајина или јединица локалне самоуправе, који у доброј намери Агенцији поднесе  пријаву ако оправдано верује да постоји корупција у органу у коме ради, не може  због тога да трпи штетне последице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav3">
+						<content>
+							<p>У циљу заштите лица из <ref wId="ref98" href="akn/rs/act/2019/88-4/srp@/!main~art_56__para_1->para_2" >ст. 1. и 2. овог</ref> члана Агенција  му пружа неопходну помоћ, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav4">
+						<content>
+							<p>Агенција штити анонимност лица из <ref wId="ref99" href="akn/rs/act/2019/88-4/srp@/!main~art_56__para_1->para_2" >ст. 1. и 2. овог</ref>  члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav5">
+						<content>
+							<p>Престао је да важи ранији <ref wId="ref100" href="akn/rs/act/2019/88-4/srp@/!main~art_56__para_5" >став 5. </ref>(види  Одлуку УС -  8/2015-8)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan56-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref101" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan57">
+					<num>57.</num>
+					<heading>Обавештавање надлежних органа о повредама закона</heading>
+					<paragraph wId="gla6-clan57-stav1">
+						<content>
+							<p>Када утврди да је функционер прекршио одредбе закона,  Агенција обавештава надлежни орган ради покретања дисциплинског, прекршајног и  кривичног поступка, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan57-stav2">
+						<content>
+							<p>Одлуке Агенције не могу да прејудицирају кривичну и  материјалну одговорност функционера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan57-stav3">
+						<content>
+							<p>Органи из <ref wId="ref102" href="akn/rs/act/2019/88-4/srp@/!main~art_57__para_1" >става 1. овог</ref> члана дужни су да, у року од  90 дана, по пријему обавештења упознају Агенцију о предузетим мерама.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПЛАН ИНТЕГРИТЕТА</heading>
+				<article wId="gla7-clan58">
+					<num>58.</num>
+					<paragraph wId="gla7-clan58-stav1">
+						<intro>
+							<p>План интегритета садржи мере правне и практичне  природе којима се спречавају и отклањају могућности за настанак и развој  корупције, а нарочито:</p>
+						</intro>
+						<alinea wId="gla7-clan58-stav1-ali1">
+							<content>
+								<p>цену изложености институције корупцији;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan58-stav1-ali2">
+							<content>
+								<p>одатке о лицу одговорном за план интегритета;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan58-stav1-ali3">
+							<content>
+								<p>пис процеса рада, начина одлучивања и утврђивање  послова који су нарочито подложни корупцији, као и послова или делатности,  односно функције које функционер не може да обавља за време вршења јавне  функције и начин њихове контроле;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan58-stav1-ali4">
+							<content>
+								<p>ревентивне мере за смањење корупције;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan58-stav1-ali5">
+							<content>
+								<p>руге делове плана дефинисане у смерницама.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla7-clan58-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref103" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan59">
+					<num>59.</num>
+					<heading>Обавеза доношења плана интегритета</heading>
+					<paragraph wId="gla7-clan59-stav1">
+						<content>
+							<p>План интегритета доносе државни органи и  организације, органи територијалне аутономије и локалне самоуправе, јавне  службе и јавна предузећа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan59-stav2">
+						<content>
+							<p>Агенција израђује и објављује процене интегритета,  односно смернице за израду и спровођење плана интегритета, са роковима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan59-stav3">
+						<content>
+							<p>Државни органи и организације, органи територијалне  аутономије и локалне самоуправе, јавне службе и јавна предузећа доносе план  интегритета у складу са смерницама из <ref wId="ref104" href="akn/rs/act/2019/88-4/srp@/!main~art_59__para_2" >става 2. овог</ref> члана и о томе обавештавају  Агенцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan59-stav4">
+						<content>
+							<p>Агенција прати доношење и спровођење плана  интегритета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan59-stav5">
+						<content>
+							<p>Државни органи и организације, органи аутономне  покрајине и јединице локалне самоуправе, јавне службе и јавна предузећа дужни су  да на захтев Агенције, у року од 15 дана од дана пријема захтева, доставе  извештај о спровођењу плана интегритета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan59-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref105" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan60">
+					<num>60.</num>
+					<heading>Одговорно лице за израду и спровођење плана  интегритета</heading>
+					<paragraph wId="gla7-clan60-stav1">
+						<content>
+							<p>Државни органи и организације, органи територијалне  аутономије и локалне самоуправе, јавне службе и јавна предузећа дужни су да  одреде лице одговорно за израду и спровођење плана интегритета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan60-stav2">
+						<content>
+							<p>Агенција се стара о обуци лица одговорног за план  интегритета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan60-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref106" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan61">
+					<num>61.</num>
+					<heading>Доношење плана интегритета од стране других правних  лица</heading>
+					<paragraph wId="gla7-clan61-stav1">
+						<content>
+							<p>Друга правна лица могу донети план интегритета у  складу са смерницама које доноси Агенција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan61-stav2">
+						<content>
+							<p>На предлог правних лица из <ref wId="ref107" href="akn/rs/act/2019/88-4/srp@/!main~art_61__para_1" >става 1. овог</ref> члана,  Агенција може да изврши процену интегритета и да предложи препоруке за  унапређење интегритета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan61-stav3">
+						<content>
+							<p>Процену интегритета за јавна предузећа и правна лица  из <ref wId="ref108" href="akn/rs/act/2019/88-4/srp@/!main~art_61__para_1" >става 1. овог</ref> члана, Агенција врши о њиховом трошку.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕВЕНЦИЈА КОРУПЦИЈЕ</heading>
+				<article wId="gla8-clan62">
+					<num>62.</num>
+					<paragraph wId="gla8-clan62-stav1">
+						<content>
+							<p>Агенција надзире спровођење Стратегије, Акционог  плана и секторских акционих планова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan62-stav2">
+						<content>
+							<p>Носиоци послова одређени Стратегијом, Акционим планом  и секторским акционим плановима дужни су да Агенцији доставе кварталне извештаје  о њиховом спровођењу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan62-stav3">
+						<content>
+							<p>У циљу спровођења Стратегије Агенција може да подноси  иницијативе за измену прописа и даје предлоге за спровођење мера из Акционог  плана и секторских акционих планова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan62-stav4">
+						<content>
+							<p>Агенција даје мишљења у вези са спровођењем  Стратегије, Акционог плана и секторских акционих планова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan62-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref109" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan63">
+					<num>63.</num>
+					<heading>Сарадња у борби против корупције</heading>
+					<paragraph wId="gla8-clan63-stav1">
+						<content>
+							<p>У обављању послова из свог делокруга Агенција  сарађује са научним организацијама, средствима јавног информисања и удружењима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan63-stav2">
+						<content>
+							<p>Сарадња из <ref wId="ref110" href="akn/rs/act/2019/88-4/srp@/!main~art_63__para_1" >става 1. овог</ref> члана односи се на  заједничке активности у спровођењу Стратегије, Акционог плана и секторских  акционих планова, програма обуке, анализирању стања корупције, спровођењу  медијских кампања и других активности од значаја за превентивну борбу против  корупције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan64">
+					<num>64.</num>
+					<heading>Обука</heading>
+					<paragraph wId="gla8-clan64-stav1">
+						<content>
+							<p>Агенција може да учествује у припремању, односно да  припрема програме обуке о борби против корупције у државним органима и  организацијама, територијалној аутономији и локалној самоуправи, јавним службама  и другим правним лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan64-stav2">
+						<content>
+							<p>Органи из <ref wId="ref111" href="akn/rs/act/2019/88-4/srp@/!main~art_64__para_1" >става 1. овог</ref> члана спроводе обуку државних  службеника и запослених у сарадњи са Агенцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan64-stav3">
+						<content>
+							<p>Агенција може да учествује у програмима обуке о борби  против корупције у средствима јавног информисања и приватном сектору.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan65">
+					<num>65.</num>
+					<heading>Представке</heading>
+					<paragraph wId="gla8-clan65-stav1">
+						<content>
+							<p>Агенција прима представке правних и физичких лица, у  оквиру своје надлежности. Агенција не поступа по анонимним представкама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan65-stav2">
+						<content>
+							<p>Агенција може од подносиоца представке да затражи  додатне информације, објашњења и документацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan65-stav3">
+						<content>
+							<p>Агенција је дужна да одговори подносиоцу представке о  исходу поступка по представци.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan66">
+					<num>66.</num>
+					<heading>Истраживање</heading>
+					<paragraph wId="gla8-clan66-stav1">
+						<content>
+							<p>Агенција организује истраживања о стању корупције и  борби против корупције, прати и анализира статистичке податке, обавља друге  анализе и истраживања и предлаже измене начина вођења статистичких података од  значаја за праћење стања корупције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan67">
+					<num>67.</num>
+					<heading>Међународна сарадња</heading>
+					<paragraph wId="gla8-clan67-stav1">
+						<content>
+							<p>Агенција у сарадњи са надлежним државним органима  прати и у случају потребе учествује у координацији међународне сарадње у борби  против корупције коју воде државни органи и организације, органи територијалне  аутономије и локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan67-stav2">
+						<content>
+							<p>Надлежни државни органи дужни су да обавесте Агенцију  о свим пословима међународне сарадње у борби против корупције.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>ЕВИДЕНЦИЈЕ И ЗАШТИТА ПОДАТАКА</heading>
+				<article wId="gla9-clan68">
+					<num>68.</num>
+					<paragraph wId="gla9-clan68-stav1">
+						<intro>
+							<p>Агенција води следеће евиденције:</p>
+						</intro>
+						<alinea wId="gla9-clan68-stav1-ali1">
+							<content>
+								<p>егистар функционера;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan68-stav1-ali2">
+							<content>
+								<p>егистар имовине;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan68-stav1-ali3">
+							<content>
+								<p>исту правних лица у којем је функционер власник  више од 20% удела или акција;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan68-stav1-ali4">
+							<content>
+								<p>аталог поклона;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla9-clan68-stav1-ali5">
+							<content>
+								<p>авршних рачуна политичких странака, односно  политичких субјеката са извештајима у складу са законом којим се уређује  финансирање политичких странака, односно политичких субјеката.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav2">
+						<content>
+							<p>Подаци из евиденције из <ref wId="ref112" href="akn/rs/act/2019/88-4/srp@/!main~art_68__para_1" >става 1. </ref>ал. 1. и 4. овог  члана бришу се по службеној дужности, по истеку рока од три године по престанку  вршења јавне функције функционера на кога се подаци односе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav3">
+						<content>
+							<p>Начин вођења и чувања евиденција из <ref wId="ref113" href="akn/rs/act/2019/88-4/srp@/!main~art_68__para_1" >става 1. овог</ref>  члана прописује директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav4">
+						<content>
+							<p>Агенција може да води и друге евиденције, у складу са  законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan68-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref114" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan69">
+					<num>69.</num>
+					<heading>Заштита података о личности</heading>
+					<paragraph wId="gla9-clan69-stav1">
+						<content>
+							<p>Агенција је дужна да у свом раду и приликом  обавештавања јавности обезбеди заштиту података о личности, а посебно податке о  функционеру и са њим повезаним лицима, поводом ситуација у којима није утврђена  повреда овог закона, у складу са посебним прописима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan70">
+					<num>70.</num>
+					<heading>Изостављање информација</heading>
+					<paragraph wId="gla9-clan70-stav1">
+						<content>
+							<p>Агенција ће приликом обавештавања јавности, односно  одговарања на представке правних и физичких лица изоставити информације чије би  објављивање могло да угрози вођење законом прописаног поступка, приватност лица  или другим законом заштићени интерес.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan71">
+					<num>71.</num>
+					<heading>Накнада штете</heading>
+					<paragraph wId="gla9-clan71-stav1">
+						<content>
+							<p>За штету коју Агенција учини функционеру, повезаном  лицу, односно другом лицу и органу због кршења одредби чл. <ref wId="ref115" href="akn/rs/act/2019/88-4/srp@/!main~art_69" >69</ref>. и <ref wId="ref116" href="akn/rs/act/2019/88-4/srp@/!main~art_70" >70</ref>. овог  закона, Агенција одговара у складу са одредбама закона којим се уређују  облигациони односи.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<paragraph wId="gla10-clan71-stav1">
+					<content>
+						<p>Кривично дело</p>
+					</content>
+				</paragraph>
+				<article wId="gla10-clan72">
+					<num>72.</num>
+					<heading>Непријављивање имовине или давање лажних података о  имовини</heading>
+					<paragraph wId="gla10-clan72-stav1">
+						<content>
+							<p>Функционер који не пријави имовину Агенцији или даје  лажне податке о имовини, у намери да прикрије податке о имовини, казниће се  затвором од шест месеци до пет година.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan73">
+					<num>73.</num>
+					<heading>Правне последице осуде</heading>
+					<paragraph wId="gla10-clan73-stav1">
+						<content>
+							<p>Функционеру који је осуђен на казну затвора за  кривично дело из <ref wId="ref117" href="akn/rs/act/2019/88-4/srp@/!main~art_72" >члана 72. овог</ref> закона, престаје вршење јавне функције, односно  престаје радни однос, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan73-stav2">
+						<content>
+							<p>Функционеру који је осуђен на казну затвора за  кривично дело из <ref wId="ref118" href="akn/rs/act/2019/88-4/srp@/!main~art_72" >члана 72. овог</ref> закона, забрањује се стицање јавне функције у  року од десет година од дана правноснажности пресуде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan74">
+					<num>74.</num>
+					<paragraph wId="gla10-clan74-stav1">
+						<intro>
+							<p>Новчаном казном од 50.000 динара до  150.000 динара  казниће се за прекршај функционер ако:</p>
+						</intro>
+						<point wId="gla10-clan74-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> прихвати другу јавну функцију супротно одредбама  <ref wId="ref119" href="akn/rs/act/2019/88-4/srp@/!main~art_28" >члана 28. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> брисана је (види <ref wId="ref120" href="akn/rs/act/2019/88/srp@/!main~/art_3">члан 3. Закона - 88/2019-4</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> обавља други посао или делатности супротно  одредбама чл. <ref wId="ref121" href="akn/rs/act/2019/88-4/srp@/!main~art_30" >30</ref>. и <ref wId="ref122" href="akn/rs/act/2019/88-4/srp@/!main~art_31" >31</ref>. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> приликом ступања на дужност, односно током вршења  јавне функције писмено не обавести непосредно претпостављеног и Агенцију о  чињеницама из <ref wId="ref123" href="akn/rs/act/2019/88-4/srp@/!main~art_32__para_1" >члана 32. став 1. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> поступа супротно одредбама <ref wId="ref124" href="akn/rs/act/2019/88-4/srp@/!main~art_33" >члана 33. овог</ref> закона;</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla10-clan74-stav2">
+						<intro>
+							<p>Брисана је ранија тачка <ref wId="ref126" href="akn/rs/act/2019/88-4/srp@/!main~art_74__para_2__point_6" >6</ref>) (види <ref wId="ref125" href="akn/rs/act/2010/53/srp@/!main~/art_26">члан 26. Закона –  53/2010-13</ref>).</p>
+						</intro>
+						<point wId="gla10-clan74-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> прими накнаду или поклон супротно <ref wId="ref127" href="akn/rs/act/2019/88-4/srp@/!main~art_34__para_3" >члану 34. став  3. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> поступа супротно одредбама <ref wId="ref128" href="akn/rs/act/2019/88-4/srp@/!main~art_35" >члана 35. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> поступа супротно одредбама чл. <ref wId="ref129" href="akn/rs/act/2019/88-4/srp@/!main~art_39" >39</ref>. и <ref wId="ref130" href="akn/rs/act/2019/88-4/srp@/!main~art_40" >40</ref>. овог  закона;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> не обавести о пријему поклона (<ref wId="ref131" href="akn/rs/act/2019/88-4/srp@/!main~art_41__para_1" >члан 41. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav2-tac10">
+							<num>10)</num>
+							<content>
+								<p> је утицао на повезано лице да прими поклон у  вези са вршењем јавне функције (<ref wId="ref132" href="akn/rs/act/2019/88-4/srp@/!main~art_42__para_3" >члан 42. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav2-tac11">
+							<num>11)</num>
+							<content>
+								<p> пријави имовину након истека рока предвиђеног у  чл. <ref wId="ref133" href="akn/rs/act/2019/88-4/srp@/!main~art_43" >43</ref>. и <ref wId="ref134" href="akn/rs/act/2019/88-4/srp@/!main~art_44" >44</ref>. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav2-tac12">
+							<num>12)</num>
+							<content>
+								<p> не уплати имовинску корист у року из <ref wId="ref135" href="akn/rs/act/2019/88-4/srp@/!main~art_55" >члана 55.  овог</ref> закона.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla10-clan74-stav3">
+						<content>
+							<p>Новчаном казном од 100.000 до 150.000 динара казниће  се за прекршај функционер ако врши функцију у политичкој странци, односно  политичком субјекту и учествује у њиховим политичким активностима супротно члану  29. ст. <ref wId="ref136" href="akn/rs/act/2019/88-4/srp@/!main~art_29__para_1->para_2" >1, 2</ref>, <ref wId="ref137" href="akn/rs/act/2019/88-4/srp@/!main~art_29__para_4->para_5" >4. и 5</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan74-stav4">
+						<content>
+							<p>За прекршај из <ref wId="ref138" href="akn/rs/act/2019/88-4/srp@/!main~art_74__para_1->para_2" >ст. 1. и 2.</ref>. овог члана функционеру се  може изрећи заштитна мера забране одговорном лицу да врши одређене послове у  трајању до једне године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan74-stav5">
+						<intro>
+							<p>Новчаном казном из <ref wId="ref139" href="akn/rs/act/2019/88-4/srp@/!main~art_74__para_1" >става 1. овог</ref> члана казниће се за  прекршај одговорно лице у државном органу и организацији, органу територијалне  аутономије и локалне самоуправе, јавној служби и другом правном лицу које врши  јавна овлашћења ако:</p>
+						</intro>
+						<point wId="gla10-clan74-stav5-tac1">
+							<num>1)</num>
+							<content>
+								<p> не достави сва документа и информације у  прописаном року (<ref wId="ref140" href="akn/rs/act/2019/88-4/srp@/!main~art_25__para_2" >члан 25. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav5-tac2">
+							<num>2)</num>
+							<content>
+								<p> не донесе одлуку о престанку функције у року из  <ref wId="ref141" href="akn/rs/act/2019/88-4/srp@/!main~art_28__para_8" >члана 28. став 8. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav5-tac3">
+							<num>3)</num>
+							<content>
+								<p> не достави копију евиденције за претходну  календарску годину у прописаном року (<ref wId="ref142" href="akn/rs/act/2019/88-4/srp@/!main~art_41__para_2" >члан 41. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla10-clan74-stav5-tac4">
+							<num>4)</num>
+							<content>
+								<p> не обавести Агенцију о ступању функционера на  функцију, односно престанку функције у прописаном року (<ref wId="ref143" href="akn/rs/act/2019/88-4/srp@/!main~art_43__para_1" >члан 43. став 1</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla10-clan74-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref144" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan75">
+					<num>75.</num>
+					<heading>**Службени гласник РС, број <ref wId="ref148" href="akn/rs/act/2019/88/srp@">88/2019</ref></heading>
+					<paragraph wId="gla10-clan75-stav1">
+						<content>
+							<p>Новчаном казном од 200.000 динара до  2.000.000  динара казниће се за прекршај правно лице ако заснује радни однос, односно  обавља пословну сарадњу са функционером коме је престала јавна функција без  сагласности Агенције (<ref wId="ref145" href="akn/rs/act/2019/88-4/srp@/!main~art_38__para_1" >члан 38. став 1</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan75-stav2">
+						<content>
+							<p>За прекршај из <ref wId="ref146" href="akn/rs/act/2019/88-4/srp@/!main~art_75__para_1" >става 1. овог</ref> члана казниће се  новчаном казном од 100.000 динара до 500.000 динара предузетник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan75-stav3">
+						<content>
+							<p>За прекршај из <ref wId="ref147" href="akn/rs/act/2019/88-4/srp@/!main~art_75__para_1" >става 1. овог</ref> члана казниће се  новчаном казном од 50.000 динара до  150.000 динара одговорно лице у правном  лицу и функционер коме је престала јавна функција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan76">
+					<num>76.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref152" href="akn/rs/act/2010/53/srp@">53/2010</ref></heading>
+					<paragraph wId="gla10-clan76-stav1">
+						<content>
+							<p>Новчаном казном од 100.000 динара до  500.000 динара  казниће се за прекршај правно лице ако не обавести Агенцију у складу са <ref wId="ref149" href="akn/rs/act/2019/88-4/srp@/!main~art_36__para_1" >чланом  36. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan76-stav2">
+						<content>
+							<p>За прекршај из <ref wId="ref150" href="akn/rs/act/2019/88-4/srp@/!main~art_76__para_1" >става 1. овог</ref> члана казниће се  новчаном казном од 10.000 динара до 50.000 динара и одговорно лице у правном  лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan76-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref151" href="akn/rs/act/2010/53/srp@">53/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla11">
+				<num>XI</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla11-clan77">
+					<num>77.</num>
+					<paragraph wId="gla11-clan77-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престаје да важи  Закон о спречавању сукоба интереса при вршењу јавних функција („Службени гласник  РС”, број <ref wId="ref153" href="akn/rs/act/04/43/srp@">43/04</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan78">
+					<num>78.</num>
+					<paragraph wId="gla11-clan78-stav1">
+						<content>
+							<p>Поступци који су започети пред Републичким одбором за  решавање о сукобу интереса у којима није донета одлука до дана почетка примене  овог закона, окончаће се по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan79">
+					<num>79.</num>
+					<paragraph wId="gla11-clan79-stav1">
+						<content>
+							<p>Предлагачи су дужни да у року од 30 дана од дана  ступања на снагу овог закона поднесу листу кандидата за чланове Одбора Агенције  Народној скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan79-stav2">
+						<content>
+							<p>До почетка рада Врховног касационог суда, надлежност  овог предлагача врши Врховни суд Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan79-stav3">
+						<content>
+							<p>Прву седницу Одбора Агенције сазива и њоме руководи  најстарији члан Одбора Агенције у року од 15 дана од дана избора седмог члана  Одбора Агенције, чиме се сматра да је Одбор Агенције конституисан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan79-stav4">
+						<content>
+							<p>Одбор Агенције доноси Пословник о раду у року од 30  дана од дана сазивања прве седнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan79-stav5">
+						<content>
+							<p>Одбор Агенције дужан је да у року од 60 дана од дана  конституисања изабере директора и заменика директора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan80">
+					<num>80.</num>
+					<paragraph wId="gla11-clan80-stav1">
+						<content>
+							<p>Директор је дужан да у року од 60 дана од дана избора  донесе Правилник о унутрашњем уређењу и систематизацији радних места у стручној  служби Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan80-stav2">
+						<content>
+							<p>Директор је дужан да у року од 60 од дана избора  донесе подзаконске акте предвиђене овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan81">
+					<num>81.</num>
+					<paragraph wId="gla11-clan81-stav1">
+						<content>
+							<p>Даном почетка примене овог закона Агенција преузима  од Републичког одбора за решавање о сукобу интереса запослене, као и права,  обавезе, предмете, опрему, средства за рад и архиву који су потребни за вршење  надлежности у области рада Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan82">
+					<num>82.</num>
+					<paragraph wId="gla11-clan82-stav1">
+						<content>
+							<p>Функционер који је вршио више јавних функција на дан  1. јануара 2010. године, а није се до 1. априла определио коју ће јавну функцију  наставити да обавља, дужан је да најкасније до 1. септембра 2010. године  обавести Агенцију које све функције обавља.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan82-stav2">
+						<content>
+							<p>Агенција, по пријему обавештења из <ref wId="ref154" href="akn/rs/act/2019/88-4/srp@/!main~art_82__para_1" >става 1. овог</ref>  члана, утврђује да ли се вршењем више јавних функција угрожава непристрасно  вршење јавне функције, односно да ли то представља сукоб интереса. Ако утврди да  се вршењем више јавних функција угрожава непристрасно вршење јавне функције,  односно представља сукоб интереса, Агенција доноси одлуку којом одређује рок,  који не може бити дужи од 30 дана, у којем је функционер дужан да престане са  вршењем неспојивих функција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan82-stav3">
+						<content>
+							<p>Престао је да важи ранији <ref wId="ref155" href="akn/rs/act/2019/88-4/srp@/!main~art_82__para_3" >став 3. </ref>(види  Одлуку УС -  66/2011-48)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan83">
+					<num>83.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref163" href="akn/rs/act/2010/53/srp@">53/2010</ref></heading>
+					<paragraph wId="gla11-clan83-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана  објављивања у „Службеном гласнику Републике Србије”, а примењиваће се од 1.  јануара 2010. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan83-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan83-stav3">
+						<content>
+							<p>о Агенцији за борбу против корупције</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan83-stav4">
+						<content>
+							<p>„Службени гласник РС“, бр. <ref wId="ref156" href="akn/rs/act/2008/97/srp@">97 од 27. октобра 2008</ref>, <ref wId="ref157" href="akn/rs/act/2010/53/srp@">53  од 29. јула 2010</ref>, <ref wId="ref158" href="akn/rs/act/2011/66/srp@">66 од 7. септембра 2011</ref> - УС, <ref wId="ref159" href="akn/rs/act/2013/67/srp@">67 од 31. јула 2013</ref> - УС, <ref wId="ref160" href="akn/rs/act/2013/112/srp@">112 од  17. децембра 2013</ref> - Аутентично тумачење, <ref wId="ref161" href="akn/rs/act/2015/8/srp@">8 од 26. јануара 2015</ref> - УС, <ref wId="ref162" href="akn/rs/act/2019/88/srp@">88 од 13.  децембра 2019</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,512 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о избору председника Републике">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2007/111-7/main"/>
+					<FRBRuri value="akn/rs/act/2007/111-7"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2009/104-57/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2009/104-57/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2009/104-57/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2009/104-57/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2007-12-04" name="службени гласник рс“" number="111" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="13. Избори, референдум и народна иницијатива" value="13. избори, референдум и народна иницијатива" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2007-01-01" refersTo="111/2007-7" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2009-01-01" refersTo="104/2009-57" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2007-12-03" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2007-12-12" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2007-12-12" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="председник"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="бира"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="изборног"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="слободним"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="година"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="личним"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="пет"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="активно"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="пасивно"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="општег"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="непосредним"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="тајним"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="гласањем"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="једнаког"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="основу"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="изборима"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="бирачко"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="право"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike i"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine odlukom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike glasački listić za izbor predsednika Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republička izborna komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republička izborna komisija odlukom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Niko"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. decembra 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. januara 2007."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. decembra"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 12. децембра 2007. године (види члан 25. Закона).Престао је да важи члан 23. даном почетка примене Закона о јединственом бирачком списку, односно 25. децембра 2011. године (види члан 29. Закона - 104/2009-57).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О избору председника републике „Службени гласник РС“, бр. <ref wId="ref9" href="akn/rs/act/2007/111/srp@">111 од 4. децембра 2007</ref>, <ref wId="ref10" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref> - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Избор и мандат председника Републике</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Председник Републике бира се на основу општег и  једнаког изборног права на слободним и непосредним изборима, тајним и личним  гласањем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Председник Републике бира се на пет година.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Пасивно и активно бирачко право</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Право да бира председника Републике и да буде биран  за председника Републике има сваки пунолетан и пословно способан држављанин  Републике Србије (у даљем тексту: бирач).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Слобода гласања</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Нико нема право да спречава или приморава бирача да  гласа, да га позива на одговорност због тога што јесте или није гласао или да  тражи од њега да се изјасни зашто није гласао или за кога је гласао.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Рок у коме се расписују и одржавају избори</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Изборе за председника Републике расписује председник  Народне скупштине одлуком, која се објављује у „Службеном гласнику Републике  Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Избори за председника Републике расписују се 90 дана  пре истека мандата председника Републике, тако да се окончају у наредних 60 дана  од дана расписивања избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Ако се мандат председника Републике продужи због  ратног или ванредног стања, избори за председника Републике расписују се тако да  се одрже најкасније три месеца од дана када престане ратно или ванредно стање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav4">
+						<content>
+							<p>Ако председнику Републике престане мандат пре времена  на које је изабран, избори за председника Републике расписују се тако да се  одрже најкасније три месеца од дана када председнику Републике престане мандат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav5">
+						<content>
+							<p>Од дана расписивања избора до дана гласања не може  протећи мање од 30 ни више од 60 дана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Садржина одлуке</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>У одлуци о расписивању избора утврђује се дан гласања  за председника Републике и дан од када почињу да теку рокови за спровођење  изборних радњи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Као дан гласања мора да се одреди дан када се не  ради: субота или недеља.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Средства за спровођење избора</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Средства за спровођење избора за председника  Републике обезбеђују се у буџету Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Органи који спроводе изборе</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Изборе за председника Републике спроводе органи који  спроводе изборе за народне посланике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Сходна примена другог закона</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>У питањима која овим законом нису посебно уређена  сходно се примењују одредбе закона којим се уређује избор и престанак мандата  народних посланика.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПРЕДЛАГАЊЕ КАНДИДАТА ЗА ПРЕДСЕДНИКА РЕПУБЛИКЕ</heading>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Ко може да предложи кандидата</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Кандидата за председника Републике могу да предложе  политичка странка која је регистрована у Републици Србији на дан кад је одлука о  расписивању избора објављена у „Службеном гласнику Републике Србије”, коалиција  политичких странака и група грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Групу грађана писменим споразумом оснива најмање  десет бирача чији потписи морају бити оверени код суда и она не мора да има  назив.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Предлог кандидата подноси лице које је овластила  група грађана, политичка странка или коалиција политичких странака.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Потписи подршке предлогу кандидата</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Предлог кандидата може бити поднесен само ако га  својим потписима који су оверени код суда подржи најмање 10.000 бирача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Потписи бирача прикупљају се на обрасцу у који се  уноси име и презиме бирача и бирачев јединствени матични број грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Забрањено је да се потписи подршке прикупљају од  бирача на њиховом радном месту или да се бирач на било који начин изложи  притиску да потписом подржи предлог кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Бирач може потписом подржати само једног кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav5">
+						<content>
+							<p>Предлагач кандидата издаје посебно овлашћење лицима  која су задужена за прикупљање потписа подршке бирача.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Подношење предлога кандидата</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Предлог кандидата подноси се Републичкој изборној  комисији најкасније 20 дана пре дана избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Предлог кандидата садржи име и презиме, пребивалиште  и занимање кандидата, кандидатов јединствени матични број грађана и назив  предлагача кандидата, односно назнаку да кандидата предлаже група грађана ако  група грађана нема назив.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Уз предлог кандидата подносе се:</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="gla2-od8-clan11-stav1">
+					<content>
+						<p>Код суда морају бити оверени само потписи бирача на  споразуму о оснивању групе грађана и потписи бирача који подржавају предлог  кандидата.</p>
+					</content>
+				</paragraph>
+				<article wId="gla2-od8-clan12">
+					<num>12.</num>
+					<heading>Обрасци за подношење предлога кандидата</heading>
+					<paragraph wId="gla2-od8-clan12-stav1">
+						<content>
+							<p>Све обрасце који су потребни за подношење предлога  кандидата прописује Републичка изборна комисија у посебном акту, штампа их и  ставља на располагање јавности у року од три дана од дана расписивања избора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od8-clan13">
+					<num>13.</num>
+					<heading>Повлачење предлога кандидата и одустанак од  кандидатуре</heading>
+					<paragraph wId="gla2-od8-clan13-stav1">
+						<content>
+							<p>Предлагач кандидата може повући предлог кандидата до  дана утврђивања листе кандидата за избор председника Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od8-clan13-stav2">
+						<content>
+							<p>Ако је кандидата предложила коалиција политичких  странака, предлог је повучен кад и последња политичка странка која је у  коалицији писмено повуче предлог, ако коалиционим уговором није друкчије  одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od8-clan13-stav3">
+						<content>
+							<p>Ако је кандидата предложила група грађана, предлог је  повучен ако писмену изјаву о повлачењу потпише и своје потписе овери код суда  или већина бирача који су основали групу грађана или онолико бирача колико је  споразумом о оснивању групе грађана одређено да може повући предлог.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od8-clan13-stav4">
+						<content>
+							<p>Кандидат може одустати од кандидатуре до дана  утврђивања листе кандидата за председника Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od8-clan13-stav5">
+						<content>
+							<p>Одустанак од кандидатуре изјављује се писмено, а  потпис кандидата оверава код суда.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ЛИСТА КАНДИДАТА ЗА ИЗБОР ПРЕДСЕДНИКА РЕПУБЛИКЕ</heading>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Републичка изборна комисија утврђује листу кандидата  за избор председника Републике најкасније 15 дана пре дана избора и објављује је  у „Службеном гласнику Републике Србије“ наредног дана од дана када ју је  утврдила.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Листа кандидата за избор председника Републике садржи  име и презиме кандидата и назив предлагача кандидата, односно назнаку да је  кандидата предложила група грађана ако група грађана нема назив.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav3">
+						<content>
+							<p>Редни број кандидата на листи утврђује се жребом, у  присуству представника предлагача кандидата.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ГЛАСАЊЕ</heading>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<heading>Гласачки листић</heading>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>Поред назнаке да се гласа за председника Републике  гласачки листић за избор председника Републике садржи:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan16">
+					<num>16.</num>
+					<heading>Неважећи гласачки листић</heading>
+					<paragraph wId="gla4-od2-clan16-stav1">
+						<content>
+							<p>Неважећи гласачки листић је гласачки листић који није  попуњен или гласачки листић који је тако попуњен да се не може поуздано утврдити  за ког кандидата је бирач гласао.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>РЕЗУЛТАТИ ИЗБОРА</heading>
+				<article wId="gla5-clan17">
+					<num>17.</num>
+					<heading>Коначни и привремени резултати избора</heading>
+					<paragraph wId="gla5-clan17-stav1">
+						<content>
+							<p>Републичка изборна комисија записнички утврђује и  објављује коначне резултате избора у „Службеном гласнику Републике Србије” у  року од 96 сати од затварања бирачких места.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan17-stav2">
+						<content>
+							<p>До објављивања коначних резултата избора, Републичка  изборна комисија објављује привремене резултате избора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan18">
+					<num>18.</num>
+					<heading>Ко је изабран за председника Републике</heading>
+					<paragraph wId="gla5-clan18-stav1">
+						<content>
+							<p>За председника Републике изабран је кандидат који је  добио већину гласова бирача који су гласали.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav2">
+						<content>
+							<p>Број бирача који су гласали утврђује се на основу  броја гласачких листића који се налазе у гласачкој кутији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan19">
+					<num>19.</num>
+					<heading>Понављање гласања</heading>
+					<paragraph wId="gla5-clan19-stav1">
+						<content>
+							<p>Ако ниједан кандидат не добије већину гласова бирача  који су гласали, гласање се понавља у року од 15 дана од дана првог гласања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan19-stav2">
+						<content>
+							<p>Дан поновљеног гласања утврђује Републичка изборна  комисија одлуком, која се објављује у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan19-stav3">
+						<content>
+							<p>Дан поновљеног гласања мора да падне у дан у који се  не ради.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan20">
+					<num>20.</num>
+					<heading>Кандидати на поновљеном гласању</heading>
+					<paragraph wId="gla5-clan20-stav1">
+						<content>
+							<p>На поновљеном гласању учествују два кандидата која су  добила највећи број гласова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav2">
+						<content>
+							<p>Више од два кандидата учествују на поновљеном гласању  ако их више дели прво или друго место.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav3">
+						<content>
+							<p>На гласачком листићу на поновљеном гласању први по  редоследу је кандидат који је на првом гласању добио највише гласова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav4">
+						<content>
+							<p>Редослед кандидата који имају исти број гласова  утврђује се жребом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan21">
+					<num>21.</num>
+					<heading>Ко је изабран за председника Републике на поновљеном  гласању</heading>
+					<paragraph wId="gla5-clan21-stav1">
+						<content>
+							<p>На поновљеном гласању за председника Републике  изабран је кандидат који је добио највећи број гласова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav2">
+						<content>
+							<p>Ако на поновљеном гласању кандидати освоје исти број  гласова, гласање се понавља у року од 15 дана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<heading>Губитак бирачког права кандидата између првог и  поновљеног гласања</heading>
+					<paragraph wId="gla5-clan22-stav1">
+						<content>
+							<p>Ако од првог гласања до дана поновљеног гласања један  кандидат изгуби бирачко право, понавља се цели изборни поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan23">
+					<num>23.</num>
+					<heading>Надлежност за измене у изводу из бирачког списка</heading>
+					<paragraph wId="gla5-clan23-stav1">
+						<content>
+							<p>Престао је да важи (види <ref wId="ref0" href="akn/rs/act/2009/104/srp@/!main~/art_29">члан 29. Закона -  104/2009-57</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРЕЛАЗНА ОДРЕДБА</heading>
+				<article wId="gla6-clan24">
+					<num>24.</num>
+					<paragraph wId="gla6-clan24-stav1">
+						<content>
+							<p>На првим изборима за председника Републике који буду  одржани према овом закону право гласа имају они грађани Републике Србије који су  уписани у бирачке спискове према мерилима која су коришћена за изборе за народне  посланике који су одржани 21. јануара 2007. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ЗАВРШНА ОДРЕДБА</heading>
+				<article wId="gla7-clan25">
+					<num>25.</num>
+					<paragraph wId="gla7-clan25-stav1">
+						<content>
+							<p>Ступањем на снагу овог закона престаје да важи Закон  о избору председника Републике („Службени гласник РС”, бр. <ref wId="ref1" href="akn/rs/act/90/1/srp@">1/90</ref>, <ref wId="ref2" href="akn/rs/act/92/79/srp@">79/92</ref>, <ref wId="ref3" href="akn/rs/act/02/73/srp@">73/02</ref>,  <ref wId="ref4" href="akn/rs/act/03/72/srp@">72/03</ref>, <ref wId="ref5" href="akn/rs/act/03/93/srp@">93/03</ref> и <ref wId="ref6" href="akn/rs/act/04/18/srp@">18/04</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan25-stav2">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана  објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan25-stav3">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan25-stav4">
+						<content>
+							<p>о избору председника Републике</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan25-stav5">
+						<content>
+							<p>„Службени гласник РС“, бр. <ref wId="ref7" href="akn/rs/act/2007/111/srp@">111 од 4. децембра 2007</ref>,   <ref wId="ref8" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref> - др. закон</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

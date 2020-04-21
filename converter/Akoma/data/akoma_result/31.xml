@@ -1,0 +1,1540 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о локалним изборима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2007/129-50/main"/>
+					<FRBRuri value="akn/rs/act/2007/129-50"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2020/12-4/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2020/12-4/srp@"/>
+					<FRBRdate date="2020-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2020/12-4/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2020/12-4/srp@.akn"/>
+					<FRBRdate date="2020-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2007-12-29" name="службени гласник рс“" number="129" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="13. Избори, референдум и народна иницијатива" value="13. избори, референдум и народна иницијатива" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2007-01-01" refersTo="129/2007-50" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="34/2010-38" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2011-01-01" refersTo="54/2011-3" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2020-01-01" refersTo="12/2020-4" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2007-12-29" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2007-12-29" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2007-12-29" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="одборници"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="престанак"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединица"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="избор"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="скупштина"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="мандата"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="одборника"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="самоуправе"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="локалне"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="24 časa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izborna komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluka suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičke izborne komisije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="USRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravnom sudu"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Birač"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Niko"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Potpis"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Rok"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. tač 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. maja 2010"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. jula"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. februara 2020."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="smislu stava 5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу даном објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2007. године (види члан 62. Закона).Одлуком Уставног суда IУз број 52/2008 („Службени гласник РС“, број 34/2010) престале су да важе одредбе члана 43. Закона о локалним изборима (Службени гласник РС, број 129/2007), јер је утврђено да нису у сагласности са Уставом и одредбе члана 47. овог закона, јер је утврђено да нису у сагласности са Уставом и потврђеним међународним уговорима (види Одлуку УС – 34/2010-38).Закон о изменама и допуни Закона о локалним изборима (Службени гласник РС, број 12/2020) и Закон о измени Закона о локалним изборима (Службени гласник РС, број 12/2020) ступили су на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 9. фебруара 2020. године (види члан 3. Закона о изменама и допуни - 12/2020-4 и члан 2. Закона о измени - 12/2020-4).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О локалним изборима „Службени гласник РС“, бр. <ref wId="ref54" href="akn/rs/act/2007/129/srp@">129 од 29. децембра 2007</ref>, <ref wId="ref55" href="akn/rs/act/2010/34/srp@">34 од 21. маја 2010</ref> - УС, <ref wId="ref56" href="akn/rs/act/2011/54/srp@">54 од 22. јула 2011</ref>, <ref wId="ref57" href="akn/rs/act/2020/12/srp@">12 од 8. фебруара 2020</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се избор и престанак мандата одборника  скупштина јединица локалне самоуправе (у даљем тексту: одборници).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Одборници се бирају на четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Избори за одборнике морају се расписати најкасније 45  дана пре краја мандата одборника којима истиче мандат.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2020/12/srp@">12/2020</ref></heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Грађани бирају одборнике на основу слободног, општег и  једнаког изборног права. Изборно право грађани остварују непосредно, тајним  гласањем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Нико нема право да, по било ком основу, спречава или  приморава грађанина да гласа, да га позива на одговорност због гласања или да од  њега тражи да се изјасни за кога је гласао или зашто није гласао.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Грађани имају право да преко средстава јавног информисања  буду равноправно, благовремено, истинито, непристрасно и потпуно обавештени о  изборној кампањи подносилаца изборних листа и кандидатима с изборних листа, као  и о другим догађајима значајним за изборе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Средства јавног информисања дужна су да у изборној кампањи  обезбеде равноправност, благовременост, истинитост, непристрасност и потпуност у  обавештавању о свим подносиоцима изборних листа и кандидатима с тих листа, као и  о другим догађајима значајним за изборе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Изборна кампања, у смислу овог закона, представља све  јавне, политичке, промотивне и друге активности подносилаца изборних листа и  кандидата с тих листа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Одборници се бирају на основу листа политичких странака,  њихових коалиција, и листа које предложе групе грађана (у даљем тексту:  изборна листа).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Право да бира одборника има пунолетан, пословно способан  држављанин Републике Србије који има пребивалиште на територији јединице локалне  самоуправе у којој остварује изборно право.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>За одборника, може бити изабран пунолетан, пословно  способан држављанин Републике Србије који има пребивалиште на територији  јединице локалне самоуправе у којој је предложен за одборника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Избор одборника обавља се у општини као јединственој  изборној јединици.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<content>
+							<p>Одборнички мандати расподељују се између изборних листа  сразмерно броју добијених гласова који је освојила свака од изборних листа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Изборе за одборнике расписује председник Народне скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Од дана расписивања избора до дана одржавања избора не може  протећи мање од 45, ни више од 60 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav3">
+						<content>
+							<p>Одлуком о расписивању избора одређује се дан одржавања  избора, као и дан од када почињу тећи рокови за вршење изборних радњи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav4">
+						<content>
+							<p>Када се истовремено одржавају избори за одборнике и  избори за народне посланике Народне скупштине, послове бирачких одбора на  спровођењу избора за одборнике обављају бирачки одбори образовани за спровођење  избора за народне посланике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav5">
+						<content>
+							<p>У национално мешовитим јединицама локалне самоуправе,  у смислу закона којим се уређује локална самоуправа, приликом именовања бирачких  одбора из <ref wId="ref2" href="akn/rs/act/2020/12-4/srp@/!main~art_8__para_4" >става 4. овог</ref> члана, посебно ће се водити рачуна о заступљености  политичких странака националних мањина у скупштини јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav6">
+						<content>
+							<p>У случају из <ref wId="ref3" href="akn/rs/act/2020/12-4/srp@/!main~art_8__para_4" >става 4. овог</ref> члана, подносилац изборне  листе за одборнике, који није поднео изборну листу за народне посланике, има  право на представника у бирачком одбору у проширеном саставу под условима  прописаним овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav7">
+						<content>
+							<p>Одлука о расписивању избора објављује се у „Службеном  гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>У јединицама локалне самоуправе у којима живи становништво  мешовитог националног састава, омогућује се сразмерна заступљеност националних  мањина у скупштинама јединица локалне самоуправе, у складу с Уставом и овим  законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Изборе за одборнике спроводе изборне комисије јединица  локалне самоуправе и бирачки одбори.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ИЗБОР ОДБОРНИКА СКУПШТИНЕ ЈЕДИНИЦЕ ЛОКАЛНЕ САМОУПРАВЕ</heading>
+				<article wId="gla2-od1-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-od1-clan11-stav1">
+						<content>
+							<p>Органи за спровођење избора су изборна комисија јединице  локалне самоуправе (у даљем тексту: изборна комисија) и бирачки одбори.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav2">
+						<content>
+							<p>Органи за спровођење избора су самостални и независни у  раду и раде на основу закона и прописа донетих на основу закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav3">
+						<content>
+							<p>За свој рад органи за спровођење избора одговарају органу  који их је именовао.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav4">
+						<content>
+							<p>Сви органи и организације дужни су да пружају помоћ  органима за спровођење избора и да достављају податке који су им потребни за  рад.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-od1-clan12-stav1">
+						<content>
+							<p>Чланови органа за спровођење избора и њихови заменици могу  бити само грађани који имају изборно право, као и пребивалиште на територији  јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan12-stav2">
+						<content>
+							<p>Члановима органа за спровођење избора и њиховим заменицима  престаје функција у овим органима кад прихвате кандидатуру за одборника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-od1-clan13-stav1">
+						<content>
+							<p>Изборна комисија ради у сталном саставу (именовани чланови)  и у проширеном саставу (опуномоћени чланови).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav2">
+						<content>
+							<p>Изборна комисија ради у проширеном саставу од дана  утврђивања тог састава до завршетка избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav3">
+						<content>
+							<p>Ниједна политичка странка или страначка коалиција не може  имати више од половине чланова у сталном саставу органа за спровођење избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav4">
+						<content>
+							<p>У решењу о именовању председника и чланова органа за  спровођење избора, поред личног имена председника, односно члана, мора бити  наведена његова политичка припадност или назив странке, односно страначке  коалиције на чији предлог је именован.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan14">
+					<num>14.</num>
+					<paragraph wId="gla2-od1-clan14-stav1">
+						<content>
+							<p>Изборну комисију у сталном саставу чине председник и  најмање шест чланова које именује скупштина јединице локалне самоуправе, на  предлог одборничких група у скупштини јединице локалне самоуправе, сразмерно  броју одборника а у проширеном саставу – и по један опуномоћени представник  подносилаца изборне листе који је предложио најмање две трећине кандидата од  укупног броја одборника који се бира.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav2">
+						<content>
+							<p>Политичке странке и коалиције политичких странака  националних мањина које предложе најмање једну трећину кандидата за одборнике од  укупног броја одборника који се бира имају право на свог представника у  проширеном саставу изборне комисије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav3">
+						<content>
+							<p>Изборна комисија има секретара кога именује скупштина  јединице локалне самоуправе. Секретар учествује у раду комисије без права  одлучивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav4">
+						<content>
+							<p>Председник, чланови изборне комисије у сталном и проширеном  саставу и њен секретар имају заменике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav5">
+						<content>
+							<p>За председника, заменика председника, секретара и заменика  секретара изборне комисије именује се лице које је дипломирани правник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav6">
+						<content>
+							<p>Изборна комисија даном проглашења изборне листе истовремено  решењем утврђује који подносилац изборне листе испуњава услове за одређивање  својих представника у проширени састав овог органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav7">
+						<content>
+							<p>Решење о испуњењу или неиспуњењу услова за одређивање  опуномоћеног представника подносилаца изборне листе у проширени састав изборна  комисија доставља подносиоцу изборне листе у року од 24 часа од доношења тог  решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav8">
+						<content>
+							<p>Подносилац изборне листе одређује свог опуномоћеног  представника у изборној комисији и о томе обавештава изборну комисију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav9">
+						<content>
+							<p>Изборна комисија утврђује проширени састав у року од 24  часа од пријема обавештења о лицима која улазе у проширени састав.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav10">
+						<content>
+							<p>Ако подносилац изборне листе не одреди опуномоћеног  представника у изборној комисији најкасније пет дана пре дана одређеног за  одржавање избора, изборна комисија наставља да ради и да пуноважно одлучује без  представника подносиоца изборне листе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav11">
+						<content>
+							<p>Против решења скупштине јединице локалне самоуправе о  именовању председника и чланова изборне комисије у сталном саставу допуштена је  жалба Управном суду у року од 24 часа од доношења решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav12">
+						<content>
+							<p>Против решења изборне комисије из <ref wId="ref5" href="akn/rs/act/2020/12-4/srp@/!main~art_14__para_7" >става 7. овог</ref> члана  обезбеђена је заштита по поступку за заштиту изборног права који је утврђен овим  законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan15">
+					<num>15.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla2-od1-clan15-stav1">
+						<intro>
+							<p>Изборна комисија:</p>
+						</intro>
+						<point wId="gla2-od1-clan15-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> стара се о законитости спровођења избора одборника;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> одређује бирачка места, при чему нарочито води рачуна о  равномерној распоређености бирача на бирачким местима и о доступности бирачког  места бирачима;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> одређује бирачке одборе и именује њихове чланове;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> даје упутства бирачким одборима у погледу спровођења  поступка избора одборника;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> прописује обрасце и организује техничке припреме за  спровођење избора за одборнике;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> утврђује да ли су изборне листе сачињене и поднете у  складу са прописима о избору одборника;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> проглашава изборне листе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> утврђује облик и изглед гласачких листића, број  гласачких листића за бирачка места и записнички их предаје бирачким одборима;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> утврђује и објављује укупне резултате избора одборника;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> подноси извештај скупштини јединице локалне самоуправе  о спроведеним изборима за одборнике;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> доставља министарству надлежном за послове локалне  самоуправе и републичком органу надлежном за послове статистике податке о  спровођењу и резултатима избора за одборнике, непосредно по завршетку избора;</p>
+							</content>
+						</point>
+						<point wId="gla2-od1-clan15-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> обавља и друге послове одређене прописима о избору  одборника.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan15-stav2">
+						<content>
+							<p>У свом раду, изборна комисија сходно примењује упутства и  друге акте Републичке изборне комисије који се односе на спровођење избора за  народне посланике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan16">
+					<num>16.</num>
+					<paragraph wId="gla2-od1-clan16-stav1">
+						<content>
+							<p>Бирачки одбор ради у сталном и проширеном саставу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav2">
+						<content>
+							<p>Бирачки одбор у сталном саставу чине председник и најмање  четири члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav3">
+						<content>
+							<p>У погледу утврђивања састава бирачког одбора у проширеном  саставу, примењују се одредбе овог закона које се односе на изборну комисију у  проширеном саставу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav4">
+						<content>
+							<p>Председник и чланови бирачког одбора имају заменике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav5">
+						<content>
+							<p>Бирачки одбор именује се најкасније десет дана пре дана  одређеног за одржавање избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav6">
+						<content>
+							<p>Решење о именовању бирачких одбора доставља се свим  подносиоцима потврђених изборних листа, у року од 48 часова од дана доношења  решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan17">
+					<num>17.</num>
+					<paragraph wId="gla2-od1-clan17-stav1">
+						<content>
+							<p>Бирачки одбор непосредно спроводи гласање, обезбеђује  правилност и тајност гласања, утврђује резултате гласања на бирачком месту и  обавља друге послове одређене законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan17-stav2">
+						<content>
+							<p>Бирачки одбор се стара о одржавању реда на бирачком месту  за време гласања. Ближа правила о раду бирачког одбора одређује изборна  комисија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan18">
+					<num>18.</num>
+					<paragraph wId="gla2-od2-clan18-stav1">
+						<content>
+							<p>Кандидате за одборнике могу предлагати регистроване  политичке странке, коалиције регистрованих политичких странака, као и групе  грађана чије изборне листе својим потписима подржи најмање 30 бирача по предлогу  за сваког кандидата на изборној листи. Предлагач мора на изборној листи имати  најмање једну трећину кандидата од укупног броја одборника који се бира.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav2">
+						<content>
+							<p>У јединицама локалне самоуправе које имају мање од 20.000  бирача, изборне листе из <ref wId="ref7" href="akn/rs/act/2020/12-4/srp@/!main~art_18__para_1" >става 1. овог</ref> члана утврђене су и када их својим  потписом подржи најмање 200 бирача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav3">
+						<content>
+							<p>У име политичке странке или групе грађана, предлоге из <ref wId="ref8" href="akn/rs/act/2020/12-4/srp@/!main~art_18__para_1->para_2" >ст.  1. и 2. овог</ref> члана може поднети само лице које је политичка странка или група  грађана овластила.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav4">
+						<content>
+							<p>У име коалиције странака, предлог из <ref wId="ref9" href="akn/rs/act/2020/12-4/srp@/!main~art_18__para_1->para_2" >ст. 1. и 2. овог</ref> члана  подносе највише два овлашћена лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan19">
+					<num>19.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla2-od2-clan19-stav1">
+						<content>
+							<p>Изборна листа доставља се изборној комисији најкасније 15  дана пре дана одређеног за одржавање избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan19-stav2">
+						<intro>
+							<p>Уз изборну листу изборној комисији доставља се  документација, и то:</p>
+						</intro>
+						<point wId="gla2-od2-clan19-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> потврда о изборном праву за сваког кандидата са изборне  листе, у којој је назначено име и презиме, датум рођења, занимање и јединствени  матични број кандидата;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan19-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> писмена изјава кандидата да прихвата кандидатуру;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan19-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> потврда о пребивалишту кандидата;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan19-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> писмена сагласност носиоца листе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan19-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> овлашћење лица која подносе изборну листу;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan19-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> уверење о држављанству;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan19-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> потписи бирача који су подржали одређену изборну листу.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan19-stav3">
+						<content>
+							<p>На документацију из става 2. тач <ref wId="ref10" href="akn/rs/act/2020/12-4/srp@/!main~art_19__para_2__point_1" >1</ref>), <ref wId="ref11" href="akn/rs/act/2020/12-4/srp@/!main~art_19__para_2__point_3" >3</ref>) и <ref wId="ref12" href="akn/rs/act/2020/12-4/srp@/!main~art_19__para_2__point_6" >6</ref>) овог члана не  плаћа се такса.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan20">
+					<num>20.</num>
+					<paragraph wId="gla2-od2-clan20-stav1">
+						<content>
+							<p>Једно лице може бити кандидат за одборника само на једној  изборној листи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan20-stav2">
+						<content>
+							<p>Подносилац изборне листе одређује редослед кандидата на  листи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan20-stav3">
+						<content>
+							<p>На изборној листи мора бити 40% мање заступљеног пола.  Међу сваких пет кандидата по редоследу на листи (првих пет места, других пет  места и тако до краја листе) мора бити најмање по два кандидата – припадника  оног пола који је мање заступљен на листи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan20-stav4">
+						<content>
+							<p>Ако изборна листа не испуњава услове из <ref wId="ref14" href="akn/rs/act/2020/12-4/srp@/!main~art_20__para_3" >става 3. овог</ref> члана  сматраће се да садржи недостатке за проглашење изборне листе, а предлагач листе  биће позван у складу са овим законом, да отклони недостатке листе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan20-stav5">
+						<content>
+							<p>Ако предлагач листе не отклони недостатке из <ref wId="ref15" href="akn/rs/act/2020/12-4/srp@/!main~art_20__para_4" >става 4. овог</ref>  члана, изборна комисија одбиће проглашење изборне листе, у складу са овим  законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan20-stav6">
+						<content>
+							<p>Кад по доношењу решења о проглашењу изборне листе кандидат  буде правноснажном судском одлуком лишен пословне способности, изгуби  држављанство Републике Србије, одустане од кандидатуре или ако наступи његова  смрт, подносилац изборне листе губи право да предложи новог кандидата.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan21">
+					<num>21.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref16" href="akn/rs/act/2020/12/srp@">12/2020</ref></heading>
+					<paragraph wId="gla2-od2-clan21-stav1">
+						<content>
+							<p>Подносилац изборне листе може повући листу најдоцније до  дана утврђивања збирне изборне листе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan21-stav2">
+						<content>
+							<p>Повлачењем изборне листе престаје функција представника  подносиоца листе у свим органима за спровођење избора, као и сва права која му у  том својству по одредбама овог закона припадају.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan22">
+					<num>22.</num>
+					<paragraph wId="gla2-od2-clan22-stav1">
+						<content>
+							<p>Назив изборне листе одређује се према називу политичке  странке која подноси листу, а у назив се може укључити име и презиме лица које  политичка странка одреди као носиоца изборне листе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav2">
+						<content>
+							<p>Ако две или више политичких странака поднесу заједничку  изборну листу, назив изборне листе и носилац изборне листе одређују се  споразумно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav3">
+						<content>
+							<p>Уз назив изборне листе групе грађана подносилац одређује  ближу ознаку те листе, а у назив се може укључити име и презиме лица које група  грађана одреди као носиоца изборне листе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav4">
+						<content>
+							<p>Лице одређено као носилац изборне листе може бити кандидат  за одборника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan23">
+					<num>23.</num>
+					<paragraph wId="gla2-od2-clan23-stav1">
+						<content>
+							<p>Изборна комисија прописује облик и садржај обрасца за  потпис бирача који подржавају изборну листу и ставља га на располагање  учесницима у изборима у року од три дана од дана расписивања избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav2">
+						<content>
+							<p>Бирач може својим потписом подржати изборну листу само  једног предлагача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav3">
+						<content>
+							<p>Потпис којим бирач подржава изборну листу мора бити оверен  у складу са законом којим се уређује овера потписа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav4">
+						<content>
+							<p>Висину накнаде за оверу потписа утврдиће посебним актом  министарство надлежно за послове правде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan24">
+					<num>24.</num>
+					<paragraph wId="gla2-od2-clan24-stav1">
+						<content>
+							<p>Изборна комисија проглашава изборну листу, одмах по пријему  изборне листе и одговарајуће документације, а најкасније у року од 24 часа од  пријема изборне листе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav2">
+						<content>
+							<p>Решење о проглашењу изборне листе из <ref wId="ref17" href="akn/rs/act/2020/12-4/srp@/!main~art_24__para_1" >става 1. овог</ref> члана  изборна комисија доставља без одлагања подносиоцу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan25">
+					<num>25.</num>
+					<paragraph wId="gla2-od2-clan25-stav1">
+						<content>
+							<p>Кад изборна комисија утврди да изборна листа није поднета  благовремено, донеће решење о њеном одбацивању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan25-stav2">
+						<content>
+							<p>Кад изборна комисија утврди да изборна листа садржи  недостатке који су сметња за проглашење изборне листе у складу с овим законом,  донеће, у року од 24 часа од пријема изборне листе, закључак којим се подносиоцу  изборне листе налаже да најкасније у року од 48 часова од часа достављања  закључка отклони те недостатке. Тим закључком истовремено ће се подносиоцу  изборне листе указати на радње које треба да обави ради отклањања недостатака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan25-stav3">
+						<content>
+							<p>Кад изборна комисија утврди да изборна листа садржи  недостатке предвиђене овим законом, или кад утврди да недостаци изборне листе  нису отклоњени, или нису отклоњени у предвиђеном року, донеће у наредних 24 часа  решење којим се одбија проглашење изборне листе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan26">
+					<num>26.</num>
+					<paragraph wId="gla2-od2-clan26-stav1">
+						<content>
+							<p>Збирну изборну листу утврђује изборна комисија и она садржи  све изборне листе, са личним именима свих кандидата и подацима о години рођења,  занимању и пребивалишту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan26-stav2">
+						<content>
+							<p>Редослед изборних листа, са именима свих кандидата, на  збирној изборној листи утврђује се према редоследу њиховог проглашавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan26-stav3">
+						<content>
+							<p>Збирну изборну листу изборна комисија објављује на начин  како се објављују прописи јединице локалне самоуправе, најкасније десет дана пре  дана одржавања избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan26-stav4">
+						<content>
+							<p>Сваки подносилац изборне листе има право да у року од 48  часова од дана објављивања збирне изборне листе изврши, преко лица које овласти,  увид у све поднете изборне листе и документацију поднету уз њих.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan27">
+					<num>27.</num>
+					<paragraph wId="gla2-od2-clan27-stav1">
+						<content>
+							<p>Грађани имају право да буду обавештени о изборним листама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan27-stav2">
+						<content>
+							<p>Грађани имају право да, преко јавних гласила, буду  благовремено, истинито и непристрасно обавештени о свим активностима учесника  изборног поступка и догађајима значајним за изборе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan28">
+					<num>28.</num>
+					<paragraph wId="gla2-od3-clan28-stav1">
+						<content>
+							<p>Изборна комисија дужна је да за сваки бирачки одбор  благовремено припреми материјал за гласање, а нарочито потребан број гласачких  листића, извод из бирачког списка, потврде о изборном праву, посебне службене  коверте за гласање, као и образац записника о раду бирачког одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan28-stav2">
+						<content>
+							<p>Гласачке листиће припрема и оверава изборна комисија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan28-stav3">
+						<content>
+							<p>Изборна комисија утврђује укупан број гласачких листића,  који мора бити једнак броју бирача уписаних у бирачки списак у општини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan28-stav4">
+						<content>
+							<p>Изборна комисија контролише припрему и оверу гласачких  листића и одређује број резервних гласачких листића, који не може бити већи од  0,3% од укупног броја гласачких листића.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan28-stav5">
+						<content>
+							<p>Гласачки листићи штампају се на једном месту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan28-stav6">
+						<content>
+							<p>Подносилац изборне листе доставља изборној комисији име  лица које има право да присуствује штампању, бројању, паковању гласачких листића  и њиховом достављању органима надлежним за спровођење избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan28-stav7">
+						<content>
+							<p>У општинама где су у службеној употреби језици националних  мањина гласачки листићи се штампају и на тим језицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan28-stav8">
+						<content>
+							<p>Изборна комисија ближе утврђује садржину, облик и изглед  гласачких листића, одређује штампара, начин и контролу њиховог штампања и  достављање и руковање гласачким листићима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan29">
+					<num>29.</num>
+					<paragraph wId="gla2-od3-clan29-stav1">
+						<content>
+							<p>Примопредаја изборног материјала врши се најкасније 24 часа  пре дана одржавања избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan29-stav2">
+						<content>
+							<p>Општинска управа стара се о уређивању бирачких места и  припрема за сваки бирачки одбор потребан број гласачких кутија с прибором за  њихово печаћење, параване за гласање и прибор за писање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan29-stav3">
+						<content>
+							<p>На дан избора, пре почетка гласања, бирачки одбор утврђује  да ли је припремљени изборни материјал за то бирачко место потпун и исправан, да  ли је бирачко место уређено на начин којим се обезбеђује тајност гласања и да ли  гласање може почети, што уноси у записник о свом раду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan30">
+					<num>30.</num>
+					<paragraph wId="gla2-od3-clan30-stav1">
+						<intro>
+							<p>Гласачки листић садржи:</p>
+						</intro>
+						<point wId="gla2-od3-clan30-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> редни број који се ставља испред назива изборне листе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan30-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> називе изборних листа, према редоследу утврђеном на  збирној листи, са личним именом првог кандидата са листе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan30-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> напомену да се гласа само за једну изборну листу,  заокруживањем редног броја испред назива те листе или назива листе.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan31">
+					<num>31.</num>
+					<paragraph wId="gla2-od3-clan31-stav1">
+						<content>
+							<p>Збирна изборна листа, с називима изборних листа и именима  свих кандидата, мора за време гласања бити видно истакнута на бирачком месту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan31-stav2">
+						<content>
+							<p>Садржај, облик и начин истицања збирне изборне листе из  <ref wId="ref18" href="akn/rs/act/2020/12-4/srp@/!main~art_31__para_1" >става 1. овог</ref> члана прописује изборна комисија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan32">
+					<num>32.</num>
+					<paragraph wId="gla2-od3-clan32-stav1">
+						<content>
+							<p>Представници подносилаца изборних листа и кандидати за  одборнике имају право увида у изборни материјал, а нарочито у изводе из бирачких  спискова, записнике бирачког одбора, записнике изборних комисија и гласачке  листиће. Увид се врши у службеним просторијама изборне комисије. Увид у изборни  материјал може се извршити у року од пет дана од дана одржавања избора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan33">
+					<num>33.</num>
+					<paragraph wId="gla2-od3-clan33-stav1">
+						<content>
+							<p>Бирач гласа на бирачком месту на коме је уписан у бирачки  списак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan33-stav2">
+						<content>
+							<p>Бирач може да гласа и ван бирачког места на ком је уписан у  извод из бирачког списка, под условима и на начин утврђен законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan33-stav3">
+						<content>
+							<p>Начин гласања ван бирачког места, као и број бирача који су  гласали на тај начин уноси се у записник о раду бирачког одбора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan34">
+					<num>34.</num>
+					<paragraph wId="gla2-od3-clan34-stav1">
+						<content>
+							<p>Бирач гласа лично.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan34-stav2">
+						<content>
+							<p>Бирач може гласати само за једну од изборних листа са  гласачког листића.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan34-stav3">
+						<content>
+							<p>Гласа се заокруживањем редног броја испред назива изборне  листе за коју се гласа или заокруживањем назива изборне листе, односно тако да  се недвосмислено може утврдити за коју изборну листу је бирач гласао.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan34-stav4">
+						<content>
+							<p>Бирач сам пресавија гласачки листић тако да се не види за  коју је изборну листу гласао и убацује га у гласачку кутију и одмах напушта  бирачко место.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan35">
+					<num>35.</num>
+					<paragraph wId="gla2-od4-clan35-stav1">
+						<content>
+							<p>По завршеном гласању бирачки одбор приступа утврђивању  резултата гласања на бирачком месту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan35-stav2">
+						<content>
+							<p>Бирачки одбор утврђује број неупотребљених гласачких  листића и ставља их у посебан омот који печати, с назнаком на омоту да се ради о  неупотребљеним гласачким листићима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan35-stav3">
+						<content>
+							<p>На основу извода из бирачког списка, бирачки одбор утврђује  укупан број бирача који су гласали.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan35-stav4">
+						<content>
+							<p>Кад се гласачка кутија отвори, после провере контролног  листа, важећи гласачки листићи одвајају се од неважећих.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan35-stav5">
+						<content>
+							<p>Бирачки одбор констатује број неважећих гласачких листића,  уноси га у записник и неважеће гласачке листиће печати у посебан омот, с  назнаком да се ради о неважећим гласачким листићима, а потом утврђује број  важећих листића и број гласова за сваку изборну листу, што такође уноси у  записник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan35-stav6">
+						<content>
+							<p>Важећи гласачки листићи стављају се у посебан омот са  назнаком да се ради о важећим гласачким листићима, који се потом печати.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan35-stav7">
+						<content>
+							<p>Неважећи гласачки листић јесте непопуњени гласачки листић,  листић који је попуњен тако да се не може утврдити за коју се изборну листу  гласало и листић на коме је заокружено више од једне изборне листе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan35-stav8">
+						<content>
+							<p>Кад је на гласачком листићу заокружено име и презиме првог  кандидата на изборној листи или је заокружен назив или део назива изборне листе,  односно ако су истовремено заокружени редни број и назив изборне листе и име и  презиме првог кандидата, такав изборни листић сматра се важећим.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan35-stav9">
+						<content>
+							<p>Кад се утврди да је број гласачких листића у гласачкој  кутији већи од броја бирача који су гласали, или у гласачкој кутији није нађен  контролни листић, бирачки одбор се распушта и именује нови, а гласање на том  бирачком месту понавља се.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan36">
+					<num>36.</num>
+					<paragraph wId="gla2-od4-clan36-stav1">
+						<content>
+							<p>Бирачки одбор, по утврђивању резултата гласања, у записник  о свом раду уноси: број примљених гласачких листића; број неупотребљених  гласачких листића; број неважећих гласачких листића; број важећих гласачких  листића; број гласова датих за сваку изборну листу; број бирача према изводу из  бирачког списка и број бирача који су гласали.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan36-stav2">
+						<content>
+							<p>У записник о раду бирачког одбора уносе се и примедбе и  мишљења чланова бирачког одбора, подносилаца изборних листа и заједничких  представника подносилаца изборних листа, као и све друге чињенице од значаја за  гласање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan36-stav3">
+						<content>
+							<p>Записник о раду бирачког одбора потписују сви чланови  бирачког одбора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan37">
+					<num>37.</num>
+					<paragraph wId="gla2-od4-clan37-stav1">
+						<content>
+							<p>Записник о раду бирачког одбора израђује се на прописаном  обрасцу који се штампа у шест примерака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan37-stav2">
+						<content>
+							<p>У општинама где су у службеној употреби језици националних  мањина записник о раду бирачког одбора штампа се и на тим језицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan37-stav3">
+						<content>
+							<p>Први примерак записника с утврђеним изборним материјалом  доставља се изборној комисији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan37-stav4">
+						<content>
+							<p>Други примерак записника истиче се на бирачком месту на  јавни увид.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan37-stav5">
+						<content>
+							<p>Преостала четири примерка записника уручују се  представницима подносилаца изборних листа које су освојиле највећи број гласова  на том бирачком месту и то одмах уколико подносилац изборне листе има  представника у бирачком одбору, а уколико га нема представник подносиоца изборне  листе може преузети примерак записника од изборне комисије у року од 24 часа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan37-stav6">
+						<content>
+							<p>Остали подносиоци изборне листе имају право да, у року од  24 часа од достављања материјала с бирачког места изборној комисији, од изборне  комисије добију оверену фотокопију записника с бирачког места.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan38">
+					<num>38.</num>
+					<paragraph wId="gla2-od4-clan38-stav1">
+						<content>
+							<p>Кад утврди резултате гласања, бирачки одбор ће без  одлагања, а најкасније у року од осам часова од затварања бирачких места,  доставити изборној комисији записник о утврђивању резултата гласања на бирачком  месту, извод из бирачког списка, важеће гласачке листиће у запечаћеном посебном  омоту, неупотребљене гласачке листиће у запечаћеном посебном омоту, неважеће  гласачке листиће у запечаћеном посебном омоту, као и преосталу изборну  документацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan38-stav2">
+						<content>
+							<p>О примопредаји изборне документације саставља се записник  који потписује представник изборне комисије и најмање два члана бирачког одбора  који су предали изборну документацију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan39">
+					<num>39.</num>
+					<paragraph wId="gla2-od4-clan39-stav1">
+						<content>
+							<p>По пријему изборног материјала са бирачких места изборна  комисија, у року од 24 часа од затварања бирачких места, утврђује: укупан број  бирача уписаних у бирачки списак; број бирача који су гласали на бирачким  местима; број бирача који су гласали ван бирачког места; укупан број примљених  гласачких листића; укупан број неважећих гласачких листића; укупан број важећих  гласачких листића и број гласова датих за сваку изборну листу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan39-stav2">
+						<content>
+							<p>Изборна комисија утврђује резултате гласања на бирачким  местима најкасније у року од шест часова од достављања извештаја са бирачких  места.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan40">
+					<num>40.</num>
+					<paragraph wId="gla2-od4-clan40-stav1">
+						<content>
+							<p>Изборна комисија утврђује резултате избора и о томе  сачињава посебан записник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan40-stav2">
+						<content>
+							<p>Свакој изборној листи припада број мандата који је  сразмеран броју добијених гласова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan40-stav3">
+						<content>
+							<p>Изборна комисија утврђује број мандата који припада свакој  изборној листи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan40-stav4">
+						<content>
+							<p>У расподели мандата учествују изборне листе које су добиле  најмање 3% гласова од укупног броја гласова бирача који су гласали.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan40-stav5">
+						<content>
+							<p>Политичке странке националних мањина и коалиције  политичких странака националних мањина учествују у расподели мандата и кад су  добиле мање од 3% гласова од укупног броја бирача који су гласали, при чему се  приликом расподеле мандата применом система највећег количника, количници свих  изборних листа политичких странака националних мањина и коалиција политичких  странака националних мањина увећавају за 35%.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan40-stav6">
+						<content>
+							<p>Политичка странка националне мањине, у смислу <ref wId="ref19" href="akn/rs/act/2020/12-4/srp@/!main~art_40__para_5" >става 5.  овог</ref> члана, јесте она странка за коју је изборна комисија утврдила да јој је  основни циљ представљање и заступање интереса националне мањине и заштита и  побољшање права припадника националне мањине, у складу са међународно правним  стандардима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan40-stav7">
+						<content>
+							<p>О томе да ли подносилац изборне листе има положај  политичке странке националне мањине или коалиције политичких странака  националних мањина, у смислу <ref wId="ref20" href="akn/rs/act/2020/12-4/srp@/!main~art_40__para_5" >става 5. овог</ref> члана, одлучује изборна комисија  посебним решењем при проглашењу изборне листе, а на предлог подносиоца изборне  листе који мора бити достављен при подношењу изборне листе. Изборна комисија  може затражити мишљење надлежног националног савета националне мањине о томе да  ли је подносилац изборне листе политичка странка националне мањине или коалиција  политичких странака националних мањина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan40-stav8">
+						<content>
+							<p>Подносилац изборне листе може имати положај политичке  странке националне мањине, у смислу <ref wId="ref21" href="akn/rs/act/2020/12-4/srp@/!main~art_40__para_5" >става 5. овог</ref> члана, само aко према подацима  последњег пописа становништва на територији јединице локалне самоуправе живе  припадници националне мањине коју репрезентује.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan41">
+					<num>41.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2020/12/srp@">12/2020</ref></heading>
+					<paragraph wId="gla2-od4-clan41-stav1">
+						<content>
+							<p>Изборна комисија расподељује мандате применом система  највећег количника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan41-stav2">
+						<content>
+							<p>Мандати се расподељују тако што се укупан број гласова који  је добила свака поједина листа подели бројевима од један закључно са бројем који  одговара броју одборника који се бирају у скупштину јединице. Тако добијени  количници разврставају се по величини, а у обзир се узима онолико највећих  количника колико се бира одборника у скупштину јединице локалне самоуправе.  Свака изборна листа добија онолико мандата колико тих количника на њу отпада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan41-stav3">
+						<content>
+							<p>Ако две изборне листе или више изборних листа добију исте  количнике на основу којих се додељује један мандат, а нема више нерасподељених  мандата, мандат ће се доделити листи која је добила већи број гласова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan41-stav4">
+						<content>
+							<p>Изборна комисија у року од 24 часа од затварања бирачких  места врши расподелу одборничких мандата на начин из <ref wId="ref22" href="akn/rs/act/2020/12-4/srp@/!main~art_41__para_1" >става 1. овог</ref> члана, о чему  се саставља посебан записник.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan42">
+					<num>42.</num>
+					<paragraph wId="gla2-od4-clan42-stav1">
+						<content>
+							<p>Мандати који припадају одређеној изборној листи додељују се  кандидатима са те листе у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan43">
+					<num>43.</num>
+					<heading>Престао је да важи ранији <ref wId="ref24" href="akn/rs/act/2020/12-4/srp@/!main~art_43" >члан 43. </ref>(види Одлуку УС –  34/2010-38)</heading>
+					<paragraph wId="gla2-od4-clan43-stav1">
+						<content>
+							<p>Изборна комисија јединице локалне самоуправе ће  најкасније у року од 10 дана од дана објављивања укупних резултата избора све  добијене мандате са изборне листе доделити кандидатима по редоследу на изборној  листи, почев од првог кандидата са листе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan44">
+					<num>44.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref25" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla2-od4-clan44-stav1">
+						<content>
+							<p>Изборна комисија објављује резултате избора у року од 24  часа од затварања бирачких места.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan45">
+					<num>45.</num>
+					<paragraph wId="gla2-od4-clan45-stav1">
+						<content>
+							<p>Изборна комисија издаје одборнику уверење да је изабран.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan46">
+					<num>46.</num>
+					<paragraph wId="gla2-od5-clan46-stav1">
+						<intro>
+							<p>Одборнику престаје мандат пре истека времена на које је  изабран:</p>
+						</intro>
+						<point wId="gla2-od5-clan46-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> подношењем оставке;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan46-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> доношењем одлуке о распуштању скупштине јединице локалне  самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan46-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако је правноснажном судском одлуком осуђен на  безусловну казну затвора у трајању од најмање шест месеци;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan46-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако је правноснажном одлуком лишен пословне способности;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan46-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> преузимањем посла, односно функције које су, у складу са  законом, неспојиве с функцијом одборника;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan46-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> ако му престане пребивалиште на територији јединице  локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan46-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> губљењем држављанства;</p>
+							</content>
+						</point>
+						<point wId="gla2-od5-clan46-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> ако наступи смрт одборника.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan46-stav2">
+						<content>
+							<p>Одборник може поднети оставку усмено на седници скупштине  јединице локалне самоуправе, а између две седнице подноси је у форми оверене  писане изјаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan46-stav3">
+						<content>
+							<p>После подношења усмене оставке одборника, скупштина без  одлагања, на истој седници утврђује да је одборнику престао мандат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan46-stav4">
+						<content>
+							<p>О оставци коју је одборник поднео између две седнице,  скупштина је дужна да одлучи на првој наредној седници.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan46-stav5">
+						<content>
+							<p>Одборник може опозвати поднету оставку све док скупштина не  утврди престанак његовог мандата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan46-stav6">
+						<content>
+							<p>Ако одборнику престаје мандат наступањем случаја из става  1. овог члана<ref wId="ref26" href="akn/rs/act/2020/12-4/srp@/!main~" > тач. 2) </ref>до 8), скупштина јединице локалне самоуправе на првој  наредној седници, после обавештења о наступању таквог случаја, утврђује да је  одборнику престао мандат.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan47">
+					<num>47.</num>
+					<heading>Престао је да важи ранији <ref wId="ref27" href="akn/rs/act/2020/12-4/srp@/!main~art_47" >члан 47. </ref>(види Одлуку УС – 34/2010-38)</heading>
+					<paragraph wId="gla2-od5-clan47-stav1">
+						<content>
+							<p>Одборник лично подноси оставку, оверену код органа  надлежног за оверу потписа, председнику скупштине јединице локалне самоуправе, у  року од три дана од дана овере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan47-stav2">
+						<content>
+							<p>Председник скупштине јединице локалне самоуправе је  дужан да поднету оставку стави на дневни ред скупштине на првој наредној  седници, са предлогом да то буде прва тачка дневног реда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan48">
+					<num>48.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref28" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla2-od5-clan48-stav1">
+						<content>
+							<p>Када одборнику престане мандат пре истека времена на  које је изабран, мандат се додељује првом следећем кандидату са исте изборне  листе коме није био додељен мандат одборника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan48-stav2">
+						<content>
+							<p>Када одборнику који је изабран са коалиционе изборне  листе престане мандат пре истека времена на које је изабран, мандат се додељује  првом следећем кандидату на изборној листи коме није био додељен мандат -  припаднику исте политичке странке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan48-stav3">
+						<intro>
+							<p>Кандидату коме је био додељен мандат одборника, а  којем је мандат престао због преузимања функције председника општине или  градоначелника, односно заменика председника општине или заменика  градоначелника, мандат се поново додељује у истом сазиву скупштине јединице  локалне самоуправе под условима:</p>
+						</intro>
+						<alinea wId="gla2-od5-clan48-stav3-ali1">
+							<content>
+								<p>а је кандидату престала функција председника  општине или градоначелника, односно заменика председника општине или заменика  градоначелника;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-od5-clan48-stav3-ali2">
+							<content>
+								<p>а постоји упражњено одборничко место које припада  истој изборној листи, и</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-od5-clan48-stav3-ali3">
+							<content>
+								<p>а је изборној комисији јединице локалне самоуправе  кандидат поднео захтев за доделу мандата одборника.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan48-stav4">
+						<content>
+							<p>Кад одборнику престане мандат пре истека времена на које је  изабран, а на изборној листи са које је одборник био изабран нема кандидата за  које подносилац изборне листе није добио мандат, мандат припада подносиоцу  изборне листе који има следећи највећи количник а за њега није добио мандат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan48-stav5">
+						<content>
+							<p>Мандат новог одборника траје до истека мандата одборника  коме је престао мандат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan48-stav6">
+						<content>
+							<p>Од кандидата се пре потврђивања мандата прибавља писмена  сагласност да прихвата мандат.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan49">
+					<num>49.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref33" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla2-od5-clan49-stav1">
+						<content>
+							<p>На одлуке скупштине јединице локалне самоуправе о престанку  мандата одборника, као и о потврђивању мандата новом одборнику, допуштена је  жалба Управном суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan49-stav2">
+						<content>
+							<p>Жалба је допуштена и у случају када скупштина пропусти да  донесе одлуке из <ref wId="ref29" href="akn/rs/act/2020/12-4/srp@/!main~art_49__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan49-stav3">
+						<content>
+							<p>У случају основаности жалбе из <ref wId="ref30" href="akn/rs/act/2020/12-4/srp@/!main~art_49__para_2" >става 2. овог</ref> члана, суд  доноси одлуку којом утврђује престанак мандата одборника, односно потврђује  мандат новом одборнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan49-stav4">
+						<content>
+							<p>Право на подношење жалбе из <ref wId="ref31" href="akn/rs/act/2020/12-4/srp@/!main~art_49__para_2" >става 2. овог</ref> члана има сваки  одборник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan49-stav5">
+						<content>
+							<p>Жалба се подноси у року од 48 часова од дана доношења  одлуке скупштине јединице локалне самоуправе, односно од дана одржавања седнице  на којој је скупштина пропустила да донесе одлуке из <ref wId="ref32" href="akn/rs/act/2020/12-4/srp@/!main~art_49__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan49-stav6">
+						<content>
+							<p>Управни суд дужан је да у року од 30 дана од дана  добијања жалбе донесе решење о поднетој жалби.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od5-clan50">
+					<num>50.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref35" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla2-od5-clan50-stav1">
+						<content>
+							<p>Поновни избори спроводе се ако изборна комисија или  Управни  суд пониште изборе због неправилности у спровођењу избора, у случајевима  утврђеним овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan50-stav2">
+						<content>
+							<p>Ако се избори пониште на поједином бирачком месту, гласање  се понавља само на том бирачком месту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan50-stav3">
+						<content>
+							<p>На бирачким местима на којима изборни поступак није  спроведен у складу с овим законом, избори се понављају у року од седам дана од  утврђивања неправилности у изборном поступку, на начин и по поступку утврђеним  за спровођење избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan50-stav4">
+						<content>
+							<p>Поновне изборе расписује изборна комисија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan50-stav5">
+						<content>
+							<p>Поновни избори спроводе се по листи кандидата која је  утврђена за изборе који су поништени, осим кад су избори поништени због  неправилности у утврђивању изборне листе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan50-stav6">
+						<content>
+							<p>У случају понављања избора коначни резултати избора  утврђују се по завршетку поновљеног гласања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od5-clan50-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref34" href="akn/rs/act/2011/54/srp@">54/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan51">
+					<num>51.</num>
+					<paragraph wId="gla2-od6-clan51-stav1">
+						<content>
+							<p>Сваки бирач, кандидат за одборника и предлагач кандидата  има право на заштиту изборног права, по поступку утврђеном овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan52">
+					<num>52.</num>
+					<paragraph wId="gla2-od6-clan52-stav1">
+						<content>
+							<p>Бирач, кандидат за одборника или предлагач кандидата има  право да поднесе приговор изборној комисији јединице локалне самоуправе због  неправилности у поступку кандидовања, спровођења, утврђивања и објављивања  резултата избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan52-stav2">
+						<content>
+							<p>Приговор се подноси у року од 24 часа од дана када је  донета одлука, односно извршена радња или учињен пропуст.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan53">
+					<num>53.</num>
+					<paragraph wId="gla2-od6-clan53-stav1">
+						<content>
+							<p>Изборна комисија донеће решење у року од 48 часова од  пријема приговора и доставити га подносиоцу приговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan53-stav2">
+						<content>
+							<p>Ако изборна комисија јединице локалне самоуправе усвоји  поднети приговор, поништиће одлуку или радњу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan54">
+					<num>54.</num>
+					<paragraph wId="gla2-od6-clan54-stav1">
+						<content>
+							<p>Против решења изборне комисије, може се изјавити жалба  Управном суду у року од 24 часа од достављања решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan54-stav2">
+						<content>
+							<p>Изборна комисија дужна је да суду достави одмах, а  најкасније у року од 12 часова све потребне податке и списе за одлучивање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan54-stav3">
+						<content>
+							<p>У поступку заштите изборног права суд сходно примењује  одредбе закона којим се уређује поступак у управним споровима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan54-stav4">
+						<content>
+							<p>Одлука по жалби донеће се најкасније у року од 48 часова од  дана пријема жалбе са списима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan54-stav5">
+						<content>
+							<p>Одлука донета у поступку по жалби је правноснажна и против  ње се не могу поднети захтев за ванредно преиспитивање судске одлуке, нити  захтев за понављање поступка, предвиђени Законом о управним споровима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan55">
+					<num>55.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref36" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla2-od6-clan55-stav1">
+						<content>
+							<p>Ако суд усвоји жалбу, поништиће одлуку или радњу у поступку  предлагања кандидата, односно у поступку избора одборника или ће поништити избор  одборника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan55-stav2">
+						<content>
+							<p>Када нађе да оспорену одлуку треба поништити, ако природа  ствари то дозвољава и ако утврђено чињенично стање пружа поуздан основ за то,  суд може својом одлуком мериторно решити изборни спор. Одлука суда у свему  замењује поништени акт.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan55-stav3">
+						<content>
+							<p>Ако је по приговору, односно по жалби, поништена радња у  поступку избора или избор одборника,  изборна комисија је дужна да одговарајућу  изборну радњу, односно изборе понови у року предвиђеном овим законом за поновне  изборе. Рок се рачуна од дана доношења одлуке о поништавању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od6-clan56">
+					<num>56.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref40" href="akn/rs/act/2011/54/srp@">54/2011</ref></heading>
+					<paragraph wId="gla2-od6-clan56-stav1">
+						<content>
+							<p>Мандат одборника почиње да тече даном потврђивања мандата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan56-stav2">
+						<content>
+							<p>О потврђивању мандата одборника одлучује скупштина на  конститутивној седници.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan56-stav3">
+						<content>
+							<p>Конститутивну седницу скупштине сазива председник скупштине  из претходног сазива у року од 15 дана од дана објављивања резултата избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan56-stav4">
+						<content>
+							<p>Конститутивном седницом председава најстарији одборник,  који је овлашћен и да сазове конститутивну седницу ако то у законском року не  учини председник скупштине из претходног сазива.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan56-stav5">
+						<content>
+							<p>О потврђивању мандата одборника, на основу извештаја  верификационог одбора, скупштина одлучује јавним гласањем. У гласању могу  учествовати кандидати за одборнике којима су мандати додељени у складу са <ref wId="ref37" href="akn/rs/act/2020/12-4/srp@/!main~art_43" >чланом  43. овог</ref> закона и који имају уверење изборне комисије јединице локалне  самоуправе да су изабрани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan56-stav6">
+						<content>
+							<p>Када скупштина после конституисања одлучује о потврђивању  мандата нових одборника, у гласању, поред одборника, могу учествовати и  кандидати којима су мандати додељени у складу са <ref wId="ref38" href="akn/rs/act/2020/12-4/srp@/!main~art_48" >чланом 48. овог</ref> закона и који  имају уверење изборне комисије јединице локалне самоуправе да су изабрани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan56-stav7">
+						<content>
+							<p>Против одлуке донете у вези са потврђивањем мандата  одборника може се изјавити жалба Управном суду у року од 48 часова од дана  доношења одлуке скупштине јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od6-clan56-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref39" href="akn/rs/act/2011/54/srp@">54/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od7-clan57">
+					<num>57.</num>
+					<paragraph wId="gla2-od7-clan57-stav1">
+						<content>
+							<p>Средства за спровођење избора и финансирање изборне  активности за избор одборника скупштине јединице локалне самоуправе обезбеђују  се у буџету јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od7-clan57-stav2">
+						<content>
+							<p>На поднеске и радње у изборном поступку не плаћа се такса.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od8-clan58">
+					<num>58.</num>
+					<paragraph wId="gla2-od8-clan58-stav1">
+						<content>
+							<p>Одредбе Закона о избору народних посланика („Службени  гласник РС”, бр. <ref wId="ref41" href="akn/rs/act/00/35/srp@">35/00</ref>, <ref wId="ref42" href="akn/rs/act/03/57/srp@">57/03</ref> – одлука УСРС, <ref wId="ref43" href="akn/rs/act/03/72/srp@">72/03 – др. закон</ref>, 75/03 – испр.  др. закона, 18/04, <ref wId="ref44" href="akn/rs/act/05/85/srp@">85/05 – др. закон</ref> и <ref wId="ref45" href="akn/rs/act/05/101/srp@">101/05 – др. закон</ref>) о бирачким  списковима, о изборном материјалу, именовању у изборне комисије и бирачке  одборе, бирачким местима, о обавештавању грађана о предложеним кандидатима, о  забрани трајања изборне пропаганде и објављивању претходних резултата или  процене резултата избора, гласању, утврђивању и објављивању резултата избора,  неплаћању пореза и доприноса за средства која се исплаћују као накнада за рад  лица у органима за спровођење избора и казнама, сходно се примењују на избор  одборника, ако овим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla3-clan59">
+					<num>59.</num>
+					<paragraph wId="gla3-clan59-stav1">
+						<content>
+							<p>Одредбе овог закона о избору одборника скупштина јединица  локалне самоуправе примењиваће се од првих наредних избора за одборнике  скупштина јединица локалне самоуправе у свим јединицама локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan60">
+					<num>60.</num>
+					<paragraph wId="gla3-clan60-stav1">
+						<content>
+							<p>Прве изборе за одборнике скупштина јединица локалне  самоуправе у свим јединицама локалне самоуправе, по ступању на снагу овог  закона, расписаће председник Народне скупштине, тако да се они одрже у року који  не може бити краћи од 120 ни дужи од 180 дана од дана расписивања избора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan61">
+					<num>61.</num>
+					<paragraph wId="gla3-clan61-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о  локалним изборима („Службени гласник РС”, бр. <ref wId="ref46" href="akn/rs/act/02/33/srp@">33/02</ref>, <ref wId="ref47" href="akn/rs/act/02/37/srp@">37/02</ref> – исправка, 42/02,  <ref wId="ref48" href="akn/rs/act/03/72/srp@">72/03 – др. закон</ref>, 75/03 – испр. др. закона, 100/03 – УС и <ref wId="ref49" href="akn/rs/act/05/101/srp@">101/05 – др. закон</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan62">
+					<num>62.</num>
+					<paragraph wId="gla3-clan62-stav1">
+						<content>
+							<p>Овај закон ступа на снагу даном објављивања у „Службеном  гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan62-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan62-stav3">
+						<content>
+							<p>о локалним изборима</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan62-stav4">
+						<content>
+							<p>„Службени гласник РС“, бр. <ref wId="ref50" href="akn/rs/act/2007/129/srp@">129 од 29. децембра 2007</ref>, <ref wId="ref51" href="akn/rs/act/2010/34/srp@">34  од 21. маја 2010</ref> - УС, <ref wId="ref52" href="akn/rs/act/2011/54/srp@">54 од 22. јула 2011</ref>, <ref wId="ref53" href="akn/rs/act/2020/12/srp@">12 од 8. фебруара 2020</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

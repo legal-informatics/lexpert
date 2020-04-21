@@ -1,0 +1,1362 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о извозу и увозу наоружања и војне опреме">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2014/107-3/main"/>
+					<FRBRuri value="akn/rs/act/2014/107-3"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2014/107-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2014/107-3/srp@"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2014/107-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2014/107-3/srp@.akn"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2014-10-08" name="службени гласник рс" number="107" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="3. Војна опрема, наоружање и роба двоструке намене" value="3. војна опрема, наоружање и роба двоструке намене" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2014-10-08" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2014-10-16" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2014-10-16" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописују"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="опреме"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="војне"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="наоружања"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="одредби"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступци"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="повреде"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="казне"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="циљ"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="спровођењу"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежних"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="овлашћења"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="издавања"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="транспорт"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="транзит"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="пружање"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="овог"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="органа"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="врши"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="брокерских"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="увоз"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="услуга"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registar"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registra"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ujedinjenim nacijama"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="17."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Direktorata civilnog vazduhoplovstva Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Liste"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Međunarodni uvozni sertifikat"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva i saglasnosti ministarstva nadležnog za spoljne poslove"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva ne"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva za ponovni izvoz"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo )"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo da"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo dozvolu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo kompletan zahtev za izdavanje dozvole"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo može"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za unutrašnje poslove"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo o"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo odmah"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo pisanim putem"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo rešenjem"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo sarađuje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo u roku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo u skladu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="NVO"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Organizacije za evropsku bezbednost"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Organizaciji za evropsku bezbednost"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registra"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija član"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SCG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savet bezbednosti Ujedinjenih nacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta bezbednosti Ujedinjenih nacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstvo nadležno za poslove finansija"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ministarstvu"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tranzit NVO"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. stav 1. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 1. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 1. tačka 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 1. tačka 5"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 1. tačka 6"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. i 31."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. октобра 2014. године (види члан 42. Закона).Подзаконски акти за спровођење овог закона биће донети у року од шест месеци од дана ступања на снагу овог закона. До доношења акта за спровођење овог закона примењиваће се подзаконски акти донети у складу са Законом о спољној трговини наоружањем, војном опремом и робом двоструке намене („Службени лист СЦГ”, бр. 7/2005 и 8/2005 – исправка и „Службени гласник РС”, број 95/2013 – др. закон) уколико нису у супротности са овим законом (види члан 40. Закона).Права из појединачних аката која су донели надлежни органи, а нису у целини искоришћена или су делимично искоришћена до дана почетка примене овог закона, могу се искористити у роковима утврђеним тим актима (види члан 39. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. октобра 2014. године (види члан 42. Закона).Подзаконски акти за спровођење овог закона биће донети у року од шест месеци од дана ступања на снагу овог закона. До доношења акта за спровођење овог закона примењиваће се подзаконски акти донети у складу са Законом о спољној трговини наоружањем, војном опремом и робом двоструке намене („Службени лист СЦГ”, бр. 7/2005 и 8/2005 – исправка и „Службени гласник РС”, број 95/2013 – др. закон) уколико нису у супротности са овим законом (види члан 40. Закона).Права из појединачних аката која су донели надлежни органи, а нису у целини искоришћена или су делимично искоришћена до дана почетка примене овог закона, могу се искористити у роковима утврђеним тим актима (види члан 39. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О извозу и увозу наоружања и војне опреме "Службени гласник РС", број <ref wId="ref70" href="akn/rs/act/2014/107/srp@">107 од 8. октобра 2014</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се начин и услови под којима се врши извоз и увоз наоружања и војне опреме, пружање брокерских услуга и техничке помоћи, транспорт и транзит наоружања и војне опреме, прописују поступци издавања дозволе и овлашћења надлежних органа у спровођењу овог закона и прописују казне за повреде одредби овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Циљ закона</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Циљ овог закона је успостављање контроле извоза и увоза наоружања и војне опреме, пружања брокерских услуга и техничке помоћи, као и основе за контролу транспорта и транзита наоружањa и војнe опремe, ради остваривања и заштите одбрамбених, безбедносних и спољнополитичких интереса Републике Србије, њеног међународног кредибилитета и обезбеђења поштовања међународних обавеза Републике Србије у овој области.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Значење појединих израза</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav1-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> наоружање и војна опрема (у даљем тексту: НВО) су убојна, борбена и техничка средства и њихове компоненте, технологије, као и средства и компоненте намењени за опремање, употребу, руковање, чување, складиштење, одржавање и надзор, утврђени Националном контролном листом наоружања и војне опреме (у даљем тексту: Листа);</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav1-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> извоз НВО је:</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav1-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> поновни извоз НВО у смислу царинских прописа.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav1-podtac4">
+							<num>(4)</num>
+							<content>
+								<p> увоз НВО је уношење, допремање, односно испорука НВО са територије друге државе или царинске територије на територију Републике Србије, у складу са царинским прописима;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav1-podtac5">
+							<num>(5)</num>
+							<content>
+								<p> увозник је правно лице или предузетник са седиштем на територији Републике Србије у чије име се врши увоз, односно лице које у време када је дозвола издата има закључен уговор са пошиљаоцем робе у другој држави и овлашћење за примање те робе унутар царинског подручја Републике Србије. Ако уговор о увозу није закључен или ако једна страна у уговору не делује у своје име, увозник је лице које има овлашћење за примање робе унутар царинског подручја Републике Србије;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav1-podtac6">
+							<num>(6)</num>
+							<content>
+								<p> брокерске услуге су уговарање и посредовање у уговарању послова у вези са куповином, продајом, или набавком НВО из једне државе и њихову продају у другој држави, као и продаја или куповина НВО у једној држави ради преноса у другу државу.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<intro>
+							<p>Брокерским услугама не сматрају се услуге транспорта, финансијске услуге, осигурање, реосигурање, оглашавање и рекламирање;</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav2-podtac7">
+							<num>(7)</num>
+							<content>
+								<p> брокер је правно лице или предузетник са седиштем у Републици Србији које врши услуге из тачке <ref wId="ref0" href="akn/rs/act/2014/107-3/srp@/!main~art_3__para_2__point_6" >6</ref>) овог члана и које је уписано у Регистар;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav2-podtac8">
+							<num>(8)</num>
+							<content>
+								<p> техничка помоћ је услуга коју пружа правно лице или предузетник са седиштем у Републици Србији у вези са развојем, производњом, склапањем, тестирањем, поправком или одржавањем НВО, а која може бити у облику инструкције, обуке, преноса техничких података, пословног знања и вештина или стручне и саветодавне услуге, укључујући и помоћ која се пружа усмено;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav2-podtac9">
+							<num>(9)</num>
+							<content>
+								<p> пружалац техничке помоћи је правно лице или предузетник са седиштем у Републици Србији које пружа техничку помоћ из тачке <ref wId="ref1" href="akn/rs/act/2014/107-3/srp@/!main~art_3__para_2__point_8" >8</ref>) овог члана и које је уписано у Регистар;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav2-podtac10">
+							<num>(10)</num>
+							<content>
+								<p> крајња војна намена је:</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav2-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> уградња робе, делова или компоненти у робу војне намене из Листе;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav2-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> употреба опреме за производњу, испитивање или анализу, и њихових компоненти за развој, производњу или одржавање робе војне намене из Листе;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav2-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> употреба било ког недовршеног производа у постројењу за производњу робе војне намене из Листе.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav2-podtac11">
+							<num>(11)</num>
+							<content>
+								<p> транспорт је копнени, водени, ваздушни и комбиновани превоз НВО на територију Републике Србије и са територије Републике Србије;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav2-podtac12">
+							<num>(12)</num>
+							<content>
+								<p> транзит је копнени, водени, ваздушни и комбиновани превоз НВО, који улазе на територију Републике Србије, превозе се преко ње (са и без претовара) и излазе са територије Републике Србије.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<intro>
+							<p>Под претоваром се подразумева истовар, поновни утовар или промена начина транспорта НВО на територији Републике Србије;</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla1-clan3-stav3-podtac13">
+							<num>(13)</num>
+							<content>
+								<p> некомерцијални извоз и увоз је привремени извоз или увоз сајамских, музејских и изложбених експоната ради учествовања на међународним манифестацијама, односно привремени увоз или извоз НВО ради учешћа на спортским такмичењима и другим посебним активностима.</p>
+							</content>
+						</hcontainer>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Надлежност за доношење Листе</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Влада, на предлог министарства надлежног за послове спољне трговине (у даљем тексту: Министарство), утврђује Листу којa је усклађена са релевантном листом Европске уније.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Извоз и увоз НВО и пружања брокерских услуга и техничке помоћи</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Извоз и увоз НВО и пружање брокерских услуга и техничке помоћи у смислу овог закона, врши се на основу дозволе Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Извозник, увозник, брокер и пружалац техничке помоћи, дужан је да пре започињања извоза, увоза, пружања брокерских услуга и пружања техничке помоћи утврди да ли предметна роба или услуга спада у НВО, у складу са одредбама овог закона и прописа донетих на основу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Забране</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<intro>
+							<p>Техничка помоћ је забрањена, ако је намењена или се може употребити за:</p>
+						</intro>
+						<point wId="gla1-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> развој, производњу, модификацију, руковање, склапање, тестирање, поправку, располагање, примену, одржавање, складиштење, детекцију или ширење оружја за масовно уништавање или за развој, производњу, одржавање или складиштење средстава погодних за његово преношење;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> крајњу војну намену која се пружа у државама крајњег одредишта које се налазе под ембаргом на НВО на основу одговарајућих одлука Савета безбедности Уједињених нација, Организације за европску безбедност и сарадњу и других међународних организација које обавезују Републику Србију или на основу релевантних одредаба националног законодавства.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>УСЛОВИ ЗА ВРШЕЊЕ ИЗВОЗА И УВОЗА НВО И ПРУЖАЊЕ БРОКЕРСКИХ УСЛУГА И ТЕХНИЧКЕ ПОМОЋИ</heading>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Регистрација</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Извоз, увоз НВО, пружање брокерских услуга и техничке помоћи у смислу <ref wId="ref2" href="akn/rs/act/2014/107-3/srp@/!main~art_3" >члана 3. овог</ref> закона може да врши правно лице или предузетник уписано у Регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Регистар из <ref wId="ref3" href="akn/rs/act/2014/107-3/srp@/!main~art_7__para_1" >става 1. овог</ref> члана води Министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Министарство прописује начин вођења Регистра и податке које је неопходно доставити, као и обрасце захтева за упис у Регистар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Правно лице или предузетник уписано у Регистар писмено обавештава Министарство о свим променама података које су предмет регистрације, најкасније у року од 15 дана од дана када су те промене настале.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>Министарство доноси решење о упису, одбијању захтева и брисању лица из Регистра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav6">
+						<content>
+							<p>Решење о упису у Регистар важи пет година од дана доношења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Посебни услови</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Одговорно лице у правном лицу или предузетник које је поднело захтев за упис у Регистар мора да испуни и посебне услове који су од значаја за заштиту безбедносних и других интереса Републике Србије, а који се утврђују у поступку безбедносне провере од стране надлежних служби безбедности Републике Србије, у складу са законом који уређује заштиту података о личности и прописима који уређују област безбедносних провера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Mинистарство прописује облик и садржину обрасца којим одговорно лице у правном лицу или предузетник даје сагласност за предузимање радњи у смислу <ref wId="ref4" href="akn/rs/act/2014/107-3/srp@/!main~art_8__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Провера из <ref wId="ref5" href="akn/rs/act/2014/107-3/srp@/!main~art_8__para_1" >става 1. овог</ref> члана врши се у року од 60 дана од дана достављања захтева надлежним службама безбедности Републике Србије и роковима које предвиђају прописи којима се уређује област безбедносних провера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav4">
+						<content>
+							<p>Подаци добијени провером представљају тајну у складу са законом који уређује тајност података и могу се користити само у сврху за коју су прикупљени.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Обавештавање других органа</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Министарство месечно обавештава министарство надлежно за спољне послове, министарство надлежно за послове одбране, министарство надлежно за унутрашње послове и министарство надлежно за послове финансија - Управу царина, као и орган државне управе надлежан за послове националне безбедности о лицима уписаним и брисаним из Регистра, као и о одбијеним захтевима за упис.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Подношење новог захтева за упис</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Ако Министарство одбије упис у Регистар или донесе решење о брисању из Регистра, лице може поднети нови захтев за упис након отклањања разлога о одбијању уписа или брисању из Регистра.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Сагласност за преговоре за извоз технологије</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Пре отпочињања преговора за извоз технологије, извозник је дужан да прибави претходну сагласност Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Министарство при разматрању и одлучивању о захтеву за издавање сагласности за преговоре из <ref wId="ref6" href="akn/rs/act/2014/107-3/srp@/!main~art_11__para_1" >става 1. овог</ref> члана прибавља мишљење министарства надлежног за послове одбране, министарства надлежног за спољне послове и министарства надлежног за унутрашње послове, као и органа државне управе који је надлежан за послове националне безбедности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>Дата сагласност не обавезује Министарство да изда дозволу за извоз технологије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ДОЗВОЛА</heading>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>Издавање дозволе</heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Дозвола за извоз и увоз НВО, пружање брокерских услуга и техничке помоћи, дозвола издата под посебним условима, као и дозвола издата по основу изузећа је исправа коју издаје Министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Дозвола за извоз или увоз НВО издаје се једном одређеном извознику или увознику, за обављање појединачног посла под условима утврђеним уговором, за једног крајњег корисника или примаоца у другој држави, односно у Републици Србији и обухвата један или више производа са листе НВО.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav3">
+						<content>
+							<p>Дозвола за брокерске услуге или техничку помоћ издаје се једном одређеном брокеру или пружаоцу техничке помоћи за једног крајњег корисника или примаоца у другој држави и обухвата једну или више врста НВО, односно врста услуга.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav4">
+						<content>
+							<p>Дозвола и друге исправе издате у складу са овим законом не могу се преносити на друго лице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Захтев за издавање дозволе</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Захтев за издавање дозволе за извоз и увоз НВО, односно пружање брокерске услуге и техничке помоћи подноси се Министарству на прописаном обрасцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<intro>
+							<p>Захтев из <ref wId="ref7" href="akn/rs/act/2014/107-3/srp@/!main~art_13__para_1" >става 1. овог</ref> члана садржи:</p>
+						</intro>
+						<point wId="gla3-clan13-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> пословно име, адресу и матични број подносиоца захтева;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> назив, опис, тарифну ознаку, идентификациони број и количину НВО из Листе;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> крајњу намену коришћења НВО;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> укупну вредност НВО;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> податке о осталим учесницима у промету: произвођачу, продавцу, власнику, купцу и другим учесницима;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> пословно име и адресу крајњег корисника;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> начин плаћања, односно наплате;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> предлог временског рока важења дозволе;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> друге податке потребне за одлучивање.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>Образац и садржај захтева за издавање дозволе, образац дозволе, као и друге обрасце исправа који прате извоз и увоз НВО прописује Министарство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>Потврда крајњег корисника</heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Уз захтев за издавање дозволе за извоз НВО, пружање брокерских услуга и техничке помоћи подносилац захтева дужан је да достави оригиналну потврду крајњег корисника (End User Certificate) оверену од стране званичног органа државе крајњег корисника, или другу одговарајућу потврду или документ издат од стране надлежног органа земље крајњег одредишта која није старија од шест месеци, превод оригиналне потврде оверен од стране овлашћеног судског тумача, као и друге податке потребне за одлучивање, по захтеву Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Проверу сертификата из <ref wId="ref8" href="akn/rs/act/2014/107-3/srp@/!main~art_14__para_1" >става 1. овог</ref> члана врши министарство надлежно за спољне послове по захтеву органа који учествују у поступку издавања дозволе у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav3">
+						<intro>
+							<p>Оригинална потврда садржи следеће податке:</p>
+						</intro>
+						<point wId="gla3-clan14-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> пословно име и адресу извозника;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> пословно име и адресу крајњег корисника НВО;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> пословно име и адресу посредника, уколико постоји;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> опис, количину и крајњу намену НВО;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav3-tac5">
+							<num>5)</num>
+							<content>
+								<p> потпис, име и функцију овлашћеног лица;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav3-tac6">
+							<num>6)</num>
+							<content>
+								<p> државу крајњег одредишта;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav3-tac7">
+							<num>7)</num>
+							<content>
+								<p> изјаву да се НВО неће користити у сврхе које нису наведене у потврди;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav3-tac8">
+							<num>8)</num>
+							<content>
+								<p> изјаву да се НВО неће реекспортовати или ставити на располагање трећем лицу без писаног одобрења надлежног министарства државе испоручиоца или порекла робе, или ако се држава порекла НВО сагласи да ту изјаву да надлежни орган државе крајњег корисника;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav3-tac9">
+							<num>9)</num>
+							<content>
+								<p> оверу надлежног органа о аутентичности крајњег корисника у складу са националном праксом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan14-stav3-tac10">
+							<num>10)</num>
+							<content>
+								<p> број и датум издавања.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Сертификати</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Министарство на захтев подносиоца издаје Сертификат крајњег корисника (End User Certificate) и Међународни увозни сертификат (International Import Certificate).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Министарство на захтев увозника издаје потврду о достави НВО (Delivery Verification Certificate).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>Mинистарство прописује обрасце и садржај захтева за издавање и обрасце сертификата и потврде из <ref wId="ref9" href="akn/rs/act/2014/107-3/srp@/!main~art_15__para_1->para_2" >ст. 1. и 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav4">
+						<content>
+							<p>Министарство или крајњи корисник може, изузетно, да овери и Сертификат крајњег корисника прописан од стране државе извозника, ако прописи земље у коју се НВО извози то захтевају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav5">
+						<content>
+							<p>Копију сертификата из <ref wId="ref10" href="akn/rs/act/2014/107-3/srp@/!main~art_15__para_4" >става 4. овог</ref> члана увозник је дужан да достави уз захтев за издавање дозволе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Одлучивање о захтеву за издавање дозволе</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>Министарство комплетан захтев за издавање дозволе доставља на сагласност министарству надлежном за послове одбране, министарству надлежном за спољне послове и министарству надлежном за унутрашње послове, као и органу државне управе надлежном за послове националне безбедности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>Министарство може, у зависности од врсте НВО на које се захтев односи, затражити мишљење и од других министарстава, посебних организација и агенција надлежних у одговарајућој области.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav3">
+						<content>
+							<p>Ако неки од органа из <ref wId="ref11" href="akn/rs/act/2014/107-3/srp@/!main~art_16__para_1" >става 1. овог</ref> члана не да сагласност, о издавању дозволе одлучује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav4">
+						<content>
+							<p>Министарство може у поступку одлучивања о захтеву из <ref wId="ref12" href="akn/rs/act/2014/107-3/srp@/!main~art_16__para_1" >става 1. овог</ref> члана обавити консултације са другим органима, организацијама и агенцијама надлежним за примену овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav5">
+						<content>
+							<p>Министарство одлучује о издавању дозволе у року од 30 дана од дана уредно поднетог захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<heading>Разматрање захтева за издавање дозволе</heading>
+					<paragraph wId="gla3-clan17-stav1">
+						<intro>
+							<p>Министарство и органи из <ref wId="ref13" href="akn/rs/act/2014/107-3/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона, приликом одлучивања о издавању дозволе из <ref wId="ref14" href="akn/rs/act/2014/107-3/srp@/!main~art_12" >члана 12. овог</ref> закона разматрају да ли извоз или увоз НВО, односно пружање брокерске услуге и техничке помоћи у вези са НВО:</p>
+						</intro>
+						<point wId="gla3-clan17-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> угрожава поштовање међународних обавеза Републике Србије, које проистичу из чланства у Уједињеним нацијама, посебно у односу на санкције усвојене од стране Савета безбедности Уједињених нација, Организацији за европску безбедност и сарадњу и другим међународним организацијама које обавезују Републику Србију, као и споразума о забрани ширења оружја за масовно уништавање и других међународних споразума;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> угрожава поштовање људских права у земљи крајњег одредишта или доприноси да та земља крши међународно признате одредбе хуманитарног права, као и међународног права људских права;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> омогућава избијање или наставак оружаних и других сукоба у држави крајње употребе НВО;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> угрожава очување регионалног мира, безбедности и стабилности;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> угрожава безбедност или одбрамбене интересе Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> је супротан спољнополитичком или економском интересу Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> има негативан утицај на однос државе крајњег корисника према међународној заједници, посебно њен однос према тероризму, међународно организованом криминалу и поштовању међународног права;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> доприноси ризику преусмеравања НВО или реекспорта под непожељним условима;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> да ли извоз НВО одговара техничким капацитетима државе пријема;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan17-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> да ли приложени документи одговарају крајњој намени НВО наведеној у захтеву.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan18">
+					<num>18.</num>
+					<heading>Важење дозволе</heading>
+					<paragraph wId="gla3-clan18-stav1">
+						<content>
+							<p>Дозвола се издаје на период до једне године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref15" href="akn/rs/act/2014/107-3/srp@/!main~art_18__para_1" >става 1. овог</ref> члана, ако реализација посла траје дуже од годину дана, дозвола се може издати на рок за окончање посла предвиђен уговором.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav3">
+						<content>
+							<p>У случају из <ref wId="ref16" href="akn/rs/act/2014/107-3/srp@/!main~art_18__para_2" >става 2. овог</ref> члана, ималац дозволе је дужан да једанпут годишње извештава Министарство о реализацији посла.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav4">
+						<content>
+							<p>Извештај из <ref wId="ref17" href="akn/rs/act/2014/107-3/srp@/!main~art_18__para_3" >става 3. овог</ref> члана ималац дозволе је дужан да достави Министарству у року од 15 дана по истеку сваке године од датума издавања дозволе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan19">
+					<num>19.</num>
+					<heading>Изузећа</heading>
+					<paragraph wId="gla3-clan19-stav1">
+						<intro>
+							<p>Министарство може изузетно од одредаба <ref wId="ref19" href="akn/rs/act/2014/107-3/srp@/!main~art_16->art_18" >чл. 16</ref>–18. овог закона, по посебној процедури издати дозволу за извоз или увоз НВО, без прибављања сагласности из <ref wId="ref18" href="akn/rs/act/2014/107-3/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона, ако се:</p>
+						</intro>
+						<point wId="gla3-clan19-stav1-tac1">
+							<num>1)</num>
+							<intro>
+								<p> извози или увози НВО који припадају безбедносним или одбрамбеним снагама Републике Србије, односно безбедносним или одбрамбеним снагама друге државе, који улазе на, прелазе преко, или излазе са царинске територије Републике Србије ради:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla3-clan19-stav1-tac1-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> испуњавања обавеза Републике Србије које проистичу из међународних споразума и чланства у међународним организацијама;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan19-stav1-tac1-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> учешћа у мултинационалним операцијама;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla3-clan19-stav1-tac1-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> учешћа на међународним вежбама, које се изводе на или ван територије Републике Србије.</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla3-clan19-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> извози или увози НВО у циљу пружања хуманитарне помоћи или донације у хитним случајевима.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav2">
+						<content>
+							<p>Уз захтев за издавање дозволе за реализацију активности из <ref wId="ref20" href="akn/rs/act/2014/107-3/srp@/!main~art_19__para_1" >става 1. овог</ref> члана прилаже се изјава крајњег корисника или други документ који потврђује намену НВО, односно одлука надлежног органа о пријему или пружању хуманитарне помоћи или донације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav3">
+						<content>
+							<p>Министарство дозволу из <ref wId="ref21" href="akn/rs/act/2014/107-3/srp@/!main~art_19__para_1" >става 1. овог</ref> члана издаје у року од 24 сата од дана пријема изјаве крајњег корисника, однoсно другог документа којим се потврђује намена НВО.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan20">
+					<num>20.</num>
+					<heading>Некомерцијални извоз и увоз</heading>
+					<paragraph wId="gla3-clan20-stav1">
+						<content>
+							<p>Некомерцијални извоз и увоз врши се на основу дозволе коју издаје Министарство у складу са посебном процедуром.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav2">
+						<content>
+							<p>Извоз и увоз НВО по основу наслеђа, поклона или власништва, могу извршити физичка лица на основу дозволе Министарства у складу са посебном процедуром.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav3">
+						<content>
+							<p>Министарство ближе прописује начин издавања дозвола по посебној процедури.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan21">
+					<num>21.</num>
+					<heading>Одбијање захтева за издавање дозволе</heading>
+					<paragraph wId="gla3-clan21-stav1">
+						<intro>
+							<p>Министарство решењем одбија захтев за издавање дозволе ако утврди:</p>
+						</intro>
+						<point wId="gla3-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да органи из <ref wId="ref22" href="akn/rs/act/2014/107-3/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона нису дали сагласност, или Влада одлучи да се не изда дозвола;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да постоје услови прописани <ref wId="ref23" href="akn/rs/act/2014/107-3/srp@/!main~" >чланом 17. став 1. тач. 1)</ref>–6) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan21-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> да НВО не одговара подацима наведеним у захтеву;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan21-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> да су подаци наведени у захтеву непотпуни, некомплетни или нетачни;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan21-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> да извозник технологије нема сагласност прописану <ref wId="ref24" href="akn/rs/act/2014/107-3/srp@/!main~art_11" >чланом 11. овог</ref> закона.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan22">
+					<num>22.</num>
+					<heading>Одузимање дозволе</heading>
+					<paragraph wId="gla3-clan22-stav1">
+						<intro>
+							<p>Министарство решењем одузима дозволу, ако:</p>
+						</intro>
+						<point wId="gla3-clan22-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> извозник, увозник, брокер и пружалац техничке помоћи не поступа у складу са дозволом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan22-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> утврди да је дозвола издата на основу нетачних или непотпуних података;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan22-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> је лице брисано из Регистра.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav2">
+						<content>
+							<p>Министарство може донети решење о привременом одузимању дозволе ако, на основу сопствених информација или информација добијених од органа из <ref wId="ref25" href="akn/rs/act/2014/107-3/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона сазна да је неопходно извршити додатне провере података из дозволе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav3">
+						<content>
+							<p>У случају из <ref wId="ref26" href="akn/rs/act/2014/107-3/srp@/!main~art_22__para_1->para_2" >ст. 1. и 2. овог</ref> члана, Република Србија није одговорна за могућу штету проузроковану одузимањем дозволе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan23">
+					<num>23.</num>
+					<heading>Престанак важења дозволе</heading>
+					<paragraph wId="gla3-clan23-stav1">
+						<intro>
+							<p>Министарство доноси решење о престанку важења дозволе, ако:</p>
+						</intro>
+						<point wId="gla3-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Савет безбедности Уједињених нација или друга међународна организација чији је Република Србија члан, уведе рестриктивне мере према држави за коју је дозвола издата или дође до других промењених околности које могу утицати на спољно-политички положај или одбрамбене интересе земље;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> утврди да један или више услова на основу којих је издата дозвола више не постоји.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav2">
+						<content>
+							<p>У случају из <ref wId="ref27" href="akn/rs/act/2014/107-3/srp@/!main~art_23__para_1" >става 1. овог</ref> члана, Република Србија није одговорна за могућу штету проузроковану престанком важења дозволе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan24">
+					<num>24.</num>
+					<heading>Измена дозволе</heading>
+					<paragraph wId="gla3-clan24-stav1">
+						<content>
+							<p>Министарство може по сопственој иницијативи или на захтев извозника, увозника, брокера и пружаоца техничке помоћи решењем изменити податке у дозволи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav2">
+						<content>
+							<p>Министарство ће у случају да је тражена битна измена, а у зависности од конкретних околности, затражити поновну сагласност министарстава и органа из <ref wId="ref28" href="akn/rs/act/2014/107-3/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan24-stav3">
+						<content>
+							<p>У случају из <ref wId="ref29" href="akn/rs/act/2014/107-3/srp@/!main~art_24__para_1" >става 1. овог</ref> члана, Република Србија није одговорна за могућу штету проузроковану изменом дозволе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan25">
+					<num>25.</num>
+					<heading>Коначност решења</heading>
+					<paragraph wId="gla3-clan25-stav1">
+						<content>
+							<p>Решење из <ref wId="ref30" href="akn/rs/act/2014/107-3/srp@/!main~art_21->art_24" >чл. 21</ref>–24. овог закона је коначно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan26">
+					<num>26.</num>
+					<heading>Извозна ограничења и поновни извоз</heading>
+					<paragraph wId="gla3-clan26-stav1">
+						<content>
+							<p>Ако је извозна дозвола издата под посебним условима, извозник је дужан да Министарству достави доказ да је о томе упознао купца, односно крајњег корисника НВО.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav2">
+						<content>
+							<p>Ако крајњи корисник НВО, који су извезени из Републике Србије под посебним условима, затражи сагласност Министарства за поновни извоз или даљу продају НВО, сагласност се може дати по процедури прописаној за издавање дозволе из <ref wId="ref31" href="akn/rs/act/2014/107-3/srp@/!main~art_16" >члана 16. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan26-stav3">
+						<content>
+							<p>Ако крајњи корисник НВО, који су увезени у Републику Србију под посебним условом забране поновног извоза без претходне сагласности државе порекла или продавца НВО намерава да изврши поновни извоз НВО дужан је да уз захтев за издавање дозволе Министарству достави доказ да је поступио у складу са датим условом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan27">
+					<num>27.</num>
+					<heading>Обавезе извозника, увозника, брокера и пружаоца техничке помоћи</heading>
+					<paragraph wId="gla3-clan27-stav1">
+						<intro>
+							<p>Извозник, увозник, брокер и пружалац техничке помоћи у смислу овог закона дужан је да:</p>
+						</intro>
+						<point wId="gla3-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> води посебну евиденцију и чува документацију најмање 10 година од дана завршетка посла извоза или увоза, односно пружања брокерске услуге или услуге техничке помоћи;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> одмах, а најкасније у року од 15 дана од дана настанка промене, обавести Mинистарство о насталој промени везаној за конкретан извоз и увоз НВО или пружања услуге;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> у року од 15 дана од дана извршеног посла, писаним путем обавести Mинистарство о извршеном послу и о томе достави одговарајућу документацију;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Министарству врати издату дозволу ако иста није реализована, најкасније у року од 15 дана од дана истека њеног важења;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> достави, на захтев Mинистарства, потврду издату од државе крајњег одредишта или крајњег корисника којом се потврђује пријем извезеног НВО;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan27-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> достави претходну сагласност државе порекла или продавца НВО, у случају поновног извоза НВО увезеног под посебним условом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan28">
+					<num>28.</num>
+					<heading>Годишњи извештај</heading>
+					<paragraph wId="gla3-clan28-stav1">
+						<content>
+							<p>Министарство води евиденцију о издатим, одузетим, измењеним и дозволама које су престале да важе, о реализацији издатих дозвола, о одбијеним захтевима за издавање дозволе, као и лицима која су прекршила одредбе овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav2">
+						<content>
+							<p>Министарство месечно обавештава органе из <ref wId="ref32" href="akn/rs/act/2014/107-3/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона, као и министарство надлежно за послове финансија – Управу царина о издатим, одузетим, измењеним и дозволама које су престале да важе, као и одбијеним захтевима за издавање дозволе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav3">
+						<content>
+							<p>Министарство припрема годишњи извештај о реализацији послова извоза и увоза НВО и пружању услуга и доставља га Влади.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav4">
+						<content>
+							<p>Влада, пошто усвоји извештај из <ref wId="ref33" href="akn/rs/act/2014/107-3/srp@/!main~art_28__para_3" >става 3. овог</ref> члана, доставља га Народној скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan28-stav5">
+						<content>
+							<p>Усвојени извештај из <ref wId="ref34" href="akn/rs/act/2014/107-3/srp@/!main~art_28__para_3" >става 3. овог</ref> члана, објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan29">
+					<num>29.</num>
+					<heading>Размена информација</heading>
+					<paragraph wId="gla3-clan29-stav1">
+						<content>
+							<p>Министарство размењује информације о извозу и увозу НВО, брокерским услугама и пруженој техничкој помоћи са другим државама и међународним организацијама, у складу са међународним обавезама Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ТРАНСПОРТ И ТРАНЗИТ НВО</heading>
+				<article wId="gla4-clan30">
+					<num>30.</num>
+					<heading>Транспорт</heading>
+					<paragraph wId="gla4-clan30-stav1">
+						<content>
+							<p>Транспорт НВО копненим и воденим путем врши се на основу одобрења министарства надлежног за унутрашње послове, издатог на основу дозволе Mинистарства и сагласности министарства надлежног за спољне послове и министарства надлежног за послове одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan30-stav2">
+						<content>
+							<p>Транспорт НВО ваздушним путем врши се на основу одобрења Директората цивилног ваздухопловства Републике Србије, издатог на основу дозволе Mинистарства и сагласности министарства надлежног за спољне послове и министарства надлежног за послове одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan31">
+					<num>31.</num>
+					<heading>Транзит</heading>
+					<paragraph wId="gla4-clan31-stav1">
+						<content>
+							<p>Транзит НВО копненим и воденим путем од царинарнице уласка до царинарнице изласка врши се на основу одобрења министарства надлежног за унутрашње послове, уз сагласност министарства надлежног за спољне послове и министарства надлежног за послове одбране. Министарство надлежно за унутрашње послове разматра захтев за издавања одобрења за транзит НВО копненим и водени путем на основу критеријума из <ref wId="ref35" href="akn/rs/act/2014/107-3/srp@/!main~art_17" >члана 17. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav2">
+						<content>
+							<p>Транзит НВО ваздушним путем, који укључује превоз НВО ваздухопловима преко територије Републике Србије, са слетањем или без слетања на територију Републике Србије (прелет), врши се на основу одобрења Директората цивилног ваздухопловства Републике Србије, уз сагласност министарства надлежног за спољне послове и министарства надлежног за послове одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<heading>Мере обезбеђења</heading>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>При транспорту и транзиту НВО предузимају се потребне мере обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan32-stav2">
+						<content>
+							<p>Транспорт и транзит НВО копненим и воденим путем од царинарнице уласка до царинарнице изласка врши се уз наоружану пратњу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla5-clan33">
+					<num>33.</num>
+					<heading>Стални надзор</heading>
+					<paragraph wId="gla5-clan33-stav1">
+						<content>
+							<p>Министарство врши надзор над спровођењем увоза и извоза НВО, пружањем брокерских услуга и техничке помоћи, као и над спровођењем прописа донетих на основу овог закона, у сарадњи са министарством надлежним за послове одбране, министарством надлежним за унутрашње послове и министарством надлежним за спољне послове, као и органом државне управе надлежним за послове националне безбедности. У случају потребе, Mинистарство сарађује и са другим министарствима, агенцијама и посебним организацијама надлежним у одговарајућој области.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav2">
+						<content>
+							<p>Царински органи, органи служби безбедности и надлежни инспекцијски органи у оквиру својих овлашћења спроводе сталну контролу над вршењем послова у смислу <ref wId="ref36" href="akn/rs/act/2014/107-3/srp@/!main~art_33__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan34">
+					<num>34.</num>
+					<heading>Обавезе омогућавања вршења надзора</heading>
+					<paragraph wId="gla5-clan34-stav1">
+						<content>
+							<p>Извозник, увозник, брокер или пружалац техничке помоћи, као и лице које се бави транспортом или транзитом у смислу овог закона дужан је надлежним органима из <ref wId="ref37" href="akn/rs/act/2014/107-3/srp@/!main~art_33" >члана 33. овог</ref> закона да омогући увид ради надзора у свим фазама промета, транспорта, транзита и складиштења НВО.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan34-stav2">
+						<content>
+							<p>Извозник, увозник, брокер или пружалац техничке помоћи у смислу овог закона, као и лице које набавља и чува НВО, предузима све потребне мере у циљу спречавања нестанка или оштећења НВО.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan34-stav3">
+						<content>
+							<p>У случају нестанка или оштећења НВО, лице из <ref wId="ref38" href="akn/rs/act/2014/107-3/srp@/!main~art_34__para_2" >става 2. овог</ref> члана одмах обавештава министарство надлежно за унутрашње послове, а Министарство у року од 24 сата од момента нестанка или оштећења НВО.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan34-stav4">
+						<content>
+							<p>Извозник, увозник, брокер и пружалац техничке помоћи, у смислу овог закона дужан је да чува документацију о промету НВО најмање 10 година по обављеном послу, да омогући извршење контроле и надзора и обезбеди потребну помоћ у њеном спровођењу и да се придржава услова наведених у дозволи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan35">
+					<num>35.</num>
+					<heading>Провера</heading>
+					<paragraph wId="gla5-clan35-stav1">
+						<content>
+							<p>Ако постоји оправдана сумња да извозник, увозник, брокер или пружалац техничке помоћи намерава да користи НВО за намене које нису наведене у дозволи, Mинистарство може тражити да други органи из <ref wId="ref39" href="akn/rs/act/2014/107-3/srp@/!main~art_33" >члана 33. овог</ref> закона у оквиру својих овлашћења изврше проверу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan35-stav2">
+						<content>
+							<p>О резултатима извршене провере из <ref wId="ref40" href="akn/rs/act/2014/107-3/srp@/!main~art_35__para_1" >става 1. овог</ref> члана други органи сачињавају записник и писмено извештавају Министарство у року од 15 дана од дана извршења провере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan35-stav3">
+						<content>
+							<p>Извозник, увозник, брокер или пружалац техничке помоћи који је провераван има право да се упозна са садржином записника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan36">
+					<num>36.</num>
+					<heading>Прекид царинског поступка</heading>
+					<paragraph wId="gla5-clan36-stav1">
+						<content>
+							<p>Током вршења царинске контроле НВО која је предмет извоза и увоза у смислу овог закона, царински органи могу, у оквиру својих надлежности, прекинути спровођење царинског поступка НВО, о чему ће одмах обавестити Министарство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan37">
+					<num>37.</num>
+					<heading>Обавезе царинских органа и органа унутрашњих послова</heading>
+					<paragraph wId="gla5-clan37-stav1">
+						<content>
+							<p>Обавезе царинских органа у спровођењу одредаба овог закона прописује министарство надлежно за послове финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan37-stav2">
+						<content>
+							<p>Обавезе органа унутрашњих послова у спровођењу одредаба овог закона прописује министарство надлежно за унутрашње послове.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan38">
+					<num>38.</num>
+					<heading>Прекршаји</heading>
+					<paragraph wId="gla6-clan38-stav1">
+						<intro>
+							<p>Правно лице и предузетник који обавља послове извоза, увоза, пружања брокерских услуга, пружања техничке помоћи, транспорта и транзита, казниће се новчаном казном у висини до двадесетоструког износа вредности робе, односно услуге која је предмет прекршаја, с тим да не прелази петоструки износ највећих новчаних казни прописаних Законом о прекршајима, ако:</p>
+						</intro>
+						<point wId="gla6-clan38-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> поступа супротно забрани прописаној <ref wId="ref41" href="akn/rs/act/2014/107-3/srp@/!main~art_6" >чланом 6. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> даје лажне изјаве или изостави битне чињенице у поступку издавања дозволе, односно у току реализације посла по издатој дозволи у складу са <ref wId="ref42" href="akn/rs/act/2014/107-3/srp@/!main~art_13->art_16" >чл. 13</ref>–16. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Министарству у прописаном року не достави све промене података неопходне за упис у Регистар у складу са <ref wId="ref43" href="akn/rs/act/2014/107-3/srp@/!main~art_7" >чланом 7. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> не води посебну евиденцију о извозу и увозу НВО и пруженим услугама и не чува документацију у року прописаним овим законом у складу са чланом 27. став 1. тачка <ref wId="ref44" href="akn/rs/act/2014/107-3/srp@/!main~art_27__para_1__point_1" >1</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> не обавести Министарство одмах, а најкасније у року од 15 дана, писаним путем, о свакој промени везаној за конкретан посао извоза и увоза НВО и пруженим услугама у складу са чланом 27. став 1. тачка <ref wId="ref45" href="akn/rs/act/2014/107-3/srp@/!main~art_27__para_1__point_2" >2</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> не обавести Министарство писаним путем о извршеном послу и не достави одговарајућу документацију о томе у року од 15 дана након извршеног посла извоза и увоза НВО и пруженим услугама у складу са чланом 27. став 1. тачка <ref wId="ref46" href="akn/rs/act/2014/107-3/srp@/!main~art_27__para_1__point_3" >3</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> не врати Министарству дозволу која није реализована у року од 15 дана од дана истека њене важности у складу са чланом 27. став 1. тачка <ref wId="ref47" href="akn/rs/act/2014/107-3/srp@/!main~art_27__para_1__point_4" >4</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> на захтев Министарства не достави потврду, издату од стране надлежног органа државе крајњег одредишта или крајњег корисника којом се потврђује пријем НВО у складу са чланом 27. став 1. тачка <ref wId="ref48" href="akn/rs/act/2014/107-3/srp@/!main~art_27__para_1__point_5" >5</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> не достави претходну сагласност државе порекла или продавца НВО у складу са чланом 27. став 1. тачка <ref wId="ref49" href="akn/rs/act/2014/107-3/srp@/!main~art_27__para_1__point_6" >6</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> не прибави све неопходне сагласности, одобрења и дозволе за транспорт и транзит НВО у смислу чл. <ref wId="ref50" href="akn/rs/act/2014/107-3/srp@/!main~art_30" >30</ref>. и <ref wId="ref51" href="akn/rs/act/2014/107-3/srp@/!main~art_31" >31</ref>. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> не предузме све неопходне мере у циљу спречавања нестанка или оштећења НВО у складу са <ref wId="ref52" href="akn/rs/act/2014/107-3/srp@/!main~art_34__para_2" >чланом 34. став 2. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan38-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> не обавести одмах, а најкасније у року од 24 сата, Министарство о нестанку или оштећењу НВО у складу са <ref wId="ref53" href="akn/rs/act/2014/107-3/srp@/!main~art_34__para_3" >чланом 34. став 3. овог</ref> закона.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav2">
+						<content>
+							<p>За прекршаје из <ref wId="ref54" href="akn/rs/act/2014/107-3/srp@/!main~art_38__para_1" >става 1. овог</ref> члана казниће се и одговорно лице у правном лицу новчаном казном у износу до 150.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav3">
+						<content>
+							<p>За прекршаје из <ref wId="ref55" href="akn/rs/act/2014/107-3/srp@/!main~" >става 1. тач. 1) </ref>до 3) овог члана, поред новчане казне, може се изрећи и заштитна мера забране правном лицу да обавља извоз, односно увоз НВО, пружањe брокерских услуга и техничке помоћи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav4">
+						<content>
+							<p>За прекршаје из <ref wId="ref56" href="akn/rs/act/2014/107-3/srp@/!main~" >става 1. тач. 1) </ref>до 3) овог члана, поред новчане казне, може се изрећи и заштитна мера забране одговорном лицу да обавља извоз, односно увоз НВО, пружањe брокерских услуга и техничке помоћи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav5">
+						<content>
+							<p>За прекршаје из <ref wId="ref57" href="akn/rs/act/2014/107-3/srp@/!main~" >става 1. тач. 1) </ref>до 3) овог члана, поред новчане казне, предузетнику се може изрећи и заштитна мера забране обављања извоза, односно увоза НВО, пружања брокерских услуга и техничке помоћи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav6">
+						<content>
+							<p>Заштитна мера из <ref wId="ref58" href="akn/rs/act/2014/107-3/srp@/!main~art_38__para_3" >става 3. овог</ref> члана се изриче у трајању до три године и почиње да се примењује од дана правноснажности пресуде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav7">
+						<content>
+							<p>Заштитна мера из <ref wId="ref59" href="akn/rs/act/2014/107-3/srp@/!main~art_38__para_4" >става 4. овог</ref> члана се изриче у трајању до једне године и почиње да се примењује од дана правноснажности пресуде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav8">
+						<content>
+							<p>Заштитна мера из <ref wId="ref60" href="akn/rs/act/2014/107-3/srp@/!main~art_38__para_5" >става 5. овог</ref> члана се изриче у трaјању до три године и почиње да се примењује од дана правноснажности пресуде.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan39">
+					<num>39.</num>
+					<paragraph wId="gla7-clan39-stav1">
+						<content>
+							<p>Права из појединачних аката која су донели надлежни органи, а нису у целини искоришћена или су делимично искоришћена до дана почетка примене овог закона, могу се искористити у роковима утврђеним тим актима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan40">
+					<num>40.</num>
+					<paragraph wId="gla7-clan40-stav1">
+						<content>
+							<p>Подзаконски акти за спровођење овог закона биће донети у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan40-stav2">
+						<content>
+							<p>До доношења акта из <ref wId="ref64" href="akn/rs/act/2014/107-3/srp@/!main~art_40__para_1" >става 1. овог</ref> члана примењиваће се подзаконски акти донети у складу са Законом о спољној трговини наоружањем, војном опремом и робом двоструке намене („Службени лист СЦГ”, бр. <ref wId="ref61" href="akn/rs/act/05/7/srp@">7/05</ref> и <ref wId="ref62" href="akn/rs/act/05/8/srp@">8/05</ref> – исправка и „Службени гласник РС”, број <ref wId="ref63" href="akn/rs/act/13/95/srp@">95/13</ref> – др. закон) уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan41">
+					<num>41.</num>
+					<paragraph wId="gla7-clan41-stav1">
+						<content>
+							<p>Ступањем на снагу овога закона престаје да важи Закон о спољној трговини наоружањем, војном опремом и робом двоструке намене у делу који се односи на наоружање и војну опрему („Службени лист СЦГ”, бр. <ref wId="ref65" href="akn/rs/act/05/7/srp@">7/05</ref> и <ref wId="ref66" href="akn/rs/act/05/8/srp@">8/05</ref> – исправка).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan41-stav2">
+						<content>
+							<p>Ступањем на снагу овог закона, у <ref wId="ref67" href="akn/rs/act/2014/107-3/srp@/!main~art_19__para_1" >члану 19. став 1. </ref>Закона о страним улагањима („Службени лист СРЈ”, бр. <ref wId="ref68" href="akn/rs/act/02/3/srp@">3/02</ref> и <ref wId="ref69" href="akn/rs/act/03/5/srp@">5/03</ref>), реч: „и промета” брише се.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan42">
+					<num>42.</num>
+					<paragraph wId="gla7-clan42-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

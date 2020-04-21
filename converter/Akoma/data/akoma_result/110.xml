@@ -1,0 +1,3067 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о заштити од пожара">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2009/111-25/main"/>
+					<FRBRuri value="akn/rs/act/2009/111-25"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/87-50/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/87-50/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/87-50/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/87-50/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-12-29" name="службени гласник рс“" number="111" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="13. Заштита од пожара" value="13. заштита од пожара" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="111/2009-25" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2015-01-01" refersTo="20/2015-13" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2018-01-01" refersTo="87/2018-3" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2018-01-01" refersTo="87/2018-41" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2018-01-01" refersTo="87/2018-50" source="#somebody" type="amendment" wId="e5"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2009-12-29" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2010-01-06" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2010-10-07" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="органа"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="систем"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="државних"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="физичких"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="сходно"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="друштава"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштите"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="правних"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="привредних"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезе"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="службе"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="примењују"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="спровођењем"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="пожара"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="одредбе"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="ватрогасне"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="овог"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="надзор"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="покрајине"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="аутономне"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединица"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="експлозија"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="других"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="локалне"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="самоуправе"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштиту"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="E"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ispravnost instalacija i uređaja za automatsko otkrivanje i dojavu požara"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Listu svetske kulturne baštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="MW"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva i"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva za izradu Glavnog projekta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva za obavljanje ovih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo )"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo a"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo može"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo odbrane"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo preko inspektora"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo vrši kategorizaciju objekata"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu odbrane i Vojsci Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="P +2"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="P +4"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Plan evakuacije i uputstva za postupanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="R"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku RS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Strategije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vatrogasni savez Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojska Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ZAKONA"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 6"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="120. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. i 22"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. st. 1. i 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="32. i 38."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="32. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33. i 34."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33. st. 1. 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. i 35."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. st. 1. 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. stav 1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="36. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="36. stav 6"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="37. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="37. st. 1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="38."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="38. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40. stav 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. st. 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="44."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="49. st. 1. i 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. tačka 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="50. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="55. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="56. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="56. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="62."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="71. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="71. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="76. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="77. i 78"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="požara"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику РС”, односно 6. јануара 2010. године, а примењује се по истеку девет месеци од дана ступања на снагу, односно од 7. октобра 2010. године (види члан 90. Закона).До почетка примене подзаконских прописа предвиђених овим законом, примењују се одредбе важећих подзаконских прописа које нису у супротности са одредбама овог закона (види члан 89. Закона).Поступци који су започети до дана ступања на снагу овог закона наставиће се по прописима који су важили до дана ступања на снагу овог закона (види члан 88. Закона).Закон о изменама и допунама Закона о заштити од пожара („Службени гласник РС“, број 20/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 4. марта 2015. године. Подзаконски прописи предвиђени овим законом донеће се у року од шест месеци од дана ступања на снагу овог закона (види чл. 38. и 39. Закона - 20/2015-13).Престали су да важе чл. 58–64. и 66–72. Закона ступањем на снагу Закона о смањењу ризика од катастрофа и управљању ванредним ситуацијама („Службени гласник РС”, број 87/2018), односно 21. новембра 2018. године (види члан 120. Закона – 87/2018-3).Закон о допуни Закона о заштити од пожара („Службени гласник РС“, број 87/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 21. новембра 2018. године (види члан 2. Закона – 87/2018-41).Престао да важи члан 65. даном ступања на снагу Закона о добровољном ватрогаству („Службени гласник РС”, број 87/2018), односно 21. новембра 2018. године (види члан 37. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О заштити од пожара „Службени гласник РС“, број <ref wId="ref213" href="akn/rs/act/2009/111/srp@">111 од 29. децембра 2009</ref>, <ref wId="ref214" href="akn/rs/act/2015/20/srp@">20 од 24. фебруара 2015</ref>, <ref wId="ref215" href="akn/rs/act/2018/87/srp@">87 од 13. новембра 2018</ref>, <ref wId="ref216" href="akn/rs/act/2018/87/srp@">87 од 13. новембра 2018</ref> - др. закони</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се систем заштите од пожара, права и обавезе државних органа, органа аутономне покрајине и органа јединица локалне самоуправе, привредних друштава, других правних и физичких лица, организација ватрогасне службе, надзор над спровођењем овог закона и друга питања од значаја за систем заштите од пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Одредбе овог закона сходно се примењују и на заштиту од експлозија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Систем заштите од пожара</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Систем заштите од пожара (у даљем тексту: заштита од пожара) обухвата скуп мера и радњи за планирање, финансирање, организовање, спровођење и контролу мера и радњи заштите од пожара, за спречавање избијања и ширења пожара, откривање и гашење пожара, спасавање људи и имовине, заштиту животне средине, утврђивање и отклањање узрока пожара, као и за пружање помоћи код отклањања последица проузрокованих пожаром.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Субјекти заштите од пожара</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Субјекти заштите од пожара су државни органи, органи аутономне покрајине, органи јединица локалне самоуправе, привредна друштва, друга правна и физичка лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Појмови</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> пожар је процес неконтролисаног сагоревања којим се угрожавају живот и здравље људи, материјална добра и животна средина;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>  експлозија је процес наглог сагоревања који настаје као последица употребе  запаљивих течности, запаљивих гасова и осталих горивих материја које са  ваздухом могу створити експлозивну смешу експлозивних материја праћену  ударним таласом притиска продуката сагоревања и порастом температуре, којим  се угрожавају живот и здравље људи и материјална добра;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> хаварија је разарање основних склопова постројења у привредним, јавним и другим објектима које представља опасност за живот и здравље људи, за материјална добра и избијање пожара;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> спасавање представља интервенцију ватрогасно-спасилачких и ватрогасних јединица ради заштите људских живота, телесног интегритета и материјалних добара приликом пожара, хаварија и других ванредних догађаја, у складу с посебним законом;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> карактеристике  реакције материјала на пожар су доприноси материјала развоју пожара услед  сопствене разградње до које долази излагањем тог материјала стандардом  дефинисаним испитним условима, које се огледају кроз класу запаљивости,  емисију дима, откапавање и/или друга очекивана својства, која угрожавају  евакуацију;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> отпорност на пожар је  способност објекта или дела објекта да за утврђено време испуњава захтевану  носивост (Р) и/или интегритет (Е) и/или топлотну изолацију (И) и/или друго  очекивано својство, како је прописано стандардима о испитивању и  класификацији отпорности на пожар;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> евакуациони пут из  објекта је пут који води од било које тачке у објекту до спољног простора  или сигурног и безбедног простора у објекту;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> коридор евакуације  чине грађевинске конструкције зграде којима се ограничавају просторије за  комуникацију (ходници, тампон-просторије, степеништа, ветробрани, улаз и  сл.) и тако спречава продор пламена и дима из просторија за боравак и других  просторија угрожених пожаром, а које имају такве карактеристике (отпорност и  реакција на пожар, ширина, висина и др.) да омогућавају да особе затечене у  пожару могу сигурно и безбедно (самостално или уз помоћ спасиоца) напустити  објекат;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> заштитни системи и  уређаји су системи у функцији безбедности људи који бораве у објекту,  објекта и ватрогасаца – спасилаца (стабилни системи за гашење пожара,  стабилни системи за дојаву пожара, стабилни системи за детекцију  експлозивних и запаљивих гасова, системи за контролу дима и топлоте,  сигурносни системи напајања, инсталације хидрантске мреже за гашење пожара,  као и мобилни уређаји за гашење пожара);*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> стамбени, односно  стамбено пословни објекат јесте објекат који има више од 80% корисне  површине намењене за становање и пратеће садржаје (просторије за гаражирање  возила, станарске оставе, подстаницу грејања, ходнике, степеништа, лифтовска  окна и сл.) и у коме остатак чини пословни простор;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> пословни, односно  пословно стамбени објекат јесте објекат који има више од 80% корисне  површине намењене за пословање (продају, куповину, услуге и сл.) и у коме су  остале просторије стамбене и/или јавне намене;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> објекат јавне намене  јесте објекат који има више од 80% корисне површине намењене за окупљање  људи (угоститељски објекти за смештај – изузев кампа, куће и стана за одмор,  соба за изнајмљивање, угоститељски објекти за исхрану и пиће – изузев киоска  и сличних објеката, образовни, културни, спортски, религиозни, и слични  објекти, аутобуски, железнички, авио-терминали, путничка пристаништа и сл.)  и у коме су остале просторије стамбене и/или пословне намене;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> процена опасности од  пожара јесте део главног пројекта заштите од пожара односно део техничке  документације за изградњу објеката којим се утврђују захтеви у погледу мера  заштите од пожара за конструкцију, материјале, инсталације и потреба за  опремањем заштитним системима и уређајима, када то није утврђено прописом;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> техничка  документација јесте скуп пројеката који чине пројекат за извођење у смислу  закона који уређује изградњу, а који се израђују за потребе изградње,  доградње и реконструкције објеката;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> добровољна  ватрогасна друштва јесу удружења основана ради организованог добровољног  учешћа грађана у спровођењу заштите од пожара, спасавању људи и имовине;*</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p> ватрогасни савези  (општински, градски, окружни, покрајински и Ватрогасни савез Србије) су  стручне и хуманитарне организације од посебног интереса основане у циљу  организованог и јединственог учешћа у остваривању заштите од пожара, њихових  заједничких циљева и развијања свести о значају заштите од пожара, у оквиру  којих делују добровољна ватрогасна друштва и добровољне ватрогасне  јединице.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref0" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Начин остваривања заштите од пожара</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<intro>
+							<p>Заштита од пожара остварује се:</p>
+						</intro>
+						<point wId="gla1-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> организовањем и припремањем субјеката заштите од пожара за спровођење заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> обезбеђивањем услова за спровођење заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> предузимањем мера и радњи за заштиту и спасавање људи, материјалних добара и животне средине приликом избијања пожара;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> надзором над применом мера заштите од пожара.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Обавезе субјеката заштите од пожара</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Субјекти заштите од пожара дужни су да поступају у складу с обавезама утврђеним овим законом и прописима донесеним на основу њега,  да примењују мере заштите од пожара и експлозија прописане законом,  подзаконским прописима и општим актима,* да обезбеде примену планова заштите од пожара и других аката и одговорни су за сваку активност којом мењају или могу променити стање и услове заштите од пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Субјекти заштите од пожара дужни су да ангажовањем расположивих људских и материјалних ресурса учествују у гашењу пожара и спасавању људи и имовине угрожених пожаром, ако то могу да учине без опасности за себе или другога.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref1" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav4">
+						<content>
+							<p>Члан 6а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav5">
+						<content>
+							<p>У циљу  стицања знања, вештина и навика неопходних за унапређивање и учвршћивање  позитивних ставова и понашања значајних за заштиту од пожара деце и ученика,  надлежне школске и предшколске установе дужне су да у оквиру школских и  предшколских програма утврде и спроведу програм едукације о заштити од  пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav6">
+						<content>
+							<p>Надзор  над утврђивањем и спровођењем програма едукације о заштити од пожара  спроводи министарство надлежно за послове просвете.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav7">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref2" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Начело заштите</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Основни циљ прописаних мера заштите од пожара јесте заштита живота људи, телесног интегритета, материјалних добара и животне средине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Начело превенције</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Превенција заштите од пожара обезбеђује се планирањем и спровођењем превентивних мера и радњи тако да се што ефикасније спречи избијање пожара, а да се у случају избијања пожара ризик по живот и здравље људи и угрожавање материјалних добара као и угрожавање животне средине сведе на најмању могућу меру и пожар ограничи на самом месту избијања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Начело сталности</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Заштита од пожара се организује и непрекидно спроводи на свим местима и у свим објектима који су изложени опасности од пожара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<heading>Начело јачања свести</heading>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Субјекти заштите од пожара подстичу, усмеравају и обезбеђују јачање свести о значају заштите од пожара кроз систем образовања и васпитања, научно-истраживачког и технолошког развоја, усавршавања у процесу рада, као и јавног информисања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan11">
+					<num>11.</num>
+					<heading>Начело јавности</heading>
+					<paragraph wId="gla1-clan11-stav1">
+						<content>
+							<p>Државни органи, органи аутономне покрајине, органи јединице локалне самоуправе, привредна друштва и друга правна лица дужни су да обавештавају јавност о стању заштите од пожара и чине доступним потребне информације, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan12">
+					<num>12.</num>
+					<heading>Начело сарадње</heading>
+					<paragraph wId="gla1-clan12-stav1">
+						<content>
+							<p>Субјекти заштите од пожара дужни су да међусобно размењују информације од значаја за заштиту од пожара и ускладе активности од значаја за заштиту од пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan12-stav2">
+						<content>
+							<p>Република Србија сарађује у области заштите од пожара са другим државама и међународним организацијама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan13">
+					<num>13.</num>
+					<heading>Начело солидарности</heading>
+					<paragraph wId="gla1-clan13-stav1">
+						<content>
+							<p>Субјекти заштите од пожара дужни су да међусобно помажу једни другима у отклањању последица пожара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan14">
+					<num>14.</num>
+					<heading>Начело одговорности</heading>
+					<paragraph wId="gla1-clan14-stav1">
+						<content>
+							<p>Одговорна лица у државним органима, органима аутономне покрајине и органима јединице локалне самоуправе, привредна друштва и друга правна и физичка лица одговорна су за спровођење мера заштите од пожара.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПЛАНИРАЊЕ И ОРГАНИЗОВАЊЕ ЗАШТИТЕ ОД ПОЖАРА</heading>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Стратегија заштите од пожара</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Стратегију заштите од пожара (у даљем тексту: Стратегија) доноси Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Стратегијом се утврђује стање у области заштите од пожара и мере које треба предузети.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav3">
+						<intro>
+							<p>Стратегија се доноси за период од најмање пет година и садржи нарочито:</p>
+						</intro>
+						<point wId="gla2-clan15-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> опис и оцену стања у области заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> основне циљеве и критеријуме за спровођење заштите од пожара у целини, по областима и просторним целинама са приоритетним мерама заштите;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> услове за примену најповољнијих привредних, техничких, технолошких, економских и других мера за заштиту од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> дугорочне и краткорочне мере за спречавање избијања, ублажавања последица пожара и контролу спровођења мера заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan15-stav3-tac5">
+							<num>5)</num>
+							<content>
+								<p> начин обезбеђивања средстава за заштиту од пожара.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<heading>Санациони план</heading>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref3" href="akn/rs/act/2015/20/srp@/!main~/art_4">члан 4. Закона - 20/2015-13</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<heading>Министарство унутрашњих послова</heading>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Министарство унутрашњих послова (у даљем тексту: Министарство), у оквиру свог делокруга, обавља послове значајне за спровођење заштите од пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav2">
+						<intro>
+							<p>Министарство обавља послове који се односе на:</p>
+						</intro>
+						<point wId="gla2-clan17-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> планирање, организовање и спровођење мера заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> превентивне мере за спречавање избијања пожара и ублажавања последица пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> надзор над применом одредаба овог закона и прописа донесених на основу њега, планова заштите од пожара и других аката који се односе на заштиту од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> стручно оспособљавање припадника ватрогасно-спасилачких јединица;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> школовање и усавршавање лица за обављање послова заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> израду Стратегије  *;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> сарадњу с осталим субјектима заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan17-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> друге послове у области заштите од пожара одређене законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref4" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<heading>Министарство одбране и Војска Србије</heading>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>Министарство одбране обавља послове који се односе на уређивање, планирање, организовање, спровођење и контролу заштите од пожара и експлозија у Министарству одбране и Војсци Србије у складу с одредбама овог закона, закона којим се уређује систем одбране Републике Србије и прописима донетим на основу закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<heading>Аутономна покрајина</heading>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>Аутономна покрајина у оквиру надлежности утврђених Уставом и законом, обезбеђује услове за спровођење мера заштите од пожара и пружање помоћи код отклањања односно ублажавања последица проузрокованих пожаром и доноси акте за унапређење стања заштите од пожара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan20">
+					<num>20.</num>
+					<heading>План заштите од пожара аутономне покрајине</heading>
+					<paragraph wId="gla2-clan20-stav1">
+						<intro>
+							<p>Аутономна покрајина доноси План заштите од пожара који садржи нарочито:</p>
+						</intro>
+						<point wId="gla2-clan20-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> приказ постојећег стања заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> процену угрожености од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> организацију заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> предлог техничких и организационих мера за отклањање недостатака и унапређење стања заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> прорачун потребних финансијских средстава;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan20-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> прописане прорачунске и графичке прилоге.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav2">
+						<content>
+							<p>На План заштите од пожара, укључујући и његове измене и допуне,* прибавља се сагласност Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref5" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan21">
+					<num>21.</num>
+					<heading>Јединица локалне самоуправе</heading>
+					<paragraph wId="gla2-clan21-stav1">
+						<content>
+							<p>Јединица локалне самоуправе у оквиру надлежности утврђених Уставом и законом организује и обезбеђује услове за спровођење мера заштите од пожара и пружање помоћи код отклањања односно ублажавања последица проузрокованих пожаром и доноси акте за унапређење стања заштите од пожара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan22">
+					<num>22.</num>
+					<heading>План заштите од пожара јединице локалне самоуправе</heading>
+					<paragraph wId="gla2-clan22-stav1">
+						<intro>
+							<p>Јединица локалне самоуправе доноси План заштите од пожара који садржи нарочито:</p>
+						</intro>
+						<point wId="gla2-clan22-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> приказ постојећег стања заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan22-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> процену угрожености од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan22-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> организацију заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan22-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> предлог техничких и организационих мера за отклањање недостатака и унапређење стања заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan22-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> прорачун потребних финансијских средстава;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan22-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> прописане прорачунске и графичке прилоге.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav2">
+						<content>
+							<p>На План заштите од пожара, укључујући и његове измене и допуне,* прибавља се сагласност Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref6" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan23">
+					<num>23.</num>
+					<heading>Категоризација према угрожености од пожара</heading>
+					<paragraph wId="gla2-clan23-stav1">
+						<content>
+							<p>У циљу утврђивања одговарајуће организације и предузимања мера потребних за успешно функционисање и спровођење заштите од пожара, Министарство врши категоризацију објеката, делатности и земљишта према угрожености од пожара у зависности од технолошког процеса који се у њима одвија; врсте и количине материјала који се производи, прерађује или складишти; врсте материјала употребљеног за изградњу објекта; значаја и величине објекта и врсте биљног покривача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan23-stav2">
+						<intro>
+							<p>Објекти, делатности и земљишта разврставају се у следеће категорије:</p>
+						</intro>
+						<point wId="gla2-clan23-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> са високим ризиком од избијања пожара – прва категорија угрожености од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan23-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> са повећаним ризиком од избијања пожара – друга категорија угрожености од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan23-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> са извесним ризиком од избијања пожара – трећа категорија угрожености од пожара.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan23-stav3">
+						<content>
+							<p>На решење о категоризацији из <ref wId="ref7" href="akn/rs/act/2018/87-50/srp@/!main~art_23__para_1" >става 1. овог</ref> члана може се изјавити жалба Министарству у року од 15 дана од дана достављања решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan23-stav4">
+						<content>
+							<p>Изузетно од <ref wId="ref8" href="akn/rs/act/2018/87-50/srp@/!main~art_23__para_1" >става 1. овог</ref> члана, Министарство одбране врши категоризацију војних објеката  и објеката које користи Министарствo одбране и Војска Србије*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan23-stav5">
+						<content>
+							<p>Влада прописује основе, мерила и услове категоризације из <ref wId="ref9" href="akn/rs/act/2018/87-50/srp@/!main~art_23__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan23-stav6">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref10" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan24">
+					<num>24.</num>
+					<heading>Организовање заштите од пожара према угрожености од пожара</heading>
+					<paragraph wId="gla2-clan24-stav1">
+						<content>
+							<p>Привредно друштво односно друго правно или физичко лице, које је власник  односно корисник објекта или земљишта са високим ризиком од избијања пожара  разврстава се у прву категорију угрожености од пожара (у даљем тексту:  субјекат у првој категорији) и обавезно је да организује спровођење  превентивних мера заштите од пожара, обезбеди технички опремљену и обучену  ватрогасну јединицу са потребним бројем ватрогасаца и обезбеди адекватну  опрему и уређаје за гашење пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav2">
+						<content>
+							<p>Привредно друштво односно друго правно или физичко  лице, које је власник односно корисник објекта или земљишта са повећаним  ризиком од избијања пожара разврстава се у другу категорију угрожености од  пожара (у даљем тексту: субјекат у другој категорији) и обавезно је да  организује спровођење превентивних мера заштите од пожара и стално дежурство  са потребним бројем лица стручно оспособљених за спровођење мера заштите од  пожара и обезбеди адекватну опрему и уређаје за гашење пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav3">
+						<content>
+							<p>Привредно друштво односно друго правно или физичко  лице, које је власник односно корисник објекта или земљишта са извесним  ризиком од избијања пожара разврстава се у трећу категорију угрожености од  пожара (у даљем тексту: субјекат у трећој категорији) и обавезно је да  организује спровођење превентивних мера заштите од пожара са потребним  бројем лица стручно оспособљених за спровођење мера заштите од пожара и  обезбеди адекватну опрему и уређаје за гашење пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav4">
+						<content>
+							<p>Разврставање привредних друштава и других правних и  физичких лица из овог члана врши се решењем из <ref wId="ref11" href="akn/rs/act/2018/87-50/srp@/!main~art_23" >члана 23. овог</ref> закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav5">
+						<content>
+							<p>Министар надлежан за унутрашње послове (у даљем тексту:  министар) прописује потребну техничку опремљеност ватрогасне јединице и број  ватрогасаца из <ref wId="ref12" href="akn/rs/act/2018/87-50/srp@/!main~art_24__para_1" >става 1. овог</ref> члана, као и потребан број лица стручно  оспособљених за спровођење заштите од пожара из <ref wId="ref13" href="akn/rs/act/2018/87-50/srp@/!main~art_24__para_2" >става 2. овог</ref> члана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan24-stav6">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref14" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan25">
+					<num>25.</num>
+					<heading>Ангажовање правног лица за обављање послова</heading>
+					<paragraph wId="gla2-clan25-stav1">
+						<content>
+							<p>За обављање послова из <ref wId="ref15" href="akn/rs/act/2018/87-50/srp@/!main~art_24" >члана 24. </ref>може се уговором ангажовати привредно друштво односно друго правно лице које испуњава прописане услове и има овлашћење Министарства за обављање ових послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav2">
+						<content>
+							<p>Министар прописује ближе услове за обављање послова из <ref wId="ref16" href="akn/rs/act/2018/87-50/srp@/!main~art_24" >члана 24. овог</ref> закона и услове и начин издавања и одузимања овлашћења из <ref wId="ref17" href="akn/rs/act/2018/87-50/srp@/!main~art_25__para_1" >става 1.  овог</ref> члана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan25-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref18" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan26">
+					<num>26.</num>
+					<heading>Заштита од пожара у објектима посебне намене које користи Министарство одбране и Војска Србије</heading>
+					<paragraph wId="gla2-clan26-stav1">
+						<content>
+							<p>Послове заштите од пожара у објектима посебне намене које користи Министарство одбране и Војска Србије обављају надлежни војни органи, под условима које прописује министар одбране, а у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan27">
+					<num>27.</num>
+					<heading>План заштите од пожара</heading>
+					<paragraph wId="gla2-clan27-stav1">
+						<intro>
+							<p>Субјекти у првој и другој категорији угрожености од пожара обавезни су да донесу План заштите од пожара који садржи нарочито:</p>
+						</intro>
+						<point wId="gla2-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> приказ постојећег стања заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan27-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> процену угрожености од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan27-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> организацију заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan27-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> предлог техничких и организационих мера за отклањање недостатака и унапређење стања заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan27-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> прорачун потребних финансијских средстава;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan27-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> прописане прорачунске и графичке прилоге;*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan27-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p>  прорачун максималног броја људи који се могу безбедно евакуисати из  објекта.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav2">
+						<content>
+							<p>Субјекти из <ref wId="ref19" href="akn/rs/act/2018/87-50/srp@/!main~art_27__para_1" >става 1. овог</ref> члана дужни су да поступају по прорачунима из  Плана заштите од пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav3">
+						<content>
+							<p>У Плану заштите од пожара, поред података из <ref wId="ref20" href="akn/rs/act/2018/87-50/srp@/!main~art_27__para_1" >става 1. овог</ref> члана, ближе се приказују и подаци о броју ватрогасаца, техничкој опремљености и обучености ватрогасне јединице, односно организацији превентивних мера заштите од пожара, сталног дежурства и подаци о броју стручно оспособљених лица за спровођење заштите од пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav4">
+						<content>
+							<p>План  заштите од пожара (аутономне покрајине, јединица локалне самоуправе и  субјеката из <ref wId="ref21" href="akn/rs/act/2018/87-50/srp@/!main~art_27__para_1" >става 1. овог</ref> члана) мора бити усклађен са променама насталим  као последица урбанистичких, техничко-технолошких и других промена од  значаја за заштиту од пожара кроз измене и допуне плана заштите од пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav5">
+						<content>
+							<p>На  План заштите од пожара и измене и допуне тог плана прибавља се сагласност  Министарства.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav6">
+						<content>
+							<p>Министар прописује начин израде и садржај планова заштите од пожара аутономне покрајине, јединице локалне самоуправе и субјеката у првој и другој категорији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav7">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref22" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav8">
+						<content>
+							<p>План  евакуације и упутства за поступање у случају пожара*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav10">
+						<content>
+							<p>Члан 27а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav11">
+						<content>
+							<p>Субјекти у првој, другој и трећој категорији угрожености од пожара морају  имати План евакуације и упутства за поступање у случају пожара, који морају  бити истакнути на видљивом месту.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav12">
+						<content>
+							<p>Субјекти у трећој категорији угрожености од пожара План евакуације и  упутства за поступање у случају пожара доносе у складу са <ref wId="ref24" href="akn/rs/act/2018/87-50/srp@/!main~art_28" >чланом 28. овог</ref>  закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan27-stav13">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref25" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan28">
+					<num>28.</num>
+					<heading>Правила заштите од пожара</heading>
+					<paragraph wId="gla2-clan28-stav1">
+						<intro>
+							<p>Привредно друштво односно друго правно или физичко лице, које је власник  односно корисник пословних, индустријских и објеката јавне намене и  слободностојећих гаража, а који нису у обавези да имају План заштите од  пожара према <ref wId="ref26" href="akn/rs/act/2018/87-50/srp@/!main~art_27" >члану 27. овог</ref> закона, као и објеката у трећој категорији  угрожености од пожара, и стамбене зграде доносе Правила заштите од пожара  која обухватају:*</p>
+						</intro>
+						<point wId="gla2-clan28-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>  организацију технолошких процеса на начин да ризик од избијања и ширења  пожара буде отклоњен, а да у случају његовог избијања буде обезбеђена  безбедна евакуација људи и имовине и спречено његово ширење;*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan28-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>  заштиту од пожара у зависности од намене објекта са потребним бројем лица  оспособљених за обављање послова заштите од пожара;*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan28-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>  План евакуације и упутства за поступање у случају пожара;*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan28-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>  начин оспособљавања запослених за спровођење заштите од пожара;*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan28-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>  права, обавезе и одговорности запослених за спровођење превентивних мера  заштите од пожара;*</p>
+							</content>
+						</point>
+						<point wId="gla2-clan28-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p>  прорачун максималног броја људи који се могу безбедно евакуисати из  објекта.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan28-stav2">
+						<content>
+							<p><ref wId="ref28" href="akn/rs/act/2018/87-50/srp@/!main~art_28___point_2" >Тачке  2</ref>), 4), 5) и 6) из <ref wId="ref27" href="akn/rs/act/2018/87-50/srp@/!main~art_28__para_1" >става 1. овог</ref> члана не односе се на обавезе стамбене  зграде.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan28-stav3">
+						<content>
+							<p>План  евакуације и упутства за поступање у случају пожара из става 1. тачка <ref wId="ref29" href="akn/rs/act/2018/87-50/srp@/!main~art_28__para_1__point_3" >3</ref>)  овог члана морају бити истакнути на видљивом месту.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan28-stav4">
+						<content>
+							<p>Субјекти из <ref wId="ref30" href="akn/rs/act/2018/87-50/srp@/!main~art_28__para_1" >става 1. овог</ref> члана дужни су да поступају по прорачунима из  Правила заштите од пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan28-stav5">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref31" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>МЕРЕ ЗАШТИТЕ ОД ПОЖАРА</heading>
+				<paragraph wId="gla3-clan28-stav1">
+					<content>
+						<p>Заштита од  пожара у планским документима*</p>
+					</content>
+				</paragraph>
+				<article wId="gla3-clan29">
+					<num>29.</num>
+					<heading>*Службени  гласник РС, број <ref wId="ref33" href="akn/rs/act/2015/20/srp@">20/2015</ref></heading>
+					<paragraph wId="gla3-clan29-stav1">
+						<intro>
+							<p>Плански документ, поред услова прописаних посебним законом који уређује  област градње и уређења простора, у погледу мера заштите од пожара и  експлозија, садржи:*</p>
+						</intro>
+						<point wId="gla3-clan29-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>  изворишта снабдевања водом и капацитет градске водоводне мреже који  обезбеђују довољно количине воде за гашење пожара;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan29-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>  удаљеност између зона предвиђених за стамбене и објекте јавне намене и зона  предвиђених за индустријске објекте и објекте специјалне намене;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan29-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>  приступне путеве и пролазе за ватрогасна возила до објеката;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan29-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>  безбедносне појасеве између објеката којима се спречава ширење пожара и  експлозије, сигурносне удаљености између објеката или њихово пожарно  одвајање;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan29-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>  могућности евакуације и спасавања људи.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav2">
+						<content>
+							<p>Пре  израде планских докумената носилац посла на изради планског документа дужан  је да прибави мишљење Министарства, које садржи услове заштите од пожара и  експлозија које је потребно предвидети предметним планским документима.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref32" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan29-stav4">
+						<content>
+							<p>Основни  захтеви заштите од пожара приликом пројектовања и изградње*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan30">
+					<num>30.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref39" href="akn/rs/act/2015/20/srp@">20/2015</ref></heading>
+					<paragraph wId="gla3-clan30-stav1">
+						<intro>
+							<p>Приликом пројектовања и изградње објекта, који се гради према закону који  уређује област планирања и изградње, морају се обезбедити основни захтеви  заштите од пожара тако да се у случају пожара:*</p>
+						</intro>
+						<point wId="gla3-clan30-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>  очува носивост конструкције током одређеног времена;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan30-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>  спречи ширење ватре и дима унутар објекта;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan30-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>  спречи ширење ватре на суседне објекте;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan30-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>  омогући сигурна и безбедна евакуација људи, односно њихово спасавање.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav2">
+						<intro>
+							<p>Сматра  се да су основни захтеви заштите од пожара из <ref wId="ref34" href="akn/rs/act/2018/87-50/srp@/!main~art_30__para_1" >става 1. овог</ref>а члана испуњени  уколико су спроведени захтеви заштите од пожара:*</p>
+						</intro>
+						<point wId="gla3-clan30-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p>  утврђени посебним прописима, стандардима и другим актима којима је уређена  област заштите од пожара и експлозија;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan30-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p>  утврђени проценом ризика од пожара, којом су исказане мере заштите од пожара  за конструкцију, материјале, инсталације и опремање заштитним системима и  уређајима.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav3">
+						<content>
+							<p>Уколико испуњеност захтева заштите од пожара није могуће доказати на начин  прописан у <ref wId="ref35" href="akn/rs/act/2018/87-50/srp@/!main~art_30__para_2" >ставу 2. овог</ref> члана, Министарство може прихватити доказивање  испуњености захтева заштите од пожара и према страним прописима и  стандардима, као и према признатим методама прорачуна и моделима уколико су  тим прописима предвиђени.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav4">
+						<content>
+							<p>Испуњеност основних захтева заштите од пожара према признатим методама  прорачуна и моделима из <ref wId="ref37" href="akn/rs/act/2018/87-50/srp@/!main~art_30__para_3" >става 3. овог</ref> члана доказује се функционалном пробом  система у реалним условима приликом утврђивања подобности за употребу у  погледу спроведености мера заштите од пожара из <ref wId="ref36" href="akn/rs/act/2018/87-50/srp@/!main~art_36" >члана 36. овог</ref> закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav5">
+						<content>
+							<p>Одступање од основног захтева заштите од пожара могуће је ако је тај захтев  ближе уређен посебним прописом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan30-stav6">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref38" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan31">
+					<num>31.</num>
+					<heading>Главни пројекат заштите од пожара</heading>
+					<paragraph wId="gla3-clan31-stav1">
+						<content>
+							<p>Главни  пројекат заштите од пожара је саставни део техничке документације за  изградњу, доградњу и реконструкцију објеката са свим припадајућим  инсталацијама, опремом и уређајима.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav2">
+						<intro>
+							<p>Главни  пројекат заштите од пожара из <ref wId="ref40" href="akn/rs/act/2018/87-50/srp@/!main~art_31__para_1" >става 1. овог</ref> члана садржи:*</p>
+						</intro>
+						<point wId="gla3-clan31-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p>  технички извештај (податке о локацији објекта значајне за заштиту од пожара,  опис објекта, процену опасности од пожара, поделу објекта на пожарне  секторе, дефинисање евакуационих путева, критеријуме за избор материјала за  конструкције које треба да буду отпорне на пожар, критеријуме за избор  материјала за ентеријер за који постоје посебни захтеви у погледу отпорности  на пожар, процену опасности од пожара која потиче од технолошког процеса и  материја које се у њима користе или складиште, опис инсталација за  аутоматско откривање и дојаву пожара, детекцију експлозивних и запаљивих  гасова, као и опис стабилних и мобилних инсталација и уређаја за гашење  пожара, евакуационе путеве за спасавање лица и имовине, критеријуме за избор  мобилне опреме за гашење пожара, опис инсталација за флуиде који се користе  у објекту и др.),*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan31-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p>  прорачунске основе (прорачун пожарног оптерећења пожарних сектора, прорачун  капацитета евакуационих путева у објекту, прорачун времена потребног за  евакуацију људи и др.),*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan31-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p>  графичку документацију (ситуациони план са уцртаним суседним објектима и  саобраћајницама, основе свих нивоа и крова, карактеристичне подужне и  попречне пресеке са уцртаним пожарним секторима, диспозицију процесне  технолошке опреме и опреме која припада инсталацијама за гашење пожара, шеме  система за откривање и дојаву пожара, гасну детекцију, громобранске  инсталације, разводе машинских инсталација за аутоматско гашење пожара,  систем за одвођење дима и топлоте, системе за вентилацију и др.) и*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan31-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p>  предмер опреме и средстава за заштиту од пожара.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref41" href="akn/rs/act/2018/87-50/srp@/!main~art_31__para_1" >става 1. овог</ref> члана главни пројекат заштите од пожара не мора  бити саставни део техничке документације уколико се основни захтеви заштите  од пожара из члaна 30. овог закона могу сагледати кроз техничку  документацију за изградњу, доградњу и реконструкцију објекта.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan31-stav4">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref42" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan32">
+					<num>32.</num>
+					<heading>Израда Главног пројекта заштите од пожара</heading>
+					<paragraph wId="gla3-clan32-stav1">
+						<content>
+							<p>Главни пројекат заштите од пожара израђује привредно друштво односно друго правно лице које је уписано у одговарајући регистар за обављање делатности израде техничке документације, које има овлашћење Министарства за израду Главног пројекта заштите од пожара и има запослена лица са лиценцом за израду пројекта заштите од пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav2">
+						<intro>
+							<p>Лиценцу из <ref wId="ref43" href="akn/rs/act/2018/87-50/srp@/!main~art_32__para_1" >става 1. овог</ref> члана може добити лице које има:</p>
+						</intro>
+						<point wId="gla3-clan32-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> најмање високу стручну спрему техничког смера;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan32-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> најмање пет година радног искуства на пословима пројектовања мера заштите од пожара или њиховог надзора;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan32-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> положен стручни испит из области заштите од пожара.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav3">
+						<content>
+							<p>Министар прописује ближе услове за добијање овлашћења за израду Главног пројекта заштите од пожара, као и програм и начин полагања стручног испита из става 2. тачка <ref wId="ref44" href="akn/rs/act/2018/87-50/srp@/!main~art_32__para_2__point_3" >3</ref>) овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan32-stav4">
+						<content>
+							<p>Министарство води евиденције о издатим овлашћењима и лиценцама из <ref wId="ref45" href="akn/rs/act/2018/87-50/srp@/!main~art_32__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan33">
+					<num>33.</num>
+					<heading>Сагласност Министарства</heading>
+					<paragraph wId="gla3-clan33-stav1">
+						<intro>
+							<p>Подручне јединице органа државне управе у чијој је надлежности заштита од  пожара дају сагласност на техничку документацију у погледу мера заштите од  пожара, за изградњу, реконструкцију и доградњу објеката са свим припадајућим  инсталацијама, опремом и уређајима и то:*</p>
+						</intro>
+						<point wId="gla3-clan33-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>  стамбених, стамбено-пословних и пословних објеката површине веће од 2.000 m²  или спратности П+4+Пк(ПС) и преко, зграда за становање заједница, хотела,  мотела и зграда за трговину на велико и мало површине веће од 400 m² или  спратности преко П+2, као и ресторана, барова и сличних угоститељских  објеката;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>  објеката јавне намене на другом месту непоменутих;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>  великих и средњих гаража које су самосталне или великих и средњих гаража са  припадајућим објектима;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>  објеката и простора на којима се производе, прерађују и складиште хемикалије  које могу изазвати пожар или експлозију или угрозити здравље и безбедност  људи и материјалних добара;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>  објеката у чијим се погонима производе, прерађују или обрађују чврсте  запаљиве материје, при чему настају експлозивне смеше гасова, пара и  прашине;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p>  станица за снабдевање горивом моторних возила или пловила на сопствени  погон, складишног капацитета до 500 m³ запаљивих течности;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p>  индустријских објеката, високорегалних складишта, складишних објеката  површине преко 1.500 m², као и других складишних објеката одређених посебним  прописом;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p>  електроенергетских постројења називног напона од 20 и 35 kV и трафо-станица  на отвореном снаге преко 2000 kVA;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p>  нафтовода, продуктовода и гасовода који нису обухваћени чланом 34. став 1.  тачка <ref wId="ref46" href="akn/rs/act/2018/87-50/srp@/!main~art_34__para_1__point_1" >1</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p>  објеката за складиштење експлозивних материја до 1000 kg;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p>  слободностојеће котларнице снаге преко 50 kW;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p>  објеката базне и прерађивачке хемијске индустрије, црне и обојене  металургије, објеката за прераду коже и крзна, објеката за прераду каучука,  објеката за производњу целулозе и папира и објеката за прераду неметаличних  минералних сировина, објеката за производњу биодизела;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p>  силоса, граничних прелаза, објеката казнено-поправних установа;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p>  стадиона од 1.000 до 20.000 гледалаца, објеката у категорији високих до 50  m;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p>  хидроелектрана и хидроелектрана са припадајућом браном снаге до 10 МW,  термоелектрана снаге до 10 МW и термоелектрана-топлана електричне снаге до  10 МW и далековода и трафостаница напона до 110 kV;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p>  објеката и постројења за припрему воде за пиће и објеката и постројења за  пречишћавање отпадних вода;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p>  културних добара од изузетног значаја и објеката у њиховој заштићеној  околини и културних добара уписаних у Листу светске културне баштине (осим  претварања заједничких просторија у стан односно пословни простор у  заштићеној околини културних добара од изузетног значаја и културних добара  уписаних у Листу светске културне баштине);*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p>  постројења за третман неопасног отпада, спаљивањем или хемијским поступцима  одређена посебним прописом;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac19">
+							<num>19)</num>
+							<content>
+								<p>  постројења за третман опасног отпада спаљивањем, термичким и/или физичким,  физичко-хемијским, хемијским поступцима, као и централних складишта и/или  депонија за одлагање опасног отпада и регионалних депонија односно депонија  за одлагање опасног отпада, одређена посебним прописом;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac20">
+							<num>20)</num>
+							<content>
+								<p>  пристаништа, лука;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac21">
+							<num>21)</num>
+							<content>
+								<p>  објеката за производњу енергије из обновљивих извора енергије (ветар,  биогас, соларна енергија, геотермална енергија, биомаса, депонијски гас, гас  из комуналних отпадних вода и др.) и електрана са комбинованом производњом,  појединачне снаге до 10 МW;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan33-stav1-tac22">
+							<num>22)</num>
+							<content>
+								<p>  објеката, односно делова објеката унутар којих се смешта телекомуникациона  опрема и системи.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav2">
+						<content>
+							<p>Одредба <ref wId="ref47" href="akn/rs/act/2018/87-50/srp@/!main~art_33__para_1" >става 1. овог</ref> члана односи се и на давање сагласности на техничку  документацију која садржи измене настале у току грађења објекта у односу на  техничку документацију на коју је дата сагласност, уколико те измене утичу  на безбедност са аспекта заштите од пожара и експлозија.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav3">
+						<content>
+							<p>Сагласност из <ref wId="ref48" href="akn/rs/act/2018/87-50/srp@/!main~art_33__para_1->para_2" >ст. 1. и 2. овог</ref> члана прибавља инвеститор, односно власник  објекта у процедури прописаној законом који уређује изградњу.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav4">
+						<content>
+							<p>Сагласност из <ref wId="ref49" href="akn/rs/act/2018/87-50/srp@/!main~art_33__para_1" >става 1. овог</ref> члана за објекте посебне намене које користи  Министарство одбране и Војска Србије даје Министарство одбране, у складу са  посебним законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan33-stav5">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref50" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan34">
+					<num>34.</num>
+					<heading>Сагласност за посебне објекте</heading>
+					<paragraph wId="gla3-clan34-stav1">
+						<intro>
+							<p>Министарство даје сагласност  на техничку документацију у погледу мера заштите од пожара, за изградњу,  реконструкцију и доградњу објеката са свим припадајућим инсталацијама, опремом и  уређајима и то:*</p>
+						</intro>
+						<point wId="gla3-clan34-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> објеката за прераду нафте  и гаса, међународних и магистралних продуктовода, гасовода и нафтовода за  транспорт, гасовода називног радног натпритиска преко 20 бара, уколико прелазе  најмање две општине, складишта нафте, гаса и нафтних деривата капацитета преко  500 m³, складишта запаљивих гасова преко 200 m³, као и терминала за опасне  терете и свих објеката ове намене у лукама односно пристаништима;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan34-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> стадиона за 20.000 и више  гледалаца, објеката висине 50 и више метара, објеката који се баве производњом  за војне потребе (наменска индустрија);*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan34-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> хидроелектрана и  хидроелектрана са припадајућом браном снаге 10 и више МW, термоелектрана снаге  10 и више МW и термоелектрана-топлана електричне снаге 10 и више МW и далековода  и трафостаница напона 110 и више kV;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan34-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> аеродрома за јавни  ваздушни саобраћај;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan34-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> друмских и железничких  тунела и метроа;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan34-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> објеката за производњу  енергије из обновљивих извора енергије (ветар, биогас, соларна енергија,  геотермална енергија, биомаса, депонијски гас, гас из комуналних отпадних вода и  др.) и електрана са комбинованом производњом, појединачне снаге 10 и више МW;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan34-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> нуклеарних објеката и  других објеката који служе за производњу нуклеарног горива, радиоизотопа,  озрачивање, ускладиштење радиоактивних отпадних материја за научно-истраживачке  сврхе;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan34-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> објеката за складиштење  експлозивних материја преко 1000 kg.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav2">
+						<content>
+							<p>Одредба <ref wId="ref51" href="akn/rs/act/2018/87-50/srp@/!main~art_34__para_1" >става 1. овог</ref> члана  односи се и на давање сагласности на техничку документацију која садржи измене  настале у току грађења објекта у односу на техничку документацију на коју је  дата сагласност, уколико те измене утичу на безбедност са аспекта заштите од  пожара и експлозија.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav3">
+						<content>
+							<p>Сагласност из <ref wId="ref52" href="akn/rs/act/2018/87-50/srp@/!main~art_34__para_1" >става 1. овог</ref>  члана прибавља инвеститор, односно власник објекта у процедури прописаној  законом који уређује изградњу.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav4">
+						<content>
+							<p>Сагласност из <ref wId="ref53" href="akn/rs/act/2018/87-50/srp@/!main~art_34__para_1" >става 1. овог</ref>  члана за објекте посебне намене које користи Министарство одбране и Војска  Србије даје Министарство одбране, у складу са посебним законом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan34-stav5">
+						<content>
+							<p>*Службени гласник  РС, број <ref wId="ref54" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan35">
+					<num>35.</num>
+					<heading>Сагласност за део објекта</heading>
+					<paragraph wId="gla3-clan35-stav1">
+						<content>
+							<p>Сагласност из чл. <ref wId="ref55" href="akn/rs/act/2018/87-50/srp@/!main~art_33" >33</ref>. и <ref wId="ref56" href="akn/rs/act/2018/87-50/srp@/!main~art_34" >34</ref>. овог закона даје се за цео објекат, а када се објекат гради по деловима за део објекта, ако тај део представља економско-техничку целину и може се самостално користити, односно ако ће изградња целог објекта трајати дуже.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan36">
+					<num>36.</num>
+					<heading>Подобност објекта за употребу</heading>
+					<paragraph wId="gla3-clan36-stav1">
+						<content>
+							<p>Када  је предмет техничког прегледа у смислу закона којим се уређује изградња  објекат из <ref wId="ref57" href="akn/rs/act/2018/87-50/srp@/!main~art_34" >члана 34. овог</ref> закона, члан комисије за технички преглед који  утврђује подобност објекта за употребу у погледу спроведености мера заштите  од пожара предвиђених у техничкој документацији је лице са лиценцом  запослено у органу државне управе надлежном за послове заштите од пожара  овлашћено за доношење решења у делокругу рада. За потребе овог лица техничке  послове обављају стручне особе запослене у органу државне управе надлежном  за послове заштите од пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav2">
+						<intro>
+							<p>Одредбе <ref wId="ref59" href="akn/rs/act/2018/87-50/srp@/!main~art_36__para_1" >става 1. овог</ref> члана примењују се и на поједине објекте из <ref wId="ref58" href="akn/rs/act/2018/87-50/srp@/!main~art_33" >члана 33.  </ref>и то:*</p>
+						</intro>
+						<point wId="gla3-clan36-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p>  стамбене, стамбено-пословне и пословне објекте, а који спадају у високе  објекте у складу са посебним прописом;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p>  зграде за становање заједница, хотеле, мотеле, ресторане и објекте за  трговину на велико и мало, површине преко 2.000 m²;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p>  ноћне клубове и сличне угоститељске објекте;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p>  друге објекте јавне намене површине преко 500 m²;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p>  велике самосталне гараже;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p>  објекте у којима се производе, прерађују и складиште хемикалије које могу  изазвати пожар или експлозију или угрозити здравље и безбедност људи и  материјалних добара;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p>  објекте у чијим се погонима производе, прерађују или обрађују чврсте  запаљиве материје, при чему настају експлозивне смеше гасова, пара и  прашине;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p>  станице за снабдевање горивом моторних возила или пловила на сопствени  погон, складишног капацитета до 500 m³ запаљивих течности;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p>  индустријске објекте површине преко 3.000 m² и складишне објекте површине  преко 1.500 m², као и сва високорегална складишта;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac10">
+							<num>10)</num>
+							<content>
+								<p>  електроенергетска постројења називног напона од 35 kV и трафо-станице на  отвореном снаге преко 10 MVA;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac11">
+							<num>11)</num>
+							<content>
+								<p>  нафтоводе, продуктоводе и гасоводе који нису обухваћени чланом 34. став 1.  тачка <ref wId="ref60" href="akn/rs/act/2018/87-50/srp@/!main~art_34__para_1__point_1" >1</ref>) овог закона;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac12">
+							<num>12)</num>
+							<content>
+								<p>  објекте за складиштење експлозивних материја до 1.000 kg;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac13">
+							<num>13)</num>
+							<content>
+								<p>  слободностојеће котларнице снаге преко 300 kW;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac14">
+							<num>14)</num>
+							<content>
+								<p>  објекте базне и прерађивачке хемијске индустрије, црне и обојене  металургије, објекте за прераду каучука, објекте за производњу целулозе и  папира, објекте за прераду неметаличних минералних сировина и објекте за  производњу биодизела;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac15">
+							<num>15)</num>
+							<content>
+								<p>  објекте казнено-поправних установа;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac16">
+							<num>16)</num>
+							<content>
+								<p>  стадиони од 1.000 до 20.000 гледалаца;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac17">
+							<num>17)</num>
+							<content>
+								<p>  трафостанице напона од 35 kV;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac18">
+							<num>18)</num>
+							<content>
+								<p>  културна добра од изузетног значаја и објекте у њиховој заштићеној околини и  културна добра уписана у Листу светске културне баштине (осим претварања  заједничких просторија у стан односно пословни простор у заштићеној околини  културних добара од изузетног значаја и културних добара уписаних у Листу  светске културне баштине);*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac19">
+							<num>19)</num>
+							<content>
+								<p>  постројења за третман неопасног отпада, спаљивањем или хемијским поступцима,  одређена посебним прописима;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac20">
+							<num>20)</num>
+							<content>
+								<p>  постројења за третман опасног отпада спаљивањем, термичким и/или физичким,  физичко-хемијским, хемијским поступцима, као и централна складишта и/или  депонија за одлагање опасног отпада и регионалних депонија односно депоније  за одлагање опасног отпада, одређена посебним прописима;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac21">
+							<num>21)</num>
+							<content>
+								<p>  пристаништа и луке;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav2-tac22">
+							<num>22)</num>
+							<content>
+								<p>  објекте за призводњу енергије из биогаса и биомасе и електране са  комбинованом производњом, појединачне снаге до 10 МW.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav3">
+						<content>
+							<p>Лице  из <ref wId="ref61" href="akn/rs/act/2018/87-50/srp@/!main~art_36__para_1" >става 1. овог</ref> члана утврђује подобност објекта за употребу у погледу  спроведености мера заштите од пожара решењем из <ref wId="ref62" href="akn/rs/act/2018/87-50/srp@/!main~art_36__para_1" >става 1. </ref>у року од 15 дана  од дана достављања захтева од стране инвеститора.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav4">
+						<content>
+							<p>Када  је предмет техничког прегледа објекат који није обухваћен <ref wId="ref63" href="akn/rs/act/2018/87-50/srp@/!main~art_36__para_1->para_2" >ст. 1. и 2. овог</ref>  члана, члан комисије за технички преглед који утврђује подобност објекта за  употребу у погледу спроведености мера заштите од пожара предвиђених у  техничкој документацији је лице које поседује одговарајућу лиценцу према  прописима из заштите од пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav5">
+						<intro>
+							<p>Објекат је подобан за употребу у погледу спроведености мера заштите од  пожара ако је:*</p>
+						</intro>
+						<point wId="gla3-clan36-stav5-tac1">
+							<num>1)</num>
+							<content>
+								<p>  изграђен у складу с техничком документацијом на коју је дата сагласност;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav5-tac2">
+							<num>2)</num>
+							<content>
+								<p>  обезбеђен доказ о карактеристикама конструкција као и елементима  конструкција који треба да буду отпорни према пожару, доказ о  карактеристикама опреме, уређаја и инсталација са посебним карактеристикама  према пожару и експлозији, као и доказ о карактеристикама материјала за  ентеријер и инсталације за које се постављају посебни захтеви у погледу  карактеристика према пожару, материјалима који се користе или складиште у  технолошком процесу;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav5-tac3">
+							<num>3)</num>
+							<content>
+								<p>  обезбеђен доказ о исправном функционисању и деловању изведених инсталација и  уређаја за аутоматско откривање и дојаву пожара, гашење пожара и детекцију  експлозивних и запаљивих гасова, инсталација у зонама опасности од  експлозије, и инсталација за одвођење дима и топлоте;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav5-tac4">
+							<num>4)</num>
+							<content>
+								<p>  обезбеђен доказ о исправном функционисању и деловању изведених инсталација  хидрантске мреже за гашење пожара, као и мобилних уређаја за гашење пожара;*</p>
+							</content>
+						</point>
+						<point wId="gla3-clan36-stav5-tac5">
+							<num>5)</num>
+							<content>
+								<p>  обезбеђен доказ о извршеним мерењима и прегледу уграђених машинских,  водоводних и електричних инсталација.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav6">
+						<content>
+							<p>Доказ  из става 5. тачка <ref wId="ref64" href="akn/rs/act/2018/87-50/srp@/!main~art_36__para_5__point_3" >3</ref>) овог члана издаје овлашћено правно лице – извођач  радова са одговарајућим овлашћењем за извођење посебних система и мера  заштите од пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav7">
+						<content>
+							<p>Доказ  из става 5. тачка <ref wId="ref66" href="akn/rs/act/2018/87-50/srp@/!main~art_36__para_5__point_4" >4</ref>) овог члана издаје овлашћено правно лице из <ref wId="ref65" href="akn/rs/act/2018/87-50/srp@/!main~art_44" >члана 44.  овог</ref> закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan36-stav8">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref67" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan37">
+					<num>37.</num>
+					<heading>Технолошки процеси</heading>
+					<paragraph wId="gla3-clan37-stav1">
+						<content>
+							<p>Технолошки процеси у којима се користе или производе запаљиве течности и гасови или експлозивне материје обављају се у објектима или деловима објекта који су одвојени од других производних и складишних објеката и простора ватроотпорним зидовима који онемогућавају ширење пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav2">
+						<content>
+							<p>Технолошки процеси из <ref wId="ref68" href="akn/rs/act/2018/87-50/srp@/!main~art_37__para_1" >става 1. овог</ref> члана, као и радови с отвореним пламеном у близини запаљивих течности, гасова, експлозивних и других материја које могу изазвати пожар, морају бити организовани на такав начин да, зависно од природе и услова рада, опасност од пожара буде отклоњена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan37-stav3">
+						<content>
+							<p>Објекти из <ref wId="ref69" href="akn/rs/act/2018/87-50/srp@/!main~art_37__para_1" >става 1. овог</ref> члана могу се градити само на местима где се не ствара опасност од избијања пожара у складу са одредбама посебног закона и техничких прописа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan38">
+					<num>38.</num>
+					<heading>Пројектовање и извођење посебних система</heading>
+					<paragraph wId="gla3-clan38-stav1">
+						<content>
+							<p>Пројектовање и извођење посебних система и мера заштите од пожара у објектима у којима се производе, прерађују и складиште запаљиве течности и гасови, експлозивне и друге материје које могу довести до пожара и у другим сложеним објектима обавља привредно друштво, односно друго правно лице које је уписано у одговарајући регистар за делатност пројектовања и извођења радова, задовољава посебне услове у погледу техничке опремљености и има запослена лица са лиценцом за пројектовање и извођење посебних система и мера заштите од пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav2">
+						<content>
+							<p>Стручни испит за добијање лиценце из <ref wId="ref70" href="akn/rs/act/2018/87-50/srp@/!main~art_38__para_1" >става 1. овог</ref> члана полаже се пред комисијом Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav3">
+						<content>
+							<p>Министар прописује програм стручног испита, услове за добијање лиценце, ближе услове за добијање овлашћења за обављање послова и посебне услове техничке опремљености из <ref wId="ref71" href="akn/rs/act/2018/87-50/srp@/!main~art_38__para_1" >става 1. овог</ref> члана, као и висину накнаде за комисију из <ref wId="ref72" href="akn/rs/act/2018/87-50/srp@/!main~art_38__para_2" >става 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav4">
+						<content>
+							<p>Списак овлашћених правних лица која обављају послове из <ref wId="ref73" href="akn/rs/act/2018/87-50/srp@/!main~art_38__para_1" >става 1. овог</ref> члана објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan38-stav5">
+						<content>
+							<p>Министарство води евиденције о издатим овлашћењима и лиценцама из <ref wId="ref74" href="akn/rs/act/2018/87-50/srp@/!main~art_38__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan39">
+					<num>39.</num>
+					<heading>Послови пројектовања и извођења посебних система</heading>
+					<paragraph wId="gla3-clan39-stav1">
+						<intro>
+							<p>Под пројектовањем и извођењем посебних система и мера заштите од пожара из <ref wId="ref75" href="akn/rs/act/2018/87-50/srp@/!main~art_38" >члана 38. </ref>подразумевају се послови:</p>
+						</intro>
+						<point wId="gla3-clan39-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> израде пројеката стабилних система за гашење пожара и извођење ових система;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan39-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> израде пројеката стабилних система за дојаву пожара и извођење ових система;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan39-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> израде пројеката стабилних система за детекцију експлозивних гасова и пара и извођење ових система;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan39-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> израде анализа о зонама опасности и одређивање ових зона на местима која су угрожена од настанка експлозивних смеша запаљивих гасова, пара запаљивих течности и експлозивних прашина;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan39-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> пројектовања и извођења електричних инсталација и уређаја за просторе угрожене експлозивним атмосферама (запаљивим гасовима, парама запаљивих течности и експлозивним прашинама);</p>
+							</content>
+						</point>
+						<point wId="gla3-clan39-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> пројектовања и извођења система за одвођење дима и топлоте.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan40">
+					<num>40.</num>
+					<heading>Превентивне мере у објектима високоградње</heading>
+					<paragraph wId="gla3-clan40-stav1">
+						<content>
+							<p>Објекат високоградње, у смислу посебног прописа, у зависности од врсте и намене мора бити пројектован, изграђен, коришћен и одржаван на начин којим се обезбеђују услови за сигурну евакуацију људи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan40-stav2">
+						<content>
+							<p>За  финалну обраду хоризонталних и вертикалних површина коридора евакуације у  објектима из <ref wId="ref76" href="akn/rs/act/2018/87-50/srp@/!main~art_40__para_1" >става 1. овог</ref> члана могу се употребљавати само материјали који  имају захтеване карактеристике реакције на пожар у складу са прописима и  стандардима за које се мора прибавити доказ о карактеристикама реакције на  пожар издат од надлежне установе у складу са посебним прописима и дати га на  увид надлежном органу.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan40-stav3">
+						<content>
+							<p>У  објектима из <ref wId="ref77" href="akn/rs/act/2018/87-50/srp@/!main~art_40__para_1" >става 1. овог</ref> члана, начин постављања инсталација и материјали  за инсталације морају имати одговарајуће карактеристике у пожару у складу са  прописима и стандардима, и за то је потребно прибавити доказ издат од  надлежне установе у складу са посебним прописима и дати га на увид надлежном  органу.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan40-stav4">
+						<content>
+							<p>Све уграђене инсталације у објектима морају се одржавати у исправном стању и периодично контролисати у складу са техничким прописима и стандардима на које се ти прописи позивају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan40-stav5">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref78" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan41">
+					<num>41.</num>
+					<heading>Путеви, пролази, платои и слични прилази објектима</heading>
+					<paragraph wId="gla3-clan41-stav1">
+						<content>
+							<p>На путевима, пролазима, платоима и сличним прилазима објектима који су предвиђени за пролаз ватрогасних возила или евакуацију људи и имовине угрожених пожаром није дозвољено градити или постављати објекте и друге запреке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan42">
+					<num>42.</num>
+					<heading>Уређаји за откривање и јављање пожара и уређаји за гашење пожара</heading>
+					<paragraph wId="gla3-clan42-stav1">
+						<content>
+							<p>При  пројектовању и изградњи објеката као што су хотели, робне куће, тржни  центри, биоскопи, дечије установе, школе, високошколске установе, установе  културе, здравствене установе, спортске и концертне дворане, стадиони са  пословним простором, аеродромске зграде и високи објекти, обавезна је  уградња система за откривање и дојаву пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan42-stav2">
+						<content>
+							<p>При  пројектовању и изградњи високих објеката (осим стамбених објеката) обавезна  је уградња система за гашење пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan42-stav3">
+						<content>
+							<p>При  пројектовању и изградњи објеката из <ref wId="ref79" href="akn/rs/act/2018/87-50/srp@/!main~art_42__para_1" >става 1. овог</ref> члана (осим високих  објеката) обавезна је израда процене ризика на основу прорачунске методе  према одговарајућим техничким прописима и стандардима у циљу утврђивања  потребе за уградњом стабилних система за гашење пожара када обавеза уградње  није дефинисана посебним прописом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan42-stav4">
+						<content>
+							<p>За  објекте који нису обухваћени <ref wId="ref80" href="akn/rs/act/2018/87-50/srp@/!main~art_42__para_1" >ставом 1. </ref>обавезна је израда процене ризика  којом се утврђује потреба за уградњом система за благовремено откривање,  дојаву и гашење пожара.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan42-stav5">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref81" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan42-stav6">
+						<content>
+							<p>Одржавање  инсталација и уређаја*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan43">
+					<num>43.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref83" href="akn/rs/act/2015/20/srp@">20/2015</ref></heading>
+					<paragraph wId="gla3-clan43-stav1">
+						<content>
+							<p>Инсталације и уређаји за аутоматско откривање и дојаву пожара, гашење  пожара, детекцију експлозивних и запаљивих гасова, инсталације у зонама  опасности од експлозије, инсталације за одвођење дима и топлоте, инсталације  хидрантске мреже за гашење пожара, као и мобилни уређаји за гашење пожара  морају се одржавати у исправном и функционалном стању, спровођењем одредби  техничких прописа, стандарда и упутстава произвођача.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan43-stav2">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref82" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan43-stav3">
+						<content>
+							<p>Контролисање инсталација и уређаја*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan44">
+					<num>44.</num>
+					<heading>*Службени  гласник РС, број <ref wId="ref88" href="akn/rs/act/2015/20/srp@">20/2015</ref></heading>
+					<paragraph wId="gla3-clan44-stav1">
+						<content>
+							<p>Исправност инсталација и  уређаја за аутоматско откривање и дојаву пожара, гашење пожара, детекцију  експлозивних и запаљивих гасова, инсталација у зонама опасности од  експлозије, инсталација за одвођење дима и топлоте, инсталација хидрантске  мреже за гашење пожара, као и мобилних уређаја за гашење пожара мора се  контролисати на сваких шест месеци од стране овлашћеног правног лица.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan44-stav2">
+						<content>
+							<p>Министар прописује  посебне услове за давање и одузимање овлашћења, начин давања и одузимања  овлашћења, посебне услове техничке опремљености, начин и послове  контролисања, садржај исправе о контролисању као и број, стручну спрему и  услове за запослена лица који обављају послове контролисања из <ref wId="ref84" href="akn/rs/act/2018/87-50/srp@/!main~art_44__para_1" >става 1. овог</ref>  члана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan44-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref85" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan44-stav4">
+						<content>
+							<p>Доношење  техничких прописа*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan44-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref86" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan44-stav6">
+						<content>
+							<p>Члан 44а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan44-stav7">
+						<content>
+							<p>Министар доноси техничке  прописе којима се уређују безбедност и заштита од пожара и експлозија на  инсталацијама и објектима узимајући у обзир врсту инсталација, специфичност  самог објекта, делатност која се у објекту обавља и опасност од пожара и  експлозија за људе и имовину, као и друге техничке прописе потребне за  спровођење овог закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan44-stav8">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref87" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan45">
+					<num>45.</num>
+					<heading>Превентивне мере у природи</heading>
+					<paragraph wId="gla3-clan45-stav1">
+						<content>
+							<p>При обављању послова у природи који могу изазвати пожар, а нарочито приликом употребе отвореног пламена, морају се спроводити мере заштите од пожара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan46">
+					<num>46.</num>
+					<heading>Забрана ложења ватре у шуми</heading>
+					<paragraph wId="gla3-clan46-stav1">
+						<content>
+							<p>Забрањено је ложење отворене ватре у шуми и на удаљености од 200  m од руба шуме, изузев на одређеним и за то видно обележеним местима, у складу са прописаним мерама заштите од пожара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan47">
+					<num>47.</num>
+					<heading>Заштићена подручја</heading>
+					<paragraph wId="gla3-clan47-stav1">
+						<content>
+							<p>Управљач заштићеног подручја установљеног на основу прописа који уређује заштиту природе дужан је да планом управљања тим подручјем утврди превентивне мере заштите од пожара, сходно величини заштићеног подручја, врсти и намени земљишта или објеката којима управља.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan47-stav2">
+						<content>
+							<p>Ако је заштићено подручје из <ref wId="ref90" href="akn/rs/act/2018/87-50/srp@/!main~art_47__para_1" >става 1. овог</ref> члана у првој или другој категорији угрожености од пожара, управљач заштићеног подручја ће превентивне мере заштите од пожара утврдити кроз План заштите од пожара из <ref wId="ref89" href="akn/rs/act/2018/87-50/srp@/!main~art_27" >члана 27. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan47-stav3">
+						<content>
+							<p>На план управљања из <ref wId="ref91" href="akn/rs/act/2018/87-50/srp@/!main~art_47__para_1" >става 1. овог</ref> члана прибавља се сагласност Министарства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan48">
+					<num>48.</num>
+					<heading>Смештање запаљивог материјала</heading>
+					<paragraph wId="gla3-clan48-stav1">
+						<content>
+							<p>Запаљиви материјал не сме се смештати на простору који није удаљен најмање 6  m од објекта или дела објекта, ако техничким прописима није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan49">
+					<num>49.</num>
+					<heading>Жетвени радови</heading>
+					<paragraph wId="gla3-clan49-stav1">
+						<content>
+							<p>Привредно друштво, земљорадничка задруга, установа или друго правно лице, предузетник и пољопривредник који врши жетвене радове дужан је да предузме посебне мере заштите стрних усева од пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan49-stav2">
+						<intro>
+							<p>Под посебним мерама заштите стрних усева од пожара подразумевају се:</p>
+						</intro>
+						<point wId="gla3-clan49-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> организовање сталног дежурства;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan49-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> организовање осматрачке службе;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan49-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> организовање службе везе и обавештавања;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan49-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> опремање механизације одговарајућом противпожарном опремом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan49-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> контрола противпожарне опреме;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan49-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> контрола исправности механизације;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan49-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> контрола ускладиштавања усева.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan49-stav3">
+						<content>
+							<p>Министар надлежан за пољопривреду, уз сагласност министра, доноси пропис којим ближе уређује мере заштите од пожара у пољопривреди.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan50">
+					<num>50.</num>
+					<heading>Спаљивање на отвореном простору</heading>
+					<paragraph wId="gla3-clan50-stav1">
+						<content>
+							<p>Забрањено је спаљивање остатака стрних усева, спаљивање смећа на отвореном простору и спаљивање биљних остатака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan50-stav2">
+						<content>
+							<p>Лице које је радњама из <ref wId="ref92" href="akn/rs/act/2018/87-50/srp@/!main~art_50__para_1" >става 1. овог</ref> члана изазвало пожар дужно је да ватрогасно-спасилачкој јединици надокнади трошкове интервенције, у складу с посебним прописом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan51">
+					<num>51.</num>
+					<heading>Противпожарна стража</heading>
+					<paragraph wId="gla3-clan51-stav1">
+						<intro>
+							<p>Противпожарну стражу дужно је да организује:</p>
+						</intro>
+						<point wId="gla3-clan51-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> лице које претаче запаљиве течности или запаљиве гасове у количини изнад 5  m³;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan51-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> лице које изводи радове заваривања, резања и лемљења, користи отворени пламен или алат који приликом коришћења варничи у просторији која није посебно прилагођена за обављање тог посла или на удаљености од 200  m од руба шуме;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan51-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> организатор јавног скупа или приредбе на којој постоји опасност од избијања пожара.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan51-stav2">
+						<content>
+							<p>Под противпожарном стражом из <ref wId="ref93" href="akn/rs/act/2018/87-50/srp@/!main~art_51__para_1" >става 1. овог</ref> члана подразумева се присуство лица стручно оспособљених за спровођење мера заштите од пожара са одговарајућом противпожарном опремом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan52">
+					<num>52.</num>
+					<heading>Услови за обављање послова заштите од пожара</heading>
+					<paragraph wId="gla3-clan52-stav1">
+						<intro>
+							<p>Поред општих услова за заснивање радног односа, посебне психофизичке и здравствене способности, за обављање послова заштите од пожара потребни су следећи услови:</p>
+						</intro>
+						<point wId="gla3-clan52-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> за субјекте у првој категорији из <ref wId="ref94" href="akn/rs/act/2018/87-50/srp@/!main~art_24__para_1" >члана 24. став 1. </ref>руководилац на пословима превентиве  може бити лице које је стекло најмање 240 ЕСПБ бодова на академским или  струковним студијама техничко-технолошке научне области*, а руководилац ватрогасне јединице мора имати најмање  први степен високог образовања техничко-технолошке научне области*;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan52-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> за субјекте у другој категорији из <ref wId="ref95" href="akn/rs/act/2018/87-50/srp@/!main~art_24__para_2" >члана 24. став 2. </ref>руководилац службе заштите од пожара и лице које ради на организовању и спровођењу превентивних мера заштите од пожара мора имати најмање  први степен високог образовања*;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan52-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> запослени у ватрогасним јединицама, у служби заштите од пожара и на пословима заштите од пожара морају имати најмање  средње образовање*.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan52-stav2">
+						<content>
+							<p>Лица из става 1. тачка <ref wId="ref96" href="akn/rs/act/2018/87-50/srp@/!main~art_52__para_1__point_3" >3</ref>) овог члана која први пут заснивају радни однос или се први пут распоређују на послове заштите од пожара не могу бити старија од 30 година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan52-stav3">
+						<content>
+							<p>Услови из <ref wId="ref97" href="akn/rs/act/2018/87-50/srp@/!main~art_52__para_2" >става 2. овог</ref> члана примењују се и на професионалне  ватрогасно-спасилачке јединице Министарства.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan52-stav4">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref98" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan53">
+					<num>53.</num>
+					<heading>Основна обука запослених</heading>
+					<paragraph wId="gla3-clan53-stav1">
+						<content>
+							<p>Основна обука из  области заштите од пожара организује се за све запослене одмах по ступању на  рад, а најкасније у року од 30 дана од дана ступања на рад.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan53-stav2">
+						<content>
+							<p>Основну обуку и практичну проверу знања запослених  за потребе трећих лица обављају правна лица из <ref wId="ref99" href="akn/rs/act/2018/87-50/srp@/!main~art_25" >члана 25. </ref>и <ref wId="ref100" href="akn/rs/act/2018/87-50/srp@/!main~art_56__para_1" >члана 56. став 1.  овог</ref> закона. Лица која раде на пословима заштите од пожара могу обављати  основну обуку и практичну проверу знања из <ref wId="ref101" href="akn/rs/act/2018/87-50/srp@/!main~art_53__para_1" >става 1. овог</ref> члана у правном  лицу у коме су запослени.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan53-stav3">
+						<content>
+							<p>Програм основне обуке доноси послодавац односно руководилац државног органа, органа аутономне покрајине или органа јединице локалне самоуправе, по прибављеној сагласности Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan53-stav4">
+						<content>
+							<p>Програм основне обуке запослених има општи део и посебни део који садржи  специфичности заштите од пожара за делатност којом се правно лице бави.  Минимум садржаја програма основне обуке запослених из <ref wId="ref102" href="akn/rs/act/2018/87-50/srp@/!main~art_53__para_1" >става 1. овог</ref> члана  прописује министар.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan53-stav5">
+						<content>
+							<p>Изузетно од <ref wId="ref103" href="akn/rs/act/2018/87-50/srp@/!main~art_53__para_3" >става 3. овог</ref> члана Министарство одбране не прибавља сагласност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan53-stav6">
+						<content>
+							<p>Провера знања запослених врши се једном у три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan53-stav7">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref104" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan54">
+					<num>54.</num>
+					<heading>Обавезно присуствовање обуци</heading>
+					<paragraph wId="gla3-clan54-stav1">
+						<content>
+							<p>Запослени су дужни да присуствују обуци и провери знања из области заштите од пожара и да се у раду придржавају прописаних упутстава, упозорења, забрана, мера заштите од пожара, као и да у случају пожара приступе гашењу пожара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan55">
+					<num>55.</num>
+					<heading>Посебна обука из области заштите од пожара</heading>
+					<paragraph wId="gla3-clan55-stav1">
+						<content>
+							<p>Лица која раде на пословима заштите од пожара дужна су да похађају посебну обуку из области заштите од пожара (у даљем тексту: посебна обука) и положе стручни испит најкасније у року од годину дана од дана заснивања радног односа, односно распоређивања на послове заштите од пожара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan55-stav2">
+						<content>
+							<p>Лица која су се као припадници Војске Србије стручно оспособљавала на курсевима заштите од пожара, по програму који је усклађен са Министарством, стичу право на полагање стручног испита из <ref wId="ref105" href="akn/rs/act/2018/87-50/srp@/!main~art_55__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan55-stav3">
+						<content>
+							<p>Стручни испит се полаже пред комисијом Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan55-stav4">
+						<content>
+							<p>Врсту и програм обуке, обим и услове посебне обуке, начин полагања, висину трошкова стручног испита, као и висину накнаде члановима комисије из <ref wId="ref106" href="akn/rs/act/2018/87-50/srp@/!main~art_55__para_3" >става 3. овог</ref> члана прописује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan56">
+					<num>56.</num>
+					<heading>Правна лица која изводе посебну обуку</heading>
+					<paragraph wId="gla3-clan56-stav1">
+						<content>
+							<p>Посебну обуку изводе правна лица која испуњавају одређене услове и имају одобрење Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan56-stav2">
+						<content>
+							<p>Услове из <ref wId="ref107" href="akn/rs/act/2018/87-50/srp@/!main~art_56__para_1" >става 1. овог</ref> члана утврђује Министарство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan57">
+					<num>57.</num>
+					<heading>Посебна обука из области заштите од пожара у Министарству одбране и Војсци Србије</heading>
+					<paragraph wId="gla3-clan57-stav1">
+						<content>
+							<p>Лица која раде на пословима заштите од пожара у Министарству одбране и Војсци Србије дужна су да похађају посебну обуку из области заштите од пожара и положе посебан стручни испит, на начин који прописује министар одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОРГАНИЗАЦИЈА ВАТРОГАСНЕ СЛУЖБЕ</heading>
+				<paragraph wId="gla4-clan57-stav1">
+					<content>
+						<p>Чл. 58 - 62.</p>
+					</content>
+				</paragraph>
+				<article wId="gla4-clan63">
+					<num>63.</num>
+					<heading>Престали су да важе (види  <ref wId="ref108" href="akn/rs/act/2018/87/srp@/!main~/art_120">члан 120. Закона - 87/2018-3</ref>)</heading>
+				</article>
+				<article wId="gla4-clan64">
+					<num>64.</num>
+					<heading>Брисан је  (види <ref wId="ref109" href="akn/rs/act/2015/20/srp@/!main~/art_29">члан 29. Закона - 20/2015-13</ref>)</heading>
+				</article>
+				<article wId="gla4-clan65">
+					<num>65.</num>
+					<heading>Престао је да важи (види  <ref wId="ref110" href="akn/rs/act/2018/87/srp@/!main~/art_120">члан 120. Закона - 87/2018-3</ref>)</heading>
+				</article>
+				<article wId="gla4-clan72">
+					<num>66-72.</num>
+					<heading>Престао је да важи (види <ref wId="ref112" href="akn/rs/act/2018/87/srp@/!main~/art_37">члан 37. Закона - 87/2018-50</ref>)</heading>
+					<paragraph wId="gla4-clan72-stav1">
+						<content>
+							<p>Престали су да важе (види <ref wId="ref111" href="akn/rs/act/2018/87/srp@/!main~/art_120">члан 120. Закона - 87/2018-3</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>НАДЗОР НАД СПРОВОЂЕЊЕМ ЗАШТИТЕ ОД ПОЖАРА</heading>
+				<article wId="gla5-clan73">
+					<num>73.</num>
+					<heading>Надзор</heading>
+					<paragraph wId="gla5-clan73-stav1">
+						<content>
+							<p>Надзор над извршавањем одредаба овог закона и прописа донесених на основу њега врши Министарство преко инспектора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan73-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref113" href="akn/rs/act/2018/87-50/srp@/!main~art_73__para_1" >става 1. овог</ref> члана, надзор над спровођењем заштите од пожара у објектима посебне намене које користи Министарство одбране и Војска Србије  * врши Министарство одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan73-stav3">
+						<content>
+							<p>За субјекте у првој и другој категорији угрожености од пожара врши се периодични преглед, у складу с актом који доноси министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan73-stav4">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref114" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan74">
+					<num>74.</num>
+					<heading>Инспектори</heading>
+					<paragraph wId="gla5-clan74-stav1">
+						<content>
+							<p>Послове инспектора обавља лице које има високу односно вишу стручну спрему техничког или другог одговарајућег смера и положен  испит за инспектора, у складу са законом којим се уређује  инспекцијски надзор, и* посебан стручни испит Министарства и испуњава друге услове прописане законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan74-stav2">
+						<content>
+							<p>Министар прописује програм и начин полагања посебног стручног испита за инспекторе из <ref wId="ref115" href="akn/rs/act/2018/87-50/srp@/!main~art_74__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan74-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref116" href="akn/rs/act/2018/87/srp@">87/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan75">
+					<num>75.</num>
+					<heading>Вршење увиђаја</heading>
+					<paragraph wId="gla5-clan75-stav1">
+						<content>
+							<p>Инспектори учествују у вршењу увиђаја приликом избијања пожара и предузимају мере за утврђивање узрока пожара и отклањање штетних последица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan76">
+					<num>76.</num>
+					<heading>Права и дужности инспектора</heading>
+					<paragraph wId="gla5-clan76-stav1">
+						<intro>
+							<p>У вршењу послова инспекцијског надзора инспектор има право и дужност да:</p>
+						</intro>
+						<point wId="gla5-clan76-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> уђе у приватни посед на захтев станара или у случају отклањања озбиљне непосредне опасности по живот и здравље људи и имовину већег обима;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan76-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> обавести надлежни орган односно надлежног инспектора да се градња објеката не спроводи у складу с мерама заштите од пожара предвиђеним у главном пројекту.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan76-stav2">
+						<content>
+							<p>Власници односно корисници објеката и других непокретности дужни су да омогуће обављање инспекцијских послова и да инспектору дају на увид прописану документацију, потребне податке и обавештења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan77">
+					<num>77.</num>
+					<heading>Налагање мера</heading>
+					<paragraph wId="gla5-clan77-stav1">
+						<intro>
+							<p>Инспектор може решењем наложити предузимање следећих мера:</p>
+						</intro>
+						<point wId="gla5-clan77-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> забрану употребе оруђа и средстава од којих прети непосредна опасност од избијања пожара, док се опасност не отклони;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan77-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>  забрану вршења одређеног посла у објекту, делу објекта или простору ако им  очигледно прети опасност од избијања и ширења пожара или ако нису обезбеђени  услови за сигурну евакуацију људи, док се другим противпожарним мерама  (адаптација објекта, дела објекта или простора постављањем противпожарних  запрека и сл.) ова непосредна опасност не отклони, као и забрану употребе  објекта, ако није утврђена подобност објекта за употребу према <ref wId="ref117" href="akn/rs/act/2018/87-50/srp@/!main~art_36" >члану 36.  </ref>Закона;*</p>
+							</content>
+						</point>
+						<point wId="gla5-clan77-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> адаптацију или преграђивање на објекту да би се спречило избијање и ширење пожара и угрожавање људи и имовине;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan77-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> забрану пушења, употребу отворене ватре или уређаја на одређеним местима на којима прети опасност од избијања пожара;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan77-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> набавку неопходне ватрогасне опреме и средстава за гашење пожара, као и њихово одржавање у исправном стању;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan77-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> друге мере које имају за циљ да спрече  * избијање и ширење пожара и обезбеде заштиту људи и  имовине*.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan77-stav2">
+						<content>
+							<p>Жалба против решења из става 1. тач. <ref wId="ref118" href="akn/rs/act/2018/87-50/srp@/!main~art_77__para_1__point_1" >1</ref>), <ref wId="ref119" href="akn/rs/act/2018/87-50/srp@/!main~art_77__para_1__point_4" >4</ref>) и <ref wId="ref120" href="akn/rs/act/2018/87-50/srp@/!main~art_77__para_1__point_6" >6</ref>) не одлаже извршење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan77-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref121" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan78">
+					<num>78.</num>
+					<heading>Овлашћења инспектора</heading>
+					<paragraph wId="gla5-clan78-stav1">
+						<intro>
+							<p>У вршењу инспекцијског надзора инспектор је овлашћен да наложи да се:</p>
+						</intro>
+						<point wId="gla5-clan78-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> доведу у исправно стање постројења, инсталације и уређаји;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> обави реконструкција објекта или појединих просторија у њему ради спровођења мера заштите од пожара;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> уклони отпад из затвореног и отвореног простора који је настао у процесу рада или је одложен на забрањеним местима;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> уклоне предмети из просторија или простора који представљају опасност од настајања и ширења пожара или онемогућавају брз и сигуран излазак из угроженог објекта или простора;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> одржавају сви шумски путеви и просеци у стању које омогућава свакодневни приступ ватрогасним возилима;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> изведу стабилни, полустабилни, мобилни, односно други одговарајући уређаји и инсталације за дојаву и гашење пожара, као и други заштитни уређаји и инсталације;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> изведу потребни излази из објекта или његовог дела да би се омогућио брз излазак лица у случају пожара;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> онемогући приступ возилима која при раду могу избацивати искре на местима где би то представљало опасност од избијања пожара;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> доведу у исправно стање ватрогасна опрема и средства за гашење пожара или та опрема и средства поставе на одређено место;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> уклоне односно измене они елементи на постројењима, инсталацијама и уређајима који при употреби могу изазвати пожар;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> уклоне запаљиве материје којима су обрађене водоравне и вертикалне површине евакуационих путева;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan78-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> провери знање и обученост припадника ватрогасних јединица.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan79">
+					<num>79.</num>
+					<heading>Решења о забрани</heading>
+					<paragraph wId="gla5-clan79-stav1">
+						<intro>
+							<p>Инспектор ће због непосредне опасности од пожара решењем забранити:</p>
+						</intro>
+						<point wId="gla5-clan79-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> држање сировина, готових производа или других предмета у затвореним или отвореним складишним просторима од којих прети опасност од избијања и ширења пожара;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan79-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> употребу отворене ватре у затвореним и отвореним просторима (пушење, заваривање, употребу светиљки са отвореним пламеном, отворена ложишта, електроинсталације које нису у посебној изведби и сл.);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan79-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> употребу објеката или њихових делова, делова постројења, инсталација или других уређаја ако се њиховим преуређењем не може отклонити недостатак који може изазвати пожар;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan79-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> употребу уређаја, инсталација и средстава док се не предузму мере да се опасност уклони;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan79-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обављање одређеног посла у објекту или његовом делу, просторији односно простору (лакирање, претакање запаљивих течности и гасова и сл.).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan79-stav2">
+						<content>
+							<p>Жалба против решења из <ref wId="ref122" href="akn/rs/act/2018/87-50/srp@/!main~art_79__para_1" >става 1. овог</ref> члана не одлаже извршење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan80">
+					<num>80.</num>
+					<heading>Надзор над грађењем објеката</heading>
+					<paragraph wId="gla5-clan80-stav1">
+						<intro>
+							<p>Надзор  над грађењем објеката обухвата:*</p>
+						</intro>
+						<point wId="gla5-clan80-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>  контролу да ли се грађење врши према овереним главним пројектима, главном  пројекту заштите од пожара и главним пројектима посебних система и мерама  заштите од пожара;*</p>
+							</content>
+						</point>
+						<point wId="gla5-clan80-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>  контролу и проверу квалитета извођења свих врста радова и примену прописа,  стандарда на које се технички прописи позивају и техничких норматива из  области заштите од пожара; проверу да ли постоје докази о квалитету  материјала, опреме и инсталација који се уграђују, према овереним главним  пројектима, главном пројекту заштите од пожара и главним пројектима посебних  система и мера заштите од пожара; давање упутства извођачу радова; сарадњу  са пројектантом ради обезбеђења технолошких и организационих решења за  извођење радова и решавање других питања која се појаве у току извођења  радова.*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan80-stav2">
+						<content>
+							<p>Надзор  из <ref wId="ref125" href="akn/rs/act/2018/87-50/srp@/!main~art_80__para_1" >става 1. овог</ref> члана врши лице које испуњава услове за вршење стручног  надзора, у складу са прописима о планирању и изградњи и које има  одговарајуће лиценце из чл. <ref wId="ref123" href="akn/rs/act/2018/87-50/srp@/!main~art_32" >32</ref>. и <ref wId="ref124" href="akn/rs/act/2018/87-50/srp@/!main~art_38" >38</ref>. овог закона, а писаним актом  инвеститора или његовог заступника је одређено да у току извођења радова  обавља ове послове.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan80-stav3">
+						<content>
+							<p>Министар прописује ближе услове и начин одузимања овлашћења и лиценци из чл.  <ref wId="ref126" href="akn/rs/act/2018/87-50/srp@/!main~art_32" >32</ref>. и <ref wId="ref127" href="akn/rs/act/2018/87-50/srp@/!main~art_38" >38</ref>. овог закона, као и састав и начин рада комисије за одузимање  лиценци коју решењем образује министар.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan80-stav4">
+						<content>
+							<p>Министарство води евиденције о одузетим овлашћењима и лиценцама из <ref wId="ref128" href="akn/rs/act/2018/87-50/srp@/!main~art_80__para_3" >става 3.  овог</ref> члана.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan80-stav5">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref129" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan81">
+					<num>81.</num>
+					<heading>Привредни преступи</heading>
+					<paragraph wId="gla6-clan81-stav1">
+						<intro>
+							<p>Новчаном казном од 500.000. до 3.000.000 динара казниће се за привредни преступ правно лице ако:</p>
+						</intro>
+						<point wId="gla6-clan81-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> обавља послове из <ref wId="ref130" href="akn/rs/act/2018/87-50/srp@/!main~art_24" >члана 24. овог</ref> закона а не испуњава прописане услове и нема овлашћење Министарства за обављање ових послова (<ref wId="ref131" href="akn/rs/act/2018/87-50/srp@/!main~art_25__para_1" >члан 25. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan81-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> израђује Главни пројекат заштите од пожара а не испуњава прописане услове (<ref wId="ref132" href="akn/rs/act/2018/87-50/srp@/!main~art_32__para_1" >члан 32. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan81-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> обавља послове из <ref wId="ref133" href="akn/rs/act/2018/87-50/srp@/!main~art_38__para_1" >члана 38. став 1. овог</ref> закона а не испуњава прописане услове;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan81-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>  обавља послове из <ref wId="ref134" href="akn/rs/act/2018/87-50/srp@/!main~art_44__para_1" >члана 44. став 1, </ref>а не испуњава прописане услове и нема  овлашћење (<ref wId="ref135" href="akn/rs/act/2018/87-50/srp@/!main~art_44" >члан 44</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan81-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> изводи посебну обуку а не испуњава одређене услове и нема одобрење Министарства (<ref wId="ref136" href="akn/rs/act/2018/87-50/srp@/!main~art_56__para_1" >члан 56. став 1</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan81-stav2">
+						<content>
+							<p>За привредне преступе из <ref wId="ref137" href="akn/rs/act/2018/87-50/srp@/!main~art_81__para_1" >става 1. овог</ref> члана казниће се новчаном казном од 50.000 до 200.000 динара и одговорно лице у правном лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan81-stav3">
+						<content>
+							<p>За радње из <ref wId="ref138" href="akn/rs/act/2018/87-50/srp@/!main~art_81__para_1" >става 1. овог</ref> члана поред новчане казне може се изрећи и заштитна мера забране правном лицу да се бави одређеном привредном делатношћу, односно заштитна мера забране одговорном лицу у правном лицу да врши одређене дужности у трајању од шест месеци до пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan81-stav4">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref139" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan82">
+					<num>82.</num>
+					<heading>Прекршаји правног лица</heading>
+					<paragraph wId="gla6-clan82-stav1">
+						<intro>
+							<p>Новчаном казном од 300.000 динара до 1.000.000  динара казниће се за прекршај правно лице ако:*</p>
+						</intro>
+						<point wId="gla6-clan82-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> не  обезбеди технички опремљену и обучену ватрогасну јединицу са потребним  бројем ватрогасаца, не обезбеди спровођење превентивних мера заштите од  пожара и стално дежурство са потребним бројем лица стручно оспособљених за  спровођење заштите од пожара, не организује спровођење превентивних мера  заштите од пожара с потребним бројем лица стручно оспособљених за спровођење  заштите од пожара и не обезбеди адекватну опрему и уређаје за гашење пожара  (<ref wId="ref140" href="akn/rs/act/2018/87-50/srp@/!main~art_24__para_1->para_3" >члан 24. ст. 1, 2. и 3</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> не  донесе План заштите од пожара (члан 27. ст. <ref wId="ref141" href="akn/rs/act/2018/87-50/srp@/!main~art_27__para_1" >1</ref>. и <ref wId="ref142" href="akn/rs/act/2018/87-50/srp@/!main~art_27__para_3" >3</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> не  поступа по прорачунима из плана заштите од пожара (<ref wId="ref143" href="akn/rs/act/2018/87-50/srp@/!main~art_27__para_2" >члан 27. став 2</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> не  донесе измене и допуне плана заштите од пожара (<ref wId="ref144" href="akn/rs/act/2018/87-50/srp@/!main~art_27__para_4" >члан 27. став 4</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> не  истакне на видљивом месту план евакуације и упутства за поступање у случају  пожара (<ref wId="ref145" href="akn/rs/act/2018/87-50/srp@/!main~art_27а" >члан 27а</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> не  поступа по прорачунима из правила заштите од пожара (<ref wId="ref146" href="akn/rs/act/2018/87-50/srp@/!main~art_28__para_4" >члан 28. став 4</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> не  донесе Правила заштите од пожара (<ref wId="ref147" href="akn/rs/act/2018/87-50/srp@/!main~art_28__para_1" >члан 28. став 1</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> не  истакне План евакуације и упутства за поступање у случају пожара на видљиво  место (<ref wId="ref148" href="akn/rs/act/2018/87-50/srp@/!main~art_28__para_3" >члан 28. став 3</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> не  прибави сагласност Министарства у складу са <ref wId="ref150" href="akn/rs/act/2018/87-50/srp@/!main~art_33__para_1" >чланом 33. ст. 1. </ref>2. и 3, <ref wId="ref151" href="akn/rs/act/2018/87-50/srp@/!main~art_34__para_1" >чланом  34. ст. 1. </ref>2. и 3, и <ref wId="ref149" href="akn/rs/act/2018/87-50/srp@/!main~art_35" >чланом 35. овог</ref> закона;*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p>  обавља технолошке процесе на местима и начин супротно <ref wId="ref152" href="akn/rs/act/2018/87-50/srp@/!main~art_37__para_1->para_2" >члану 37. ст. 1. и 2.  овог</ref> закона;*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> у  објектима високоградње не обезбеди услове за сигурну евакуацију људи (<ref wId="ref153" href="akn/rs/act/2018/87-50/srp@/!main~art_40__para_1" >члан  40. став 1</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p>  не угради материјале захтеваних карактеристика реакције на пожар у складу са  прописима и стандардима, не прибави доказ о карактеристикама реакције на  пожар и не да га на увид надлежном органу (<ref wId="ref154" href="akn/rs/act/2018/87-50/srp@/!main~art_40__para_2" >члан 40. став 2</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p>  не изврши постављање инсталација на одговарајући начин или ако материјали за  инсталације немају одговарајуће карактеристике у складу са прописима и  стандардима, не прибави доказ од надлежне установе и не да га на увид  надлежном органу (<ref wId="ref155" href="akn/rs/act/2018/87-50/srp@/!main~art_40__para_3" >члан 40. став 3</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p>  уграђене инсталације у објектима не одржава у исправном стању и периодично  не контролише у складу са техничким прописима и стандардима на које се ти  прописи позивају (<ref wId="ref156" href="akn/rs/act/2018/87-50/srp@/!main~art_40__para_4" >члан 40. став 4</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p>  гради или поставља објекте и друге запреке на путевима, пролазима, платоима  и сличним прилазима објектима који су предвиђени за пролаз ватрогасних  возила или евакуацију људи и имовине угрожених пожаром (<ref wId="ref157" href="akn/rs/act/2018/87-50/srp@/!main~art_41" >члан 41</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p>  не угради системе за откривање и дојаву пожара (<ref wId="ref158" href="akn/rs/act/2018/87-50/srp@/!main~art_42__para_1" >члан 42. став 1</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p>  не угради системе за гашење пожара (<ref wId="ref159" href="akn/rs/act/2018/87-50/srp@/!main~art_42__para_2" >члан 42. став 2</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p>  не изради процену ризика из <ref wId="ref160" href="akn/rs/act/2018/87-50/srp@/!main~art_42" >члана 42. овог</ref> закона (<ref wId="ref161" href="akn/rs/act/2018/87-50/srp@/!main~art_42__para_3->para_4" >члан 42. ст. 3. и 4</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac19">
+							<num>19)</num>
+							<content>
+								<p>  инсталације и уређаје из <ref wId="ref162" href="akn/rs/act/2018/87-50/srp@/!main~art_43" >члана 43. овог</ref> закона не одржава у исправном и  функционалном стању (<ref wId="ref163" href="akn/rs/act/2018/87-50/srp@/!main~art_43" >члан 43</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac20">
+							<num>20)</num>
+							<content>
+								<p>  не изврши контролу исправности инсталација и уређаја у складу са <ref wId="ref164" href="akn/rs/act/2018/87-50/srp@/!main~art_44" >чланом 44.  овог</ref> закона (<ref wId="ref165" href="akn/rs/act/2018/87-50/srp@/!main~art_44" >члан 44</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac21">
+							<num>21)</num>
+							<content>
+								<p>  не утврди превентивне мере заштите од пожара у плану управљања заштићеног  подручја и не прибави сагласност Министарства (<ref wId="ref166" href="akn/rs/act/2018/87-50/srp@/!main~art_47" >члан 47</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac22">
+							<num>22)</num>
+							<content>
+								<p>  смешта запаљиви материјал на простору супротно <ref wId="ref167" href="akn/rs/act/2018/87-50/srp@/!main~art_48" >члану 48. овог</ref> закона;*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac23">
+							<num>23)</num>
+							<content>
+								<p>  за време жетвених радова не предузима посебне мере заштите стрних усева од  пожара (<ref wId="ref168" href="akn/rs/act/2018/87-50/srp@/!main~art_49__para_1->para_2" >члан 49. ст. 1. и 2</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac24">
+							<num>24)</num>
+							<content>
+								<p>  спаљује остатке стрних усева, биљних остатака и смећа на отвореном простору  (<ref wId="ref169" href="akn/rs/act/2018/87-50/srp@/!main~art_50__para_1" >члан 50. став 1</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac25">
+							<num>25)</num>
+							<content>
+								<p>  не организује противпожарну стражу (<ref wId="ref170" href="akn/rs/act/2018/87-50/srp@/!main~art_51" >члан 51</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac26">
+							<num>26)</num>
+							<content>
+								<p>  не организује основну обуку запослених из области заштите од пожара у  прописаном року и не врши практичну проверу знања запослених у прописаном  року (члан 53. ст. <ref wId="ref171" href="akn/rs/act/2018/87-50/srp@/!main~art_53__para_1" >1</ref>. и <ref wId="ref172" href="akn/rs/act/2018/87-50/srp@/!main~art_53__para_6" >6</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac27">
+							<num>27)</num>
+							<content>
+								<p>  лица која раде на пословима заштите од пожара не похађају посебну обуку из  области заштите од пожара и не положе стручни испит најкасније у року од  годину дана од дана заснивања радног односа, односно распоређивања на  послове заштите од пожара (<ref wId="ref173" href="akn/rs/act/2018/87-50/srp@/!main~art_55__para_1" >члан 55. став 1</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac28">
+							<num>28)</num>
+							<content>
+								<p>  ако инспектору не омогући несметано вршење послова, ако не стави на увид  потребна документа и предмете и не пружи другу тражену помоћ (<ref wId="ref174" href="akn/rs/act/2018/87-50/srp@/!main~art_76__para_2" >члан 76. став  2</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac29">
+							<num>29)</num>
+							<content>
+								<p>  ако не спроведе наложене мере заштите од пожара у року одређеном решењем  надлежног органа управе за унутрашње послове (чл. <ref wId="ref175" href="akn/rs/act/2018/87-50/srp@/!main~art_77" >77</ref>. и <ref wId="ref176" href="akn/rs/act/2018/87-50/srp@/!main~art_78" >78</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac30">
+							<num>30)</num>
+							<content>
+								<p>  ако повреди решење о забрани (<ref wId="ref177" href="akn/rs/act/2018/87-50/srp@/!main~art_79" >члан 79</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan82-stav1-tac31">
+							<num>31)</num>
+							<content>
+								<p>  не одреди лице за вршење надзора над грађењем објекта (<ref wId="ref178" href="akn/rs/act/2018/87-50/srp@/!main~art_80" >члан 80</ref>).*</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan82-stav2">
+						<content>
+							<p>За прекршаје из <ref wId="ref179" href="akn/rs/act/2018/87-50/srp@/!main~art_82__para_1" >става 1. овог</ref> члана казниће се новчаном казном од 10.000 до 50.000 динара и одговорно лице у правном лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan82-stav3">
+						<content>
+							<p>За прекршаје из <ref wId="ref180" href="akn/rs/act/2018/87-50/srp@/!main~art_82__para_1" >става 1. овог</ref> члана казниће се предузетник новчаном казном од 150.000 до 500.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan82-stav4">
+						<content>
+							<p>За прекршаје из <ref wId="ref181" href="akn/rs/act/2018/87-50/srp@/!main~art_82__para_1" >става 1. овог</ref> члана правном лицу и предузетнику може се изрећи заштитна мера забране вршења одређених делатности у трајању од шест месеци до три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan82-stav5">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref182" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan83">
+					<num>83.</num>
+					<heading>Прекршаји одговорног лица у државном органу, органу аутономне покрајине и јединице локалне самоуправе</heading>
+					<paragraph wId="gla6-clan83-stav1">
+						<intro>
+							<p>Новчаном казном од 10.000 до 50.000 динара казниће се одговорно лице у надлежном органу ако:</p>
+						</intro>
+						<point wId="gla6-clan83-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>  брисана је (види <ref wId="ref183" href="akn/rs/act/2015/20/srp@/!main~/art_36">члан 36. Закона - 20/2015-13</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla6-clan83-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> не донесе План заштите од пожара (чл. <ref wId="ref184" href="akn/rs/act/2018/87-50/srp@/!main~art_20" >20</ref>. и <ref wId="ref185" href="akn/rs/act/2018/87-50/srp@/!main~art_22" >22</ref>);</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan83-stav2">
+						<intro>
+							<p>2а)  не донесе и не изврши измене и допуне плана заштите од пожара (<ref wId="ref186" href="akn/rs/act/2018/87-50/srp@/!main~art_27__para_3" >члан 27. став  3</ref>);*</p>
+						</intro>
+						<point wId="gla6-clan83-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> не прибави мишљење Министарства које садржи  услове заштите од пожара и експлозија (<ref wId="ref187" href="akn/rs/act/2018/87-50/srp@/!main~art_29__para_2" >члан 29. став 2</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan83-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p>  изда употребну дозволу без претходно прибављене сагласности о подобности за  употребу у погледу спроведености мера заштите од пожара (<ref wId="ref188" href="akn/rs/act/2018/87-50/srp@/!main~art_36__para_6" >члан 36. став 6</ref>);*</p>
+							</content>
+						</point>
+						<point wId="gla6-clan83-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> не организује основну обуку запослених из области заштите од пожара у прописаном року и не врши практичну проверу знања запослених у прописаном року  (члан 53. ст. <ref wId="ref189" href="akn/rs/act/2018/87-50/srp@/!main~art_53__para_1" >1</ref>. и <ref wId="ref190" href="akn/rs/act/2018/87-50/srp@/!main~art_53__para_6" >6</ref>)*.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan83-stav3">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref191" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan84">
+					<num>84.</num>
+					<heading>Прекршаји физичког лица</heading>
+					<paragraph wId="gla6-clan84-stav1">
+						<intro>
+							<p>Новчаном казном од 10.000 до 50.000 динара казниће се за прекршај физичко лице ако:</p>
+						</intro>
+						<point wId="gla6-clan84-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> гради или поставља објекте и друге запреке на путевима, пролазима, платоима и сличним прилазима објектима који су предвиђени за пролаз ватрогасних возила или евакуацију људи и имовине угрожених пожаром (<ref wId="ref192" href="akn/rs/act/2018/87-50/srp@/!main~art_41" >члан 41</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan84-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ложи отворену ватру у шуми и на удаљености од 200  m од руба шуме супротно <ref wId="ref193" href="akn/rs/act/2018/87-50/srp@/!main~art_46" >члану 46. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan84-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> смешта запаљиви материјал на простору супротно <ref wId="ref194" href="akn/rs/act/2018/87-50/srp@/!main~art_48" >члану 48. </ref>Закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan84-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> за време жетве не предузима посебне мере заштите стрних усева од пожара (<ref wId="ref195" href="akn/rs/act/2018/87-50/srp@/!main~art_49__para_1->para_2" >члан 49. ст. 1. и 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan84-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>   брисана је (види <ref wId="ref196" href="akn/rs/act/2015/20/srp@/!main~/art_37">члан 37. Закона - 20/2015-13</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla6-clan84-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> не организује противпожарну стражу (<ref wId="ref197" href="akn/rs/act/2018/87-50/srp@/!main~art_51" >члан 51</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan84-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> примети непосредну опасност од избијања пожара или пожар а не уклони опасност, односно не угаси пожар или о пожару без одлагања не обавести надлежну ватрогасну јединицу или полицијску станицу (<ref wId="ref198" href="akn/rs/act/2018/87-50/srp@/!main~art_71__para_1" >члан 71. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan84-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> лажно пријави пожар или другу техничко-технолошку несрећу (<ref wId="ref199" href="akn/rs/act/2018/87-50/srp@/!main~art_71__para_2" >члан 71. став 2</ref>);</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan84-stav2">
+						<content>
+							<p>8а)  не прибави сагласности у складу са чл. <ref wId="ref200" href="akn/rs/act/2018/87-50/srp@/!main~art_33" >33</ref>, <ref wId="ref201" href="akn/rs/act/2018/87-50/srp@/!main~art_34" >34</ref>. и <ref wId="ref202" href="akn/rs/act/2018/87-50/srp@/!main~art_35" >35</ref>. овог закона.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan84-stav3">
+						<content>
+							<p>Новчаном казном у износу од 10.000 динара казниће се за прекршај физичко  лице ако спаљује остатке стрних усева, смеће и биљне остатке на отвореном  простору (<ref wId="ref203" href="akn/rs/act/2018/87-50/srp@/!main~art_50__para_1" >члан 50. став 1</ref>).*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan84-stav4">
+						<content>
+							<p>*Службени  гласник РС, број <ref wId="ref204" href="akn/rs/act/2015/20/srp@">20/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan85">
+					<num>85.</num>
+					<heading>Споразум Министарства и јединице локалне самоуправе</heading>
+					<paragraph wId="gla7-clan85-stav1">
+						<content>
+							<p>На територији локалне самоуправе на којој није основана ватрогасна јединица послове те јединице до њеног оснивања обавља ватрогасно-спасилачка јединица Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan85-stav2">
+						<content>
+							<p>Министарство и локалне самоуправе могу закључити споразум којим се уређују питања преношења односно преузимања опреме и средстава којима располаже Министарство а која су неопходна за почетак рада професионалних ватрогасних јединица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan86">
+					<num>86.</num>
+					<heading>Усклађивање пословања и општих аката</heading>
+					<paragraph wId="gla7-clan86-stav1">
+						<content>
+							<p>Привредна друштва и друга правна лица која обављају послове за које су овим законом прописани посебни услови дужна су да своје пословање ускладе са одредбама овог закона у року од годину дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan86-stav2">
+						<content>
+							<p>Државни органи, органи аутономне покрајине, органи јединице локалне самоуправе, привредна друштва и друга правна лица дужни су да ускладе своје опште акте који се односе на заштиту од пожара са одредбама овог закона у року од годину дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan87">
+					<num>87.</num>
+					<heading>Лица која су положила стручни испит</heading>
+					<paragraph wId="gla7-clan87-stav1">
+						<content>
+							<p>Лица која су до дана ступања на снагу овог закона положила стручни испит којим је извршена провера стручне оспособљености за рад на пословима одређеним овим законом по прописима који су били на снази у време њиховог полагања, као и лица којима је тим прописима признато право вршења одређених послова, испуњавају услове за вршење тих послова и према одредбама овог закона ако испуњавају и остале прописане услове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan88">
+					<num>88.</num>
+					<heading>Наставак поступака</heading>
+					<paragraph wId="gla7-clan88-stav1">
+						<content>
+							<p>Поступци који су започети до дана ступања на снагу овог закона наставиће се по прописима који су важили до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan89">
+					<num>89.</num>
+					<heading>Престанак важења</heading>
+					<paragraph wId="gla7-clan89-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престаје да важи Закон о заштити од пожара („Службени гласник СРС”, број <ref wId="ref206" href="akn/rs/act/88/37/srp@">37/88</ref> и „Службени гласник РС”, бр. <ref wId="ref207" href="akn/rs/act/93/53/srp@">53/93</ref>, <ref wId="ref208" href="akn/rs/act/93/67/srp@">67/93</ref>, <ref wId="ref209" href="akn/rs/act/94/48/srp@">48/94</ref> и <ref wId="ref210" href="akn/rs/act/05/101/srp@">101/05</ref>), осим одредаба <ref wId="ref205" href="akn/rs/act/2018/87-50/srp@/!main~art_74->art_79" >чл. 74</ref>–79, који престају да важе у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan89-stav2">
+						<content>
+							<p>Подзаконски прописи предвиђени овим законом донеће се у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan89-stav3">
+						<content>
+							<p>До почетка примене подзаконских прописа из <ref wId="ref211" href="akn/rs/act/2018/87-50/srp@/!main~art_89__para_2" >става 2. овог</ref> члана примењују се одредбе важећих подзаконских прописа које нису у супротности са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan90">
+					<num>90.</num>
+					<heading>Ступање на снагу</heading>
+					<paragraph wId="gla7-clan90-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику РС”, а примењује се по истеку девет месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan90-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У &quot;ПРЕЧИШЋЕН ТЕКСТ&quot; ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan38">
+					<num>38.</num>
+					<heading>Закон о изменама и допунама Закона о заштити од пожара: "Службени гласник  РС", број <ref wId="ref212" href="akn/rs/act/2015/20/srp@">20/2015</ref>-13</heading>
+					<paragraph wId="gla7-clan38-stav1">
+						<content>
+							<p>Подзаконски прописи  предвиђени овим законом донеће се у року од шест месеци од дана ступања на  снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan39">
+					<num>39.</num>
+					<paragraph wId="gla7-clan39-stav1">
+						<content>
+							<p>Овај закон ступа на  снагу осмог дана од дана објављивања у „Службеном гласнику Републике  Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

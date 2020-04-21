@@ -1,0 +1,2262 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о хипотеци">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2005/115-10/main"/>
+					<FRBRuri value="akn/rs/act/2005/115-10"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2015/83-9/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2015/83-9/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2015/83-9/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2015/83-9/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-12-27" name="службени гласник рс" number="115" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="4. Заложно право на покретним стварима и непокретностима" value="4. заложно право на покретним стварима и непокретностима" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2005-01-01" refersTo="115/2005-10" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2015-01-01" refersTo="60/2015-3" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2015-01-01" refersTo="63/2015-300" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2015-01-01" refersTo="83/2015-9" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2005-12-22" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2006-01-04" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2006-02-25" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="наплате"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="појам"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="обезбеђења"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="ради"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="потраживања"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="гласник"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="рс"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="број"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="службени"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="60"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="2015"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="хипотека"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="хипотеке"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ništava"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Hipoteka"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="CENTRALNA EVIDENCIJA HIPOTEKA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralnu evidenciju hipoteka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="IZDAVAČA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluku US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda broj IUz-799"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ZAKONA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="clausula intabulandi"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Iznos"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Poverilac"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 3. tačka 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. stav 7. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. st. 4. i 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. stav 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="62."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="63. do 69. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 4. јануара 2006. године, а примењује се почев од шездесетог дана од дана објављивања, односно од 25. фебруара 2006. године (види члан 65. Закона).Закон о изменама и допунама Закона о хипотеци (Службени гласник РС, број 60/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. јула 2015. године (види члан 31. Закона - 60/2015-3).На подручју основног суда за које нису именовани јавни бележници, до именовања јавног бележника са службеним седиштем у седишту основног суда, уговоре о хипотеци, односно заложне изјаве сачињаваће основни суд у складу са одредбама овог закона и закона којим се уређује јавнобележничка делатност. Ако се на подручју основног суда именује јавни бележник са службеним седиштем ван седишта основног суда, до именовања јавног бележника са службеним седиштем у седишту основног суда, основни суд је надлежан за сачињавање наведених исправа само за територију града или општине на којима се не налази службено седиште именованог јавног бележника (види члан 29. Закона - 60/2015-3).За решења о забележби хипотекарне продаје која су постала правноснажна до дана ступања на снагу Закона о изменама и допунама Закона о хипотеци (Службени гласник РС, број 60/2015), рок из члана 18. овог закона, којим је измењен члан 34. став 6. Закона о хипотеци, почиње да тече од дана ступања на снагу Закона о изменама и допунама Закона о хипотеци (види члан 30. Закона - 60/2015-3).Одлуком Уставног суда број IУз-799/2012 (Службени гласник РС, број 63/2015) утврђено је да одредба члана 31. став 7. Закона о хипотеци (Службени гласник РС, број 115/2005), у делу који гласи: „и против њега није дозвољена тужба или правни лек”, није у сагласности са Уставом (види Одлуку УС - 63/2015-300).Закон о изменама Закона о хипотеци (Службени гласник РС, број 83/2015) ступио је на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 11. октобра 2015. године (види члан 6. Закона - 83/2015-9).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 4. јануара 2006. године, а примењује се почев од шездесетог дана од дана објављивања, односно од 25. фебруара 2006. године (види члан 65. Закона).Закон о изменама и допунама Закона о хипотеци (Службени гласник РС, број 60/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. јула 2015. године (види члан 31. Закона - 60/2015-3).На подручју основног суда за које нису именовани јавни бележници, до именовања јавног бележника са службеним седиштем у седишту основног суда, уговоре о хипотеци, односно заложне изјаве сачињаваће основни суд у складу са одредбама овог закона и закона којим се уређује јавнобележничка делатност. Ако се на подручју основног суда именује јавни бележник са службеним седиштем ван седишта основног суда, до именовања јавног бележника са службеним седиштем у седишту основног суда, основни суд је надлежан за сачињавање наведених исправа само за територију града или општине на којима се не налази службено седиште именованог јавног бележника (види члан 29. Закона - 60/2015-3).За решења о забележби хипотекарне продаје која су постала правноснажна до дана ступања на снагу Закона о изменама и допунама Закона о хипотеци (Службени гласник РС, број 60/2015), рок из члана 18. овог закона, којим је измењен члан 34. став 6. Закона о хипотеци, почиње да тече од дана ступања на снагу Закона о изменама и допунама Закона о хипотеци (види члан 30. Закона - 60/2015-3).Одлуком Уставног суда број IУз-799/2012 (Службени гласник РС, број 63/2015) утврђено је да одредба члана 31. став 7. Закона о хипотеци (Службени гласник РС, број 115/2005), у делу који гласи: „и против њега није дозвољена тужба или правни лек”, није у сагласности са Уставом (види Одлуку УС - 63/2015-300).Закон о изменама Закона о хипотеци (Службени гласник РС, број 83/2015) ступио је на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 11. октобра 2015. године (види члан 6. Закона - 83/2015-9).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О хипотеци „Службени гласник РС”, бр. <ref wId="ref130" href="akn/rs/act/2005/115/srp@">115 од 27. децембра 2005</ref>, <ref wId="ref131" href="akn/rs/act/2015/60/srp@">60 од 8. јула 2015</ref>, <ref wId="ref132" href="akn/rs/act/2015/63/srp@">63 од 17. јула 2015</ref> - УС, <ref wId="ref133" href="akn/rs/act/2015/83/srp@">83 од 3. октобра 2015</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<part wId="deo1">
+				<num>Део први</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="deo1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="deo1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се хипотека, ради обезбеђења  и наплате* потраживања * .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan1-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan2">
+					<num>2.</num>
+					<heading>Појам хипотеке</heading>
+					<paragraph wId="deo1-clan2-stav1">
+						<content>
+							<p>Хипотека је заложно право на непокретности, које овлашћује повериоца да, ако дужник не исплати дуг о доспелости захтева наплату потраживања обезбеђеног хипотеком (у даљем тексту: потраживање) из вредности непокретности, пре обичних поверилаца и пре доцнијих хипотекарних поверилаца (у даљем тексту: поверилац), без обзира у чијој својини се непокретност налази.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan3">
+					<num>3.</num>
+					<heading>Предмет хипотеке</heading>
+					<paragraph wId="deo1-clan3-stav1">
+						<intro>
+							<p>Предмет хипотеке (у даљем тексту: предмет или непокретност) може да буде:</p>
+						</intro>
+						<point wId="deo1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> непокретна ствар (право својине на земљишту, грађевинском објекту и сл.);</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> део непокретне ствари, у складу са одлуком о деоби;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> сусвојински удео у непокретној ствари;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> посебан део зграде на коме постоји право својине, односно друго право које садржи право располагања (стан, пословне просторије, гаража, гаражно место и др.);</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> право на земљишту које садржи овлашћење слободног правног располагања, а нарочито право грађења, право прече градње, или располагања у државној, односно друштвеној својини;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> објекат у изградњи, као и посебан део објекта у изградњи (стан, пословне просторије, гаража, и др.), без обзира да ли је већ изграђен, под условом да је издато правноснажно одобрење за градњу у складу са законом којим се уређује изградња објеката.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan4">
+					<num>4.</num>
+					<heading>Заједничка хипотека</heading>
+					<paragraph wId="deo1-clan4-stav1">
+						<content>
+							<p>Ради обезбеђења једног потраживања, хипотека може да оптерети више непокретности, без обзира да ли припадају истом или различитим власницима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan4-stav2">
+						<content>
+							<p>У случају из <ref wId="ref1" href="akn/rs/act/2015/83-9/srp@/!main~art_4__para_1" >става 1. овог</ref> члана, поверилац може потраживање да наплати по свом савесном избору из вредности једне или више непокретности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan5">
+					<num>5.</num>
+					<heading>Домашај хипотеке</heading>
+					<paragraph wId="deo1-clan5-stav1">
+						<intro>
+							<p>Хипотека обухвата непокретност, и то:</p>
+						</intro>
+						<point wId="deo1-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> све саставне делове непокретности, природне плодове који нису одвојени од непокретности, осим ако је уговором о хипотеци друкчије одређено;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> припатке непокретности одређене уговором о хипотеци, али не и ствари у својини трећих лица;</p>
+							</content>
+						</point>
+						<point wId="deo1-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> сва побољшања и повећања вредности непокретности до којих је дошло после заснивања хипотеке.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan6">
+					<num>6.</num>
+					<heading>Хипотека на сусвојини и заједничкој својини</heading>
+					<paragraph wId="deo1-clan6-stav1">
+						<content>
+							<p>Хипотеку на идеалном делу непокретне ствари у сусвојини власник идеалног дела заснива без сагласности осталих сувласника, осим ако се хипотека заснива на идеалном делу објекта у изградњи, када је потребна сагласност свих сувласника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan6-stav2">
+						<content>
+							<p>Хипотека на непокретној ствари у заједничкој својини заснива се само на целој непокретној ствари и уз сагласност свих заједничара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan6-stav3">
+						<content>
+							<p>У случају хипотеке из <ref wId="ref2" href="akn/rs/act/2015/83-9/srp@/!main~art_6__para_1->para_2" >ст. 1. и 2. овог</ref> члана, при намирењу, остали сувласници, односно заједничари имају право прече куповине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan7">
+					<num>7.</num>
+					<heading>Обезбеђено потраживање</heading>
+					<paragraph wId="deo1-clan7-stav1">
+						<content>
+							<p>Свако потраживање, укључујући и будуће или условно потраживање, као и потраживање изражено у страној валути, може да буде обезбеђено хипотеком.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav2">
+						<content>
+							<p>Потраживање из <ref wId="ref3" href="akn/rs/act/2015/83-9/srp@/!main~art_7__para_1" >става 1. овог</ref> члана обухвата главно потраживање, камату и трошкове наплате.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav3">
+						<content>
+							<p>Ако камата није уписана у регистар непокретности,  хипотека обухвата само законску камату од тренутка доцње, одређену у складу са  прописима којима се уређују облигациони односи и затезна камата, али не и у  случају када се уговорена каматна стопа примењује као затезна и после падања  дужника у доцњу.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav4">
+						<content>
+							<p>Текуће камате, као и трогодишње заостале камате,  рачунајући од дана доношења решења о извршењу, односно од*  коначности** решења  о забележби хипотекарне продаје у поступку вансудског намирења, имају исти ред  првенства као и главница.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav5">
+						<content>
+							<p>Део потраживања који није обезбеђен хипотеком може да се наплати само из остале дужникове имовине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan7-stav7">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2015/83/srp@">83/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo2">
+				<num>Део други</num>
+				<heading>НАСТАНАК ХИПОТЕКЕ</heading>
+				<article wId="deo2-clan8">
+					<num>8.</num>
+					<heading>Начин настанка и врсте хипотека</heading>
+					<paragraph wId="deo2-clan8-stav1">
+						<intro>
+							<p>Хипотека настаје уписом у надлежни регистар непокретности, на основу:</p>
+						</intro>
+						<point wId="deo2-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> уговора или судског поравнања (уговорна хипотека);</p>
+							</content>
+						</point>
+						<point wId="deo2-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> заложне изјаве (једнострана хипотека);</p>
+							</content>
+						</point>
+						<point wId="deo2-clan8-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> закона (законска хипотека);</p>
+							</content>
+						</point>
+						<point wId="deo2-clan8-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> судске одлуке (судска хипотека).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo2-clan8-stav2">
+						<content>
+							<p>Правила о уговорној хипотеци сходно се примењују на једнострану, законску и судску хипотеку, осим ако је законом друкчије прописано.</p>
+						</content>
+					</paragraph>
+				</article>
+				<chapter wId="deo2-gla1">
+					<num>прва</num>
+					<heading>УГОВОР О ХИПОТЕЦИ</heading>
+					<article wId="deo2-gla1-clan9">
+						<num>9.</num>
+						<heading>Појам</heading>
+						<paragraph wId="deo2-gla1-clan9-stav1">
+							<content>
+								<p>Уговор о хипотеци је уговор између власника  непокретности и повериоца којим се власник непокретности обавезује да у корист  повериоца заснује хипотеку ради намирења обезбеђеног потраживања, на начин  прописан законом.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan9-stav2">
+							<content>
+								<p>Дуг доспева у складу са уговором или другим правним основом из кога произилази.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan9-stav3">
+							<content>
+								<p>Уговор о хипотеци може да буде самосталан или део уговора који уређује потраживање (уговора о зајму, кредиту и др.).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan9-stav4">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-gla1-clan10">
+						<num>10.</num>
+						<heading>Закључење</heading>
+						<paragraph wId="deo2-gla1-clan10-stav1">
+							<content>
+								<p>Уговор о хипотеци закључује се у облику јавнобележничког  записа или јавнобележнички потврђене (солемнизоване) исправе.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan10-stav2">
+							<content>
+								<p>Уговор о хипотеци може да закључи власник, или друго лице које има право располагања, као и инвеститор и купац објекта у изградњи или посебног дела објекта у изградњи, у смислу <ref wId="ref7" href="akn/rs/act/2015/83-9/srp@/!main~art_3" >члана 3. овог</ref> закона (у даљем тексту: власник).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan10-stav3">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-gla1-clan11">
+						<num>11.</num>
+						<heading>Упис</heading>
+						<paragraph wId="deo2-gla1-clan11-stav1">
+							<intro>
+								<p>Упис уговорне хипотеке врши се на захтев:</p>
+							</intro>
+							<point wId="deo2-gla1-clan11-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> власника непокретности, односно његовог стараоца или законског заступника;</p>
+								</content>
+							</point>
+							<point wId="deo2-gla1-clan11-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> дужника;</p>
+								</content>
+							</point>
+							<point wId="deo2-gla1-clan11-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> повериоца.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan11-stav2">
+							<intro>
+								<p>У случају из члана 3. тачка <ref wId="ref9" href="akn/rs/act/2015/83-9/srp@/!main~art_3__para_2__point_6" >6</ref>) овог закона, упис уговорне хипотеке врши се на следећи начин:</p>
+							</intro>
+							<point wId="deo2-gla1-clan11-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> на земљишту на којем се објекат гради, уписује се хипотека на објекту у изградњи, а по упису објекта у регистар непокретности, хипотека се уписује на изграђеном објекту, односно посебном делу зграде, по службеној дужности;</p>
+								</content>
+							</point>
+							<point wId="deo2-gla1-clan11-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> ако је инвеститор продао купцу објекат у изградњи, односно посебни део објекта у изградњи, и хипотекарни поверилац купца може да захтева упис хипотеке на објекту у изградњи, односно посебном делу објекта, а по упису објекта у регистар непокретности, хипотека се уписује на изграђеном објекту, односно посебном делу зграде, по службеној дужности.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan11-stav3">
+							<content>
+								<p>Ако објекат у току изградње промени власника, нови власник ступа у права и обавезе претходног власника према лицима у чију корист је уписана хипотека.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan11-stav4">
+							<content>
+								<p>Објектом у изградњи, у смислу овог закона, сматра се и физички завршен објекат, односно његов засебни део, који није уписан у регистар непокретности, ако задовољава услове за упис хипотеке на објекту у изградњи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan11-stav5">
+							<content>
+								<p>Ризик евентуалног рушења непрописно саграђеног објекта, на коме је уписана хипотека, сносе власник непокретности, дужник и поверилац, у складу са њиховим унутрашњим односима.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-gla1-clan12">
+						<num>12.</num>
+						<heading>Обавезне одредбе</heading>
+						<paragraph wId="deo2-gla1-clan12-stav1">
+							<intro>
+								<p>Уговор о хипотеци садржи нарочито:</p>
+							</intro>
+							<point wId="deo2-gla1-clan12-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> име и презиме, пребивалиште или боравиште, односно пословно име и седиште повериоца, залогодавца, као и дужника, ако су то различита лица;</p>
+								</content>
+							</point>
+							<point wId="deo2-gla1-clan12-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> брисана је (види <ref wId="ref10" href="akn/rs/act/2015/60/srp@/!main~/art_5">члан  5. Закона - 60/2015-3</ref>)</p>
+								</content>
+							</point>
+							<point wId="deo2-gla1-clan12-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> прецизне податке о потраживању које се обезбеђује, валути обрачуна и валути плаћања, износу појединих рата и времену њихове доспелости и месту и начину плаћања, односно податке о главном потраживању, каматној стопи или другим елементима на основу којих се може одредити висина камате, месту и начину плаћања камате, као и износу других споредних давања ако су уговорена, роковима доспевања потраживања, односно начину на који се одређује доспелост, ако рок није одређен;</p>
+								</content>
+							</point>
+							<point wId="deo2-gla1-clan12-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> податке о хипотекованој непокретности, односно  непокретностима, укључујући и податке којим се доказује својина над њима,  односно постојање другог права из <ref wId="ref11" href="akn/rs/act/2015/83-9/srp@/!main~art_3" >члана 3. овог</ref> закона;*</p>
+								</content>
+							</point>
+							<point wId="deo2-gla1-clan12-stav1-tac5">
+								<num>5)</num>
+								<content>
+									<p> податке о стварима из <ref wId="ref12" href="akn/rs/act/2015/83-9/srp@/!main~art_5" >члана 5. овог</ref> закона које хипотека обухвата.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan12-stav2">
+							<content>
+								<p>Безусловнa изјавa власника (залогодавца) да пристаје  да поверилац упише хипотеку на његовој непокретности (clausula  intabulandi), може бити садржана у уговору о хипотеци, односно у  посебној исправи, и то форми из <ref wId="ref13" href="akn/rs/act/2015/83-9/srp@/!main~art_10__para_1" >члана 10. став 1, </ref>односно <ref wId="ref14" href="akn/rs/act/2015/83-9/srp@/!main~art_15__para_1" >члана 15. став 1. овог</ref>  закона, у којој је закључен и уговор о хипотеци.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan12-stav3">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo2-gla1-clan13">
+						<num>13.</num>
+						<heading>Ништаве одредбе</heading>
+						<paragraph wId="deo2-gla1-clan13-stav1">
+							<intro>
+								<p>Ништава је одредба уговора о хипотеци на основу које, ако дуг не буде исплаћен о доспелости:</p>
+							</intro>
+							<point wId="deo2-gla1-clan13-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> поверилац може да прода непокретност супротно одредбама овог закона;</p>
+								</content>
+							</point>
+							<point wId="deo2-gla1-clan13-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> непокретност по неодређеној или унапред одређеној цени прелази у својину повериоца или трећег лица.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan13-stav2">
+							<content>
+								<p>Ништава је одредба уговора о хипотеци на основу које поверилац има право да употребљава предмет хипотеке, односно да прибира плодове које даје предмет хипотеке.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla1-clan13-stav3">
+							<content>
+								<p>Ништава је одредба уговора о хипотеци на основу које власник не може да отуђи предмет хипотеке или да га оптерети хипотеком у корист доцнијег повериоца.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo2-gla2">
+					<num>друга</num>
+					<heading>ЈЕДНОСТРАНА ХИПОТЕКА</heading>
+					<article wId="deo2-gla2-clan14">
+						<num>14.</num>
+						<heading>Појам и настанак</heading>
+						<paragraph wId="deo2-gla2-clan14-stav1">
+							<content>
+								<p>Једнострана хипотека настаје на основу изјаве воље  власника непокретности – заложне изјаве.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla2-clan14-stav2">
+							<content>
+								<p>Заложна изјава из <ref wId="ref16" href="akn/rs/act/2015/83-9/srp@/!main~art_14__para_1" >става 1. овог</ref> члана је исправа  сачињена од стране власника непокретности, којом се он једнострано обавезује да  у корист повериоца заснује хипотеку ради намирења обезбеђеног потраживања на  начин прописан законом.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla2-clan14-stav3">
+							<content>
+								<p>Заложна изјава о заснивању једностране хипотеке по форми  и садржини одговара уговору о хипотеци.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla2-clan14-stav4">
+							<content>
+								<p>Упис једностране хипотеке на основу заложне изјаве врши  се на захтев повериоца.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla2-clan14-stav5">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref17" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo2-gla3">
+					<num>трећа</num>
+					<heading>ИЗВРШНА ИСПРАВА</heading>
+					<article wId="deo2-gla3-clan15">
+						<num>15.</num>
+						<heading>Својство и упис</heading>
+						<paragraph wId="deo2-gla3-clan15-stav1">
+							<content>
+								<p>Уговор о хипотеци, односно заложна изјава о једностраној  хипотеци, сачињена у складу са овим законом је, у смислу овог закона и закона  којим се уређује извршење и обезбеђење, извршна исправа, ако је закључена или  дата у форми јавнобележничког записа, под условом да садржи и одредбе из <ref wId="ref18" href="akn/rs/act/2015/83-9/srp@/!main~art_15__para_3" >става  3. овог</ref> члана.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla3-clan15-stav2">
+							<content>
+								<p>Хипотека заснована на основу извршног уговора или извршне заложне изјаве, уписује се у регистре непокретности као „извршна вансудска хипотека”, а вансудски поступак намирења се спроводи у складу са одредбама овог закона.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla3-clan15-stav3">
+							<intro>
+								<p>Извршни уговор о хипотеци, односно извршна заложна изјава о заснивању једностране хипотеке* мора да садржи и следеће одредбе:</p>
+							</intro>
+							<point wId="deo2-gla3-clan15-stav3-tac1">
+								<num>1)</num>
+								<content>
+									<p> јасно назначену одредбу, односно изјаву, којом власник непокретности неопозиво овлашћује повериоца да, ако дуг не буде плаћен о доспелости, * наплати потраживање из цене добијене продајом у складу са вансудским поступком продаје утврђеним овим законом, без подношења тужбе суду, као и да ће непокретност принудним путем да буде испражњена и предата купцу у посед у року од 15 дана од дана закључења уговора о продаји, осим ако се хипотека уписује на сувласничком уделу;</p>
+								</content>
+							</point>
+							<point wId="deo2-gla3-clan15-stav3-tac2">
+								<num>2)</num>
+								<content>
+									<p> изричиту одредбу, односно изјаву власника да је упозорен о последицама неизмирења дуга о доспелости те да, свестан тих последица, пристаје на могућност извршења уговора о хипотеци продајом његове непокретности у складу са одредбама овог закона о вансудском поступку намирења, без права на вођење парнице, као и да ће његова непокретност принудним путем бити испражњена и предата купцу у посед у року од 15 дана од дана закључења уговора о продаји, ако је власник не преда добровољно, осим ако се хипотека уписује на сувласничком уделу;</p>
+								</content>
+							</point>
+							<point wId="deo2-gla3-clan15-stav3-tac3">
+								<num>3)</num>
+								<content>
+									<p> јасно назначену одредбу, односно изјаву власника да је сагласан да поверилац има право приступа непокретности, укључујући и улазак у непокретност без обзира ко се у њој налази (власник, закупац и др.), ради контроле одржавања или из других оправданих разлога, као и да је дужан да сарађује са повериоцем у поступку продаје, а нарочито да омогући приступ хипотекованој непокретности (улазак у стан и сл.);</p>
+								</content>
+							</point>
+							<point wId="deo2-gla3-clan15-stav3-tac4">
+								<num>4)</num>
+								<content>
+									<p> брисана је (види <ref wId="ref19" href="akn/rs/act/2015/60/srp@/!main~/art_7">члан  7. Закона - 60/2015-3</ref>)</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo2-gla3-clan15-stav4">
+							<content>
+								<p>Уговор о хипотеци, односно заложна изјава о једностраној  хипотеци која није у форми из <ref wId="ref20" href="akn/rs/act/2015/83-9/srp@/!main~art_15__para_1" >става 1. овог</ref> члана и који не садрже елементе из  <ref wId="ref21" href="akn/rs/act/2015/83-9/srp@/!main~art_15__para_3" >става 3. овог</ref> члана, немају снагу извршне исправе.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo2-gla3-clan15-stav5">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref22" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+			</part>
+			<part wId="deo3">
+				<num>Део трећи</num>
+				<heading>ПРАВА И ОБАВЕЗЕ</heading>
+				<chapter wId="deo3-gla1">
+					<num>прва</num>
+					<heading>ПРАВА И ОБАВЕЗЕ ВЛАСНИКА НЕПОКРЕТНОСТИ</heading>
+					<article wId="deo3-gla1-clan16">
+						<num>16.</num>
+						<heading>Права власника непокретности</heading>
+						<paragraph wId="deo3-gla1-clan16-stav1">
+							<intro>
+								<p>Власник и после настанка хипотеке има право да:</p>
+							</intro>
+							<point wId="deo3-gla1-clan16-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> држи предмет хипотеке;</p>
+								</content>
+							</point>
+							<point wId="deo3-gla1-clan16-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> употребљава предмет хипотеке према уобичајеној намени;</p>
+								</content>
+							</point>
+							<point wId="deo3-gla1-clan16-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> прибира природне или грађанске плодове које предмет хипотеке даје;</p>
+								</content>
+							</point>
+							<point wId="deo3-gla1-clan16-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> отуђи предмет хипотеке и пренесе право на прибавиоца, у ком случају се не мења ништа у дужниковој обавези и у обезбеђеном потраживању.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="deo3-gla1-clan17">
+						<num>17.</num>
+						<heading>Обавезе власника непокретности</heading>
+						<paragraph wId="deo3-gla1-clan17-stav1">
+							<content>
+								<p>Власник хипотековане  непокретности* не сме физички мењати предмет хипотеке (преграђивање, доградња, рушење, спајање, деоба, и др.) без писмене сагласности повериоца, коју поверилац неће одбити да изда без оправданог разлога.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla1-clan17-stav2">
+							<content>
+								<p>Власник је дужан да чува и одржава предмет хипотеке као добар домаћин, односно добар привредник, да не би својим поступцима или пропустима умањио вредност непокретности.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla1-clan17-stav3">
+							<content>
+								<p>Власник ће осигурати предмет хипотеке од свих уобичајених ризика пре закључења уговора о хипотеци.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla1-clan17-stav4">
+							<content>
+								<p>Поверилац има право приступа непокретности, укључујући и улазак у непокретност без обзира ко се у њој налази (власник, закупац и др.), ради контроле одржавања или из других оправданих разлога, ако је хипотека заснована у складу са одредбама <ref wId="ref23" href="akn/rs/act/2015/83-9/srp@/!main~art_15" >члана 15. овог</ref> закона или ако је такво право изричито утврђено у уговору о хипотеци, односно заложној изјави. Право приступа непокретности  не може бити коришћено у периоду од 22:00 до 07:00 часова, као ни у време  државних празника, предвиђених законом.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla1-clan17-stav5">
+							<content>
+								<p>Власник, закупац и сваки други непосредни држалац непокретности дужан је да сарађује са повериоцем у поступку продаје, а нарочито да омогући приступ предмету хипотеке (улазак у стан и сл.), ако је хипотека заснована у складу са одредбама <ref wId="ref24" href="akn/rs/act/2015/83-9/srp@/!main~art_15" >члана 15. овог</ref> закона или ако је такво право изричито утврђено у уговору о хипотеци, односно заложној изјави.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla1-clan17-stav6">
+							<content>
+								<p>Брисан је ранији <ref wId="ref26" href="akn/rs/act/2015/83-9/srp@/!main~art_17__para_6" >став 6. </ref>(види <ref wId="ref25" href="akn/rs/act/2015/60/srp@/!main~/art_8">члан 8. Закона -  60/2015-3</ref>)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla1-clan17-stav7">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo3-gla2">
+					<num>друга</num>
+					<heading>ПРАВА И ОБАВЕЗЕ ПОВЕРИОЦА</heading>
+					<article wId="deo3-gla2-clan18">
+						<num>18.</num>
+						<heading>Додатно обезбеђење</heading>
+						<paragraph wId="deo3-gla2-clan18-stav1">
+							<content>
+								<p>Поверилац има право да захтева да му дужник пружи  додатно обезбеђење сличног степена сигурности ако је због понашања, односно  радњи власника, односно непосредног држаоца, вредност предмета хипотеке  смањена.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla2-clan18-stav2">
+							<content>
+								<p>У случају из <ref wId="ref28" href="akn/rs/act/2015/83-9/srp@/!main~art_18__para_1" >става 1. овог</ref> члана, ако дужник не пружи  додатно обезбеђење, поверилац има право да захтева наплату целог потраживања из  вредности непокретности без одлагања, у складу са овим законом.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla2-clan18-stav3">
+							<content>
+								<p>Смањење вредности предмета хипотеке утврђује суд у  ванпарничном поступку, предвиђеном за обезбеђење доказа, на захтев повериоца.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla2-clan18-stav4">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref29" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo3-gla2-clan19">
+						<num>19.</num>
+						<heading>Судска забрана оштећења</heading>
+						<paragraph wId="deo3-gla2-clan19-stav1">
+							<intro>
+								<p>Поверилац има право да захтева да суд нареди власнику, односно непосредном држаоцу, да престане са одређеним понашањем, ако:</p>
+							</intro>
+							<point wId="deo3-gla2-clan19-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> је због таквог понашања вредност предмета хипотеке смањена; или</p>
+								</content>
+							</point>
+							<point wId="deo3-gla2-clan19-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> због понашања које намерава да предузме, прети опасност од смањења вредности хипотековане непокретности.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo3-gla2-clan19-stav2">
+							<intro>
+								<p>У случајевима из <ref wId="ref30" href="akn/rs/act/2015/83-9/srp@/!main~art_19__para_1" >става 1. овог</ref> члана:</p>
+							</intro>
+							<point wId="deo3-gla2-clan19-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> суд може да дозволи повериоцу да предузме потребне мере да се избегне смањење вредности хипотековане непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo3-gla2-clan19-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> хипотекарни поверилац може, ако околности не трпе одлагање, да предузме потребне мере и пре него што добије дозволу од суда, ако је хипотека заснована у складу са одредбама <ref wId="ref31" href="akn/rs/act/2015/83-9/srp@/!main~art_15" >члана 15. овог</ref> закона или ако је то изричито предвиђено у уговору о хипотеци, односно у заложној изјави;</p>
+								</content>
+							</point>
+							<point wId="deo3-gla2-clan19-stav2-tac3">
+								<num>3)</num>
+								<content>
+									<p> поверилац има право да захтева од суда одлуку да власник плати накнаду за учињене трошкове.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo3-gla2-clan19-stav3">
+							<content>
+								<p>Потраживање накнаде за учињене трошкове на основу овог члана обезбеђује се без уписа и ужива првенство у наплати у односу на све уписане терете.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo3-gla3">
+					<num>трећа</num>
+					<heading>ПРЕНОС ПОЈЕДИНИХ ПРАВА И ОБАВЕЗА</heading>
+					<article wId="deo3-gla3-clan20">
+						<num>20.</num>
+						<heading>Уступање потраживања</heading>
+						<paragraph wId="deo3-gla3-clan20-stav1">
+							<content>
+								<p>Потраживање обезбеђено хипотеком може да се уступи на основу уговора између повериоца и лица коме се потраживање уступа.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav2">
+							<content>
+								<p>Уговор о преносу хипотеке који се закључује одвојено од уступања потраживања не производи правно дејство.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav3">
+							<intro>
+								<p>Уговор из <ref wId="ref32" href="akn/rs/act/2015/83-9/srp@/!main~art_20__para_1" >става 1. овог</ref> члана:</p>
+							</intro>
+							<point wId="deo3-gla3-clan20-stav3-tac1">
+								<num>1)</num>
+								<content>
+									<p> закључује се у форми прописаној <ref wId="ref33" href="akn/rs/act/2015/83-9/srp@/!main~art_10__para_1" >чланом 10. став 1.  овог</ref> закона;*</p>
+								</content>
+							</point>
+							<point wId="deo3-gla3-clan20-stav3-tac2">
+								<num>2)</num>
+								<content>
+									<p> преноси хипотеку на лице коме се потраживање уступа;</p>
+								</content>
+							</point>
+							<point wId="deo3-gla3-clan20-stav3-tac3">
+								<num>3)</num>
+								<content>
+									<p> производи правно дејство према трећим лицима од дана  уписа у регистар непокретности.*</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav4">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref34" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav5">
+							<content>
+								<p>Одређивање трећег лица*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav6">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref35" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav7">
+							<content>
+								<p>Члан 20а *</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav8">
+							<content>
+								<p>Хипотекарни поверилац или више њих могу, у писменој  форми са овереним потписима, одредити треће лице или једног од њих да предузима  правне радње ради заштите и намирења потраживања обезбеђеног хипотеком. *</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav9">
+							<content>
+								<p>У случају из <ref wId="ref36" href="akn/rs/act/2015/83-9/srp@/!main~art_20__para_1" >става 1. овог</ref> члана, треће лице поступа у  име и за рачун хипотекарног повериоца, или више њих, у односу на хипотекарног  дужника, односно власника хипотековане непокретности, када то није исто лице,  као и према свим трећим лицима која су непосредни држаоци хипотековане  непокретности.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav10">
+							<content>
+								<p>У регистар непокретности, уписаће се име трећег лица из  <ref wId="ref37" href="akn/rs/act/2015/83-9/srp@/!main~art_20__para_1" >става 1. овог</ref> члана, с тим да хипотекарни поверилац или више њих могу увек  тражити да се упишу у регистар непокретности, односно да замене треће лице.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan20-stav11">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref38" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo3-gla3-clan21">
+						<num>21.</num>
+						<heading>Надхипотека</heading>
+						<paragraph wId="deo3-gla3-clan21-stav1">
+							<content>
+								<p>Потраживање обезбеђено хипотеком може се заложити на основу уговора између хипотекарног повериоца и надхипотекарног повериоца.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan21-stav2">
+							<intro>
+								<p>Уговор из <ref wId="ref39" href="akn/rs/act/2015/83-9/srp@/!main~art_21__para_1" >става 1. овог</ref> члана:</p>
+							</intro>
+							<point wId="deo3-gla3-clan21-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> закључује се у истој форми у којој је закључен уговор  о хипотеци, у складу са <ref wId="ref40" href="akn/rs/act/2015/83-9/srp@/!main~art_10__para_1" >чланом 10. став 1, </ref>односно <ref wId="ref41" href="akn/rs/act/2015/83-9/srp@/!main~art_15__para_1" >чланом 15. став 1. овог</ref>  закона;*</p>
+								</content>
+							</point>
+							<point wId="deo3-gla3-clan21-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> садржи изричиту и безусловну изјаву повериоца да се надхипотекарни поверилац може уписати у том својству у регистар непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo3-gla3-clan21-stav2-tac3">
+								<num>3)</num>
+								<content>
+									<p> производи правно дејство према дужнику од дана када му стигне писмено обавештење о залагању потраживања, од када дужник обавезу може испунити само према надхипотекарном повериоцу или по његовом писменом налогу;</p>
+								</content>
+							</point>
+							<point wId="deo3-gla3-clan21-stav2-tac4">
+								<num>4)</num>
+								<content>
+									<p> производи правно дејство према трећим лицима од дана уписа у регистар непокретности.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan21-stav3">
+							<content>
+								<p>Изјава из става 2. тачка <ref wId="ref45" href="akn/rs/act/2015/83-9/srp@/!main~art_21__para_2__point_2" >2</ref>) овог члана, може бити  садржана у уговору из <ref wId="ref44" href="akn/rs/act/2015/83-9/srp@/!main~art_21__para_1" >става 1. овог</ref> члана, односно у посебној исправи, и то у  форми у складу са <ref wId="ref42" href="akn/rs/act/2015/83-9/srp@/!main~art_10__para_1" >чланом 10. став 1, </ref>односно <ref wId="ref43" href="akn/rs/act/2015/83-9/srp@/!main~art_15__para_1" >чланом 15. став 1. овог</ref> закона.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan21-stav4">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref46" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo3-gla3-clan22">
+						<num>22.</num>
+						<heading>Преузимање дуга</heading>
+						<paragraph wId="deo3-gla3-clan22-stav1">
+							<content>
+								<p>Дуг према хипотекарном повериоцу може да се пренесе уговором о преузимању дуга обезбеђеног хипотеком између власника и прибавиоца предмета хипотеке, односно уговором између власника, прибавиоца предмета хипотеке и дужника ако власник није хипотекарни дужник.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo3-gla3-clan22-stav2">
+							<intro>
+								<p>Уговор из <ref wId="ref47" href="akn/rs/act/2015/83-9/srp@/!main~art_22__para_1" >става 1. овог</ref> члана:</p>
+							</intro>
+							<point wId="deo3-gla3-clan22-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> закључује се приликом отуђења предмета хипотеке, у виду посебног уговора или у виду одредбе, односно дела уговора о отуђењу предмета хипотеке;</p>
+								</content>
+							</point>
+							<point wId="deo3-gla3-clan22-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> производи правна дејства ако поверилац да свој пристанак у писменом облику.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="deo3-gla3-clan23">
+						<num>23.</num>
+						<heading>Отуђење дела непокретности</heading>
+						<paragraph wId="deo3-gla3-clan23-stav1">
+							<content>
+								<p>Ако власник, уз сагласност повериоца, изврши деобу или спајање предмета хипотеке са другом непокретношћу, хипотека се по службеној дужности уписује на тим непокретностима, и свака хипотека обезбеђује целокупно потраживање, осим ако је другачије уговорено са повериоцем.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+			</part>
+			<part wId="deo4">
+				<num>Део четврти</num>
+				<heading>НАМИРЕЊЕ</heading>
+				<chapter wId="deo4-gla1">
+					<num>прва</num>
+					<heading>ОПШТА ПРАВИЛА</heading>
+					<article wId="deo4-gla1-clan24">
+						<num>24.</num>
+						<heading>Право на намирење</heading>
+						<paragraph wId="deo4-gla1-clan24-stav1">
+							<content>
+								<p>Хипотекарни поверилац може, ако дужник не исплати дуг о доспелости, да намири своје потраживање из вредности хипотековане непокретности, без обзира у чијој својини или државини се она налази у том тренутку.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla1-clan24-stav2">
+							<content>
+								<p>Намирење из <ref wId="ref48" href="akn/rs/act/2015/83-9/srp@/!main~art_24__para_1" >става 1. овог</ref> члана спроводи се у складу са овим законом, односно законом којим се уређује извршни поступак, као и законом који уређује принудну наплату пореских потраживања на непокретностима.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla1-clan24-stav3">
+							<content>
+								<p>Када је уговор о хипотеци сачињен у облику  * извршне исправе из <ref wId="ref49" href="akn/rs/act/2015/83-9/srp@/!main~art_15" >члана 15. овог</ref> закона, примењују се правила вансудског намирења утврђена овим законом.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla1-clan24-stav4">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref50" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla1-clan25">
+						<num>25.</num>
+						<heading>Избор намирења</heading>
+						<paragraph wId="deo4-gla1-clan25-stav1">
+							<intro>
+								<p>Хипотекарни поверилац може да захтева да своје доспело потраживање намири:</p>
+							</intro>
+							<point wId="deo4-gla1-clan25-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> најпре из вредности хипотековане непокретности, а затим из остале имовине дужника;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla1-clan25-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> истовремено из вредности хипотековане непокретности и из дужникове имовине; или</p>
+								</content>
+							</point>
+							<point wId="deo4-gla1-clan25-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> најпре из дужникове имовине, па тек потом из вредности хипотековане непокретности.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla1-clan26">
+						<num>26.</num>
+						<heading>Застарело потраживање</heading>
+						<paragraph wId="deo4-gla1-clan26-stav1">
+							<content>
+								<p>Хипотекарни поверилац може да се намири из вредности хипотековане непокретности и после застарелости обезбеђеног потраживања.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla1-clan26-stav2">
+							<content>
+								<p>У случају из <ref wId="ref51" href="akn/rs/act/2015/83-9/srp@/!main~art_26__para_1" >става 1. овог</ref> члана, камата и друга повремена давања не могу се намирити из предмета хипотеке.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla1-clan27">
+						<num>27.</num>
+						<heading>Накнадни уговор</heading>
+						<paragraph wId="deo4-gla1-clan27-stav1">
+							<intro>
+								<p>Накнадни уговор је посебан уговор између хипотекарног повериоца и власника непокретности, закључен по доспелости обезбеђеног потраживања у  форми предвиђеној <ref wId="ref52" href="akn/rs/act/2015/83-9/srp@/!main~art_10__para_1" >чланом 10. став 1. овог</ref> закона*, а којим може да се уговори:</p>
+							</intro>
+							<point wId="deo4-gla1-clan27-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> делимични или потпуни пренос права својине, односно другог стварног права на предмету хипотеке, на повериоца, уместо испуњења дуга;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla1-clan27-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> сваки други посао којим се постиже брисање хипотеке са непокретности.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla1-clan27-stav2">
+							<content>
+								<p>Поверилац ће без одлагања обавестити дужника о накнадном уговору.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla1-clan27-stav3">
+							<content>
+								<p>Накнадни уговор из <ref wId="ref53" href="akn/rs/act/2015/83-9/srp@/!main~art_27__para_1" >става 1. овог</ref> члана је могуће  закључити само у случају да на предмету хипотеке постоји један уписани  хипотекарни поверилац.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla1-clan27-stav4">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref54" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla1-clan28">
+						<num>28.</num>
+						<heading>Лична суброгација</heading>
+						<paragraph wId="deo4-gla1-clan28-stav1">
+							<content>
+								<p>Уколико хипотекарни дуг исплати лице које није дужник, оно ступа на место хипотекарног повериоца према дужнику и трећим лицима.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo4-gla2">
+					<num>друга</num>
+					<heading>ВАНСУДСКИ ПОСТУПАК НАМИРЕЊА</heading>
+					<article wId="deo4-gla2-clan29">
+						<num>29.</num>
+						<heading>Прва опомена</heading>
+						<paragraph wId="deo4-gla2-clan29-stav1">
+							<content>
+								<p>Ако дужник не исплати дуг о доспелости, хипотекарни поверилац из * извршне исправе из <ref wId="ref55" href="akn/rs/act/2015/83-9/srp@/!main~art_15" >члана 15. овог</ref> закона, послаће опомену у писменој форми истовремено дужнику и власнику предмета хипотеке (ако су различита лица), чиме се покреће поступак вансудског намирења по овом закону.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan29-stav2">
+							<intro>
+								<p>Опомена садржи следеће елементе:</p>
+							</intro>
+							<point wId="deo4-gla2-clan29-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> податке о уговору о хипотеци и хипотекованој непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan29-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> опис повреде уговора о хипотеци на основу кога се захтева реализација хипотеке;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan29-stav2-tac3">
+								<num>3)</num>
+								<content>
+									<p> радње које дужник мора да предузме да би исплатио дуг и избегао продају непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan29-stav2-tac4">
+								<num>4)</num>
+								<content>
+									<p> рок у коме дужник мора да исплати дуг да би избегао продају непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan29-stav2-tac5">
+								<num>5)</num>
+								<content>
+									<p> упозорење да ће поверилац, ако дужник не предузме  радње одређене у складу са тачком <ref wId="ref56" href="akn/rs/act/2015/83-9/srp@/!main~art_29__para_2__point_3" >3</ref>) овог става и не исплати дуг, покренути  поступак продаје хипотековане непокретности ради наплате потраживања из  вредности добијене продајом, те да ће дужник, односно власник непокретности  изгубити својину, односно државину на непокретности;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan29-stav2-tac6">
+								<num>6)</num>
+								<content>
+									<p> име и неопходне податке о представнику повериоца  (контакт податке) коме се дужник може обратити за добијање више информација;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan29-stav2-tac7">
+								<num>7)</num>
+								<content>
+									<p> друге информације за које поверилац сматра да су од значаја.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan29-stav3">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref57" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla2-clan30">
+						<num>30.</num>
+						<heading>Опомена о продаји непокретности</heading>
+						<paragraph wId="deo4-gla2-clan30-stav1">
+							<intro>
+								<p>Уколико у року од 30 дана од дана пријема прве опомене дужник не исплати дуг, поверилац ће дужнику и власнику непокретности и осталим  хипотекарним повериоцима* упутити опомену о продаји непокретности која садржи:</p>
+							</intro>
+							<point wId="deo4-gla2-clan30-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> податке о уговору о хипотеци и хипотекованој непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan30-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> опис повреде уговора о хипотеци на основу кога се захтева реализација хипотеке;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan30-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> обавештење да је целокупан дуг доспео на наплату;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan30-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> износ дуга који је доспео на наплату;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan30-stav1-tac5">
+								<num>5)</num>
+								<content>
+									<p> радње које дужник или власник мора да предузме да би исплатио дуг и избегао продају непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan30-stav1-tac6">
+								<num>6)</num>
+								<content>
+									<p> рок у коме дужник или власник мора да испуни обавезе да би избегао продају непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan30-stav1-tac7">
+								<num>7)</num>
+								<content>
+									<p> опомену да уколико дужник или власник не предузме те радње и тиме испуни дуг, поверилац ће продајом хипотековане непокретности прекинути државину на непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan30-stav1-tac8">
+								<num>8)</num>
+								<content>
+									<p> обавештење о избору начина продаје непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan30-stav1-tac9">
+								<num>9)</num>
+								<content>
+									<p> име и неопходне податке о представнику повериоца (контакт податке)* коме се дужник може обратити ради одржавања састанка;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan30-stav1-tac10">
+								<num>10)</num>
+								<content>
+									<p> друге информације за које поверилац сматра да су од значаја.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan30-stav2">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref58" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla2-clan31">
+						<num>31.</num>
+						<heading>Забележба хипотекарне продаје</heading>
+						<paragraph wId="deo4-gla2-clan31-stav1">
+							<intro>
+								<p>По истеку рока из <ref wId="ref59" href="akn/rs/act/2015/83-9/srp@/!main~art_30__para_1" >члана 30. став 1. овог</ref> закона,  хипотекарни поверилац ће послати регистру непокретности захтев да се изврши  забележба хипотекарне продаје у његову корист, заједно са:*</p>
+							</intro>
+							<point wId="deo4-gla2-clan31-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> копијом опомене о продаји непокретности;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan31-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> копијом уговора о хипотеци;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan31-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> изјавом да дужник до тог дана није испунио дуг;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan31-stav1-tac4">
+								<num>4)</num>
+								<content>
+									<p> доказима да су прва опомена и опомена о продаји  послате дужнику, власнику непокретности и осталим хипотекарним повериоцима.*</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav2">
+							<content>
+								<p>Регистар непокретности ће, у року од седам дана од дана  пријема захтева за забележбу, извршити забележбу хипотекарне продаје у корист  хипотекарног повериоца и доставити решење о забележби хипотекарне продаје  хипотекарном повериоцу, дужнику и власнику непокретности, као и осталим  хипотекарним повериоцима чије је потраживање обезбеђено хипотеком на предметној  непокретности.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav3">
+							<content>
+								<p>Захтев за упис забележбе хипотекарне продаје може  поднети сваки хипотекарни поверилац, без обзира на ред првенства.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav4">
+							<content>
+								<p>Ако је пре подношења захтева за забележбу хипотекарне  продаје примио више захтева за упис права на истој непокретности, у смислу  закона којим се уређује упис права на непокретностима, регистар непокретности ће  одлучити о свим захтевима по редоследу пријема у року из <ref wId="ref60" href="akn/rs/act/2015/83-9/srp@/!main~art_31__para_2" >става 2. овог</ref> члана.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav5">
+							<intro>
+								<p>Забележба хипотекарне продаје и решење хипотекарне  продаје садржи:*</p>
+							</intro>
+							<point wId="deo4-gla2-clan31-stav5-tac1">
+								<num>1)</num>
+								<content>
+									<p> изричито овлашћење да хипотекарни поверилац, када  решење постане* коначно**, али не пре истека рока од 30 дана од дана издавања  решења, може у својству законског заступника власника хипотековане  непокретности, исту продати, у складу са одредбама овог закона;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan31-stav5-tac2">
+								<num>2)</num>
+								<content>
+									<p> забрану отуђења и било које врсте правног располагања  хипотекованом непокретности од стране власника.*</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav6">
+							<content>
+								<p>Власник, дужник и поверилац који је поднео захтев за  доношење решења о хипотекарној продаји, имају право жалбе надлежном органу на  решење о забележби хипотекарне продаје у року од 15 дана од дана пријема  решења.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav7">
+							<content>
+								<p>Надлежни орган мора донети другостепено решење у року од  15 дана од дана подношења жалбе.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav8">
+							<intro>
+								<p>Жалба ће бити уважена ако дужник или власник  хипотековане непокретности, уз жалбу достави писмене доказе да:*</p>
+							</intro>
+							<point wId="deo4-gla2-clan31-stav8-tac1">
+								<num>1)</num>
+								<content>
+									<p> потраживање не постоји;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan31-stav8-tac2">
+								<num>2)</num>
+								<content>
+									<p> хипотека не постоји;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan31-stav8-tac3">
+								<num>3)</num>
+								<content>
+									<p> потраживање није доспело за наплату; или*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan31-stav8-tac4">
+								<num>4)</num>
+								<content>
+									<p> је дуг исплаћен.*</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav9">
+							<content>
+								<p>Другостепено решење из <ref wId="ref61" href="akn/rs/act/2015/83-9/srp@/!main~art_31__para_7" >става 7. овог</ref> члана,* коначно је и  извршно ** .*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav10">
+							<content>
+								<p>Акт о отуђењу, односно другом правном располагању  хипотекованом непокретности супротно забрани из става 5. тачка <ref wId="ref62" href="akn/rs/act/2015/83-9/srp@/!main~art_31__para_5__point_2" >2</ref>) овог члана,  ништав је.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav11">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref63" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav12">
+							<content>
+								<p>**Службени гласник РС, број <ref wId="ref64" href="akn/rs/act/2015/83/srp@">83/2015</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan31-stav13">
+							<content>
+								<p>НАПОМЕНА ИЗДАВАЧА: Одлуком Уставног суда број  IУз-799/2012 (&quot;Службени гласник РС&quot;, број <ref wId="ref66" href="akn/rs/act/2015/63/srp@">63/2015</ref>) утврђено је да одредба <ref wId="ref65" href="akn/rs/act/2015/83-9/srp@/!main~art_31__para_7" >члана 31. став 7. </ref>Закона о хипотеци  (&quot;Службени гласник РС&quot;, број <ref wId="ref67" href="akn/rs/act/2005/115/srp@">115/2005</ref>), у делу који гласи: „и против њега  није дозвољена тужба или правни лек”, није у сагласности са Уставом (види  Одлуку  УС - 63/2015-300).</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla2-clan32">
+						<num>32.</num>
+						<heading>Право на састанак</heading>
+						<paragraph wId="deo4-gla2-clan32-stav1">
+							<content>
+								<p>Дужник, односно власник непокретности може, у року од 10 дана од дана добијања опомене о продаји непокретности, затражити састанак са повериоцем односно његовим представником, који је у обавези да га прими у својим просторијама у току радног времена.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan32-stav2">
+							<content>
+								<p>Право повериоца да приступи продаји хипотековане непокретности неће бити ограничено или одложено ако се стране не договоре на начин предложен од стране дужника на овом састанку.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla2-clan33">
+						<num>33.</num>
+						<heading>Слање писмена</heading>
+						<paragraph wId="deo4-gla2-clan33-stav1">
+							<intro>
+								<p>У смислу овог закона, писмено (опомена, обавештење и др.) се сматра урученим дужнику ако је послато препорученом поштом на адресу:</p>
+							</intro>
+							<point wId="deo4-gla2-clan33-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> хипотековане непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan33-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> дужника, наведену у уговору о хипотеци, ако је адреса дужника другачија од адресе хипотековане непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan33-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> власника непокретности, ако власник није дужник.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan33-stav2">
+							<content>
+								<p>У смислу овог закона, писмено се сматра урученим повериоцу ако је послато препорученом поштом на адресу повериоца из уговора о хипотеци или на адресу из повериочеве опомене у којој се захтева одговор дужника.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan33-stav3">
+							<content>
+								<p>Право продаје*</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla2-clan34">
+						<num>34.</num>
+						<heading>*Службени гласник РС, број <ref wId="ref72" href="akn/rs/act/2015/60/srp@">60/2015</ref></heading>
+						<paragraph wId="deo4-gla2-clan34-stav1">
+							<content>
+								<p>Ако дужник не исплати дуг до дана* коначности** решења  о забележби хипотекарне продаје, а од дана издавања тог решења прође рок од 30  дана, поверилац на основу решења може приступити продаји хипотековане  непокретности путем аукције или непосредне погодбе.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan34-stav2">
+							<content>
+								<p>Избор једног начина продаје не искључује могућност  примене другог начина продаје.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan34-stav3">
+							<content>
+								<p>Након* коначности** решења о забележби хипотекарне  продаје, а пре приступања аукцијској продаји, поверилац је дужан да изврши  процену тржишне вредности непокретности ангажовањем овлашћеног судског вештака,  односно другог лица овлашћеног законом за обављање послова процене (у даљем  тексту: процењена вредност).*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan34-stav4">
+							<content>
+								<p>Продаја непосредном погодбом до момента оглашавања  аукцијске продаје могућа је по цени која не може бити нижа од 90% од процењене  вредности из <ref wId="ref68" href="akn/rs/act/2015/83-9/srp@/!main~art_34__para_3" >става 3. овог</ref> члана.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan34-stav5">
+							<content>
+								<p>У случају да непокретност на првој јавној аукцији остане  непродата, поверилац може наставити продају непосредном погодбом, али по цени не  нижој од 60% од процењене вредности, или заказати другу аукцијску продају која  се мора одржати најкасније у року од 120 дана од дана окончања неуспешне  аукције.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan34-stav6">
+							<content>
+								<p>Ако у року од 18 месеци од дана* коначности** решења о  забележби хипотекарне продаје, хипотекована непокретност остане непродата у  вансудском поступку намирења, регистар непокретности ће донети решење о брисању  забележбе по службеној дужности.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan34-stav7">
+							<content>
+								<p>Истовремено са доношењем решења из <ref wId="ref69" href="akn/rs/act/2015/83-9/srp@/!main~art_34__para_6" >става 6. овог</ref> члана,  регистар непокретности ће уписати забележбу забране вансудске продаје  хипотековане непокретности од стране хипотекарног повериоца у чију корист је  била уписана забележба хипотекарне продаје, који се од тог момента може намирити  искључиво у поступку судске продаје.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan34-stav8">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref70" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan34-stav9">
+							<content>
+								<p>**Службени гласник РС, број <ref wId="ref71" href="akn/rs/act/2015/83/srp@">83/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla2-clan35">
+						<num>35.</num>
+						<heading>Аукцијска продаја</heading>
+						<paragraph wId="deo4-gla2-clan35-stav1">
+							<content>
+								<p>Поверилац може сам организовати аукцијску продају непокретности или је може поверити лицу које се тиме професионално бави.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav2">
+							<content>
+								<p>Поверилац је дужан да одржи прву аукцијску продају у  року од шест месеци од дана* коначности** решења о забележби хипотекарне  продаје.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav3">
+							<content>
+								<p>Оглас о одржавању аукцијске продаје мора бити на видан  начин објављен у високотиражном дневном листу који се продаје на целој  територији Републике Србије и најмање у једном дневном листу који се продаје у  региону у коме се налази хипотекована непокретност, и то најмање 30 дана пре  заказане продаје.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav4">
+							<intro>
+								<p>Јавни оглас садржи:</p>
+							</intro>
+							<point wId="deo4-gla2-clan35-stav4-tac1">
+								<num>1)</num>
+								<content>
+									<p> опис непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan35-stav4-tac2">
+								<num>2)</num>
+								<content>
+									<p> име и презиме, односно назив повериоца;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan35-stav4-tac3">
+								<num>3)</num>
+								<content>
+									<p> податке како контактирати повериоца;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan35-stav4-tac4">
+								<num>4)</num>
+								<content>
+									<p> почетну цену на аукцији;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan35-stav4-tac5">
+								<num>5)</num>
+								<content>
+									<p> време и место аукције;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan35-stav4-tac6">
+								<num>6)</num>
+								<content>
+									<p> друге информације за које поверилац сматра да су од значаја.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav5">
+							<intro>
+								<p>Поверилац ће истовремено послати дужнику, власнику непокретности, односно трећим лицима која имају права на хипотекованој непокретности обавештење о огласу које садржи:</p>
+							</intro>
+							<point wId="deo4-gla2-clan35-stav5-tac1">
+								<num>1)</num>
+								<content>
+									<p> све елементе огласа;</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan35-stav5-tac2">
+								<num>2)</num>
+								<content>
+									<p> изјаву у ком року се може исплатити целокупан дуг да би се избегла продаја.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav6">
+							<content>
+								<p>Почетна цена на аукцији не може бити нижа од 75% процењене вредности.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav7">
+							<content>
+								<p>Ако прва аукција не успе, почетна цена на другој аукцији не може бити нижа од 60% од процењене вредности.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav8">
+							<content>
+								<p>Брисан је ранији <ref wId="ref74" href="akn/rs/act/2015/83-9/srp@/!main~art_35__para_7" >став 7. </ref>(види <ref wId="ref73" href="akn/rs/act/2015/60/srp@/!main~/art_19">члан 19. Закона -  60/2015-3</ref>)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav9">
+							<content>
+								<p>Поверилац може дати сопствену понуду на аукцији.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav10">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref75" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan35-stav11">
+							<content>
+								<p>**Службени гласник РС, број <ref wId="ref76" href="akn/rs/act/2015/83/srp@">83/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla2-clan36">
+						<num>36.</num>
+						<heading>Продаја непосредном погодбом</heading>
+						<paragraph wId="deo4-gla2-clan36-stav1">
+							<content>
+								<p>Поверилац, на основу* коначног** решења о забележби  хипотекарне продаје, а по истеку рока од 30 дана од дана издавања решења, може  као законски заступник власника хипотековане непокретности, продати непокретност  непосредном погодбом, по цени из <ref wId="ref77" href="akn/rs/act/2015/83-9/srp@/!main~art_34__para_4->para_5" >члана 34. ст. 4. и 5. овог</ref> закона.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan36-stav2">
+							<content>
+								<p>Поверилац и хипотекарни дужник, односно власник  хипотековане непокретности, када то није исто лице, се током целог поступка  вансудске продаје могу споразумети о продаји непосредном погодбом и условима  такве продаје, у складу са <ref wId="ref78" href="akn/rs/act/2015/83-9/srp@/!main~art_34__para_4->para_5" >чланом 34. ст. 4. и 5. овог</ref> закона.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan36-stav3">
+							<content>
+								<p>Поверилац може продавати непокретност самостално или уз  ангажовање лица која се баве прометом непокретности, у складу са законом.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan36-stav4">
+							<content>
+								<p>Ако се продаја врши преко лица из <ref wId="ref79" href="akn/rs/act/2015/83-9/srp@/!main~art_36__para_3" >става 3. овог</ref> члана,  уобичајена провизија може бити укључена у продајну цену.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan36-stav5">
+							<intro>
+								<p>Најкасније у року од 15 дана пре закључења уговора о  продаји непокретности, поверилац ће о продаји обавестити дужника, власника  непокретности и лица која имају друга права на непокретности, обавештењем које  садржи:*</p>
+							</intro>
+							<point wId="deo4-gla2-clan36-stav5-tac1">
+								<num>1)</num>
+								<content>
+									<p> износ целокупног потраживања;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan36-stav5-tac2">
+								<num>2)</num>
+								<content>
+									<p> процењену вредност непокретности;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan36-stav5-tac3">
+								<num>3)</num>
+								<content>
+									<p> битне елементе уговора о продаји непокретности;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan36-stav5-tac4">
+								<num>4)</num>
+								<content>
+									<p> датум за када се предвиђа закључење уговора о  купопродаји;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan36-stav5-tac5">
+								<num>5)</num>
+								<content>
+									<p> начин на који ће се средства добијена од продаје  расподелити;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan36-stav5-tac6">
+								<num>6)</num>
+								<content>
+									<p> датум када непокретност мора бити исељена и  испражњена;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan36-stav5-tac7">
+								<num>7)</num>
+								<content>
+									<p> изјаву у ком року може да се испуни целокупна  обавеза, да би се избегла продаја непокретности;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla2-clan36-stav5-tac8">
+								<num>8)</num>
+								<content>
+									<p> изјаву у којој се омогућава да било које лице може да  исплати већу купопродајну цену од цене предвиђене уговором о непосредној погодби  до истека датума из тачке <ref wId="ref80" href="akn/rs/act/2015/83-9/srp@/!main~art_36__para_5__point_4" >4</ref>) овог става.*</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan36-stav6">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref81" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan36-stav7">
+							<content>
+								<p>**Службени гласник РС, број <ref wId="ref82" href="akn/rs/act/2015/83/srp@">83/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla2-clan37">
+						<num>37.</num>
+						<heading>Ометање вансудског поступка намирења</heading>
+						<paragraph wId="deo4-gla2-clan37-stav1">
+							<content>
+								<p>У току вансудског поступка намирења, надлежни орган унутрашњих послова дужан је да без одлагања, у складу са Законом о полицији,* хипотекарном повериоцу, односно његовом заступнику, пружи сву помоћ неопходну за спровођење поступка намирења, у случају да власник, односно други држалац непокретности у поступку њене продаје не дозвољава приступ непокретности, односно одбија да се добровољно исели из непокретности, у року из члана 15. став 3. тачка <ref wId="ref83" href="akn/rs/act/2015/83-9/srp@/!main~art_15__para_3__point_1" >1</ref>. овог закона, ако уговором о продаји није одређен дужи рок.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan37-stav2">
+							<content>
+								<p>Надлежни орган унутрашњих послова, пружа помоћ из <ref wId="ref84" href="akn/rs/act/2015/83-9/srp@/!main~art_37__para_1" >става 1. овог</ref> члана на основу увида у решење о забележби хипотекарне продаје, односно уговора о продаји непокретности.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan37-stav3">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref85" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla2-clan38">
+						<num>38.</num>
+						<heading>Непокривеност дуга продајном ценом</heading>
+						<paragraph wId="deo4-gla2-clan38-stav1">
+							<content>
+								<p>У случају да цена остварена на аукцијској продаји или непосредном погодбом не намирује целокупно потраживање повериоца, дужник остаје дужан повериоцу преостали дуг у износу разлике између целокупног потраживања и остварене цене.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan38-stav2">
+							<content>
+								<p>Преостали дуг из <ref wId="ref86" href="akn/rs/act/2015/83-9/srp@/!main~art_38__para_1" >става 1. овог</ref> члана биће умањен за износ разлике између 75% процењене цене непокретности и остварене цене, ако је остварена цена нижа од 75% процењене цене, код оба начина продаје.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan38-stav3">
+							<content>
+								<p>Ако се хипотекарни поверилац намири стицањем права својине на хипотекованој непокретности, сматра се да је потраживање намирено у тренутку стицања права својине.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla2-clan38-stav4">
+							<content>
+								<p>Ако цена хипотековане непокретности, добијена на аукцијској продаји или непосредном нагодбом, превазилази висину потраживања, хипотекарни поверилац дужан је да хипотекарном дужнику исплати ту разлику.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo4-gla3">
+					<num>трећа</num>
+					<heading>НАМИРЕЊЕ КАД ЈЕ ПРЕДМЕТ ХИПОТЕКЕ ОБЈЕКАТ У ИЗГРАДЊИ</heading>
+					<article wId="deo4-gla3-clan39">
+						<num>39.</num>
+						<heading>Уступање одобрења за градњу</heading>
+						<paragraph wId="deo4-gla3-clan39-stav1">
+							<content>
+								<p>Ако је предмет хипотеке објекат у изградњи, његова продаја ради намирења врши се уступањем права градње утврђеног правноснажним одобрењем за градњу, уз накнаду, и продајом ствари које су уграђене у објекат у изградњи.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla3-clan39-stav2">
+							<content>
+								<p>Орган који је издао одобрење за градњу, на захтев купца објекта у изградњи, издаће без одлагања купцу истоветно одобрење за градњу на његово име и поништити старо одобрење за градњу.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla3-clan39-stav3">
+							<content>
+								<p>У случају из <ref wId="ref87" href="akn/rs/act/2015/83-9/srp@/!main~art_39__para_2" >става 2. овог</ref> члана, купац по самом закону ступа у сва законом дефинисана* права и обавезе продавца по основу одобрења и пре издавања одобрења купцу.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla3-clan39-stav4">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref88" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo4-gla4">
+					<num>четврта</num>
+					<heading>РЕДОСЛЕД НАМИРЕЊА</heading>
+					<article wId="deo4-gla4-clan40">
+						<num>40.</num>
+						<heading>Редослед намирења хипотекарних поверилаца</heading>
+						<paragraph wId="deo4-gla4-clan40-stav1">
+							<content>
+								<p>Кад је један предмет хипотеке заложен неколицини хипотекарних поверилаца, редослед по коме се исплаћују њихова потраживања из цене добијене продајом предмета хипотеке одређује се према дану, часу и минуту настанка хипотеке,  рачунајући од пријема захтева за упис прве хипотеке*.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla4-clan40-stav2">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref89" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla4-clan41">
+						<num>41.</num>
+						<heading>Расподела средстава добијених вансудском продајом непокретности</heading>
+						<paragraph wId="deo4-gla4-clan41-stav1">
+							<intro>
+								<p>Хипотекарни поверилац који спроводи продају хипотековане  непокретности ће у уговор о њеној продаји, поред купопродајне цене, унети и  одредбу, односно прилог уговору којим се утврђује расподела средстава добијених  од продаје, по следећем редоследу:*</p>
+							</intro>
+							<point wId="deo4-gla4-clan41-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> трошкови продаје, укључујући трошкове и хонораре  трећих лица;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla4-clan41-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> потраживања хипотекарних поверилаца према редоследу  уписа из <ref wId="ref90" href="akn/rs/act/2015/83-9/srp@/!main~art_40" >члана 40. овог</ref> закона;*</p>
+								</content>
+							</point>
+							<point wId="deo4-gla4-clan41-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> износ који преостане од средстава остварених  продајом, а након намирења хипотекарних поверилаца, припада дужнику, односно  власнику хипотековане непокретности, када то није исто лице.*</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo4-gla4-clan41-stav2">
+							<content>
+								<p>У уговор из <ref wId="ref91" href="akn/rs/act/2015/83-9/srp@/!main~art_41__para_1" >става 1. овог</ref> члана, обавезно се уноси  инструкција у погледу начина плаћања купопродајне цене на поверенички или други  подобан рачун (escrow рачун, наменски рачун, јавнобележнички рачун и сл.) који  не подлеже принудној наплати, са кога ће лица из <ref wId="ref92" href="akn/rs/act/2015/83-9/srp@/!main~art_41__para_1" >става 1. овог</ref> члана бити  намирена према утврђеној расподели.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla4-clan41-stav3">
+							<content>
+								<p>Поверилац ће дужнику, односно власнику хипотековане  непокретности, осталим хипотекарним повериоцима, свим трећим лицима која имају  права на непокретности, као и банци код које је отворен рачун из <ref wId="ref93" href="akn/rs/act/2015/83-9/srp@/!main~art_41__para_2" >става 2. овог</ref>  члана, у року од седам дана од дана закључења уговора из <ref wId="ref94" href="akn/rs/act/2015/83-9/srp@/!main~art_41__para_1" >става 1. овог</ref> члана,  доставити по копију уговора, на основу којег ће повлачити припадајућа средства  са рачуна из <ref wId="ref95" href="akn/rs/act/2015/83-9/srp@/!main~art_41__para_2" >става 2. овог</ref> члана без накнадне сагласности осталих лица  обухваћених расподелом, што је банка код које је отворен рачун дужна да дозволи,  без права да захтева додатна документа, осим докумената којима се доказује  својство лица из овог члана које је обухваћено расподелом.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla4-clan41-stav4">
+							<content>
+								<p>Лица из <ref wId="ref96" href="akn/rs/act/2015/83-9/srp@/!main~art_41__para_1" >става 1. овог</ref> члана сносе трошкове отварања и  вођења рачуна из <ref wId="ref97" href="akn/rs/act/2015/83-9/srp@/!main~art_41__para_2" >става 2. овог</ref> члана, сразмерно износима предвиђених расподелом  у односу на постигнуту купопродајну цену.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla4-clan41-stav5">
+							<content>
+								<p>Начин расподеле средстава остварених продајом  хипотековане непокретности предвиђен овим чланом, сходно се примењује и на  расподелу средстава остварених продајом непосредном погодбом, у складу са овим  законом.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo4-gla4-clan41-stav6">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref98" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo4-gla4-clan42">
+						<num>42.</num>
+						<heading>Стечај</heading>
+						<paragraph wId="deo4-gla4-clan42-stav1">
+							<content>
+								<p>Ако је предмет хипотеке у стечајном поступку, поверилац има разлучно право засебног намирења из вредности непокретности.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+			</part>
+			<part wId="deo5">
+				<num>Део пети</num>
+				<heading>ПРЕСТАНАК ХИПОТЕКЕ</heading>
+				<chapter wId="deo5-gla1">
+					<num>прва</num>
+					<heading>ИСПИС</heading>
+					<article wId="deo5-gla1-clan43">
+						<num>43.</num>
+						<paragraph wId="deo5-gla1-clan43-stav1">
+							<content>
+								<p>Хипотека престаје исписом из регистра непокретности у који је била уписана, у складу са законом (у даљем тексту: испис хипотеке).</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan43-stav2">
+							<content>
+								<p>Испис хипотеке врши се, на захтев дужника, власника или повериоца, ако обезбеђено потраживање престане на начин дозвољен законом.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla1-clan44">
+						<num>44.</num>
+						<heading>Испис на захтев власника</heading>
+						<paragraph wId="deo5-gla1-clan44-stav1">
+							<content>
+								<p>Испис хипотеке врши се на захтев власника, односно купца  хипотековане непокретности у поступку вансудске продаје ради намирења  хипотекарног потраживања.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan44-stav2">
+							<intro>
+								<p>Уз захтев из <ref wId="ref99" href="akn/rs/act/2015/83-9/srp@/!main~art_44__para_1" >става 1. овог</ref> члана подноси се:*</p>
+							</intro>
+							<point wId="deo5-gla1-clan44-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> писмена изјава хипотекарног повериоца да пристаје на  испис хипотеке, или*</p>
+								</content>
+							</point>
+							<point wId="deo5-gla1-clan44-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> правноснажна судска одлука којом се утврђује да је  потраживање хипотекарног повериоца престало, или*</p>
+								</content>
+							</point>
+							<point wId="deo5-gla1-clan44-stav2-tac3">
+								<num>3)</num>
+								<content>
+									<p> уговор о купопродаји хипотековане непокретности  закључен по окончању поступка вансудске продаје којом са намирује потраживање  хипотекарног повериоца, уговор о продаји непосредном погодбом (оба заједно са  доказом о уплати купопродајне цене), односно накнадни уговор.*</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan44-stav3">
+							<content>
+								<p>Поверилац је дужан да дозволи брисање хипотеке уколико  му је потраживање у целости исплаћено, односно ако су испуњени услови предвиђени  овим законом.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan44-stav4">
+							<content>
+								<p>Поверилац је дужан да изда дужнику и власнику хипотековане непокретности потврду о измиреном дугу, без одлагања, након измирења дуга, и да му да сагласност за брисање хипотеке.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan44-stav5">
+							<content>
+								<p>У случају постојања више хипотекарних поверилаца, ако се  из вредности непокретности продате вансудском продајом намири само део  хипотекарних поверилаца, надлежни регистар непокретности је дужан да на основу  захтева и приложеног документа из <ref wId="ref100" href="akn/rs/act/2015/83-9/srp@/!main~art_44__para_2" >става 2. овог</ref> члана, изврши брисање свих  уписаних хипотека на предметној непокретности.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan44-stav6">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref101" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla1-clan45">
+						<num>45.</num>
+						<heading>Пропаст непокретности</heading>
+						<paragraph wId="deo5-gla1-clan45-stav1">
+							<content>
+								<p>Хипотека престаје и кад предмет пропадне у целости, и власник може да захтева испис хипотеке.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan45-stav2">
+							<content>
+								<p>Хипотека се поново успоставља ако власник обнови предмет, а поновни упис врши се по самом закону.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan45-stav3">
+							<content>
+								<p>Хипотека се своди на преостали део ако предмет делимично пропадне, а исправка уписа врши се по самом закону.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla1-clan46">
+						<num>46.</num>
+						<paragraph wId="deo5-gla1-clan46-stav1">
+							<content>
+								<p>У случају пропасти или делимичне пропасти предмета хипотеке, хипотекарни поверилац, по самом закону, стиче заложно право на потраживању накнаде из осигурања, односно на исплаћеној накнади.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan46-stav2">
+							<content>
+								<p>Износ добијен у складу са <ref wId="ref102" href="akn/rs/act/2015/83-9/srp@/!main~art_46__para_1" >ставом 1. овог</ref> члана расподељује се међу хипотекарним повериоцима према редоследу уписа њихових права хипотеке.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla1-clan47">
+						<num>47.</num>
+						<heading>Општи интерес</heading>
+						<paragraph wId="deo5-gla1-clan47-stav1">
+							<content>
+								<p>Хипотека престаје и кад, у циљу задовољења општег интереса (експропријација и сл.), а у складу са законом и на основу одлуке надлежног органа, право власника на предмету хипотеке пређе на треће лице.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan47-stav2">
+							<intro>
+								<p>У случају из <ref wId="ref103" href="akn/rs/act/2015/83-9/srp@/!main~art_47__para_1" >става 1. овог</ref> члана:</p>
+							</intro>
+							<point wId="deo5-gla1-clan47-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> испис се врши на захтев новог власника непокретности;</p>
+								</content>
+							</point>
+							<point wId="deo5-gla1-clan47-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> хипотекарни поверилац стиче заложно право на потраживању накнаде, односно на исплаћеној накнади, односно уписује хипотеку на непокретности која је предата у својину власнику уместо одузете непокретности у општем интересу.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan47-stav3">
+							<content>
+								<p>Накнада из става 2. тачка <ref wId="ref104" href="akn/rs/act/2015/83-9/srp@/!main~art_47__para_2__point_2" >2</ref>) овог члана се расподељује међу хипотекарним повериоцима према редоследу уписа њихових права хипотеке.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla1-clan48">
+						<num>48.</num>
+						<heading>Судска јавна продаја</heading>
+						<paragraph wId="deo5-gla1-clan48-stav1">
+							<content>
+								<p>Хипотека престаје и кад је извршена судска јавна продаја предмета.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan48-stav2">
+							<content>
+								<p>У случају из <ref wId="ref105" href="akn/rs/act/2015/83-9/srp@/!main~art_48__para_1" >става 1. овог</ref> члана, испис се врши на основу правноснажне судске одлуке о намирењу хипотекарних поверилаца.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan48-stav3">
+							<content>
+								<p>Вансудска продаја*</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla1-clan49">
+						<num>49.</num>
+						<heading>*Службени гласник РС, број <ref wId="ref109" href="akn/rs/act/2015/60/srp@">60/2015</ref></heading>
+						<paragraph wId="deo5-gla1-clan49-stav1">
+							<content>
+								<p>Хипотека престаје и кад је, на основу извршне исправе, у  складу са овим законом, предмет хипотеке продат вансудским путем, кад је  поверилац намирен на основу уговора о продаји непосредном погодбом или на основу  накнадног уговора, у складу са овим законом.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan49-stav2">
+							<intro>
+								<p>У случају из <ref wId="ref106" href="akn/rs/act/2015/83-9/srp@/!main~art_49__para_1" >става 1. овог</ref> члана:*</p>
+							</intro>
+							<point wId="deo5-gla1-clan49-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> испис се врши на захтев купца предмета хипотеке,  хипотекарног повериоца, хипотекарног дужника или власника хипотековане  непокретности, када то није исто лице, на основу накнадног уговора,  купопродајног уговора, односно уговора о продаји непосредном погодбом и доказом  о исплаћеној купопродајној цени;*</p>
+								</content>
+							</point>
+							<point wId="deo5-gla1-clan49-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> све уписане хипотеке, као и други терети (уписани у  регистар после хипотеке ради чијег намирења је извршена продаја, односно  закључен накнадни уговор) престају по сили закона и надлежни регистар  непокретности врши брисање по службеној дужности, без обзира да ли је  потраживање намирено у целости, делимично или је остало ненамирено.*</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan49-stav3">
+							<content>
+								<p>Изузетно од става 2. тачка <ref wId="ref107" href="akn/rs/act/2015/83-9/srp@/!main~art_49__para_2__point_1" >1</ref>) овог члана, у случају  закључења накнадног уговора, не постоји могућност достављања доказа о исплаћеној  купопродајној цени.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan49-stav4">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref108" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla1-clan50">
+						<num>50.</num>
+						<heading>Конфузија и консолидација</heading>
+						<paragraph wId="deo5-gla1-clan50-stav1">
+							<intro>
+								<p>Хипотека престаје исписом и када:</p>
+							</intro>
+							<point wId="deo5-gla1-clan50-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> се у истом лицу стекне својство хипотекарног повериоца и хипотекарног дужника; или</p>
+								</content>
+							</point>
+							<point wId="deo5-gla1-clan50-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> хипотекарни поверилац стекне право својине на хипотекованој непокретности.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan50-stav2">
+							<content>
+								<p>У случају из <ref wId="ref110" href="akn/rs/act/2015/83-9/srp@/!main~art_50__para_1" >става 1. овог</ref> члана, испис се врши на захтев власника, дужника или повериоца.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla1-clan51">
+						<num>51.</num>
+						<heading>Одрицање од хипотеке</heading>
+						<paragraph wId="deo5-gla1-clan51-stav1">
+							<content>
+								<p>Хипотека престаје и на основу једностране писмене изјаве  воље хипотекарног повериоца, датој у форми из <ref wId="ref111" href="akn/rs/act/2015/83-9/srp@/!main~art_10__para_1" >члана 10. став 1. овог</ref> закона, на  његов захтев, односно на захтев власника хипотековане непокретности који садржи  у прилогу изјаву повериоца.*</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan51-stav2">
+							<content>
+								<p>*Службени гласник РС, број <ref wId="ref112" href="akn/rs/act/2015/60/srp@">60/2015</ref></p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla1-clan52">
+						<num>52.</num>
+						<heading>Амортизација обезбеђеног потраживања</heading>
+						<paragraph wId="deo5-gla1-clan52-stav1">
+							<intro>
+								<p>Хипотека престаје и на основу правоснажне судске одлуке којом се утврђује амортизација, у складу са законом, на предлог власника, сувласника или титулара заједничке својине, ако:</p>
+							</intro>
+							<point wId="deo5-gla1-clan52-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> је протекло двадесет година од доспелости обезбеђеног потраживања (старе хипотеке);</p>
+								</content>
+							</point>
+							<point wId="deo5-gla1-clan52-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> уписани хипотекарни поверилац више не постоји или се не може пронаћи, ни његови наследници (универзални сукцесори), ни лица која су доцније уписана као пријемници (цесионари) потраживања обезбеђеног хипотеком;</p>
+								</content>
+							</point>
+							<point wId="deo5-gla1-clan52-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> за протекло време уписани хипотекарни поверилац није захтевао, нити примио исплату ни главног потраживања ни камате нити је то захтевало било које овлашћено лице уписано у регистар непокретности.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo5-gla1-clan52-stav2">
+							<content>
+								<p>У случају из <ref wId="ref113" href="akn/rs/act/2015/83-9/srp@/!main~art_52__para_1" >става 1. овог</ref> члана, испис се врши на захтев власника, сувласника или заједничара.</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+				<chapter wId="deo5-gla2">
+					<num>друга</num>
+					<heading>ЗАСНИВАЊЕ НОВЕ ХИПОТЕКЕ</heading>
+					<article wId="deo5-gla2-clan53">
+						<num>53.</num>
+						<heading>Располагање неисписаном хипотеком</heading>
+						<paragraph wId="deo5-gla2-clan53-stav1">
+							<content>
+								<p>Хипотека која није исписана, ако је обезбеђено потраживање престало, у року од 3 године од дана када је потраживање престало може да се пренесе на новог повериоца или, ради обезбеђења другог потраживања, на старог повериоца, до износа потраживања обезбеђеног неисписаном хипотеком.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan53-stav2">
+							<content>
+								<p>У случају из <ref wId="ref114" href="akn/rs/act/2015/83-9/srp@/!main~art_53__para_1" >става 1. овог</ref> члана, пренос се врши на захтев власника, који у прилогу садржи доказ да је потраживање престало.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla2-clan54">
+						<num>54.</num>
+						<paragraph wId="deo5-gla2-clan54-stav1">
+							<intro>
+								<p>Одрицање власника од права на располагање неисписаном хипотеком, не производи правно дејство, осим ако:</p>
+							</intro>
+							<point wId="deo5-gla2-clan54-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> се власник уговором обавеже према трећем лицу, а нарочито према хипотекарном повериоцу са доцнијим редом првенства, да ће у његову корист захтевати испис одређене хипотеке;</p>
+								</content>
+							</point>
+							<point wId="deo5-gla2-clan54-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> се у регистар непокретности упише забележба такве обавезе код те хипотеке.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan54-stav2">
+							<intro>
+								<p>Хипотекарни повериоци са доцнијим редом првенства хипотека:</p>
+							</intro>
+							<point wId="deo5-gla2-clan54-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> не могу да се противе упису новог хипотекарног повериоца на упражњено место неисписане хипотеке;</p>
+								</content>
+							</point>
+							<point wId="deo5-gla2-clan54-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> задржавају место на коме се њихове хипотеке налазе.</p>
+								</content>
+							</point>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla2-clan55">
+						<num>55.</num>
+						<heading>Забележба првенственог реда</heading>
+						<paragraph wId="deo5-gla2-clan55-stav1">
+							<intro>
+								<p>Власник предмета хипотеке, уз захтев за испис, може да захтева забележбу првенственог реда за упис нове хипотеке:</p>
+							</intro>
+							<point wId="deo5-gla2-clan55-stav1-tac1">
+								<num>1)</num>
+								<content>
+									<p> до износа потраживања обезбеђеног старом (ранијом) хипотеком;</p>
+								</content>
+							</point>
+							<point wId="deo5-gla2-clan55-stav1-tac2">
+								<num>2)</num>
+								<content>
+									<p> на месту које је имала стара (ранија) хипотека;</p>
+								</content>
+							</point>
+							<point wId="deo5-gla2-clan55-stav1-tac3">
+								<num>3)</num>
+								<content>
+									<p> у року од три године од дана када је забележба била дозвољена.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan55-stav2">
+							<content>
+								<p>У случају преноса права на предмету хипотеке, забележба задржавања права првенственог реда производи правно дејство у корист новог носиоца права.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan55-stav3">
+							<content>
+								<p>Овај члан сходно се примењује када нова хипотека треба да ступи на место две или више хипотека које у првенственом реду долазе једна иза друге.</p>
+							</content>
+						</paragraph>
+					</article>
+					<article wId="deo5-gla2-clan56">
+						<num>56.</num>
+						<heading>Предбележба нове хипотеке</heading>
+						<paragraph wId="deo5-gla2-clan56-stav1">
+							<content>
+								<p>Нова хипотека може, на захтев власника, да се упише на месту већ уписане хипотеке, са истим првенственим редом и до износа потраживања обезбеђеног већ уписаном хипотеком.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan56-stav2">
+							<intro>
+								<p>У случају из <ref wId="ref115" href="akn/rs/act/2015/83-9/srp@/!main~art_56__para_1" >става 1. овог</ref> члана:</p>
+							</intro>
+							<point wId="deo5-gla2-clan56-stav2-tac1">
+								<num>1)</num>
+								<content>
+									<p> упис производи правно дејство ако се стара хипотека испише у року од годину дана од дана када је дата дозвола за упис нове хипотеке;</p>
+								</content>
+							</point>
+							<point wId="deo5-gla2-clan56-stav2-tac2">
+								<num>2)</num>
+								<content>
+									<p> испис старе хипотеке врши се на захтев власника или повериоца у чију корист је уписана нова хипотека.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan56-stav3">
+							<content>
+								<p>Нова хипотека исписује се по самом закону ако се стара хипотека не испише у року из става 2. тачка <ref wId="ref116" href="akn/rs/act/2015/83-9/srp@/!main~art_56__para_2__point_1" >1</ref>) овог члана.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan56-stav4">
+							<intro>
+								<p>Ако је на старој хипотеци заснована надхипотека, нова хипотека производи правно дејство ако:</p>
+							</intro>
+							<point wId="deo5-gla2-clan56-stav4-tac1">
+								<num>1)</num>
+								<content>
+									<p> се избрише и надхипотека; или</p>
+								</content>
+							</point>
+							<point wId="deo5-gla2-clan56-stav4-tac2">
+								<num>2)</num>
+								<content>
+									<p> надхипотекарни поверилац и поверилац у чију корист се уписује нова хипотека дају пристанак да се надхипотека пренесе на нову хипотеку.</p>
+								</content>
+							</point>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan56-stav5">
+							<content>
+								<p>Ако је стара хипотека заснована на више непокретности (симултана хипотека), нова хипотека производи правно дејство ако се стара хипотека испише из свих регистара непокретности у којима је уписана.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan56-stav6">
+							<content>
+								<p>Одредбе овог члана сходно се примењују кад нова хипотека треба да ступи на место двеју или више хипотека које у првенственом реду долазе једна иза друге.</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan56-stav7">
+							<content>
+								<p>Брисан је Део шести   ЦЕНТРАЛНА ЕВИДЕНЦИЈА ХИПОТЕКА (види <ref wId="ref117" href="akn/rs/act/2015/60/srp@/!main~/art_28">члан 28. Закона - 60/2015-3</ref>)</p>
+							</content>
+						</paragraph>
+						<paragraph wId="deo5-gla2-clan56-stav8">
+							<content>
+								<p>Брисани су називи <ref wId="ref119" href="akn/rs/act/2015/83-9/srp@/!main~art_57->art_62" >чл. 57</ref>-62. и <ref wId="ref120" href="akn/rs/act/2015/83-9/srp@/!main~art_57->art_62" >чл. 57</ref>-62 (види <ref wId="ref118" href="akn/rs/act/2015/60/srp@/!main~/art_28">члан 28. Закона - 60/2015-3</ref>)</p>
+							</content>
+						</paragraph>
+					</article>
+				</chapter>
+			</part>
+			<part wId="deo7">
+				<num>Део седми</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="deo7-clan63">
+					<num>63.</num>
+					<heading>Престанак важења других прописа</heading>
+					<paragraph wId="deo7-clan63-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престају да важе одредбе <ref wId="ref121" href="akn/rs/act/2015/83-9/srp@/!main~art_63->art_69" >чл. 63. </ref>до 69. Закона о основама својинскоправних односа („Службени лист СФРЈ”, бр. <ref wId="ref122" href="akn/rs/act/80/6/srp@">6/80</ref> и <ref wId="ref123" href="akn/rs/act/90/36/srp@">36/90</ref> и „Службени лист СРЈ” број <ref wId="ref124" href="akn/rs/act/96/29/srp@">29/96</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo7-clan64">
+					<num>64.</num>
+					<heading>Примена Закона</heading>
+					<paragraph wId="deo7-clan64-stav1">
+						<content>
+							<p>Овај закон не примењује се на хипотеке засноване до дана његовог ступања на снагу, осим ако се уговорне стране друкчије споразумеју.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo7-clan64-stav2">
+						<content>
+							<p>Надлежни регистри дужни су да, у року од три месеца од дана почетка примене овог закона, катастру непокретности доставе све податке о установљеним хипотекама до дана почетка примене овог закона, који се у складу са овим законом уносе у Централну евиденцију хипотека.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo7-clan64-stav3">
+						<content>
+							<p>Катастар непокретности је дужан да унесе податке достављене у складу са <ref wId="ref125" href="akn/rs/act/2015/83-9/srp@/!main~art_64__para_2" >ставом 2. овог</ref> члана у року од четири месеца од дана достављања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo7-clan65">
+					<num>65.</num>
+					<heading>Ступање на снагу</heading>
+					<paragraph wId="deo7-clan65-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од објављивања у „Службеном гласнику Републике Србије”, а примењиваће се почев од шездесетог дана од дана објављивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo7-clan65-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У &quot;ПРЕЧИШЋЕН ТЕКСТ&quot; ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo7-clan29">
+					<num>29.</num>
+					<heading>Закон о изменама и допунама Закона о хипотеци: "Службени  гласник РС", број <ref wId="ref127" href="akn/rs/act/2015/60/srp@">60/2015</ref>-3</heading>
+					<paragraph wId="deo7-clan29-stav1">
+						<content>
+							<p>На подручју основног суда за које нису именовани јавни  бележници, до именовања јавног бележника са службеним седиштем у седишту  основног суда, уговоре о хипотеци, односно заложне изјаве сачињаваће основни суд  у складу са одредбама овог закона и закона којим се уређује јавнобележничка  делатност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo7-clan29-stav2">
+						<content>
+							<p>Ако се на подручју основног суда именује јавни бележник  са службеним седиштем ван седишта основног суда, до именовања јавног бележника  са службеним седиштем у седишту основног суда, основни суд је надлежан за  сачињавање исправа из <ref wId="ref126" href="akn/rs/act/2015/83-9/srp@/!main~art_29__para_1" >става 1. овог</ref> члана само за територију града или општине  на којима се не налази службено седиште именованог јавног бележника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo7-clan30">
+					<num>30.</num>
+					<paragraph wId="deo7-clan30-stav1">
+						<content>
+							<p>За решења о забележби хипотекарне продаје која су  постала правноснажна до дана ступања на снагу овог закона, рок из <ref wId="ref128" href="akn/rs/act/2015/83-9/srp@/!main~art_18" >члана 18. овог</ref>  закона (измењени <ref wId="ref129" href="akn/rs/act/2015/83-9/srp@/!main~art_34__para_6" >члан 34. став 6.</ref>), почиње да тече од дана ступања на снагу овог  закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo7-clan31">
+					<num>31.</num>
+					<paragraph wId="deo7-clan31-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања  у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+		</body>
+	</act>
+</akomaNtoso>

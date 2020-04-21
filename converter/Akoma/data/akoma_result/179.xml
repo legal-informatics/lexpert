@@ -1,0 +1,2787 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Царинској тарифи">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2005/62-1/main"/>
+					<FRBRuri value="akn/rs/act/2005/62-1"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2019/91-78/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2019/91-78/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2019/91-78/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2019/91-78/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-07-18" name="“службени гласник рс" number="62" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="IV ЈАВНИ ПРИХОДИ" value="iv јавни приходи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Царине и друге увозне дажбине" value="1. царине и друге увозне дажбине" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2005-01-01" refersTo="62/2005-1" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2007-01-01" refersTo="61/2007-17" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2009-01-01" refersTo="5/2009-3" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-9" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2019-01-01" refersTo="91/2019-78" source="#somebody" type="amendment" wId="e5"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2005-07-15" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2005-07-26" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2005-07-26" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="тарифне"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="робе"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="систем"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="ознаке"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="правила"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="тарифни"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="царинске"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="тарифе"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="главама"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="износи"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="саставни"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="одштампана"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="прима"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="означавања"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="шаље"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="нумеричког"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="уноси"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="обрачунавању"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="одељцима"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="разврстани"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="подручја"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="извози"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="тарифа"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="део"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="царинско"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="увози"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="поједине"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="царинска"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="бројеве"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="назива"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="чини"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="бројеви"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="подбројеви"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="подручје"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="царинског"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="сврставању"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="подбројеве"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Carinskoj tarifi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Carinsku tarifu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Glavi 84"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Glavi 87"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="AZBESTA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="BETONA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="CEMENTA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Carinska tarifa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Carinske tarife"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Carinske tarife sa Kombinovanom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Carinskoj tarifi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="DRAGO"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="DRVENI UGALJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Futrole za fotografske aparate"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="GIPSA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I KARTON"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I MUNICIJA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I OSTACI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I OSTALE POKRIVKE ZA GLAVU"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I PRIBOR"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I SARAČKI PROIZVODI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I SRODNIX"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I STARINA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I UREĐAJI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="KD"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="KETGUTA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="KOSE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="KOŽA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komitet za harmonizovani sistem"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Međunarodne konvencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="NAKITA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="OBUĆA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODELJAK XI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODELJAK XII"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODELJAK XIII"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODELJAK XIV"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODELJAK XIX"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODELJAK XV"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODELJAK XVIII"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODELJAK XX"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ODELJAK XXI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Osnovnih pravila za primenjivanje Carinske tarife"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="POLUDRAGO KAMENJE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PREDMETI ZA PUTOVANJE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PREPARIRANO PERJE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PRERAĐENE JESTIVE MASNOĆE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="PREXRAMBENE INDUSTRIJE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="RUČNE TORBE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom listu Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Svetska carinska organizacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="UMETNOSTI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="VEŠTAČKO CVEĆE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="XARTIJA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="XVII"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ZA PONOVNU PRERADU"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="ODELJAK V"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="ODELJAK X"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2008."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. jula 2005"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. januara 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. decembra 2019."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. pod"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. pod"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="novembru"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 26. јула 2005. године (види члан 6. Закона).Престају су да важе одредбе члана 3а даном почетка примене Царинског закона („Службени гласник РС“, број 95/2018), односно 16. јуна 2019. године (види члан 282. Закона - 95/2018-9).Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 1. јануара 2020. године осим члана 2. који почиње да се примењује протеком рока од шест месеци од дана ступања на снагу односно 1. јула 2020. године (види члан 4. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О царинској тарифи “Службени гласник РС”, бр. <ref wId="ref37" href="akn/rs/act/2005/62/srp@">62 од 18. јула 2005</ref>, <ref wId="ref38" href="akn/rs/act/2007/61/srp@">61 од 30. јуна 2007</ref>, <ref wId="ref39" href="akn/rs/act/2009/5/srp@">5 од 22. јануара 2009</ref>, <ref wId="ref40" href="akn/rs/act/2018/95/srp@">95 од 8. децембра 2018</ref> - др. закон, <ref wId="ref41" href="akn/rs/act/2019/91/srp@">91 од 24. децембра 2019</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређују се Царинска тарифа, која је одштампана уз овај  закон и чини његов саставни део; правила о обрачунавању царине; систем назива  робе која се увози, уноси или прима у царинско подручје Републике Србије,  односно извози, износи или шаље из царинског подручја Републике Србије  разврстани по одељцима и главама Царинске тарифе; систем нумеричког означавања  робе (тарифни бројеви, тарифни подбројеви и тарифне ознаке) у Царинској тарифи,  као и правила о сврставању поједине робе у тарифне бројеве, тарифне подбројеве и  тарифне ознаке Царинске тарифе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2007/61/srp@">61/2007</ref></heading>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>На робу која се увози у царинско подручје Републике Србије, царина се обрачунава и наплаћује применом стопе царине одређене у колони 4 Царинске тарифе, на царинску вредност робе (метод ад валорем).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Изузетно од одредбе <ref wId="ref0" href="akn/rs/act/2019/91-78/srp@/!main~art_2__para_1" >става 1. овог</ref> члана, на робу за коју је у колони 4 Царинске  тарифе поред стопе царине предвиђена и специфична царина у минималном и  максималном износу, у случајевима када је царина обрачуната методом ад валорем  мања од специфичне царине, примењује се минимална специфична царина, а када је  царина обрачуната методом ад валорем већа од максималне специфичне царине,  примењује се максимална специфична царина.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav3">
+					<content>
+						<p>Наплата специфичне царине исказане у еврима врши се у динарској противвредности  по званичном курсу важећем на дан утврђивања износа увозних дажбина.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav4">
+					<content>
+						<p>Стопе предвиђене у Царинској тарифи примењују се на робу пореклом из земаља на  које се примењује клаузула највећег повлашћења или које ту клаузулу примењују на  робу пореклом из Републике Србије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav5">
+					<content>
+						<p>На увоз робе пореклом из земаља са којима Република Србија има закључене  споразуме о слободној трговини, примењују се стопе царине предвиђене тим  споразумима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav6">
+					<content>
+						<p>На робу из осталих земаља примењују се стопе предвиђене у Царинској тарифи,  увећане за 70%.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav7">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2007/61/srp@">61/2007</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>**Службени гласник РС, број <ref wId="ref11" href="akn/rs/act/2009/5/srp@">5/2009</ref></heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Царинску тарифу чини номенклатура роба и стопе,  односно износ царине прописане за поједине робе наведене у тој номенклатури.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<intro>
+						<p>Номенклатура, у смислу овог закона, обухвата:</p>
+					</intro>
+					<point wId="clan3-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> наименовања одељака, глава, раздела, тарифних бројева и тарифних подбројева с њиховим нумеричким ознакама;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> напомене уз одељке и главе, напомене за тарифне подбројеве и додатне напомене;</p>
+						</content>
+					</point>
+					<point wId="clan3-stav2-tac3">
+						<num>3)</num>
+						<content>
+							<p> основна правила за примењивање Царинске тарифе.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>Под појмом „тарифни број” подразумева се наименовање робе, које обухвата један производ или више производа и који је означен четвороцифреном ознаком, код које прва два броја означавају број главе којој тарифни број припада, а друга два – редни број тарифног броја у тој глави.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav4">
+					<content>
+						<p>Под појмом „тарифни међуподброј” подразумева се наименовање робе које обухвата један производ или више производа и које није означено нумеричком ознаком пошто се даље рашчлањава на тарифне подбројеве.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav5">
+					<content>
+						<p>Под појмом „тарифни подброј” подразумева се наименовање робе које обухвата један производ или више производа и које је означено нумеричком ознаком са најмање шест цифара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav6">
+					<content>
+						<p>Нумеричке ознаке којима су означени тарифни бројеви и тарифни подбројеви називају се тарифне ознаке.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav7">
+					<content>
+						<p>Тарифни став обухвата: тарифну ознаку са десет цифара, наименовање тарифног подброја, јединицу мере и стопу, односно износ царине прописану за робу из тог тарифног подброја.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav8">
+					<content>
+						<p>Влада уредбом најкасније у новембру текуће године за наредну годину усклађује номенклатуру Царинске тарифе са Комбинованом номенклатуром Европске уније, која ће се примењивати на сврставање производа у Царинској тарифи. Ова уредба обухвата и стопе, односно износ царине утврђене овим законом, односно закљученим споразумима о слободној трговини примењене на усклађену номенклатуру.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav9">
+					<content>
+						<p>Усклађивање номенклатуре из <ref wId="ref3" href="akn/rs/act/2019/91-78/srp@/!main~art_3__para_8" >става 8. овог</ref> члана врши се у складу са обавезама  преузетим међународним уговорима и обухвата измене, односно допуне наименовања,  нумеричких ознака, напомена, укључујући и напомене за тарифне ставове и Основних  правила за примењивање Царинске тарифе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav10">
+					<content>
+						<p>Прописом из <ref wId="ref4" href="akn/rs/act/2019/91-78/srp@/!main~art_3__para_8" >става 8. овог</ref> члана не могу се мењати стопе, односно износ царине  утврђене овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav11">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2007/61/srp@">61/2007</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav12">
+					<content>
+						<p>**Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2009/5/srp@">5/2009</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav13">
+					<content>
+						<p>Члан 3a</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav14">
+					<content>
+						<p>Сврставање робе у Царинску тарифу представља  одређивање тарифног става за ту робу, у складу са овим законом и прописима  донетим на основу овог закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav15">
+					<content>
+						<p>Одлуке о сврставању које је донео Комитет за  хармонизовани систем (Harmonized System Committеe),  а које је као класификациона мишљења у складу са <ref wId="ref7" href="akn/rs/act/2019/91-78/srp@/!main~art_8__para_2" >чланом 8. став 2. </ref>Међународне  конвенције о хармонизованом систему назива и шифарских ознака робе („Службени  лист СФРЈ – Међународни уговори”, бр. 6/87 и 14/91 и „Службени лист СРЈ”, број  <ref wId="ref8" href="akn/rs/act/97/2/srp@">2/97</ref>) потврдила Светска царинска организација, обавезне су за примену.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav16">
+					<content>
+						<p>Одлуке о сврставању објављене у „Службеном листу  Европске уније” („Official Journal of the European Union”)  обавезне су за примену.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav17">
+					<content>
+						<p>Одлуке о сврставању из <ref wId="ref9" href="akn/rs/act/2019/91-78/srp@/!main~art_3__para_2->para_3" >ст. 2. и 3. овог</ref> члана, које су  до сада донете и које буду донете, објављују се у „Службеном гласнику Републике  Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav18">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref10" href="akn/rs/act/2019/91/srp@">91/2019</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav19">
+					<content>
+						<p>Члан 3а.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<heading>Престао је да важи (види  <ref wId="ref17" href="akn/rs/act/2019/91-78/srp@/!main~art_282" >члан 282. </ref>Закон - 95/2018-9)</heading>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Несастављени производи или производи у растављеном стању, чији се делови увозе сукцесивно, преко једне царинарнице или више царинарница, могу се, на захтев царинског обвезника, сврстати у тарифни став састављеног производа, уз примену стопе царине за састављен производ.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Царињење производа из <ref wId="ref12" href="akn/rs/act/2019/91-78/srp@/!main~art_4__para_1" >става 1. овог</ref> члана врши се на начин који пропише министар надлежан за послове финансија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav3">
+					<content>
+						<p>Члан 4а.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav4">
+					<content>
+						<p>У Царинској тарифи, у тарифној ознаци: „2402 20 90 00” у колони 4 број: „15” замењује се бројем: „57,6”, а испод тог броја додају се речи: „min 5,15 € маx 7,57 €/1000 ком.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2007/61/srp@">61/2007</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav6">
+					<content>
+						<p>Члан 4б.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav7">
+					<content>
+						<p>У Царинској тарифи, у тарифној ознаци: „0105 11 19 00” у колони 4 број: „20” замењује се бројем: „1”, а у тарифној ознаци: „0105 11 91 00” у колони 4 број: „1” замењује се бројем: „20”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav8">
+					<content>
+						<p>У Глави 84 у додатним напоменама тачка <ref wId="ref14" href="akn/rs/act/2019/91-78/srp@/!main~art_4__para_8__point_2" >2</ref>. мења се и гласи:</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav9">
+					<content>
+						<p>„2. У тар. бројевима 8407, 8408 и 8433 наименовања тар. подбројева „за  индустријску монтажу” односе се само на производе обухваћене тим наименовањима и  намењене су искључиво серијској монтажи нових возила или комбајна у фабрикама  које производе или склапају возила, односно комбајне (укључујући делимичну  монтажу склопова у кооперантским погонима). Ова наименовања не обухватају  производе исте врсте ако су намењени за појединачну монтажу возила или комбајна  или за замену склопова, подсклопова и делова на раније произведеним возилима или  комбајнима.</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan4-stav10">
+					<content>
+						<table>
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      Речи:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      „8433 51 00 00
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - комбајни за убирање пољопривредних
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      производа, са одвајањем зрна од биљке
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      КД
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      10”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      замењују се речима:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      „8433 51
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - комбајни за убирање пољопривредних
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      производа, са одвајањем зрна од биљке:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8433 51 00 10
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - за индустријску монтажу (склапање),
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      у несастављеном стању
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      КД
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      1
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8433 51 00 90
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - остали
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      КД
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      10”.
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+  
+						</table>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav11">
+					<content>
+						<p>У тар. ознакама: „8517 11 00 00, 8517 12 00 90, 8517 18 00 00 и 8517 69 10 00” у колони 4 број: „15” замењује се бројем: „5”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav12">
+					<content>
+						<p>У Глави 87 у напомени за тарифне ставове у тачки <ref wId="ref15" href="akn/rs/act/2019/91-78/srp@/!main~art_4__para_12__point_1" >1</ref>. после речи: „У тар. бројевима”, додаје се тарифни број: „8701;”.</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan4-stav13">
+					<content>
+						<table>
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      Речи:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      „8701 90 20 00
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - преко 18 кW, али не преко
+ 37 кW:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      КД
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      замењују се речима:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      „
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - преко 18 кW, али не преко 37 кW:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 20 10
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - за индустријску монтажу (склапање),
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      у несастављеном стању
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      КД
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      1
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 20 90
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - остали
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      КД
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”.*
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+  
+						</table>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav14">
+					<content>
+						<p>У тар. ознакама: „8703 21 10 90, 8703 21 90 00, 8703 22 10 90, 8703 22 90  00, 8703 23 19 90, 8703 23 90 00, 8703 24 10 90, 8703 24 90 00, 8703 31 10 90,  8703 31 90 00, 8703 32 19 90, 8703 32 90 00, 8703 33 19 90 и 8703 33 90 00” у  колони 4 број: „20” замењује се бројем: „12,5”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav15">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref16" href="akn/rs/act/2009/5/srp@">5/2009</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav16">
+					<content>
+						<p>Члан 4в</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav17">
+					<content>
+						<p>У Царинској тарифи, у Глави 87, речи:</p>
+					</content>
+				</paragraph>
+				<paragraph class="special" wId="clan4-stav18">
+					<content>
+						<table>
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      „8701 90 11 00
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - до 18 kW
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      замењују се речима:
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      „ - - - - не преко 18 kW:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 11 10
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - за индустријску монтажу (склапање),
+     </p>
+									
+     
+									<p>
+      у несастављеном стању
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      1
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 11 90
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - остали
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      речи:
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      „8701 90 25 00
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - преко 37 kW до 59 kW
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      замењују се речима:
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      „ - - - - преко 37 kW , али не преко 59 kW:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 25 10
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - за индустријску монтажу (склапање),
+     </p>
+									
+     
+									<p>
+      у несастављеном стању
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      1
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 25 90
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - остали
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      речи:
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      „8701 90 31 00
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - преко 59 kW до 75 kW
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      замењују се речима:
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      „ - - - - преко 59 kW , али не преко 75 kW:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 31 10
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - за индустријску монтажу (склапање),
+     </p>
+									
+     
+									<p>
+      у несастављеном стању
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      1
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 31 90
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - остали
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      речи:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      „8701 90 35 00
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - преко 75 kW до 90 kW
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      замењују се речима:
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      „ - - - - преко 75 kW , али не преко 90 kW:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 35 10
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - за индустријску монтажу (склапање),
+     </p>
+									
+     
+									<p>
+      у несастављеном стању
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      1
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 35 90
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - остали
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15” и
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      речи:
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      „8701 90 39 00
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - преко 90 kW
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”,
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      замењују се речима:
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      „ - - - - преко 90 kW:
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 39 10
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - за индустријску монтажу (склапање),
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									<p>
+    </p>
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      у несастављеном стању
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      1
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+   
+							<tr>
+								
+    
+								<td>
+									
+     
+									<p>
+      8701 90 39 90
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      - - - - - остали
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      KD
+     </p>
+									
+    
+								</td>
+								
+    
+								<td>
+									
+     
+									<p>
+      15”.
+     </p>
+									
+    
+								</td>
+								
+   
+							</tr>
+							
+  
+						</table>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<heading>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2019/91/srp@">91/2019</ref></heading>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона престаје да важи Закон о Царинској тарифи („Службени лист СРЈ”, број <ref wId="ref18" href="akn/rs/act/01/23/srp@">23/01</ref>).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<content>
+						<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У “ПРЕЧИШЋЕН ТЕКСТ” ЗАКОНА</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, осим <ref wId="ref20" href="akn/rs/act/2019/91-78/srp@/!main~art_4а" >члана 4а </ref>који ступа на снагу 1. јануара 2008. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<paragraph wId="clan5-stav2">
+				<content>
+					<p>Одредба става 1. овог члана престаје да важи даном почетка примене, односно ступања на снагу Прелазног споразума из става 1. овог члана.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od2-clan4-stav1">
+				<content>
+					<p>(б) Под материјалом или материјом из наименовања тарифног броја подразумева се материјал или материја у чистом стању или комбиновани, односно помешани са другим материјалом, односно материјом. Под производом од одређеног материјала или материје подразумева се и производ израђен у целини или делимично од истог материјала или материје. Производи који се састоје од два или више материјала или материја сврставају се применом основног правила 3.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od3-clan4-stav1">
+				<content>
+					<p>(а) Тарифни број који има најконкретније или најближе наименовање производа има предност у односу на тарифне бројеве са општијим наименовањем производа. Међутим, кад се наименовања два или више тарифних бројева односе само на део материјала или материје садржане у мешаним или састављеним (сложеним) производима или само на део компоненти припремљених као сет за малопродају, наименовања тих тарифних бројева сматраће се подједнако конкретним, иако један од њих има комплетније и прецизније наименовање производа.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od3-clan4-stav2">
+				<content>
+					<p>(б) Мешавине, састављени (сложени) производи који се састоје од различитих материјала или су израђени од различитих компоненти, односно састојака и производи припремљени у сетовима за малопродају, који се не могу сврстати применом правила 3. под (а), сврстаће се као да се састоје од материјала или компоненте која им даје битан карактер, ако се овај критеријум може применити.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od3-clan4-stav3">
+				<content>
+					<p>(в) Ако се производи не могу сврстати применом правила 3. под (а) или 3. под (б), сврстаће се у последњи по реду од оних тарифних бројева које због важности треба подједнако узети у обзир.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od5-clan4-stav1">
+				<content>
+					<p>(а) Футроле за фотографске апарате, музичке инструменте, пушке и пиштоље, кутије за циркле, кутије за огрлице и слични контејнери, специјално обликовани или подешени за одређени производ или сет производа, погодни за дуготрајну употребу и испоручени са производима за које су намењени, сврстаће се са тим производима под условом да се уобичајено продају са тим производима. Међутим, ово правило се не примењује на контејнере који целини (производу са контејнером) дају битан карактер.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od5-clan4-stav2">
+				<content>
+					<p>(б) Сходно одредбама правила 5. под (а) материјали за паковање и контејнери за паковање (амбалажа) који се испоручују са производима у њима сврставају се заједно са тим производима ако је уобичајено да се користе за паковање тих производа. Међутим, ова одредба се не примењује на материјал за паковање и контејнере за паковање ако је очигледно да су подесни за вишекратну употребу.</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav1">
+				<content>
+					<p>ОДЕЉАК I - ЖИВЕ ЖИВОТИЊЕ; ПРОИЗВОДИ  ЖИВОТИЊСКОГ ПОРЕКЛА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav2">
+				<content>
+					<p>ОДЕЉАК II - БИЉНИ  ПРОИЗВОДИ</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav3">
+				<content>
+					<p>ОДЕЉАК III - МАСНОЋЕ И УЉА ЖИВОТИЊСКОГ И БИЉНОГ ПОРЕКЛА И  ПРОИЗВОДИ ЊИXОВОГ РАЗЛАГАЊА; ПРЕРАЂЕНЕ ЈЕСТИВЕ МАСНОЋЕ; ВОСКОВИ  ЖИВОТИЊСКОГ И БИЉНОГ ПОРЕКЛА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav4">
+				<content>
+					<p>ОДЕЉАК IV - ПРОИЗВОДИ ПРЕXРАМБЕНЕ ИНДУСТРИЈЕ; ПИЋА, АЛКОXОЛИ И СИРЋЕ; ДУВАН И ПРОИЗВОДИ ЗАМЕНЕ ДУВАНА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav5">
+				<content>
+					<p>ОДЕЉАК V - МИНЕРАЛНИ ПРОИЗВОДИ</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav6">
+				<content>
+					<p>ОДЕЉАК VI -  ПРОИЗВОДИ XЕМИЈСКЕ И СРОДНИX ИНДУСТРИЈА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav7">
+				<content>
+					<p>ОДЕЉАК VII -   ПЛАСТИЧНЕ МАСЕ И ПРОИЗВОДИ ОД ПЛАСТИЧНИX МАСА; КАУЧУК  И ПРОИЗВОДИ ОД КАУЧУКА И ГУМЕ</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav8">
+				<content>
+					<p>ОДЕЉАК VIII -   СИРОВА КРУПНА И СИТНА КОЖА СА ДЛАКОМ ИЛИ  БЕЗ ДЛАКЕ; ШТАВЉЕНА КОЖА, КРЗНА И ПРОИЗВОДИ ОД КРЗНА; СЕДЛАРСКИ И САРАЧКИ  ПРОИЗВОДИ; ПРЕДМЕТИ ЗА ПУТОВАЊЕ, РУЧНЕ  ТОРБЕ И СЛИЧНИ КОНТЕЈНЕРИ; ПРЕДМЕТИ ОД  ЖИВОТИЊСКИX ЦРЕВА (ОСИМ СВИЛЕНОГ КЕТГУТА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav9">
+				<content>
+					<p>ОДЕЉАК IX -   ДРВО И ПРОИЗВОДИ ОД ДРВЕТА, ДРВЕНИ УГАЉ,  ПЛУТА И ПРОИЗВОДИ ОД ПЛУТЕ, ПРОИЗВОДИ ОД СЛАМЕ, ЕСПАРТА ИЛИ ОД  ДРУГИX МАТЕРИЈАЛА ЗА ПЛЕТЕЊЕ; КОРПАРСКИ И ПЛЕТАРСКИ ПРОИЗВОДИ</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav10">
+				<content>
+					<p>ОДЕЉАК X -   ЦЕЛУЛОЗА ОД ДРВЕТА ИЛИ ДРУГИX ВЛАКНАСТИX  ЦЕЛУЛОЗНИX МАТЕРИЈАЛА; XАРТИЈА И КАРТОН (ОТПАЦИ И ОСТАЦИ) ЗА  ПОНОВНУ ПРЕРАДУ; XАРТИЈА И КАРТОН И  ПРОИЗВОДИ ОД XАРТИЈЕ И КАРТОНА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav11">
+				<content>
+					<p>ОДЕЉАК XI -  ТЕКСТИЛ И ПРОИЗВОДИ ОД ТЕКСТИЛА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav12">
+				<content>
+					<p>ОДЕЉАК XII -   ОБУЋА, ШЕШИРИ, КАПЕ И ОСТАЛЕ ПОКРИВКЕ ЗА  ГЛАВУ, КИШОБРАНИ, СУНЦОБРАНИ, ШТАПОВИ, БИЧЕВИ, КОРБАЧИ И ЊИXОВИ ДЕЛОВИ; ПРЕПАРИРАНО  ПЕРЈЕ И ПРОИЗВОДИ ОД ПЕРЈА;  ВЕШТАЧКО ЦВЕЋЕ; ПРОИЗВОДИ ОД ЉУДСКЕ КОСЕ</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav13">
+				<content>
+					<p>ОДЕЉАК XIII -   ПРОИЗВОДИ ОД КАМЕНА, ГИПСА, ЦЕМЕНТА,  АЗБЕСТА, БЕТОНА, ЛИСКУНА ИЛИ СЛИЧНИX  МАТЕРИЈАЛА; КЕРАМИЧКИ ПРОИЗВОДИ; СТАКЛО И ПРОИЗВОДИ ОД СТАКЛА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav14">
+				<content>
+					<p>ОДЕЉАК XIV -   ПРИРОДНИ ИЛИ КУЛТИВИСАНИ БИСЕРИ, ДРАГО ИЛИ ПОЛУДРАГО КАМЕЊЕ, ПЛЕМЕНИТИ МЕТАЛИ, МЕТАЛИ ПЛАТИРАНИ  ПЛЕМЕНИТИМ МЕТАЛИМА, И ПРОИЗВОДИ ОД ЊИX;  ИМИТАЦИЈЕ НАКИТА; МЕТАЛНИ НОВАЦ</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav15">
+				<content>
+					<p>ОДЕЉАК XV -  ПРОСТИ МЕТАЛИ И ПРОИЗВОДИ ОД ПРОСТИX МЕТАЛА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav16">
+				<content>
+					<p>ОДЕЉАК XVI -   МАШИНЕ, АПАРАТИ И УРЕЂАЈИ;  ЕЛЕКТРОТЕXНИЧКИ ПРОИЗВОДИ; ЊИXОВИ ДЕЛОВИ; АПАРАТИ ЗА СНИМАЊЕ  И РЕПРОДУКЦИЈУ ЗВУКА, ТЕЛЕВИЗИЈСКИ АПАРАТИ ЗА СНИМАЊЕ И РЕПРОДУКЦИЈУ СЛИКЕ И ЗВУКА,  ДЕЛОВИ И ПРИБОР ЗА ТЕ ПРОИЗВОДЕ</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav17">
+				<content>
+					<p>ОДЕЉАК XVII –  ВОЗИЛА, ВАЗДУXОПЛОВИ, ПЛОВИЛА И ПРАТЕЋА ТРАНСПОРТНА ОПРЕМА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav18">
+				<content>
+					<p>ОДЕЉАК XVIII -   ОПТИЧКИ, ФОТОГРАФСКИ, КИНЕМАТОГРАФСКИ,  МЕРНИ, КОНТРОЛНИ, ПРЕЦИЗНИ, МЕДИЦИНСКИ И XИРУРШКИ ИНСТРУМЕНТИ И АПАРАТИ;  ЧАСОВНИЦИ; МУЗИЧКИ ИНСТРУМЕНТИ; ЊИXОВИ ДЕЛОВИ И  ПРИБОР</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav19">
+				<content>
+					<p>ОДЕЉАК XIX -  ОРУЖЈЕ И МУНИЦИЈА; ЊИXОВИ ДЕЛОВИ И ПРИБОР</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav20">
+				<content>
+					<p>ОДЕЉАК XX -  РАЗНИ  ПРОИЗВОДИ</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav21">
+				<content>
+					<p>ОДЕЉАК XXI -  ПРЕДМЕТИ УМЕТНОСТИ, КОЛЕКЦИЈА И СТАРИНА</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav22">
+				<content>
+					<p>ЗАКОН</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav23">
+				<content>
+					<p>о Царинској тарифи</p>
+				</content>
+			</paragraph>
+			<paragraph wId="od6-clan4-stav24">
+				<content>
+					<p>“Службени гласник РС”, бр. 62 од 18. јула 2005, 61 од 30. јуна 2007, 5  од   22. јануара  2009, 95 од 8. децембра 2018 -  др. закон, 91 од 24. децембра 2019.</p>
+				</content>
+			</paragraph>
+			<article wId="od6-clan1">
+				<num>1.</num>
+				<paragraph wId="od6-clan1-stav1">
+					<content>
+						<p>Овим законом уређују се Царинска тарифа, која је одштампана уз овај  закон и чини његов саставни део; правила о обрачунавању царине; систем назива  робе која се увози, уноси или прима у царинско подручје Републике Србије,  односно извози, износи или шаље из царинског подручја Републике Србије  разврстани по одељцима и главама Царинске тарифе; систем нумеричког означавања  робе (тарифни бројеви, тарифни подбројеви и тарифне ознаке) у Царинској тарифи,  као и правила о сврставању поједине робе у тарифне бројеве, тарифне подбројеве и  тарифне ознаке Царинске тарифе.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="od6-clan2">
+				<num>2.</num>
+				<heading>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2007/61/srp@">61/2007</ref></heading>
+				<paragraph wId="od6-clan2-stav1">
+					<content>
+						<p>На робу која се увози у царинско подручје Републике Србије, царина се обрачунава и наплаћује применом стопе царине одређене у колони 4 Царинске тарифе, на царинску вредност робе (метод ад валорем).*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan2-stav2">
+					<content>
+						<p>Изузетно од одредбе <ref wId="ref21" href="akn/rs/act/2019/91-78/srp@/!main~art_2__para_1" >става 1. овог</ref> члана, на робу за коју је у колони 4 Царинске  тарифе поред стопе царине предвиђена и специфична царина у минималном и  максималном износу, у случајевима када је царина обрачуната методом ад валорем  мања од специфичне царине, примењује се минимална специфична царина, а када је  царина обрачуната методом ад валорем већа од максималне специфичне царине,  примењује се максимална специфична царина.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan2-stav3">
+					<content>
+						<p>Наплата специфичне царине исказане у еврима врши се у динарској противвредности  по званичном курсу важећем на дан утврђивања износа увозних дажбина.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan2-stav4">
+					<content>
+						<p>Стопе предвиђене у Царинској тарифи примењују се на робу пореклом из земаља на  које се примењује клаузула највећег повлашћења или које ту клаузулу примењују на  робу пореклом из Републике Србије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan2-stav5">
+					<content>
+						<p>На увоз робе пореклом из земаља са којима Република Србија има закључене  споразуме о слободној трговини, примењују се стопе царине предвиђене тим  споразумима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan2-stav6">
+					<content>
+						<p>На робу из осталих земаља примењују се стопе предвиђене у Царинској тарифи,  увећане за 70%.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan2-stav7">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref22" href="akn/rs/act/2007/61/srp@">61/2007</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="od6-clan3">
+				<num>3.</num>
+				<heading>**Службени гласник РС, број <ref wId="ref32" href="akn/rs/act/2009/5/srp@">5/2009</ref></heading>
+				<paragraph wId="od6-clan3-stav1">
+					<content>
+						<p>Царинску тарифу чини номенклатура роба и стопе,  односно износ царине прописане за поједине робе наведене у тој номенклатури.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav2">
+					<intro>
+						<p>Номенклатура, у смислу овог закона, обухвата:</p>
+					</intro>
+					<point wId="od6-clan3-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> наименовања одељака, глава, раздела, тарифних бројева и тарифних подбројева с њиховим нумеричким ознакама;</p>
+						</content>
+					</point>
+					<point wId="od6-clan3-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> напомене уз одељке и главе, напомене за тарифне подбројеве и додатне напомене;</p>
+						</content>
+					</point>
+					<point wId="od6-clan3-stav2-tac3">
+						<num>3)</num>
+						<content>
+							<p> основна правила за примењивање Царинске тарифе.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav3">
+					<content>
+						<p>Под појмом „тарифни број” подразумева се наименовање робе, које обухвата један производ или више производа и који је означен четвороцифреном ознаком, код које прва два броја означавају број главе којој тарифни број припада, а друга два – редни број тарифног броја у тој глави.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav4">
+					<content>
+						<p>Под појмом „тарифни међуподброј” подразумева се наименовање робе које обухвата један производ или више производа и које није означено нумеричком ознаком пошто се даље рашчлањава на тарифне подбројеве.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav5">
+					<content>
+						<p>Под појмом „тарифни подброј” подразумева се наименовање робе које обухвата један производ или више производа и које је означено нумеричком ознаком са најмање шест цифара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav6">
+					<content>
+						<p>Нумеричке ознаке којима су означени тарифни бројеви и тарифни подбројеви називају се тарифне ознаке.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav7">
+					<content>
+						<p>Тарифни став обухвата: тарифну ознаку са десет цифара, наименовање тарифног подброја, јединицу мере и стопу, односно износ царине прописану за робу из тог тарифног подброја.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav8">
+					<content>
+						<p>Влада уредбом најкасније у новембру текуће године за наредну годину усклађује номенклатуру Царинске тарифе са Комбинованом номенклатуром Европске уније, која ће се примењивати на сврставање производа у Царинској тарифи. Ова уредба обухвата и стопе, односно износ царине утврђене овим законом, односно закљученим споразумима о слободној трговини примењене на усклађену номенклатуру.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav9">
+					<content>
+						<p>Усклађивање номенклатуре из <ref wId="ref24" href="akn/rs/act/2019/91-78/srp@/!main~art_3__para_8" >става 8. овог</ref> члана врши се у складу са обавезама  преузетим међународним уговорима и обухвата измене, односно допуне наименовања,  нумеричких ознака, напомена, укључујући и напомене за тарифне ставове и Основних  правила за примењивање Царинске тарифе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav10">
+					<content>
+						<p>Прописом из <ref wId="ref25" href="akn/rs/act/2019/91-78/srp@/!main~art_3__para_8" >става 8. овог</ref> члана не могу се мењати стопе, односно износ царине  утврђене овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav11">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref26" href="akn/rs/act/2007/61/srp@">61/2007</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav12">
+					<content>
+						<p>**Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2009/5/srp@">5/2009</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav13">
+					<content>
+						<p>Члан 3a</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav14">
+					<content>
+						<p>Сврставање робе у Царинску тарифу представља  одређивање тарифног става за ту робу, у складу са овим законом и прописима  донетим на основу овог закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav15">
+					<content>
+						<p>Одлуке о сврставању које је донео Комитет за  хармонизовани систем (Harmonized System Committеe),  а које је као класификациона мишљења у складу са <ref wId="ref28" href="akn/rs/act/2019/91-78/srp@/!main~art_8__para_2" >чланом 8. став 2. </ref>Међународне  конвенције о хармонизованом систему назива и шифарских ознака робе („Службени  лист СФРЈ – Међународни уговори”, бр. 6/87 и 14/91 и „Службени лист СРЈ”, број  <ref wId="ref29" href="akn/rs/act/97/2/srp@">2/97</ref>) потврдила Светска царинска организација, обавезне су за примену.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav16">
+					<content>
+						<p>Одлуке о сврставању објављене у „Службеном листу  Европске уније” („Official Journal of the European Union”)  обавезне су за примену.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav17">
+					<content>
+						<p>Одлуке о сврставању из <ref wId="ref30" href="akn/rs/act/2019/91-78/srp@/!main~art_3__para_2->para_3" >ст. 2. и 3. овог</ref> члана, које су  до сада донете и које буду донете, објављују се у „Службеном гласнику Републике  Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav18">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref31" href="akn/rs/act/2019/91/srp@">91/2019</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan3-stav19">
+					<content>
+						<p>Члан 3а.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="od6-clan4">
+				<num>4.</num>
+				<heading>Престао је да важи (види  <ref wId="ref33" href="akn/rs/act/2019/91-78/srp@/!main~art_282" >члан 282. </ref>Закон - 95/2018-9)</heading>
+			</article>
+			<article wId="od6-clan5">
+				<num>5.</num>
+				<heading>*Службени гласник РС, број <ref wId="ref35" href="akn/rs/act/2019/91/srp@">91/2019</ref></heading>
+				<paragraph wId="od6-clan5-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона престаје да важи Закон о Царинској тарифи („Службени лист СРЈ”, број <ref wId="ref34" href="akn/rs/act/01/23/srp@">23/01</ref>).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="od6-clan6">
+				<num>6.</num>
+				<paragraph wId="od6-clan6-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od6-clan6-stav2">
+					<content>
+						<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У “ПРЕЧИШЋЕН ТЕКСТ” ЗАКОНА</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="od6-clan7">
+				<num>7.</num>
+				<paragraph wId="od6-clan7-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, осим <ref wId="ref36" href="akn/rs/act/2019/91-78/srp@/!main~art_4а" >члана 4а </ref>који ступа на снагу 1. јануара 2008. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<paragraph wId="od6-clan5-stav2">
+				<content>
+					<p>Одредба става 1. овог члана престаје да важи даном почетка примене, односно ступања на снагу Прелазног споразума из става 1. овог члана.</p>
+				</content>
+			</paragraph>
+		</body>
+	</act>
+</akomaNtoso>

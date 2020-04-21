@@ -1,0 +1,1603 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о управним споровима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2009/111-39/main"/>
+					<FRBRuri value="akn/rs/act/2009/111-39"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2009/111-39/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2009/111-39/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2009/111-39/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2009/111-39/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-12-29" name="службени гласник рс“" number="111" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="11. Поступци у области грађанског права, управни и остали поступци" value="11. поступци у области грађанског права, управни и остали поступци" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2009-12-29" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2009-12-30" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2009-12-30" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="другим"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="појединачним"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="суђења"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="уставом"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="обезбеђује"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="правичност"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="спорова"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="правила"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="предвиђеним"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="судских"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="средства"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="донетих"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="појединачних"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="правних"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="правна"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="законитост"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="управних"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="решавање"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштита"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="интереса"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="решавања"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="извршење"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="стварима"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="судска"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="управним"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="предмет"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="пресуда"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="спора"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="странке"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sudija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskog suda za ljudska prava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O isključenju javnosti sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O slučaju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O tužbi za ponavljanje postupka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Stranka sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sudskim poslovnikom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravnim sudom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravnog suda stranka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojsci Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovni kasacioni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnim kasacionim sudom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnom kasacionom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnom kasacionom sudu zahtev za preispitivanje sudske odluke"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="drugom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="nadležnom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="predaje sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="predajom sudu"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Izvestilac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Rok"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 5. stava 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. i 26."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="46. i 47."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="49."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="56. do 64."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="56. stav 1. tačka 7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="70. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="94. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2009. године (види члан 79. Закона).Поступци по тужбама, захтевима за ванредно преиспитивање судске одлуке и тужбама за понављање поступка поднетим до дана ступања на снагу овог закона, окончаће се пред Управним судом, по правилима поступка која су важила до дана ступања на снагу овог закона. Поступци по жалбама изјављеним против пресуда донетих у управном спору и захтевима за заштиту законитости поднетим до дана ступања на снагу овог закона, окончаће се пред Врховним касационим судом по правилима поступка која су важила до дана ступања на снагу овог закона (види члан 77. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2009. године (види члан 79. Закона).Поступци по тужбама, захтевима за ванредно преиспитивање судске одлуке и тужбама за понављање поступка поднетим до дана ступања на снагу овог закона, окончаће се пред Управним судом, по правилима поступка која су важила до дана ступања на снагу овог закона. Поступци по жалбама изјављеним против пресуда донетих у управном спору и захтевима за заштиту законитости поднетим до дана ступања на снагу овог закона, окончаће се пред Врховним касационим судом по правилима поступка која су важила до дана ступања на снагу овог закона (види члан 77. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О управним споровима „Службени гласник РС“, број <ref wId="ref61" href="akn/rs/act/2009/111/srp@">111 од 29. децембра 2009</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет и циљ закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се предмет управног спора, надлежност за решавање управних спорова, странке, правила поступка, правна средства и извршење донетих судских пресуда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Овим законом обезбеђује се судска заштита појединачних права и правних интереса и законитост решавања у управним и другим Уставом и законом предвиђеним појединачним стварима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Правичност суђења у управном спору</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>У управном спору суд одлучује на основу закона и у разумном року, на подлози чињеница утврђених на усменој јавној расправи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Предмет управног спора</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>У управном спору суд одлучује о законитости коначних управних аката, осим оних у погледу којих је предвиђена другачија судска заштита.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>У управном спору суд одлучује и о законитости коначних појединачних аката којима се решава о праву, обавези или на закону заснованом интересу, у погледу којих у одређеном случају законом није предвиђена другачија судска заштита.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Суд у управном спору одлучује и о законитости других коначних појединачних аката када је то законом предвиђено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Одредбе овог закона које се односе на управни акт, примењују се и на друге акте против којих се може водити управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Одређење управног акта</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Управни акт, у смислу овог закона, јесте појединачни правни акт којим надлежни орган, непосредном применом прописа, решава о одређеном праву или обавези физичког или правног лица, односно друге странке у управној ствари.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Одређење управне ствари</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Управна ствар, у смислу овог закона, јесте појединачна неспорна ситуација од јавног интереса у којој непосредно из правних прописа произилази потреба да се будуће понашање странке ауторитативно правно одреди.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Одређење надлежног органа</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Надлежним органом, у смислу овог закона, сматрају се државни органи, органи аутономне покрајине и јединице локалне самоуправе, привредна друштва, јавна и друга предузећа, установе, организације и појединци, као и посебни органи, када у вршењу јавних овлашћења решавају у управним стварима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Обавезност правноснажних пресуда</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Пресуда донета у управом спору је обавезујућа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<content>
+							<p>Против пресуде донете у управном спору не може се изјавити жалба (правноснажна пресуда).</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>НАДЛЕЖНОСТ И САСТАВ СУДА</heading>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Управни суд</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Управни спор решава Управни суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Управни суд одлучује у већу од три судије, осим ако овим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Врховни касациони суд</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>У поступку по захтеву за преиспитивање судске одлуке против одлуке Управног суда одлучује Врховни касациони суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Врховни касациони суд одлучује у већу од три судије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>СТРАНКЕ У УПРАВНОМ СПОРУ</heading>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<heading>Странке</heading>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>Странке у управном спору јесу тужилац, тужени и заинтересовано лице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<heading>Тужилац</heading>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Тужилац у управном спору може да буде физичко, правно или друго лице, ако сматра да му је управним актом повређено неко право или на закону засновани интерес.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>Државни орган, орган аутономне покрајине и јединице локалне самоуправе, организација, део привредног друштва са овлашћењима у правном промету, насеље, група лица и други који немају својство правног лица, могу покренути управни спор ако могу да буду носиоци права и обавеза о којима се решавало у управном поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav3">
+						<content>
+							<p>Ако је управним актом повређен закон на штету јавног интереса, управни спор може да покрене надлежни јавни тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav4">
+						<content>
+							<p>Ако су управним актом повређена имовинска права и интереси Републике Србије, аутономне покрајине или јединице локалне самоуправе, управни спор може да покрене и надлежно јавно правобранилаштво.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>Тужени</heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Тужени у управном спору јесте орган чији се управни акт оспорава, односно орган који по захтеву, односно по жалби странке није донео управни акт.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Заинтересовано лице</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Заинтересовано лице јесте лице коме би поништај оспореног управног акта непосредно био на штету.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕДМЕТ УПРАВНОГ СПОРА</heading>
+				<article wId="gla4-clan14">
+					<num>14.</num>
+					<heading>Коначни управни акт</heading>
+					<paragraph wId="gla4-clan14-stav1">
+						<content>
+							<p>Управни спор може се покренути против управног акта који је донет у другом степену.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan14-stav2">
+						<content>
+							<p>Управни спор може се покренути и против првостепеног управног акта против кога није дозвољена жалба у управном поступку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<heading>Ћутање управе</heading>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>Управни спор може се покренути и када надлежни орган о захтеву, односно жалби странке није донео управни акт, под условима предвиђеним овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<heading>Повраћај одузетих ствари и накнада штете</heading>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>У управном спору може се тражити и повраћај одузетих ствари и накнада штете која је тужиоцу нанета извршењем акта који се оспорава.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОКРЕТАЊЕ СПОРА</heading>
+				<article wId="gla5-clan17">
+					<num>17.</num>
+					<heading>Тужба</heading>
+					<paragraph wId="gla5-clan17-stav1">
+						<content>
+							<p>Управни спор покреће се тужбом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan18">
+					<num>18.</num>
+					<heading>Општи рок за подношење тужбе</heading>
+					<paragraph wId="gla5-clan18-stav1">
+						<content>
+							<p>Тужба се подноси у року од 30 дана од дана достављања управног акта странци која је подноси или у законом прописаном краћем року.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav2">
+						<content>
+							<p>Рок из <ref wId="ref0" href="akn/rs/act/2009/111-39/srp@/!main~art_18__para_1" >става 1. овог</ref> члана важи и за орган овлашћен за подношење тужбе, ако му је управни акт достављен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan18-stav3">
+						<content>
+							<p>Ако органу овлашћеном за подношење тужбе, односно заинтересованом лицу није достављен управни акт, орган, односно заинтересовано лице може поднети тужбу, у року од 60 дана од дана достављања управног акта странци.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan19">
+					<num>19.</num>
+					<heading>Рок за подношење тужбе због ћутања управе</heading>
+					<paragraph wId="gla5-clan19-stav1">
+						<content>
+							<p>Ако другостепени орган, у року од 60 дана од дана пријема жалбе или у законом одређеном краћем року, није донео решење по жалби странке против првостепеног решења, а не донесе га ни у даљем року од седам дана по накнадном захтеву странке поднетом другостепеном органу, странка по истеку тога рока може поднети тужбу због недоношења захтеваног акта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan19-stav2">
+						<content>
+							<p>Ако првостепени орган по захтеву странке није у року предвиђеном законом којим се уређује општи управни поступак, донео решење против којег није дозвољена жалба, а не донесе га ни у даљем року од седам дана по накнадном захтеву странке, странка по истеку тога рока може поднети тужбу због недоношења захтеваног акта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan20">
+					<num>20.</num>
+					<heading>Предаја тужбе</heading>
+					<paragraph wId="gla5-clan20-stav1">
+						<content>
+							<p>Тужба се предаје надлежном суду непосредно или преко поште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav2">
+						<content>
+							<p>Предаја тужбе у облику електронског документа сматра се непосредном предајом суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav3">
+						<content>
+							<p>Тужба се може изјавити и на записник код суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav4">
+						<content>
+							<p>Дан предаје тужбе пошти препоручено, односно дан изјављивања тужбе на записник сматра се као дан предаје суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav5">
+						<content>
+							<p>Ако тужба није предата надлежном суду у законом прописаном року, него другом суду или другом органу, а стигне надлежном суду после истека рока за подношење тужбе, сматраће се као да је благовремено поднета, ако се њено подношење другом суду или другом органу може приписати незнању или очигледној омашци подносиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav6">
+						<content>
+							<p>За војна лица која се налазе у Војсци Србије, дан предаје тужбе војној јединици или војној установи сматра се као дан предаје суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav7">
+						<content>
+							<p>Одредба <ref wId="ref1" href="akn/rs/act/2009/111-39/srp@/!main~art_20__para_6" >става 6. овог</ref> члана односи се и на цивилна лица запослена у Војсци Србије која су на служби у војним јединицама, односно војним установама у местима у којима не постоји редовна пошта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan21">
+					<num>21.</num>
+					<heading>Поступање са електронским документима</heading>
+					<paragraph wId="gla5-clan21-stav1">
+						<content>
+							<p>Странка суду може предати тужбу и други поднесак и у облику електронског документа, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav2">
+						<content>
+							<p>Суд може доставити акте странци у облику електронског документа, уз претходни изричит пристанак странке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav3">
+						<content>
+							<p>Поступање са електронским документима обавља се у складу са законом којим се уређује електронски документ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav4">
+						<content>
+							<p>Ако електронски документ који је предат суду не може бити прочитан или не испуњава техничке услове из <ref wId="ref2" href="akn/rs/act/2009/111-39/srp@/!main~art_21__para_5" >става 5. овог</ref> члана, суд ће о томе без одлагања обавестити подносиоца, позвати га да поднесак уреди у остављеном року и указати му на последице таквог пропуштања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav5">
+						<content>
+							<p>Начин, техничке услове предаје и утврђивање времена предаје поднесака и доставе аката у облику електронског документа, као и друга питања везана за поступање са електронским документом, ближе се уређују Судским пословником.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav6">
+						<content>
+							<p>Ако је законом прописано да акт треба да буде потписан од стране одређеног лица, сматра се да је тај услов испуњен за акт у облику електронског документа, када је на крају електронског документа наведено име и презиме одговарајућег лица и електронски документ је потписан квалификованим електронским потписом тог лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<heading>Садржина тужбе</heading>
+					<paragraph wId="gla5-clan22-stav1">
+						<content>
+							<p>Тужба мора да садржи име и презиме, адресу и место становања, односно назив и седиште тужиоца, означење управног акта против кога је тужба поднета, разлоге због којих се тужба подноси, предлог у ком правцу и обиму се предлаже поништавање управног акта, као и потпис тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav2">
+						<content>
+							<p>Уз тужбу мора да се приложи оригинал или копија акта против кога се тужба подноси.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav3">
+						<content>
+							<p>Уз тужбу поднету због ћутања управе прилаже се копија захтева, односно жалбе, копија захтева о накнадном тражењу из <ref wId="ref3" href="akn/rs/act/2009/111-39/srp@/!main~art_19" >члана 19. овог</ref> закона и доказ о предаји ових поднесака надлежном органу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav4">
+						<content>
+							<p>Ако се тужба подноси преко пуномоћника, уз тужбу обавезно се прилаже и оригинал пуномоћја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav5">
+						<content>
+							<p>Ако се тужбом тражи повраћај ствари или накнада штете, у тужби се мора определити одређен захтев у погледу ствари или висине претрпљене штете.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav6">
+						<content>
+							<p>Уз тужбу се подноси и по један примерак тужбе и прилога уз тужбу, за тужени орган и за свако заинтересовано лице, ако таквих има.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav7">
+						<content>
+							<p>Тужба може садржавати и позивање на чињенице на којима тужилац заснива свој захтев из тужбе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan23">
+					<num>23.</num>
+					<heading>Одложно дејство тужбе</heading>
+					<paragraph wId="gla5-clan23-stav1">
+						<content>
+							<p>Тужба, по правилу, не одлаже извршење управног акта против кога је поднета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav2">
+						<content>
+							<p>По захтеву тужиоца, суд може одложити извршење коначног управног акта којим је мериторно одлучено у управној ствари, до доношења судске одлуке, ако би извршење нанело тужиоцу штету која би се тешко могла надокнадити, а одлагање није противно јавном интересу, нити би се одлагањем нанела већа или ненадокнадива штета противној странци, односно заинтересованом лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav3">
+						<intro>
+							<p>Изузетно, странка из управног поступка може тражити од суда одлагање извршења управног акта и пре подношења тужбе:</p>
+						</intro>
+						<point wId="gla5-clan23-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> у случају хитности;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan23-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> када је изјављена жалба која по закону нема одложно дејство, а поступак по жалби није окончан.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav4">
+						<content>
+							<p>По захтеву за одлагање извршења суд одлучује решењем, најкасније у року од пет дана од дана пријема захтева из <ref wId="ref4" href="akn/rs/act/2009/111-39/srp@/!main~art_23__para_2->para_3" >ст. 2. и 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan24">
+					<num>24.</num>
+					<heading>Разлози за покретање управног спора</heading>
+					<paragraph wId="gla5-clan24-stav1">
+						<intro>
+							<p>Управни акт може се побијати тужбом у управном спору због незаконитости, и то ако:</p>
+						</intro>
+						<point wId="gla5-clan24-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> у акту није уопште или није правилно примењен закон, други пропис или општи акт;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> је акт донео ненадлежни орган;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> у поступку доношења акта није поступљено по правилима поступка;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> је чињенично стање непотпуно или нетачно утврђено или ако је из утврђених чињеница изведен неправилан закључак у погледу чињеничног стања;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> је у акту који је донет по слободној оцени, орган прекорачио границе законског овлашћења или ако такав акт није донет у складу са циљем у којем је овлашћење дато.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav2">
+						<content>
+							<p>Тужба се може поднети и ради утврђења да је тужени поновио свој ранији акт који је већ поништен пресудом, као и ради утврђења незаконитости донетог акта који је без правног дејства.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРЕТХОДНИ ПОСТУПАК</heading>
+				<article wId="gla6-clan25">
+					<num>25.</num>
+					<heading>Одбацивање тужбе због њене неуредности</heading>
+					<paragraph wId="gla6-clan25-stav1">
+						<content>
+							<p>Ако је тужба непотпуна или неразумљива, судија појединац позваће тужиоца да у остављеном року отклони недостатке тужбе и указаће му на последице ако не поступи по захтеву суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan25-stav2">
+						<content>
+							<p>Ако тужилац у остављеном року не отклони недостатке у тужби који спречавају рад суда, судија појединац из <ref wId="ref5" href="akn/rs/act/2009/111-39/srp@/!main~art_25__para_1" >става 1. овог</ref> члана решењем ће одбацити тужбу као неуредну, ако не нађе да је оспорени управни акт ништав.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan25-stav3">
+						<content>
+							<p>Ако судија појединац пропусти да одбаци тужбу као неуредну, то ће учинити веће суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan26">
+					<num>26.</num>
+					<heading>Одбацивање тужбе из других законских разлога</heading>
+					<paragraph wId="gla6-clan26-stav1">
+						<intro>
+							<p>Судија појединац решењем ће одбацити тужбу и ако утврди:</p>
+						</intro>
+						<point wId="gla6-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да је тужба поднета неблаговремено (<ref wId="ref6" href="akn/rs/act/2009/111-39/srp@/!main~art_18" >члан 18</ref>) или пре времена (<ref wId="ref7" href="akn/rs/act/2009/111-39/srp@/!main~art_19" >члан 19</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да акт који се тужбом оспорава не представља акт о чијој законитости се одлучује у управном спору (<ref wId="ref8" href="akn/rs/act/2009/111-39/srp@/!main~art_3" >члан 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> да уз тужбу поднету због ћутања управе нису приложени сви докази (<ref wId="ref9" href="akn/rs/act/2009/111-39/srp@/!main~art_22__para_3" >члан 22. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> да се управним актом који се тужбом оспорава не дира очигледно у право тужиоца или у његов на закону засновани интерес (<ref wId="ref10" href="akn/rs/act/2009/111-39/srp@/!main~art_11__para_1" >члан 11. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan26-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> да је после подношења тужбе оспорени акт поништен по тужби друге странке;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan26-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> да се против управног акта који се тужбом оспорава могла изјавити жалба, а жалба није уопште или није благовремено изјављена, или је жалилац одустао од жалбе у току другостепеног поступка;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan26-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> да већ постоји правноснажна судска одлука донета у управном спору о истој ствари.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav2">
+						<content>
+							<p>Ако судија појединац пропусти да одбаци тужбу из разлога из <ref wId="ref11" href="akn/rs/act/2009/111-39/srp@/!main~art_26__para_1" >става 1. овог</ref>а члана, то ће учинити веће суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan27">
+					<num>27.</num>
+					<heading>Право на приговор против одбацивања тужбе</heading>
+					<paragraph wId="gla6-clan27-stav1">
+						<content>
+							<p>Против решења судије појединца којим се одбацује тужба по чл. <ref wId="ref12" href="akn/rs/act/2009/111-39/srp@/!main~art_25" >25</ref>. и <ref wId="ref13" href="akn/rs/act/2009/111-39/srp@/!main~art_26" >26</ref>. овог закона, подносилац тужбе има право на приговор у року од осам дана од достављања решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav2">
+						<content>
+							<p>О приговору из <ref wId="ref14" href="akn/rs/act/2009/111-39/srp@/!main~art_27__para_1" >става 1. овог</ref> члана одлучује посебно веће суда састављено од троје судија, после одржане усмене јавне расправе, ако је подносилац приговора захтевао одржавање расправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav3">
+						<content>
+							<p>Посебно веће суда из <ref wId="ref15" href="akn/rs/act/2009/111-39/srp@/!main~art_27__para_2" >става 2. овог</ref> члана о приговору одлучује решењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav4">
+						<content>
+							<p>Решењем се приговор одбацује ако је изјављен неблаговремено или од неовлашћеног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav5">
+						<content>
+							<p>Ако веће из <ref wId="ref16" href="akn/rs/act/2009/111-39/srp@/!main~art_27__para_2" >става 2. овог</ref> члана одбије приговор, решење о одбацивању тужбе постаје правноснажно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav6">
+						<content>
+							<p>Ако веће из <ref wId="ref17" href="akn/rs/act/2009/111-39/srp@/!main~art_27__para_2" >става 2. овог</ref> члана уважи приговор, поништиће решење о одбацивању тужбе, а поступак пред судом ће се наставити.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan28">
+					<num>28.</num>
+					<heading>Поништење управног акта у претходном поступку</heading>
+					<paragraph wId="gla6-clan28-stav1">
+						<content>
+							<p>Ако суд не одбаци тужбу на основу <ref wId="ref18" href="akn/rs/act/2009/111-39/srp@/!main~art_25__para_2" >члана 25. став 2. </ref>или <ref wId="ref19" href="akn/rs/act/2009/111-39/srp@/!main~art_26" >члана 26. овог</ref> закона, а нађе да оспорени управни акт садржи такве недостатке у облику и саставним деловима који акт чине очигледно незаконитим, може пресудом поништити акт и без достављања тужбе на одговор, уз позивање туженог да се претходно изјасни.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav2">
+						<content>
+							<p>Ако тужени у случају из <ref wId="ref21" href="akn/rs/act/2009/111-39/srp@/!main~art_28__para_1" >става 1. овог</ref> члана сам поништи или измени оспорени акт, судија појединац ће по прибављеној изјави тужиоца да је задовољан накнадно донетим решењем, донети решење о обустављању поступка, сходном применом одредаба <ref wId="ref20" href="akn/rs/act/2009/111-39/srp@/!main~art_29" >члана 29. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav3">
+						<content>
+							<p>У погледу правне заштите против решења судије појединца о обустављању поступка, сходно се примењују одредбе <ref wId="ref22" href="akn/rs/act/2009/111-39/srp@/!main~art_27" >члана 27. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan29">
+					<num>29.</num>
+					<heading>Удовољавање тужбеном захтеву од стране туженог</heading>
+					<paragraph wId="gla6-clan29-stav1">
+						<content>
+							<p>Ако тужени у току судског поступка донесе други акт којим се мења или поништава управни акт против којег је управни спор покренут, као и ако у случају из <ref wId="ref23" href="akn/rs/act/2009/111-39/srp@/!main~art_19" >члана 19. овог</ref> закона накнадно донесе првостепени односно, другостепени управни акт, тај орган ће, поред тужиоца, истовремено известити и суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav2">
+						<content>
+							<p>У случају из <ref wId="ref24" href="akn/rs/act/2009/111-39/srp@/!main~art_29__para_1" >става 1. овог</ref> члана суд ће позвати тужиоца да у року од 15 дана од дана пријема позива достави суду писану изјаву о томе да ли је накнадно донетим актом задовољан или остаје при тужби и у ком обиму, односно да ли тужбу проширује и на нови акт.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav3">
+						<content>
+							<p>Ако тужилац благовремено достави суду писану изјаву да је накнадно донетим актом задовољан или ако не да изјаву у року из <ref wId="ref25" href="akn/rs/act/2009/111-39/srp@/!main~art_29__para_2" >става 2. овог</ref> члана, суд ће донети решење о обустављању поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav4">
+						<content>
+							<p>Ако тужилац изјави да новим актом није задовољан, суд ће наставити поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan30">
+					<num>30.</num>
+					<heading>Одговор на тужбу и решавање спора без списа</heading>
+					<paragraph wId="gla6-clan30-stav1">
+						<content>
+							<p>Ако тужбу не одбаци на основу <ref wId="ref26" href="akn/rs/act/2009/111-39/srp@/!main~art_25__para_2" >члана 25. став 2. </ref>или <ref wId="ref27" href="akn/rs/act/2009/111-39/srp@/!main~art_26" >члана 26. овог</ref> закона, нити поништи акт по <ref wId="ref28" href="akn/rs/act/2009/111-39/srp@/!main~art_28__para_1" >члану 28. став 1. овог</ref> закона односно не огласи ништавим по <ref wId="ref29" href="akn/rs/act/2009/111-39/srp@/!main~art_42__para_3" >члану 42. став 3, </ref>суд ће по један примерак тужбе са прилозима доставити на одговор туженом и заинтересованим лицима, ако их има.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav2">
+						<content>
+							<p>Одговор из <ref wId="ref30" href="akn/rs/act/2009/111-39/srp@/!main~art_30__para_1" >става 1. овог</ref> члана даје се у року који суд одреди у сваком поједином случају, с тим што суд не може одредити рок дужи од 30 дана од дана достављања тужбе на одговор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav3">
+						<content>
+							<p>У остављеном року тужени је дужан да достави суду све списе који се односе на предмет управног спора и изјасни се о наводима тужбе. Ако тужени и после другог захтева не достави списе предмета у року од осам дана, или ако изјави да их не може доставити, суд може решити спор и без списа, при чему ће сам утврдити чињенично стање на расправи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan31">
+					<num>31.</num>
+					<heading>Обавеза достављања исправа</heading>
+					<paragraph wId="gla6-clan31-stav1">
+						<content>
+							<p>На захтев суда, сви државни органи, органи аутономне покрајине и јединица локалне самоуправе, и други носиоци јавних овлашћења (у даљем тексту: „орган јавне власти”) дужни су да доставе исправе којима располажу у року који суд одреди.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan31-stav2">
+						<content>
+							<p>Орган јавне власти из <ref wId="ref31" href="akn/rs/act/2009/111-39/srp@/!main~art_31__para_1" >става 1. овог</ref> члана дужан је да означи које исправе, односно делови исправа представљају тајну у складу са посебним законом, тако да странке у њих не смеју имати увид.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan31-stav3">
+						<content>
+							<p>Ако орган јавне власти по поновљеном захтеву суда у другом остављеном року, не достави тражене исправе, суд ће руководиоца тог органа позвати да пружи обавештење о разлозима пропуштања поступања по налогу суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan32">
+					<num>32.</num>
+					<heading>Одустанак тужиоца од тужбе</heading>
+					<paragraph wId="gla6-clan32-stav1">
+						<content>
+							<p>Тужилац може одустати од тужбе све до доношења одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan32-stav2">
+						<content>
+							<p>У случају одустанка тужиоца од тужбе судија појединац или веће суда решењем обуставља поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan32-stav3">
+						<content>
+							<p>У погледу правне заштите против решења судије појединца о обустављању поступка, сходно се примењују одредбе <ref wId="ref32" href="akn/rs/act/2009/111-39/srp@/!main~art_27" >члана 27. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>УТВРЂИВАЊЕ ЧИЊЕНИЦА</heading>
+				<article wId="gla7-clan33">
+					<num>33.</num>
+					<heading>Уопште о утврђивању чињеница на расправи</heading>
+					<paragraph wId="gla7-clan33-stav1">
+						<content>
+							<p>У управном спору суд решава на основу утврђених чињеница на одржаној усменој јавној расправи (у даљем тексту: „расправа”).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan33-stav2">
+						<content>
+							<p>Суд решава без одржавања усмене расправе, само ако је предмет спора такав да очигледно не изискује непосредно саслушање странака и посебно утврђивање чињеничног стања, или ако странке на то изричито пристану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan33-stav3">
+						<content>
+							<p>Суд је обавезан да посебно наведе разлоге због којих није одржао усмену расправу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan34">
+					<num>34.</num>
+					<heading>Нарочити случајеви одржавања расправе</heading>
+					<paragraph wId="gla7-clan34-stav1">
+						<content>
+							<p>Веће суда ће увек одржати расправу због сложености предмета спора, или ради бољег разјашњења стања ствари, као и у случају из <ref wId="ref33" href="akn/rs/act/2009/111-39/srp@/!main~art_30__para_3" >члана 30. став 3. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan34-stav2">
+						<content>
+							<p>Расправа је обавезна и ако је у управном поступку учествовало две или више странака са супротним интересима као и када суд утврђује чињенично стање ради решавања у пуној јурисдикцији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan35">
+					<num>35.</num>
+					<heading>Јавност расправе</heading>
+					<paragraph wId="gla7-clan35-stav1">
+						<content>
+							<p>Расправа је јавна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan35-stav2">
+						<content>
+							<p>Веће суда може искључити јавност за целу расправу или за одређени део расправе ако то захтевају разлози заштите интереса националне безбедности, јавног реда и морала као и ради заштите интереса малолетника или приватности учесника у поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan35-stav3">
+						<content>
+							<p>О искључењу јавности суд одлучује решењем које мора бити образложено и јавно објављено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan36">
+					<num>36.</num>
+					<heading>Заказивање расправе</heading>
+					<paragraph wId="gla7-clan36-stav1">
+						<content>
+							<p>Председник већа одређује дан одржавања расправе и на расправу позива странке и заинтересована лица, ако их има.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan36-stav2">
+						<content>
+							<p>Расправа се може одложити само из важних разлога, о чему решава веће.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan37">
+					<num>37.</num>
+					<heading>Руковођење расправом и записник</heading>
+					<paragraph wId="gla7-clan37-stav1">
+						<content>
+							<p>Расправом руководи председник већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan37-stav2">
+						<content>
+							<p>О расправи се води записник у који се уносе само битне чињенице и околности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan37-stav3">
+						<content>
+							<p>Записник о одржаној усменој расправи потписују председник већа и записничар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan38">
+					<num>38.</num>
+					<heading>Изостанак странака са расправе</heading>
+					<paragraph wId="gla7-clan38-stav1">
+						<content>
+							<p>Изостанак уредно позване странке са усмене расправе не одлаже њено одржавање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan38-stav2">
+						<content>
+							<p>Због изостанка странака са усмене расправе не може се узети да су оне одустале од својих захтева, већ ће се њихови поднесци прочитати.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan38-stav3">
+						<content>
+							<p>Ако на усмену расправу не дођу ни тужилац ни тужени, а расправа се не одложи, суд ће расправити спор и без присуства странака.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan39">
+					<num>39.</num>
+					<heading>Ток расправе</heading>
+					<paragraph wId="gla7-clan39-stav1">
+						<content>
+							<p>На расправи реч прво добија члан већа који је известилац. Известилац излаже стање и суштину спора, не дајући своје мишљење. Председник већа даје реч тужиоцу, па заступнику туженог и заинтересованим лицима, водећи рачуна да се њихове изјаве односе само на спорна питања и околности од значаја за решење ствари.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan39-stav2">
+						<content>
+							<p>Суд на расправи одлучује који ће се докази извести ради утврђивања чињеничног стања.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>СУДСКЕ ОДЛУКЕ</heading>
+				<article wId="gla8-od1-clan40">
+					<num>40.</num>
+					<heading>Решавање спора</heading>
+					<paragraph wId="gla8-od1-clan40-stav1">
+						<content>
+							<p>Суд решава спор пресудом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan40-stav2">
+						<content>
+							<p>Пресудом се тужба уважава или одбија као неоснована.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan40-stav3">
+						<content>
+							<p>Суд доноси пресуду већином гласова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan40-stav4">
+						<content>
+							<p>О већању и гласању води се посебан записник који потписују сви чланови већа и записничар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan40-stav5">
+						<content>
+							<p>Већање и гласање врши се без присуства странака.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od1-clan41">
+					<num>41.</num>
+					<heading>Границе судског испитивања оспореног акта</heading>
+					<paragraph wId="gla8-od1-clan41-stav1">
+						<content>
+							<p>Законитост оспореног управног акта суд испитује у границама захтева из тужбе, али при том није везан разлозима тужбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan41-stav2">
+						<content>
+							<p>На ништавост управног акта суд пази по службеној дужности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od1-clan42">
+					<num>42.</num>
+					<heading>Пресуде донете у спору ограничене јурисдикције</heading>
+					<paragraph wId="gla8-od1-clan42-stav1">
+						<content>
+							<p>Ако се тужба уважава, суд пресудом поништава оспорени управни акт у целини или делимично и враћа предмет надлежном органу на поновно одлучивање, осим ако у тој ствари нови акт није потребан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan42-stav2">
+						<content>
+							<p>Ако се тужба уважава а тужбени захтев је да се утврди незаконитост акта без правних дејстава, или се тужбени захтев састоји само у утврђењу да је тужени поновио свој ранији акт који је већ поништен пред судом – суд се у пресуди ограничава на тражено утврђење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan42-stav3">
+						<content>
+							<p>Ако суд нађе да је оспорени акт ништав, донеће пресуду којом тај акт оглашава ништавим.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od1-clan43">
+					<num>43.</num>
+					<heading>Пресуде донете у спору пуне јурисдикције</heading>
+					<paragraph wId="gla8-od1-clan43-stav1">
+						<content>
+							<p>Када нађе да оспорени управни акт треба поништити, суд ће пресудом решити управну ствар, ако природа ствари то дозвољава и ако утврђено чињенично стање пружа поуздан основ за то. Таква пресуда у свему замењује поништени акт (спор пуне јурисдикције).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan43-stav2">
+						<content>
+							<p>Спор пуне јурисдикције је искључен када је предмет управног спора управни акт донет по дискреционој оцени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan43-stav3">
+						<content>
+							<p>Изузетно, у појединим материјама спор пуне јурисдикције може да буде изричито искључен посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan43-stav4">
+						<content>
+							<p>Ако тужилац тражи да суд својом пресудом реши управну ствар, суд је обавезан да посебно наведе разлоге због којих тај захтев није прихватио.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan43-stav5">
+						<content>
+							<p>У случајевима када би поништење оспореног акта и поновно вођење поступка пред надлежним органом изазвало за тужиоца штету која би се тешко могла надокнадити а суд је сам утврђивао чињенично стање, обавезан је да одлучи у спору пуне јурисдикције, осим ако је такав спор законом искључен.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od1-clan44">
+					<num>44.</num>
+					<heading>Пресуде донете у спору због ћутања управе</heading>
+					<paragraph wId="gla8-od1-clan44-stav1">
+						<content>
+							<p>Када је тужба поднета на основу <ref wId="ref34" href="akn/rs/act/2009/111-39/srp@/!main~art_19" >члана 19. овог</ref> закона, а суд нађе да је основана, пресудом ће уважити тужбу и наложити да надлежни орган донесе решење. Ако суд располаже потребним чињеницама, а природа ствари то дозвољава, он може својом пресудом непосредно решити управну ствар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od1-clan45">
+					<num>45.</num>
+					<heading>Одлучивање у парничним стварима у управном спору</heading>
+					<paragraph wId="gla8-od1-clan45-stav1">
+						<content>
+							<p>Пресудом којом се оспорени управни акт поништава, односно оглашава ништавим, суд може одлучити и о захтеву тужиоца за повраћај ствари, односно за накнаду штете, ако утврђено чињенично стање пружа поуздан основ за то. У противном ће упутити тужиоца да свој захтев остварује у парничном поступку пред надлежним судом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od1-clan46">
+					<num>46.</num>
+					<heading>Доношење и објављивање пресуде</heading>
+					<paragraph wId="gla8-od1-clan46-stav1">
+						<content>
+							<p>Суд ће, по завршеној расправи, одмах донети и објавити пресуду заједно са најважнијим разлозима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan46-stav2">
+						<content>
+							<p>У сложеним случајевима суд може најкасније у року од петнаест дана од дана закључења расправе да донесе пресуду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan46-stav3">
+						<content>
+							<p>Ако по завршеној усменој расправи не може да донесе пресуду, односно решење због тога што претходно треба да утврди неку чињеницу за чије расправљање није потребна нова усмена расправа, суд ће пресуду донети без расправе, најкасније у року од осам дана од дана када ту чињеницу утврди.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od1-clan47">
+					<num>47.</num>
+					<heading>Садржина и саставни делови пресуде</heading>
+					<paragraph wId="gla8-od1-clan47-stav1">
+						<content>
+							<p>Пресуда садржи означење суда, име и презиме председника већа, чланова већа и записничара, означење странака и њихових заступника, предмет спора, дан кад је пресуда донета и објављена, диспозитив, образложење и поуку о правном средству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan47-stav2">
+						<content>
+							<p>Диспозитив пресуде мора бити одвојен од образложења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan47-stav3">
+						<content>
+							<p>Изворник пресуде потписују председник већа и записничар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-od1-clan47-stav4">
+						<content>
+							<p>Пресуда се издаје странкама у овереном препису.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-od2-clan48">
+					<num>48.</num>
+					<heading>Сходна примена одредба које се односе на пресуде</heading>
+					<paragraph wId="gla8-od2-clan48-stav1">
+						<content>
+							<p>Одредбе чл. <ref wId="ref35" href="akn/rs/act/2009/111-39/srp@/!main~art_46" >46</ref>. и <ref wId="ref36" href="akn/rs/act/2009/111-39/srp@/!main~art_47" >47</ref>. овог закона сходно се примењују и на доношење судских решења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>ВАНРЕДНА ПРАВНА СРЕДСТВА</heading>
+				<article wId="gla9-od1-clan49">
+					<num>49.</num>
+					<heading>Услови и разлози за подношење</heading>
+					<paragraph wId="gla9-od1-clan49-stav1">
+						<content>
+							<p>Против правноснажне одлуке Управног суда странка и надлежни јавни тужилац могу да поднесу Врховном касационом суду захтев за преиспитивање судске одлуке (у даљем тексту: „захтев”).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od1-clan49-stav2">
+						<intro>
+							<p>Захтев може да се поднесе:</p>
+						</intro>
+						<point wId="gla9-od1-clan49-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> када је то законом предвиђено;</p>
+							</content>
+						</point>
+						<point wId="gla9-od1-clan49-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> у случајевима када је суд одлучивао у пуној јурисдикцији;</p>
+							</content>
+						</point>
+						<point wId="gla9-od1-clan49-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> у стварима у којима је у управном поступку била искључена жалба.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-od1-clan49-stav3">
+						<content>
+							<p>Захтев може да се поднесе због повреде закона, другог прописа или општег акта или повреде правила поступка која је могла бити од утицаја на решење ствари.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od1-clan50">
+					<num>50.</num>
+					<heading>Начин предаје</heading>
+					<paragraph wId="gla9-od1-clan50-stav1">
+						<content>
+							<p>Захтев се предаје Врховном касационом суду, на начин одређен у члану 20. ст. <ref wId="ref37" href="akn/rs/act/2009/111-39/srp@/!main~art_20__para_1->para_2" >1, 2</ref>. и <ref wId="ref38" href="akn/rs/act/2009/111-39/srp@/!main~art_20__para_4" >4</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od1-clan50-stav2">
+						<content>
+							<p>Када је странка физичко лице, захтев предаје преко пуномоћника из реда адвоката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od1-clan51">
+					<num>51.</num>
+					<heading>Рок за подношење</heading>
+					<paragraph wId="gla9-od1-clan51-stav1">
+						<content>
+							<p>Захтев се подноси Врховном касационом суду у року од 30 дана од дана достављања странци, односно надлежном јавном тужиоцу одлуке суда против које се захтев подноси.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od1-clan51-stav2">
+						<content>
+							<p>Ако надлежном јавном тужиоцу није достављена одлука суда, он може поднети захтев у року од 60 дана од дана достављања одлуке суда странци којој је последњој достављена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od1-clan52">
+					<num>52.</num>
+					<heading>Садржина захтева и одбацивање неуредног захтева</heading>
+					<paragraph wId="gla9-od1-clan52-stav1">
+						<content>
+							<p>Захтев садржи означење судске одлуке чије се преиспитивање предлаже, означење подносиоца захтева, као и разлоге и обим у коме се предлаже преиспитивање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od1-clan52-stav2">
+						<content>
+							<p>Ако је захтев непотпун или неразумљив, Врховни касациони суд ће га одбацити решењем против кога није дозвољена жалба.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od1-clan53">
+					<num>53.</num>
+					<heading>Поступање са захтевом</heading>
+					<paragraph wId="gla9-od1-clan53-stav1">
+						<content>
+							<p>Недозвољен или неблаговремен захтев или захтев који је поднело неовлашћено лице Врховни касациони суд ће одбацити решењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od1-clan53-stav2">
+						<content>
+							<p>Ако Врховни касациони суд не одбаци захтев, доставиће га противној странци из управног спора, која може, у року који суд одреди, поднети одговор на захтев.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od1-clan53-stav3">
+						<content>
+							<p>Суд против чије је одлуке поднет захтев и тужени дужни су да без одлагања а најкасније у року од 30 дана, доставе Врховном касационом суду, на његов захтев, све списе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od1-clan54">
+					<num>54.</num>
+					<heading>Начин и границе одлучивања о захтеву</heading>
+					<paragraph wId="gla9-od1-clan54-stav1">
+						<content>
+							<p>Врховни касациони суд решава о захтеву за преиспитивање судске одлуке, односно без одржавања усмене расправе, а побијану одлуку испитује само у границама захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od1-clan55">
+					<num>55.</num>
+					<heading>Садржина одлуке о захтеву</heading>
+					<paragraph wId="gla9-od1-clan55-stav1">
+						<content>
+							<p>Врховни касациони суд пресудом одбија или уважава захтев као основан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od1-clan55-stav2">
+						<content>
+							<p>Пресудом којом захтев уважава, Врховни касациони суд може укинути или преиначити судску одлуку против које је поднет захтев.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od1-clan55-stav3">
+						<content>
+							<p>Ако Врховни касациони суд укине судску одлуку, предмет враћа суду чија је одлука укинута, а тај суд је дужан да изведе све процесне радње и да расправи питања на која му је указао надлежни суд.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan56">
+					<num>56.</num>
+					<heading>Разлози понављања</heading>
+					<paragraph wId="gla9-od2-clan56-stav1">
+						<intro>
+							<p>Поступак завршен правноснажном пресудом или решењем суда поновиће се по тужби странке:</p>
+						</intro>
+						<point wId="gla9-od2-clan56-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако странка сазна за нове чињенице, или нађе или стекне могућност да употреби нове доказе на основу којих би спор био повољније решен за њу да су те чињенице, односно докази били изнети или употребљени у ранијем судском поступку;</p>
+							</content>
+						</point>
+						<point wId="gla9-od2-clan56-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је до судске одлуке дошло услед кривичног дела судије или запосленог у суду, или је одлука издејствована преварном радњом заступника или пуномоћника странке, његовог противника или противниковог заступника или пуномоћника, а таква радња представља кривично дело;</p>
+							</content>
+						</point>
+						<point wId="gla9-od2-clan56-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако је судска одлука заснована на пресуди донетој у казненој или грађанској ствари, а та пресуда је касније укинута другом правноснажном судском одлуком;</p>
+							</content>
+						</point>
+						<point wId="gla9-od2-clan56-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако је исправа на којој се заснива судска одлука лажна или лажно преиначена, или ако је сведок, вештак или странка, приликом саслушања пред судом, дала лажан исказ, а одлука суда се заснива, на том исказу;</p>
+							</content>
+						</point>
+						<point wId="gla9-od2-clan56-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ако странка нађе или стекне могућност да употреби ранију судску одлуку донету у истом управном спору;</p>
+							</content>
+						</point>
+						<point wId="gla9-od2-clan56-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> ако заинтересованом лицу није омогућено да учествује у управном спору;</p>
+							</content>
+						</point>
+						<point wId="gla9-od2-clan56-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> ако став из накнадно донете одлуке Европског суда за људска права у истој ствари може да буде од утицаја на законитост правноснажно окончаног судског поступка.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-od2-clan56-stav2">
+						<content>
+							<p>Због околности из тач. <ref wId="ref40" href="akn/rs/act/2009/111-39/srp@/!main~art_56__para_2__point_1" >1</ref>. и <ref wId="ref41" href="akn/rs/act/2009/111-39/srp@/!main~art_56__para_2__point_5" >5</ref>. <ref wId="ref39" href="akn/rs/act/2009/111-39/srp@/!main~art_56__para_1" >става 1. овог</ref> члана понављање ће се дозволити само ако странка без своје кривице није била у стању да те околности изнесе у ранијем поступку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan57">
+					<num>57.</num>
+					<heading>Рокови за тражење понављања поступка</heading>
+					<paragraph wId="gla9-od2-clan57-stav1">
+						<content>
+							<p>Понављање поступка може се тражити најкасније у року од 30 дана од дана кад је странка сазнала за разлог понављања, осим у случају из члана 56. став 1. тачка <ref wId="ref42" href="akn/rs/act/2009/111-39/srp@/!main~art_56__para_1__point_7" >7</ref>. када се може тражити у року од 6 месеци од дана објављивања одлуке Европског суда за људска права у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od2-clan57-stav2">
+						<content>
+							<p>Ако је странка сазнала за разлог понављања поступка пре него што је поступак пред судом завршен, а тај разлог није могла употребити у току поступка, понављање се може тражити у року од 30 дана од дана достављања одлуке суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od2-clan57-stav3">
+						<content>
+							<p>По протеку пет година од правноснажности судске одлуке понављање поступка се не може тражити.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan58">
+					<num>58.</num>
+					<heading>Надлежност за одлучивање по тужби за понављање поступка</heading>
+					<paragraph wId="gla9-od2-clan58-stav1">
+						<content>
+							<p>О тужби за понављање поступка решава суд који је донео одлуку на коју се односи разлог за понављање поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan59">
+					<num>59.</num>
+					<heading>Садржина тужбе за понављање поступка</heading>
+					<paragraph wId="gla9-od2-clan59-stav1">
+						<intro>
+							<p>У тужби за понављање поступка мора се нарочито навести:</p>
+						</intro>
+						<point wId="gla9-od2-clan59-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> судска одлука донета у поступку чије се понављање тражи;</p>
+							</content>
+						</point>
+						<point wId="gla9-od2-clan59-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> законски разлог понављања (<ref wId="ref43" href="akn/rs/act/2009/111-39/srp@/!main~art_56" >члан 56</ref>) и докази, односно околности које чине вероватним постојање тог основа;</p>
+							</content>
+						</point>
+						<point wId="gla9-od2-clan59-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> околности из којих произлази да је тужба поднета у законском року и чиме се то доказује;</p>
+							</content>
+						</point>
+						<point wId="gla9-od2-clan59-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> у ком правцу и у ком обиму се предлаже измена судске одлуке донете у поступку чије се понављање тражи.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan60">
+					<num>60.</num>
+					<heading>Одбацивање тужбе за понављање поступка</heading>
+					<paragraph wId="gla9-od2-clan60-stav1">
+						<content>
+							<p>Суд ће решењем одбацити тужбу за понављање поступка, ако утврди да је тужбу поднело неовлашћено лице, или да тужба није благовремена, или да странка није учинила бар вероватним постојање законског основа за понављање поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan61">
+					<num>61.</num>
+					<heading>Достављање тужбе на одговор</heading>
+					<paragraph wId="gla9-od2-clan61-stav1">
+						<content>
+							<p>Ако суд не одбаци тужбу по <ref wId="ref44" href="akn/rs/act/2009/111-39/srp@/!main~art_60" >члану 60. овог</ref> закона, доставиће је противној странци из управног спора и заинтересованим лицима, и позваће их да у року од 15 дана одговоре на тужбу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan62">
+					<num>62.</num>
+					<heading>Одлучивање о дозволи понављања поступка</heading>
+					<paragraph wId="gla9-od2-clan62-stav1">
+						<content>
+							<p>По истеку рока за одговор на тужбу, суд решењем одлучује да ли ће дозволити понављање поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od2-clan62-stav2">
+						<content>
+							<p>Ако суд нађе да има законског основа за понављање поступка, поновиће се оне процесне радње на које утичу разлози понављања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan63">
+					<num>63.</num>
+					<heading>Одлучивање о тужби за понављање поступка</heading>
+					<paragraph wId="gla9-od2-clan63-stav1">
+						<content>
+							<p>После поновљеног поступка суд доноси пресуду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-od2-clan63-stav2">
+						<content>
+							<p>Пресудом из <ref wId="ref45" href="akn/rs/act/2009/111-39/srp@/!main~art_63__para_1" >става 1. овог</ref> члана ранија пресуда се може оставити на снази, укинути или преиначити.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan64">
+					<num>64.</num>
+					<heading>Правна заштита против одлука суда у вези са понављањем поступка</heading>
+					<paragraph wId="gla9-od2-clan64-stav1">
+						<content>
+							<p>Против решења суда о одбацивању тужбе за понављање поступка, против решења којим се не дозвољава понављање поступка и против пресуде суда донете по тужби за понављање поступка може се поднети захтев за преиспитивање из <ref wId="ref46" href="akn/rs/act/2009/111-39/srp@/!main~art_49" >члана 49. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-od2-clan65">
+					<num>65.</num>
+					<heading>Сходна примена других процесних одредаба у поновљеном поступку</heading>
+					<paragraph wId="gla9-od2-clan65-stav1">
+						<content>
+							<p>У поновљеном поступку сходно се примењују одредбе овог закона о поступку по тужби и захтеву за преиспитивање судске одлуке, ако одредбама чл. од 56. до 64. овог закона није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>ТРОШКОВИ УПРАВНОГ СПОРА</heading>
+				<article wId="gla10-clan66">
+					<num>66.</num>
+					<heading>Трошкови спора</heading>
+					<paragraph wId="gla10-clan66-stav1">
+						<content>
+							<p>Трошкове управног спора чине издаци настали у току или поводом спора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan67">
+					<num>67.</num>
+					<heading>Одлучивање о трошковима</heading>
+					<paragraph wId="gla10-clan67-stav1">
+						<content>
+							<p>У управном спору о трошковима поступка одлучује суд.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla11">
+				<num>XI</num>
+				<heading>ИЗВРШЕЊЕ ПРЕСУДЕ</heading>
+				<article wId="gla11-clan68">
+					<num>68.</num>
+					<heading>Извршност пресуде</heading>
+					<paragraph wId="gla11-clan68-stav1">
+						<content>
+							<p>Пресуда се може извршити када постане правноснажна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan69">
+					<num>69.</num>
+					<heading>Правне последице поништења акта у управном спору</heading>
+					<paragraph wId="gla11-clan69-stav1">
+						<content>
+							<p>Када суд поништи акт против кога је био покренут управни спор, предмет се враћа у стање поновног решавања по жалби, односно стање поновног решавања по захтеву странке у првостепеном поступку, ако је жалба била законом искључена (стање пре него што је поништени акт донет).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan69-stav2">
+						<content>
+							<p>Ако према природи ствари у којој је настао управни спор треба уместо поништеног управног акта донети други, надлежни орган је дужан да тај акт донесе без одлагања, а најкасније у року од 30 дана од дана достављања пресуде, при чему је надлежни орган везан правним схватањем суда, као и примедбама суда у погледу поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan70">
+					<num>70.</num>
+					<heading>Правне последице активног непоступања по пресуди</heading>
+					<paragraph wId="gla11-clan70-stav1">
+						<content>
+							<p>Ако надлежни орган после поништења управног акта донесе управни акт противно правном схватању суда или противно примедбама суда у погледу поступка, па тужилац поднесе нову тужбу, суд ће поништити оспорени акт и сам решити управну ствар пресудом, осим ако то није могуће због природе те ствари или је иначе пуна јурисдикција законом искључена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan70-stav2">
+						<content>
+							<p>Пресуда донета у случају из <ref wId="ref47" href="akn/rs/act/2009/111-39/srp@/!main~art_70__para_1" >става 1. овог</ref> члана у свему замењује акт надлежног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan70-stav3">
+						<content>
+							<p>Ако суд сматра да због природе ствари не може да сам реши управну ствар, дужан је да то посебно образложи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan70-stav4">
+						<content>
+							<p>О случају из <ref wId="ref48" href="akn/rs/act/2009/111-39/srp@/!main~art_70__para_1" >става 1. овог</ref> члана суд извештава орган који врши надзор над радом органа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan71">
+					<num>71.</num>
+					<heading>Правне последице пасивног непоступања по пресуди</heading>
+					<paragraph wId="gla11-clan71-stav1">
+						<content>
+							<p>Ако надлежни орган после поништења управног акта не донесе одмах, а најкасније у року од 30 дана, нови управни акт или акт о извршењу пресуде донете на основу <ref wId="ref49" href="akn/rs/act/2009/111-39/srp@/!main~art_43" >члана 43. овог</ref> закона, странка може посебним поднеском да тражи доношење таквог акта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan71-stav2">
+						<content>
+							<p>Ако надлежни орган не донесе акт из <ref wId="ref50" href="akn/rs/act/2009/111-39/srp@/!main~art_71__para_1" >става 1. овог</ref> члана ни у року од седам дана од тражења странке, странка може посебним поднеском да захтева од суда који је донео пресуду доношење таквог акта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan71-stav3">
+						<content>
+							<p>По захтеву странке из <ref wId="ref51" href="akn/rs/act/2009/111-39/srp@/!main~art_71__para_2" >става 2. овог</ref> члана, суд ће затражити од надлежног органа обавештење о разлозима због којих управни акт није донео. Надлежни орган је дужан да ово обавештење да одмах, а најкасније у року од седам дана. Ако он то не учини, или ако дато обавештење, по нахођењу суда, не оправдава неизвршење судске пресуде, суд ће донети решење које у свему замењује акт надлежног органа, уколико природа ствари то дозвољава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla11-clan71-stav4">
+						<content>
+							<p>Суд ће решење из <ref wId="ref52" href="akn/rs/act/2009/111-39/srp@/!main~art_71__para_3" >става 3. овог</ref> члана доставити органу надлежном за извршење, и о томе истовремено обавестити орган који врши надзор. Орган надлежан за извршење дужан је без одлагања да изврши овакво решење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan72">
+					<num>72.</num>
+					<heading>Право на накнаду штете због неизвршења пресуде</heading>
+					<paragraph wId="gla11-clan72-stav1">
+						<content>
+							<p>Због штете настале неизвршењем, односно неблаговременим извршењем пресуде донете у управном спору тужилац има право на накнаду која се остварује у спору пред надлежним судом, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan73">
+					<num>73.</num>
+					<heading>Понављање поступка окончаног актом донетим у извршењу пресуде</heading>
+					<paragraph wId="gla11-clan73-stav1">
+						<content>
+							<p>Када је надлежни орган донео управни акт у извршењу пресуде, па се код тог органа тражи понављање управног поступка окончаног управним актом донетим у извршењу судске пресуде, понављање се може дозволити само ако је разлог за понављање настао код органа који је тај управни акт донео.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla12">
+				<num>XII</num>
+				<heading>СХОДНА ПРИМЕНА ОДРЕДАБА ПАРНИЧНОГ ПОСТУПКА</heading>
+				<article wId="gla12-clan74">
+					<num>74.</num>
+					<paragraph wId="gla12-clan74-stav1">
+						<content>
+							<p>На питања поступка решавања управних спорова која нису уређена овим законом сходно ће се примењивати одредбе закона којим се уређује парнични поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla13">
+				<num>XIII</num>
+				<heading>НОВЧАНО КАЖЊАВАЊЕ</heading>
+				<article wId="gla13-clan75">
+					<num>75.</num>
+					<heading>Новчано кажњавање руководиоца органа</heading>
+					<paragraph wId="gla13-clan75-stav1">
+						<content>
+							<p>Ако се руководилац органа из <ref wId="ref53" href="akn/rs/act/2009/111-39/srp@/!main~art_31__para_1" >члана 31. став 1. </ref>не одазове позиву суда или не наведе по оцени суда оправдане разлоге за недостављање тражених исправа, суд ће му решењем изрећи новчану казну у износу од 10.000 до 50.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan75-stav2">
+						<content>
+							<p>Суд ће руководиоцу органа који није поступио по пресуди, у смислу <ref wId="ref54" href="akn/rs/act/2009/111-39/srp@/!main~art_70__para_1" >члана 70. став 1. </ref>и <ref wId="ref55" href="akn/rs/act/2009/111-39/srp@/!main~art_71" >члана 71. овог</ref> закона, решењем изрећи новчану казну у износу од 30.000 до 100.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla13-clan75-stav3">
+						<content>
+							<p>У случају да лице из <ref wId="ref56" href="akn/rs/act/2009/111-39/srp@/!main~art_75__para_1->para_2" >ст. 1. и 2. овог</ref> члана и поред изречене новчане казне, не изврши обавезу због које му је казна изречена, суд може поново изрећи новчану казну у износу прописаном у <ref wId="ref57" href="akn/rs/act/2009/111-39/srp@/!main~art_75__para_1->para_2" >ст. 1. и 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla13-clan76">
+					<num>76.</num>
+					<heading>Извршавање новчаних казни</heading>
+					<paragraph wId="gla13-clan76-stav1">
+						<content>
+							<p>Новчана казна изречена по овом закону извршава се по службеној дужности.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla14">
+				<num>XIV</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla14-clan77">
+					<num>77.</num>
+					<heading>Спровођење неокончаних поступака</heading>
+					<paragraph wId="gla14-clan77-stav1">
+						<content>
+							<p>Поступци по тужбама, захтевима за ванредно преиспитивање судске одлуке и тужбама за понављање поступка поднетим до дана ступања на снагу овог закона, окончаће се пред Управним судом, по правилима поступка која су важила до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla14-clan77-stav2">
+						<content>
+							<p>Поступци по жалбама изјављеним против пресуда донетих у управном спору и захтевима за заштиту законитости поднетим до дана ступања на снагу овог закона, окончаће се пред Врховним касационим судом по правилима поступка која су важила до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla14-clan78">
+					<num>78.</num>
+					<heading>Престанак важења ранијих прописа</heading>
+					<paragraph wId="gla14-clan78-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о управним споровима („Службени лист СРЈ”, број <ref wId="ref58" href="akn/rs/act/96/46/srp@">46/96</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla14-clan78-stav2">
+						<content>
+							<p>Даном ступања на снагу овог закона престају да важе одредбе <ref wId="ref59" href="akn/rs/act/2009/111-39/srp@/!main~art_94" >члана 94. </ref>Закона о основним правима бораца, војних инвалида и породица палих бораца („Службени лист СРЈ”, број <ref wId="ref60" href="akn/rs/act/98/24/srp@">24/98</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla14-clan79">
+					<num>79.</num>
+					<heading>Ступање на снагу овог закона</heading>
+					<paragraph wId="gla14-clan79-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

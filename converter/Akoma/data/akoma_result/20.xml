@@ -1,0 +1,1215 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о начину одређивања максималног броја запослених у јавном сектору">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2015/68-16/main"/>
+					<FRBRuri value="akn/rs/act/2015/68-16"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/95-382/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/95-382/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/95-382/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/95-382/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-08-04" name="службени гласник рс" number="68" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="11. Државна управа, управна инспекција и инспекцијски надзор" value="11. државна управа, управна инспекција и инспекцијски надзор" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2015-01-01" refersTo="68/2015-16" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2016-01-01" refersTo="81/2016-19" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-382" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2015-07-31" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2015-08-12" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2015-08-12" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="основаних"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="предузећа"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="стране"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="уговором"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="сектор"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународним"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавни"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="запослених"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавних"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавном"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="сектору"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="броја"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="медијских"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="професионалну"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="рехабилитацију"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="основани"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="буџетском"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="капиталом"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="сервиса"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="већинским"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="дефинисан"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="достизања"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="максималног"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="послују"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="сектора"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="правних"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="запошљавање"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="државним"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="инвалидитетом"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="особа"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="смањења"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="одређује"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="рокови"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="рационализација"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавног"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="одређивања"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Počev"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kancelarije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kragujevac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Novi Sad"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Registar"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije za borbu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državne revizorske institucije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnog veća tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnom veću tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Fiskalnog saveta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalnog sekretarijata Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalnom sekretarijatu Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije za hartije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije za zaštitu konkurencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu odbrane"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu spoljnih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Nacionalne službe za zapošljavanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine nadležnog za administrativno-budžetska pitanja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine nadležnom za administrativno-budžetska pitanja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluku US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poverenika za informacije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poverenika za zaštitu ravnopravnosti"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravosudnoj akademiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Regulatornog tela za elektronske medije i Agencije za energetiku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkog fonda za zdravstveno osiguranje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkom fondu za zdravstveno osiguranje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta za nacionalnu bezbednost"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravi za izvršenje krivičnih sankcija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokog saveta sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokom savetu sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade zaduženog za evropske integracije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojsci Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zaštitnika građana"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. juna 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. oktobra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. septembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2015."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. i 25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. i 27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2019."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="36. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="365."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном гласнику Републике Србије, односно 12. августа 2015. године и примењује се до 31. децембра 2019. године (види члан 35. Закона и члан 1. Закона - 95/2018-382).Одлуком Уставног суда број IУз 244/2015 („Службени гласник РС“, број 81/2016) престале су да важе одредбе члана 20. Законa о начину одређивања максималног броја запослених у јавном сектору („Службени гласник РС”, број 68/2015) јер је утврђено да нису у сагласности са Уставом. Овом одлуком стављено је ван снаге Решење IУз-244/2015 од 8. октобра 2015. године којим се обуставља извршење појединачног акта или радње предузетe на основу одредaба члана 20. Закона о начину одређивања максималног броја запослених у јавном сектору („Службени гласник РС“, број 68/2015) (види Одлуку УС – 81/2016-19).Закон о измени Закона о начину одређивања максималног броја запослених у јавном сектору („Службени гласник РС“, број 95/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. децембра 2018. године (види члан 2. Закона – 95/2018-382).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О начину одређивања максималног броја запослених у јавном сектору "Службени гласник РС", бр. <ref wId="ref75" href="akn/rs/act/2015/68/srp@">68 од 4. августа 2015</ref>, <ref wId="ref76" href="akn/rs/act/2016/81/srp@">81 од 5. октобра 2016</ref> - УС, <ref wId="ref77" href="akn/rs/act/2018/95/srp@">95 од 8. децембра 2018</ref>.</p>
+			</longTitle>
+			<p>Неважећи акт</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом утврђује се начин одређивања максималног броја запослених у јавном сектору, као и обим и рокови смањења броја запослених (у даљем тексту: рационализација) до достизања утврђеног максималног броја запослених.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Јавни сектор, у смислу овог закона, јесте јавни сектор који је дефинисан прописом о буџетском систему, осим јавних предузећа основаних од стране Републике Србије, правних лица основаних од стране тих предузећа, предузећа за професионалну рехабилитацију и запошљавање особа са инвалидитетом основаних од стране Републике Србије, односно која послују са већинским државним капиталом, јавних медијских сервиса, организационих облика у јавном сектору који су основани међународним уговором или у којима се број запослених одређује у складу са међународним уговором.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Систем јавног сектора</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Максималан број запослених утврђује се по следећим системима јавног сектора: државни органи, јавне службе, аутономне покрајине и јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Систем државних органа, у смислу овог закона, чине, осим државних органа, посебни, самостални, независни, регулаторни и други органи и организације које је основала Република Србија у складу са посебним законом, јавне агенције, као и организације на које се примењују прописи о јавним агенцијама и организације обавезног социјалног осигурања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Систем јавних служби, у смислу овог закона, чине јавне службе којима је оснивач Република Србија или које плате својих запослених финансирају из буџета Републике Србије, односно из доприноса за обавезно социјално осигурање без обзира ко је оснивач јавне службе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>Систем аутономне покрајине, у смислу овог закона, чине органи аутономне покрајине, јавне службе, јавна предузећа, правна лица основана од стране тих предузећа, привредна друштва и друге организације које у систему аутономне покрајине имају обавезу пријављивања података о запосленима у регистар који води министарство надлежно за послове финансија (у даљем тексту: Регистар), односно запослене чије се плате, односно зараде финансирају из буџета аутономне покрајине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav5">
+						<content>
+							<p>Систем локалне самоуправе, у смислу овог закона, чине органи јединице локалне самоуправе, јавне службе, јавна предузећа, правна лица основана од стране тих предузећа, привредна друштва и друге организације које у систему локалне самоуправе имају обавезу пријављивања података о запосленима у Регистар, односно запослене чије се плате, односно зараде финансирају из буџета јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Начела за одређивање максималног броја запослених</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Максималан број запослених у јавном сектору одредиће се уз примену начела одговорног фискалног управљања, рационалности, функционалности и ефикасности, као и начела прописаних посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Начело одговорног фискалног управљања – подразумева одговорно управљање јавним средствима, обавезама и фискалним ризицима ради испуњења фискалних правила утврђених законом којим се уређује буџетски систем, које налаже смањење расхода за плате на одржив ниво, а све у циљу обезбеђења фискалне одрживости и очувања стабилности јавних финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Начело рационалности – подразумева неопходност успостављања економичне организационе структуре у областима деловања организационих облика у јавном сектору, потребне за ефикасно, стручно и успешно обављање послова и руковођење уз што мање трошкове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Начело функционалности – подразумева организацију вршења послова у складу са њиховом природом, начином обављања и њиховом међусобном функционалном повезаношћу, као и остваривање пуне запослености свих извршилаца на начин адекватан врсти, сложености и обиму послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>Начело ефикасности – подразумева организацију рада успостављену на начин којим се у највећој могућој мери, са оптималним бројем запослених, омогућава ефикасно извршавање закона и задовољавање потреба грађана и других субјеката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Надлежност за утврђивање максималног броја запослених по системима</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Актом Владе, за сваку календарску годину, утврђује се максималан број запослених на неодређено време у систему државних органа, систему јавних служби, систему аутономне покрајине и систему локалне самоуправе, на предлог Генералног секретаријата Владе, уз прибављено мишљење министарства надлежног за послове државне управе и локалне самоуправе и министарства надлежног за послове финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref0" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_1" >става 1. овог</ref> члана, максималан број запослених у основном и средњем образовању представља збирно прерачунат број запослених са пуним и непуним радним временом у број запослених са пуним радним временом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Актом из <ref wId="ref1" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_1" >става 1. овог</ref> члана утврђује се и максималан број запослених за сваки орган, организацију, службу и други организациони облик у јавном сектору (у даљем тексту: организациони облик), осим за организационе облике у систему аутономне покрајине и систему локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav4">
+						<intro>
+							<p>Акт из <ref wId="ref2" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_1" >става 1. овог</ref> члана предлаже се полазећи од:</p>
+						</intro>
+						<point wId="gla1-clan4-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> анализа и података које надлежни органи и организациони облици достављају министарству надлежном за послове државне управе и локалне самоуправе, у циљу праћења примене и спровођења овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> образложеног предлога министра у чијем делокругу су послови јавне службе у смислу овог закона (<ref wId="ref3" href="akn/rs/act/2018/95-382/srp@/!main~art_2__para_3" >члан 2. став 3</ref>), односно образложеног предлога министра здравља за здравствене раднике чије се плате финансирају из доприноса за обавезно социјално осигурање – за запослене у систему јавних служби и организационим облицима у том систему;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> образложеног предлога министра надлежног за послове одбране – за професионалне припаднике Војске Србије у војним установама које послују по принципу стицања и расподеле добити и које се не финансирају из буџета и државне службенике и намештенике у Министарству одбране;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav4-tac4">
+							<num>4)</num>
+							<content>
+								<p> образложеног предлога министра надлежног за спољне послове – за запослене у Министарству спољних послова;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav4-tac5">
+							<num>5)</num>
+							<content>
+								<p> образложеног предлога министра надлежног за послове правде – за запослене у судовима, јавним тужилаштвима и државном правобранилаштву, као и организационим облицима у њиховом саставу;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav4-tac6">
+							<num>6)</num>
+							<content>
+								<p> образложеног предлога министра надлежног за послове правде – за запослене у Управи за извршење кривичних санкција, уз претходно достављено мишљење Савета за националну безбедност;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav4-tac7">
+							<num>7)</num>
+							<content>
+								<p> образложеног предлога директора Безбедносно информативне агенције – за запослене у Безбедносно информативној агенцији;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav4-tac8">
+							<num>8)</num>
+							<content>
+								<p> образложеног предлога Генералног секретаријата Владе – за службе Владе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan4-stav4-tac9">
+							<num>9)</num>
+							<content>
+								<p> образложеног предлога надлежног покрајинског органа – за запослене у систему аутономне покрајине.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav5">
+						<content>
+							<p>Изузетно од става 4. тачка <ref wId="ref4" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_4__point_5" >5</ref>) овог члана, одређивање максималног броја запослених у судовима и јавним тужилаштвима почев од 1. јуна 2016. године вршиће се у складу са прописима из области правосуђа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav6">
+						<content>
+							<p>Образложени предлог из <ref wId="ref5" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_4" >става 4. овог</ref> члана надлежни органи достављају Генералном секретаријату Владе у року од 15 дана од пријема захтева, а преко министарства надлежног за послове државне управе и локалне самоуправе и министарства надлежног за послове финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav7">
+						<content>
+							<p>Ако у року из <ref wId="ref6" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_6" >става 6. овог</ref> члана надлежни органи не доставе образложене предлоге, акт Владе ће се донети на основу расположивих података предлагача акта из <ref wId="ref7" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Надлежност за утврђивање максималног броја запослених у другим државним органима</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<intro>
+							<p>Изузетно од <ref wId="ref8" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_1" >члана 4. став 1. овог</ref> закона, максималан број запослених у:</p>
+						</intro>
+						<point wId="gla1-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> службама председника Републике – утврђује се одлуком председника Републике;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> службама Народне скупштине, Заштитника грађана, Повереника за заштиту равноправности, Повереника за информације од јавног значаја и заштиту података о личности, Државне ревизорске институције, Агенције за борбу против корупције, Републичке комисије за заштиту права у поступцима јавних набавки, Комисије за заштиту конкуренције, Комисије за хартије од вредности, Фискалног савета, Регулаторног тела за електронске медије и Агенције за енергетику Републике Србије – утврђује се одлуком одбора Народне скупштине надлежног за административно-буџетска питања, на предлог тих органа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Високом савету судства и за носиоце судијских функција – утврђује се одлуком Високог савета судства;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Државном већу тужилаца и за носиоце јавнотужилачке функције – утврђује се одлуком Државног већа тужилаца;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> Уставном суду – утврђује се одлуком Уставног суда;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> Министарству одбране и Војсци Србије за лица која имају статус професионалних припадника Војске Србије и чија се плата финансира из буџета – утврђује се Дугорочним планом развоја система одбране Републике Србије у оквиру средстава предвиђених прописом о буџету;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> Министарству унутрашњих послова за полицијске службенике – утврђује се одлуком Владе, на образложени предлог министра надлежног за унутрашње послове, у оквиру средстава предвиђених прописом о буџету.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Надлежност за одређивање максималног броја запослених за организационе облике у системима аутономне покрајине и локалне самоуправе</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>На основу акта Владе из <ref wId="ref9" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_1" >члана 4. став 1. овог</ref> закона надлежни орган аутономне покрајине, односно скупштина јединице локалне самоуправе, својим актом утврђује максималан број запослених за сваки организациони облик у систему аутономне покрајине, односно систему локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Начин одређивања максималног броја запослених</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Органи надлежни за достављање образложених предлога о максималном броју запослених у складу са овим законом дужни су да своје предлоге из <ref wId="ref10" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_4" >члана 4. став 4. овог</ref> закона заснују нарочито на анализи: законодавног и стратешког оквира који је утврђен за деловање одређене јавне службе, односно области јавне политике у делокругу органа; функција, унутрашњег уређења, података о кадровским и финансијским ресурсима организационих облика у делокругу органа; мрежа установа у делокругу органа и задовољења потреба корисника јавних услуга, као и обавези запошљавања особа са инвалидитетом у складу са прописима који уређују област професионалне рехабилитације и запошљавања особа са инвалидитетом, односно обавези вођења рачуна о националном саставу становништва, одговарајућој заступљености припадника националних мањина и познавању језика који се говори на подручју државног органа, јавне службе, аутономне покрајине или јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<intro>
+							<p>У периоду спровођења рационализације, на основу анализа из <ref wId="ref11" href="akn/rs/act/2018/95-382/srp@/!main~art_7__para_1" >става 1. овог</ref> члана, органи надлежни за достављање образложених предлога о максималном броју запослених у складу са овим законом дужни су да предложе и спроведу мере које нарочито подразумевају смањење броја запослених кроз:</p>
+						</intro>
+						<point wId="gla1-clan7-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> укидање или обједињавање појединих послова који нису обухваћени неопходним функцијама организационих облика који обављају послове из делокруга органа;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> смањивање величине и промену структуре организационих јединица у циљу успостављања ефикасније управљачке структуре и смањења трошкова;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> планирање увођења информационо-комуникационих технологија у одређене административне послове;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> обавезно успостављање односа између стручног и административно-техничког и помоћног особља у складу са прописаним мерилима, као и прилагођавање тих мерила у циљу усклађивања са међународним стандардима у одређеној области;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> обједињавање заједничких административно-техничких и логистичких послова за више организационих облика (заједничко техничко одржавање, централизација јавних набавки, заједнички финансијски и административни послови и др.);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> укидање организационих облика којима се не остварују функције јавних политика;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan7-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> спајање организационих облика, односно припајање једног организационог облика другом, у циљу избегавања преклапања функција и смањења трошкова.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Начин одређивања максималног броја запослених у систему локалне самоуправе</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<intro>
+							<p>Mаксималaн број запослених у систему локалне самоуправе, одредиће се применом следећих критеријума и мерила:</p>
+						</intro>
+						<point wId="gla1-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> за групу јединица локалне самоуправе до 50 000 становника – 9,50 запослених на 1000 становника, уз просечно 28 насељених места и површине од 443 km²;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> за групу јединица локалне самоуправе од 50 000 до 100 000 становника – 11,50 запослених на 1000 становника, уз просечно 41 насељено место и површине од 725 km²;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> за групу јединица локалне самоуправе од 100 000 до 150 000 становника –14,00 запослених на 1000 становника, уз просечно 65 насељених места и површине од 916 km²;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> за град Крагујевац – 15 запослених на 1000 становника;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> за град Ниш – 16,50 запослених на 1000 становника;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> за град Нови Сад – 18 запослених на 1000 становника;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan8-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> за град Београд –18,5 запослених на 1000 становника.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref12" href="akn/rs/act/2018/95-382/srp@/!main~art_8__para_1" >става 1. овог</ref> члана, за јединице локалне самоуправе које имају од 45 000 до 55 000 становника – 10,50 запослених на 1000 становника, односно за јединице локалне самоуправе које имају од 90 000 до 110 000 становника – 13,00 запослених на 1000 становника, уз задржавање осталих критеријума и мерила из групе јединица локалне самоуправе којој припадају према броју становника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav3">
+						<content>
+							<p>Максималан број запослених у систему локалне самоуправе утврђен у складу са овим законом представља укупан број запослених у свим организационим облицима из <ref wId="ref13" href="akn/rs/act/2018/95-382/srp@/!main~art_2__para_5" >члана 2. став 5. овог</ref> закона, који ће се остварити до завршетка рационализације, уз остварене уштеде за плате запослених најмање у износу предвиђеном прописом о буџету, а у складу са актом Владе из <ref wId="ref14" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_1" >члана 4. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav4">
+						<content>
+							<p>Изузетно од става 1. тачка <ref wId="ref15" href="akn/rs/act/2018/95-382/srp@/!main~art_8__para_1__point_1" >1</ref>) овог члана, минималан број запослених у систему локалне самоуправе не може бити мањи од 50 запослених.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Обим рационализације запослених на неодређено време</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Укупан број запослених у радном односу на неодређено време у организационом облику не може бити већи од максималног броја утврђеног у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<heading>Обим рационализације запослених на одређено време и на основу других уговора о радном ангажовању</heading>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Укупан број запослених на одређено време, због привремено повећаног обима посла, лица ангажованих по уговору о делу, уговору о привременим и повременим пословима, закључених непосредно или преко омладинске или студентске задруге и лица ангажованих по другим основима не може бити већи од 10% броја запослених на неодређено време код организационог облика.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav2">
+						<content>
+							<p>Организациони облик који има мање од 100 запослених може да има највише до 10 запослених или ангажованих лица у смислу <ref wId="ref16" href="akn/rs/act/2018/95-382/srp@/!main~art_10__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav3">
+						<intro>
+							<p>Ограничење из <ref wId="ref17" href="akn/rs/act/2018/95-382/srp@/!main~art_10__para_1->para_2" >ст. 1. и 2. овог</ref> члана не односи се на:</p>
+						</intro>
+						<point wId="gla1-clan10-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> радно ангажовање незапослених лица у циљу спровођења мера активне политике запошљавања у складу са прописима који уређују област запошљавања (јавни радови и додатно образовање и обуке), а које се реализује преко Националне службе за запошљавање;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> радно ангажовање лица ради реализације пројеката који се финансирају средствима Европске уније или средствима донација, уколико се накнаде за њихов рад, са припадајућим порезима и доприносима, финансирају из ових извора;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> замену привремено одсутног запосленог;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> лица ангажована на одређено време у основном и средњем образовању;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac5">
+							<num>5)</num>
+							<content>
+								<p> послове сезонског карактера (противградна заштита, спровођење анкета у складу са законом и други послови чије је обављање везано за одређену сезону у години у складу са законом);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac6">
+							<num>6)</num>
+							<content>
+								<p> радно ангажовање лица на пројектима у области социјалне заштите на нивоу јединице локалне самоуправе (дневни боравак за децу и одрасла лица са сметњама у развоју, персонална асистенција за лица са посебним потребама);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac7">
+							<num>7)</num>
+							<content>
+								<p> радно ангажовање лица на пројектима и програмима у области културе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac8">
+							<num>8)</num>
+							<content>
+								<p> лица ангажована на одређено време ради привременог упућивања на рад у иностранство у дипломатско–конзуларна представништва Републике Србије у иностранству, у складу са законом којим се уређују спољни послови;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac9">
+							<num>9)</num>
+							<content>
+								<p> радно ангажовање лица за спровођење стручног усавршавања запослених у органима државне управе, аутономне покрајине и јединице локалне самоуправе, у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac10">
+							<num>10)</num>
+							<content>
+								<p> лица ангажована на одређено време у складу са посебним законима (у области научноистраживачког рада, високог образовања, Правосудној академији, у области одбране и другим областима у којима наведена врста ангажовања не подлеже ограничењима утврђеним општим прописима о раду);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac11">
+							<num>11)</num>
+							<content>
+								<p> радно ангажовање консултаната у посланичким групама у Народној скупштини;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan10-stav3-tac12">
+							<num>12)</num>
+							<content>
+								<p> радно ангажовање лица у вези са превођењем правних тековина Европске уније, стручном и језичком редактуром правних тековина Европске уније, као и ангажовање експерата у поступку израде преговарачких позиција од стране Канцеларије за европске интеграције и члана Владе задуженог за европске интеграције.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan11">
+					<num>11.</num>
+					<heading>Рокови за рационализацију</heading>
+					<paragraph wId="gla1-clan11-stav1">
+						<content>
+							<p>Организациони облик коме је овим законом утврђена обавеза рационализације дужан је да смањи број запослених – најмање до максималног броја запослених утврђеног у складу са овим законом, најкасније до 30. јуна сваке календарске године у периоду спровођења рационализације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan11-stav2">
+						<content>
+							<p>Изузeтнo од <ref wId="ref19" href="akn/rs/act/2018/95-382/srp@/!main~art_11__para_1" >става 1. овог</ref> члaнa, организациони облик коме je утврђeнa обавеза рационализације у 2015. години, дужан je да у периоду спровођења рационализације изврши смањење броја запослених најкасније у року од 60 дана од дана доношења акта из <ref wId="ref18" href="akn/rs/act/2018/95-382/srp@/!main~art_4->art_6" >чл. 4</ref>–6. овог закона, за 2015. годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan11-stav3">
+						<content>
+							<p>Организациони облик у систему образовања коме је овим законом утврђена обавеза рационализације дужан је да изврши смањење броја запослених – најмање до максималног броја запослених утврђеног у складу са овим законом, најкасније до 15. септембра сваке године, односно до 1. октобра за високошколске установе, у периоду спровођења рационализације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan11-stav4">
+						<content>
+							<p>Актом Владе из чл. <ref wId="ref20" href="akn/rs/act/2018/95-382/srp@/!main~art_4" >4</ref>. и <ref wId="ref21" href="akn/rs/act/2018/95-382/srp@/!main~art_5" >5</ref>. овог закона, може се предвидети да ће се рационализација спроводити по одређеној динамици и након истека рока из <ref wId="ref22" href="akn/rs/act/2018/95-382/srp@/!main~art_11__para_1" >става 1. овог</ref> члана, с тим да обим потребне рационализације у већој мери буде спроведен најкасније до истека рока из <ref wId="ref23" href="akn/rs/act/2018/95-382/srp@/!main~art_11__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan12">
+					<num>12.</num>
+					<heading>Повећање броја запослених за време спровођења рационализације</heading>
+					<paragraph wId="gla1-clan12-stav1">
+						<content>
+							<p>Ако је број запослених у организационом облику мањи од утврђеног максималног броја запослених, број запослених се може повећавати највише до утврђеног максималног броја запослених.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan12-stav2">
+						<content>
+							<p>Ако се у поступку рационализације изврши рационализација броја запослених на број мањи од утврђеног максималног броја запослених, организациони облик може повећавати тај број највише до утврђеног максималног броја запослених, осим за она радна места, односно послове на којима је спроведена рационализација.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan12-stav3">
+						<content>
+							<p>Повећање броја запослених за време примене овог закона у складу са <ref wId="ref24" href="akn/rs/act/2018/95-382/srp@/!main~art_12__para_1->para_2" >ст. 1. и 2. овог</ref> члана може се извршити без посебних захтева и сагласности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan12-stav4">
+						<content>
+							<p>Изузетно од <ref wId="ref25" href="akn/rs/act/2018/95-382/srp@/!main~art_12__para_3" >става 3. овог</ref> члана, повећање броја запослених на неодређено време у складу са <ref wId="ref26" href="akn/rs/act/2018/95-382/srp@/!main~art_12__para_1->para_2" >ст. 1. и 2. овог</ref> члана до доношења акта о систематизацији усклађеног са актом о максималном броју запослених за 2016. годину врши се у складу са прописима којима се уређује буџетски систем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan12-stav5">
+						<content>
+							<p>Уколико скупштина јединице локалне самоуправе не донесе акт о утврђивању максималног броја запослених у року из <ref wId="ref27" href="akn/rs/act/2018/95-382/srp@/!main~art_12__para_1" >става 1. овог</ref> члана, не може се заснивати радни однос са новозапосленим до доношења тог акта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan12-stav6">
+						<content>
+							<p>За време примене овог закона, организациони облик не може примити у радни однос, односно радно ангажовати лице коме је радни однос у јавном сектору престао споразумом уз исплату новчане накнаде, односно лице коме је у том организационом облику престао радни однос уз исплату отпремнине у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan12-stav7">
+						<content>
+							<p>Уговор о раду, односно решење о заснивању радног односа или уговор о радном ангажовању, закључен супротно <ref wId="ref28" href="akn/rs/act/2018/95-382/srp@/!main~art_12__para_6" >ставу 6. овог</ref> члана, сматраће се ништавим.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan13">
+					<num>13.</num>
+					<heading>Заштита од незаконитог повећања броја запослених</heading>
+					<paragraph wId="gla1-clan13-stav1">
+						<content>
+							<p>Актом о унутрашњем уређењу и систематизацији радних места у организационим облицима не може се утврдити већи број запослених од максималног броја запослених одређеног у складу са овим законом, односно већи број професионалних припадника Војске Србије од броја утврђеног у Дугорочном плану развоја система одбране Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan13-stav2">
+						<content>
+							<p>Организациони облици су дужни да приликом израде акта о унутрашњем уређењу и систематизацији радних места примене одговарајуће мере из <ref wId="ref29" href="akn/rs/act/2018/95-382/srp@/!main~art_7" >члана 7. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan13-stav3">
+						<content>
+							<p>У буџету, програмима рада, односно финансијским плановима организационих облика, извршење у 2015. години може се спровести до масе средстава којом се обезбеђује спровођење рационализације у обиму утврђеном овим законом. Почев од 2016. године, средства за плате, односно зараде биће планирана само за максималан број запослених утврђен у складу са овим законом, односно у маси средстава која обезбеђује спровођење рационализације у обиму утврђеном овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan13-stav4">
+						<content>
+							<p>У циљу успешног спровођења овог закона, министарство надлежно за послове финансија дужно је да, у поступку доношења аката за израду буџета, оствари сарадњу са министарством надлежним за послове државне управе и локалне самоуправе у погледу планирања средстава за плате запослених, као и за њихов број.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan14">
+					<num>14.</num>
+					<heading>Мере заштите средстава буџета</heading>
+					<paragraph wId="gla1-clan14-stav1">
+						<content>
+							<p>Уколико скупштина јединице локалне самоуправе не донесе акт из <ref wId="ref30" href="akn/rs/act/2018/95-382/srp@/!main~art_6" >члана 6. овог</ref> закона, односно уколико јединица локалне самоуправе не изврши рационализацију броја запослених у складу са актом Владе из <ref wId="ref31" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_1" >члана 4. став 1. овог</ref> закона, министарство надлежно за послове финансија може, на предлог министарства надлежног за послове државне управе и локалне самоуправе, привремено да обустави пренос трансферних средстава из буџета Републике Србије, односно припадајући део пореза на зараде, односно плате.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan14-stav2">
+						<content>
+							<p>Министарство надлежно за послове државне управе и локалне самоуправе након утврђивања испуњености обавезе јединице локалне самоуправе у погледу рационализације броја запослених обавештава министарство надлежно за послове финансија о престанку основа за привремену обуставу преноса трансферних средстава из буџета Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСЕБНЕ ОДРЕДБЕ О РАЦИОНАЛИЗАЦИЈИ У СИСТЕМУ ЛОКАЛНЕ САМОУПРАВЕ</heading>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Умањење максималног броја запослених</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>У јединици локалне самоуправе која, према последњем попису становништва, има до 15.000 становника, односно у јединици локалне самоуправе која спада у четврту групу развијености према пропису којим се утврђује јединствена листа развијености јединица локалне самоуправе, број запослених на неодређено време за који је потребно извршити смањење до максималног броја запослених умањује се за 25%.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<heading>Основ за увећање броја запослених</heading>
+					<paragraph wId="gla2-clan16-stav1">
+						<intro>
+							<p>Број запослених на неодређено време у јединици локалне самоуправе увећава се:</p>
+						</intro>
+						<point wId="gla2-clan16-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> за сваки проценат изнад просека групе који се односи на број насељених места из <ref wId="ref32" href="akn/rs/act/2018/95-382/srp@/!main~art_8" >члана 8. овог</ref> закона, број запослених се увећава за 0,01 запосленог на 1000 становника. По овом основу, број запослених се може увећати највише до 1 запосленог на 1000 становника;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan16-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> за сваки проценат изнад просека групе који се односи на површину јединице локалне самоуправе из <ref wId="ref33" href="akn/rs/act/2018/95-382/srp@/!main~art_8" >члана 8. овог</ref> закона, број запослених се увећава за 0,005 запослених на 1000 становника. По овом основу, број запослених се може увећати највише до 0,5 запослених на 1000 становника;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan16-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> за 0,3 запослених на 1000 становника – за сваки језик националне мањине који је у службеној употреби у јединици локалне самоуправе.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav2">
+						<content>
+							<p>У јединици локалне самоуправе увећава се обрачунски елемент – број становника утврђен према последњем попису становништва, уколико количник броја ноћења гостију за претходну календарску годину и броја 365 износи више од 0,1% од укупног броја становника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav3">
+						<content>
+							<p>Увећање обрачунског елемента – броја становника врши се тако што се број становника према последњем попису становништва увећава за четвороструки количник броја ноћења у претходној години и броја 365.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav4">
+						<content>
+							<p>Број ноћења у јединици локалне самоуправе се одређује на основу података које објављује орган надлежан за послове статистике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav5">
+						<content>
+							<p>У максималан број запослених се не убрајају стручна лица која су ангажована у установама предшколског образовања и васпитања, која почињу са радом од почетка примене овог закона до 1. јуна 2016. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<heading>Спровођење рационализације кроз сарадњу и удруживање</heading>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Јединице локалне самоуправе могу спровести рационализацију сагласно одредбама овог закона кроз остваривање сарадње и удруживање са другим јединицама локалне самоуправе, у складу са законом којим се уређује локална самоуправа, чиме ће се обезбедити заједничко и рационално обављање појединих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav2">
+						<content>
+							<p>Спровођење рационализације кроз остваривање сарадње и удруживање јединица локалне самоуправе не може имати за последицу повећање укупног броја запослених у тим јединицама локалне самоуправе, као ни повећање средстава за плате у буџету.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<heading>Интерно тржиште рада</heading>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>У циљу ефикаснијег спровођења рационализације успоставља се интерно тржиште рада у јединици локалне самоуправе кога чине запослени у свим организационим облицима из <ref wId="ref34" href="akn/rs/act/2018/95-382/srp@/!main~art_2__para_5" >члана 2. став 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Попуњавање непопуњених радних места организациони облик може извршити спровођењем интерног конкурса за систем локалне самоуправе на који се могу пријавити запослени из свих организационих облика у систему локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav3">
+						<content>
+							<p>Влада својим актом уређује поступак интерног конкурса за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСЕБНЕ ОДРЕДБЕ О РАЦИОНАЛИЗАЦИЈИ У ЈАВНИМ СЛУЖБАМА</heading>
+				<article wId="gla3-clan19">
+					<num>19.</num>
+					<paragraph wId="gla3-clan19-stav1">
+						<content>
+							<p>У периоду спровођења рационализације у складу са одредбама овог закона, ради праћења спровођења акта о максималном броју запослених, организациони облици у јавним службама из <ref wId="ref35" href="akn/rs/act/2018/95-382/srp@/!main~art_2__para_3" >члана 2. став 3. овог</ref> закона, дужни су да акте о унутрашњем уређењу и систематизацији радних места достављају на претходну сагласност министарствима у чијем делокругу се налазе послови за чије обављање су образоване јавне службе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕСТАНАК РАДНОГ ОДНОСА</heading>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<heading>Престанак радног односа због испуњења услова за старосну пензију</heading>
+					<paragraph wId="gla4-clan20-stav1">
+						<content>
+							<p>Престао је да важи (види  Одлуку УС - 81/2016-19)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<heading>Престанак радног односа уз исплату новчане накнаде</heading>
+					<paragraph wId="gla4-clan21-stav1">
+						<content>
+							<p>Организациони облик у коме постоји потреба рационализације броја запослених на одређеним пословима у складу са предузетим мерама из <ref wId="ref36" href="akn/rs/act/2018/95-382/srp@/!main~art_7__para_2" >члана 7. став 2. овог</ref> закона, дужан је да спроведе анкету међу запосленима који раде на пословима за које више не постоји потреба или на пословима на којима постоји потреба смањења броја извршилаца, о њиховим намерама и спремности за споразумни престанак радног односа уз исплату новчане накнаде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav2">
+						<content>
+							<p>Анкета се не може спроводити међу запосленима за чијим радом постоји потреба, односно који раде на пословима на којима је неопходно у периоду спровођења рационализације обезбедити одговарајући број извршилаца ради извршавања неопходних функција организационих облика.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav3">
+						<intro>
+							<p>Организациони облик може да закључи споразум о престанку радног односа са запосленима из <ref wId="ref37" href="akn/rs/act/2018/95-382/srp@/!main~art_21__para_1" >става 1. овог</ref> члана који су се изјаснили да прихватају престанак радног односа уз исплату новчане накнаде, ако за радом наведеног запосленог престаје потреба и уз исплату новчане накнаде, и то:</p>
+						</intro>
+						<point wId="gla4-clan21-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> у висини 1/3 просечне плате, односно зараде запосленог исплаћене у последња три месеца која претходе месецу престанка радног односа, односно у висини 1/3 просечне зараде у Републици Србији за месец који претходи месецу престанка радног односа према податку органа надлежног за послове статистике, у зависности од тога шта је за запосленог повољније, увећане за 30%, за сваку годину рада у радном односу у јавном сектору, с тим да укупна висина новчане накнаде не може бити већа од 8.000 евра у динарској противвредности – за запослене којима на дан престанка радног односа недостаје више од две године до испуњења услова за пензију у складу са прописима о пензијском и инвалидском осигурању;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> у висини шест просечних зарада у Републици Србији за месец који претходи месецу престанка радног односа, према податку органа надлежног за послове статистике – за запослене којима на дан престанка радног односа недостаје до две године до испуњења услова за пензију у складу са прописима о пензијском и инвалидском осигурању;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> у висини четири просечне зараде у Републици Србији за месец који претходи месецу престанка радног односа, према податку органа надлежног за послове статистике – за запослене који на дан престанка радног односа испуњавају услове за превремену старосну пензију у складу са прописима о пензијском и инвалидском осигурању.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav4">
+						<content>
+							<p>Лице из става 3. тач. <ref wId="ref38" href="akn/rs/act/2018/95-382/srp@/!main~art_21__para_3__point_1" >1</ref>) и <ref wId="ref39" href="akn/rs/act/2018/95-382/srp@/!main~art_21__para_3__point_2" >2</ref>) овог члана не остварује право на новчану накнаду за случај незапослености у складу са прописима о запошљавању и осигурању за случај незапослености.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav5">
+						<content>
+							<p>Накнада из става 3. тачка <ref wId="ref40" href="akn/rs/act/2018/95-382/srp@/!main~art_21__para_3__point_3" >3</ref>) овог члана искључује право запосленог на остваривање отпремнине за одлазак у пензију у складу са прописима којима се уређује његов радно-правни статус.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<heading>Престанак радног односа уз исплату отпремнине</heading>
+					<paragraph wId="gla4-clan22-stav1">
+						<content>
+							<p>Организациони облик за који је у складу са овим законом утврђена потреба рационализације, дужан је да након доношења нових аката о унутрашњем уређењу и систематизацији радних места и престанка радног односа запослених са којима је закључен споразум, утврди број запослених за чијим радом престаје потреба у складу са новом организацијом рада, најмање до броја утврђеног одлуком о максималном броју запослених.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav2">
+						<content>
+							<p>Организациони облик који има обавезу доношења програма за решавање вишка запослених у складу са законом, дужан је да за запослене из <ref wId="ref41" href="akn/rs/act/2018/95-382/srp@/!main~art_22__para_1" >става 1. овог</ref> члана за чијим радом престаје потреба у складу са новом организацијом рада, донесе и спроведе програм решавања вишка запослених у поступку и на начин одређен законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav3">
+						<content>
+							<p>Запослени из <ref wId="ref42" href="akn/rs/act/2018/95-382/srp@/!main~art_22__para_1" >става 1. овог</ref> члана који је утврђен као вишак запослених, односно који је нераспоређен, има право на исплату отпремнине због престанка потребе за његовим радом у висини која се одређује у складу са законом којим се уређује његов радно-правни статус, а која се обрачунава за све године рада у радном односу у јавном сектору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav4">
+						<content>
+							<p>Запослени не може да оствари право на отпремнину за исти период за који му је већ исплаћена отпремнина код истог или другог послодавца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav5">
+						<content>
+							<p>Отпремнина из <ref wId="ref43" href="akn/rs/act/2018/95-382/srp@/!main~art_22__para_3" >става 3. </ref>oвог члана исплаћује се у року од 30 дана од дана престанка радног односа запосленог.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav6">
+						<content>
+							<p>Организациони облик је дужан да у Регистар поред податка о престанку радног односа запосленог пријави и податак о исплати отпремнине, односно новчане накнаде из <ref wId="ref44" href="akn/rs/act/2018/95-382/srp@/!main~art_21" >члана 21. </ref>oвог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav7">
+						<content>
+							<p>Запослени из стaва 1. овог члана за чијим радом престаје потреба, има право на новчану накнаду за случај незапослености у складу са прописима о запошљавању и осигурању за случај незапослености.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Обезбеђивање средстава</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<intro>
+							<p>Средства за исплату новчане накнаде, односно отпремнине у поступку рационализације, обезбеђују се:</p>
+						</intro>
+						<point wId="gla4-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> у буџету Републике Србије – за запослене у систему државних органа и систему јавних служби, осим за запослене у здравственим установама и организацијама за обавезно социјално осигурање;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> у буџету аутономне покрајине, односно јединице локалне самоуправе – за запослене у систему аутономне покрајине, односно систему локалне самоуправе, осим за запослене у јавним предузећима, односно привредним друштвима;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan23-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> у финансијском плану јавних предузећа, односно привредних друштава – за запослене у јавним предузећима, односно привредним друштвима на које се примењује овај закон;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan23-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> у финансијским плановима организација за обавезно социјално осигурање – за запослене у организацијама за обавезно социјално осигурање и за запослене у здравственим установама.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<heading>Достављање захтева</heading>
+					<paragraph wId="gla4-clan24-stav1">
+						<intro>
+							<p>Захтев за одобравање средстава за исплату новчане накнаде, односно отпремнина министарству надлежном за послове државне управе и локалне самоуправе достављају:</p>
+						</intro>
+						<point wId="gla4-clan24-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> министарства – за запослене у министарствима, као и за запослене у јавним службама основаним у областима из њиховог делокруга, осим за запослене у здравственим установама;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> министарство надлежно за послове одбране – за професионалне припаднике Војске Србије, државне службенике и намештенике у Министарству одбране;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> министарство надлежно за послове правде – за запослене у судовима, јавним тужилаштвима и државном правобранилаштву, као и организационим облицима у њиховом саставу;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Високи савет судства – за запослене у Високом савету судства;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> Државно веће тужилаца – за запослене у Државном већу тужилаца;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> други организациони облик у систему државних органа – за своје запослене.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Захтев за одобравање средстава за исплату новчане накнаде, односно отпремнина за запослене у здравственим установама подноси се Републичком фонду за здравствено осигурање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>Прилози уз захтев</heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<intro>
+							<p>Уз захтев из чл. <ref wId="ref45" href="akn/rs/act/2018/95-382/srp@/!main~art_24" >24</ref>. и <ref wId="ref46" href="akn/rs/act/2018/95-382/srp@/!main~art_25" >25</ref>. овог закона доставља се:</p>
+						</intro>
+						<point wId="gla4-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> раније важећи и нови акт о унутрашњем уређењу и систематизацији радних места за организациони облик који исплаћује новчану накнаду, односно отпремнину запосленом;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> програм решавања вишка запослених за организационе облике који, у складу са законом, имају обавезу доношења тог програма;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> акт о престанку радног односа и износ новчане накнаде, односно отпремнине на коју запослени има право;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> изјава руководиоца организационог облика дата под материјалном и кривичном одговорношћу за тачност достављених података.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<heading>Исплата новчане накнаде, односно отпремнина у јединици локалне самоуправе</heading>
+					<paragraph wId="gla4-clan27-stav1">
+						<content>
+							<p>Изузетно у 2015. години, јединица локалне самоуправе која планира да изврши рационализацију запослених у већем обиму од планираног у складу са <ref wId="ref48" href="akn/rs/act/2018/95-382/srp@/!main~art_36__para_1->para_2" >чланом 36. ст. 1. и 2. </ref>Закона о буџету Републике Србије за 2015. годину („Службени гласник РС”, број <ref wId="ref47" href="akn/rs/act/14/142/srp@">142/14</ref>) свој план рационализације са захтевом за исплату новчане накнаде, односно отпремнина доставља министарству надлежном за послове државне управе и локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav2">
+						<content>
+							<p>У плану рационализације из <ref wId="ref50" href="akn/rs/act/2018/95-382/srp@/!main~art_27__para_1" >става 1. овог</ref> члана јединица локалне самоуправе у обавези је да посебно искаже број запослених и укупна планирана средства за новчане накнаде, односно отпремнине у складу са <ref wId="ref49" href="akn/rs/act/2018/95-382/srp@/!main~art_36" >чланом 36. </ref>Закона о буџету Републике Србије за 2015. годину, а посебно број запослених и укупна планирана средства за новчане накнаде, односно отпремнине запослених преко планираног броја у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav3">
+						<content>
+							<p>Министарство надлежно за послове државне управе и локалне самоуправе може решењем извршити пренос наменског трансфера за исплату дела недостајућих средстава за исплату новчаних накнада, односно отпремнина запослених у висини разлике између планиране масе средстава за плате која није исплаћена запосленима у 2015. години и укупних средстава за отпремнине у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan28">
+					<num>28.</num>
+					<heading>Исплата средстава за новчане накнаде, односно отпремнине</heading>
+					<paragraph wId="gla4-clan28-stav1">
+						<content>
+							<p>Министарство надлежно за послове државне управе и локалне самоуправе врши исплату средстава за новчане накнаде, односно отпремнине у 2015. години на основу захтева из чл. <ref wId="ref52" href="akn/rs/act/2018/95-382/srp@/!main~art_24" >24</ref>. и <ref wId="ref53" href="akn/rs/act/2018/95-382/srp@/!main~art_27" >27</ref>. овог закона у оквиру средстава опредељених за отпремнине Законом о буџету Републике Србије за 2015. годину, а за наредне буџетске године у оквиру средстава опредељених за отпремнине Законом о буџету Републике Србије само на основу захтева из <ref wId="ref51" href="akn/rs/act/2018/95-382/srp@/!main~art_24" >члана 24. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav2">
+						<content>
+							<p>Републички фонд за здравствено осигурање врши исплату средстава за новчане накнаде, односно отпремнине на основу захтева из <ref wId="ref54" href="akn/rs/act/2018/95-382/srp@/!main~art_25" >члана 25. овог</ref> закона у оквиру средстава опредељених за ове намене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav3">
+						<content>
+							<p>Ако захтеви за исплате новчане накнаде из <ref wId="ref55" href="akn/rs/act/2018/95-382/srp@/!main~art_21" >члана 21. овог</ref> закона прелазе висину опредељених средстава за ове намене, Влада ће утврдити критеријуме и мерила за одобравање захтева чије ће се исплате обезбедити из буџета Републике Србије и средстава Републичког фонда за здравствено осигурање.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ЈАВНОСТ, ДОСТАВЉАЊЕ ПОДАТАКА, ПРАЋЕЊЕ И НАДЗОР</heading>
+				<article wId="gla5-clan29">
+					<num>29.</num>
+					<heading>Јавност података</heading>
+					<paragraph wId="gla5-clan29-stav1">
+						<content>
+							<p>Подаци о броју запослених и ангажованих лица јесу јавни, уколико посебним прописом којим се уређује тајност података није друкчије уређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan29-stav2">
+						<content>
+							<p>Органи надлежни за доношење одлуке о максималном броју запослених дужни су да своје одлуке учине доступним јавности објављивањем на својој веб презентацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan29-stav3">
+						<content>
+							<p>Организациони облици у јавном сектору дужни су да податке из <ref wId="ref56" href="akn/rs/act/2018/95-382/srp@/!main~art_29__para_1" >става 1. овог</ref> члана објављују на својој веб презентацији, квартално у току године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan30">
+					<num>30.</num>
+					<heading>Достављање података</heading>
+					<paragraph wId="gla5-clan30-stav1">
+						<content>
+							<p>Органи надлежни за доношење одлуке о максималном броју запослених дужни су да своје одлуке доставе министарству надлежном за послове финансија и министарству надлежном за послове државне управе и локалне самоуправе у року од 15 дана од дана доношења одлуке, ради праћења примене и спровођења овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav2">
+						<content>
+							<p>Организациони облици за које одлуку о максималном броју запослених доноси Влада, дужни су да министарству надлежном за послове државне управе и локалне самоуправе достављају, у складу са актом Владе, податке потребне за спровођење овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav3">
+						<content>
+							<p>Независни државни органи, организације и тела из члана 5. тачка <ref wId="ref57" href="akn/rs/act/2018/95-382/srp@/!main~art_5__para_3__point_2" >2</ref>) овог закона дужни су да одбору Народне скупштине надлежном за административно-буџетска питања достављају податке потребне за доношење одлуке о максималном броју запослених и друге податке потребне за спровођење овог закона, на начин и у роковима утврђеним актом тог одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav4">
+						<content>
+							<p>Приликом достављања података из <ref wId="ref58" href="akn/rs/act/2018/95-382/srp@/!main~art_30__para_2" >става 2. овог</ref> члана организациони облици не могу да предложе већи број запослених од оног који одговара маси средстава за зараде, односно плате одређене прописима о буџету.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan31">
+					<num>31.</num>
+					<heading>Надзор</heading>
+					<paragraph wId="gla5-clan31-stav1">
+						<content>
+							<p>Надзор над применом овог закона, у делу који се односи на финансијске ефекте јавних расхода по основу рада и плата, односно зарада у јавном сектору, врши буџетска инспекција, а у делу који се односи на организацију организационих облика у систему државних органа и систему локалне самоуправе, врши министарство надлежно за послове државне управе и локалне самоуправе – преко управне инспекције, односно министарство надлежно за послове рада – преко инспекције рада у делу који се односи на организацију организационих облика у систему јавних служби.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan32">
+					<num>32.</num>
+					<paragraph wId="gla6-clan32-stav1">
+						<content>
+							<p>Новчаном казном од 120.000 до 150.000 динара казниће се за прекршај руководилац организационог облика ако, супротно одредбама овог закона, запосли односно радно ангажује лице, односно ако изврши исплату зараде, односно плате у маси која је виша од оне до које се долази спровођењем рационализације у обиму утврђеном овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan33">
+					<num>33.</num>
+					<heading>Рокови за доношење прописа и општих аката</heading>
+					<paragraph wId="gla7-clan33-stav1">
+						<content>
+							<p>Акти из чл. <ref wId="ref59" href="akn/rs/act/2018/95-382/srp@/!main~art_4" >4</ref>. и <ref wId="ref60" href="akn/rs/act/2018/95-382/srp@/!main~art_6" >6</ref>. овог закона за 2015. годину донеће се у року од 30 дана од дана ступања на снагу овог закона, а за наредне календарске године – у року од 60 дана од дана доношења прописа о буџету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan33-stav2">
+						<content>
+							<p>Акти из чл. <ref wId="ref61" href="akn/rs/act/2018/95-382/srp@/!main~art_5" >5</ref>, <ref wId="ref62" href="akn/rs/act/2018/95-382/srp@/!main~art_18" >18</ref>. и <ref wId="ref63" href="akn/rs/act/2018/95-382/srp@/!main~art_30" >30</ref>. овог закона донеће се у року од 60 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan33-stav3">
+						<content>
+							<p>Друге акте за извршавање овог закона надлежни органи дужни су да донесу у року од 60 дана од дана доношења акта из <ref wId="ref64" href="akn/rs/act/2018/95-382/srp@/!main~art_33__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan34">
+					<num>34.</num>
+					<heading>Престанак важења ранијих закона и других прописа</heading>
+					<paragraph wId="gla7-clan34-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престају да важе Закон о одређивању максималног броја запослених у републичкој администрацији („Службени гласник РС”, број <ref wId="ref66" href="akn/rs/act/09/104/srp@"><ref wId="ref67" href="akn/rs/act/09/104/srp@">104/09</ref></ref>) и Закон о одређивању максималног броја запослених у локалној администрацији („Службени гласник РС”, број 104/09), а Одлука о максималном броју запослених у органима државне управе, јавним агенцијама и организацијама за обавезно социјално осигурање („Службени гласник РС”, бр. <ref wId="ref68" href="akn/rs/act/14/69/srp@">69/14</ref>, <ref wId="ref69" href="akn/rs/act/15/33/srp@">33/15</ref>, <ref wId="ref70" href="akn/rs/act/15/39/srp@">39/15</ref> и <ref wId="ref71" href="akn/rs/act/15/50/srp@">50/15</ref>) престаје да важи даном ступања на снагу акта из <ref wId="ref65" href="akn/rs/act/2018/95-382/srp@/!main~art_4__para_1" >члана 4. став 1. овог</ref> закона за 2015. годину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan35">
+					<num>35.</num>
+					<heading>Ступање на снагу и примена</heading>
+					<paragraph wId="gla7-clan35-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије” и примењује се до 31. децембра  2019. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan35-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref73" href="akn/rs/act/2018/95-382/srp@/!main~art_35__para_1" >става 1. овог</ref> члана, <ref wId="ref72" href="akn/rs/act/2018/95-382/srp@/!main~art_20" >члан 20. овог</ref> закона почиње да се примењује у року од 60 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan35-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref74" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

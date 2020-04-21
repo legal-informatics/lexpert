@@ -1,0 +1,1947 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/spar/frbr"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/spar/frbr"
+     versionIRI="http://purl.org/spar/frbr/2018-03-29">
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2008/05/skos#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>David Shotton</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>Paolo Ciccarese</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>Silvio Peroni</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <Literal>2018-03-29</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal xml:lang="en">This vocabulary is an expression in OWL 2 DL of the basic concepts and relations described in the IFLA report on the Functional Requirements for Bibliographic Records (FRBR), also described in Ian Davis&apos;s RDF vocabulary (http://vocab.org/frbr/core).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:rights"/>
+        <Literal xml:lang="en">This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <Literal xml:lang="en">Essential FRBR in OWL2 DL</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>The Essential FRBR in OWL2 DL Ontology (FRBR) is an expression in OWL 2 DL of the basic concepts and relations described in the IFLA report on the Functional Requirements for Bibliographic Records (FRBR), also described in Ian Davis&apos;s RDF vocabulary.
+
+**URL:** http://purl.org/spar/frbr
+
+**Creators**: [Paolo Ciccarese](http://orcid.org/0000-0002-5156-2703), [Silvio Peroni](http://orcid.org/0000-0003-0530-4305)
+
+**Contributors:**: [David Shotton](http://orcid.org/0000-0001-5506-523X)
+
+**License:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+**Website:** http://www.sparontologies.net/ontologies/frbr</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:priorVersion"/>
+        <IRI>/2011-06-29</IRI>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>1.0.1</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#CorporateBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgementOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#adaption"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#adaptionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#alternate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#alternateOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#arrangement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#arrangementOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#complement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#complementOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#creator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#creatorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodiment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodimentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplarOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#imitation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#imitationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#owner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#ownerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#partOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#producer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#producerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reconfiguration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reconfigurationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reproduction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reproductionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#revision"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#revisionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#subject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#subjectOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#successor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#successorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#summarization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#summarizationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#supplement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#supplementOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#transformation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#transformationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:rights"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:note"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodiment"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#part"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#partOf"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplarOf"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#part"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#partOf"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodimentOf"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplar"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#part"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#partOf"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realization"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#part"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#partOf"/>
+                <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Concept"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Event"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Object"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Person"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/vocab/frbr/core#Place"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Subject"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Concept"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Event"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Object"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Place"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#CorporateBody"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgementOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#adaption"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#adaptionOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#alternate"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#alternateOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#arrangement"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#arrangementOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#complement"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#complementOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#creator"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#creatorOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodiment"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodimentOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplar"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplarOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#imitation"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#imitationOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#owner"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#ownerOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#part"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#partOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#producer"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#producerOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realization"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizer"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizerOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reconfiguration"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reconfigurationOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reproduction"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reproductionOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#revision"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#revisionOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#subject"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#subjectOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#successor"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#successorOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#summarization"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#summarizationOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#supplement"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#supplementOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#transformation"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#transformationOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translationOf"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgementOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#adaption"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#adaptionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#alternate"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#alternateOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#arrangement"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#arrangementOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#complement"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#complementOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#creator"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#creatorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodiment"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodimentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplar"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplarOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#imitation"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#imitationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#owner"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#ownerOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#part"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#partOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#producer"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#producerOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realization"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizer"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizerOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reconfiguration"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reconfigurationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reproduction"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reproductionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntityOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#revision"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#revisionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#subject"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#subjectOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#successor"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#successorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#summarization"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#summarizationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#supplement"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#supplementOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#transformation"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#transformationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translationOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplarOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#partOf"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#adaption"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#alternate"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#arrangement"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#complement"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#creator"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodiment"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplar"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#imitation"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#owner"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#producer"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realization"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizer"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reconfiguration"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reproduction"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#revision"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#subject"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#successor"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#summarization"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#supplement"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#transformation"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#adaption"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#alternate"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#arrangement"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#complement"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#embodiment"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#exemplar"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#imitation"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realization"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reconfiguration"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#relatedEndeavour"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#reproduction"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#responsibleEntity"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#revision"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#subject"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#CorporateBody"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Subject"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#successor"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#summarization"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#supplement"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#transformation"/>
+        <ObjectUnionOf>
+            <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+            <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
+    </ObjectPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <SameIndividualAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </SameIndividualAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#adaption"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DifferentIndividualsAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </DifferentIndividualsAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#arrangement"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <SameIndividualAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </SameIndividualAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#complement"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DifferentIndividualsAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </DifferentIndividualsAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#imitation"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DifferentIndividualsAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </DifferentIndividualsAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#revision"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <SameIndividualAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </SameIndividualAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#successor"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DifferentIndividualsAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </DifferentIndividualsAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#summarization"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DifferentIndividualsAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </DifferentIndividualsAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#supplement"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DifferentIndividualsAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </DifferentIndividualsAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#transformation"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <DifferentIndividualsAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </DifferentIndividualsAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#w1"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#realizationOf"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://purl.org/vocab/frbr/core#translation"/>
+                <Variable IRI="urn:swrl:var#e1"/>
+                <Variable IRI="urn:swrl:var#e2"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <SameIndividualAtom>
+                <Variable IRI="urn:swrl:var#w1"/>
+                <Variable IRI="urn:swrl:var#w2"/>
+            </SameIndividualAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Concept</IRI>
+        <Literal xml:lang="en">An abstract notion or idea.
+
+The entity defined as concept encompasses a comprehensive range of abstractions that may be the subject of a work: fields of knowledge, disciplines, schools of thought (philosophies, religions, political ideologies, etc.), theories, processes, techniques, practices, etc.  A concept may be broad in nature or narrowly defined and precise. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Concept</IRI>
+        <Literal xml:lang="en">concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#CorporateBody</IRI>
+        <Literal xml:lang="en">An organization or group of individuals and/or organizations acting as a unit.
+
+The entity defined as corporate body encompasses organizations and groups of individuals and/or organizations that are identified by a particular name, including occasional groups and groups that are constituted as meetings, conferences, congresses, expeditions, exhibitions, festivals, fairs, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#CorporateBody</IRI>
+        <Literal xml:lang="en">corporate body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Endeavour</IRI>
+        <Literal xml:lang="en">It describes different aspects of user interests in the products of intellectual or artistic artifact.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Endeavour</IRI>
+        <Literal xml:lang="en">endeavour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Event</IRI>
+        <Literal xml:lang="en">An action or occurrence.
+
+The entity defined as event encompasses a comprehensive range of actions and occurrences that may be the subject of a work: historical events, epochs, periods of time, etc. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Event</IRI>
+        <Literal xml:lang="en">event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Expression</IRI>
+        <Literal xml:lang="en">The intellectual or artistic realization of a work in the form of alpha-numeric, musical, or choreographic notation, sound, image, object, movement, etc., or any combination of such forms.
+
+An expression is the specific intellectual or artistic form that a work takes each time it is &quot;realized.&quot; Expression encompasses, for example, the specific words, sentences, paragraphs, etc. that result from the realization of a work in the form of a text, or the particular sounds, phrasing, etc. resulting from the realization of a musical work.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Expression</IRI>
+        <Literal xml:lang="en">expression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Item</IRI>
+        <Literal xml:lang="en">A single exemplar of a manifestation.
+
+The entity defined as item is a concrete entity. It is in many instances a single physical object (e.g., a copy of a one-volume monograph, a single audio cassette, etc.). There are instances, however, where the entity defined as item comprises more than one physical object (e.g., a monograph issued as two separately bound volumes, a recording issued on three separate compact discs, etc.). </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Item</IRI>
+        <Literal xml:lang="en">item</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Manifestation</IRI>
+        <Literal xml:lang="en">The physical embodiment of an expression of a work.
+
+The entity defined as manifestation encompasses a wide range of materials and formats. As an entity, manifestation represents all the physical objects that bear the same characteristics, in respect to both intellectual content and physical form. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Manifestation</IRI>
+        <Literal xml:lang="en">manifestation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Object</IRI>
+        <Literal xml:lang="en">A material thing.
+
+The entity defined as object encompasses a comprehensive range of material things that may be the subject of a work: animate and inanimate objects occurring in nature; fixed, movable, and moving objects that are the product of human creation; objects that no longer exist. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Object</IRI>
+        <Literal xml:lang="en">object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Person</IRI>
+        <Literal xml:lang="en">An individual. The entity defined as person encompasses individuals that are deceased as well as those that are living.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Person</IRI>
+        <Literal xml:lang="en">person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Place</IRI>
+        <Literal xml:lang="en">A location.
+
+The entity defined as place encompasses a comprehensive range of locations: terrestrial and extra-terrestrial; historical and contemporary; geographic features and geo-political jurisdictions. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Place</IRI>
+        <Literal xml:lang="en">place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#ResponsibleEntity</IRI>
+        <Literal xml:lang="en">It represents those responsible for the intellectual or artistic content, the physical production and dissemination, or the custodianship of any endeavour.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#ResponsibleEntity</IRI>
+        <Literal xml:lang="en">responsible entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Subject</IRI>
+        <Literal xml:lang="en">It represents an additional set of entities that serve as the subjects of works.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Subject</IRI>
+        <Literal xml:lang="en">subject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <Literal xml:lang="en">A distinct intellectual or artistic creation.
+
+A work is an abstract entity; there is no single material object one can point to as the work. We recognize the work through individual realizations or expressions of the work, but the work itself exists only in the commonality of content between and among the various expressions of the work. When we speak of Homer&apos;s Iliad as a work, our point of reference is not a particular recitation or text of the work, but the intellectual creation that lies behind all the various expressions of the work. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <Literal xml:lang="en">work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#abridgement</IRI>
+        <Literal xml:lang="en">An expression abridged in another one.
+
+In the abridged expression some content of the previous expression is removed, but the result does not alter the content to the extent that it becomes a new work. The expressions resulting from such modification are generally autonomous in nature (i.e., they do not normally require reference to the prior expression in order to be used or understood). </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#abridgement</IRI>
+        <Literal xml:lang="en">has abridgement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#abridgementOf</IRI>
+        <Literal xml:lang="en">It identifies the entire expression of an abridged one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#abridgementOf</IRI>
+        <Literal xml:lang="en">is abridgement of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#adaption</IRI>
+        <Literal xml:lang="en">A work/expression adapted in another one.
+
+This property describe the modification of an original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, they always refer to different works.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#adaption</IRI>
+        <Literal xml:lang="en">has adaption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#adaptionOf</IRI>
+        <Literal xml:lang="en">It identifies the work/expression of an adapted one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#adaptionOf</IRI>
+        <Literal xml:lang="en">is adaption of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#alternate</IRI>
+        <Literal xml:lang="en">A manifestation having another one as alternate.
+
+The alternate relationship involves manifestations that effectively serve as alternates for each other. The alternate relationship obtains, for example, when a publication, sound recording, video, etc. is issued in more than one format or when it is released simultaneously by different publishers in different countries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#alternate</IRI>
+        <Literal xml:lang="en">has alternate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#alternateOf</IRI>
+        <Literal xml:lang="en">It identifies the manifestation of an alternative one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#alternateOf</IRI>
+        <Literal xml:lang="en">is alternate of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#arrangement</IRI>
+        <Literal xml:lang="en">An expression arranged in another one.
+
+In the arranged expression some content of the previous expression is changed in some way, but the result does not alter the content to the extent that it becomes a new work. The expressions resulting from such modification are generally autonomous in nature (i.e., they do not normally require reference to the prior expression in order to be used or understood).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#arrangement</IRI>
+        <Literal xml:lang="en">has arrangement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#arrangementOf</IRI>
+        <Literal xml:lang="en">It identifies the original expression of an arranged one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#arrangementOf</IRI>
+        <Literal xml:lang="en">is arrangement of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#complement</IRI>
+        <Literal xml:lang="en">An expression work/expression having another one as complement.
+
+This property describes works that are intended to be combined with or inserted into the related work. In other words, they are intended to be integrated in some way with the other work, but were not part of the original conception of that prior work. If there exists a relation of this kind among two different expressions, then they always refer to different works.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#complement</IRI>
+        <Literal xml:lang="en">has complement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#complementOf</IRI>
+        <Literal xml:lang="en">It identifies the work/expression of that is a complement of another one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#complementOf</IRI>
+        <Literal xml:lang="en">is complement of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#creator</IRI>
+        <Literal xml:lang="en">A work linked to its creator.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#creator</IRI>
+        <Literal xml:lang="en">has creator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#creatorOf</IRI>
+        <Literal xml:lang="en">The creator of a particular work.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#creatorOf</IRI>
+        <Literal xml:lang="en">is creator of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#embodiment</IRI>
+        <Literal xml:lang="en">An expression embodied in a manifestation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#embodiment</IRI>
+        <Literal xml:lang="en">has embodiment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#embodimentOf</IRI>
+        <Literal xml:lang="en">A manifestation that embodies an expression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#embodimentOf</IRI>
+        <Literal xml:lang="en">is embodiment of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#exemplar</IRI>
+        <Literal xml:lang="en">A manifestation exemplified in an item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#exemplar</IRI>
+        <Literal xml:lang="en">has exemplar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#exemplarOf</IRI>
+        <Literal xml:lang="en">An item that exemplifies a manifestation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#exemplarOf</IRI>
+        <Literal xml:lang="en">is exemplar of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#imitation</IRI>
+        <Literal xml:lang="en">An work/expression imitated in another one.
+
+This property describes works that are intended to be an imitation another original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, then they always refer to different works.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#imitation</IRI>
+        <Literal xml:lang="en">has imitation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#imitationOf</IRI>
+        <Literal xml:lang="en">It identifies the work/expression of an imitated one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#imitationOf</IRI>
+        <Literal xml:lang="en">is imitation of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#owner</IRI>
+        <Literal xml:lang="en">An item linked to its owner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#owner</IRI>
+        <Literal xml:lang="en">has owner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#ownerOf</IRI>
+        <Literal xml:lang="en">The owner of a particular item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#ownerOf</IRI>
+        <Literal xml:lang="en">is owner of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#part</IRI>
+        <Literal xml:lang="en">A part of an endeavour.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#part</IRI>
+        <Literal xml:lang="en">has part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:note"/>
+        <IRI>http://purl.org/vocab/frbr/core#part</IRI>
+        <Literal xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#partOf</IRI>
+        <Literal xml:lang="en">An endeavour incorporating another endeavour.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#partOf</IRI>
+        <Literal xml:lang="en">is part of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:note"/>
+        <IRI>http://purl.org/vocab/frbr/core#partOf</IRI>
+        <Literal xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#producer</IRI>
+        <Literal xml:lang="en">A manifestation linked to its prodecer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#producer</IRI>
+        <Literal xml:lang="en">has producer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#producerOf</IRI>
+        <Literal xml:lang="en">The producer of a particular manifestation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#producerOf</IRI>
+        <Literal xml:lang="en">is producer of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#realization</IRI>
+        <Literal xml:lang="en">A work realized through an expression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#realization</IRI>
+        <Literal xml:lang="en">has realization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#realizationOf</IRI>
+        <Literal xml:lang="en">An expression that realizes a work.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#realizationOf</IRI>
+        <Literal xml:lang="en">is realization of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#realizer</IRI>
+        <Literal xml:lang="en">An expression linked to its realizer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#realizer</IRI>
+        <Literal xml:lang="en">has realizer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#realizerOf</IRI>
+        <Literal xml:lang="en">The realizer of a particular expression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#realizerOf</IRI>
+        <Literal xml:lang="en">is realizer of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#reconfiguration</IRI>
+        <Literal xml:lang="en">An item reconfigured in another one.
+
+The reconfiguration relationship is one in which one or more items are changed in such a way that a new item or items result. Most commonly, an item of one manifestation is bound with an item of a different manifestation to make a new item. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#reconfiguration</IRI>
+        <Literal xml:lang="en">has reconfiguration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#reconfigurationOf</IRI>
+        <Literal xml:lang="en">It identifies the manifestation of a reconfigured one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#reconfigurationOf</IRI>
+        <Literal xml:lang="en">is reconfiguration of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#relatedEndeavour</IRI>
+        <Literal xml:lang="en">has related endeavour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#reproduction</IRI>
+        <Literal xml:lang="en">A manifestation/item reproduced in another one.
+
+A reproduction indicates the relationship as it would be drawn from the first manifestation/item in the relationship to the second manifestation/item in the relationship.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#reproduction</IRI>
+        <Literal xml:lang="en">has reproduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#reproductionOf</IRI>
+        <Literal xml:lang="en">It identifies the manifestation/item of a reproduced one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#reproductionOf</IRI>
+        <Literal xml:lang="en">is reproduction of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#responsibleEntity</IRI>
+        <Literal xml:lang="en">Any endeavour having a particular entity that is responsible of it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#responsibleEntity</IRI>
+        <Literal xml:lang="en">has responsible entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#responsibleEntityOf</IRI>
+        <Literal xml:lang="en">An entity that is resposible for a particular endeavour.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#responsibleEntityOf</IRI>
+        <Literal xml:lang="en">is responsible entity of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#revision</IRI>
+        <Literal xml:lang="en">An expression revised in another one.
+
+A revision has the intent to alter or update the content of the prior expression, but without changing the content so much that it becomes a new work.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#revision</IRI>
+        <Literal xml:lang="en">has revision</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#revisionOf</IRI>
+        <Literal xml:lang="en">It identifies the previous expression of a revised one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#revisionOf</IRI>
+        <Literal xml:lang="en">is revision of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#subject</IRI>
+        <Literal xml:lang="en">A work linked to a particular subject it is talking about.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#subject</IRI>
+        <Literal xml:lang="en">has subject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#subjectOf</IRI>
+        <Literal xml:lang="en">A subject a work talks abbout.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#subjectOf</IRI>
+        <Literal xml:lang="en">is subject of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#successor</IRI>
+        <Literal xml:lang="en">An expression work/expression having another one as successor.
+
+The successor type of relationship involves a kind of linear progression of content from one work/expression to the other. In some cases, the content of the successor may be closely connected to the content of the preceding work, which would result in a work that is referential. In others, such as with loosely connected parts of a trilogy, the successor will be autonomous. Serial publications that result from the merger or split of their predecessors and stand on their own without requiring reference to the predecessor are also examples of autonomous works that fall within the successor relationship type. If there exists a relation of this kind among two different expressions, then they always refer to different works.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#successor</IRI>
+        <Literal xml:lang="en">has successor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#successorOf</IRI>
+        <Literal xml:lang="en">It identifies the previous work/expression of a succeeded one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#successorOf</IRI>
+        <Literal xml:lang="en">is successor of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#summarization</IRI>
+        <Literal xml:lang="en">A work/expression summarized in another one.
+
+This property describe the summarization of an original work that is sufficient in degree to warrant their being considered as new works, rather than simply different expressions of the same work. If there exists a relation of this kind among two different expressions, they always refer to different works.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#summarization</IRI>
+        <Literal xml:lang="en">has summarization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#summarizationOf</IRI>
+        <Literal xml:lang="en">It identifies the original work/expression of a summarized one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#summarizationOf</IRI>
+        <Literal xml:lang="en">is summarization of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#supplement</IRI>
+        <Literal xml:lang="en">An expression work/expression having another one as supplement.
+
+The supplement relationship type involves works/expressions that are intended to be used in conjunction with another work/expression. Some of these, such as indices, concordances, teachers&apos; guides, glosses, and instruction manuals for electronic resources will be so closely associated with the content of the related work/expression that they are useless without the other work/expression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#supplement</IRI>
+        <Literal xml:lang="en">has supplement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#supplementOf</IRI>
+        <Literal xml:lang="en">It identifies the work/expression of a particular supplement of it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#supplementOf</IRI>
+        <Literal xml:lang="en">is supplement of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#transformation</IRI>
+        <Literal xml:lang="en">An work/expression transformed in another one.
+
+This property describes the transformation of an original work or expression into another work or expression that is sufficiently different in degree to warrant the product of the transformation being considered as a new work or expression, rather than simply a different expression of the original work. If there exists a frbr:transformation relation between two different expressions, then they always relate to different works.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#transformation</IRI>
+        <Literal xml:lang="en">has transformation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#transformationOf</IRI>
+        <Literal xml:lang="en">It identifies the original work/expression of a trasformed one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#transformationOf</IRI>
+        <Literal xml:lang="en">is transformation of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#translation</IRI>
+        <Literal xml:lang="en">An expression translated in another one.
+
+It allows to refer to a literal translation, in which the intent is to render the intellectual content of the previous expression as accurately as possible.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#translation</IRI>
+        <Literal xml:lang="en">has translation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#translationOf</IRI>
+        <Literal xml:lang="en">It identifies the original expression of a translated one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#translationOf</IRI>
+        <Literal xml:lang="en">is translation of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>skos:note</AbbreviatedIRI>
+        <AbbreviatedIRI>skos:</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>skos:note</AbbreviatedIRI>
+        <Literal xml:lang="en">skos:note</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,752 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о јединственом бирачком списку">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2009/104-57/main"/>
+					<FRBRuri value="akn/rs/act/2009/104-57"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2011/99-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2011/99-3/srp@"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2011/99-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2011/99-3/srp@.akn"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-12-16" name="службени гласник рс“" number="104" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="13. Избори, референдум и народна иницијатива" value="13. избори, референдум и народна иницијатива" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2009-01-01" refersTo="104/2009-57" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2011-01-01" refersTo="99/2011-3" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2009-12-11" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2009-12-24" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2011-12-25" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="списак"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="бирачки"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="води"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="једном"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="услов"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="остваривање"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавна"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединствена"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="сталан"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="држављана"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="редовно"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="исправа"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежни"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединствени"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="органи"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="ажурирање"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="којој"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="вођење"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="имају"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="уписан"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="бирачко"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="право"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="ажурира"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="евиденција"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="бирачког"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="може"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="дужности"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="бирач"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="службеној"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="упис"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Opštinske"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva nadležna za odbranu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za poslove uprave"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za unutrašnje poslove podatke"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnoj evidenciji birača"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike građani"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkoj izbornoj komisiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravnom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojske Srbije"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. do 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. decembra 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2012."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. decembra 2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 24. децембра 2009. године, а примењује се по истеку две године од дана ступања на снагу, односно од 25. децембра 2011. године, осим члана 26. који се примењује од дана ступања на снагу закона (види члан 30. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 24. децембра 2009. године, а примењује се по истеку две године од дана ступања на снагу, односно од 25. децембра 2011. године, осим члана 26. који се примењује од дана ступања на снагу закона (види члан 30. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О јединственом бирачком списку „Службени гласник РС“ бр. <ref wId="ref41" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref>, <ref wId="ref42" href="akn/rs/act/2011/99/srp@">99 од 27. децембра 2011</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Јединствени бирачки списак</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Јединствени бирачки списак (у даљем тексту: бирачки списак)  јесте јавна исправа у којој се води јединствена евиденција држављана Републике  Србије који имају бирачко право.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Бирачки списак је сталан и редовно се ажурира.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Упис у бирачки списак је услов за остваривање бирачког  права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav4">
+						<content>
+							<p>Бирач може бити само једном уписан у бирачки списак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav5">
+						<content>
+							<p>Бирачки списак води се по службеној дужности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Органи надлежни за вођење и ажурирање бирачког списка</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Бирачки списак води министарство надлежно за послове  управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Вођење бирачког списка од стране министарства надлежног за  послове управе обухвата: анализирање података из бирачког списка и предузимање  мера ради обезбеђења њихове међусобне усклађености и тачности, вршење промена у  бирачком списку (упис, брисање, измена, допуна или исправка) након закључења  бирачког списка и обављање других послова, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Део бирачког списка за подручје јединице локалне самоуправе  ажурира општинска, односно градска управа, као поверен посао.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>Ажурирање дела бирачког списка за подручје јединице локалне  самоуправе од стране општинске, односно градске управе обухвата вршење промена у  бирачком списку (упис, брисање, измена, допуна или исправка) по службеној  дужности или на захтев грађана до закључења бирачког списка и друге послове, у  складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Начин вођења и ажурирања бирачког списка</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Бирачки списак води се као електронска база података и  ажурира се по јединственој методологији министарства надлежног за послове  управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Садржај и начин коришћења, вођења, исправљања и закључивања  бирачког списка и излагања делова бирачког списка за подручје јединице локалне  самоуправе, као и друга питања од значаја за потпуно и тачно вођење бирачког  списка прописује министар надлежан за послове управе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСТУПАК ВОЂЕЊА БИРАЧКОГ СПИСКА</heading>
+				<article wId="gla2-od1-clan4">
+					<num>4.</num>
+					<heading>Лица која се уписују у бирачки списак</heading>
+					<paragraph wId="gla2-od1-clan4-stav1">
+						<content>
+							<p>У бирачки списак уписују се лица која имају бирачко право,  а након доношења одлуке о расписивању избора и малолетна лица која бирачко право  стичу најкасније на дан избора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan5">
+					<num>5.</num>
+					<heading>Надлежност за упис бирача у бирачки списак</heading>
+					<paragraph wId="gla2-od1-clan5-stav1">
+						<content>
+							<p>Бирача који није уписан у бирачки списак уписује у бирачки  списак до његовог закључења општинска, односно градска управа, а од његовог  закључења па све до 72 часа пре дана избора министарство надлежно за послове  управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav2">
+						<content>
+							<p>Бирача који има боравиште у иностранству и који  поднесе захтев за упис у бирачки списак непосредно општинској, односно градској  управи или преко дипломатско-конзуларног представништва Републике Србије у  иностранству, у бирачки списак уписује општинска, односно градска управа по  месту његовог пребивалишта у земљи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan5-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2011/99/srp@">99/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan6">
+					<num>6.</num>
+					<heading>Месна надлежност за упис бирача у бирачки списак</heading>
+					<paragraph wId="gla2-od1-clan6-stav1">
+						<content>
+							<p>Бирач се уписује у бирачки списак према месту пребивалишта,  с тим што се на захтев бирача, у бирачки списак може уписати и његово боравиште  у земљи, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan6-stav2">
+						<content>
+							<p>Бирач који има боравиште у иностранству уписује се у  бирачки списак према последњем пребивалишту пре одласка у иностранство, односно  последњем пребивалишту једног од његових родитеља, с тим што се у бирачки списак  уписују и подаци о његовом боравишту у иностранству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan6-stav3">
+						<content>
+							<p>Интерно расељено лице уписује се у бирачки списак према  месту у коме је пријављено као интерно расељено лице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan7">
+					<num>7.</num>
+					<heading>Чињенице о бирачу које се уписују у бирачки списак</heading>
+					<paragraph wId="gla2-od1-clan7-stav1">
+						<content>
+							<p>У бирачки списак уписује се: име и презиме бирача, име  једног од родитеља бирача, бирачев јединствени матични број грађана, датум и  место рођења бирача, пол бирача, место пребивалишта и адреса бирача, јединица  локалне самоуправе у којој бирач има место пребивалишта, страна држава у којој  бирач има боравиште, место боравишта и адреса бирача у иностранству и место  боравишта за интерно расељена лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan7-stav2">
+						<content>
+							<p>Име и презиме бирача који је припадник националне мањине  двојако се уписује: прво ћириличким писмом према правопису српског језика, а  потом писмом и према правопису припадника националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan7-stav3">
+						<content>
+							<p>У бирачки списак се уписује и податак да ће бирач на  предстојећим изборима гласати према месту боравишта у земљи, односно према месту  боравишта у иностранству. Поред податка да ће бирач на предстојећим изборима  гласати према месту боравишта у земљи, у бирачки списак се уписује и место и  адреса његовог боравишта у земљи, као и јединица локалне самоуправе у којој је  место његовог боравишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan7-stav4">
+						<content>
+							<p>Упис података из <ref wId="ref1" href="akn/rs/act/2011/99-3/srp@/!main~art_7__para_3" >става 3. овог</ref> члана врши се почев од дана  после расписивања избора, а најкасније пет дана пре дана закључења бирачког  списка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan7-stav5">
+						<content>
+							<p>Након одржаних избора подаци из <ref wId="ref2" href="akn/rs/act/2011/99-3/srp@/!main~art_7__para_3" >става 3. овог</ref> члана бришу  се по службеној дужности из бирачког списка у року од 30 дана од одржаних  избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan7-stav6">
+						<content>
+							<p>Ако најкасније пет дана пре дана закључења бирачког списка  у бирачки списак није уписан податак да ће бирач гласати на предстојећим  изборима према месту боравишта у земљи, односно иностранству, бирач може гласати  само према месту пребивалишта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan8">
+					<num>8.</num>
+					<heading>Посебна евиденција бирачких места</heading>
+					<paragraph wId="gla2-od1-clan8-stav1">
+						<content>
+							<p>Уз бирачки списак води се посебна евиденција бирачких места  која садржи број, адресу, опис и седиште бирачког места.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan8-stav2">
+						<content>
+							<p>Ближа правила о начину вођења посебне евиденције из <ref wId="ref3" href="akn/rs/act/2011/99-3/srp@/!main~art_8__para_1" >става  1. овог</ref> члана и садржини те евиденције прописује министар надлежан за послове  управе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan9">
+					<num>9.</num>
+					<heading>Решења на којима се заснивају промене у бирачком списку</heading>
+					<paragraph wId="gla2-od2-clan9-stav1">
+						<content>
+							<p>Свака промена у бирачком списку мора да се заснива на  одговарајућем решењу: решењу о упису бирача у бирачки списак, решењу о брисању  бирача из бирачког списка или на решењу о измени, допуни или исправци неке  чињенице о бирачу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan9-stav2">
+						<content>
+							<p>Решење на коме се заснива промена у бирачком списку доноси  се по службеној дужности или на захтев грађана, а на основу података у матичним  књигама, другим службеним евиденцијама и јавним исправама. О тим решењима се  води евиденција према прописима о канцеларијском пословању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan10">
+					<num>10.</num>
+					<heading>Надлежност за доношење решења на којима се заснивају  промене у бирачком списку. Уношење промена</heading>
+					<paragraph wId="gla2-od2-clan10-stav1">
+						<content>
+							<p>Решења на којима се заснивају промене у бирачком списку  доноси до закључења бирачког списка општинска, односно градска управа, а од  закључења бирачког списка па све до 72 часа пре дана избора министарство  надлежно за послове управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan10-stav2">
+						<content>
+							<p>Решење на коме се заснивају промене у бирачком списку  које се односе на бирача који има боравиште у иностранству и који поднесе захтев  за промену у бирачком списку непосредно општинској, односно градској управи или  преко дипломатско-конзуларног представништва Републике Србије у иностранству,  доноси општинска, односно градска управа по месту његовог пребивалишта у земљи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan10-stav3">
+						<content>
+							<p>Решења из <ref wId="ref4" href="akn/rs/act/2011/99-3/srp@/!main~art_10__para_1" >става 1. овог</ref> члана, као и решења из <ref wId="ref5" href="akn/rs/act/2011/99-3/srp@/!main~art_10__para_2" >става  2. овог</ref> члана за интерно расељена лица до закључења бирачког списка доноси  општинска, односно градска управа према месту у коме је пријављено као интерно  расељено лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan10-stav4">
+						<content>
+							<p>Решење на коме се заснива измена у бирачком списку спроводи  по службеној дужности орган који је решење донео.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan10-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2011/99/srp@">99/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan11">
+					<num>11.</num>
+					<heading>Промене у бирачком списку по службеној дужности</heading>
+					<paragraph wId="gla2-od2-clan11-stav1">
+						<content>
+							<p>Орган који води службену евиденцију о грађанима дужан је да  сваки податак који утиче на потпуност, тачност и благовременост вођења бирачког  списка достави у року од три дана од дана настале промене органу који је  надлежан за доношење решења на коме се заснивају промене у бирачком списку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan11-stav2">
+						<content>
+							<p>Министарство надлежно за унутрашње послове податке из  службених евиденција о пребивалишту и боравишту грађана на којима се заснивају  промене у бирачком списку доставља електронским путем непосредно министарству  надлежном за послове управе у року из <ref wId="ref7" href="akn/rs/act/2011/99-3/srp@/!main~art_11__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan11-stav3">
+						<content>
+							<p>Министарство надлежно за послове управе податке из <ref wId="ref8" href="akn/rs/act/2011/99-3/srp@/!main~art_11__para_2" >става 2.  овог</ref> члана прослеђује надлежној општинској, односно градској управи одмах, а  најкасније у року од три дана од дана њиховог пријема.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan11-stav4">
+						<content>
+							<p>Од дана када се распишу избори па до 72 часа пре дана  избора, органи из <ref wId="ref9" href="akn/rs/act/2011/99-3/srp@/!main~art_11__para_1->para_2" >ст. 1. и 2. овог</ref> члана све податке из <ref wId="ref10" href="akn/rs/act/2011/99-3/srp@/!main~art_11__para_1->para_2" >ст. 1. и 2. овог</ref> члана  достављају одмах, а најкасније наредног дана од дана када су промене настале.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan11-stav5">
+						<content>
+							<p>Ближи начин размене података из <ref wId="ref11" href="akn/rs/act/2011/99-3/srp@/!main~art_11__para_1->para_4" >ст. 1. </ref>до 4. овог члана  прописује упутством министар надлежан за послове управе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan12">
+					<num>12.</num>
+					<heading>Промене у бирачком списку на захтев грађана</heading>
+					<paragraph wId="gla2-od2-clan12-stav1">
+						<content>
+							<p>Сваки грађанин може општинској, односно градској управи,  или министарству надлежном за послове управе кад је оно надлежно за вршење  промена у бирачком списку, поднети захтев за промену у бирачком списку ако он  или други грађанин није уписан у бирачки списак или је уписан, а нема бирачко  право или нема бирачко право на подручју јединице локалне самоуправе у којој је  уписан у бирачки списак или ако неки од података из бирачког списка није  правилно уписан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan12-stav2">
+						<content>
+							<p>Надлежни орган о захтеву за промену у бирачком списку  одлучује у року од 24 часа од пријема захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-od3-clan13-stav1">
+						<content>
+							<p>Подносилац захтева може на решење општинске, односно  градске управе поднети жалбу министарству надлежном за послове управе у року од  24 часа од дана када је решење примио.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav2">
+						<content>
+							<p>Министарство надлежно за послове управе у року од 48 часова  доноси решење на жалбу из <ref wId="ref12" href="akn/rs/act/2011/99-3/srp@/!main~art_13__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav3">
+						<content>
+							<p>Против решења које је министарство надлежно за послове  управе донело у првом степену кад је надлежно за измене у бирачком списку или  које је донело по жалби, може се поднети тужба Управном суду у року од 24 часа  од дана када је решење примљено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav4">
+						<content>
+							<p>Управни суд по тужби одлучује у року од 48 часова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan13-stav5">
+						<content>
+							<p>Одлука Управног суда је правноснажна и извршна и против ње  није допуштено подношење захтева за ванредно преиспитивање судске одлуке нити за  понављање поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan14">
+					<num>14.</num>
+					<paragraph wId="gla2-od4-clan14-stav1">
+						<content>
+							<p>Дан после расписивања избора, општинска, односно градска  управа која ажурира бирачки списак за подручје јединице локалне самоуправе  излаже део бирачког списка за подручје јединице локалне самоуправе на увид  грађанима и то оглашава преко средстава јавног информисања и, по потреби, на  други начин и обавештава грађане да од општинске, односно градске управе могу до  закључења бирачког списка захтевати доношење решења на којима се заснивају  промене у бирачком списку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan14-stav2">
+						<content>
+							<p>Начин излагања дела бирачког списка који се води за  подручје јединице локалне самоуправе ближе уређује министар надлежан за послове  управе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan15">
+					<num>15.</num>
+					<heading>Захтев за упис у бирачки списак податка о томе да ће бирач  гласати у земљи према месту боравишта</heading>
+					<paragraph wId="gla2-od4-clan15-stav1">
+						<content>
+							<p>Дан после расписивања избора, општинска, односно градска  управа која ажурира бирачки списак за подручје јединице локалне самоуправе  обавештава грађане да надлежној општинској, односно градској управи могу,  најкасније пет дана пре дана закључења бирачког списка, поднети захтев да се у  бирачки списак упише податак да ће бирач на предстојећим изборима гласати према  месту боравишта у земљи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan15-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref14" href="akn/rs/act/2011/99-3/srp@/!main~art_15__para_2" >став 2. </ref>(види <ref wId="ref13" href="akn/rs/act/2011/99/srp@/!main~/art_3">члан 3. Закона - 99/2011-3</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan16">
+					<num>16.</num>
+					<heading>Захтев за упис у бирачки списак податка о томе да ће бирач  гласати у иностранству и захтев за обавештење о подацима који су о њему уписани  у бирачки списак</heading>
+					<paragraph wId="gla2-od4-clan16-stav1">
+						<content>
+							<p>Дан после расписивања избора, дипломатско-конзуларна  представништва Републике Србије обавештавају бираче који имају боравиште у  иностранству да преко дипломатско-конзуларног представништва Републике Србије  могу, најкасније пет дана пре дана закључења бирачког списка, поднети захтев да  се у бирачки списак упише податак да ће на предстојећим изборима гласати у  иностранству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav2">
+						<content>
+							<p>Министарство надлежно за послове управе у обавези је да  одмах по расписивању избора ту чињеницу објави на сајту министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav3">
+						<content>
+							<p>О захтеву из <ref wId="ref15" href="akn/rs/act/2011/99-3/srp@/!main~art_16__para_1" >става 1. овог</ref> члана решава општинскa,  односно градскa управa по месту пребивалиштa бирача у земљи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav4">
+						<content>
+							<p>Брисан је ранији <ref wId="ref17" href="akn/rs/act/2011/99-3/srp@/!main~art_16__para_4" >став 4. </ref>(види <ref wId="ref16" href="akn/rs/act/2011/99/srp@/!main~/art_4">члан 4. Закона - 99/2011-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav5">
+						<content>
+							<p>Бирач који има боравиште у иностранству може преко  дипломатско-конзуларног представништва Републике Србије поднети општинској,  односно градској управи по месту његовог пребивалишта у земљи захтев за давање  обавештења о подацима који су о њему уписани у бирачки списак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav6">
+						<content>
+							<p>Обавештење из <ref wId="ref18" href="akn/rs/act/2011/99-3/srp@/!main~art_16__para_4" >става 4. овог</ref> члана може се дати путем  телефона, телефакса или путем електронске поште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan16-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2011/99/srp@">99/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan17">
+					<num>17.</num>
+					<heading>Закључење бирачког списка. Укупан број бирача</heading>
+					<paragraph wId="gla2-od4-clan17-stav1">
+						<content>
+							<p>Министарство надлежно за послове управе решењем закључује  бирачки списак 15 дана пре дана избора и у решењу утврђује укупан број бирача у  Републици Србији, у свакој јединици локалне самоуправе и на сваком бирачком  месту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan17-stav2">
+						<content>
+							<p>Решење о закључењу бирачког списка доставља се Републичкој  изборној комисији најкасније у року од 24 часа од часа његовог доношења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan18">
+					<num>18.</num>
+					<heading>Објављивање укупног броја бирача</heading>
+					<paragraph wId="gla2-od4-clan18-stav1">
+						<content>
+							<p>Републичка изборна комисија објављује у „Службеном гласнику  Републике Србије” укупан број бирача, одмах по добијању укупног броја бирача.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ИЗВОДИ ИЗ БИРАЧКОГ СПИСКА</heading>
+				<paragraph wId="gla3-clan18-stav1">
+					<content>
+						<p>Припремање и достављање извода из бирачког списка.</p>
+					</content>
+				</paragraph>
+				<article wId="gla3-clan19">
+					<num>19.</num>
+					<paragraph wId="gla3-clan19-stav1">
+						<content>
+							<p>Министарство надлежно за послове управе припрема и оверава  штампане изводе из бирачког списка разврстане по јединицама локалне самоуправе и  бирачким местима у земљи и у иностранству и доставља их Републичкој изборној  комисији у року од 48 часова од када је донело решење о закључењу бирачког  списка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav2">
+						<content>
+							<p>Изводи из бирачког списка за свако бирачко место садрже све  чињенице о бирачу које садржи бирачки списак и место за својеручни потпис  бирача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav3">
+						<content>
+							<p>Бирач који гласа према боравишту у земљи, односно у  иностранству, не уписује се у извод из бирачког списка према месту пребивалишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav4">
+						<content>
+							<p>Ако се истовремено одржава више избора, припрема се онолико  извода из бирачког списка колико се пута гласа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav5">
+						<content>
+							<p>Бирачи који су на одслужењу војног рока, на војној вежби  или на школовању у јединицама или установама Војске Србије, односно бирачи који  су на извршењу заводских санкција или у притвору уписују се у посебне изводе из  бирачког списка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav6">
+						<content>
+							<p>Министарства надлежна за одбрану и правосуђе дужна су да  министарству надлежном за послове управе доставе податке потребне за припремање  посебних извода из бирачког списка из <ref wId="ref20" href="akn/rs/act/2011/99-3/srp@/!main~art_19__para_5" >става 5. овог</ref> члана најкасније три дана  пре дана закључења бирачког списка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref21" href="akn/rs/act/2011/99/srp@">99/2011</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan20">
+					<num>20.</num>
+					<heading>Коначан број бирача</heading>
+					<paragraph wId="gla3-clan20-stav1">
+						<content>
+							<p>Министарство надлежно за послове управе доставља  Републичкој изборној комисији сва решења на којима се заснивају промене у  бирачком списку које је донело од закључења бирачког списка све до 72 часа пре  дана избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav2">
+						<content>
+							<p>Републичка изборна комисија узима у обзир само она решења  министарства надлежног за послове управе која је примила најмање 48 часова пре  дана избора и на основу њих уноси измене у изводе из бирачког списка или у  посебне изводе из бирачког списка и одмах потом утврђује и у „Службеном гласнику  Републике Србије” објављује коначан број бирача у Републици Србији, у свакој  јединици локалне самоуправе и на сваком бирачком месту.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПОСЕБНА ПРАВА УЧЕСНИКА НА ИЗБОРИМА</heading>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<heading>Право на увид и подношење захтева за промену у бирачком  списку</heading>
+					<paragraph wId="gla4-clan21-stav1">
+						<content>
+							<p>Од проглашења изборне листе, право на увид и на подношење  захтева за промену у бирачком списку има и подносилац изборне листе или лице  које он овласти, по истом поступку по коме то право имају и грађани. Уз захтеве  се прилажу овлашћење и потребни докази.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<paragraph wId="gla5-clan22-stav1">
+						<content>
+							<p>Министарство надлежно за послове управе преко управне  инспекције надзире ажурирање бирачког списка и вршење других послова који су  према овом закону поверени општинским, односно градским управама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav2">
+						<content>
+							<p>Министарство надлежно за послове управе при томе има сва  општа и посебна овлашћења која према закону којим се уређује државна управа има  надзорни орган државне управе кад надзире рад ималаца јавних овлашћења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРИМЕНА ОВОГ ЗАКОНА НА ИЗБОРЕ ЗА ПРЕДСЕДНИКА РЕПУБЛИКЕ  И НА ПОКРАЈИНСКЕ, ОДНОСНО ЛОКАЛНЕ ИЗБОРЕ</heading>
+				<article wId="gla6-clan23">
+					<num>23.</num>
+					<heading>Примена овог закона на изборе за председника Републике</heading>
+					<paragraph wId="gla6-clan23-stav1">
+						<content>
+							<p>Одредбе овог закона примењују се и на изборе за председника  Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan23-stav2">
+						<content>
+							<p>Између гласања и поновљеног гласања на изборима за  председника Републике грађани могу од министарства надлежног за послове управе  захтевати да донесе решење на коме се заснива измена у бирачком списку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan23-stav3">
+						<content>
+							<p>Републичка изборна комисија узима у обзир само она решења  која је примила најкасније 48 часова пре дана поновљеног гласања и на основу њих  уноси измене у изводе из бирачког списка и посебне изводе из бирачког списка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan24">
+					<num>24.</num>
+					<heading>Примена овог закона на покрајинске, односно локалне изборе</heading>
+					<paragraph wId="gla6-clan24-stav1">
+						<content>
+							<p>Министарство надлежно за послове управе закључује део  бирачког списка за подручје јединице локалне самоуправе за коју су расписани  избори, односно делове бирачког списка за подручја јединица локалне самоуправе  са територије аутономне покрајине кад су расписани покрајински избори, у складу  са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan24-stav2">
+						<content>
+							<p>Министарство надлежно за послове управе доставља оверене  штампане изводе надлежним изборним комисијама, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan24-stav3">
+						<content>
+							<p>Одредбе овог закона сходно се примењују на изборе за органе  аутономних покрајина и јединица локалне самоуправе, као и на изјашњавање грађана  на референдуму.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan25">
+					<num>25.</num>
+					<paragraph wId="gla7-clan25-stav1">
+						<content>
+							<p>Новчаном казном од 25.000 до 250.000 динара казниће се за  прекршај одговорно лице у органу надлежном за ажурирања бирачког списка, ако не  обезбеди његову тачност и ажурност.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan26">
+					<num>26.</num>
+					<heading>Провера података у постојећим бирачким списковима у  поступку њиховог обједињавања у бирачки списак који се води по овом закону</heading>
+					<paragraph wId="gla8-clan26-stav1">
+						<content>
+							<p>У поступку обједињавања постојећих бирачких спискова у  бирачки списак који се води по овом закону може се извршити провера тачности  података уписаних у постојећи бирачки списак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan26-stav2">
+						<content>
+							<p>Општинске, односно градске управе могу, по службеној  дужности или на захтев министарства надлежног за послове управе, позвати бирача  да у року који не може бити краћи од седам дана од дана пријема позива достави  општинској, односно градској управи све податке којима се потврђују потпуност и  тачност његовог уписа у бирачки списак, уколико се оцени да постоји потреба за  провером потпуности и тачности уписаних података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan26-stav3">
+						<content>
+							<p>Органи који воде службене евиденције на основу којих издају  јавне исправе значајне за вођење бирачког списка дужни су да органу који води  бирачки списак доставе на његов захтев све податке потребне за проверу бирачког  списка у смислу <ref wId="ref22" href="akn/rs/act/2011/99-3/srp@/!main~art_26__para_2" >става 2. овог</ref> члана, у року од седам дана од дана пријема  његовог захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan26-stav4">
+						<content>
+							<p>Начин на који ће се вршити провера бирачких спискова и  надзор над провером ближе прописује министар надлежан за послове управе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan27">
+					<num>27.</num>
+					<heading>Обједињавање постојећих бирачких спискова у бирачки списак  који ће се водити према овом закону</heading>
+					<paragraph wId="gla8-clan27-stav1">
+						<content>
+							<p>Министар надлежан за послове управе донеће у року од 90  дана од дана ступања на снагу овог закона упутство којим ће уредити процедуру  обједињавања постојећих бирачких спискова у бирачки списак који ће се водити  према овом закону.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan27-stav2">
+						<content>
+							<p>Министарство надлежно за послове управе ће извршити по  службеној дужности упис у бирачки списак који ће се водити према овом закону  података о месту боравишта бирача у иностранству који се до почетка примене овог  закона воде у Посебној евиденцији бирача у иностранству.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan28">
+					<num>28.</num>
+					<heading>Доношење подзаконских аката</heading>
+					<paragraph wId="gla8-clan28-stav1">
+						<content>
+							<p>Министар надлежан за послове управе дужан је да прописе  који су овим законом предвиђени за извршавање овог закона донесе у року од шест  месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan29">
+					<num>29.</num>
+					<heading>Престанак важења ранијих прописа</heading>
+					<paragraph wId="gla8-clan29-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престају да важе <ref wId="ref24" href="akn/rs/act/2011/99-3/srp@/!main~art_12->art_24" >чл. 12.  </ref>до 24. и чл. <ref wId="ref25" href="akn/rs/act/2011/99-3/srp@/!main~art_73б" >73б</ref>, <ref wId="ref26" href="akn/rs/act/2011/99-3/srp@/!main~art_73в" >73в</ref> и <ref wId="ref27" href="akn/rs/act/2011/99-3/srp@/!main~art_73г" >73г</ref> Закона о избору народних посланика („Службени  гласник РС”, бр. <ref wId="ref28" href="akn/rs/act/02/35/srp@">35/02</ref>, <ref wId="ref29" href="akn/rs/act/03/57/srp@">57/03</ref> – УС, <ref wId="ref31" href="akn/rs/act/03/72/srp@">72/03 – др. закон</ref>, 18/04, <ref wId="ref32" href="akn/rs/act/05/85/srp@">85/05 – др. закон</ref>  и <ref wId="ref33" href="akn/rs/act/05/101/srp@">101/05 – др. закон</ref>) и <ref wId="ref23" href="akn/rs/act/2011/99-3/srp@/!main~art_23" >члан 23. </ref>Закона о избору председника Републике  („Службени гласник РС”, број <ref wId="ref30" href="akn/rs/act/07/111/srp@">111/07</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan29-stav2">
+						<content>
+							<p>Даном почетка примене овог закона престају да важе  подзаконски прописи који су донесени ради примене одредаба Закона о избору  народних посланика и Закона о избору председника Републике из <ref wId="ref34" href="akn/rs/act/2011/99-3/srp@/!main~art_29__para_1" >става 1. овог</ref>  члана, које престају да важе даном почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan30">
+					<num>30.</num>
+					<heading>Ступање закона на снагу</heading>
+					<paragraph wId="gla8-clan30-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије”, а почиње да се примењује по истеку две  године од дана ступања на снагу, осим <ref wId="ref35" href="akn/rs/act/2011/99-3/srp@/!main~art_26" >члана 26. </ref>који почиње да се примењује од  дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan30-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref36" href="akn/rs/act/2011/99-3/srp@/!main~art_30__para_1" >става 1. овог</ref> члана, ако се у току 2011.  односно 2012. године пре расписивања редовних избора распишу ванредни избори за  народне посланике, на тим изборима користиће се постојећи бирачки спискови  установљени пре ступања на снагу овог закона, према правилима на основу којих су  установљени. У случају расписивања редовних избора за народне посланике –  примениће се овај закон.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan30-stav3">
+						<content>
+							<p>Од дана почетка примене овог закона до расписивања  редовних избора за народне посланике, односно до окончања ванредних избора из  <ref wId="ref37" href="akn/rs/act/2011/99-3/srp@/!main~art_30__para_1" >става 1. овог</ref> члана, општинске односно градске управе у обавези су да бирачке  спискове воде и по правилима на основу којих су вођени пре ступања на снагу овог  закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan30-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref38" href="akn/rs/act/2011/99/srp@">99/2011</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan30-stav5">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan30-stav6">
+						<content>
+							<p>о јединственом бирачком списку</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan30-stav7">
+						<content>
+							<p>„Службени гласник РС“ бр. <ref wId="ref39" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref>, <ref wId="ref40" href="akn/rs/act/2011/99/srp@">99 од  27. децембра 2011</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

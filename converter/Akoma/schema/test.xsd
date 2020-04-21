@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1">
+
+    <xs:simpleType name="SizeType">
+        <xs:restriction base="xs:integer">
+            <xs:assertion test="$value != 0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+    <xs:complexType name="ProductType">
+        <xs:sequence>
+            <xs:element name="number" type="xs:integer" minOccurs="0"/>
+            <xs:element name="name" type="numberr" minOccurs="1"/>
+            <xs:element name="size" type="SizeType" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="dept" type="xs:string"/>
+
+        <!--<xs:assert test=" .//@dept = 'ACC'"></xs:assert> RADI -->
+        <!--         <xs:assert test="every $x in (*) satisfies $x/@dept = 'ABC'"/> RADI -->
+        <xs:assert test="every $x in (*) satisfies $x/name() = ('name','number','size') "/>
+        <!-- <xs:assert test="(@dept = 'ACC' and number > 500) or (number &lt; 300)"/> -->
+    </xs:complexType>
+
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element maxOccurs="10" name="Proizvod" type="ProductType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="numberr">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="dept" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,980 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о одбрани од града">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2015/54-3/main"/>
+					<FRBRuri value="akn/rs/act/2015/54-3"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2015/54-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2015/54-3/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2015/54-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2015/54-3/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2015-06-22" name="службени гласник рс" number="54" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="12. Ванредне ситуације (цивилна заштита, елементарне и друге непогоде)" value="12. ванредне ситуације (цивилна заштита, елементарне и друге непогоде)" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2015-06-19" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2015-06-30" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2015-06-30" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="систем"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="органа"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="аутономнe"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="финансирања"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="спровођењем"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="покрајинe"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезе"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="одбране"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="града"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="србији"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="републици"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="надзор"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="управе"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединица"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="државне"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="самоуправе"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="локалне"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="овог"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike odgovoran"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vladu vanredne izveštaje"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. aprila"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. i 13."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. stav 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. stav 6"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 1. tačka 3"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. јуна 2015. године (види члан 23. Закона).Влада доноси прописе о раду и мрежи радарских центара у систему одбране од града, раду и мрежи лансирних станица у систему одбране од града, раду и мрежи аеродрома у систему одбране од града, заштитним зонама у околини радарских центара и лансирних станица, које се односе на ограничења у изградњи и реконструкцији постојећих објеката који могу нарушити радарска мерења и испаљивање ракета са лансирне станице, у року од шест месеци од дана ступања на снагу овог закона. Руководилац надлежног органа доноси прописе о методологији за обављање послова одбране од града, хемијским и техничким средствима у систему одбране од града, програму, начину и трошковима спровођења обуке и усавршавања и изгледу потврде у року од шест месеци од дана ступања на снагу овог закона (види члан 22. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О одбрани од града "Службени гласник РС", број <ref wId="ref25" href="akn/rs/act/2015/54/srp@">54 од 22. јуна 2015</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се систем одбране од града у Републици Србији, права и обавезе органа државне управе, органа аутономнe покрајинe и органа јединица локалне самоуправе, организација система одбране од града, начин финансирања и надзор над спровођењем овог закона, као и друга питања од значаја за систем одбране од града.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Систем одбране од града обухвата скуп мера и радњи за планирање, финансирање, организовање и спровођење методолошких послова који се односе на радарско откривање и праћење олујно-градоносних облака, утврђивање степена градоопасности и засејавање градоoпасних облака хемијским реагенсима у циљу заштите пољопривредних усева и других материјалних добара, утврђивање ефикасности спроведене методологије и развојно-истраживачке послове у области модификације времена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Систем одбране од града је део јединственог система заштите и спасавања људи, материјалних и културних добара и животне средине од елементарних непогода и других несрећа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> одбрана од града је скуп мера и активности којима се у конвективном облаку, на вештачки начин формира већи број заметака зрна града од броја који се ствара у природним условима;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> модификација времена јесте намерна промена природног процеса у атмосфери путем хемијског, механичког и другог вида вештачког деловања у циљу одбране од града, стимулације падавина и рашчишћавања магле;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> засејавање градоопасних облака јесте унос хемијског реагенса у радаром одређене делове градоопасних облака у циљу одбране од града;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> хемијски реагенс јесте вештачки аеросол који се под контролисаним условима уноси у атмосферу у циљу модификације времена;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> средства за засејавање јесу носачи хемијског реагенса - ракете, генератори и пиротехнички патрони и ваздухоплови специјалне намене;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> лансирна станица јесте комплекс који чине земљишна парцела са одговарајућим објектима и опремом за испаљивање противградних ракета у циљу одбране од града, а на коме се врше и основна метеоролошка осматрања појава везаних за градоопасну облачност;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> мрежа лансирних станица је скуп станица чији је распоред и број одређен тако да омогући оптимално засејавање градоопасних облака;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> метеоролошки радар је сложени електронски уређај, који емитује електромагнетну енергију у простор са циљем добијања квалитетних информација о особинама хидрометеора;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> радарски центар јесте комплекс који чине земљишна парцела са одговарајућим објектима, инструментима и опремом за радарска мерења и осматрања облачности и падавина и спровођење методологије одбране од града;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> радарско откривањe и праћењe олујно-градоносних облака јесте скуп радњи које обухватају типизацију облачних система, идентификацију и квантификацију градоносних и других падавинских процеса метеоролошким радаром;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> мрежа радарских центара је скуп свих радара који се користе у циљу радарског откривања, праћења и мерења карактеристика олујно-градоносних облака и који су лоцирани тако да обезбеђују стално, двадесетчетворочасовно покривање целе брањене територије, као и област изван брањене територије и то најмање 50 km ван државне границе;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> оцена ефикасности примењене методологије одбране од града јесте процена ефeката одбране од града коришћењем метода нумеричког моделирања, статистичке процене и оцене економских и физичких ефеката.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Систем одбране од града заснива се на начелима превентивне заштите, научне заснованости и економске оправданости одбране од града, начелу јединства и начелу јавности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="gla1-podod1-clan4-stav1">
+					<content>
+						<p>Приликом обезбеђивања одбране од града, приоритетно се спроводе превентивне мере заштите како би се ризик по живот и здравље људи и угроженост материјалних добара свели на најмању могућу меру.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-podod2-clan4-stav1">
+					<content>
+						<p>Становништво и имовина штите се од града методама које су научно засноване, водећи рачуна о заштити животне средине, као и економске оправданости ове заштите.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-podod3-clan4-stav1">
+					<content>
+						<p>Одбрана од града одвија се у складу са начелима, основним циљевима и прописаним мерама заштите у оквиру јединственог система заштите и спасавања људи, материјалних добара и животне средине од елементарних непогода и других несрећа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-podod4-clan4-stav1">
+					<content>
+						<p>Субјекти система одбране од града обавештавају јавност о стању система одбране од града и чине информације доступним, у складу са законом.</p>
+					</content>
+				</paragraph>
+				<article wId="gla1-podod4-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-podod4-clan5-stav1">
+						<content>
+							<p>Субјекти система одбране од града су органи државне управе, органи аутономних покрајина и јединица локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-podod4-clan5-stav2">
+						<content>
+							<p>Субјекти система одбране од града обезбеђују успостављање и функционисање јединственог система одбране од града на територији Републике Србије, у складу са овим законом и другим прописима.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>НАДЛЕЖНОСТ ОРГАНА ДРЖАВНЕ УПРАВЕ</heading>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Влада, на предлог органа државне управе надлежног за послове одбране од града (у даљем тексту: надлежни орган), усваја:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> дугорочни програм развоја и рада система одбране од града;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> средњорочни програм развоја и рада система одбране од града;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> редовне и ванредне извештаје о функционисању јединственог система одбране од града.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Сви пројекти модификације времена који се односе на одбрану од града и који се изводе на територији Републике Србије морају бити одобрени од стране Владе и под њеном контролом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<intro>
+							<p>Надлежни орган:</p>
+						</intro>
+						<point wId="gla2-clan7-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> обезбеђује функционисање јединственог система одбране од града, предлаже Влади програме развоја из члана 6. став 1. тач. <ref wId="ref0" href="akn/rs/act/2015/54-3/srp@/!main~art_6__para_1__point_1" >1</ref>) и <ref wId="ref1" href="akn/rs/act/2015/54-3/srp@/!main~art_6__para_1__point_2" >2</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac2">
+							<num>2)</num>
+							<intro>
+								<p> припрема за Владу редовне извештаје из члана 6. став 1. тачка <ref wId="ref2" href="akn/rs/act/2015/54-3/srp@/!main~art_6__para_1__point_3" >3</ref>) овог закона:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla2-clan7-stav1-tac2-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> Извештај о припремљености система одбране од града, који доставља најкасније до 1. априла текуће године;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla2-clan7-stav1-tac2-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> Извештај о функционисању система одбране од града, са предлогом програма рада за наредну годину у складу са програмом рада Владе;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla2-clan7-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> припрема за Владу ванредне извештаје из члана 6. став 1. тачка <ref wId="ref3" href="akn/rs/act/2015/54-3/srp@/!main~art_6__para_1__point_3" >3</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan7-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> припрема за органе аутономне покрајине и органе јединица локалне самоуправе извештаје о припремљености и функционисању система одбране од града за њихову територију.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАДЛЕЖНОСТ ОРГАНА АУТОНОМНЕ ПОКРАЈИНЕ И ОРГАНА ЈЕДИНИЦА ЛОКАЛНИХ САМОУПРАВА</heading>
+				<article wId="gla3-clan8">
+					<num>8.</num>
+					<paragraph wId="gla3-clan8-stav1">
+						<intro>
+							<p>Органи аутономне покрајине у оквиру својих надлежности у области одбране од града за подручје аутономне покрајине:</p>
+						</intro>
+						<point wId="gla3-clan8-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> непосредно сарађују са надлежним органом, другим државним органима и јединицама локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> обезбеђују подршку за функционисање система одбране од града;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> у сарадњи са надлежним органом непосредно сарађују са регијама и општинама суседних земаља у складу са овим и другим законима;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> разматрају извештаје о припремљености и функционисању система одбране од града за своју територију;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обављају друге послове у складу са законом и другим прописима.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<paragraph wId="gla3-clan9-stav1">
+						<intro>
+							<p>Органи јединица локалне самоуправе у оквиру својих надлежности у области одбране од града за подручје локалне самоуправе:</p>
+						</intro>
+						<point wId="gla3-clan9-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> непосредно сарађују са надлежним органом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan9-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> обезбеђују подршку за функционисање система одбране од града на својој територији;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan9-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> обезбеђују подршку надлежном органу у ангажовању извршилаца за деловање на градоносне облаке – стрелаца на лансирним станицама на својој територији;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan9-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> у складу са законом и методологијом, коју прописује министарство надлежно за пољопривреду, врше прелиминарну процену оштећења од града на пољопривредним културама у року од седам дана од дана када је штета настала, а коначну процену доносе у року од 45 дана од дана када је штета настала;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan9-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> разматрају извештаје о припремљености и функционисању система одбране од града за своју територију;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan9-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> обављају друге послове у складу са законом и другим прописима.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОРГАНИЗАЦИЈА СИСТЕМА ОДБРАНЕ ОД ГРАДА</heading>
+				<article wId="gla4-clan10">
+					<num>10.</num>
+					<paragraph wId="gla4-clan10-stav1">
+						<content>
+							<p>За организовање, управљање, руковођење и спровођење одбране од града на територији Републике одговоран је надлежни орган.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan11">
+					<num>11.</num>
+					<paragraph wId="gla4-clan11-stav1">
+						<intro>
+							<p>Надлежни орган планира и спроводи:</p>
+						</intro>
+						<point wId="gla4-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> мере за побољшање и усавршавање методологије одбране од града, других видова модификације времена и оцене постигнутих ефеката рада;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> развој и примену одговарајућих методологија засејавања градоносних и других падавинских процеса и научну верификацију ефикасности методологије;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> обуку и усавршавање кадрова за обављање послова одбране од града и издаје потврду о завршеној обуци, односно усавршавању;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> изградњу, одржавање и модернизацију објеката и опреме;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> пројекте за оцену ефикасности и економске оправданости одбране од града и других видова модификације времена;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> успостављање и обезбеђивање рада мреже радарских центара и телекомуникационе мреже;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> успостављање и обезбеђивање рада мреже лансирних станица;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> ангажовање извршилаца за деловање на градоносне облаке – обучених стрелаца на лансирним станицама;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> обавезни здравствени преглед ангажованих извршилаца за деловање на градоносне облаке – обучених стрелаца на лансирним станицама;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> успостављање заштитних зона око радарских центара и лансирних станица;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> обезбеђивање прилаза и доставе ракета и друге опреме на радарске центре и лансирне станице;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> рано откривање и праћење градоносних облака, као и других падавинских процеса;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> благовремену набавку средстава за засејавање;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> засејавање градоносних облака хемијским реагенсима;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> припрему извештаја о функционисању јединственог система одбране од града и ефикасности примењене методологије у сарадњи са надлежним органима;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p> вођење прегледа издатих сагласности за спровођење привредне, друге делатности или радова у заштитној зони радарског центра или лансирне станице који спречавају радарска мерења или дејство ракетама;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p> вођење регистра лансирних станица и успостављање јединственог информационог система о стању ове мреже;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p> међународну сарадњу у области модификације времена у делу одбране од града;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac19">
+							<num>19)</num>
+							<content>
+								<p> обавештавање јавности о стању и функционисању система одбране од града;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac20">
+							<num>20)</num>
+							<content>
+								<p> послове везане за метеоролошка мерења у складу са законским прописима;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan11-stav1-tac21">
+							<num>21)</num>
+							<content>
+								<p> друге послове ради правовремене превентивне заштите људи и материјалних добара.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan12">
+					<num>12.</num>
+					<paragraph wId="gla4-clan12-stav1">
+						<intro>
+							<p>Функционалну структуру система одбране од града чине:</p>
+						</intro>
+						<point wId="gla4-clan12-stav1-tac1">
+							<num>1)</num>
+							<intro>
+								<p> у оквиру надлежног органа, Републички центар одбране од града – оперативно-методолошки центар који координира, руководи и обезбеђује услове за рад осталих делова система одбране од града, посебно кроз:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla4-clan12-stav1-tac1-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> израду методолошких инструкција и упутстава и њихову имплементацију кроз спровођење обуке у мрежи радарских центара,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla4-clan12-stav1-tac1-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> израду извештаја и стручних анализа о спроведеној методологији рада,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla4-clan12-stav1-tac1-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> развој нових технологија и модела у сарадњи са научним и другим специјализованим институцијама,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla4-clan12-stav1-tac1-podtac4">
+								<num>(4)</num>
+								<content>
+									<p> обезбеђење јединствене координације рада са надлежним пружаоцем услуга у ваздушном саобраћају,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla4-clan12-stav1-tac1-podtac5">
+								<num>(5)</num>
+								<content>
+									<p> обезбеђење централизоване набавке и дистрибуције средстава за засејавање облака,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla4-clan12-stav1-tac1-podtac6">
+								<num>(6)</num>
+								<content>
+									<p> обезбеђење јединственог техничког одржавања мреже радара и опреме за испаљивање противградних ракета и</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla4-clan12-stav1-tac1-podtac7">
+								<num>(7)</num>
+								<content>
+									<p> сарадњу са другим службама задуженим за деловање у ванредним ситуацијама;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla4-clan12-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> мрежа радарских центара, који руководе и одговорни су за оперативно спровођење методологије одбране града на повереној им брањеној територији;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> мрежа лансирних станица, која обезбеђује правилно лансирање ракета, прикупљање информација о метеоролошким појавама и других информација битних за оцену ефикасности рада, као и друге информације у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> телекомуникациона мрежа, која обезбеђује пренос свих видова информација и јединственост спровођења методологије одбране од града на читавој територији Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan12-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> мрежа аеродрома, која ће се користити за полетање и слетање ваздухоплова који учествују у одбрани од града и модификацији времена.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan13">
+					<num>13.</num>
+					<paragraph wId="gla4-clan13-stav1">
+						<content>
+							<p>Ради обезбеђења поузданих радарских података о градоносним облацима и другим падавинским процесима, утврђују се локације мреже радарских центара и заштитне зоне око њих.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav2">
+						<content>
+							<p>Ради испаљивања противградних ракета на градоносне облаке, уз поштовање безбедносних мера, утврђују се локације лансирних станица на територији Републике Србије, као и заштитне зоне око њих.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav3">
+						<content>
+							<p>У заштитним зонама у околини мреже радарских центара и мреже лансирних станица уводе се ограничења која се односе на изградњу нових и реконструкцију постојећих објеката и извођење радова који могу нарушити радарска мерења градоносних облака, као и испаљивање ракета на њих.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav4">
+						<content>
+							<p>За потребе пролаза и транспорта до радарских центара и лансирних станица утврђује се право службености пролаза преко парцела у власништву правних или физичких лица, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav5">
+						<content>
+							<p>Влада, на предлог надлежног органа утврђује локације радарских центара и локације лансирних станица, заштитне зоне око њих, као и врсту ограничења – у складу са <ref wId="ref4" href="akn/rs/act/2015/54-3/srp@/!main~art_13__para_1->para_3" >ст. 1, 2. и 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav6">
+						<content>
+							<p>Правна и физичка лица, односно предузетници дужни су да у поступку прибављања услова за обављање привредне и друге делатности, односно извођења радова у заштитним зонама радарских центара и лансирних станица прибаве сагласност надлежног органа о испуњености услова утврђених актима Владе из <ref wId="ref5" href="akn/rs/act/2015/54-3/srp@/!main~art_13__para_5" >става 5. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan13-stav7">
+						<content>
+							<p>На поступак издавања сагласности из <ref wId="ref6" href="akn/rs/act/2015/54-3/srp@/!main~art_13__para_6" >става 6. овог</ref> члана, сходно се примењују одредбе закона којим се уређује општи управни поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ФИНАНСИРАЊЕ СИСТЕМА ОДБРАНЕ ОД ГРАДА</heading>
+				<article wId="gla5-clan14">
+					<num>14.</num>
+					<paragraph wId="gla5-clan14-stav1">
+						<intro>
+							<p>Средства за финансирање система одбране од града обезбеђују се из:</p>
+						</intro>
+						<point wId="gla5-clan14-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> буџета Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan14-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> дела премије осигурања усева;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan14-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> других извора, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan15">
+					<num>15.</num>
+					<paragraph wId="gla5-clan15-stav1">
+						<content>
+							<p>Друштво за осигурање је дужно да за финансирање система одбране од града 10% од уплаћене премије осигурања усева и плодова, које су у складу са законом уплатила регистрована пољопривредна газдинства, до 10. у месецу за претходни месец уплати на рачун прописан за уплату јавних прихода.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan15-stav2">
+						<content>
+							<p>Средства из <ref wId="ref7" href="akn/rs/act/2015/54-3/srp@/!main~art_15__para_1" >става 1. овог</ref> члана приход су буџета Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan16">
+					<num>16.</num>
+					<paragraph wId="gla5-clan16-stav1">
+						<intro>
+							<p>Република Србија финансира:</p>
+						</intro>
+						<point wId="gla5-clan16-stav1-tac1">
+							<num>1)</num>
+							<intro>
+								<p> рад, опремање и одржавање:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla5-clan16-stav1-tac1-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> Републичког центра одбране од града,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla5-clan16-stav1-tac1-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> мреже радарских центара,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla5-clan16-stav1-tac1-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> мреже лансирних станица,</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla5-clan16-stav1-tac1-podtac4">
+								<num>(4)</num>
+								<content>
+									<p> телекомуникационе мреже;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla5-clan16-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> набавку средстава за засејавање градоносних облака;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan16-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ангажовање извршилаца за деловање на градоносне облаке – стрелаца на лансирним станицама;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan16-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> опремање аеродрома потребном инфраструктуром за прихват ваздухоплова за модификацију времена;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan16-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> друге послове из надлежности.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan16-stav2">
+						<content>
+							<p>Висина месечне накнаде за рад стрелаца из става 1. тачка <ref wId="ref8" href="akn/rs/act/2015/54-3/srp@/!main~art_16__para_1__point_3" >3</ref>) овог члана не може бити већа од 20% просечне нето зараде у Републици Србији према последњем податку републичког органа надлежног за послове статистике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan16-stav3">
+						<content>
+							<p>Влада, на предлог надлежног органа, утврђује број стрелаца на лансирним станицама за сваку противградну сезону.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>МЕЂУНАРОДНА САРАДЊА</heading>
+				<article wId="gla6-clan17">
+					<num>17.</num>
+					<paragraph wId="gla6-clan17-stav1">
+						<intro>
+							<p>Међународну сарадњу у области одбране од града спроводи надлежни орган кроз:</p>
+						</intro>
+						<point wId="gla6-clan17-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> закључивање међународних уговора и њихову примену;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> чланство и учешће у међународним организацијама;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> координирано деловање на градоопасне облаке у граничним областима и размену оперативних и других информација са суседним државама о опасностима од града;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan17-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> припремање, организовање и учествовање на међународним конференцијама, округлим столовима, радионицама и другим видовима обуке.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ИМОВИНА</heading>
+				<article wId="gla7-clan18">
+					<num>18.</num>
+					<paragraph wId="gla7-clan18-stav1">
+						<content>
+							<p>Имовина радарских центара, лансирних станица, објекти и опрема који су намењени за одбрану од града у јединственом систему одбране од града, у својини су Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla8-clan19">
+					<num>19.</num>
+					<paragraph wId="gla8-clan19-stav1">
+						<content>
+							<p>Надзор над применом одредаба овог закона и прописа донетих на основу њега врши министарство надлежно за пољопривреду, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>ОВЛАШЋЕЊА ЗА ДОНОШЕЊЕ ПРОПИСА</heading>
+				<article wId="gla9-clan20">
+					<num>20.</num>
+					<paragraph wId="gla9-clan20-stav1">
+						<intro>
+							<p>У циљу спровођења овог закона:</p>
+						</intro>
+						<point wId="gla9-clan20-stav1-tac1">
+							<num>1)</num>
+							<intro>
+								<p> Влада на предлог надлежног органа доноси прописе о:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla9-clan20-stav1-tac1-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> раду и мрежи радарских центара у систему одбране од града, из чл. <ref wId="ref9" href="akn/rs/act/2015/54-3/srp@/!main~art_12" >12</ref>. и <ref wId="ref10" href="akn/rs/act/2015/54-3/srp@/!main~art_13" >13</ref>. овог закона;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla9-clan20-stav1-tac1-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> раду и мрежи лансирних станица у систему одбране од града, из чл. <ref wId="ref11" href="akn/rs/act/2015/54-3/srp@/!main~art_12" >12</ref>. и <ref wId="ref12" href="akn/rs/act/2015/54-3/srp@/!main~art_13" >13</ref>. овог закона;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla9-clan20-stav1-tac1-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> раду и мрежи аеродрома у систему одбране од града из <ref wId="ref13" href="akn/rs/act/2015/54-3/srp@/!main~art_12" >члана 12. овог</ref> закона;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla9-clan20-stav1-tac1-podtac4">
+								<num>(4)</num>
+								<content>
+									<p> заштитним зонама у околини радарских центара и лансирних станица, које се односе на ограничења у изградњи и реконструкцији постојећих објеката који могу нарушити радарска мерења и испаљивање ракета са лансирне станице из <ref wId="ref14" href="akn/rs/act/2015/54-3/srp@/!main~art_13" >члана 13. овог</ref> закона.</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla9-clan20-stav1-tac2">
+							<num>2)</num>
+							<intro>
+								<p> Руководилац надлежног органа за послове одбране од града доноси прописе о:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla9-clan20-stav1-tac2-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> методологији за обављање послова одбране од града из <ref wId="ref15" href="akn/rs/act/2015/54-3/srp@/!main~art_2" >члана 2. овог</ref> закона;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla9-clan20-stav1-tac2-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> хемијским и техничким средствима у систему одбране од града;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla9-clan20-stav1-tac2-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> програму, начину и трошковима спровођења обуке и усавршавања и изгледу потврде из члана 11. тачка <ref wId="ref16" href="akn/rs/act/2015/54-3/srp@/!main~art_11__para_1__point_3" >3</ref>) овог закона.</p>
+								</content>
+							</hcontainer>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla10-clan21">
+					<num>21.</num>
+					<paragraph wId="gla10-clan21-stav1">
+						<intro>
+							<p>Новчаном казном од 100.000,00 динара до 1.000.000,00 динара казниће се правно лице ако:</p>
+						</intro>
+						<point wId="gla10-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ограничи пролаз лица које се баве одбраном од града и транспорт ракета и друге опреме за спровођење одбране од града, до радарског центра или лансирне станице (<ref wId="ref17" href="akn/rs/act/2015/54-3/srp@/!main~art_13__para_4" >члан 13. став 4</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla10-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> обавља привредну или другу делатност, односно изводи радове у заштитној зони радарског центра или лансирне станице који спречавају радарска мерења или дејства ракетама, без сагласности надлежног органа (<ref wId="ref18" href="akn/rs/act/2015/54-3/srp@/!main~art_13__para_6" >члан 13. став 6</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla10-clan21-stav2">
+						<content>
+							<p>Новчаном казном од 150.000,00 динара до 200.000,00 динара казниће се прекршајно одговорно лице у правном лицу као и предузетник ако учине радње из става 1. тач. <ref wId="ref19" href="akn/rs/act/2015/54-3/srp@/!main~art_21__para_1__point_1" >1</ref>) и <ref wId="ref20" href="akn/rs/act/2015/54-3/srp@/!main~art_21__para_1__point_2" >2</ref>) овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan21-stav3">
+						<content>
+							<p>Новчаном казном од 150.000,00 динара до 200.000,00 динара казниће се прекршајно физичко лице ако учини радње из става 1. тач. <ref wId="ref21" href="akn/rs/act/2015/54-3/srp@/!main~art_21__para_1__point_1" >1</ref>) и <ref wId="ref22" href="akn/rs/act/2015/54-3/srp@/!main~art_21__para_1__point_2" >2</ref>) овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan21-stav4">
+						<content>
+							<p>За радње из <ref wId="ref23" href="akn/rs/act/2015/54-3/srp@/!main~art_21__para_1->para_3" >ст. 1, 2. и 3. овог</ref> члана, поред новчане казне, налoжиће се уклањање препреке, емисионих уређаја, грађевинских објеката, других објеката или уређаја о трошку правног лица, предузетника или физичког лица, која су поставила у заштитној зони радарског центра или лансирне станице.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla11">
+				<num>XI</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla11-clan22">
+					<num>22.</num>
+					<paragraph wId="gla11-clan22-stav1">
+						<content>
+							<p>Прописе из <ref wId="ref24" href="akn/rs/act/2015/54-3/srp@/!main~art_20" >члана 20. овог</ref> закона Влада и руководилац надлежног органа донеће у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan23">
+					<num>23.</num>
+					<paragraph wId="gla11-clan23-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

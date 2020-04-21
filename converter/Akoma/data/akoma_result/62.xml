@@ -1,0 +1,1389 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о дијаспори и Србима у региону">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2009/88-45/main"/>
+					<FRBRuri value="akn/rs/act/2009/88-45"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2009/88-45/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2009/88-45/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2009/88-45/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2009/88-45/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2009-10-28" name="службени гласник рс" number="88" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="21. Дијаспора и Срби у региону" value="21. дијаспора и срби у региону" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2009-10-26" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2009-11-05" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2009-11-05" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="региону"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="оснивање"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="срба"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="србима"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="дијаспоре"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="савета"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="области"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="односа"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="појмова"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="додела"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="однос"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="дефиниције"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="међусобни"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="матичне"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="дијаспором"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="евидентирање"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="органа"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="обављању"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="конституисање"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="послова"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="државе"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="државом"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="матичном"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="националних"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="јачања"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="фонда"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="остваривања"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="признања"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="буџетског"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="дијаспору"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="очувања"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="односе"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="веза"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="србе"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Afrike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Austriju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Azije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bliskog Istoka"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bosni i Hercegovini"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bosnu i Hercegovinu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crnoj Gori"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Francusku Republiku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Južnoafričku Republiku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kanadu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kraljevinu Belgiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kraljevinu Norvešku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Mađarsku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Narodnu Republiku Kinu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Albaniji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Hrvatskoj"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Makedoniji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Mađarskoj"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Sloveniji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Albaniju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Belorusiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Bugarsku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Estoniju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Finsku i Republiku Island"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Grčku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Hrvatsku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Italiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Kipar"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Letoniju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Litvaniju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Makedoniju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Poljsku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Portugal"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Sloveniju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Tursku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Rumuniji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Rumuniju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ruske Federacije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Rusku Federaciju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Severne Irske"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sjedinjene Američke Države i Saveznu Republiku Nemačku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Slovačku Republiku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbe"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srednje i Južne Amerike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ujedinjene Arapske Emirate i Državu Kuvajt"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ukrajinu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Veliko Vojvodstvo Luksemburg"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vidovdan"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Češku Republiku"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Švajcarsku Konfederaciju i Australiju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Budžetski fond za dijasporu i Srbe"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Budžetskog fonda za dijasporu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Budžetskog fonda za dijasporu i Srbe"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Budžetskom fondu za dijasporu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izvršnog veća Autonomne pokrajine Vojvodine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Javnog servisa Radio Televizije Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kraljevstvo Velike Britanije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Majka Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za dijasporu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Novi Zeland"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privredne komore Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savet"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savet za dijasporu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta obavlja ministarstvo nadležno za dijasporu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta za dijasporu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta za odnose"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta za odnose sa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Skupštine dijaspore"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Srpske akademije nauka i umetnosti"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Srpske pravoslavne crkve"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Stalne konferencije gradova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Strategije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Strategije očuvanja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada ovlašćena"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="sl"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Crnu Goru"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Dositej Obradović"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kraljevinu Dansku"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kraljevinu Holandiju"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kraljevinu Španiju"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Kraljevinu Švedsku"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Mihajlo Pupin"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Miloš Crnjanski"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Nikola Tesla"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Savezi"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sekretara Saveta"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Slobodan Jovanović"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Srba"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Srbe"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Srbi"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Srbima"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Vuk Karadžić"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. alineja 11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40. stav 4."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 5. новембра 2009. године (види члан 46. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О дијаспори и србима у региону "Службени гласник РС", број <ref wId="ref12" href="akn/rs/act/2009/88/srp@">88 од 28. октобра 2009</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се начин очувања, јачања и остваривања веза дијаспоре и Срба у региону са матичном државом, надлежност и међусобни однос органа Републике Србије у обављању послова у области односа са дијаспором и Србима у региону, конституисање и надлежност Скупштине дијаспоре и Срба у региону, оснивање Буџетског фонда за дијаспору и Србе у региону, оснивање Савета за односе се Србима у региону и Савета за дијаспору, евидентирање организација у дијаспори и организација Срба у региону и додела националних признања у области односа матичне државе и дијаспоре, као и матичне државе и Срба у региону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Дефиниције појмова</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>У овом закону:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<intro>
+								<p> израз „дијаспора” обухвата:</p>
+							</intro>
+							<alinea wId="gla1-clan2-stav1-tac1-ali1">
+								<content>
+									<p>ржављане Републике Србије који живе у иностранству;</p>
+								</content>
+							</alinea>
+							<alinea wId="gla1-clan2-stav1-tac1-ali2">
+								<content>
+									<p>рипаднике српског народа исељенике са територије Републике Србије и из региона и њихове потомке;</p>
+								</content>
+							</alinea>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> израз „Срби у региону” означава припаднике српског народа који живе у Републици Словенији, Републици Хрватској, Босни и Херцеговини, Црној Гори, Републици Македонији, Румунији, Републици Албанији и Републици Мађарској;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> израз „матична држава” означава Републику Србију.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Родна равноправност</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Сви појмови који се у овом закону користе у мушком роду обухватају исте појмове у женском роду.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОЧУВАЊЕ, ЈАЧАЊЕ И ОСТВАРИВАЊЕ ВЕЗА МАТИЧНЕ ДРЖАВЕ И ДИЈАСПОРЕ КАО И МАТИЧНЕ ДРЖАВЕ И СРБА У РЕГИОНУ</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Очување, јачање и остваривање веза матичне државе и дијаспоре, као и матичне државе и Срба у региону</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<intro>
+							<p>Очување, јачање и остваривање веза матичне државе и дијаспоре, као и матичне државе и Срба у региону остварује се:</p>
+						</intro>
+						<point wId="gla2-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> побољшањем положаја и заштитом права и интереса припадника дијаспоре и Срба у региону закључивањем двостраних и вишестраних међународних споразума, у складу са највишим међународним стандардима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> употребом, учењем, чувањем и неговањем српског језика и ћириличког писма, чувањем и неговањем српског културног, етничког, језичког и верског идентитета;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> унапређивањем економске сарадње матичне државе и дијаспоре, као и матичне државе и Срба у региону;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> обезбеђивањем услова за рад Скупштине дијаспоре и Срба у региону и њених савета, Савета за односе са Србима у региону, Буџетског фонда за дијаспору и Србе у региону и Савета за дијаспору;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> доделом националних признања за посебан допринос очувању и јачању веза матичне државе и дијаспоре, односно матичне државе и Срба у региону, као и за посебан допринос у промоцији Србије у свету и афирмацији њених интереса.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Република Србија може предузимати мере ради остваривања веза и са исељеницима са територије Републике Србије и њиховим потомцима, који нису обухваћени <ref wId="ref0" href="akn/rs/act/2009/88-45/srp@/!main~art_2" >чланом 2. овог</ref> закона, ако постоји заједничка свест о потреби очувања традиционалних односа и историјских веза.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Средства за очување и јачање веза матичне државе и дијаспоре, као и матичне државе и Срба у региону</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Средства за очување и јачање веза матичне државе и дијаспоре, као и матичне државе и Срба у региону обезбеђују се у буџету Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Суфинансирање пројеката</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>У циљу реализације активности из члана 4. тач. <ref wId="ref1" href="akn/rs/act/2009/88-45/srp@/!main~art_4__para_1__point_2" >2</ref>) и <ref wId="ref2" href="akn/rs/act/2009/88-45/srp@/!main~art_4__para_1__point_3" >3</ref>) овог закона, министарство надлежно за дијаспору расписује конкурс за суфинансирање пројеката који својим квалитетом доприносе очувању и јачању веза матичне државе и дијаспоре, као и матичне државе и Срба у региону.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Пријава за учешће на конкурсу треба да садржи: основне податке о подносиоцу, садржај пројекта, учеснике, циљеве, циљне групе, кориснике резултата, оправданост, време реализације, земљу реализације, представљање суфинансијера и предрачун трошкова потребних за реализацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Уз пријаву за учешће на конкурсу обавезно се подноси и документ о правном статусу подносиоца пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav4">
+						<content>
+							<p>Ближе услове и поступак додељивања средстава за суфинансирање пројеката, прописује министар надлежан за дијаспору.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Извештај о реализацији пројекта</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Корисници средстава из <ref wId="ref3" href="akn/rs/act/2009/88-45/srp@/!main~art_6" >члана 6. овог</ref> закона дужни су да министарству надлежном за дијаспору поднесу извештај о остваривању пројеката за које користе средства буџета Републике Србије, у року од 30 дана од дана реализације пројекта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Надзор над наменским коришћењем средстава</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Министарство надлежно за дијаспору врши надзор над наменским коришћењем средстава корисника из <ref wId="ref4" href="akn/rs/act/2009/88-45/srp@/!main~art_6" >члана 6. овог</ref> закона и, ако утврди да се средства не користе у складу са утврђеном наменом, предузима законом прописане мере.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАДЛЕЖНОСТ У ОБЛАСТИ ОДНОСА МАТИЧНЕ ДРЖАВЕ И ДИЈАСПОРЕ КАО И МАТИЧНЕ ДРЖАВЕ И СРБА У РЕГИОНУ</heading>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<heading>Утврђивање и спровођење политике матичне државе према дијаспори и према Србима у региону</heading>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>Влада утврђује политику матичне државе према дијаспори, као и према Србима у региону, коју спроводи министарство надлежно за дијаспору, као и други органи државне управе, у оквиру законом утврђеног делокруга.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<heading>Начело сарадње</heading>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>Државни органи међусобно сарађују у обављању послова у области односа матичне државе и дијаспоре, као и матичне државе и Срба у региону за коју су надлежни.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav2">
+						<content>
+							<p>Сарадња се остварује међусобним извештавањем и координацијом активности, на начин прописан законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<heading>Министарство надлежно за дијаспору</heading>
+					<paragraph wId="gla3-clan11-stav1">
+						<intro>
+							<p>Министарство надлежно за дијаспору у области односа са дијаспором и Србима у региону обавља следеће послове:</p>
+						</intro>
+						<point wId="gla3-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> предлаже Влади доношење аката и предузимање мера којима се утврђује политика Владе према дијаспори и Србима у региону и, с тим у вези, припрема документацију, информације и анализе из области односа према дијаспори и Србима у региону;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> прати реализацију Стратегије очувања и јачања односа матичне државе и дијаспоре, односно матичне државе и Срба у региону;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> прати стање у области односа матичне државе и дијаспоре, као и матичне државе и Срба у региону, утврђује и проучава последице утврђеног стања и предузима мере или предлаже Влади доношење прописа и предузимање мера на које је Влада овлашћена;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> води евиденцију организација и савеза организација у дијаспори, као и евиденцију организација и савеза организација Срба у региону;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> стара се о обезбеђивању услова за оснивање и рад културно-информативних центара у страним државама у којима живи дијаспора, у сарадњи са министарством надлежним за културу и министарством надлежним за спољне послове;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> додељује национална признања за посебан допринос очувању и јачању матичне државе и дијаспоре, односно матичне државе и Срба у региону, као и за посебан допринос у промоцији Србије у свету и афирмацији њених интереса;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan11-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> врши и друге послове утврђене законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<heading>Стратегија очувања и јачања односа матичне државе и дијаспоре, као и матичне државе и Срба у региону</heading>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Стратегијом очувања и јачања односа матичне државе и дијаспоре, као и матичне државе и Срба у региону (у даљем тексту: Стратегија) утврђује се стање у области односа матичне државе и дијаспоре, као и матичне државе и Срба у региону и мере које треба предузети за њен развој.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>Одлуку о утврђивању Стратегије доноси Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Дан дијаспоре и Срба у региону</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Утврђује се Дан дијаспоре и Срба у региону који се обележава 28. јуна, на Видовдан.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОРГАНИЗАЦИЈЕ У ДИЈАСПОРИ И ОРГАНИЗАЦИЈЕ СРБА У РЕГИОНУ</heading>
+				<article wId="gla4-clan14">
+					<num>14.</num>
+					<heading>Појам</heading>
+					<paragraph wId="gla4-clan14-stav1">
+						<content>
+							<p>Под организацијама у дијаспори, односно под организацијама Срба у региону, у смислу овог закона, подразумевају се добровољни облици удруживања припадника дијаспоре, односно Срба у региону, ради промоције Србије и афирмације државних интереса Србије и чувања и неговања српског културног, верског и етничког идентитета, као и остваривање културне, просветне, научне, хуманитарне или спортске сарадње са матичном државом са недобитним циљем, у складу са прописима стране државе у којој живи дијаспора, односно Срби у региону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<heading>Скупштина дијаспоре и Срба у региону</heading>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>Скупштина дијаспоре и Срба у региону (у даљем тексту: Скупштина) је највише представничко тело дијаспоре и Срба у региону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<heading>Надлежност Скупштине</heading>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>Скупштина утврђује проблеме дијаспоре и Срба у региону, предлаже мере за њихово превазилажење, даје смернице за израду Стратегије, бира савете дијаспоре и Срба у региону, надзире њихов рад и одлучује о престанку мандата њихових чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav2">
+						<content>
+							<p>Скупштина доноси пословник о раду, којим се уређују општи услови, начин и поступак одлучивања Скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan16-stav3">
+						<content>
+							<p>Стручне и административно-техничке послове за Скупштину обавља министарство надлежно за дијаспору.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<heading>Састав Скупштине</heading>
+					<paragraph wId="gla4-clan17-stav1">
+						<content>
+							<p>Скупштину чини 45 делегата дијаспоре и Срба у региону (у даљем тексту: делегати).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav2">
+						<content>
+							<p>У раду Скупштине учествују председник Владе, министри надлежни за дијаспору, спољне послове, унутрашње послове, финансије, економију, образовање, културу, рад и социјалну политику, омладину, спорт и вере, по један представник Српске православне цркве, Српске академије наука и уметности, Привредне коморе Србије, Сталне конференције градова и општина и Јавног сервиса Радио Телевизије Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan17-stav3">
+						<content>
+							<p>Седницама Скупштине, као почасни гост, може присуствовати и председник Републике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<heading>Делегати</heading>
+					<paragraph wId="gla4-clan18-stav1">
+						<intro>
+							<p>Делегати су лица уважена у средини у којој живе, спремна да обављају послове очувања и јачања односа матичне државе и дијаспоре, као и матичне државе и Срба у региону и бирају се за државе или делове држава где борави значајан број припадника дијаспоре, односно Срба у региону, и то:</p>
+						</intro>
+						<alinea wId="gla4-clan18-stav1-ali1">
+							<content>
+								<p>о четири делегата дијаспоре за: Сједињене Америчке Државе и Савезну Републику Немачку;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali2">
+							<content>
+								<p>о три делегата дијаспоре за: Републику Аустрију, Швајцарску Конфедерацију и Аустралију и Нови Зеланд;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali3">
+							<content>
+								<p>о два делегата дијаспоре за: Канаду, Француску Републику, Краљевину Шведску и Уједињено Краљевство Велике Британије и Северне Ирске;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali4">
+							<content>
+								<p>едног делегата дијаспоре за државе Средње и Јужне Америке;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali5">
+							<content>
+								<p>едног делегата дијаспоре за Краљевину Белгију, Краљевину Холандију и Велико Војводство Луксембург;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali6">
+							<content>
+								<p>едног делегата дијаспоре за Краљевину Данску;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali7">
+							<content>
+								<p>едног делегата дијаспоре за Републику Италију;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali8">
+							<content>
+								<p>едног делегата дијаспоре за Краљевину Норвешку, Републику Финску и Републику Исланд;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali9">
+							<content>
+								<p>едног делегата дијаспоре за Руску Федерацију, Украјину и Републику Белорусију;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali10">
+							<content>
+								<p>едног делегата дијаспоре за Републику Пољску, Чешку Републику, Словачку Републику, Републику Летонију, Републику Естонију и Републику Литванију;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali11">
+							<content>
+								<p>едног делегата дијаспоре за Краљевину Шпанију и Републику Португал;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali12">
+							<content>
+								<p>едног делегата дијаспоре за Републику Грчку, Републику Бугарску и Републику Кипар;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali13">
+							<content>
+								<p>едног делегата дијаспоре за Републику Турску, државе Блиског Истока, Уједињене Арапске Емирате и Државу Кувајт;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali14">
+							<content>
+								<p>едног делегата дијаспоре за Народну Републику Кину и државе Азије без Руске Федерације;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali15">
+							<content>
+								<p>едног делегата дијаспоре за Јужноафричку Републику и друге државе Африке;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla4-clan18-stav1-ali16">
+							<content>
+								<p>о једног делегата Срба у региону за: Републику Мађарску, Румунију, Републику Словенију, Републику Хрватску, Босну и Херцеговину, Црну Гору, Републику Македонију и Републику Албанију.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav2">
+						<content>
+							<p>Мандат делегата траје четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav3">
+						<content>
+							<p>Ближе услове и начин избора делегата, као и случајеви престанка мандата делегата пре истека рока од четири године, споразумно, утврђују организације из <ref wId="ref5" href="akn/rs/act/2009/88-45/srp@/!main~art_14" >члана 14. овог</ref> закона, које делују на територији државе или делу државе за које се врши избор одређеног броја делегата из <ref wId="ref6" href="akn/rs/act/2009/88-45/srp@/!main~art_18__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav4">
+						<content>
+							<p>Матична држава неће се мешати у поступак и услове избора делегата у Скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav5">
+						<content>
+							<p>Одлука о изабраном делетату доставља се министарству надлежном за дијаспору најкасније 30 дана пре дана који је овим законом утврђен за одржавање седница Скупштине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<heading>Конституисање Скупштине</heading>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Скупштина на првој седници утврђује мандате делегата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav2">
+						<content>
+							<p>Скупштина је конституисана потврђивањем мандата две трећине делегата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav3">
+						<content>
+							<p>Најстарији делегат председава Скупштином до избора председника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<heading>Председник и потпредседници Скупштине</heading>
+					<paragraph wId="gla4-clan20-stav1">
+						<content>
+							<p>Скупштина већином гласова свих делегата бира председника и два потпредседника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav2">
+						<content>
+							<p>Председник Скупштине представља Скупштину, сазива њене седнице, председава њима и врши друге послове предвиђене пословником о раду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<heading>Начин одлучивања у Скупштини</heading>
+					<paragraph wId="gla4-clan21-stav1">
+						<content>
+							<p>Скупштина доноси одлуке већином гласова на седници на којој је присутна већина делегата.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<heading>Заседање Скупштине</heading>
+					<paragraph wId="gla4-clan22-stav1">
+						<content>
+							<p>Скупштина се састаје у редовно заседање, по правилу на Дан дијаспоре.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav2">
+						<content>
+							<p>Скупштина се састаје у ванредно заседање, на захтев најмање 1/3 делегата или на захтев министарства надлежног за дијаспору, са унапред одређеним дневним редом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Савети Скупштине</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<intro>
+							<p>За разматрање питања у појединим областима од значаја за очување и јачање односа матичне државе и дијаспоре, Скупштина образује савете дијаспоре као стална радна тела, и то:</p>
+						</intro>
+						<point wId="gla4-clan23-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Економски савет дијаспоре;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan23-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Савет за статусна питања дијаспоре;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan23-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Савет за културну, просветну, научну и спортску сарадњу.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav2">
+						<content>
+							<p>Чланови сталних радних тела су делегати, а, поред њих, то могу бити и експерти из различитих области, које они предложе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav3">
+						<content>
+							<p>Број чланова сталног радног тела одређује Скупштина одлуком о образовању сталног радног тела.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<heading>Економски савет дијаспоре</heading>
+					<paragraph wId="gla4-clan24-stav1">
+						<intro>
+							<p>Економски савет дијаспоре представља интересе дијаспоре и предлаже Скупштини мере за:</p>
+						</intro>
+						<point wId="gla4-clan24-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> стварање услова за укључење припадника дијаспоре у економски систем и пословни живот Републике Србије, као и повратак припадника дијаспоре у Републику Србију;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> стварање услова и повољног окружења за инвестиционе програме и пројекте организација у дијаспори и појединаца из дијаспоре;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan24-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> развој и унапређивање сарадње са јединицама локалне самоуправе и регионалним привредним коморама.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<heading>Савет за статусна питања дијаспоре</heading>
+					<paragraph wId="gla4-clan25-stav1">
+						<intro>
+							<p>Савет за статусна питања дијаспоре представља интересе дијаспоре и предлаже мере за:</p>
+						</intro>
+						<point wId="gla4-clan25-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> побољшање положаја и заштиту индивидуалних и колективних права припадника дијаспоре;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> стварање услова за укључивање припадника дијаспоре у друштвени и политички живот Републике Србије или повратак припадника дијаспоре у Републику Србију;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> побољшање услова за остваривање бирачког права држављана Републике Србије који живе у иностранству;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan25-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> давање иницијатива за доношење прописа који се односе на регулисање војне обавезе и других личних и имовинских права.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>Савет за културну, просветну, научну и спортску сарадњу</heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<intro>
+							<p>Савет за културну, просветну, научну и спортску сарадњу представља интересе дијаспоре и предлаже мере за:</p>
+						</intro>
+						<point wId="gla4-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> стварање и унапређивање културних, научних, просветних веза и веза у области спорта у односу матичне државе и дијаспоре;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> укључивање припадника дијаспоре и њихових организација у научни и културни живот матичне државе.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>САВЕТ ЗА ОДНОСЕ СА СРБИМА У РЕГИОНУ</heading>
+				<article wId="gla5-clan27">
+					<num>27.</num>
+					<heading>Савет за односе са Србима у региону</heading>
+					<paragraph wId="gla5-clan27-stav1">
+						<content>
+							<p>Савет за односе са Србима у региону (у даљем тексту: Савет) јесте тело Републике Србије које обавља одређене послове и задатке из области сарадње, заштите интереса и унапређивања односа Републике Србије са Србима у региону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan28">
+					<num>28.</num>
+					<heading>Надлежност Савета</heading>
+					<paragraph wId="gla5-clan28-stav1">
+						<intro>
+							<p>Савет се стара о сарадњи, заштити интереса и унапређивању односа Републике Србије са Србима у региону, тако што:</p>
+						</intro>
+						<point wId="gla5-clan28-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> разматра питања у свим областима од значаја за очување и јачање односа матичне државе и Срба у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> предлаже надлежним органима мере за унапређивање економске сарадње Републике Србије са Србима у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> разматра питања и предлаже решавање повратка Срба у места ранијег пребивалишта, која су, као избеглице, напустили у периоду распада СФРЈ и предлаже мере ради заштите њихових права у циљу одрживог повратка;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> разматра могућности за стварање услова и повољног окружења за инвестиционе програме и пројекте организација Срба у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> развија и унапређује сарадњу са јединицама локалне самоуправе и регионалним привредним коморама у Републици Србији и у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> разматра питања која се односе на употребу, учење, чување и неговање српског језика и верског идентитета Срба у земљама у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> разматра питања информисаности Срба у региону о догађајима у Републици Србији и информисаност грађана Републике Србије о положају и активностима Срба у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> разматра начине за побољшање положаја и заштите индивидуалних и колективних права Срба у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> разматра начине за укључивање Срба у региону у друштвени и политички живот Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> разматра начине за побољшање услова за остваривање бирачког права држављана Републике Србије који живе у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> разматра иницијативе за доношење прописа који су од значаја за Србе у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> утиче на стварање и унапређивање културних, научних, просветних веза и веза у области спорта у односима Републике Србије и Срба у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> организује пројекте који имају за циљ укључивање Срба у региону и њихових организација у научни и културни живот Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> указује Савету за дијаспору на пројекте који су приоритетни и од посебног значаја за Србе у региону;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan28-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> обавља и друге послове од значаја за интересе Срба у региону.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan29">
+					<num>29.</num>
+					<heading>Састав Савета</heading>
+					<paragraph wId="gla5-clan29-stav1">
+						<intro>
+							<p>Чланови Савета су:</p>
+						</intro>
+						<alinea wId="gla5-clan29-stav1-ali1">
+							<content>
+								<p>редседник Републике Србије;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali2">
+							<content>
+								<p>редседник Народне скупштине Републике Србије;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali3">
+							<content>
+								<p>редседник Владе;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali4">
+							<content>
+								<p>инистар надлежан за спољне послове;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali5">
+							<content>
+								<p>инистар надлежан за дијаспору;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali6">
+							<content>
+								<p>инистар надлежан за просвету;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali7">
+							<content>
+								<p>инистар надлежан за културу;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali8">
+							<content>
+								<p>инистар надлежан за вере;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali9">
+							<content>
+								<p>инистар надлежан за финансије;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali10">
+							<content>
+								<p>редседник Извршног већа Аутономне покрајине Војводине;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla5-clan29-stav1-ali11">
+							<content>
+								<p>редставник Српске православне цркве.</p>
+							</content>
+						</alinea>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan30">
+					<num>30.</num>
+					<heading>Секретар Савета</heading>
+					<paragraph wId="gla5-clan30-stav1">
+						<content>
+							<p>Савет има секретара, који учествује у раду Савета без права одлучивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav2">
+						<content>
+							<p>Секретар Савета стара се о извршавању закључака и других аката Савета и обавља друге послове који су одређени пословником и другим општим актима Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav3">
+						<content>
+							<p>Секретара Савета поставља Савет, на предлог председника Републике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan31">
+					<num>31.</num>
+					<heading>Стручни и административно-технички послови за потребе Савета</heading>
+					<paragraph wId="gla5-clan31-stav1">
+						<content>
+							<p>Стручне и административно-техничке послове за потребе Савета обавља министарство надлежно за дијаспору, министарство надлежно за спољне послове и дипломатска и конзуларна представништва Републике Србије у тим земљама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan32">
+					<num>32.</num>
+					<heading>Начин рада Савета</heading>
+					<paragraph wId="gla5-clan32-stav1">
+						<content>
+							<p>Седницу Савета сазива председник Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav2">
+						<content>
+							<p>Предлог дневног реда утврђује председник Републике, по прибављеном мишљењу других чланова Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav3">
+						<content>
+							<p>Седницама Савета председава председник Републике, а ако је он спречен, председник Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav4">
+						<content>
+							<p>Седнице Савета одржавају се по потреби, а најмање једном у три месеца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav5">
+						<content>
+							<p>Седници Савета могу да присуствују руководиоци других државних органа и институција и друга лица која нису чланови Савета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan33">
+					<num>33.</num>
+					<heading>Пословник о раду Савета</heading>
+					<paragraph wId="gla5-clan33-stav1">
+						<content>
+							<p>Савет доноси пословник о раду, којим се ближе уређују питања од значаја за рад Савета.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>БУЏЕТСКИ ФОНД ЗА ДИЈАСПОРУ И СРБЕ У РЕГИОНУ</heading>
+				<article wId="gla6-clan34">
+					<num>34.</num>
+					<heading>Оснивање и циљеви Буџетског фонда за дијаспору и Србе у региону</heading>
+					<paragraph wId="gla6-clan34-stav1">
+						<intro>
+							<p>Република Србија оснива Буџетски фонд за дијаспору и Србе у региону ради остваривања следећих циљева:</p>
+						</intro>
+						<point wId="gla6-clan34-stav1-tac1">
+							<num>1)</num>
+							<intro>
+								<p> употреба, учење, чување и неговање српског језика и ћириличког писма, чувањем и неговањем српског културног, етничког, језичког и верског идентитета кроз:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla6-clan34-stav1-tac1-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> подршку свим облицима образовно-васпитног рада у иностранству;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla6-clan34-stav1-tac1-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> обезбеђивање уџбеника и другог дидактичког материјала;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla6-clan34-stav1-tac1-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> обезбеђивање накнада за учење српског језика и ћириличког писма;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla6-clan34-stav1-tac2">
+							<num>2)</num>
+							<intro>
+								<p> спречавање асимилације неговањем блиских односа са матичном државом, јачањем свести о пореклу, очувањем и неговањем српског културног, етничког и верског идентитета кроз:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla6-clan34-stav1-tac2-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> подршку пројектима који својим квалитетом доприносе јачању веза матичне државе и дијаспоре;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla6-clan34-stav1-tac2-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> подршку најзначајнијим манифестацијама у области културно-уметничког аматеризма и манифестацијама изворног народног стваралаштва;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla6-clan34-stav1-tac3">
+							<num>3)</num>
+							<intro>
+								<p> унапређење информисања путем:</p>
+							</intro>
+							<hcontainer name="subpoint" wId="gla6-clan34-stav1-tac3-podtac1">
+								<num>(1)</num>
+								<content>
+									<p> електронских медија (телевизијски и радио преноси, и други аудио-визуелни материјал на српском језику и ћириличком писму; интернет-wеб портали,   e-mail дискусија, електронска пошта, форуми и блогови), у складу са међународним правом;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla6-clan34-stav1-tac3-podtac2">
+								<num>(2)</num>
+								<content>
+									<p> организовања традиционалних конференција и манифестација;</p>
+								</content>
+							</hcontainer>
+							<hcontainer name="subpoint" wId="gla6-clan34-stav1-tac3-podtac3">
+								<num>(3)</num>
+								<content>
+									<p> дистрибуције публикација које садрже информације о националном идентитету, обележјима, друштвеним вредностима, култури, историји, економији, брендовима, важним акцијама и иницијативама које долазе из Републике Србије, и сл;</p>
+								</content>
+							</hcontainer>
+						</point>
+						<point wId="gla6-clan34-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> развој узајамно корисних односа између стране државе у којој живе припадници дијаспоре и матичне државе кроз презентацију и промоцију културне баштине и културних активности и подизања угледа Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan34-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> развој економских односа дијаспоре и Срба у региону са матичном државом на темељима узајамности и солидарности.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan35">
+					<num>35.</num>
+					<heading>Време за које се оснива и управљање</heading>
+					<paragraph wId="gla6-clan35-stav1">
+						<content>
+							<p>Буџетски фонд за дијаспору и Србе у региону оснива се на неодређено време и њиме управља министарство надлежно за дијаспору.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan36">
+					<num>36.</num>
+					<heading>Извори финансирања</heading>
+					<paragraph wId="gla6-clan36-stav1">
+						<intro>
+							<p>Извори финансирања Буџетског фонда за дијаспору и Србе у региону су:</p>
+						</intro>
+						<point wId="gla6-clan36-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> апропријација обезбеђена у буџету за текућу годину;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan36-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> донације;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan36-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> други извори.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan36-stav2">
+						<content>
+							<p>Плаћање на терет Буџетског фонда за дијаспору и Србе у региону врши се до нивоа средстава расположивих у Буџетском фонду за дијаспору и Србе у региону, а обавезе се преузимају у оквиру реално планираних примања Буџетског фонда за дијаспору и Србе у региону.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan36-stav3">
+						<content>
+							<p>На крају текуће године неискоришћена средства са рачуна Буџетског фонда за дијаспору и Србе у региону преносе се у наредну годину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan37">
+					<num>37.</num>
+					<heading>Права припадника дијаспоре на учење српског језика и ћириличког писма</heading>
+					<paragraph wId="gla6-clan37-stav1">
+						<content>
+							<p>Припадник дијаспоре може остварити право на накнаду за учење српског језика и ћириличког писма у матичној држави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav2">
+						<content>
+							<p>Министарство надлежно за дијаспору објављује јавни оглас за доделу накнаде за учење српског језика и ћириличког писма у матичној држави (у даљем тексту: јавни оглас) на wеб страници тог министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav3">
+						<content>
+							<p>Број корисника и висину накнаде која ће се у току календарске године доделити за учење српског језика и ћириличког писма утврђује министарство надлежно за дијаспору, у складу са расположивим финансијским средствима за ту намену у Буџетском фонду за дијаспору и Србе у региону.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav4">
+						<content>
+							<p>Критеријуме и поступак за доделу накнаде за учење српског језика и ћириличког писма, прописује министар надлежан за дијаспору.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>САВЕТ ЗА ДИЈАСПОРУ</heading>
+				<article wId="gla7-clan38">
+					<num>38.</num>
+					<heading>Образовање Савета за дијаспору</heading>
+					<paragraph wId="gla7-clan38-stav1">
+						<content>
+							<p>Влада одлуком образује Савет за дијаспору, ради разматрања појединих питања, давања предлога, мишљења и стручних образложења у вези са утврђивањем и вођењем политике према дијаспори, као и давањем мишљења и предлагањем активности које ће се приоритетно финансирати средствима Буџетског фонда за дијаспору и Србе у региону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan39">
+					<num>39.</num>
+					<heading>Састав Савета за дијаспору</heading>
+					<paragraph wId="gla7-clan39-stav1">
+						<content>
+							<p>Савет за дијаспору чине представници министарстава надлежних за образовање, науку, културу, вере, финансије, економију и регионални развој, спољне послове, унутрашње послове, одбрану и дијаспору.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ЕВИДЕНТИРАЊЕ ОРГАНИЗАЦИЈА У ДИЈАСПОРИ И ОРГАНИЗАЦИЈА СРБА У РЕГИОНУ</heading>
+				<article wId="gla8-clan40">
+					<num>40.</num>
+					<heading>Евиденција организација у дијаспори и организација Срба у региону</heading>
+					<paragraph wId="gla8-clan40-stav1">
+						<content>
+							<p>Евиденцију организација у дијаспори, као и евиденцију организација Срба у региону води министарство надлежно за дијаспору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan40-stav2">
+						<content>
+							<p>Пријава за упис у евиденцију организација у дијаспори, као и евиденцију организација Срба у региону садржи податке о: називу и седишту организације, именима оснивача, области деловања, циљевима организовања, врсти активности, заступању и представљању организације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan40-stav3">
+						<content>
+							<p>Уз пријаву за упис из <ref wId="ref7" href="akn/rs/act/2009/88-45/srp@/!main~art_40__para_2" >става 2. овог</ref> члана доставља се и доказ да је организација у дијаспори, односно организација Срба у региону регистрована у складу са прописима стране државе у којој живи дијаспора, односно у складу са прописима државе на основу којих делују организације Срба у региону.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan40-stav4">
+						<content>
+							<p>Садржај и начин вођења евиденције из <ref wId="ref8" href="akn/rs/act/2009/88-45/srp@/!main~art_40__para_1" >става 1. овог</ref> члана прописује министар надлежан за дијаспору.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan41">
+					<num>41.</num>
+					<heading>Савези организација у дијаспори и организација Срба у региону</heading>
+					<paragraph wId="gla8-clan41-stav1">
+						<content>
+							<p>Организације у дијаспори, као и организације Срба у региону могу се, ради остваривања заједничких циљева и интереса, као и заједничког наступања и развоја и унапређивања односа матичне државе и дијаспоре, као и матичне државе и Срба у региону, међусобним споразумом, удруживати у савезе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan41-stav2">
+						<content>
+							<p>Савези се уписују у евиденцију коју води министарство надлежно за дијаспору, на начин утврђен актом из <ref wId="ref9" href="akn/rs/act/2009/88-45/srp@/!main~art_40__para_4" >члана 40. став 4. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>НАЦИОНАЛНА ПРИЗНАЊА</heading>
+				<article wId="gla9-clan42">
+					<num>42.</num>
+					<heading>Врсте националних признања</heading>
+					<paragraph wId="gla9-clan42-stav1">
+						<content>
+							<p>Министарство надлежно за дијаспору додељује национална признања за изузетан допринос, резултате и заслуге у области остваривања сарадње и јачања веза матичне државе и дијаспоре, као и матичне државе и Срба у региону.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan42-stav2">
+						<intro>
+							<p>Национална признања су:</p>
+						</intro>
+						<point wId="gla9-clan42-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> Награда „Мајка Србија”;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan42-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> Награда „Слободан Јовановић” – у области политике;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan42-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> Награда „Михајло Пупин” – у области информационо-комуникационих технологија;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan42-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> Награда „Никола Тесла” – у области науке и проналазаштва;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan42-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> Награда „Доситеј Обрадовић” – у области образовања;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan42-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> Награда „Вук Караџић” – у области очувања српског језика и ћириличког писма;</p>
+							</content>
+						</point>
+						<point wId="gla9-clan42-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> Награда „Милош Црњански” – у области књижевности.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-clan42-stav3">
+						<content>
+							<p>Министарство надлежно за дијаспору може да додељује плакете и захвалнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan42-stav4">
+						<content>
+							<p>Услове и поступак додељивања националних признања у области односа матичне државе и дијаспоре, као и матичне државе и Срба у региону, прописује министар надлежан за дијаспору.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>НАДЗОР</heading>
+				<article wId="gla10-clan43">
+					<num>43.</num>
+					<heading>Надзор над спровођењем закона</heading>
+					<paragraph wId="gla10-clan43-stav1">
+						<content>
+							<p>Министарство надлежно за дијаспору врши надзор над спровођењем овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla11">
+				<num>XI</num>
+				<heading>ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla11-clan44">
+					<num>44.</num>
+					<heading>Доношење прописа за извршавање овог закона</heading>
+					<paragraph wId="gla11-clan44-stav1">
+						<content>
+							<p>Министар надлежан за дијаспору донеће прописе предвиђене овим законом у року од 90 дана од дана његовог ступања на снагу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan45">
+					<num>45.</num>
+					<paragraph wId="gla11-clan45-stav1">
+						<content>
+							<p>Представници из <ref wId="ref10" href="akn/rs/act/2009/88-45/srp@/!main~art_17__para_2" >члана 17. став 2. </ref>и представник из <ref wId="ref11" href="akn/rs/act/2009/88-45/srp@/!main~art_29" >члана 29. </ref>алинеја 11. овог закона одредиће се у року од 30 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla11-clan46">
+					<num>46.</num>
+					<heading>Ступање на снагу</heading>
+					<paragraph wId="gla11-clan46-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

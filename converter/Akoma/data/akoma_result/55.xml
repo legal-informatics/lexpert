@@ -1,0 +1,1704 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о главном граду">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2007/129-57/main"/>
+					<FRBRuri value="akn/rs/act/2007/129-57"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2019/37-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2019/37-3/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2019/37-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2019/37-3/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2007-12-29" name="службени гласник рс“" number="129" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="17. Територијална организација и локална самоуправа" value="17. територијална организација и локална самоуправа" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2007-01-01" refersTo="129/2007-57" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2014-01-01" refersTo="83/2014-22" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2016-01-01" refersTo="101/2016-9" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2019-01-01" refersTo="37/2019-3" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2007-12-29" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2007-12-29" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2007-12-29" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређена"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="главног"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединицу"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="самоуправи"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="положај"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="локалној"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="сва"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="примењују"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="односе"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="одредбе"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="локалне"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="самоуправе"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="београд"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="град"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="органи"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="града"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежности"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="београда"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Barajevo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograda"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Gradskoj upravi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Gradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Grocka"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Lazarevac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Mladenovac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Obrenovac"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Organi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbijeˮ"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Skupštini"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Statutom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakonom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Grada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Gradska uprava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Gradska uprava grada Beograda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Gradske uprave"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Gradsko veće"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Gradsko veće grada Beograda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Gradskog veća"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Gradskom upravom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Gradskom veću"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Gradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I i II reda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije za planove Skupštine grada Beograda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisiju za planove"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O donošenju Statuta grada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poslovnik Skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="RSˮ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Skupštine grada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Skupštine i zamenika predsednika Skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Statutom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Statutom grada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sopot"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Surčin"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="139. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. decembra 2016"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="184. stav 7. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. maja 2019."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2023."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. avgusta 2014"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="60. stav 1. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу даном објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2007. године (види члан 54. Закона).Престала је да важи одредба члана 8. став 2. тачка 5) овог закона, даном ступања на снагу Закона о јавном информисању и медијима, односно 13. августа 2014. године (види члан 145. став 1. тачка 3. Закона о јавном информисању и медијима - 83/2014-22).Престала је да важи одредба члана 8. став 2. тачка 1) Закона, у делу који гласи: уређује и обезбеђује, у складу са начелима интегралног управљања водама, заштиту вода, заштиту од штетног дејства вода и коришћење вода, као добра од општег интереса, укључујући и организовање и финансирање водопривредне делатности на водном подручју које је у надлежности града Београда, оснива јавно предузеће за обављање водопривредне делатности и управљање водопривредним објектима који су у надлежности града Београда, даном ступања на снагу Закона о изменама и допунама Закона о водама („Службени гласник РС“, број 101/2016), односно 24. децембра 2016. године (види члан 113. став 2. Закона – 101/2016-9).Закон о изменама и допунама Закона о главном граду („Службени гласник РС“, број 37/2019) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 6. јуна 2019. године. Град Београд ће ускладити статут са овим законом и Законом о изменама и допунама Закона о локалној самоуправи („Службени гласник РС”, број 47/18) у року од 90 дана од дана ступања на снагу овог закона. Скупштина града ће доставити предлог статута министарству надлежном за локалну самоуправу ради прибављања мишљења, најкасније 45 дана од ступања на снагу овог закона. Мишљење о усклађености предлога статута са наведеним законима, министарство надлежно за локалну самоуправу ће дати у року од 15 дана од пријема предлога статута (види чл. 21. и 22. Закона – 37/2019-3).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу даном објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2007. године (види члан 54. Закона).Престала је да важи одредба члана 8. став 2. тачка 5) овог закона, даном ступања на снагу Закона о јавном информисању и медијима, односно 13. августа 2014. године (види члан 145. став 1. тачка 3. Закона о јавном информисању и медијима - 83/2014-22).Престала је да важи одредба члана 8. став 2. тачка 1) Закона, у делу који гласи: уређује и обезбеђује, у складу са начелима интегралног управљања водама, заштиту вода, заштиту од штетног дејства вода и коришћење вода, као добра од општег интереса, укључујући и организовање и финансирање водопривредне делатности на водном подручју које је у надлежности града Београда, оснива јавно предузеће за обављање водопривредне делатности и управљање водопривредним објектима који су у надлежности града Београда, даном ступања на снагу Закона о изменама и допунама Закона о водама („Службени гласник РС“, број 101/2016), односно 24. децембра 2016. године (види члан 113. став 2. Закона – 101/2016-9).Закон о изменама и допунама Закона о главном граду („Службени гласник РС“, број 37/2019) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 6. јуна 2019. године. Град Београд ће ускладити статут са овим законом и Законом о изменама и допунама Закона о локалној самоуправи („Службени гласник РС”, број 47/18) у року од 90 дана од дана ступања на снагу овог закона. Скупштина града ће доставити предлог статута министарству надлежном за локалну самоуправу ради прибављања мишљења, најкасније 45 дана од ступања на снагу овог закона. Мишљење о усклађености предлога статута са наведеним законима, министарство надлежно за локалну самоуправу ће дати у року од 15 дана од пријема предлога статута (види чл. 21. и 22. Закона – 37/2019-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О главном граду "Службени гласник РС", бр. <ref wId="ref45" href="akn/rs/act/2007/129/srp@">129 од 29. децембра 2007</ref>, <ref wId="ref46" href="akn/rs/act/2014/83/srp@">83 од 5. августа 2014</ref> - др. закон, <ref wId="ref47" href="akn/rs/act/2016/101/srp@">101 од 16. децембра 2016</ref> - др. закон, <ref wId="ref48" href="akn/rs/act/2019/37/srp@">37 од 29. маја 2019</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом се уређује положај, надлежности и органи града Београда, главног  града Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>На сва питања која нису уређена овим законом, а односе се на град Београд,  као јединицу локалне самоуправе, примењују се одредбе Закона о локалној  самоуправи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Највиши правни акт града Београда је Статут града Београда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Статутом града Београда, у складу са законом, уређују се његове надлежности,  територијална организација, организација и рад органа, његова обележја, облици  непосредног одлучивања грађана, као и друга питања од важности за остваривање  права и дужности града Београда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Град Београд има својство правног лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Град Београд има симболе и свој празник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Облик, садржина и графички приказ и употреба симбола и празник града Београда  уређују се Статутом града.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Финансирање града Београда, као и поступак и услови под којима се град  Београд може задуживати, уређују се законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Ради обезбеђивања услова за уређивање, употребу,  унапређење и заштиту грађевинског земљишта, град Београд оснива јавно предузеће.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav3">
+						<content>
+							<p>Град Београд има своју имовину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav4">
+						<content>
+							<p>Имовином града Београда самостално располажу органи  града Београда, у складу са законом, Статутом града и другим актима града  Београда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav5">
+						<intro>
+							<p>У јавној својини града Београда су:</p>
+						</intro>
+						<alinea wId="gla1-clan5-stav5-ali1">
+							<content>
+								<p>обра у општој употреби на територији града Београда  (општински путеви, некатегорисани путеви, улице које нису део аутопута или  државног пута I и II реда, тргови и јавни паркови и др.);</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan5-stav5-ali2">
+							<content>
+								<p>омунална мрежа на територији града Београда;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan5-stav5-ali3">
+							<content>
+								<p>епокретне и покретне ствари и друга имовинска права  које користе органи и организације града Београда;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan5-stav5-ali4">
+							<content>
+								<p>твари у јавној својини на којима право коришћења  имају градске општине, месне заједнице на територији града Београда, установе,  јавне агенције и друге организације чији је оснивач град Београд;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan5-stav5-ali5">
+							<content>
+								<p>ултурна добра, уколико је то у функцији остваривања  надлежности града Београда или којима управљају правна лица чији је оснивач град  Београд, органи или организације града Београда;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla1-clan5-stav5-ali6">
+							<content>
+								<p>руге непокретности евидентиране у регистру  непокретности, у складу са законом којим се уређује упис права јавне својине на  непокретностима, као и покретне ствари и имовинска права, у складу са законом  којим се уређује јавна својина.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav6">
+						<content>
+							<p>Комуналне мреже на територији града Београда могу бити  у својини вршиоца комуналне делатности, чији је оснивач град Београд, односно  коме је град Београд поверио обављање те делатности, а град Београд по основу  улагања стиче уделе или акције у јавним предузећима и друштвима капитала и права  по основу тих акција, односно удела.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav7">
+						<content>
+							<p>Статутом града може се предвидети да градска општина  има право јавне својине на покретним и непокретним стварима неопходним за рад  органа и организација градске општине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav8">
+						<content>
+							<p>Јавна предузећа чији је оснивач град Београд, имовином  града Београда управљају и располажу у складу са законом, оснивачким актом и  другим актом надлежног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2019/37/srp@">37/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ТЕРИТОРИЈА ГРАДА БЕОГРАДА, ОБРАЗОВАЊЕ, УКИДАЊЕ ГРАДСКЕ ОПШТИНЕ</heading>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Територија града Београда утврђује се законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Ради ефикаснијег и економичнијег обављања одређених надлежности града  Београда, у оквиру законом утврђене територије града Београда, Статутом града се  образују градске општине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Градска општина има својство правног лица и има  свој печат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav4">
+						<content>
+							<p>Статутом града се одређују послови из надлежности града Београда које врше  градске општине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav5">
+						<content>
+							<p>Градскe општине: Барајево, Гроцка, Лазаревац,  Младеновац, Обреновац, Сопот и Сурчин могу основати јавно комунално предузеће,  уз претходну сагласност Скупштине града Београда, у складу са Статутом града  којим се уређују услови и поступак прибављања сагласности и утврђује орган  градске општине који врши права оснивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav6">
+						<content>
+							<p>Брисан је ранији <ref wId="ref2" href="akn/rs/act/2019/37-3/srp@/!main~art_6__para_5" >став 5. </ref>(види <ref wId="ref1" href="akn/rs/act/2019/37/srp@/!main~/art_2">члан 2. Закона -  37/2019-3</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Статутом града Београда ближе се уређује начин образовања и укидања градских  општина, промена њихових подручја, органи и начин избора органа градске општине,  као и међусобни однос органа Града и органа градске општине.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАДЛЕЖНОСТИ ГРАДА БЕОГРАДА</heading>
+				<article wId="gla3-clan8">
+					<num>8.</num>
+					<paragraph wId="gla3-clan8-stav1">
+						<content>
+							<p>Град Београд врши надлежности општине и града,  утврђене Уставом и законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav2">
+						<intro>
+							<p>Поред надлежности из <ref wId="ref4" href="akn/rs/act/2019/37-3/srp@/!main~art_8__para_1" >става 1. овог</ref> члана град Београд,  на својој територији, врши и следеће надлежности:</p>
+						</intro>
+						<point wId="gla3-clan8-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> уређује и обезбеђује обављање послова који се  односе на изградњу, реконструкцију, одржавање и управљање јавним и  некатегорисаним путевима на територији града Београда, осим државних путева и  ауто-путева којима управља јавно предузеће основано од стране Републике Србије и  оснива јавно предузеће за обављање делатности управљања јавним путевима који су  у надлежности града Београда;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> образује комуналну полицију, обезбеђује и  организује вршење послова комуналне полиције, у складу са законом којим се  уређује комунална полиција;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> стара се о заштити од пожара и обезбеђује услове за  спровођење заштите од пожара, прописује мере заштите од пожара специфичне за  подручје града Београда у циљу унапређења стања заштите од пожара и доноси  акционе и санационе планове заштите од пожара, у складу са законом којим се  уређује противпожарна заштита;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> утврђује Статутом града Београда права и обавезе  градских општина на територији града Београда у области смањења ризика од  катастрофа и управљању ванредним ситуацијама, у складу са законом којим се  уређује смањење ризика од катастрофа и управљање ванредним ситуацијама;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac5">
+							<num>5)</num>
+							<content>
+								<p> одлучује о називима улица, тргова, заселака и  других делова насељених места на свом подручју, у складу са Статутом града  Београда и другим прописима, уз претходну сагласност министарства надлежног за  послове локалне самоуправе, у складу са законом којим се уређује локална  самоуправа;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac6">
+							<num>6)</num>
+							<content>
+								<p> уређује услове, поступак и начин прибављања и  располагања грађевинским земљиштем и другим непокретностима у јавној својини  града Београда, у складу са законом којим се уређује јавна својина;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac7">
+							<num>7)</num>
+							<content>
+								<p> уређује опште услове заштите, начин подизања и  одржавања, обнове уништених јавних зелених површина и вођење података о јавним  зеленим површинама;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac8">
+							<num>8)</num>
+							<content>
+								<p> именује и разрешава директоре установа у области  дечије заштите чији је оснивач;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac9">
+							<num>9)</num>
+							<content>
+								<p> утврђује манифестације од значаја за град Београд,  уређује начин њиховог спровођења и реализације и обезбеђује услове за њихово  одржавање;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac10">
+							<num>10)</num>
+							<content>
+								<p> спроводи мере и финансира пројекте у циљу  подстицања наталитета на територији града Београда;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac11">
+							<num>11)</num>
+							<content>
+								<p> врши контролу реализације и наменског коришћења  средстава која се, из буџета града Београда преносе репрезентативним удружењима  у култури код којих су стекли статус самостални уметници за које град Београд  обезбеђује средства из буџета града Београда за учешће у плаћању доприноса за  пензијско и инвалидско осигурање и доприноса за здравствено осигурање, у складу  са законом којим се уређује култура;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac12">
+							<num>12)</num>
+							<content>
+								<p> одређује врсту робе која се може продавати,  односно врсту угоститељске услуге која се може пружати у привременим објектима  који се постављају на територији града Београда;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac13">
+							<num>13)</num>
+							<content>
+								<p> одређује време, начин и места на којима се може  обављати трговина на мало са покретних средстава или опреме и издаје одобрење за  обављање трговине на тим местима, у складу са законом којим се уређује трговина;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac14">
+							<num>14)</num>
+							<content>
+								<p> уређује и организује вршење послова у вези са  држањем и заштитом домаћих и егзотичних животиња, прописује услове и ограничења  држања животиња, место и начин извођења кућних љубимаца, а нарочито паса и  мачака на јавне површине на територији града Београда;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac15">
+							<num>15)</num>
+							<content>
+								<p> прописује услове за управљање комуналним отпадом,  као и за његово одлагање на територији града Београда;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac16">
+							<num>16)</num>
+							<content>
+								<p> доноси Програм мера превенције стварања отпада од  пластичних кеса, са планом за његово спровођење;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac17">
+							<num>17)</num>
+							<content>
+								<p> може учествовати у финансирању противградне  заштите на територији града Београда и оснивати пољочуварску службу;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac18">
+							<num>18)</num>
+							<content>
+								<p> издаје грађевинске дозволе за изградњу објеката и  остала акта у поступку обједињене процедуре, као и друга акта, у складу са  законом којим се уређује планирање и изградња;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac19">
+							<num>19)</num>
+							<content>
+								<p> обавља послове пољопривредне инспекције у делу  контроле над применом мера које прописује град Београд за власнике, односно  кориснике пољопривредног земљишта, као и контроле коришћења пољопривредног  земљишта према годишњем програму заштите, уређења и коришћења пољопривредног  земљишта који доноси град Београд, у складу са законом којим се уређује  планирање, заштита, уређење и коришћење пољопривредног земљишта у поступку и под  условима предвиђеним тим законом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac20">
+							<num>20)</num>
+							<content>
+								<p> спроводи поступак експропријације, у складу са  законом којим се уређује поступак експропријације;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac21">
+							<num>21)</num>
+							<content>
+								<p> одређује делове обале и водног простора на којима  се могу градити хидротехнички објекти, постављати плутајући објекти и привезишта  за чамце, односно места за распрему бродова, услове и начин постављања  плутајућих објеката и привезишта за чамце, укључујући издавање одобрења за  њихово постављање и врши надзор у области водопривреде као и над коришћењем  места за постављање плутајућих објеката и привезишта за чамце, у складу са  законом којим се уређује коришћење вода и водни саобраћај;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac22">
+							<num>22)</num>
+							<content>
+								<p> уређује и обезбеђује, организацију и начин  обављања јавног превоза путника у свим видовима саобраћаја, који се обавља на  територији града Београда, у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan8-stav2-tac23">
+							<num>23)</num>
+							<content>
+								<p> стара се о одрживом развоју становања на  територији града Београда, у складу са законом којим се уређује становање и  одржавање зграда.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav3">
+						<content>
+							<p>Статутом града ће се утврдити подела послова између  града и градских општина у извршавању надлежности наведених у <ref wId="ref5" href="akn/rs/act/2019/37-3/srp@/!main~" >ставу 2. тач.  18</ref>–20) овог члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav4">
+						<content>
+							<p>Уколико се Статутом града Београда утврди овлашћење  градске општине да доноси решење за послове из става 2. тачка <ref wId="ref6" href="akn/rs/act/2019/37-3/srp@/!main~art_8__para_2__point_18" >18</ref>) овог члана, по  жалби на ово решење одлучује град Београд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav5">
+						<content>
+							<p>Град Београд врши и друге надлежности и послове  државне управе који су му законом поверени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan8-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref7" href="akn/rs/act/2019/37/srp@">37/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОРГАНИ ГРАДА БЕОГРАДА</heading>
+				<article wId="gla4-clan9">
+					<num>9.</num>
+					<paragraph wId="gla4-clan9-stav1">
+						<content>
+							<p>Органи града Београда су: Скупштина града Београда (у даљем тексту: Скупштина  града), градоначелник града Београда (у даљем тексту: градоначелник), Градско  веће града Београда (у даљем тексту: Градско веће) и Градска управа града  Београда (у даљем тексту: Градска управа).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla4-od1-clan10-stav1">
+						<content>
+							<p>Скупштина града је највиши орган града Београда који врши основне функције  локалне власти утврђене Уставом, законом и Статутом града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan10-stav2">
+						<content>
+							<p>Скупштину града чине одборници, које бирају грађани на непосредним изборима,  општим правом гласа и тајним гласањем у складу са законом и Статутом града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan10-stav3">
+						<content>
+							<p>Скупштина града има 110 одборника који се бирају на четири године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan11">
+					<num>11.</num>
+					<paragraph wId="gla4-od1-clan11-stav1">
+						<content>
+							<p>Одборник не може бити запослени у Градској управи и лице које именује,  односно поставља Скупштина града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan11-stav2">
+						<content>
+							<p>Ако запослени у Градској управи буде изабран за одборника, права и обавезе по  основу рада му мирују док траје његов одборнички мандат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan11-stav3">
+						<content>
+							<p>Даном потврђивања одборничког мандата лицима које је именовала, односно  поставила Скупштина града, престаје функција на коју су именовани, односно  постављени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan11-stav4">
+						<content>
+							<p>Прописи којима се уређује спречавање сукоба интереса при вршењу јавних  функција, не искључују примену одредаба овог закона о пословима који су одређени  као неспојиви са функцијом одборника у Скупштини града.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan12">
+					<num>12.</num>
+					<paragraph wId="gla4-od1-clan12-stav1">
+						<intro>
+							<p>Скупштина града Београда, у складу са законом:</p>
+						</intro>
+						<point wId="gla4-od1-clan12-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> доноси Статут града Београда и Пословник Скупштине;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> доноси буџет и завршни рачун града Београда;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> доноси програм развоја града Београда и појединих делатности;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> доноси просторне и урбанистичке планове и уређује  коришћење грађевинског земљишта;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> уређује начин одлагања комуналног отпада и услове обављања и развоја  комуналних делатности;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> доноси прописе и друге опште акте;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> оснива органе, службе, јавна предузећа, установе и организације утврђене  Статутом града и врши надзор над њиховим радом;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> именује и разрешава управни и надзорни одбор, именује и разрешава  директоре јавних предузећа, установа и служби, чији је оснивач и даје сагласност  на њихове статуте, у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> бира и разрешава председника Скупштине и заменика председника Скупштине;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> поставља и разрешава секретара Скупштине;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> бира и разрешава градоначелника, и на предлог градоначелника, бира  заменика градоначелника и чланове Градског већа;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> утврђује градске таксе и друге локалне приходе који граду Београду по  закону припадају;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> доноси акт о јавном задуживању града Београда, у складу са законом којим  се уређује јавни дуг;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> прописује радно време угоститељских, трговинских и занатских објеката;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p> даје мишљење о републичком просторном плану;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p> даје мишљење о законима којима се уређују питања од интереса за град  Београд;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p> даје сагласност на употребу имена и симбола града Београда;</p>
+							</content>
+						</point>
+						<point wId="gla4-od1-clan12-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p> обавља и друге послове утврђене законом и Статутом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan13">
+					<num>13.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od1-clan13-stav1">
+						<content>
+							<p>Скупштина града одлучује ако седници присуствује већина од укупног броја  одборника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan13-stav2">
+						<content>
+							<p>Одлуке се доносе већином гласова присутних одборника, уколико законом или  статутом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan13-stav3">
+						<content>
+							<p>О доношењу Статута града, буџета и урбанистичких планова одлучује се већином  гласова од укупног броја одборника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan14">
+					<num>14.</num>
+					<paragraph wId="gla4-od1-clan14-stav1">
+						<content>
+							<p>Скупштину града сазива председник Скупштине града, по потреби, а најмање  једном у три месеца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan14-stav2">
+						<content>
+							<p>Председник Скупштине града је дужан да седницу закаже на захтев  градоначелника, Градског већа или једне трећине одборника, у року од пет дана од  дана подношења захтева, тако да дан одржавања седнице буде најкасније у року од  15 дана од дана подношења захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan14-stav3">
+						<content>
+							<p>Ако председник Скупштине града не закаже седницу у року из <ref wId="ref9" href="akn/rs/act/2019/37-3/srp@/!main~art_14__para_2" >става 2. овог</ref>  члана, седницу може заказати подносилац захтева, а председава одборник кога  одреди подносилац захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan14-stav4">
+						<content>
+							<p>Председник Скупштине града може одложити седницу коју је сазвао само у  случају када не постоји кворум потребан за рад, а у другим случајевима о  одлагању седнице одлучује Скупштина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan15">
+					<num>15.</num>
+					<paragraph wId="gla4-od1-clan15-stav1">
+						<content>
+							<p>Седнице Скупштине града су јавне.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan15-stav2">
+						<content>
+							<p>Скупштина града може одлучити да седница Скупштине града не буде јавна из  разлога безбедности и других разлога утврђених законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan16">
+					<num>16.</num>
+					<paragraph wId="gla4-od1-clan16-stav1">
+						<content>
+							<p>Скупштина града оснива стална и повремена радна тела за разматрање питања из  њене надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan16-stav2">
+						<content>
+							<p>Радна тела дају мишљење на предлоге прописа и одлука које доноси Скупштина  града и обављају и друге послове утврђене Статутом града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan16-stav3">
+						<content>
+							<p>Број радних тела, избор, права и дужности председника и чланова радних тела  утврђује се Пословником о раду Скупштине града  Београда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan17">
+					<num>17.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref10" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od1-clan17-stav1">
+						<content>
+							<p>Одборник не може бити позван на кривичну одговорност, притворен или кажњен  због изнетог мишљења или давања гласа на седници Скупштине града и радних тела.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan18">
+					<num>18.</num>
+					<paragraph wId="gla4-od1-clan18-stav1">
+						<content>
+							<p>Скупштина града има председника Скупштине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan18-stav2">
+						<content>
+							<p>Председник Скупштине организује рад Скупштине града, сазива и председава  њеним седницама и обавља друге послове утврђене законом и Статутом града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan18-stav3">
+						<content>
+							<p>Председник Скупштине бира се из реда одборника, на време од четири године,  тајним гласањем, већином гласова од укупног броја одборника Скупштине града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan18-stav4">
+						<content>
+							<p>Председник Скупштине може бити разрешен и пре истека времена за које је  биран, на исти начин на који је биран.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan19">
+					<num>19.</num>
+					<paragraph wId="gla4-od1-clan19-stav1">
+						<content>
+							<p>Председник Скупштине има заменика који га замењује у случају његове  одсутности и спречености да обавља своју дужност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan19-stav2">
+						<content>
+							<p>Заменик председника Скупштине бира се и разрешава на исти начин као и  председник Скупштине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan20">
+					<num>20.</num>
+					<paragraph wId="gla4-od1-clan20-stav1">
+						<content>
+							<p>Скупштина града има секретара који се стара о обављању стручних послова у  вези са сазивањем и одржавањем седница Скупштине и њених радних тела и руководи  административним пословима везаним за њихов рад.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav2">
+						<content>
+							<p>Секретар Скупштине града се поставља, на предлог председника Скупштине, на  четири године и може бити поново постављен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav3">
+						<content>
+							<p>За секретара Скупштине града може бити постављено лице  које има стечено високо образовање из научне  области правне науке на основним академским студијама у обиму од најмање 240  ЕСПБ бодова, мастер академским студијама, специјалистичким академским студијама,  специјалистичким струковним студијама, односно на основним студијама у трајању  од најмање четири године или специјалистичким студијама на факултету, са положеним стручним испитом за рад у органима управе и радним  искуством од најмање три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav4">
+						<content>
+							<p>Скупштина града може, на предлог председника Скупштине, разрешити секретара и  пре истека мандата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav5">
+						<content>
+							<p>Секретар има заменика који га замењује у случају његове одсутности и  спречености да обавља своју дужност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav6">
+						<content>
+							<p>Заменик секретара Скупштине града се поставља и разрешава на исти начин и под  истим условима као и секретар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref11" href="akn/rs/act/2019/37/srp@">37/2019</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav8">
+						<content>
+							<p>Члан 20а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav9">
+						<content>
+							<p>Скупштина града образује Комисију за планове, у складу  са законом којим су уређени просторно планирање и изградња објеката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav10">
+						<content>
+							<p>У случајевима када је Статутом града утврђено да  поједине урбанистичке планове доноси градска општина за своје подручје, градска  општина образује комисију за планове, с тим да се једна трећина чланова комисије  именује на предлог Скупштине града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan20-stav11">
+						<content>
+							<p>На сва планска документа из <ref wId="ref12" href="akn/rs/act/2019/37-3/srp@/!main~art_20__para_2" >става 2. овог</ref> члана, после  јавног увида, прибавља се сагласност Комисије за планове Скупштине града  Београда, о усклађености плана детаљне регулације са планом вишег реда, односно  са законом којим су уређени просторно планирање и изградња објеката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od1-clan21">
+					<num>21.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od1-clan21-stav1">
+						<content>
+							<p>Начин припреме, вођење и рад седнице Скупштине града и друга питања везана за  рад Скупштине уређују се њеним пословником.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan22">
+					<num>22.</num>
+					<paragraph wId="gla4-od2-clan22-stav1">
+						<content>
+							<p>Извршни органи Града су градоначелник и Градско веће.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan23">
+					<num>23.</num>
+					<paragraph wId="gla4-od2-clan23-stav1">
+						<content>
+							<p>Градоначелника бира Скупштина града, из реда одборника, на време од четири  године, тајним гласањем, већином гласова од укупног броја одборника Скупштине  града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan23-stav2">
+						<content>
+							<p>Градоначелник има заменика који га замењује у случају његове одсутности и  спречености да обавља своју дужност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan23-stav3">
+						<content>
+							<p>Председник Скупштине града предлаже кандидата за градоначелника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan23-stav4">
+						<content>
+							<p>Кандидат за градоначелника предлаже кандидата за заменика градоначелника из  реда одборника, кога бира Скупштина града на исти начин као градоначелника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan23-stav5">
+						<content>
+							<p>Градоначелнику и заменику градоначелника избором на ове функције престаје  мандат одборника у Скупштини града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan23-stav6">
+						<content>
+							<p>Градоначелник и заменик градоначелника су на сталном раду у Граду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan24">
+					<num>24.</num>
+					<paragraph wId="gla4-od2-clan24-stav1">
+						<intro>
+							<p>Градоначелник:</p>
+						</intro>
+						<point wId="gla4-od2-clan24-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> представља и заступа Град;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan24-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> непосредно извршава и стара се о извршавању одлука и других аката  Скупштине града;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan24-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> предлаже начин решавања питања о којима одлучује Скупштина града;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan24-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> наредбодавац је за извршење буџета;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan24-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> усмерава и усклађује рад Градске управе;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan24-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> доноси појединачне акте за које је овлашћен законом, Статутом или одлуком  Скупштине;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan24-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> врши и друге послове утврђене Статутом и другим актима Града.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan25">
+					<num>25.</num>
+					<paragraph wId="gla4-od2-clan25-stav1">
+						<content>
+							<p>Градско веће чине градоначелник, заменик градоначелника, као и чланови  Градског већа које бира Скупштина града, на период од четири године, тајним  гласањем, већином од укупног броја одборника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan25-stav2">
+						<content>
+							<p>Кандидате за чланове Градског већа предлаже кандидат за градоначелника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan25-stav3">
+						<content>
+							<p>Када одлучује о избору градоначелника, Скупштина града истовремено одлучује о  избору заменика градоначелника и чланова Градског већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan25-stav4">
+						<content>
+							<p>Градоначелник је председник Градског већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan25-stav5">
+						<content>
+							<p>Заменик градоначелника је члан Градског већа по функцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan25-stav6">
+						<content>
+							<p>Скупштина града, на предлог градоначелника, бира 13 чланова Градског већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan25-stav7">
+						<content>
+							<p>Чланови Градског већа које бира Скупштина града не могу истовремено бити и  одборници, а могу бити задужени за једно или више одређених подручја из  надлежности Града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan25-stav8">
+						<content>
+							<p>Одборнику који буде изабран за члана Градског већа престаје одборнички  мандат.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan25-stav9">
+						<content>
+							<p>Чланови Градског већа могу бити на сталном раду у Граду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan26">
+					<num>26.</num>
+					<paragraph wId="gla4-od2-clan26-stav1">
+						<intro>
+							<p>Градско веће:</p>
+						</intro>
+						<point wId="gla4-od2-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> предлаже Статут, буџет и друге одлуке и акте које доноси Скупштина;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> доноси одлуку о привременом финансирању у случају да Скупштина града не  донесе буџет пре почетка фискалне године;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> врши надзор над радом Градске управе, поништава или укида акте Градске  управе који нису у сагласности са законом, Статутом или другим општим актом или  одлуком које доноси Скупштина града;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> решава у управном поступку у другом степену о  правима и обавезама грађана, предузећа и установа и других организација из  надлежности града Београда, изузев организација у области спорта, осим ако овим  законом није другачије утврђено, као и о жалбама поднетим на решења која доноси  комунална полиција.</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan26-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> стара се о извршавању поверених надлежности из оквира права и дужности  Републике;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan26-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> поставља и разрешава начелника Градске управе, односно начелнике градских  управа за поједине области;</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan26-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> врши и друге послове у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan27">
+					<num>27.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref14" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od2-clan27-stav1">
+						<content>
+							<p>Градоначелник представља Градско веће, сазива и води његове седнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan27-stav2">
+						<content>
+							<p>Градоначелник је одговоран за законитост рада Градског већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan27-stav3">
+						<content>
+							<p>Градоначелник је дужан да обустави од примене акт Градског већа за који  сматра да није сагласан закону.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan27-stav4">
+						<content>
+							<p>Градско веће може да одлучује ако седници присуствује већина од укупног броја  његових чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan27-stav5">
+						<content>
+							<p>Градско веће одлучује већином гласова присутних чланова, ако законом или  Статутом града није предвиђена друга већина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan27-stav6">
+						<content>
+							<p>Организација, начин рада и одлучивања Градског већа, детаљније се уређује  његовим пословником, у складу са овим законом и Статутом града.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan28">
+					<num>28.</num>
+					<paragraph wId="gla4-od2-clan28-stav1">
+						<content>
+							<p>Градоначелник и Градско веће редовно извештавају Скупштину града, по  сопственој иницијативи или на њен захтев, о извршавању одлука и других аката  Скупштине града .</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan29">
+					<num>29.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od2-clan29-stav1">
+						<content>
+							<p>Градоначелник може бити разрешен пре истека времена на које је биран, на  образложени предлог најмање трећине одборника, на исти начин на који је изабран.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan29-stav2">
+						<content>
+							<p>О предлогу за разрешење градоначелника мора се расправљати и одлучивати у  року од 15 дана од дана достављања предлога председнику Скупштине града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan29-stav3">
+						<content>
+							<p>Ако Скупштина града не разреши градоначелника, одборници који су поднели  предлог за разрешење не могу поново предложити разрешење градоначелника, пре  истека рока од шест месеци од одбијања претходног предлога.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan30">
+					<num>30.</num>
+					<paragraph wId="gla4-od2-clan30-stav1">
+						<content>
+							<p>Разрешењем или оставком градоначелника престаје мандат заменика  градоначелника и Градског већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan30-stav2">
+						<content>
+							<p>Заменик градоначелника, односно члан Градског већа, могу бити разрешени пре  истека времена на које су бирани, на предлог градоначелника или најмање једне  трећине одборника, на исти начин на који су изабрани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan30-stav3">
+						<content>
+							<p>Истовремено са предлогом за разрешење заменика градоначелника или члана  Градског већа, градоначелник је дужан да Скупштини града поднесе предлог за  избор новог заменика градоначелника или члана Градског већа, која истовремено  доноси одлуку о разрешењу и избору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan30-stav4">
+						<content>
+							<p>Градоначелник, заменик градоначелника или члан Градског већа који су  разрешени или су поднели оставку, остају на дужности и врше текуће послове, до  избора новог градоначелника, заменика градоначелника или члана Градског већа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan31">
+					<num>31.</num>
+					<paragraph wId="gla4-od2-clan31-stav1">
+						<content>
+							<p>Престанком мандата Скупштине града престаје мандат извршних органа Града, с  тим да они врше текуће послове из своје надлежности до ступања на дужност нових  извршних органа, односно председника и чланова привременог органа ако је  Скупштини мандат престао због распуштања Скупштине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan32">
+					<num>32.</num>
+					<paragraph wId="gla4-od3-clan32-stav1">
+						<content>
+							<p>Статутом града се Градска управа може образовати као јединствени орган или  као више градских управа за поједине области.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan33">
+					<num>33.</num>
+					<paragraph wId="gla4-od3-clan33-stav1">
+						<intro>
+							<p>Градска управа:</p>
+						</intro>
+						<point wId="gla4-od3-clan33-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> припрема нацрте прописа и других аката које доноси Скупштина града,  градоначелник и Градско веће;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan33-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> извршава одлуке и друге акте Скупштине града, градоначелника и Градског  већа;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan33-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> решава у управном поступку у првом степену о правима и дужностима грађана,  предузећа, установа и других организација у управним стварима из надлежности  Града;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan33-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> обавља послове управног надзора над извршавањем прописа и других општих  аката Скупштине града;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan33-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> извршава законе и друге прописе чије је извршавање поверено Граду;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan33-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> обавља стручне и друге послове које утврди Скупштина града, градоначелник  и Градско веће.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan34">
+					<num>34.</num>
+					<paragraph wId="gla4-od3-clan34-stav1">
+						<content>
+							<p>Градском управом, која је образована као јединствени орган, руководи  начелник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan34-stav2">
+						<content>
+							<p>За начелника Градске управе може бити постављено лице  које има стечено високо образовање из научне области правне науке на основним  академским студијама у обиму од најмање 240 ЕСПБ бодова, мастер академским  студијама, мастер струковним студијама, специјалистичким академским студијама,  специјалистичким струковним студијама, односно на основним студијама у трајању  од најмање четири године или специјалистичким студијама на факултету и најмање  пет година радног искуства у струци и положен државни стручни испит за рад у  органима државне управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan34-stav3">
+						<content>
+							<p>У Градској управи, образованој као јединствени орган, за вршење сродних  послова, могу се образовати унутрашње организационе јединице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan34-stav4">
+						<content>
+							<p>Када се Градска управа организује у више управа, радом управе руководи  начелник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan34-stav5">
+						<content>
+							<p>За начелника управе за поједине области може бити  постављено лице које има стечено високо образовање из одговарајуће научне  области у односу на делокруг управе, на основним академским студијама у обиму од  најмање 240 ЕСПБ бодова, мастер академским студијама, мастер струковним  студијама, специјалистичким академским студијама, специјалистичким струковним  студијама, односно на основним студијама у трајању од најмање четири године или  специјалистичким студијама на факултету, најмање пет година радног искуства у  струци и положен државни стручни испит за рад у органима државне управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan34-stav6">
+						<content>
+							<p>У оквиру управе, за вршење сродних послова, могу се образовати унутрашње  организационе јединице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan35">
+					<num>35.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref17" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od3-clan35-stav1">
+						<content>
+							<p>Начелника поставља Градско веће, на основу јавног  конкурса, на пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan35-stav2">
+						<content>
+							<p>Начелник има заменика који га замењује у случају његове одсутности и  спречености да обавља своју дужност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan35-stav3">
+						<content>
+							<p>Заменик начелника се поставља на исти начин и под истим условима као  начелник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan35-stav4">
+						<content>
+							<p>У граду Београду, уколико је Градска управа  организована као јединствени орган, постављају се заменици начелника Градске  управе – секретари секретаријата, у складу са законом као и актом о организацији  Градске управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan35-stav5">
+						<content>
+							<p>У случају из <ref wId="ref16" href="akn/rs/act/2019/37-3/srp@/!main~art_35__para_4" >става 4. овог</ref> члана уколико је начелник  Градске управе одсутан и спречен да обавља своју дужност замењује га један од  заменика начелника Градске управе, за одређену област којег он одреди и који  испуњава посебне услове за постављење на положај начелника Градске управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan35-stav6">
+						<content>
+							<p>Руководиоце организационих јединица у управи распоређује начелник.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan36">
+					<num>36.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref18" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od3-clan36-stav1">
+						<content>
+							<p>Начелник за свој рад и рад Градске управе одговара Градском већу у  складу са Статутом града и актом о организацији градских управа за поједине  области.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan37">
+					<num>37.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od3-clan37-stav1">
+						<content>
+							<p>За обављање послова помоћника градоначелника у области  економског развоја у граду Београду се поставља градски менаџер.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan37-stav2">
+						<content>
+							<p>Статутом града може се предвидети да се помоћници  градоначелника постављају и за друге области (урбанизам, примарна здравствена  заштита, заштита животне средине, пољопривреда и др.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan37-stav3">
+						<content>
+							<p>Помоћнике градоначелника поставља и разрешава  градоначелник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan37-stav4">
+						<content>
+							<p>Помоћници градоначелника покрећу иницијативе, предлажу  пројекте и сачињавају мишљења у вези са питањима која су од значаја за развој у  областима за које су постављени и врше друге послове по налогу градоначелника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan37-stav5">
+						<content>
+							<p>У граду Београду може бити постављено највише пет  помоћника градоначелника, укључујући и градског менаџера.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan38">
+					<num>38.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref20" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od3-clan38-stav1">
+						<content>
+							<p>Акт о организацији Градске управе доноси Скупштина града на предлог Градског  већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan38-stav2">
+						<content>
+							<p>Организација и систематизација радних места у Градској  управи уређује се обједињеним правилником о организацији и систематизацији  радних места, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan39">
+					<num>39.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref22" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od3-clan39-stav1">
+						<intro>
+							<p>Градска управа у обављању управног надзора може:</p>
+						</intro>
+						<point wId="gla4-od3-clan39-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> наложити решењем извршење мера и радњи у одређеном року;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan39-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> издати прекршајни налог;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan39-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> поднети пријаву надлежном органу за учињено кривично дело или привредни  преступ и поднети захтев за покретање прекршајног поступка;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan39-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> издати привремено наређење, односно забрану;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan39-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обавестити други орган, ако постоје разлози, за предузимање мера за које  је тај орган надлежан;</p>
+							</content>
+						</point>
+						<point wId="gla4-od3-clan39-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> предузети и друге мере за које је овлашћена законом, прописом или општим  актом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan39-stav2">
+						<content>
+							<p>Овлашћења и организација за обављање послова из <ref wId="ref21" href="akn/rs/act/2019/37-3/srp@/!main~art_39__para_1" >става 1. овог</ref> члана, ближе се  уређују одлуком Скупштине града.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan40">
+					<num>40.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla4-od3-clan40-stav1">
+						<content>
+							<p>У поступку пред Градском управом, у коме се решава о правима, обавезама и  интересима грађана и правних лица, примењују се прописи о управном поступку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan41">
+					<num>41.</num>
+					<paragraph wId="gla4-od3-clan41-stav1">
+						<content>
+							<p>Градско веће решава сукоб надлежности између Градске управе и других  предузећа, организација и установа кад на основу одлуке Скупштине града одлучују  о појединим правима грађана, правних лица или других странака, као и између  градских управа за поједине области када је образовано више градских управа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan41-stav2">
+						<content>
+							<p>Начелник управе решава сукоб надлежности између унутрашњих организационих  јединица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan42">
+					<num>42.</num>
+					<paragraph wId="gla4-od3-clan42-stav1">
+						<content>
+							<p>Послове Градске управе који се односе на остваривање права, обавеза и  интереса грађана и правних лица могу обављати лица која имају прописану школску  спрему, положен стручни испит за рад у органима државне управе и одговарајуће  радно искуство, у складу са законом и другим прописом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od3-clan43">
+					<num>43.</num>
+					<paragraph wId="gla4-od3-clan43-stav1">
+						<content>
+							<p>О изузећу начелника Градске управе решава Градско веће.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od3-clan43-stav2">
+						<content>
+							<p>О изузећу службеног лица у градским управама за поједине области решава  начелник.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>НЕПОСРЕДНО УЧЕШЋЕ ГРАЂАНА У ОСТВАРИВАЊУ ЛОКАЛНЕ САМОУПРАВЕ</heading>
+				<article wId="gla5-clan44">
+					<num>44.</num>
+					<paragraph wId="gla5-clan44-stav1">
+						<content>
+							<p>Облици непосредног учешћа грађана у остваривању локалне самоуправе су:  грађанска иницијатива, збор грађана и референдум.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan44-stav2">
+						<content>
+							<p>Облици непосредне самоуправе из <ref wId="ref24" href="akn/rs/act/2019/37-3/srp@/!main~art_44__para_1" >става 1. овог</ref> члана уређују се законом и  Статутом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Грађани путем грађанске иницијативе предлажу Скупштини града доношење акта  којим ће се уредити одређено питање из надлежности града, промену Статута или  других аката и расписивање референдума у складу са законом и Статутом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav2">
+						<content>
+							<p>О предлогу из <ref wId="ref25" href="akn/rs/act/2019/37-3/srp@/!main~art_45__para_1" >става 1. овог</ref>а члана, Скупштина града је дужна да одржи  расправу и да достави образложен одговор грађанима у року од 60 дана од добијања  предлога.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav3">
+						<content>
+							<p>Статутом града утврђује се број потписа грађана потребан за пуноважно  покретање грађанске иницијативе, који не може да буде мањи од 30.000 бирача.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<paragraph wId="gla5-clan46-stav1">
+						<content>
+							<p>Збор грађана се сазива за део територије града утврђен Статутом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>Збор грађана расправља и даје предлоге о питањима из надлежности органа  града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav3">
+						<content>
+							<p>Збор грађана већином гласова присутних усваја захтеве и предлоге и упућује их  Скупштини или појединим органима и службама града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav4">
+						<content>
+							<p>Органи и службе Града дужни су да у року од 60 дана од одржавања збора  грађана, размотре захтеве и предлоге грађана и о њима заузму став, односно  донесу одговарајућу одлуку или меру и о томе обавесте грађане.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav5">
+						<content>
+							<p>Начин сазивања збора грађана, његов рад, као и начин утврђивања ставова збора  уређује се Статутом и одлуком Скупштине града.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan47">
+					<num>47.</num>
+					<paragraph wId="gla5-clan47-stav1">
+						<content>
+							<p>Скупштина града може на сопствену иницијативу да распише референдум о  питањима из своје надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav2">
+						<content>
+							<p>Референдум о питању из свога делокруга Скупштина града дужна је да распише на  предлог који поднесе најмање 10% бирача од укупног бирачког тела у Граду, на  начин утврђен законом и Статутом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav3">
+						<content>
+							<p>Одлука путем референдума донета је ако се за њу изјаснила већина грађана која  је гласала, под условом да је гласало више од половине укупног броја грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan47-stav4">
+						<content>
+							<p>Одлука донета на референдуму је обавезна, а Скупштина града је не може  ставити ван снаге, нити изменама и допунама мењати њену суштину у наредном  периоду од годину дана од дана доношења одлуке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan48">
+					<num>48.</num>
+					<paragraph wId="gla5-clan48-stav1">
+						<content>
+							<p>Органи и службе Града дужни су да обавештавају јавност о свом раду преко  средстава јавног информисања и на други прикладан начин.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan48-stav2">
+						<content>
+							<p>Органи и службе Града дужни су да грађанима у остваривању њихових права и  обавеза дају потребне податке, објашњења и обавештења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan48-stav3">
+						<content>
+							<p>Органи и службе Града дужни су да свима омогуће подношење притужби на свој  рад и на неправилан однос запослених.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan48-stav4">
+						<content>
+							<p>На поднете притужбе органи и службе Града дужни су да одговоре у року од 30  дана, ако подносилац притужбе захтева одговор.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>МЕСНА САМОУПРАВА</heading>
+				<article wId="gla6-clan49">
+					<num>49.</num>
+					<paragraph wId="gla6-clan49-stav1">
+						<content>
+							<p>Ради задовољавања потреба и интереса локалног становништва у Граду се могу  оснивати месне заједнице и други облици месне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan50">
+					<num>50.</num>
+					<paragraph wId="gla6-clan50-stav1">
+						<content>
+							<p>Поступак оснивања и укидања месних заједница и других облика месне самоуправе  уређују се Статутом града.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav2">
+						<content>
+							<p>Предлог за обрaзовање, односно укидање месне заједнице  или другог облика месне самоуправе, могу поднети најмање 10% бирача са  пребивалиштем на подручју на које се предлог односи, најмање једна трећина  одборника скупштине градске општине на чијем подручју се обрaзује, односно укида  месна заједница или други облик месне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav3">
+						<content>
+							<p>У граду Београду месне заједнице или друге облике  месне самоуправе могу образовати, односно укинути градске општине на чијем  подручју се образују, односно укидају, уз претходно прибављено мишљење грађана,  о образовању, подручју за које се образује, промени подручја и укидању месних  заједница и других облика месне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref26" href="akn/rs/act/2019/37/srp@">37/2019</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav5">
+						<content>
+							<p>Члан 50а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav6">
+						<content>
+							<p>Актом о оснивању месне заједнице, у складу са Статутом  града, утврђују се послови које врши месна заједница, органи и организација рада  органа, начин одлучивања као и поступак избора савета и других органа месне  заједнице и друга питања од значаја за рад месне заједнице, односно другог  облика месне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav7">
+						<content>
+							<p>Савет месне заједнице је основни представнички орган  грађана на подручју месне заједнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav8">
+						<content>
+							<p>Савет месне заједнице бира Скупштина градске општине  на чијем подручју се образује месна заједница, односно други облик месне  самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav9">
+						<content>
+							<p>Надлежни орган из <ref wId="ref27" href="akn/rs/act/2019/37-3/srp@/!main~art_50__para_3" >става 3. овог</ref> члана бира чланове  савета месне заједнице на предлог збора грађана који се сазива за подручје месне  заједнице или другог облика месне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav10">
+						<content>
+							<p>Збор грађана може предложити највише двоструко већи  број чланова савета месне заједнице од броја чланова савета који је утврђен  актом о оснивању месне заједнице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan50-stav11">
+						<content>
+							<p>Председника савета месне заједнице бира савет из реда  својих чланова, тајним гласањем, већином од укупног броја чланова савета месне  заједнице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan51">
+					<num>51.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref28" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla6-clan51-stav1">
+						<content>
+							<p>Месна заједница, односно други облик месне самоуправе има својство правног  лица у оквиру права и дужности утврђених Статутом града и одлуком о оснивању.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ЛОКАЛНИ ОМБУДСМАН</heading>
+				<article wId="gla7-clan52">
+					<num>52.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref30" href="akn/rs/act/2019/37/srp@">37/2019</ref></heading>
+					<paragraph wId="gla7-clan52-stav1">
+						<content>
+							<p>У граду Београду се може установити локални омбудсман  као посебан орган града Београда, који је овлашћен да независно и самостално  контролише поштовање права грађана, утврђује повреде учињене актима, радњама или  нечињењем органа управе и јавних служби, ако се ради о повреди прописа и општих  аката града Београда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav2">
+						<content>
+							<p>Локални омбудсман у граду Београду може имати највише  четири заменика.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav3">
+						<content>
+							<p>Надлежност и овлашћења, начин поступања и избора и  престанка дужности локалног омбудсмана, као и заменика локалног омбудсмана,  уређују се Статутом града и другим општим актом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref29" href="akn/rs/act/2019/37/srp@">37/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan53">
+					<num>53.</num>
+					<paragraph wId="gla8-clan53-stav1">
+						<content>
+							<p>Одредбе овог закона о органима града Београда примењиваће се од спровођења  наредних избора за одборнике Скупштине града.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan54">
+					<num>54.</num>
+					<paragraph wId="gla8-clan54-stav1">
+						<content>
+							<p>Овај закон ступа на снагу даном објављивања у „Службеном гласнику Републике  Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan54-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan20">
+					<num>20.</num>
+					<heading>Закон о изменама и допунама Закона о главном граду: „Службени  гласник РС“, број <ref wId="ref31" href="akn/rs/act/2019/37/srp@">37/2019</ref>-3</heading>
+					<paragraph wId="gla8-clan20-stav1">
+						<content>
+							<p>До успостављања пољопривредне инспекције чији  је делокруг утврђен овим законом, инспекцијски надзор у овој области ће вршити  пољопривредна инспекција министарства надлежног за послове пољопривреде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan21">
+					<num>21.</num>
+					<paragraph wId="gla8-clan21-stav1">
+						<content>
+							<p>Ступањем на снагу овог закона престају да  важе одредбе <ref wId="ref32" href="akn/rs/act/2019/37-3/srp@/!main~art_139__para_3" >члана 139. став 3. </ref>у делу који се односи на квадратуру бруто  развијене грађевинске површине, одредбе <ref wId="ref33" href="akn/rs/act/2019/37-3/srp@/!main~art_172__para_5" >члана 172. став 5, </ref>као и <ref wId="ref34" href="akn/rs/act/2019/37-3/srp@/!main~art_184__para_7" >члана 184. став  7. </ref>Закона о планирању и изградњи („Службени гласник РСˮ, бр. 72/ 09, 81/09 –  исправка, 64/10 – УС, 24/11, 121/12, 42/13 – УС, 50/13 – УС, 98/13 – УС, 132/14,  145/14, 83/18 и 31/19).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan21-stav2">
+						<content>
+							<p>Ступањем на снагу овог закона, на територији  града Београда престаје примена одредбе <ref wId="ref35" href="akn/rs/act/2019/37-3/srp@/!main~art_60__para_1" >члана 60. став 1. </ref>Закона о изменама и  допунама Закона о пловидби и лукама на унутрашњим водама („Службени гласник РСˮ,  број <ref wId="ref36" href="akn/rs/act/18/41/srp@">41/18</ref>) у погледу примене рока који истиче најкасније до 31. децембра 2023.  године, а примењују се рокови предвиђени <ref wId="ref37" href="akn/rs/act/2019/37-3/srp@/!main~art_21__para_4" >ставом 4. </ref>наведеног члана тог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan22">
+					<num>22.</num>
+					<paragraph wId="gla8-clan22-stav1">
+						<content>
+							<p>Град Београд ће ускладити статут са овим  законом и Законом о изменама и допунама Закона о локалној самоуправи („Службени  гласник РС”, број <ref wId="ref38" href="akn/rs/act/18/47/srp@">47/18</ref>) у року од 90 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan22-stav2">
+						<content>
+							<p>Скупштина града ће доставити предлог статута  министарству надлежном за локалну самоуправу ради прибављања мишљења, најкасније  45 дана од ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan22-stav3">
+						<content>
+							<p>Мишљење о усклађености предлога статута са  законима из <ref wId="ref39" href="akn/rs/act/2019/37-3/srp@/!main~art_22__para_1" >става 1. овог</ref> члана, министарство надлежно за локалну самоуправу ће  дати у року од 15 дана од пријема предлога статута.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan22-stav4">
+						<content>
+							<p>Уколико се министарство надлежно за локалну  самоуправу не изјасни у року из <ref wId="ref40" href="akn/rs/act/2019/37-3/srp@/!main~art_22__para_3" >става 3. овог</ref> члана, сматраће се да је дато  позитивно мишљење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan23">
+					<num>23.</num>
+					<paragraph wId="gla8-clan23-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана  објављивања у „Службеном гласнику Републике Србијеˮ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan23-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan23-stav3">
+						<content>
+							<p>о главном граду</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan23-stav4">
+						<content>
+							<p>&quot;Службени гласник РС&quot;, бр. <ref wId="ref41" href="akn/rs/act/2007/129/srp@">129 од 29. децембра 2007</ref>, <ref wId="ref42" href="akn/rs/act/2014/83/srp@">83 од 5. августа 2014</ref> -  др. закон, <ref wId="ref43" href="akn/rs/act/2016/101/srp@">101 од 16. децембра 2016</ref> - др. закон,  <ref wId="ref44" href="akn/rs/act/2019/37/srp@">37 од 29. маја 2019</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

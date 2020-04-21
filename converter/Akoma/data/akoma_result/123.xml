@@ -1,0 +1,1604 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон ОСНОВНЕ ОДРЕДБЕ">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2008/116-40/main"/>
+					<FRBRuri value="akn/rs/act/2008/116-40"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2015/106-62/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2015/106-62/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2015/106-62/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2015/106-62/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2008-12-22" name="службени гласник рс" number="116" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="2. Тужилаштво" value="2. тужилаштво" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2008-01-01" refersTo="116/2008-40" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2010-01-01" refersTo="101/2010-6" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2011-01-01" refersTo="88/2011-67" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2015-01-01" refersTo="106/2015-62" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2008-12-22" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2008-12-30" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2008-12-30" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="положај"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="већа"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="државног"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="обезбеђење"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="услова"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="самосталност"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="њихове"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="средстава"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="трајање"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="престанак"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="изборних"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="рад"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="мандата"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="избор"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="рада"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="функције"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="чланова"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Državnog veća"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republikog"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sekretara"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Administrativne kancelarije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Administrativnoj kancelariji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Advokatska komora Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Advokatske komore Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinske komisije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnog veća"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnog veća Narodnoj skupštini Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnog veća tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnog veća za dostavljanje informacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnom veću"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Etički kodeks"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izborna komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izborna komisija Državnog veća"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izborne komisije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Izbornoj komisiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kolegijum Republičkog javnog tužilaštva i Tužilaštva za ratne zločine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poslovnikom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužilaštva za organizovani kriminal i Tužilaštva za ratne zločine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužilaštva za ratne zločine i Tužilaštva za organizovan kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet pravosuđa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokog saveta pravosuđa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokom savetu pravosuđa"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Niko"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Poslovnik"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 30. децембра 2008. године (види члан 61. Закона).Даном конституисања Државног већа престао је да важи Закон о Високом савету правосуђа („Службени гласник РС”, бр. 63/01, 42/02, 39/03, 41/03 (исправка), 44/04 и 61/05), у делу који се односи на јавне тужиоце и заменике јавних тужилаца (види члан 60. Закона).До доношења подзаконских аката предвиђених овим законом, примењиваће се општи акти Високог савета правосуђа, уколико нису у супротности са овим законом (види члан58. Закона).Закон о изменама и допунама Закона о Државном већу тужилаца („Службени гласник РС“. број 106/2015) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 29. децембра 2015. године (види члан 5. Закона – 106/2015-62).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон Основне одредбе Садржина закона</p>
+			</longTitle>
+			<p>"Службени гласник РС", бр. 116 од 22. децембра 2008, 101 од 29. децембра 2010,  88 од 24. новембра 2011, 106 од 21. децембра 2015.</p>
+		</preface>
+		<preamble>
+			<p>о Државном већу тужилаца</p>
+		</preamble>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређује се положај, надлежност, организација и начин рада Државног већа тужилаца (у даљем тексту: Државног већа), услови и поступак за избор изборних чланова Државног већа, трајање мандата и престанак њихове функције и обезбеђење услова и средстава за рад Државног већа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Положај Државног већа</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>Самосталност</heading>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Државно веће је самосталан орган који обезбеђује и гарантује самосталност јавних тужилаца и заменика јавних тужилаца.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>У оквиру своје надлежности Државно веће остварује сарадњу са Високим саветом судства, државним и другим органима и организацијама, тужилачким саветима других држава и међународним организацијама.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Средства за рад Државног већа</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Средства за рад Државног већа обезбеђују се у буџету Републике Србије, на предлог Државног већа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Државно веће самостално располаже средствима из <ref wId="ref0" href="akn/rs/act/2015/106-62/srp@/!main~art_3__para_1" >става 1. овог</ref> члана, у складу са законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<heading>Седиште и обележја Државног већа</heading>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Седиште Државног већа је у Београду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Државно веће има печат, који садржи назив и грб Републике Србије и назив и седиште органа, у складу са посебним законима.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<heading>Састав Државног већа</heading>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Државно веће има једанаест чланова.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>Чланови Државног већа су Републички јавни тужилац, министар надлежан за правосуђе и председник надлежног одбора Народне скупштине, као чланови по положају и осам изборних чланова које бира Народна скупштина, у складу са овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>Изборне чланове чине шест јавних тужилаца или заменика јавних тужилаца са сталном функцијом, од којих је најмање један са територије аутономних покрајина и два угледна и истакнута правника са најмање 15 година искуства у струци, од којих је један адвокат, а други професор правног факултета.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>Председник Државног већа</heading>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Републички јавни тужилац је по положају председник Државног већа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<content>
+						<p>Председник Државног већа представља Државно веће, руководи његовим радом и врши друге послове у складу са законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<heading>Заменик председника</heading>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Државно веће има заменика председника, кога из реда тужилаца и заменика јавних тужилаца – изборних чланова Државног већа бира и разрешава Државно веће.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>Заменик председника обавља послове председника у случају његовог одсуства или спречености.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav3">
+					<content>
+						<p>Начин избора заменика председника Државног већа и трајање мандата уређује се Пословником о раду Државног већа тужилаца (у даљем тексту: Пословник).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<heading>Однос са другим органима</heading>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Јавна тужилаштва и други државни органи, као и јавни тужиоци и заменици јавних тужилаца, су дужни да поступају по захтевима Државног већа за достављање информација, докумената и другог материјала у вези са вршењем послова из надлежности Државног већа.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="od2-clan9">
+				<num>9.</num>
+				<heading>Имунитет</heading>
+				<paragraph wId="od2-clan9-stav1">
+					<content>
+						<p>Члан Државног већа ужива имунитет као јавни тужилац.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav2">
+					<content>
+						<p>Члан Државног већа не може бити позван на одговорност за изражено мишљење или гласање приликом доношења одлука Државног већа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav3">
+					<content>
+						<p>Члан Државног већа не може бити лишен слободе у поступку покренутом због кривичног дела учињеног у обављању функције члана Државног већа без одобрења надлежног одбора Народне скупштине.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav4">
+					<content>
+						<p>Удаљење са функције члана Државног већа*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav6">
+					<content>
+						<p>Члан 9а*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav7">
+					<content>
+						<p>Члан Државног већа обавезно се удаљује са те функције  када му је одређен притвор.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav8">
+					<content>
+						<p>Изборни члан Државног већа, поред разлога из <ref wId="ref2" href="akn/rs/act/2015/106-62/srp@/!main~art_9__para_1" >става 1.  овог</ref> члана, обавезно се удаљује са те функције и када је поднет предлог за  његово разрешење са функције члана Државног већа, а изборни члан Државног већа  из реда јавних тужилаца и заменика јавних тужилаца удаљује се и када је удаљен  са функције јавног тужиоца или заменика јавног тужиоца.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav9">
+					<content>
+						<p>Изборни члан Државног већа може бити удаљен са те  функције када је покренут поступак за његово разрешење са функције члана  Државног већа, односно кривични поступак за дело због кога може бити разрешен са  функције члана Државног већа.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav10">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav11">
+					<content>
+						<p>Одлука о удаљењу и трајање удаљења*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav12">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav13">
+					<content>
+						<p>Члан 9б*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav14">
+					<content>
+						<p>Одлуку о удаљењу члана Државног већа доноси председник  Државног већа.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav15">
+					<content>
+						<p>Члан Државног већа удаљује се са те функције до укидања  притвора, док траје удаљење са функције јавног тужиоца или заменика јавног  тужиоца, до окончања поступка за разрешење са функције члана Државног већа или  окончања кривичног поступка за дело због кога може бити разрешен са функције  члана Државног већа.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav16">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav17">
+					<content>
+						<p>Право на приговор*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav18">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav19">
+					<content>
+						<p>Члан 9в*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav20">
+					<content>
+						<p>На одлуку о удаљењу из разлога прописаних у <ref wId="ref7" href="akn/rs/act/2015/106-62/srp@/!main~art_9а__para_3" >члану 9а  став 3. овог</ref> закона, изборни члан Државног већа има право приговора Државном  већу, у року од осам дана од дана достављања одлуке.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav21">
+					<content>
+						<p>Државно веће одлучује о приговору из <ref wId="ref8" href="akn/rs/act/2015/106-62/srp@/!main~art_9__para_1" >става 1. овог</ref>  члана у року од осам дана од дана достављања приговора.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav22">
+					<content>
+						<p>Изјављени приговор не задржава извршење одлуке из <ref wId="ref9" href="akn/rs/act/2015/106-62/srp@/!main~art_9__para_1" >става  1. овог</ref> члана.*</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan9-stav23">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref10" href="akn/rs/act/2011/88/srp@">88/2011</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="od2-clan10">
+				<num>10.</num>
+				<heading>Плате и накнада за рад</heading>
+				<paragraph wId="od2-clan10-stav1">
+					<content>
+						<p>Изборни чланови Државног већа из реда заменика јавних тужилаца за време обављања функције у Државном већу остварују права из радног односа у Државном већу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan10-stav2">
+					<content>
+						<p>Чланови Државног већа из <ref wId="ref11" href="akn/rs/act/2015/106-62/srp@/!main~art_10__para_1" >става 1. овог</ref> члана имају право на плату у висини износа који се одређује множењем коефицијента 6,00 са основицом за обрачун и исплату, у складу са Законом о јавном тужилаштву.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan10-stav3">
+					<content>
+						<p>Члановима Државног већа по положају, члановима Државног већа јавним тужиоцима и члановима Државног већа из реда адвоката и професора правног факултета припада посебна накнада за рад у Државном већу, коју одређује надлежни одбор Народне скупштине.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="od2-clan11">
+				<num>11.</num>
+				<heading>Неспојивост послова</heading>
+				<paragraph wId="od2-clan11-stav1">
+					<content>
+						<p>Изборни члан Државног већа из реда адвоката, односно професора правног факултета, након ступања на функцију, не може бити на функцијама у органима који доносе прописе, органима извршне власти, јавним службама и органима покрајинске аутономије и јединицама локалне самоуправе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan11-stav2">
+					<content>
+						<p>Изборни члан Државног већа из реда заменика јавних тужилаца може се ослободити вршења функције заменика јавног тужиоца за време обављања функције у Државном већу, на основу одлуке Државног већа.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="od2-clan12">
+				<num>12.</num>
+				<heading>Мандат чланова</heading>
+				<paragraph wId="od2-clan12-stav1">
+					<content>
+						<p>Мандат чланова Државног већа траје пет година, осим за чланове по положају.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan12-stav2">
+					<content>
+						<p>Изборни чланови Државног већа могу бити поново бирани, али не узастопно.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="od2-clan12-stav3">
+					<content>
+						<p>За време трајања мандата јавни тужилац и заменик јавног тужиоца који је члан Државног већа не може бити биран за јавног тужиоца и заменика јавног тужиоца у другом јавном тужилаштву.</p>
+					</content>
+				</paragraph>
+			</article>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>НАДЛЕЖНОСТ И НАЧИН РАДА ДРЖАВНОГ ВЕЋА</heading>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Надлежност</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<intro>
+							<p>Државно веће:</p>
+						</intro>
+						<alinea wId="gla2-clan13-stav1-ali1">
+							<content>
+								<p>тврђује листу кандидата за избор Републичког јавног тужиоца и јавних тужилаца коју доставља Влади;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali2">
+							<content>
+								<p>редлаже Народној скупштини кандидате за први избор за заменика јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali3">
+							<content>
+								<p>ира заменике јавних тужилаца за трајно обављање функције заменика јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali4">
+							<content>
+								<p>ира заменике јавних тужилаца који су на сталној функцији за заменике јавног тужиоца у вишем јавном тужилаштву;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali5">
+							<content>
+								<p>длучује о престанку функције заменика јавних тужилаца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali6">
+							<content>
+								<p>тврђује разлоге за разрешење јавног тужиоца и заменика јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali7">
+							<content>
+								<p>дређује јавно тужилаштво у којем ће јавни тужилац и заменици јавног тужиоца наставити да врше функцију заменика јавног тужиоца у случају укидања јавног тужилаштва;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali8">
+							<content>
+								<p>длучује о удаљењу Републичког јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali9">
+							<content>
+								<p>длучује по приговору на одлуку о удаљењу јавног тужоца и заменика јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali10">
+							<content>
+								<p>редлаже обим и структуру буџетских средстава неопходних за рад јавних тужилаштава за текуће расходе и врши надзор над њиховим трошењем, у складу са законом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali11">
+							<content>
+								<p>тврђује које су друге функције, послови или приватни интереси у супротности са достојанством и самосталношћу јавног тужилаштва;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali12">
+							<content>
+								<p>оставља вршиоца дужности Републичког јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali13">
+							<content>
+								<p>длучује по приговору на одлуку Републичког јавног тужиоца о томе када се сматра да није било избора јавног тужиоца и заменика јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali14">
+							<content>
+								<p>аје мишљење о изменама постојећих или доношењу нових закона који уређују положај и поступање јавних тужилаца и заменика јавних тужилаца, организацију јавног тужилаштва, као и других закона које јавна тужилаштва примењују;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali15">
+							<content>
+								<p>оноси Етички кодекс;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali16">
+							<content>
+								<p>оди лични лист за сваког јавног тужиоца, заменика јавног тужиоца и запосленог у јавном тужилаштву;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali17">
+							<content>
+								<p>менује и разрешава Дисциплинског тужиоца и његове заменике и чланове Дисциплинске комисије и њихове заменике;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali18">
+							<content>
+								<p>оноси одлуке о правним лековима у дисциплинском поступку;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali19">
+							<content>
+								<p>оноси Правилник о мерилима за вредновање рада јавних тужилаца и заменика јавних тужилаца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali20">
+							<content>
+								<p>оноси одлуку о правном леку против одлуке о вредновању рада јавног тужиоца и заменика јавног тужиоца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali21">
+							<content>
+								<p>длучује о приговорима у поступку избора за чланове Државног већа из реда јавних тужилаца и заменика јавних тужилаца;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali22">
+							<content>
+								<p>бавља послове у вези са спровођењем Националне стратегије реформе правосуђа;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali23">
+							<content>
+								<p>тврђује садржину програма обуке за заменике јавних тужилаца који се први пут бирају на функцију и тужилачке помоћнике у складу са законом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali24">
+							<content>
+								<p>редлаже програм обуке за јавне тужиоце и заменике јавних тужилаца који трајно обављају функцију;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla2-clan13-stav1-ali25">
+							<content>
+								<p>бавља и друге послове предвиђене законом.</p>
+							</content>
+						</alinea>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Начин рада</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Седнице Државног већа су јавне, а Државно веће може да одлучи да седница  буде затворена за јавност ако то налажу интереси јавног реда или заштита  тајности података, као и у случајевима одређеним Пословником.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav2">
+						<content>
+							<p>Седнице Државног већа сазива председник по сопственој иницијативи или на предлог најмање три члана Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav3">
+						<content>
+							<p>Државно веће одржава седнице када је присустно најмање шест чланова Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan14-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Стална радна тела</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>Стална радна тела Државног већа су: Изборна комисија и дисциплински органи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Састав и начин рада сталних радних тела уређује се актом Државног већа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<heading>Повремена радна тела</heading>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Ради разматрања појединих питања из своје надлежности Државно веће може да образује повремена радна тела.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav2">
+						<content>
+							<p>Образовање, састав и начин рада повремених радних тела ближе се уређује Пословником.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<heading>Одлучивање</heading>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Одлуке Државног већа доносе се већином гласова свих чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav2">
+						<content>
+							<p>Одлуке Државног већа морају бити образложене, ако Пословником није  друкчије одређено.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan17-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<heading>Пословник</heading>
+					<paragraph wId="gla2-clan18-stav1">
+						<content>
+							<p>Државно веће доноси Пословник којим се ближе уређује начин рада и одлучивање Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Пословник и други општа акта Државног већа објављују се у „Службеном гласнику Републике Србије” и на интернет страни Државног већа*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref14" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<heading>Јавност рада</heading>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>Државно веће подноси годишњи извештај о свом раду Народној скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav2">
+						<content>
+							<p>Годишњи извештај о раду објављује се на интернет страни Државног  већа.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav3">
+						<content>
+							<p>Државно веће редовно обавештава јавност о свом раду на начин уређен Пословником.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan19-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ЗА ИЗБОР ЧЛАНОВА ДРЖАВНОГ ВЕЋА</heading>
+				<article wId="gla3-od1-clan20">
+					<num>20.</num>
+					<heading>Овлашћени предлагачи</heading>
+					<paragraph wId="gla3-od1-clan20-stav1">
+						<content>
+							<p>Изборне чланове Државног већа бира Народна скупштина на предлог овлашћених предлагача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan20-stav2">
+						<content>
+							<p>Овлашћени предлагач за изборне чланове Државног већа из реда јавних тужилаца и заменика јавних тужилаца је Државно веће.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan20-stav3">
+						<content>
+							<p>Државно веће је обавезно да предложи Народној скупштини кандидате који су непосредно изабрани од стране јавних тужилаца и заменика јавних тужилаца на начин и у поступку предвиђеним овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan20-stav4">
+						<content>
+							<p>Овлашћени предлагач за изборног члана Државног већа из реда адвоката је Адвокатска комора Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan20-stav5">
+						<content>
+							<p>Кандидате за изборног члана Државног већа из реда професора правног факултета предлаже заједничка седница декана правних факултета у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan21">
+					<num>21.</num>
+					<heading>Кандидовање и предлагање</heading>
+					<paragraph wId="gla3-od1-clan21-stav1">
+						<content>
+							<p>Одлуку о отпочињању поступка предлагања кандидата за изборне чланове Државног већа доноси председник Државног већа најмање шест месеци пре истека мандата изборних чланова Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan21-stav2">
+						<content>
+							<p>Одлука из <ref wId="ref16" href="akn/rs/act/2015/106-62/srp@/!main~art_21__para_1" >става 1. овог</ref> члана објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan21-stav3">
+						<content>
+							<p>Одлуку о отпочињању поступка предлагања кандидата за изборне чланове Државног већа председник Државног већа доставља председнику Изборне комисије Државног већа, председнику Адвокатске коморе Србије и декану најстаријег правног факултета у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan21-stav4">
+						<content>
+							<p>Овлашћени предлагачи морају доставити имена кандидата за изборне чланове Државног већа Народној скупштини Републике Србије најкасније 90 дана пре дана истека мандата изборних чланова Државног већа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan22">
+					<num>22.</num>
+					<heading>Заступљеност јавних тужилаштава</heading>
+					<paragraph wId="gla3-od2-podod1-clan22-stav1">
+						<intro>
+							<p>Изборни чланови Државног већа из реда јавних тужилаца и заменика јавних тужилаца бирају се из следећих јавних тужилаштава:</p>
+						</intro>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali1">
+							<content>
+								<p>едан из Републичког јавног тужилаштва;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali2">
+							<content>
+								<p>едан из апелационих тужилаштава, Тужилаштва за организовани криминал и Тужилаштва за ратне злочине;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali3">
+							<content>
+								<p>едан из виших тужилаштава;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali4">
+							<content>
+								<p>ва из основних тужилаштава;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-od2-podod1-clan22-stav1-ali5">
+							<content>
+								<p>едан из јавних тужилаштава са територије аутономне покрајине.</p>
+							</content>
+						</alinea>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan23">
+					<num>23.</num>
+					<heading>Услови за кандидовање</heading>
+					<paragraph wId="gla3-od2-podod1-clan23-stav1">
+						<content>
+							<p>Кандидат за изборног члана Државног већа из реда јавних тужилаца и заменика јавних тужилаца може бити сваки јавни тужилац и сваки заменик јавног тужиоца са сталном функцијом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav2">
+						<content>
+							<p>Статус кандидата стиче јавни тужилац и заменик јавног тужиоца кога предложи колегијум једног или више јавних тужилаштава, према врсти и степену јавног тужилаштва, односно јавног тужилаштва са територије аутономне покрајине у којима кандидат врши јавнотужилачку функцију, као и јавни тужилац и заменик јавног тужиоца кога подржи најмање 15 јавних тужилаца и заменика јавних тужилаца из врсте и степена јавног тужилаштва у којем кандидат врши јавнотужилачку функцију и јавни тужилац и заменик јавног тужиоца из јавног тужилаштва са територије аутономних покрајина кога подржи најмање 15 јавних тужилаца и заменика јавних тужилаца из јавног тужилаштва са територије аутономних покрајина*. Један колегијум јавног тужилаштва може да предложи само једног кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref17" href="akn/rs/act/2015/106-62/srp@/!main~art_23__para_2" >става 2. овог</ref> члана, за стицање статуса кандидата за изборног члана Државног већа из реда заменика Републичког јавног тужиоца, као и из реда* јавног тужиоца и заменика јавног тужиоца Тужилаштва за ратне злочине и Тужилаштва за организован криминал није потребан предлог колегијума, већ се статус кандидата стиче пријавом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav4">
+						<content>
+							<p>На седници колегијума јавног тужилаштва из <ref wId="ref18" href="akn/rs/act/2015/106-62/srp@/!main~art_23__para_2" >става 2. овог</ref> члана, о предложеним кандидатима, гласа се тајно.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan23-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan24">
+					<num>24.</num>
+					<heading>Бирачко право</heading>
+					<paragraph wId="gla3-od2-podod1-clan24-stav1">
+						<content>
+							<p>Јавни тужиоци и заменици јавних тужилаца бирају кандидате за Државно веће на основу слободног, општег, једнаког и непосредног изборног права, тајним гласањем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav2">
+						<content>
+							<p>Нико нема право да, по било ком основу, спречава или присиљава јавног тужиоца и заменика јавног тужиоца да гласа или да га позива на одговорност због гласања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav3">
+						<content>
+							<p>Право да бирају кандидате за Државно веће имају сви јавни тужиоци и сви* заменици јавних тужилаца са сталном функцијом*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav4">
+						<content>
+							<p>Јавни тужилац и заменик јавног тужиоца гласа само за кандидата са листе кандидата врсте, односно степена јавног тужилаштва у којем врши своју функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav5">
+						<content>
+							<p>Јавни тужилац, односно заменик јавног тужиоца са територије аутономне покрајине, поред листе кандидата из <ref wId="ref20" href="akn/rs/act/2015/106-62/srp@/!main~art_24__para_4" >става 4. овог</ref> члана, гласа и за листу кандидата за јавна тужилаштва са територије аутономне покрајине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan24-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref21" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan25">
+					<num>25.</num>
+					<heading>Изборна комисија</heading>
+					<paragraph wId="gla3-od2-podod1-clan25-stav1">
+						<content>
+							<p>Поступак предлагања кандидата за изборне чланове Државног већа из реда јавних тужилаца и заменика јавних тужилаца организује и спроводи Изборна комисија Државног већа (у даљем тексту: Изборна комисија).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav2">
+						<content>
+							<p>Изборна комисија се састоји од председника и четири члана и њихових заменика, које бира Државно веће из реда јавних тужилаца и заменика јавних тужилаца на сталној функцији, уз њихову сагласност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav3">
+						<content>
+							<p>Заменици чланова Изборне комисије имају иста права и одговорности као и чланови које замењују.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav4">
+						<content>
+							<p>Чланови Државног већа не могу истовремено бити чланови и заменици чланова Изборне комисије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav5">
+						<content>
+							<p>Мандат члановима Изборне комисије траје пет година, уз могућност поновног избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan25-stav6">
+						<content>
+							<p>Чланови Изборне комисије не могу се кандидовати за изборне чланове Државног већа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan26">
+					<num>26.</num>
+					<heading>Положај Изборне комисије</heading>
+					<paragraph wId="gla3-od2-podod1-clan26-stav1">
+						<content>
+							<p>Изборна комисија је самостална и независна у раду и ради на основу закона и прописа донетих на основу закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan26-stav2">
+						<content>
+							<p>Изборна комисија доноси одлуке већином гласова свих чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan26-stav3">
+						<content>
+							<p>За свој рад Изборна комисија одговара Државном већу које обезбеђује услове за њен рад.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan26-stav4">
+						<content>
+							<p>Сва јавна тужилаштва су дужна да пружају помоћ Изборној комисији и да им достављају податке потребне за рад.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod1-clan27">
+					<num>27.</num>
+					<heading>Изборне радње</heading>
+					<paragraph wId="gla3-od2-podod1-clan27-stav1">
+						<content>
+							<p>Изборна комисија, по пријему одлуке о отпочињању поступка предлагања кандидата, доноси одлуку о изборним радњама и роковима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan27-stav2">
+						<content>
+							<p>Председник Изборне комисије доставља јавним тужиоцима одлуку о отпочињању поступка предлагања кандидата и одлуку о изборним радњама и роковима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod1-clan27-stav3">
+						<content>
+							<p>Јавни тужиоци су обавезни да одлуку о отпочињању поступка предлагања кандидата и одлуку о изборним радњама и роковима, учине доступним свим заменицима јавних тужилаца у том јавном тужилаштву, на одговарајући начин.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan28">
+					<num>28.</num>
+					<heading>Кандидациона пријава</heading>
+					<paragraph wId="gla3-od2-podod2-clan28-stav1">
+						<content>
+							<p>Кандидациона пријава се доставља Изборној комисији у року од 15* дана од дана објављивања одлуке о отпочињању поступка предлагања кандидата за изборне чланове Државног већа у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan28-stav2">
+						<content>
+							<p>Уз кандидациону пријаву доставља се потписана изјава кандидата о прихватању кандидатуре и одлука Колегијума јавног тужилаштва о подржавању кандидатуре, односно формулар са потписима јавних тужилаца и заменика јавних тужилаца који подржавају кандидата*, као и лични и професионални подаци о кандидату.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan28-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref22" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan29">
+					<num>29.</num>
+					<heading>Поступак по пријави</heading>
+					<paragraph wId="gla3-od2-podod2-clan29-stav1">
+						<content>
+							<p>Изборна комисија испитује благовременост и потпуност пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan29-stav2">
+						<content>
+							<p>Неблаговремену пријаву Изборна комисија одбацује решењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan29-stav3">
+						<content>
+							<p>Изборна комисија ће, у року од 24 часа од пријема непотпуне пријаве, закључком позвати кандидата да поднету пријаву допуни у року од 48 сати од часа пријема, уз упозорење да ће у супротном бити одбачена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan30">
+					<num>30.</num>
+					<heading>Коначна листа кандидата</heading>
+					<paragraph wId="gla3-od2-podod2-clan30-stav1">
+						<content>
+							<p>Изборна комисија утврђује коначну листу кандидата у року од осам* дана од истека рока из <ref wId="ref23" href="akn/rs/act/2015/106-62/srp@/!main~art_28__para_1" >члана 28. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan30-stav2">
+						<content>
+							<p>Изборна комисија утврђује по једну коначну листу кандидата за сваки степен и врсту јавног тужилаштва, односно из јавних тужилаштава са територије аутономне покрајине из којих се предлажу изборни чланови Државног већа из реда јавних тужилаца и заменика јавних тужилаца, у складу са одредбом <ref wId="ref24" href="akn/rs/act/2015/106-62/srp@/!main~art_22" >члана 22. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan30-stav3">
+						<content>
+							<p>Редослед кандидата на листама утврђује се према редоследу предаје кандидационих пријава Изборној комисији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan30-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref25" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan31">
+					<num>31.</num>
+					<heading>Време избора и бирачка места</heading>
+					<paragraph wId="gla3-od2-podod2-clan31-stav1">
+						<content>
+							<p>Датум и време спровођења избора одређује Изборна комисија и о томе обавештава све јавне тужиоце десет дана пре избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan31-stav2">
+						<content>
+							<p>Јавни тужиоци ће седам дана пре дана одржавања избора обавестити јавним обавештењем заменике јавних тужилаца о дану и времену одржавања избора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan31-stav3">
+						<content>
+							<p>Гласање за кандидате за изборне чланове из реда јавних тужилаца и заменика јавних тужилаца се обавља на бирачким местима у јавним тужилаштвима одређеним од стране Изборне комисије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan32">
+					<num>32.</num>
+					<heading>Бирачки одбори и гласачки материјал</heading>
+					<paragraph wId="gla3-od2-podod2-clan32-stav1">
+						<content>
+							<p>Изборна комисија је дужна да припреми благовремено материјал за гласање за свако бирачко место и то: потребан број гласачких листића и утврђену листу кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan32-stav2">
+						<content>
+							<p>За свако бирачко место Изборна комисија именује бирачки одбор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan32-stav3">
+						<content>
+							<p>Бирачки одбор чине три заменика јавних тужилаца који нису кандидати за избор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan33">
+					<num>33.</num>
+					<heading>Начин гласања</heading>
+					<paragraph wId="gla3-od2-podod2-clan33-stav1">
+						<content>
+							<p>Утврђена листа кандидата на дан гласања мора бити видно истакнута на свим бирачким местима и у свим јавним тужилаштвима према степену и врсти јавних тужилаштава, односно јавног тужилаштва са територије аутономне покрајине који бирају кандидата на тој листи кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan33-stav2">
+						<content>
+							<p>Сваки јавни тужилац и заменик јавног тужиоца гласа лично.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan33-stav3">
+						<content>
+							<p>Гласање је тајно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan33-stav4">
+						<content>
+							<p>Гласа се на овереним гласачким листићима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-podod2-clan33-stav5">
+						<content>
+							<p>Бирачки одбор спроводи гласање у просторији јавног тужилаштва коју благовремено одреди јавни тужилац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-podod2-clan34">
+					<num>34.</num>
+					<heading>Утврђивање резултата</heading>
+					<paragraph wId="gla3-od2-podod2-clan34-stav1">
+						<content>
+							<p>Изборна комисија утврђује укупан број тужилаца и заменика јавних тужилаца и број јавних тужилаца и заменика јавних тужилаца који су гласали по бирачким местима, број неупотребљених, неважећих и важећих гласачких листића, број гласова који су кандидати добили на појединим бирачким местима, као и број укупно добијених гласова по кандидатима за сваку листу кандидата.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-podod1-clan35">
+					<num>35.</num>
+					<paragraph wId="gla3-od3-podod1-clan35-stav1">
+						<content>
+							<p>Државно веће предлаже* једног кандидата са највећим бројем гласова * са сваке листе, на основу записника о утврђивању резултата избора, коју им доставља Изборна комисија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod1-clan35-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref26" href="akn/rs/act/2015/106-62/srp@/!main~art_35__para_1" >става 1. овог</ref> члана, Државно веће предлаже два кандидата са највећим бројем гласова са листе кандидата јавних тужилаца и заменика јавних тужилаца основних тужилаштава.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod1-clan35-stav3">
+						<content>
+							<p>У случају када два или више кандидата на једној изборној листи добије једнак највећи број гласова, Државно веће предлаже кандидата који дуже обавља јавнотужилачку функцију.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod1-clan35-stav4">
+						<content>
+							<p>Коначну одлуку о предлогу кандидата из реда јавних тужилаца, односно заменика јавних тужилаца са сваке листе кандидата Државно веће доставља Народној скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod1-clan35-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-podod2-clan36">
+					<num>36.</num>
+					<paragraph wId="gla3-od3-podod2-clan36-stav1">
+						<content>
+							<p>Поступак предлагања кандидата за изборног члана Државног већа из реда адвоката организује и спроводи Адвокатска комора Србије на начин на који се обезбеђује најшира представљеност њених чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod2-clan36-stav2">
+						<content>
+							<p>Поступак кандидовања, избора и предлагања се спроводи на начин и у роковима које својим актом одреди Адвокатска комора Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod2-clan36-stav3">
+						<content>
+							<p>Адвокатска комора Србије доставља предлог једног или више кандидата Народној скупштини.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-podod3-clan37">
+					<num>37.</num>
+					<paragraph wId="gla3-od3-podod3-clan37-stav1">
+						<content>
+							<p>Предлагање кандидата за изборне чланове Државног већа из реда професора правног факултета спроводи се на начин и по поступку који утврди својим актом заједничка седница декана правних факултета у Републици Србији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-podod3-clan37-stav2">
+						<content>
+							<p>Декан најстаријег правног факултета у Републици Србији доставља предлог кандидата за члана Државног већа из реда професора правног факултета Народној скупштини, у складу са одлуком заједничке седнице свих декана правних факултета у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od4-clan38">
+					<num>38.</num>
+					<heading>Избор чланова</heading>
+					<paragraph wId="gla3-od4-clan38-stav1">
+						<content>
+							<p>Чланове Државног већа бира Народна скупштина на предлог овлашћених предлагача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav2">
+						<content>
+							<p>Народна скупштина бира, за члана Државног већа из реда јавних тужилаца и заменика јавних тужилаца, два кандидата са листе кандидата основних тужилаштава, односно* по једног кандидата са осталих листа* кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav3">
+						<content>
+							<p>Ако изабрани члан Државног већа без оправданог разлога не ступи на функцију у року од 30 дана од дана избора у Народној скупштини сматраће се да није ни изабран.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav4">
+						<content>
+							<p>Разлози за неступање на функцију из <ref wId="ref28" href="akn/rs/act/2015/106-62/srp@/!main~art_38__para_3" >става 3. овог</ref> члана, утврђују се одлуком Државног већа које о томе обавештава Народну скупштину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav5">
+						<content>
+							<p>Државно веће организује поновљене изборе за овог члана у року од 60 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan38-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref29" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕСТАНАК ФУНКЦИЈЕ ЧЛАНОВА ДРЖАВНОГ ВЕЋА</heading>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<heading>Разлози престанка</heading>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Члановима по положају престаје функција у Државном већу када им престане функција по основу које су постали чланови Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav2">
+						<content>
+							<p>Изборним члановима престаје функција у Државном већу трајним губитком радне способности за обављање функције члана Државног већа, оставком на чланство у Државном већу, истеком мандата и разрешењем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav3">
+						<content>
+							<p>Изборним члановима Државног већа из реда јавних тужилаца и заменика јавних тужилаца престаје функција у Државном већу и престанком функције јавног тужиоца и заменика јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav4">
+						<content>
+							<p>Изборном члану Државног већа из реда адвоката престаје функција у Државном већу и брисањем из именика адвоката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav5">
+						<content>
+							<p>Изборном члану Државног већа из реда професора престаје функција у Државном већу и престанком звања професора правног факултета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan40">
+					<num>40.</num>
+					<heading>Превремени престанак мандата</heading>
+					<paragraph wId="gla4-clan40-stav1">
+						<content>
+							<p>Ако изборном члану Државног већа престане мандат пре истека времена на који је изабран, Државно веће ће у року од 15 дана донети одлуку из <ref wId="ref30" href="akn/rs/act/2015/106-62/srp@/!main~art_21__para_1" >члана 21. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav2">
+						<content>
+							<p>Поступак предлагања и избора за новог члана спровешће се у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan40-stav3">
+						<content>
+							<p>Новоизабраном члану мандат траје пет година.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОСТУПАК ЗА РАЗРЕШЕЊЕ</heading>
+				<article wId="gla5-clan41">
+					<num>41.</num>
+					<heading>Разлози</heading>
+					<paragraph wId="gla5-clan41-stav1">
+						<content>
+							<p>Изборни члан Државног већа се разрешава функције пре истека времена на које је изабран ако функцију члана Државног већа не врши у складу са Уставом и законом и ако буде осуђен за кривично дело на безусловну казну затвора, односно за кривично дело које га чини недостојним за вршење функције члана Државног већа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan42">
+					<num>42.</num>
+					<heading>Иницијатива</heading>
+					<paragraph wId="gla5-clan42-stav1">
+						<content>
+							<p>Иницијативу за разрешење изборног члана Државног већа може поднети сваки члан Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan42-stav2">
+						<content>
+							<p>Инцијативу за разрешење изборног члана Државног већа из реда јавних тужилаца и заменика јавних тужилаца може поднети и сваки јавни тужилац, на основу одлуке колегијума тог јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan42-stav3">
+						<content>
+							<p>Иницијативу за разрешење изборног члана Државног већа из реда адвоката, односно професора правног факултета могу поднети њихови овлашћени предлагачи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan43">
+					<num>43.</num>
+					<heading>Оцена прихватљивости иницијативе</heading>
+					<paragraph wId="gla5-clan43-stav1">
+						<content>
+							<p>Државно веће ће у примереном року по пријему иницијативе оценити вероватност разлога због којег се разрешење тражи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan43-stav2">
+						<content>
+							<p>Ако оцени да разлози за разрешење нису учињени вероватним, Државно веће ће писмено обавестити подносиоца да иницијатива није прихваћена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan44">
+					<num>44.</num>
+					<heading>Изјашњење</heading>
+					<paragraph wId="gla5-clan44-stav1">
+						<content>
+							<p>Када прихвати иницијативу Државно веће ће, пре доношења одлуке о покретању поступка, омогућити члану Државног већа чије се разрешење иницира, да се о наводима иницијативе изјасни.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<heading>Покретање поступка</heading>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Одлуку о покретању поступка разрешења доноси Државно веће у року од 15 дана од пријема иницијативе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref32" href="akn/rs/act/2015/106-62/srp@/!main~art_45__para_2" >став 2. </ref>(види <ref wId="ref31" href="akn/rs/act/2011/88/srp@/!main~/art_2">члан 2. Закона - 88/2011-67</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav3">
+						<content>
+							<p>Изборном члану ће се омогућити да се изјасни о свим наводима од значаја за доношење одлуке о разрешењу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan46">
+					<num>46.</num>
+					<heading>Разрешење</heading>
+					<paragraph wId="gla5-clan46-stav1">
+						<content>
+							<p>Предлог за разрешење Државно веће доноси у року од 30 дана од дана покретања поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav2">
+						<content>
+							<p>У доношењу предлога из <ref wId="ref33" href="akn/rs/act/2015/106-62/srp@/!main~art_46__para_1" >става 1. овог</ref> члана не учествује члан Државног већа о чијем се разрешењу одлучује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav3">
+						<content>
+							<p>Одлуку о разрешењу, на основу предлога из <ref wId="ref34" href="akn/rs/act/2015/106-62/srp@/!main~art_46__para_1" >става 1. овог</ref> члана, доноси Народна скупштина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan46-stav4">
+						<content>
+							<p>Брисан је <ref wId="ref36" href="akn/rs/act/2015/106-62/srp@/!main~art_46__para_4" >став 4. </ref>(види <ref wId="ref35" href="akn/rs/act/2011/88/srp@/!main~/art_3">члан 3. Закона - 88/2011-67</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>АДМИНИСТРАТИВНА КАНЦЕЛАРИЈА</heading>
+				<article wId="gla6-clan47">
+					<num>47.</num>
+					<heading>Послови и организација рада</heading>
+					<paragraph wId="gla6-clan47-stav1">
+						<content>
+							<p>За обављање стручних, административних и других послова у оквиру Државног већа образује се административна канцеларија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan47-stav2">
+						<content>
+							<p>Организација, послови и начин рада Административне канцеларије ближе се уређује актом Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan47-stav3">
+						<content>
+							<p>На права и обавезе запослених у Административној канцеларији примењују се прописи који уређују положај државних службеника и намештеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan48">
+					<num>48.</num>
+					<heading>Секретар Државног већа</heading>
+					<paragraph wId="gla6-clan48-stav1">
+						<content>
+							<p>Државно веће има секретара који се поставља на период од пет година и може бити поново постављен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav2">
+						<content>
+							<p>Секретара поставља Државно веће.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav3">
+						<content>
+							<p>Секретар руководи Административном канцеларијом и за свој рад одговоран је Државном већу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav4">
+						<content>
+							<p>Секретар има статус државног службеника на положају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav5">
+						<content>
+							<p>Услови за постављење секретара одређују се актом Државног већа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan49">
+					<num>49.</num>
+					<heading>Упућивање заменика јавног тужиоца</heading>
+					<paragraph wId="gla6-clan49-stav1">
+						<content>
+							<p>Заменик јавног тужиоца може бити упућен, ради обављања стручних послова, у радна тела Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav2">
+						<content>
+							<p>Решење о упућивању доноси Државно веће, по прибављеном мишљењу јавног тужиоца јавног тужилаштва у коме заменик јавног тужиоца врши своју функцију, уз писмену сагласност заменика јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav3">
+						<content>
+							<p>Упућивање може трајати најдуже три године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan50">
+					<num>50.</num>
+					<heading>Први избор чланова Државног већа</heading>
+					<paragraph wId="gla7-clan50-stav1">
+						<content>
+							<p>Народна скупштина ће најкасније у року од 90 дана од дана ступања на снагу овог закона, изабрати изборне чланове првог састава Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan50-stav2">
+						<content>
+							<p>Приликом избора, Народна скупштина дужна је да изабере најмање једног члана Државног већа из реда јавних тужилаца, односно заменика јавних тужилаца који обављају јавнотужилачку функцију у јавном тужилаштву на територији аутономне покрајине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan50-stav3">
+						<content>
+							<p>До избора првог састава Државног већа, послове из надлежности Државног већа у вези са избором изборних чланова Државног већа из реда јавних тужилаца и заменика јавних тужилаца, обавља Високи савет правосуђа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan51">
+					<num>51.</num>
+					<heading>Изборни чланови првог састава Државног већа из реда јавних тужилаца, односно заменика јавних тужилаца</heading>
+					<paragraph wId="gla7-clan51-stav1">
+						<intro>
+							<p>Изборне чланове првог састава Државног већа из реда јавних тужилаца и заменика јавних тужилаца, чине по два члана који се бирају из реда:</p>
+						</intro>
+						<alinea wId="gla7-clan51-stav1-ali1">
+							<content>
+								<p>аменика Републиког јавног тужиоца, Тужиоца за ратне злочине и заменика Тужиоца за ратне злочине;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan51-stav1-ali2">
+							<content>
+								<p>авних тужилаца, односно заменика јавних тужилаца из окружних јавних тужилаштава;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan51-stav1-ali3">
+							<content>
+								<p>авних тужилаца, односно заменика јавних тужилаца из општинских јавних тужилаштава.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav2">
+						<content>
+							<p>Најмање један члан Државног већа из <ref wId="ref37" href="akn/rs/act/2015/106-62/srp@/!main~art_51__para_1" >става 1. </ref>алинеја друга и трећа овог члана мора бити из јавног тужилаштва са територије аутономне покрајине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav3">
+						<content>
+							<p>Кандидате за изборне чланове првог састава Државног већа, Високом савету правосуђа, предлажу колегијуми јавних тужилаштава према врсти и степену јавног тужилаштва у коме кандидат врши функцију јавног тужиоца, односно заменика јавног тужиоца. Један колегијум јавног тужилаштва може да предложи само једног кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav4">
+						<content>
+							<p>Изузетно од <ref wId="ref38" href="akn/rs/act/2015/106-62/srp@/!main~art_51__para_3" >става 3. овог</ref> члана Колегијум Републичког јавног тужилаштва и Тужилаштва за ратне злочине може предложити више од једног кандидата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav5">
+						<content>
+							<p>Кандидати из <ref wId="ref39" href="akn/rs/act/2015/106-62/srp@/!main~art_51__para_3->para_4" >ст. 3. и 4. овог</ref> члана предлажу се Високом савету правосуђа у року од 15 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav6">
+						<content>
+							<p>Високи савет правосуђа у року од 30 дана од дана ступања на снагу овог закона предлаже Народној скупштини једног или више кандидата за сваког изборног члана Државног већа из реда јавних тужилаца, односно заменика јавних тужилаца, у складу са бројем јавних тужилаца, односно заменика јавних тужилаца према врсти и степену јавних тужилаштава прописаних у <ref wId="ref40" href="akn/rs/act/2015/106-62/srp@/!main~art_51__para_1" >ставу 1. овог</ref> члана. При предлагању кандидата, Високи савет правосуђа узима у обзир предлоге из <ref wId="ref41" href="akn/rs/act/2015/106-62/srp@/!main~art_51__para_3->para_4" >ст. 3. и 4. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav7">
+						<content>
+							<p>Високи савет правосуђа утврђује предлог из <ref wId="ref42" href="akn/rs/act/2015/106-62/srp@/!main~art_51__para_6" >става 6. овог</ref> члана већином гласова ужег састава, који чине стални чланови и позивни чланови – јавни тужиоци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav8">
+						<content>
+							<p>До 1. јануара 2010. године, изборни чланови првог састава Државног већа из реда заменика јавних тужилаца, имају право на основну плату једнаку основној плати Републичког јавног тужиоца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan52">
+					<num>52.</num>
+					<heading>Изборни чланови првог састава Државног већа из реда адвоката и професора правног факултета</heading>
+					<paragraph wId="gla7-clan52-stav1">
+						<content>
+							<p>Адвокатска комора Србије и заједничка седница свих декана правних факултета у Републици Србији дужни су да у року од 30 дана од дана ступања на снагу овог закона предложе Народној скупштини једног или више кандидата за избор изборних чланова првог састава Државног већа из реда адвоката, односно професора правног факултета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan52-stav2">
+						<content>
+							<p>Предлагање кандидата из <ref wId="ref43" href="akn/rs/act/2015/106-62/srp@/!main~art_52__para_1" >става 1. овог</ref> члана спровешће се сходном применом овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan53">
+					<num>53.</num>
+					<heading>Конститутивна седница Државног већа</heading>
+					<paragraph wId="gla7-clan53-stav1">
+						<content>
+							<p>Конститутивна седница Државног већа одржаће се у року од седам дана од дана избора изборних чланова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan53-stav2">
+						<content>
+							<p>Конститутивну седницу сазива и њоме председава Републички јавни тужилац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan54">
+					<num>54.</num>
+					<heading>Престанак мандата изборним члановима првог састава Државног већа</heading>
+					<paragraph wId="gla7-clan54-stav1">
+						<content>
+							<p>Изборним члановима првог састава из реда јавних тужилаца и заменика јавних тужилаца престаје мандат даном ступања на функцију изборних чланова сталног састава, а најкасније истеком мандата од пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan54-stav2">
+						<content>
+							<p>Изборним члановима првог састава Државног већа из реда адвоката и професора правног факултета функција престаје истеком мандата прописаног овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan54-stav3">
+						<content>
+							<p>Изборним члановима првог састава Државног већа функција престаје и у свим осталим случајевима прописаним одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan55">
+					<num>55.</num>
+					<heading>Настављање функције јавних тужилаца и заменика јавних тужилаца изборних чланова првог састава Државног већа</heading>
+					<paragraph wId="gla7-clan55-stav1">
+						<content>
+							<p>Изборни члан из реда заменика јавних тужилаца, престанком мандата у првом саставу Државног већа, бира се на функцију заменика јавног тужиоца у јавном тужилаштву из кога је изабран за члана, односно у јавном тужилаштву које је преузело надлежност тог јавног тужилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan55-stav2">
+						<content>
+							<p>Изборни члан из реда јавних тужилаца, након престанка мандата у првом саставу Државног већа, бира се на функцију заменика јавног тужиоца у истом, непосредно вишем јавном тужилаштву, односно јавном тужилаштву које је преузело надлежност јавног тужилаштва из кога је изабран за члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan55-stav3">
+						<content>
+							<p>Одлуку из <ref wId="ref44" href="akn/rs/act/2015/106-62/srp@/!main~art_55__para_1->para_2" >ст. 1. и 2. овог</ref> члана доноси Државно веће у сталном саставу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan56">
+					<num>56.</num>
+					<heading>Рок за спровођење изборног поступка за стални састав Државног већа</heading>
+					<paragraph wId="gla7-clan56-stav1">
+						<content>
+							<p>Изборни поступак чланова сталног састава Државног већа из реда јавних тужилаца и заменика јавних тужилаца спровешће се у року од шест месеци од дана почетка рада јавних тужилаштава одређених Законом о јавном тужилаштву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan57">
+					<num>57.</num>
+					<heading>Обављање послова Административне канцеларије и преузимање запослених</heading>
+					<paragraph wId="gla7-clan57-stav1">
+						<content>
+							<p>Државно веће у року од 90 дана од дана конституисања преузима од министарства надлежног за правосуђе права, обавезе, предмете и архиву који су потребни за вршење преузетих послова, у складу са надлежношћу одређеном овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan57-stav2">
+						<content>
+							<p>Државно веће преузима и државне службенике и намештенике који раде у преузетом делокругу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan57-stav3">
+						<content>
+							<p>Начин преузимања предмета и државних службеника и намештеника уређује својим актом министар надлежан за правосуђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan57-stav4">
+						<content>
+							<p>Док се не попуне радна места предвиђена актом о унутрашњем уређењу и систематизацији радних места у Административној канцеларији, одређене стручне и административне послове за потребе Државног већа може обављати министарство надлежно за правосуђе, у складу са актом Државног већа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan58">
+					<num>58.</num>
+					<heading>Подзаконски акти</heading>
+					<paragraph wId="gla7-clan58-stav1">
+						<content>
+							<p>Подзаконски акти предвиђени овим законом биће донети у року од 90 дана од дана конституисања Државног већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan58-stav2">
+						<content>
+							<p>До доношења аката из <ref wId="ref45" href="akn/rs/act/2015/106-62/srp@/!main~art_58__para_1" >става 1. овог</ref> члана примењиваће се општи акти Високог савета правосуђа, уколико нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan59">
+					<num>59.</num>
+					<heading>Преузимање надлежности Високог савета правосуђа</heading>
+					<paragraph wId="gla7-clan59-stav1">
+						<content>
+							<p>Даном конситуисања, Државно веће преузима надлежности Високог савета правосуђа прописане Законом о јавном тужилаштву („Службени гласник РС”, бр. <ref wId="ref46" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref47" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref48" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref49" href="akn/rs/act/04/44/srp@">44/04</ref>, <ref wId="ref50" href="akn/rs/act/04/51/srp@">51/04</ref>, <ref wId="ref51" href="akn/rs/act/06/46/srp@">46/06</ref> и <ref wId="ref52" href="akn/rs/act/06/106/srp@">106/06</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan60">
+					<num>60.</num>
+					<heading>Престанак важења Закона о Високом савету правосуђа</heading>
+					<paragraph wId="gla7-clan60-stav1">
+						<content>
+							<p>Даном конституисања Државног већа престаје да важи Закон о Високом савету правосуђа („Службени гласник РС”, бр. <ref wId="ref53" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref54" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref55" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref56" href="akn/rs/act/03/41/srp@">41/03</ref> – исправка, 44/04 и 61/05), у делу који се односи на јавне тужиоце и заменике јавних тужилаца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan61">
+					<num>61.</num>
+					<heading>Ступање закона на снагу</heading>
+					<paragraph wId="gla7-clan61-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan61-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan7">
+					<num>7.</num>
+					<heading>Закон о изменама и допунама Закона о Државном већу тужилаца: „Службени гласник РС“, број <ref wId="ref57" href="akn/rs/act/2010/101/srp@">101/2010</ref>-6</heading>
+					<paragraph wId="gla7-clan7-stav1">
+						<content>
+							<p>Изборни поступак за избор чланова сталног састава Државног већа тужилаца из реда јавних тужилаца и заменика јавних тужилаца, спровешће се у року од 60 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan8">
+					<num>8.</num>
+					<paragraph wId="gla7-clan8-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

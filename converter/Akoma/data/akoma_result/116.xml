@@ -1,0 +1,2700 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о судијама">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2008/116-11/main"/>
+					<FRBRuri value="akn/rs/act/2008/116-11"/>
+					<FRBRdate date="2008-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2017/47-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2017/47-3/srp@"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2017/47-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2017/47-3/srp@.akn"/>
+					<FRBRdate date="2017-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2008-12-22" name="службени гласник рс“" number="116" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Суд" value="1. суд" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2008-01-01" refersTo="116/2008-11" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2009-01-01" refersTo="58/2009-11" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2009-01-01" refersTo="104/2009-3" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2010-01-01" refersTo="101/2010-4" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2012-01-01" refersTo="8/2012-147" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2012-01-01" refersTo="121/2012-7" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2012-01-01" refersTo="124/2012-277" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="2013-01-01" refersTo="101/2013-12" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="2014-01-01" refersTo="111/2014-51" source="#somebody" type="amendment" wId="e9"/>
+				<eventRef date="2014-01-01" refersTo="117/2014-3" source="#somebody" type="amendment" wId="e10"/>
+				<eventRef date="2015-01-01" refersTo="40/2015-6" source="#somebody" type="amendment" wId="e11"/>
+				<eventRef date="2015-01-01" refersTo="63/2015-301" source="#somebody" type="amendment" wId="e12"/>
+				<eventRef date="2015-01-01" refersTo="106/2015-61" source="#somebody" type="amendment" wId="e13"/>
+				<eventRef date="2016-01-01" refersTo="63/2016-28" source="#somebody" type="amendment" wId="e14"/>
+				<eventRef date="2017-01-01" refersTo="47/2017-3" source="#somebody" type="amendment" wId="e15"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2008-12-22" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2008-12-30" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2010-01-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступању"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="пресуђује"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="општеприхваћених"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="уговора"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="потврђених"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународних"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="правила"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="суди"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="независан"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="општих"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="устава"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="сталност"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="непреместивост"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународног"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="аката"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="доношењу"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="других"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="судија"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="основу"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="одлуке"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sudija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sudiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sudiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ustavu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakonu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="sudiju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinska komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinske komisije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinskog tužioca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Disciplinskom komisijom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Etičkog kodeksa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropskog suda za ljudska prava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije Visokog saveta sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnom skupštinom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluka US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluku US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Opšta sednica"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Opšte sednice"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Prekršajnog apelacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Privrednog apelacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sudskim poslovnikom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sudskom poslovniku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Upravnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Većima za prekršaje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet pravosuđa"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokog saveta sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokog saveta sudstva preispitaće odluke prvog sastava Visokog saveta sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokom savetu sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokom savetu sudstva osuđujuću pravnosnažnu presudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višeg prekršajnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog suda Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstvo nadležno za pravosuđe"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Koeficijent"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Niko"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Republika Srbija"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Sudiji"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. decembra 2009."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. do 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2014."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. septembra 2016."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="101. stav 1. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 2. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2,50."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="51. stav 2. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="54."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="57. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6,00."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="67. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="82. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="83. i 88."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="99. st. 1. i 2."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у Службеном гласнику РС, односно 30. децембра 2008. године, а примењује се од 1. јануара 2010. године, изузев одредбе члана 20. став 2. која се примењује од ступања овог закона на снагу и одредаба чл. 43-54. и члана 81, члана 82. став 1. и чл. 83. и 88. овог закона, које се примењују од дана конституисања Високог савета судства (види члан 107. Закона).Одлуком Уставног суда број IУз 42/2009 („Службени гласник РС“, број 58/2009) престале су да важе одредба члана 30. став 1. у делу који гласи: „Судија може бити члан Републичке изборне комисије, односно изборне комисије аутономне покрајине и јединице локалне самоуправе” и одредба члана 64. став 2. у делу који гласи: „министра надлежног за правосуђе”, Закона о судијама („Службени гласник РС”, број 116/08) јер је утврђено да нису у сагласности с Уставом (види Одлуку УС - 58/2009-11).Одлуком Уставног суда број IУз 1634/2010 („Службени гласник РС“, број 8/2012) престала је да важи одредба члана 6. став 1. Закона о изменама и допунама Закона о судијама („Службени гласник РС”, број 101/10), у делу који гласи: „односно постојања разлога који указују на повреду поступка у доношењу одлуке о избору или предлогу за избор појединог судије”, јер је утврђено да није у сагласности са Уставом и потврђеним међународним уговором (види Одлуку УС - 8/2012-147).Одлуком Уставног суда број IУз 733/2011 („Службени гласник РС“, број 124/2012) престала је да важи одредба члана 102. став 5. Закона о судијама („Службени гласник РС”, бр. 116/08, 58/09, 101/10 и 8/12 - УС) јер је утврђено да није у сагласности с Уставом (види Одлуку УС - 124/2012-277).Одлуком Уставног суда број IУз 427/2013 („Службени гласник РС“, број 111/2014) престала је да важи друга реченица члана 50. став 4. Закона о судијама („Службени гласник РС”, бр. 116/2008, 58/2009 – УС, 104/2009, 101/2010, 8/2012 – УС, 121/2012, 124/2012 – УС, 101/2013), која гласи: „Високи савет судства дужан је да приликом предлагања кандидата за избор судије прекршајног или основног суда, предложи кандидата који је завршио почетну обуку у Правосудној академији, у складу са посебним законом.”, јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 111/2014-51).Одлуком Уставног суда број IУз-156/2014 (Службени гласник РС, број 63/2015) утврђено је да Закон о допуни Закона о судијама (Службени гласник РС, број 121/2012), којим је додат назив члана изнад члана 100а и члан 100а Закона о судијама, није у сагласности са Уставом (види Одлуку УС - 63/2015-301 ).Одлуком Уставног суда број IУз 92/2014 („Службени гласник РС“, број 63/2016) престале су да важе: 1) одредбе члана 16. Закона о изменама и допунама Закона о судијама („Службени гласник РС”, број 101/13) којом су у члану 42. Закона о судијама додати ст. 5. и 6. јер је утврђено да нису у сагласности са Уставом и потврђеним међународним уговором и 2) одредба члана 41. став 2. Закона о судијама („Службени гласник РС”, бр. 116/08, 58/09 – Одлука УС, 104/09, 101/10, 8/12 – Одлука УС, 121/12, 124/12 – Одлука УС, 101/13, 111/14 – Одлука УС, 117/14, 40/15, 63/15 – Одлука УС и 106/15) јер је утврђено да није у сагласности са Уставом (види Одлуку УС – 63/2016-28).Закон о изменама и допунама Закона о судијама (Службени гласник РС, број 47/2017) ступио је на снагу наредног дана од дана објављивања у Службеном гласнику Републике Србије, односно 16. маја 2017. године (види члан 4. Закона - 47/2017-3).Председник суда, који је изабран на мандат од пет година у складу са Законом о судијама („Службени гласник РС”, бр. 116/08, 58/09 – УС, 104/09, 101/10, 8/12 – УС, 121/12, 124/12 – УС, 101/13, 108/13 – др. закон, 111/14 – УС, 117/14, 40/15, 63/15 – УС, 106/15 и 63/16 – УС), наставља са радом до истека мандата и може бити изабран за председника истог суда још једном на мандат од четири године (види члан 3. Закона - 47/2017-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О судијама „Службени гласник РС“, бр. <ref wId="ref165" href="akn/rs/act/2008/116/srp@">116 од 22. децембра 2008</ref>, <ref wId="ref166" href="akn/rs/act/2009/58/srp@">58 од 25. јула 2009</ref> - УС, <ref wId="ref167" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref>, <ref wId="ref168" href="akn/rs/act/2010/101/srp@">101 од 29. децембра 2010</ref>, <ref wId="ref169" href="akn/rs/act/2012/8/srp@">8 од 3. фебруара 2012</ref> - УС, <ref wId="ref170" href="akn/rs/act/2012/121/srp@">121 од 24. децембра 2012</ref>, <ref wId="ref171" href="akn/rs/act/2012/124/srp@">124 од 29. децембра 2012</ref> - УС, <ref wId="ref172" href="akn/rs/act/2013/101/srp@">101 од 20. новембра 2013</ref>, <ref wId="ref173" href="akn/rs/act/2014/111/srp@">111 од 15. октобра 2014</ref> - УС, <ref wId="ref174" href="akn/rs/act/2014/117/srp@">117 од 29. октобра 2014</ref>, <ref wId="ref175" href="akn/rs/act/2015/40/srp@">40 од 7. маја 2015</ref>, <ref wId="ref176" href="akn/rs/act/2015/63/srp@">63 од 17. јула 2015</ref> - УС, <ref wId="ref177" href="akn/rs/act/2015/106/srp@">106 од 21. децембра 2015</ref>, <ref wId="ref178" href="akn/rs/act/2016/63/srp@">63 од 15. јула 2016</ref> - УС, <ref wId="ref179" href="akn/rs/act/2017/47/srp@">47 од 15. маја 2017</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>прва</num>
+				<heading>НАЧЕЛА</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Независност</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Судија је независан у поступању и доношењу одлуке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Судија суди и пресуђује на основу Устава, закона и других општих аката, потврђених међународних уговора, општеприхваћених правила међународног права.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Сталност и непреместивост</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Судија своју функцију врши као сталну, изузев када се први пут бира за судију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Судија врши функцију у суду за који је изабран.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Без своје сагласности судија не може бити премештен ни упућен у други суд, осим у случајевима предвиђеним овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>Судија може, уз своју сагласност, бити упућен на рад у други државни орган или установу, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Одржавање поверења у независност и непристрасност</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Судија је дужан да у свакој прилици одржи поверење у своју независност и непристрасност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Судија је дужан да непристрасно води поступак по својој савести, у складу са властитом проценом чињеница и тумачењем права, уз обезбеђење правичног суђења и поштовање процесних права странака гарантованих Уставом, законом и међународним актима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Службе, послови и поступци неспојиви са дужношћу судије одређују се законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Судије су дужне да се у свакој прилици придржавају Етичког кодекса, који доноси Високи савет судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>Сви државни органи и функционери дужни су да својим поступањем и понашањем одржавају поверење у независност и непристрасност судија и судова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Материјална независност</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Судија има право на плату у складу са достојанством судијске функције и његовом одговорношћу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Плата судије значи гаранцију његове независности и сигурности његове породице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Имунитет</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Судија не може бити позван на одговорност за изражено мишљење или гласање приликом доношења судске одлуке, осим ако се ради о кривичном делу кршења закона од стране судије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Судија не може бити лишен слободе у поступку покренутом због кривичног дела учињеног у обављању судијске функције без одобрења Високог савета судства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Одговорност за штету</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>За штету коју судија проузрокује незаконитим или неправилним радом одговара Република Србија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Ако је Република Србија на основу правноснажне судске  одлуке, односно поравнања закљученог пред судом или другим надлежним органом,  исплатила штету из <ref wId="ref0" href="akn/rs/act/2017/47-3/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, може тражити од судије накнаду  исплаћеног износа, ако је штета проузрокована намерно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav3">
+						<content>
+							<p>Ако је одлуком Уставног суда, Европског суда за људска  права или другог међународног суда, утврђено да су у току судског поступка  кршена људска права и основне слободе и да је пресуда заснована на таквом кршењу  или да је пресуда изостала због кршења права на суђење у разумном року,  Република Србија може тражити од судије накнаду исплаћеног износа, ако је штета  учињена намерно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav4">
+						<content>
+							<p>На захтев министра надлежног за правосуђе, Републички  јавни правобранилац је дужан да покрене парнични поступак пред надлежним судом  за накнаду исплаћеног износа из <ref wId="ref1" href="akn/rs/act/2017/47-3/srp@/!main~art_6__para_2->para_3" >ст. 2. и 3. овог</ref> члана, по претходно прибављеном  мишљењу Високог савета судства. Високи савет судства даје мишљење у року од 30  дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Право на удруживање</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Судије имају право да се удружују у струковна удружења  ради заштите својих интереса и очувањa независности и самосталности у раду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<content>
+							<p>Право струковног удруживања подразумева и учешће у  активностима струковних удружења у току радног времена, ако се тиме не ремети  рад у суду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Учешће у доношењу одлука од значаја за рад судова</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Судија има право да узме учешће у доношењу одлука од значаја за рад судова и за одређивање и распоређивање средстава за функционисање судова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Право на стручно усавршавање и обуку</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Судија има право и обавезу на стручно усавршавање и обуку о трошку Републике Србије, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav2">
+						<content>
+							<p>Обука судија је организовано стицање и усавршавање теоријских и практичних знања и вештина потребних за самостално, стручно и ефикасно вршење судијске функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav3">
+						<content>
+							<p>Обука је обавезна на основу закона или одлуке Високог савета судства у случају промене специјализације, битних промена прописа, увођења нових техника рада и ради отклањања недостатака у раду судије уочених приликом вредновања његовог рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav4">
+						<content>
+							<p>Садржај програма обуке одређује се у зависности од професионалног искуства судије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<heading>Избор и престанак функције и број судија и судија поротника</heading>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Судију и председника суда бира и о престанку њихове функције одлучује Народна скупштина, односно Високи савет судства, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav2">
+						<content>
+							<p>Број судија и судија поротника за сваки суд одређује Високи савет судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav3">
+						<content>
+							<p>Број судија прекршајних,  Прекршајног апелационог и Управног суда одређује се и за свако одељење изван седишта суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav4">
+						<content>
+							<p>Високи савет судства преиспитује потребан број судија и судија поротника у сваком суду на пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav5">
+						<content>
+							<p>По сопственој иницијативи или на предлог председника суда, председника непосредно вишег суда, председника Врховног касационог суда и министра надлежног за правосуђе, а на основу годишњег прилива предмета, Високи савет судства може преиспитати потребан број судија и судија поротника и пре истека рока од пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan10-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan11">
+					<num>11.</num>
+					<heading>Права из радног односа судије</heading>
+					<paragraph wId="gla1-clan11-stav1">
+						<content>
+							<p>Судија остварује права из радног односа у складу са прописима који уређују права из радног односа изабраних лица, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>друга</num>
+				<heading>ПОЛОЖАЈ СУДИЈЕ</heading>
+			</chapter>
+			<article wId="gla1-od1-clan12">
+				<num>12.</num>
+				<paragraph wId="gla1-od1-clan12-stav1">
+					<content>
+						<p>Судијска функција траје непрекидно од првог избора за судију до навршења радног века.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-od1-clan12-stav2">
+					<content>
+						<p>После избора судијска функција може престати под условима предвиђеним овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-od1-clan12-stav3">
+					<content>
+						<p>Изузетно, лице које се први пут бира за судију, бира се на три године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-od2-clan13">
+				<num>13.</num>
+				<heading>*Службени гласник РС, број <ref wId="ref7" href="akn/rs/act/2013/101/srp@">101/2013</ref></heading>
+				<paragraph wId="gla1-od2-clan13-stav1">
+					<content>
+						<p>Судијска функција не престаје ако буде смањен број судија у суду у коме обавља судијску функцију.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-od2-clan13-stav2">
+					<content>
+						<p>Брисани су  ранији <ref wId="ref6" href="akn/rs/act/2017/47-3/srp@/!main~art_13__para_2->para_3" >ст. 2. и 3. </ref>(види <ref wId="ref5" href="akn/rs/act/2013/101/srp@/!main~/art_4">члан 4. Закона - 101/2013-12</ref>)</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-od3-clan14">
+				<num>14.</num>
+				<heading>Разлози за удаљење</heading>
+				<paragraph wId="gla1-od3-clan14-stav1">
+					<content>
+						<p>Судија се удаљује са функције кад му је одређен притвор.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-od3-clan14-stav2">
+					<content>
+						<p>Судија може бити удаљен са функције кад је покренут поступак за његово разрешење или кривични поступак за дело због кога може бити разрешен.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-od3-clan15">
+				<num>15.</num>
+				<heading>Одлука о удаљењу</heading>
+				<paragraph wId="gla1-od3-clan15-stav1">
+					<content>
+						<p>О обавезном удаљењу судије одлучује председник суда, а о обавезном удаљењу председника суда – председник непосредно вишег суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-od3-clan15-stav2">
+					<content>
+						<p>Ако удаљење није обавезно, о њему одлучује председник Врховног касационог суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-od3-clan15-stav3">
+					<content>
+						<p>О удаљењу председника Врховног касационог суда одлучује Општа седница.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-od3-clan16">
+				<num>16.</num>
+				<heading>Трајање удаљења</heading>
+				<paragraph wId="gla1-od3-clan16-stav1">
+					<content>
+						<p>Судија се удаљује са функције до укидања притвора, окончања поступка за разрешење или окончања кривичног поступка.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-od3-clan16-stav2">
+					<content>
+						<p>Високи савет судства може судију вратити на функцију пре окончања поступка за разрешење.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-od3-clan17">
+				<num>17.</num>
+				<heading>Право на приговор</heading>
+				<paragraph wId="gla1-od3-clan17-stav1">
+					<content>
+						<p>На одлуку о удаљењу судија има право приговора Високом савету судства, у року од осам дана од дана достављања одлуке.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-od3-clan17-stav2">
+					<content>
+						<p>Високи савет судства одлучује о приговору из <ref wId="ref8" href="akn/rs/act/2017/47-3/srp@/!main~art_17__para_1" >става 1. овог</ref> члана у року од осам дана од дана достављања приговора.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od1-clan18">
+				<num>18.</num>
+				<paragraph wId="gla2-od1-clan18-stav1">
+					<content>
+						<p>Судија има право да стално своју функцију врши у суду за који је изабран, осим у случајевима прописаним овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan18-stav2">
+					<content>
+						<p>Судија само уз своју сагласност може бити премештен или упућен из једног у други суд, други државни орган, установу или међународну организацију у области правосуђа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan18-stav3">
+					<content>
+						<p>Сагласност се даје у писменом облику и мора да претходи доношењу решења о премештају или упућивању.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan18-stav4">
+					<content>
+						<p>Брисан је  ранији <ref wId="ref10" href="akn/rs/act/2017/47-3/srp@/!main~art_18__para_4" >став 4. </ref>(види <ref wId="ref9" href="akn/rs/act/2013/101/srp@/!main~/art_5">члан 5. Закона - 101/2013-12</ref>)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od1-clan18-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref11" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od2-clan19">
+				<num>19.</num>
+				<paragraph wId="gla2-od2-clan19-stav1">
+					<content>
+						<p>Судија може, уз своју  писмену сагласност, бити премештен у други суд исте врсте и истог  или нижег степена, уколико постоји потреба за хитном попуном упражњеног судијског места, која се не може решити избором или упућивањем судије, уз прибављену сагласност председника оба суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan19-stav2">
+					<content>
+						<p>Изузетно од <ref wId="ref12" href="akn/rs/act/2017/47-3/srp@/!main~art_19__para_1" >става 1. овог</ref> члана, судија може без своје  писмене сагласности бити премештен у други суд у случају укидања суда или  укидања претежног дела надлежности суда за који је изабран.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan19-stav3">
+					<content>
+						<p>Суду је укинут претежни део надлежности када је због  промене стварне надлежности, због оснивања новог суда или због промене подручја  на којем суд врши надлежност измењен потребан број судија у суду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan19-stav4">
+					<content>
+						<p>У случају из <ref wId="ref13" href="akn/rs/act/2017/47-3/srp@/!main~art_19__para_2" >става 2. овог</ref> члана судија може бити  премештен само у суд истог степена који преузима надлежност суда који је укинут  или којем је укинут претежни део надлежности, на основу критеријума које  прописује Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan19-stav5">
+					<content>
+						<p>Судија трајно наставља функцију у суду у који је премештен.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan19-stav6">
+					<content>
+						<p>Решење о премештају доноси Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od2-clan19-stav7">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref14" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od3-clan20">
+				<num>20.</num>
+				<paragraph wId="gla2-od3-clan20-stav1">
+					<content>
+						<p>Судија може бити упућен на рад само у други суд исте врсте и истог или непосредно нижег степена, најдуже годину дана.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od3-clan20-stav2">
+					<content>
+						<p>Изузетно, судија може бити упућен у суд непосредно вишег степена, ако испуњава законом прописане услове за избор за судију суда у који се упућује.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od3-clan20-stav3">
+					<content>
+						<p>Судија се упућује у суд у коме недостатак, спреченост, изузеће судија или други разлози отежавају или успоравају рад суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od3-clan20-stav4">
+					<content>
+						<p>Решење о упућивању судије из <ref wId="ref15" href="akn/rs/act/2017/47-3/srp@/!main~art_20__para_1->para_3" >ст. 1. </ref>до 3. овог члана, уз сагласност судије, доноси Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od3-clan20-stav5">
+					<content>
+						<p>Пре доношења решења о упућивању судије из <ref wId="ref16" href="akn/rs/act/2017/47-3/srp@/!main~art_20__para_1->para_3" >ст. 1. </ref>до 3. овог члана, Високи савет  судства ће прибавити мишљење седнице свих судија суда у који је судија изабран и  суда у који се упућује.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od3-clan20-stav6">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref17" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-od4-clan21">
+				<num>21.</num>
+				<paragraph wId="gla2-od4-clan21-stav1">
+					<content>
+						<p>Судија може бити упућен, ради обављања стручних послова, у Високи савет судства, министарство надлежно за правосуђе, институцију надлежну за обуку у правосуђу и међународну организацију у области правосуђа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od4-clan21-stav2">
+					<content>
+						<p>Упућивање из <ref wId="ref18" href="akn/rs/act/2017/47-3/srp@/!main~art_21__para_1" >става 1. овог</ref> члана врши се на предлог руководиоца органа, односно институције или организације у коју се судија упућује, по прибављеном мишљењу председника суда у коме судија врши своју функцију, уз сагласност судије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od4-clan21-stav3">
+					<content>
+						<p>Упућивање може трајати најдуже три године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od4-clan21-stav4">
+					<content>
+						<p>Решење о упућивању доноси Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od4-clan21-stav5">
+					<content>
+						<p>За време упућивања судија се може ослободити вршења судијске функције, на основу одлуке Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-od4-clan21-stav6">
+					<content>
+						<p>У случају упућивања у министарство надлежно за послове правосуђа судија се обавезно ослобађа вршења судијске функције.</p>
+					</content>
+				</paragraph>
+			</article>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>МЕЂУСОБНА НЕЗАВИСНОСТ СУДИЈА</heading>
+				<article wId="gla3-od1-clan22">
+					<num>22.</num>
+					<paragraph wId="gla3-od1-clan22-stav1">
+						<content>
+							<p>Судија је слободан у заступању свог схватања, утврђивању чињеница и примени права, у свему о чему одлучује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan22-stav2">
+						<content>
+							<p>Судија није дужан да икоме, па ни другим судијама и председнику суда, објашњава своја правна схватања и утврђено чињенично стање, изузев у образложењу одлуке или кад то закон посебно налаже.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan23">
+					<num>23.</num>
+					<heading>Неизмењивост годишњих послова</heading>
+					<paragraph wId="gla3-od2-clan23-stav1">
+						<content>
+							<p>Судија има право да му се врста судијског посла одреди годишњим распоредом послова и да се не мења током године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan23-stav2">
+						<content>
+							<p>Изузетно, због избора новог судије, дужег одсуства судије, знатно повећаног или смањеног прилива предмета у току године по појединим правним областима или упражњеног судијског места, судији може током године бити промењена правна област у којој поступа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan23-stav3">
+						<content>
+							<p>Годишњи распоред послова и његова измена се одређују с обзиром на потребе суда и способност судије за успешно обављање послова на које се распоређује.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan24">
+					<num>24.</num>
+					<heading>Расподела предмета случајем</heading>
+					<paragraph wId="gla3-od2-clan24-stav1">
+						<content>
+							<p>Судија предмете прима према редоследу независном од личности странака и околности правне ствари.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan24-stav2">
+						<content>
+							<p>Судији се предмети поверавају на основу распореда послова у суду, у складу са Судским пословником, према редоследу унапред утврђеним за сваку календарску годину, искључиво на основу ознаке и броја предмета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan24-stav3">
+						<content>
+							<p>Нико нема права да судска већа образује и предмете додељује мимо распореда послова и редоследа пријема предмета.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan25">
+					<num>25.</num>
+					<heading>Одступања</heading>
+					<paragraph wId="gla3-od2-clan25-stav1">
+						<content>
+							<p>Од редоследа пријема предмета може се одступити у  случајевима предвиђеним законом, као и у случају оптерећености или оправдане  спречености судије, у складу са Судским пословником.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan25-stav2">
+						<content>
+							<p>У складу са Судским пословником, судији може бити  одузет предмет: ако је због његовог дужег одсуства потребно поступити по  предмету који је хитан по закону или по својој суштини; ако је угрожено ефикасно  функционисање суда; ако је судији правноснажно изречена дисциплинска санкција  због дисциплинског прекршаја неоправданог одуговлачења поступка, као и у другим  случајевима предвиђеним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan25-stav3">
+						<content>
+							<p>Одузети предмет из <ref wId="ref19" href="akn/rs/act/2017/47-3/srp@/!main~art_25__para_2" >става 2. овог</ref> члана додељује се у  рад другом судији, у складу са Судским пословником.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan25-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref20" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan26">
+					<num>26.</num>
+					<heading>Право на приговор</heading>
+					<paragraph wId="gla3-od2-clan26-stav1">
+						<content>
+							<p>На годишњи распоред послова, промену врсте посла, одступање од редоследа пријема предмета или одузимање предмета, судија има право на приговор председнику непосредно вишег суда, у року од три дана од дана сазнања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan26-stav2">
+						<content>
+							<p>О приговору судије Врховног касационог суда одлучује Општа седница.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan26-stav3">
+						<content>
+							<p>Право на приговор због одузимања предмета има и странка, у року од три дана од дана сазнања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan26-stav4">
+						<content>
+							<p>Одлука по приговору доноси се у року од 15 дана од дана достављања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan27">
+					<num>27.</num>
+					<heading>Дужност обавештавања председника непосредно вишег суда</heading>
+					<paragraph wId="gla3-od2-clan27-stav1">
+						<content>
+							<p>Председник суда је дужан да о сваком одступању од редоследа пријема предмета писмено обавести председника непосредно вишег суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan28">
+					<num>28.</num>
+					<paragraph wId="gla3-od3-clan28-stav1">
+						<content>
+							<p>Судија је дужан да председника суда обавести зашто првостепени поступак није окончан у року од једне године и да га затим на свака три месеца обавештава о даљем развоју поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan28-stav2">
+						<content>
+							<p>Прво обавештење у поступку по правном леку судија даје председнику суда после два месеца, а наредна на сваких 30 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan28-stav3">
+						<content>
+							<p>У првостепеном поступку председник суда је дужан да обавести председника непосредно вишег суда о сваком поступку који није окончан у року од две године и разлозима за то.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan28-stav4">
+						<content>
+							<p>У поступку по правном леку који није окончан у року од једне године, председник суда је дужан да обавести председника Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan28-stav5">
+						<content>
+							<p>Рок за обавештавање у извршним, ванпарничним и другим неспорним стварима одређује се Судским пословником.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan28-stav6">
+						<content>
+							<p>Дужност обавештавања из овог члана тече од дана пријема предмета у суд.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od4-clan29">
+					<num>29.</num>
+					<paragraph wId="gla3-od4-clan29-stav1">
+						<content>
+							<p>Судија може Високом савету судства изјавити притужбу ако му је повређено право за које овим законом није предвиђен посебан поступак заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan29-stav2">
+						<content>
+							<p>Притужба се доставља лицу на кога се притужба односи и којe се може изјаснити у  року од три дана од дана пријема.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan29-stav3">
+						<content>
+							<p>Високи савет судства одлучује о притужби у року од 15 дана и одмах упознаје са одлуком  судију подносиоца притужбе, председника суда, председника непосредно вишег суда и председника Врховног касационог суда. Ако је притужба основана, Високи савет судства предузима мере ради заштите права судије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan29-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref21" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОДНОС СУДИЈСКЕ ФУНКЦИЈЕ И ДРУГИХ СЛУЖБИ, ПОСЛОВА И ПОСТУПАКА</heading>
+				<article wId="gla4-od1-clan30">
+					<num>30.</num>
+					<paragraph wId="gla4-od1-clan30-stav1">
+						<content>
+							<p>Судија не може бити на функцијама у органима који доносе прописе и органима извршне власти, јавним службама и органима покрајинске аутономије и јединица локалне самоуправе. Судија не може бити члан политичке странке, нити политички деловати на други начин, бавити се било којим јавним или приватним плаћеним послом, нити пружати правне услуге  ни давати правне савете уз накнаду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref22" href="akn/rs/act/2017/47-3/srp@/!main~art_30__para_1" >става 1. овог</ref> члана, судија може бити члан  органа управљања институције надлежне за обуку у правосуђу, на основу одлуке  Високог савета судства, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav3">
+						<content>
+							<p>Са судијском функцијом неспојиве су и друге службе, послови и поступци који су опречни достојанству и независности судије или штете угледу суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav4">
+						<content>
+							<p>Високи савет судства одлучује који су поступци опречни достојанству и независности судије и штетни по углед суда, на основу Етичког кодекса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav5">
+						<content>
+							<p>Судија може, ван радног времена, да се без посебног одобрења бави наставном и научном делатношћу, уз накнаду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav6">
+						<content>
+							<p>У случајевима одређеним законом, судија може, у току радног времена, да обавља наставну и научну делатност у институцији надлежној за обуку у правосуђу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav7">
+						<content>
+							<p>Судија може у току радног времена, по одобрењу председника суда, да учествује у  раду стручних тела образованих у складу са посебним прописима и радних група за  израду закона и других аката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav8">
+						<content>
+							<p>Судија може бити упућен на студијско, односно друго стручно путовање у иностранство, на основу одлуке Високог савета судства, уз прибављено мишљење председника суда, при чему се посебно узимају у обзир оцене о раду из личног листа судије, као и познавање страног језика.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2009/58/srp@">58/2009</ref> (Одлука УС)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav10">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref24" href="akn/rs/act/2009/104/srp@">104/2009</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od1-clan30-stav11">
+						<content>
+							<p>***Службени гласник РС, број <ref wId="ref25" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan31">
+					<num>31.</num>
+					<heading>Дужност обавештавања и подношење пријаве</heading>
+					<paragraph wId="gla4-od2-clan31-stav1">
+						<content>
+							<p>Судија је дужан да писмено обавести Високи савет судства о свакој служби или послу за које постоји могућност да су неспојиви са судијском функцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan31-stav2">
+						<content>
+							<p>Високи савет судства обавештава председника суда и судију о постојању неспојивости службе или посла са судијском функцијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-od2-clan31-stav3">
+						<content>
+							<p>Председник суда дужан је да поднесе дисциплинску пријаву чим сазна да судија врши службу или посао или чини поступке за које постоји могућност да су неспојиви са његовом функцијом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ВРЕДНОВАЊЕ РАДА СУДИЈА</heading>
+				<article wId="gla5-clan32">
+					<num>32.</num>
+					<paragraph wId="gla5-clan32-stav1">
+						<content>
+							<p>Рад свих судија и председника судова подлеже редовном вредновању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav2">
+						<content>
+							<p>Вредновање обухвата све аспекте судијског посла, односно послова председника суда и представља основу за избор, обавезну обуку судија и разрешење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav3">
+						<content>
+							<p>Вредновање се врши на основу јавно објављених, објективних и јединствених критеријума и мерила, у јединственом поступку у коме је обезбеђено учешће судије, односно председника суда чији се рад вреднује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav4">
+						<content>
+							<p>Критеријуме, мерила и поступак за вредновање рада судија, односно председника судова утврђује Високи савет судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav5">
+						<content>
+							<p>Органи надлежни за вредновање</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan33">
+					<num>33.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref29" href="akn/rs/act/2013/101/srp@">101/2013</ref></heading>
+					<paragraph wId="gla5-clan33-stav1">
+						<content>
+							<p>Комисије Високог савета судства вреднују рад судија и  председника судова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav2">
+						<content>
+							<p>Комисије су састављене од три члана, у којима судије  судова вишег степена вреднују рад судија и председника судова нижег степена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav3">
+						<content>
+							<p>О приговорима на оцену одлучује комисија од три члана  коју именује Високи савет судства из реда судија Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav4">
+						<content>
+							<p>Против одлуке комисије из <ref wId="ref26" href="akn/rs/act/2017/47-3/srp@/!main~art_33__para_3" >става 3. овог</ref> члана може се  покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav5">
+						<content>
+							<p>Састав и начин рада комисија из <ref wId="ref27" href="akn/rs/act/2017/47-3/srp@/!main~art_33__para_1" >става 1. овог</ref> члана  уређују се актом Високог савета судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref28" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan34">
+					<num>34.</num>
+					<heading>Вредновање од стране Високог савета судства</heading>
+					<paragraph wId="gla5-clan34-stav1">
+						<content>
+							<p>Брисан је  (види <ref wId="ref30" href="akn/rs/act/2013/101/srp@/!main~/art_12">члан 12. Закона - 101/2013-12</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan35">
+					<num>35.</num>
+					<heading>Период за који се врши вредновање</heading>
+					<paragraph wId="gla5-clan35-stav1">
+						<content>
+							<p>Рад судија на сталној функцији и председника судова редовно се вреднује једном у три године, а судија који су први пут изабрани једном годишње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan35-stav2">
+						<content>
+							<p>Изузетно, на основу одлуке Високог савета судства, судија може бити и ванредно вреднован.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan36">
+					<num>36.</num>
+					<heading>Оцене</heading>
+					<paragraph wId="gla5-clan36-stav1">
+						<content>
+							<p>Вредновање се изражава оценом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan36-stav2">
+						<content>
+							<p>Оцене које се односе на вредновање судија, су: „изузетно успешно обавља судијску функцију”, „успешно обавља судијску функцију” и „не задовољава”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan36-stav3">
+						<content>
+							<p>Оцене које се односе на вредновање председника суда, су: „изузетно успешно обавља функцију председника суда”, „успешно обавља функцију председника суда” и „ незадовољавајуће обавља функцију председника суда”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan36-stav4">
+						<content>
+							<p>Оцена се уписује у лични лист судије, односно председника суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan36-stav5">
+						<content>
+							<p>Брисан је  ранији <ref wId="ref32" href="akn/rs/act/2017/47-3/srp@/!main~art_36__para_5" >став 5. </ref>(види <ref wId="ref31" href="akn/rs/act/2013/101/srp@/!main~/art_13">члан 13. Закона - 101/2013-12</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>МАТЕРИЈАЛНИ ПОЛОЖАЈ СУДИЈЕ</heading>
+				<article wId="gla6-clan37">
+					<num>37.</num>
+					<heading>Основна плата</heading>
+					<paragraph wId="gla6-clan37-stav1">
+						<content>
+							<p>Судија има право на плату судије суда за који је изабран.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav2">
+						<content>
+							<p>Плата судије одређује се на основу основне плате.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav3">
+						<content>
+							<p>Основна плата одређује се множењем коефицијената за обрачун и исплату плата са основицом за обрачун и исплату плата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav4">
+						<content>
+							<p>Основица за обрачун и исплату плата судије утврђује се Законом о буџету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav5">
+						<content>
+							<p>Коефицијент за обрачун и исплату плате одређује се тиме што се сваки судија разврстава у једну од пет платних група.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav6">
+						<content>
+							<p>Основна плата, према овом закону, јесте вредност у коју се не урачунава проценат за вредновање минулог рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav7">
+						<content>
+							<p>Судија не може да уз плату прима и пензију остварену у складу са посебним  прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref33" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan38">
+					<num>38.</num>
+					<heading>Платне групе судија</heading>
+					<paragraph wId="gla6-clan38-stav1">
+						<content>
+							<p>Судије су разврстане у шест платних група, који су изражени у коефицијентима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav2">
+						<content>
+							<p>У првој платној групи су судије прекршајних судова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav3">
+						<content>
+							<p>У другој платној групи су судије основних судова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav4">
+						<content>
+							<p>У трећој платној групи су судије привредних, виших и  Прекршајног апелационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav5">
+						<content>
+							<p>У четвртој платној групи су судије Привредног апелационог, апелационих судова и Управног суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav6">
+						<content>
+							<p>У петој платној групи су судије Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav7">
+						<content>
+							<p>У шестој платној групи је председник Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref34" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan39">
+					<num>39.</num>
+					<heading>Коефицијенти</heading>
+					<paragraph wId="gla6-clan39-stav1">
+						<content>
+							<p>Прва платна група има коефицијент 2,50.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav2">
+						<content>
+							<p>Друга платна група има коефицијент 3,00.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav3">
+						<content>
+							<p>Трећа платна група има коефицијент 3,50.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav4">
+						<content>
+							<p>Четврта платна група има коефицијент 4,00.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav5">
+						<content>
+							<p>Пета платна група има коефицијент 5,00.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav6">
+						<content>
+							<p>Шеста платна група има коефицијент 6,00.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan40">
+					<num>40.</num>
+					<heading>Основна плата председника суда</heading>
+					<paragraph wId="gla6-clan40-stav1">
+						<intro>
+							<p>Основна плата председника суда се одређује тако што се плата судије тог суда увећава за:</p>
+						</intro>
+						<alinea wId="gla6-clan40-stav1-ali1">
+							<content>
+								<p>0%, у суду до 20 судија;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla6-clan40-stav1-ali2">
+							<content>
+								<p>5%, у суду до 40 судија;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla6-clan40-stav1-ali3">
+							<content>
+								<p>0% у суду до 60 судија;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla6-clan40-stav1-ali4">
+							<content>
+								<p>5% у суду до 80 судија;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla6-clan40-stav1-ali5">
+							<content>
+								<p>0% у суду преко 80 судија.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla6-clan40-stav2">
+						<content>
+							<p>Одредба <ref wId="ref35" href="akn/rs/act/2017/47-3/srp@/!main~art_40__para_1" >става 1. овог</ref> члана се не примењује на председника Врховног касационог суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan41">
+					<num>41.</num>
+					<heading>Плата судије који је премештен, односно упућен</heading>
+					<paragraph wId="gla6-clan41-stav1">
+						<content>
+							<p>Судија који је премештен, односно упућен у други суд, министарство надлежно за правосуђе, установу или међународну организацију има право на основну плату судије суда, односно на основну плату у министарству надлежном за правосуђе, установи или међународној организацији у коју је премештен, односно упућен, ако је за њега повољнија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan41-stav2">
+						<content>
+							<p>Престао  је да важи ранији <ref wId="ref36" href="akn/rs/act/2017/47-3/srp@/!main~art_41__para_2" >став 2. </ref>(види     Одлуку УС -  63/2016-28)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan42">
+					<num>42.</num>
+					<heading>Увећање основне плате судије</heading>
+					<paragraph wId="gla6-clan42-stav1">
+						<content>
+							<p>Основна плата судије који обавља функцију у суду у коме се не могу попунити судијска места може се увећати до 50%.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan42-stav2">
+						<content>
+							<p>Основна плата судије који поступа у предметима кривичних дела са елементом организованог криминала и ратног злочина, може се увећати до 100%.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan42-stav3">
+						<content>
+							<p>Одлуку о увећању основне плате из <ref wId="ref37" href="akn/rs/act/2017/47-3/srp@/!main~art_42__para_1->para_2" >ст. 1. и 2. овог</ref> члана доноси Високи савет судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan42-stav4">
+						<content>
+							<p>Основна плата заменика председника суда увећава се за 50% увећања из <ref wId="ref38" href="akn/rs/act/2017/47-3/srp@/!main~art_40__para_1" >члана 40. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan42-stav5">
+						<content>
+							<p>Престали  су да важе ранији <ref wId="ref39" href="akn/rs/act/2017/47-3/srp@/!main~art_42__para_5->para_6" >ст. 5. и 6. </ref>(види     Одлуку УС -  63/2016-28)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<article wId="gla1-clan43">
+				<num>43.</num>
+				<paragraph wId="gla1-clan43-stav1">
+					<content>
+						<p>За судију може бити изабран држављанин Републике Србије који испуњава опште услове за рад у државним органима, који је завршио правни факултет, положио правосудни испит и који је стручан, оспособљен и достојан судијске функције.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan44">
+				<num>44.</num>
+				<heading>Потребно радно искуство</heading>
+				<paragraph wId="gla1-clan44-stav1">
+					<intro>
+						<p>После положеног правосудног испита потребно је радно искуство у правној струци:</p>
+					</intro>
+					<alinea wId="gla1-clan44-stav1-ali1">
+						<content>
+							<p>ве године за судију прекршајног суда;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-clan44-stav1-ali2">
+						<content>
+							<p>ри године за судију основног суда;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-clan44-stav1-ali3">
+						<content>
+							<p>ест година за судију вишег суда, привредног суда и  Прекршајног апелационог суда;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-clan44-stav1-ali4">
+						<content>
+							<p>есет година за судију апелационог суда, Привредног апелационог суда и Управног суда;</p>
+						</content>
+					</alinea>
+					<alinea wId="gla1-clan44-stav1-ali5">
+						<content>
+							<p>ванаест година за судију Врховног касационог суда.</p>
+						</content>
+					</alinea>
+				</paragraph>
+				<paragraph wId="gla1-clan44-stav2">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref40" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan45">
+				<num>45.</num>
+				<heading>Остали услови за избор</heading>
+				<paragraph wId="gla1-clan45-stav1">
+					<content>
+						<p>Остали услови за избор судије су стручност, оспособљеност и достојност.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav2">
+					<content>
+						<p>Стручност подразумева поседовање теоријског и практичног знања потребног за обављање судијске функције.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav3">
+					<content>
+						<p>Оспособљеност подразумева вештине које омогућавају ефикасну примену специфичних правничких знања у решавању судских предмета.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav4">
+					<content>
+						<p>Достојност подразумева моралне особине које судија треба да поседује и понашање у складу са тим особинама.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav5">
+					<content>
+						<p>Моралне особине које судија треба да поседује су: поштење, савесност, правичност, достојанственост, истрајност и узорност, а понашање у складу са тим особинама подразумева чување угледа судије и суда у служби и изван ње, свест о друштвеној одговорности, одржавање независности и непристрасности, поузданости и достојанства у служби и изван ње и преузимање одговорности за унутрашњу организацију и позитивну слику о судству у јавности.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav6">
+					<content>
+						<p>Критеријуме и мерила за оцену стручности, оспособљености и достојности прописује Високи савет судства, у складу са законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav7">
+					<content>
+						<p>Утврђивање стручности и оспособљености кандидата за судију који се први пут бира</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav8">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref41" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav9">
+					<content>
+						<p>Члан 45а</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav10">
+					<content>
+						<p>Стручност и оспособљеност кандидата за судију који се први пут бира на судијску  функцију проверава се на испиту који организује Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav11">
+					<content>
+						<p>Успех на испиту изражава се оценама од 1 до 5.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav12">
+					<content>
+						<p>Кандидат за судију који се први пут бира на судијску функцију у основном или  прекршајном суду и који је завршио почетну обуку на Правосудној академији није  дужан да полаже испит који организује Високи савет судства, већ се њему као  мерило стручности и оспособљености узима завршна оцена на почетној обуци на  Правосудној академији.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav13">
+					<content>
+						<p>Високи савет судства прописује програм и начин полагања испита на коме се  оцењује стручност и оспособљеност кандидата за судију.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan45-stav14">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2015/106/srp@">106/2015</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan46">
+				<num>46.</num>
+				<heading>Забрана дискриминације</heading>
+				<paragraph wId="gla1-clan46-stav1">
+					<content>
+						<p>Приликом избора и предлагања за избор судије забрањена је дискриминација по било ком основу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan46-stav2">
+					<content>
+						<p>При избору и предлагању за избор судија води се рачуна о националном саставу становништва, одговарајућој заступљености припадника националних мањина и познавању стручне правне терминологије на језику националне мањине, који је у службеној употреби у суду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan47">
+				<num>47.</num>
+				<heading>Оглашавање избора</heading>
+				<paragraph wId="gla2-clan47-stav1">
+					<content>
+						<p>Избор судија оглашава Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan47-stav2">
+					<content>
+						<p>Оглас се објављује у „Службеном гласнику Републике Србије” и другом средству јавног обавештавања које покрива целу Републику Србију.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan48">
+				<num>48.</num>
+				<heading>Подношење пријава</heading>
+				<paragraph wId="gla2-clan48-stav1">
+					<content>
+						<p>Пријаве за избор се подносе Високом савету судства, у року од 15 дана од дана објављивања огласа у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan48-stav2">
+					<content>
+						<p>Уз пријаву се подносе и докази о испуњавању услова за избор.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan49">
+				<num>49.</num>
+				<heading>Прибављање података и мишљења</heading>
+				<paragraph wId="gla2-clan49-stav1">
+					<content>
+						<p>Високи савет судства прибавља податке и мишљења о стручности, оспособљености и достојности кандидата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan49-stav2">
+					<content>
+						<p>Подаци и мишљења прибављају се од органа и организација у којима је кандидат радио у правној струци, а за кандидате који долазе из судова обавезно је прибављање мишљења седнице свих судија суда из кога потиче кандидат, као и мишљење седнице свих судија непосредно вишег суда, у које кандидат има право увида пре избора.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan50">
+				<num>50.</num>
+				<heading>Предлагање судија који се први пут бирају</heading>
+				<paragraph wId="gla2-clan50-stav1">
+					<content>
+						<p>Приликом предлагања кандидата за судије који се први пут бирају на судијску функцију, поред стручности, оспособљености и достојности, Високи савет судства ће посебно ценити и врсту послова које је кандидат обављао након положеног правосудног испита.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan50-stav2">
+					<content>
+						<p>За кандидате који долазе из реда судијских помоћника обавезно се прибавља оцена рада.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan50-stav3">
+					<content>
+						<p>Пре предлагања, Високи савет судства  ће обавити разговор са пријављеним кандидатима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan50-stav4">
+					<content>
+						<p>Високи савет судства предлаже Народној скупштини једног кандидата за избор на  једно судијско место.,</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan50-stav5">
+					<content>
+						<p>Одлука о предлогу Високог савета судства мора бити образложена  и објављена на интернет страници Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan50-stav6">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan50-stav7">
+					<content>
+						<p>**Службени гласник РС, број <ref wId="ref44" href="akn/rs/act/2014/111/srp@">111/2014</ref> (Одлука  УС)</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan51">
+				<num>51.</num>
+				<heading>Избор судије који се први пут бира</heading>
+				<paragraph wId="gla2-clan51-stav1">
+					<content>
+						<p>Народна скупштина бира судију, који се први пут бира, међу кандидатима које је предложио Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan51-stav2">
+					<content>
+						<p>Одлука о избору из <ref wId="ref45" href="akn/rs/act/2017/47-3/srp@/!main~art_51__para_1" >става 1. овог</ref> члана објављује се у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan52">
+				<num>52.</num>
+				<heading>Избор судије на сталну функцију</heading>
+				<paragraph wId="gla2-clan52-stav1">
+					<content>
+						<p>Судије на сталну функцију бира Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan52-stav2">
+					<content>
+						<p>Судија који је први пут биран и током трогодишњег мандата је оцењен са оценом „изузетно успешно обавља судијску функцију” обавезно се бира на сталну функцију.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan52-stav3">
+					<content>
+						<p>Судија који је први пут биран и током трогодишњег мандата је оцењен оценом „не задовољава” не може бити биран на сталну функцију.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan52-stav4">
+					<content>
+						<p>Свака одлука о избору мора бити образложена и објављује се у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-clan53">
+				<num>53.</num>
+				<heading>Полагање заклетве</heading>
+				<paragraph wId="gla3-clan53-stav1">
+					<content>
+						<p>Пре ступања на функцију, судија полаже заклетву пред председником Народне скупштине.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan53-stav2">
+					<content>
+						<p>Председник Врховног касационог суда полаже заклетву пред Народном скупштином.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan53-stav3">
+					<content>
+						<p>Судија који је изабран на сталну судијску функцију не полаже поново заклетву.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-clan54">
+				<num>54.</num>
+				<heading>Текст заклетве</heading>
+				<paragraph wId="gla3-clan54-stav1">
+					<content>
+						<p>Заклетва судије гласи: „Заклињем се својом чашћу да ћу своју функцију вршити верно Уставу и закону, по најбољем знању и умећу и служити само истини и правди”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-clan55">
+				<num>55.</num>
+				<heading>Ступање на функцију</heading>
+				<paragraph wId="gla3-clan55-stav1">
+					<content>
+						<p>Судија који је изабран ступа на функцију на свечаној седници свих судија у суду за који је изабран.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan55-stav2">
+					<content>
+						<p>Ступањем на функцију судији престаје ранија функција у другом суду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan55-stav3">
+					<content>
+						<p>Судија вишег суда који је изабран за председника нижег суда може да се после престанка те дужности врати на функцију судије вишег суда.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla3-clan56">
+				<num>56.</num>
+				<heading>Кад се сматра да судија није изабран</heading>
+				<paragraph wId="gla3-clan56-stav1">
+					<content>
+						<p>Сматра се да судија није изабран ако без оправданих разлога не ступи на функцију у року од 30 дана од дана избора.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan56-stav2">
+					<content>
+						<p>Одлуку о томе доноси Високи савет судства на предлог председника суда и о њој обавештава Народну скупштину, ако се ради о судији који је први пут биран.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla3-clan56-stav3">
+					<content>
+						<p>Судија има право жалбе Уставном суду на одлуку Високог савета судства.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od1-clan57">
+				<num>57.</num>
+				<paragraph wId="gla4-od1-clan57-stav1">
+					<content>
+						<p>Судијска функција престаје на захтев судије, кад судија наврши радни век, кад трајно изгуби радну способност за обављање судијске функције, кад не буде изабран на сталну функцију или кад буде разрешен.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od1-clan57-stav2">
+					<content>
+						<p>Одлуку о престанку судијске функције доноси Високи савет судства  и против ње судија може изјавити приговор Високом савету судства у року од 15 дана од дана достављања одлуке.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od1-clan57-stav3">
+					<content>
+						<p>Високи савет судства може одбацити приговор ако није  изјављен у року, усвојити приговор и изменити одлуку о престанку функције или  одбити приговор и потврдити одлуку о престанку функције.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od1-clan57-stav4">
+					<content>
+						<p>Одлука о престанку судијске функције постаје  правноснажна када је потврђена у поступку по приговору или истеком рока за  изјављивање приговора ако приговор није изјављен.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od1-clan57-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref46" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od2-clan58">
+				<num>58.</num>
+				<paragraph wId="gla4-od2-clan58-stav1">
+					<content>
+						<p>Судија који жели да му функција престане подноси писмени захтев Високом савету судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od2-clan58-stav2">
+					<content>
+						<p>Захтев може бити повучен док функција судији не престане одлуком Високог савета судства или истеком рока предвиђеног овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od2-clan58-stav3">
+					<content>
+						<p>Ако о захтеву за престанак функције не буде одлучено у року од 30 дана, сматра се да је функција судији престала истеком рока од 30 дана од дана подношења захтева.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od2-clan58-stav4">
+					<content>
+						<p>У осталим случајевима судијска функција престаје оног дана који Високи савет судства наведе у својој одлуци.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od2-clan58-stav5">
+					<content>
+						<p>Ако судија после покренутог поступка за разрешење поднесе захтев за престанак функције, он се не разматра до окончања поступка за разрешење.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od3-clan59">
+				<num>59.</num>
+				<paragraph wId="gla4-od3-clan59-stav1">
+					<content>
+						<p>Судији престаје радни век кад наврши 65 година живота , по сили закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od3-clan59-stav2">
+					<content>
+						<p>Брисани су  ранији <ref wId="ref48" href="akn/rs/act/2017/47-3/srp@/!main~art_59__para_2->para_3" >ст. 2. и 3. </ref>(види <ref wId="ref47" href="akn/rs/act/2013/101/srp@/!main~/art_19">члан 19. Закона - 101/2013-12</ref>)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od3-clan59-stav3">
+					<content>
+						<p>Изузетно од <ref wId="ref49" href="akn/rs/act/2017/47-3/srp@/!main~art_59__para_1" >става 1. овог</ref> члана, судији Врховног касационог суда престаје радни  век када наврши 67 година живота, по сили закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od3-clan59-stav4">
+					<content>
+						<p>*Службени гласник РС, број  <ref wId="ref50" href="akn/rs/act/2014/117/srp@">117/2014</ref></p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od3-clan59-stav5">
+					<content>
+						<p>**Службени гласник РС, број  <ref wId="ref51" href="akn/rs/act/2015/40/srp@">40/2015</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od4-clan60">
+				<num>60.</num>
+				<paragraph wId="gla4-od4-clan60-stav1">
+					<content>
+						<p>Судији престаје судијска функција када се на основу мишљења стручне комисије надлежног органа утврди да је због здравственог стања неспособан за вршење судијске функције.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od4-clan60-stav2">
+					<content>
+						<p>Одлуку за упућивање на обавезан здравствени преглед доноси Високи савет судства, на предлог председника суда, председника непосредно вишег суда и самог судије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od5-clan61">
+				<num>61.</num>
+				<paragraph wId="gla4-od5-clan61-stav1">
+					<content>
+						<p>Судији који је први пут биран, а не буде изабран на сталну судијску функцију, престаје судијска функција даном истека трогодишњег мандата, на основу образложене одлуке Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od5-clan61-stav2">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref52" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od6-clan62">
+				<num>62.</num>
+				<heading>Разлози за разрешење</heading>
+				<paragraph wId="gla4-od6-clan62-stav1">
+					<content>
+						<p>Судија се разрешава кад је осуђен за кривично дело на безусловну казну затвора од најмање шест месеци или за кажњиво дело које га чини недостојним судијске функције, кад нестручно врши функцију или због учињеног тешког дисциплинског прекршаја.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od6-clan63">
+				<num>63.</num>
+				<heading>Посебно о нестручном вршењу функције</heading>
+				<paragraph wId="gla4-od6-clan63-stav1">
+					<content>
+						<p>Нестручним се сматра недовољно успешно вршење судијске функције, ако судија добије оцену „не задовољава”, сходно критеријумима и мерилима за вредновање рада судија.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od6-clan64">
+				<num>64.</num>
+				<heading>Надлежност и покретање поступка за разрешење</heading>
+				<paragraph wId="gla4-od6-clan64-stav1">
+					<content>
+						<p>Иницијативу за разрешење судије може поднети свако лице.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od6-clan64-stav2">
+					<content>
+						<p>Високи савет судства, по службеној дужности или на предлог председника суда,  председника непосредно вишег суда, председника Врховног касационог суда, органа  надлежних за вредновање рада судије и Дисциплинске комисије покреће поступак за  разрешење судије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od6-clan64-stav3">
+					<content>
+						<p>Разлоге за разрешење утврђује Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od6-clan64-stav4">
+					<content>
+						<p>Председник првостепеног суда пред којим је вођен кривични поступак против  судије, дужан је да без одлагања достави Високом савету судства осуђујућу  правноснажну пресуду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od6-clan64-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref53" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od6-clan65">
+				<num>65.</num>
+				<heading>Поступак пред Високим саветом судства</heading>
+				<paragraph wId="gla4-od6-clan65-stav1">
+					<content>
+						<p>Високи савет судства утврђује чињенице и одлучује у поступку затвореном за јавност.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od6-clan65-stav2">
+					<content>
+						<p>Високи савет судства је дужан да спроведе поступак и донесе одлуку у року од 45 дана од дана достављања акта којим се поступак покреће.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od6-clan65-stav3">
+					<content>
+						<p>Одлука Високог савета судства мора бити образложена.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od6-clan66">
+				<num>66.</num>
+				<heading>Положај судије у поступку</heading>
+				<paragraph wId="gla4-od6-clan66-stav1">
+					<content>
+						<p>Судија има право да одмах буде обавештен о разлозима за покретање поступка, да се упозна с предметом, пратећом документацијом и током поступка и да сам или преко заступника пружи објашњења и доказе за своје наводе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od6-clan66-stav2">
+					<content>
+						<p>Судија има право да своје наводе усмено изложи пред Високим саветом судства.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od7-clan67">
+				<num>67.</num>
+				<heading>Жалба Уставном суду</heading>
+				<paragraph wId="gla4-od7-clan67-stav1">
+					<content>
+						<p>Против правноснажне одлуке Високог савета судства о престанку функције, судија има право жалбе Уставном суду, у року од 30 дана од дана достављања одлуке.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od7-clan67-stav2">
+					<content>
+						<p>Уставни суд својом одлуком може одбити жалбу или усвојити жалбу и поништити одлуку о престанку функције.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od7-clan67-stav3">
+					<content>
+						<p>Одлука Уставног суда је коначна.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od7-clan67-stav4">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref54" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla4-od7-clan68">
+				<num>68.</num>
+				<heading>Одлука о престанку функције</heading>
+				<paragraph wId="gla4-od7-clan68-stav1">
+					<content>
+						<p>Правноснажна одлука о престанку функције из <ref wId="ref55" href="akn/rs/act/2017/47-3/srp@/!main~art_57__para_4" >члана 57.  став 4. овог</ref> закона и коначна одлука Уставног суда из <ref wId="ref56" href="akn/rs/act/2017/47-3/srp@/!main~art_67__para_3" >члана 67. став 3. овог</ref>  закона, објављују се у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla4-od7-clan68-stav2">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref57" href="akn/rs/act/2010/101/srp@">101/2010</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan69">
+				<num>69.</num>
+				<heading>Услови за избор председника суда</heading>
+				<paragraph wId="gla5-clan69-stav1">
+					<content>
+						<p>За председника суда може бити изабран судија који се налази  на сталној судијској функцији у суду истог или вишег степена, и који има  изражену способност за руковођење и организацију послова у суду, а у складу са  критеријумима које доноси Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan69-stav2">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref58" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan70">
+				<num>70.</num>
+				<heading>Предлагање кандидата за председника суда</heading>
+				<paragraph wId="gla5-clan70-stav1">
+					<content>
+						<p>Високи савет судства предлаже једног кандидата за председника суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan70-stav2">
+					<content>
+						<p>Пре утврђивања предлога, Високи савет судства прибавља мишљење о пријављеним кандидатима од седнице свих судија суда за који се предлаже избор председника.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan70-stav3">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref59" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan71">
+				<num>71.</num>
+				<heading>Избор председника суда</heading>
+				<paragraph wId="gla5-clan71-stav1">
+					<content>
+						<p>Народна скупштина бира председника суда, на предлог Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan71-stav2">
+					<content>
+						<p>Судија који је изабран за председника суда обавља и судијску функцију у том суду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan72">
+				<num>72.</num>
+				<heading>Трајање функције</heading>
+				<paragraph wId="gla5-clan72-stav1">
+					<content>
+						<p>Председник суда бира се на четири године и може бити још једном изабран за  председника истог суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan72-stav2">
+					<content>
+						<p>Време на које је председник суда изабран тече од дана ступања на функцију.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan72-stav3">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref60" href="akn/rs/act/2017/47/srp@">47/2017</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan73">
+				<num>73.</num>
+				<heading>Вршилац функције председника суда</heading>
+				<paragraph wId="gla5-clan73-stav1">
+					<content>
+						<p>Кад председнику суда престане функција, председник непосредно вишег суда поставља судију који врши функцију председника док нови председник суда не ступи на функцију, а најдуже на  шест месеци.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan73-stav2">
+					<content>
+						<p>Судију који врши функцију председника Врховног касационог суда поставља Општа седница.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan73-stav3">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref61" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan74">
+				<num>74.</num>
+				<heading>Престанак функције председника суда</heading>
+				<paragraph wId="gla5-clan74-stav1">
+					<content>
+						<p>Председнику суда престаје функција престанком судијске функције, избором за судију другог суда, на лични захтев, због укидања суда, истеком мандата и разрешењем са функције председника суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan74-stav2">
+					<content>
+						<p>Председнику суда, који у току мандата наврши  радни век, судијска функција и функција председника суда престају истеком  мандата председника суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan74-stav3">
+					<content>
+						<p>Одлуку о престанку функције председника суда доноси Народна скупштина.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan74-stav4">
+					<content>
+						<p>Кад председнику суда престане функција, Високи савет судства је дужан да без одлагања предложи кандидате за избор председника суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan74-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref62" href="akn/rs/act/2017/47/srp@">47/2017</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan75">
+				<num>75.</num>
+				<heading>Разлози за разрешење председника суда</heading>
+				<paragraph wId="gla5-clan75-stav1">
+					<content>
+						<p>Председник суда разрешава се те функције због кршења обавеза установљених прописима за обављање послова судске управе, нарушавања начела независности судије, поступања супротно прописима о додељивању предмета, одступања од прописа којим се уређује годишњи распоред судија, тешког дисциплинског прекршаја у вршењу функције председника суда или нестручног вршења функције председника суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan75-stav2">
+					<content>
+						<p>Сматра се да председник суда нестручно обавља функцију председника суда када, сходно критеријумима и мерилима за вредновање рада председника судова, његов рад буде вреднован оценом „не задовољава”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan76">
+				<num>76.</num>
+				<heading>Поступак за утврђивање разлога за разрешење председника суда</heading>
+				<paragraph wId="gla5-clan76-stav1">
+					<content>
+						<p>Свако лице може поднети иницијативу за разрешење председника суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan76-stav2">
+					<content>
+						<p>Поступак за утврђивање разлога за разрешење председника суда  покреће и води Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan76-stav3">
+					<content>
+						<p>Поступак за утврђивање разлога за разрешење председника суда покреће се по предлогу председника непосредно вишег суда, седнице свих судија суда чији је председник, министра надлежног за правосуђе, органа надлежног за вредновање рада председника суда и Дисциплинске комисије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan76-stav4">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref63" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan77">
+				<num>77.</num>
+				<heading>Одлука о разрешењу председника суда</heading>
+				<paragraph wId="gla5-clan77-stav1">
+					<content>
+						<p>Одлуку о разрешењу председника суда доноси Народна скупштина, на основу предлога Високог савета судства, након спроведеног поступка у коме су утврђени разлози за разрешење.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan78">
+				<num>78.</num>
+				<heading>Положај по престанку функције председника суда</heading>
+				<paragraph wId="gla5-clan78-stav1">
+					<content>
+						<p>Председник суда који не буде поново изабран, који се разреши са те функције или му функција престане на лични захтев, наставља да обавља судијску функцију.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan78-stav2">
+					<content>
+						<p>Кад судији вишег суда који је изабран за председника нижег суда престане функција председника има право да настави судијску функцију у вишем суду.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan79">
+				<num>79.</num>
+				<heading>Председник Врховног касационог суда</heading>
+				<paragraph wId="gla5-clan79-stav1">
+					<content>
+						<p>Председника Врховног касационог суда, међу судијама тог суда, на предлог Високог савета судства, по прибављеном мишљењу Опште седнице и надлежног одбора Народне скупштине, бира Народна скупштина.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan79-stav2">
+					<content>
+						<p>Кандидат за председника Врховног касационог суда, уз пријаву на конкурс за  избор, доставља и програм унапређења рада судова у Републици Србији, који се  објављује на интернет страници Високог савета судства, заједно са подацима из  радне биографије кандидата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan79-stav3">
+					<content>
+						<p>Председник Врховног касационог суда бира се на период од пет година и не може бити поново биран.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan79-stav4">
+					<content>
+						<p>Председнику Врховног касационог суда престаје функција пре истека времена на које је изабран на лични захтев, престанком судијске функције или разрешењем из овим законом прописаних разлога за разрешење председника суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan79-stav5">
+					<content>
+						<p>Поступак за разрешење председника Врховног касационог суда покреће се предлогом Опште седнице.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan79-stav6">
+					<content>
+						<p>Поступак за утврђивање разлога за разрешење председника Врховног касационог суда води и одлуку о томе доноси Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan79-stav7">
+					<content>
+						<p>Одлуку о разрешењу председника Врховног касационог суда са те функције, доноси Народна скупштина на предлог Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan79-stav8">
+					<content>
+						<p>Одлуку о престанку функције председника Врховног касационог суда из других разлога, доноси Народна скупштина.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan79-stav9">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref64" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla5-clan80">
+				<num>80.</num>
+				<heading>Примена одредаба о судијама</heading>
+				<paragraph wId="gla5-clan80-stav1">
+					<content>
+						<p>Одредбе овог закона о избору и разрешењу судија, сходно се примењују и на избор и разрешење председника суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla5-clan80-stav2">
+					<content>
+						<p>Остале одредбе овог закона, које се односе на судије, примењују се и на председнике судова.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla6-clan81">
+				<num>81.</num>
+				<heading>Услови за именовање и трајање функције</heading>
+				<paragraph wId="gla6-clan81-stav1">
+					<content>
+						<p>За судију поротника може бити именован пунолетни држављанин Републике Србије који је достојан функције судије поротника.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan81-stav2">
+					<content>
+						<p>Судија поротник не може бити члан политичке странке, нити политички деловати на  други начин.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan81-stav3">
+					<content>
+						<p>При именовању води се рачуна о полу, старости, занимању и друштвеном положају кандидата, о знању, стручности и склоности ка појединим врстама судских ствари.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan81-stav4">
+					<content>
+						<p>Судија поротник именује се на пет година и може бити поново именован.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan81-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref65" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla6-clan82">
+				<num>82.</num>
+				<heading>Поступак именовања</heading>
+				<paragraph wId="gla6-clan82-stav1">
+					<content>
+						<p>Судију поротника именује Високи савет судства, на предлог министра надлежног за правосуђе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan82-stav2">
+					<content>
+						<p>Пре предлагања, министар прибавља мишљење суда за који се именује судија поротник.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan82-stav3">
+					<content>
+						<p>За судију поротника може бити именовано пунолетно лице које, у моменту именовања има мање од седамдесет година живота.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla6-clan83">
+				<num>83.</num>
+				<heading>Заклетва</heading>
+				<paragraph wId="gla6-clan83-stav1">
+					<content>
+						<p>Судија поротник полаже заклетву пред председником суда за који је именован.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan83-stav2">
+					<content>
+						<p>Заклетва гласи: „Заклињем се својом чашћу да ћу своју функцију вршити верно Уставу и закону, савесно, предано и непристрасно”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla6-clan84">
+				<num>84.</num>
+				<heading>Удаљење са функције</heading>
+				<paragraph wId="gla6-clan84-stav1">
+					<content>
+						<p>Председник суда удаљује судију поротника са функције ако је против њега покренут поступак за кривично дело због кога може бити разрешен или поступак за разрешење.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan84-stav2">
+					<content>
+						<p>Удаљење траје до окончања поступка.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla6-clan85">
+				<num>85.</num>
+				<heading>Неспојивост са другим службама, пословима и поступцима</heading>
+				<paragraph wId="gla6-clan85-stav1">
+					<content>
+						<p>Судија поротник не може бити адвокат ни пружати правне услуге и стручне савете уз накнаду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan85-stav2">
+					<content>
+						<p>Са функцијом судије поротника неспојиве су и друге службе, послови и поступци који су опречни достојанству и независности судије или штетни по углед суда.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla6-clan86">
+				<num>86.</num>
+				<heading>Престанак функције</heading>
+				<paragraph wId="gla6-clan86-stav1">
+					<content>
+						<p>Функција судије поротника престаје ако буде укинут суд у коме обавља функцију, разрешењем и истеком мандата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan86-stav2">
+					<content>
+						<p>Функција судије поротника не престаје због навршења радног века.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan86-stav3">
+					<content>
+						<p>Поступак у коме се утврђују разлози за престанак функције судије поротника  покреће се на основу предлога председника суда, председника непосредно вишег  суда, председника Врховног касационог суда или министра надлежног за правосуђе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan86-stav4">
+					<content>
+						<p>Поступак  покреће, води и одлуку доноси Високи савет судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan86-stav5">
+					<content>
+						<p>*Службени гласник РС, број <ref wId="ref66" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla6-clan87">
+				<num>87.</num>
+				<heading>Накнаде и награде судија поротника</heading>
+				<paragraph wId="gla6-clan87-stav1">
+					<content>
+						<p>Судија поротник има право на накнаду трошкова насталих на функцији, накнаду за изгубљену зараду и право на награду.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-clan87-stav2">
+					<content>
+						<p>Услове и висину накнаде и награде прописује Високи савет судства.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla6-clan88">
+				<num>88.</num>
+				<heading>Сходна примена одредаба о судијама</heading>
+				<paragraph wId="gla6-clan88-stav1">
+					<content>
+						<p>На судије поротнике сходно се примењују одредбе о судијама.</p>
+					</content>
+				</paragraph>
+			</article>
+			<chapter wId="gla7">
+				<num>седма</num>
+				<heading>ДИСЦИПЛИНСКА ОДГОВОРНОСТ СУДИЈА</heading>
+				<article wId="gla7-clan89">
+					<num>89.</num>
+					<heading>Дисциплински прекршај</heading>
+					<paragraph wId="gla7-clan89-stav1">
+						<content>
+							<p>Дисциплински прекршај је несавесно вршење судијске функције или понашање судије недостојно судијске функције, који је прописан овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan90">
+					<num>90.</num>
+					<heading>Врсте дисциплинских прекршаја</heading>
+					<paragraph wId="gla7-clan90-stav1">
+						<intro>
+							<p>Дисциплински прекршаји су:</p>
+						</intro>
+						<alinea wId="gla7-clan90-stav1-ali1">
+							<content>
+								<p>овреда начела непристрасности;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali2">
+							<content>
+								<p>ропуштање судије да тражи изузеће у предметима у којима постоји разлог за изузеће, односно искључење предвиђен законом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali3">
+							<content>
+								<p>еоправдано кашњење у изради одлука;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali4">
+							<content>
+								<p>зимање предмета у рад редом који неоправдано одступа од реда којим су примљени;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali5">
+							<content>
+								<p>еоправдано незаказивање рочишта или претреса;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali6">
+							<content>
+								<p>честало кашњење на заказана рочишта или претресе;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali7">
+							<content>
+								<p>еоправдано одуговлачење поступка;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali8">
+							<content>
+								<p>еоправдано необавештавање председника суда о предметима у којима поступак дуже траје;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali9">
+							<content>
+								<p>чигледно некоректно поступање према учесницима у судским поступцима и запосленима у суду;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali10">
+							<content>
+								<p>епоштовање радног времена;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali11">
+							<content>
+								<p>рихватање поклона супротно прописима који регулишу сукоб интереса;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali12">
+							<content>
+								<p>пуштање судије у непримерене односе са странкама или њиховим правним заступницима у поступку који води;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali13">
+							<content>
+								<p>авање коментара о судским одлукама, поступцима или предметима у средствима јавног информисања на начин супротан закону и Судском пословнику;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali14">
+							<content>
+								<p>бављање активности које су законом одређене као неспојиве са судијском функцијом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali15">
+							<content>
+								<p>еоправдано непохађање обавезних програма обуке;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali16">
+							<content>
+								<p>остављање непотпуних или нетачних података од значаја за рад и одлучивање Високог савета судства;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali17">
+							<content>
+								<p>еоправдана измена годишњег распореда судијских послова у суду и повреда принципа случајног судије супротно закону;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla7-clan90-stav1-ali18">
+							<content>
+								<p>ршење одредаба Етичког кодекса у већој мери.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla7-clan90-stav2">
+						<content>
+							<p>Тежак дисциплински прекршај постоји ако је услед извршења дисциплинског прекршаја из <ref wId="ref67" href="akn/rs/act/2017/47-3/srp@/!main~art_90__para_1" >става 1. овог</ref> члана дошло до озбиљног поремећаја у вршењу судске власти или обављања радних задатака у суду или до тешког нарушавања угледа и поверења јавности у судство, а нарочито застаревања предмета  због несавесног рада судије и ако је наступила већа штета у имовини странке у поступку, као и у случају поновљеног дисциплинског прекршаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan90-stav3">
+						<content>
+							<p>Под поновљеним дисциплинским прекршајем из <ref wId="ref68" href="akn/rs/act/2017/47-3/srp@/!main~art_90__para_2" >става 2. овог</ref> члана сматра се три пута правоснажно утврђена одговорност судије за дисциплински прекршај.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan90-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref69" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan91">
+					<num>91.</num>
+					<heading>Дисциплинске санкције</heading>
+					<paragraph wId="gla7-clan91-stav1">
+						<content>
+							<p>Дисциплинске санкције су: јавна опомена, умањење плате до 50% до једне године и забрана напредовања у трајању до три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan91-stav2">
+						<content>
+							<p>Дисциплинска санкција изриче се сразмерно тежини учињеног дисциплинског прекршаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan91-stav3">
+						<content>
+							<p>Јавна опомена може бити изречена само када се први пут утврди одговорност судије за дисциплински прекршај.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan91-stav4">
+						<content>
+							<p>Дисциплинска санкција умањење плате до 50% и дисциплинска санкција забрана  напредовања у трајању до три године могу се изрећи свака посебно или заједно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan91-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref70" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan92">
+					<num>92.</num>
+					<heading>Покретање поступка за разрешење</heading>
+					<paragraph wId="gla7-clan92-stav1">
+						<content>
+							<p>Када утврди одговорност судије за тежак дисциплински прекршај, Дисциплинска комисија покреће поступак за разрешење судије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan93">
+					<num>93.</num>
+					<heading>Дисциплински органи</heading>
+					<paragraph wId="gla7-clan93-stav1">
+						<content>
+							<p>Дисциплински органи су: Дисциплински тужилац и његови заменици и Дисциплинска комисија, које образује Високи савет судства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan93-stav2">
+						<content>
+							<p>Чланове дисциплинских органа именује Високи савет судства из реда судија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan93-stav3">
+						<content>
+							<p>Састав, услове за именовање, трајање мандата и начин престанка дужности, начин рада и одлучивања у дисциплинским органима, уређује Високи савет судства, својим актом, који објављује.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan94">
+					<num>94.</num>
+					<heading>Дисциплински поступак</heading>
+					<paragraph wId="gla7-clan94-stav1">
+						<content>
+							<p>Дисциплински поступак води Дисциплинска комисија на предлог Дисциплинског тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan94-stav2">
+						<content>
+							<p>Предлог за вођење дисциплинског поступка, Дисциплински тужилац подноси на основу дисциплинске пријаве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan94-stav3">
+						<content>
+							<p>Дисциплински поступак је хитан и затворен за јавност, изузев уколико судија у односу на кога се поступак води не захтева да поступак буде јаван.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan94-stav4">
+						<content>
+							<p>Вођење дисциплинског поступка застарева у року од  две године од дана када је дисциплински прекршај учињен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan94-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref71" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan95">
+					<num>95.</num>
+					<heading>Одлуке Дисциплинског тужиоца</heading>
+					<paragraph wId="gla7-clan95-stav1">
+						<content>
+							<p>Дисциплински тужилац може да одбаци дисциплинску пријаву као неосновану или да је прихвати и поднесе предлог за вођење дисциплинског поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan96">
+					<num>96.</num>
+					<heading>Положај судије у дисциплинском поступку</heading>
+					<paragraph wId="gla7-clan96-stav1">
+						<content>
+							<p>Судија има право да одмах буде обавештен о предлогу Дисциплинског тужиоца, да се упозна са предметом и пратећом документацијом и да сам или преко заступника пружи објашњења и доказе за своје наводе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan96-stav2">
+						<content>
+							<p>Судија има право да своје наводе усмено изложи пред Дисциплинском комисијом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan97">
+					<num>97.</num>
+					<heading>Одлуке Дисциплинске комисије</heading>
+					<paragraph wId="gla7-clan97-stav1">
+						<content>
+							<p>Након спроведеног дисциплинског поступка Дисциплинска комисија може да одбије предлог Дисциплинског тужиоца или да усвоји предлог и изрекне дисциплинску санкцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan97-stav2">
+						<content>
+							<p>Против одлуке Дисциплинске комисије, Дисциплински тужилац и судија против кога се води дисциплински поступак, могу изјавити жалбу Високом савету судства, у року од осам дана од дана достављања одлуке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan98">
+					<num>98.</num>
+					<heading>Одлуке Високог савета судства</heading>
+					<paragraph wId="gla7-clan98-stav1">
+						<content>
+							<p>Одлучујући по жалби, Високи савет судства може да потврди првостепену одлуку Дисциплинске комисије или да је преиначи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan98-stav2">
+						<content>
+							<p>Високи савет судства је дужан да о жалби одлучи у року од 30 дана од дана достављања жалбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan98-stav3">
+						<content>
+							<p>Одлука Високог савета судства је коначна.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan98-stav4">
+						<content>
+							<p>Судија коме је изречена дисциплинска санкција може покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan98-stav5">
+						<content>
+							<p>Правноснажна одлука којом је изречена дисциплинска санкција уписује се у лични лист судије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan98-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref72" href="akn/rs/act/2013/101/srp@">101/2013</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>осма</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+			</chapter>
+			<article wId="gla1-clan99">
+				<num>99.</num>
+				<heading>Настављање судијске функције, односно судијске дужности у општинским органима за прекршаје и Већима за прекршаје</heading>
+				<paragraph wId="gla1-clan99-stav1">
+					<content>
+						<p>Судије изабране по Закону о судијама („Службени гласник РС”, бр. <ref wId="ref73" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref74" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref75" href="akn/rs/act/03/17/srp@">17/03</ref>, <ref wId="ref76" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref77" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref78" href="akn/rs/act/04/35/srp@">35/04</ref>, <ref wId="ref79" href="akn/rs/act/04/44/srp@">44/04</ref>, <ref wId="ref80" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref81" href="akn/rs/act/05/101/srp@">101/05</ref> и <ref wId="ref82" href="akn/rs/act/06/46/srp@">46/06</ref>) и Закону о судовима („Службени гласник Републике Србије”, бр. 46/91, 60/91 – исправка, 18/92 – исправка, 71/92, 63/01, 42/02, 27/03 и 29/04) настављају функцију у судовима за које су изабране до дана ступања на функцију судија изабраних у складу са овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan99-stav2">
+					<content>
+						<p>Судије у општинским органима за прекршаје и Већима за прекршаје, именоване по Закону о прекршајима („Службени гласник СРС”, број <ref wId="ref83" href="akn/rs/act/89/44/srp@">44/89</ref> и „Службени гласник РС”, бр. <ref wId="ref84" href="akn/rs/act/90/21/srp@">21/90</ref>, <ref wId="ref85" href="akn/rs/act/92/11/srp@">11/92</ref>, <ref wId="ref86" href="akn/rs/act/93/6/srp@">6/93</ref>, <ref wId="ref87" href="akn/rs/act/93/20/srp@">20/93</ref>, <ref wId="ref88" href="akn/rs/act/93/53/srp@">53/93</ref>, <ref wId="ref89" href="akn/rs/act/93/67/srp@">67/93</ref>, <ref wId="ref90" href="akn/rs/act/94/28/srp@">28/94</ref>, <ref wId="ref91" href="akn/rs/act/97/16/srp@">16/97</ref>, <ref wId="ref92" href="akn/rs/act/97/37/srp@">37/97</ref>, <ref wId="ref93" href="akn/rs/act/98/36/srp@">36/98</ref>, <ref wId="ref94" href="akn/rs/act/98/44/srp@">44/98</ref>, <ref wId="ref95" href="akn/rs/act/01/62/srp@">62/01</ref>, <ref wId="ref96" href="akn/rs/act/01/65/srp@">65/01</ref> и <ref wId="ref97" href="akn/rs/act/04/55/srp@">55/04</ref>), настављају дужност у општинским органима за прекршаје и Већима за прекршаје, до дана ступања на функцију судија изабраних у складу са овим законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan100">
+				<num>100.</num>
+				<heading>Избор судија</heading>
+				<paragraph wId="gla1-clan100-stav1">
+					<content>
+						<p>Одлуку о броју судија и судија поротника доноси Високи савет судства, у складу са овим законом, у року од 30 дана од дана избора првог састава Високог савета судства, уз претходно прибављену сагласност министра надлежног за правосуђе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan100-stav2">
+					<content>
+						<p>Избор судија, у складу са овим законом, извршиће се најкасније до 1. децембра 2009. године, изузев судија Врховног касационог суда који ће бити изабрани у року од 90 дана од дана конституисања Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan100-stav3">
+					<content>
+						<p>Судије изабране у складу са овим законом ступају на функцију 1. јануара 2010. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan100-stav4">
+					<content>
+						<p>Првим избором судије се сматра избор на дужност судије у складу са раније важећим законима. Именовање судије за прекршаје не сматра се првим избором.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan100-stav5">
+					<content>
+						<p>Наслов  изнад <ref wId="ref98" href="akn/rs/act/2017/47-3/srp@/!main~art_100а" >члана 100а </ref>и <ref wId="ref99" href="akn/rs/act/2017/47-3/srp@/!main~art_100а" >члан 100а </ref>престали су да важе (види     Одлуку УС - 63/2015-301).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan101">
+				<num>101.</num>
+				<heading>Престанак дужности и права судија које су изабране или именоване по ранијим законима</heading>
+				<paragraph wId="gla1-clan101-stav1">
+					<content>
+						<p>Судијама из <ref wId="ref100" href="akn/rs/act/2017/47-3/srp@/!main~art_99__para_1->para_2" >члана 99. ст. 1. и 2. овог</ref> закона, који нису изабрани у складу са овим законом, дужност престаје даном ступања на функцију судија изабраних у складу са овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan101-stav2">
+					<content>
+						<p>Судије из <ref wId="ref101" href="akn/rs/act/2017/47-3/srp@/!main~art_101__para_1" >става 1. овог</ref> члана, имају право на накнаду плате у трајању од шест месеци у висини плате коју су имали у тренутку престанка дужности.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan101-stav3">
+					<content>
+						<p>Право на накнаду плате из <ref wId="ref102" href="akn/rs/act/2017/47-3/srp@/!main~art_101__para_2" >става 2. овог</ref> члана престаје пре протека рока од шест месеци ако судија коме је престала дужност заснује радни однос или стекне право на пензију, а може бити продужено за још шест месеци ако у тих шест месеци стиче право на пензију.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan102">
+				<num>102.</num>
+				<heading>Избор председника судова</heading>
+				<paragraph wId="gla1-clan102-stav1">
+					<content>
+						<p>Високи савет судства поставља вршиоца функције председника суда међу судијама изабраним у складу са овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan102-stav2">
+					<content>
+						<p>Вршилац функције председника суда из <ref wId="ref103" href="akn/rs/act/2017/47-3/srp@/!main~art_102__para_1" >става 1. овог</ref> члана ступа на ту функцију 1. јануара 2010. године.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan102-stav3">
+					<content>
+						<p>Вршиоци функције председника суда обављају ову функцију до избора председника судова у складу са овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan102-stav4">
+					<content>
+						<p>Председници судова, у складу са овим законом, биће изабрани у року од три месеца од истека рока из <ref wId="ref104" href="akn/rs/act/2017/47-3/srp@/!main~art_102__para_2" >става 2. овог</ref> члана.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan102-stav5">
+					<content>
+						<p>Престао је да важи ранији <ref wId="ref105" href="akn/rs/act/2017/47-3/srp@/!main~art_102__para_5" >став 5. </ref>(види  Одлуку УС - 124/2012-277)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan102-stav6">
+					<content>
+						<p>Председник Врховног касационог суда ступа на ту дужно<ref wId="ref106" href="akn/rs/act/2017/47-3/srp@/!main~art_102__para_1" >ст 1. </ref>јануара 2010. године. Председник Врховног касационог суда постаје члан Високог савета судства даном избора за председника Врховног касационог суда.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan102-stav7">
+					<content>
+						<p>До 1. јануара 2010. године председник Врховног касационог суда има право на основну плату једнаку основној плати председника Врховног суда Србије.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan103">
+				<num>103.</num>
+				<heading>Избор судија поротника</heading>
+				<paragraph wId="gla1-clan103-stav1">
+					<content>
+						<p>Судије поротници именовани по Закону о судијама („Службени гласник РС”, бр. <ref wId="ref107" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref108" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref109" href="akn/rs/act/03/17/srp@">17/03</ref>, <ref wId="ref110" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref111" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref112" href="akn/rs/act/04/35/srp@">35/04</ref>, <ref wId="ref113" href="akn/rs/act/04/44/srp@">44/04</ref>, <ref wId="ref114" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref115" href="akn/rs/act/05/101/srp@">101/05</ref> и <ref wId="ref116" href="akn/rs/act/06/46/srp@">46/06</ref>) настављају функцију у судовима за које су именовани до избора судија поротника у складу са овим законом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan103-stav2">
+					<content>
+						<p>Судије поротници, у складу са овим законом, биће именовани најкасније до 1. јануара 2010. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla1-clan104">
+				<num>104.</num>
+				<heading>Доношење подзаконских прописа</heading>
+				<paragraph wId="gla1-clan104-stav1">
+					<content>
+						<p>Подзаконске прописе предвиђене овим законом Високи савет судства донеће најкасније у року од 60 дана од дана конституисања првог састава Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla1-clan104-stav2">
+					<content>
+						<p>До доношења прописа из <ref wId="ref117" href="akn/rs/act/2017/47-3/srp@/!main~art_104__para_1" >става 1. овог</ref> члана примењиваће се прописи које је донео Високи савет правосуђа који нису у супротности са овим законом.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan105">
+				<num>105.</num>
+				<heading>Престанак важења ранијег закона</heading>
+				<paragraph wId="gla2-clan105-stav1">
+					<content>
+						<p>Даном почетка примене овог закона престаје да важи Закон о судијама („Службени гласник РС”, бр. <ref wId="ref118" href="akn/rs/act/01/63/srp@">63/01</ref>, <ref wId="ref119" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref120" href="akn/rs/act/03/17/srp@">17/03</ref>, <ref wId="ref121" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref122" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref123" href="akn/rs/act/04/35/srp@">35/04</ref>, <ref wId="ref124" href="akn/rs/act/04/44/srp@">44/04</ref>, <ref wId="ref125" href="akn/rs/act/05/61/srp@">61/05</ref>, <ref wId="ref126" href="akn/rs/act/05/101/srp@">101/05</ref> и <ref wId="ref127" href="akn/rs/act/06/46/srp@">46/06</ref>).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan106">
+				<num>106.</num>
+				<heading>Престанак важења других закона, односно одредаба других закона</heading>
+				<paragraph wId="gla2-clan106-stav1">
+					<content>
+						<p>Даном почетка примене овог закона престају да важе одредбе Закона о платама у државним органима и јавним службама („Службени гласник РС”, бр. <ref wId="ref128" href="akn/rs/act/01/34/srp@">34/01</ref>, <ref wId="ref129" href="akn/rs/act/06/62/srp@">62/06</ref> – др. закон и 63/06 – исправка др. закона) у делу који се односи на начин утврђивања плата, додатака и накнада судија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan106-stav2">
+					<content>
+						<p>Даном почетка примене овог закона престаје да важи одредба <ref wId="ref130" href="akn/rs/act/2017/47-3/srp@/!main~art_51__para_2" >члана 51. став 2. </ref>Закона о судским таксама („Службени гласник РС”, бр. <ref wId="ref131" href="akn/rs/act/94/28/srp@">28/94</ref>, <ref wId="ref132" href="akn/rs/act/95/53/srp@">53/95</ref>, <ref wId="ref133" href="akn/rs/act/97/16/srp@">16/97</ref>, <ref wId="ref134" href="akn/rs/act/01/34/srp@">34/01</ref> – др. закон, 9/02, 29/04 и 61/05) у делу који се односи на правосудни додатак.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan107">
+				<num>107.</num>
+				<heading>Ступање закона на снагу</heading>
+				<paragraph wId="gla2-clan107-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а примењује се од 1. јануара 2010. године, изузев одредбе <ref wId="ref135" href="akn/rs/act/2017/47-3/srp@/!main~art_20__para_2" >члана 20. став 2. </ref>која се примењује од ступања овог закона на снагу и одредаба <ref wId="ref138" href="akn/rs/act/2017/47-3/srp@/!main~art_43->art_54" >чл. 43</ref>-54. и <ref wId="ref136" href="akn/rs/act/2017/47-3/srp@/!main~art_81" >члана 81, </ref><ref wId="ref137" href="akn/rs/act/2017/47-3/srp@/!main~art_82__para_1" >члана 82. став 1. </ref>и чл. <ref wId="ref139" href="akn/rs/act/2017/47-3/srp@/!main~art_83" >83</ref>. и <ref wId="ref140" href="akn/rs/act/2017/47-3/srp@/!main~art_88" >88</ref>. овог закона, које почињу да се примењују од дана конституисања Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan107-stav2">
+					<content>
+						<p>До конституисања Високог савета судства, односно до почетка примене овог закона, одлуку о упућивању у други суд из <ref wId="ref141" href="akn/rs/act/2017/47-3/srp@/!main~art_20__para_2" >члана 20. став 2. овог</ref> закона доноси Високи савет правосуђа, односно Високи савет судства, уз сагласност судије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan107-stav3">
+					<content>
+						<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan2">
+				<num>2.</num>
+				<heading>Закон о изменама и допунама Закона о судијама: „Службени гласник РС“, број <ref wId="ref142" href="akn/rs/act/2009/104/srp@">104/2009</ref>-3</heading>
+				<paragraph wId="gla2-clan2-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије“, а примењује се од 1. јануара 2010. године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan5">
+				<num>5.</num>
+				<heading>Закон о изменама и допунама Закона о судијама: „Службени гласник РС“, број <ref wId="ref155" href="akn/rs/act/2010/101/srp@">101/2010</ref>-4</heading>
+				<paragraph wId="gla2-clan5-stav1">
+					<content>
+						<p>Стални састав Високог савета судства преиспитаће одлуке првог састава Високог савета судства о престанку судијске дужности судија из <ref wId="ref143" href="akn/rs/act/2017/47-3/srp@/!main~art_101__para_1" >члана 101. став 1. </ref>Закона о судијама („Службени гласник РС”, бр. <ref wId="ref144" href="akn/rs/act/08/116/srp@">116/08</ref>, <ref wId="ref145" href="akn/rs/act/09/58/srp@">58/09</ref> – одлука УС и 104/09), у складу са критеријумима и мерилима за оцену стручности, оспособљености и достојности, које ће донети стални састав Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan5-stav2">
+					<content>
+						<p>Поступци по жалбама, односно по уставним жалбама које су судије из <ref wId="ref146" href="akn/rs/act/2017/47-3/srp@/!main~art_5__para_1" >става 1. овог</ref> члана поднеле Уставном суду, окончавају се ступањем на снагу овог закона и предмети се уступају Високом савету судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan5-stav3">
+					<content>
+						<p>Жалбе, односно уставне жалбе из <ref wId="ref147" href="akn/rs/act/2017/47-3/srp@/!main~art_5__para_2" >става 2. овог</ref> члана сматраће се приговором на одлуку Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan5-stav4">
+					<content>
+						<p>Судије из <ref wId="ref148" href="akn/rs/act/2017/47-3/srp@/!main~art_5__para_1" >става 1. овог</ref> члана које нису поднеле жалбу, односно уставну жалбу Уставном суду, могу изјавити приговор на одлуку из <ref wId="ref149" href="akn/rs/act/2017/47-3/srp@/!main~art_5__para_1" >става 1. овог</ref> члана у року од 30 дана од дана ступања на снагу овог закона. О овом приговору одлучује стални састав Високог савета судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan5-stav5">
+					<content>
+						<p>У поступку по приговору из <ref wId="ref152" href="akn/rs/act/2017/47-3/srp@/!main~art_5__para_3->para_4" >ст. 3. и 4. овог</ref> члана, судија из <ref wId="ref151" href="akn/rs/act/2017/47-3/srp@/!main~art_5__para_1" >става 1. овог</ref> члана има право да се упозна са предметом, пратећом документацијом и током поступка, као и да усмено пред сталним саставом Високог савета судства изложи своје наводе. Одлука сталног састава Високог савета судства донета по приговору мора бити образложена, у складу са <ref wId="ref150" href="akn/rs/act/2017/47-3/srp@/!main~art_17__para_2" >чланом 17. став 2. </ref>Закона о Високом савету судства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla2-clan5-stav6">
+					<content>
+						<p>Против одлуке сталног састава Високог савета судства донете по приговору из <ref wId="ref154" href="akn/rs/act/2017/47-3/srp@/!main~art_5__para_3->para_4" >ст. 3. и 4. овог</ref> члана, којом се потврђује одлука првог састава Високог савета судства о престанку судијске дужности, судија из <ref wId="ref153" href="akn/rs/act/2017/47-3/srp@/!main~art_5__para_1" >става 1. овог</ref> члана може изјавити жалбу Уставном суду, у року од 30 дана од дана достављања одлуке.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan6">
+				<num>6.</num>
+			</article>
+			<article wId="gla2-clan7">
+				<num>7.</num>
+				<heading>Престао је да важи (види <ref wId="ref157" href="akn/rs/act/2013/101/srp@/!main~/art_35">члан 35. Закона - 101/2013-12</ref>)</heading>
+				<paragraph wId="gla2-clan7-stav1">
+					<content>
+						<p>Критеријуме и мерила из <ref wId="ref156" href="akn/rs/act/2017/47-3/srp@/!main~art_5__para_1" >члана 5. став 1. овог</ref> закона, донеће стални састав Високог савета судства у року од 15 дана од дана избора чланова сталног састава Високог савета судства из реда судија.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan8">
+				<num>8.</num>
+				<paragraph wId="gla2-clan8-stav1">
+					<content>
+						<p>Овај закон ступа на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan34">
+				<num>34.</num>
+				<heading>Закон о изменама и допунама Закона о судијама: „Службени гласник РС“, број <ref wId="ref158" href="akn/rs/act/2013/101/srp@">101/2013</ref>-12</heading>
+				<paragraph wId="gla2-clan34-stav1">
+					<content>
+						<p>Судије Вишег прекршајног суда  настављају рад као судије Прекршајног апелационог суда од 1. јануара 2014.  године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan35">
+				<num>35.</num>
+				<paragraph wId="gla2-clan35-stav1">
+					<content>
+						<p>Даном ступања на снагу овог  закона престаје да важи <ref wId="ref159" href="akn/rs/act/2017/47-3/srp@/!main~art_6" >члан 6. </ref>Закона о изменама и допунама Закона о судијама  („Службени гласник РС”, бр. <ref wId="ref160" href="akn/rs/act/10/101/srp@">101/10</ref> и <ref wId="ref161" href="akn/rs/act/12/8/srp@">8/12</ref> – УС).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan36">
+				<num>36.</num>
+				<paragraph wId="gla2-clan36-stav1">
+					<content>
+						<p>Овај закон ступа на снагу  наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, осим  одредаба чл. <ref wId="ref162" href="akn/rs/act/2017/47-3/srp@/!main~art_3" >3</ref>, <ref wId="ref163" href="akn/rs/act/2017/47-3/srp@/!main~art_15" >15</ref>. и <ref wId="ref164" href="akn/rs/act/2017/47-3/srp@/!main~art_17" >17</ref>, које почињу да се примењују од 1. јануара 2014.  године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan3">
+				<num>3.</num>
+				<paragraph wId="gla2-clan3-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном  гласнику Републике Србије”, а почиње да се примењује од 1. септембра 2016.  године.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="gla2-clan4">
+				<num>4.</num>
+				<paragraph wId="gla2-clan4-stav1">
+					<content>
+						<p>Овај закон ступа на снагу наредног дана од дана објављивања у  „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

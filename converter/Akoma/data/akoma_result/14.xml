@@ -1,0 +1,1026 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Заштитнику грађана">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2005/79-74/main"/>
+					<FRBRuri value="akn/rs/act/2005/79-74"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2007/54-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2007/54-3/srp@"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2007/54-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2007/54-3/srp@.akn"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-09-16" name="службени гласник рс“" number="79" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="10. Заштитник грађана" value="10. заштитник грађана" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2005-01-01" refersTo="79/2005-74" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2007-01-01" refersTo="54/2007-3" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2005-09-14" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2005-09-24" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2005-09-24" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Odboru"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike i Skupštine"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Skupštinu i Vladu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ustava"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zaštitnika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O ukidanju imuniteta Zaštitnika građana"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbor"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odbora"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Skupština"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Skupštinom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnim sudom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zaštitnika građana"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zaštitnika građana u slučaju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zaštitnika građana za stručnu pomoć"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zaštitnikom građana"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zaštitniku građana"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Odbor"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Vladi"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. tač"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. marta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. do 31."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 24. септембра 2005. године (види члан 44. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 24. септембра 2005. године (види члан 44. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О заштитнику грађана „Службени гласник РС“, бр. <ref wId="ref19" href="akn/rs/act/2005/79/srp@">79 од 16. септембра 2005</ref>, <ref wId="ref20" href="akn/rs/act/2007/54/srp@">54 од 13. јуна 2007</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом установљава се Заштитник грађана као независан државни орган који штити права грађана и контролише рад органа државне управе, органа надлежног за правну заштиту имовинских права и интереса Републике Србије, као и других органа и организација, предузећа и установа којима су поверена јавна овлашћења (у даљем тексту: органи управе).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Заштитник грађана се стара о заштити и унапређењу људских  и мањинских*  слобода и права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Под појмом грађанин, у смислу овог закона, подразумева се не само физичко лице које је домаћи држављанин, већ и свако физичко лице страни држављанин, као и свако домаће или страно правно лице о чијим правима и обавезама одлучују органи управе из <ref wId="ref0" href="akn/rs/act/2007/54-3/srp@/!main~art_1__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Заштитник грађана је независан и самосталан у обављању послова утврђених овим законом и нико нема право да утиче на његов рад и поступање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>У обављању послова из своје надлежности Заштитник грађана поступа у оквиру Устава, закона и других прописа и општих аката, као и ратификованих међународних уговора и општеприхваћених правила међународног права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Заштитник грађана за свој рад одговара Народној скупштини (у даљем тексту: Скупштина).*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Седиште Заштитника грађана је у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Заштитник грађана одлуком може образовати канцеларије и ван свог седишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Општим актом о организацији и раду стручне службе Заштитника грађана уређује се обављање послова у канцеларијама.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ИЗБОР И ПРЕСТАНАК ФУНКЦИЈЕ</heading>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Заштитника грађана бира  Скупштина већином гласова свих народних посланика*, на предлог одбора надлежног за уставна питања (у даљем тексту: Одбор).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Кандидата за Заштитника грађана Одбору има право да предложи свака посланичка група у Скупштини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<content>
+							<p>Више посланичких група могу да предложе заједничког кандидата за Заштитника грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav4">
+						<content>
+							<p>Предлог за избор Заштитника грађана утврђује се већином гласова од укупног броја чланова Одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav5">
+						<content>
+							<p>Пре утврђивања предлога за избор Заштитника грађана, Одбор може одлучити да одржи седницу на којој ће свим кандидатима бити омогућено да изнесу своје ставове о улози и начину остваривања функције Заштитника грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav6">
+						<content>
+							<p>Заштитник грађана се бира на време од пет година и исто лице може бити највише два пута узастопно бирано на ову функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav7">
+						<content>
+							<p>Поступак за избор Заштитника грађана започиње најкасније шест месеци пре истека мандата претходног Заштитника грађана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<intro>
+							<p>За Заштитника грађана може бити изабран држављанин Републике Србије који испуњава следеће услове:</p>
+						</intro>
+						<point wId="gla2-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да је дипломирани правник;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да има најмање десет година искуства на правним пословима који су од значаја за обављање послова из надлежности Заштитника грађана;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> да поседује високе моралне и стручне квалитете;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> да има запажено искуство у заштити права грађана.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Заштитник грађана има четири заменика који му помажу у обављању послова утврђених овим законом, у оквиру овлашћења која им он пренесе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Приликом преношења овлашћења заменицима, Заштитник грађана посебно води рачуна о томе да се обезбеди одређена специјализација за обављање послова из надлежности Заштитника грађана, нарочито у погледу заштите права лица лишених слободе, равноправности полова, права детета, права припадника националних мањина и права особа са инвалидитетом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Заштитник грађана одређује заменика који ће га замењивати у случају његове одсутности или спречености да обавља послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav4">
+						<content>
+							<p>Заменике Заштитника грађана бира Скупштина  већином гласова свих народних посланика,*  на предлог Заштитника грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav5">
+						<content>
+							<p>Заменици Заштитника грађана бирају се на време од пет година и исто лице може највише два пута узастопно бити бирано на ову функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav6">
+						<intro>
+							<p>За заменика Заштитника грађана може бити изабран држављанин Републике Србије који испуњава следеће услове:</p>
+						</intro>
+						<point wId="gla2-clan6-stav6-tac1">
+							<num>1)</num>
+							<content>
+								<p> да има високу стручну спрему;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav6-tac2">
+							<num>2)</num>
+							<content>
+								<p> да има најмање пет година искуства у области која је од значаја за обављање послова из надлежности Заштитника грађана;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav6-tac3">
+							<num>3)</num>
+							<content>
+								<p> да поседује високе моралне и стручне квалитете;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav6-tac4">
+							<num>4)</num>
+							<content>
+								<p> да има запажено искуство у заштити права грађана.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Заштитник грађана и његови заменици пре ступања на дужност полажу заклетву која гласи: „Заклињем се да ћу своју дужност обављати одговорно, непристрасно и независно, у складу са Уставом и законом и да ћу савесно радити на заштити и унапређењу људских права и слобода”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Заштитник грађана полаже заклетву пред Скупштином, а његови заменици пред председником Скупштине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Сматра се да је Заштитник грађана, односно заменик Заштитника грађана ступио на дужност моментом полагања заклетве.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Ако Заштитник грађана, односно заменик Заштитника грађана без оправданог разлога не ступи на дужност у року од 30 дана од дана полагања заклетве, сматра се да није изабран, што Скупштина констатује на основу обавештења Одбора. У том случају одмах се покреће поступак за избор новог Заштитника грађана, односно његовог заменика.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Са функцијом Заштитника грађана, односно заменика Заштитника грађана неспојиво је обављање друге јавне функције или професионалне делатности, као и обављање друге дужности или посла који би могао утицати на њихову самосталност и независност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Заштитник грађана и заменик Заштитника грађана не могу бити чланови политичких  странака*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Заштитник грађана и његови заменици имају положај функционера у смислу закона којим се уређује спречавање сукоба интереса у вршењу јавних функција и на њих се у целини примењују одредбе тог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav4">
+						<content>
+							<p>Даном ступања на дужност Заштитнику грађана, односно заменику Заштитника грађана морају престати све јавне, професионалне и друге функције, односно дужности или послови које је до тада обављао, ако су супротни одредбама овог закона, као и чланство у политичким организацијама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Заштитник грађана и његови заменици уживају имунитет као народни посланици.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>О укидању имунитета Заштитника грађана и његових заменика одлучује Скупштина већином гласова свих народних посланика.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2007/54/srp@">54/2007</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Члан 10а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav5">
+						<content>
+							<p>Заштитник грађана и заменик Заштитника грађана не могу давати изјаве политичке природе.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref7" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<intro>
+							<p>Функција Заштитника грађана престаје у следећим случајевима:</p>
+						</intro>
+						<point wId="gla2-clan11-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> истеком мандата, ако не буде поново изабран;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> смрћу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> оставком;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> губитком држављанства, што се утврђује на основу акта надлежног државног органа;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> испуњењем услова за пензију у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> наступањем трајне физичке или менталне неспособности за обављање функције, што се утврђује на основу документације релевантне медицинске установе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> разрешењем.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Заштитника грађана разрешава Скупштина  већином гласова свих народних посланика*, на предлог Одбора или најмање једне трећине од укупног броја народних посланика.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Ако предлог за разрешење Заштитника грађана подноси Одбор, потребно је да се за његово подношење изјасни већина од укупног броја чланова Одбора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav3">
+						<intro>
+							<p>Заштитник грађана може бити разрешен једино у следећим случајевима:</p>
+						</intro>
+						<point wId="gla2-clan12-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако нестручно и несавесно обавља своју функцију;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan12-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако обавља другу јавну функцију или професионалну делатност, ако обавља другу дужност или посао који би могао утицати на његову самосталност и независност, или ако поступа супротно закону којим се уређује спречавање сукоба интереса при вршењу јавних функција ;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan12-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако буде осуђен за кривично дело које га чини неподобним за обављање ове функције.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav4">
+						<content>
+							<p>Заштитник грађана има право да се на седници Скупштине на којој се одлучује о његовом разрешењу обрати народним посланицима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<intro>
+							<p>Скупштина на предлог Одбора може донети одлуку о суспензији Заштитника грађана у случају:</p>
+						</intro>
+						<point wId="gla2-clan13-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако је против њега одређен притвор;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan13-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је осуђен за кривично дело које га чини неподобним за обављање функције, а пресуда није постала правоснажна.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Одлука о суспензији доноси се већином гласова народних посланика на седници на којој је присутна већина народних посланика.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav3">
+						<content>
+							<p>Скупштина ће укинути одлуку о суспензији чим престану разлози за суспензију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref9" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Одредбе о престанку функције Заштитника грађана примењују се и на заменика Заштитника грађана, с тим што предлог за његово разрешење може поднети и Заштитник грађана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>У случају престанка функције Заштитника грађана или заменика Заштитника грађана из разлога наведених у <ref wId="ref10" href="akn/rs/act/2007/54-3/srp@/!main~" >члану 11. тач. 1)</ref>–6) овог закона, Скупштина без расправе доноси одлуку којом констатује да су се стекли услови за престанак функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>Правне последице престанка функције наступају од дана доношења одлуке из <ref wId="ref11" href="akn/rs/act/2007/54-3/srp@/!main~art_15__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>У случају престанка функције Заштитника грађана, до избора новог Заштитника грађана ову функцију обавља заменик кога је Заштитник грађана одредио да га замењује у случају његове одсутности или спречености да обавља функцију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav2">
+						<content>
+							<p>Избор новог Заштитника грађана извршиће се најкасније у року од шест месеци од дана престанка функције ранијег Заштитника грађана.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАДЛЕЖНОСТ</heading>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<paragraph wId="gla3-clan17-stav1">
+						<content>
+							<p>Заштитник грађана је овлашћен да контролише поштовање права грађана, утврђује повреде учињене актима, радњама или нечињењем органа управе, ако се ради о повреди републичких закона, других прописа и општих аката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav2">
+						<content>
+							<p>Заштитник грађана је овлашћен да контролише законитост и правилност рада органа управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav3">
+						<content>
+							<p>Заштитник грађана није овлашћен да контролише рад Народне скупштине, председника Републике, Владе, Уставног суда, судова и јавних тужилаштава.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan18">
+					<num>18.</num>
+					<paragraph wId="gla3-clan18-stav1">
+						<content>
+							<p>Заштитник грађана има право предлагања закона из своје надлежности.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav2">
+						<content>
+							<p>Заштитник грађана је овлашћен да Влади односно Скупштини поднесе иницијативу за измену или допуну закона и других прописа и општих аката, ако сматра да до повреде права грађана долази због недостатака у прописима, као и да иницира доношење нових закона, других прописа и општих аката, када сматра да је то од значаја за остваривање и заштиту права грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav3">
+						<content>
+							<p>Влада, односно надлежни одбор Скупштине, су обавезни да разматрају иницијативе које подноси Заштитник грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav4">
+						<content>
+							<p>Заштитник грађана је овлашћен да у поступку припреме прописа даје мишљење Влади и Скупштини на предлоге закона и других прописа, ако се њима уређују питања која су од значаја за заштиту права грађана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan19">
+					<num>19.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla3-clan19-stav1">
+						<content>
+							<p>Заштитник грађана је овлашћен да покрене поступак пред Уставним судом за оцену уставности и законитости закона, других прописа и општих аката.*</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan20">
+					<num>20.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2007/54/srp@">54/2007</ref></heading>
+					<paragraph wId="gla3-clan20-stav1">
+						<content>
+							<p>Заштитник грађана је овлашћен да јавно препоручи разрешење функционера који је одговоран за повреду права грађана, односно да иницира покретање дисциплинског поступка против запосленог у органу управе који је непосредно одговоран за учињену повреду и то ако из поновљеног понашања функционера или запосленог произилази намера да одбијају сарадњу са Заштитником грађана или ако се утврди да је учињеном повредом грађанину причињена материјална или друга штета већих размера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav2">
+						<content>
+							<p>Ако нађе да у радњама функционера или запосленог у органу управе има елемената кривичног или другог кажњивог дела, Заштитник грађана је овлашћен да надлежном органу поднесе захтев, односно пријаву за покретање кривичног, прекршајног или другог одговарајућег поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan21">
+					<num>21.</num>
+					<paragraph wId="gla3-clan21-stav1">
+						<content>
+							<p>Органи управе имају обавезу да сарађују са Заштитником грађана и да му омогуће приступ просторијама и ставе на располагање све податке којима располажу, а који су од значаја за поступак који води односно за остварење циља његовог превентивног деловања, без обзира на степен њихове тајности, осим када је то у супротности са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav2">
+						<content>
+							<p>Заштитник грађана има право да обави разговор са сваким запосленим у органу управе када је то од значаја за поступак који води.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav3">
+						<content>
+							<p>Заштитник грађана, односно заменик Заштитника грађана је дужан да и након престанка функције чува као тајну податке до којих дође у вршењу своје функције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav4">
+						<content>
+							<p>Обавеза чувања тајне односи се и на запослене у стручној служби Заштитника грађана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan22">
+					<num>22.</num>
+					<paragraph wId="gla3-clan22-stav1">
+						<content>
+							<p>Заштитник грађана има право несметаног приступа заводима за извршење санкција и другим местима на којима се налазе лица која су лишена слободе, као и право да са тим лицима разговара насамо.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan23">
+					<num>23.</num>
+					<paragraph wId="gla3-clan23-stav1">
+						<content>
+							<p>Председник Републике, председник и чланови Владе, председник Скупштине, председник Уставног суда и функционери у органима управе дужни су да приме Заштитника грађана на његов захтев најкасније у року од 15 дана.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПОСТУПАК</heading>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<paragraph wId="gla4-clan24-stav1">
+						<content>
+							<p>Заштитник грађана покреће поступак по притужби грађана или по сопственој иницијативи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav2">
+						<content>
+							<p>Поред права на покретање и вођење поступка, Заштитник грађана има право да пружањем добрих услуга, посредовањем и давањем савета и мишљења о питањима из своје надлежности делује превентивно, у циљу унапређења рада органа управе и унапређења заштите људских слобода и права.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Свако физичко или правно, домаће или страно лице које сматра да су му актом, радњом или нечињењем органа управе повређена права може да поднесе притужбу Заштитнику грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Ако се ради о повреди права детета, притужбу из <ref wId="ref14" href="akn/rs/act/2007/54-3/srp@/!main~art_25__para_1" >става 1. овог</ref> члана у име малолетног лица може поднети његов родитељ, односно законски заступник, а ако се ради о повреди права правног лица, притужбу може поднети лице овлашћено за заступање тог правног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav3">
+						<content>
+							<p>Пре подношења притужбе подносилац је дужан да покуша да заштити своја права у одговарајућем правном поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav4">
+						<content>
+							<p>Заштитник грађана ће упутити подносиоца притужбе на покретање одговарајућег правног поступка, ако је такав поступак предвиђен, а неће покретати поступак док не буду исцрпљена сва правна средства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav5">
+						<content>
+							<p>Изузетно, Заштитник грађана може покренути поступак и пре него што су исцрпљена сва правна средства, ако би подносиоцу притужбе била нанета ненадокнадива штета или ако се притужба односи на повреду принципа добре управе, посебно некоректан однос органа управе према подносиоцу притужбе, неблаговремен рад или друга кршења правила етичког понашања запослених у органима управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav6">
+						<content>
+							<p>Заштитник грађана неће поступати по анонимним притужбама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav7">
+						<content>
+							<p>Изузетно, ако сматра да у анонимној притужби има основа за његово поступање, Заштитник грађана може покренути поступак по сопственој иницијативи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<paragraph wId="gla4-clan26-stav1">
+						<content>
+							<p>Притужба се подноси у писаној форми или усмено на записник и на подношење притужбе се не плаћа никаква такса, нити друга накнада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav2">
+						<content>
+							<p>Притужба се може поднети најкасније у року од једне године од извршене повреде права грађана, односно од последњег поступања, односно непоступања органа управе у вези са учињеном повредом права грађана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<paragraph wId="gla4-clan27-stav1">
+						<content>
+							<p>Притужба садржи назив органа на чији се рад односи, опис повреде права, чињенице и доказе који поткрепљују притужбу, податке о томе која су правна средства искоришћена и податке о подносиоцу притужбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav2">
+						<content>
+							<p>На захтев подносиоца притужбе стручна лица у служби Заштитника грађана су дужна да му, без накнаде, пруже стручну помоћ у састављању притужбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav3">
+						<content>
+							<p>Лица лишена слободе имају право да притужбу поднесу у запечаћеној коверти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav4">
+						<content>
+							<p>У свим установама у којима се налазе лица лишена слободе морају се на видан и јаван начин обезбедити одговарајуће коверте, о чему се старају управе ових установа, као и министарство надлежно за послове правде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan28">
+					<num>28.</num>
+					<paragraph wId="gla4-clan28-stav1">
+						<intro>
+							<p>Заштитник грађана је дужан да поступи по свакој притужби осим:</p>
+						</intro>
+						<point wId="gla4-clan28-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако предмет на који се односи притужба не спада у надлежност Заштитника грађана;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan28-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је притужба поднета након истека рока за подношење;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan28-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако је притужба поднета пре употребе свих расположивих правних средстава, а нису испуњени услови из <ref wId="ref15" href="akn/rs/act/2007/54-3/srp@/!main~art_25__para_5" >члана 25. став 5. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan28-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако је притужба анонимна;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan28-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ако притужба не садржи потребне податке за поступање, а подносилац недостатак не отклони ни у накнадном року одређеном за допуну притужбе, нити се обрати служби Заштитника грађана за стручну помоћ у отклањању недостатка.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav2">
+						<content>
+							<p>Ако због неког од разлога из <ref wId="ref16" href="akn/rs/act/2007/54-3/srp@/!main~art_28__para_1" >става 1. овог</ref> члана нема основа за поступање Заштитника грађана, Заштитник грађана ће одбацити притужбу, о чему је дужан да обавести подносиоца, уз навођење разлога за одбацивање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan29">
+					<num>29.</num>
+					<paragraph wId="gla4-clan29-stav1">
+						<content>
+							<p>О покретању и завршетку поступка Заштитник грађана обавештава подносиоца притужбе, као и орган управе против којег је поднета притужба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav2">
+						<content>
+							<p>Орган управе је обавезан да одговори на све захтеве Заштитника грађана, као и да му достави све тражене информације и списе у року који он одреди, а који не може бити краћи од 15, нити дужи од 60 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav3">
+						<content>
+							<p>Заштитник грађана може, у нарочито оправданим случајевима, да органу управе не открије идентитет подносиоца притужбе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan30">
+					<num>30.</num>
+					<paragraph wId="gla4-clan30-stav1">
+						<content>
+							<p>Ако орган против којег је поднета притужба сам отклони недостатке, Заштитник грађана ће о томе обавестити подносиоца притужбе и оставити му рок од 15 дана да се изјасни да ли је таквим поступком задовољан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan30-stav2">
+						<content>
+							<p>Ако подносилац притужбе одговори да је задовољан начином на који је отклоњен недостатак, као и ако подносилац притужбе уопште не одговори у остављеном року, Заштитник грађана ће обуставити поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan31">
+					<num>31.</num>
+					<paragraph wId="gla4-clan31-stav1">
+						<content>
+							<p>Након утврђивања свих релевантних чињеница и околности Заштитник грађана може обавестити подносиоца притужбе да је притужба неоснована или може утврдити да су постојали недостаци у раду органа управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav2">
+						<content>
+							<p>Ако нађе да су постојали недостаци у раду органа управе, Заштитник грађана ће упутити препоруку органу о томе како би уочени недостатак требало отклонити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav3">
+						<content>
+							<p>Орган управе је дужан да, најкасније у року од 60 дана од дана добијања препоруке обавести Заштитника грађана о томе да ли је поступио по препоруци и отклонио недостатак, односно да га обавести о разлозима због којих није поступио по препоруци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav4">
+						<content>
+							<p>Изузетно, ако постоји опасност да ће због неотклањања недостатка, права подносиоца притужбе бити трајно и у значајном обиму оштећена, Заштитник грађана у својој препоруци органу управе може утврдити и краћи рок за отклањање недостатка, с тим што тај рок не може бити краћи од 15 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan31-stav5">
+						<content>
+							<p>Ако орган управе не поступи по препоруци, Заштитник грађана може о томе да обавести јавност, Скупштину и Владу, а може и да препоручи утврђивање одговорности функционера који руководи органом управе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>Заштитник грађана може поступити и по сопственој иницијативи када на основу сопственог сазнања или сазнања добијених из других извора, укључујући изузетно и анонимне притужбе, оцени да је актом, радњом или нечињењем органа управе дошло до повреде људских слобода или права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan32-stav2">
+						<content>
+							<p>Одредбе <ref wId="ref17" href="akn/rs/act/2007/54-3/srp@/!main~art_29->art_31" >чл. 29. </ref>до 31. овог закона сходно се примењују и на поступак који Заштитник грађана покрене по сопственој иницијативи.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ИЗВЕШТАЈ СКУПШТИНИ И САРАДЊА ЗАШТИТНИКА ГРАЂАНА СА ДРУГИМ ОРГАНИМА</heading>
+				<article wId="gla5-clan33">
+					<num>33.</num>
+					<paragraph wId="gla5-clan33-stav1">
+						<content>
+							<p>Заштитник грађана подноси Скупштини редован годишњи извештај у коме се наводе подаци о активностима у претходној години, подаци о уоченим недостацима у раду органа управе, као и предлози за побољшање положаја грађана у односу на органе управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav2">
+						<content>
+							<p>Извештај о раду се подноси најкасније до 15. марта наредне године и објављује се у „Службеном гласнику Републике Србије” и на интернет страници Заштитника грађана, а доставља се и средствима јавног информисања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan33-stav3">
+						<content>
+							<p>У току године Заштитник грађана може да подноси и посебне извештаје, ако за тим постоји потреба.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan34">
+					<num>34.</num>
+					<paragraph wId="gla5-clan34-stav1">
+						<content>
+							<p>Односи између Заштитника грађана и органа аутономне покрајине и јединица локалне самоуправе надлежних за питања заштите права грађана заснивају се на међусобној сарадњи, у оквиру надлежности Заштитника грађана утврђених овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan34-stav2">
+						<content>
+							<p>Заштитник грађана сарађује са омбудсманом аутономне покрајине и грађанским браниоцем (омбудсманом) у јединицама локалне самоуправе у којима је он установљен, као и са надлежним службама председника Републике и Скупштине, у циљу размене информација о уоченим проблемима и појавама у раду и поступању органа управе са становишта заштите и унапређења људских слобода и права.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan35">
+					<num>35.</num>
+					<paragraph wId="gla5-clan35-stav1">
+						<content>
+							<p>Ако Заштитник грађана прими притужбу која се односи на повреде права грађана учињене актима, радњама или нечињењем органа управе, а не ради се о повреди републичких закона, других прописа и општих аката, већ о повреди прописа или општег акта аутономне покрајине, односно јединице локалне самоуправе, доставиће такву притужбу без одлагања омбудсману аутономне покрајине, односно грађанском браниоцу (омбудсману) јединице локалне самоуправе, ако је установљен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan35-stav2">
+						<content>
+							<p>Ако орган аутономне покрајине или јединице локалне самоуправе надлежан за питања заштите права грађана прими притужбу која се односи на повреде републичког закона, другог прописа или општег акта, доставиће такву притужбу, без одлагања Заштитнику грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan35-stav3">
+						<content>
+							<p>Ако подносилац у притужби указује истовремено на повреду републичког закона, другог прописа или општег акта и на повреду прописа или општег акта аутономне покрајине, односно јединице локалне самоуправе, орган коме је притужба достављена (Заштитник грађана, омбудсман аутономне покрајине или грађански бранилац-омбудсман јединице локалне самоуправе) поступаће по њој у делу својих надлежности, а копију притужбе ће проследити другом надлежном органу (Заштитнику грађана, омбудсману аутономне покрајине или грађанском браниоцу-омбудсману јединице локалне самоуправе, ако је такав орган установљен), ради поступања у делу његових надлежности, сходно <ref wId="ref18" href="akn/rs/act/2007/54-3/srp@/!main~art_35__para_1->para_2" >ст. 1. и 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРАВО НА ПЛАТУ</heading>
+				<article wId="gla6-clan36">
+					<num>36.</num>
+					<paragraph wId="gla6-clan36-stav1">
+						<content>
+							<p>Заштитник грађана има право на плату у висини плате председника Уставног суда, а заменици у висини плате судије Уставног суда.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>СРЕДСТВА ЗА РАД ЗАШТИТНИКА ГРАЂАНА</heading>
+				<article wId="gla7-clan37">
+					<num>37.</num>
+					<paragraph wId="gla7-clan37-stav1">
+						<content>
+							<p>Средства за рад Заштитника грађана обезбеђују се у буџету Републике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan37-stav2">
+						<content>
+							<p>Заштитник грађана сачињава предлог средстава за наредну годину и доставља га Влади ради укључивања као саставни део предлога буџета Републике, с тим што предлог мора бити сачињен по методологији и критеријумима који важе за остале буџетске кориснике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan37-stav3">
+						<content>
+							<p>Годишња средства за рад Заштитника грађана треба да буду довољна да омогуће његово делотворно и ефикасно остваривање функције, као и да буду у складу са макроекономском политиком Републике.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>СТРУЧНА СЛУЖБА</heading>
+				<article wId="gla8-clan38">
+					<num>38.</num>
+					<paragraph wId="gla8-clan38-stav1">
+						<content>
+							<p>За вршење стручних и административних послова образује се стручна служба Заштитника грађана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan38-stav2">
+						<content>
+							<p>Радом стручне службе руководи генерални секретар, који мора бити лице са завршеним правним факултетом, најмање пет година радног искуства и који мора испуњавати услове за рад у органима државне управе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan38-stav3">
+						<content>
+							<p>Заштитник грађана доноси општи акт о организацији и систематизацији послова стручне службе, на који сагласност даје Народна скупштина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan38-stav4">
+						<content>
+							<p>Заштитник грађана доноси одлуку о пријему у радни однос запослених у стручној служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan38-stav5">
+						<content>
+							<p>На генералног секретара и остале запослене у стручној служби Заштитника грађана примењују се прописи којима се уређују радни односи у државним органима.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla9-clan39">
+					<num>39.</num>
+					<paragraph wId="gla9-clan39-stav1">
+						<content>
+							<p>Скупштина ће изабрати Заштитника грађана у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan39-stav2">
+						<content>
+							<p>Заштитник грађана ће поднети предлог за избор заменика у року од три месеца од дана ступања на дужност, а Скупштина ће изабрати заменике Заштитника грађана у року од два месеца од дана подношења предлога.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan40">
+					<num>40.</num>
+					<paragraph wId="gla9-clan40-stav1">
+						<content>
+							<p>Општи акт о организацији и раду стручне службе Заштитник грађана ће донети у року од 60 дана од дана ступања на дужност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan40-stav2">
+						<content>
+							<p>Пријем запослених у стручну службу Заштитник грађана извршиће се у року од 60 дана од дана ступања на снагу општег акта о организацији и раду стручне службе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan41">
+					<num>41.</num>
+					<paragraph wId="gla9-clan41-stav1">
+						<content>
+							<p>Скупштина ће ускладити одредбе свог Пословника са одредбама овог закона у року од шест месеци од дана његовог ступања на снагу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan41-stav2">
+						<content>
+							<p>Пословником Скупштине уредиће се начин поступања по поднетом редовном извештају, као и по посебним извештајима Заштитника грађана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan42">
+					<num>42.</num>
+					<paragraph wId="gla9-clan42-stav1">
+						<content>
+							<p>Влада ће, до ступања на снагу општег акта о организацији и раду стручне службе Заштитника грађана, на предлог Заштитника грађана, обезбедити простор, средства и друге неопходне услове за почетак рада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan43">
+					<num>43.</num>
+					<paragraph wId="gla9-clan43-stav1">
+						<content>
+							<p>Заштитник грађана неће поступати по случајевима насталим пре ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan44">
+					<num>44.</num>
+					<paragraph wId="gla9-clan44-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

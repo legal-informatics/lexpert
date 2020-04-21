@@ -1,0 +1,1085 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о  Војсци Југославије">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/1994/43-600/main"/>
+					<FRBRuri value="akn/rs/act/1994/43-600"/>
+					<FRBRdate date="1994-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2015/10-10/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2015/10-10/srp@"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2015/10-10/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2015/10-10/srp@.akn"/>
+					<FRBRdate date="2015-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1994-05-27" name="службени лист срј" number="43" showAs="Службени лист СРЈ"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="2. Војска Србије" value="2. војска србије" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1994-01-01" refersTo="43/1994-600" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="1996-01-01" refersTo="28/1996-5" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="1999-01-01" refersTo="44/1999-14" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="1999-01-01" refersTo="74/1999-36" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2002-01-01" refersTo="3/2002-42" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2002-01-01" refersTo="37/2002-1" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2005-01-01" refersTo="7/2005-1" source="#somebody" type="amendment" wId="e7"/>
+				<eventRef date="2005-01-01" refersTo="44/2005-1" source="#somebody" type="amendment" wId="e8"/>
+				<eventRef date="2007-01-01" refersTo="116/2007-17" source="#somebody" type="amendment" wId="e9"/>
+				<eventRef date="2009-01-01" refersTo="88/2009-9" source="#somebody" type="amendment" wId="e10"/>
+				<eventRef date="2009-01-01" refersTo="88/2009-23" source="#somebody" type="amendment" wId="e11"/>
+				<eventRef date="2010-01-01" refersTo="101/2010-246" source="#somebody" type="amendment" wId="e12"/>
+				<eventRef date="2015-01-01" refersTo="10/2015-10" source="#somebody" type="amendment" wId="e13"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="1994-05-18" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="0001-01-01" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="0001-01-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="медицинске"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="лечење"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="врсте"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="прегледе"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="материјала"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="школа"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="лекарске"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="помоћи"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="друге"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="утврђеном"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="ортопедска"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="превентивне"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="располаже"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="војска"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="бесплатну"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="војних"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="потребног"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="употребу"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="негу"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="помагала"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="терет"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="обиму"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="помоћног"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="зубнотехничку"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="праћења"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="превенцију"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="давање"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="проверавања"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="средстава"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="лекова"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="лека"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="зуба"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="зубнотехничка"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="уста"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="санитетског"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="одслужењу"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="служи"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="рока"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="облике"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="војници"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="студенти"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="слушаоци"/>
+				<TLCConcept eId="cocnept42" href="http://purl.org/vocab/frbr/core#Concept" showAs="ученици"/>
+				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="средњих"/>
+				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="академија"/>
+				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="средства"/>
+				<TLCConcept eId="cocnept46" href="http://purl.org/vocab/frbr/core#Concept" showAs="стања"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="SRJ"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vojske"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vojsku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I INVALIDSKO OSIGURANJE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="VOJSKE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojsci"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojska"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ded"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Propise"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. do 25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2. stava 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="142. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="197. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="211."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="213. i 214."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="225."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="231. st. 1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="233. stav 1. tačka 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="237."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. i 27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="260."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="272."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="274. i 275."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="279. do 336."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. do 58."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="337. do 339."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="340. do 345."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="346. do 363."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. i 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="59."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="60. do 210."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="72. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="82. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Овај закон, сагласно члану 92. став 1. Устава Савезне Републике Југославије („Службени лист СРЈ“, бр. 1/1992, 34/1992 – Амандман I, 29/2000 – Амандмани II-IX) привремено се примењивао у тексту који је усвојен у Већу грађана (види „Службени лист СРЈ“, бр. 67/1993-1457, 72/1993-1568 - исправка), односно од 6. новембра 1993. године до коначног усвајања Закона о Војсци Југославије („Службени лист СРЈ“, број 43/1994) у оба Већа, односно до 18. маја 1994. године. Из тог разлога текст Закона који је објављен у „Службеном листу СРЈ“, број 43/1994 не садржи одредбу о ступању на снагу, будући да је његово ступање на снагу било одређено одредбом члана 92. став 2. Устава Савезне Републике Југославије.Закон је престао да важи 1. јануара 2008. године, ступањем на снагу Закона о Војсци Србије („Службени гласник РС“, број 16/2007) (види члан 197. Закона о Војсци Србије - „Службени гласник РС“, број 16/2007-17).По престанку важења закона остале су на снази следеће одредбе:- поглавље XV – Здравствено осигурање (чл. 211. до 239.),Престале су да важе одредбе Закона у делу који се односи на цивилну службу (види члан 72. Закона о цивилној служби - Службени гласник РС, број 88/2009-23).Одредбе чл. 240-260, чл. 262-272, чл. 274. и 275. и 276. и 277. у делу који се односи на пензијско и инвалидско осигурање војних осигураника поглавља XVI примењивале су се закључно са 31. децембром 2011. године, када су престале да важе (види члан 82. Закона о изменама и допунама Закона о пензијском и инвалидском осигурању - Службени гласник РС, број 101/2010).Престале су да важе одредбе о правима на продужено осигурање и на накнаду због престанка запослења (чл. 59. и 59а) (види члан 72. Закона – 10/2015-10).</p>
+				</note>
+				<note wId="not2">
+					<p>Овај закон, сагласно члану 92. став 1. Устава Савезне Републике Југославије („Службени лист СРЈ“, бр. 1/1992, 34/1992 – Амандман I, 29/2000 – Амандмани II-IX) привремено се примењивао у тексту који је усвојен у Већу грађана (види „Службени лист СРЈ“, бр. 67/1993-1457, 72/1993-1568 - исправка), односно од 6. новембра 1993. године до коначног усвајања Закона о Војсци Југославије („Службени лист СРЈ“, број 43/1994) у оба Већа, односно до 18. маја 1994. године. Из тог разлога текст Закона који је објављен у „Службеном листу СРЈ“, број 43/1994 не садржи одредбу о ступању на снагу, будући да је његово ступање на снагу било одређено одредбом члана 92. став 2. Устава Савезне Републике Југославије.Закон је престао да важи 1. јануара 2008. године, ступањем на снагу Закона о Војсци Србије („Службени гласник РС“, број 16/2007) (види члан 197. Закона о Војсци Србије - „Службени гласник РС“, број 16/2007-17).По престанку важења закона остале су на снази следеће одредбе:- поглавље XV – Здравствено осигурање (чл. 211. до 239.),Престале су да важе одредбе Закона у делу који се односи на цивилну службу (види члан 72. Закона о цивилној служби - Службени гласник РС, број 88/2009-23).Одредбе чл. 240-260, чл. 262-272, чл. 274. и 275. и 276. и 277. у делу који се односи на пензијско и инвалидско осигурање војних осигураника поглавља XVI примењивале су се закључно са 31. децембром 2011. године, када су престале да важе (види члан 82. Закона о изменама и допунама Закона о пензијском и инвалидском осигурању - Службени гласник РС, број 101/2010).Престале су да важе одредбе о правима на продужено осигурање и на накнаду због престанка запослења (чл. 59. и 59а) (види члан 72. Закона – 10/2015-10).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О  војсци југославије „Службени лист СРЈ”, бр. <ref wId="ref48" href="akn/rs/act/1994/43/srp@">43 од 27. маја 1994</ref>, <ref wId="ref49" href="akn/rs/act/1996/28/srp@">28 од 21. јуна 1996</ref> - др. закон, <ref wId="ref50" href="akn/rs/act/1999/44/srp@">44 од 25. јуна 1999</ref>, <ref wId="ref51" href="akn/rs/act/1999/74/srp@">74 од 25. децембра 1999</ref>, <ref wId="ref52" href="akn/rs/act/2002/3/srp@">3 од 18. јануара 2002</ref>, 37 oд 3. јула 2002 - др. закон, „Службени лист СЦГ”, бр. <ref wId="ref53" href="akn/rs/act/2005/7/srp@">7 од 18. фебруара 2005</ref>, <ref wId="ref54" href="akn/rs/act/2005/44/srp@">44 од 22. октобра 2005</ref>, „Службени гласник РС“, бр. <ref wId="ref55" href="akn/rs/act/2007/116/srp@">116 од 11 децембра 2007</ref> - др. закон, <ref wId="ref56" href="akn/rs/act/2009/88/srp@">88 од 28. октобра 2009</ref> - др. закони,<ref wId="ref57" href="akn/rs/act/2010/101/srp@">101 од 29. децембра 2010</ref>- др. закон, <ref wId="ref58" href="akn/rs/act/2015/10/srp@">10 од 29. јануара 2015</ref> - др. закон</p>
+			</longTitle>
+		</preface>
+		<body>
+			<part wId="deo1">
+				<num>ДЕО ПРВИ</num>
+				<heading>Глава 1</heading>
+				<paragraph wId="deo1-stav1">
+					<content>
+						<p>ОРГАНИЗАЦИЈА ВОЈСКЕ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav2">
+					<content>
+						<p>Чл. 1. до 25.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav3">
+					<content>
+						<p>Престали су да важе (види члан 197. Закона – 116/2007-17)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav4">
+					<content>
+						<p>Чл. 26. и 27.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav5">
+					<content>
+						<p>Престали су да важе (види члан 142. Закона – 88/2009-9)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav6">
+					<content>
+						<p>Чл. 28. до 58.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav7">
+					<content>
+						<p>Престали су да важе (види члан 197. Закона – 116/2007-17)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav8">
+					<content>
+						<p>Чл.  59. и 59а</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav9">
+					<content>
+						<p>Престали су да важе  (види члан 72. Закона - 10/2015-10)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav10">
+					<content>
+						<p>Чл. 60. до 210.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo1-stav11">
+					<content>
+						<p>Престали су да важе (види члан 197. Закона – 116/2007-17)</p>
+					</content>
+				</paragraph>
+			</part>
+			<part wId="deo3">
+				<num>ДЕО ТРЕЋИ</num>
+				<heading>СОЦИЈАЛНО ОСИГУРАЊЕ</heading>
+				<paragraph wId="deo3-stav1">
+					<content>
+						<p>Глава ХV</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo3-stav2">
+					<content>
+						<p>ЗДРАВСТВЕНО ОСИГУРАЊЕ</p>
+					</content>
+				</paragraph>
+				<article wId="deo3-od1-clan211">
+					<num>211.</num>
+					<paragraph wId="deo3-od1-clan211-stav1">
+						<intro>
+							<p>Војници на одслужењу војног рока, студенти војних академија, ученици средњих војних школа, слушаоци школа за резервне официре и лица у резервном саставу за време службе у Војсци имају право на бесплатну здравствену заштиту на терет средстава којима располаже Војска, у обиму утврђеном овим законом, и то:</p>
+						</intro>
+						<point wId="deo3-od1-clan211-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> све облике превентивне медицинске заштите;</p>
+							</content>
+						</point>
+						<point wId="deo3-od1-clan211-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>лекарске прегледе, лечење и друге врсте медицинске помоћи;</p>
+							</content>
+						</point>
+						<point wId="deo3-od1-clan211-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> лекарске прегледе и друге врсте медицинске помоћи ради праћења и проверавања здравственог стања;</p>
+							</content>
+						</point>
+						<point wId="deo3-od1-clan211-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> давање лекова, помоћног материјала који служи за употребу лека и санитетског материјала потребног за лечење;</p>
+							</content>
+						</point>
+						<point wId="deo3-od1-clan211-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> превенцију, негу и лечење обољења зуба и уста;</p>
+							</content>
+						</point>
+						<point wId="deo3-od1-clan211-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> зубнотехничку помоћ и зубнотехничка средства;</p>
+							</content>
+						</point>
+						<point wId="deo3-od1-clan211-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> ортопедска помагала.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="deo3-od1-clan212">
+					<num>212.</num>
+					<paragraph wId="deo3-od1-clan212-stav1">
+						<intro>
+							<p>Лица из <ref wId="ref0" href="akn/rs/act/2015/10-10/srp@/!main~art_211" >члана 211. овог</ref> закона остварују здравствену заштиту у војним здравственим установама, а могу је остваривати и у другим здравственим установама:</p>
+						</intro>
+						<point wId="deo3-od1-clan212-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако у месту службовања нема војне здравствене установе;</p>
+							</content>
+						</point>
+						<point wId="deo3-od1-clan212-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>ако војна здравствена установа не може да пружи одговарајуће облике здравствене заштите;</p>
+							</content>
+						</point>
+						<point wId="deo3-od1-clan212-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>у хитним случајевима.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo3-od1-clan212-stav2">
+						<content>
+							<p>Здравствена заштита из тач. <ref wId="ref2" href="akn/rs/act/2015/10-10/srp@/!main~art_212__para_2__point_1" >1</ref>. и <ref wId="ref3" href="akn/rs/act/2015/10-10/srp@/!main~art_212__para_2__point_2" >2</ref>. <ref wId="ref1" href="akn/rs/act/2015/10-10/srp@/!main~art_212__para_1" >става 1. овог</ref> члана, осим у хитним случајевима, остварује се по упуту надлежног лекара, а ако у месту службовања нема здравствене установе –по упуту надлежног старешине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od1-clan212-stav3">
+						<content>
+							<p>Лица из <ref wId="ref4" href="akn/rs/act/2015/10-10/srp@/!main~art_211" >члана 211. овог</ref> закона, за време ратног стања, здравствену заштиту остварују на начин на који се врши збрињавање повређених и оболелих припадника Војске за то време.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od1-clan213">
+					<num>213.</num>
+					<paragraph wId="deo3-od1-clan213-stav1">
+						<content>
+							<p>Војници на одслужењу војног рока, студенти војних академија, ученици средњих војних школа, слушаоци школа за резервне официре и лица у резервном саставу, по отпуштању из Војске имају право на здравствену заштиту за повреде или обољења која су добили за време службе у Војсци, ако то право не остварују по другом основу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od1-clan213-stav2">
+						<content>
+							<p>Лица из <ref wId="ref5" href="akn/rs/act/2015/10-10/srp@/!main~art_213__para_1" >става 1. овог</ref> члана код којих се појави обољење по отпуштању из Војске имају право на здравствену заштиту ако у року од два месеца од дана отпуштања из Војске пријаве то обољење надлежном органу у републици чланици и ако војна лекарска комисија утврди да је односно обољење настало за време службе у Војсци.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od1-clan214">
+					<num>214.</num>
+					<paragraph wId="deo3-od1-clan214-stav1">
+						<content>
+							<p>Војници, студенти војних академија, ученици средњих војних школа, слушаоци школа за резервне официре и лица у резервном саставу, који због погоршања обољења које су имали пре ступања у Војску буду отпуштени из Војске, имају право на здравствену заштиту за то обољење до излечења, односно до стабилизације обољења, а најдуже две године од дана отпуштања из Војске, ако право на здравствену заштиту не остварују по другом основу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od1-clan215">
+					<num>215.</num>
+					<paragraph wId="deo3-od1-clan215-stav1">
+						<content>
+							<p>Студент војне академије, ученик средње војне школе и слушалац школе за резервне официре који због здравствене неспособности за професионалну војну службу буде отпуштен са школовања има право на новчану помоћ за наставак школовања у другој школи истог степена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od1-clan215-stav2">
+						<content>
+							<p>Износ новчане помоћи из <ref wId="ref6" href="akn/rs/act/2015/10-10/srp@/!main~art_215__para_1" >става 1. овог</ref> члана утврђује се зависно од имовног стања лица из <ref wId="ref7" href="akn/rs/act/2015/10-10/srp@/!main~art_215__para_1" >става 1. овог</ref> члана и чланова његове породице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan216">
+					<num>216.</num>
+					<paragraph wId="deo3-od2-clan216-stav1">
+						<content>
+							<p>Здравственим осигурањем обезбеђује се војним осигураницима и члановима њихових породица право на коришћење здравствене заштите и право на новчану накнаду и помоћ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan216-stav2">
+						<content>
+							<p>Војни осигураници, у смислу остваривања права из здравственог осигурања по овом закону, јесу лица која имају својство професионалних војника, лица која по овом закону остваре право на старосну, инвалидску и породичну пензију, као и чланови њихових породица  уколико осигурање не остварују по другом основу.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan216-stav3">
+						<content>
+							<p>Члановима породице лица из <ref wId="ref8" href="akn/rs/act/2015/10-10/srp@/!main~art_216__para_2" >става 2. овог</ref> члана сматрају се чланови породице утврђени прописима република чланица којима се уређује здравствена заштита.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan217">
+					<num>217.</num>
+					<heading>*Службени лист СЦГ, број <ref wId="ref9" href="akn/rs/act/2005/7/srp@">7/2005</ref></heading>
+					<paragraph wId="deo3-od2-clan217-stav1">
+						<intro>
+							<p>Здравствена заштита војних осигураника која се овим законом обезбеђује обухвата:</p>
+						</intro>
+						<point wId="deo3-od2-clan217-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>лекарске прегледе и друге врсте медицинске помоћи ради праћења и проверавања здравственог стања и утврђивања здравствене способности за рад на одређеном радном месту;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan217-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>предузимање стручних медицинских мера за унапређивање здравственог стања, односно спречавање обољења (вакцинације и друге имунизације, хемиопрофилакса, санирање клицоноштва, дезинфекција и друге заштитне мере у стану, кад су медицински индициране услед појаве заразних болести, и др.);</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan217-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>лекарске прегледе, лечење болесника и друге врсте медицинске помоћи (у здравственим и другим специјализованим установама и у стану болесника и др.);</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan217-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>спровођење мера ради откривања и спречавања обољења од професионалних болести и спречавања несрећа на послу;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan217-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> медицинску рехабилитацију у стационарној здравственој установи и у другој специјализованој установи за медицинску рехабилитацију;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan217-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> превенцију, негу и лечење болести зуба и уста;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan217-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> давање лекова, помоћног материјала који служи за употребу лека и санитетског материјала потребног за лечење;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan217-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> зубнотехничку помоћ и зубнотехничка средства;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan217-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> давање протеза, ортопедских и других помагала, помоћних и санитарних справа.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan218">
+					<num>218.</num>
+					<paragraph wId="deo3-od2-clan218-stav1">
+						<content>
+							<p>Повредом на раду и професионалном болешћу сматрају се повреде и болести утврђене савезним прописом о основним правима из пензијског и инвалидског осигурања и овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan219">
+					<num>219.</num>
+					<paragraph wId="deo3-od2-clan219-stav1">
+						<content>
+							<p>Војном осигуранику професионалном војнику који се налази на служби у иностранству обезбеђује се здравствена заштита која се по овом закону обезбеђује војном осигуранику у СРЈ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan219-stav2">
+						<intro>
+							<p>Здравствена заштита из <ref wId="ref10" href="akn/rs/act/2015/10-10/srp@/!main~art_219__para_1" >става 1. овог</ref> члана обезбеђује се и члановима уже породице војног осигураника док бораве с њим у иностранству:</p>
+						</intro>
+						<point wId="deo3-od2-clan219-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p>ако је војни осигураник на служби у иностранству дуже од шест месеци, здравствена заштита обезбеђује се у обиму у коме се обезбеђује и војном осигуранику од кога они изводе своје право на здравствено осигурање и за све време за које се здравствена заштита обезбеђује војном осигуранику;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan219-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p>ако је војни осигураник на служби у иностранству до шест месеци, здравствена заштита обезбеђује се само у случају неопходне лекарске помоћи.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan220">
+					<num>220.</num>
+					<paragraph wId="deo3-od2-clan220-stav1">
+						<content>
+							<p>Војни осигураници и чланови њихових породица могу се, у случају потребе, упутити на лечење у иностранство ако су оболели од болести која се не може лечити у СРЈ, а у земљи у коју се упућују постоји могућност лечења, односно медицинског испитивања и утврђивања такве болести.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan221">
+					<num>221.</num>
+					<paragraph wId="deo3-od2-clan221-stav1">
+						<intro>
+							<p>Војном осигуранику професионалном војнику припада накнада плате за време привремене спречености за рад ако је:</p>
+						</intro>
+						<point wId="deo3-od2-clan221-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>услед болести или повреде привремено неспособан за рад, односно ако је ради лечења или медицинских испитивања смештен у стационарну здравствену или другу специјализовану установу;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan221-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>спречен да ради услед одређеног лечења или медицинског испитивања које се не може вршити ван осигураниковог радног времена;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan221-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>упућен на лечење по прописима о војним инвалидима;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan221-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>изолован као клицоноша или због појаве заразе у његовој околини;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan221-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>одређен да негује оболелог члана уже породице или члана уже породице породиљу ако нема другог члана породице да је негује, под условима одређеним овим законом;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan221-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> одређен за пратиоца болесника упућеног на лечење или лекарски преглед у друго место;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan221-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p>спречен да ради због добровољног давања крви и органа.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan221-stav2">
+						<content>
+							<p>Висину накнаде из <ref wId="ref11" href="akn/rs/act/2015/10-10/srp@/!main~art_221__para_1" >става 1. овог</ref> члана прописује савезни министар за одбрану.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan222">
+					<num>222.</num>
+					<paragraph wId="deo3-od2-clan222-stav1">
+						<content>
+							<p>Накнада плате за време привремене спречености за рад у случајевима из <ref wId="ref12" href="akn/rs/act/2015/10-10/srp@/!main~art_221" >члана 221. овог</ref> закона припада од првог дана спречености за рад па све док та спреченост траје.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan222-stav2">
+						<content>
+							<p>Спреченост за рад због привремене неспособности за рад траје док надлежни војни лекар, односно војна лекарска комисија не утврди да је успостављена радна способност или док се решењем надлежног органа не утврди да постоји инвалидност у смислу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan223">
+					<num>223.</num>
+					<paragraph wId="deo3-od2-clan223-stav1">
+						<content>
+							<p>Кад надлежна војна лекарска комисија у току лечења војног осигураника –професионалног војника који прима накнаду плате утврди да је његово здравствено стање побољшано и да би рад био користан за брже успостављање пуне радне способности, може одредити да за одређено време ради са скраћеним радним временом на одговарајућем радном месту. Овакав рад може трајати најдуже једну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan223-stav2">
+						<content>
+							<p>Војном осигуранику из <ref wId="ref13" href="akn/rs/act/2015/10-10/srp@/!main~art_223__para_1" >става 1. овог</ref> члана који за време привремене спречености за рад ради са скраћеним радним временом, поред дела плате остварене за рад са скраћеним радним временом, припада и део накнаде плате који одговара сразмери времена проведеног ван рада према пуном радном времену.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan223-stav3">
+						<content>
+							<p>Део плате и део накнаде плате из <ref wId="ref14" href="akn/rs/act/2015/10-10/srp@/!main~art_223__para_2" >става 2. овог</ref> члана припада војном осигуранику и за време годишњег одмора који користи у периоду рада са скраћеним радним временом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan224">
+					<num>224.</num>
+					<paragraph wId="deo3-od2-clan224-stav1">
+						<intro>
+							<p>Војном осигуранику –професионалном војнику не припада накнада плате, односно обуставља му се исплата накнаде плате за време привремене спречености за рад:</p>
+						</intro>
+						<point wId="deo3-od2-clan224-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>ако је свесно проузроковао неспособност за рад;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan224-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је намерно спречавао оздрављење, односно оспособљавање;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan224-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>ако се без оправданог разлога не одазове на одређени лекарски, односно комисијски преглед;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan224-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>ако се без оправданог разлога не подвргне одређеном лечењу, осим ако за то није потребан пристанак предвиђен посебним прописима;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan224-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>ако се за време боловања бави одређеном делатношћу ради стицања добити.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan225">
+					<num>225.</num>
+					<paragraph wId="deo3-od2-clan225-stav1">
+						<intro>
+							<p>Војном осигуранику припада накнада путних трошкова, која обухвата:</p>
+						</intro>
+						<point wId="deo3-od2-clan225-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>накнаду за трошкове превоза;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan225-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>накнаду за трошкове исхране и смештаја за време путовања и боравка у другом месту.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan225-stav2">
+						<intro>
+							<p>Накнада путних трошкова из <ref wId="ref15" href="akn/rs/act/2015/10-10/srp@/!main~art_225__para_1" >става 1. овог</ref> члана припада лицу из тог става ако је:</p>
+						</intro>
+						<point wId="deo3-od2-clan225-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p>од војног лекара – појединца, војне лекарске комисије, војне здравствене установе или друге здравствене установе позван или упућен у друго место у вези са остваривањем права из здравственог осигурања одређених овим законом;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan225-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p>из места у коме је на служби, односно из места боравка у коме нема лекара морао да путује до најближег лекара или здравствене установе у другом месту ради лекарског прегледа или лечења.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan225-stav3">
+						<content>
+							<p>Висину накнаде из <ref wId="ref16" href="akn/rs/act/2015/10-10/srp@/!main~art_225__para_1" >става 1. овог</ref> члана прописује савезни министар за одбрану.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan226">
+					<num>226.</num>
+					<paragraph wId="deo3-od2-clan226-stav1">
+						<content>
+							<p>Накнада путних трошкова припада лицу из <ref wId="ref17" href="akn/rs/act/2015/10-10/srp@/!main~art_225" >члана 225. овог</ref> закона и за пратиоца ако је по оцени војног лекара –појединца, војне лекарске комисије, војне здравствене установе или друге здравствене установе том лицу потребан пратилац за време путовања и боравка у том месту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan227">
+					<num>227.</num>
+					<paragraph wId="deo3-od2-clan227-stav1">
+						<content>
+							<p>Услучају смрти члана уже породице, војном осигуранику припада накнада погребних трошкова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan227-stav2">
+						<content>
+							<p>Накнада из <ref wId="ref18" href="akn/rs/act/2015/10-10/srp@/!main~art_227__para_1" >става 1. овог</ref> члана припада и члановима породице војног осигураника у случају смрти војног осигураника ако су сахранили умрлог војног осигураника. Накнада погребних трошкова припада и свакоме ко сахрани умрлог војног осигураника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan227-stav3">
+						<content>
+							<p>Накнада погребних трошкова припада у висини коју пропише савезни министар за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan227-stav4">
+						<content>
+							<p>Услучају смрти војног осигураника –професионалног војника и лица које је по овом закону остварило право на пензију, члановима његове породице, и то: брачном другу, а осталим члановима –ако их је војни осигураник до своје смрти издржавао, припада посмртна помоћ у једнократном износу двоструке плате, односно пензије која му је припала за последњи месец пре његове смрти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan227-stav5">
+						<content>
+							<p>Ако има више чланова породице који имају право на посмртну помоћ, износ из <ref wId="ref19" href="akn/rs/act/2015/10-10/srp@/!main~art_227__para_4" >става 4. овог</ref> члана дели се на једнаке делове између тих чланова породице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan228">
+					<num>228.</num>
+					<paragraph wId="deo3-od2-clan228-stav1">
+						<content>
+							<p>При коришћењу одређених видова здравствене заштите може се предвидети учешће војних осигураника и чланова њихових породица у трошковима здравствене заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan228-stav2">
+						<content>
+							<p>Видове и износе учешћа у трошковима здравствене заштите и ослобађање од учешћа прописује Савезна влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan229">
+					<num>229.</num>
+					<paragraph wId="deo3-od2-clan229-stav1">
+						<intro>
+							<p>Војни осигураници остварују здравствену заштиту у војним здравственим установама, а могу је остварити и у другим здравственим установама:</p>
+						</intro>
+						<point wId="deo3-od2-clan229-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>ако у месту службовања, односно становања нема војне здравствене установе;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan229-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>ако војна здравствена установа не може да пружи одговарајуће облике здравствене заштите;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan229-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> у хитним случајевима.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan230">
+					<num>230.</num>
+					<paragraph wId="deo3-od2-clan230-stav1">
+						<content>
+							<p>Прописе о начину остваривања здравствене заштите која се по овом закону обезбеђује на терет средстава здравственог осигурања војних осигураника доноси Савезна влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan231">
+					<num>231.</num>
+					<paragraph wId="deo3-od2-clan231-stav1">
+						<content>
+							<p>Војно лице које за време службе или у вези са службом у Војсци, без своје кривице, задобије рану, повреду или озледу, па због тога наступи оштећење његовог организма од најмање 20%, има право на једнократну новчану помоћ чија се висина одређује према степену телесног оштећења. Степен телесног оштећења утврђује се према савезним прописима којима се уређују права војних инвалида.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan231-stav2">
+						<content>
+							<p>Под условима из <ref wId="ref20" href="akn/rs/act/2015/10-10/srp@/!main~art_231__para_1" >става 1. овог</ref> члана, једнократна новчана помоћ припада и војном лицу кад наступи оштећење његовог организма од најмање 20% услед болести која је настала или се погоршала као непосредна последица службе у Војсци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan231-stav3">
+						<content>
+							<p>Нехат се неће сматрати кривицом у смислу <ref wId="ref21" href="akn/rs/act/2015/10-10/srp@/!main~art_231__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan231-stav4">
+						<content>
+							<p>Ако војно лице погине или умре од задобијене ране, повреде или озледе под условима из <ref wId="ref22" href="akn/rs/act/2015/10-10/srp@/!main~art_231__para_1->para_2" >ст. 1. и 2. овог</ref> члана, једнократна новчана помоћ припада његовој породици.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan231-stav5">
+						<content>
+							<p>Једнократна новчана помоћ припада и породици војника, студента војне академије, ученика средње војне школе и слушаоца школе за резервне официре који услед болести умре за време служења војног рока, односно школовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan231-stav6">
+						<content>
+							<p>Под условима из ст. <ref wId="ref23" href="akn/rs/act/2015/10-10/srp@/!main~art_231__para_1" >1</ref>, <ref wId="ref24" href="akn/rs/act/2015/10-10/srp@/!main~art_231__para_4->para_5" >4. и 5</ref>. овог члана, једнократна новчана помоћ припада и лицу, односно породици лица кад наступи оштећење његовог организма, односно кад изгуби живот за време одласка на службу у Војску или за време повратка са те службе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan232">
+					<num>232.</num>
+					<paragraph wId="deo3-od2-clan232-stav1">
+						<content>
+							<p>Под службом у Војсци, у смислу <ref wId="ref25" href="akn/rs/act/2015/10-10/srp@/!main~art_231" >члана 231. овог</ref> закона, подразумева се вршење редовног или ванредног службеног посла, као и другог посла који се обавља по наређењу надлежног старешине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan232-stav2">
+						<intro>
+							<p>Под вршењем дужности у вези са службом, у смислу <ref wId="ref26" href="akn/rs/act/2015/10-10/srp@/!main~art_231" >члана 231. овог</ref> закона, подразумева се:</p>
+						</intro>
+						<point wId="deo3-od2-clan232-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p>одлазак на службену дужност, односно повратак са службене дужности;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan232-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> одлазак војника, студента војне академије, ученика средње војне школе и слушаоца школе за резервне официре на одсуство и повратак са одсуства;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan232-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> боравак војника, односно војника у резерви, студента војне академије, ученика средње војне школе или слушаоца школе за резервне официре у војној згради, кругу касарне, логору, аеродрому, полигону, броду или другом пловном средству ратне морнарице или на другом месту на коме је био по правилима службе или по наређењу, односно одобрењу надлежног старешине, као и на одобреном изласку из јединице, односно установе у слободно време, осим на одсуству.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan233">
+					<num>233.</num>
+					<paragraph wId="deo3-od2-clan233-stav1">
+						<intro>
+							<p>Право на једнократну новчану помоћ имају чланови породице војног лица, и то:</p>
+						</intro>
+						<point wId="deo3-od2-clan233-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>брачни друг;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan233-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> деца рођена у браку, ван брака или усвојена, ако нису старија од 18 година, односно 26 година – ако се налазе на школовању, осим деце која су у радном односу, а без обзира на године живота –ако су трајно и потпуно неспособна за рад;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan233-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>родитељи, односно усвојилац и његов брачни друг;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan233-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>очух и маћеха;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan233-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> браћа и сестре – ако нису старији од 18 година, односно 26 година ако се налазе на редовном школовању, осим браће и сестара који су у радном односу, а без обзира на године живота –ако су трајно и потпуно неспособни за рад;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan233-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> дед и баба.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan233-stav2">
+						<content>
+							<p>Право на једнократну новчану помоћ нема брачни друг који је неоправдано напустио брачну заједницу. Чињеницу да је брачни друг неоправдано напустио брачну заједницу утврђује суд опште надлежности у ванпарничном поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan233-stav3">
+						<content>
+							<p>Децом, у смислу става 1. тачка <ref wId="ref27" href="akn/rs/act/2015/10-10/srp@/!main~art_233__para_1__point_2" >2</ref>. овог члана, сматрају се и пасторчад, унучад и деца без родитеља, коју је војно лице издржавало, ако испуњавају услове у погледу године живота деце одређене у тој тачки.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan233-stav4">
+						<content>
+							<p>Родитељи, усвојилац и његов брачни друг, очух и маћеха и браћа и сестре имају право на једнократну новчану помоћ ако погинуло, односно умрло војно лице нема брачног друга ни деце или ако брачни друг и деца немају право на ту помоћ. Изузетно, родитељи које је погинуло, односно умрло војно лице издржавало имају право на једнократну новчану помоћ кад то лице има само брачног друга.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan233-stav5">
+						<content>
+							<p>Дед и баба имају право на једнократну новчану помоћ ако погинуло, односно умрло војно лице нема сродника из <ref wId="ref28" href="akn/rs/act/2015/10-10/srp@/!main~art_233__para_4" >става 4. овог</ref> члана или ако ти сродници немају право на једнократну новчану помоћ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan233-stav6">
+						<content>
+							<p>Ако више лица имају право на једнократну новчану помоћ, укупан износ помоћи који им припада дели се на једнаке делове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan234">
+					<num>234.</num>
+					<paragraph wId="deo3-od2-clan234-stav1">
+						<content>
+							<p>Степен телесног оштећења на основу ког се остварује право на једнократну новчану помоћ из <ref wId="ref29" href="akn/rs/act/2015/10-10/srp@/!main~art_231" >члана 231. овог</ref> закона доказује се правноснажним решењем о признању својства мирнодопског војног инвалида или налазом војне лекарске комисије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan234-stav2">
+						<content>
+							<p>У случају смрти војног лица, поступак за додељивање једнократне новчане помоћи покреће се по службеној дужности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan234-stav3">
+						<content>
+							<p>Кад се поступак за додељивање једнократне новчане помоћи покреће на захтев, та помоћ може се остварити ако се захтев поднесе у року од три године од дана задобијања ране, повреде или озледе, односно наступања обољења или погоршања обољења које је изазвало оштећење организма.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan234-stav4">
+						<content>
+							<p>Решење о праву на једнократну новчану помоћ доноси старешина на положају команданта пука и вишем положају.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan235">
+					<num>235.</num>
+					<paragraph wId="deo3-od2-clan235-stav1">
+						<content>
+							<p>Брачни друг војног лица које погине или умре од задобијене ране, повреде или озледе, односно болести под условима из <ref wId="ref30" href="akn/rs/act/2015/10-10/srp@/!main~art_231__para_1->para_2" >члана 231. ст. 1. и 2. овог</ref> закона, који нема права на породичну пензију, упућује се, на свој захтев, на оспособљавање ради стицања стручне спреме ако у часу смрти војног лица није имао никакву стручну спрему и није у радном односу. Оспособљавање може трајати најдуже четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan235-stav2">
+						<content>
+							<p>Деца војног лица из члана 233. став 1. тачка <ref wId="ref32" href="akn/rs/act/2015/10-10/srp@/!main~art_233__para_1__point_2" >2</ref>. овог закона, које погине или умре од задобијене ране, повреде или озледе, односно болести под условима из <ref wId="ref31" href="akn/rs/act/2015/10-10/srp@/!main~art_231__para_1->para_2" >члана 231. ст. 1. и 2. овог</ref> закона, која су на редовном школовању, осим деце која су у радном односу, а коју је војно лице до своје смрти издржавало, имају право на месечну новчану накнаду за време школовања и друге накнаде у вези са школовањем, ако не остварују стипендију по другом основу.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan235-stav3">
+						<content>
+							<p>Захтев из <ref wId="ref33" href="akn/rs/act/2015/10-10/srp@/!main~art_235__para_1" >става 1. овог</ref> члана може се поднети у року од две године од дана смрти војног лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan236">
+					<num>236.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref34" href="akn/rs/act/1999/44/srp@">44/1999</ref></heading>
+					<paragraph wId="deo3-od2-clan236-stav1">
+						<content>
+							<p>Поступак за остваривање права на једнократну новчану помоћ, као и одређивање износа за лица која у смислу овог закона имају право на једнократну новчану помоћ и оспособљавање брачног друга  и новчану накнаду за време школовања и друге накнаде у вези са школовањем*  прописује Савезна влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan237">
+					<num>237.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref37" href="akn/rs/act/1999/44/srp@">44/1999</ref></heading>
+					<paragraph wId="deo3-od2-clan237-stav1">
+						<content>
+							<p>Породици војника, студента војне академије, ученика средње војне школе, слушаоца школе за резервне официре или лица у резервном саставу које погине или умре за време службе у Војсци или умре у здравственој установи у коју је за време службе у Војсци упућено и задржано на лечењу, као и породици лица из чл. <ref wId="ref35" href="akn/rs/act/2015/10-10/srp@/!main~art_213" >213</ref>. и <ref wId="ref36" href="akn/rs/act/2015/10-10/srp@/!main~art_214" >214</ref>. овог закона ако то лице умре у здравственој установи, припада накнада стварних трошкова превоза посмртних остатака до места сахране. Ако је превоз посмртних остатака извршило друго лице, накнада стварних трошкова превоза посмртних остатака припада том лицу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan238">
+					<num>238.</num>
+					<paragraph wId="deo3-od2-clan238-stav1">
+						<intro>
+							<p>Накнада трошкова из <ref wId="ref38" href="akn/rs/act/2015/10-10/srp@/!main~art_237" >члана 237. овог</ref> закона обухвата:</p>
+						</intro>
+						<point wId="deo3-od2-clan238-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>трошкове превоза посмртних остатака возом до места сахране, а ако на тој релацији не постоји железнички саобраћај – стварне трошкове превоза другим саобраћајним средствима;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan238-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>трошкове превоза посмртних остатака до станице и, у месту сахране, од станице до места где се сахрањују посмртни остаци;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan238-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>путне трошкове за два пратиоца посмртних остатака;</p>
+							</content>
+						</point>
+						<point wId="deo3-od2-clan238-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> друге трошкове превоза учињене у смислу општих прописа о условима и начину ископавања и преноса мртваца.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan239">
+					<num>239.</num>
+					<paragraph wId="deo3-od2-clan239-stav1">
+						<content>
+							<p>Породици војника, студента војне академије, ученику средње војне школе, слушаоца школе за резервне официре или лица у резервном саставу који погине или умре за време службе у Војсци или умре у здравственој установи у коју је за време службе у Војсци упућен и задржан на лечењу и по престанку те службе, припада накнада погребних трошкова. Ако је сахрану војника, студента војне академије, ученика средње војне школе, слушаоца школе за резервне официре или лица у резервном саставу извршило друго лице, накнада погребних трошкова припада том лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan239-stav2">
+						<content>
+							<p>Накнада погребних трошкова из <ref wId="ref39" href="akn/rs/act/2015/10-10/srp@/!main~art_239__para_1" >става 1. овог</ref> члана припада у износу који утврди савезни министар за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan239-stav3">
+						<content>
+							<p>Глава ХVI</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan239-stav4">
+						<content>
+							<p>ПЕНЗИЈСКО И ИНВАЛИДСКО ОСИГУРАЊЕ</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan239-stav5">
+						<content>
+							<p>Чл. 240  - 260.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan261">
+					<num>261.</num>
+					<heading>Престали су да важе (види <ref wId="ref42" href="akn/rs/act/2010/101/srp@/!main~/art_82">члан 82. Закона - 101/2010-246</ref>)</heading>
+					<paragraph wId="deo3-od2-clan261-stav1">
+						<content>
+							<p>Престао је да важи  (види <ref wId="ref40" href="akn/rs/act/2007/116/srp@/!main~/art_197">члан 197. Закона – 116/2007-17</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan261-stav2">
+						<content>
+							<p>Чл. 262 - 272.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od2-clan261-stav3">
+						<content>
+							<p>Престали су да важе (види <ref wId="ref41" href="akn/rs/act/2010/101/srp@/!main~/art_82">члан 82. Закона - 101/2010-246</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od11-clan273">
+					<num>273.</num>
+					<paragraph wId="deo3-od11-clan273-stav1">
+						<content>
+							<p>Средства за остваривање здравствене заштите и других права из здравственог осигурања по овом закону обезбеђују се доприносом за здравствено осигурање војних осигураника, као и из других прихода.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od11-clan273-stav2">
+						<content>
+							<p>Допринос за здравствено осигурање војних осигураника – професионалних војника обрачунава се по стопи на основицу која служи за обрачунавање доприноса за пензијско и инвалидско осигурање војних осигураника, а за здравствено осигурање уживалаца пензије допринос се обрачунава по стопи на нето пензије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-od11-clan273-stav3">
+						<content>
+							<p>Чл. 274.  и 275.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od11-clan276">
+					<num>276.</num>
+					<heading>Престали  су да важе  (види <ref wId="ref43" href="akn/rs/act/2010/101/srp@/!main~/art_82">члан 82. Закона - 101/2010-246</ref>)</heading>
+					<paragraph wId="deo3-od11-clan276-stav1">
+						<content>
+							<p>Средства за финансирање здравственог, пензијског и инвалидског осигурања војних осигураника, као и осталих права из социјалног осигурања војних осигураника (опоравак, обезбеђивање станова и др.), чине средства Фонда социјалног осигурања војних осигураника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od11-clan277">
+					<num>277.</num>
+					<heading>НАПОМЕНА ИЗДАВАЧА:  Престао је да важи <ref wId="ref44" href="akn/rs/act/2015/10-10/srp@/!main~art_276" >члан 276.  </ref>у  делу који се односи на пензијско и инвалидско осигурање војних осигураника  (види <ref wId="ref45" href="akn/rs/act/2010/101/srp@/!main~/art_82">члан 82. Закона - 101/2010-246</ref>)</heading>
+					<paragraph wId="deo3-od11-clan277-stav1">
+						<content>
+							<p>Стопе доприноса за здравствено, пензијско и инвалидско осигурање војних осигураника утврђује Савезна влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od11-clan278">
+					<num>278.</num>
+					<heading>НАПОМЕНА ИЗДАВАЧА:  Престао је да важи <ref wId="ref46" href="akn/rs/act/2015/10-10/srp@/!main~art_277" >члан 277.  </ref>у  делу који се односи на пензијско и инвалидско осигурање војних осигураника  (види <ref wId="ref47" href="akn/rs/act/2010/101/srp@/!main~/art_82">члан 82. Закона - 101/2010-246</ref>)</heading>
+					<paragraph wId="deo3-od11-clan278-stav1">
+						<content>
+							<p>Организацију, надлежност, делокруг и начин пословања Фонда социјалног осигурања војних осигураника прописује Савезна влада.</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo4">
+				<num>ДЕО ЧЕТВРТИ</num>
+				<heading>Престале су да важе одредбе  Главе ХVII -ВОЈНА ОБАВЕЗА (види члан 142. Закона – 88/2009-9)</heading>
+				<paragraph wId="deo4-clan278-stav1">
+					<content>
+						<p>Чл.  279. до 336.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo4-clan278-stav2">
+					<content>
+						<p>Престали су да важе    (види члан 142. Закона – 88/2009-9)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo4-clan278-stav3">
+					<content>
+						<p>Чл.  337. до 339.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo4-clan278-stav4">
+					<content>
+						<p>Престали су да важе (види члан 197. Закона – 116/2007-17)</p>
+					</content>
+				</paragraph>
+			</part>
+			<part wId="deo6">
+				<num>ДЕО ШЕСТИ</num>
+				<heading>Престале су да важе одредбе  Главе ХIХ  - КАЗНЕНЕ ОДРЕДБЕ (види члан 142. Закона – 88/2009-9)</heading>
+				<paragraph wId="deo6-clan278-stav1">
+					<content>
+						<p>Чл.  340. до 345.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan278-stav2">
+					<content>
+						<p>Престали су да важе    (види члан 142. Закона – 88/2009-9)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan278-stav3">
+					<content>
+						<p>Чл.  346. до 363.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan278-stav4">
+					<content>
+						<p>Престали су да важе (види члан 197. Закона – 116/2007-17)</p>
+					</content>
+				</paragraph>
+			</part>
+		</body>
+	</act>
+</akomaNtoso>

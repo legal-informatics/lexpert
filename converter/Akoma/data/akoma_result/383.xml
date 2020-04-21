@@ -1,0 +1,2645 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о јавној својини">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2011/72-114/main"/>
+					<FRBRuri value="akn/rs/act/2011/72-114"/>
+					<FRBRdate date="2011-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/95-236/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/95-236/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/95-236/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/95-236/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2011-09-28" name="службени гласник рс" number="72" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Облици својине" value="1. облици својине" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2011-01-01" refersTo="72/2011-114" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2013-01-01" refersTo="88/2013-3" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2014-01-01" refersTo="105/2014-3" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2016-01-01" refersTo="104/2016-6" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2016-01-01" refersTo="108/2016-10" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2017-01-01" refersTo="113/2017-228" source="#somebody" type="amendment" wId="e6"/>
+				<eventRef date="2018-01-01" refersTo="95/2018-236" source="#somebody" type="amendment" wId="e7"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2011-09-26" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2011-10-06" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2011-10-06" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="облика"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="три"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="одређена"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавне"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="својине"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="имовинска"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="право"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединице"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="аутономне"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="покрајине"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="самоуправе"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="локалне"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ustanove"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Direkcija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Direkcije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Direkciji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Kosovo"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Metohija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Organi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike i Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Savezne Republike Jugoslavije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija i Crna Gora"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlade"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vojvodina"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vojvodini"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Šume"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="AP Vojvodine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije za restituciju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Autonomna pokrajina Vojvodine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Autonomne pokrajine Vojvodine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Autonomnoj pokrajini Vojvodine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Direkcija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Direkcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državnom pravobranilaštvu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I i II reda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna skupština"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne banke Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj banci Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnu banku Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija za pružanje usluga"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike i predsedniku Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičke direkcije za imovinu Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkoj direkciji za imovinu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavu Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojska Srbije"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ništav"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organ"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Postupak"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Republici Srbiji"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. do 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. do 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. stav 7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="157. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. stav 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. stav 1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. st. 7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. stav 11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. st. 2. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2020."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. maja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. marta"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="37. i 38."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="37. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. i 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="43. i 72."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. i 9."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="59."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="64."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="64. st. 3. i 8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="64. stav 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="64. stav 7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="65. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. do 10."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. i 8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. novembra 2001."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="72. st. 4. i 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="72. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="72. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="74."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="76. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="77. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="77. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="78."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. i 9."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="80. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="82. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="82. stav 8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="smislu stava 7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="stavu 7."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 6. октобра 2011. године (види члан 91. Закона).Подзаконски акти на основу овлашћења из овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона (види члан 89. Закона). До доношења подзаконских аката на основу овог закона, примењиваће се подзаконски акти донети на основу Закона о средствима у својини Републике Србије („Службени гласник РС”, бр. 53/95, 3/96 – исправка, 54/96, 32/97 и 101/05 – др. закон) (у даљем тексту: Закон о средствима) и Закона о имовини Савезне Републике Југославије („Службени лист СРЈ”, бр. 41/93, 50/93 – др. закон, 24/94 – др. закон, 28/96 – др. закон, 30/96 и 30/00 – УС), ако нису у супротности са овим законом (види члан 86. Закона).До стицања права јавне својине аутономне покрајине и јединице локалне самоуправе, сви подаци о евиденцији непокретности у јавној својини достављају се Републичкој дирекцији за имовину, у складу са прописима који важе на дан ступања на снагу овог закона (види члан 87. Закона).До престанка функционисања међународне управе успостављене у складу са Резолуцијом 1244 Савета безбедности Уједињених нација, на територији Аутономне покрајине Косово и Метохија, у погледу питања која се односе на средства у својини Републике Србије примењиваће се одговарајуће одредбе Закона о средствима (види члан 90. Закона).Престале су да важе одредбе члана 54. ст, 2, 3. и 6. даном ступања на снагу Закона о становању и одржавању зграда (Службени гласник РС, број 104/2016), односно 31. децембра 2016. године (види члан 157. Закона - 104/2016-56).Закон о изменама и допунама Закона o јавној својини (Службени гласник РС, број 113/2017) ступио је на снагу наредног дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 18. децембра 2017. године (види члан 19. Закона - 113/2017-228).Од дана ступања на снагу Закона о изменама и допунама Закона o јавној својини (Службени гласник РС, број 113/2017) не може се спровести започето принудно извршење на предметима који по овом закону не могу бити предмет принудног извршења (види члан 18. Закона – 113/2017-228).Закон о изменама и допунама Закона o јавној својини (Службени гласник РС, број 95/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. децембра 2018. године. Одредбе члана 8. овог закона примењују се и у поступцима отуђења ствари у јавној својини који су започети, а нису окончани продајом ствари до дана ступања на снагу овог закона, због неприхватања почетне процењене вредности (види чл. 16. и 17.- Закона – 95/2018-236).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О јавној својини "Службени гласник РС", бр. <ref wId="ref260" href="akn/rs/act/2011/72/srp@">72 од 28. септембра 2011</ref>, <ref wId="ref261" href="akn/rs/act/2013/88/srp@">88 од 6. октобра 2013</ref>, <ref wId="ref262" href="akn/rs/act/2014/105/srp@">105 од 3. октобра 2014</ref>, <ref wId="ref263" href="akn/rs/act/2016/104/srp@">104 од 23. децембра 2016</ref> - др. закон, <ref wId="ref264" href="akn/rs/act/2016/108/srp@">108 од 29. децембра 2016</ref>, <ref wId="ref265" href="akn/rs/act/2017/113/srp@">113 од 17. децембра 2017</ref>, <ref wId="ref266" href="akn/rs/act/2018/95/srp@">95 од 8. децембра 2018</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет уређивања</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се право јавне својине и одређена друга имовинска права Републике Србије, аутономне покрајине и јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Три облика јавне својине</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Јавну својину чини право својине Републике Србије – државна својина, право својине аутономне покрајине – покрајинска својина и право својине јединице локалне самоуправе – општинска, односно градска својина.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Предмет јавне својине</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>У јавној својини су природна богатства, добра од општег интереса и добра у општој употреби, за која је законом утврђено да су у јавној својини, ствари које користе органи и организације Републике Србије, аутономне покрајине и јединице локалне самоуправе, установе, јавне агенције и друге организације чији је оснивач Република Србија, аутономна покрајина и јединица локалне самоуправе и друге ствари које су, у складу са законом, у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Под јавном својином из <ref wId="ref0" href="akn/rs/act/2018/95-236/srp@/!main~art_3__para_1" >става 1. овог</ref> члана не сматрају се ствари организација обавезног социјалног осигурања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Примена и однос закона</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>На стицање, вршење, заштиту и престанак права јавне својине, примењују се одредбе закона којим се уређује право приватне својине, ако нешто друго није одређено овим или другим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Одредбе посебних закона којима се уређује режим ствари у јавној својини не могу бити у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Намена ствари</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Намена ствари у јавној својини одређује се законом или одлуком надлежног органа донетом на основу закона, односно другог прописа или општег акта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Одговорност у одлучивању, коришћењу и управљању</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Свако ко одлучује о стварима у јавној својини, ко их користи или њима управља дужан је да поступа као добар домаћин и одговоран је за то у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Финансијска средства</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Финансијска средства (новчана средства и хартије од вредности) у својини Републике Србије, аутономне покрајине и јединице локалне самоуправе уређују се посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Посебан режим за одређене непокретности</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Правни режим грађевинског земљишта, пољопривредног земљишта,  водног земљишта, шума и шумског земљишта у јавној својини уређујe се посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ЈАВНА СВОЈИНА</heading>
+				<article wId="gla2-od1-clan9">
+					<num>9.</num>
+					<heading>Природна богатства</heading>
+					<paragraph wId="gla2-od1-clan9-stav1">
+						<content>
+							<p>Воде, водотоци и њихови извори, минерални ресурси, ресурси подземних вода, геотермални и други геолошки ресурси и резерве минералних сировина, и друга добра која су посебним законом одређена као природна богатства, у својини су Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan9-stav2">
+						<content>
+							<p>Начин и услови искоришћавања и управљања природним богатством уређују се посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan9-stav3">
+						<content>
+							<p>На природном богатству може се стећи концесија или право коришћења, односно искоришћавања, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan9-stav4">
+						<content>
+							<p>Накнада за коришћење природног богатства припада Републици Србији, аутономној покрајини и јединици локалне самоуправе, на чијој територији се налази природно богатство, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan10">
+					<num>10.</num>
+					<heading>Добра од општег интереса и добра у општој употреби у јавној својини</heading>
+					<paragraph wId="gla2-od1-clan10-stav1">
+						<content>
+							<p>Добра од општег интереса у јавној својини, у смислу овог закона, су ствари које су законом одређене као добра од општег интереса (пољопривредно земљиште, шуме и шумско земљиште, водно земљиште, водни објекти, заштићена природна добра, културна добра и др.), због чега уживају посебну заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav2">
+						<content>
+							<p>Добрима у општој употреби у јавној својини, у смислу овог закона, сматрају се оне ствари које су због своје природе намењене коришћењу свих и које су као такве одређене законом (јавни путеви, јавне пруге, мост и тунел на јавном путу, прузи или улици, улице, тргови, јавни паркови, гранични прелази и др).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav3">
+						<content>
+							<p>Начин и услови искоришћавања и управљања добрима у општој употреби и добрима од општег интереса уређују се посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav4">
+						<content>
+							<p>На добрима у општој употреби може се стећи право предвиђено посебним законом (концесија, закуп и сл.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav5">
+						<content>
+							<p>Свако има право да добра у општој употреби користи на начин који је ради остварења те намене прописан законом, односно одлуком органа или правног лица коме су та добра дата на управљање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav6">
+						<content>
+							<p>Добра од општег интереса на којима постоји право јавне својине су у својини Републике Србије, ако законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav7">
+						<content>
+							<p>Изузетно, од <ref wId="ref2" href="akn/rs/act/2018/95-236/srp@/!main~art_10__para_6" >става 6. овог</ref> члана, културна добра  могу бити у јавној својини аутономне покрајине, односно јединице локалне  самоуправе, уколико је то у функцији остваривањa надлежности аутономних  покрајина, односно јединица локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav8">
+						<content>
+							<p>Културна добра у јавној својини Републике Србије  могу бити дата на коришћење и управљање другом носиоцу права јавне својине,  о чему одлуку доноси Влада на предлог Републичке дирекције за имовину  Републике Србије (у даљем тексту: Дирекција).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav9">
+						<content>
+							<p>Одредбе <ref wId="ref3" href="akn/rs/act/2018/95-236/srp@/!main~art_10__para_7->para_8" >ст. 7. и 8. овог</ref> члана не односе се на  непокретности у јавној својини које користе државни органи и организације, а  намењене су извршавању њихових надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav10">
+						<content>
+							<p>Добра у општој употреби су у својини Републике Србије, изузев државних путева II реда, који су у својини аутономне покрајине на чијој се територији налазе, као и изузев некатегорисаних путева, општинских путева и улица (који нису део аутопута или државног пута I и II реда) и тргова и јавних паркова, који су у својини јединица локалне самоуправе на чијој територији се налазе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan10-stav11">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan11">
+					<num>11.</num>
+					<heading>Мреже</heading>
+					<paragraph wId="gla2-od1-clan11-stav1">
+						<content>
+							<p>Мрежа, у смислу овог закона, јесте непокретна ствар са припацима, односно збир ствари, намењених протоку материје или енергије ради њихове дистрибуције корисницима или одвођења од корисника, а чији је појам ближе утврђен посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav2">
+						<content>
+							<p>Мреже представљају добро од општег интереса.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav3">
+						<content>
+							<p>Мрежа којом се обавља привредна делатност пружања услуга од стране правних лица основаних од носилаца јавне својине је у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav4">
+						<content>
+							<p>Изузетно од <ref wId="ref5" href="akn/rs/act/2018/95-236/srp@/!main~art_11__para_3" >става 3. овог</ref> члана, посебним законом може бити утврђено да мреже из тог става могу бити и у својини правног лица које је основала Република Србија за пружање услуга или његовог зависног друштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav5">
+						<content>
+							<p>Мрежа, односно део мреже који служи искључиво за потребе једног или више лица може бити у својини тог, односно тих лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav6">
+						<content>
+							<p>Мрежа на којој на дан ступања на снагу овог закона постоји право приватне својине остаје у приватној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan11-stav7">
+						<content>
+							<p>Изградња, одржавање и коришћење мрежа у јавној својини могу бити предмет концесије, сагласно посебном закону.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan12">
+					<num>12.</num>
+					<heading>Ствари које користе органи и организације</heading>
+					<paragraph wId="gla2-od1-clan12-stav1">
+						<content>
+							<p>Ствари у јавној својини које користе органи и организације Републике Србије, аутономне покрајине и јединице локалне самоуправе, у смислу овог закона, чине непокретне и покретне ствари и друга имовинска права, која служе за остваривање њихових права и дужности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan13">
+					<num>13.</num>
+					<heading>Друге ствари и имовинска права</heading>
+					<paragraph wId="gla2-od1-clan13-stav1">
+						<content>
+							<p>Под другим стварима у јавној својини из <ref wId="ref6" href="akn/rs/act/2018/95-236/srp@/!main~art_3" >члана 3. овог</ref> закона подразумевају се ствари које не спадају у природна богатства, добра од општег интереса, мреже или ствари које користе органи и организације из <ref wId="ref7" href="akn/rs/act/2018/95-236/srp@/!main~art_12" >члана 12. овог</ref> закона (грађевинско земљиште у јавној својини, друге непокретности и покретне ствари у јавној својини).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav2">
+						<content>
+							<p>Друга имовинска права, у смислу овог закона, јесу: право на патент, право на лиценцу, модел, узорак и жиг, право коришћења техничке документације и друга имовинска права утврђена законом чији је носилац права Република Србија,  аутономна покрајина и јединица локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav3">
+						<content>
+							<p>Друга имовинска права прибављају се, користе и њима располаже у складу са законом ако нешто друго није одређено овим или другим  законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav4">
+						<content>
+							<p>Одредбе овог закона које се односе на прибављање,  коришћење и располагање непокретним стварима, односно средствима у јавној  својини, сходно се примењују и на прибављање, коришћење и располагање другим  имовинским правима, ако овим законом није другачије одређено и уколико је то  у складу са општим прописима који уређују прибављање, коришћење и  располагање другим имовинским правима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav5">
+						<content>
+							<p>Одредбе овог закона које се односе на поступак  давања у закуп и коришћење непокретних ствари у јавној својини сходно се  примењују и на поступак уступања искоришћавања других имовинских права,  према садржини предвиђеној општим прописима који уређују друга имовинска  права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan13-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan14">
+					<num>14.</num>
+					<heading>Улагање у капитал и пренос права коришћења</heading>
+					<paragraph wId="gla2-od1-clan14-stav1">
+						<content>
+							<p>Република Србија, аутономна покрајина и јединица локалне самоуправе могу средства у јавној својини улагати у капитал јавног предузећа и друштва капитала, у складу са овим и другим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav2">
+						<content>
+							<p>По основу улагања из <ref wId="ref9" href="akn/rs/act/2018/95-236/srp@/!main~art_14__para_1" >става 1. овог</ref> члана Република Србија, аутономна покрајина и јединица локалне самоуправе стичу уделе или акције у јавним предузећима и друштвима капитала и права по основу тих акција, односно удела.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan14-stav3">
+						<content>
+							<p>Република Србија, аутономна покрајина и јединица локалне самоуправе могу установама и јавним агенцијама и другим организацијама, изузев јавних предузећа и друштава капитала из <ref wId="ref10" href="akn/rs/act/2018/95-236/srp@/!main~art_14__para_1" >става 1. овог</ref> члана, чији су оснивачи, преносити право коришћења на стварима на којима имају право јавне својине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan15">
+					<num>15.</num>
+					<heading>Сусвојина на ствари у јавној својини</heading>
+					<paragraph wId="gla2-od1-clan15-stav1">
+						<content>
+							<p>На ствари у јавној својини може постојати сусвојина између различитих носилаца јавне својине, као и између носилаца јавне својине и других правних и физичких лица, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan15-stav2">
+						<content>
+							<p>Носиоци права јавне својине могу заједнички или са другим лицима инвестирати у изградњу добара од општег интереса, добара у општој употреби и других добара и по том основу, у складу са овим и другим законом, стицати право коришћења или друго право (концесија и сл.) и убирати приходе по том основу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan15-stav3">
+						<content>
+							<p>Аутономна покрајина и јединица локалне самоуправе не могу стећи својину, односно сусвојину на стварима, односно добрима из <ref wId="ref11" href="akn/rs/act/2018/95-236/srp@/!main~art_15__para_1" >става 1. овог</ref> члана које по овом или другом закону могу бити искључиво у својини Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan16">
+					<num>16.</num>
+					<heading>Немогућност принудног извршења</heading>
+					<paragraph wId="gla2-od1-clan16-stav1">
+						<content>
+							<p>Природна богатства, добра у општој употреби, мреже у јавној својини, водно земљиште и водни објекти у јавној својини, заштићена природна добра у јавној својини и културна добра у јавној својини, не могу бити предмет принудног извршења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav2">
+						<content>
+							<p>На непокретностима у јавној својини које, у целини или делимично, користе органи Републике Србије, аутономне покрајине и јединице локалне самоуправе за остваривање њихових права и дужности не може се спровести принудно извршење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav3">
+						<content>
+							<p>Предмет принудног извршења не могу бити објекти, оружје и опрема намењени одбрани и државној и јавној безбедности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav4">
+						<content>
+							<p>Предмет принудног извршења не могу бити ни удели,  односно акције које јавна предузећа и привредна друштва чији је власник  Република Србија, аутономна покрајина или јединица локалне самоуправе имају  у привредним друштвима, осим уколико постоји сагласност Републике Србије,  аутономне покрајине или јединице локалне самоуправе на успостављање залоге  на тим уделима, односно акцијама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav5">
+						<content>
+							<p>Предмет принудног извршења не могу бити ни  покретне и непокретне ствари које користе здравствене установе из Плана  мреже здравствених установа, осим у  случајевима из <ref wId="ref12" href="akn/rs/act/2018/95-236/srp@/!main~art_17__para_2" >члана 17. став 2. овог</ref> закона на основу одлуке Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav6">
+						<content>
+							<p>Добра из <ref wId="ref13" href="akn/rs/act/2018/95-236/srp@/!main~art_16__para_1" >става 1. овог</ref> члана не могу се отуђити из јавне својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref14" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan16-stav8">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od1-clan17">
+					<num>17.</num>
+					<heading>Немогућност одржаја и заснивања хипотеке</heading>
+					<paragraph wId="gla2-od1-clan17-stav1">
+						<content>
+							<p>На стварима из <ref wId="ref16" href="akn/rs/act/2018/95-236/srp@/!main~art_16" >члана 16. овог</ref> закона не може се стећи право својине одржајем, нити се може засновати хипотека или друго средство стварног обезбеђења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan17-stav2">
+						<content>
+							<p>Изузетно, хипотека се може засновати на  непокретним стварима које користе установе из <ref wId="ref17" href="akn/rs/act/2018/95-236/srp@/!main~art_18__para_6" >члана 18. став 6. овог</ref> закона,  на основу одлуке Владе, односно надлежног органа аутономне покрајине и  јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od1-clan17-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref18" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan18">
+					<num>18.</num>
+					<heading>Право јавне својине и право коришћења</heading>
+					<paragraph wId="gla2-od2-clan18-stav1">
+						<content>
+							<p>Носиоци права јавне својине су Република Србија, аутономна покрајина и општина, односно град (у даљем тексту: јединица локалне самоуправе).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav2">
+						<content>
+							<p>Градска општина има право коришћења на стварима у својини града у чијем је саставу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav3">
+						<content>
+							<p>На стварима које прибави градска општина, право својине стиче град у чијем је саставу градска општина, а градска општина има право коришћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav4">
+						<content>
+							<p>Статутом града може се предвидети да градска општина има право јавне својине на покретним и на непокретним стварима неопходним за рад органа и организација градске општине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav5">
+						<content>
+							<p>Месне заједнице и други облици месне самоуправе имају право коришћења на стварима у јавној својини јединице локалне самоуправе, у складу са законом и прописом, односно другим актом јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan18-stav6">
+						<content>
+							<p>Установе и јавне агенције и друге организације (укључујући и Народну банку Србије) чији је оснивач Република Србија, аутономна покрајина или јединица локалне самоуправе, које немају статус државног органа и организације, органа аутономне покрајине, односно органа јединице локалне самоуправе или јавног предузећа, односно друштва капитала, имају право коришћења на непокретним и покретним стварима у јавној својини које су им пренете на коришћење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan19">
+					<num>19.</num>
+					<heading>Корисници ствари у јавној својини</heading>
+					<paragraph wId="gla2-od2-clan19-stav1">
+						<intro>
+							<p>Корисници ствари у јавној својини су:</p>
+						</intro>
+						<point wId="gla2-od2-clan19-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> државни органи и организације;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan19-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> органи и организације аутономне покрајине и јединице локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla2-od2-clan19-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> јавна предузећа, друштва капитала чији је оснивач Република Србија, аутономна покрајина и јединица локалне самоуправе, као и њихова зависна друштва, на основу уговора закљученог на основу акта надлежног органа, а којим нису пренете у својину тог јавног предузећа, односно друштва.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan19-stav2">
+						<content>
+							<p>Ствари у јавној својини могу се дати на коришћење и осталим правним лицима, концесијом или на други начин предвиђен законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan19-stav3">
+						<content>
+							<p>Ако у случају из <ref wId="ref19" href="akn/rs/act/2018/95-236/srp@/!main~art_19__para_2" >става 2. овог</ref> члана давање ствари на коришћење има карактер државне помоћи, на такве случајеве примениће се закон који уређује контролу државне помоћи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan20">
+					<num>20.</num>
+					<heading>Органи и организације као корисници</heading>
+					<paragraph wId="gla2-od2-clan20-stav1">
+						<content>
+							<p>Државни органи и организације, органи и организације аутономне покрајине и јединице локалне самоуправе користе непокретне и покретне ствари у јавној својини које су намењене извршавању њихових надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan20-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref20" href="akn/rs/act/2018/95-236/srp@/!main~art_20__para_1" >става 1. овог</ref> члана, непокретностима које користе државни органи и организације, органи и организације аутономне покрајине и јединице локалне самоуправе, у смислу овог закона, сматрају се и непокретности у јавној својини које непосредно не служе извршавању надлежности тих органа и организација, већ за остваривање прихода путем давања у закуп, односно на коришћење (тзв. комерцијалне непокретности – пословни простор, станови, гараже, гаражна места и др.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan20-stav3">
+						<content>
+							<p>Република Србија, аутономна покрајина и јединица локалне самоуправе могу непосредно, преко надлежног органа, давати у закуп, односно на коришћење непокретности из <ref wId="ref21" href="akn/rs/act/2018/95-236/srp@/!main~art_20__para_2" >става 2. овог</ref> члана или за ове намене основати јавно предузеће или друштво капитала.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan20-stav4">
+						<content>
+							<p>Оснивачким актом јавног предузећа, односно друштва капитала из <ref wId="ref22" href="akn/rs/act/2018/95-236/srp@/!main~art_20__para_3" >става 3. овог</ref> члана, односно уговором о давању на коришћење непокретности из <ref wId="ref23" href="akn/rs/act/2018/95-236/srp@/!main~art_20__para_2" >става 2. овог</ref> члана том предузећу, односно друштву, у складу са законом, ближе се одређује надлежност и поступак давања у закуп, односно на коришћење тих непокретности и остваривања прихода Републике Србије, аутономне покрајине и јединице локалне самоуправе по том основу (закупнина, добит и др.).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan21">
+					<num>21.</num>
+					<heading>Јавна предузећа и друштва капитала као корисници</heading>
+					<paragraph wId="gla2-od2-clan21-stav1">
+						<content>
+							<p>Јавно предузеће, друштво капитала чији је оснивач Републике Србија, аутономна покрајина или јединица локалне самоуправе и њиховa зависнa друштвa, која обављају делатност од општег интереса, користе непокретности које им нису уложене у капитал, а на основу посебног закона, оснивачког акта или уговора закљученог са оснивачем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan21-stav2">
+						<content>
+							<p>Друштво капитала чији је оснивач Републике Србија, аутономна покрајина или јединица локалне самоуправе, које не обавља делатност од општег интереса може по основу уговора закљученог са оснивачем, уз накнаду или без накнаде, користити непокретности које му нису уложене у капитал, а које су неопходне за обављање делатности ради које је основано.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan21-stav3">
+						<content>
+							<p>Друштво капитала које је основано у складу са  прописима о иновационој делатности, чији је оснивач или један од оснивача  Република Србија, аутономна покрајина, јединица локалне самоуправе, односно  установа из <ref wId="ref24" href="akn/rs/act/2018/95-236/srp@/!main~art_18__para_6" >члана 18. став 6. овог</ref> закона, може управљати непокретностима у  јавној својини под условима које посебним актом одреди оснивач који је  власник непокретности, или по основу уговора закљученог са оснивачем, уз  накнаду или без накнаде, користити непокретности у јавној својини које му  нису уложене у капитал, а које су неопходне за обављање делатности ради које  је основано, а може ту непокретност дати и у закуп под условима утврђеним у  јавном позиву за пружање услуга у складу са прописима о иновационој  делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan21-stav4">
+						<content>
+							<p>Уговор из <ref wId="ref25" href="akn/rs/act/2018/95-236/srp@/!main~art_21__para_2" >става 2. овог</ref> члана, са друштвом капитала чији је оснивач Република Србија, на основу акта Владе, закључује  директор Дирекције или лице из Дирекције које он за то овласти, а са друштвом капитала чији је оснивач аутономна покрајина, односно јединица локалне самоуправе, на основу акта надлежног органа аутономне покрајине, односно јединице локалне самоуправе – лице овлашћено у складу са прописом аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan21-stav5">
+						<content>
+							<p>Оснивач привредног друштва из <ref wId="ref26" href="akn/rs/act/2018/95-236/srp@/!main~art_21__para_2" >става 2. овог</ref> члана учествује у добити друштва која се оствари пословањем средствима која му је оснивач унео у капитал и пословањем непокретностима које му је оснивач дао на коришћење, у складу са законом и уговором којим су те непокретности друштву дате на коришћење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan21-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan22">
+					<num>22.</num>
+					<heading>Право коришћења</heading>
+					<paragraph wId="gla2-od2-clan22-stav1">
+						<content>
+							<p>Носиоци права коришћења из <ref wId="ref28" href="akn/rs/act/2018/95-236/srp@/!main~art_18" >члана 18. овог</ref> закона  имају право да ствар држе и да је користе у складу са природом и наменом тих  ствари, да је дају на коришћење другом носиоцу права коришћења или у закуп и  да њоме управљају у складу са овим и другим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav2">
+						<content>
+							<p>Давање на коришћење или у закуп ствари у својини  Републике Србије из <ref wId="ref29" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_1" >става 1. овог</ref> члана, осим ствари које користи Народна  банка Србије, врши се по претходно прибављеној сагласности Дирекције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav3">
+						<content>
+							<p>Акт из <ref wId="ref30" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_2" >става 2. овог</ref> члана којим Дирекција даје  сагласност за давање на коришћење мора садржати услове под којимa се ствар  даје на коришћење другом носиоцу права коришћења. Актом Дирекције из <ref wId="ref31" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_2" >става  2. овог</ref> члана којим се даје начелна сагласност да се ствар да у закуп,  опредељује се намена ствари за време трајања закупа, али не и будући закупац  и услови закупа. За промену намене ствари за време трајања закупа неопходна  је нова сагласност Дирекцијe.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav4">
+						<content>
+							<p>Уговор о давању на коришћење и уговор о закупу  закључен без сагласности Дирекције из <ref wId="ref32" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_2->para_3" >ст. 2. и 3. овог</ref> члана ништав је.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav5">
+						<content>
+							<p>Припадност средстава остварених давањем у закуп  ствари из <ref wId="ref33" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_1" >става 1. овог</ref> члана одређује се у складу са законом којим се  уређује буџетски систем, с тим да изузетно, средства остварена од давања у  закуп непокретности које су дате на коришћење Народној банци Србије, приход  су Народне банке Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav6">
+						<content>
+							<p>Одредбе <ref wId="ref34" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_1->para_5" >ст. 1. </ref>до 5. овог члана сходно се примењују и код давања у закуп  и на коришћење ствари у својини аутономне покрајине и јединице локалне самоуправе, с тим што о давању сагласности одлучује надлежни орган аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav7">
+						<content>
+							<p>Влада може одлучити да се непокретност у јавној  својини Републике Србије на којој постоји уписано право коришћења носиоца  права коришћења из <ref wId="ref35" href="akn/rs/act/2018/95-236/srp@/!main~art_18" >члана 18. овог</ref> закона, која није у функцији остваривања  надлежности, односно делатности носиоца права коришћења на тој  непокретности, ако се не користи дужи временски период, или се користи  супротно закону, другом пропису или природи и намени непокретности, одузме  од носиоца права коришћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav8">
+						<content>
+							<p>У случају кад се непокретност изда у закуп без сагласности надлежног органа, сматраће се да се непокретност користи супротно закону у смислу <ref wId="ref36" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_7" >става 7. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav9">
+						<content>
+							<p>Влада може одлучити да се непокретност у својини Републике Србије на којој постоји право коришћења из <ref wId="ref37" href="akn/rs/act/2018/95-236/srp@/!main~art_18" >члана 18. овог</ref> закона одузме од носиоца права коришћења и у случајевима који нису наведени у <ref wId="ref38" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_7" >ставу 7. овог</ref> члана, под условом да се носиоцу права коришћења обезбеди коришћење друге одговарајуће непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav10">
+						<content>
+							<p>Влада може одлучити да се непокретност у јавној  својини Републике Србије чији је корисник субјекат из члана 19. став 1.  тачка <ref wId="ref39" href="akn/rs/act/2018/95-236/srp@/!main~art_19__para_1__point_3" >3</ref>) овог закона, а која није у функцији остваривања надлежности,  односно делатности корисника на тој непокретности, ако се не користи дужи  временски период, или се користи супротно закону, другом пропису или природи  и намени непокретности, као и субјекат који не може бити корисник, односно  носилац права коришћења по одредбама овог закона, одузме од тих корисника,  ради давања непокретности на коришћење државним органима и организацијама,  као и установама и јавним агенцијама чији је оснивач Република Србија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav11">
+						<content>
+							<p>Одредбе <ref wId="ref40" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_7->para_10" >ст. 7. </ref>до 10. овог члана сходно се примењују и код одузимања непокретности у својини аутономне покрајине и јединице локалне самоуправе, с тим што о одузимању одлучује надлежни орган аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav12">
+						<content>
+							<p>Одредбе <ref wId="ref41" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_7->para_11" >ст. 7. </ref>до 11. овог члана не примењују се код одузимања својине, односно права коришћења на непокретностима у јавној својини у случајевима када је одузимање ових права уређено посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav13">
+						<content>
+							<p>Право коришћења на непокретности у јавној својини из <ref wId="ref42" href="akn/rs/act/2018/95-236/srp@/!main~art_18" >члана 18. овог</ref> закона престаје и у случају њеног отуђења из јавне својине, на основу одлуке Владе, односно надлежног органа аутономне покрајине, односно јединице локалне самоуправе, независно од воље носиоца права коришћења на тој непокретности, у случају престанка носиоца права коришћења, као и у другим случајевима утврђеним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan22-stav14">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan23">
+					<num>23.</num>
+					<heading>Одређивање корисника непокретности</heading>
+					<paragraph wId="gla2-od2-clan23-stav1">
+						<content>
+							<p>О давању на коришћење непокретности одузете у складу са чланом 22. ст. <ref wId="ref44" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_7" >7</ref>. и <ref wId="ref45" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_9" >9</ref>. овог закона, као и непокретности коју Република Србија стекне наслеђем, поклоном или једностраном изјавом воље, или на други законом одређен начин, одлучује Влада, ако законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav2">
+						<content>
+							<p>О давању на коришћење непокретности одузете у складу са <ref wId="ref46" href="akn/rs/act/2018/95-236/srp@/!main~art_22__para_11" >чланом 22. став  11. овог</ref> закона, као и непокретности коју аутономна покрајина, односно јединица локалне самоуправе стекне наслеђем, поклоном или једностраном изјавом воље, или на други законом одређен начин, одлучује надлежни орган аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav3">
+						<content>
+							<p>Поступак, услови и начин располагања, управљања,  начин чувања и преузимања непокретних и покретних ствари, као и других  имовинских права, која су у јавнoj својини по основама из <ref wId="ref47" href="akn/rs/act/2018/95-236/srp@/!main~art_23__para_1" >става 1. овог</ref>  члана, ближе се уређује уредбом Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref48" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan23-stav5">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref49" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan24">
+					<num>24.</num>
+					<heading>Управљање стварима</heading>
+					<paragraph wId="gla2-od2-clan24-stav1">
+						<content>
+							<p>Државни органи и организације, органи и организације аутономне покрајине и јединица локалне самоуправе, носиоци права коришћења из <ref wId="ref50" href="akn/rs/act/2018/95-236/srp@/!main~art_18" >члана 18. </ref>и корисници из <ref wId="ref51" href="akn/rs/act/2018/95-236/srp@/!main~art_21" >члана 21. овог</ref> закона управљају покретним и непокретним стварима у јавној својини које користе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan24-stav2">
+						<content>
+							<p>Управљање стварима у јавној својини, у смислу <ref wId="ref52" href="akn/rs/act/2018/95-236/srp@/!main~art_24__para_1" >става 1. овог</ref> члана, јесте њихово одржавање, обнављање и унапређивање, као и извршавање законских и других обавеза у вези са тим стварима, ако за одређени случај права коришћења, односно коришћења законом није нешто друго прописано.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan25">
+					<num>25.</num>
+					<heading>Упис права јавне својине и права коришћења</heading>
+					<paragraph wId="gla2-od2-clan25-stav1">
+						<content>
+							<p>Право јавне својине и право коришћења на непокретностима у јавној својини уписују се у јавне књиге о непокретностима и правима на њима, у складу са законом којим се уређује упис права на непокретностима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od2-clan25-stav2">
+						<content>
+							<p>У случајевима из члана 19. став 1. тач. <ref wId="ref53" href="akn/rs/act/2018/95-236/srp@/!main~art_19__para_1__point_1" >1</ref>) и <ref wId="ref54" href="akn/rs/act/2018/95-236/srp@/!main~art_19__para_1__point_2" >2</ref>) овог закона, може се поред носиоца права јавне својине уписати и корисник непокретности, ако је то актом надлежног органа одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan26">
+					<num>26.</num>
+					<heading>Појам располагања</heading>
+					<paragraph wId="gla2-od3-clan26-stav1">
+						<intro>
+							<p>Располагањем стварима у јавној својини, у смислу овог закона, сматра се:</p>
+						</intro>
+						<point wId="gla2-od3-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> давање ствари на коришћење;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> давање ствари у закуп;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> пренос права јавне својине на другог носиоца јавне својине (са накнадом или без накнаде), укључујући и размену;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> отуђење ствари;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan26-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> заснивање хипотеке на непокретностима;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan26-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> улагање у капитал;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan26-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> залагање покретне ствари.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan26-stav2">
+						<content>
+							<p>Ствари у јавној својини могу се, у смислу <ref wId="ref55" href="akn/rs/act/2018/95-236/srp@/!main~art_26__para_1" >става 1. овог</ref> члана, дати на коришћење (са накнадом или без накнаде), или у закуп другом носиоцу јавне својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan26-stav3">
+						<content>
+							<p>Располагањем другим имовинским правима Републике  Србије, аутономне покрајине и јединице локалне самоуправе, у смислу овог  закона, сматра се уступање права искоришћавања других имовинских права према  садржини одређеној општим прописима који регулишу одговарајућа друга  имовинска права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan26-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref56" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan27">
+					<num>27.</num>
+					<heading>Надлежност за одлучивање</heading>
+					<paragraph wId="gla2-od3-clan27-stav1">
+						<content>
+							<p>О прибављању ствари и располагању стварима у својини Републике Србије, под условима прописаним законом, одлучује Влада, ако законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav2">
+						<content>
+							<p>О прибављању и располагању непокретностима у својини Републике Србије за потребе државних органа и организација, о преносу права јавне својине на непокретности у својини Републике Србије на другог носиоца права јавне својине, као и о прибављању и отуђењу превозних средстава и опреме веће вредности за потребе поменутих органа и организација одлучује Влада, а о осталим видовима прибављања и располагања покретним стварима одлучује функционер који руководи органом, ако нешто друго није предвиђено овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav3">
+						<content>
+							<p>О прибављању и отуђењу покретних ствари за посебне намене, укључујући и превозна средства и опрему веће вредности које користи министарство надлежно за послове одбране и Војска Србије и које за потребе послова безбедности користе министарство надлежно за унутрашње послове и службе безбедности, одлучује руководилац тог органа, односно служби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav4">
+						<content>
+							<p>О отуђењу непокретности у својини Републике Србије на којима постоји право коришћења из <ref wId="ref57" href="akn/rs/act/2018/95-236/srp@/!main~art_18" >члана 18. овог</ref> закона, као и о заснивању хипотеке на тим непокретностима одлучује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav5">
+						<content>
+							<p>О прибављању непокретности у својину Републике Србије за потребе носиоца права коришћења из <ref wId="ref58" href="akn/rs/act/2018/95-236/srp@/!main~art_18" >члана 18. овог</ref> закона чији је оснивач Република Србија, одлучује надлежни орган тог носиоца права коришћења, уз претходну сагласност Дирекције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav6">
+						<content>
+							<p>О давању у закуп непокретности из <ref wId="ref60" href="akn/rs/act/2018/95-236/srp@/!main~art_27__para_4" >става 4. овог</ref> члана, укључујући и отказ уговора, одлучује надлежни орган носиоца права коришћења на непокретности, сагласно <ref wId="ref59" href="akn/rs/act/2018/95-236/srp@/!main~art_22" >члану 22. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav7">
+						<content>
+							<p>Изузетно, о располагању стварима које користи Народна банка Србије одлучује орган утврђен законом којим се уређује положај и надлежности Народне банке Србије, с тим што о отуђењу непокретности и о заснивању хипотеке на тим непокретностима одлучује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav8">
+						<content>
+							<p>Шта се сматра опремом веће вредности у смислу <ref wId="ref61" href="akn/rs/act/2018/95-236/srp@/!main~art_27__para_2" >става 2. овог</ref> члана уређује се уредбом Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav9">
+						<content>
+							<p>О прибављању ствари и располагању стварима у својини аутономне покрајине, под условима прописаним законом, одлучује орган аутономне покрајине одређен у складу са статутом аутономне покрајине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav10">
+						<content>
+							<p>О прибављању ствари и располагању стварима у својини јединице локалне самоуправе под условима прописаним законом, одлучује орган јединице локалне самоуправе одређен у складу са законом и статутом јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav11">
+						<content>
+							<p>Аутономна покрајина, односно јединица локалне  самоуправе, може одлуком ближе уредити начин, услове и поступак прибављања,  располагања и управљања стварима које су у јавној својини аутономне  покрајине, односно јединице локалне самоуправе, односно на којима има  посебна својинска овлашћења, као и начин, услове и поступак прибављања,  располагања и управљања другим имовинским правима у вези са којима има  одговарајућа права, у складу са законом и подзаконским актима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav12">
+						<content>
+							<p>Ништав је акт о прибављању и располагању стварима у јавној својини који је донео ненадлежни орган, као и уговор закључен на основу таквог акта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav13">
+						<content>
+							<p>У погледу утврђивања надлежности за одлучивање о отуђењу непокретности из јавне својине, отуђењем се сматра и одлучивање о расходовању и рушењу објекта, осим у случају кад рушење наложи надлежни орган због тога што објекат склон паду угрожава безбедност, односно кад надлежни орган наложи рушење објекта изграђеног супротно прописима о планирању и изградњи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan27-stav14">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref62" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan28">
+					<num>28.</num>
+					<heading>Надлежност за припрему аката о одлучивању</heading>
+					<paragraph wId="gla2-od3-clan28-stav1">
+						<content>
+							<p>Припрема аката за Владу о прибављању и располагању стварима у својини Републике Србије у смислу члана 27. ст. <ref wId="ref63" href="akn/rs/act/2018/95-236/srp@/!main~art_27__para_2" >2</ref>. и <ref wId="ref64" href="akn/rs/act/2018/95-236/srp@/!main~art_27__para_4" >4</ref>. овог закона у надлежности је Дирекције, ако посебним прописом за то није утврђена надлежност другог органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan28-stav2">
+						<content>
+							<p>Орган надлежан за одлучивање и предлагање аката о прибављању, коришћењу, управљању и располагању стварима које користе органи аутономне покрајине и јединице локалне самоуправе утврђује се прописом аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan29">
+					<num>29.</num>
+					<heading>Тржишни услови прибављања и отуђења непокретности</heading>
+					<paragraph wId="gla2-od3-clan29-stav1">
+						<content>
+							<p>Непокретне ствари прибављају се у јавну својину и  отуђују из јавне својине полазећи од тржишне вредности непокретности, коју  је проценио порески или други надлежни орган или лиценцирани проценитељ, у  поступку јавног надметања, односно прикупљањем писмених понуда, ако законом  није другачије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan29-stav2">
+						<content>
+							<p>Прибављањем непокретних ствари, у смислу <ref wId="ref65" href="akn/rs/act/2018/95-236/srp@/!main~art_29__para_1" >става 1. овог</ref> члана, сматра се и размена непокретности и изградња објеката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan29-stav3">
+						<content>
+							<p>Непокретне ствари се могу прибављати у јавну  својину бестеретним правним послом (наслеђе, поклон или једнострана изјава  воље), експропријацијом, у пореском, стечајном и другим поступцима  регулисаним посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan29-stav4">
+						<content>
+							<p>Изузетно од <ref wId="ref66" href="akn/rs/act/2018/95-236/srp@/!main~art_29__para_1" >става 1. овог</ref> члана, непокретне ствари се могу прибавити или отуђити непосредном погодбом, али не испод од стране надлежног органа процењене тржишне вредности непокретности (код отуђења), односно не изнад те вредности (код прибављања), ако у конкретном случају то представља једино могуће решење. Предлог акта, односно акт о оваквом располагању мора да садржи образложење из кога се може утврдити постојање ових околности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan29-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref67" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan30">
+					<num>30.</num>
+					<heading>Прибављање непокретности непосредном погодбом путем размене</heading>
+					<paragraph wId="gla2-od3-clan30-stav1">
+						<intro>
+							<p>Изузетно од <ref wId="ref68" href="akn/rs/act/2018/95-236/srp@/!main~art_29__para_1" >члана 29. став 1. овог</ref> закона, непокретности се могу прибавити у јавну својину путем размене непосредном погодбом, под следећим условима:</p>
+						</intro>
+						<point wId="gla2-od3-clan30-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако је таква размена у интересу Републике Србије, аутономне покрајине или јединице локалне самоуправе, односно ако се тиме обезбеђују већи приходи за носиоца права јавне својине или бољи услови за ефикасно вршење његових права и дужности;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan30-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако се непокретности размењују под тржишним условима;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan30-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако се, у случају кад је тржишна вредност непокретности у јавној својини већа од тржишне вредности непокретности која се прибавља у јавну својину на име размене, уговори доплата разлике у новцу у року до 20 дана од дана закључења уговора.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan30-stav2">
+						<content>
+							<p>Предлог акта, односно акт о прибављању непокретности из <ref wId="ref69" href="akn/rs/act/2018/95-236/srp@/!main~art_30__para_1" >става 1. овог</ref> члана мора да садржи образложење из кога се може утврдити постојање околности из става 1. тачка <ref wId="ref70" href="akn/rs/act/2018/95-236/srp@/!main~art_30__para_1__point_1" >1</ref>) овог члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan31">
+					<num>31.</num>
+					<heading>Отуђење непокретности испод тржишне цене</heading>
+					<paragraph wId="gla2-od3-clan31-stav1">
+						<content>
+							<p>Изузетно од <ref wId="ref71" href="akn/rs/act/2018/95-236/srp@/!main~art_29__para_1" >члана 29. став 1. овог</ref> закона, непокретности се могу отуђити из јавне својине и испод тржишне цене, односно без накнаде, ако постоји интерес за таквим располагањем, као што је отклањање последица елементарних непогода или успостављање добрих односа са другим државама, односно међународним организацијама и у другим случајевима предвиђеним посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan31-stav2">
+						<content>
+							<p>Предлог акта, односно акт о отуђењу непокретности мора да садржи образложење из кога се може утврдити постојање разлога из <ref wId="ref72" href="akn/rs/act/2018/95-236/srp@/!main~art_31__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan31-stav3">
+						<content>
+							<p>Члан 31а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan31-stav4">
+						<content>
+							<p>Изузетно, у случају када се непокретност не отуђи  из јавне својине у спроведеном поступку јавног оглашавања у складу са <ref wId="ref73" href="akn/rs/act/2018/95-236/srp@/!main~art_29__para_1" >чланом  29. став 1. овог</ref> закона, почетна процењена вредност непокретности може се  умањити на 80% од почетне процењене вредности утврђене на начин и под  условима из <ref wId="ref74" href="akn/rs/act/2018/95-236/srp@/!main~art_29__para_1" >члана 29. став 1. овог</ref> закона. У случају када се непокретност ни  у поновљеном поступку јавног оглашавања са умањеном почетном вредношћу не  отуђи из јавне својине, почетна процењена вредност непокретности по којој се  иста отуђује, може се умањити на 60%, по којој цени ће се наставити са  јавним оглашавањем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan31-stav5">
+						<content>
+							<p>Одлуку о умањењу вредности непокретности из <ref wId="ref75" href="akn/rs/act/2018/95-236/srp@/!main~art_31__para_1" >става  1. овог</ref> члана доноси Влада, односно надлежни орган аутономне покрајине,  односно јединице локалне самоуправе, под условом да је то од интереса за  Републику Србију, аутономну покрајину, односно јединицу локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan31-stav6">
+						<content>
+							<p>Одредбе овог члана примењују се и у поступку  отуђења покретних ствари у јавној својини из <ref wId="ref76" href="akn/rs/act/2018/95-236/srp@/!main~art_33" >члана 33. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan31-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref77" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan32">
+					<num>32.</num>
+					<heading>Ништавост уговора</heading>
+					<paragraph wId="gla2-od3-clan32-stav1">
+						<content>
+							<p>Уговор закључен супротно одредбама <ref wId="ref78" href="akn/rs/act/2018/95-236/srp@/!main~art_29->art_31" >чл. 29 </ref>– 31. овог закона ништав је.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan33">
+					<num>33.</num>
+					<heading>Прибављање и отуђење покретних ствари</heading>
+					<paragraph wId="gla2-od3-clan33-stav1">
+						<content>
+							<p>Прибављање покретних ствари у јавну својину врши се на начин прописан законом којим се уређују јавне набавке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan33-stav2">
+						<content>
+							<p>Отуђење покретних ствари из јавне својине врши се, по правилу, у поступку јавног оглашавања, односно прикупљањем писмених понуда, на начин којим се обезбеђује интерес носиоца права јавне својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan33-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref79" href="akn/rs/act/2018/95-236/srp@/!main~art_33__para_2" >става 2. овог</ref> члана, отуђење покретних ствари се може вршити непосредном погодбом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan33-stav4">
+						<content>
+							<p>Отуђење покретних ствари из јавне својине може се вршити и испод тржишне цене, односно без накнаде, ако постоји интерес за таквим располагањем, као што је отклањање последица елементарних непогода и у другим случајевима утврђеним актом Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan33-stav5">
+						<content>
+							<p>Предлог акта, односно акт о отуђењу покретних ствари из јавне својине мора да садржи образложење из кога се може утврдити постојање разлога из <ref wId="ref80" href="akn/rs/act/2018/95-236/srp@/!main~art_33__para_4" >става 4. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan33-stav6">
+						<content>
+							<p>Случајеви и услови под којима се може вршити отуђење покретне ствари из јавне својине непосредном погодбом и други случајеви из <ref wId="ref81" href="akn/rs/act/2018/95-236/srp@/!main~art_33__para_4" >става 4. овог</ref> члана утврђују се уредбом Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan34">
+					<num>34.</num>
+					<heading>Давање ствари у закуп</heading>
+					<paragraph wId="gla2-od3-clan34-stav1">
+						<content>
+							<p>Ствари у јавној својини могу се дати у закуп, полазећи од тржишне висине закупнине за одређену врсту ствари, у поступку јавног надметања, односно прикупљањем писмених понуда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan34-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref82" href="akn/rs/act/2018/95-236/srp@/!main~art_34__para_1" >става 1. овог</ref> члана, ствари у јавној својини се могу дати у закуп непосредном погодбом, ако је то у конкретном случају једино могуће решење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan34-stav3">
+						<content>
+							<p>Ствари у јавној својини не могу се давати у подзакуп.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan34-stav4">
+						<content>
+							<p>Уговор закључен противно одредбама овог члана ништав је.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan35">
+					<num>35.</num>
+					<heading>Уређивање услова и поступка</heading>
+					<paragraph wId="gla2-od3-clan35-stav1">
+						<content>
+							<p>Услови прибављања и отуђења непокретности  непосредном погодбом и давање у закуп ствари у јавној својини, односно  прибављања и уступања искоришћавања других имовинских права према садржини  одређеној општим прописима који регулишу поједина друга имовинска права, као  и поступци јавног надметања, односно прикупљања писмених понуда, ближе се  уређују уредбом Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan35-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref83" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan36">
+					<num>36.</num>
+					<heading>Надлежност за закључивање уговора</heading>
+					<paragraph wId="gla2-od3-clan36-stav1">
+						<content>
+							<p>Уговоре о прибављању и располагању стварима у својини Републике Србије из члана 27. ст. <ref wId="ref84" href="akn/rs/act/2018/95-236/srp@/!main~art_27__para_2" >2</ref>. и <ref wId="ref85" href="akn/rs/act/2018/95-236/srp@/!main~art_27__para_4" >4</ref>. овог закона, у случајевима када је акт о прибављању и располагању донела Влада, у име Републике Србије, закључује директор Дирекције или лице из Дирекције које он за то овласти, ако законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan36-stav2">
+						<content>
+							<p>Уговор о прибављању и располагању покретним стварима из <ref wId="ref86" href="akn/rs/act/2018/95-236/srp@/!main~art_27__para_3" >члана 27. став 3. овог</ref> закона закључује руководилац органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan36-stav3">
+						<content>
+							<p>Уговор о прибављању непокретности у својину Републике Србије из <ref wId="ref87" href="akn/rs/act/2018/95-236/srp@/!main~art_27__para_5" >члана 27. став 5. овог</ref> закона, за потребе носиоца права коришћења, у име Републике Србије закључују директор Дирекције или лице из Дирекције које он за то овласти и овлашћено лице носиоца права коришћења за чије се потребе непокретност прибавља у својину Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan36-stav4">
+						<content>
+							<p>Уговор о давању у закуп непокретности у својини Републике Србије из <ref wId="ref88" href="akn/rs/act/2018/95-236/srp@/!main~art_27__para_6" >члана 27. став 6. овог</ref> закона на којој постоји право коришћења, на основу важеће сагласности Дирекције, закључује овлашћено лице носиоца права коришћења на тој непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan36-stav5">
+						<content>
+							<p>Уговор о прибављању, отуђењу, узимању и давању у закуп непокретности које се користе за потребе дипломатских и конзуларних представништава Републике Србије у иностранству закључује министар надлежан за спољне послове или лице које он овласти, а за потребе војних представништава – министар одбране или лице које он овласти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan36-stav6">
+						<content>
+							<p>Лице надлежно за закључивање уговора о прибављању и располагању стварима у својини аутономне покрајине и јединице локалне самоуправе, у име аутономне покрајине, односно јединице локалне самоуправе, одређује се прописом аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan36-stav7">
+						<content>
+							<p>Уговор закључен супротно одредбама овог члана ништав је.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan36-stav8">
+						<content>
+							<p>Прибављање мишљења и достављање уговора Државном правобранилаштву</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan37">
+					<num>37.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref92" href="akn/rs/act/2017/113/srp@">113/2017</ref></heading>
+					<paragraph wId="gla2-od3-clan37-stav1">
+						<content>
+							<p>Уговори о прибављању, отуђењу и размени  непокретности у својини Републике Србије, као и уговори о преносу права  јавне својине на непокретностима са Републике Србије на друге носиоце права  јавне својине, закључују се по претходно прибављеном мишљењу Државног  правобранилаштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan37-stav2">
+						<content>
+							<p>Државно правобранилаштво дужно је да мишљење из <ref wId="ref89" href="akn/rs/act/2018/95-236/srp@/!main~art_37__para_1" >става 1. овог</ref> члана да у року од 30 дана од дана пријема захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan37-stav3">
+						<content>
+							<p>Дирекција је дужна да примерак закљученог уговора из <ref wId="ref90" href="akn/rs/act/2018/95-236/srp@/!main~art_37__para_1" >става 1. овог</ref> члана достави  Државном правобранилаштву у року од 15 дана од дана закључења уговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan37-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref91" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan38">
+					<num>38.</num>
+					<heading>Побијање уговора</heading>
+					<paragraph wId="gla2-od3-clan38-stav1">
+						<content>
+							<p>Државно правобранилаштво дужно је да поднесе тужбу за поништење уговора из <ref wId="ref93" href="akn/rs/act/2018/95-236/srp@/!main~art_37__para_1" >члана 37. став 1. овог</ref> закона који је закључен супротно прописима,  као и случају ако уговорена накнада одступа од прописане накнаде или од накнаде која се могла остварити у време закључења уговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan38-stav2">
+						<content>
+							<p>Тужба за побијање уговора из <ref wId="ref94" href="akn/rs/act/2018/95-236/srp@/!main~art_38__para_1" >става 1. овог</ref> члана подноси се у законом утврђеном року, а ако тај рок није утврђен законом – у року од једне године од дана закључења уговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan38-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref95" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan39">
+					<num>39.</num>
+					<heading>Сходна примена одредаба о закључењу и побијању уговора</heading>
+					<paragraph wId="gla2-od3-clan39-stav1">
+						<content>
+							<p>Одредбе чл. <ref wId="ref96" href="akn/rs/act/2018/95-236/srp@/!main~art_37" >37</ref>. и <ref wId="ref97" href="akn/rs/act/2018/95-236/srp@/!main~art_38" >38</ref>. овог закона сходно се примењују и код закључења и побијања уговора о прибављању и располагању непокретностима у својини аутономне покрајине и јединице локалне самоуправе, с тим што код располагања тим непокретностима у својини аутономне покрајине, односно јединице локалне самоуправе мишљење даје, односно тужбу подноси јавно правобранилаштво аутономне покрајине, односно јединице локалне самоуправе, односно други орган или лице које сагласно одлуци аутономне покрајине, односно јединице локалне самоуправе обавља послове правне заштите имовинских права и интереса аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan40">
+					<num>40.</num>
+					<heading>Стицање права на природним богатствима и добрима у општој употреби</heading>
+					<paragraph wId="gla2-od3-clan40-stav1">
+						<content>
+							<p>О стицању права на природним богатствима и добрима у општој употреби (<ref wId="ref98" href="akn/rs/act/2018/95-236/srp@/!main~art_9__para_3" >члан 9. став 3. </ref>и <ref wId="ref99" href="akn/rs/act/2018/95-236/srp@/!main~art_10__para_7" >члан 10. став 7. овог</ref> закона) одлучује Влада, ако посебним законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan41">
+					<num>41.</num>
+					<heading>Управљање добрима од општег интереса и добрима у општој употреби</heading>
+					<paragraph wId="gla2-od3-clan41-stav1">
+						<content>
+							<p>За управљање добрима од општег интереса и добрима у општој употреби у јавној својини могу се оснивати јавна предузећа, јавне агенције и друштва капитала.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan41-stav2">
+						<content>
+							<p>Под управљањем добрима од општег интереса, у смислу <ref wId="ref100" href="akn/rs/act/2018/95-236/srp@/!main~art_41__para_1" >става 1. овог</ref> члана, подразумевају се, зависно од природе добра, узгој, старање, изградња, одржавање, унапређивање, искоришћавање и одређивање начина коришћења добра од општег интереса у јавној својини, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan41-stav3">
+						<content>
+							<p>Јавна предузећа, јавне агенције и друштва капитала из <ref wId="ref101" href="akn/rs/act/2018/95-236/srp@/!main~art_41__para_1" >става 1. овог</ref> члана, дужни су да њима управљају савесно, законито и штитећи искључиво јавни интерес.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan41-stav4">
+						<content>
+							<p>Забрањено је поверена добра од јавног интереса користити у приватне, партијске или друге недозвољене сврхе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan41-stav5">
+						<content>
+							<p>Директори и чланови органа управљања у јавним предузећима и јавним агенцијама из <ref wId="ref102" href="akn/rs/act/2018/95-236/srp@/!main~art_41__para_1" >става 1. овог</ref> члана бирају се на јавном конкурсу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan42">
+					<num>42.</num>
+					<heading>Улагање у јавна предузећа и друштва капитала која обављају делатност од општег интереса</heading>
+					<paragraph wId="gla2-od3-clan42-stav1">
+						<intro>
+							<p>Република Србија, аутономна покрајина и јединица локалне самоуправе могу улагати у капитал јавних предузећа и друштава капитала која обављају делатност од општег интереса:</p>
+						</intro>
+						<point wId="gla2-od3-clan42-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> новац и хартије од вредности;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan42-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> право својине на стварима у јавној својини, изузев природних богатстава, добара у општој употреби, мрежа које могу бити искључиво у јавној својини и других непокретности које могу бити искључиво у јавној својини;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan42-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> друга имовинска права која се по општим прописима могу уложити у капитал.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan42-stav2">
+						<content>
+							<p>Вредност ствари и права из <ref wId="ref103" href="akn/rs/act/2018/95-236/srp@/!main~art_42__para_1" >става 1. овог</ref> члана процењује се на начин утврђен законом којим се уређује правни положај привредних друштава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan42-stav3">
+						<content>
+							<p>По основу улагања носиоци јавне својине стичу акције, односно уделе, а унети улози су својина јавног предузећа или друштва капитала.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan42-stav4">
+						<content>
+							<p>Шуме и шумско земљиште, водно земљиште и водни објекти у јавној својини као и друга добра од општег интереса у јавној својини којима, сагласно посебном закону, управља (газдује) јавно предузеће не улазе у капитал тог предузећа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan43">
+					<num>43.</num>
+					<heading>Улагање у друштва капитала која не обављају делатност од општег интереса</heading>
+					<paragraph wId="gla2-od3-clan43-stav1">
+						<intro>
+							<p>Република Србија, аутономна покрајина и јединица локалне самоуправе могу у капитал друштава капитала која не обављају делатност од општег интереса улагати:</p>
+						</intro>
+						<point wId="gla2-od3-clan43-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> новац и хартије од вредности;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan43-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> право својине на стварима у јавној својини, изузев природних богатстава, добара од општег интереса (укључујући и мреже) и добара у општој употреби;</p>
+							</content>
+						</point>
+						<point wId="gla2-od3-clan43-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> друга имовинска права која се по општим прописима могу уложити у капитал.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan43-stav2">
+						<content>
+							<p>Вредност ствари и права из <ref wId="ref104" href="akn/rs/act/2018/95-236/srp@/!main~art_43__para_1" >става 1. овог</ref> члана процењује се на начин утврђен законом којим се уређује правни положај привредних друштава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan43-stav3">
+						<content>
+							<p>Унети улози у имовину друштва капитала својина су тог друштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan43-stav4">
+						<content>
+							<p>По основу улагања носиоци јавне својине стичу акције, односно уделе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan44">
+					<num>44.</num>
+					<heading>Улагање у капитал грађевинског земљишта у јавној својини</heading>
+					<paragraph wId="gla2-od3-clan44-stav1">
+						<content>
+							<p>Право својине на грађевинском земљишту у јавној својини може се улагати у капитал јавног предузећа и друштва капитала, у складу са законом којим се уређује грађевинско земљиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan44-stav2">
+						<content>
+							<p>У капитал јавног предузећа и друштава капитала основаних од Републике Србије, аутономне покрајине, односно јединице локалне самоуправе може се улагати право својине на изграђеном грађевинском земљишту на коме су изграђени објекти који се по овом закону улажу у капитал тих правних лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan44-stav3">
+						<content>
+							<p>Право својине на неизграђеном грађевинском земљишту може бити уложено у капитал јавног предузећа и друштава капитала основаних од Републике Србије, аутономне покрајине, односно јединице локалне самоуправе, уколико је то неопходно за обављање делатности ради које је то предузеће, односно друштво основано и да је сврха коришћења због које се земљиште улаже у складу са наменом предвиђеном важећим планским актом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan44-stav4">
+						<content>
+							<p>Јавно предузеће и друштво капитала из <ref wId="ref106" href="akn/rs/act/2018/95-236/srp@/!main~art_44__para_2" >става 2. овог</ref> члана које стекне својину на грађевинском земљишту по одредбама овог члана, као и по основу <ref wId="ref105" href="akn/rs/act/2018/95-236/srp@/!main~art_82" >члана 82. овог</ref> закона, не може отуђити то земљиште, нити га дати у дугорочни закуп, без претходне сагласности оснивача тог јавног предузећа, односно тог друштва капитала, с тим што се отуђење, односно давање у дугорочни закуп врши по поступку за отуђење, односно давање у закуп грађевинског земљишта у јавној својини, прописаном законом којим се уређује грађевинско земљиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan44-stav5">
+						<content>
+							<p>Акт о отуђењу, односно давању у дугорочни закуп грађевинског земљишта супротно <ref wId="ref107" href="akn/rs/act/2018/95-236/srp@/!main~art_44__para_4" >ставу 4. овог</ref> члана ништав је.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od3-clan45">
+					<num>45.</num>
+					<heading>Стицање својине јавног предузећа и друштва капитала</heading>
+					<paragraph wId="gla2-od3-clan45-stav1">
+						<content>
+							<p>Јавно предузеће и друштво капитала чији је  оснивач, односно члан Република Србија, аутономна покрајина или јединица  локалне самоуправе, које на дан ступања на снагу овог закона има право  коришћења на непокретностима у државној својини, односно неограничено право  искоришћавања других имовинских права, а које чини део или укупан капитал  тих правних лица, стиче право својине на тим непокретностима, односно  постаје једини искључиви носилац тих других имовинских права у односу према  Републици Србији, аутономној покрајини или јединици локалне самоуправе,  сагласно одредбама чл. <ref wId="ref108" href="akn/rs/act/2018/95-236/srp@/!main~art_42" >42</ref>, <ref wId="ref109" href="akn/rs/act/2018/95-236/srp@/!main~art_43" >43</ref>. и <ref wId="ref110" href="akn/rs/act/2018/95-236/srp@/!main~art_72" >72</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan45-stav2">
+						<content>
+							<p>Одредба <ref wId="ref111" href="akn/rs/act/2018/95-236/srp@/!main~art_45__para_1" >става 1. овог</ref> члана сходно се примењује и на непокретности на којој је право коришћења сагласно закону пренето на зависна друштва капитала правних лица из <ref wId="ref112" href="akn/rs/act/2018/95-236/srp@/!main~art_45__para_1" >става 1. овог</ref> члана,  као и на друга имовинска права која су без ограничења пренета на та зависна  друштва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan45-stav3">
+						<content>
+							<p>Ради спровођења одредаба <ref wId="ref113" href="akn/rs/act/2018/95-236/srp@/!main~art_45__para_1->para_2" >ст. 1. и 2. овог</ref> члана извршиће се, по потреби, одговарајуће промене оснивачког акта, односно статута, везане за измене у капиталу и улозима, промене у пословној евиденцији и упис у регистар привредних субјеката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan45-stav4">
+						<content>
+							<p>Одредбе овог члана не примењују се на тзв. комерцијалне непокретности које је Република Србија, односно аутономна покрајина, односно јединица локалне самоуправе поверила јавном предузећу, односно друштву капитала у смислу <ref wId="ref114" href="akn/rs/act/2018/95-236/srp@/!main~art_20__para_2->para_4" >члана 20. ст. 2 </ref>– 4. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od3-clan45-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref115" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan46">
+					<num>46.</num>
+					<heading>Које ствари користе</heading>
+					<paragraph wId="gla2-od4-clan46-stav1">
+						<content>
+							<p>Државни органи и организације користе непокретне и покретне ствари у својини Републике Србије намењене извршавању права и дужности Републике Србије, које су прибављене за потребе тих органа и организација или су им дате на коришћење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan46-stav2">
+						<content>
+							<p>Органи и организације аутономне покрајине користе непокретне и покретне ствари у својини аутономне покрајине намењене извршавању права и дужности аутономне покрајине, које су прибављене за потребе тих органа и организација или су им дате на коришћење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan46-stav3">
+						<content>
+							<p>Органи јединице локалне самоуправе користе непокретне и покретне ствари у својини јединице локалне самоуправе намењене извршавању права и дужности јединице локалне самоуправе, које су прибављене за потребе тих органа или су им дате на коришћење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan46-stav4">
+						<content>
+							<p>Органи и организације из <ref wId="ref117" href="akn/rs/act/2018/95-236/srp@/!main~art_46__para_1->para_3" >ст. 1. </ref>до 3. овог члана користе и непокретности у јавној својини из <ref wId="ref116" href="akn/rs/act/2018/95-236/srp@/!main~art_20__para_2" >члана 20. став 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan47">
+					<num>47.</num>
+					<heading>Појам органа и организација</heading>
+					<paragraph wId="gla2-od4-clan47-stav1">
+						<content>
+							<p>Државни органи и организације, у смислу овог закона, су Народна скупштина, председник Републике, Влада, Уставни суд, Заштитник грађана, Војска Србије, Високи савет судства, Државно веће тужилаца и други државни органи и организације у складу с Уставом и законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan47-stav2">
+						<content>
+							<p>Под органима и организацијама аутономне покрајине, у смислу овог закона, подразумевају се органи и организације организовани на основу и у складу са статутом аутономне покрајине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan47-stav3">
+						<content>
+							<p>Под органима и организацијама јединице локалне самоуправе, у смислу овог закона, подразумевају се органи и организације организовани у складу са законом и статутом јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan48">
+					<num>48.</num>
+					<heading>Примена прописа</heading>
+					<paragraph wId="gla2-od4-clan48-stav1">
+						<content>
+							<p>Прибављање, коришћење, управљање и располагање стварима у јавној својини које користе органи и организације (у даљем тексту: органи) Републике Србије, аутономне покрајине и јединице локалне самоуправе врши се у складу с овим законом и на основу њега донетим подзаконским актима, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan49">
+					<num>49.</num>
+					<heading>Начин коришћења, одржавања и управљања стварима</heading>
+					<paragraph wId="gla2-od4-clan49-stav1">
+						<content>
+							<p>Органи Републике Србије, аутономне покрајине и јединице локалне самоуправе дужни су да ствари у јавној својини користе на начин којим се обезбеђује ефикасно вршење њихових права и дужности, као и рационално коришћење и очување тих ствари.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan49-stav2">
+						<content>
+							<p>Влада ће ближе уредити вршење послова у вези са коришћењем, одржавањем и управљањем стварима у јавној својини које користе органи Републике Србије, ако за одређене врсте непокретности није нешто друго прописано овим или другим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan49-stav3">
+						<content>
+							<p>Коришћење, одржавање и управљање стварима у јавној својини које користе органи аутономне покрајине и јединице локалне самоуправе ближе ће се уредити прописом надлежног органа аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan50">
+					<num>50.</num>
+					<heading>Одговорност функционера и запослених</heading>
+					<paragraph wId="gla2-od4-clan50-stav1">
+						<content>
+							<p>Функционер који руководи органом, односно друго овлашћено лице, стара се о законитости и одговоран је за законито коришћење и управљање стварима у јавној својини које користи тај орган.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan50-stav2">
+						<content>
+							<p>Запослени у органима одговорни су за савесно и наменско коришћење ствари у јавној својини које користе у обављању послова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan51">
+					<num>51.</num>
+					<heading>Поступање са стварима које нису неопходне за вршење послова органа</heading>
+					<paragraph wId="gla2-od4-clan51-stav1">
+						<content>
+							<p>Ствари у јавној својини које нису неопходне за вршење послова из делокруга органа Републике Србије, аутономне покрајине и јединице локалне самоуправе могу се дати на коришћење другом органу тог носиоца јавне својине или другом органу другог носиоца јавне својине на одређено или неодређено време, дати у закуп другом правном или физичком лицу, заменити за другу ствар или отуђити.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan52">
+					<num>52.</num>
+					<heading>Врсте ствари</heading>
+					<paragraph wId="gla2-od4-clan52-stav1">
+						<content>
+							<p>Ствари у јавној својини које користе органи Републике Србије, аутономне покрајине и јединице локалне самоуправе за вршење њихових права и дужности обухватају непокретне и покретне ствари.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan52-stav2">
+						<content>
+							<p>Непокретне ствари, у смислу <ref wId="ref118" href="akn/rs/act/2018/95-236/srp@/!main~art_52__para_1" >става 1. овог</ref> члана, јесу: службене зграде и пословне просторије, стамбене зграде и станови, гараже и гаражна места, непокретности за репрезентативне потребе, непокретности за потребе дипломатских и конзуларних представништава и непокретности за посебне намене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan52-stav3">
+						<content>
+							<p>Покретне ствари, у смислу <ref wId="ref119" href="akn/rs/act/2018/95-236/srp@/!main~art_52__para_1" >става 1. овог</ref> члана, јесу: превозна средства, предмети историјскодокументарне, културне и уметничке вредности, опрема, потрошни материјал и покретне ствари за посебне намене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan52-stav4">
+						<content>
+							<p>Покретне ствари, у смислу <ref wId="ref120" href="akn/rs/act/2018/95-236/srp@/!main~art_52__para_1" >става 1. овог</ref> члана, су и новац и хартије од вредности, који се уређују посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan53">
+					<num>53.</num>
+					<heading>Службене зграде и пословне просторије</heading>
+					<paragraph wId="gla2-od4-clan53-stav1">
+						<content>
+							<p>Службене зграде и пословне просторије, у смислу овог закона, су: зграде, делови зграда и просторије изграђене, купљене и на други начин прибављене од стране Републике Србије, аутономне покрајине и јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan53-stav2">
+						<content>
+							<p>Распоред службених зграда и пословних просторија у својини Републике Србије врши Влада, а распоред службених зграда и пословних просторија у својини аутономне покрајине, односно јединице локалне самоуправе врши надлежни орган аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan54">
+					<num>54.</num>
+					<heading>Стамбене зграде и станови</heading>
+					<paragraph wId="gla2-od4-clan54-stav1">
+						<content>
+							<p>Стамбеним зградама, у смислу овог закона, сматрају се стамбене зграде, станови, гараже и пословни простор у стамбеним зградама, који су изградњом, куповином или по другом основу прибављени у својину Републике Србије, аутономне покрајине и јединице локалне самоуправе за потребе органа Републике Србије, аутономне покрајине и јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan54-stav2">
+						<content>
+							<p>Престао је да важи (види <ref wId="ref121" href="akn/rs/act/2016/104/srp@/!main~/art_157">члан 157. Закона -  104/2016-6</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan54-stav3">
+						<content>
+							<p>Престао је да важи (види <ref wId="ref122" href="akn/rs/act/2016/104/srp@/!main~/art_157">члан 157. Закона -  104/2016-6</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan54-stav4">
+						<content>
+							<p>За запослене у министарству надлежном за послове одбране критеријуме и поступак давања станова у закуп и њихове куповине и додељивање стамбених зајмова прописује министар надлежан за послове одбране.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan54-stav5">
+						<content>
+							<p>За запослене у Народној банци Србије критеријуме и поступак давања станова у закуп и њихове куповине и додељивања стамбених зајмова, у складу са уредбом из <ref wId="ref123" href="akn/rs/act/2018/95-236/srp@/!main~art_54__para_2" >става 2. овог</ref> члана, општим актом утврђује Гувернер Народне банке Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan54-stav6">
+						<content>
+							<p>Престао је да важи (види <ref wId="ref124" href="akn/rs/act/2016/104/srp@/!main~/art_157">члан 157. Закона -  104/2016-6</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan54-stav7">
+						<content>
+							<p>Висину закупнине за коришћење стамбених зграда, станова и гаража прописује Влада, односно надлежни орган аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan54-stav8">
+						<content>
+							<p>Стамбеним зградама и становима сматрају се такође и стамбене зграде и станови у јавној својини намењени за социјално становање чији је правни режим прописан посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan55">
+					<num>55.</num>
+					<heading>Надлежност Дирекције</heading>
+					<paragraph wId="gla2-od4-clan55-stav1">
+						<content>
+							<p>Послове државне управе у вези са прибављањем, управљањем и располагањем стамбеним зградама, становима и другим непокретностима које користе државни органи обавља Дирекција, ако законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan56">
+					<num>56.</num>
+					<heading>Стамбене зграде и станови за потребе органа одбране</heading>
+					<paragraph wId="gla2-od4-clan56-stav1">
+						<content>
+							<p>О прибављању и располагању стамбеним зградама, становима, гаражама и пословним простором у стамбеним зградама које користе министарство надлежно за послове одбране и Војска Србије одлучује Влада на предлог Дирекције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan56-stav2">
+						<content>
+							<p>Начин коришћења, управљања и одржавања стамбених зграда, станова, гаража и пословног простора из <ref wId="ref125" href="akn/rs/act/2018/95-236/srp@/!main~art_56__para_1" >става 1. овог</ref> члана прописује министар надлежан за послове одбране.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan57">
+					<num>57.</num>
+					<heading>Непокретности за репрезентативне потребе</heading>
+					<paragraph wId="gla2-od4-clan57-stav1">
+						<content>
+							<p>Непокретности за репрезентативне потребе, у смислу овог закона, јесу резиденције, гостинске виле и друге непокретности које служе за потребе репрезентације Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan57-stav2">
+						<content>
+							<p>Влада утврђује које се непокретности сматрају средствима за репрезентативне потребе у смислу <ref wId="ref126" href="akn/rs/act/2018/95-236/srp@/!main~art_57__para_1" >става 1. овог</ref> члана, прописује начин њиховог коришћења и одређује орган који обавља послове одржавања ових непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan57-stav3">
+						<content>
+							<p>Председнику Републике и председнику Владе, за време обављања те функције, омогућује се коришћење посебних резиденција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan57-stav4">
+						<content>
+							<p>Непокретности за репрезентативне потребе аутономне покрајине и јединице локалне самоуправе уређују се актом аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan58">
+					<num>58.</num>
+					<heading>Непокретности за потребе дипломатско-конзуларних представништава</heading>
+					<paragraph wId="gla2-od4-clan58-stav1">
+						<content>
+							<p>Непокретности за потребе дипломатско-конзуларних представништава у својини Републике Србије у иностранству користе се у складу са законом којим се уређују спољни послови.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan59">
+					<num>59.</num>
+					<heading>Непокретности за посебне намене</heading>
+					<paragraph wId="gla2-od4-clan59-stav1">
+						<content>
+							<p>Непокретности за посебне намене, у смислу овог закона, су непокретне ствари за војне потребе које користи министарство надлежно за послове одбране и Војска Србије и непокретне ствари за потребе послова безбедности из делокруга министарства надлежног за унутрашње послове и служби безбедности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan59-stav2">
+						<content>
+							<p>Шта се сматра непокретним стварима за посебне намене из <ref wId="ref127" href="akn/rs/act/2018/95-236/srp@/!main~art_59__para_1" >става 1. овог</ref> члана ближе се уређује посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan60">
+					<num>60.</num>
+					<heading>Превозна средства</heading>
+					<paragraph wId="gla2-od4-clan60-stav1">
+						<content>
+							<p>Превозна средства, у смислу овог закона, јесу моторна возила, ваздухоплови, пловни објекти, шинска возила и друга средства која служе за потребе органа Републике Србије, аутономне покрајине и јединице локалне самоуправе и запослених у тим органима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan60-stav2">
+						<content>
+							<p>Превозна средства се користе за обављање службених послова органа из <ref wId="ref128" href="akn/rs/act/2018/95-236/srp@/!main~art_60__para_1" >става 1. овог</ref> члана, у складу с потребама и њиховом наменом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan60-stav3">
+						<content>
+							<p>Влада уређује начин коришћења превозних средстава у својини Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan60-stav4">
+						<content>
+							<p>Начин коришћења превозних средстава у својини аутономне покрајине и јединице локалне самоуправе уређује се прописом аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan61">
+					<num>61.</num>
+					<heading>Опрема и потрошни материјал</heading>
+					<paragraph wId="gla2-od4-clan61-stav1">
+						<content>
+							<p>Опремом и потрошним материјалом, у смислу овог закона, сматрају се рачунарски системи, биротехничка опрема, средства веза, лабораторијска опрема, канцеларијски намештај и други предмети потребни за рад органа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan62">
+					<num>62.</num>
+					<heading>Предмети посебне вредности</heading>
+					<paragraph wId="gla2-od4-clan62-stav1">
+						<content>
+							<p>Предмети историјскодокументарне, културне и уметничке вредности, у смислу овог закона, јесу писани и други историјски документи, скулптуре, слике, предмети од племенитих метала, таписерије и други предмети ликовне и примењене уметности, као и други предмети и дела,  односно друга имовинска права, од историјско-документарног, културног и уметничког значаја у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan62-stav2">
+						<content>
+							<p>Предмети из <ref wId="ref129" href="akn/rs/act/2018/95-236/srp@/!main~art_62__para_1" >става 1. овог</ref> члана могу се, на захтев музеја и других културних институција, дати на коришћење ради излагања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan62-stav3">
+						<content>
+							<p>О давању предмета из <ref wId="ref130" href="akn/rs/act/2018/95-236/srp@/!main~art_62__para_2" >става 2. овог</ref> члана закључује се уговор у писменом облику, којим се посебно уређују питања осигурања, превоза, чувања, заштите и враћања тих предмета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan62-stav4">
+						<content>
+							<p>Влада ближе уређује начин коришћења, управљања, чувања и заштите предмета историјско-документарне, културне и уметничке вредности у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan62-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref131" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan63">
+					<num>63.</num>
+					<heading>Покретне ствари за посебне намене</heading>
+					<paragraph wId="gla2-od4-clan63-stav1">
+						<content>
+							<p>Покретне ствари за посебне намене, у смислу овог закона, јесу: наоружање, војна и техничка опрема, превозна средства и друге покретне ствари за војне потребе које користи министарство надлежно за послове одбране и Војска Србије и које за потребе послова безбедности користе министарство надлежно за унутрашње послове и службе безбедности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan63-stav2">
+						<content>
+							<p>Шта се сматра покретним стварима за посебне намене из <ref wId="ref132" href="akn/rs/act/2018/95-236/srp@/!main~art_63__para_1" >става 1. овог</ref> члана ближе се уређује посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan64">
+					<num>64.</num>
+					<heading>Надлежност и начин вођења евиденције</heading>
+					<paragraph wId="gla2-od4-clan64-stav1">
+						<content>
+							<p>Органи Републике Србије, аутономне покрајине и јединице локалне самоуправе воде евиденцију о стању, вредности и кретању средстава у јавној својини које користе, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav2">
+						<content>
+							<p>Органи из <ref wId="ref133" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_1" >става 1. овог</ref> члана воде посебну евиденцију непокретности у јавној својини које користе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav3">
+						<content>
+							<p>Органи Републике Србије, аутономне покрајине и јединице локалне самоуправе дужни су да податке из евиденције непокретности из <ref wId="ref134" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_2" >става 2. овог</ref> члана достављају Дирекцији, која води јединствену евиденцију непокретности у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav4">
+						<content>
+							<p>Влада уредбом прописује садржину и начин вођења евиденције непокретности из <ref wId="ref135" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_2" >става 2. овог</ref> члана, као и рокове достављања података и начин вођења јединствене евиденције из <ref wId="ref136" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_3" >става 3. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav5">
+						<content>
+							<p>Органи аутономне покрајине и јединице локалне самоуправе дужни су да воде евиденцију непокретности у својини аутономне покрајине, односно јединице локалне самоуправе које користе, у складу са уредбом из <ref wId="ref137" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_4" >става 4. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav6">
+						<content>
+							<p>Јавно предузеће, друштво капитала, зависно друштво капитала, установа или друго правно лице чији је оснивач Република Србија, аутономна покрајина или јединица локалне самоуправе води евиденцију непокретности у јавној својини које користи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav7">
+						<content>
+							<p>Податке из евиденције непокретности из <ref wId="ref138" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_6" >става 6. овог</ref> члана, јавно предузеће, друштво капитала, зависно друштво капитала, установа, јавна агенција и друго правно лице чији је оснивач Република Србија, достављају Дирекцији, која води јединствену евиденцију непокретности у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav8">
+						<content>
+							<p>Податке из евиденције непокретности из <ref wId="ref139" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_6" >става 6. овог</ref> члана, јавно предузеће, друштво капитала, зависно друштво капитала, установа или друго правно лице чији је оснивач аутономна покрајина или јединица локалне самоуправе достављају надлежном органу оснивача, који те податке доставља Дирекцији, која води јединствену евиденцију непокретности у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav9">
+						<content>
+							<p>Надлежни орган аутономне покрајине, односно јединице локалне самоуправе води јединствену евиденцију непокретности у својини аутономне покрајине, односно јединице локалне самоуправе, у складу са уредбом из <ref wId="ref140" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_4" >става 4. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav10">
+						<content>
+							<p>Јединствену евиденцију непокретности у јавној  својини из <ref wId="ref142" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_3" >става 3. овог</ref> члана, Дирекција води као јавну и електронску базу  података, осим за непокретности за посебне намене из <ref wId="ref141" href="akn/rs/act/2018/95-236/srp@/!main~art_59" >члана 59. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav11">
+						<content>
+							<p>Републички геодетски завод обезбеђује Дирекцији,  на упит, приступ бази података из своје надлежности неопходних за вођење  јединствене евиденције непокретности у јавној својини, у складу са законом  којим се уређује електронска управа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav12">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref143" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan64-stav13">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref144" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan65">
+					<num>65.</num>
+					<heading>Примање и задржавање поклона</heading>
+					<paragraph wId="gla2-od4-clan65-stav1">
+						<content>
+							<p>Поклони које функционери, посланици, државни службеници и друга лица, за која је одлучено да у односима са иностранством представљају Републику Србију, приме од представника стране државе, организације или институције у страној држави или страног држављанина, међународне организације или њеног органа, постају својина Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan65-stav2">
+						<content>
+							<p>Поклони које представници аутономне покрајине или јединице локалне самоуправе добију у вршењу послова представљања аутономне покрајине, односно јединице локалне самоуправе у међународној сарадњи, постају јавна својина аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan65-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref145" href="akn/rs/act/2018/95-236/srp@/!main~art_65__para_1->para_2" >ст. 1. и 2. овог</ref> члана, функционери, посланици, државни службеници и друга лица за која је одлучено да у односима са иностранством представљају Републику Србију, односно представници аутономне покрајине или јединице локалне самоуправе у пословима међународне сарадње, могу стећи право својине на пригодном поклону мање вредности, који не може бити у новцу, а који се даје за успомену или у знак међународне сарадње или солидарности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan65-stav4">
+						<content>
+							<p>Под пригодним поклоном мање вредности, у смислу овог закона, подразумева се поклон чија вредност не прелази износ утврђен законом којим се уређује спречавање сукоба интереса при вршењу јавних функција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan66">
+					<num>66.</num>
+					<heading>Процена вредности, пријава и предаја поклона</heading>
+					<paragraph wId="gla2-od4-clan66-stav1">
+						<content>
+							<p>У погледу процене вредности, пријаве и предаје поклона у својину примаоцу поклона сходно се примењују одговарајуће одредбе којима се уређује спречавање сукоба интереса при вршењу јавних функција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan67">
+					<num>67.</num>
+					<heading>Уређивање чувања и коришћења поклона у јавној својини</heading>
+					<paragraph wId="gla2-od4-clan67-stav1">
+						<content>
+							<p>Влада уређује начин и рокове предаје, чувања и коришћења поклона који остају у јавној својини.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan68">
+					<num>68.</num>
+					<heading>Давање поклона</heading>
+					<paragraph wId="gla2-od4-clan68-stav1">
+						<content>
+							<p>Представницима међународне организације или њених органа, стране државе, органа стране државе, организације или институције стране државе или страном држављанину могу се, на основу одлуке надлежног органа, изузетно, за успомену или у знак међународне сарадње или солидарности из јавне својине дати пригодни поклони мање вредности домаће производње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan68-stav2">
+						<content>
+							<p>Народна скупштина, односно тело које она овласти, председник Републике и Влада могу одлучити да се шефу стране државе, председнику парламента стране државе или председнику владе стране државе може дати поклон чија је вредност већа од износа предвиђеног у <ref wId="ref146" href="akn/rs/act/2018/95-236/srp@/!main~art_65__para_4" >члану 65. став 4. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan69">
+					<num>69.</num>
+					<heading>Надлежност и извештавање</heading>
+					<paragraph wId="gla2-od4-clan69-stav1">
+						<content>
+							<p>Надзор над примењивањем одредаба овог закона и на основу њега донетих подзаконских прописа о прибављању, коришћењу, управљању и располагању стварима у својини Републике Србије врши министарство надлежно за послове финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan69-stav2">
+						<content>
+							<p>Изузетно од одредбе <ref wId="ref147" href="akn/rs/act/2018/95-236/srp@/!main~art_69__para_1" >става 1. овог</ref> члана, надзор над примењивањем одредаба овог закона и других прописа у вези са прибављањем, коришћењем, управљањем и располагањем стварима у својини Републике Србије које користи министарство надлежно за послове одбране, Војска Србије и војне службе безбедности врши министарство надлежно за послове одбране, стварима које користи министарство надлежно за унутрашње послове – то министарство, а стварима које користи Безбедносно-информативна агенција – та агенција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan69-stav3">
+						<content>
+							<p>Надзор над примењивањем одредаба овог закона и на основу њега донетих подзаконских прописа о прибављању, коришћењу, управљању и располагању стварима у својини аутономне покрајине, односно јединице локалне самоуправе, врши орган утврђен прописом аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan69-stav4">
+						<content>
+							<p>У вршењу надзора из <ref wId="ref148" href="akn/rs/act/2018/95-236/srp@/!main~art_69__para_1->para_3" >ст. 1 </ref>– 3. овог члана надлежни органи имају право непосредног увида у евиденцију и документацију о прибављању, коришћењу, управљању и располагању стварима у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan69-stav5">
+						<content>
+							<p>О утврђеном стању органи из <ref wId="ref149" href="akn/rs/act/2018/95-236/srp@/!main~art_69__para_1->para_2" >ст. 1. и 2. овог</ref> члана имају право и дужност да обавесте Владу и да предложе мере за отклањање утврђених неправилности или незаконитости.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan70">
+					<num>70.</num>
+					<heading>Обавезе корисника средстава код којих се врши надзор</heading>
+					<paragraph wId="gla2-od4-clan70-stav1">
+						<content>
+							<p>Органи и други корисници средстава у јавној својини код којих се врши надзор дужни су да органу који врши надзор омогуће увид у евиденцију и документацију о прибављању, коришћењу, управљању и располагању стварима у јавној својини, као и да му дају потребна објашњења и пруже помоћ у вршењу тог надзора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od4-clan71">
+					<num>71.</num>
+					<heading>Достављање извештаја</heading>
+					<paragraph wId="gla2-od4-clan71-stav1">
+						<content>
+							<p>Дирекција подноси Влади годишњи извештај о стању непокретности у јавној својини, најкасније до 31. маја текуће године за претходну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-od4-clan71-stav2">
+						<content>
+							<p>Министарство надлежно за послове одбране и министарство надлежно за унутрашње послове подносе Дирекцији годишње извештаје о стању непокретности у својини Републике Србије које користе, најкасније до 31. марта текуће године за претходну годину.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>УСПОСТАВЉАЊЕ ЈАВНЕ СВОЈИНЕ РЕПУБЛИКЕ СРБИЈЕ, АУТОНОМНЕ ПОКРАЈИНЕ И ЈЕДИНИЦЕ ЛОКАЛНЕ САМОУПРАВЕ</heading>
+				<article wId="gla3-clan72">
+					<num>72.</num>
+					<heading>Основна правила</heading>
+					<paragraph wId="gla3-clan72-stav1">
+						<content>
+							<p>Непокретности, покретне ствари и друга средства (у даљем тексту: средства) која су, на основу Закона о средствима у својини Републике Србије („Службени гласник РС”, бр. <ref wId="ref150" href="akn/rs/act/95/53/srp@">53/95</ref>, <ref wId="ref151" href="akn/rs/act/96/3/srp@">3/96</ref> – исправка, 54/96, 32/97 и <ref wId="ref152" href="akn/rs/act/05/101/srp@">101/05 – др. закон</ref>), на дан ступања на снагу овог закона у државној својини, постају средства у јавној својини Републике Србије, ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav2">
+						<content>
+							<p>Природна богатства, добра од општег интереса, добра у општој употреби у државној својини (изузев добара која по овом закону припадају Аутономној покрајини Војводине и јединици локалне самоуправе), као и средства која на дан ступања на снагу овог закона користе Република Србија, државни органи и организације, установе и друге организације чији је оснивач Република Србија, даном ступања на снагу овог закона постају средства у јавној својини Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav3">
+						<content>
+							<p>На средствима из <ref wId="ref153" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_1" >става 1. овог</ref> члана, укључујући и средства у иностранству, која користе аутономна покрајина, односно јединица локалне самоуправе успоставља се право јавне својине аутономне покрајине, односно право јавне својине јединице локалне самоуправе, под условима и на начин прописан овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav4">
+						<content>
+							<p>Средствима из <ref wId="ref154" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_3" >става 3. овог</ref> члана, која користе аутономна покрајина, односно јединица локалне самоуправе сматрају се средства у државној својини на којима су на дан ступања на снагу овог закона уписани као корисници аутономна покрајина, органи и организације аутономне покрајине, односно јединица локалне самоуправе и органи и организације јединице локалне самоуправе, као и средства која аутономна покрајина, односно јединица локалне самоуправе и ови органи и организације користе на основу правног основа који може представљати основ за њихов упис у јавну књигу као корисника средстава. Ако је као корисник средстава у државној својини уписана месна заједница, односно друга организација са одговарајућим називом (месни народни одбор и сл.), право јавне својине стиче јединица локалне самоуправе, а месна заједница право коришћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav5">
+						<intro>
+							<p>Под средствима из <ref wId="ref155" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_3" >става 3. овог</ref> члана сматрају се и средства:</p>
+						</intro>
+						<alinea wId="gla3-clan72-stav5-ali1">
+							<content>
+								<p>оја користе установа и друга организација чији је оснивач аутономна покрајина, односно јединица локалне самоуправе, односно месна заједница;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan72-stav5-ali2">
+							<content>
+								<p>омуналне мреже;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan72-stav5-ali3">
+							<content>
+								<p>лице, тргови, јавни паркови на којима право јавне својине стиче јединица локалне самоуправе на чијој су територији;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan72-stav5-ali4">
+							<content>
+								<p>обра која користе јавна предузећа чији је оснивач Аутономна покрајина Војводина сагласно Закону о утврђивању надлежности Аутономне покрајине Војводине а која им нису уложена, нити по овом закону могу бити уложена у капитал, осим добара која по закону могу бити искључиво у својини Републике Србије;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan72-stav5-ali5">
+							<content>
+								<p> потпуности изграђена из буџета Аутономне покрајине Војводине, из дела који се по Уставу Републике Србије користи за финансирање капиталних расхода, под условом да та средства могу бити у јавној својини Аутономне покрајине Војводине, у складу са овим законом;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan72-stav5-ali6">
+							<content>
+								<p>аналске мреже на територији Аутономне покрајине Војводине, осим ако су део пловних путева;</p>
+							</content>
+						</alinea>
+						<alinea wId="gla3-clan72-stav5-ali7">
+							<content>
+								<p>бјекти на територији бивших југословенских република који су били у друштвеној својини, на којима је као носилац права располагања била или је уписана Аутономна покрајина Војводина, односно јединица локалне самоуправе или установа чији је оснивач Аутономна покрајина Војводине, односно јединица локалне самоуправе.</p>
+							</content>
+						</alinea>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav6">
+						<content>
+							<p>У непокретне ствари из <ref wId="ref156" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_4->para_5" >ст. 4. и 5. овог</ref> члана не улазе непокретности у државној својини које су органу и организацији, установи и другој организацији дате на привремено коришћење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav7">
+						<content>
+							<p>На непокретностима у државној својини на којима право коришћења има јавно предузеће и друштво капитала чији је оснивач или члан Република Србија, аутономна покрајина, односно јединица локалне самоуправе, успоставља се, под условима и на начин прописан овим законом, својина тог јавног предузећа односно друштва капитала, изузев на комуналним мрежама, на непокретностима из <ref wId="ref157" href="akn/rs/act/2018/95-236/srp@/!main~art_20__para_2" >члана 20. став 2. овог</ref> закона и на непокретностима које се на основу овог закона не могу улагати у капитал, односно која могу бити искључиво у јавној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav8">
+						<content>
+							<p>Одредба <ref wId="ref158" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_7" >става 7. овог</ref> члана сходно се примењује и на непокретности код којих је право коришћења пренето сагласно закону на зависна друштва капитала правних лица из тог става.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav9">
+						<content>
+							<p>Одредбе <ref wId="ref159" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_7->para_8" >ст. 7. и 8. овог</ref> члана не примењују се на непокретности у државној својини које су дате на привремено коришћење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav10">
+						<content>
+							<p>По основу стицања својине јавног предузећа и друштва капитала на непокретностима из <ref wId="ref160" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_7" >става 7. овог</ref> члана, Република Србија, аутономна покрајина, односно јединица локалне самоуправе стичу акције или уделе у јавном предузећу односно друштву капитала, уколико акције, односно уделе по том основу нису стекле до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav11">
+						<content>
+							<p>На покретним стварима које користе органи и организације из <ref wId="ref161" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_4" >става 4. овог</ref> члана и правно лице из <ref wId="ref162" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_7->para_8" >ст. 7. и 8. овог</ref> члана, аутономна покрајина, односно јединица локалне самоуправе, односно правно лице стиче право својине даном ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav12">
+						<content>
+							<p>Ради спровођења одредаба овог члана извршиће се, по потреби, промене оснивачког акта, односно статута, промене у пословној евиденцији и упис у регистар привредних субјеката.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav13">
+						<content>
+							<p>Одредбе овог члана у погледу стицања јавне својине аутономне покрајине и јединице локалне самоуправе, не примењују се на добра од општег интереса која нису наведена у <ref wId="ref163" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_2" >ставу 2. овог</ref> члана и на грађевинско земљиште које је на дан ступања на снагу овог закона у државној својини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan72-stav14">
+						<content>
+							<p>Орган надлежан за вођење јавне евиденције о непокретностима и правима на њима извршиће, по службеној дужности, упис права јавне својине Републике Србије на непокретностима из <ref wId="ref164" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_2" >става 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan73">
+					<num>73.</num>
+					<paragraph wId="gla3-clan73-stav1">
+						<content>
+							<p>Аутономној покрајини Војводини припадају и средства створена улагањима АП Војводине, која су јој потребна за остваривање њених надлежности на пословима уређеним Уставом Републике Србије, законом и Законом о утврђивању надлежности АП Војводине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan73-stav2">
+						<content>
+							<p>Влада Републике Србије ће својим актом утврдити средства из <ref wId="ref165" href="akn/rs/act/2018/95-236/srp@/!main~art_73__para_1" >става 1. овог</ref> члана у року од 180 дана од дана ступања на снагу овог закона, на пословима рударства и енергетике, сајмова и других привредних манифестација, јавног информисања, заштите културних добара, науке и технолошког развоја и других послова предвиђених Законом о утврђивању надлежности АП Војводине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan74">
+					<num>74.</num>
+					<heading>Непокретности неопходне Републици Србији</heading>
+					<paragraph wId="gla3-clan74-stav1">
+						<content>
+							<p>Изузетно од одредаба <ref wId="ref166" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_4" >члана 72. став 4. </ref>и став 5. алинеја прва овог закона на непокретностима које на дан ступања на снагу овог закона фактички користе Република Србија, односно државни органи и организације, Република Србија даном ступања на снагу овог закона стиче:</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan74-stav2">
+						<content>
+							<p>- јавну својину уколико на непокретностима на дан ступања на снагу овог закона нису као корисници или носиоци права коришћења уписани други носиоци јавне својине, или од њих основане установе и друге организације;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan74-stav3">
+						<content>
+							<p>- јавну својину уколико су непокретности намењене  за потребе државних органа, организација и  јавних установа чији је оснивач Република Србија, за репрезентативне потребе државних органа и Републике Србије или служе за смештај страних дипломатско-конзуларних представништава, без обзира на стање корисника, односно носиоца права коришћења у јавном регистру непокретности и права на њима;</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan74-stav4">
+						<content>
+							<p>- право бестеретног коришћења уколико су на непокретностима на дан ступања на снагу овог закона уписани као корисници или носиоци права коришћења други носиоци јавне својине или од њих основане установе и друге организације,  док постоји потреба за коришћењем, односно док се не обезбеди друга  одговарајућа непокретност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan74-stav5">
+						<content>
+							<p>Право бестеретног коришћења у смислу <ref wId="ref167" href="akn/rs/act/2018/95-236/srp@/!main~art_74__para_1" >става 1. </ref>алинеја трећа овог члана стиче се и у случају делимичног коришћења одређене непокретности - на делу који се фактички користи, а према попису који ће сачинити корисници непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan74-stav6">
+						<content>
+							<p>У случајевима из <ref wId="ref168" href="akn/rs/act/2018/95-236/srp@/!main~art_74__para_1" >става 1. </ref>алинеја трећа и <ref wId="ref169" href="akn/rs/act/2018/95-236/srp@/!main~art_74__para_2" >става 2. овог</ref> члана, надлежни  органи Републике Србије и Аутономне покрајине Војводине, односно јединице  локалне самоуправе могу се споразумети да се уместо предметне непокретности  Републици Србији, односно државним органима и организацијама обезбеди  коришћење друге непокретности под истим условима,  као и да се изврши размена или пренесе право јавне својине на тој или другој  непокретности, ако је то у интересу носилаца права јавне својине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan74-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref170" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan75">
+					<num>75.</num>
+					<heading>Грађевинско земљиште</heading>
+					<paragraph wId="gla3-clan75-stav1">
+						<content>
+							<p>Конституисање права јавне својине на грађевинском земљишту у државној својини уређује се посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan76">
+					<num>76.</num>
+					<heading>Начин стицања јавне својине на непокретностима и подношење захтева</heading>
+					<paragraph wId="gla3-clan76-stav1">
+						<content>
+							<p>Право јавне својине аутономне покрајине и јединице локалне самоуправе на непокретностима из <ref wId="ref171" href="akn/rs/act/2018/95-236/srp@/!main~art_72" >члана 72. овог</ref> закона стиче се уписом права јавне својине у јавну књигу о непокретностима и правима на њима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan76-stav2">
+						<content>
+							<p>Надлежни орган аутономне покрајине, односно јединице локалне самоуправе подноси надлежном органу за упис права на непокретностима захтев за упис права јавне својине аутономне покрајине, односно јединице локалне самоуправе на основу одредаба овог закона,  с тим да ће захтев бити одбијен ако се исти односи на непокретност из <ref wId="ref172" href="akn/rs/act/2018/95-236/srp@/!main~art_74" >члана  74. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan76-stav3">
+						<content>
+							<p>Брисани су ранији <ref wId="ref174" href="akn/rs/act/2018/95-236/srp@/!main~art_76__para_3->para_4" >ст. 3.  и 4. </ref>(види <ref wId="ref173" href="akn/rs/act/2018/95/srp@/!main~/art_11">члан 11. Закона - 95/2018-236</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan77">
+					<num>77.</num>
+					<heading>Рок за подношење захтева</heading>
+					<paragraph wId="gla3-clan77-stav1">
+						<content>
+							<p>Аутономна покрајина и јединица локалне самоуправе подносе захтев за упис права јавне својине из <ref wId="ref175" href="akn/rs/act/2018/95-236/srp@/!main~art_76__para_2" >члана 76. став 2. овог</ref> закона у року од  пет година од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan77-stav2">
+						<content>
+							<p>Уколико се захтев за упис права јавне својине за одређену непокретност не поднесе у року из <ref wId="ref176" href="akn/rs/act/2018/95-236/srp@/!main~art_77__para_1" >става 1. овог</ref> члана, надлежни орган за упис права на непокретностима, извршиће, по службеној дужности, по сили закона на тој непокретности упис  права јавне својине Републике Србије .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan77-stav3">
+						<content>
+							<p>Брисан је ранији <ref wId="ref178" href="akn/rs/act/2018/95-236/srp@/!main~art_77__para_3" >став 3. </ref>(види <ref wId="ref177" href="akn/rs/act/2018/95-236/srp@/!main~art_12" >члан 12. </ref>Закона -  95/2018)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan77-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref179" href="akn/rs/act/2014/105/srp@">105/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan77-stav5">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref180" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan77-stav6">
+						<content>
+							<p>Члан 77а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan77-stav7">
+						<content>
+							<p>Надлежни орган за упис права на непокретностима  дужан је да по службеној дужности, по сили закона, изврши упис права јавне  својине јединице локалне самоуправе на некатегорисаним путевима и општинским  путевима на којима је као корисник уписана јединица локалне самоуправе,  односно њени органи и организације, као и на непокретностима из <ref wId="ref181" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_5" >члана 72.  став 5. </ref>алинеје 2. и 3. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan77-stav8">
+						<content>
+							<p>Након истека рокова за подношење захтева за упис  права јавне својине прописаних овим законом, као и права својине јавних  предузећа, друштава капитала и других корисника у складу са овим законом,  надлежни орган за упис права на непокретностима дужан је да по службеној  дужности, по сили закона, изврши упис права јавне својине Републике Србије и  брисање уписа права коришћења, односно корисника на свим непокретностима за  које није извршен упис својине нити је поднет захтев, а све у складу са овим  законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan77-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref182" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan78">
+					<num>78.</num>
+					<heading>Решење по захтеву за упис</heading>
+					<paragraph wId="gla3-clan78-stav1">
+						<content>
+							<p>По захтеву за упис надлежан орган доноси решење, које доставља подносиоцу захтева и  Државном правобранилаштву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan78-stav2">
+						<content>
+							<p>Против решења из <ref wId="ref183" href="akn/rs/act/2018/95-236/srp@/!main~art_78__para_1" >става 1. овог</ref> члана може се изјавити жалба у року од 30 дана од дана пријема решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan78-stav3">
+						<content>
+							<p>Упис права врши се на основу правоснажног решења из <ref wId="ref184" href="akn/rs/act/2018/95-236/srp@/!main~art_78__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan78-stav4">
+						<content>
+							<p>Захтев за упис права јавне својине аутономне  покрајине и јединице локалне самоуправе на непокретностима из <ref wId="ref185" href="akn/rs/act/2018/95-236/srp@/!main~art_72" >члана 72. овог</ref>  закона усвојиће се ако је уз захтев или накнадно органу надлежном за упис  достављена потврда Агенције за реституцију да за ту непокретност није поднет  захтев за враћање одузете имовине у складу са Законом о враћању одузете  имовине и обештећењу („Службени гласник РС”, бр. <ref wId="ref186" href="akn/rs/act/11/72/srp@">72/11</ref>, <ref wId="ref187" href="akn/rs/act/13/108/srp@">108/13</ref>, <ref wId="ref188" href="akn/rs/act/14/142/srp@">142/14</ref> и  <ref wId="ref189" href="akn/rs/act/15/88/srp@">88/15</ref> – УС).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan78-stav5">
+						<intro>
+							<p>За непокретности које су пријављене и евидентиране у складу са Законом из <ref wId="ref191" href="akn/rs/act/2018/95-236/srp@/!main~art_78__para_4" >става 4. овог</ref> члана, захтев за упис права јавне својине аутономне покрајине и јединице локалне самоуправе на непокретностима из <ref wId="ref190" href="akn/rs/act/2018/95-236/srp@/!main~art_72" >члана 72. овог</ref> закона усвојиће се ако је уз захтев или накнадно органу надлежном за упис достављено једно од следећа два решења:</p>
+						</intro>
+						<point wId="gla3-clan78-stav5-tac1">
+							<num>1)</num>
+							<content>
+								<p> решење којим се одбија захтев за враћање имовине и обештећење;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan78-stav5-tac2">
+							<num>2)</num>
+							<content>
+								<p> решење којим се утврђује право на обештећење.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan78-stav6">
+						<content>
+							<p>Изузетно од <ref wId="ref192" href="akn/rs/act/2018/95-236/srp@/!main~art_78__para_4" >става 4. овог</ref> члана, ако су за то испуњени прописани услови, орган надлежан за упис дозволиће упис јавне својине аутономне покрајине и јединице локалне самоуправе и кад није достављена једна од исправа из <ref wId="ref193" href="akn/rs/act/2018/95-236/srp@/!main~art_78__para_4" >става 4. овог</ref> члана, под условом да се из поднетог захтева и достављене документације недвосмислено може утврдити да је враћање предметне непокретности у натуралном облику ранијем власнику, односно његовом законском наследнику искључено по закону којим се уређује враћање одузете имовине и обештећење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan78-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref194" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan79">
+					<num>79.</num>
+					<heading>Последице одбијања захтева</heading>
+					<paragraph wId="gla3-clan79-stav1">
+						<content>
+							<p>Уколико захтев за упис права јавне својине аутономне покрајине, односно јединице локалне самоуправе буде правноснажно одбијен, сматраће се да је непокретност у јавној својини Републике Србије и надлежни орган извршиће, по службеној дужности, упис тог права.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan80">
+					<num>80.</num>
+					<heading>Посебна својинска овлашћења аутономне покрајине и јединице локалне самоуправе</heading>
+					<paragraph wId="gla3-clan80-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона на непокретностима из <ref wId="ref195" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_4->para_5" >члана 72. ст. 4. и 5. овог</ref> закона успостављају се посебна својинска овлашћења аутономне покрајине, односно јединице локалне самоуправе, у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan80-stav2">
+						<content>
+							<p>Аутономна покрајина и јединица локалне самоуправе могу предузимати све акте располагања непокретностима из <ref wId="ref196" href="akn/rs/act/2018/95-236/srp@/!main~art_80__para_1" >става 1. овог</ref> члана, осим отуђења непокретности из јавне својине без сагласности Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan80-stav3">
+						<content>
+							<p>О отуђењу непокретности из <ref wId="ref197" href="akn/rs/act/2018/95-236/srp@/!main~art_80__para_1" >става 1. овог</ref> члана одлучује Влада на предлог који може поднети аутономна покрајина, односно јединица локалне самоуправе, а приход по основу отуђења непокретности уплаћује се у буџет аутономне покрајине, односно јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan80-stav4">
+						<content>
+							<p>Акти отуђења непокретности из <ref wId="ref198" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_4->para_5" >члана 72. ст. 4. и 5. овог</ref> закона супротно одредбама овог члана ништави су.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan80-stav5">
+						<content>
+							<p>Одредбе <ref wId="ref201" href="akn/rs/act/2018/95-236/srp@/!main~art_80__para_1->para_4" >ст. 1 </ref>– 4. овог члана примењиваће се до правоснажности решења о упису права јавне својине  по захтеву из <ref wId="ref199" href="akn/rs/act/2018/95-236/srp@/!main~art_76__para_2" >члана 76. став 2, </ref>односно по  захтеву из <ref wId="ref200" href="akn/rs/act/2018/95-236/srp@/!main~art_82а__para_1" >члана 82а став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan80-stav6">
+						<content>
+							<p>У свему осталом, у погледу располагања и коришћења непокретности из <ref wId="ref202" href="akn/rs/act/2018/95-236/srp@/!main~art_80__para_1" >става 1. овог</ref> члана, до правоснажности решења о упису из <ref wId="ref203" href="akn/rs/act/2018/95-236/srp@/!main~art_80__para_5" >става 5. овог</ref> члана сходно ће се примењивати одговарајуће одредбе овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan80-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref204" href="akn/rs/act/2016/108/srp@">108/2016</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan81">
+					<num>81.</num>
+					<heading>Прекршај</heading>
+					<paragraph wId="gla3-clan81-stav1">
+						<content>
+							<p>Казном затвора од 30 до 60 дана и новчаном казном од 100.000 до 150.000 динара казниће се за прекршај одговорно лице у органу аутономне покрајине и јединице локалне самоуправе који донесе акт о отуђењу непокретности супротно <ref wId="ref205" href="akn/rs/act/2018/95-236/srp@/!main~art_80__para_2" >члану 80. став 2. овог</ref> закона, као и лице у органу аутономне покрајине и јединице локалне самоуправе које на основу таквог акта потпише уговор о отуђењу непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan81-stav2">
+						<intro>
+							<p>Новчаном казном од 50.000 до 100.000 динара  казниће се за прекршај одговорно лице у органу Републике Србије, аутономне  покрајине и јединице локалне самоуправе ако:</p>
+						</intro>
+						<point wId="gla3-clan81-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> не води евиденцију о стању, вредности и кретању  средстава у јавној својини које користе (члан 64. ст. <ref wId="ref206" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_1->para_2" >1, 2</ref>, <ref wId="ref207" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_5" >5</ref>. и <ref wId="ref208" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_9" >9</ref>.);</p>
+							</content>
+						</point>
+						<point wId="gla3-clan81-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> у прописаном року не достави Дирекцији податке  из евиденције коју води у циљу вођења јединствене евиденције непокретности у  јавној својини (члан 64. ст. <ref wId="ref209" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_3" >3</ref>. и <ref wId="ref210" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_8" >8</ref>.).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan81-stav3">
+						<intro>
+							<p>Новчаном казном од 50.000 до 200.000 динара  казниће се за прекршај правно лице, ако:</p>
+						</intro>
+						<point wId="gla3-clan81-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> не води евиденцију о стању, вредности и кретању  средстава у јавној својини које користе (<ref wId="ref211" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_6" >члан 64. став 6.</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla3-clan81-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> у прописаном року не достави Дирекцији податке  из евиденције коју води у циљу вођења јединствене евиденције непокретности у  јавној својини (<ref wId="ref212" href="akn/rs/act/2018/95-236/srp@/!main~art_64__para_7" >члан 64. став 7.</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan81-stav4">
+						<content>
+							<p>За прекршај из <ref wId="ref213" href="akn/rs/act/2018/95-236/srp@/!main~art_81__para_3" >става 3. овог</ref> члана казниће се и  одговорно лице у правном лицу, новчаном казном од 50.000 до 100.000 динара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan81-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref214" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan82">
+					<num>82.</num>
+					<heading>Упис права својине јавног предузећа и друштва капитала</heading>
+					<paragraph wId="gla3-clan82-stav1">
+						<content>
+							<p>Право својине јавног предузећа и друштва капитала на непокретностима из <ref wId="ref215" href="akn/rs/act/2018/95-236/srp@/!main~art_72__para_7->para_9" >члана 72. ст. 7, 8. и 9. овог</ref> закона, стиче се уписом у јавну евиденцију о непокретностима и правима на њима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav2">
+						<content>
+							<p>Уз захтев за упис права својине из <ref wId="ref216" href="akn/rs/act/2018/95-236/srp@/!main~art_82__para_1" >става 1. овог</ref>  члана подноси се акт о сагласности надлежног органа оснивача и измена  оснивачког акта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav3">
+						<content>
+							<p>Јавно предузеће односно друштво капитала, као и њихова зависна друштва подносе захтев за упис права својине у року од пет година од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav4">
+						<intro>
+							<p>Неће се дозволити упис права својине јавног предузећа и друштва капитала на:</p>
+						</intro>
+						<point wId="gla3-clan82-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> природним богатствима;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan82-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> добрима у општој употреби;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan82-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> мрежама у јавној својини;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan82-stav4-tac4">
+							<num>4)</num>
+							<content>
+								<p> непокретностима из <ref wId="ref217" href="akn/rs/act/2018/95-236/srp@/!main~art_20__para_2" >члана 20. став 2. овог</ref> закона које су поверене јавном предузећу, односно друштву капитала, односно њиховом зависном друштву ради давања у закуп односно на коришћење;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan82-stav4-tac5">
+							<num>5)</num>
+							<content>
+								<p> непокретностима које користе органи и организације носиоца права јавне својине на тим непокретностима;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan82-stav4-tac6">
+							<num>6)</num>
+							<content>
+								<p> пољопривредном и грађевинском земљишту и другим непокретностима које нису уложене, нити се могу уложити у капитал јавног предузећа и друштва капитала, односно које могу бити искључиво у јавној својини.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav5">
+						<content>
+							<p>Одредбе <ref wId="ref219" href="akn/rs/act/2018/95-236/srp@/!main~art_78__para_4->para_6" >члана 78. ст. 4, 5. и 6. овог</ref> закона сходно ће се примењивати и код решавања по захтеву за упис права својине јавног предузећа и друштва капитала на непокретностима из <ref wId="ref218" href="akn/rs/act/2018/95-236/srp@/!main~art_82__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav6">
+						<content>
+							<p>Упис права својине јавног предузећа и друштва капитала на непокретностима из <ref wId="ref220" href="akn/rs/act/2018/95-236/srp@/!main~art_82__para_1" >става 1. овог</ref> члана не може се извршити без писане сагласности оснивача, коју даје надлежни орган аутономне покрајине, односно јединице локалне самоуправе, а за јавна предузећа и друштва капитала чији је оснивач Република Србија - Влада, на предлог министарства надлежног за област којој припада делатност јавног предузећа, односно друштва капитала.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav7">
+						<content>
+							<p>Упис права својине јавног предузећа и друштва капитала неће се дозволити и у другим случајевима постојања забране уписа, односно стицања својине јавног предузећа и друштва капитала.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav8">
+						<content>
+							<p>Уколико се захтев за упис права својине за одређену непокретност не поднесе у року из <ref wId="ref221" href="akn/rs/act/2018/95-236/srp@/!main~art_82__para_3" >става 3. овог</ref> члана, или тај захтев буде правоснажно одбијен, орган надлежан за упис права на непокретностима извршиће, по службеној дужности, упис права јавне својине Републике Србије – ако је реч о захтеву јавног предузећа, односно друштва капитала чији је оснивач Република Србија, а ако је реч о захтеву јавног предузећа односно друштва капитала чији је оснивач аутономна покрајина, односно јединица локалне самоуправе – орган надлежан за упис извршиће, по службеној дужности, упис права јавне својине аутономне покрајине односно јединице локалне самоуправе ако су за то испуњени услови прописани овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav9">
+						<content>
+							<p>До уписа права својине подносиоца захтева за упис, односно права јавне својине оснивача из <ref wId="ref222" href="akn/rs/act/2018/95-236/srp@/!main~art_82__para_8" >става 8. овог</ref> члана, јавно предузеће и друштво капитала који имају право коришћења задржавају право коришћења на предметним непокретностима са правима и обавезама које имају на дан ступања на снагу овог закона. Отуђење овог права не може се извршити без сагласности оснивача, а акт о отуђењу супротно овој одредби ништав је.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav10">
+						<content>
+							<p>Забрана за упис из става 4. тачка <ref wId="ref223" href="akn/rs/act/2018/95-236/srp@/!main~art_82__para_4__point_4" >4</ref>) овог члана није сметња да се непокретност у јавној својини, на основу одлуке Владе, односно надлежног органа аутономне покрајине, односно јединице локалне самоуправе, у складу са овим законом, пренесе у својину јавног предузећа, односно друштва капитала.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav11">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref224" href="akn/rs/act/2014/105/srp@">105/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav12">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref225" href="akn/rs/act/2018/95/srp@">95/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav13">
+						<content>
+							<p>Члан 82а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav14">
+						<content>
+							<p>Изузетно од <ref wId="ref226" href="akn/rs/act/2018/95-236/srp@/!main~art_77__para_2" >члана 77. став 2. </ref>и <ref wId="ref227" href="akn/rs/act/2018/95-236/srp@/!main~art_82__para_8" >члана 82. став 8.  овог</ref> закона, упис права јавне својине аутономне покрајине и јединице локалне  самоуправе, односно права својине јавног предузећа и друштва капитала,  извршиће се и у случају кад се захтев за упис не поднесе у року из <ref wId="ref228" href="akn/rs/act/2018/95-236/srp@/!main~art_77__para_1" >члана 77.  став 1. </ref>и <ref wId="ref229" href="akn/rs/act/2018/95-236/srp@/!main~art_82__para_3" >члана 82. став 3. овог</ref> закона, на основу накнадног захтева за упис  права својине, ако су за то испуњени услови прописани овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav15">
+						<content>
+							<p>Накнадни захтев за упис права својине из <ref wId="ref230" href="akn/rs/act/2018/95-236/srp@/!main~art_82__para_1" >става 1.  овог</ref> члана може се поднети најкасније до  31. децембра 2020. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav16">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref231" href="akn/rs/act/2016/108/srp@">108/2016</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan82-stav17">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref232" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan83">
+					<num>83.</num>
+					<heading>Порески третман</heading>
+					<paragraph wId="gla3-clan83-stav1">
+						<content>
+							<p>Стицање права јавне својине аутономне покрајине и јединице локалне самоуправе или утврђивање права приватне својине на основу одредаба овог закона не сматра се прометом добара у смислу закона којим се уређује порез на додату вредност, односно пренос апсолутних права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan83-stav2">
+						<content>
+							<p>Приликом подношења захтева на упис права на непокретностима, аутономна покрајина и јединица локалне самоуправе као подносиоци захтева нису у обавези да плате административне и судске таксе, нити трошкове за рад и пружање услуга Републичког геодетског завода, који падају на терет тог органа. Аутономна покрајина и јединица локалне самоуправе дужне су да плате накнаду за рад геодетске организације у случају кад је њено ангажовање неопходно за правилно решење захтева.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla4-clan84">
+					<num>84.</num>
+					<heading>Поступци покренути по Закону о средствима</heading>
+					<paragraph wId="gla4-clan84-stav1">
+						<content>
+							<p>Поступци по основу чл. <ref wId="ref233" href="akn/rs/act/2018/95-236/srp@/!main~art_8" >8</ref>, <ref wId="ref234" href="akn/rs/act/2018/95-236/srp@/!main~art_8а" >8а</ref> и <ref wId="ref235" href="akn/rs/act/2018/95-236/srp@/!main~art_8б" >8б</ref> Закона о средствима у својини Републике Србије („Службени гласник РС”, бр. <ref wId="ref236" href="akn/rs/act/95/53/srp@">53/95</ref>, <ref wId="ref237" href="akn/rs/act/96/3/srp@">3/96</ref> – исправка, 54/96, 32/97 и <ref wId="ref238" href="akn/rs/act/05/101/srp@">101/05 – др. закон</ref> – у даљем тексту: Закон о средствима) који су започети до дана ступања на снагу овог закона обустављају се даном ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan84-stav2">
+						<content>
+							<p>Поступци започети до дана ступања на снагу овог закона по основу <ref wId="ref239" href="akn/rs/act/2018/95-236/srp@/!main~art_48" >члана 48. </ref>Закона о средствима, у којима до дана ступања на снагу овог закона није донета одлука Владе о утврђивању удела државне својине у правном лицу, наставиће се и окончати у складу са Законом о средствима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan84-stav3">
+						<content>
+							<p>Поступци по основу <ref wId="ref240" href="akn/rs/act/2018/95-236/srp@/!main~art_48" >члана 48. </ref>Закона о средствима у којима је до дана ступања на снагу овог закона донета одлука Владе о утврђивању удела државне својине у правном лицу окончаће се у складу са прописима који су били на снази у време отпочињања поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan85">
+					<num>85.</num>
+					<heading>Конвалидација</heading>
+					<paragraph wId="gla4-clan85-stav1">
+						<content>
+							<p>Влада може накнадно дати сагласност у смислу чл. <ref wId="ref241" href="akn/rs/act/2018/95-236/srp@/!main~art_8" >8</ref>. и <ref wId="ref242" href="akn/rs/act/2018/95-236/srp@/!main~art_8а" >8а</ref> Закона о средствима на уговор о прибављању непокретности у државну својину, односно о отуђењу непокретности из државне својине закључен до дана ступања на снагу овог закона, ако су за пуноважност тог уговора испуњени сви прописани услови, осим постојања сагласности Владе и ако су обавезе по таквом уговору у потпуности извршене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan85-stav2">
+						<content>
+							<p>Дирекција може, по претходно прибављеном мишљењу  Државног правобранилаштва, накнадно дати сагласност у смислу <ref wId="ref243" href="akn/rs/act/2018/95-236/srp@/!main~art_8а" >члана 8а </ref>Закона  о средствима на уговор о прибављању непокретности у државну својину,  закључен до дана ступања на снагу овог закона, ако су за пуноважност тог  уговора испуњени сви прописани услови, осим постојања сагласности Дирекције  и ако су обавезе по таквом уговору у потпуности извршене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan85-stav3">
+						<content>
+							<p>Код прибављања непокретности сагласност се може дати и ако није спроведен поступак јавног надметања, односно прикупљања писмених понуда, а претходне и накнадне сагласности Владе,  односно Дирекције за такво прибављање непокретности дате до дана ступања на снагу овог закона остају на снази.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan85-stav4">
+						<content>
+							<p>Даном ступања на снагу овог закона врши се конвалидација свих уговора о набавци станова које је, након ступања на снагу Закона о средствима, до 7. новембра 2001. године, као уговорна страна, у име Републике Србије, закључило Министарство унутрашњих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan85-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref244" href="akn/rs/act/2017/113/srp@">113/2017</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan86">
+					<num>86.</num>
+					<heading>Престанак важења закона и примена подзаконских аката</heading>
+					<paragraph wId="gla4-clan86-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престају да важе Закон о средствима у својини Републике Србије („Службени гласник РС”, бр. <ref wId="ref245" href="akn/rs/act/95/53/srp@">53/95</ref>, <ref wId="ref246" href="akn/rs/act/96/3/srp@">3/96</ref> – исправка, 54/96, 32/97 и <ref wId="ref249" href="akn/rs/act/05/101/srp@">101/05 – др. закон</ref>) и Закон о имовини Савезне Републике Југославије („Службени лист СРЈ”, бр. <ref wId="ref247" href="akn/rs/act/93/41/srp@">41/93</ref>, <ref wId="ref248" href="akn/rs/act/93/50/srp@">50/93</ref> – др. закон, <ref wId="ref250" href="akn/rs/act/94/24/srp@">24/94 – др. закон</ref>, <ref wId="ref251" href="akn/rs/act/96/28/srp@">28/96 – др. закон</ref>, 30/96 и 30/00 – УС).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan86-stav2">
+						<content>
+							<p>Подзаконски акти донети на основу закона из <ref wId="ref252" href="akn/rs/act/2018/95-236/srp@/!main~art_86__para_1" >става 1. овог</ref> члана примењиваће се до доношења подзаконских аката на основу овог закона, ако нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan87">
+					<num>87.</num>
+					<heading>Достављање података Дирекцији</heading>
+					<paragraph wId="gla4-clan87-stav1">
+						<content>
+							<p>До стицања права јавне својине аутономне покрајине и јединице локалне самоуправе, сви подаци о евиденцији непокретности у јавној својини достављају се Републичкој дирекцији за имовину, у складу са прописима који важе на дан ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan88">
+					<num>88.</num>
+					<heading>Упис по службеној дужности права јавне својине Републике Србије</heading>
+					<paragraph wId="gla4-clan88-stav1">
+						<content>
+							<p>Надлежни орган за упис права на непокретностима дужан је да по ступању на снагу овог закона, без одлагања, по службеној дужности изврши упис права јавне својине Републике Србије на непокретностима на којима је у евиденцији непокретности и права на њима уписано право Савезне Републике Југославије, односно Државне заједнице Србија и Црна Гора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan89">
+					<num>89.</num>
+					<heading>Рок за доношење подзаконских аката</heading>
+					<paragraph wId="gla4-clan89-stav1">
+						<content>
+							<p>Подзаконски акти на основу овлашћења из овог закона донеће се у року од шест месеци од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan90">
+					<num>90.</num>
+					<heading>Примена Закона на територији Аутономне покрајине Косово и Метохија</heading>
+					<paragraph wId="gla4-clan90-stav1">
+						<content>
+							<p>До престанка функционисања међународне управе успостављене у складу са Резолуцијом 1244 Савета безбедности Уједињених нација, на територији Аутономне покрајине Косово и Метохија, у погледу питања која се односе на средства у својини Републике Србије примењиваће се одговарајуће одредбе Закона о средствима у својини Републике Србије („Службени гласник РС”, бр. <ref wId="ref253" href="akn/rs/act/95/53/srp@">53/95</ref>, <ref wId="ref254" href="akn/rs/act/96/3/srp@">3/96</ref> – исправка, 54/96, 32/97 и <ref wId="ref255" href="akn/rs/act/05/101/srp@">101/05 – др. закон</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan91">
+					<num>91.</num>
+					<heading>Ступање на снагу</heading>
+					<paragraph wId="gla4-clan91-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan91-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<heading>Закон о изменама и допунама Закона о јавној  својини: "Службени гласник РС“, број <ref wId="ref256" href="akn/rs/act/2017/113/srp@">113/2017</ref>-228</heading>
+					<paragraph wId="gla4-clan18-stav1">
+						<content>
+							<p>Од дана ступања на снагу овог закона не може се спровести  започето принудно извршење на предметима који по овом закону не могу бити  предмет принудног извршења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања у  „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan15">
+					<num>15.</num>
+					<heading>Закон о изменама и допунама Закона о јавној  својини: "Службени гласник РС“, број <ref wId="ref258" href="akn/rs/act/2018/95/srp@">95/2018</ref>-236</heading>
+					<paragraph wId="gla4-clan15-stav1">
+						<content>
+							<p>На непокретностима на којима су у јавној  књизи о непокретностима и правима на њима као корисници, односно носиоци  права коришћења уписана правна лица и други облици организовања који су  престали да постоје и који немају правне следбенике, престаје наведено право  и конституише се право јавне својине Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav2">
+						<content>
+							<p>Захтев за упис јавне својине Републике  Србије на непокретностима наведеним у <ref wId="ref257" href="akn/rs/act/2018/95-236/srp@/!main~art_15__para_1" >ставу 1. овог</ref> члана подноси Државно  правобранилаштво, односно Дирекција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav3">
+						<content>
+							<p>Уз захтев за упис јавне својине Републике  Србије доставља се: доказ да правно лице, односно организација није уписана  у регистар правних лица и организација и да нема правног следбеника; акт о  брисању из регистра правних лица, као и друга документација на основу које  се може утврдити да су уписани корисници, односно носиоци права коришћења  престали да постоје.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan15-stav4">
+						<content>
+							<p>Лице које има правни интерес може  оспорити упис права јавне својине Републике Србије у смислу овог члана  закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan16">
+					<num>16.</num>
+					<paragraph wId="gla4-clan16-stav1">
+						<content>
+							<p>Одредбе <ref wId="ref259" href="akn/rs/act/2018/95-236/srp@/!main~art_8" >члана 8. овог</ref> закона примењују се  и у поступцима отуђења ствари у јавној својини који су започети, а нису  окончани продајом ствари до дана ступања на снагу овог закона, због  неприхватања почетне процењене вредности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<paragraph wId="gla4-clan17-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од  дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

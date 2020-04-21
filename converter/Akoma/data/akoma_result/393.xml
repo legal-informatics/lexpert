@@ -1,0 +1,1527 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о експропријацији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/1995/53-2012/main"/>
+					<FRBRuri value="akn/rs/act/1995/53-2012"/>
+					<FRBRdate date="1995-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2016/106-4/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2016/106-4/srp@"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2016/106-4/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2016/106-4/srp@.akn"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1995-12-28" name="“службени гласник рс" number="53" showAs="“Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="3. Експропријација и други облици ограничавања својине и враћање имовине" value="3. експропријација и други облици ограничавања својине и враћање имовине" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1995-01-01" refersTo="53/1995-2012" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2001-01-01" refersTo="23/2001-15" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2009-01-01" refersTo="20/2009-37" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2013-01-01" refersTo="55/2013-58" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2016-01-01" refersTo="106/2016-4" source="#somebody" type="amendment" wId="e5"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="1995-12-26" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="1996-01-05" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="1996-01-05" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="својина"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавном"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="експроприсати"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="нижа"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="интересу"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="утврђеном"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="ограничити"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="може"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="2016"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="аутентично"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="106"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="тумачење"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="рс"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="гласник"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="службени"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="број"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="тржишне"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="основу"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="могу"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="накнаду"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="2009"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="20"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograda"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluka US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluku SUS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SUS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Nepokretnostima"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organ"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. maja 2003."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. 16."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. marta 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. juna 2013"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. decembra 2016"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. tačka 7"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="38. do 40."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="38. i 39."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="45. do 47."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. aprila 2001"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="84. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="87. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="smislu stava 3."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 5. јануара 1996. године (види члан 74. Закона).Одлуком Савезног уставног суда број IУ бр. 9/96, 10/96, 15/96, 83/96, 153/96, 231/96, 135/97 и 160/99 („Службени гласник РС“, број 23/2001) престале су да важе одредбе члана 44. Закона о експропријацији („Службени гласник РС”, број 53/95) јер је утврђено да нису у сагласности са Уставом СРЈ (види Одлуку СУС – 23/2001-15).Одлуком Уставног суда број IУз 17/2011 („Службени гласник РС“, број 55/2013) престале су да важе одредбе члана 20. став 12. у делу који гласи: „и сматра се да је достављено странкама у поступку даном објављивања” и члана 20. став 13. у делу који гласи: „односно објављивања у „Службеном гласнику Републике Србије” Закона о експропријацији („Службени гласник РС”, бр. 53/95, 23/01 и 20/09) јер је утврђено да нису у сагласаности са Уставом и потврђеним међународним уговором (види Одлуку УС – 55/2013-58).Народна скупштина Републике Србије, на Седмој седници Другог редовног заседања у 2016. години, одржаној 27. децембра 2016. године, донела је Аутентично тумачење одредаба члана 1, члана 5. став 1. и члана 53. ст. 1. и 2. Закона о експропријацији („Службени гласник РС”, бр. 53/95, 23/01 – СУС, 20/09 и 55/13 – УС) (види Аутентично тумачење - 106/2016-4).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О експропријацији “Службени гласник РС”, бр. <ref wId="ref108" href="akn/rs/act/1995/53/srp@">53 од 28. децембра 1995</ref>, <ref wId="ref109" href="akn/rs/act/2001/23/srp@">23 од 6. априла 2001</ref> - СУС, <ref wId="ref110" href="akn/rs/act/2009/20/srp@">20 од 19. марта 2009</ref>, <ref wId="ref111" href="akn/rs/act/2013/55/srp@">55 од 25. јуна 2013</ref> - УС, <ref wId="ref112" href="akn/rs/act/2016/106/srp@">106 од 28. децембра 2016</ref> - Аутентично тумачење</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Непокретности се могу експроприсати или се својина на  њима може ограничити само у јавном интересу утврђеном на основу закона, уз  накнаду која не може бити нижа од тржишне.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2009/20/srp@">20/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>**Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2016/106/srp@">106/2016</ref> (Аутентично  тумачење)</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Јавни интерес за експропријацију непокретности утврђује се законом или  одлуком Владе у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Непокретностима, у смислу овог закона, сматрају се земљишта, зграде и други  грађевински објекти.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Даном правоснажности решења о експропријацији мења се сопственик на  експроприсаној непокретности (потпуна експропријација).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Експропријацијом може да се установи и службеност на непокретности или закуп  на земљишту на одређено време (непотпуна експропријација).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>Закуп може да се установи само у случају када ће се земљиште, с обзиром на  сврху за коју се закуп предлаже, користити ограничено време, а највише до три  године (за истраживање рудног и другог блага, коришћење каменолома, вађење  глине, песка и шљунка, закуп природних добара за стављање под заштиту и сл.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav3">
+						<content>
+							<p>По протеку рока на који је извршена непотпуна експропријација, корисник  експропријације је дужан да земљиште врати у првобитно стање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref3" href="akn/rs/act/2016/106/srp@">106/2016</ref> (Аутентично  тумачење)</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Земљиште које треба да служи одређеној потреби у вези са изградњом објеката и  установљењем службености, за које је у складу са овим законом утврђен јавни  интерес (ради смештаја радника, материјала, машина и сл.) може се привремено  заузети, а најдуже до три године (привремено заузимање).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Привремено заузимање ће се укинути чим престане потреба због које је одређено  и земљиште вратити у првобитно стање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>На одређеној непокретности може се дозволити вршење припремних радњи у сврху  експропријације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>Експропријација се може вршити за потребе Републике  Србије, аутономне покрајине, града, града Београда, општине, јавних фондова,  јавних предузећа, привредних друштава која су основана од стране јавних  предузећа, као и за потребе привредних друштава са већинским државним капиталом  основаних од стране Републике Србије, аутономне покрајине, града, града  Београда, или општине, ако законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>У поступку експропријације може да се установи службеност  у корист субјеката  из <ref wId="ref5" href="akn/rs/act/2016/106-4/srp@/!main~art_8__para_1" >става 1. овог</ref> члана, као и у корист грађана, ако је то законом предвиђено,  ради постављања водоводних цеви, електричних и телефонских каблова и сл.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Експропријацијом непокретности корисник експропријације стиче право да ту  непокретност користи за сврху ради које је експропријација извршена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla1-clan10-stav1">
+						<content>
+							<p>Ако се приликом експропријације једног дела непокретности утврди да  сопственик нема економског интереса да користи преостали део непокретности,  односно ако је због тога на преосталом делу непокретности онемогућена или битно  отежана његова егзистенција, експроприсаће се, на његов захтев, и тај део  непокретности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan11">
+					<num>11.</num>
+					<paragraph wId="gla1-clan11-stav1">
+						<content>
+							<p>Накнада за експроприсану непокретност одређује се у новцу, уколико овим  законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan12">
+					<num>12.</num>
+					<paragraph wId="gla1-clan12-stav1">
+						<content>
+							<p>Експропријацијом грађевинског објекта на грађевинском земљишту у државној,  односно јавној својини сопственику таквог објекта престаје право коришћења  земљишта под објектом и земљишта које служи за његову редовну употребу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan12-stav2">
+						<content>
+							<p>За земљиште на коме је престало право коришћења, ранији сопственик тог  земљишта има право на накнаду, уколико му накнада раније није исплаћена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan13">
+					<num>13.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref7" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla1-clan13-stav1">
+						<content>
+							<p>Експроприсана непокретност може се вратити ранијем сопственику у својину под  условима прописаним овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan14">
+					<num>14.</num>
+					<paragraph wId="gla1-clan14-stav1">
+						<content>
+							<p>На подручјима захваћеним елементарним непогодама већег обима,  експропријација непокретности се спроводи по посебном поступку прописаном овим  законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan15">
+					<num>15.</num>
+					<paragraph wId="gla1-clan15-stav1">
+						<content>
+							<p>Накнада за експроприсано обрадиво пољопривредно земљиште лицу коме је приход  од тог земљишта услов за егзистенцију, одређује се на његов захтев давањем у  својину другог одговарајућег земљишта исте културе и класе или одговарајуће  вредности у истом месту или ближој околини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan15-stav2">
+						<content>
+							<p>Одредба <ref wId="ref8" href="akn/rs/act/2016/106-4/srp@/!main~art_15__para_1" >става 1. овог</ref> члана не односи се на случајеве у којима се  експропријација врши ради експлоатације угља, обојених метала, грађевинског  материјала, нафте и природног гаса, ради изградње енергетских објеката  (термоелектране, термоелектране-топлане, трафостанице, високонапонски водови,  акумулациона језера за потребе хидроелектрана), транспорта, складиштења и  прераде нафте и природног гаса, као и за водоснабдевање и заштиту од поплава и  изградњу објеката за заштиту од штетног дејства вода.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan15-stav3">
+						<content>
+							<p>У случају експропријације пољопривредног земљишта ради  изградње линијских инфраструктурних објеката, накнада за то земљиште одређује се  давањем у својину ранијем сопственику другог одговарајућег пољопривредног  земљишта исте културе и класе или одговарајуће вредности у истом месту или  ближој околини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan15-stav4">
+						<content>
+							<p>Уколико корисник експропријације није у могућности да  понуди друго одговарајуће пољопривредно земљиште из <ref wId="ref9" href="akn/rs/act/2016/106-4/srp@/!main~art_15__para_3" >става 3. овог</ref> члана, накнада  се одређује у новцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan15-stav5">
+						<content>
+							<p>Ранијем сопственику експроприсаног објекта који је коришћен за узгој стоке и  смештај или прераду пољопривредних производа, а коме је приход од тих делатности  услов за егзистенцију, накнада се одређује давањем у својину другог објекта у  коме ће моћи да настави обављање делатности, на месту које предложи ранији  сопственик у оквиру свог пољопривредног поседа, у складу са важећим прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan15-stav6">
+						<content>
+							<p>Обавезу из <ref wId="ref10" href="akn/rs/act/2016/106-4/srp@/!main~art_15__para_5" >става 5. овог</ref> члана корисник експропријације дужан је да изврши  најдоцније у року од 12 месеци од дана рушења експроприсаног објекта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan15-stav7">
+						<content>
+							<p>До предаје у посед објекта који се даје у својину на име накнаде, корисник  експропријације је дужан да пре рушења експроприсаног објекта, ранијем  сопственику омогући коришћење другог објекта.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan16">
+					<num>16.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla1-clan16-stav1">
+						<content>
+							<p>Ранијем сопственику стамбене зграде или стана, односно пословне просторије,  корисник експропријације дужан је, да на његов захтев, да у својину или  сусвојину другу стамбену зграду или стан, односно пословну просторију на истом  месту или ближој околини, која по структури и површини одговара условима  становања, односно обављања делатности, које је ранији сопственик имао пре  експропријације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan16-stav2">
+						<content>
+							<p>У случају кад се, у складу са овим законом, ради извођења одређених радова  експроприше велики комплекс земљишта, корисник експропријације је дужан да  ранијем сопственику обезбеди другу непокретност у смислу <ref wId="ref11" href="akn/rs/act/2016/106-4/srp@/!main~art_16__para_1" >става 1. овог</ref> члана на  територији општине на којој се експроприсана непокретност налази.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan16-stav3">
+						<content>
+							<p>Ранијем сопственику који користи експроприсани објекат друга непокретност, у  смислу <ref wId="ref12" href="akn/rs/act/2016/106-4/srp@/!main~art_16__para_1->para_2" >ст. 1. и 2. овог</ref> члана, обезбеђује се пре рушења експроприсаног објекта,  а ранијем сопственику који није корисник експроприсаног објекта друга  непокретност обезбеђује се најдоцније у року од шест месеци од дана  правоснажности решења о експропријацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan16-stav4">
+						<content>
+							<p>Ранији сопственик и чланови његовог породичног домаћинства, чији је стамбени  објекат експроприсан због експлоатације минералних сировина, имају право да им  се у оквиру укупне накнаде додели једна грађевинска парцела, под условом да се  због те експропријације расељава насеље или део насеља и да су у моменту  доношења решења о експропријацији пребивали у том објекту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan17">
+					<num>17.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref16" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla1-clan17-stav1">
+						<content>
+							<p>У случају кад се вредности експроприсаног објекта и објекта који се даје на  име накнаде у својину или сусвојину разликују, корисник експропријације, односно  ранији сопственик дужан је да другој страни исплати разлику у цени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan17-stav2">
+						<content>
+							<p>Обавезу из <ref wId="ref14" href="akn/rs/act/2016/106-4/srp@/!main~art_17__para_1" >става 1. овог</ref> члана ранији сопственик има само у случају кад се  сагласи да му се на име накнаде да у својину или сусвојину објекат веће  вредности од вредности експроприсаног објекта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan17-stav3">
+						<content>
+							<p>Начин, услови и рок исплате разлике из <ref wId="ref15" href="akn/rs/act/2016/106-4/srp@/!main~art_17__para_1" >става 1. овог</ref> члана утврђују се  споразумом странака, односно одлуком суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan18">
+					<num>18.</num>
+					<paragraph wId="gla1-clan18-stav1">
+						<content>
+							<p>Ако ранији сопственик не захтева да му се за експроприсану непокретност да у  својину или сусвојину друга непокретност у смислу <ref wId="ref17" href="akn/rs/act/2016/106-4/srp@/!main~art_16" >члана 16. овог</ref> закона,  корисник експропријације је дужан да му исплати накнаду у новцу без обавезе  обезбеђења друге непокретности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan19">
+					<num>19.</num>
+					<paragraph wId="gla1-clan19-stav1">
+						<content>
+							<p>Закупцу стана у друштвеној или државној својини на неодређено време, односно  носиоцу станарског права у експроприсаној стамбеној згради или стану као  посебном делу зграде, корисник експропријације дужан је да пре рушења зграде  обезбеди коришћење другог одговарајућег стана у друштвеној или државној својини  са правима закупца на неодређено време.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>УТВРЂИВАЊЕ ЈАВНОГ ИНТЕРЕСА</heading>
+				<article wId="gla2-clan20">
+					<num>20.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla2-clan20-stav1">
+						<content>
+							<p>Влада може утврдити  јавни интерес за експропријацију ако је  експропријација непокретности неопходна за изградњу објеката у области:  образовања, здравства, социјалне заштите, културе, водопривреде, спорта,  саобраћајне, енергетске и комуналне инфраструктуре, објеката за потребе државних  органа и органа територијалне аутономије и локалне самоуправе, објеката за  потребе одбране земље, као и за изградњу станова којима се решавају стамбене  потребе социјално угрожених лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav2">
+						<content>
+							<p>Влада може утврдити јавни интерес и у случају кад је  експропријација непокретности неопходна за експлоатацију минералних сировина, за  обезбеђење заштите животне средине и заштите од елементарних непогода,  укључујући и изградњу објеката и извођење радова за ове потребе, као и за  прибављање неизграђеног земљишта потребног ради расељавања насеља или дела  насеља, ако је на подручју тог насеља или дела насеља утврђен јавни интерес за  експропријацију непокретности ради експлоатације минералних сировина, као и у  другим случајевима предвиђеним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav3">
+						<content>
+							<p>Влада може утврдити јавни интерес за експропријацију  непокретности које су према уговору о заједничком улагању у привредно друштво,  односно о заједничком оснивању привредног друштва, који је закључила Република  Србија, неопходне за обезбеђење неновчаног улога Републике Србије у то друштво,  а које су обухваћене тим уговором или одговарајућим планским актом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav4">
+						<content>
+							<p>Јавни интерес за експропријацију може да се утврди ако је, у складу са  законом, донет одговарајући плански акт, ако овим законом није друкчије  одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav5">
+						<content>
+							<p>Предлог за утврђивање јавног интереса за експропријацију може да поднесе  лице које према одредбама овог закона може бити корисник експропријације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav6">
+						<content>
+							<p>Предлог за утврђивање јавног интереса за  експропријацију, који се подноси Влади преко министарства надлежног за послове  финансија, садржи податке о непокретности за коју се предлаже утврђивање јавног  интереса, врсту објекта, односно врсту радова, чија је изградња, односно  извођење предвиђено на одређеном земљишту, као и податке о земљишту које се  прибавља ради давања накнаде ранијим сопственицима експроприсаних непокретности  који се расељавају због експлоатације минералних сировина, односно о земљишту  које се прибавља ради обезбеђења неновчаног улога Републике Србије за оснивање  привредног друштва у смислу <ref wId="ref18" href="akn/rs/act/2016/106-4/srp@/!main~art_20__para_3" >става 3. овог</ref> члана и друге податке од значаја за  утврђивање јавног интереса. Уз предлог се подноси и извод из одговарајућег  планског акта, а у случају прибављања непокретности ради обезбеђења неновчаног  улога Републике Србије из овог става – извод из уговора о заједничком улагању,  односно заједничком оснивању привредног друштва, ако не постоји одговарајући  плански акт.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav7">
+						<content>
+							<p>Влада је дужна да по предлогу за утврђивање јавног интереса одлучи у року  од 90 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav8">
+						<content>
+							<p>Ако предлагач поступка за утврђивање јавног интереса  не достави све доказе прописане <ref wId="ref19" href="akn/rs/act/2016/106-4/srp@/!main~art_20__para_6" >ставом 6. овог</ref> члана, нити ове доказе не достави  ни у накнадно остављеном року, услед чега се не може поступати по поднетом  предлогу, министарство надлежно за послове финансија закључком ће одбацити такав  предлог као непотпун.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav9">
+						<content>
+							<p>Актом о утврђивању јавног интереса у смислу овог члана Влада ће одредити и  корисника експропријације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav10">
+						<content>
+							<p>Решење којим се одлучује о предлогу за утврђивање  јавног интереса може се донети и без претходног саслушања странака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav11">
+						<content>
+							<p>У решењу Владе којим је усвојен предлог за утврђивање  јавног интереса, непокретности за које је утврђен јавни интерес наводе се  појединачно или се наводи акт, укључујући и уговор из <ref wId="ref20" href="akn/rs/act/2016/106-4/srp@/!main~art_20__para_3" >става 3. овог</ref> члана (назив  акта, назив органа који је тај акт донео, односно назив уговорних страна и број  и датум доношења акта, односно закључења уговора), на основу кога се са  сигурношћу може утврдити које су непокретности обухваћене тим актом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav12">
+						<content>
+							<p>Решење Владе којим је усвојен предлог за утврђивање јавног интереса објављује  се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav13">
+						<content>
+							<p>Против решења Владе којим се одлучује о предлогу за утврђивање јавног  интереса, може се, у року од 30 дана од дана његовог достављања, покренути  управни спор код надлежног суда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav14">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref21" href="akn/rs/act/2009/20/srp@">20/2009</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav15">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref22" href="akn/rs/act/2013/55/srp@">55/2013</ref> (Одлука УС)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПРИПРЕМНЕ РАДЊЕ У СВРХУ ЕКСПРОПРИЈАЦИЈЕ</heading>
+				<article wId="gla3-clan21">
+					<num>21.</num>
+					<paragraph wId="gla3-clan21-stav1">
+						<content>
+							<p>Правно лице које намерава да поднесе предлог за експропријацију може да тражи  да му се, ради израде студије оправданости, подношења предлога за утврђивање  јавног интереса или предлога за експропријацију, дозволи да на одређеној  непокретности изврши потребне припремне радње (испитивање земљишта, премеравање  или слично).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan22">
+					<num>22.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref24" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla3-clan22-stav1">
+						<content>
+							<p>У предлогу за дозволу вршења припремних радњи морају се назначити сврха ради  које се намерава да предложи експропријација, непокретност на којој се намерава  вршење припремних радњи, сопственик те непокретности, природа, обим и сврха  радњи, као и време њиховог трајања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan22-stav2">
+						<content>
+							<p>О предлогу за дозволу вршења припремних радњи решава министарство надлежно за  послове финансија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan23">
+					<num>23.</num>
+					<paragraph wId="gla3-clan23-stav1">
+						<content>
+							<p>Ако подносилац предлога за дозволу вршења припремних радњи учини вероватним  да су припремне радње потребне за сврхе одређене овим законом, министарство  надлежно за послове финансија дозволиће вршење припремних радњи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav2">
+						<content>
+							<p>Приликом доношења решења о дозволи за вршење припремних радњи водиће се  рачуна о томе да се оне не врше у време неподесно за сопственика непокретности,  с обзиром на културу земљишта и сврху за коју се непокретност користи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav3">
+						<content>
+							<p>У решењу из <ref wId="ref25" href="akn/rs/act/2016/106-4/srp@/!main~art_23__para_2" >става 2. овог</ref> члана, поред осталог, морају се навести и припремне  радње које подносилац предлога може да врши, као и рок до којег је дужан да их  изврши.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav4">
+						<content>
+							<p>Решењем из <ref wId="ref26" href="akn/rs/act/2016/106-4/srp@/!main~art_23__para_2" >става 2. овог</ref> члана не може се дозволити извођење грађевинских или  других сличних радова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan24">
+					<num>24.</num>
+					<paragraph wId="gla3-clan24-stav1">
+						<content>
+							<p>Правно лице у чију је корист дозвољено вршење припремних радњи дужно је да за  то сопственику непокретности плати накнаду прописану овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПОСТУПАК ЕКСПРОПРИЈАЦИЈЕ</heading>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Предлог за експропријацију може поднети корисник експропријације тек пошто је  у складу са овим законом утврђен јавни интерес за експропријацију  непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>У име Републике Србије предлог за експропријацију подноси републички јавни  правобранилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav3">
+						<content>
+							<p>У име аутономне покрајине, града, града Београда,  односно општине предлог за експропријацију подноси надлежни јавни правобранилац,  односно друго лице које заступа аутономну покрајину, град, град Београд, односно  општину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav4">
+						<content>
+							<p>Предлог за експропријацију подноси се општинској управи општине на чијој се  територији налази непокретност предложена за експропријацију, у року од једне  године од дана утврђивања јавног интереса за експропријацију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<intro>
+							<p>У предлогу за експропријацију непокретности морају бити назначени:</p>
+						</intro>
+						<point wId="gla4-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> назив и седиште подносиоца предлога за експропријацију (корисник  експропријације);</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> непокретност за коју се предлаже експропријација и место где се та  непокретност налази;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> сопственик непокретности за коју се предлаже експропријација и његово  пребивалиште или седиште;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> сврха ради које се предлаже експропријација.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<paragraph wId="gla4-clan27-stav1">
+						<intro>
+							<p>Уз предлог за експропријацију подноси се:</p>
+						</intro>
+						<point wId="gla4-clan27-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> извод из катастра непокретности или других јавних књига у којима се  уписују права на непокретностима, који садржи податке о непокретности за коју се  предлаже експропријација;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan27-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> оверен извод из одговарајућег планског акта донетог  у складу са прописима, а ако такав плански акт не постоји у случају  експропријације ради прибављања непокретности неопходних за обезбеђење  неновчаног улога Републике Србије у привредно друштво у смислу <ref wId="ref28" href="akn/rs/act/2016/106-4/srp@/!main~art_20__para_3" >члана 20. став 3.  овог</ref> закона – извод из уговора о заједничком улагању, односно заједничком  оснивању привредног друштва;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan27-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> доказ да је, у складу са овим законом, утврђен  јавни интерес за  експропријацију.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan28">
+					<num>28.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref33" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla4-clan28-stav1">
+						<content>
+							<p>Поред исправа из <ref wId="ref29" href="akn/rs/act/2016/106-4/srp@/!main~art_27" >члана 27. овог</ref> закона, уз предлог за експропријацију  корисник експропријације дужан је да поднесе гаранцију једне од пословних банака  на износ динарских средстава потребних за обезбеђење накнаде за експроприсану  непокретност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav2">
+						<content>
+							<p>Гаранција из <ref wId="ref30" href="akn/rs/act/2016/106-4/srp@/!main~art_28__para_1" >става 1. овог</ref> члана важи све до исплате накнаде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav3">
+						<content>
+							<p>Гаранција из <ref wId="ref31" href="akn/rs/act/2016/106-4/srp@/!main~art_28__para_1" >става 1. овог</ref> члана садржи и клаузулу да се износ средстава из  гаранције увећава за индекс раста цена на мало, све до момента исплате накнаде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav4">
+						<content>
+							<p>Када је корисник експропријације Република Србија,  аутономна покрајина, град, град Београд, општина и други корисник  експропријације који према важећим прописима не може да отвори рачун код  пословне банке, уз предлог за експропријацију, поред исправа из <ref wId="ref32" href="akn/rs/act/2016/106-4/srp@/!main~art_27" >члана 27. овог</ref>  закона, уместо гаранције пословне банке дужан је да поднесе и потврду о  обезбеђеним средствима у буџету корисника експропријације, односно овлашћење или  други инструмент обезбеђења плаћања накнаде, у складу са прописима којима се  уређује платни промет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan29">
+					<num>29.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref38" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla4-clan29-stav1">
+						<content>
+							<p>Поступак по предлогу за експропријацију спроводи и решење доноси служба  општинске управе надлежне за имовинско правне послове општине на чијој се  територији налази непокретност предложена за експропријацију (у даљем тексту:  општинска управа).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav2">
+						<content>
+							<p>Послове из <ref wId="ref34" href="akn/rs/act/2016/106-4/srp@/!main~art_29__para_1" >става 1. овог</ref> члана, осим послова одлучивања по жалбама у другом  степену, као и друге послове државне управе утврђене овим законом, врше општине,  градови и град Београд, као поверене послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav3">
+						<content>
+							<p>Ако су уз предлог за експропријацију, или накнадно, поднете исправе из <ref wId="ref35" href="akn/rs/act/2016/106-4/srp@/!main~art_28" >члана  28. овог</ref> закона и ако су тим исправама доказане потребне чињенице, орган из  <ref wId="ref36" href="akn/rs/act/2016/106-4/srp@/!main~art_29__para_1" >става 1. овог</ref> члана усвојиће решењем предлог за експропријацију, а у противном,  одбиће тај предлог.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav4">
+						<content>
+							<p>Решење о експропријацији, као и решење о  административном преносу донето без решења којим је утврђен јавни, односно општи  интерес за експропријацију, односно административни пренос непокретности, је  ништаво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav5">
+						<content>
+							<p>Пре доношења решења о експропријацији орган из <ref wId="ref37" href="akn/rs/act/2016/106-4/srp@/!main~art_29__para_1" >става 1. овог</ref> члана саслушаће  сопственика непокретности о чињеницама од значаја за експропријацију  непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav6">
+						<content>
+							<p>По жалби против првостепеног решења донетог по предлогу за експропријацију  решава министарство надлежно за послове финансија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan30">
+					<num>30.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref41" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla4-clan30-stav1">
+						<content>
+							<p>У случају из <ref wId="ref39" href="akn/rs/act/2016/106-4/srp@/!main~art_10" >члана 10. овог</ref> закона, орган који води поступак експропријације  дужан је да поучи ранијег сопственика да може да поднесе захтев за  експропријацију преосталог дела непокретности и да то унесе у записник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan30-stav2">
+						<content>
+							<p>Захтев у смислу <ref wId="ref40" href="akn/rs/act/2016/106-4/srp@/!main~art_30__para_1" >става 1. овог</ref> члана може се поднети у року од две године од  завршетка изградње објекта, односно завршетка извођења радова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan30-stav3">
+						<content>
+							<p>Ако се захтев за експропријацију преосталог дела непокретности поднесе до  доношења првостепеног решења о експропријацији, општинска управа решава по  захтеву истовремено са предлогом корисника експропријације, а ако је захтев  поднет после доношења првостепеног решења, о захтеву се решава у одвојеном  поступку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan31">
+					<num>31.</num>
+					<paragraph wId="gla4-clan31-stav1">
+						<intro>
+							<p>Решење којим се усваја предлог за експропријацију нарочито садржи:</p>
+						</intro>
+						<point wId="gla4-clan31-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> назначење корисника експропријације;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan31-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> назначење непокретности која се експроприше, уз навођење података из  катастра непокретности или других јавних књига у којима се уписују права на  непокретностима;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan31-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> назначење сопственика непокретности и његовог пребивалишта или седишта;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan31-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> назначење сврхе експропријације, односно објекта ради чије се изградње  непокретност експроприше, као и број и датум решења којим је утврђен јавни,  односно општи интерес за експропријацију и назив органа који је то решење  донео;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan31-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обавезу корисника експропријације из чл. <ref wId="ref42" href="akn/rs/act/2016/106-4/srp@/!main~art_15" >15</ref>. 16. и 19. овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan31-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> обавезу сопственика, односно држаоца, да непокретност преда у државину  корисника експропријације, као и рок предаје;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan31-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> обавезу корисника експропријације да у року од 15 дана од дана  правоснажности решења о експропријацији општинској управи поднесе писмену понуду  о облику и висини накнаде за експроприсану непокретност.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>Корисник експропријације дужан је да на основу предлога за експропријацију  поднесе захтев за забележбу експропријације у катастру непокретности или другим  јавним књигама у којима се уписују права на непокретностима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan32-stav2">
+						<content>
+							<p>Отуђење непокретности за коју је стављена забележба експропријације, као и  промена односа на непокретности (промена носиоца станарског права и др.) која  може бити од утицаја на обавезе корисника експропријације, нема правног дејства  према кориснику експропријације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan33">
+					<num>33.</num>
+					<paragraph wId="gla4-clan33-stav1">
+						<content>
+							<p>Трошкове поступка експропријације сноси корисник експропријације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan34">
+					<num>34.</num>
+					<paragraph wId="gla4-clan34-stav1">
+						<content>
+							<p>Корисник експропријације стиче право да ступи у посед експроприсане  непокретности даном правоснажности одлуке о накнади, односно даном закључења  споразума о накнади за експроприсану непокретност, ако овим законом није  друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan35">
+					<num>35.</num>
+					<paragraph wId="gla4-clan35-stav1">
+						<content>
+							<p>На захтев корисника експропријације, министарство надлежно за послове  финансија може одлучити да се кориснику експропријације непокретност преда пре  правоснажности одлуке о накнади за експроприсану непокретност, односно пре дана  закључења споразума о накнади за експроприсану непокретност, али не пре доношења  другостепеног решења поводом жалбе против решења о експропријацији, ако оцени да  је то неопходно због хитности изградње одређеног објекта или извођења радова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav2">
+						<content>
+							<p>Неће се дозволити предаја у посед кориснику експропријације пре  правоснажности одлуке о накнади, односно пре закључења споразума о накнади,  уколико корисник експропријације није претходно утврдио потребне елементе за  одређивање висине накнаде за експроприсани објекат, у смислу члана 31. тачка <ref wId="ref44" href="akn/rs/act/2016/106-4/srp@/!main~art_31__para_2__point_7" >7</ref>)  овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav3">
+						<content>
+							<p>Ако је кориснику експропријације непокретност предата пре правоснажности  одлуке о накнади, односно пре закључења споразума о накнади, а предлог за  експропријацију буде у даљем поступку правоснажно одбијен, корисник  експропријације је дужан да сопственику врати непокретност и накнади штету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan35-stav4">
+						<content>
+							<p>Ако се непокретност експроприше ради изградње објекта за производњу, пренос  или дистрибуцију електричне енергије, или за изградњу линијских инфраструктурних  објеката, на захтев корисника експропријације извршиће се предаја те  непокретности ради привођења намени на основу коначног решења о експропријацији,  под условом да корисник експропријације докаже да је извршио обавезу из <ref wId="ref45" href="akn/rs/act/2016/106-4/srp@/!main~art_35__para_2" >става 2.  овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan36">
+					<num>36.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref51" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla4-clan36-stav1">
+						<content>
+							<p>Корисник експропријације може до правоснажности решења о експропријацији да  одустане од предлога за експропријацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav2">
+						<content>
+							<p>Правоснажно решење о експропријацији поништиће се или изменити увек када то  корисник експропријације и ранији сопственик заједнички захтевају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav3">
+						<content>
+							<p>На захтев ранијег сопственика експроприсане непокретности,  односно његовог  наследника, правоснажно решење о експропријацији поништиће се или изменити, ако  корисник експропријације у року од три године од правоснажности одлуке о  накнади, односно од дана закључења споразума о накнади, није извршио, према  природи објекта, знатније радове на објекту ради чије је изградње извршена  експропријација.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav4">
+						<content>
+							<p>По истеку рока од пет година од правоснажности одлуке  о накнади, односно од дана закључења споразума о накнади, ранији сопственик  експроприсане непокретности, односно његов наследник не може поднети захтев за  поништај или измену правоснажног решења о експропријацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav5">
+						<content>
+							<p>У случају експропријације за потребе експлоатације  минералних сировина,  правоснажно решење о експропријацији поништиће се или изменити у смислу <ref wId="ref46" href="akn/rs/act/2016/106-4/srp@/!main~art_36__para_3" >става 3.  овог</ref> члана, ако корисник експропријације у року од шест година од правоснажности  одлуке о накнади, односно од дана закључења споразума о накнади, није извршио  знатније припремне и друге радове неопходне за експлоатацију минералних  сировина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav6">
+						<content>
+							<p>У случају кад је експропријација извршена за потребе  експлоатације минералних сировина на површинским коповима, ранији сопственик  експроприсане непокретности, односно његов наследник, не може поднети захтев за  поништај или измену правоснажног решења о експропријацији по истеку рока од осам  година од правоснажности одлуке о накнади, односно од дана закључења споразума о  накнади.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav7">
+						<content>
+							<p>О одустанку од предлога за експропријацију и по захтеву за поништај или  измену правоснажног решења о експропријацији, решава орган који је по предлогу  за експропријацију решавао у првом степену.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav8">
+						<content>
+							<p>Ако је на непокретности експроприсаној решењем чији се поништај или измена  тражи било више сувласника, за одлучивање по захтеву потребно је да су га  поднели већина од њих, с тим што ће надлежни орган и од осталих тражити да се о  захтеву изјасне.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav9">
+						<content>
+							<p>Имовинско-правне односе између корисника експропријације и сопственика  непокретности у случају спора решава надлежни суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav10">
+						<content>
+							<p>Одредбе ст. <ref wId="ref48" href="akn/rs/act/2016/106-4/srp@/!main~art_36__para_4" >4</ref>. и <ref wId="ref49" href="akn/rs/act/2016/106-4/srp@/!main~art_36__para_6" >6</ref>. овог члана не односе се на  поништај или измену правоснажног решења о експропријацији у случају из <ref wId="ref47" href="akn/rs/act/2016/106-4/srp@/!main~art_36__para_2" >става 2.  овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan36-stav11">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref50" href="akn/rs/act/2009/20/srp@">20/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПОСЕБАН ПОСТУПАК ЗА ЕКСПРОПРИЈАЦИЈУ НА ПОДРУЧЈИМА ЗАХВАЋЕНИМ ЕЛЕМЕНТАРНИМ  НЕПОГОДАМА ВЕЋЕГ ОБИМА</heading>
+				<article wId="gla5-clan37">
+					<num>37.</num>
+					<paragraph wId="gla5-clan37-stav1">
+						<content>
+							<p>На подручјима захваћеним земљотресом, поплавом, пожаром, еколошким удесом или  другом елементарном непогодом већег обима, експропријација ради изградње  објеката и извођења радова којима се отклањају последице проузроковане том  непогодом врши се по одредбама <ref wId="ref52" href="akn/rs/act/2016/106-4/srp@/!main~art_38->art_40" >чл. 38. </ref>до 40. овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan38">
+					<num>38.</num>
+					<paragraph wId="gla5-clan38-stav1">
+						<content>
+							<p>Земљиште се може привремено заузети и када је то потребно ради постављања и  изградње привремених објеката (пословни објекти, објекти за смештај становника и  имовине и сл.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan38-stav2">
+						<content>
+							<p>Жалба изјављена против решења којим се установљава привремено заузимање  земљишта не одлаже извршење решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan38-stav3">
+						<content>
+							<p>Решење о привременом заузимању земљишта укинуће се чим престане потреба због  које је донето.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan39">
+					<num>39.</num>
+					<paragraph wId="gla5-clan39-stav1">
+						<content>
+							<p>Корисник експропријације може, на основу коначног решења о експропријацији,  тражити предају те непокретности ради привођења сврси, ако овим законом није  друкчије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan39-stav2">
+						<content>
+							<p>Скупштина општине може, на захтев корисника експропријације, да одлучи да му  се непокретност преда после доношења првостепеног решења, ако је то због  хитности извођења радова неопходно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan39-stav3">
+						<content>
+							<p>Ако се експроприше стамбена зграда, стан као посебан део зграде или пословна  просторија, корисник експропријације је дужан да ранијем сопственику, носиоцу  станарског права и закупцу, обезбеди други стан или пословну просторију у  својину, сусвојину, на коришћење, односно у закуп, у року који не може бити дужи  од шест месеци, рачунајући од дана исељења из експроприсане зграде, стана или  пословне просторије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan39-stav4">
+						<content>
+							<p>До обезбеђења стана или пословне просторије, корисник експропријације дужан  је да пре рушења таквог објекта, лицима из <ref wId="ref53" href="akn/rs/act/2016/106-4/srp@/!main~art_39__para_3" >става 3. овог</ref> члана обезбеди  привремени смештај који испуњава основне услове становања, односно обављања  делатности (одређен број просторија, електрично осветљење, воду и сл.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan39-stav5">
+						<content>
+							<p>Одредбе <ref wId="ref54" href="akn/rs/act/2016/106-4/srp@/!main~art_39__para_3->para_4" >ст. 3. и 4. овог</ref> члана, сходно ће се примењивати и у случају  експропријације других објеката.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan40">
+					<num>40.</num>
+					<paragraph wId="gla5-clan40-stav1">
+						<content>
+							<p>Подручја на којима ће се одредбе чл. <ref wId="ref55" href="akn/rs/act/2016/106-4/srp@/!main~art_38" >38</ref>. и <ref wId="ref56" href="akn/rs/act/2016/106-4/srp@/!main~art_39" >39</ref>. овог закона примењивати, као и  време за које ће се примењивати, утврђује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan40-stav2">
+						<content>
+							<p>Уколико одредбама чл. <ref wId="ref57" href="akn/rs/act/2016/106-4/srp@/!main~art_38" >38</ref>. и <ref wId="ref58" href="akn/rs/act/2016/106-4/srp@/!main~art_39" >39</ref>. овог закона није друкчије одређено, на  подручјима захваћеним елементарним непогодама већег обима примењиваће се остале  одредбе овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan40-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref59" href="akn/rs/act/2009/20/srp@">20/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>НАКНАДА ЗА ЕКСПРОПРИСАНУ НЕПОКРЕТНОСТ</heading>
+				<article wId="gla6-od1-clan41">
+					<num>41.</num>
+					<paragraph wId="gla6-od1-clan41-stav1">
+						<content>
+							<p>Вредност објекта који се даје у својину или сусвојину на име накнаде и  вредност експроприсаног објекта, у случају заснивања права својине или  сусвојине, одређује се према тржишној цени тих објеката у моменту заснивања  права својине, односно сусвојине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan41-stav2">
+						<content>
+							<p>Висина накнаде у новцу за експроприсане непокретности одређује се по тржишној  цени, према околностима у моменту закључења споразума о висини накнаде, а ако  споразум није постигнут, према околностима у моменту доношења првостепене одлуке  о накнади.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan41-stav3">
+						<content>
+							<p>Ако се кориснику експропријације непокретност предаје пре правоснажности  решења о експропријацији, ранији сопственик има право да бира да му се накнада  одреди према околностима у време предаје експроприсане непокретности или у време  доношења првостепене одлуке о накнади.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan41-stav4">
+						<content>
+							<p>Ако су експроприсане непокретности разних врста у својини истог сопственика,  у споразуму о висини накнаде, односно у одлуци суда, посебно се исказује накнада  за поједине врсте непокретности (земљиште, зграде, уређаји и др.).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan42">
+					<num>42.</num>
+					<paragraph wId="gla6-od1-clan42-stav1">
+						<content>
+							<p>Накнада за експроприсано пољопривредно земљиште и грађевинско земљиште  одређује се у новцу према тржишној цени таквог земљишта, ако законом није  друкчије прописано.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan42-stav2">
+						<content>
+							<p>Процену тржишне цене из <ref wId="ref60" href="akn/rs/act/2016/106-4/srp@/!main~art_42__para_1" >става 1. овог</ref> члана врши орган  надлежан за утврђивање пореза на пренос апсолутних права на непокретностима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan43">
+					<num>43.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref69" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla6-od1-clan43-stav1">
+						<content>
+							<p>Накнада за експроприсану стамбену зграду, стан или пословну просторију  одређује се према тржишној цени такве непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan43-stav2">
+						<content>
+							<p>Члан 43а.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan43-stav3">
+						<intro>
+							<p>За одузето грађевинско земљиште у државној, односно  јавној својини, кориснику тог земљишта припада право на накнаду, и то:</p>
+						</intro>
+						<point wId="gla6-od1-clan43-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> ранијем сопственику и другом лицу које право  коришћења изводи из права ранијег сопственика, у смислу <ref wId="ref61" href="akn/rs/act/2016/106-4/srp@/!main~art_84" >члана 84. </ref>Закона о  планирању и изградњи („Службени гласник РС” бр. <ref wId="ref62" href="akn/rs/act/03/47/srp@">47/03</ref> и <ref wId="ref63" href="akn/rs/act/06/34/srp@">34/06</ref>) – у висини  тржишне вредности земљишта;</p>
+							</content>
+						</point>
+						<point wId="gla6-od1-clan43-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> лицу које је постало корисник грађевинског земљишта  у државној својини до 13. маја 2003. године, у смислу <ref wId="ref64" href="akn/rs/act/2016/106-4/srp@/!main~art_87" >члана 87. </ref>Закона о  планирању и изградњи („Службени гласник РС” бр. <ref wId="ref65" href="akn/rs/act/03/47/srp@">47/03</ref> и <ref wId="ref66" href="akn/rs/act/06/34/srp@">34/06</ref>) – у висини  средстава уложених за прибављање тог земљишта.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan43-stav4">
+						<content>
+							<p>Средствима за прибављање земљишта, у смислу става 1.  тачка <ref wId="ref67" href="akn/rs/act/2016/106-4/srp@/!main~art_43__para_1__point_2" >2</ref>) овог члана, не сматрају се средства плаћена на име накнаде за уређивање  и коришћење грађевинског земљишта и трошкови легализације објекта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan43-stav5">
+						<content>
+							<p>Износ средстава за прибављање грађевинског земљишта из  става 1. тачка <ref wId="ref68" href="akn/rs/act/2016/106-4/srp@/!main~art_43__para_1__point_2" >2</ref>) овог члана, валоризује се растом цена на мало од дана исплате  средстава за прибављање земљишта до дана закључења споразума о накнади, односно  доношења одлуке о накнади за одузето земљиште, с тим што тај износ не може прећи  износ тржишне вредности земљишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan43-stav6">
+						<content>
+							<p>Накнада из овог члана припада кориснику земљишта само  у случају кад му раније није исплаћена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan44">
+					<num>44.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref72" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla6-od1-clan44-stav1">
+						<content>
+							<p>Престао је да важи (види  Одлуку СУС - „Службени гласник РС“ - <ref wId="ref70" href="akn/rs/act/2001/23/srp@">23/2001</ref>-15 и  „Службени лист СРЈ“ – <ref wId="ref71" href="akn/rs/act/2001/16/srp@">16/2001</ref>-3).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan45">
+					<num>45.</num>
+					<paragraph wId="gla6-od1-clan45-stav1">
+						<content>
+							<p>Накнада за експроприсани виноград или воћњак који даје плодове одређује се  тако што се одреди обештећење за земљиште према <ref wId="ref73" href="akn/rs/act/2016/106-4/srp@/!main~art_42" >члану 42. овог</ref> закона, па се том  износу дода тржишна цена неамортизованих инвестиција уложених за подизање и  одржавање таквог винограда или воћњака и износ чистог приноса који би тај  виноград или воћњак дао, с обзиром на своју старост и плодност, за онолико  година колико је потребно да се подигне и да ступи у пуну родност нов виноград  или воћњак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan45-stav2">
+						<content>
+							<p>Накнада за експроприсани млад виноград или воћњак који не даје плодове  одређује се тако што се одреди накнада за земљиште према <ref wId="ref74" href="akn/rs/act/2016/106-4/srp@/!main~art_42" >члану 42. овог</ref> закона,  па се томе дода вредност инвестиција уложених за његово подизање и износ чистог  приноса који би се остварио за онолико година колико је тај виноград или воћњак  стар до тренутка експропријације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan45-stav3">
+						<content>
+							<p>По одредбама <ref wId="ref75" href="akn/rs/act/2016/106-4/srp@/!main~art_45__para_1->para_2" >ст. 1. и 2. овог</ref> члана одређује се накнада и за поједина стабла  воћака и чокота винове лозе који се налазе на експроприсаном земљишту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan46">
+					<num>46.</num>
+					<paragraph wId="gla6-od1-clan46-stav1">
+						<content>
+							<p>Накнада за експроприсани расадник одређује се као за пољопривредно земљиште  (<ref wId="ref76" href="akn/rs/act/2016/106-4/srp@/!main~art_42" >члан 42</ref>). Овако одређена накнада увећава се за тржишну цену садног материјала  (саднице и остали материјал за репродукцију) који ранији сопственик није  искористио до дана предаје непокретности кориснику експропријације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan47">
+					<num>47.</num>
+					<paragraph wId="gla6-od1-clan47-stav1">
+						<content>
+							<p>Накнада за експроприсану зрелу или приближно зрелу шуму представља вредност  шумских сортимената и осталих шумских производа утврђена према тржишним ценама  на камионском путу или другом утоварном, односно откупном месту, умањена за  трошкове производње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan47-stav2">
+						<content>
+							<p>Накнада за експроприсану младу шуму одређује се према трошковима подизања  такве шуме, увећаним за фактор пораста вредности којим се постиже вредност зреле  шуме.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan47-stav3">
+						<content>
+							<p>Накнада одређена по одредбама <ref wId="ref78" href="akn/rs/act/2016/106-4/srp@/!main~art_47__para_1->para_2" >ст. 1. и 2. овог</ref> члана увећава се за износ  накнаде за земљиште утврђене према одредбама <ref wId="ref77" href="akn/rs/act/2016/106-4/srp@/!main~art_42" >члана 42. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan47-stav4">
+						<content>
+							<p>Под трошковима производње подразумевају се трошкови сече, израде и транспорта  шумских сортимената из шуме до камионског пута или другог утоварног, односно  откупног места.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan47-stav5">
+						<content>
+							<p>Трошкови подизања младе шуме подигнуте вештачким путем одређују се у висини  трошкова пошумљавања, а трошкови подизања младе шуме настале природним путем, у  висини трошкова вештачког пошумљавања семеном.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan48">
+					<num>48.</num>
+					<paragraph wId="gla6-od1-clan48-stav1">
+						<content>
+							<p>Приближно зрелом шумом за сечу, у смислу овог закона, сматра се једнодобна  шума која има најмање две трећине старости зреле шуме, а младом једнодобном  шумом сматра се она шума која има до две трећине старости зреле шуме за сечу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan48-stav2">
+						<content>
+							<p>Разнодобна шума (пребирна шума и групимично разнодобна шума) сматра се шумом  зрелом за сечу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan49">
+					<num>49.</num>
+					<paragraph wId="gla6-od1-clan49-stav1">
+						<content>
+							<p>Накнада за виноград, воћњак, расадник и шуму, који се налазе на грађевинском  земљишту, одређује се према одредбама <ref wId="ref79" href="akn/rs/act/2016/106-4/srp@/!main~art_45->art_47" >чл. 45. </ref>до 47. овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan50">
+					<num>50.</num>
+					<paragraph wId="gla6-od1-clan50-stav1">
+						<content>
+							<p>Ранији сопственик нема право на накнаду за улагања која је извршио после дана  када је писмено обавештен о поднетом предлогу за експропријацију, осим трошкова  који су били неопходни за коришћење непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan50-stav2">
+						<content>
+							<p>Обавештење о поднетом предлогу за експропријацију ранијем сопственику  доставља орган надлежан за доношење решења о експропријацији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan51">
+					<num>51.</num>
+					<paragraph wId="gla6-od1-clan51-stav1">
+						<content>
+							<p>При одређивању накнаде у смислу одредаба овог закона може се одредити већи  износ од тржишне цене, узимајући у обзир материјалне и друге личне и породичне  прилике ранијег сопственика, ако су те околности од битног значаја за његову  егзистенцију (број чланова домаћинства, број чланова домаћинства који су  способни за привређивање, односно који су запослени, здравствено стање чланова  домаћинства, месечни приходи домаћинства и сл.).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan52">
+					<num>52.</num>
+					<paragraph wId="gla6-od1-clan52-stav1">
+						<content>
+							<p>Ранији сопственик има право да скине усеве и убере плодове са експроприсаног  земљишта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan52-stav2">
+						<content>
+							<p>Орган надлежан за доношење решења о експропријацији може изузетно у хитним  случајевима дозволити кориснику експропријације, на његов захтев, да на  експроприсаном земљишту почне да изводи радове пре доспећа усева или плодова за  жетву или бербу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan52-stav3">
+						<content>
+							<p>Жалба не задржава извршење решења из <ref wId="ref80" href="akn/rs/act/2016/106-4/srp@/!main~art_52__para_2" >става 2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan52-stav4">
+						<content>
+							<p>Ако ранији сопственик није био у могућности да скине усеве или убере плодове,  услед тога што је кориснику експропријације дозвољено да отпочне радове пре  скидања усева или убирања плодова, ранији сопственик има право на накнаду за  усеве или плодове према тржишној цени, по одбитку потребних трошкова које би  имао од жетве или бербе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan53">
+					<num>53.</num>
+					<paragraph wId="gla6-od1-clan53-stav1">
+						<content>
+							<p>У случају установљења службености накнада се одређује у износу за који је,  услед установљења службености, смањена тржишна вредност земљишта или зграда.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan53-stav2">
+						<content>
+							<p>Накнада из <ref wId="ref81" href="akn/rs/act/2016/106-4/srp@/!main~art_53__para_1" >става 1. овог</ref> члана одређује се по поступку за одређивање накнаде  прописаном овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan54">
+					<num>54.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref82" href="akn/rs/act/2016/106/srp@">106/2016</ref> (Аутентично  тумачење)</heading>
+					<paragraph wId="gla6-od1-clan54-stav1">
+						<content>
+							<p>У случају установљења закупа накнада се одређује у висини закупнине на  тржишту, која се остварује за најближе слично земљиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan54-stav2">
+						<content>
+							<p>Накнада се одређује у облику једнократног износа, за све време трајања  закупа, или у повременим давањима, која се плаћају у једнаким временским  размацима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan54-stav3">
+						<content>
+							<p>Накнада се рачуна од дана када је закупцу земљиште предато.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan54-stav4">
+						<content>
+							<p>Ако се установљењем закупа сопственику земљишта наноси стварна штета, накнада  се даје и за ту штету.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od1-clan55">
+					<num>55.</num>
+					<paragraph wId="gla6-od1-clan55-stav1">
+						<content>
+							<p>Накнада за привремено заузимање земљишта одређује се у висини и на начин како  је то овим законом прописано за накнаду у случају установљења закупа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od1-clan55-stav2">
+						<content>
+							<p>Накнада за припремне радње одређује се у висини и на начин како је то овим  законом прописано за установљење закупа, с тим што се као основ рачунања  обештећења узима време трајања привремених радњи и време за довођење у првобитну  функцију или функцију будуће намене.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan56">
+					<num>56.</num>
+					<paragraph wId="gla6-od2-clan56-stav1">
+						<content>
+							<p>После правоснажности решења о експропријацији општинска управа дужна је да  одмах без одлагања закаже и одржи расправу за споразумно одређивање накнаде за  експроприсану непокретност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan56-stav2">
+						<content>
+							<p>Корисник експропријације дужан је да органу из <ref wId="ref83" href="akn/rs/act/2016/106-4/srp@/!main~art_56__para_1" >става 1. овог</ref> члана поднесе  писмену понуду о облику и висини накнаде у року који не може бити дужи од 15  дана од дана правоснажности решења о експропријацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan56-stav3">
+						<content>
+							<p>Орган из <ref wId="ref84" href="akn/rs/act/2016/106-4/srp@/!main~art_56__para_1" >става 1. овог</ref> члана без одлагања доставља примерак понуде ранијем  сопственику експроприсане непокретности, а од управних и других органа и  организација прибавља обавештења о чињеницама које могу бити од значаја за  споразумно одређивање накнаде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan57">
+					<num>57.</num>
+					<paragraph wId="gla6-od2-clan57-stav1">
+						<content>
+							<p>Споразумом о накнади за експроприсану непокретност морају бити одређени  нарочито облик и висина накнаде и рок у коме је корисник експропријације дужан  да испуни те своје обавезе, као и обавезе ранијег сопственика, уколико су  споразумом уговорене.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan57-stav2">
+						<content>
+							<p>Споразум о накнади уноси се у записник који мора да садржи све податке  неопходне за испуњење обавеза странака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan57-stav3">
+						<content>
+							<p>Споразум о накнади има снагу извршне исправе, уколико општинска управа не  одбије закључење споразума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan57-stav4">
+						<content>
+							<p>По доношењу првостепеног решења о експропријацији странке се не могу  споразумевати о облицима и висини накнаде ван поступка прописаног овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan58">
+					<num>58.</num>
+					<paragraph wId="gla6-od2-clan58-stav1">
+						<content>
+							<p>Општинска управа одбиће закључење споразума о облицима и висини накнаде за  експроприсану непокретност, уколико утврди да би тај споразум био у супротности  са позитивним прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan58-stav2">
+						<content>
+							<p>Против акта којим се одбија закључење споразума у смислу <ref wId="ref85" href="akn/rs/act/2016/106-4/srp@/!main~art_58__para_1" >става 1. овог</ref> члана  не може се изјавити посебна жалба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan58-stav3">
+						<content>
+							<p>Ако општинска управа одбије закључење споразума о накнади, без одлагања ће  све списе предмета експропријације доставити месно надлежном општинском суду  ради одређивања накнаде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan59">
+					<num>59.</num>
+					<paragraph wId="gla6-od2-clan59-stav1">
+						<content>
+							<p>У поступку пред општинском управом или пред надлежним судом странке се могу  споразумети: о давању друге непокретности у својину или сусвојину, уместо  експроприсане непокретности, о новчаном износу накнаде, о међусобним доплатама  разлике у вредности непокретности, о премештању експроприсаних објеката на  друго, по прописима дозвољено место, о изградњи прилаза, пролаза и приступних  путева, као и другим законом дозвољеним чинидбама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan60">
+					<num>60.</num>
+					<paragraph wId="gla6-od2-clan60-stav1">
+						<content>
+							<p>Споразум о новчаној накнади извршава надлежни суд, а споразум о другим  облицима накнаде извршава општинска управа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan61">
+					<num>61.</num>
+					<paragraph wId="gla6-od2-clan61-stav1">
+						<content>
+							<p>Ако се споразум о накнади у целини не постигне у року од два месеца од дана  правоснажности решења о експропријацији, општинска управа доставиће правоснажно  решење о експропријацији са свим списима надлежном општинском суду ради  одређивања накнаде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan61-stav2">
+						<content>
+							<p>Ако општинска управа не поступи по одредби <ref wId="ref86" href="akn/rs/act/2016/106-4/srp@/!main~art_61__para_1" >става 1. овог</ref> члана, ранији  сопственик и корисник експропријације могу се непосредно обратити суду ради  одређивања накнаде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan62">
+					<num>62.</num>
+					<paragraph wId="gla6-od2-clan62-stav1">
+						<content>
+							<p>Трошкове поступка споразумног одређивања накнаде за експроприсану  непокретност сноси корисник експропријације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan63">
+					<num>63.</num>
+					<paragraph wId="gla6-od3-clan63-stav1">
+						<content>
+							<p>Даном правоснажности решења о експропријацији престају на експроприсаној  непокретности личне службености и сви стварни терети, осим стварних службености  чије је вршење могуће након привођења намени експроприсане непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan63-stav2">
+						<content>
+							<p>Хипотека успостављена на експроприсаној непокретности преноси се на  непокретност која се даје у својину или сусвојину на име накнаде за  експроприсане непокретности, или на неку другу личну имовину одговарајуће  вредности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan63-stav3">
+						<content>
+							<p>Стварна права из <ref wId="ref87" href="akn/rs/act/2016/106-4/srp@/!main~art_63__para_1" >става 1. овог</ref> члана бришу се у катастру непокретности или  другим јавним књигама, по предлогу корисника експропријације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan64">
+					<num>64.</num>
+					<paragraph wId="gla6-od3-clan64-stav1">
+						<content>
+							<p>Упис својине и других права на експроприсаној непокретности врши се на основу  правоснажног решења о експропријацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan64-stav2">
+						<content>
+							<p>Захтев за упис може поднети свака странка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan64-stav3">
+						<content>
+							<p>Упис својине и других права на непокретностима које су на име накнаде дате  ранијем сопственику, врши се на основу правоснажних решења о експропријацији и  извршних исправа о накнади.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan65">
+					<num>65.</num>
+					<paragraph wId="gla6-od3-clan65-stav1">
+						<content>
+							<p>На земљишту у државној и друштвеној својини могу се установити права  службености пролаза, превоза, црпљења воде, постављања објеката за пренос  електричне енергије и друге службености у корист правних лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan65-stav2">
+						<content>
+							<p>За установљење службености одређује се накнада у износу за који је услед  установљења службености смањена вредност земљишта или зграда, односно приноса.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan66">
+					<num>66.</num>
+					<paragraph wId="gla6-od3-clan66-stav1">
+						<content>
+							<p>За привремено заузимање земљишта у друштвеној и државној својини одређује се  накнада у висини закупнине која се остварује за најближе слично земљиште.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan66-stav2">
+						<content>
+							<p>Накнада из <ref wId="ref88" href="akn/rs/act/2016/106-4/srp@/!main~art_66__para_1" >става 1. овог</ref> члана не искључује право на накнаду штете по  прописима о одговорности за штету.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan67">
+					<num>67.</num>
+					<paragraph wId="gla6-od3-clan67-stav1">
+						<content>
+							<p>Решење о установљењу службености или привременом заузимању доноси општинска  управа, ако законом другачије није одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan68">
+					<num>68.</num>
+					<paragraph wId="gla6-od3-clan68-stav1">
+						<content>
+							<p>У поступку експропријације и одређивања накнаде за експроприсане  непокретности сви поднесци и одлуке ослобођени су плаћања таксе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan69">
+					<num>69.</num>
+					<paragraph wId="gla6-od3-clan69-stav1">
+						<content>
+							<p>Општинска управа води евиденцију о експропријацији непокретности за  територију општине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan69-stav2">
+						<content>
+							<p>Садржину и начин вођења евиденције о експропријацији непокретности прописује  министар финансија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan69-stav3">
+						<content>
+							<p>Збирне податке евиденције из <ref wId="ref89" href="akn/rs/act/2016/106-4/srp@/!main~art_69__para_1" >става 1. овог</ref> члана, за свака три месеца,  општинска управа доставља министарству надлежном за послове финансија.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>АДМИНИСТРАТИВНИ ПРЕНОС</heading>
+				<article wId="gla7-clan70">
+					<num>70.</num>
+					<paragraph wId="gla7-clan70-stav1">
+						<content>
+							<p>Права на непокретности у државној или друштвеној својини могу се решењем  општинске управе одузети или ограничити и пренети на другог носиоца права на  непокретности у друштвеној или државној својини, ако то захтева  јавни интерес  (административни пренос).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan70-stav2">
+						<content>
+							<p>Јавни интерес из <ref wId="ref90" href="akn/rs/act/2016/106-4/srp@/!main~art_70__para_1" >става 1. овог</ref> члана утврђује се на начин који је законом  одређен за експропријацију непокретности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan71">
+					<num>71.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref92" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla7-clan71-stav1">
+						<content>
+							<p>У случају административног преноса земљишта или другог природног богатства у  друштвеној својини, носилац права на земљишту или другом природном богатству  које је стекао без накнаде има право на накнаду само за рад и средства уложена у  то земљиште или друго природно богатство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan71-stav2">
+						<content>
+							<p>Члан 71а.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan71-stav3">
+						<content>
+							<p>Ако овим законом није друкчије одређено, одредбе које  се односе на експропријацију непокретности сходно се примењују и на  административни пренос непокретности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan71-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref91" href="akn/rs/act/2009/20/srp@">20/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan72">
+					<num>72.</num>
+					<paragraph wId="gla8-clan72-stav1">
+						<content>
+							<p>Поступак по предлогу за експропријацију који није правоснажно окончан до дана  ступања на снагу овог закона, окончаће се по прописима који су важили до дана  ступања на снагу овог закона, осим у случајевима када поступак експропријације  није правоснажно окончан, а у питању су пословни и стамбени објекти.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan72-stav2">
+						<content>
+							<p>Поступак одређивања накнаде за експроприсану непокретност, у коме до дана  ступања на снагу овог закона није закључен споразум о накнади, односно није  донета правоснажна судска одлука, окончаће се по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan72-stav3">
+						<content>
+							<p>Члан 72а.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan72-stav4">
+						<content>
+							<p>Ако је јавни интерес утврђен у складу са овим законом  у корист јавног предузећа, а за потребе његовог зависног привредног друштва,  решење о утврђивању јавног интереса може се, на заједнички захтев јавног  предузећа и његовог зависног привредног друштва, изменити тако да корисник  експропријације буде зависно привредно друштво, ако то друштво по одредбама овог  закона може бити корисник експропријације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan72-stav5">
+						<content>
+							<p>У случају из <ref wId="ref93" href="akn/rs/act/2016/106-4/srp@/!main~art_72__para_1" >става 1. овог</ref> члана зависно привредно  друштво има права и обавезе јавног предузећа у погледу експропријације  непокретности и измирења накнаде за експроприсану непокретност.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan73">
+					<num>73.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref99" href="akn/rs/act/2009/20/srp@">20/2009</ref></heading>
+					<paragraph wId="gla8-clan73-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о експропријацији  („Службени гласник СРС”, бр. <ref wId="ref94" href="akn/rs/act/84/40/srp@">40/84</ref>, <ref wId="ref95" href="akn/rs/act/87/53/srp@">53/87</ref>, <ref wId="ref96" href="akn/rs/act/89/22/srp@">22/89</ref> и <ref wId="ref97" href="akn/rs/act/90/15/srp@">15/90</ref> и „Службени гласник  РС”, број <ref wId="ref98" href="akn/rs/act/90/6/srp@">6/90</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan74">
+					<num>74.</num>
+					<paragraph wId="gla8-clan74-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном  гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan74-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У “ПРЕЧИШЋЕН ТЕКСТ” ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan21">
+					<num>21.</num>
+					<heading>Закон о изменама и допунама Закона о експропријацији: “Службени гласник РС”,  број <ref wId="ref102" href="akn/rs/act/2009/20/srp@">20/2009</ref>-37</heading>
+					<paragraph wId="gla8-clan21-stav1">
+						<content>
+							<p>Поступак за поништај правоснажног решења о експропријацији који је започет, а  није правоснажно окончан до дана ступања на снагу овог закона, окончаће се по  прописима који су важили до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan21-stav2">
+						<content>
+							<p>Поступак за утврђивање општег интереса за експропријацију који није окончан  до дана ступања на снагу овог закона окончаће се по прописима који су важили до  дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan21-stav3">
+						<content>
+							<p>Решења о утврђивању општег интереса донета у складу са законом до дана  ступања на снагу овог закона, остају на снази и на основу њих се може поднети  предлог за експропријацију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan21-stav4">
+						<content>
+							<p>Ако је до дана ступања на снагу овог закона, у складу са законом, утврђен  општи интерес за експропријацију у корист јавног предузећа, а за потребе његовог  зависног привредног друштва, решење о утврђивању општег интереса може се, на  заједнички захтев јавног предузећа и његовог зависног привредног друштва,  изменити тако да корисник експропријације буде зависно привредно друштво, ако то  друштво по одредбама овог закона може бити корисник експропријације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan21-stav5">
+						<content>
+							<p>У случају из <ref wId="ref100" href="akn/rs/act/2016/106-4/srp@/!main~art_21__para_4" >става 4. овог</ref> члана, зависно привредно друштво има права и  обавезе јавног предузећа у погледу експропријације непокретности и измирења  накнаде за експроприсану непокретност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan21-stav6">
+						<content>
+							<p>Поступак за експропријацију непокретности који није правоснажно окончан до  дана ступања на снагу овог закона, а покренут је по предлогу јавног предузећа за  потребе његовог зависног привредног друштва, окончаће се по прописима који су  важили до дана ступања на снагу овог закона, у корист тог привредног друштва,  ако оно може бити корисник експропријације по одредбама овог закона и ако је у  смислу <ref wId="ref101" href="akn/rs/act/2016/106-4/srp@/!main~art_21__para_4" >става 4. овог</ref> члана извршена измена решења о утврђеном општем интересу у  корист тог привредног друштва.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan22">
+					<num>22.</num>
+					<paragraph wId="gla8-clan22-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном  гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan22-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan22-stav3">
+						<content>
+							<p>о експропријацији</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan22-stav4">
+						<content>
+							<p>“Службени гласник РС”, бр. <ref wId="ref103" href="akn/rs/act/1995/53/srp@">53 од 28. децембра 1995</ref>, <ref wId="ref104" href="akn/rs/act/2001/23/srp@">23 од 6. априла 2001</ref> -  СУС, <ref wId="ref105" href="akn/rs/act/2009/20/srp@">20 од 19. марта 2009</ref>, <ref wId="ref106" href="akn/rs/act/2013/55/srp@">55 од 25. јуна 2013</ref> - УС, <ref wId="ref107" href="akn/rs/act/2016/106/srp@">106 од 28. децембра 2016</ref> -  Аутентично тумачење</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

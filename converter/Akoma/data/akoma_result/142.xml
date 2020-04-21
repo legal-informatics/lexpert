@@ -1,0 +1,984 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о организацији и надлежности државних органа у сузбијању организованог криминала, тероризма и корупције">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2016/94-14/main"/>
+					<FRBRuri value="akn/rs/act/2016/94-14"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/87-24/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/87-24/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/87-24/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/87-24/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2016-11-24" name="службени гласник рс" number="94" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="7. Кривична дела и кривични поступак" value="7. кривична дела и кривични поступак" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2016-01-01" refersTo="94/2016-14" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2018-01-01" refersTo="87/2018-24" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2016-11-23" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2016-12-02" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2018-03-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="кривична"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="државних"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="овлашћења"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="образовање"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="одређена"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="органа"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="организационих"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="суђења"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="откривања"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="гоњења"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="примењује"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="ради"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="дела"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="закон"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="посебних"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="кривичног"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединица"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Poslove"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Nišu i Novom Sadu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Novom Sadu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Sudije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Zakona"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija za borbu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija za privredne registre"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agenciji za borbu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacioni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacionog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacionog suda u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacionog suda u Kragujevcu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacionog suda u Nišu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacionog suda za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacionom sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Centralni registar depo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državna revizorska institucija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="I ZAVRŠNE ODREDBE"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Kraljevu za suzbijanje korupcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Krivičnog zakonika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Okružnog zatvora"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Okružnog zatvora u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Okružnom zatvoru u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poreska policija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebna pritvorska jedinica"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebno odeljenje Apelacionog suda u Beogradu za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebno odeljenje Apelacionog suda za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebno odeljenje Višeg suda u Beogradu za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebno odeljenje Višeg suda za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebno odeljenje Višeg suda za organizovani kriminal i Posebno odeljenje Apelacionog suda za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnog odeljenja Apelacionog suda za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnog odeljenja Višeg suda za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnog odeljenja za organizovani kriminal Višeg suda u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnoj pritvorskoj jedinici"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnoj pritvorskoj jedinici Okružnog zatvora u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnom odeljenja Apelacionog suda u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnom odeljenju Višeg suda u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravosudna akademija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravosudnoj akademiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republička direkcija za imovinu Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republički fond za penzijsko i invalidsko osiguranje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republički fond za zdravstveno osiguranje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Služba za suzbijanje organizovanog kriminala"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sudija Posebnog odeljenja Apelacionog suda za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Sudija Posebnog odeljenja Višeg suda za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužilaštva za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužilaštvo za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužilaštvu za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Tužioca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprava carina"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprava za javne nabavke"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Uprava za sprečavanje pranja novca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visoki savet sudstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Visokog saveta sudstva ili Državnog veća tužilaca"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višeg javnog tužilaštva u Nišu za suzbijanje korupcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višeg suda u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višeg suda za organizovani kriminal"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višem sudu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Viši sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Viši sud u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Viši sud u Kraljevu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Viši sud u Nišu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojnobezbednosna agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovni kasacioni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog kasacionog suda"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tužilac"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tužioca"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. marta 2018."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="235."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="236. i 245."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. i 26."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="333."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="337. i 339."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="359."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="361. do 368."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="367. i 368."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. i 13."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 2. децембра 2016. године, а примењује се од 1. марта 2018. године (види члан 33. Закона).Кривични поступци покренути због кривичних дела из члана 2. овог закона окончаће се пред јавним тужилаштвом или пред стварно и месно надлежним судом, односно одељењем суда које је било функционално надлежно пре дана почетка примене овог закона (види члан 30. Закона).Подзаконски акти предвиђени овим законом донеће се до дана почетка примене овог закона. Дo дoнoшeњa аката прeдвиђeних oвим зaкoнoм примeњуjу сe акти дoнeти прeмa oдрeдбaмa Закона о организацији и надлежности државних органа у сузбијању организованог криминала, корупције и других посебно тешких кривичних дела („Службени гласник РС”, бр. 42/02, 27/03, 39/03, 67/03, 29/04, 58/04 – др. закон, 45/05, 61/05, 72/09, 72/11 – др. закон, 101/11 – др. закон и 32/13), aкo нису у супрoтнoсти сa oвим зaкoнoм (види члан 31. Закона).Престала је да важи одредба члана 11. став 3. овог Закона даном ступања на снагу Закона о изменама и допунама Закона о полицији (Службени гласник РС, број 87/2018), односно 21. новембра 2018. године (види члан 11. Закона - 87/2018-24).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 2. децембра 2016. године, а примењује се од 1. марта 2018. године (види члан 33. Закона).Кривични поступци покренути због кривичних дела из члана 2. овог закона окончаће се пред јавним тужилаштвом или пред стварно и месно надлежним судом, односно одељењем суда које је било функционално надлежно пре дана почетка примене овог закона (види члан 30. Закона).Подзаконски акти предвиђени овим законом донеће се до дана почетка примене овог закона. Дo дoнoшeњa аката прeдвиђeних oвим зaкoнoм примeњуjу сe акти дoнeти прeмa oдрeдбaмa Закона о организацији и надлежности државних органа у сузбијању организованог криминала, корупције и других посебно тешких кривичних дела („Службени гласник РС”, бр. 42/02, 27/03, 39/03, 67/03, 29/04, 58/04 – др. закон, 45/05, 61/05, 72/09, 72/11 – др. закон, 101/11 – др. закон и 32/13), aкo нису у супрoтнoсти сa oвим зaкoнoм (види члан 31. Закона).Престала је да важи одредба члана 11. став 3. овог Закона даном ступања на снагу Закона о изменама и допунама Закона о полицији (Службени гласник РС, број 87/2018), односно 21. новембра 2018. године (види члан 11. Закона - 87/2018-24).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О организацији и надлежности државних органа у сузбијању организованог криминала, тероризма и корупције "Службени гласник РС", бр. <ref wId="ref124" href="akn/rs/act/2016/94/srp@">94 од 24. новембра 2016</ref>, <ref wId="ref125" href="akn/rs/act/2018/87/srp@">87 од 13. новембра 2018</ref> - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се образовање, организација, надлежност и овлашћења државних органа и посебних организационих јединица државних органа, ради откривања, кривичног гоњења и суђења за кривична дела одређена овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Кривична дела на које се закон примењује</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>Овај закон се примењује ради откривања, кривичног гоњења и суђења за:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> кривична дела организованог криминала;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> кривично дело убиство представника највиших државних oргана (<ref wId="ref0" href="akn/rs/act/2018/87-24/srp@/!main~art_310" >члан 310. </ref>Кривичног законика) и кривично дело оружане побуне (<ref wId="ref1" href="akn/rs/act/2018/87-24/srp@/!main~art_311" >члан 311. </ref>Кривичног законика);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> кривична дела против службене дужности (чл. <ref wId="ref3" href="akn/rs/act/2018/87-24/srp@/!main~art_359" >359</ref>. и <ref wId="ref4" href="akn/rs/act/2018/87-24/srp@/!main~art_361->art_368" >чл. 361. </ref>до 368. Кривичног законика) и кривично дело давање и примање мита у вези са гласањем (<ref wId="ref2" href="akn/rs/act/2018/87-24/srp@/!main~art_156" >члан 156. </ref>Кривичног законика);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> кривична дела против привреде (чл. <ref wId="ref6" href="akn/rs/act/2018/87-24/srp@/!main~art_223" >223</ref>, <ref wId="ref7" href="akn/rs/act/2018/87-24/srp@/!main~art_223а" >223а</ref>, <ref wId="ref8" href="akn/rs/act/2018/87-24/srp@/!main~art_224" >224</ref>, <ref wId="ref9" href="akn/rs/act/2018/87-24/srp@/!main~art_224а" >224а</ref>, <ref wId="ref10" href="akn/rs/act/2018/87-24/srp@/!main~art_227" >227</ref>, <ref wId="ref11" href="akn/rs/act/2018/87-24/srp@/!main~art_228" >228</ref>, <ref wId="ref12" href="akn/rs/act/2018/87-24/srp@/!main~art_228а" >228а</ref>, <ref wId="ref13" href="akn/rs/act/2018/87-24/srp@/!main~art_229" >229</ref>, <ref wId="ref14" href="akn/rs/act/2018/87-24/srp@/!main~art_230" >230</ref>, <ref wId="ref15" href="akn/rs/act/2018/87-24/srp@/!main~art_231" >231</ref>, <ref wId="ref16" href="akn/rs/act/2018/87-24/srp@/!main~art_232" >232</ref>, <ref wId="ref17" href="akn/rs/act/2018/87-24/srp@/!main~art_232а" >232а</ref>, <ref wId="ref18" href="akn/rs/act/2018/87-24/srp@/!main~art_233" >233</ref>, <ref wId="ref5" href="akn/rs/act/2018/87-24/srp@/!main~art_235__para_4" >члана 235. став 4, </ref>чл. <ref wId="ref19" href="akn/rs/act/2018/87-24/srp@/!main~art_236" >236</ref>. и <ref wId="ref20" href="akn/rs/act/2018/87-24/srp@/!main~art_245" >245</ref>. Кривичног законика);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> кривично дело тероризам (<ref wId="ref21" href="akn/rs/act/2018/87-24/srp@/!main~art_391" >члан 391. </ref>Кривичног законика), кривично дело јавно подстицање на извршење терористичких дела (<ref wId="ref22" href="akn/rs/act/2018/87-24/srp@/!main~art_391а" >члан 391а </ref>Кривичног законика), кривично дело врбовање и обучавање за вршење терористичких дела (<ref wId="ref23" href="akn/rs/act/2018/87-24/srp@/!main~art_391б" >члан 391б </ref>Кривичног законика), кривично дело употреба смртоносне направе (<ref wId="ref24" href="akn/rs/act/2018/87-24/srp@/!main~art_391в" >члан 391в </ref>Кривичног законика), кривично дело уништење и оштећење нуклеарног објекта (<ref wId="ref25" href="akn/rs/act/2018/87-24/srp@/!main~art_391г" >члан 391г </ref>Кривичног законика), кривично дело финансирање тероризма (<ref wId="ref26" href="akn/rs/act/2018/87-24/srp@/!main~art_393" >члан 393. </ref>Кривичног законика) и кривично дело терористичко удруживање (<ref wId="ref27" href="akn/rs/act/2018/87-24/srp@/!main~art_393а" >члан 393а </ref>Кривичног законика);</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> кривична дела против државних органа (<ref wId="ref33" href="akn/rs/act/2018/87-24/srp@/!main~art_322__para_3->para_4" >члан 322. ст. 3. и 4. </ref>и <ref wId="ref34" href="akn/rs/act/2018/87-24/srp@/!main~art_323__para_3->para_4" >члан 323. ст. 3. и 4. </ref>Кривичног законика) и кривична дела против правосуђа (чл. <ref wId="ref28" href="akn/rs/act/2018/87-24/srp@/!main~art_333" >333</ref>. и <ref wId="ref29" href="akn/rs/act/2018/87-24/srp@/!main~art_335" >335</ref>, члан 336. ст. <ref wId="ref35" href="akn/rs/act/2018/87-24/srp@/!main~art_336__para_1->para_2" >1, 2</ref>. и <ref wId="ref36" href="akn/rs/act/2018/87-24/srp@/!main~art_336__para_4" >4</ref>. и чл. <ref wId="ref30" href="akn/rs/act/2018/87-24/srp@/!main~art_336б" >336б</ref>, <ref wId="ref31" href="akn/rs/act/2018/87-24/srp@/!main~art_337" >337</ref>. и <ref wId="ref32" href="akn/rs/act/2018/87-24/srp@/!main~art_339" >339</ref>. Кривичног законика), ако су извршена у вези са кривичним делима из<ref wId="ref37" href="akn/rs/act/2018/87-24/srp@/!main~" > тач. 1) </ref>до 5) овог члана.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОРГАНИЗАЦИЈА И НАДЛЕЖНОСТ ДРЖАВНИХ ОРГАНА У СУЗБИЈАЊУ ОРГАНИЗОВАНОГ КРИМИНАЛА И ТЕРОРИЗМА</heading>
+				<article wId="gla2-clan3">
+					<num>3.</num>
+					<heading>Кривична дела за која поступају државни органи надлежни за сузбијање организованог криминала и тероризма</heading>
+					<paragraph wId="gla2-clan3-stav1">
+						<intro>
+							<p>Кривична дела за која поступају државни органи надлежни за сузбијање организованог криминала и тероризма су:</p>
+						</intro>
+						<point wId="gla2-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> кривична дела из члана 2. тач. <ref wId="ref38" href="akn/rs/act/2018/87-24/srp@/!main~art_2__para_1__point_1" >1</ref>), <ref wId="ref39" href="akn/rs/act/2018/87-24/srp@/!main~art_2__para_1__point_2" >2</ref>) и <ref wId="ref40" href="akn/rs/act/2018/87-24/srp@/!main~art_2__para_1__point_5" >5</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> кривичних дела против службене дужности (чл. <ref wId="ref41" href="akn/rs/act/2018/87-24/srp@/!main~art_359" >359</ref>, <ref wId="ref42" href="akn/rs/act/2018/87-24/srp@/!main~art_366" >366</ref>, <ref wId="ref43" href="akn/rs/act/2018/87-24/srp@/!main~art_367" >367</ref>. и <ref wId="ref44" href="akn/rs/act/2018/87-24/srp@/!main~art_368" >368</ref>. Кривичног законика), када је окривљени, односно лице којем се даје мито, службено или одговорно лице које врши јавну функцију на основу избора, именовања или постављења од стране Народне скупштине, председника Републике, Владе, опште седнице Врховног касационог суда, Високог савета судства или Државног већа тужилаца;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> кривична дела из члана 2. тачка <ref wId="ref45" href="akn/rs/act/2018/87-24/srp@/!main~art_2__para_1__point_4" >4</ref>) овог закона ако вредност имовинске користи прелази 200.000.000 динара, односно ако вредност јавне набавке прелази 800.000.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> кривична дела из члана 2. тачка <ref wId="ref46" href="akn/rs/act/2018/87-24/srp@/!main~art_2__para_1__point_6" >6</ref>) овог закона ако су извршена у вези са кривичним делима из<ref wId="ref47" href="akn/rs/act/2018/87-24/srp@/!main~" > тач. 1) </ref>до 3) овог члана;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan3-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> кривично дело прања новца (<ref wId="ref48" href="akn/rs/act/2018/87-24/srp@/!main~art_245" >члан 245. </ref>Кривичног законика) у случају ако имовина која је предмет прања новца потиче из кривичних дела из<ref wId="ref49" href="akn/rs/act/2018/87-24/srp@/!main~" > тач. 1) </ref>до 4) овог члана.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Државни органи надлежни за поступање у предметима кривичних дела организованог криминала и тероризма</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<intro>
+							<p>За поступање у предметима кривичних дела из <ref wId="ref50" href="akn/rs/act/2018/87-24/srp@/!main~art_3" >члана 3. овог</ref> закона надлежни су:</p>
+						</intro>
+						<point wId="gla2-clan4-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> Тужилаштво за организовани криминал;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Министарство унутрашњих послова – организациона јединица надлежна за сузбијање организованог криминала;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> Посебно одељење Вишег суда у Београду за организовани криминал;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> Посебно одељење Апелационог суда у Београду за организовани криминал;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan4-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> Посебна притворска јединица Окружног затвора у Београду.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Тужилаштво за организовани криминал</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Тужилаштво за организовани криминал надлежно је за поступање у предметима кривичних дела из <ref wId="ref51" href="akn/rs/act/2018/87-24/srp@/!main~art_3" >члана 3. овог</ref> закона за територију Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Радом Тужилаштва за организовани криминал руководи Тужилац за организовани криминал (у даљем тексту: Тужилац).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Приликом предлагања кандидата за Тужиоца, односно избора заменика Тужиоца, предност имају кандидати који поседују потребна стручна знања и искуство из области борбе против организованог криминала и корупције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<content>
+							<p>Ако овим законом није другачије одређено, на Тужилаштво за организовани криминал примењују се одредбе закона којим се уређује јавно тужилаштво.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Oрганизациона јединица надлежна за сузбијање организованог криминала</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Полицијске послове у вези са кривичним делима из <ref wId="ref52" href="akn/rs/act/2018/87-24/srp@/!main~art_3" >члана 3. овог</ref> закона обавља Министарство унутрашњих послова – организациона јединица надлежна за сузбијање организованог криминала.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Oрганизациона јединица надлежна за сузбијање организованог криминала поступа по захтевима Тужиоца, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav3">
+						<content>
+							<p>Министар надлежан за унутрашње послове, уз прибављено мишљење Тужиоца, поставља и разрешава старешину организационе јединице надлежне за сузбијање организованог криминала и доноси акт којим ближе уређује организацију и рад организационe јединице надлежне за сузбијање организованог криминала, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Посебно одељење Вишег суда у Београду за организовани криминал</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>За поступање у предметима кривичних дела из <ref wId="ref53" href="akn/rs/act/2018/87-24/srp@/!main~art_3" >члана 3. овог</ref> закона надлежан је Виши суд у Београду, као првостепени, за територију Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Надлежност из <ref wId="ref54" href="akn/rs/act/2018/87-24/srp@/!main~art_7__para_1" >става 1. овог</ref> члана врши Посебно одељење Вишег суда у Београду за организовани криминал (у даљем тексту: Посебно одељење Вишег суда за организовани криминал).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Радом Посебног одељења Вишег суда за организовани криминал руководи председник овог одељења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Председника Посебног одељења Вишег суда за организовани криминал поставља председник Вишег суда у Београду из реда судија распоређених на рад у то одељење, на време од четири године. Председник Посебног одељења Вишег суда за организовани криминал мора имати најмање десет година професионалног искуства у области кривичног права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav5">
+						<content>
+							<p>Судије у Посебно одељење Вишег суда за организовани криминал распоређује председник Вишег суда у Београду, на време од шест година, уз њихову писмену сагласност. Судија Посебног одељења Вишег суда за организовани криминал мора имати најмање осам година професионалног искуства у области кривичног права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav6">
+						<content>
+							<p>Изузетно од одредаба Закона о судијама, Високи савет судства може упутити судију из другог суда на рад у Посебно одељење Вишег суда за организовани криминал, на време од шест година, уз његову писмену сагласност. Судија који се упућује мора испуњавати услове из <ref wId="ref55" href="akn/rs/act/2018/87-24/srp@/!main~art_7__para_5" >става 5. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav7">
+						<content>
+							<p>Приликом распоређивања, односно упућивања у Посебно одељење Вишег суда за организовани криминал, предност имају судије које поседују потребна стручна знања и искуство из области борбе против организованог криминала и корупције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav8">
+						<content>
+							<p>Председник Вишег суда у Београду ближе уређује рад Посебног одељења Вишег суда за организовани криминал.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Посебно одељење Апелационог суда у Београду за организовани криминал</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>За одлучивање у другом степену у предметима кривичних дела из <ref wId="ref56" href="akn/rs/act/2018/87-24/srp@/!main~art_3" >члана 3. овог</ref> закона надлежан је Апелациони суд у Београду, за територију Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Надлежност из <ref wId="ref57" href="akn/rs/act/2018/87-24/srp@/!main~art_8__para_1" >става 1. овог</ref> члана врши Посебно одељење Апелационог суда у Београду за организовани криминал (у даљем тексту: Посебно одељење Апелационог суда за организовани криминал).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Радом Посебног одељења Апелационог суда за организовани криминал руководи председник тог одељења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav4">
+						<content>
+							<p>Председника Посебног одељења Апелационог суда за организовани криминал поставља председник Апелационог суда у Београду из реда судија распоређених на рад у то одељење, на време од четири године. Председник Посебног одељења Апелационог суда за организовани криминал мора имати најмање 12 година професионалног искуства у области кривичног права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav5">
+						<content>
+							<p>Судије у Посебно одељење Апелационог суда за организовани криминал распоређује председник Апелационог суда у Београду, на време од шест година, уз њихову писмену сагласност. Судија Посебног одељења Апелационог суда за организовани криминал мора имати најмање десет година професионалног искуства у области кривичног права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav6">
+						<content>
+							<p>Изузетно од одредаба Закона о судијама, Високи савет судства може упутити судију из другог суда на рад у Посебно одељење Апелационог суда за организовани криминал, на време од шест година, уз његову писмену сагласност. Судија који се упућује мора испуњавати услове из <ref wId="ref58" href="akn/rs/act/2018/87-24/srp@/!main~art_8__para_5" >става 5. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav7">
+						<content>
+							<p>Приликом распоређивања, односно упућивања у Посебно одељење Апелационог суда за организовани криминал, предност имају судије које поседују потребна стручна знања и искуство из области борбе против организованог криминала и корупције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav8">
+						<content>
+							<p>Председник Апелационог суда у Београду ближе уређује рад Посебног одељења Апелационог суда за организовани криминал.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Решавање сукоба надлежности</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Сукоб надлежности између редовних судова за поступање у предметима кривичних дела из <ref wId="ref59" href="akn/rs/act/2018/87-24/srp@/!main~art_3" >члана 3. овог</ref> закона решава Врховни касациони суд.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Одредба <ref wId="ref60" href="akn/rs/act/2018/87-24/srp@/!main~art_9__para_1" >става 1. овог</ref> члана примењује се и у случају сукоба надлежности између Посебног одељења за организовани криминал Вишег суда у Београду и других одељења и већа тога суда.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Посебна притворска јединица</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Притвор одређен у кривичном поступку за кривична дела из <ref wId="ref61" href="akn/rs/act/2018/87-24/srp@/!main~art_3" >члана 3. овог</ref> закона издржава се у Посебној притворској јединици Окружног затвора у Београду (у даљем тексту: Посебна притворска јединица).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Министар надлежан за правосуђе ближе уређује организацију, рад и поступање са притвореницима у Посебној притворској јединици.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Плaтe</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Члaн 11.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav5">
+						<content>
+							<p>Лицa кoja oбaвљajу пoслoвe и зaдaткe у држaвним oргaнимa из <ref wId="ref62" href="akn/rs/act/2018/87-24/srp@/!main~art_4" >члана 4. </ref>oвoг зaкoнa имajу прaвo нa плaту кoja нe мoжe бити вeћa oд двoструкoг изнoсa плaтe кojу би oствaрилa лицa зaпoслeнa нa oдгoвaрajућим пoслoвимa и зaдaцимa у Tужилaштву зa oргaнизoвaни криминaл, Вишeм суду у Бeoгрaду, Aпeлaциoнoм суду у Бeoгрaду, министaрству нaдлeжнoм зa унутрaшњe пoслoвe и Oкружнoм зaтвoру у Бeoгрaду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav6">
+						<content>
+							<p>Увећање плaтe лицa запослених у Tужилaштву зa oргaнизoвaни криминaл, Посебном одељењу Вишег суда у Београду за организовани криминал, Посебном одељења Апелационог суда у Београду за организовани криминал и Посебној притворској јединици Окружног затвора у Београду урeђуje Влaдa, на предлог министра надлежног за послове правосуђа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav7">
+						<content>
+							<p>Престао је да важи ранији <ref wId="ref64" href="akn/rs/act/2018/87-24/srp@/!main~art_10__para_3" >став  3. </ref>(види <ref wId="ref63" href="akn/rs/act/2018/87/srp@/!main~/art_11">члан 11. Закона - 87/2018-24</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav8">
+						<content>
+							<p>Право на стаж осигурања са увећеним трајањем</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav9">
+						<content>
+							<p>Члaн 12.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav10">
+						<content>
+							<p>Судиje рaспoрeђeнe у Пoсeбнo oдeљeњe Вишeг судa за организовани криминал и Пoсeбнo oдeљeњe Aпeлaциoнoг судa за организовани криминал, као и Tужилaц и њeгoви зaмeници, имajу прaвo нa стaж oсигурaњa кojи сe рaчунa сa увeћaним трajaњeм, и тo тaкo штo сe 12 мeсeци прoвeдeних нa рaду у пoсeбним oдeљeњимa тих судoвa, oднoснo Tужилaштву зa oргaнизoвaни криминaл рaчунa кao 16 мeсeци стaжa oсигурaњa.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ОРГАНИЗАЦИЈА И НАДЛЕЖНОСТ ДРЖАВНИХ ОРГАНА У СУЗБИЈАЊУ КОРУПЦИЈЕ</heading>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<heading>Надлежни органи за сузбијање корупције</heading>
+					<paragraph wId="gla3-clan13-stav1">
+						<intro>
+							<p>За поступање у предметима кривичних дела из <ref wId="ref65" href="akn/rs/act/2018/87-24/srp@/!main~art_2" >члана 2. овог</ref> закона, изузев кривичних дела из <ref wId="ref66" href="akn/rs/act/2018/87-24/srp@/!main~art_3" >члана 3. овог</ref> закона надлежни су:</p>
+						</intro>
+						<point wId="gla3-clan13-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> посебна одељења виших јавних тужилаштава за сузбијање корупције;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> Министарство унутрашњих послова – организациона јединица надлежна за сузбијање корупције;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> посебна одељења виших судова за сузбијање корупције.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>Посебна одељења виших јавних тужилаштава за сузбијање корупције</heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>За поступање у предметима кривичних дела из <ref wId="ref67" href="akn/rs/act/2018/87-24/srp@/!main~art_13" >члана 13. овог</ref> закона, надлежна су виша јавна тужилаштва у Београду, Краљеву, Нишу и Новом Саду у којима се образују посебна одељења за сузбијање корупције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Посебно одељење Вишег јавног тужилаштва у Београду за сузбијање корупције, поступа у предметима за подручје Апелационог суда у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav3">
+						<content>
+							<p>Посебно одељење Вишег јавног тужилаштва у Краљеву за сузбијање корупције, поступа у предметима за подручје Апелационог суда у Крагујевцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav4">
+						<content>
+							<p>Посебно одељење Вишег јавног тужилаштва у Нишу за сузбијање корупције, поступа у предметима за подручје Апелационог суда у Нишу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav5">
+						<content>
+							<p>Посебно одељење Вишег јавног тужилаштва у Новом Саду за сузбијање корупције, поступа у предметима за подручје Апелационог суда у Новом Саду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Руковођење, упућивање и координација рада посебних одељења виших јавних тужилаштава за сузбијање корупције</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Радом посебног одељења вишег јавног тужилаштва за сузбијање корупције из <ref wId="ref68" href="akn/rs/act/2018/87-24/srp@/!main~art_13" >члана 13. овог</ref> закона, руководи руководилац одељења кога поставља виши јавни тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Руководилац одељења и заменици јавног тужиоца постављају се, распоређују, односно упућују у посебно одељење вишег јавног тужилаштва за сузбијање корупције из реда заменика јавних тужилаца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>Приликом постављења руководиоца одељења, односно распоређивања или упућивања заменика јавних тужилаца у посебно одељење вишег јавног тужилаштва за сузбијање корупције, води се рачуна о поседовању потребних стручних знања и искустава из области борбе против привредног криминала и сузбијања кривичних дела против службене дужности и корупције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav4">
+						<content>
+							<p>За постављење руководиоца одељења, односно упућивање заменика јавних тужилаца у посебно одељење вишег јавног тужилаштва за сузбијање корупције неопходна је сагласност заменика јавног тужиоца у случају да се поставља, односно упућује из јавног тужилаштва у којем није образовано посебно одељење вишег јавног тужилаштва за сузбијање корупције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav5">
+						<content>
+							<p>Координацију рада посебних одељења виших јавних тужилаштава за сузбијање корупције врши Тужилац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav6">
+						<content>
+							<p>У циљу координације рада, Тужилац сазива састанке, на којима учествују сви руководиоци посебних одељења, најмање једном месечно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Oрганизациона јединица надлежна за сузбијање корупције</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>Полицијске послове у вези са кривичним делима из <ref wId="ref69" href="akn/rs/act/2018/87-24/srp@/!main~art_13" >члана 13. овог</ref> закона обавља Министарство унутрашњих послова – организациона јединица надлежна за сузбијање корупције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>Oрганизациона јединица надлежна за сузбијање корупције поступа по захтеву надлежног вишег јавног тужиоца, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav3">
+						<content>
+							<p>У оквиру oрганизационe јединицe надлежнe за сузбијање корупције одредиће се по један полицијски службеник као координатор свих надлежних јединица полиције, ради поступања по захтевима надлежног јавног тужиоца из <ref wId="ref70" href="akn/rs/act/2018/87-24/srp@/!main~art_14" >члана 14. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav4">
+						<content>
+							<p>Рокови, начин поступања и начин службене комуникације посебних одељења виших јавних тужилаштава и организационe јединицe надлежнe за сузбијање корупције уређују се актом који заједно доносе министар надлежан за послове правосуђа и министар надлежан за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav5">
+						<content>
+							<p>Министар надлежан за унутрашње послове доноси акт којим ближе уређује рад и организацију организационe јединицe надлежне за сузбијање корупције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<heading>Месна надлежност виших судова</heading>
+					<paragraph wId="gla3-clan17-stav1">
+						<content>
+							<p>За поступање у предметима кривичних дела из <ref wId="ref71" href="akn/rs/act/2018/87-24/srp@/!main~art_13" >члана 13. овог</ref> закона у првом степену, надлежни су виши судови у Београду, Краљеву, Нишу и Новом Саду, као првостепени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav2">
+						<content>
+							<p>Виши суд у Београду, поступа у предметима за подручје Апелационог суда у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav3">
+						<content>
+							<p>Виши суд у Краљеву, поступа у предметима за подручје Апелационог суда у Крагујевцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav4">
+						<content>
+							<p>Виши суд у Нишу, поступа у предметима за подручје Апелационог суда у Нишу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav5">
+						<content>
+							<p>Виши суд у Новом Саду, поступа у предметима за подручје Апелационог суда у Новом Саду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan18">
+					<num>18.</num>
+					<heading>Посебна одељења виших судова за сузбијање корупције</heading>
+					<paragraph wId="gla3-clan18-stav1">
+						<content>
+							<p>У Вишим судовима у Београду, Краљеву, Нишу и Новом Саду образују се посебна одељења за поступање у предметима кривичних дела из <ref wId="ref72" href="akn/rs/act/2018/87-24/srp@/!main~art_13" >члана 13. овог</ref> закона (у даљем тексту: посебно одељење вишег суда за сузбијање корупције).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav2">
+						<content>
+							<p>Радом посебног одељења вишег суда за сузбијање корупције руководи председник тог одељења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav3">
+						<content>
+							<p>Председника посебног одељења вишег суда за сузбијање корупције поставља председник вишег суда из реда судија распоређених на рад у то одељење на време од четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav4">
+						<content>
+							<p>Судије у посебно одељење вишег суда за сузбијање корупције распоређује председник вишег суда, на време од шест година, уз њихову писмену сагласност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav5">
+						<content>
+							<p>Високи савет судства може упутити судију из другог суда на рад у посебно одељење за сузбијање корупције, на време од шест година, уз његову писмену сагласност. Председник вишег суда ближе уређује рад посебног одељења вишег суда за сузбијање корупције.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>СЛУЖБА ФИНАНСИЈСКЕ ФОРЕНЗИКЕ</heading>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>У Тужилаштву за организовани криминал и посебним одељењима виших јавних тужилаштава из овог закона може се образовати служба финансијске форензике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav2">
+						<content>
+							<p>Послове службе финансијске форензике обављају финансијски форензичари.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav3">
+						<content>
+							<p>Финансијски форензичар је лице које помаже јавном тужиоцу у анализи токова новца и финансијских трансакција у циљу кривичног гоњења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav4">
+						<content>
+							<p>Финансијски форензичар је државни службеник који поседује посебна стручна знања из области финансија, рачуноводства, ревизије, банкарског, берзанског и привредног пословања, а који је завршио и специјализовану обуку у Правосудној академији из области кривичног права.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>САРАДЊА ДРЖАВНИХ ОРГАНА</heading>
+				<article wId="gla5-clan20">
+					<num>20.</num>
+					<heading>Службеници за везу</heading>
+					<paragraph wId="gla5-clan20-stav1">
+						<content>
+							<p>Пореска управа – Пореска полиција, Управа царина, Народна банка Србије, Управа за спречавање прања новца, Агенција за привредне регистре, Централни регистар депо и клиринг хартија од вредности, Државна ревизорска институција, Републички геодетски завод, Агенција за борбу против корупције, Републички фонд за пензијско и инвалидско осигурање, Републички фонд за здравствено осигурање, Републичка дирекција за имовину Републике Србије и Управа за јавне набавке морају да одреде најмање једног службеника за везу, ради остваривања сарадње и ефикаснијег достављања података тих органа и организација Тужилаштву за организовани криминал и посебних одељења виших јавних тужилаштва за сузбијање корупције у циљу кривичног гоњења за кривична дела прописана овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref73" href="akn/rs/act/2018/87-24/srp@/!main~art_20__para_1" >става 1. овог</ref> члана, на захтев надлежног јавног тужиоца, службеници за везу морају бити одређени и у другим органима и организацијама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav3">
+						<content>
+							<p>У случају потребе, службеници за везу који имају статус државног службеника могу бити привремено премештени у Тужилаштво за организовани криминал и посебно одељење вишег јавног тужилаштва за сузбијање корупције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav4">
+						<content>
+							<p>У случају из <ref wId="ref74" href="akn/rs/act/2018/87-24/srp@/!main~art_20__para_3" >става 3. овог</ref> члана премештај се врши на захтев надлежног јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav5">
+						<content>
+							<p>Привремени премештај траје најдуже три године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav6">
+						<content>
+							<p>Решење о привременом премештају доноси орган из кога се запослени упућује, уз писмену сагласност запосленог и надлежног јавног тужиоца.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan21">
+					<num>21.</num>
+					<heading>Ударне групе</heading>
+					<paragraph wId="gla5-clan21-stav1">
+						<content>
+							<p>У Тужилаштву за организовани криминал и посебним одељењима виших јавних тужилаштава за сузбијање корупције могу се формирати ударне групе, са циљем да раде на откривању и гоњењу кривичних дела која су предмет рада ударне групе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav2">
+						<content>
+							<p>Ударна група се образује одлуком Тужиоца, односно одлуком надлежног вишег јавног тужиоца, по прибављеној сагласности Републичког јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav3">
+						<content>
+							<p>Одлуком о образовању уређује се састав ударне групе, начин рада, задатак, период за који се образује и друга питања од значаја за рад ударне групе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<heading>Руковођење ударном групом</heading>
+					<paragraph wId="gla5-clan22-stav1">
+						<content>
+							<p>Ударном групом која се образује у Тужилаштву за организовани криминал руководи Тужилац или његов заменик.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav2">
+						<content>
+							<p>Ударном групом која се образује у посебном одељењу вишег јавног тужилаштва за сузбијање корупције руководи јавни тужилац, руководилац посебног одељења или заменик јавног тужиоца распоређен у посебно одељење вишег јавног тужилаштва за сузбијање корупције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan23">
+					<num>23.</num>
+					<heading>Састав ударне групе</heading>
+					<paragraph wId="gla5-clan23-stav1">
+						<content>
+							<p>У састав ударне групе именују се чланови из реда запослених у државним и другим органима, зависно од предмета рада утврђеног одлуком о образовању ударне групе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav2">
+						<content>
+							<p>Запослени из <ref wId="ref75" href="akn/rs/act/2018/87-24/srp@/!main~art_23__para_1" >става 1. овог</ref> члана могу се именовати у састав ударне групе само уз њихову сагласност и сагласност руководиоца органа из којег се именује запослени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav3">
+						<content>
+							<p>Запослени из <ref wId="ref76" href="akn/rs/act/2018/87-24/srp@/!main~art_23__para_1" >става 1. овог</ref> члана може бити потпуно или делимично ослобођен обављања редовног посла у државном и другом органу у којем су запослени, на основу споразума надлежног јавног тужиоца и руководиоца у државном и другом органу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ОБУКА</heading>
+				<article wId="gla6-clan24">
+					<num>24.</num>
+					<paragraph wId="gla6-clan24-stav1">
+						<content>
+							<p>Носиоци правосудних функција који врше функцију у судовима и јавним тужилаштвима, односно њиховим одељењима прописаним овим законом, дужни су да похађају програм сталне обуке коју спроводи Правосудна академија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan24-stav2">
+						<content>
+							<p>Припадници полиције који обављају послове и задатке, у смислу овог закона, дужни су да похађају програм сталне обуке коју спроводи Правосудна академија у сарадњи са другим институцијама.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПОДАЦИ О ИМОВНОМ СТАЊУ И БЕЗБЕДНОСНЕ ПРОВЕРЕ ЛИЦА</heading>
+				<article wId="gla7-clan25">
+					<num>25.</num>
+					<heading>Подаци о имовном стању</heading>
+					<paragraph wId="gla7-clan25-stav1">
+						<content>
+							<p>Лица која врше функцију, односно обављају послове и задатке у државним органима и посебним организационим јединицама из чл. <ref wId="ref77" href="akn/rs/act/2018/87-24/srp@/!main~art_4" >4</ref>. и <ref wId="ref78" href="akn/rs/act/2018/87-24/srp@/!main~art_13" >13</ref>. овог закона, дужна су да пре ступања на функцију, односно рад, доставе Агенцији за борбу против корупције, у писаној форми, потпуне и тачне податке о својој имовини и имовини супружника или ванбрачног партнера, као и малолетне деце уколико живе у истом породичном домаћинству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan25-stav2">
+						<content>
+							<p>Евидентирање и проверу података из <ref wId="ref79" href="akn/rs/act/2018/87-24/srp@/!main~art_25__para_1" >става 1. овог</ref> члана врши Агенција за борбу против корупције, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan26">
+					<num>26.</num>
+					<heading>Безбедноснo проверавање</heading>
+					<paragraph wId="gla7-clan26-stav1">
+						<content>
+							<p>Безбедносно проверавање лица која врше функцију, односно обављају послове и задатке у државним органима и посебним организационим јединицама из чл. <ref wId="ref80" href="akn/rs/act/2018/87-24/srp@/!main~art_4" >4</ref>. и <ref wId="ref81" href="akn/rs/act/2018/87-24/srp@/!main~art_13" >13</ref>. овог закона спроводе министарство надлежно за унутрашње послове, у сврху утврђивања постојања сметњи са становишта заштите јавног поретка и Безбедносно-информативна агенција, у сврху утврђивања постојања сметњи са становишта безбедности Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan26-stav2">
+						<content>
+							<p>Безбедносно проверавање, на писмени захтев руководиоца државних органа или посебних организационих јединица из чл. <ref wId="ref82" href="akn/rs/act/2018/87-24/srp@/!main~art_4" >4</ref>. и <ref wId="ref83" href="akn/rs/act/2018/87-24/srp@/!main~art_13" >13</ref>. овог закона, може се обавити без знања лица која се проверавају, и то пре ступања на рад, односно функцију, током вршења функције, односно обављања послова, као и годину дана по престанку вршења функције, односно обављања послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan26-stav3">
+						<content>
+							<p>У захтеву из <ref wId="ref84" href="akn/rs/act/2018/87-24/srp@/!main~art_26__para_2" >става 2. овог</ref> члана мора се навести правни основ, сврха и обим проверавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan26-stav4">
+						<content>
+							<p>У поступку безбедносног проверавања прикупљају се и проверавају подаци у погледу лица према коме се спроводи проверавање, неопходни да се оствари сврха безбедносног проверавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan26-stav5">
+						<content>
+							<p>Безбедносно проверавање се врши обављањем разговора са грађанима, прикупљањем података од правних лица, других органа власти или увидом у регистре, евиденције, збирке и базе података који се воде на основу закона, као и предузимањем других мера у складу са законом и прописима донетим на основу закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan26-stav6">
+						<content>
+							<p>О спроведеном безбедносном проверавању сачињава се извештај који се доставља државном органу или посебним организационим јединицама из чл. <ref wId="ref85" href="akn/rs/act/2018/87-24/srp@/!main~art_4" >4</ref>. и <ref wId="ref86" href="akn/rs/act/2018/87-24/srp@/!main~art_13" >13</ref>. овог закона који су упутили захтев за безбедносно проверавање. У извештају се не могу налазити подаци на основу којих би се откриле методе и поступци коришћени у прикупљању података, идентификовали извори података или припадници министарства надлежног за унутрашње послове, односно Безбедносно-информативне агенције који су учествовали у безбедносном проверавању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan26-stav7">
+						<content>
+							<p>Подаци прикупљени безбедносним проверавањем евидентирају се, чувају и штите у складу са законом којим се уређује тајност података и законом којим се уређује заштита података о личности, а користе се само у сврху за коју су прикупљени.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ЧУВАЊЕ ТАЈНИХ ПОДАТАКА</heading>
+				<article wId="gla8-clan27">
+					<num>27.</num>
+					<paragraph wId="gla8-clan27-stav1">
+						<content>
+							<p>Сва лица која извршавају послове и задатке у оквиру надлежности државних органа у сузбијању кривичних дела из <ref wId="ref87" href="akn/rs/act/2018/87-24/srp@/!main~art_2" >члана 2. овог</ref> закона дужна су да податке и сазнања до којих дођу приликом обављања тих послова и задатака чувају као тајне податке, у складу са прописима којима се уређује тајност података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan27-stav2">
+						<content>
+							<p>Без одобрења надлежног јавног тужиоца не могу се јавно износити подаци из предистражног поступка и истраге у поступцима за кривична дела из <ref wId="ref88" href="akn/rs/act/2018/87-24/srp@/!main~art_2" >члана 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan27-stav3">
+						<content>
+							<p>Подаци из чл. <ref wId="ref89" href="akn/rs/act/2018/87-24/srp@/!main~art_25" >25</ref>. и <ref wId="ref90" href="akn/rs/act/2018/87-24/srp@/!main~art_26" >26</ref>. овог закона су тајни подаци одређени у складу са законом којим се уређује тајност података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan27-stav4">
+						<content>
+							<p>IХ. ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan28">
+					<num>28.</num>
+					<heading>Наставак рада постојећих органа и почетак рада нових органа</heading>
+					<paragraph wId="gla8-clan28-stav1">
+						<content>
+							<p>Тужилаштво за организовани криминал, посебна одељења Вишег суда у Београду и Апелационог суда у Београду и Посебна притворска јединица, образовани у складу са Законом о организацији и надлежности државних органа у сузбијању организованог криминала, корупције и других посебно тешких кривичних дела („Службени гласник РС”, бр. <ref wId="ref91" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref92" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref93" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref94" href="akn/rs/act/03/67/srp@">67/03</ref>, <ref wId="ref95" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref96" href="akn/rs/act/04/58/srp@">58/04</ref> – др. закон, 45/05, 61/05, 72/09, <ref wId="ref97" href="akn/rs/act/11/72/srp@">72/11 – др. закон</ref>, <ref wId="ref98" href="akn/rs/act/11/101/srp@">101/11 – др. закон</ref> и 32/13) настављају да раде у складу са овим законом од дана почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan28-stav2">
+						<content>
+							<p>Од дана почетка примене овог закона Служба за сузбијање организованог криминала, образована у складу са Законом о организацији и надлежности државних органа у сузбијању организованог криминала, корупције и других посебно тешких кривичних дела („Службени гласник РС”, бр. <ref wId="ref99" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref100" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref101" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref102" href="akn/rs/act/03/67/srp@">67/03</ref>, <ref wId="ref103" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref104" href="akn/rs/act/04/58/srp@">58/04</ref> – др. закон, 45/05, 61/05, 72/09, <ref wId="ref105" href="akn/rs/act/11/72/srp@">72/11 – др. закон</ref>, <ref wId="ref106" href="akn/rs/act/11/101/srp@">101/11 – др. закон</ref> и 32/13), наставља да ради као организациона јединица надлежна за сузбијање организованог криминала у Министарству унутрашњих послова, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan28-stav3">
+						<content>
+							<p>Посебна одељења за сузбијање корупције Вишег јавног тужилаштава у Београду, Краљеву, Нишу и Новом Саду, организациона јединица надлежна за сузбијање корупције у Министарству унутрашњих послова и посебна одељења за сузбијање корупције Вишег суда у Београду, Краљеву, Нишу и Новом Саду почињу са радом даном почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan29">
+					<num>29.</num>
+					<heading>Рад Безбедносно-информативне агенције и Војнобезбедносне агенције</heading>
+					<paragraph wId="gla8-clan29-stav1">
+						<content>
+							<p>Независно од одредаба овог закона, Безбедносно-информативна агенција и Војнобезбедносна агенција настављају са радом у предметима кривичних дела организованог криминала, тероризма и корупције одређених овим законом, у складу са надлежностима и овлашћењима одређеним законима и другим прописима којима се уређује рад ових агенција, као и законом којим се уређује кривични поступак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan30">
+					<num>30.</num>
+					<heading>Започети поступци</heading>
+					<paragraph wId="gla8-clan30-stav1">
+						<content>
+							<p>Кривични поступци покренути због кривичних дела из <ref wId="ref107" href="akn/rs/act/2018/87-24/srp@/!main~art_2" >члана 2. овог</ref> закона окончаће се пред јавним тужилаштвом или пред стварно и месно надлежним судом, односно одељењем суда које је било функционално надлежно пре дана почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan31">
+					<num>31.</num>
+					<heading>Рок за доношење подзаконског прописа</heading>
+					<paragraph wId="gla8-clan31-stav1">
+						<content>
+							<p>Подзаконски акти предвиђени овим законом донеће се до дана почетка примене овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan31-stav2">
+						<content>
+							<p>Дo дoнoшeњa аката прeдвиђeних oвим зaкoнoм примeњуjу сe акти дoнeти прeмa oдрeдбaмa Закона о организацији и надлежности државних органа у сузбијању организованог криминала, корупције и других посебно тешких кривичних дела („Службени гласник РС”, бр. <ref wId="ref108" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref109" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref110" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref111" href="akn/rs/act/03/67/srp@">67/03</ref>, <ref wId="ref112" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref113" href="akn/rs/act/04/58/srp@">58/04</ref> – др. закон, 45/05, 61/05, 72/09, <ref wId="ref114" href="akn/rs/act/11/72/srp@">72/11 – др. закон</ref>, <ref wId="ref115" href="akn/rs/act/11/101/srp@">101/11 – др. закон</ref> и 32/13), aкo нису у супрoтнoсти сa oвим зaкoнoм.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan32">
+					<num>32.</num>
+					<heading>Престанак важења ранијег закона</heading>
+					<paragraph wId="gla8-clan32-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престаје да важи Закон о организацији и надлежности државних органа у сузбијању организованог криминала, корупције и других посебно тешких кривичних дела („Службени гласник РС”, бр. <ref wId="ref116" href="akn/rs/act/02/42/srp@">42/02</ref>, <ref wId="ref117" href="akn/rs/act/03/27/srp@">27/03</ref>, <ref wId="ref118" href="akn/rs/act/03/39/srp@">39/03</ref>, <ref wId="ref119" href="akn/rs/act/03/67/srp@">67/03</ref>, <ref wId="ref120" href="akn/rs/act/04/29/srp@">29/04</ref>, <ref wId="ref121" href="akn/rs/act/04/58/srp@">58/04</ref> – др. закон, 45/05, 61/05, 72/09, <ref wId="ref122" href="akn/rs/act/11/72/srp@">72/11 – др. закон</ref>, <ref wId="ref123" href="akn/rs/act/11/101/srp@">101/11 – др. закон</ref> и 32/13).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan33">
+					<num>33.</num>
+					<heading>Завршна одредба</heading>
+					<paragraph wId="gla8-clan33-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а примењује се од 1. марта 2018. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,834 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о спречавању дискриминације особа са инвалидитетом">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2006/33-3/main"/>
+					<FRBRuri value="akn/rs/act/2006/33-3"/>
+					<FRBRdate date="2006-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2016/13-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2016/13-3/srp@"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2016/13-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2016/13-3/srp@.akn"/>
+					<FRBRdate date="2016-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2006-04-17" name="службени гласник рс“" number="33" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="15. Заштита људских права и права припадника националних мањина" value="15. заштита људских права и права припадника националних мањина" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2006-01-01" refersTo="33/2006-3" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2016-01-01" refersTo="13/2016-3" source="#somebody" type="amendment" wId="e2"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2006-04-17" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2006-04-25" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2006-04-25" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="инвалидитетом"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="особа"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавне"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="дискриминација"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="власти"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="услуга"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="особи"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="удружења"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="инвалидности"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="пружа"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавним"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="удружењима"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="сматрају"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="условима"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="обухвата"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="под"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавних"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="због"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2007."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17. stav 2. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 2. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="32. i 33."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 25. априла 2006. године, а одредбе чл. 32. и 33. примењују се од 1. јануара 2007. године (види члан 53. Закона).Закон о допунама Закона о спречавању дискриминације особа са инвалидитетом ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 27. фебруара 2016. године (види члан 4. Закона - 13/2016-3).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О спречавању дискриминације особа са инвалидитетом "Службени гласник РС", бр. <ref wId="ref21" href="akn/rs/act/2006/33/srp@">33 од 17. априла 2006</ref>, <ref wId="ref22" href="akn/rs/act/2016/13/srp@">13 од 19. фебруара 2016</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<part wId="deo1">
+				<num>Први део</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="deo1-clan1">
+					<num>1.</num>
+					<heading>Предмет Закона</heading>
+					<paragraph wId="deo1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се општи режим забране дискриминације по основу инвалидности, посебни случајеви дискриминације особа са инвалидитетом, поступак заштите особа изложених дискриминацији и мере које се предузимају ради подстицања равноправности и социјалне укључености особа са инвалидитетом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan2">
+					<num>2.</num>
+					<heading>Начела Закона</heading>
+					<paragraph wId="deo1-clan2-stav1">
+						<content>
+							<p>Овај закон заснива се на начелима:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-od5-clan3">
+					<num>3.</num>
+					<heading>Дефиниције појмова</heading>
+					<paragraph wId="deo1-od5-clan3-stav1">
+						<content>
+							<p>У овом закону:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-od3-clan4">
+					<num>4.</num>
+					<heading>Обавезе органа јавне власти</heading>
+					<paragraph wId="deo1-od3-clan4-stav1">
+						<content>
+							<p>Органи јавне власти дужни су да особама са инвалидитетом обезбеде уживање права и слобода без дискриминације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-od3-clan5">
+					<num>5.</num>
+					<heading>Општа забрана злоупотребе права</heading>
+					<paragraph wId="deo1-od3-clan5-stav1">
+						<content>
+							<p>Забрањено је вршење права утврђених овим законом противно циљу у коме су призната или са намером да се повреде или ограниче права других или да се изазову озбиљне последице по безбедност земље, јавни поредак и морал.</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo2">
+				<num>Други део</num>
+				<heading>ОПШТА ЗАБРАНА ДИСКРИМИНАЦИЈЕ</heading>
+				<article wId="deo2-clan6">
+					<num>6.</num>
+					<heading>Облици дискриминације</heading>
+					<hcontainer name="subpoint" wId="deo2-clan6-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Облици дискриминације су непосредна и посредна дискриминација, као и повреда начела једнаких права и обавеза.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo2-clan6-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Непосредна дискриминација постоји ако се лица или група (у даљем тексту: дискриминисани), у истој или сличној ситуацији, било којим актом или радњом, стављају или су стављени у неповољнији положај или би могли бити стављени у неповољнији положај због његове, односно њихове инвалидности.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo2-clan6-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Посредна дискриминација постоји ако се дискриминисани, због његове инвалидности, ставља у неповољнији положај доношењем акта или предузимањем радње која је привидно заснована на начелу једнакости и недискриминације, осим ако је тај акт или радња оправдана законитим циљем, а средства за постизање тог циља су примерена и нужна.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo2-clan6-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> Дискриминација постоји и у случају:</p>
+						</content>
+					</hcontainer>
+				</article>
+				<hcontainer name="subpoint" wId="deo2-od2-clan6-podtac5">
+					<num>(5)</num>
+					<content>
+						<p> Дискриминацијом се сматра и позивање и навођење на дискриминацију и помагање у дискриминаторском поступању.</p>
+					</content>
+				</hcontainer>
+				<article wId="deo2-od2-clan7">
+					<num>7.</num>
+					<heading>Повреда начела једнаких права и обавеза</heading>
+					<paragraph wId="deo2-od2-clan7-stav1">
+						<content>
+							<p>Повреда начела једнаких права и обавеза постоји:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-od3-clan8">
+					<num>8.</num>
+					<paragraph wId="deo2-od3-clan8-stav1">
+						<content>
+							<p>Не сматрају се повредом начела једнаких права и обавеза нити дискриминацијом:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-od2-clan9">
+					<num>9.</num>
+					<heading>Тешки облици дискриминације</heading>
+					<paragraph wId="deo2-od2-clan9-stav1">
+						<content>
+							<p>Посебно је забрањено и кажњиво:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-od2-clan10">
+					<num>10.</num>
+					<heading>Забрана исписивања и истицања дискриминаторских порука и симбола</heading>
+					<paragraph wId="deo2-od2-clan10-stav1">
+						<content>
+							<p>Забрањено је исписивање и истицање на јавним местима и ширење на други начин порука и симбола којима се позива на дискриминаторско поступање према особама са инвалидитетом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo3">
+				<num>Трећи део</num>
+				<heading>ПОСЕБНИ СЛУЧАЈЕВИ ДИСКРИМИНАЦИЈЕ</heading>
+				<article wId="deo3-clan11">
+					<num>11.</num>
+					<heading>Дискриминација у поступцима пред органом јавне власти</heading>
+					<hcontainer name="subpoint" wId="deo3-clan11-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Орган јавне власти не сме својом радњом или пропуштањем вршити дискриминацију особа са инвалидитетом.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-clan11-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Дискриминација особа са инвалидитетом од стране органа јавне власти обухвата:</p>
+						</content>
+					</hcontainer>
+				</article>
+				<hcontainer name="subpoint" wId="deo3-od4-clan11-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> Посебно тежак облик дискриминације због инвалидности јесте узнемиравање, вређање и омаловажавање особа са инвалидитетом од стране носилаца јавних функција и лица запослених у органима јавне власти у току поступка остваривања права особа са инвалидитетом, због њене инвалидности.</p>
+					</content>
+				</hcontainer>
+				<article wId="deo3-od4-clan12">
+					<num>12.</num>
+					<heading>Дискриминација у вези са удружењима</heading>
+					<hcontainer name="subpoint" wId="deo3-od4-clan12-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Забрањена је дискриминација због инвалидности у удружењима.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od4-clan12-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Дискриминација због инвалидности у удружењима обухвата:</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od4-clan12-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Дискриминацијом због инвалидности не сматра се оснивање или деловање удружења особа са инвалидитетом и других облика њиховог самоорганизовања.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="deo3-od4-clan13">
+					<num>13.</num>
+					<heading>Дискриминација у вези са пружањем услуга и коришћењем објеката и површина</heading>
+					<hcontainer name="subpoint" wId="deo3-od4-clan13-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Забрањена је дискриминација на основу инвалидности у погледу доступности услуга и приступа објектима у јавној употреби и јавним површинама.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od4-clan13-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Под услугом, у смислу овог закона, сматра се свака услуга коју, уз накнаду или без ње, правно или физичко лице пружа у оквиру своје делатности, односно трајног занимања.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od4-clan13-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Под објектима у јавној употреби, у смислу овог закона, сматрају се: објекти у области образовања, здравства, социјалне заштите, културе, спорта, туризма или објекти који се користе за заштиту животне средине, заштиту од елементарних непогода и слично.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od4-clan13-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> Под јавним површинама, у смислу овог закона, сматрају се: паркови, зелене површине, тргови, улице, пешачки прелази и друге јавне саобраћајнице и слично.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od4-clan13-podtac5">
+						<num>(5)</num>
+						<content>
+							<p> Дискриминација на основу инвалидности у погледу доступности услуга нарочито обухвата:</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="deo3-od3-clan14">
+					<num>14.</num>
+					<paragraph wId="deo3-od3-clan14-stav1">
+						<content>
+							<p>Дискриминацијом у смислу <ref wId="ref0" href="akn/rs/act/2016/13-3/srp@/!main~art_13" >члана 13. овог</ref> закона не сматра се:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od3-clan15">
+					<num>15.</num>
+					<paragraph wId="deo3-od3-clan15-stav1">
+						<content>
+							<p>Посебно тежак облик дискриминације због инвалидности јесте узнемиравање, вређање и омаловажавање особа са инвалидитетом – корисника услуге због њене инвалидности, када те радње врши лице које непосредно пружа услугу или њему надређено лице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od3-clan16">
+					<num>16.</num>
+					<hcontainer name="subpoint" wId="deo3-od3-clan16-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Власник објекта у јавној употреби, као и јавно предузеће надлежно за одржавање јавних површина, дужни су да обезбеде приступ објекту у јавној употреби, односно јавној површини свим особама са инвалидитетом, без обзира на врсту и степен њихове инвалидности.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od3-clan16-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Обавезу из става 1. овог члана има и друго лице на које је пренето право коришћења, осим ако је са власником, односно надлежним органом уговорило другачије.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od3-clan16-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Власник објекта у јавној употреби дужан је да изврши адаптацију објекта у циљу задовољавања услова за испуњавање обавезе из става 1. овог члана.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od3-clan16-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> Орган надлежан за издавање употребне дозволе за објекте у јавној употреби издаће ову дозволу ако је испуњен услов из става 1. овог члана.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="deo3-od3-clan17">
+					<num>17.</num>
+					<heading>Дискриминација у вези са здравственим услугама</heading>
+					<hcontainer name="subpoint" wId="deo3-od3-clan17-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Посебно тежак случај дискриминације због инвалидности јесте свака дискриминација особа са инвалидитетом приликом пружања здравствених услуга.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od3-clan17-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Дискриминацијом особа са инвалидитетом приликом пружања здравствених услуга сматра се:</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="deo3-od4-clan18">
+					<num>18.</num>
+					<heading>Дискриминација у вези са васпитањем и образовањем</heading>
+					<hcontainer name="subpoint" wId="deo3-od4-clan18-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Забрањена је дискриминација због инвалидности на свим нивоима васпитања и образовања.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od4-clan18-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Дискриминација из става 1. овог члана обухвата:</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="deo3-od3-clan19">
+					<num>19.</num>
+					<paragraph wId="deo3-od3-clan19-stav1">
+						<content>
+							<p>Дискриминацијом у образовању због инвалидности не сматра се:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan20">
+					<num>20.</num>
+					<paragraph wId="deo3-od2-clan20-stav1">
+						<content>
+							<p>Посебно тежак облик дискриминације због инвалидности јесте узнемиравање, вређање и омаловажавање инвалидног детета предшколског узраста, ученика, односно студента због његове инвалидности, када те радње врши васпитач, наставник или друго лице запослено у васпитној, односно образовној установи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan21">
+					<num>21.</num>
+					<heading>Дискриминација у вези са запошљавањем и радним односом</heading>
+					<hcontainer name="subpoint" wId="deo3-od2-clan21-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Забрањено је вршити дискриминацију због инвалидности у запошљавању и остваривању права из радног односа према:</p>
+						</content>
+					</hcontainer>
+				</article>
+				<hcontainer name="subpoint" wId="deo3-od4-clan21-podtac2">
+					<num>(2)</num>
+					<content>
+						<p> Под особом која тражи запослење, у смислу овог закона, сматра се особа уредно пријављена служби надлежној за запошљавање у складу са законом којим се уређује запошљавање.</p>
+					</content>
+				</hcontainer>
+				<hcontainer name="subpoint" wId="deo3-od4-clan21-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> Под пратиоцем особе са инвалидитетом, у смислу овог закона, сматра се свако лице, без обзира на сродство, које живи у заједничком домаћинству са особом са инвалидитетом и трајно јој помаже у задовољавању свакодневних животних потреба без новчане или друге материјалне накнаде.</p>
+					</content>
+				</hcontainer>
+				<article wId="deo3-od4-clan22">
+					<num>22.</num>
+					<paragraph wId="deo3-od4-clan22-stav1">
+						<content>
+							<p>Дискриминацијом због инвалидности у запошљавању сматра се:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od4-clan23">
+					<num>23.</num>
+					<paragraph wId="deo3-od4-clan23-stav1">
+						<content>
+							<p>Дискриминацијом због инвалидности у запошљавању не сматра се:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan24">
+					<num>24.</num>
+					<paragraph wId="deo3-od2-clan24-stav1">
+						<content>
+							<p>Дискриминацијом због инвалидности у остваривању права из радног односа сматра се:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od3-clan25">
+					<num>25.</num>
+					<paragraph wId="deo3-od3-clan25-stav1">
+						<content>
+							<p>Дискриминацијом због инвалидности у остваривању права из радног односа не сматра се награђивање запосленог према радном учинку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od3-clan26">
+					<num>26.</num>
+					<paragraph wId="deo3-od3-clan26-stav1">
+						<content>
+							<p>Посебно тежак облик дискриминације због инвалидности јесте узнемиравање, вређање и омаловажавање запосленог са инвалидитетом од стране послодавца, односно непосредно надређеног лица у радном процесу, због његове инвалидности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od3-clan27">
+					<num>27.</num>
+					<heading>Дискриминација у вези са превозом</heading>
+					<hcontainer name="subpoint" wId="deo3-od3-clan27-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Забрањено је вршити дискриминацију због инвалидности у превозу у свим гранама саобраћаја.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od3-clan27-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Дискриминацијом из става 1. овог члана сматра се:</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="deo3-od3-clan28">
+					<num>28.</num>
+					<paragraph wId="deo3-od3-clan28-stav1">
+						<content>
+							<p>Дискриминацијом због инвалидности у превозу не сматра се:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan29">
+					<num>29.</num>
+					<paragraph wId="deo3-od2-clan29-stav1">
+						<content>
+							<p>Посебно тежак облик дискриминације због инвалидности представља узнемиравање, вређање и омаловажавање путника са инвалидитетом у току путовања од стране посаде превозног средства, због његове инвалидности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-od2-clan30">
+					<num>30.</num>
+					<heading>Дискриминација у вези са брачним и породичним односима</heading>
+					<hcontainer name="subpoint" wId="deo3-od2-clan30-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Забрањена је свака дискриминација у остваривању права из брачних и породичних односа због инвалидности.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo3-od2-clan30-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Дискриминацијом из става 1. овог члана сматра се:</p>
+						</content>
+					</hcontainer>
+				</article>
+				<hcontainer name="subpoint" wId="deo3-od3-clan30-podtac3">
+					<num>(3)</num>
+					<content>
+						<p> Дискриминацијом у вези са брачним и породичним односима због инвалидности не сматра се ускраћивање или ограничавање права које је у складу са законом којим се уређују брачни и породични односи.</p>
+					</content>
+				</hcontainer>
+				<article wId="deo3-od3-clan31">
+					<num>31.</num>
+					<heading>Дискриминација удружења особа са инвалидитетом</heading>
+					<paragraph wId="deo3-od3-clan31-stav1">
+						<content>
+							<p>Забрањен је сваки облик дискриминације удружења особа са инвалидитетом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo4">
+				<num>Четврти део</num>
+				<heading>МЕРЕ ЗА ПОДСТИЦАЊЕ РАВНОПРАВНОСТИ ОСОБА СА ИНВАЛИДИТЕТОМ</heading>
+				<article wId="deo4-clan32">
+					<num>32.</num>
+					<heading>Мере за подстицање оснивања служби подршке за особе са инвалидитетом</heading>
+					<paragraph wId="deo4-clan32-stav1">
+						<content>
+							<p>Јединице локалне самоуправе дужне су да подстичу оснивање служби подршке за особе са инвалидитетом, ради повећавања нивоа самосталности особа са инвалидитетом у свакодневном животу и ради остваривања њихових права.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo4-clan33">
+					<num>33.</num>
+					<heading>Мере за стварање приступачног окружења</heading>
+					<paragraph wId="deo4-clan33-stav1">
+						<content>
+							<p>Јединице локалне самоуправе дужне су да предузму мере с циљем да се физичка средина, зграде, јавне површине и превоз учине приступачним особама са инвалидитетом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo4-clan34">
+					<num>34.</num>
+					<heading>Мере за обезбеђивање равноправности пред органима јавне власти</heading>
+					<paragraph wId="deo4-clan34-stav1">
+						<content>
+							<p>Органи јавне власти дужни су да предузму мере за обезбеђење равноправности особа са инвалидитетом у поступцима пред тим органима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan34-stav2">
+						<content>
+							<p>Органи јавне власти дужни су да у поступцима пред тим органима, поред  потписивања исправа на начин уређен посебним прописом, особи са инвалидитетом  која има трајне последице телесног или сензорног оштећења или болести омогуће  потписивање исправа уз помоћ печата који садржи податке о личном идентитету или  уз помоћ печата са угравираним потписом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan34-stav3">
+						<content>
+							<p>Исправе које представљају форму уговора или неког другог правног посла  не могу се потписивати у складу са <ref wId="ref1" href="akn/rs/act/2016/13-3/srp@/!main~art_34__para_2" >ставом 2. овог</ref> члана, већ у складу са  прописима који уређују оверу потписа и потврђивање исправе.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan34-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2016/13/srp@">13/2016</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan34-stav5">
+						<content>
+							<p>Члан 34а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan34-stav6">
+						<content>
+							<p>Правна и физичка лица из <ref wId="ref3" href="akn/rs/act/2016/13-3/srp@/!main~art_13" >члана 13. овог</ref> закона дужна су да особи са  инвалидитетом која има трајне последице телесног или сензорног оштећења или  болести омогуће коришћење услуга потписивањем, када је то потребно, уз помоћ  печата који садржи податке о личном идентитету или уз помоћ печата са  угравираним потписом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan34-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2016/13/srp@">13/2016</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo4-clan35">
+					<num>35.</num>
+					<heading>Мере за обезбеђивање приступа информацијама</heading>
+					<paragraph wId="deo4-clan35-stav1">
+						<content>
+							<p>Органи државне управе, територијалне аутономије и локалне самоуправе надлежни за послове културе и медија дужни су да предузму мере, с циљем да се особама са инвалидитетом учине приступачним информације и комуникације путем употребе одговарајућих технологија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan35-stav2">
+						<content>
+							<p>Мером из <ref wId="ref5" href="akn/rs/act/2016/13-3/srp@/!main~art_35__para_1" >става 1. овог</ref> члана сматра се нарочито дневно саопштавање информација намењених и особама са инвалидитетом одговарајућом технологијом симултаног писаног текста.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo4-clan36">
+					<num>36.</num>
+					<heading>Мере за обезбеђивање равноправности у области васпитања и образовања</heading>
+					<paragraph wId="deo4-clan36-stav1">
+						<content>
+							<p>Органи државне управе, територијалне аутономије и локалне самоуправе надлежни за послове васпитања и образовања дужни су да предузму мере, с циљем да васпитање и образовање особа са инвалидитетом постане интегрални део општег система васпитања и образовања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo4-clan37">
+					<num>37.</num>
+					<heading>Мере за обезбеђивање учешћа у културном, спортском и верском животу заједнице</heading>
+					<paragraph wId="deo4-clan37-stav1">
+						<content>
+							<p>Јединице локалне самоуправе дужне су да предузму мере ради обезбеђивања равноправног учешћа особа са инвалидитетом у културном, спортском и верском животу заједнице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo4-clan38">
+					<num>38.</num>
+					<heading>Активности усмерене ка стварању једнаких могућности</heading>
+					<paragraph wId="deo4-clan38-stav1">
+						<content>
+							<p>Сви органи државне управе, територијалне аутономије и локалне самоуправе дужни су да предузимају активности с циљем стварања једнаких могућности за особе са инвалидитетом и да у тим активностима обезбеде учешће особа са инвалидитетом и њихових удружења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo5">
+				<num>Пети део</num>
+				<heading>ПОСТУПАК У СПОРУ ЗА ЗАШТИТУ ОД ДИСКРИМИНАЦИЈЕ ЗБОГ ИНВАЛИДНОСТИ</heading>
+				<article wId="deo5-clan39">
+					<num>39.</num>
+					<heading>Садржина овог дела закона</heading>
+					<paragraph wId="deo5-clan39-stav1">
+						<content>
+							<p>Одредбама овог дела закона уређује се посебни парнични поступак за заштиту од дискриминације због инвалидности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo5-clan40">
+					<num>40.</num>
+					<heading>Примена закона којим се уређује парнични поступак</heading>
+					<paragraph wId="deo5-clan40-stav1">
+						<content>
+							<p>На поступак суда који је у вези са заштитом од дискриминације због инвалидности примењују се одредбе закона којим се уређује парнични поступак, ако овим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo5-clan41">
+					<num>41.</num>
+					<heading>Месна надлежност</heading>
+					<paragraph wId="deo5-clan41-stav1">
+						<content>
+							<p>У спору за заштиту од дискриминације због инвалидности месно је надлежан, поред суда опште месне надлежности, и суд на чијем подручју има пребивалиште, односно боравиште особа са инвалидитетом према којој је дискриминација извршена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo5-clan42">
+					<num>42.</num>
+					<heading>Покретање поступка</heading>
+					<hcontainer name="subpoint" wId="deo5-clan42-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Поступак у спору за заштиту од дискриминације због инвалидности покреће се тужбом.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo5-clan42-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Тужбу за заштиту од дискриминације због инвалидности могу поднети особа са инвалидитетом према којој је дискриминација извршена и њен законски заступник.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo5-clan42-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Тужбу за заштиту од дискриминације може поднети и пратилац особе са инвалидитетом у случају да је према њему извршена дискриминација у смислу чл. 21. и 22. овог закона.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="deo5-clan43">
+					<num>43.</num>
+					<heading>Тужбе</heading>
+					<paragraph wId="deo5-clan43-stav1">
+						<content>
+							<p>Тужбом из <ref wId="ref6" href="akn/rs/act/2016/13-3/srp@/!main~art_42" >члана 42. овог</ref> закона може се тражити:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo5-od4-clan44">
+					<num>44.</num>
+					<heading>Ревизија</heading>
+					<paragraph wId="deo5-od4-clan44-stav1">
+						<content>
+							<p>У спору за заштиту од дискриминације због инвалидности ревизија је увек дозвољена.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo5-od4-clan45">
+					<num>45.</num>
+					<heading>Привремена мера</heading>
+					<hcontainer name="subpoint" wId="deo5-od4-clan45-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Особа из члана 42. ст. 2. и 3. овог закона може уз тужбу за заштиту од дискриминације због инвалидности, у току судског поступка, као и по окончању судског поступка, све док извршење не буде спроведено, захтевати да суд привременом мером забрани дискриминаторско поступање да би се отклонила опасност од насиља или већа ненадокнадива штета.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo5-od4-clan45-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> У предлогу за издавање привремене мере предлагач мора учинити вероватним да је мера потребна да би се отклонила опасност од насиља због дискриминаторског поступања, спречила употреба силе или настанак ненадокнадиве штете.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="deo5-od4-clan45-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> О предлогу за издавање привремене мере суд је дужан да одлучи у року од 48 сати од дана када је предлог примљен у суду.</p>
+						</content>
+					</hcontainer>
+				</article>
+			</part>
+			<part wId="deo6">
+				<num>Шести део</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="deo6-clan46">
+					<num>46.</num>
+					<paragraph wId="deo6-clan46-stav1">
+						<content>
+							<p>Новчаном казном од 10.000 до 100.000 динара казниће се за прекршај удружење ако:</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="deo6-od3-clan46-stav1">
+					<content>
+						<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај из става 1. овог члана и одговорно лице у удружењу.</p>
+					</content>
+				</paragraph>
+				<article wId="deo6-od3-clan47">
+					<num>47.</num>
+					<paragraph wId="deo6-od3-clan47-stav1">
+						<content>
+							<p>Новчаном казном од 10.000 до 100.000 динара казниће се за прекршај правно лице ако:</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="deo6-od2-clan47-stav1">
+					<content>
+						<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај из става 1. овог члана и одговорно лице у правном лицу.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-od2-clan47-stav2">
+					<content>
+						<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај из става 1. овог члана физичко лице.</p>
+					</content>
+				</paragraph>
+				<article wId="deo6-od2-clan48">
+					<num>48.</num>
+					<paragraph wId="deo6-od2-clan48-stav1">
+						<content>
+							<p>Новчаном казном од 10.000 до 100.000 динара казниће се за прекршај правно лице ако поставља посебне услове за пружање здравствених услуга особама са инвалидитетом у случајевима када ти услови нису оправдани медицинским разлозима (члан 17. став 2. тачка <ref wId="ref7" href="akn/rs/act/2016/13-3/srp@/!main~art_17__para_2__point_2" >2</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo6-od2-clan48-stav2">
+						<content>
+							<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај из <ref wId="ref8" href="akn/rs/act/2016/13-3/srp@/!main~art_48__para_1" >става 1. овог</ref> члана и одговорно лице у правном лицу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo6-od2-clan49">
+					<num>49.</num>
+					<paragraph wId="deo6-od2-clan49-stav1">
+						<content>
+							<p>Новчаном казном од 10.000 до 100.000 динара казниће се за прекршај правно лице ако:</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo6-od2-clan50">
+					<num>50.</num>
+					<paragraph wId="deo6-od2-clan50-stav1">
+						<content>
+							<p>Новчаном казном од 10.000 до 50.000 динара казниће се за прекршај наставник, васпитач или друго лице запослено у образовној, односно васпитној установи које стално или учестано узнемирава, вређа и омаловажава ученика, студента односно дете предшколског узраста због његове инвалидности (<ref wId="ref9" href="akn/rs/act/2016/13-3/srp@/!main~art_20" >члан 20</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo6-od2-clan51">
+					<num>51.</num>
+					<paragraph wId="deo6-od2-clan51-stav1">
+						<content>
+							<p>Новчаном казном од 25.000 до 500.000 динара казниће се за прекршај правно лице – превозник ако одбије да превезе особу са инвалидитетом (члан 27. став 2. тачка <ref wId="ref10" href="akn/rs/act/2016/13-3/srp@/!main~art_27__para_2__point_1" >1</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo6-od2-clan51-stav2">
+						<content>
+							<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај из <ref wId="ref11" href="akn/rs/act/2016/13-3/srp@/!main~art_51__para_1" >става 1. овог</ref> члана и одговорно лице у правном лицу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo6-od2-clan51-stav3">
+						<content>
+							<p>Новчаном казном од 10.000 до 250.000 динара казниће се за прекршај из <ref wId="ref12" href="akn/rs/act/2016/13-3/srp@/!main~art_51__para_1" >става 1. овог</ref> члана предузетник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo6-od2-clan51-stav4">
+						<content>
+							<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај из <ref wId="ref13" href="akn/rs/act/2016/13-3/srp@/!main~art_51__para_1" >става 1. овог</ref> члана возно особље.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo6-od2-clan52">
+					<num>52.</num>
+					<paragraph wId="deo6-od2-clan52-stav1">
+						<content>
+							<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај возно особље које стално или учестано узнемирава, вређа и омаловажава путника са инвалидитетом у току путовања због његове инвалидности (<ref wId="ref14" href="akn/rs/act/2016/13-3/srp@/!main~art_29" >члан 29</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo6-od2-clan52-stav2">
+						<content>
+							<p>Члан 52а*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo6-od2-clan52-stav3">
+						<content>
+							<p>Новчаном казном од 10.000 до 100.000 динара казниће се за прекршај  правно лице ако одбије да омогући коришћење услуга потписивањем уз помоћ печата  који садржи податке о личном идентитету или уз помоћ печата са угравираним  потписом особи са инвалидитетом која има трајне последице телесног или сензорног  оштећења или болести (<ref wId="ref15" href="akn/rs/act/2016/13-3/srp@/!main~art_34а" >члан 34а</ref>).*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo6-od2-clan52-stav4">
+						<content>
+							<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај из  <ref wId="ref16" href="akn/rs/act/2016/13-3/srp@/!main~art_52__para_1" >става 1. овог</ref> члана и одговорно лице у правном лицу.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo6-od2-clan52-stav5">
+						<content>
+							<p>Новчаном казном од 5.000 до 50.000 динара казниће се за прекршај из  <ref wId="ref17" href="akn/rs/act/2016/13-3/srp@/!main~art_52__para_1" >става 1. овог</ref> члана физичко лице.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo6-od2-clan52-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref18" href="akn/rs/act/2016/13/srp@">13/2016</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo7">
+				<num>Седми део</num>
+				<heading>ЗАВРШНА ОДРЕДБА</heading>
+				<article wId="deo7-clan53">
+					<num>53.</num>
+					<heading>Ступање закона на снагу</heading>
+					<paragraph wId="deo7-clan53-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а одредбе чл. <ref wId="ref19" href="akn/rs/act/2016/13-3/srp@/!main~art_32" >32</ref>. и <ref wId="ref20" href="akn/rs/act/2016/13-3/srp@/!main~art_33" >33</ref>. примењиваће се од 1. јануара 2007. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+		</body>
+	</act>
+</akomaNtoso>

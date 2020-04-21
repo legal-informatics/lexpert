@@ -1,0 +1,950 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о посебним овлашћењима ради ефикасне заштите права интелектуалне својине">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2006/46-184/main"/>
+					<FRBRuri value="akn/rs/act/2006/46-184"/>
+					<FRBRdate date="2006-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2009/104-125/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2009/104-125/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2009/104-125/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2009/104-125/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2006-06-02" name="службени гласник рс“" number="46" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="VI СВОЈИНСКИ И ОБЛИГАЦИОНИ, ПОРОДИЧНИ И БРАЧНИ ОДНОСИ" value="vi својински и облигациони, породични и брачни односи" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="7. Индустријска својина и техничка унапређења" value="7. индустријска својина и техничка унапређења" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2006-01-01" refersTo="46/2006-184" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2009-01-01" refersTo="104/2009-102" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2009-01-01" refersTo="104/2009-115" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2009-01-01" refersTo="104/2009-125" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2006-05-25" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2006-06-10" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2006-06-10" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="овлашћења"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="државне"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="посебна"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="врше"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавна"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="управе"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописима"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="примена"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="ефикасне"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="органи"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштите"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="својине"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="интелектуалне"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="складу"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="право"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="ради"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="органа"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежни"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za nauku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republička radiodifuzna agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. decembra 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="225. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. do 39."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="81. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 10. јуна 2006. године (види члан 45. Закона).Престале су да важе одредбе чл. 36. и 41. (види члан 90. Закона о жиговима - 104/2009-102).Престале су да важе одредбе чл. 37. и 38. и члана 44. став 1. тачка 2) (види члан 81. Закона о правној заштити индустријског дизајна -104/2009-115).Престале су да важе одредбе чл. 34, 35, 42, 43. и члана 44. став 1. тач. 1. и 3. (види члан 225. Закона о ауторском и сродним правима - 104/2009-125).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О посебним овлашћењима ради ефикасне заштите права интелектуалне својине „Службени гласник РС“, бр. <ref wId="ref15" href="akn/rs/act/2006/46/srp@">46 од 2. јуна 2006</ref>, <ref wId="ref16" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref> - др. закони</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се посебна овлашћења органа државне управе и организација  које врше јавна овлашћења (у даљем тексту: надлежни органи), ради ефикасне  заштите права интелектуалне својине у складу са прописима којима се уређује  право интелектуалне својине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Примена закона</heading>
+					<hcontainer name="subpoint" wId="gla1-clan2-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Одредбе овог закона примењују се на производњу, промет, употребу и држање  робе и на пружање услуга којима се повређују права интелектуалне својине.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla1-clan2-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Одредбе овог закона не примењују се када роба није намењена обављању  делатности, односно стављању у промет, ни на личне ствари, односно на предмете  који су намењени искључиво за личну употребу, осим када се ради о више  истоветних примерака исте робе, односно предмета.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Дефиниције</heading>
+					<hcontainer name="subpoint" wId="gla1-clan3-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> У смислу овог закона:</p>
+						</content>
+					</hcontainer>
+					<point wId="gla1-clan3-tac1">
+						<num>1)</num>
+						<content>
+							<p> права интелектуалне својине јесу ауторско и сродна права, жиг, географска  ознака порекла, дизајн, патент, мали патент и топографија интегрисаних кола, у  складу са законом;</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac2">
+						<num>2)</num>
+						<content>
+							<p> носилац права је изворни стицалац права интелектуалне својине или његов  правни следбеник, укључујући и професионална удружења, односно организације и  организације за колективно остваривање права у складу са законом;</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac3">
+						<num>3)</num>
+						<content>
+							<p> роба којом се повређују права интелектуалне својине јесте нарочито: (1)  пиратски примерак ауторског дела или предмета сродног права, укључујући и  рачунарске програме; (2) роба са кривотвореним жигом; (3) роба са кривотвореним  дизајном; (4) роба којом се повређује патент или мали патент; (5) роба којом се  повређује право на топографију интегрисаног кола; (6) роба која је превасходно  пројектована, направљена, прилагођена или је њена сврха да омогући избегавање,  заобилажење или уклањање технолошке мере, уређаја или његовог саставног дела  чија је сврха да спречи или ограничи поједине радње у односу на предмет заштите  а које носилац права није одобрио;</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac4">
+						<num>4)</num>
+						<content>
+							<p> пиратски примерак ауторског дела или предмета сродног права, укључујући и  рачунарске програме, јесте примерак заштићеног ауторског дела или предмета  сродног права, односно роба која садржи заштићено ауторско дело или предмет  сродног права, која је израђена без сагласности носиоца права;</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac5">
+						<num>5)</num>
+						<content>
+							<p> роба са кривотвореним жигом јесте: (1) производ који је без овлашћења  обележен знаком који је истоветан или се суштински не разликује од жига  регистрованог у вези са истим или сличним производом, укључујући и производ који  није обележен кривотвореним жигом а налази се у паковању обележеном таквим  жигом; (2) паковање, етикета, налепница, упутство за употребу, гарантни лист или  други предмет који садржи знак идентичан или који се суштински не разликује од  жига регистрованог у вези са истим или сличним производом, било да су тај  предмет и производ представљени заједно или одвојено;</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac6">
+						<num>6)</num>
+						<content>
+							<p> роба са кривотвореним дизајном јесте производ израђен без овлашћења носиоца  права, који садржи дизајн истоветан са дизајном регистрованим за такав производ  или који се суштински не разликује од регистрованог дизајна за исти или сличан  производ;</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac7">
+						<num>7)</num>
+						<content>
+							<p> роба којом се повређује патент јесте производ истоветан са производом који је  произведен на основу патентираног проналаска, односно производ израђен  непосредном применом патентираног процеса, који је произведен без овлашћења  носиоца права;</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac8">
+						<num>8)</num>
+						<content>
+							<p> средство за избегавање заштите јесте свако средство, производ, компонента,  односно део производа који је превасходно направљен или прилагођен са циљем да  омогући заобилажење ефикасне технолошке мере;</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac9">
+						<num>9)</num>
+						<content>
+							<p> ефикасна технолошка мера јесте технолошки поступак, средство, производ,  компонента, односно део којим се контролише приступ заштићеном ауторском делу  или предмету сродног права или којим се спречава њихово неовлашћено коришћење,  односно којим се омогућава откривање кривотвотвореног жига или пиратског  примерка ауторског дела, односно предмета сродног права;</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac10">
+						<num>10)</num>
+						<content>
+							<p> емитовање је јавно саопштавање ауторског дела или предмета сродног права  жичним или бежичним преносом електромагнетних, електричних или других сигнала на  даљину (земаљска радио-дифузија, сателитска радио-дифузија и кабловска  дифузија);</p>
+						</content>
+					</point>
+					<point wId="gla1-clan3-tac11">
+						<num>11)</num>
+						<intro>
+							<p> емитер је физичко или правно лице регистровано за делатности производње и  емитовања радио или телевизијског програма, коме је издата дозвола за емитовање  програма, у складу с законом.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla1-clan3-tac11-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Робом са кривотвореним жигом, односно пиратским примерком ауторског дела или  предмета сродног права, у смислу овог закона, сматра се и калуп или матрица  направљена, односно прилагођена за израду кривотвореног жига или производа који  носи такав жиг, односно која се користи за израду пиратских примерака ауторских  дела или предмета сродног права.</p>
+							</content>
+						</hcontainer>
+					</point>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Забрана производње и промета</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Производња, држање и промет робе, односно пружање услуга, којима се повређују  права интелектуалне својине утврђена законом или међународним уговором,  забрањени су.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Емитовање и реемитовање</heading>
+					<hcontainer name="subpoint" wId="gla1-clan5-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Емитовање и реемитовање радио или телевизијског програма који садржи  ауторска дела или предмете сродног права, без регулисања обавезе плаћања накнаде  за коришћење тих права у складу са законом којим се уређује колективна заштита  ауторског и сродних права, забрањени су.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla1-clan5-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Доказ о регулисаној обавези из става 1. овог члана, прилаже се уз пријаву на  јавни конкурс за издавање дозвола за емитовање програма, у складу са прописима  којима се уређује радиодифузија.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla1-clan5-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> У случају поступања емитера супротно одредбама ст. 1. и 2. овог члана  Републичка радиодифузна агенција предузима мере на које је овлашћена законом,  независно од других правних средстава која стоје на располагању оштећеном  носиоцу ауторског или сродног права.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Надлежни органи</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<intro>
+							<p>У смислу овог закона, надлежни органи јесу:</p>
+						</intro>
+						<point wId="gla1-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> министарство надлежно за послове трговине, туризма и услуга, преко тржишне  инспекције и туристичке инспекције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> министарство надлежно за послове здравља, преко здравствене инспекције и  санитарне инспекције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> министарство надлежно за послове урбанизма и грађевинарства, преко  урбанистичке инспекције и грађевинске инспекције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> министарство надлежно за послове финансија, преко пореских инспектора и  пореске полиције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> министарство надлежно за послове просвете и спорта преко просветне  инспекције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> министарство надлежно за науку и технолошки развој преко инспекције;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan6-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> Републичка радиодифузна агенција.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОВЛАШЋЕЊА НАДЛЕЖНИХ ОРГАНА</heading>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Обим овлашћења</heading>
+					<hcontainer name="subpoint" wId="gla2-clan7-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Министарство надлежно за послове трговине, туризма и услуга, преко тржишне  инспекције врши инспекцијски надзор над производњом и прометом робе којом се  повређују права интелектуалне својине (жиг, дизајн, патент, мали патент,  географска ознака порекла, топографија интегрисаног кола, ауторска и сродна  права), као и надзор над производњом и прометом робе заштићене ауторским или  сродним правом.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-clan7-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Министарство надлежно за послове трговине, туризма и услуга, преко  туристичке инспекције врши инспекцијски надзор над пружањем услуга којима се  повређују права интелектуалне својине у области туризма и угоститељства, а  нарочито злоупотребом услужног жига, као и коришћењем ауторских и сродних права  без регулисања обавезе плаћања накнаде за коришћење тих права у складу са  законом којим се уређује колективна заштита ауторског и сродних права.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Министарство надлежно за послове здравља, преко здравствене и санитарне  инспекције врши инспекцијски надзор над производњом и прометом робе којом се  повређују права интелектуалне својине (жиг, патент, ауторско право) у области  лекова и санитарних прописа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Министарство надлежно за послове просвете и спорта преко просветне инспекције  врши инспекцијски надзор код коришћења стручних публикација којим се повређује  ауторско право.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Министарство надлежно за послове урбанизма и грађевинарства, преко урбанистичке  и грађевинске инспекције врши инспекцијски надзор над изменама на грађевини која  представља материјализовани примерак дела архитектуре, које су извршене без  овлашћења аутора.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Министарство надлежно за послове финансија, преко пореских инспектора и пореске  полиције надлежно је да, током вршења својих редовних делатности, утврђује да ли  постоји повреда права интелектуалне својине, а нарочито права на рачунарске  програме (софтвер) и базе података.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Министарство надлежно за науку и технологију врши инспекцијски надзор код  коришћења стручних публикација којим се повређује ауторско право.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Републичка радиодифузна агенција врши надзор над радом емитера ако се  неовлашћеним емитовањем, односно реемитовањем заштићеног дела повређује  ауторско, односно сродно право.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Начин вршења овлашћења</heading>
+					<hcontainer name="subpoint" wId="gla2-clan14-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Надлежни орган, по службеној дужности или на захтев носиоца права, предузима  радње и доноси акте у складу са овим законом и законом којим се уређује  надлежност тог органа у вршењу инспекцијског надзора у областима за које је тај  орган образован, односно законом којим се уређује радиодифузија.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-clan14-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> На акте и радње надлежних органа прописане одредбама овог закона примењују  се одредбе закона којим се уређује општи управни поступак и одредбе закона којим  се уређује поступање тог органа, ако овим законом није другачије прописано.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-od1-clan15">
+					<num>15.</num>
+					<heading>Мере</heading>
+					<hcontainer name="subpoint" wId="gla2-od1-clan15-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Надлежни орган, ако непосредним увидом утврди да је повређено право  интелектуалне својине, на лицу места по службеној дужности:</p>
+						</content>
+					</hcontainer>
+					<point wId="gla2-od1-clan15-tac1">
+						<num>1)</num>
+						<content>
+							<p> привремено одузима сву затечену робу, односно све производе који су предмет  или средство повреде права интелектуалне својине;</p>
+						</content>
+					</point>
+					<point wId="gla2-od1-clan15-tac2">
+						<num>2)</num>
+						<intro>
+							<p> изриче меру привремене забране обављања делатности којом се повређује право  интелектуалне својине.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla2-od1-clan15-tac2-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Акт надлежног органа из става 1. тачка 1) овог члана садржи и упозорење лицу  од кога је роба привремено одузета, да ће та роба бити коначно одузета и  уништена ако се то лице, у року од 15 дана од дана привременог одузимања робе не  упусти у оспоравање разлога за одузимање робе.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla2-od1-clan15-tac2-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Надлежни орган, у случају из става 1. овог члана, по службеној дужности:</p>
+							</content>
+						</hcontainer>
+					</point>
+					<point wId="gla2-od1-clan15-tac3">
+						<num>3)</num>
+						<content>
+							<p> изводи и друге доказе неопходне за утврђивање повреде права интелектуалне  својине.</p>
+						</content>
+					</point>
+				</article>
+				<article wId="gla2-od1-clan16">
+					<num>16.</num>
+					<heading>Обавештење о предузетим мерама</heading>
+					<hcontainer name="subpoint" wId="gla2-od1-clan16-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Надлежни орган, у случају из члана 15. став 1. овог закона, о повреди права  интелектуалне својине и предузетим мерама обавештава, без одлагања:</p>
+						</content>
+					</hcontainer>
+					<point wId="gla2-od1-clan16-tac1">
+						<num>1)</num>
+						<content>
+							<p> носиоца права, ако је његова адреса позната;</p>
+						</content>
+					</point>
+					<point wId="gla2-od1-clan16-tac2">
+						<num>2)</num>
+						<content>
+							<p> други орган надлежан за заштиту права интелектуалне својине, ако је то  потребно ради прибављања релевантних података;</p>
+						</content>
+					</point>
+					<point wId="gla2-od1-clan16-tac3">
+						<num>3)</num>
+						<intro>
+							<p> заинтересована лица, ако постоје и ако су позната.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla2-od1-clan16-tac3-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Надлежни орган у обавештењу из става 1. тачка 1) овог члана, позива носиоца  права да, у року од 15 дана од дана пријема обавештења, покрене поступак за  заштиту свог права пред надлежним судом и да у том року обавести надлежни орган  о покренутом поступку, односно о привременој мери коју је одредио суд.</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla2-od1-clan16-tac3-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Надлежни орган, на захтев носиоца права, може да продужи рок из става 2.  овог члана за додатних 15 дана.</p>
+							</content>
+						</hcontainer>
+					</point>
+				</article>
+				<article wId="gla2-od1-clan17">
+					<num>17.</num>
+					<heading>Трајање мера</heading>
+					<hcontainer name="subpoint" wId="gla2-od1-clan17-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Мере из члана 15. став 1. овог закона трају до достављања одлуке надлежног  суда којом се одређује привремена мера у поступку који је покренут у складу са  одредбама члана 16. овог закона.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od1-clan17-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Ако носилац права у року из члана 16. ст. 2. и 3. овог закона, не обавести  надлежни орган о покренутом поступку, односно не достави одлуку суда којом се  одређује привремена мера, привремено одузета роба враћа се лицу од кога је  одузета, односно акт којим је привремено забрањено обављање делатности ставља се  ван снаге.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-od1-clan18">
+					<num>18.</num>
+					<heading>Обавеза носиоца права</heading>
+					<paragraph wId="gla2-od1-clan18-stav1">
+						<content>
+							<p>Носилац права је дужан да, на захтев надлежног органа који је привремено одузео  робу, а у циљу утврђивања повреде права интелектуалне својине, без одлагања и  накнаде, достави информације и пружи помоћ надлежном органу, укључујући и  техничку експертизу, опрему и објекте.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan19">
+					<num>19.</num>
+					<heading>Мера</heading>
+					<paragraph wId="gla2-od2-clan19-stav1">
+						<content>
+							<p>Надлежни орган, на захтев носиоца права, ако непосредним увидом утврди да је  повређено право интелектуалне својине, на лицу места привремено одузима и  задржава робу, односно производе који су предмет или средство повреде тог права.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan20">
+					<num>20.</num>
+					<heading>Захтев</heading>
+					<hcontainer name="subpoint" wId="gla2-od2-clan20-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Захтев носиоца права подноси се у писменој форми у седишту органа надлежног  за вршење инспекцијског надзора у области заштите интелектуалне својине за ону  врсту права односно робе на коју се захтев односи.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan20-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Захтев из става 1. овог члана може да буде:</p>
+						</content>
+					</hcontainer>
+					<point wId="gla2-od2-clan20-tac1">
+						<num>1)</num>
+						<content>
+							<p> појединачан, ако се односи на једну одређену пошиљку односно количину робе,  или</p>
+						</content>
+					</point>
+					<point wId="gla2-od2-clan20-tac2">
+						<num>2)</num>
+						<content>
+							<p> општи, ако се односи на све количине одређене врсте робе у предложеном  временском периоду.</p>
+						</content>
+					</point>
+				</article>
+				<article wId="gla2-od2-clan21">
+					<num>21.</num>
+					<heading>Садржина захтева</heading>
+					<hcontainer name="subpoint" wId="gla2-od2-clan21-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Захтев садржи нарочито:</p>
+						</content>
+					</hcontainer>
+					<point wId="gla2-od2-clan21-tac1">
+						<num>1)</num>
+						<content>
+							<p> опис робе;</p>
+						</content>
+					</point>
+					<point wId="gla2-od2-clan21-tac2">
+						<num>2)</num>
+						<content>
+							<p> податке на основу којих надлежни орган може да препозна робу којом се  повређују права интелектуалне својине;</p>
+						</content>
+					</point>
+					<point wId="gla2-od2-clan21-tac3">
+						<num>3)</num>
+						<content>
+							<p> доказ да је подносилац захтева носилац права у односу на ту робу, и</p>
+						</content>
+					</point>
+					<point wId="gla2-od2-clan21-tac4">
+						<num>4)</num>
+						<intro>
+							<p> предлог временског периода у коме се од надлежног органа захтева предузимање  мера.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla2-od2-clan21-tac4-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Поред података из става 1. овог члана, захтев може да садржи:</p>
+							</content>
+						</hcontainer>
+					</point>
+					<point wId="gla2-od2-clan21-tac5">
+						<num>5)</num>
+						<content>
+							<p> податке о превозном средству коришћеном за транспорт;</p>
+						</content>
+					</point>
+					<point wId="gla2-od2-clan21-tac6">
+						<num>6)</num>
+						<content>
+							<p> узорак, односно фотографије робе;</p>
+						</content>
+					</point>
+					<point wId="gla2-od2-clan21-tac7">
+						<num>7)</num>
+						<content>
+							<p> запис ауторског дела или предмета сродног права.</p>
+						</content>
+					</point>
+				</article>
+				<article wId="gla2-od2-clan22">
+					<num>22.</num>
+					<heading>Одлука надлежног органа</heading>
+					<hcontainer name="subpoint" wId="gla2-od2-clan22-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Надлежни орган о поднетом захтеву доноси одлуку и доставља је подносиоцу  захтева у року од 15 дана од дана подношења захтева.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan22-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Када надлежни орган на основу података из захтева оцени да околности налажу  хитно предузимање мера, одлука из става 1. овог члана доноси се и доставља  подносиоцу захтева најкасније у року од три дана од дана подношења захтева.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan22-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Одлука којом се усваја општи захтев, садржи и временски период у коме ће  бити предузимане мере потребне за отклањање повреде права интелектуалне својине,  а који на захтев носиоца права може бити продужен.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan22-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> Против одлуке из става 1. овог члана подносилац захтева може да изјави жалбу  надлежном другостепеном органу.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-od2-clan23">
+					<num>23.</num>
+					<heading>Обавештење о престанку права интелектуалне својине</heading>
+					<paragraph wId="gla2-od2-clan23-stav1">
+						<content>
+							<p>Подносилац захтева дужан је да без одлагања обавести надлежни орган о престанку  свог права интелектуалне својине, ако до престанка тог права дође у току  поступка по захтеву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan24">
+					<num>24.</num>
+					<heading>Трошкови</heading>
+					<hcontainer name="subpoint" wId="gla2-od2-clan24-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Подносилац захтева из члана 19. овог закона сноси трошкове који настану у  вези са поступањем по захтеву, уколико се утврди да није повређено право  интелектуалне својине.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan24-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Висину трошкова из става 1. овог члана одређује надлежни орган у износу који  је неопходан ради накнаде трошкова поступања органа по том захтеву (превоз,  складиштење, чување робе и сл.).</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-od2-clan25">
+					<num>25.</num>
+					<heading>Средства обезбеђења</heading>
+					<hcontainer name="subpoint" wId="gla2-od2-clan25-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Када је захтев за заштиту права интелектуалне својине усвојен, надлежни  орган може да захтева од подносиоца захтева да положи средство обезбеђења у  износу који одговара висини трошкова који могу настати ако поступак буде  обустављен због радњи или пропуста подносиоца захтева, односно ако се утврди да  у конкретном случају нема повреде права интелектуалне својине.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan25-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Средство обезбеђења из става 1. овог члана може бити банкарска гаранција или  депозит уплаћен на посебан рачун надлежног органа.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-od2-clan26">
+					<num>26.</num>
+					<heading>Примена мере</heading>
+					<hcontainer name="subpoint" wId="gla2-od2-clan26-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Одлука којом је усвојен захтев носица права, без одлагања се доставља свим  организационим јединицама надлежног органа, ради поступања.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan26-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Надлежни орган, када утврди да роба одговора опису из усвојеног захтева,  привремено одузима ту робу и ако је потребно прегледа је и узима узорке.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan26-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Акт којим се на основу одлуке из члана 22. став 1. овог члана врши  привремено одузимање робе садржи упозорење лицу од кога је роба привремено  одузета да та роба може да буде коначно одузета и уништена ако се то лице, у  року од 15 дана од дана привременог одузимања робе, не упусти у оспоравање  разлога за одузимање робе.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan26-podtac4">
+						<num>(4)</num>
+						<content>
+							<p> Надлежни орган, у случају из става 2. овог члана, може да:</p>
+						</content>
+					</hcontainer>
+					<point wId="gla2-od2-clan26-tac1">
+						<num>1)</num>
+						<content>
+							<p> узме узорке предметне робе, односно производа, ради испитивања основаности  оцене да је повређено право интелектуалне својине;</p>
+						</content>
+					</point>
+					<point wId="gla2-od2-clan26-tac2">
+						<num>2)</num>
+						<intro>
+							<p> изведе друге доказе неопходне ради утврђивања повреде права интелектуалне  својине.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla2-od2-clan26-tac2-podtac5">
+							<num>(5)</num>
+							<content>
+								<p> Носилац права, власник робе и лице од кога је роба привремено одузета имају  право да прегледају и идентификују привремено одузету робу, под надзором  надлежног органа.</p>
+							</content>
+						</hcontainer>
+					</point>
+				</article>
+				<article wId="gla2-od2-clan27">
+					<num>27.</num>
+					<heading>Обавештење о предузетој мери</heading>
+					<hcontainer name="subpoint" wId="gla2-od2-clan27-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> У случају из члана 26. став 2. овог закона, надлежни орган без одлагања  обавештава подносиоца захтева о предузетој мери, о имену и адреси лица од кога  је роба одузета и, ако су подаци познати надлежном органу, о имену и адреси  власника, увозника и произвођача предметне робе, као и о другим релевантним  чињеницама.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan27-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Надлежни орган, у обавештењу из става 1. овог члана, позива носиоца права да  у року од 15 дана од дана пријема обавештења покрене поступак за заштиту свог  права пред надлежним судом и да у том року обавести надлежни орган о покренутом  поступку, односно о привременој мери коју је одредио суд.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-od2-clan28">
+					<num>28.</num>
+					<heading>Трајање мере</heading>
+					<hcontainer name="subpoint" wId="gla2-od2-clan28-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Мера привременог одузимања робе предузета на захтев носиоца права траје до  достављања одлуке належног суда којом се одређује привремена мера, у поступку  који је покренут у року из члана 27. став 2. овог закона.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan28-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Ако носилац права у року из члана 27. став 2. овог закона не достави  надлежном органу одлуку суда којом се одређује привремена мера, привремено  одузета роба враћа се лицу од кога је одузета.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla2-od2-clan29">
+					<num>29.</num>
+					<heading>Обавеза носиоца права</heading>
+					<paragraph wId="gla2-od2-clan29-stav1">
+						<content>
+							<p>Носилац права је дужан да на захтев надлежног органа који је привремено одузео  робу у складу са одредбом <ref wId="ref0" href="akn/rs/act/2009/104-125/srp@/!main~art_26__para_2" >члана 26. став 2. овог</ref> закона, без одлагања и накнаде,  достави информације и пружи помоћ надлежном органу, укључујући и техничку  експертизу, опрему и објекте потребне ради утврђивања повреде права  интелектуалне својине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-od2-clan30">
+					<num>30.</num>
+					<heading>Накнада штете</heading>
+					<hcontainer name="subpoint" wId="gla2-od2-clan30-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Надлежни орган не одговара за штету која настане због привременог одузимања  робе у складу са одредбама овог закона, осим за штету која настане услед  скривљеног непримереног поступања надлежног органа са таквом робом.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla2-od2-clan30-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> Подносилац захтева дужан је да надокнади штету коју трпи лице од кога је  роба одузета, због неоснованог задржавања робе до којег је дошло на захтев  подносиоца.</p>
+						</content>
+					</hcontainer>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>КОНАЧНО ОДУЗИМАЊЕ И УНИШТЕЊЕ РОБЕ</heading>
+				<article wId="gla3-clan31">
+					<num>31.</num>
+					<heading>Одузимање и уништење робе по одлуци суда</heading>
+					<hcontainer name="subpoint" wId="gla3-clan31-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Када је у поступку пред надлежним судом одлучено да се роба коначно одузме и  уништи, односно искључи из промета, роба се уништава, односно уклања из промета  на начин одређен одлуком суда, који укључује и уступање без надокнаде у  хуманитарне сврхе или продају ради рециклаже, водећи притом рачуна да се:</p>
+						</content>
+					</hcontainer>
+					<point wId="gla3-clan31-tac1">
+						<num>1)</num>
+						<content>
+							<p> умањи ризик поновне повреде права интелектуалне својине;</p>
+						</content>
+					</point>
+					<point wId="gla3-clan31-tac2">
+						<num>2)</num>
+						<content>
+							<p> не нанесе штета носиоцу права;</p>
+						</content>
+					</point>
+					<point wId="gla3-clan31-tac3">
+						<num>3)</num>
+						<intro>
+							<p> носиоцу права омогући да предложи начин уништења, односно уклањања робе из  промета.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla3-clan31-tac3-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Уклањање, односно скидање жига са кривотворене робе, не сматра се уништењем,  односно искључењем робе из промета.</p>
+							</content>
+						</hcontainer>
+					</point>
+				</article>
+				<article wId="gla3-clan32">
+					<num>32.</num>
+					<heading>Одузимање и уништење робе по службеној дужности</heading>
+					<hcontainer name="subpoint" wId="gla3-clan32-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Надлежни орган по службеној дужности коначно одузима и уништава робу,  односно уклања робу из промета на прописани начин, који укључује и уступање без  надокнаде у хуманитарне сврхе или продају ради рециклаже, када:</p>
+						</content>
+					</hcontainer>
+					<point wId="gla3-clan32-tac1">
+						<num>1)</num>
+						<content>
+							<p> постоји основана сумња да се том робом повређују права интелектуалне својине;</p>
+						</content>
+					</point>
+					<point wId="gla3-clan32-tac2">
+						<num>2)</num>
+						<content>
+							<p> носилац права не покрене поступак за заштиту својих права пред надлежним  судом у року из члана 27. став 2. овог закона, и</p>
+						</content>
+					</point>
+					<point wId="gla3-clan32-tac3">
+						<num>3)</num>
+						<intro>
+							<p> се лице од којег је роба привремено одузета у складу са одредбом члана 15.  став 1, односно члана 26. став 3. овог закона, није упустило у поступак  оспоравања разлога за одузимање те робе.</p>
+						</intro>
+						<hcontainer name="subpoint" wId="gla3-clan32-tac3-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> У случају из става 1. овог члана, надлежни орган води рачуна да се:</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="gla3-clan32-tac3-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Надлежни орган ће поступити у складу са одредбом става 1. овог члана и ако  је лице од кога је роба одузета недоступно надлежном органу.</p>
+							</content>
+						</hcontainer>
+					</point>
+				</article>
+				<article wId="gla3-clan33">
+					<num>33.</num>
+					<paragraph wId="gla3-clan33-stav1">
+						<content>
+							<p>Када се на основу одлуке суда, односно надлежног органа, уништава роба, носиоцу  права ће бити омогућено да пре уништења робе задржи њене узорке у мери и  количини који су потребни као доказ у поступку против лица за која се сумња да  су повредила права интелектуалне својине.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla4-od1-clan34">
+					<num>34.</num>
+				</article>
+				<article wId="gla4-od1-clan35">
+					<num>35.</num>
+					<heading>Престаo   је да  важи  (види <ref wId="ref1" href="akn/rs/act/2009/104/srp@/!main~/art_225">члан 225. Закона - 104/2009-125</ref>)</heading>
+				</article>
+				<article wId="gla4-od1-clan36">
+					<num>36.</num>
+					<heading>Престаo   је да  важи  (види <ref wId="ref2" href="akn/rs/act/2009/104/srp@/!main~/art_225">члан 225. Закона - 104/2009-125</ref>)</heading>
+				</article>
+				<article wId="gla4-od1-clan37">
+					<num>37.</num>
+					<heading>Престаo   је да  важи  (види <ref wId="ref3" href="akn/rs/act/2009/104/srp@/!main~/art_90">члан 90. Закона - 104/2009-102</ref>)</heading>
+				</article>
+				<article wId="gla4-od1-clan38">
+					<num>38.</num>
+					<heading>Престаo   је да  важи  (види <ref wId="ref4" href="akn/rs/act/2009/104/srp@/!main~/art_81">члан 81. Закона - 104/2009-115</ref>)</heading>
+				</article>
+				<article wId="gla4-od1-clan39">
+					<num>39.</num>
+					<heading>Престаo   је да  важи  (види <ref wId="ref5" href="akn/rs/act/2009/104/srp@/!main~/art_81">члан 81. Закона - 104/2009-115</ref>)</heading>
+					<hcontainer name="subpoint" wId="gla4-od1-clan39-podtac1">
+						<num>(1)</num>
+						<content>
+							<p> Новчаном казном од 100.000 до 3.000.000 динара казниће се за привредни  преступ правно лице ако неовлашћено производи, увози, извози, нуди ради стављања  у промет, ставља у промет, складишти или користи у комерцијалне сврхе производ  или поступак заштићен патентом, односно малим патентом.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla4-od1-clan39-podtac2">
+						<num>(2)</num>
+						<content>
+							<p> За радње из става 1. овог члана казниће се одговорно лице у правном лицу  новчаном казном у износу од 10.000 до 200.000 динара.</p>
+						</content>
+					</hcontainer>
+					<hcontainer name="subpoint" wId="gla4-od1-clan39-podtac3">
+						<num>(3)</num>
+						<content>
+							<p> Предмети извршења привредног преступа и предмети који су били употребљени за  извршење привредног преступа из става 1. овог члана биће одузети, а предмети  извршења привредног преступа биће и уништени.</p>
+						</content>
+					</hcontainer>
+				</article>
+				<article wId="gla4-od1-clan40">
+					<num>40.</num>
+					<paragraph wId="gla4-od1-clan40-stav1">
+						<content>
+							<p>Пресуда којом је учиниоцу изречена казна за привредни преступ из <ref wId="ref6" href="akn/rs/act/2009/104-125/srp@/!main~art_34->art_39" >чл. 34. </ref>до 39.  овог закона јавно се објављује.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-od2-clan41">
+					<num>41.</num>
+				</article>
+				<article wId="gla4-od2-clan42">
+					<num>42.</num>
+					<heading>Престаo   је да  важи  (види <ref wId="ref7" href="akn/rs/act/2009/104/srp@/!main~/art_90">члан 90. Закона - 104/2009-102</ref>)</heading>
+				</article>
+				<article wId="gla4-od2-clan43">
+					<num>43.</num>
+					<heading>Престаo   је да  важи  (види <ref wId="ref8" href="akn/rs/act/2009/104/srp@/!main~/art_225">члан 225. Закона - 104/2009-125</ref>)</heading>
+				</article>
+				<article wId="gla4-od2-clan44">
+					<num>44.</num>
+					<heading>Престаo   је да  важи  (види <ref wId="ref12" href="akn/rs/act/2009/104/srp@/!main~/art_225">члан 225. Закона - 104/2009-125</ref>)</heading>
+					<paragraph wId="gla4-od2-clan44-stav1">
+						<intro>
+							<p>Новчаном казном од 5.000 до 50.000 динара, казниће се за прекршај физичко лице:</p>
+						</intro>
+						<point wId="gla4-od2-clan44-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>   престала   је да важи   (види <ref wId="ref9" href="akn/rs/act/2009/104/srp@/!main~/art_225">члан 225. Закона - 104/2009-125</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan44-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p>   престала   је да важи  (види <ref wId="ref10" href="akn/rs/act/2009/104/srp@/!main~/art_81">члан 81. Закона - 104/2009-115</ref>)</p>
+							</content>
+						</point>
+						<point wId="gla4-od2-clan44-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>   престала   је да важи  (види <ref wId="ref11" href="akn/rs/act/2009/104/srp@/!main~/art_225">члан 225. Закона - 104/2009-125</ref>)</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ЗАВРШНА ОДРЕДБА</heading>
+				<article wId="gla5-clan45">
+					<num>45.</num>
+					<paragraph wId="gla5-clan45-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику  Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav3">
+						<content>
+							<p>о посебним овлашћењима ради ефикасне заштите права интелектуалне својине</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan45-stav4">
+						<content>
+							<p>„Службени гласник РС“,  бр.  <ref wId="ref13" href="akn/rs/act/2006/46/srp@">46  од 2. јуна 2006</ref>,  <ref wId="ref14" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref> -  др.  закони</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

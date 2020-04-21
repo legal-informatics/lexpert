@@ -1,0 +1,1271 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о програму заштите учесника у кривичном поступку">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2005/85-150/main"/>
+					<FRBRuri value="akn/rs/act/2005/85-150"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2005/85-150/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2005/85-150/srp@"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2005/85-150/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2005/85-150/srp@.akn"/>
+					<FRBRdate date="2005-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2005-10-06" name="службени гласник рс“" number="85" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="7. Кривична дела и кривични поступак" value="7. кривична дела и кривични поступак" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2005-09-29" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2006-01-01" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2006-01-01" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="кривичном"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступку"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="изложени"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="пружање"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="учесницима"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="блиским"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="давања"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="значајних"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="доказивање"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="помоћи"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="услед"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="физички"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="интегритет"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавештења"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="здравље"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="живот"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="слободу"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="исказа"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="имовину"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="опасности"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="лицима"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Komisija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Komisiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Komisiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Jedinica za zaštitu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Jedinica za zaštitu poziva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Jedinice za zaštitu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Jedinice za zaštitu član"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Jedinici za zaštitu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisija za sprovođenje Programa zaštite"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije i zamenici"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije ili zamenika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije o zahtevu za uključenje u Program zaštite"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije obavlja Jedinica za zaštitu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisije po položaju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Komisiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvom pravde"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O odluci Komisija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Program zaštite"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Programa zaštite Jedinica za zaštitu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vrhovnog suda Srbije"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Jedinica"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2006."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 1. tačka 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="23. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="28. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stav 1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. stav 1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. stav 1. tačka 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. ili 34."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34. st. 1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="41. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 1."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу 1. јануара 2006. године (види члан 47. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О програму заштите учесника у кривичном поступку „Службени гласник РС“, број <ref wId="ref41" href="akn/rs/act/2005/85/srp@">85 од 6. октобра 2005</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови и поступак за пружање заштите и помоћи учесницима у кривичном поступку и њима блиским лицима, који су услед давања исказа или обавештења значајних за доказивање у кривичном поступку изложени опасности по живот, здравље, физички интегритет, слободу или имовину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Заштита лица из <ref wId="ref0" href="akn/rs/act/2005/85-150/srp@/!main~art_1" >члана 1. овог</ref> закона обезбеђује се спровођењем Програма заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Програм заштите је скуп мера предвиђених овим законом које се примењују у циљу заштите живота, здравља, физичког интегритета, слободе или имовине заштићеног лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<intro>
+							<p>Поједини изрази употребљени у овом закону имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan3-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> учесник у кривичном поступку је: осумњичени, окривљени, сведок сарадник, сведок, оштећени, вештак и стручно лице;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> блиско лице је лице за које учесник у кривичном поступку захтева укључење у Програм заштите;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan3-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> заштићено лице је лице укључено у Програм заштите.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Осумњичени, окривљени, сведок сарадник, сведок, оштећени, вештак и стручно лице имају значење у смислу одговарајућих одредби Законика о кривичном поступку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Програм заштите може се спровести пре, у току и након правноснажног окончања кривичног поступка, према учеснику у кривичном поступку и блиским лицима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<intro>
+							<p>Програм заштите се спроводи ако су учесници у кривичном поступку и блиска лица услед давања исказа или обавештења значајних за доказивање у кривичном поступку изложена опасности по живот, здравље, физички интегритет, слободу или имовину, а без тог исказа или обавештења било би знатно отежано или немогуће доказивање у кривичним поступцима за кривична дела:</p>
+						</intro>
+						<point wId="gla1-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> против уставног уређења и безбедности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> против човечности и других добара заштићених међународним правом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> организованог криминала.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Државни органи и службена лица која обезбеђују и пружају заштиту учесника у кривичном поступку дужни су да спроводе поступак и поступају хитно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Подаци у вези са Програмом заштите су поверљиви и представљају службену тајну. Осим службених лица ове податке не могу саопштавати ни друга лица којима подаци постану доступни. Службено лице је дужно да друго лице обавести да ови подаци представљају тајну.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>НАДЛЕЖНИ ОРГАНИ</heading>
+				<article wId="gla2-podod1-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-podod1-clan7-stav1">
+						<content>
+							<p>Одлуку о укључењу, продужењу, обустави и престанку Програма заштите доноси Комисија за спровођење Програма заштите (у даљем тексту: Комисија), која има три члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan7-stav2">
+						<content>
+							<p>Једног члана Комисије именује из реда судија Врховног суда Србије председник Врховног суда Србије, другог члана именује из реда својих заменика Републички јавни тужилац, а руководилац Јединице за заштиту члан је Комисије по положају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan7-stav3">
+						<content>
+							<p>Чланови Комисије имају по једног заменика, које именује председник Врховног суда Србије из реда судија Врховног суда Србије односно Републички јавни тужилац из реда заменика Републичког јавног тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan7-stav4">
+						<content>
+							<p>Заменик руководиоца Јединице за заштиту замењује по положају руководиоца и у Комисији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan7-stav5">
+						<content>
+							<p>Стручне и административне послове за потребе Комисије обавља Јединица за заштиту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-podod1-clan8-stav1">
+						<content>
+							<p>Чланови Комисије и заменици, осим руководиоца Јединице за заштиту и његовог заменика, именују се на пет година и могу бити поново именовани.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-podod1-clan9-stav1">
+						<intro>
+							<p>Својство члана Комисије и заменика престаје:</p>
+						</intro>
+						<point wId="gla2-podod1-clan9-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> престанком дужности судије Врховног суда Србије или заменика јавног тужиоца;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> престанком радног односа руководиоца Јединице за заштиту односно његовог заменика односно распоређивањем на друго радно место;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> на захтев члана или заменика;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> због непридржавања прописа о спровођењу Програма заштите;</p>
+							</content>
+						</point>
+						<point wId="gla2-podod1-clan9-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> истеком времена именовања.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan9-stav2">
+						<content>
+							<p>Руководиоцу Јединице за заштиту односно његовом заменику не може престати чланство у Комисији на сопствени захтев.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan9-stav3">
+						<content>
+							<p>О престанку својства члана Комисије или заменика одлучује старешина органа који је именовао члана Комисије или заменика.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-podod1-clan10-stav1">
+						<content>
+							<p>Радом Комисије руководи председник. Председник Комисије је судија Врховног суда, а у случају његове спречености замењује га његов заменик.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan10-stav2">
+						<content>
+							<p>Комисија одлучује на седници већином гласова. Члан Комисије који је поднео захтев из <ref wId="ref1" href="akn/rs/act/2005/85-150/srp@/!main~art_25" >члана 25, </ref>31. или 34. овог закона не може учествовати у одлучивању.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod1-clan11">
+					<num>11.</num>
+					<paragraph wId="gla2-podod1-clan11-stav1">
+						<content>
+							<p>Комисија доноси пословник о раду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod1-clan11-stav2">
+						<content>
+							<p>Комисија подноси годишњи извештај о раду надлежном одбору Народне скупштине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan12">
+					<num>12.</num>
+					<paragraph wId="gla2-podod2-clan12-stav1">
+						<content>
+							<p>Јединица за заштиту је специјализована организациона јединица Министарства унутрашњих послова која спроводи Програм заштите и обавља друге послове у складу са овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan12-stav2">
+						<content>
+							<p>У спровођењу Програма заштите Јединица за заштиту обезбеђује заштићеном лицу и потребну економску, психолошку, социјалну и правну помоћ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan12-stav3">
+						<content>
+							<p>Сви државни органи, организације и службе дужни су да пруже помоћ Јединици за заштиту и да на њен захтев изврше радње из своје надлежности потребне за спровођење Програма заштите.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-podod2-clan13">
+					<num>13.</num>
+					<paragraph wId="gla2-podod2-clan13-stav1">
+						<content>
+							<p>Министар унутрашњих послова доноси посебан акт о унутрашњој организацији и систематизацији радних места у Јединици за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-podod2-clan13-stav2">
+						<content>
+							<p>Министар унутрашњих послова распоређује руководиоца Јединице за заштиту у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПРОГРАМ ЗАШТИТЕ</heading>
+				<article wId="gla3-podod1-clan14">
+					<num>14.</num>
+					<paragraph wId="gla3-podod1-clan14-stav1">
+						<intro>
+							<p>У оквиру Програма заштите примењују се следеће мере:</p>
+						</intro>
+						<point wId="gla3-podod1-clan14-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> физичка заштита личности и имовине;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod1-clan14-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> промена пребивалишта или премештање у другу заводску установу;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod1-clan14-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> прикривање идентитета и података о власништву;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod1-clan14-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> промена идентитета.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan14-stav2">
+						<content>
+							<p>У току спровођења Програма заштите може се применити једна или више мера с тим што се мера промене идентитета може применити само када се циљ Програма заштите не може остварити применом других мера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan14-stav3">
+						<content>
+							<p>Мере физичке заштите личности и имовине, промене пребивалишта или премештања у другу заводску установу и прикривање идентитета и података о власништву могу се применити као хитне мере у смислу <ref wId="ref2" href="akn/rs/act/2005/85-150/srp@/!main~art_27" >члана 27. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan15">
+					<num>15.</num>
+					<paragraph wId="gla3-podod1-clan15-stav1">
+						<content>
+							<p>Решење о одређивању врсте мера из <ref wId="ref3" href="akn/rs/act/2005/85-150/srp@/!main~" >члана 14. став 1. тач. 1) </ref>до 3) овог закона доноси Јединица за заштиту, а решење о одређивању мере из члана 14. став 1. тачка <ref wId="ref4" href="akn/rs/act/2005/85-150/srp@/!main~art_14__para_1__point_4" >4</ref>) овог закона доноси Комисија на предлог Јединице за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan15-stav2">
+						<content>
+							<p>Јединица за заштиту самостално примењује мере из <ref wId="ref5" href="akn/rs/act/2005/85-150/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона. Према заштићеном лицу које је лишено слободе Јединица за заштиту примењује ове мере у сарадњи са Министарством правде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan15-stav3">
+						<content>
+							<p>Када се на други начин не могу применити мере из <ref wId="ref6" href="akn/rs/act/2005/85-150/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона, Јединица за заштиту у обављању послова из свог делокруга може прикрити идентитет својих припадника, као и податке о власништву над стварима којима се служи у примени одређене мере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan15-stav4">
+						<content>
+							<p>Јединица за заштиту у току примене мера из <ref wId="ref7" href="akn/rs/act/2005/85-150/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона пружа економску и социјалну помоћ заштићеном лицу до тренутка његовог осамостаљења. Ова помоћ не може бити већа од износа који је неопходан за покривање животних трошкова и укључење заштићеног лица у нову друштвену средину.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan16">
+					<num>16.</num>
+					<paragraph wId="gla3-podod1-clan16-stav1">
+						<content>
+							<p>Мера физичке заштите личности и имовине састоји се од спречавања противправног угрожавања живота, здравља, физичког интегритета, слободе или имовине заштићеног лица употребом физичко-техничких мера.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan17">
+					<num>17.</num>
+					<paragraph wId="gla3-podod1-clan17-stav1">
+						<content>
+							<p>Мера промене пребивалишта састоји се од привременог или трајног пресељења заштићеног лица из места пребивалишта или боравишта у место које одреди Јединица за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan17-stav2">
+						<content>
+							<p>Мера премештања у другу заводску установу састоји се од упућивања заштићеног лица које је лишено слободе из заводске установе у којој се налази у заводску установу коју одреди Јединица за заштиту у договору са Министарством правде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan18">
+					<num>18.</num>
+					<paragraph wId="gla3-podod1-clan18-stav1">
+						<content>
+							<p>Мера прикривања идентитета и података о власништву састоји се од израде и употребе личне исправе или исправе о власништву заштићеног лица у којој су привремено измењени изворни подаци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan18-stav2">
+						<content>
+							<p>Исправу из <ref wId="ref8" href="akn/rs/act/2005/85-150/srp@/!main~art_18__para_1" >става 1. овог</ref> члана израђује Јединица за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan18-stav3">
+						<content>
+							<p>Примена мере из <ref wId="ref9" href="akn/rs/act/2005/85-150/srp@/!main~art_18__para_1" >става 1. овог</ref> члана не може имати за последицу измену изворних података који се воде у службеним евиденцијама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan19">
+					<num>19.</num>
+					<paragraph wId="gla3-podod1-clan19-stav1">
+						<content>
+							<p>Приликом закључења правних послова који могу имати утицај на трећа лица, заштићено лице може употребити исправу из <ref wId="ref10" href="akn/rs/act/2005/85-150/srp@/!main~art_18__para_1" >члана 18. став 1. овог</ref> закона уз сагласност Јединице за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan19-stav2">
+						<content>
+							<p>Ако Јединица за заштиту не да сагласност за закључење правних послова из <ref wId="ref11" href="akn/rs/act/2005/85-150/srp@/!main~art_19__para_1" >става 1. овог</ref> члана, заштићено лице може одредити, уз сагласност Јединице за заштиту, пуномоћника који ће у његово право име закључити ове послове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan20">
+					<num>20.</num>
+					<paragraph wId="gla3-podod1-clan20-stav1">
+						<content>
+							<p>Мера промене идентитета састоји се од потпуне или делимичне измене личних података заштићеног лица. Уз ову меру може бити одређена и промена физичких карактеристика заштићеног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan20-stav2">
+						<content>
+							<p>Промена идентитета може имати утицаја на права и обавезе заштићеног лица само у мери у којој је то неопходно ради спровођења Програма заштите и не утиче на обавезе заштићеног лица према трећим лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan20-stav3">
+						<content>
+							<p>Након промене идентитета Јединица за заштиту одобрава и надзире приступ изворним подацима о идентитету заштићеног лица. Јединица за заштиту води рачуна и о свим статусним и другим правима и обавезама који су у вези са изворним идентитетом заштићеног лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan21">
+					<num>21.</num>
+					<paragraph wId="gla3-podod1-clan21-stav1">
+						<content>
+							<p>Ако је одређена мера промене идентитета, Јединица за заштиту позива заштићено лице да изврши своје доспеле обавезе према трећим лицима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan21-stav2">
+						<content>
+							<p>Након извршења обавеза из <ref wId="ref12" href="akn/rs/act/2005/85-150/srp@/!main~art_21__para_1" >става 1. овог</ref> члана, надлежни орган, организација или служба на основу података које достави Јединица за заштиту одмах издаје личну исправу или документ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan21-stav3">
+						<content>
+							<p>Поступак издавања личне исправе или документа не разликује се од поступка издавања оригиналне личне исправе или документа. Подаци у личној исправи или документу не смеју бити идентични са подацима другог лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan21-stav4">
+						<content>
+							<p>Након издавања личне исправе или документа, надлежни орган Министарства унутрашњих послова на захтев Јединице за заштиту уноси у евиденцију о изворним подацима о заштићеном лицу примедбу да о свим питањима у вези са идентитетом мора бити обавештена Јединица за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan21-stav5">
+						<content>
+							<p>Евиденција надлежног органа Министарства унутрашњих послова водиће се на начин да се на основу података о изворном идентитету заштићеног лица не може утврдити његов измењени идентитет.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan22">
+					<num>22.</num>
+					<paragraph wId="gla3-podod1-clan22-stav1">
+						<content>
+							<p>Приликом закључења правних послова већег значаја, заштићено лице може употребити личну исправу или документ из <ref wId="ref13" href="akn/rs/act/2005/85-150/srp@/!main~art_21__para_2" >члана 21. став 2. овог</ref> закона уз сагласност Јединице за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan22-stav2">
+						<content>
+							<p>Заштићено лице може одредити пуномоћника у циљу остварења права и испуњења обавеза насталих пре промене идентитета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan22-stav3">
+						<content>
+							<p>Ако сазна за постојање обавезе која је настала пре промене идентитета, Јединица за заштиту позива заштићено лице да преко пуномоћника испуни обавезу. Ако заштићено лице то не учини, Јединица за заштиту испуњава обавезу или поступа у складу са <ref wId="ref14" href="akn/rs/act/2005/85-150/srp@/!main~art_34__para_1->para_2" >чланом 34. ст. 1. и 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan23">
+					<num>23.</num>
+					<paragraph wId="gla3-podod1-clan23-stav1">
+						<content>
+							<p>Ако је у својству лица из члана 3. став 1. тачка <ref wId="ref15" href="akn/rs/act/2005/85-150/srp@/!main~art_3__para_1__point_1" >1</ref>) овог закона позвано пред суд поводом кривичног дела учињеног пре промене идентитета, заштићено лице учествује у кривичном поступку са изворним идентитетом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan23-stav2">
+						<content>
+							<p>У другом поступку пред судом или државним органом у којем је неопходна употреба изворног идентитета, заштићено лице може учествовати само уз сагласност Јединице за заштиту. Ако Јединица за заштиту не да сагласност, заштићено лице врши своја права у поступку преко пуномоћника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan23-stav3">
+						<content>
+							<p>Ако заштићено лице учини кривично дело након промене идентитета, Јединица за заштиту обавештава надлежног јавног тужиоца и Комисију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan23-stav4">
+						<content>
+							<p>У случајевима из <ref wId="ref16" href="akn/rs/act/2005/85-150/srp@/!main~art_23__para_1->para_2" >ст. 1. и 2. овог</ref> члана, позивање заштићеног лица врши се преко Јединице за заштиту која обезбеђује његов долазак.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan24">
+					<num>24.</num>
+					<paragraph wId="gla3-podod1-clan24-stav1">
+						<content>
+							<p>Израда и употреба исправа и докумената извршена у складу са овим законом у циљу примене мера прикривања идентитета и власништва и промене идентитета заштићеног лица не представља кривично дело.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan24-stav2">
+						<content>
+							<p>Оригиналне исправе и документи заштићеног лица чувају се у Јединици за заштиту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan25">
+					<num>25.</num>
+					<paragraph wId="gla3-podod2-clan25-stav1">
+						<content>
+							<p>Надлежни јавни тужилац, истражни судија или председник већа може по службеној дужности или на предлог учесника у кривичном поступку поднети Комисији захтев за укључење учесника у кривичном поступку и блиских лица у Програм заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan25-stav2">
+						<content>
+							<p>Након правноснажног окончања кривичног поступка захтев из <ref wId="ref17" href="akn/rs/act/2005/85-150/srp@/!main~art_25__para_1" >става 1. овог</ref> члана може поднети и Јединица за заштиту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan26">
+					<num>26.</num>
+					<paragraph wId="gla3-podod2-clan26-stav1">
+						<intro>
+							<p>Захтев за укључење у Програм заштите садржи:</p>
+						</intro>
+						<point wId="gla3-podod2-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> податке о лицу за које се захтева заштита;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> опис и законски назив кривичног дела поводом кога се захтева заштита;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> оцену значаја исказа или обавештења за поступак;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> околности које указују да постоји опасност за лице за које се захтева заштита.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan26-stav2">
+						<content>
+							<p>Уз захтев за укључење у Програм заштите доставља се упитник о личним подацима, имовинским приликама, кругу блиских лица и другим подацима који попуњава лице за које се захтева заштита.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan26-stav3">
+						<intro>
+							<p>Пре одлучивања о захтеву Комисија ће затражити од Јединице за заштиту да у року од 15 дана достави процену:</p>
+						</intro>
+						<point wId="gla3-podod2-clan26-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> опасности која прети лицу за које се захтева заштита;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan26-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> опасности којој би била изложена заједница у случају укључења у Програм заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan26-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> здравственог стања лица за које се захтева заштита;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan26-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> потребних мера заштите.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan27">
+					<num>27.</num>
+					<paragraph wId="gla3-podod2-clan27-stav1">
+						<content>
+							<p>Ако надлежни јавни тужилац, истражни судија или председник већа оцени да постоји непосредна опасност по живот, здравље, физички интегритет, слободу или имовину учесника у кривичном поступку или блиског лица, обавестиће Јединицу за заштиту о потреби примене хитних мера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan27-stav2">
+						<content>
+							<p>Руководилац Јединице за заштиту наређује примену хитних мера, уз сагласност учесника у кривичном поступку односно блиског лица. Сагласност у име малолетног лица или лица потпуно лишеног пословне способности даје законски заступник или старалац.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan27-stav3">
+						<content>
+							<p>Руководилац Јединице за заштиту одмах обавештава председника Комисије и надлежног јавног тужиоца, истражног судију или председника већа о примењеним хитним мерама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan27-stav4">
+						<content>
+							<p>Примена хитних мера траје до доношења одлуке Комисије о захтеву за укључење у Програм заштите.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan28">
+					<num>28.</num>
+					<paragraph wId="gla3-podod2-clan28-stav1">
+						<content>
+							<p>По пријему процене коју доставља Јединица за заштиту председник Комисије одмах, а најкасније у року од три дана, заказује седницу Комисије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan28-stav2">
+						<content>
+							<p>Комисија одмах, а најкасније у року од осам дана, доноси решење којим усваја или одбија захтев за укључење у Програм заштите. О одлуци Комисија одмах обавештава подносиоца захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan28-stav3">
+						<content>
+							<p>Одлука Комисије је коначна.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan29">
+					<num>29.</num>
+					<paragraph wId="gla3-podod2-clan29-stav1">
+						<content>
+							<p>Ако усвоји захтев за укључење у Програм заштите Комисија налаже руководиоцу Јединице за заштиту да са лицем чија заштита је одобрена закључи споразум о укључењу у Програм заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan29-stav2">
+						<content>
+							<p>Програм заштите се спроводи од дана закључења споразума.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan29-stav3">
+						<content>
+							<p>Примена хитних мера траје до почетка Програма заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan29-stav4">
+						<content>
+							<p>Примена хитних мера престаје по доношењу решења о одбијању захтева за укључење у Програм заштите.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan30">
+					<num>30.</num>
+					<paragraph wId="gla3-podod2-clan30-stav1">
+						<intro>
+							<p>Споразум о укључењу у Програм заштите садржи:</p>
+						</intro>
+						<point wId="gla3-podod2-clan30-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> споразумне стране;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan30-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> изјаву заштићеног лица о добровољном укључењу у Програм заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan30-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> изјаву заштићеног лица да су подаци наведени у упитнику истинити и да у случају њихове неистинитости споразум може бити раскинут;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan30-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> обавезе заштићеног лица: да се придржава упутстава Јединице за заштиту у току спровођења Програма заштите; да обавести Јединицу за заштиту о свакој промени околности која би могла да утиче на спровођење Програма заштите; да наведе своје рачуне, правне послове, финансијске и друге обавезе; да пре закључења правних послова већег значаја затражи сагласност Јединице за заштиту; да предузме све неопходне мере ради постизања финансијске самосталности до истека споразума;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan30-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обавезе Јединице за заштиту: да спроводи Програм заштите само уз неопходно потребна ограничења основних слобода и права заштићеног лица; да одреди време трајања и обим економске помоћи заштићеном лицу; да заштићеном лицу пружи потребну психолошку, социјалну и правну помоћ;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan30-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> време трајања Програма заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan30-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> услове за раскид споразума;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan30-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> клаузулу да је споразум закључен у једном примерку, да се чува код Јединице за заштиту, да је за време трајања Програма заштите доступан само Комисији, да се обавезе проистекле из споразума не могу оспоравати у судском поступку, изјаву заштићеног лица да разуме садржај споразума и да је упознато са међусобним обавезама;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod2-clan30-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> датум закључења споразума и потпис споразумних страна.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan30-stav2">
+						<content>
+							<p>Споразум у име малолетног лица или лица потпуно лишеног пословне способности закључује законски заступник или старалац.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod3-clan31">
+					<num>31.</num>
+					<paragraph wId="gla3-podod3-clan31-stav1">
+						<content>
+							<p>Надлежни јавни тужилац, истражни судија или председник већа може по службеној дужности или на предлог Јединице за заштиту или заштићеног лица поднети Комисији захтев за продужење Програма заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan31-stav2">
+						<content>
+							<p>Након правноснажног окончања кривичног поступка захтев из <ref wId="ref18" href="akn/rs/act/2005/85-150/srp@/!main~art_31__para_1" >става 1. овог</ref> члана може поднети и Јединица за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan31-stav3">
+						<content>
+							<p>Захтев за продужење Програма заштите подноси се најкасније 30 дана пре истека времена на које је закључен споразум о укључењу у Програм заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan31-stav4">
+						<content>
+							<p>Приликом одлучивања о захтеву за продужење Програма заштите сходно се примењују одредбе чл. <ref wId="ref19" href="akn/rs/act/2005/85-150/srp@/!main~art_28" >28</ref>. и <ref wId="ref20" href="akn/rs/act/2005/85-150/srp@/!main~art_29" >29</ref>. <ref wId="ref21" href="akn/rs/act/2005/85-150/srp@/!main~art_31__para_1" >став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod3-clan32">
+					<num>32.</num>
+					<paragraph wId="gla3-podod3-clan32-stav1">
+						<intro>
+							<p>Захтев за продужење Програма заштите садржи:</p>
+						</intro>
+						<point wId="gla3-podod3-clan32-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> означење решења о укључењу у Програм заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod3-clan32-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> податке о заштићеном лицу;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod3-clan32-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> опис и законски назив кривичног дела поводом кога се захтева продужење заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod3-clan32-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> околности које указују да и даље постоји опасност по заштићено лице.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan32-stav2">
+						<intro>
+							<p>Пре одлучивања о захтеву Комисија ће затражити од Јединице за заштиту да у року од 15 дана достави процену:</p>
+						</intro>
+						<point wId="gla3-podod3-clan32-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> опасности која прети заштићеном лицу;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod3-clan32-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> опасности којој би била изложена заједница у случају продужења Програма заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod3-clan32-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> здравственог стања заштићеног лица;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod3-clan32-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> потребних мера заштите.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod4-clan33">
+					<num>33.</num>
+					<paragraph wId="gla3-podod4-clan33-stav1">
+						<intro>
+							<p>Програм заштите се обуставља:</p>
+						</intro>
+						<point wId="gla3-podod4-clan33-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако више не постоји потреба за заштитом;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan33-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако против заштићеног лица буде покренут кривични поступак за кривично дело које доводи у питање оправданост спровођења Програма заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan33-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако постоји разлог из члана 30. став 1. тачка <ref wId="ref22" href="akn/rs/act/2005/85-150/srp@/!main~art_30__para_1__point_3" >3</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan33-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако заштићено лице без оправданог разлога не испуњава своје обавезе из споразума и тиме доведе у опасност или онемогући спровођење Програма заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan33-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> на захтев стране државе на чију територију је премештено заштићено лице.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod4-clan34">
+					<num>34.</num>
+					<paragraph wId="gla3-podod4-clan34-stav1">
+						<content>
+							<p>Надлежни јавни тужилац, истражни судија или председник већа може по службеној дужности или на предлог Јединице за заштиту поднети Комисији захтев за обуставу Програма заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod4-clan34-stav2">
+						<content>
+							<p>Након правноснажног окончања кривичног поступка захтев из <ref wId="ref23" href="akn/rs/act/2005/85-150/srp@/!main~art_34__para_1" >става 1. овог</ref> члана може поднети и Јединица за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod4-clan34-stav3">
+						<content>
+							<p>Приликом одлучивања о захтеву за обуставу Програма заштите сходно се примењују одредбе <ref wId="ref24" href="akn/rs/act/2005/85-150/srp@/!main~art_28" >члана 28. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod4-clan35">
+					<num>35.</num>
+					<paragraph wId="gla3-podod4-clan35-stav1">
+						<intro>
+							<p>Захтев за обуставу Програма заштите садржи:</p>
+						</intro>
+						<point wId="gla3-podod4-clan35-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> означење решења којим је одобрен Програм заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan35-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> податке о заштићеном лицу;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan35-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> опис и законски назив кривичног дела поводом кога је заштита одобрена;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan35-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> околности које указују да постоји неки од разлога из <ref wId="ref25" href="akn/rs/act/2005/85-150/srp@/!main~art_33" >члана 33. овог</ref> закона.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-podod4-clan35-stav2">
+						<intro>
+							<p>Уз захтев за обуставу Програма заштите, зависно од разлога из којег се подноси, доставља се:</p>
+						</intro>
+						<point wId="gla3-podod4-clan35-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> мишљење Јединице за заштиту о постојању разлога предвиђеног у члану 33. тач. <ref wId="ref26" href="akn/rs/act/2005/85-150/srp@/!main~art_33__para_2__point_1" >1</ref>) и <ref wId="ref27" href="akn/rs/act/2005/85-150/srp@/!main~art_33__para_2__point_4" >4</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan35-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> правноснажна одлука суда о покретању кривичног поступка против заштићеног лица;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan35-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> упитник о подацима заштићеног лица;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan35-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> захтев стране државе.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod4-clan36">
+					<num>36.</num>
+					<paragraph wId="gla3-podod4-clan36-stav1">
+						<intro>
+							<p>Програм заштите престаје:</p>
+						</intro>
+						<point wId="gla3-podod4-clan36-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> истеком времена на које је споразум закључен;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan36-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> смрћу заштићеног лица;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan36-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> изјавом заштићеног лица или законског заступника или стараоца да се одриче заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan36-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> доношењем решења о обустави Програма заштите.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod4-clan37">
+					<num>37.</num>
+					<paragraph wId="gla3-podod4-clan37-stav1">
+						<content>
+							<p>Јединица за заштиту по службеној дужности подноси Комисији захтев за престанак Програма заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod4-clan37-stav2">
+						<content>
+							<p>Седница Комисије на којој се доноси решење о престанку Програма заштите заказује се сходно <ref wId="ref28" href="akn/rs/act/2005/85-150/srp@/!main~art_28__para_1" >члану 28. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod4-clan38">
+					<num>38.</num>
+					<paragraph wId="gla3-podod4-clan38-stav1">
+						<intro>
+							<p>Захтев за престанак Програма заштите садржи:</p>
+						</intro>
+						<point wId="gla3-podod4-clan38-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> означење решења којим је одобрен Програм заштите;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan38-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> податке о заштићеном лицу;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan38-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> опис и законски назив кривичног дела поводом кога је заштита одобрена.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-podod4-clan38-stav2">
+						<intro>
+							<p>Уз захтев за престанак Програма заштите, зависно од разлога из којег се подноси, доставља се:</p>
+						</intro>
+						<point wId="gla3-podod4-clan38-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> споразум о укључењу у Програм заштите или о његовом продужењу;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan38-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> умрлица заштићеног лица;</p>
+							</content>
+						</point>
+						<point wId="gla3-podod4-clan38-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> изјава заштићеног лица или законског заступника или стараоца.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>МЕЂУНАРОДНА САРАДЊА</heading>
+				<article wId="gla4-clan39">
+					<num>39.</num>
+					<paragraph wId="gla4-clan39-stav1">
+						<content>
+							<p>Међународна сарадња у спровођењу Програма заштите предвиђеног овим законом остварује се на основу међународног споразума или узајамности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan39-stav2">
+						<intro>
+							<p>Под условима из <ref wId="ref29" href="akn/rs/act/2005/85-150/srp@/!main~art_39__para_1" >става 1. овог</ref> члана Јединица за заштиту:</p>
+						</intro>
+						<point wId="gla4-clan39-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> подноси молбу страној држави за прихват заштићеног лица и примену мера из <ref wId="ref30" href="akn/rs/act/2005/85-150/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan39-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> поступа по молби стране државе за прихват заштићеног лица и примену мера заштите у Републици Србији.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ЕВИДЕНЦИЈА И ЗАШТИТА ПОДАТАКА</heading>
+				<article wId="gla5-clan40">
+					<num>40.</num>
+					<paragraph wId="gla5-clan40-stav1">
+						<intro>
+							<p>Јединица за заштиту води следеће евиденције:</p>
+						</intro>
+						<point wId="gla5-clan40-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> о личним подацима заштићеног лица, његовом пребивалишту и подацима који се односе на промену или прикривање идентитета и података о власништву, као и о другим подацима значајним за спровођење Програма заштите;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan40-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> о подацима садржаним у упитнику из <ref wId="ref31" href="akn/rs/act/2005/85-150/srp@/!main~art_26__para_2" >члана 26. став 2. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan40-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> о закљученим споразумима о укључењу и продужењу Програма заштите;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan40-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> о лицима укљученим у Програм заштите на основу потврђеног међународног уговора или на основу узајамности;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan40-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> о датим сагласностима у смислу чл. <ref wId="ref33" href="akn/rs/act/2005/85-150/srp@/!main~art_19" >19</ref>, <ref wId="ref34" href="akn/rs/act/2005/85-150/srp@/!main~art_22" >22</ref>. <ref wId="ref35" href="akn/rs/act/2005/85-150/srp@/!main~art_40__para_1" >став 1</ref>, <ref wId="ref32" href="akn/rs/act/2005/85-150/srp@/!main~art_23__para_2" >члана 23. став 2. </ref>и члана 30. став 1. тачка <ref wId="ref36" href="akn/rs/act/2005/85-150/srp@/!main~art_30__para_1__point_4" >4</ref>) овог закона;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan40-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> о лицима којима је на основу <ref wId="ref37" href="akn/rs/act/2005/85-150/srp@/!main~art_41__para_1" >члана 41. став 1. овог</ref> закона одобрен приступ подацима у вези са Програмом заштите.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan41">
+					<num>41.</num>
+					<paragraph wId="gla5-clan41-stav1">
+						<content>
+							<p>Руководилац Јединице за заштиту одобрава и надзире приступ подацима у вези са Програмом заштите.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan41-stav2">
+						<content>
+							<p>Одлуку о престанку тајности података из <ref wId="ref38" href="akn/rs/act/2005/85-150/srp@/!main~art_41__para_1" >става 1. овог</ref> члана доноси Комисија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan41-stav3">
+						<content>
+							<p>Подаци о заштићеном лицу коме је промењен идентитет трајно се чувају у евиденцијама Јединице за заштиту.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ФИНАНСИРАЊЕ</heading>
+				<article wId="gla6-clan42">
+					<num>42.</num>
+					<paragraph wId="gla6-clan42-stav1">
+						<content>
+							<p>Средства за спровођење овог закона обезбеђују се у буџету Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan42-stav2">
+						<content>
+							<p>Члановима Комисије и заменицима за рад у Комисији припада посебна накнада коју утврђује уредбом Влада Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan43">
+					<num>43.</num>
+					<paragraph wId="gla7-clan43-stav1">
+						<content>
+							<p>Министар унутрашњих послова доноси у року од 45 дана од дана ступања на снагу овог закона акт о унутрашњој организацији и систематизацији радних места у Јединици за заштиту и распоређује руководиоца Јединице за заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav2">
+						<content>
+							<p>Министар унутрашњих послова доноси у року од 45 дана од дана ступања на снагу овог закона подзаконске прописе о начину спровођења Програма заштите и коришћењу средстава из <ref wId="ref39" href="akn/rs/act/2005/85-150/srp@/!main~art_42__para_1" >члана 42. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan44">
+					<num>44.</num>
+					<paragraph wId="gla7-clan44-stav1">
+						<content>
+							<p>Министар правде доноси у року од 45 дана од дана ступања на снагу овог закона подзаконске прописе о начину спровођења Програма заштите у заводским установама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan45">
+					<num>45.</num>
+					<paragraph wId="gla7-clan45-stav1">
+						<content>
+							<p>Надлежно министарство доноси у року од 45 дана од дана ступања на снагу овог закона подзаконске прописе у вези са <ref wId="ref40" href="akn/rs/act/2005/85-150/srp@/!main~art_21__para_2->para_3" >чланом 21. ст. 2. и 3. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan46">
+					<num>46.</num>
+					<paragraph wId="gla7-clan46-stav1">
+						<content>
+							<p>Комисија се образује у року од 60 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan46-stav2">
+						<content>
+							<p>Комисија доноси у року од 30 дана од образовања пословник о раду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan47">
+					<num>47.</num>
+					<paragraph wId="gla7-clan47-stav1">
+						<content>
+							<p>Овај закон ступа на снагу 1. јануара 2006. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

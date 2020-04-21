@@ -1,0 +1,684 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о војним школама и војним научноистраживачким установама">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/1994/80-959/main"/>
+					<FRBRuri value="akn/rs/act/1994/80-959"/>
+					<FRBRdate date="1994-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/36-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/36-3/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/36-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/36-3/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="1994-11-04" name="службени лист срј“" number="80" showAs="Службени лист СРЈ“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="2. Војска Србије" value="2. војска србије" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="1994-01-01" refersTo="80/1994-959" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="1994-01-01" refersTo="85/1994-1310" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="1999-01-01" refersTo="74/1999-42" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2005-01-01" refersTo="44/2005-1" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2018-01-01" refersTo="36/2018-3" source="#somebody" type="amendment" wId="e5"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="1994-11-02" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="1994-11-12" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="1994-11-12" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="члан"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="види"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="13"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="12"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="важе"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="престали"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="чл"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="36"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="42"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="82"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="2018"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="брисан"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="74"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="1999"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="SRJ"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vojsci Jugoslavije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vojske Jugoslavije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vojsku Jugoslavije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalštaba"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="IZDAVAČA"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SCG"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savezno ministarstvo za odbranu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveznog ministarstva za odbranu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveznom ministarstvu za odbranu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Verzije prečišćenog teksta"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Generalštab"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Istraživač"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organ"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. člana 117."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. maja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="106."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="12. i 13."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="137. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="139."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="139. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="144."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="145."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="150."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. decembra 1994"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. stava 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="22. oktobra 2005"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. decembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 6. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. novembra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="82. Zakona"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је престао да важи даном ступања на снагу Закона о војном образовању (Службени гласник РС, број 36/2018) , осим одредаба чл. 126–150. које остају на снази до доношења прописа из члана 35. став 6. Закона о научноистраживачкој делатности („Службени гласник РС”, бр. 110/05, 50/06 – исправка, 18/10 и 112/15) (види члан 82. Закона - 36/2018).Закон је ступио на снагу осмог дана од дана објављивања у Службеном листу СРЈ, односно 12. новембра 1994. године (види члан 159. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О војним школама и војним научноистраживачким установама „Службени лист СРЈ“, бр. <ref wId="ref52" href="akn/rs/act/1994/80/srp@">80 од 4. новембра 1994</ref>, <ref wId="ref53" href="akn/rs/act/1994/85/srp@">85 од 2. децембра 1994</ref> - исправка, <ref wId="ref54" href="akn/rs/act/1999/74/srp@">74 од 25. децембра 1999</ref>, „Службени лист СЦГ“, број <ref wId="ref55" href="akn/rs/act/2005/44/srp@">44 од 22. октобра 2005</ref>, "Службени гласник РС", број <ref wId="ref56" href="akn/rs/act/2018/36/srp@">36 од 10. маја 2018</ref> - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<article wId="clan10">
+				<num>1-10.</num>
+			</article>
+			<article wId="clan11">
+				<num>11.</num>
+				<heading>Престали су да важе (види  <ref wId="ref1" href="akn/rs/act/2018/36/srp@/!main~/art_82">члан 82. Закона - 36/2018-3</ref>)</heading>
+				<paragraph wId="clan11-stav1">
+					<content>
+						<p>Брисан је (види <ref wId="ref0" href="akn/rs/act/1999/74/srp@/!main~/art_7">члан 7. Закона –  74/1999-42</ref>)</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan11-stav2">
+					<content>
+						<p>Чл. 12. и 13.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan14">
+				<num>14.</num>
+				<heading>Престали су да важе (види  <ref wId="ref2" href="akn/rs/act/2018/36/srp@/!main~/art_82">члан 82. Закона - 36/2018-3</ref>)</heading>
+			</article>
+			<article wId="clan15">
+				<num>15.</num>
+				<heading>Брисан је (види <ref wId="ref3" href="akn/rs/act/1999/74/srp@/!main~/art_10">члан 10. Закона –  74/1999-42</ref>)</heading>
+			</article>
+			<article wId="clan125">
+				<num>16-125.</num>
+				<heading>Брисан је (види <ref wId="ref5" href="akn/rs/act/1999/74/srp@/!main~/art_11">члан 11. Закона –  74/1999-42</ref>)</heading>
+				<paragraph wId="clan125-stav1">
+					<content>
+						<p>Престали су да важе (види  <ref wId="ref4" href="akn/rs/act/2018/36/srp@/!main~/art_82">члан 82. Закона - 36/2018-3</ref>)</p>
+					</content>
+				</paragraph>
+			</article>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАУЧНЕ УСТАНОВЕ</heading>
+				<article wId="gla3-od1-clan126">
+					<num>126.</num>
+					<paragraph wId="gla3-od1-clan126-stav1">
+						<content>
+							<p>Научне установе које обављају  научноистраживачки рад јесу: научни институт, истраживачки институт и  истраживачки центар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan126-stav2">
+						<content>
+							<p>Научни институт је војна установа чију  претежну делатност чине основна истраживања и примењена истраживања од ширег  значаја за Војску Југославије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan126-stav3">
+						<content>
+							<p>Истраживачки институт је војна установа  чију претежну делатност чине примењена и развојна истраживања усмерена на  задовољење потреба непосредних корисника истраживања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan126-stav4">
+						<content>
+							<p>Истраживачки центар је војна установа  чију претежну делатност чине развојна истраживања и верификација резултата.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan127">
+					<num>127.</num>
+					<paragraph wId="gla3-od1-clan127-stav1">
+						<content>
+							<p>Научноистраживачки рад из области  примењених и развојних истраживања могу обављати и истраживачко развојне  јединице које се формирају у Савезном министарству за одбрану, Генералштабу,  високој војној школи и другим војним установама.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan128">
+					<num>128.</num>
+					<paragraph wId="gla3-od1-clan128-stav1">
+						<content>
+							<p>Научна установа и истраживачко-развојна  јединица могу се оснивати ако се потребе за основним, примењеним и развојним -  истраживањима у одговарајућој научној области не могу задовољити коришћењем  услуга постојећих научних установа у СРЈ, ако су обезбеђени потребан  научноистраживачки кадар, просторије, опрема и услови за коришћење неопходне  научне документације и ако су утврђени задаци научне установе и обезбеђена  финансијска средства за реализацију почетног плана и програма  научноистраживачког рада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan129">
+					<num>129.</num>
+					<paragraph wId="gla3-od1-clan129-stav1">
+						<content>
+							<p>Научне установе оснива и укида Савезна  влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan129-stav2">
+						<content>
+							<p>Истраживачко-развојне јединице оснива и  укида савезни министар за одбрану, односно начелник Генералштаба.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan129-stav3">
+						<content>
+							<p>Акт о оснивању научне установе и  истраживачко-развојне јединице садржи назив, седиште, задатке и друге елементе  неопходне за рад установе, односно јединице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan129-stav4">
+						<content>
+							<p>Пре доношења акта о оснивању научне  установе, односно истраживачко-развојне јединице, Генералштаб, односно Савезно  министарство за одбрану израђује елаборат, који садржи доказе о оправданости  оснивања установе, односно јединице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan129-stav5">
+						<content>
+							<p>Акт о укидању научне установе, односно  истраживачко-развојне јединице, доноси се на основу елабората који израђује  Савезно министарство за одбрану, односно Генералштаб. Тим актом одређује се рок  престанка рада установе, односно јединице, преузимање имовине и друга питања у  вези са престанком рада установе, односно јединице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan130">
+					<num>130.</num>
+					<paragraph wId="gla3-od1-clan130-stav1">
+						<intro>
+							<p>Научна установа може да обавља  научноистраживачки рад ако има:</p>
+						</intro>
+						<point wId="gla3-od1-clan130-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> дугорочни програм научноистраживачког  рада;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan130-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> најмање 20 истраживача у сталном  радном односу за области којима се бави, од којих најмање 10 у научном звању и  најмање 10 у звању истраживач-сарадник или вишем звању;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan130-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> простор, опрему и друга средства  потребна за остваривање научноистраживачког рада;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan130-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> научно-информативну документацију.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan130-stav2">
+						<content>
+							<p>Изузетно од одредбе тачке <ref wId="ref7" href="akn/rs/act/2018/36-3/srp@/!main~art_130__para_2__point_2" >2</ref>. <ref wId="ref6" href="akn/rs/act/2018/36-3/srp@/!main~art_130__para_1" >става 1.  овог</ref> члана, научна установа у области ратне вештине и  у области верификације  резултата средстава наоружања и војне опреме може обављати научноистраживачки  рад и са мањим бројем истраживача, али не мањим од 15, од којих најмање  пет у  научном звању и најмање пет у звању истраживач - сарадник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan130-stav3">
+						<content>
+							<p>Научна установа може учествовати у остваривању после  дипломских студија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan130-stav4">
+						<content>
+							<p>Испуњавање услова из <ref wId="ref8" href="akn/rs/act/2018/36-3/srp@/!main~art_130__para_1->para_2" >ст. 1. и 2. овог</ref> члана утврђује  савезни министар за одбрану.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan131">
+					<num>131.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref10" href="akn/rs/act/1999/74/srp@">74/1999</ref></heading>
+					<paragraph wId="gla3-od1-clan131-stav1">
+						<intro>
+							<p>Истраживачко-развојна јединица може  обављати научноистраживачки рад ако има:</p>
+						</intro>
+						<point wId="gla3-od1-clan131-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> програм научноистраживачког рада,  који је у функцији развоја и унапређења основне делатности Савезног министарства  за одбрану, Генералштаба, високе војне школе и других установа;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan131-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> најмање пет истраживача у сталном  радном односу компетентних за област којом се истраживачко-развојна јединица  бави, од којих су најмање два у звању истрачивач-сарадник или вишем звању;</p>
+							</content>
+						</point>
+						<point wId="gla3-od1-clan131-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> одговарајући простор, опрему и друга  средства потребна за рад.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan131-stav2">
+						<content>
+							<p>Испуњеност услова из <ref wId="ref9" href="akn/rs/act/2018/36-3/srp@/!main~art_131__para_1" >става 1. овог</ref> члана, за  истраживачко-развојне јединице из свог састава, утврђује савезни министар за  одбрану, односно начелник Генералштаба.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan132">
+					<num>132.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref11" href="akn/rs/act/1999/74/srp@">74/1999</ref></heading>
+					<paragraph wId="gla3-od1-clan132-stav1">
+						<content>
+							<p>Радом научне установе руководи директор  кога поставља надлежни старешина из реда кандидата са научним звањем из области  рада односне научне установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od1-clan132-stav2">
+						<content>
+							<p>Радом истраживачко-развојне јединице  руководи начелник кога поставља надлежни старешина из реда кандидата са звањем  истраживач-сарадник или вишим звањем из области рада јединице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od1-clan133">
+					<num>133.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref12" href="akn/rs/act/1999/74/srp@">74/1999</ref></heading>
+					<paragraph wId="gla3-od1-clan133-stav1">
+						<content>
+							<p>Прописи о командовању у Војсци  Југославије и о управљању војним установама односе се и на научне установе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan134">
+					<num>134.</num>
+					<paragraph wId="gla3-od2-clan134-stav1">
+						<content>
+							<p>У научној установи се образује научно  веће, а у истраживачко-развојној јединици - стручно веће.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan134-stav2">
+						<content>
+							<p>Чланови већа бирају се из реда  истраживача са истраживачким и научним звањем и из реда наставника високих школа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan134-stav3">
+						<content>
+							<p>Статутом научне установе, односно  истраживачко-развојне јединице утврђује се број чланова већа, начин њиховог  избора, трајање мандата, као и послови које веће обавља.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan135">
+					<num>135.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref14" href="akn/rs/act/1999/74/srp@">74/1999</ref></heading>
+					<paragraph wId="gla3-od2-clan135-stav1">
+						<intro>
+							<p>Научно, односно стручно веће:</p>
+						</intro>
+						<point wId="gla3-od2-clan135-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> предлаже дугорочну програмску  оријентацију;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan135-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> даје стручно мишљење о плановима и програмима научноистраживачког рада и  оцењује резултате остварених пројеката;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan135-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> предлаже планове и програме рада у складу са  дугорочним програмом научноистраживачког рада;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan135-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> одлучује о стицању научног и истраживачког звања;</p>
+							</content>
+						</point>
+						<point wId="gla3-od2-clan135-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> обавља друге послове утврђене статутом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan135-stav2">
+						<content>
+							<p>Поред послова из <ref wId="ref13" href="akn/rs/act/2018/36-3/srp@/!main~art_135__para_1" >става 1. овог</ref> члана  научно веће бира кандидате за научно, односно истраживачко звање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan135-stav3">
+						<content>
+							<p>Научно веће може одлучивати о стицању  звања ако у свом саставу има најмање 15 истраживача у научном, односно  одговарајућем наставничком звању, од којих је најмање 10 у сталном радном односу  у научној установи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od2-clan136">
+					<num>136.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref15" href="akn/rs/act/1999/74/srp@">74/1999</ref></heading>
+					<paragraph wId="gla3-od2-clan136-stav1">
+						<content>
+							<p>Радом научног, односно стручног већа  руководи председник већа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan136-stav2">
+						<content>
+							<p>Председник научног већа именује се из  редова истраживача у звању научног сарадника или вишем звању, а председник  стручног већа - из редова истраживача у звању истраживач-сарадник или вишем  звању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od2-clan136-stav3">
+						<content>
+							<p>Председник већа руководи радом већа и  обавља друге послове у складу са статутом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan137">
+					<num>137.</num>
+					<paragraph wId="gla3-od3-clan137-stav1">
+						<content>
+							<p>Истраживач, у смислу одредаба овог  закона, јесте лице са високом стручном спремом које је завршило приправнички  стаж за научноистраживачке послове у научној установи - истраживачко-развојној  јединици или на високој војној школи и које ради на истраживачким пословима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan137-stav2">
+						<content>
+							<p>Изузетно од одредбе <ref wId="ref16" href="akn/rs/act/2018/36-3/srp@/!main~art_137__para_1" >става 1. овог</ref> члана,  истраживач може бити и лице са високом стручном спремом које није завршило  приправнички стаж из <ref wId="ref17" href="akn/rs/act/2018/36-3/srp@/!main~art_137__para_1" >става 1. овог</ref> члана, ако има најмање четири године радног  искуства у одговарајућој области рада, објављене стручне или научне радове  односно запажене резултате у истраживачком раду и ако ради на истраживачким  пословима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan138">
+					<num>138.</num>
+					<paragraph wId="gla3-od3-clan138-stav1">
+						<content>
+							<p>За приправника из <ref wId="ref18" href="akn/rs/act/2018/36-3/srp@/!main~art_137__para_1" >члана 137. став 1.  овог</ref> закона може бити изабрано лице са високом стручном спремом које је  завршило основне студије са просечном оценом најмање осам.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan138-stav2">
+						<content>
+							<p>Приправнички стаж за истраживача траје  од једне до четири године, зависно од области и врсте научноистраживачког рада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan138-stav3">
+						<content>
+							<p>Статутом научне установе утврђују се:  трајање приправничког стажа, послови на којима се обучава приправник, начин  оспособљавања за научноистраживачки рад и начин провере оспособљености за  обављање послова истраживача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan138-stav4">
+						<content>
+							<p>Провером оспособљености утврђује се да  ли је лице за време приправничког стажа овладало знањима и научном методологијом  потребном за рад у одговарајућој области и испољило смисао за научни рад.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan139">
+					<num>139.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref19" href="akn/rs/act/1999/74/srp@">74/1999</ref></heading>
+					<paragraph wId="gla3-od3-clan139-stav1">
+						<content>
+							<p>Истраживач може стећи следећа звања:  истраживач-сарадник и научно звање: научни сарадник, виши научни сарадник и  научни саветник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan139-stav2">
+						<content>
+							<p>Звање истраживач-сарадник може стећи  лице које, поред академског назива магистра наука, има објављене радове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan139-stav3">
+						<content>
+							<p>Звање научни сарадник може стећи лице  које има докторат наука из научне области у којој стиче звање и објављене  радове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan139-stav4">
+						<content>
+							<p>Звање виши научни сарадник може стећи  лице које има докторат наука из научне области у којој стиче звање и више  објављених научних радова од значаја за развој одговарајуће научне области.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan139-stav5">
+						<content>
+							<p>Звање научни саветник може стећи лице  које има докторат наука из области у којој стиче звање и признате научне радове  значајне за развој одговарајуће научне области.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan139-stav6">
+						<content>
+							<p>Услове за стицање научног и истраживачког звања  прописује савезни министар за одбрану.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan140">
+					<num>140.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref23" href="akn/rs/act/1999/74/srp@">74/1999</ref></heading>
+					<paragraph wId="gla3-od3-clan140-stav1">
+						<content>
+							<p>Звања наставника у високим војним  школама одређена из <ref wId="ref22" href="akn/rs/act/2018/36-3/srp@/!main~art_140__para_1" >става 1. </ref><ref wId="ref20" href="akn/rs/act/2018/36-3/srp@/!main~art_117" >члана 117. овог</ref> закона одговарају одређеним научним  звањима утврђеним у <ref wId="ref21" href="akn/rs/act/2018/36-3/srp@/!main~art_139__para_1" >члану 139. став 1. овог</ref> закона, и то: звање асистент - звању  истраживач-сарадник, звање доцент - звању научни сарадник, звање ванредни  професор - звању виши научни сарадник и звање редовни професор - звању научни  саветник.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan141">
+					<num>141.</num>
+					<paragraph wId="gla3-od3-clan141-stav1">
+						<content>
+							<p>Научно и истраживачко звање може се  стећи, у складу с одредбама овог закона, у научној установи за научну област  која је основна делатност научне установе, односно у високој војној школи за  научну дисциплину за коју висока војна школа даје научни степен доктора наука.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan142">
+					<num>142.</num>
+					<paragraph wId="gla3-od3-clan142-stav1">
+						<content>
+							<p>Одлуку о стицању звања доноси научно  веће.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan142-stav2">
+						<content>
+							<p>У доношењу одлуке о стицању научног  звања учествују само чланови већа у научном звању.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan142-stav3">
+						<content>
+							<p>Поступак за стицање научног и  истраживачког звања покреће одговарајућа организацијска јединица научне установе  по службеној дужности или на захтев заинтересованог лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan143">
+					<num>143.</num>
+					<paragraph wId="gla3-od3-clan143-stav1">
+						<content>
+							<p>Лице које сматра да испуњава услове за  неко од научних звања из <ref wId="ref24" href="akn/rs/act/2018/36-3/srp@/!main~art_139" >члана 139. овог</ref> закона може да поднесе захтев за избор  у одговарајуће звање научном већу научне установе, односно већу школе, у којој  је запослено, односно чији је сарадник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan143-stav2">
+						<content>
+							<p>Лице које ради у истраживачко-развојној  јединици, која, према одредбама овог закона, не може вршити избор у научна  звања, захтев из <ref wId="ref25" href="akn/rs/act/2018/36-3/srp@/!main~art_143__para_1" >става 1. овог</ref> члана подноси научној установи, односно високој  војној школи која, у смислу одредаба овог закона и прописа савезног министра за  одбрану, може вршити избор у научна звања за одређене научне области и  дисциплине.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan144">
+					<num>144.</num>
+					<paragraph wId="gla3-od3-clan144-stav1">
+						<content>
+							<p>Избор у научна звања врши научно веће,  односно веће високе војне школе на основу предлога комисије образоване сагласно  одредбама <ref wId="ref26" href="akn/rs/act/2018/36-3/srp@/!main~art_106" >члана 106. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan144-stav2">
+						<content>
+							<p>Комисија из <ref wId="ref27" href="akn/rs/act/2018/36-3/srp@/!main~art_144__para_1" >става 1. овог</ref> члана састоји  се од најмање три научна радника из научне области у којој кандидат стиче  звање, од којих најмање један није у радном односу у војној научној установи  која утврђује постојање услова за стицање звања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan144-stav3">
+						<content>
+							<p>Чланови комисије не могу бити у звању  нижем од звања које кандидат стиче.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan145">
+					<num>145.</num>
+					<heading>*Службени лист СРЈ, број <ref wId="ref30" href="akn/rs/act/1999/74/srp@">74/1999</ref></heading>
+					<paragraph wId="gla3-od3-clan145-stav1">
+						<content>
+							<p>Комисија подноси предлог из <ref wId="ref28" href="akn/rs/act/2018/36-3/srp@/!main~art_144" >члана 144.  овог</ref> закона у року одређеном актом о њеном образовању, који не може бити дужи од  30 дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan145-stav2">
+						<content>
+							<p>Предлог садржи: личне податке, преглед  стручног и научног рада и оцену тога рада, оцену о испуњености услова за стицање  звања, као и предлог који треба да усвоји научно веће.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan145-stav3">
+						<content>
+							<p>Предлог из <ref wId="ref29" href="akn/rs/act/2018/36-3/srp@/!main~art_145__para_2" >става 2. овог</ref> члана учиниће  се доступан јавности на начин утврђен статутом научне установе, односно високе  војне школе, најмање 30 дана пре доношења одлуке.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan146">
+					<num>146.</num>
+					<paragraph wId="gla3-od3-clan146-stav1">
+						<content>
+							<p>Научно веће доноси одлуку о стицању  звања у року од 60 дана од дана достављања предлога из <ref wId="ref31" href="akn/rs/act/2018/36-3/srp@/!main~art_145" >члана 145. овог</ref> закона на  увид јавности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od3-clan147">
+					<num>147.</num>
+					<paragraph wId="gla3-od3-clan147-stav1">
+						<content>
+							<p>Одлука научног већа, коју је оверио  директор научне установе, са документацијом, доставља се на потврђивање  савезном министру за одбрану.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od3-clan147-stav2">
+						<content>
+							<p>*Службени лист СРЈ, број <ref wId="ref32" href="akn/rs/act/1999/74/srp@">74/1999</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od4-clan148">
+					<num>148.</num>
+					<paragraph wId="gla3-od4-clan148-stav1">
+						<content>
+							<p>Научне установе и истраживачко-развојне  јединице, у складу са потребама Војске Југославије, израђују дугорочне,  средњорочне и годишње планове и програме научноистраживачке делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan148-stav2">
+						<content>
+							<p>Дугорочни, средњорочни и годишњи планови  и програми научноистраживачке делатности садрже: циљеве и задатке  научноистраживачког рада у одређеној научној области и дисциплини, развој  система научних информација, потребе и начин развоја кадра, обезбеђење подршке  научноистраживачкој делатности, оријентациони износ финансијских средстава  потребних за извршење плана и програма.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od4-clan148-stav3">
+						<content>
+							<p>Прописе о планирању, организовању,  спровођењу и финансирању научноистраживачке делатности у научним установама и  истраживачко-развојним јединицама, доноси савезни министар за одбрану.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od4-clan149">
+					<num>149.</num>
+					<paragraph wId="gla3-od4-clan149-stav1">
+						<content>
+							<p>Израда и остваривање програма и  пројеката научноистраживачке делатности за потребе Војске Југославије и Савезног  министарства за одбрану могу се поверити научноистраживачким или  образовно-научним установама у СРЈ, осим ако због посебних разлога војне природе  није неопходно да то реализују научне установе Војске Југославије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan150">
+					<num>150.</num>
+					<paragraph wId="gla3-od5-clan150-stav1">
+						<content>
+							<p>Орган надлежан за послове  научноистраживачке делатности води евиденциону књигу научних установа и  истраживачко-развојних јединица, образује базу података о истраживачима и  приправницима за потребе научних установа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan150-stav2">
+						<content>
+							<p>Савезни министар за одбрану утврђује  обим података, садржај и начин вођења регистара из <ref wId="ref33" href="akn/rs/act/2018/36-3/srp@/!main~art_150__para_1" >става 1. овог</ref> члана, као и  поступак уписа и брисања из тих регистара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan159">
+					<num>151-159.</num>
+					<paragraph wId="gla3-od5-clan159-stav1">
+						<content>
+							<p>Престали су да важе (види  <ref wId="ref34" href="akn/rs/act/2018/36/srp@/!main~/art_82">члан 82. Закона - 36/2018-3</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan159-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan159-stav3">
+						<content>
+							<p>о војним школама и војним научноистраживачким установама</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan159-stav4">
+						<content>
+							<p>„Службени лист СРЈ“, бр. <ref wId="ref35" href="akn/rs/act/1994/80/srp@">80 од 4. новембра 1994</ref>, <ref wId="ref36" href="akn/rs/act/1994/85/srp@">85 од 2.  децембра 1994</ref> - исправка, <ref wId="ref37" href="akn/rs/act/1999/74/srp@">74 од 25. децембра 1999</ref>, „Службени лист СЦГ“, број <ref wId="ref38" href="akn/rs/act/2005/44/srp@">44  од 22. октобра 2005</ref>, &quot;Службени гласник РС&quot;, број <ref wId="ref39" href="akn/rs/act/2018/36/srp@">36 од 10. маја 2018</ref> -  др. закон</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan159-stav5">
+						<content>
+							<p>НАПОМЕНА ИЗДАВАЧА: Закон је престао да важи даном ступања на снагу Закона  о војном образовању (&quot;Службени гласник РС&quot;, број <ref wId="ref43" href="akn/rs/act/2018/36/srp@">36/2018</ref>) , осим одредаба <ref wId="ref42" href="akn/rs/act/2018/36-3/srp@/!main~art_126->art_150" >чл.  126</ref>–150. које остају на снази до доношења прописа из <ref wId="ref40" href="akn/rs/act/2018/36-3/srp@/!main~art_35__para_6" >члана 35. став 6. </ref>Закона о  научноистраживачкој делатности („Службени гласник РС”, бр. <ref wId="ref44" href="akn/rs/act/05/110/srp@">110/05</ref>, <ref wId="ref45" href="akn/rs/act/06/50/srp@">50/06</ref> –  исправка, 18/10 и 112/15) (види <ref wId="ref41" href="akn/rs/act/2018/36/srp@/!main~/art_82">члан 82. Закона - 36/2018-3</ref>) (текст прописа пре  измене из броја 36/2018 можете погледати са десне стране у делу &quot;Верзије  пречишћеног текста&quot;).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan10">
+					<num>1-10.</num>
+				</article>
+				<article wId="gla3-od5-clan11">
+					<num>11.</num>
+					<heading>Престали су да важе (види  <ref wId="ref47" href="akn/rs/act/2018/36/srp@/!main~/art_82">члан 82. Закона - 36/2018-3</ref>)</heading>
+					<paragraph wId="gla3-od5-clan11-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref46" href="akn/rs/act/1999/74/srp@/!main~/art_7">члан 7. Закона –  74/1999-42</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-od5-clan11-stav2">
+						<content>
+							<p>Чл. 12. и 13.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-od5-clan14">
+					<num>14.</num>
+					<heading>Престали су да важе (види  <ref wId="ref48" href="akn/rs/act/2018/36/srp@/!main~/art_82">члан 82. Закона - 36/2018-3</ref>)</heading>
+				</article>
+				<article wId="gla3-od5-clan15">
+					<num>15.</num>
+					<heading>Брисан је (види <ref wId="ref49" href="akn/rs/act/1999/74/srp@/!main~/art_10">члан 10. Закона –  74/1999-42</ref>)</heading>
+				</article>
+				<article wId="gla3-od5-clan125">
+					<num>16-125.</num>
+					<heading>Брисан је (види <ref wId="ref51" href="akn/rs/act/1999/74/srp@/!main~/art_11">члан 11. Закона –  74/1999-42</ref>)</heading>
+					<paragraph wId="gla3-od5-clan125-stav1">
+						<content>
+							<p>Престали су да важе (види  <ref wId="ref50" href="akn/rs/act/2018/36/srp@/!main~/art_82">члан 82. Закона - 36/2018-3</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

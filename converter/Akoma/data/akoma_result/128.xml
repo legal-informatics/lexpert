@@ -1,0 +1,631 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон o судским вештацима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2010/44-31/main"/>
+					<FRBRuri value="akn/rs/act/2010/44-31"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2010/44-31/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2010/44-31/srp@"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2010/44-31/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2010/44-31/srp@.akn"/>
+					<FRBRdate date="2010-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2010-06-30" name="службени гласник рс“" number="44" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="III ПРАВОСУЂЕ, КАЗНЕНО ЗАКОНОДАВСТВО И ПОСТУПЦИ" value="iii правосуђе, казнено законодавство и поступци" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="5. Вештачење" value="5. вештачење" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2010-06-29" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2010-07-08" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2010-07-08" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="обављају"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="судских"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="брисања"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="лица"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="именовања"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавезе"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="разрешења"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="уписа"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="услови"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="вештачења"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="правних"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="вештачење"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="послове"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="обављање"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="вештак"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo vodi Registar veštaka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar pravnih lica za obavljanje poslova veštačenja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar stalnih veštaka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registar veštaka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registra veštaka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registru veštaka"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Zakon o uslovima za obavljanje poslova veštačenja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. st. 2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 8. јула 2010. године (види члан 32. Закона).Висина и начин накнаде трошкова и висина награде за вештачење одређују се у складу са прописом којим је уређена накнада трошкова у судским поступцима (види члан 26. Закона).Именовање вештака извршиће се у року од годину дана од дана ступања на снагу овог закона . Вештацима који су уписани у Регистар сталних вештака престаје својство вештака ако до истека овог рока не буду именовани за вештаке по одредбама овог закона. Правна лица која су до ступања на снагу овог закона обављала послове вештачења могу да обављају ове послове најдуже годину дана од дана ступања на снагу овог закона, а након истека тог рока – ако испуњавају услове предвиђене овим законом. (види члан 30. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон O судским вештацима „Службени гласник РС“, брoj <ref wId="ref14" href="akn/rs/act/2010/44/srp@">44 од 30. јуна 2010</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се услови за обављање вештачења, поступак именовања и разрешења судских вештака (у даљем тексту: вештак), поступак уписа и брисања правних лица која обављају послове вештачења, као и права и обавезе лица која обављају вештачење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Послови вештачења, у смислу овог закона, представљају стручне активности чијим се обављањем, уз коришћење научних, техничких и других достигнућа, пружају суду или другом органу који води поступак потребна стручна знања која се користе приликом утврђивања, оцене или разјашњења правно релевантних чињеница.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Вештачење обављају физичка и правна лица која испуњавају услове предвиђене овим законом, државни органи у оквиру којих се може обавити вештачење, као и научне и стручне установе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Изузетно, уколико у Републици Србији нема вештака одговарајуће струке или постоје други правни или стварни разлози због којих вештаци из Републике Србије не могу обавити послове вештачења у конкретном предмету, послове вештачења у Републици Србији може може у појединачним случајевима обављати и вештак или правно лице из друге државе, који према закону те државе испуњавају услове за обављање послова вештачења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Вештака именује и разрешава министар надлежан за послове правосуђа (у даљем тексту: министар).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>Министар одлучује и о упису и брисању правних лица у Регистар правних лица за обављање послова вештачења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Вештак има право на накнаду трошкова и право на награду за рад.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>УСЛОВИ ЗА ОБАВЉАЊЕ ПОСЛОВА ВЕШТАЧЕЊА</heading>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<intro>
+							<p>Физичко лице може бити именовано за вештака ако поред општих услова за рад у државним органима прописаних законом испуњава и следеће посебне услове:</p>
+						</intro>
+						<point wId="gla2-clan6-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да има одговарајућe стечено високо образовање на студијама другог степена (дипломске академске студије – мастер, специјалистичке академске студије, специјалистичке струковне студије), односно на основним студијама, за одређену област вештачења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да има најмање пет година радног искуства у струци;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> да поседује стручно знање и практична искуства у одређеној области вештачења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan6-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> да је достојан за обављање послова вештачења.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref0" href="akn/rs/act/2010/44-31/srp@/!main~art_6__para_1" >става 1. овог</ref> члана, за вештака може бити именовано лице које има најмање завршену средњу школу, ако за одређену област вештачења нема довољно вештака са стеченим високим образовањем.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Стручно знање и практична искуства за одређену област вештачења кандидат за вештака доказује објављеним стручним или научним радовима, потврдом о учешћу на саветовањима у организацији стручних удружења, као и мишљењима или препорукама судова или других државних органа, стручних удружења, научних и других институција или правних лица у којима је кандидат за вештака радио, односно за које је обављао стручне послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Кандидат за вештака са научним звањима није дужан да доставља доказе из <ref wId="ref1" href="akn/rs/act/2010/44-31/srp@/!main~art_7__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Физичко лице може обављати вештачења само ако је уписано у Регистар вештака.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<paragraph wId="gla2-clan9-stav1">
+						<intro>
+							<p>Правно лице може обављати вештачења ако испуњава следеће услове:</p>
+						</intro>
+						<point wId="gla2-clan9-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> да је уписано у регистар надлежног органа за делатност вештачења у одговарајућој области;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan9-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> да су у том правном лицу запослена лица која су уписана у Регистар вештака.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>У име правног лица послове вештачења могу обављати само лица из става 1. тачка <ref wId="ref2" href="akn/rs/act/2010/44-31/srp@/!main~art_9__para_1__point_2" >2</ref>. овог члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Вештачење могу обављати и државни органи у оквиру којих се може обавити вештачење, као и научне и стручне установе (факултети, институти, заводи и сл.).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Органи и установе из <ref wId="ref3" href="akn/rs/act/2010/44-31/srp@/!main~art_10__para_1" >става 1. овог</ref> члана одређују једног или више стручњака одговарајуће специјалности који ће обављати вештачење или образују комисије састављене од научних или стручних радника који су код њих запослени.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК ИМЕНОВАЊА И РАЗРЕШЕЊА</heading>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>Постојање потребе за вештацима за одређене области вештачења председници првостепених судова достављају министарству надлежном за послове правосуђа (у даљем тексту: министарство).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>Министар објављује јавни позив за именовање вештака у „Службеном гласнику Републике Србије” и на интернет страници министарства, када утврди да је недовољан број вештака за одређену област вештачења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Захтев за именовање са прилозима којима се доказује испуњеност услова за обављање вештачења кандидат за вештака подноси министарству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan12-stav2">
+						<content>
+							<p>У захтеву се наводе лични подаци, звање, радна биографија, област вештачења и ужа специјалност.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<paragraph wId="gla3-clan13-stav1">
+						<content>
+							<p>Решење о именовању вештака доноси министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Решење из <ref wId="ref4" href="akn/rs/act/2010/44-31/srp@/!main~art_13__para_1" >става 1. овог</ref> члана основ је за упис у Регистар вештака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav3">
+						<content>
+							<p>Против решења којим се одбија захтев за именовање, кандидат за вештака може покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Решење о именовању вештака садржи презиме, име једног родитеља и име вештака, његово пребивалиште и адресу, звање, област вештачења и ужу специјалност вештака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Решење из <ref wId="ref5" href="akn/rs/act/2010/44-31/srp@/!main~art_14__para_1" >става 1. овог</ref> члана објављује се у „Службеном гласнику Републике Србије” и на интернет страници министарства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Вештак има печат правоугаоног облика, величине 4,5 x 2,5 cm, који садржи име и презиме вештака, његово пребивалиште и област вештачења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Отисак печата и својеручни потпис вештак депонује у Регистру вештака при министарству.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>Министарство води Регистар вештака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>У Регистар вештака уносе се следећи подаци: редни број уписа, презиме, име једног родитеља и име вештака, година рођења, његово пребивалиште, адреса и телефонски број, звање, област вештачења и ужа специјалност, број и датум решења о именовању, односно разрешењу вештака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav3">
+						<content>
+							<p>Регистар вештака води се у електронском облику и јавно је доступан преко интернет странице министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav4">
+						<content>
+							<p>Поред Регистра вештака, министарство води и збирку исправа за сваког вештака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav5">
+						<content>
+							<p>У збирци исправа чувају се документа на основу којих је извршен упис у Регистар вештака, као и пријаве поднете против вештака, решења о изреченим новчаним казнама и предлози за разрешење вештака.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<paragraph wId="gla3-clan17-stav1">
+						<content>
+							<p>Вештак је дужан да о промени података из <ref wId="ref6" href="akn/rs/act/2010/44-31/srp@/!main~art_16__para_2" >члана 16. став 2. овог</ref> закона обавести министарство одмах, а најкасније у року од осам дана од дана промене податка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan18">
+					<num>18.</num>
+					<paragraph wId="gla3-clan18-stav1">
+						<content>
+							<p>Суд, односно орган који води поступак прати рад вештака и о својим примедбама и новчаним казнама које су изречене вештаку обавештава министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav2">
+						<content>
+							<p>Суд, односно орган који води поступак, је дужан да прати рад вештака и да за вештачење у поједином предмету одређује вештака који има пребивалиште на подручју тог суда, водећи рачуна да вештаци из исте области буду равномерно ангажовани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav3">
+						<content>
+							<p>На седницама судија у првостепеним судовима, најмање једном годишње, разматрају се питања од значаја за суд који се односе на рад вештака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav4">
+						<content>
+							<p>На основу закључка седнице судија, председник суда може утврдити потребу за повећањем броја вештака за одређену област или поднети образложен предлог за разрешење вештака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan18-stav5">
+						<content>
+							<p>Образложени предлог за разрешење вештака због нестручног, неуредног или несавесног вештачења може поднети суд, орган који води поступак, односно странке или други учесници у судском или другом поступку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan19">
+					<num>19.</num>
+					<paragraph wId="gla3-clan19-stav1">
+						<intro>
+							<p>Вештак ће бити разрешен:</p>
+						</intro>
+						<point wId="gla3-clan19-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> на сопствени захтев;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако се утврди да нису постојали, односно да су престали услови на основу којих је именован;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако буде осуђен за кривично дело које га чини недостојним или неподобним за вршење послова вештачења;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако му буде изречена заштитна мера забране обављања делатности у области у којој обавља вештачење;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ако му на основу судске одлуке буде одузета или ограничена пословна способност;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> ако се на начин прописан законом утврди да је изгубио радну способност;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan19-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> ако неуредно, несавесно или нестручно обавља вештачење.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav2">
+						<content>
+							<p>Вештак неуредно и несавесно обавља вештачење ако неоправдано одбија да вештачи, не одазива се на позиве суда или другог органа који води поступак, не обави вештачење у року који одређен и у другим случајевима предвиђеним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav3">
+						<content>
+							<p>Вештак нестручно обавља вештачење ако даје непотпуне, нејасне, противречне или нетачне налазе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan19-stav4">
+						<content>
+							<p>У поступку који се води по предлогу за разрешење вештака министар може формирати стручну комисију од три члана из реда водећих стручњака у области у којој вештак вештачи, ради оцене стручности рада вештака и може омогућити вештаку да се изјасни о чињеницама и околностима на којима се заснива предлог за разрешење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan20">
+					<num>20.</num>
+					<paragraph wId="gla3-clan20-stav1">
+						<content>
+							<p>Вештак не може обављати вештачења ако је против њега покренут кривични поступак за кривично дело које га чини недостојним за обављање послова вештачења, док овај поступак траје.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav2">
+						<content>
+							<p>О покретању кривичног поступка против вештака орган који води поступак без одлагања обавештава министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan20-stav3">
+						<content>
+							<p>По правноснажном окончању кривичног поступка, суд о његовом исходу обавештава министарство.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan21">
+					<num>21.</num>
+					<paragraph wId="gla3-clan21-stav1">
+						<content>
+							<p>Против решења о разрешењу вештак може покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan21-stav2">
+						<content>
+							<p>Вештак који је разрешен брише се из Регистра вештака, а решење о разрешењу вештака објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ПРАВНА ЛИЦА КОЈА ОБАВЉАЈУ ПОСЛОВЕ ВЕШТАЧЕЊА</heading>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<paragraph wId="gla4-clan22-stav1">
+						<content>
+							<p>Правна лица подносе захтев за упис у Регистар правних лица за обављање послова вештачења (у даљем тексту: Регистар правних лица), који води министарство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav2">
+						<content>
+							<p>Решење о упису у Регистар правних лица доноси министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav3">
+						<content>
+							<p>Против решења којим се одбија захтев за упис у Регистар правних лица може се покренути управни спор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav4">
+						<content>
+							<p>Регистар правних лица води се у електронском облику и јавно је доступан преко интернет странице министарства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>Решење о упису у Регистар правних лица садржи назив и седиште правног лица за обављање послова вештачења, број телефона, област вештачења и ужу специјалност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav2">
+						<content>
+							<p>Решење о упису у Регистар правних лица објављује се у „Службеном гласнику Републике Србије” и на интернет страници министарства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<paragraph wId="gla4-clan24-stav1">
+						<content>
+							<p>У Регистар правних лица уносе се следећи подаци: редни број уписа, назив и седиште правног лица, број телефона, имена вештака запослених у правном лицу са области вештачења и ужом специјалношћу, број и датум решења о упису правног лица у регистар надлежног органа, број и датум решења о брисању из регистра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav2">
+						<content>
+							<p>Правно лице је дужно да о промени података из <ref wId="ref7" href="akn/rs/act/2010/44-31/srp@/!main~art_24__para_1" >става 1. овог</ref> члана обавести министарство одмах, а најкасније у року од осам дана од дана промене податка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Правно лице брише се из Регистра правних лица ако престану да постоје услови предвиђени <ref wId="ref8" href="akn/rs/act/2010/44-31/srp@/!main~art_9" >чланом 9. овог</ref> закона и ако неуредно или нестручно обавља вештачење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Правно лице неуредно или нестручно обавља вештачење када вештаци запослени у том правном лицу неуредно или нестручно обављају вештачење у смислу <ref wId="ref9" href="akn/rs/act/2010/44-31/srp@/!main~art_19__para_2->para_3" >члана 19. ст. 2. и 3. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav3">
+						<content>
+							<p>Против решења из <ref wId="ref10" href="akn/rs/act/2010/44-31/srp@/!main~art_25__para_1" >става 1. овог</ref> члана правно лице може покренути управни спор.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРАВА И ОБАВЕЗЕ ВЕШТАКА</heading>
+				<article wId="gla5-clan26">
+					<num>26.</num>
+					<paragraph wId="gla5-clan26-stav1">
+						<content>
+							<p>Висина и начин накнаде трошкова и висина награде за вештачење одређују се у складу са прописом којим је уређена накнада трошкова у судским поступцима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan27">
+					<num>27.</num>
+					<paragraph wId="gla5-clan27-stav1">
+						<content>
+							<p>Вештак је дужан да се придржава рокова одређених решењем суда и да вештачење обавља савесно, стручно и непристрасно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan28">
+					<num>28.</num>
+					<paragraph wId="gla5-clan28-stav1">
+						<content>
+							<p>Вештак је дужан да чува тајност података које је сазнао обављајући послове вештачења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan29">
+					<num>29.</num>
+					<paragraph wId="gla5-clan29-stav1">
+						<content>
+							<p>Одредбе о правима и обавезама вештака сходно се примењују и на правна лица која обављају послове вештачења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan30">
+					<num>30.</num>
+					<paragraph wId="gla6-clan30-stav1">
+						<content>
+							<p>Именовање вештака извршиће се у року од годину дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav2">
+						<content>
+							<p>Министар објављује јавни позив за именовање вештака у складу са овим законом у року од 90 дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav3">
+						<content>
+							<p>Вештацима који су уписани у Регистар сталних вештака престаје својство вештака ако до истека рока из <ref wId="ref11" href="akn/rs/act/2010/44-31/srp@/!main~art_30__para_1" >става 1. овог</ref> члана не буду именовани за вештаке по одредбама овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav4">
+						<content>
+							<p>Правна лица која су до ступања на снагу овог закона обављала послове вештачења могу да обављају ове послове најдуже годину дана од дана ступања на снагу овог закона, а након истека тог рока – ако испуњавају услове предвиђене овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan31">
+					<num>31.</num>
+					<paragraph wId="gla6-clan31-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о условима за обављање послова вештачења („Службени гласник СРС”, бр. <ref wId="ref12" href="akn/rs/act/87/16/srp@">16/87</ref> и <ref wId="ref13" href="akn/rs/act/87/17/srp@">17/87</ref> – исправка).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan32">
+					<num>32.</num>
+					<paragraph wId="gla6-clan32-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

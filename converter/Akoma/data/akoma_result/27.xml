@@ -1,0 +1,1664 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о спољним пословима">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2007/116-37/main"/>
+					<FRBRuri value="akn/rs/act/2007/116-37"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2009/41-216/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2009/41-216/srp@"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2009/41-216/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2009/41-216/srp@.akn"/>
+					<FRBRdate date="2009-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2007-12-11" name="службени гласник рс“" number="116" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="12. Спољни послови" value="12. спољни послови" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2007-01-01" refersTo="116/2007-37" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2007-01-01" refersTo="126/2007-165" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2009-01-01" refersTo="41/2009-216" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2007-12-11" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2007-12-19" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2007-12-19" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="спољних"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="послова"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="представништава"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="иностранству"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="дипломатско"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="конзуларна"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="министарство"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="конзуларних"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="потврђени"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређена"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="спровођење"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="одлучивања"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="међусобни"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="уговори"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="управљања"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="неопходном"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="општеприхваћена"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="располагања"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="однос"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="област"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="посебна"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежност"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="примењују"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="утврђивање"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="правила"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="утврђеног"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="закони"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="обављања"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="звања"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="подзаконски"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="дипломата"/>
+				<TLCConcept eId="cocnept42" href="http://purl.org/vocab/frbr/core#Concept" showAs="произилазе"/>
+				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="запослених"/>
+				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежности"/>
+				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="имовином"/>
+				<TLCConcept eId="cocnept46" href="http://purl.org/vocab/frbr/core#Concept" showAs="стицања"/>
+				<TLCConcept eId="cocnept47" href="http://purl.org/vocab/frbr/core#Concept" showAs="акти"/>
+				<TLCConcept eId="cocnept48" href="http://purl.org/vocab/frbr/core#Concept" showAs="страних"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Poslove"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ministarstva"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Ministarstvu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republika Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike ukazom"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlade"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vladi"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Diplomate"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Diplomatska akademija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Diplomatske akademije Ministarstva i"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva i dodatno obrazovanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva ili"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva koji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva najmanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva se"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo )"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo obavlja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo pod"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo premeštaju"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo spoljnih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo u"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvom za dijasporu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Organizacije ujedinjenih nacija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Rang vice-konzula"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vladi strategiju razvoja spoljnih poslova"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Agreman"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2009."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. i 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. st. 2. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="41. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="42. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="54. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 19. децембра 2007. године, а одредба члана 54. став 1. ступила је на снагу 1. јануара 2010. године (види члан 67. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О спољним пословима „Службени гласник РС“, бр. <ref wId="ref23" href="akn/rs/act/2007/116/srp@">116 од 11. децембра 2007</ref>, <ref wId="ref24" href="akn/rs/act/2007/126/srp@">126 од 28. децембра 2007</ref> - исправка, <ref wId="ref25" href="akn/rs/act/2009/41/srp@">41 од 2. јуна 2009</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>прва</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се:   међусобни однос државних органа у обављању спољних послова;   послови које у оквиру утврђеног делокруга и надлежности обавља Министарство спољних послова (у даљем тексту:   Министарство);   поступак одлучивања о отварању и затварању дипломатско-конзуларних представништава Републике Србије у иностранству (у даљем тексту:   дипломатско-конзуларна представништва)   и представништава страних држава и међународних организација у Републици Србији;   поступак стицања,   управљања и располагања имовином у иностранству неопходном за рад дипломатско-конзуларних представништава;   дипломатска и конзуларна звања,   као и посебна права и дужности дипломата и других запослених у Министарству која произилазе из обављања спољних послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>На питања која нису уређена овим законом примењују се други закони,   општеприхваћена правила међународног права и потврђени међународни уговори и подзаконски општи акти,   којима се уређује област спољних послова.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>друга</num>
+				<heading>НАДЛЕЖНОСТ У ОБЛАСТИ СПОЉНИХ ПОСЛОВА</heading>
+				<article wId="gla2-clan2">
+					<num>2.</num>
+					<heading>Утврђивање и спровођење спољне политике</heading>
+					<paragraph wId="gla2-clan2-stav1">
+						<content>
+							<p>Влада утврђује спољну политику коју спроводи Министарство,   као и други органи државне управе у оквиру утврђеног делокруга.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan3">
+					<num>3.</num>
+					<heading>Начело сарадње</heading>
+					<paragraph wId="gla2-clan3-stav1">
+						<content>
+							<p>Државни органи међусобно сарађују у обављању спољних послова за које су надлежни на основу Устава и закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav2">
+						<content>
+							<p>Сарадња се остварује међусобним извештавањем и координацијом спољнополитичких активности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Надлежност Министарства у процесу сарадње</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Министарство је надлежно за координацију спољнополитичких и других међународних активности које у оквиру утврђене надлежности спроводе државни органи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav2">
+						<content>
+							<p>Државни органи у обављању спољних послова сарађују са Министарством благовременим извештавањем о планираним и спроведеним активностима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav3">
+						<content>
+							<p>Комуникација државних органа са представницима других држава и међународних организација одвија се посредством Министарства или у сарадњи са Министарством,   када је то у складу са међународним уговорима и дипломатском праксом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan4-stav4">
+						<content>
+							<p>Односи државних органа са дипломатско-конзуларним представништвима одвијају се преко Министарства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Послови Министарства</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<intro>
+							<p>Министарство у оквиру своје надлежности обавља следеће послове:</p>
+						</intro>
+						<point wId="gla2-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p>   представља,   уз председника Републике,   Републику Србију у односима са другим државама,   међународним организацијама,   међународним судовима и другим међународним институцијама,   као и са њиховим представништвима у Републици Србији;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> штити интересе Републике Србије,   њених држављана и правних лица у иностранству;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p>   предлаже Влади спољну политику коју она утврђује;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p>   предлаже Влади успостављање и прекид дипломатских односа са другим државама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p>   предлаже Влади учлањење,   односно учешће Републике Србије у међународним организацијама и интеграцијама,   као и у другим облицима међународне сарадње;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p>   предлаже Влади амбасадоре,   генералне и почасне конзуле Републике Србије у иностранству;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p>   учествује у пословима у вези са акредитацијом званичних представника држава и међународних организација у Републици Србији;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p>   организује званичне посете на државном и дипломатском нивоу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p>   учествује у припремама за учешће представника Републике Србије на међународним преговорима и конференцијама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p>   анализира међународни положај Републике Србије и билатералне односе са другим државама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p>   анализира спољнополитичке аспекте одбране и националне безбедности;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p>   анализира и предвиђа развој регионалних и глобалних односа и појава,   нарочито у области спољне политике,   безбедности,   међународног јавног и приватног права,   економије,   екологије,   просвете и културе и стања људских права,   која су од значаја за остваривање међународних односа Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p>   прикупља и анализира информације страних медија које се односе на Републику Србију;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p>   припрема нацрте закона,   других прописа и општих аката из области спољних послова,   даје мишљење о нацртима закона и других прописа у вези са спољним пословима за које су надлежни други органи државне управе,   а који су од интереса за међународни положај Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac15">
+							<num>15)</num>
+							<content>
+								<p>   припрема правна мишљења о питањима из међународног права за потребе председника Републике,   Владе и других државних органа;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac16">
+							<num>16)</num>
+							<content>
+								<p>   предлаже Влади стратегију развоја спољних послова и друге мере којима се обликује спољна политика Владе;   припрема документацију,   информације и анализе из области спољне политике;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac17">
+							<num>17)</num>
+							<content>
+								<p>   у сарадњи са надлежним државним органима покреће поступак и координира вођење преговора и закључивање међународних уговора,   учествује у поступку њиховог потврђивања и прати њихову примену; чува оригинале свих међународних уговора,   заједничких саопштења и декларација Републике Србије и њених међународноправних претходника;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac18">
+							<num>18)</num>
+							<content>
+								<p>   информише владе других држава и међународну јавност,   као и исељенике,   лица српског порекла и држављане Републике Србије у иностранству о политици Републике Србије и,   у сарадњи са другим надлежним органима државне управе,   ради на промоцији политичких ставова Владе ради јачања угледа Републике Србије у међународним односима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac19">
+							<num>19)</num>
+							<content>
+								<p>   у сарадњи са Министарством за дијаспору,   унапређује поштовање људских и мањинских права исељеника,   лица српског порекла и држављана Републике Србије у иностранству;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac20">
+							<num>20)</num>
+							<content>
+								<p>   у сарадњи са другим надлежним органима државне управе,   спроводи гласање држављана Републике Србије који имају пребивалиште или боравиште у иностранству за време избора и референдума на републичком нивоу;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac21">
+							<num>21)</num>
+							<content>
+								<p>   у сарадњи са другим органима државне управе,   обавља послове разграничења са суседним државама,   израђује и чува документацију о државној граници;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac22">
+							<num>22)</num>
+							<content>
+								<p>   прикупља и  чува документацију о спољној политици Републике Србије,   подстиче научноистраживачки рад у области спољне политике и међународних односа;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac23">
+							<num>23)</num>
+							<content>
+								<p>   спроводи поступак стицања,   одржавања и располагања непокретном имовином у иностранству која је неопходна за рад дипломатско-конзуларних представништава;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac24">
+							<num>24)</num>
+							<content>
+								<p>   организује,   одржава и  штити системе информатичких,   телекомуникационих,   курирских и других веза са дипломатско-конзуларним представништвима и другим информационим системима;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac25">
+							<num>25)</num>
+							<content>
+								<p>   обавља послове безбедности Министарства,   дипломатско-конзуларних представништава и запослених;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac26">
+							<num>26)</num>
+							<content>
+								<p>   у сарадњи са другим надлежним органима сагласно посебном закону обезбеђује учешће у међународним мисијама;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac27">
+							<num>27)</num>
+							<content>
+								<p>   обавља и друге послове одређене законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav2">
+						<content>
+							<p>Начела за унутрашње уређење и систематизацију радних места у Министарству прописује Влада, на предлог министра спољних послова (у даљем тексту: министар).*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav3">
+						<content>
+							<p>Послове безбедности из тачке <ref wId="ref0" href="akn/rs/act/2009/41-216/srp@/!main~art_5__para_3__point_25" >25</ref>. овог члана, Министарство обавља на начин који прописује Влада, на предлог министра.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav4">
+						<content>
+							<p>Послове из свог делокруга Министарство врши непосредно и преко дипломатско-конзуларних представништава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan5-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2009/41/srp@">41/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Саветодавна тела</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>У циљу стручнијег и свестранијег формулисања предлога стратегије спољне политике и унапређења укупних активности Министарства,   министар * може да оснива саветодавна тела,   састављена од угледних стручњака из одговарајућих области, чије би ангажовање у саветодавним телима било почасне природе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan6-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2009/41/srp@">41/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Врсте дипломатско-конзуларних представништава</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Дипломатско-конзуларна представништва јесу сталне дипломатске мисије и конзуларна представништва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Сталне дипломатске мисије јесу амбасаде, које се оснивају у другим државама, и сталне мисије, које се оснивају при међународним организацијама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Конзуларна представништва могу бити основана у рангу генералних конзулата, конзулата, вицеконзулата и конзуларних агенција, у зависности од обима билатералних односа, обима економске сарадње и бројности дијаспоре.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Послови сталне дипломатске мисије</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Стална дипломатска мисија обавља оне послове из делокруга Министарства који спадају у репрезентативне и спољнополитичке функције предвиђене међународним уговорима и дипломатском праксом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>У обављању послова из свог делокруга стална дипломатска мисија дужна је да поступа у складу са Уставом, законима, општеприхваћеним правилима међународног права и потврђеним међународним уговорима и подзаконским општим актима, као и по директивама министра и у складу са тим директивама датим инструкцијама и упутствима руководилаца надлежних унутрашњих јединица Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav3">
+						<content>
+							<p>Поред послова наведених у <ref wId="ref3" href="akn/rs/act/2009/41-216/srp@/!main~art_8__para_1->para_2" >ст. 1. и 2. овог</ref> члана, амбасада врши и конзуларне функције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Послови конзуларног представништва</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Конзуларно представништво обавља оне послове из делокруга Министарства који спадају у конзуларне функције предвиђене међународним уговорима и дипломатско-конзуларном праксом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>У обављању послова из свог делокруга, конзуларно представништво поступа у складу са Уставом, законима, општеприхваћеним правилима међународног права и потврђеним међународним уговорима и подзаконским општим актима, као и по директивама министра и у складу са тим директивама датим инструкцијама и упутствима руководилаца надлежних унутрашњих јединица Министарства, као и амбасадора акредитованог у држави пријема.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>По правилу, конзуларно представништво одржава односе са централним органима државе пријема преко амбасаде Републике Србије у тој држави, а када то изричито допуштају међународни споразуми или закони и пракса државе пријема, комуникација се може вршити и непосредно.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav4">
+						<content>
+							<p>Уколико у страној држави нема амбасаде Републике Србије или она није у могућности да обавља своје дужности, конзуларно представништво, по овлашћењу министра, а на основу споразума са државом пријема, може да преузме одређене дипломатске функције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Послови културно-информативног центра</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Културно-информативни центар обавља послове јавне дипломатије из делокруга Министарства и других органа државне управе из области културе, у циљу повећања угледа Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>У обављању послова из свог делокруга, културно-информативни центар дужан је да поступа у складу са Уставом, законима, општеприхваћеним правилима међународног права и потврђеним међународним уговорима и подзаконским општим актима, а по директивама министра и у складу са тим директивама датим инструкцијама и упутствима руководилаца надлежних унутрашњих јединица Министарства, као и амбасадора акредитованог у држави пријема.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Специјална мисија</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Специјална мисија представља Републику Србију у страној држави, односно при међународној организацији ради извршења посебних задатака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>Оснивање и задаци специјалне мисије, трајање, именовање њеног шефа, одређивање звања, начин финансирања и услови рада уређују се посебним актом Владе, на предлог министра.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Заштита интереса</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Ради заштите интереса Републике Србије и њених држављана и правних лица у државама у којима нема дипломатско-конзуларно представништво, Република Србија може закључити међународни уговор са трећом државом која ће те интересе штитити посредством свог дипломатско-конзуларног представништва, у складу са међународним правом и дипломатском праксом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>Република Србија може закључити међународни уговор о заштити интереса трећих држава и њихових грађана у иностранству од стране дипломатско-конзуларних представништава.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Особље дипломатско-конзуларног представништва</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Особље дипломатско-конзуларног представништва чине шеф представништва, дипломатско и конзуларно особље, административно-техничко особље и послужно особље, у смислу међународних конвенција.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Особље културно-информативног центра</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Особље у културно-информативним центрима чине директор, стручно и административно-техничко особље, ако међудржавним споразумом или актом о оснивању центра није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan15">
+					<num>15.</num>
+					<heading>Постављење и опозив шефа сталне дипломатске мисије</heading>
+					<paragraph wId="gla2-clan15-stav1">
+						<content>
+							<p>На иницијативу министра, Влада утврђује предлог о постављењу шефа сталне дипломатске мисије – амбасадора, о чијем постављењу, по добијању агремана државе пријема, одлучује председник Републике указом. Агреман као предуслов за постављење се не односи на шефове сталне мисије Републике Србије при међународној организацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav2">
+						<content>
+							<p>На иницијативу министра, Влада утврђује предлог о опозиву шефа сталне дипломатске мисије – амбасадора, о чијем опозиву одлучује председник Републике указом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan15-stav3">
+						<content>
+							<p>Указ о постављењу, односно опозиву шефа сталне дипломатске мисије – амбасадора објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan16">
+					<num>16.</num>
+					<heading>Амбасадор на нерезиденцијалној основи</heading>
+					<paragraph wId="gla2-clan16-stav1">
+						<content>
+							<p>Амбасадор на нерезиденцијалној основи може бити акредитован у једној или у више држава у којима Република Србија нема дипломатско-конзуларна представништва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav2">
+						<content>
+							<p>На функцију амбасадора на нерезиденцијалној основи може се поставити амбасадор Републике Србије са седиштем у трећој држави или амбасадор у Министарству, који би по потреби и у складу са директивом министра боравио у страној држави.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan16-stav3">
+						<content>
+							<p>Амбасадор на нерезиденцијалној основи поставља се и опозива на начин и по поступку из <ref wId="ref4" href="akn/rs/act/2009/41-216/srp@/!main~art_15" >члана 15. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan17">
+					<num>17.</num>
+					<heading>Специјални изасланик министра</heading>
+					<paragraph wId="gla2-clan17-stav1">
+						<content>
+							<p>Министар може именовати свог специјалног изасланика који привремено борави у страној држави или при међународној организацији ради извршења посебних задатака.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan18">
+					<num>18.</num>
+					<heading>Дужности шефа сталне дипломатске мисије</heading>
+					<paragraph wId="gla2-clan18-stav1">
+						<intro>
+							<p>Шеф сталне дипломатске мисије обавља дужности у складу са међународним конвенцијама о дипломатским односима и о представљању држава у односима са међународним организацијама, а нарочито:</p>
+						</intro>
+						<point wId="gla2-clan18-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> представља Републику Србију у страној држави или у међународној организацији;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan18-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> потписује дипломатске инструменте;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan18-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> преноси и заступа ставове Владе.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan18-stav2">
+						<content>
+							<p>Шеф сталне дипломатске мисије за свој рад одговара министру, Влади и председнику Републике.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan19">
+					<num>19.</num>
+					<heading>Отправник послова</heading>
+					<paragraph wId="gla2-clan19-stav1">
+						<content>
+							<p>У одсуству амбасадора, дужност шефа сталне дипломатске мисије привремено обавља отправник послова кога одреди амбасадор из редова дипломата, а у случају када је амбасадор опозван или спречен да врши дужност именовање отправника послова врши министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan20">
+					<num>20.</num>
+					<heading>Шеф конзуларног представништва</heading>
+					<paragraph wId="gla2-clan20-stav1">
+						<content>
+							<p>Шеф конзуларног представништва има конзуларно звање које одговара утврђеном рангу представништва (<ref wId="ref5" href="akn/rs/act/2009/41-216/srp@/!main~art_7__para_3" >члан 7. став 3. овог</ref> закона).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav2">
+						<content>
+							<p>На предлог министра, Влада поставља и разрешава генералног конзула, док шефове осталих конзуларних представништава именује и разрешава министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav3">
+						<content>
+							<p>Решење Владе о постављењу и разрешењу генералног конзула објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav4">
+						<content>
+							<p>Шеф конзуларног представништва обавља дужности које произилазе из функција представништва (<ref wId="ref6" href="akn/rs/act/2009/41-216/srp@/!main~art_9" >члан 9. овог</ref> закона) и за свој рад одговара амбасадору акредитованом у држави пријема и министру.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan20-stav5">
+						<content>
+							<p>Кад је Влада поставила шефа конзуларног представништва, он за свој рад одговара амбасадору акредитованом у држави пријема, министру и Влади.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan21">
+					<num>21.</num>
+					<heading>Почасни конзул</heading>
+					<paragraph wId="gla2-clan21-stav1">
+						<content>
+							<p>Влада на предлог министра и уз сагласност државе пријема, може за почасног конзула поставити лице, без обзира на држављанство, које у својој држави ужива углед и жели да заступа интересе Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav2">
+						<content>
+							<p>Функције, односно конзуларне послове које почасни конзул може да обавља на свом конзуларном подручју и права и дужности почасног конзула у обављању функције, односно конзуларних послова прописује министар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan21-stav3">
+						<content>
+							<p>Почасни конзул дужан је да обавља своје функције сагласно политици и ставовима Владе и на основу инструкција шефа сталне дипломатске мисије у држави пријема, односно руководиоца надлежне унутрашње јединице Министарства.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan22">
+					<num>22.</num>
+					<heading>Директор културно-информативног центра</heading>
+					<paragraph wId="gla2-clan22-stav1">
+						<content>
+							<p>Министар именује и разрешава директора културно-информативног центра.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan22-stav2">
+						<content>
+							<p>Директор културно-информативног центра обавља дужности које произилазе из послова центра (<ref wId="ref7" href="akn/rs/act/2009/41-216/srp@/!main~art_10" >члан 10. овог</ref> закона) и за свој рад одговара министру и амбасадору акредитованом у држави пријема.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>трећа</num>
+				<heading>ОТВАРАЊЕ И ЗАТВАРАЊЕ ПРЕДСТАВНИШТАВА</heading>
+				<article wId="gla3-clan23">
+					<num>23.</num>
+					<heading>Одлучивање о отварању и затварању дипломатско-конзуларног представништва</heading>
+					<paragraph wId="gla3-clan23-stav1">
+						<content>
+							<p>На предлог министра, Влада доноси одлуку о отварању и затварању дипломатско-конзуларног представништва у другој држави, односно при међународној организацији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav2">
+						<content>
+							<p>Влада може, на предлог министра, донети одлуку о отварању или затварању канцеларије дипломатско-конзуларног представништва изван његовог седишта, ради обављања послова из одређене области.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav3">
+						<content>
+							<p>У одлуци Владе о отварању или затварању конзуларног представништва наводи се његов ранг и конзуларно подручје, сагласно претходно прибављеној сагласности земље пријема.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan23-stav4">
+						<content>
+							<p>Одлуке Владе из <ref wId="ref8" href="akn/rs/act/2009/41-216/srp@/!main~art_23__para_1->para_2" >ст. 1. и 2 овог</ref> члана објављују се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan24">
+					<num>24.</num>
+					<heading>Одлучивање о отварању и затварању културно-информативног центра</heading>
+					<paragraph wId="gla3-clan24-stav1">
+						<content>
+							<p>На предлог министра, Влада доноси одлуку о отварању и затварању културно-информативног центра у другој држави.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan25">
+					<num>25.</num>
+					<heading>Давање сагласности за отварање представништва у Републици Србији</heading>
+					<paragraph wId="gla3-clan25-stav1">
+						<content>
+							<p>На предлог министра, Влада одлучује о давању сагласности за отварање представништва друге државе или међународне организације у Републици Србији, као и о отварању издвојених канцеларија представништва ван места његовог седишта, ако је такав захтев постављен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan25-stav2">
+						<content>
+							<p>Одлука Владе објављује се у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>четврта</num>
+				<heading>ИМОВИНА КОЈУ КОРИСТЕ ДИПЛОМАТСКО-КОНЗУЛАРНА ПРЕДСТАВНИШТВА</heading>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>Располагање непокретностима у иностранству</heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<content>
+							<p>О прибављању, продаји, давању у закуп земљишта, зграда, пословних просторија, као и о куповини станова који се користе за потребе дипломатско-конзуларних представништава, на основу одлуке Владе, уговор закључује министар или, по посебном овлашћењу, шеф дипломатско-конзуларног представништва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav2">
+						<content>
+							<p>Стандарде и нормативе сагласно којима дипломатско-конзуларна представништва користе непокретности, полазећи од важећих прописа државе пријема, прописује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<heading>Коришћење, одржавање и управљање имовином у иностранству</heading>
+					<paragraph wId="gla4-clan27-stav1">
+						<content>
+							<p>Министарство организује и врши послове у вези са коришћењем, одржавањем и управљањем непокретностима које се користе за потребе дипломатско-конзуларних представништава, на начин који прописује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav2">
+						<content>
+							<p>Послови у вези са закупом, коришћењем, одржавањем и управљањем покретним стварима које се користе за потребе дипломатско-конзуларних представништава врше се на начин који прописује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>пета</num>
+				<heading>САРАДЊА МИНИСТАРСТВА СА НАРОДНОМ СКУПШТИНОМ</heading>
+				<article wId="gla5-clan28">
+					<num>28.</num>
+					<heading>Разговор амбасадора у надлежном одбору Народне скупштине пре одласка на дипломатску дужност</heading>
+					<paragraph wId="gla5-clan28-stav1">
+						<content>
+							<p>Амбасадори Републике Србије обављају разговор у надлежном одбору Народне скупштине пре одласка на њихову дипломатску дужност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan28-stav2">
+						<content>
+							<p>Председник Одбора о обављеном разговору обавештава министра спољних послова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan29">
+					<num>29.</num>
+					<heading>Информисање Народне скупштине</heading>
+					<paragraph wId="gla5-clan29-stav1">
+						<content>
+							<p>Министарство обавештава Народну скупштину о најзначајнијим спољно-политичким активностима и другим релевантним питањима упућивањем одговарајућих информација.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan29-stav2">
+						<content>
+							<p>Министар подноси надлежном одбору Народне скупштине извештај о раду Министарства најмање два пута годишње.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan30">
+					<num>30.</num>
+					<heading>Обавезе дипломатско-конзуларних представништава приликом посета делегација и народних посланика  Народне скупштине</heading>
+					<paragraph wId="gla5-clan30-stav1">
+						<content>
+							<p>Приликом билатералних посета делегација и народних посланика Народне скупштине надлежно дипломатско-конзуларно представништво обезбеђује помоћ Народној скупштини у припреми и реализацији посете.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav2">
+						<content>
+							<p>Надлежна дипломатска представништва при међународним организацијама обезбеђују сву неопходну логистичку подршку и помоћ делегацијама и члановима делегација Народне скупштине у припреми и реализацији обавеза које проистичу из чланства у овим организацијама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav3">
+						<content>
+							<p>Сва дипломатско-конзуларна представништва дужна су да пруже сваку врсту техничке помоћи народним посланицима који бораве у службеној посети држави за коју је допломатско-конзуларно представништво надлежно, на њихов захтев, у границама могућности, а у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>шеста</num>
+				<heading>ПОСЕБНЕ ОДРЕДБЕ О РАДНИМ ОДНОСИМА У МИНИСТАРСТВУ</heading>
+				<article wId="gla6-od1-clan31">
+					<num>31.</num>
+					<paragraph wId="gla6-od1-clan31-stav1">
+						<content>
+							<p>На радне односе у Министарству примењују се одредбе закона и других подзаконских општих аката којима се уређују права и дужности функционера, права и дужности државних службеника и поједина права и дужности намештеника ако овим законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="gla6-od2-clan31-stav1">
+					<content>
+						<p>Запослени</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav2">
+					<content>
+						<p>Члан   32.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav3">
+					<content>
+						<p>У Министарству статус запослених имају: функционери, државни службеници на положају, државни службеници на дипломатским и конзуларним пословима (у даљем тексту: дипломате), државни службеници на правним, информатичким, материјално-финансијским, рачуноводственим и административним пословима – повезаним са дипломатским и конзуларним пословима (у даљем тексту: извршиоци) и лица на пратећим помоћно-техничким пословима (у даљем тексту: намештеници).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav4">
+					<content>
+						<p>Функционери</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav5">
+					<content>
+						<p>Члан   33.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav6">
+					<content>
+						<p>Функционери у Министарству јесу: државни секретар; шеф сталне дипломатске мисије – амбасадор; амбасадор на нерезиденцијалној основи; генерални конзул.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav7">
+					<content>
+						<p>Државни службеници на положају</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav8">
+					<content>
+						<p>Члан   34.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav9">
+					<content>
+						<p>Државни службеници на положају јесу: помоћник министра и генерални секретар министарства, које поставља Влада према закону којим се уређује положај државних службеника.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav10">
+					<content>
+						<p>Државни службеник на положају може имати заменика којег одређује министар из редова дипломата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav11">
+					<content>
+						<p>Дипломате</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav12">
+					<content>
+						<p>Члан   35.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav13">
+					<content>
+						<p>Дипломате су носиоци дипломатских звања који су у радном односу на  неодређено* време у Министарству.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav14">
+					<content>
+						<p>Статус дипломате у звању изванредног и опуномоћеног амбасадора добијају и шефови сталних дипломатских мисија које, на предлог Владе, поставља председник Републике, а који нису у радном односу на неодређено време у Министарству.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav15">
+					<content>
+						<p>Статус дипломате добијају и лица која обављају посебне дужности у дипломатско-конзуларним представништвима на основу споразума са другим органима државне управе – за време трајања дужности.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav16">
+					<content>
+						<p>Статус дипломате могу добити и лица која су на основу члана 42. став 1. овог закона примљена у радни однос у Министарство.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav17">
+					<content>
+						<p>Посебан програм припрема, стручног усавршавања и оспособљавања лица из ст. 2, 3. и 4. овог члана за рад у дипломатско-конзуларном представништву утврђује министар.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav18">
+					<content>
+						<p>*Службени гласник РС, број 126/2007</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav19">
+					<content>
+						<p>Дипломатска звања</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav20">
+					<content>
+						<p>Члан   36.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav21">
+					<content>
+						<p>Дипломате имају једно од следећих звања: амбасадор у Министарству, министар саветник, први саветник, саветник, први секретар, други секретар, трећи секретар и аташе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav22">
+					<content>
+						<p>Услови за стицање дипломатског звања</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav23">
+					<content>
+						<p>Члан   37.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav24">
+					<intro>
+						<p>Општи услови за стицање дипломатског звања јесу:</p>
+					</intro>
+					<point wId="gla6-od2-clan31-stav24-tac1">
+						<num>1)</num>
+						<content>
+							<p> за звање аташе – успешно окончан приправнички стаж и положен дипломатско-конзуларни испит;</p>
+						</content>
+					</point>
+					<point wId="gla6-od2-clan31-stav24-tac2">
+						<num>2)</num>
+						<content>
+							<p> за најниже дипломатско звање које је предвиђено за радно место на које је запослени примљен – задовољење на пробном раду и положен дипломатско-конзуларни испит;</p>
+						</content>
+					</point>
+					<point wId="gla6-od2-clan31-stav24-tac3">
+						<num>3)</num>
+						<content>
+							<p> за једно од звања предвиђено за радно место на које је запослени премештен, а које одговара његовом радном искуству у струци и показаном знању на испиту – положен дипломатско-конзуларни испит;</p>
+						</content>
+					</point>
+					<point wId="gla6-od2-clan31-stav24-tac4">
+						<num>4)</num>
+						<content>
+							<p> за једно од звања предвиђено за радно место на које је премештен државни службеник из другог органа државне управе, односно лице из члана 42. став 1. овог закона, а које одговара његовом радном искуству у струци – успешно окончан посебан програм припрема стручног усавршавања и оспособљавања за рад у дипломатско-конзуларном представништву;</p>
+						</content>
+					</point>
+					<point wId="gla6-od2-clan31-stav24-tac5">
+						<num>5)</num>
+						<content>
+							<p> за звање амбасадора у Министарству – најмање две године службовања у својству шефа сталне дипломатске мисије у звању амбасадора.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav25">
+					<content>
+						<p>Посебне услове за стицање и начин стицања и губитка дипломатског звања, на предлог министра, прописује Влада.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav26">
+					<content>
+						<p>Напредовање дипломата</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav27">
+					<content>
+						<p>Члан   38.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav28">
+					<content>
+						<p>Дипломате напредују у звањима решењем министра, а на основу резултата рада, стручности, одговарајућег радног искуства и потреба Министарства.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav29">
+					<content>
+						<p>Резултати рада се изражавају радном оценом, на начин ближе прописан уредбом Владе којом је уређено оцењивање државних службеника.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav30">
+					<content>
+						<p>Стручност се утврђује на основу степена образовања, резултата постигнутих на дипломатско-конзуларном испиту, стручним усавршавањима, као и на основу периодичне верификације стручне способности.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od2-clan31-stav31">
+					<content>
+						<p>Потребе Министарства се сагледавају кроз потребу равномерне попуњености унутрашњих јединица одговарајућим дипломатским звањима и потребу представљања Републике Србије на одговарајућим дипломатским нивоима.</p>
+					</content>
+				</paragraph>
+				<article wId="gla6-od2-clan39">
+					<num>39.</num>
+					<heading>Конзуларна звања</heading>
+					<paragraph wId="gla6-od2-clan39-stav1">
+						<content>
+							<p>Ранг генералног конзула, конзула, вицеконзула и конзуларног агента носе дипломате само за време рада у конзуларном представништву.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan39-stav2">
+						<content>
+							<p>Ранг генералног конзула могу имати дипломате у звању амбасадора у Министарству и министра – саветника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan39-stav3">
+						<content>
+							<p>Ранг конзула могу имати дипломате у звању први саветник, саветник и први секретар.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan39-stav4">
+						<content>
+							<p>Ранг вице-конзула могу имати дипломате у звању други секретар, трећи секретар и аташе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan39-stav5">
+						<content>
+							<p>Ранг конзуларног агента могу имати дипломате у звању трећи секретар и аташе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od2-clan40">
+					<num>40.</num>
+					<heading>Запошљавање локалног особља</heading>
+					<paragraph wId="gla6-od2-clan40-stav1">
+						<content>
+							<p>У дипломатско-конзуларном представништву може се, када је то неопходно и финансијски оправдано, за рад ван радног односа ангажовати локално особље за обављање административних, техничких, помоћних и других послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan40-stav2">
+						<content>
+							<p>Под локалним особљем сматрају се лица са страним држављанством или држављани Републике Србије са регулисаним боравком у држави пријема.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od2-clan40-stav3">
+						<content>
+							<p>Узајамна права и обавезе уређују се уговором, у складу са актом министра, међународним дипломатским конвенцијама и прописима државе пријема.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan41">
+					<num>41.</num>
+					<heading>Општи и посебни услови</heading>
+					<paragraph wId="gla6-od3-clan41-stav1">
+						<content>
+							<p>Попуњавање слободних радних места у Министарству врши се у складу са законом којим се уређују права и дужности државних службеника, ако овим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan41-stav2">
+						<intro>
+							<p>Лица која заснивају радни однос у Министарству или се у Министарство премештају из других органа државне управе на дипломатска радна места, поред општих услова за запослење државних службеника, морају да испуне следеће посебне услове који проистичу из обављања спољних послова:</p>
+						</intro>
+						<point wId="gla6-od3-clan41-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> одговарајуће знање једног или више страних језика, у зависности од звања и радног места;</p>
+							</content>
+						</point>
+						<point wId="gla6-od3-clan41-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> одговарајућа знања из области спољне политике, међународних односа, међународног права и система државне управе;</p>
+							</content>
+						</point>
+						<point wId="gla6-od3-clan41-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> задовољавајуће психофизичке способности и психичку стабилност.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan41-stav3">
+						<content>
+							<p>Лица која заснивају радни однос у Министарству на радном месту извршилаца и намештеника, или се на та радна места привремено премештају из других органа државне управе, морају да поседују знања прописана актом о унутрашњем уређењу и систематизацији радних места.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan41-stav4">
+						<content>
+							<p>Испуњеност услова из <ref wId="ref9" href="akn/rs/act/2009/41-216/srp@/!main~art_41__para_2->para_3" >ст. 2. и 3. овог</ref> члана проверава конкурсна комисија коју именује министар у складу са законом којим се уређују права и дужности државних службеника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan41-stav5">
+						<content>
+							<p>Министарство је дужно да у сарадњи са надлежном здравственом установом организује периодичне провере психофизичке способности дипломата и других запослених лица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan42">
+					<num>42.</num>
+					<heading>Посебне мере за унапређење дипломатског кадра Министарства</heading>
+					<paragraph wId="gla6-od3-clan42-stav1">
+						<content>
+							<p>У изузетним случајевима, када потребе дипломатске службе то услове, министар може без спровођења конкурса донети решење о пријему у радни однос на неодређено време лица са одговарајућим искуством у научноистраживачком раду, значајним дипломатским искуством, професионалним знањима и вештинама, или искуством у раду у међународним и другим организацијама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan42-stav2">
+						<content>
+							<p>Министар може без спровођења интерног и јавног конкурса донети решење о пријему других лица у радни однос на одређено време – до четири године, ради обављања одговарајућих послова у дипломатско-конзуларном представништву.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan42-stav3">
+						<content>
+							<p>Број запослених који заснују радни однос у складу са <ref wId="ref10" href="akn/rs/act/2009/41-216/srp@/!main~art_42__para_2" >ставом 2. овог</ref> члана не може прећи 5% од укупног броја систематизованих радних места у дипломатско-конзуларним представништвима.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan42-stav4">
+						<content>
+							<p>Запосленом из <ref wId="ref11" href="akn/rs/act/2009/41-216/srp@/!main~art_42__para_2" >става 2. овог</ref> члана који, за време трајања радног односа у Министарству, одсуствује са рада код послодавца код кога је био у радном односу мирују права и обавезе које се код тог послодавца стичу на раду и по основу рада – сагласно закону којим се уређује рад. Право на мировање радног односа има и његов супружник док са њим борави у иностранству.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan42-stav5">
+						<content>
+							<p>Запослени из <ref wId="ref12" href="akn/rs/act/2009/41-216/srp@/!main~art_42__para_1->para_2" >ст. 1. и 2. овог</ref> члана мора имати степен стручне спреме који се захтева и од запослених у Министарству који раде на одговарајућим пословима. Такође, на тесту који ће организовати Дипломатска академија мора да потврди одговарајуће знање једног или више страних језика, у зависности од звања и радног места, као и да покаже задовољавајуће психофизичке способности и психичку стабилност које, пре заснивања радног односа, проверава Министарство у сарадњи са надлежном здравственом установом.*</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan42-stav6">
+						<content>
+							<p>По одлуци министра, Дипломатска академија организује повремене провере знања, знања језика и вештина дипломата, као и других запослених у Министарству, у циљу утврђивања њихове стручности и способности за бављење пословима радног места на које су распоређени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan42-stav7">
+						<content>
+							<p>Запослени који не покаже да поседује знања и вештине неопходне за одређено радно место премешта се на одговарајуће радно место у Министарству, а ако таквог слободног радног места нема, стиче статус нераспоређеног у складу са законом којим се уређују права и дужности државних службеника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan42-stav8">
+						<content>
+							<p>Поступак провере знања министар одређује директивом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan42-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref13" href="akn/rs/act/2009/41/srp@">41/2009</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan43">
+					<num>43.</num>
+					<heading>Права функционера</heading>
+					<paragraph wId="gla6-od3-clan43-stav1">
+						<content>
+							<p>Функционери у Министарству (осим државног секретара – који је у радном односу за време вршења дужности министра на чији је предлог постављен) заснивају радни однос на одређено време у Министарству док им траје дужност на коју су постављени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan43-stav2">
+						<content>
+							<p>Шеф сталне дипломатске мисије – амбасадор и амбасадор на нерезиденцијалној основи имају право на плату у висини плате коју остварује дипломата у звању амбасадора у Министарству, генерални конзул има право на плату у висини плате коју остварује дипломата у звању министра саветника, а остварују и права на посебан додатак на основну плату, посебне накнаде трошкова и друга примања за време рада у иностранству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan43-stav3">
+						<content>
+							<p>По престанку радног односа на одређено време, функционери из <ref wId="ref14" href="akn/rs/act/2009/41-216/srp@/!main~art_43__para_1" >става 1. овог</ref> члана престају да остварују права која су имали за време вршења те дужности, укључујући и права утврђена посебним законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan44">
+					<num>44.</num>
+					<heading>Премештај на рад у дипломатско-конзуларно представништво</heading>
+					<paragraph wId="gla6-od3-clan44-stav1">
+						<content>
+							<p>Премештај у дипломатско-конзуларно представништво запослених у Министарству врши се, по правилу, на период до четири године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan44-stav2">
+						<content>
+							<p>Одредбе о премештају запослених у дипломатско-конзуларно представништво, сходно се примењују и на државне службенике из других органа државне управе који се премештају у та представништва.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan44-stav3">
+						<content>
+							<p>Министар може донети решење о повлачењу члана дипломатско-конзуларног представништва и пре истека периода на који је упућен, односно о привременом продужењу рада у дипломатско-конзуларном представништву кад потребе службе такво продужење захтевају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan44-stav4">
+						<content>
+							<p>При премештају из дипломатско-конзуларног представништва у Министарство под одговарајућим радним местом подразумева се радно место у Министарству на коме се послови обављају у истом звању или непосредно нижем звању, као и упражњено радно место са највишим звањем у оквиру одговарајућег степена школске спреме.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan44-stav5">
+						<content>
+							<p>Ако је запослени премештен на радно место са нижим звањем, министар може одлучити да запослени задржи звање које је имао пре премештаја у дипломатско-конзуларно представништво.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od3-clan44-stav6">
+						<content>
+							<p>Поступак упућивања запослених на рад у дипломатско-конзуларно представништво прописује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od3-clan45">
+					<num>45.</num>
+					<heading>Разрешење са положаја због премештаја у дипломатско-конзуларно представништво</heading>
+					<paragraph wId="gla6-od3-clan45-stav1">
+						<content>
+							<p>Поред разлога за разрешење са положаја утврђених законом којим се уређују права и дужности државних службеника, државни службеник на положају, може бити разрешен и ради потребе премештаја у дипломатско-конзуларно представништво.</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="gla6-od4-clan45-stav1">
+					<content>
+						<p>Стручни испити</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav2">
+					<content>
+						<p>Члан  46.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav3">
+					<content>
+						<p>Полагање стручног дипломатско-конзуларног испита услов је за рад у Министарству на радном месту разврстаном у дипломатском звању, осим у случајевима предвиђеним чланом 35. ст. 2. и 3. овог закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav4">
+					<content>
+						<p>Дипломатско-конзуларни испит полаже се по програму Дипломатске академије Министарства и замењује државни стручни испит.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav5">
+					<content>
+						<p>За рад на одређеним специфичним пословима, поред државног стручног испита, извршиоци полажу и посебан испит чији програм, начин и услове полагања прописује министар.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav6">
+					<content>
+						<p>Стручно усавршавање и оспособљавање у Министарству</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav7">
+					<content>
+						<p>Члан  47.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav8">
+					<content>
+						<p>Министарство се континуирано брине о стручном усавршавању запослених, оспособљавању приправника и припремама за рад у дипломатско-конзуларним представништвима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav9">
+					<content>
+						<p>Стручно усавршавање остварује се кроз посебне програме из подручја важних за обављање спољних послова, путем курсева, семинара, предавања и других облика усавршавања које организује Дипломатска академија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav10">
+					<content>
+						<p>Стручно усавршавање ван Министарства и додатно образовање</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav11">
+					<content>
+						<p>Члан  48.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav12">
+					<content>
+						<p>По одобрењу министра, стручно усавршавање и додатно образовање може се обављати и на високошколским и другим специјализованим установама у Републици Србији или у иностранству, о трошку Министарства или заинтересованог кандидата, у складу са актом министра, као и планом и потребама службе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav13">
+					<content>
+						<p>Дипломатска академија</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav14">
+					<content>
+						<p>Члан  49.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od4-clan45-stav15">
+					<intro>
+						<p>Дипломатска академија је организациона јединица у саставу Министарства, која се у сарадњи са стручним, високошколским и научноистраживачким институцијама у земљи и иностранству, бави:</p>
+					</intro>
+					<point wId="gla6-od4-clan45-stav15-tac1">
+						<num>1)</num>
+						<content>
+							<p> стручним оспособљавањем приправника, сталним професионалним усавршавањем дипломата и других запослених у Министарству, као и у другим органима државне управе и институцијама јавног сектора у вези са посебним циљевима и природом образовања у области спољне политике и међународних односа;</p>
+						</content>
+					</point>
+					<point wId="gla6-od4-clan45-stav15-tac2">
+						<num>2)</num>
+						<content>
+							<p> организовањем наставно-научних активности, информативних и образовних семинара, симпозијума, трибина, консултативних састанака, предавања, међународних скупова и других студијских програма;</p>
+						</content>
+					</point>
+					<point wId="gla6-od4-clan45-stav15-tac3">
+						<num>3)</num>
+						<content>
+							<p> остваривањем међународне сарадње са академијама и фондацијама страних земаља путем семинара, предавања и других активности у вези са спољнополитичким питањима у земљи и иностранству;</p>
+						</content>
+					</point>
+					<point wId="gla6-od4-clan45-stav15-tac4">
+						<num>4)</num>
+						<content>
+							<p> организовањем полагања дипломатско-конзуларног и посебних стручних испита из члана 46. овог закона;</p>
+						</content>
+					</point>
+					<point wId="gla6-od4-clan45-stav15-tac5">
+						<num>5)</num>
+						<content>
+							<p> организовањем сталног усавршавања и испита за проверу знања запослених из области страних језика и информатике;</p>
+						</content>
+					</point>
+					<point wId="gla6-od4-clan45-stav15-tac6">
+						<num>6)</num>
+						<content>
+							<p> организовањем повремених провера стручних знања запослених у Министарству на начин одређен чланом 42. став 2. овог закона;</p>
+						</content>
+					</point>
+					<point wId="gla6-od4-clan45-stav15-tac7">
+						<num>7)</num>
+						<content>
+							<p> организовањем припрема и стручног усавршавања и оспособљавања по посебном програму из члана 35. став 5. овог закона.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="gla6-od5-clan45-stav1">
+					<content>
+						<p>Дужности које произлазе из обављања спољних послова</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od5-clan45-stav2">
+					<content>
+						<p>Члан  50.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="gla6-od5-clan45-stav3">
+					<intro>
+						<p>Дужности дипломата, других запослених у Министарству и свих чланова дипломатско-конзуларних представништава јесу:</p>
+					</intro>
+					<point wId="gla6-od5-clan45-stav3-tac1">
+						<num>1)</num>
+						<content>
+							<p> да у обављању службе и ван ње, штите интерес и углед Републике Србије;</p>
+						</content>
+					</point>
+					<point wId="gla6-od5-clan45-stav3-tac2">
+						<num>2)</num>
+						<content>
+							<p> да поступају у складу са правилима међународног права и праксе;</p>
+						</content>
+					</point>
+					<point wId="gla6-od5-clan45-stav3-tac3">
+						<num>3)</num>
+						<content>
+							<p> да правовремено, тачно и објективно извештавају Министарство, односно шефа дипломатско-конзуларног представништва о догађајима, стеченим сазнањима и документима који су од значаја за обављање дужности и интересе Републике Србије;</p>
+						</content>
+					</point>
+					<point wId="gla6-od5-clan45-stav3-tac4">
+						<num>4)</num>
+						<content>
+							<p> да штите имовину, опрему и поверљиве податке;</p>
+						</content>
+					</point>
+					<point wId="gla6-od5-clan45-stav3-tac5">
+						<num>5)</num>
+						<content>
+							<p> да поштују прописе, правила понашања и протокол државе пријема за време док се налазе на раду у дипломатско-конзуларном представништву.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="gla6-od5-clan45-stav4">
+					<content>
+						<p>Правила понашања дипломата и других запослених у Министарству прописује министар.</p>
+					</content>
+				</paragraph>
+				<article wId="gla6-od5-clan51">
+					<num>51.</num>
+					<heading>Посебна правила дисциплинског поступка</heading>
+					<paragraph wId="gla6-od5-clan51-stav1">
+						<content>
+							<p>Специфичности вођења дисциплинског поступка против запослених који се налазе на раду у дипломатско-конзуларним представништвима прописује министар.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan52">
+					<num>52.</num>
+					<heading>Утврђивање плата</heading>
+					<paragraph wId="gla6-od5-clan52-stav1">
+						<content>
+							<p>Запослени у Министарству, изузетно од закона и подзаконских општих аката којима се уређује остваривање права на плату, накнаду трошкова и отпремнина и других примања у државним органима, односно државних службеника и намештеника, имају – за време рада у дипломатско-конзуларном представништву, право на: посебан додатак на основну плату; посебне накнаде трошкова (за здравствено осигурање, за трошкове становања, за трошкове школовања, за трошкове превоза посмртних остатака) и друга примања (отправничко, жеранско и функционално примање, и примање за издржаване чланове породице).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan52-stav2">
+						<content>
+							<p>Ближе услове за остваривања права на посебан додатак на основну плату, посебне накнаде трошкова, друга примања, и висину додатка, накнада и примања, као и коефицијенте за обрачун и исплату плата дипломата, на предлог министра, прописује Влада.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan52-stav3">
+						<content>
+							<p>Одредбе овог закона о праву на посебан додатак на основну плату, посебним накнадама трошкова и другим примањима запослених у Министарству сходно се примењују и на државне службенике који из других органа државне управе буду премештени у дипломатско-конзуларна представништва.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan53">
+					<num>53.</num>
+					<heading>Посебан додатак на основну плату</heading>
+					<paragraph wId="gla6-od5-clan53-stav1">
+						<content>
+							<p>Посебан додатак на основну плату утврђује се у складу са трошковима живота у земљи службовања према статистичким подацима Организације уједињених нација, као и другим релевантним околностима, међу којима су услови рада у земљи службовања, неопходност употребе страног језика у обављању службе и трошкови издржавања породице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan53-stav2">
+						<content>
+							<p>Приликом одређивања посебног додатака на основну плату особљу дипломатско-конзуларног представништва узеће се у обзир обим и степен сложености рада у том представништву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan54">
+					<num>54.</num>
+					<heading>Накнада трошкова за здравствено осигурање</heading>
+					<paragraph wId="gla6-od5-clan54-stav1">
+						<content>
+							<p>Запослени у Министарству за време рада у дипломатско-конзуларном представништву и чланови његовог породичног домаћинства, који са њим бораве у иностранству имају право на накнаду трошкова за основно здравствено осигурање према прописима земље у којој ради, ако остваривање овог права није обезбеђено међународним уговором.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan54-stav2">
+						<content>
+							<p>Члановима породичног домаћинства, у смислу овог закона, сматрају се супружник, малолетна деца и деца (брачна, ванбрачна, усвојена, пасторчад, штићеник и храњеник) на редовном школовању до навршене 26. године живота, уколико не остварују приход по основу рада у иностранству, бораве са запосленим и носиоци су службеног или дипломатског пасоша.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan55">
+					<num>55.</num>
+					<heading>Накнада трошкова становања</heading>
+					<paragraph wId="gla6-od5-clan55-stav1">
+						<content>
+							<p>Запослени у Министарству за време рада у дипломатско-конзуларном представништву има право на накнаду трошкова становања, ако му није обезбеђен службени, односно бесплатан смештај.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan56">
+					<num>56.</num>
+					<heading>Накнада трошкова за школовање деце</heading>
+					<paragraph wId="gla6-od5-clan56-stav1">
+						<content>
+							<p>Запослени у Министарству за време рада у дипломатско-конзуларном представништву има право на накнаду трошкова на име обавезног предшколског и основног васпитања и образовања, као и редовног средњошколског образовања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan57">
+					<num>57.</num>
+					<heading>Накнада трошкова за случај смрти у иностранству</heading>
+					<paragraph wId="gla6-od5-clan57-stav1">
+						<content>
+							<p>Посмртни остаци члана дипломатско-конзуларног представништва или члана његовог породичног домаћинства који је преминуо за време службе у иностранству, превозе се и сахрањују о трошку Министарства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan57-stav2">
+						<content>
+							<p>Чланови породичног домаћинства преминулог члана дипломатско-конзуларног представништва имају право да бораве у иностранству и остварују друга права у складу са овим законом најдуже још два месеца од дана његове смрти.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan58">
+					<num>58.</num>
+					<heading>Отправничко, жеранско и функционално примање</heading>
+					<paragraph wId="gla6-od5-clan58-stav1">
+						<content>
+							<p>Шеф сталне дипломатске мисије има право на функционално примање, које је намењено за ангажовање локалног особља у обављању послова у резиденцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan58-stav2">
+						<content>
+							<p>Привремени отправник послова као и конзул жеран, док се налази на дужности, има право на отправничко, односно жеранско примање.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan59">
+					<num>59.</num>
+					<heading>Примања за чланове породичног домаћинства</heading>
+					<paragraph wId="gla6-od5-clan59-stav1">
+						<content>
+							<p>Запослени у Министарству за време рада у дипломатско-конзуларном представништву има право на примања за чланове породичног домаћинства који са њим бораве у иностранству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan59-stav2">
+						<content>
+							<p>Рад под посебним условима</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan59-stav3">
+						<content>
+							<p>Члан   60.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan59-stav4">
+						<content>
+							<p>Запослени који је упућен у дипломатско-конзуларно представништво дужан је да ради под посебним условима када је то неопходно ради извршења дужности утврђених овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan59-stav5">
+						<content>
+							<p>Под посебним условима се сматрају рад у опасним зонама и рад у тешким климатским условима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan61">
+					<num>61.</num>
+					<heading>Право на продужено осигурање и повратак супружника на посао</heading>
+					<paragraph wId="gla6-od5-clan61-stav1">
+						<content>
+							<p>За време трајања рада у дипломатско-конзуларном представништву, супружник запосленог има право на уплату пензијског и инвалидског осигурања из средстава Министарства, под условом да је био запослен или регистрован код надлежне службе за запошљавање пре одласка у иностранство.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan61-stav2">
+						<content>
+							<p>Време које је запослени провео на раду у дипломатско-конзуларном представништву рачунаће се његовом супружнику, који је као незапослен био пријављен код надлежне службе за запошљавање, у стаж осигурања који се изједначава с радним стажом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan61-stav3">
+						<content>
+							<p>Средства потребна за осигурање права из овога члана обезбеђују се у буџету Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan62">
+					<num>62.</num>
+					<heading>Породиљско одсуство и одсуство са рада ради неге детета</heading>
+					<paragraph wId="gla6-od5-clan62-stav1">
+						<content>
+							<p>За време породиљског одсуства, запослена која се налази на раду у дипломатско-конзуларном представништву не може бити враћена у земљу, осим на свој писмени захтев.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-od5-clan62-stav2">
+						<content>
+							<p>Одсуство са рада ради неге детета, запослена користи у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan63">
+					<num>63.</num>
+					<heading>Повреде на раду, професионална обољења и обољења у вези са радом</heading>
+					<paragraph wId="gla6-od5-clan63-stav1">
+						<content>
+							<p>Повреде на раду и обољења која су узрокована боравком на радном месту у дипломатско-конзуларном представништву и проистичу из суштинске разлике између услова живота у иностранству и услова живота у Републици Србији, сматрају се повредама на раду, професионалним обољењима и обољењима у вези са радом у складу са законом и подзаконским општим актима којима се уређује област безбедности и здравља на раду.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-od5-clan64">
+					<num>64.</num>
+					<heading>Губитак радне способности</heading>
+					<paragraph wId="gla6-od5-clan64-stav1">
+						<content>
+							<p>Промене психофизичког стања или стабилности запосленог у Министарству, које га по оцени комисије здравствене установе са којом Министарство има закључен уговор о обављању здравствених прегледа запослених (<ref wId="ref15" href="akn/rs/act/2009/41-216/srp@/!main~art_41__para_5" >члан 41. став 5. овог</ref> закона) чине неспособним за обављање послова радног места на које је распоређен, сматрају се губитком радне способности у смислу прописа о пензијском и инвалидском осигурању.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>седма</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla7-clan65">
+					<num>65.</num>
+					<heading>Рок за доношење подзаконских општих аката</heading>
+					<paragraph wId="gla7-clan65-stav1">
+						<content>
+							<p>Подзаконски општи акти који су предвиђени овим законом биће донети до 1. јануара 2009. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan66">
+					<num>66.</num>
+					<heading>Престанак важења ранијег закона</heading>
+					<paragraph wId="gla7-clan66-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о иностраним пословима („Службени лист СРЈ”, бр. <ref wId="ref16" href="akn/rs/act/98/59/srp@">59/98</ref>, <ref wId="ref17" href="akn/rs/act/99/6/srp@">6/99</ref> и <ref wId="ref18" href="akn/rs/act/02/68/srp@">68/02</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan67">
+					<num>67.</num>
+					<heading>Ступање на снагу закона</heading>
+					<paragraph wId="gla7-clan67-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan67-stav2">
+						<content>
+							<p>Одредба <ref wId="ref19" href="akn/rs/act/2009/41-216/srp@/!main~art_54__para_1" >члана 54. став 1. </ref>ступа на снагу  1. јануара 2010. године*.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan67-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref20" href="akn/rs/act/2009/41/srp@">41/2009</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan67-stav4">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У „ПРЕЧИШЋЕН ТЕКСТ“ ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan5">
+					<num>5.</num>
+					<heading>Закон о изменама и допунама Закона о спољним пословима: „Службени гласник РС“, број <ref wId="ref21" href="akn/rs/act/2009/41/srp@">41/2009</ref>-216</heading>
+					<paragraph wId="gla7-clan5-stav1">
+						<content>
+							<p>Подзаконски општи акти који су предвиђени овим законом биће донети у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan6">
+					<num>6.</num>
+					<paragraph wId="gla7-clan6-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, изузев одредбе <ref wId="ref22" href="akn/rs/act/2009/41-216/srp@/!main~art_4" >члана 4. </ref>која ступа на снагу 1. јануара 2009. године.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

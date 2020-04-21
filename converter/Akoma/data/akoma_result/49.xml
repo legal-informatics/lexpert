@@ -1,0 +1,994 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о заштити узбуњивача">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2014/128-3/main"/>
+					<FRBRuri value="akn/rs/act/2014/128-3"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2014/128-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2014/128-3/srp@"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2014/128-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2014/128-3/srp@.akn"/>
+					<FRBRdate date="2014-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2014-11-26" name="службени гласник рс" number="128" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="16. Борба против корупције, заштита узбуњивача и лобирање" value="16. борба против корупције, заштита узбуњивача и лобирање" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2014-11-25" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2014-12-04" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2015-06-05" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="узбуњивање"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="израза"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="физичких"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="правних"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="обавеза"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="питања"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="државних"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="значење"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="узбуњивача"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="друга"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="других"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="значаја"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="органа"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="лица"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="поступак"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="узбуњивања"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштиту"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="узбуњивањем"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="вези"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="17."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O predlogu za određivanje privremene mere sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Pravosudna akademija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="nadležnom sudu"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Uzbunjivač"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 5"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 4"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="17."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 4. децембра 2014. године, а примењује се по истеку шест месеци од дана ступања на снагу (види члан 40. Закона).Подзаконски акт којим се ближе уређује начин унутрашњег узбуњивања, начин одређивања овлашћеног лица код послодавца, као и друга питања од значаја за унутрашње узбуњивање код послодавца који има више од десет запослених, као и Програм стицања посебних знања у вези са заштитом узбуњивача, министaр надлежан за послове правосуђа донеће у року од три месеца од дана ступања на снагу овог закона (види члан 17, члан 25. став 3. и члан 39. Закона).Послодавци који имају више од десет запослених су дужни да донесу општи акт којим се уређује поступак унутрашњег узбуњивања у року од једне године од дана ступања на снагу овог закона (види члан 16. став 1. и члан 39. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О заштити узбуњивача "Службени гласник РС", број <ref wId="ref34" href="akn/rs/act/2014/128/srp@">128 од 26. новембра 2014</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се узбуњивање, поступак узбуњивања, права узбуњивача, обавеза државних и других органа и организација и правних и физичких лица у вези са узбуњивањем, као и друга питања од значаја за узбуњивање и заштиту узбуњивача.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Значење израза</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<intro>
+							<p>У смислу овог закона, поједини изрази имају следеће значење:</p>
+						</intro>
+						<point wId="gla1-clan2-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> „узбуњивање” је откривање информације о кршењу прописа, кршењу људских права, вршењу јавног овлашћења противно сврси због које је поверено, опасности по живот, јавно здравље, безбедност, животну средину, као и ради спречавања штете великих размера;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> „узбуњивач” је физичко лице које изврши узбуњивање у вези са својим радним ангажовањем, поступком запошљавања, коришћењем услуга државних и других органа, носилаца јавних овлашћења или јавних служби, пословном сарадњом и правом власништва на привредном друштву;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> „послодавац” је орган Републике Србије, територијалне аутономије или јединице локалне самоуправе, носилац јавних овлашћења или јавна служба, правно лице или предузетник који радно ангажује једно или више лица;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> „одговорно лице” је лице коме су у правном лицу поверени одређени послови који се односе на управљање, пословање или процес рада, као и лице које у државном органу, органу територијалне аутономије и јединице локалне самоуправе врши одређене дужности;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> „радно ангажовање” је радни однос, рад ван радног односа, волонтирање, вршење функције, као и сваки други фактички рад за послодавца;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> „овлашћени орган” је орган Републике Србије, територијалне аутономије или јединице локалне самоуправе или носилац јавних овлашћења надлежан да поступа по информацији којом се врши узбуњивање, у складу са законом;</p>
+							</content>
+						</point>
+						<point wId="gla1-clan2-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> „штетна радња” је свако чињење или нечињење у вези са узбуњивањем којим се узбуњивачу или лицу које има право на заштиту као узбуњивач угрожава или повређује право, односно којим се та лица стављају у неповољнији положај.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОПШТЕ ОДРЕДБЕ О УЗБУЊИВАЊУ И ПРАВУ НА ЗАШТИТУ</heading>
+				<article wId="gla2-clan3">
+					<num>3.</num>
+					<heading>Забрана спречавања узбуњивања</heading>
+					<paragraph wId="gla2-clan3-stav1">
+						<content>
+							<p>Забрањено је спречавање узбуњивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan3-stav2">
+						<content>
+							<p>Одредба општег акта или појединачног акта којом се спречава узбуњивање је ништава.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan4">
+					<num>4.</num>
+					<heading>Забрана предузимања штетне радње</heading>
+					<paragraph wId="gla2-clan4-stav1">
+						<content>
+							<p>Забрањено је предузимање штетне радње.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<heading>Право на заштиту узбуњивача</heading>
+					<paragraph wId="gla2-clan5-stav1">
+						<intro>
+							<p>Узбуњивач има право на заштиту, у складу са законом, ако:</p>
+						</intro>
+						<point wId="gla2-clan5-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> изврши узбуњивање код послодавца, овлашћеног органа или јавности на начин прописан законом;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> открије информацију из члана 2. тачка <ref wId="ref0" href="akn/rs/act/2014/128-3/srp@/!main~art_2__para_1__point_1" >1</ref>) овог закона (у даљем тексту: информација) у року од једне године од дана сазнања за извршену радњу због које врши узбуњивање, а најкасније у року од десет година од дана извршења те радње;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan5-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> би у тренутку узбуњивања, на основу расположивих података, у истинитост информације, поверовало лице са просечним знањем и искуством као и узбуњивач.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<heading>Заштита повезаних лица</heading>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>Повезано лице има право на заштиту као узбуњивач ако учини вероватним да је према њему предузета штетна радња због повезаности са узбуњивачем.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Право на заштиту због погрешног означавања узбуњивача</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Право на заштиту као узбуњивач, има лице које учини вероватним да је према њему предузета штетна радња, ако је лице које је предузело штетну радњу, погрешно сматрало да је то лице узбуњивач, односно повезано лице.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Заштита лица у вршењу службене дужности</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Лице које је у вршењу службене дужности доставило информацију има право на заштиту као узбуњивач ако учини вероватним да је према њему предузета штетна радња због достављања информације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Право на заштиту због тражења информације</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Лице које тражи податке у вези са информацијом, има право на заштиту као узбуњивач, ако учини вероватним да је према њему предузета штетна радња због тражења тих података.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Заштита података о личности узбуњивача</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Лице које је овлашћено за пријем информације дужно је да, штити податке о личности узбуњивача, односно податке на основу којих се може открити идентитет узбуњивача, осим ако се узбуњивач не сагласи са откривањем тих података, a у складу са законом који уређује заштиту података о личности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Свако лице које сазна податке из <ref wId="ref1" href="akn/rs/act/2014/128-3/srp@/!main~art_10__para_1" >става 1. овог</ref> члана, дужно је да штити те податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Лице овлашћено за пријем информације дужно је да приликом пријема информације, обавести узбуњивача да његов идентитет може бити откривен надлежном органу, ако без откривања идентитета узбуњивача не би било могуће поступање тог органа, као и да га обавести о мерама заштите учесника у кривичном поступку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Ако је у току поступка неопходно да се открије идентитет узбуњивача, лице овлашћено за пријем информације дужно је да о томе, пре откривања идентитета, обавести узбуњивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav5">
+						<content>
+							<p>Подаци из <ref wId="ref2" href="akn/rs/act/2014/128-3/srp@/!main~art_10__para_1" >става 1. овог</ref> члана не смеју се саопштити лицу на које се указује у информацији, ако посебним законом није другачије прописано.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Забрана злоупотребе узбуњивања</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Забрањена је злоупотреба узбуњивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<intro>
+							<p>Злоупотребу узбуњивања врши лице које:</p>
+						</intro>
+						<point wId="gla2-clan11-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> достави информацију за коју је знало да није истинита;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan11-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> поред захтева за поступање у вези са информацијом којом се врши узбуњивање тражи противправну корист.</p>
+							</content>
+						</point>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>ПОСТУПАК</heading>
+				<article wId="gla3-podod1-clan12">
+					<num>12.</num>
+					<heading>Врсте узбуњивања</heading>
+					<paragraph wId="gla3-podod1-clan12-stav1">
+						<content>
+							<p>Узбуњивање може бити унутрашње, спољашње или узбуњивање јавности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan12-stav2">
+						<content>
+							<p>Унутрашње узбуњивање је откривање информације послодавцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan12-stav3">
+						<content>
+							<p>Спољашње узбуњивање је откривање информације овлашћеном органу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan12-stav4">
+						<content>
+							<p>Узбуњивање јавности је откривање информације средствима јавног информисања, путем интернета, на јавним скуповима или на други начин којим се обавештење може учинити доступним јавности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod1-clan13">
+					<num>13.</num>
+					<heading>Садржина информације</heading>
+					<paragraph wId="gla3-podod1-clan13-stav1">
+						<content>
+							<p>Информација садржи податке о кршењу прописа, кршењу људских права, вршењу јавног овлашћења противно сврси због које је поверено, опасности по живот, јавно здравље, безбедност, животну средину, као и податке ради спречавања штете великих размера.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan13-stav2">
+						<content>
+							<p>Информација може да садржи потпис узбуњивача и податке о узбуњивачу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod1-clan13-stav3">
+						<content>
+							<p>Послодавац и овлашћени орган дужни су да поступају и по анонимним обавештењима у вези са информацијом, у оквиру својих овлашћења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan14">
+					<num>14.</num>
+					<heading>Обавезе послодавца</heading>
+					<paragraph wId="gla3-podod2-clan14-stav1">
+						<content>
+							<p>Послодавац је дужан да, у оквиру својих овлашћења, предузме мере ради отклањања утврђених неправилности у вези са информацијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan14-stav2">
+						<content>
+							<p>Послодавац је дужан да, у оквиру својих овлашћења, заштити узбуњивача од штетне радње, као и да предузме неoпходне мере ради обустављања штетне радње и отклањања последица штетне радње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan14-stav3">
+						<content>
+							<p>Послодавац не сме предузимати мере у циљу откривања идентитета анонимног узбуњивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan14-stav4">
+						<content>
+							<p>Послодавац је дужан да свим радно ангажованим лицима достави писмено обавештење о правима из овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan14-stav5">
+						<content>
+							<p>Послодавац је дужан да одреди лице овлашћено за пријем информације и вођење поступка у вези са узбуњивањем.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan15">
+					<num>15.</num>
+					<heading>Поступак</heading>
+					<paragraph wId="gla3-podod2-clan15-stav1">
+						<content>
+							<p>Поступак унутрашњег узбуњивања започиње достављањем информације послодавцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan15-stav2">
+						<content>
+							<p>Послодавац је дужан да поступи по информацији без одлагања, а најкасније у року од 15 дана од дана пријема информације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan15-stav3">
+						<content>
+							<p>Послодавац је дужан да обавести узбуњивача о исходу поступка по његовом окончању, у року од 15 дана од дана окончања поступка из <ref wId="ref3" href="akn/rs/act/2014/128-3/srp@/!main~art_15__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan15-stav4">
+						<content>
+							<p>Послодавац је дужан да, на захтев узбуњивача, пружи обавештења узбуњивачу о току и радњама предузетим у поступку, као и да омогући узбуњивачу да изврши увид у списе предмета и да присуствује радњама у поступку.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan16">
+					<num>16.</num>
+					<heading>Општи акт послодавца</heading>
+					<paragraph wId="gla3-podod2-clan16-stav1">
+						<content>
+							<p>Послодавац који има више од десет запослених дужан је да општим актом уреди поступак унутрашњег узбуњивања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan16-stav2">
+						<content>
+							<p>Послодавац је дужан да на видном месту, доступном сваком радно ангажованом лицу, као и на интернет страници послодавца ако постоје техничке могућности, истакне општи акт из <ref wId="ref4" href="akn/rs/act/2014/128-3/srp@/!main~art_16__para_1" >става 1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan16-stav3">
+						<content>
+							<p>Одредбе општег акта о поступку унутрашњег узбуњивања морају бити у складу са овим законом и подзаконским актом из <ref wId="ref5" href="akn/rs/act/2014/128-3/srp@/!main~art_17" >члана 17. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan16-stav4">
+						<content>
+							<p>Одредбама општег акта из <ref wId="ref6" href="akn/rs/act/2014/128-3/srp@/!main~art_16__para_1" >става 1. овог</ref> члана не може се умањити обим права или ускратити неко право узбуњивачу из овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod2-clan16-stav5">
+						<content>
+							<p>Одредбе општег акта из <ref wId="ref7" href="akn/rs/act/2014/128-3/srp@/!main~art_16__para_1" >става 1. овог</ref> члана које нису у складу са овим законом и прописима донетим на основу овог закона, ништаве су.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod2-clan17">
+					<num>17.</num>
+					<heading>Подзаконски акт министра</heading>
+					<paragraph wId="gla3-podod2-clan17-stav1">
+						<content>
+							<p>Министар надлежан за послове правосуђа доноси акт којим се ближе уређује начин унутрашњег узбуњивања, начин одређивања овлашћеног лица код послодавца, као и друга питања од значаја за унутрашње узбуњивање код послодавца који има више од десет запослених.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod3-clan18">
+					<num>18.</num>
+					<paragraph wId="gla3-podod3-clan18-stav1">
+						<content>
+							<p>Поступак спољашњег узбуњивања започиње достављањем информације овлашћеном органу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan18-stav2">
+						<content>
+							<p>Ако се узбуњивање односи на лица радно ангажована у овлашћеном органу, узбуњивач ће се обратити руководиоцу тог органа, а ако се узбуњивање односи на руководиоца овлашћеног органа, узбуњивач ће се обратити руководиоцу непосредно надређеног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan18-stav3">
+						<content>
+							<p>Овлашћени орган је дужан да поступи по информацији из <ref wId="ref8" href="akn/rs/act/2014/128-3/srp@/!main~art_18__para_1" >става 1. овог</ref> члана у року од 15 дана од дана пријема информације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan18-stav4">
+						<content>
+							<p>Ако орган коме је достављена информација није надлежан за поступање у вези са узбуњивањем, проследиће информацију надлежном органу у року од 15 дана од дана пријема и о томе истовремено обавестити узбуњивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan18-stav5">
+						<content>
+							<p>Надлежни орган из <ref wId="ref9" href="akn/rs/act/2014/128-3/srp@/!main~art_18__para_4" >става 4. овог</ref> члана дужан је да примењује мере заштите које је узбуњивачу обезбедио орган који му је обавештење уступио.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan18-stav6">
+						<content>
+							<p>Ако узбуњивач није дао сагласност да се његов идентитет открије, овлашћени орган који је примио обавештење од узбуњивача, а није надлежан за поступање, дужан је да пре прослеђивања тог обавештења надлежном органу претходно затражи сагласност узбуњивача, ако законом није прописано другачије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan18-stav7">
+						<content>
+							<p>Овлашћени орган је дужан да, на захтев узбуњивача пружи обавештења узбуњивачу о току и радњама предузетим у поступку, као и да омогући узбуњивачу да изврши увид у списе предмета и да присуствује радњама у поступку, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod3-clan18-stav8">
+						<content>
+							<p>Овлашћени орган је дужан да обавести узбуњивача о исходу поступка из <ref wId="ref10" href="akn/rs/act/2014/128-3/srp@/!main~art_18__para_1" >става 1. овог</ref> члана по његовом окончању, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod4-clan19">
+					<num>19.</num>
+					<paragraph wId="gla3-podod4-clan19-stav1">
+						<content>
+							<p>Јавност се може узбунити, без претходног обавештавања послодавца или овлашћеног органа у случају непосредне опасности по живот, јавно здравље, безбедност, животну средину, од настанка штете великих размера, односно ако постоји непосредна опасност од уништења доказа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod4-clan19-stav2">
+						<content>
+							<p>Приликом узбуњивања јавности узбуњивач је дужан да поштује претпоставку невиности окривљеног, право на заштиту података о личности, као и да не угрожава вођење судског поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-podod5-clan20">
+					<num>20.</num>
+					<heading>Узбуњивање ако су у информацији садржани тајни подаци</heading>
+					<paragraph wId="gla3-podod5-clan20-stav1">
+						<content>
+							<p>Информација може да садржи тајне податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod5-clan20-stav2">
+						<content>
+							<p>Под тајним подацима из <ref wId="ref11" href="akn/rs/act/2014/128-3/srp@/!main~art_20__para_1" >става 1. овог</ref> члана сматрају се подаци који су у складу са прописима о тајности података претходно означени као тајни.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod5-clan20-stav3">
+						<content>
+							<p>Ако су у информацији садржани тајни подаци, узбуњивач је дужан да се прво обрати послодавцу, а ако се информација односи на лице које је овлашћено да поступа по информацији, информација се подноси руководиоцу послодавца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod5-clan20-stav4">
+						<content>
+							<p>У случају да послодавац није у року од 15 дана поступио по информацији у којој су садржани тајни подаци, односно ако није одговорио или није предузео одговарајуће мере из своје надлежности, узбуњивач се може обратити овлашћеном органу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod5-clan20-stav5">
+						<content>
+							<p>Изузетно од <ref wId="ref12" href="akn/rs/act/2014/128-3/srp@/!main~art_20__para_3" >става 3. овог</ref> члана, у случају да се информација односи на руководиоца послодавца, информација се подноси овлашћеном органу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod5-clan20-stav6">
+						<content>
+							<p>Ако су у информацији садржани тајни подаци, узбуњивач не може узбунити јавност, ако законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-podod5-clan20-stav7">
+						<content>
+							<p>Ако су у информацији садржани тајни подаци, узбуњивач и друга лица су дужни да се придржавају општих и посебних мера заштите тајних података прописаних законом који уређује тајност података.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ЗАШТИТА УЗБУЊИВАЧА И НАКНАДА ШТЕТЕ</heading>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<heading>Забрана стављања узбуњивача у неповољнији положај</heading>
+					<paragraph wId="gla4-clan21-stav1">
+						<intro>
+							<p>Послодавац не сме чињењем или нечињењем да стави узбуњивача у неповољнији положај у вези са узбуњивањем, а нарочито ако се неповољнији положај односи на:</p>
+						</intro>
+						<point wId="gla4-clan21-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> запошљавање;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> стицање својства приправника или волонтера;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> рад ван радног односа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> образовање, оспособљавање или стручно усавршавање;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> напредовање на послу, оцењивање, стицање или губитак звања;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> дисциплинске мере и казне;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> услове рада;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> престанак радног односа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> зараду и друге накнаде из радног односа;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> учешће у добити послодавца;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> исплату награде и отпремнине;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac12">
+							<num>12)</num>
+							<content>
+								<p> распоређивање или премештај на друго радно место;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac13">
+							<num>13)</num>
+							<content>
+								<p> непредузимање мера ради заштите због узнемиравања од стране других лица;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan21-stav1-tac14">
+							<num>14)</num>
+							<content>
+								<p> упућивање на обавезне здравствене прегледе или упућивање на прегледе ради оцене радне способности.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav2">
+						<content>
+							<p>Одредбе општег акта којима се узбуњивачу ускраћује или повређује право, односно којима се ова лица стављају у неповољнији положај у вези са узбуњивањем, ништаве су.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<heading>Накнада штете због узбуњивања</heading>
+					<paragraph wId="gla4-clan22-stav1">
+						<content>
+							<p>У случајевима наношења штете због узбуњивања, узбуњивач има право на накнаду штете, у складу са законом који уређује облигационе односе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Судска заштита узбуњивача</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>Узбуњивач према коме је предузета штетна радња у вези са узбуњивањем има право на судску заштиту.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav2">
+						<content>
+							<p>Судска заштита се остварује подношењем тужбе за заштиту у вези са узбуњивањем надлежном суду, у року од шест месеци од дана сазнања за предузету штетну радњу, односно три године од дана када је штетна радња предузета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav3">
+						<content>
+							<p>У поступку судске заштите надлежан је виши суд према месту предузимања штетне радње или према месту пребивалишта тужиоца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav4">
+						<content>
+							<p>Поступак за судску заштиту у вези са узбуњивањем је хитан.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav5">
+						<content>
+							<p>У поступку за судску заштиту у вези са узбуњивањем дозвољена је ревизија.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav6">
+						<content>
+							<p>У поступку за судску заштиту у вези са узбуњивањем сходно се примењују одредбе закона о парничном поступку које уређују поступак у радним споровима, ако овим законом није другачије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<heading>Састав суда</heading>
+					<paragraph wId="gla4-clan24-stav1">
+						<content>
+							<p>У парничном поступку по тужби у вези са узбуњивањем у првом степену суди судија појединац, а у другом степену веће састављено од троје судија.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<heading>Поседовање посебних знања у вези са узбуњивањем</heading>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Судија који поступа по тужби у вези са узбуњивањем или у посебним поступцима из <ref wId="ref13" href="akn/rs/act/2014/128-3/srp@/!main~art_27" >члана 27. овог</ref> закона мора бити лице које је стекло посебна знања у вези са заштитом узбуњивача.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Стицање посебних знања и стручно усавршавање лица која поступају у вези са заштитом узбуњивача спроводи Правосудна академија, у сарадњи са министарством надлежним за послове правосуђа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav3">
+						<content>
+							<p>Програм стицања посебних знања у вези са заштитом узбуњивача прописује се актом министра надлежног за послове правосуђа.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>Садржина тужбе</heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<intro>
+							<p>Тужбом за заштиту у вези са узбуњивањем може се тражити:</p>
+						</intro>
+						<point wId="gla4-clan26-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> утврђење да је према узбуњивачу предузета штетна радња;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> забрана вршења и понављања штетне радње;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> уклањање последица штетне радње;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> накнада материјалне и нематеријалне штете;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan26-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> објављивање пресуде донете по тужби поднетој из разлога предвиђених у<ref wId="ref14" href="akn/rs/act/2014/128-3/srp@/!main~" > тач. 1) </ref>до 4) овог става у средствима јавног информисања, о трошку туженог.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav2">
+						<content>
+							<p>Тужбом из <ref wId="ref15" href="akn/rs/act/2014/128-3/srp@/!main~art_26__para_1" >става 1. овог</ref> члана не може се побијати законитост појединачног акта послодавца којим је решавано о правима, обавезама и одговорностима запосленог по основу рада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<heading>Права узбуњивача у посебним поступцима</heading>
+					<paragraph wId="gla4-clan27-stav1">
+						<content>
+							<p>У тужби за оцену законитости појединачног акта послодавца којим је решавано о правима, обавезама и одговорности узбуњивача по основу рада, по посебним прописима, узбуњивач може истаћи навод да појединачни акт послодавца представља штетну радњу у вези са узбуњивањем.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav2">
+						<content>
+							<p>Навод из <ref wId="ref16" href="akn/rs/act/2014/128-3/srp@/!main~art_27__para_1" >става 1. овог</ref> члана може се истаћи у тужби или на припремном рочишту, а после тога само ако подносилац навода учини вероватним да без своје кривице није могао да раније изнесе тај навод.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav3">
+						<content>
+							<p>У посебном поступку суд оцењује основаност навода да појединачни акт послодавца представља штетну радњу у вези са узбуњивањем, у складу са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan28">
+					<num>28.</num>
+					<heading>Упознавање странака са правом да реше спор путем посредовања</heading>
+					<paragraph wId="gla4-clan28-stav1">
+						<content>
+							<p>Суд пред којим се води поступак за заштиту у вези са узбуњивањем дужан је да на припремном рочишту, односно првом рочишту за главну расправу, укаже странкама на могућност за вансудско решавање спора путем посредовања или на други споразуман начин.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan29">
+					<num>29.</num>
+					<heading>Терет доказивања</heading>
+					<paragraph wId="gla4-clan29-stav1">
+						<content>
+							<p>Ако је у току поступка тужилац учинио вероватним да је према њему предузета штетна радња у вези са узбуњивањем, на туженом је терет доказивања да штетна радња није у узрочној вези са узбуњивањем.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan30">
+					<num>30.</num>
+					<heading>Истражно начело</heading>
+					<paragraph wId="gla4-clan30-stav1">
+						<content>
+							<p>У поступку за заштиту у вези са узбуњивањем суд може утврђивати чињенице и када оне међу странкама нису спорне, а може и самостално истраживати чињенице које ни једна странка није изнела у поступку, ако оцени да је то од значаја за исход поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan31">
+					<num>31.</num>
+					<heading>Изостанак туженог</heading>
+					<paragraph wId="gla4-clan31-stav1">
+						<content>
+							<p>Ако тужени не дође на рочиште за главну расправу, а уредно је позван, суд може да одржи рочиште и без присуства туженог, као и да одлучи на основу утврђеног чињеничног стања на рочишту.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan32">
+					<num>32.</num>
+					<heading>Привремене мере и надлежност</heading>
+					<paragraph wId="gla4-clan32-stav1">
+						<content>
+							<p>У поступку заштите у вези са узбуњивањем или у поступку из <ref wId="ref17" href="akn/rs/act/2014/128-3/srp@/!main~art_27" >члана 27. овог</ref> закона суд који води поступак може одредити привремену меру у складу са законом којим се уређује извршење и обезбеђење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan32-stav2">
+						<content>
+							<p>Предлог за одређивање привремене мере може се поднети пре покретања судског поступка, за време трајања судског поступка као и по окончању судског поступка, све док извршење не буде спроведено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan32-stav3">
+						<content>
+							<p>У току поступка суд може и по службеној дужности да одреди привремену меру.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan33">
+					<num>33.</num>
+					<heading>Привремена мера пре покретања судског поступка</heading>
+					<paragraph wId="gla4-clan33-stav1">
+						<content>
+							<p>Суд надлежан за поступање по тужби за заштиту у вези са узбуњивањем, надлежан је да одлучује и о предлогу за одређивање привремене мере који је поднет пре покретања судског поступка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan33-stav2">
+						<content>
+							<p>Приликом одређивања привремене мере из <ref wId="ref18" href="akn/rs/act/2014/128-3/srp@/!main~art_33__para_1" >става 1. овог</ref> члана суд ће одредити и рок у коме се мора поднети тужба пред надлежним судом водећи рачуна о роковима одређеним посебним прописима за подношење тужбе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan34">
+					<num>34.</num>
+					<heading>Предлог за одређивање привремене мере</heading>
+					<paragraph wId="gla4-clan34-stav1">
+						<content>
+							<p>Предлогом за одређивање привремене мере може се захтевати да суд одложи правно дејство акта, забрани вршење штетне радње, као и да наложи отклањање последице проузроковане штетном радњом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan34-stav2">
+						<content>
+							<p>О предлогу за одређивање привремене мере суд ће одлучити у року од осам дана од дана пријема предлога.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan35">
+					<num>35.</num>
+					<heading>Жалба против одлуке о одређивању привремене мере</heading>
+					<paragraph wId="gla4-clan35-stav1">
+						<content>
+							<p>Против одлуке о одређивању привремене мере није дозвољена посебна жалба.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan36">
+					<num>36.</num>
+					<heading>Надзор над спровођењем закона</heading>
+					<paragraph wId="gla4-clan36-stav1">
+						<content>
+							<p>Надзор над спровођењем овог закона врше инспекција рада, односно управна инспекција, у складу са законима који уређују њихова овлашћења.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla5-clan37">
+					<num>37.</num>
+					<heading>Прекршаји</heading>
+					<paragraph wId="gla5-clan37-stav1">
+						<intro>
+							<p>Новчаном казном од 50.000 до 500.000 динара казниће се за прекршај послодавац – правно лице које има више од десет запослених ако:</p>
+						</intro>
+						<point wId="gla5-clan37-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> не донесе општи акт о поступку унутрашњег узбуњивања (<ref wId="ref19" href="akn/rs/act/2014/128-3/srp@/!main~art_16__para_1" >члан 16. став 1</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan37-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> општи акт којим се уређује поступак унутрашњег узбуњивања не истакне на видном месту доступном сваком радно ангажованом лицу (<ref wId="ref20" href="akn/rs/act/2014/128-3/srp@/!main~art_16__para_2" >члан 16. став 2</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan37-stav2">
+						<content>
+							<p>За прекршај из <ref wId="ref21" href="akn/rs/act/2014/128-3/srp@/!main~art_37__para_1" >става 1. овог</ref> члана новчаном казном од 10.000 до 100.000 динара казниће се одговорно лице у правном лицу, државном органу, органу територијалне аутономије или јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan37-stav3">
+						<content>
+							<p>За прекршај из <ref wId="ref22" href="akn/rs/act/2014/128-3/srp@/!main~art_37__para_1" >става 1. овог</ref> члана новчаном казном од 20.000 до 200.000 динара казниће се предузетник код кога је радно ангажовано више од десет запослених.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan38">
+					<num>38.</num>
+					<paragraph wId="gla5-clan38-stav1">
+						<intro>
+							<p>Новчаном казном од 50.000 до 500.000 динара казниће се за прекршај послодавац – правно лице ако:</p>
+						</intro>
+						<point wId="gla5-clan38-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> узбуњивача не заштити од штетне радње или не предузме неопходне мере ради обустављања штетне радње и отклањања последица штетне радње, у оквиру својих овлашћења (<ref wId="ref23" href="akn/rs/act/2014/128-3/srp@/!main~art_14__para_2" >члан 14. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan38-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> свим радно ангажованим лицима не достави писмено обавештење о правима из овог закона (<ref wId="ref24" href="akn/rs/act/2014/128-3/srp@/!main~art_14__para_4" >члан 14. став 4</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan38-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> не одреди лице овлашћено за пријем информације и вођење поступка у вези са узбуњивањем (<ref wId="ref25" href="akn/rs/act/2014/128-3/srp@/!main~art_14__para_5" >члан 14. став 5</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan38-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако у прописаном року не поступи по информацији (<ref wId="ref26" href="akn/rs/act/2014/128-3/srp@/!main~art_15__para_2" >члан 15. став 2</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan38-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ако у прописаном року не обавести узбуњивача о исходу поступка у складу са законом (<ref wId="ref27" href="akn/rs/act/2014/128-3/srp@/!main~art_15__para_3" >члан 15. став 3</ref>);</p>
+							</content>
+						</point>
+						<point wId="gla5-clan38-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> ако узбуњивачу, на његов захтев, не пружи обавештења о току и радњама преузетим у поступку или ако не омогући узбуњивачу да изврши увид у списе предмета и да присуствује радњама у поступку у складу са законом (<ref wId="ref28" href="akn/rs/act/2014/128-3/srp@/!main~art_15__para_4" >члан 15. став 4</ref>).</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan38-stav2">
+						<content>
+							<p>За прекршај из <ref wId="ref29" href="akn/rs/act/2014/128-3/srp@/!main~art_38__para_1" >става 1. овог</ref> члана новчаном казном од 10.000 до 100.000 динара казниће се одговорно лице у правном лицу, државном органу, органу територијалне аутономије или јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan38-stav3">
+						<content>
+							<p>За прекршај из <ref wId="ref30" href="akn/rs/act/2014/128-3/srp@/!main~art_38__para_1" >става 1. овог</ref> члана новчаном казном од 20.000 до 200.000 динара казниће се предузетник.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan39">
+					<num>39.</num>
+					<heading>Рок за доношење подзаконског акта</heading>
+					<paragraph wId="gla6-clan39-stav1">
+						<content>
+							<p>Подзаконски акт из <ref wId="ref31" href="akn/rs/act/2014/128-3/srp@/!main~art_17" >члана 17. </ref>и <ref wId="ref32" href="akn/rs/act/2014/128-3/srp@/!main~art_25__para_3" >члана 25. став 3. овог</ref> закона донеће се у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav2">
+						<content>
+							<p>Послодавци су дужни да донесу општи акт из <ref wId="ref33" href="akn/rs/act/2014/128-3/srp@/!main~art_16__para_1" >члана 16. став 1. овог</ref> закона, у року од једне године од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan40">
+					<num>40.</num>
+					<heading>Ступање закона на снагу</heading>
+					<paragraph wId="gla6-clan40-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, а примењује се по истеку шест месеци од дана ступања на снагу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

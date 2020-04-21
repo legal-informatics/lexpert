@@ -1,0 +1,998 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о Безбедносно-информативној агенцији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2002/42-17/main"/>
+					<FRBRuri value="akn/rs/act/2002/42-17"/>
+					<FRBRdate date="2002-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/36-33/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/36-33/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/36-33/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/36-33/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2002-07-19" name="службени гласник рс" number="42" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="1. Одбрана и безбедност" value="1. одбрана и безбедност" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2002-01-01" refersTo="42/2002-17" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2009-01-01" refersTo="111/2009-35" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2014-01-01" refersTo="65/2014-99" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2014-01-01" refersTo="66/2014-3" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2018-01-01" refersTo="36/2018-33" source="#somebody" type="amendment" wId="e5"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2002-07-18" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2002-07-27" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2002-07-27" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="агенција"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="информативна"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="образује"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="посебна"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="организација"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="безбедносно"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agenciji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agenciju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vrste"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije dužan"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije dužni"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije i ministarstva nadležnog za unutrašnje poslove"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije i o stanju bezbednosti Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije ne"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije obavezne instrukcije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agenciji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Apelacionom sudu u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebno odeljenje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Posebnog odeljenja Apelacionog suda u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Resor državne bezbednosti"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom utvrđenog poretka Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom utvrđenog poretka i bezbednosti Republike"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Višeg suda u Beogradu"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ZAKONA"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Koeficijenti"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2010."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. maja 2018."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. jula"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. juna 2014"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. decembra 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="29. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 27. јула 2002. године (види члан 28. Закона).Одлуком Уставног суда број IУз-252/2002 (Службени гласник РС, број 65/2014) престале су да важе одредбе чл. 13, 14. и 15. Закона о Безбедносно-информативној агенцији („Службени гласник РС”, бр. 42/2002 и 111/2009), јер је утврђено да нису у сагласности са Уставом (види Одлуку УС - 65/2014-99).Закон о изменама и допунама Закона о Безбедносно-информативној агенцији („Службени гласник РС“, број 66/2014) ступио је на снагу даном објављивања у „Службеном гласнику РС“, односно 29. јуна 2014. године. Овим законом измењени су чл. 13, 14. и 15. и додати чл. 15а, 15б и 15в.Закон о изменама и допунама Закона о Безбедносно-информативној агенцији („Службени гласник РС“, број 36/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 18. маја 2018. године. Подзаконски акти за извршавање овог закона донеће се у року од 90 дана од дана његовог ступања на снагу. До доношења наведених аката примењиваће се важећи акти, ако нису у супротности са овим законом. До почетка примене закона којим се уређује систем плата у јавном сектору, право припадника на плату, увећану плату, накнаде и остала примања, утврђује се у складу са прописима који важе на дан ступања на снагу овог закона (чл. 5, 6. и 7. Закона – 36/2018-33).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије, односно 27. јула 2002. године (види члан 28. Закона).Одлуком Уставног суда број IУз-252/2002 (Службени гласник РС, број 65/2014) престале су да важе одредбе чл. 13, 14. и 15. Закона о Безбедносно-информативној агенцији („Службени гласник РС”, бр. 42/2002 и 111/2009), јер је утврђено да нису у сагласности са Уставом (види Одлуку УС - 65/2014-99).Закон о изменама и допунама Закона о Безбедносно-информативној агенцији („Службени гласник РС“, број 66/2014) ступио је на снагу даном објављивања у „Службеном гласнику РС“, односно 29. јуна 2014. године. Овим законом измењени су чл. 13, 14. и 15. и додати чл. 15а, 15б и 15в.Закон о изменама и допунама Закона о Безбедносно-информативној агенцији („Службени гласник РС“, број 36/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 18. маја 2018. године. Подзаконски акти за извршавање овог закона донеће се у року од 90 дана од дана његовог ступања на снагу. До доношења наведених аката примењиваће се важећи акти, ако нису у супротности са овим законом. До почетка примене закона којим се уређује систем плата у јавном сектору, право припадника на плату, увећану плату, накнаде и остала примања, утврђује се у складу са прописима који важе на дан ступања на снагу овог закона (чл. 5, 6. и 7. Закона – 36/2018-33).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О безбедносно-информативној агенцији „Службени гласник РС”, бр. <ref wId="ref60" href="akn/rs/act/2002/42/srp@">42 од 19. јула 2002</ref>, <ref wId="ref61" href="akn/rs/act/2009/111/srp@">111 од 29. децембра 2009</ref>, <ref wId="ref62" href="akn/rs/act/2014/65/srp@">65 од 27. јуна 2014</ref> - УС, <ref wId="ref63" href="akn/rs/act/2014/66/srp@">66 од 29. јуна 2014</ref>, <ref wId="ref64" href="akn/rs/act/2018/36/srp@">36 од 10. маја 2018</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Образује се Безбедносно-информативна агенција (у даљем  тексту: Агенција), као посебна организација.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Агенција обавља послове који се односе на: заштиту  безбедности Републике Србије и откривање и спречавање делатности усмерених на  подривање или рушење Уставом утврђеног поретка Републике Србије; истраживање,  прикупљање, обраду и процену безбедносно-обавештајних података и сазнања од  значаја за безбедност Републике Србије и информисање надлежних државних органа о  тим подацима, као и друге послове одређене законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Агенција има својство правног лица, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Контролу рада Агенције остварују надлежни органи, у складу  са законом и другим прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>У обављању послова из свог делокруга Агенција остварује  сарадњу са другим надлежним државним органима и службама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Агенција остварује сарадњу са органима, организацијама и  службама других држава и међународних организација, у складу са смерницама Владе  Републике Србије (у даљем тексту: Влада) и безбедносно-обавештајном политиком  Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ОРГАНИЗАЦИЈА РАДА</heading>
+				<article wId="gla2-clan5">
+					<num>5.</num>
+					<paragraph wId="gla2-clan5-stav1">
+						<content>
+							<p>Радом Агенције руководи директор, кога поставља и разрешава  Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan6">
+					<num>6.</num>
+					<paragraph wId="gla2-clan6-stav1">
+						<content>
+							<p>У Агенцији се образују посебне организационе јединице за  обављање безбедносних послова из њеног делокруга.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>На унутрашњу организацију и систематизацију радних места у  Агенцији примењују се начела за унутрашњу организацију и систематизацију радних  места у министарствима и посебним организацијама, осим уколико обављање  одређених послова у Агенцији не захтева другачији начин организовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Акт о унутрашњем уређењу и систематизацији радних  места у Агенцији доноси директор Агенције, уз претходну сагласност Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav3">
+						<content>
+							<p>Актом из <ref wId="ref0" href="akn/rs/act/2018/36-33/srp@/!main~art_7__para_2" >става 2. овог</ref> члана се утврђују, нарочито,  организационе јединице, послови који се у њима обављају, начин руковођења,  овлашћења и одговорности руководилаца, унутрашња контрола и интерна ревизија,  међусобни односи организационих јединица, начин сарадње Агенције са другим  органима и организацијама, подела радних места, врсте радних места, укупан број  радних места са називом, опис послова, распон звања, заштитни режим, статус  припадника, потребан број извршилаца и услови за свако радно место, као и подаци  о степену увећања стажа осигурања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav4">
+						<content>
+							<p>Подаци садржани у акту из <ref wId="ref1" href="akn/rs/act/2018/36-33/srp@/!main~art_7__para_2" >става 2. овог</ref> члана јесу  тајни подаци, који се одређују и са којима се поступа у складу са законом којим  се уређује тајност података.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2018/36/srp@">36/2018</ref></heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Директор интерним упутствима ближе уређује поједина питања  која се односе на унутрашње организовање и обављање послова из делокруга  Агенције и даје припадницима Агенције обавезне инструкције о начину обављања  послова.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАЧИН ОБАВЉАЊА ПОСЛОВА</heading>
+				<article wId="gla3-clan9">
+					<num>9.</num>
+					<paragraph wId="gla3-clan9-stav1">
+						<content>
+							<p>Агенција у обављању послова из своје надлежности примењује  одговарајуће оперативне методе, мере и радње, као и одговарајућа  оперативно-техничка средства којима се обезбеђује прикупљање података и  обавештења ради отклањања и спречавања делатности усмерених на подривање или  рушење Уставом утврђеног поретка Републике Србије, угрожавање безбедности у  земљи и, у вези с тим, предузима друге потребне мере и радње на основу закона и  прописа донетих у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan9-stav2">
+						<content>
+							<p>Одлуку о примени мера и метода из <ref wId="ref3" href="akn/rs/act/2018/36-33/srp@/!main~art_9__para_1" >става 1. овог</ref> члана  доноси директор Агенције или лице које он овласти.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan10">
+					<num>10.</num>
+					<paragraph wId="gla3-clan10-stav1">
+						<content>
+							<p>У обављању послова из свог делокруга, припадници Агенције  овлашћени су да од државних и других органа, правних и физичких лица траже и  добију обавештења, податке и стручну помоћ од значаја за разјашњавање чињеница  везаних за обављање послова из делокруга Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan10-stav2">
+						<content>
+							<p>На пружање помоћи, давање обавештења и података из <ref wId="ref4" href="akn/rs/act/2018/36-33/srp@/!main~art_10__para_1" >става 1.  овог</ref> члана нико не може бити принуђен, а ускраћивање или одбијање помоћи, давања  обавештења или података мора бити засновано на законом утврђеним разлозима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan11">
+					<num>11.</num>
+					<paragraph wId="gla3-clan11-stav1">
+						<content>
+							<p>О пословима из своје надлежности Агенција обрађује, чува и  користи прикупљене информације и документацију, о чему води одговарајуће  евиденције и обезбеђује заштиту њихове тајности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan11-stav2">
+						<content>
+							<p>Начин евидентирања, обраде, чувања, коришћења, заштите и  достављања другим надлежним државним органима информација и докумената из <ref wId="ref5" href="akn/rs/act/2018/36-33/srp@/!main~art_11__para_1" >става  1. овог</ref> члана утврђује Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan12">
+					<num>12.</num>
+					<paragraph wId="gla3-clan12-stav1">
+						<content>
+							<p>Припадници Агенције распоређени у посебне организационе  јединице из <ref wId="ref6" href="akn/rs/act/2018/36-33/srp@/!main~art_6" >члана 6. овог</ref> закона у откривању, праћењу, документовању,  спречавању, сузбијању и пресецању делатности организација и лица усмерених на  вршење организованог криминала и кривичних дела са елементом иностраности,  унутрашњег и међународног тероризма и најтежих облика кривичних дела против  човечности и међународног права и против Уставом утврђеног поретка и безбедности  Републике примењују овлашћења утврђена законом и другим прописима које примењују  овлашћена службена лица и радници на одређеним дужностима министарства надлежног  за унутрашње послове, у складу са прописима о унутрашњим пословима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan13">
+					<num>13.</num>
+					<paragraph wId="gla3-clan13-stav1">
+						<intro>
+							<p>Посебне мере којима се одступа од неповредивости тајне  писама и других средстава општења (у даљем тексту: посебне мере) су:</p>
+						</intro>
+						<point wId="gla3-clan13-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> тајни надзор и снимање комуникације без обзира на  облик и техничка средства преко којих се обавља или надзор електронске или друге  адресе;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> тајни надзор и снимање комуникације на јавним  местима и местима којима је приступ ограничен или у просторијама;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> статистички електронски надзор комуникације и  информационих система у циљу прибављања података о комуникацији или локацији  коришћене мобилне терминалне опреме;</p>
+							</content>
+						</point>
+						<point wId="gla3-clan13-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> рачунарско претраживање већ обрађених личних и  других података и њихово упоређивање са подацима који су прикупљени применом  мера из<ref wId="ref7" href="akn/rs/act/2018/36-33/srp@/!main~" > тач. 1)</ref>–3) овог става.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla3-clan13-stav2">
+						<content>
+							<p>Уз посебне мере из става 1. тач. <ref wId="ref8" href="akn/rs/act/2018/36-33/srp@/!main~art_13__para_1__point_1" >1</ref>) и <ref wId="ref9" href="akn/rs/act/2018/36-33/srp@/!main~art_13__para_1__point_2" >2</ref>) овог члана  може се одобрити тајни надзор и снимање места, просторија и предмета, укључујући  и уређаје за аутоматску обраду података и опреме на којој се чувају или се могу  чувати електронски записи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref10" href="akn/rs/act/2014/66/srp@">66/2014</ref></heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Посебне мере могу се одредити према лицу, групи или  организацији за коју постоје основи сумње да предузима или припрема радње  усмерене против безбедности Републике Србије, а околности случаја указују да се  на други начин те радње не би могле открити, спречити или доказати или би то  изазвало несразмерне тешкоће или велику опасност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>Приликом одлучивања о одређивању и трајању посебних  мера посебно ће се ценити да ли би се исти резултат могао постићи на начин којим  се мање ограничавају права грађана, у обиму неопходном да се сврха ограничавања  задовољи у демократском друштву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref30" href="akn/rs/act/2014/66/srp@">66/2014</ref></heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Ако су испуњени услови из <ref wId="ref11" href="akn/rs/act/2018/36-33/srp@/!main~art_14" >члана 14. овог</ref> закона, на  образложени предлог директора Агенције, суд може одредити примену посебне мере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Предлог из <ref wId="ref12" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_1" >става 1. овог</ref> члана садржи назив посебне  мере, расположиве податке о лицу, групи или организацији према којој ће бити  примењивана, постојање услова за њено одређивање и рок трајања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>О предлогу из <ref wId="ref13" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_1" >става 1. овог</ref> члана одлучује председник  Вишег суда у Београду, односно судија којег он одреди међу судијама који су  распоређени у Посебно одељење тог суда за које је законом одређено да поступа у  предметима кривичних дела организованог криминала, корупције и других посебно  тешких кривичних дела.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav4">
+						<content>
+							<p>Одлука о предлогу из <ref wId="ref14" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_1" >става 1. овог</ref> члана доноси се у  року од 48 часова од часа подношења предлога.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2014/66/srp@">66/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav6">
+						<content>
+							<p>Члан 15а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav7">
+						<content>
+							<p>Ако усвоји предлог за одређивање посебне мере суд  доноси наредбу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav8">
+						<content>
+							<p>Наредба о одређивању посебне мере садржи назив посебне  мере, расположиве податке о лицу, групи или организацији према којој ће бити  примењивана, разлоге о испуњености услова из <ref wId="ref16" href="akn/rs/act/2018/36-33/srp@/!main~art_14" >члана 14. овог</ref> закона, начин  примене, обим и трајање посебне мере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav9">
+						<content>
+							<p>Посебна мера може трајати три месеца, а због  неопходности откривања, спречавања или прикупљања доказа о радњи из <ref wId="ref17" href="akn/rs/act/2018/36-33/srp@/!main~art_14__para_1" >члана 14.  став 1. овог</ref> закона, може се продужити највише још три пута у трајању од по три  месеца. Примена посебне мере се прекида чим престану разлози за њену примену.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav10">
+						<content>
+							<p>Ако не усвоји предлог за одређивање посебне мере суд  доноси решење.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav11">
+						<content>
+							<p>Против решења из <ref wId="ref18" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_4" >става 4. овог</ref> члана директор Агенције  може изјавити жалбу Апелационом суду у Београду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav12">
+						<content>
+							<p>Одлуку о жалби из <ref wId="ref19" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_5" >става 5. овог</ref> члана доноси веће  састављено од троје судија Посебног одељења Апелационог суда у Београду за које  је законом одређено да поступа у предметима кривичних дела организованог  криминала, корупције и других посебно тешких кривичних дела, у року од 48 часова  од часа изјављивања жалбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav13">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref20" href="akn/rs/act/2014/66/srp@">66/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav14">
+						<content>
+							<p>Члан 15б</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav15">
+						<content>
+							<p>Ако у току примене посебне мере припадник Агенције  дође до сазнања да лице, група или организација користи друго средство  комуникације, електронску или другу адресу, или да се комуникација обавља на  другим местима којима је приступ ограничен или у другим просторијама, обавестиће  о томе одмах директора Агенције који може наредити проширење посебне мере.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav16">
+						<content>
+							<p>У случају доношења наредбе из <ref wId="ref22" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_1" >става 1. овог</ref> члана,  директор Агенције у року од 48 часова подноси предлог за накнадно одобрење  проширења примене посебне мере. О предлогу одлучује судија из <ref wId="ref21" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_3" >члана 15. став 3.  овог</ref> закона у року од 48 часова од часа пријема предлога.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav17">
+						<content>
+							<p>Ако усвоји предлог из <ref wId="ref23" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_2" >става 2. овог</ref> члана судија ће  накнадно одобрити проширење примене посебне мере, а ако одбије предлог,  материјал који је прикупљен у складу са <ref wId="ref24" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_1" >ставом 1. овог</ref> члана се уништава.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav18">
+						<content>
+							<p>Материјал из <ref wId="ref25" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_3" >става 3. овог</ref> члана уништава се у  присуству судије који о томе саставља записник.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav19">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref26" href="akn/rs/act/2014/66/srp@">66/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav20">
+						<content>
+							<p>Члан 15в</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav21">
+						<content>
+							<p>Ако је приликом примене посебних мера прикупљен  материјал о кривичном делу у односу на које се могу одредити посебне доказне  радње, такав материјал се доставља надлежном јавном тужилаштву. Са материјалом  се поступа у складу са одредбама које уређују кривични поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav22">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2014/66/srp@">66/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav23">
+						<content>
+							<p>Члан 15г</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav24">
+						<content>
+							<p>Предлог за одређивање или проширење посебних мера,  одлука о предлогу, наредба о проширењу посебне мере и записник о уништавању  материјала из <ref wId="ref28" href="akn/rs/act/2018/36-33/srp@/!main~art_15б__para_4" >члана 15б став 4. овог</ref> закона бележе се у посебном уписнику и  чувају се заједно са материјалом о примени посебних мера у посебном омоту са  назнаком „посебне мере” и ознаком степена тајности, у складу са одредбама закона  којим се уређује тајност података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav25">
+						<content>
+							<p>Подаци о предлагању, одлучивању и примени посебних  мера представљају тајне податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav26">
+						<content>
+							<p>Податке из <ref wId="ref29" href="akn/rs/act/2018/36-33/srp@/!main~art_15__para_2" >става 2. овог</ref> члана дужна су да чувају као  тајне и друга лица која их у било ком својству сазнају.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref32" href="akn/rs/act/2014/66/srp@">66/2014</ref></heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>Кад посебни разлози безбедности Републике Србије то  захтевају, Агенција може да преузме и непосредно обави послове који су у  надлежности министарства надлежног за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>Одлуку о преузимању и обављању послова из делокруга  министарства надлежног за унутрашње послове споразумно доносе директор Агенције  и министар надлежан за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav3">
+						<content>
+							<p>У случају сукоба надлежности одлучује Влада, у складу са  законом и другим прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav4">
+						<content>
+							<p>Преузете послове из <ref wId="ref31" href="akn/rs/act/2018/36-33/srp@/!main~art_16__para_1->para_2" >ст. 1. и 2. овог</ref> члана припадници  Агенције обављају под условима и на начин, као и применом овлашћења, утврђених  законом и другим прописима које примењују овлашћена службена лица и радници на  одређеним дужностима министарства надлежног за унутрашње послове, у складу са  прописима о унутрашњим пословима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav5">
+						<content>
+							<p>Директор Агенције и министар надлежан за унутрашње послове  споразумно ће ближе уредити својим актом обавезне облике и начин остваривања  сарадње Агенције и министарства надлежног за унутрашње послове у питањима од  интереса за безбедност и уставни поредак Републике Србије, односно безбедност  људи и имовине.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>КОНТРОЛА РАДА</heading>
+				<article wId="gla4-clan17">
+					<num>17.</num>
+					<paragraph wId="gla4-clan17-stav1">
+						<content>
+							<p>Директор Агенције дужан је да два пута годишње поднесе  извештај о раду Агенције и о стању безбедности Републике Србије, Народној  скупштини и Влади Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<paragraph wId="gla4-clan18-stav1">
+						<content>
+							<p>У обављању послова из свог делокруга Агенција је обавезна  да се придржава начелних ставова и смерница Владе које се односе на  безбедносно-обавештајну политику Републике Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Лица која учествују у вршењу контроле рада Агенције,  обавезна су да штите и чувају поверљивост података и информација до којих долазе  у вршењу послова контроле и по престанку својих функција.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ПРИПАДНИЦИ АГЕНЦИЈЕ</heading>
+				<article wId="gla5-clan20">
+					<num>20.</num>
+					<paragraph wId="gla5-clan20-stav1">
+						<content>
+							<p>Брисан је ранији <ref wId="ref34" href="akn/rs/act/2018/36-33/srp@/!main~art_20__para_1" >став 1. </ref>(види <ref wId="ref33" href="akn/rs/act/2018/36/srp@/!main~/art_2">члан 2. Закона -  36/2018-33</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav2">
+						<content>
+							<p>Припадници Агенције не могу бити чланови политичких  странака.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav3">
+						<content>
+							<p>Припадници Агенције немају право на синдикално организовање  нити право на штрајк.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav4">
+						<content>
+							<p>Члан 20а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav5">
+						<content>
+							<p>Припадници Агенције су овлашћена службена лица, лица  на одређеним дужностима и лица без овлашћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav6">
+						<content>
+							<p>На права, дужности и одговорности по основу радног  односа припадника Агенције у статусу овлашћених службених лица и лица на  одређеним дужностима која нису уређена овим законом и прописима донетим на  основу овог закона, сходно се примењују одредбе закона који важе за полицијске  службенике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav7">
+						<content>
+							<p>На права, дужности и одговорности по основу радног  односа припадника Агенције у статусу лица без овлашћења која нису уређена овим  законом и прописима донетим на основу овог закона, сходно се примењују прописи  којима се уређују радни односи у државним органима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav8">
+						<content>
+							<p>Ближи услови и начин остваривања права, обавезе и  одговорности из радног односа припадника Агенције уређују се правилником о раду.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref35" href="akn/rs/act/2018/36/srp@">36/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav10">
+						<content>
+							<p>Члан 20б</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav11">
+						<content>
+							<p>За попуњавање радних места у Агенцији није обавезан  конкурс.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav12">
+						<content>
+							<p>О заснивању радног односа у Агенцији решењем одлучује  директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav13">
+						<content>
+							<p>На услове за заснивање  радног односа у Агенцији, примењују се прописи којима се уређују услови за  заснивање радног односа у министарству надлежном за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav14">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref36" href="akn/rs/act/2018/36/srp@">36/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav15">
+						<content>
+							<p>Члан 20в</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav16">
+						<content>
+							<p>Постојање безбедносне сметње, као чињенице која  представља стварни и неприхватљив безбедносни ризик у случају пријема лица у  радни однос, укључујући и лице које се враћа на рад на основу правоснажне одлуке  надлежног органа, утврђује Агенција у поступку безбедносног проверавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav17">
+						<content>
+							<p>Безбедносно проверавање може се вршити само уз  претходну писану сагласност лица, дату путем попуњавања и потписивања упитника о  идентификационим подацима, на обрасцу који утврђује директор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav18">
+						<content>
+							<p>Ако лице из <ref wId="ref37" href="akn/rs/act/2018/36-33/srp@/!main~art_20__para_1" >става 1. овог</ref> члана одбије да попуни или  потпише упитник из <ref wId="ref38" href="akn/rs/act/2018/36-33/srp@/!main~art_20__para_2" >става 2. овог</ref> члана, сматраће се да је одустало од заснивања  радног односа, односно наставка рада у Агенцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav19">
+						<content>
+							<p>У поступку безбедносног проверавања прикупљају се и  проверавају подаци наведени у упитнику из <ref wId="ref39" href="akn/rs/act/2018/36-33/srp@/!main~art_20__para_2" >става 2. овог</ref> члана, као и други  подаци у погледу лица које се безбедносно проверава, путем обављања разговора са  лицем које се проверава, са лицима која су са њим у вези и другим лицима, као и  прикупљањем података од других органа или из регистара, евиденција, збирки и  база података које се воде на основу закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav20">
+						<content>
+							<p>Подаци прикупљени безбедносним проверавањем  евидентирају се, чувају и штите у складу са законом којим се уређује тајност  података и законом којим се уређује заштита података о личности, а користе само  у сврху за коју су прикупљени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav21">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref40" href="akn/rs/act/2018/36/srp@">36/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav22">
+						<content>
+							<p>Члан 20г</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav23">
+						<content>
+							<p>Припадници Агенције дужни су да, због потребе рада у  Агенцији, похађају стручну обуку, као и да се стручно усавршавају и да положе  посебан стручни испит.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav24">
+						<content>
+							<p>Поступак, програм и начин похађања стручне обуке,  стручног усавршавања и полагања посебног стручног испита утврђује се актом  директора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav25">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref41" href="akn/rs/act/2018/36/srp@">36/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav26">
+						<content>
+							<p>Члан 20д</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav27">
+						<content>
+							<p>Рад припадника Агенције оцењује се једанпут годишње.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav28">
+						<content>
+							<p>Поступак, мерила и начин оцењивања припадника Агенције  уређује се актом који доноси директор.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav29">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2018/36/srp@">36/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav30">
+						<content>
+							<p>Члан 20ђ</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav31">
+						<content>
+							<p>Звања овлашћених службених лица и лица на одређеним  дужностима уређују се овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav32">
+						<intro>
+							<p>Звања су:</p>
+						</intro>
+						<point wId="gla5-clan20-stav32-tac1">
+							<num>1)</num>
+							<content>
+								<p> са средњим образовањем – млађи референт, референт,  старији референт, виши референт, самостални референт и виши самостални референт;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav32-tac2">
+							<num>2)</num>
+							<content>
+								<p> са првим степеном високог образовања – млађи  сарадник, сарадник, старији сарадник, виши сарадник, самостални сарадник и виши  самостални сарадник;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan20-stav32-tac3">
+							<num>3)</num>
+							<content>
+								<p> са другим степеном високог образовања – млађи  саветник, саветник, виши саветник, самостални саветник, виши самостални саветник  и главни саветник.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav33">
+						<content>
+							<p>Припадницима Агенције у статусу овлашћеног службеног  лица и лица на одређеним дужностима утврђују се звања одговарајућег назива за  свако систематизовано радно место.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav34">
+						<content>
+							<p>Услови за стицање и губитак звања утврђују се актом  директора, уз претходну сагласност Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav35">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2018/36/srp@">36/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav36">
+						<content>
+							<p>Члан 20е</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav37">
+						<content>
+							<p>Припадник Агенције има право на плату, увећану плату,  накнаду плате, накнаду трошкова и друга примања, у складу са овим законом и  законом којим се уређује систем плата у јавном сектору.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav38">
+						<content>
+							<p>Плата се састоји од основне плате и увећане плате.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav39">
+						<content>
+							<p>Основна плата одређује се множењем основице са  коефицијентима за обрачун плата.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav40">
+						<content>
+							<p>Коефицијенти за обрачун плата састоје се од основног,  додатног и корективног коефицијента у односу на радна места, звање, нарочито  ризичне услове рада, опасност, одговорност и сложеност послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan20-stav41">
+						<content>
+							<p>Коефицијенти за обрачун плате, утврђују се актом  директора, уз претходну сагласност Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan21">
+					<num>21.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref44" href="akn/rs/act/2018/36/srp@">36/2018</ref></heading>
+					<paragraph wId="gla5-clan21-stav1">
+						<content>
+							<p>Припадник Агенције своје својство доказује службеном  легитимацијом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan21-stav2">
+						<content>
+							<p>Врсте, облик и садржај службених легитимација прописује  Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan22">
+					<num>22.</num>
+					<paragraph wId="gla5-clan22-stav1">
+						<content>
+							<p>Припадник Агенције је дужан да послове и задатке који су му  одређени извршава у складу са законом, другим прописом и општим актом, налогом  директора, односно непосредно надређеног руководиоца у Агенцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan22-stav2">
+						<content>
+							<p>Припадник Агенције је самосталан у раду и за свој рад лично  одговоран.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan23">
+					<num>23.</num>
+					<paragraph wId="gla5-clan23-stav1">
+						<content>
+							<p>Припадник Агенције је дужан да чува податке Агенције који  представљају државну, војну, службену или пословну тајну, методе, мере и радње  које представљају или садрже коју од ових тајни, као и друге податке чије би  саопштавање начинило штету по интересе физичких или правних лица или за успешно  обављање послова Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav2">
+						<content>
+							<p>Обавеза чувања података, мера и радњи из <ref wId="ref45" href="akn/rs/act/2018/36-33/srp@/!main~art_23__para_1" >става 1. овог</ref>  члана прихвата се приликом пријема на рад, а важи и по престанку рада у  Агенцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav3">
+						<content>
+							<p>Од обавезе чувања тајне припадника Агенције може ослободити  директор Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav4">
+						<content>
+							<p>Члан 23а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav5">
+						<content>
+							<p>Припадник Агенције може бити трајно или привремено  премештен на друго одговарајуће радно место.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav6">
+						<content>
+							<p>Одговарајућим радним местом сматра се радно место чији  се послови обављају у истом звању, као послови радног места са којег се  припадник Агенције премешта и за које испуњава све услове за рад на тим  пословима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav7">
+						<content>
+							<p>За премештај због потребе посла, није потребна  сагласност припадника Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref46" href="akn/rs/act/2018/36/srp@">36/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav9">
+						<content>
+							<p>Члан 23б</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav10">
+						<content>
+							<p>Припадник Агенције може бити трајно премештен на друго  одговарајуће радно место, на лични захтев или на предлог надлежног руководиоца,  у случају потребе посла, када се оцени да његове радне способности и  оспособљеност у већој мери могу да допринесу побољшању процеса рада на радном  месту на које се трајно премешта.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav11">
+						<content>
+							<p>Захтев, односно предлог за трајни премештај мора бити  посебно образложен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav12">
+						<content>
+							<p>За трајни премештај припадника Агенције, у случају  када је раздаљина места рада од места премештаја већа од 50 километара,  неопходна је сагласност припадника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav13">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref47" href="akn/rs/act/2018/36/srp@">36/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav14">
+						<content>
+							<p>Члан 23в</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav15">
+						<content>
+							<p>Припадник Агенције може бити привремено премештен на  друго одговарајуће радно место на лични захтев или на предлог надлежног  руководиоца у случају потребе посла, због замене одсутног припадника, повећаног  обима посла или привремене здравствене неспособности, при чему задржава сва  права радног места са кога је премештен, ако је то за њега повољније.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav16">
+						<content>
+							<p>Привремени премештај траје најдуже годину дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav17">
+						<content>
+							<p>Захтев, односно предлог за привремени премештај, мора  бити посебно образложен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav18">
+						<content>
+							<p>После истека времена на које је привремено премештен,  припадник се враћа на радно место са кога је премештен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan23-stav19">
+						<content>
+							<p>Жалба на решење о привременом премештају не одлаже  његово извршење.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan24">
+					<num>24.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref48" href="akn/rs/act/2018/36/srp@">36/2018</ref></heading>
+					<paragraph wId="gla5-clan24-stav1">
+						<content>
+							<p>Дисциплински поступак против припадника Агенције води се у  складу са законом и другим прописима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav2">
+						<content>
+							<p>У дисциплинском поступку против припадника Агенције  искључује се јавност.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav3">
+						<content>
+							<p>Влада ближе уређује питања која се односе на дисциплинску  одговорност припадника Агенције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan25">
+					<num>25.</num>
+					<paragraph wId="gla5-clan25-stav1">
+						<content>
+							<p>Ако се против активних и бивших припадника Агенције води  кривични или други поступак због примене одговарајућих мера, односно употребе  средстава принуде, Агенција ће му обезбедити бесплатну правну помоћ у том  поступку, изузев ако је Агенција иницирала или покренула поступак.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan25-stav2">
+						<content>
+							<p>Ако су живот, односно лична и имовинска безбедност  припадника Агенције или чланова његове породице доведене у опасност због вршења  службе, Агенција ће припаднику, поред правне помоћи из <ref wId="ref49" href="akn/rs/act/2018/36-33/srp@/!main~art_25__para_1" >става 1. овог</ref> члана,  обезбедити и другу помоћ и заштиту ради отклањања опасности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan25-stav3">
+						<content>
+							<p>Права из <ref wId="ref50" href="akn/rs/act/2018/36-33/srp@/!main~art_25__para_1->para_2" >ст. 1. и 2. овог</ref> члана имају и грађани који  Агенцији пружају помоћ у обављању послова из њеног делокруга.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla6-clan26">
+					<num>26.</num>
+					<paragraph wId="gla6-clan26-stav1">
+						<content>
+							<p>Подзаконски акти за извршавање овог закона донеће се у року  од 90 дана од дана његовог ступања на снагу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan26-stav2">
+						<content>
+							<p>До доношења аката из <ref wId="ref51" href="akn/rs/act/2018/36-33/srp@/!main~art_26__para_1" >става 1. овог</ref> члана примењиваће се  важећи акти који нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan27">
+					<num>27.</num>
+					<paragraph wId="gla6-clan27-stav1">
+						<content>
+							<p>Радници Министарства унутрашњих послова – Ресора државне  безбедности који у року од 90 дана од дана ступања на снагу овог закона не буду  преузети у Агенцију, распоредиће се у Министарство унутрашњих послова на радна  места која одговарају њиховој стручној спреми и радним способностима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav2">
+						<content>
+							<p>Агенција ће преузети просторије, предмете, архиву и други  регистратурски материјал, опрему, средства за рад и друга средства која је на  дан ступања на снагу овог закона користило Министарство унутрашњих послова –  Ресор државне безбедности.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan28">
+					<num>28.</num>
+					<paragraph wId="gla6-clan28-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у  „Службеном гласнику Републике Србије&quot;.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У &quot;ПРЕЧИШЋЕН ТЕКСТ&quot; ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan3">
+					<num>3.</num>
+					<heading>Закон о изменама Закона о Безбедносно-информативној  агенцији: „Службени гласник РС“, број <ref wId="ref52" href="akn/rs/act/2009/111/srp@">111/2009</ref>-35</heading>
+					<paragraph wId="gla6-clan3-stav1">
+						<content>
+							<p>Овај закон ступа на снагу наредног дана од дана објављивања  у „Службеном гласнику Републике Србије”, а примењује се од 1. јануара 2010.  године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan5">
+					<num>5.</num>
+					<heading>Закон о изменама и допунама Закона о  Безбедносно-информативној агенцији: „Службени гласник РС“, број <ref wId="ref53" href="akn/rs/act/2018/36/srp@">36/2018</ref>-33</heading>
+					<paragraph wId="gla6-clan5-stav1">
+						<content>
+							<p>До почетка примене закона којим се уређује  систем плата у јавном сектору, право припадника на плату, увећану плату, накнаде  и остала примања, утврђује се у складу са прописима који важе на дан ступања на  снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan6">
+					<num>6.</num>
+					<paragraph wId="gla6-clan6-stav1">
+						<content>
+							<p>Подзаконски акти за извршавање овог закона  донеће се у року од 90 дана од дана његовог ступања на снагу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan6-stav2">
+						<content>
+							<p>До доношења аката из <ref wId="ref54" href="akn/rs/act/2018/36-33/srp@/!main~art_6__para_1" >става 1. овог</ref> члана  примењиваће се важећи акти, ако нису у супротности са овим законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan7">
+					<num>7.</num>
+					<paragraph wId="gla6-clan7-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана  његовог објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan7-stav2">
+						<content>
+							<p>ЗАКОН</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan7-stav3">
+						<content>
+							<p>о Безбедносно-информативној агенцији</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan7-stav4">
+						<content>
+							<p>„Службени гласник РС”, бр. <ref wId="ref55" href="akn/rs/act/2002/42/srp@">42 од 19. јула 2002</ref>, <ref wId="ref56" href="akn/rs/act/2009/111/srp@">111 од  29. децембра 2009</ref>, <ref wId="ref57" href="akn/rs/act/2014/65/srp@">65 од 27. јуна 2014</ref> - УС, <ref wId="ref58" href="akn/rs/act/2014/66/srp@">66 од 29. јуна 2014</ref>, <ref wId="ref59" href="akn/rs/act/2018/36/srp@">36 од 10. маја  2018</ref>.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

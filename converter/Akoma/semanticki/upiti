@@ -1,0 +1,99 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX eli: <http://data.europa.eu/eli/ontology#>
+SELECT ?subject ?object
+	WHERE { ?subject rdfs:subClassOf ?object }
+	
+------------------
+PRIMER :
+<LegalResource rdf:about="#Zakon_o_izgledu_i_upotrebi_grba,_zastave_i_himne_Republike_Srbije:_36/2009-3">
+--------------------------------------
+
+SELECT ?subject
+	WHERE { ?subject a skos:Concept }
+	
+------------
+
+Sve kombo
+
+SELECT ?subject ?x
+WHERE {
+?subject a skos:Concept .
+?x eli:is_about ?subject.
+?x rdf:type eli:LegalResource.
+filter regex(str(?x), "Zakon_o_međunarodnim_merama")
+	}
+	
+--------------------------------------
+
+SELECT ?subject ?x
+WHERE {
+?subject a eli:LegalResource.
+?subject eli:is_about ?x.
+?x rdf:type skos:Concept.
+?x 
+filter regex(str(?x), "Zakon_o_međunarodnim_merama")
+	}
+	
+--------------------------------
+
+SELECT ?propis 
+WHERE {	?koncept a skos:Concept .
+	?propis eli:is_about ?koncept.
+	?propis rdf:type eli:LegalResource.
+	filter regex(str(?koncept), "bezbednost")
+	}
+	
+----------------------------------
+
+SELECT ?subpropis 
+WHERE {	?koncept a skos:Concept .
+	?subpropis eli:is_about ?koncept.
+	?subpropis rdf:type eli:LegalResourceSubdivision.
+	filter regex(str(?koncept), "bezbednost")
+	filter regex(str(?subpropis), "Zakon_o_međunarodnim_merama")
+	}
+	
+---------------------------------
+/* SELECT (str(?object) as ?label)  */
+ 
+SELECT (str(?organ) as ?rezultat) 
+WHERE {	
+	?propis rdf:type eli:LegalResource.
+	?propis eli:publisher ?organ.
+	filter regex(str(?propis), "Zakon_o_međunarodnim_merama")
+}
+--------------------------------------------
+	
+
+SELECT (str(?glasnik) as ?Naziv) (str(?broj) as ?Broj) (str(?dat) as ?Datum)
+WHERE {	
+	?propis rdf:type eli:LegalResource.
+	?propis eli:published_in ?glasnik.
+	?propis eli:number ?broj.
+	?propis eli:date_publication ?dat.
+	filter regex(str(?propis), "Zakon_o_međunarodnim_merama")
+	}
+
+----------------------------------------
+
+
+
+SELECT ?propis 
+WHERE {	?koncept a skos:Concept.
+	?propis eli:is_about ?koncept.
+	?propis rdf:type eli:LegalResource.
+	?propis eli:date_applicability ?datum
+	filter (?datum > "2000-01-01"^^xsd:date)
+	filter regex(str(?koncept), "državni")
+	}
+	
+-----------------------
+
+
+http://www.dpriver.com/pp/sqlformat.htm
+	
+	

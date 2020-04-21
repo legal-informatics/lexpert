@@ -1,0 +1,663 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о печату државних и других органа">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2007/101-6/main"/>
+					<FRBRuri value="akn/rs/act/2007/101-6"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2007/101-6/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2007/101-6/srp@"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2007/101-6/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2007/101-6/srp@.akn"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2007-11-06" name="службени гласник рс“" number="101" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="2. Грб, застава, химна и печат" value="2. грб, застава, химна и печат" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2007-11-05" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2007-11-14" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2007-11-14" wId="primena"/>
+			</workflow>
+<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавна"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="органи"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="службе"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="скупштина"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="користе"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="народна"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="намена"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединица"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="изглед"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="печата"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="овлашћења"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="влада"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="владе"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="поверена"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="војска"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="грађана"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="привредна"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="председник"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="скупштине"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="појединци"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="тужилаштва"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="поједина"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="делокруга"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="заштитник"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="народне"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="уставног"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="правобранилаштво"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="друштва"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="судови"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="предузећа"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="суда"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="суд"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="уставни"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="председника"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="бира"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавно"/>
+				<TLCConcept eId="cocnept42" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="им"/>
+				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="установе"/>
+				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="агенције"/>
+				<TLCConcept eId="cocnept46" href="http://purl.org/vocab/frbr/core#Concept" showAs="чланове"/>
+				<TLCConcept eId="cocnept47" href="http://purl.org/vocab/frbr/core#Concept" showAs="аутономних"/>
+				<TLCConcept eId="cocnept48" href="http://purl.org/vocab/frbr/core#Concept" showAs="утврђује"/>
+				<TLCConcept eId="cocnept49" href="http://purl.org/vocab/frbr/core#Concept" showAs="организације"/>
+				<TLCConcept eId="cocnept50" href="http://purl.org/vocab/frbr/core#Concept" showAs="републичко"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo )"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavni sud"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavnog suda"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojska Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojske Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Organ"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Pečat"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 14. новембра 2007. године (види члан 27. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 14. новембра 2007. године (види члан 27. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон о печату државних и других органа „службени  гласник рс“,  број <ref wId="ref24" href="akn/rs/act/2007/101/srp@">101 од 6. новембра  2007</ref></p>
+			</longTitle>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<heading>Садржина закона</heading>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Овим законом уређују се намена, садржина, изглед и употреба печата које у вршењу послова из свог делокруга користе Народна скупштина, председник Републике, Влада, органи државне управе, Заштитник грађана, Војска Србије, судови, јавна тужилаштва, Уставни суд, Републичко јавно правобранилаштво, службе Народне скупштине, председника Републике, Владе, Уставног суда и службе органа чије чланове бира Народна скупштина, органи аутономних покрајина и јединица локалне самоуправе (у даљем тексту: државни и други органи), као и печата које користе јавне агенције, јавна предузећа, привредна друштва, установе, организације и појединци када врше поједина јавна овлашћења која су им поверена законом (у даљем тексту: имаоци јавних овлашћења).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan1-stav2">
+					<content>
+						<p>Садржину, изглед и употребу печата јединица и установа Војске Србије утврђује министар одбране.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>Намена печата</heading>
+				<paragraph wId="clan2-stav1">
+					<content>
+						<p>Печатом се потврђује аутентичност јавне исправе и другог акта којим државни и други органи и имаоци јавних овлашћења одлучују или службено опште са другим органима, правним лицима и грађанима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan2-stav2">
+					<content>
+						<p>Имаоци јавних овлашћења печатом који је утврђен овим законом потврђују само акте које доносе у оквиру вршења јавних овлашћења.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan3">
+				<num>3.</num>
+				<heading>Садржина печата</heading>
+				<paragraph wId="clan3-stav1">
+					<content>
+						<p>Печат садржи назив и грб Републике Србије, назив односно име и седиште државног и другог органа или имаоца јавног овлашћења.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav2">
+					<content>
+						<p>Печат садржи и назив органа управе у саставу министарства, а може да садржи и назив и седиште организационе јединице у државном и другом органу ако је та јединица законом овлашћена да одлучује у управном поступку или у другим појединачним стварима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan3-stav3">
+					<content>
+						<p>Печат који употребљава дипломатско или конзуларно представништво Републике Србије у иностранству садржи грб Републике Србије, назив и седиште представништва.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan4">
+				<num>4.</num>
+				<heading>Језик на коме се исписује текст печата</heading>
+				<paragraph wId="clan4-stav1">
+					<content>
+						<p>Текст печата исписује се на српском језику ћириличким писмом.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan4-stav2">
+					<content>
+						<p>Текст печата државног и другог органа или имаоца јавних овлашћења (у даљем тексту: орган), који има седиште на територији на којој су, у складу са законом, у службеној употреби и језик и писмо припадника националних мањина, исписује се и на језику и писму националних мањина.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan5">
+				<num>5.</num>
+				<heading>Начин исписивања текста печата</heading>
+				<paragraph wId="clan5-stav1">
+					<content>
+						<p>Текст печата исписује се у концентричним круговима око грба Републике Србије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav2">
+					<content>
+						<p>У спољном кругу печата исписује се назив Републике Србије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav3">
+					<content>
+						<p>У печату органа чије је седиште на територији аутономне покрајине, назив аутономне покрајине исписује се у првом следећем кругу испод назива Републике Србије.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav4">
+					<content>
+						<p>У следећем унутрашњем кругу исписује се назив органа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav5">
+					<content>
+						<p>Назив органа управе у саставу министарства, односно организационе јединице органа исписује се у следећим унутрашњим круговима.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav6">
+					<content>
+						<p>Седиште органа, органа управе у саставу министарства, односно организационе јединице органа, исписује се у дну печата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan5-stav7">
+					<content>
+						<p>У случају када се, у складу са овим законом, текст печата органа исписује и на језику и писму националних мањина, текст печата на српском језику ћириличким писмом исписује се у сваком кругу изнад грба Републике Србије, а текст на језику и писму националних мањина исписује се у наставку сваког круга, закључно са седиштем органа.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan6">
+				<num>6.</num>
+				<heading>Облик и величина печата</heading>
+				<paragraph wId="clan6-stav1">
+					<content>
+						<p>Печат је округлог облика и израђује се од гуме, метала или другог одговарајућег материјала.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav2">
+					<content>
+						<p>Пречник печата који се исписује на српском језику ћириличким писмом износи 32  mm.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan6-stav3">
+					<content>
+						<p>Пречник печата који се исписује на српском језику ћириличким писмом и на језику и писму припадника националних мањина износи од 40 mm до 60 mm.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan7">
+				<num>7.</num>
+				<heading>Број печата</heading>
+				<paragraph wId="clan7-stav1">
+					<content>
+						<p>Органи имају један печат за отисак хемијском бојом, а могу имати и по један печат за отисак у печатном воску и за суви отисак.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav2">
+					<content>
+						<p>Органи могу имати више примерака печата који морају бити истоветни по садржини и величини. Сваки примерак обележава се редним бројем, римском цифром која се ставља између грба Републике Србије и седишта органа.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan7-stav3">
+					<content>
+						<p>Број примерака печата одређује руководилац органа, односно овлашћено тело или орган.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan8">
+				<num>8.</num>
+				<heading>Мали печат</heading>
+				<paragraph wId="clan8-stav1">
+					<content>
+						<p>Орган може имати један печат мањег пречника (у даљем тексту: мали печат).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav2">
+					<content>
+						<p>Садржина малог печата је иста и исписана је на исти начин као и садржина печата из чл. <ref wId="ref0" href="akn/rs/act/2007/101-6/srp@/!main~art_3" >3</ref>. и <ref wId="ref1" href="akn/rs/act/2007/101-6/srp@/!main~art_5" >5</ref>. овог закона. У малом печату назив органа може бити скраћен – тако да се из скраћеног текста недвосмислено види чији је печат.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav3">
+					<content>
+						<p>Мали печат користи се у случајевима у којима је његова употреба подеснија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav4">
+					<content>
+						<p>Пречник малог печата не може бити мањи од 20  mm нити већи од 28  mm.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan8-stav5">
+					<content>
+						<p>О потреби постојања малог печата, као и о броју примерака, величини, скраћеном називу органа и употреби малог печата одлучује руководилац органа, односно овлашћено тело или орган.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan9">
+				<num>9.</num>
+				<heading>Чување печата и руковање печатом</heading>
+				<paragraph wId="clan9-stav1">
+					<content>
+						<p>Печат се чува и њиме се рукује у службеним просторијама органа, а изузетно се може користити и ван службених просторија када треба извршити службене радње ван тих просторија.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav2">
+					<content>
+						<p>Руководилац органа, односно овлашћено тело или орган, одлучује коме ће поверити чување и употребу печата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan9-stav3">
+					<content>
+						<p>Лице коме је печат поверен на чување дужно је да печат чува на начин којим се онемогућава неовлашћено коришћење печата.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan10">
+				<num>10.</num>
+				<heading>Сагласност на садржину и изглед печата и поверавање послова државне управе</heading>
+				<paragraph wId="clan10-stav1">
+					<content>
+						<p>Пре набавке печата орган је дужан да прибави сагласност на садржину и изглед печата од министарства надлежног за послове управе (у даљем тексту: Министарство).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan10-stav2">
+					<content>
+						<p>Министарство је дужно да о захтеву за давање сагласности на садржину и изглед печата одлучи најкасније у року од три дана од дана подношења уредног захтева.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan11">
+				<num>11.</num>
+				<paragraph wId="clan11-stav1">
+					<intro>
+						<p>Аутономна покрајина преко својих органа, у складу са овим законом:</p>
+					</intro>
+					<point wId="clan11-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p> ближе уређује садржину и изглед печата органа аутономне покрајине, органа јединица локалне самоуправе и имаоца јавних овлашћења, који имају седиште на територији аутономне покрајине;</p>
+						</content>
+					</point>
+					<point wId="clan11-stav1-tac2">
+						<num>2)</num>
+						<content>
+							<p> даје сагласност на садржину и изглед печата које ближе уређује;</p>
+						</content>
+					</point>
+					<point wId="clan11-stav1-tac3">
+						<num>3)</num>
+						<content>
+							<p> води евиденције о печатима које ближе уређује.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan11-stav2">
+					<content>
+						<p>Послови из става 1. тач. <ref wId="ref2" href="akn/rs/act/2007/101-6/srp@/!main~art_11__para_1__point_2" >2</ref>) и <ref wId="ref3" href="akn/rs/act/2007/101-6/srp@/!main~art_11__para_1__point_3" >3</ref>) овог члана врше се као поверени.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan12">
+				<num>12.</num>
+				<paragraph wId="clan12-stav1">
+					<content>
+						<p>О захтеву за давање сагласности на садржину и изглед печата Министарство, односно надлежни орган аутономне покрајине одлучује решењем.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan12-stav2">
+					<content>
+						<p>Решење Министарства коначно је и против њега се може покренути управни спор.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan12-stav3">
+					<content>
+						<p>Против решења надлежног органа аутономне покрајине може се изјавити жалба министру надлежном за послове управе.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan12-stav4">
+					<content>
+						<p>Решење министра донето по жалби коначно је и против њега се може покренути управни спор.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan13">
+				<num>13.</num>
+				<heading>Стављање печата ван употребе</heading>
+				<paragraph wId="clan13-stav1">
+					<content>
+						<p>Печат који је постао неодговарајући због истрошености, оштећења, промене уређења државних и других органа (промена назива, седишта, преузимање надлежности, престанак рада органа или укидање унутрашње јединице и сл.), односно престанка вршења јавних овлашћења, ставља се ван употребе и мора се уништити.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan13-stav2">
+					<content>
+						<p>Уништавање печата врши комисија органа и о извршеном уништењу печата обавештава Министарство, односно надлежни орган аутономне покрајине.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan14">
+				<num>14.</num>
+				<heading>Нестанак или губитак печата</heading>
+				<paragraph wId="clan14-stav1">
+					<content>
+						<p>Нестанак или губитак печата без одлагања се пријављује Министарству, односно надлежном органу аутономне покрајине и оглашава неважећим у службеном гласилу Републике Србије, односно аутономне покрајине.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan14-stav2">
+					<content>
+						<p>Несталим или изгубљеним печатом сматра се печат који није доступан лицу овлашћеном за чување и употребу печата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan14-stav3">
+					<content>
+						<p>Захтев за оглашавање печата неважећим подноси се службеном гласилу Републике Србије, односно аутономне покрајине, у року од три дана од сазнања за нестанак или губитак печата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan14-stav4">
+					<content>
+						<p>Печат се сматра неважећим од дана пријављивања његовог нестанка или губитка.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan14-stav5">
+					<content>
+						<p>У случају каснијег проналаска печат ће се уништити.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan15">
+				<num>15.</num>
+				<heading>Замена несталог или изгубљеног печата</heading>
+				<paragraph wId="clan15-stav1">
+					<content>
+						<p>Нестали или изгубљени печат који је једини у органу замењује се, на основу сагласности Министарства, односно надлежног органа аутономне покрајине, примерком обележеним редним бројем један, римском цифром, а у случају поновног нестанка или губитка замењује се примерком печата обележеним наредним редним бројем.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan15-stav2">
+					<content>
+						<p>У случају када орган има више примерака печата, нестали или изгубљени печат замењује се, на основу сагласности Министарства односно надлежног органа аутономне покрајине, новим печатом који је обележен наредним редним бројем, у односу на укупан број печата.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan16">
+				<num>16.</num>
+				<heading>Израђивање печата</heading>
+				<paragraph wId="clan16-stav1">
+					<content>
+						<p>Печат утврђен овим законом израђује овлашћени привредни субјект (у даљем тексту: печаторезница).</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan16-stav2">
+					<content>
+						<p>Овлашћење за израду печата издаје министарство надлежно за унутрашње послове.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan16-stav3">
+					<content>
+						<p>Ближи пропис о начину рада печаторезница доноси министар надлежан за унутрашње послове.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan17">
+				<num>17.</num>
+				<paragraph wId="clan17-stav1">
+					<content>
+						<p>Печаторезница може израдити печат само ако Министарство, односно надлежни орган аутономне покрајине, да сагласност на садржину и изглед печата.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan17-stav2">
+					<content>
+						<p>Матрицу која је служила за израду печата, као и све пробне и неуспеле примерке печата, печаторезница је дужна да уништи.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan18">
+				<num>18.</num>
+				<heading>Достављање података о израђеним печатима</heading>
+				<paragraph wId="clan18-stav1">
+					<content>
+						<p>Отисак израђеног печата, податке о броју примерака печата и датуму почетка његове употребе орган је дужан да достави Министарству, односно надлежном органу аутономне покрајине, у року од десет дана од дана израде печата.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan19">
+				<num>19.</num>
+				<heading>Евиденција о печатима</heading>
+				<paragraph wId="clan19-stav1">
+					<content>
+						<p>Министарство, односно надлежни орган аутономне покрајине води евиденцију о печатима која садржи податке о: сагласности за набавку печата, броју примерака печата, датуму почетка употребе печата, уништеним, несталим и изгубљеним печатима, као и отисак печата.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan20">
+				<num>20.</num>
+				<heading>Надзор</heading>
+				<paragraph wId="clan20-stav1">
+					<content>
+						<p>Надзор над применом одредаба овог закона, осим у делу који се односи на рад печаторезница, врши Министарство, преко управне инспекције.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan20-stav2">
+					<intro>
+						<p>У вршењу надзора, управна инспекција, поред овлашћења за предузимање радњи и налагање мера утврђених посебним законом, има право и дужност:</p>
+					</intro>
+					<point wId="clan20-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> да наложи органу да изради печат у складу са овим законом;</p>
+						</content>
+					</point>
+					<point wId="clan20-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> да наложи да се уништи печат чија садржина није у складу са одредбама овог закона, односно када се стекну други разлози утврђени овим законом за уништење печата.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan20-stav3">
+					<content>
+						<p>Против решења управног инспектора може се изјавити жалба у року од осам дана.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan20-stav4">
+					<content>
+						<p>Жалба не одлаже извршење решења.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan20-stav5">
+					<content>
+						<p>Решење донето по жалби је коначно и против њега се може покренути управни спор.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan21">
+				<num>21.</num>
+				<paragraph wId="clan21-stav1">
+					<content>
+						<p>Надзор над радом печаторезнице врши министарство надлежно за унутрашње послове.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan21-stav2">
+					<intro>
+						<p>У вршењу надзора министарство надлежно за унутрашње послове може:</p>
+					</intro>
+					<point wId="clan21-stav2-tac1">
+						<num>1)</num>
+						<content>
+							<p> да наложи печаторезници да свој рад усклади са овим законом и са прописом о раду печаторезнице из <ref wId="ref4" href="akn/rs/act/2007/101-6/srp@/!main~art_16__para_3" >члана 16. став 3. овог</ref> закона;</p>
+						</content>
+					</point>
+					<point wId="clan21-stav2-tac2">
+						<num>2)</num>
+						<content>
+							<p> да наложи печаторезници да уништи матрице које служе за израду печата, као и све пробне и неуспеле примерке печата, ако то није учинила печаторезница у складу са <ref wId="ref5" href="akn/rs/act/2007/101-6/srp@/!main~art_17__para_2" >чланом 17. став 2. овог</ref> закона.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="clan21-stav3">
+					<content>
+						<p>Против решења донетог на основу <ref wId="ref6" href="akn/rs/act/2007/101-6/srp@/!main~art_21__para_2" >става 2. овог</ref> члана може се изјавити жалба у року од осам дана.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan21-stav4">
+					<content>
+						<p>Жалба не одлаже извршење решења.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan21-stav5">
+					<content>
+						<p>Решење донето по жалби је коначно и против њега се може покренути управни спор.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan22">
+				<num>22.</num>
+				<heading>Казнене одредбе</heading>
+				<paragraph wId="clan22-stav1">
+					<intro>
+						<p>Новчаном казном од 20.000 до 200.000 динара казниће се за прекршај печаторезница:</p>
+					</intro>
+					<alinea wId="clan22-stav1-ali1">
+						<content>
+							<p>оја без овлашћења надлежног органа израђује печат утврђен овим законом (<ref wId="ref7" href="akn/rs/act/2007/101-6/srp@/!main~art_16__para_2" >члан 16. став 2</ref>);</p>
+						</content>
+					</alinea>
+					<alinea wId="clan22-stav1-ali2">
+						<content>
+							<p>ко изради печат без сагласности на садржину и изглед печата (<ref wId="ref8" href="akn/rs/act/2007/101-6/srp@/!main~art_17__para_1" >члан 17. став 1</ref>);</p>
+						</content>
+					</alinea>
+					<alinea wId="clan22-stav1-ali3">
+						<content>
+							<p>ко не уништи матрице и све пробне и неуспеле примерке печата (<ref wId="ref9" href="akn/rs/act/2007/101-6/srp@/!main~art_17__para_2" >члан 17. став 2</ref>).</p>
+						</content>
+					</alinea>
+				</paragraph>
+				<paragraph wId="clan22-stav2">
+					<content>
+						<p>За прекршај из <ref wId="ref10" href="akn/rs/act/2007/101-6/srp@/!main~art_22__para_1" >става 1. овог</ref> члана казниће се и одговорно лице казном затвора или новчаном казном од 1.000 до 10.000 динара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="clan22-stav3">
+					<content>
+						<p>За прекршај из <ref wId="ref11" href="akn/rs/act/2007/101-6/srp@/!main~art_22__para_1" >става 1. овог</ref> члана казниће се предузетник новчаном казном од 10.000 до 100.000 динара.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan23">
+				<num>23.</num>
+				<paragraph wId="clan23-stav1">
+					<intro>
+						<p>Новчаном казном од 15.000 до 50.000 динара казниће се за прекршај одговорно лице у органу:</p>
+					</intro>
+					<alinea wId="clan23-stav1-ali1">
+						<content>
+							<p>ко наручи печат без сагласности надлежног органа и такав печат употреби (<ref wId="ref12" href="akn/rs/act/2007/101-6/srp@/!main~art_10__para_1" >члан 10. став 1</ref>);</p>
+						</content>
+					</alinea>
+					<alinea wId="clan23-stav1-ali2">
+						<content>
+							<p>ко не уништи печат који је постао неодговарајући (<ref wId="ref13" href="akn/rs/act/2007/101-6/srp@/!main~art_13__para_1" >члан 13. став 1</ref>);</p>
+						</content>
+					</alinea>
+					<alinea wId="clan23-stav1-ali3">
+						<content>
+							<p>ко не пријави нестанак или губитак печата или у року не поднесе захтев за оглашавање печата неважећим (<ref wId="ref16" href="akn/rs/act/2007/101-6/srp@/!main~art_14" >члан 14. </ref>ст. <ref wId="ref14" href="akn/rs/act/2007/101-6/srp@/!main~art_14__para_1" >1</ref>. и <ref wId="ref15" href="akn/rs/act/2007/101-6/srp@/!main~art_14__para_3" >3</ref>);</p>
+						</content>
+					</alinea>
+					<alinea wId="clan23-stav1-ali4">
+						<content>
+							<p>ко не достави отисак печата и податке о броју примерака и датуму почетка употребе печата (<ref wId="ref17" href="akn/rs/act/2007/101-6/srp@/!main~art_18" >члан 18</ref>).</p>
+						</content>
+					</alinea>
+				</paragraph>
+			</article>
+			<article wId="clan24">
+				<num>24.</num>
+				<heading>Прелазне и завршне одредбе</heading>
+				<paragraph wId="clan24-stav1">
+					<content>
+						<p>Министар одбране донеће пропис о садржини, изгледу и употреби печата јединица и установа Војске Србије у року од 30 дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan25">
+				<num>25.</num>
+				<paragraph wId="clan25-stav1">
+					<content>
+						<p>Министар надлежан за унутрашње послове донеће ближи пропис о начину рада печаторезница у року од 30 дана од дана ступања на снагу овог закона.</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan26">
+				<num>26.</num>
+				<paragraph wId="clan26-stav1">
+					<content>
+						<p>Даном ступања на снагу овог закона престају да важе Закон о печату државних и других органа („<ref wId="ref18" href="akn/rs/act/91/11/srp@">Службени гласник РС”, бр. 11/91</ref>, <ref wId="ref19" href="akn/rs/act/93/53/srp@">53/93</ref> – др. закон, <ref wId="ref19" href="akn/rs/act/93/53/srp@">67/93 </ref> – др. закон, <ref wId="ref20" href="akn/rs/act/93/53/srp@">48/94 </ref> – др. закон и <ref wId="ref21" href="akn/rs/act/93/53/srp@">101/05</ref> – др. закон) и <ref wId="ref22" href="akn/rs/act/02/06/srp@/!main~art_55" >члан 55. </ref>Закона о утврђивању одређених надлежности аутономне покрајине („<ref wId="ref23" href="akn/rs/act/02/6/srp@">Службени гласник РС”, број 6/02</ref>).</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan27">
+				<num>27.</num>
+				<paragraph wId="clan27-stav1">
+					<content>
+						<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+					</content>
+				</paragraph>
+			</article>
+		</body>
+	</act>
+</akomaNtoso>

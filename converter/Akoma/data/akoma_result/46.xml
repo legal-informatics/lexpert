@@ -1,0 +1,997 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о заштити права и слобода националних мањина">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2002/11-1/main"/>
+					<FRBRuri value="akn/rs/act/2002/11-1"/>
+					<FRBRdate date="2002-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2018/47-23/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2018/47-23/srp@"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2018/47-23/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2018/47-23/srp@.akn"/>
+					<FRBRdate date="2018-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2002-02-27" name="службени лист срј" number="11" showAs="Службени лист СРЈ"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="15. Заштита људских права и права припадника националних мањина" value="15. заштита људских права и права припадника националних мањина" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2002-01-01" refersTo="11/2002-1" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2009-01-01" refersTo="72/2009-221" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2013-01-01" refersTo="97/2013-75" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2018-01-01" refersTo="47/2018-23" source="#somebody" type="amendment" wId="e4"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="#/akn/rs/srp@ontology" date="2002-02-26" wId="usvajanje"/>
+				<step by="#/akn/rs/srp@ontology" date="2002-03-07" wId="stupanje_na_snagu"/>
+				<step by="#/akn/rs/srp@ontology" date="2002-03-07" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="мaњинa"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="основу"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="прaвa"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="нaциoнaлних"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="националних"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="права"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="мањина"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="уставом"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређује"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="складу"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="oбeзбeђуje"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="oбaвeштaвaњу"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="oбрaзoвaњу"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="oвим"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="oд"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="oствaривaњe"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="oствaривaњу"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="установити"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="писмa"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="службeнoj"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="свaкoг"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="покрајинским"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="индивидуалних"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="индивидуaлних"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="сe"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="сaмoупрaву"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="поједине"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="одређење"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="друштвеног"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="oбликa"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="кoлeктивних"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="зајемчена"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="остварују"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="колективних"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="зaкoнoм"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="зaштитa"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="додатна"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="дискриминaциje"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="упoтрeби"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="слoбoдa"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="урeђуje"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="jeзикa"/>
+				<TLCConcept eId="cocnept42" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept43" href="http://purl.org/vocab/frbr/core#Concept" showAs="мањине"/>
+				<TLCConcept eId="cocnept44" href="http://purl.org/vocab/frbr/core#Concept" showAs="прописима"/>
+				<TLCConcept eId="cocnept45" href="http://purl.org/vocab/frbr/core#Concept" showAs="положај"/>
+				<TLCConcept eId="cocnept46" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународним"/>
+				<TLCConcept eId="cocnept47" href="http://purl.org/vocab/frbr/core#Concept" showAs="посебних"/>
+				<TLCConcept eId="cocnept48" href="http://purl.org/vocab/frbr/core#Concept" showAs="нa"/>
+				<TLCConcept eId="cocnept49" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept50" href="http://purl.org/vocab/frbr/core#Concept" showAs="потврђеним"/>
+				<TLCConcept eId="cocnept51" href="http://purl.org/vocab/frbr/core#Concept" showAs="живота"/>
+				<TLCConcept eId="cocnept52" href="http://purl.org/vocab/frbr/core#Concept" showAs="уговорима"/>
+				<TLCConcept eId="cocnept53" href="http://purl.org/vocab/frbr/core#Concept" showAs="припадницима"/>
+				<TLCConcept eId="cocnept54" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Ustanove"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbija"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Državna zastava Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Mali grb Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo )"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za ostvarivanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo periodično i"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna zastava Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj skupštini"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Odluka US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Poslovnikom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savet"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Savet za nacionalne manjine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Saveta za nacionalne manjine"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="US"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ustavom Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ZAKONA"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Simboli"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2019."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11. st. 5. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. st. 5. i 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="16. stav 4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. juna 2018."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="23."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. februara"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. septembra 2009"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. do 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. novembra 2013"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном листу СРЈ”, односно 7. марта 2002. године (види члан 25. Закона).Престао је да важи члан 24. (види члан 138. Закона о националним саветима националних мањина - 72/2009-221).Одлуком Уставног суда број IУз-27/2011 (Службени гласник РС, број 97/2013) престала је да важи одредба члaнa 17. став 2. Закона о заштити права и слобода националних мањина („Службени лист СРЈ”, број 11/2002 и „Службени гласник РС”, број 72/2009 – др. закон), у делу који гласи: „а може да оснива и посебне радио и телевизијске станице које би емитовале програме на језицима националних мањина”, јер је утврђено да ниje у сагласности са Уставом (види Одлуку УС - 97/2013-75).Закон о изменама и допунама Закона о заштити права и слобода националних мањина (Службени гласник РС, број 47/2018) је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 28. јуна 2018. године. Имена органа који врше јавна овлашћења, називи јединица локалне самоуправе, насељених места, тргова и улица и други топоними исписаће се у складу са чланом 10. овог закона (којим је измењен члан 11. Закона) најкасније до 1. јануара 2019. године. Скупштина јединице локалне самоуправе утврдиће насељена места из члана 10. овог закона у року од шест месеци од дана ступања на снагу овог закона (види чл. 23-25. Закона – 47/2018-23).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О заштити права и слобода националних мањина „Службени лист СРЈ”, број <ref wId="ref57" href="akn/rs/act/2002/11/srp@">11 од 27. фебруара 2002</ref>, „Службени гласник РС“, бр. <ref wId="ref58" href="akn/rs/act/2009/72/srp@">72 од 3. септембра 2009</ref> - др. закон, <ref wId="ref59" href="akn/rs/act/2013/97/srp@">97 од 6. новембра 2013</ref> - УС, <ref wId="ref60" href="akn/rs/act/2018/47/srp@">47 од 20. јуна 2018</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<part wId="deo1">
+				<num>Део први</num>
+				<heading>ОПШТЕ ОДРЕДБЕ</heading>
+				<article wId="deo1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="deo1-clan1-stav1">
+						<content>
+							<p>Овим законом уређује се начин остваривања  индивидуалних и колективних права која су Уставом Републике Србије и потврђеним  међународним уговорима зајемчена припадницима националних мањина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan1-stav2">
+						<content>
+							<p>Oвим зaкoнoм сe урeђуje и зaштитa нaциoнaлних мaњинa  oд свaкoг oбликa дискриминaциje у oствaривaњу индивидуaлних прaвa и слoбoдa и  oбeзбeђуje oствaривaњe кoлeктивних прaвa нaциoнaлних мaњинa нa сaмoупрaву у  култури, oбрaзoвaњу, oбaвeштaвaњу и службeнoj упoтрeби jeзикa и писмa.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan1-stav3">
+						<content>
+							<p>Права националних мањина остварују се и у складу са  законом којим се уређује положај националних савета националних мањина, као и на  основу других посебних закона којима се уређују поједине области друштвеног  живота које су од значаја за националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan1-stav4">
+						<content>
+							<p>Покрајинским прописима могу се установити додатна  права припадника националних мањина, у складу са Уставом, а на основу закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan1-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo1-clan2">
+					<num>2.</num>
+					<heading>Одређење националне мањине</heading>
+					<paragraph wId="deo1-clan2-stav1">
+						<content>
+							<p>Национална мањина у смислу овог закона је свака група држављана  Републике Србије која је по бројности довољно репрезентативна, иако  представља мањину на територији Републике Србије, припада некој од  група становништва које су у дуготрајној и чврстој вези са територијом  Републике Србије и поседује обележја као што су језик, култура, национална  или етничка припадност, порекло или вероисповест, по којима се разликује од  већине становништва, и чији се припадници одликују бригом да заједно одржавају  свој заједнички идентитет, укључујући културу, традицију, језик или религију.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan2-stav2">
+						<content>
+							<p>Националним мањинама у смислу овог закона сматраће се све групе држављана који  се називају или одређују као народи, националне и етничке заједнице, националне  и етничке групе, националности и народности, а испуњавају услове из <ref wId="ref1" href="akn/rs/act/2018/47-23/srp@/!main~art_2__para_1" >става 1.  овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo1-clan2-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo2">
+				<num>Део други</num>
+				<heading>ОСНОВНА НАЧЕЛА</heading>
+				<article wId="deo2-clan3">
+					<num>3.</num>
+					<heading>Забрана дискриминације</heading>
+					<paragraph wId="deo2-clan3-stav1">
+						<content>
+							<p>Забрањује се сваки облик дискриминације, на националној, етничкој, расној,  језичкој, верској и свакој другој основи, према националним мањинама и лицима која припадају националним мањинама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan3-stav2">
+						<content>
+							<p>Органи републике, аутономне покрајине,  јединице локалне самоуправе не могу да  доносе правне акте, нити да предузимају мере које су супротне <ref wId="ref3" href="akn/rs/act/2018/47-23/srp@/!main~art_3__para_1" >ставу 1. овог</ref>  члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan3-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref4" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-clan4">
+					<num>4.</num>
+					<heading>Мере за обезбеђење равноправности</heading>
+					<paragraph wId="deo2-clan4-stav1">
+						<content>
+							<p>Органи власти у Републици Србији у складу са Уставом и  законом доносе прописе, појединачне правне акте и предузимају мере у циљу  обезбеђења пуне и ефективне равноправности између припадника националних мањина  и грађана који припадају већини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan4-stav2">
+						<content>
+							<p>Органи власти ће доносити правне акте и предузети мере из <ref wId="ref5" href="akn/rs/act/2018/47-23/srp@/!main~art_4__para_1" >става 1. овог</ref> члана у  циљу поправљања положаја лица која припадају ромској националној мањини.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan4-stav3">
+						<content>
+							<p>Неће се сматрати дискриминацијом мере за унапређење  пуне и ефективне равноправности у запошљавању, односно погодности у случају  престанка радног односа у јавном сектору на свим нивоима територијалне  организације, које су прописане одредбама посебних закона којима се уређује  радно-правни статус запослених у јавном сектору, ако такве мере важе до  постизања одговарајуће заступљености припадника националних мањина која је  утврђена тим законима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan4-stav4">
+						<content>
+							<p>Република Србија обезбеђује услове за ефикасно учешће  припадника националних мањина у политичком животу, заступљеност представника  националних мањина у Народној скупштини и сразмерну заступљеност националних  мањина у скупштинама аутономних покрајина и јединицама локалне самоуправе, у  складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan4-stav5">
+						<content>
+							<p>Република Србија предузима одговарајуће мере ради  унапређења економског положаја неразвијених подручја на којима традиционално  живе припадници националних мањина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan4-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan4-stav7">
+						<content>
+							<p>Слобода изражавања националне припадности</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-clan5">
+					<num>5.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/2018/47/srp@">47/2018</ref></heading>
+					<paragraph wId="deo2-clan5-stav1">
+						<content>
+							<p>У складу са Уставом Републике Србије зајeмченом  слободом изражавања националне припадности, нико не сме претрпети штету због  изражавања своје националне припадности или због уздржавања од таквог чињења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan5-stav2">
+						<content>
+							<p>Забрањена је свака регистрација припадника националних мањина која их  противно њиховој вољи обавезује да се изјасне о својој националној припадности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan5-stav3">
+						<content>
+							<p>Право је припадника националних мањина да се подаци о  њиховој националној припадности уписују у службене евиденције и збирке података  о личности, у складу са посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan5-stav4">
+						<content>
+							<p>Податак о националној припадности може се користити  само у сврху за коју је прикупљен и на начин предвиђен законом који уређује  заштиту података о личности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan5-stav5">
+						<content>
+							<p>Забрањена је свака радња и мера насилне асимилације припадника националних  мањина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan5-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref7" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-clan6">
+					<num>6.</num>
+					<heading>Право сарадње са сународницима у земљи и у иностранству</heading>
+					<paragraph wId="deo2-clan6-stav1">
+						<content>
+							<p>Припадници националних мањина имају право да слободно заснивају и одржавају  мирољубиве односе унутар Републике Србије и ван њених граница с  лицима која законито бораве у другим државама, посебно са онима са којима имају  заједнички етнички, културни, језички и верски идентитет или заједничко културно  наслеђе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan6-stav2">
+						<content>
+							<p>У циљу остваривања права из <ref wId="ref9" href="akn/rs/act/2018/47-23/srp@/!main~art_6__para_1" >става 1. овог</ref> члана могу  се прописати посебне олакшице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan6-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref10" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-clan7">
+					<num>7.</num>
+					<heading>Обавезе поштовања уставног поретка, начела међународног права и јавног морала</heading>
+					<paragraph wId="deo2-clan7-stav1">
+						<content>
+							<p>Забрањена је злоупотреба права која су предвиђена овим  законом која је усмерена на насилно рушење уставног поретка, нарушавање  територијалне целокупности Републике Србије, кршење Уставом зајамчених људских и  мањинских права и слобода и изазивање и подстицање расне, националне и верске  мржње и нетрпељивости.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan7-stav2">
+						<content>
+							<p>Права која су предвиђена овим законом не смеју  се користити ради испуњења  циљева који су супротни начелима међународног права или су уперени против јавне  безбедности, морала или здравља људи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan7-stav3">
+						<content>
+							<p>Остваривање права која су уређена овим законом не може утицати на  дужности и одговорности које проистичу из држављанства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan7-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref11" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo2-clan8">
+					<num>8.</num>
+					<heading>Заштита стечених права</heading>
+					<paragraph wId="deo2-clan8-stav1">
+						<content>
+							<p>Овим законом се не смањује достигнути ниво мањинских  права зајемчених Уставом, општеприхваћеним правилима међународног права и  потврђеним међународним уговорима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo2-clan8-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo3">
+				<num>Део трећи</num>
+				<heading>ПРАВА НА ОЧУВАЊЕ ПОСЕБНОСТИ</heading>
+				<article wId="deo3-clan9">
+					<num>9.</num>
+					<heading>Избор и употреба личног имена</heading>
+					<paragraph wId="deo3-clan9-stav1">
+						<content>
+							<p>Припадници националних мањина имају право на слободан избор и коришћење  личног имена и имена своје деце, као и на уписивање ових личних имена у све  јавне исправе, службене евиденције и збирке  података о личности према језику и  правопису припадника националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan9-stav2">
+						<content>
+							<p>Право из <ref wId="ref13" href="akn/rs/act/2018/47-23/srp@/!main~art_9__para_1" >става 1. овог</ref> члана не искључује паралелан упис имена и по српском  правопису и писму.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan9-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref14" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-clan10">
+					<num>10.</num>
+					<heading>Право на употребу матерњег језика</heading>
+					<paragraph wId="deo3-clan10-stav1">
+						<content>
+							<p>Припадници националних мањина могу слободно употребљавати свој језик и писмо,  приватно и јавно.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-clan11">
+					<num>11.</num>
+					<heading>Службена употреба језика и писма</heading>
+					<paragraph wId="deo3-clan11-stav1">
+						<content>
+							<p>На територији јединице локалне самоуправе где традиционално живе припадници  националних мањина, њихов језик и писмо може бити у равноправној службеној  употреби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav2">
+						<content>
+							<p>Jeдиницa лoкaлнe сaмoупрaвe ћe oбaвeзнo својим  статутом увeсти у рaвнoпрaвну службeну упoтрeбу jeзик и писмo нaциoнaлнe мaњинe  укoликo прoцeнaт припaдникa тe нaциoнaлнe мaњинe у укупнoм брojу стaнoвникa нa  њeнoj тeритoриjи дoстижe 15% прeмa рeзултaтимa пoслeдњeг пoписa стaнoвништвa.  Јединица локалне самоуправе уводи језик и писмо националне мањине у службену  употребу најкасније у року од 90 дана од утврђивања испуњености законом  прописаних услова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav3">
+						<content>
+							<p>У јединици локалне самоуправе где је у тренутку доношења овог закона језик  националне мањине у службеној употреби, исти ће остати у службеној употреби.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav4">
+						<content>
+							<p>Службена употреба језика националних мањина из <ref wId="ref15" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_1" >става 1. овог</ref> члана  подразумева нарочито: коришћење језика националних мањина у управном и судском  поступку и вођење управног поступка и судског поступка на језику националне  мањине, употребу језика националне мањине у комуникацији органа са јавним  овлашћењима са грађанима; издавање јавних исправа и вођење службених евиденција  и збирки података о личности и података на језицима националних мањина и прихватање тих  исправа на тим језицима као пуноважних, употреба језика на гласачким листићима и  бирачком материјалу, употреба језика у раду представничких тела.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav5">
+						<content>
+							<p>На територијама из <ref wId="ref16" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_2" >става 2. овог</ref> члана, имена органа који врше јавна  овлашћења, називи јединица локалне самоуправе, насељених места, тргова и улица и  други топоними исписују се и на језику дотичне националне мањине, према њеној  традицији и правопису.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav6">
+						<content>
+							<p>У насељеним местима у јединицама локaлне самоуправе,  чија је територија одређена у складу са законом којим се уређује територијална  организација Републике Србије, у којима проценат припадника одрeђене националне  мањине у укупном броју становника на територији насељеног места достиже 15%  према резултатима последњег пописа становништва имена органа који врше јавна  овлашћења, називи јединица локалне самоуправе, насељених места, тргова и улица и  други топоними исписују се и на језику дотичне националне мањине, према њеној  традицији и правопису, и у случају да језик те националне мањине није у  службеној употреби на територији јединице локaлне самоуправе у складу са <ref wId="ref17" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_2" >ставом  2. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav7">
+						<content>
+							<p>Скупштина јединице локалне самоуправе утврдиће  статутом насељена места из <ref wId="ref18" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_6" >става 6. овог</ref> члана имајући у виду традиционалну  насељеност припадника националне мањине и претходно прибављено мишљење  националног савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav8">
+						<content>
+							<p>Припадници националних мањина чији број у укупном становништву  Републике Србије достиже најмање 2% према последњем попису становништва,  могу се обратити републичким органима на свом језику и имају право да добију  одговор на том језику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav9">
+						<content>
+							<p>Припадници националних мањина чији број у укупном  становништву Републике Србије не достиже 2% према последњем попису становништва  могу се обратити републичким органима на свом језику и имају право да добију  одговор на том језику преко јединице локалне самоуправе у којој је језик те  националне мањине у службеној употреби, при чему јединица локалне самоуправе  обезбеђује превођење и сноси трошкове превођења дописа упућеног републичком  органу и одговора тог органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav10">
+						<content>
+							<p>Народни посланик припадник националне мањине има право  да на седници Народне скупштине говори и да писане документе у раду Народне  скупштине, предвиђене Пословником, подноси на свом језику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav11">
+						<content>
+							<p>Када се народни посланик у раду Народне скупштине  служи својим језиком у смислу <ref wId="ref19" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_10" >става 10. овог</ref> члана, стално или у одређеном  случају, генерални секретар Народне скупштине је дужан да обезбеди истовремено  превођење његовог усменог излагања или документа који је поднео, на српски  језик.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav12">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref20" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav13">
+						<content>
+							<p>Објављивање закона на језицима националних мањина</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav14">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref21" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav15">
+						<content>
+							<p>Члан 11а</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav16">
+						<content>
+							<p>Министарство надлежно за остваривање права националних  мањина (у даљем тексту: Министарство), обезбеђује превођење и објављује збирке  пречишћених текстова најзначајнијих закона Републике Србије чији се предмет  уређивања у целини или највећим делом односи на остваривање права националних  мањина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav17">
+						<content>
+							<p>Министарство је у обавези да законе из <ref wId="ref22" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_1" >става 1. овог</ref>  члана учини доступним и у електронском облику, на својој интернет страници и на  порталу е-Управе, као и да споразумно одређени број збирки пречишћених текстова  закона из <ref wId="ref23" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_1" >става 1. овог</ref> члана достави националним саветима националних мањина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav18">
+						<content>
+							<p>О објављивању закона из <ref wId="ref24" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_1" >става 1. овог</ref> члана  Министарство периодично и по потреби извештава Савет за националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav19">
+						<content>
+							<p>Изузетно од <ref wId="ref25" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_1" >става 1. овог</ref> члана, национални савет  националне мањине може ресорном министарству поднети предлог, уз образложење да  је то од посебног значаја за остваривање права и слобода националне мањине, да  ресорно министарство обезбеди превођење и објављивање збирке пречишћених  текстова одређених закона из свог законског делокруга који садрже одредбе које  се односе на остваривање права и слобода националних мањина, односно уређују  друштвене односе који су од посебног значаја за националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav20">
+						<content>
+							<p>У случају да ресорно министарство прихвати предлог  националног савета националне мањине, министарство је у том случају у обавези да  законе из <ref wId="ref26" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_4" >става 4. овог</ref> члана учини доступним и у електронском облику, на својој  интернет страници и на порталу е-Управе, као и да споразумно одређени број  збирки пречишћених текстова закона из <ref wId="ref27" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_4" >става 4. овог</ref> члана достави националном  савету националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav21">
+						<content>
+							<p>Приликом одлучивања о предлогу из <ref wId="ref28" href="akn/rs/act/2018/47-23/srp@/!main~art_11__para_4" >става 4. овог</ref> члана  посебно се води рачуна о расположивости планираних буџетских средстава, као и о  томе да ли се у периоду од наредних годину дана након подношења предлога  националног савета националне мањине планирају измене и допуне или доношење  новог закона уместо закона чије се превођење односно објављивање предлаже.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav22">
+						<content>
+							<p>Ресорно министарство о поступању из ставова од 4. до  6. овог члана извештава Савет за националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav23">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref29" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav24">
+						<content>
+							<p>Члан 11б</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav25">
+						<content>
+							<p>Прописи аутономне покрајине објављују се на језицима  националних мањина у складу са статутом и општим актима аутономне покрајине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav26">
+						<content>
+							<p>Прописи јединица локалне самоуправе објављују се на  језицима националних мањина, у складу са статутом и општим актима јединица  локалне самоуправе, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan11-stav27">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref30" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-clan12">
+					<num>12.</num>
+					<heading>Право на неговање културе и традиције</heading>
+					<paragraph wId="deo3-clan12-stav1">
+						<content>
+							<p>Изражавање, чување, неговање, развијање, преношење и јавно испољавање  националне и етничке, културне, верске и језичке посебности као дела традиције  грађана, националних мањина и њихових припадника је њихово неотуђиво  индивидуално и колективно право.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan12-stav2">
+						<content>
+							<p>У циљу очувања и развоја националне и етничке посебности, припадници  националних мањина имају право да оснивају посебне културне, уметничке и научне  установе, друштва и удружења у свим областима културног и уметничког живота.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan12-stav3">
+						<content>
+							<p>Установе, друштва и удружења из <ref wId="ref31" href="akn/rs/act/2018/47-23/srp@/!main~art_12__para_2" >става 2. овог</ref> члана  самостални су у раду. Република, аутономне покрајине и јединице локалне  самоуправе могу учествовати у финансирању друштава и удружења националних  мањина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan12-stav4">
+						<content>
+							<p>За подстицање и подршку установа, друштава и удружења из  <ref wId="ref32" href="akn/rs/act/2018/47-23/srp@/!main~art_12__para_3" >става 3. овог</ref> члана  могу се оснивати посебне фондације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan12-stav5">
+						<content>
+							<p>Музеји, архиви и заводи за заштиту споменика културе  чији је оснивач Република, аутономне покрајине или јединице локалне самоуправе  обезбедиће представљање и заштиту културног и историјског наслеђа од посебног  значаја за националне мањине на територији за коју су надлежни. У одлучивању о  начину представљања културног и историјског наслеђа за које је у складу са  одредбама посебног закона утврђено да је од посебног значаја за националне  мањине учествују и представници њихових националних савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan12-stav6">
+						<content>
+							<p>Установе културе чији је оснивач јединица локалне  самоуправе која се у смислу закона којим се уређује локална самоуправа сматра  национално мешовитом јединицом локалне самоуправе, својим програмима рада  обезбедиће садржаје, мере, активности или манифестације којима се чува и  промовише културни идентитет и традиција националних мањина традиционално  настањених на њеној територији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan12-stav7">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref33" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-clan13">
+					<num>13.</num>
+					<heading>Школовање на матерњем језику</heading>
+					<paragraph wId="deo3-clan13-stav1">
+						<content>
+							<p>Припадници националних мањина имају право на васпитање и образовање на свом  језику, односно говору у  установама предшколског, основног и средњег васпитања и образовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan13-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref35" href="akn/rs/act/2018/47-23/srp@/!main~art_13__para_2" >став 2. </ref>(види <ref wId="ref34" href="akn/rs/act/2018/47/srp@/!main~/art_13">члан 13. Закона  - 47/2018-23</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan13-stav3">
+						<content>
+							<p>За остваривање права из <ref wId="ref36" href="akn/rs/act/2018/47-23/srp@/!main~art_13__para_1" >става 1. овог</ref> члана може се прописати одређени  минимални број ученика, с тим да тај број може да буде мањи од минималног броја  ученика који је законом прописан за обезбеђење одговарајућих облика наставе и  образовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan13-stav4">
+						<content>
+							<p>Образовање на језику националне мањине не искључује обавезно учење српског  језика.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan13-stav5">
+						<content>
+							<p>Програм наставе за потребе образовања из <ref wId="ref37" href="akn/rs/act/2018/47-23/srp@/!main~art_13__para_1" >става 1. овог</ref> члана, у делу који се  односи на национални садржај, у значајној мери ће садржати теме које се односе  на историју, уметност и културу националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan13-stav6">
+						<content>
+							<p>Национални савети националних мањина учествују у  изради наставних програма за предмете који изражавају посебност националних  мањина на језику, односно говору националних мањина, двојезичне наставе и учења  језика националних мањина са елементима националне културе, у складу са  прописима којима је уређено доношење наставних програма за националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan13-stav7">
+						<content>
+							<p>У циљу међусобне толеранције националних мањина и  већинског становништва и обезбеђивања интеркултуралности, реализују се програми  наставних и ваннаставних активности у основном и средњем образовању и васпитању  о историји, култури и положају националних мањина у Републици Србији.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-clan14">
+					<num>14.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2018/47/srp@">47/2018</ref></heading>
+					<paragraph wId="deo3-clan14-stav1">
+						<content>
+							<p>За потребе образовања на језику националних мањина из  <ref wId="ref38" href="akn/rs/act/2018/47-23/srp@/!main~art_13__para_1" >члана 13. став 1. </ref>у оквиру високог образовања подржаће се развијање студијских  програма за васпитаче и наставнике на језицима националних мањина, у складу са  законом који уређује високо образовање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan14-stav2">
+						<content>
+							<p>Високошколска установа може организовати лекторат на  језицима националних мањина где студенти припадници националних мањина могу да  савладају стручне термине и на језику националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan14-stav3">
+						<content>
+							<p>Република, покрајина и јединица локалне самоуправе  могу да помажу стручно оспособљавање наставника за потребе образовања из <ref wId="ref39" href="akn/rs/act/2018/47-23/srp@/!main~art_14__para_1" >става  1. овог</ref> члана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan14-stav4">
+						<content>
+							<p>Република поспешује међународну сарадњу са циљем да се  припадницима националних мањина омогући да студирају у иностранству на матерњем  језику и да се тако стечене дипломе признају у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan14-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref40" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan14-stav6">
+						<content>
+							<p>Члан 15</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan14-stav7">
+						<content>
+							<p>Припадници националних мањина имају право да оснују и одржавају приватне  образовне установе, школе, или универзитет, где ће се образовање организовати на  језицима националних мањина или двојезично, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan14-stav8">
+						<content>
+							<p>У финансирању установа из <ref wId="ref41" href="akn/rs/act/2018/47-23/srp@/!main~art_14__para_1" >става 1. овог</ref> члана, као и у  обезбеђивању средстава за виши квалитет образовања и васпитања на језицима  националних мањина у установама чији је оснивач Република, аутономна покрајина  или јединица локалне самоуправе могу да учествују домаће и стране организације,  фондације и приватна лица, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan14-stav9">
+						<content>
+							<p>У случају финансијске и друге донације из претходног става, држава ће  обезбедити одређене олакшице или ослобађање од дажбина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan14-stav10">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-clan16">
+					<num>16.</num>
+					<heading>Употреба националних симбола</heading>
+					<paragraph wId="deo3-clan16-stav1">
+						<content>
+							<p>Припадници националних мањина имају право избора и употребе националних  симбола и знамења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan16-stav2">
+						<content>
+							<p>Национални симбол и знамење не могу бити идентични са симболом и знамењем  друге државе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan16-stav3">
+						<content>
+							<p>Националне симболе, знамења и празнике националних мањина предлажу национални  савети. Симболе, знамење и празнике националних мањина потврђује  Савет  за националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan16-stav4">
+						<content>
+							<p>Симболи и знамења националних мањина се након  објављивања одлуке Савета за националне мањине о њиховом потврђивању службено  истичу током државних празника Републике Србије и потврђених празника националне  мањине на зградама и у просторијама локалних органа и организација са јавним  овлашћењима на подручјима на којима је језик националне мањине у службеној  употреби односно на начин утврђен одлуком о потврђивању симбола.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan16-stav5">
+						<content>
+							<p>Уз знамења и симболе националне мањине, приликом  обележавања државног празника Републике Србије, обавезно се истичу Државна  застава Републике Србије и Мали грб Републике Србије, на начин установљен  законом којим се уређује изглед и употреба државних симбола Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan16-stav6">
+						<content>
+							<p>Уз знамења и симболе националне мањине, приликом  обележавања потврђеног празника националне мањине, обавезно се истичу Народна  застава Републике Србије и Мали грб Републике Србије, на начин установљен  законом којим се уређује изглед и употреба државних симбола Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan16-stav7">
+						<content>
+							<p>На улазу у службене просторије националног савета могу  се, на пригодан начин, током читаве године, истицати симболи националне мањине  уз истицање државних симбола Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan16-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref44" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo3-clan17">
+					<num>17.</num>
+					<heading>Јавно обавештавање на језицима националних мањина</heading>
+					<paragraph wId="deo3-clan17-stav1">
+						<content>
+							<p>Припадници националних мањина имају право на потпуно и непристрасно  обавештавање на свом језику, укључујући право на изражавање, примање, слање и  размену информација и идеја путем штампе и других средстава јавног обавештавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan17-stav2">
+						<content>
+							<p>Држава ће у програмима радија и телевизије јавног сервиса обезбедити  информативне, културне и образовне садржаје на језику националне мањине .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan17-stav3">
+						<content>
+							<p>Припадници националних мањина имају право да оснивају и одржавају медије на  свом језику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo3-clan17-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref45" href="akn/rs/act/2013/97/srp@">97/2013</ref> (Одлука УС)</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo4">
+				<num>Део четврти</num>
+				<heading>ДЕЛОТВОРНО УЧЕШЋЕ У ОДЛУЧИВАЊУ О ПИТАЊИМА ПОСЕБНОСТИ, У ВЛАСТИ И У УПРАВИ</heading>
+				<paragraph wId="deo4-clan17-stav1">
+					<content>
+						<p>Савет за националне мањине</p>
+					</content>
+				</paragraph>
+				<article wId="deo4-clan18">
+					<num>18.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref47" href="akn/rs/act/2018/47/srp@">47/2018</ref></heading>
+					<paragraph wId="deo4-clan18-stav1">
+						<content>
+							<p>У циљу очувања, унапређења и заштите националних,  етничких, верских, језичких и културних посебности припадника националних мањина  и у циљу остваривања њихових права, Влада образује Савет за националне мањине (у  даљем тексту: Савет), као стално радно тело Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan18-stav2">
+						<content>
+							<p>Задаци Савета су да: прати и разматра стање  остваривања права националних мањина и стање међунационалних односа у Републици  Србији; предлаже мере за унапређење пуне и делотворне равноправности припадника  националних мањина; прати остваривање сарадње националних мањина са државним  органима, као и са органима аутономне покрајине и јединица локалне самоуправе;  разматра услове за рад националних савета националних мањина и предлаже мере у  тој области; прати остваривање међународних обавеза Републике Србије у области  остваривања права припадника националних мањина; разматра међународне споразуме  који се односе на положај националних мањина и заштиту њихових права у поступку  њиховог закључивања; разматра нацрте закона и других прописа од значаја за  остваривање права националних мањина и о томе даје мишљење Влади и потврђује  симболе, знамења и празнике националних мањина, на предлог националних савета  националних мањина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan18-stav3">
+						<content>
+							<p>Чланови Савета су руководиоци органа државне управе и  служби Владе у чији делокруг спадају питања од значаја за положај националних  мањина, као и председници националних савета националних мањина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan18-stav4">
+						<content>
+							<p>Влада својим решењем именује чланове Савета и одређује  орган државне управе, односно службу Владе задужену да пружа стручну и  административно-техничку подршку раду Савета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan18-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref46" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo4-clan19">
+					<num>19.</num>
+					<heading>Национални савети националних мањина</heading>
+					<paragraph wId="deo4-clan19-stav1">
+						<content>
+							<p>Ради остваривања Уставом зајамченог права на  самоуправу у култури, образовању, обавештавању и службеној употреби језика и  писма, припадници националних мањина могу изабрати националне савете.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan19-stav2">
+						<content>
+							<p>Национални савет представља националну мањину у  култури, образовању, обавештавању и службеној употреби језика и писма, учествује  у процесу одлучивања или одлучује о појединим питањима из ових области и оснива  установе из ових области.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan19-stav3">
+						<content>
+							<p>Национални савет је правно лице.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan19-stav4">
+						<content>
+							<p>Национални савети се формирају на принципима  добровољности, изборности, пропорционалности и демократичности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan19-stav5">
+						<content>
+							<p>Овлашћења, поступак избора, финансирање и друга питања  од значаја за рад националних савета уређују се посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan19-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref48" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan19-stav7">
+						<content>
+							<p>Буџетски фонд за националне мањине</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo4-clan20">
+					<num>20.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref53" href="akn/rs/act/2018/47/srp@">47/2018</ref></heading>
+					<paragraph wId="deo4-clan20-stav1">
+						<content>
+							<p>Финансирање програма и пројеката у области културе,  образовања, обавештавања и службене употребе језика и писма националних мањина  средствима из Буџетског фонда за националне мањине уређује се посебним законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan20-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref49" href="akn/rs/act/2018/47/srp@">47/2018</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo4-clan20-stav3">
+						<content>
+							<p>Брисани су назив изнад  <ref wId="ref50" href="akn/rs/act/2018/47-23/srp@/!main~art_21" >члана 21. </ref>и <ref wId="ref51" href="akn/rs/act/2018/47-23/srp@/!main~art_21" >члан 21.</ref>(види <ref wId="ref52" href="akn/rs/act/2018/47/srp@/!main~/art_20">члан 20. Закона - 47/2018-23</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo5">
+				<num>Део пети</num>
+				<heading>ЗАШТИТА ПРАВА И СЛОБОДА МАЊИНА</heading>
+				<article wId="deo5-clan22">
+					<num>22.</num>
+					<heading>Забрана нарушавања права мањина</heading>
+					<paragraph wId="deo5-clan22-stav1">
+						<content>
+							<p>Забрањују се мере које мењају однос становништва у областима насељеним  националним мањинама и које отежавају уживање и остваривање права припадника  националних мањина.</p>
+						</content>
+					</paragraph>
+				</article>
+			</part>
+			<part wId="deo6">
+				<num>Део шести</num>
+				<heading>*Службени гласник РС, број 47/2018</heading>
+				<paragraph wId="deo6-clan22-stav1">
+					<content>
+						<p>КАЗНЕНЕ ОДРЕДБЕ</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav2">
+					<content>
+						<p>*Службени гласник РС, број 47/2018</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav3">
+					<content>
+						<p>Члан 22а</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav4">
+					<content>
+						<p>Новчаном казном од 50.000 до 100.000 динара казниће се  за прекршај одговорно лице у органу, односно организацији која врши јавна  овлашћења ако назив органа односно организације испише супротно одредбама члана  11. ст. 5. и 6. овог закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav5">
+					<content>
+						<p>Новчаном казном од 200.000 до 1.500.000 динара казниће  се за привредни преступ организација овлашћена за постављање саобраћајних  знакова и назива места која поступи супротно члану 11. ст. 5. и 6. овог закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav6">
+					<content>
+						<p>За привредни преступ из става 2. овог члана казниће се  и одговорно лице у организацији из става 2. овог члана новчаном казном од 50.000  до 100.000 динара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav7">
+					<content>
+						<p>*Службени гласник РС, број 47/2018</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav8">
+					<content>
+						<p>Члан 22б</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav9">
+					<intro>
+						<p>Новчаном казном од 500.000 до 2.000.000 динара казниће  се правно лице које:</p>
+					</intro>
+					<point wId="deo6-clan22-stav9-tac1">
+						<num>1)</num>
+						<content>
+							<p> као симбол и знамење националне мањине, службено,  односно јавно представља, истиче или користи симболе и знамења друге државе;</p>
+						</content>
+					</point>
+					<point wId="deo6-clan22-stav9-tac2">
+						<num>2)</num>
+						<content>
+							<p> за празник националне мањине службено, односно  јавно користи назив празника који није потврђен од стране Савета за националне  мањине и објављен у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav10">
+					<content>
+						<p>За прекршај из става 1. овог члана казниће се и  одговорно лице у правном лицу новчаном казном од 50.000 до 150.000 динара.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav11">
+					<content>
+						<p>*Службени гласник РС, број 47/2018</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav12">
+					<content>
+						<p>Члан 22в</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav13">
+					<intro>
+						<p>Новчаном казном од 50.000 до 150.000 динара казниће се  за прекршај одговорно лице у органу јединице локалне самоуправе, организацији  која врши јавна овлашћења чији је оснивач јединица локалне самоуправе, односно  правном лицу ако:</p>
+					</intro>
+					<point wId="deo6-clan22-stav13-tac1">
+						<num>1)</num>
+						<content>
+							<p> су симболи и знамења националне мањине истакнути  противно одредбама члану 16. став 4. овог закона;</p>
+						</content>
+					</point>
+					<point wId="deo6-clan22-stav13-tac2">
+						<num>2)</num>
+						<content>
+							<p> уз знамења и симболе националне мањине при  службеној употреби из члана 16. став 4. овог закона нису истакнута и знамења и  симболи Републике Србије, у складу са чланом 16. ст. 5. и 6. овог закона.</p>
+						</content>
+					</point>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav14">
+					<content>
+						<p>*Службени гласник РС, број 47/2018</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo6-clan22-stav15">
+					<content>
+						<p>Брисани су назив изнад  члана 23. и члан 23. (види члан 21. Закона - 47/2018-23)</p>
+					</content>
+				</paragraph>
+			</part>
+			<part wId="deo7">
+				<num>Део седми</num>
+				<heading>*Службени гласник РС, број 47/2018</heading>
+				<article wId="deo7-clan24">
+					<num>24.</num>
+					<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				</article>
+				<article wId="deo7-clan25">
+					<num>25.</num>
+					<heading>Престао је да важи (види <ref wId="ref54" href="akn/rs/act/2009/72/srp@/!main~/art_138">члан 138. Закона – 72/2009-221</ref>)</heading>
+					<paragraph wId="deo7-clan25-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном листу  СРЈ”.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="deo7-clan25-stav2">
+						<content>
+							<p>ОДРЕДБЕ КОЈЕ НИСУ УНЕТЕ У &quot;ПРЕЧИШЋЕН ТЕКСТ&quot; ЗАКОНА</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="deo7-clan23">
+					<num>23.</num>
+					<heading>Закон о изменама и допунама Закона о заштити права и  слобода националних мањина: "Службени гласник РС", број <ref wId="ref56" href="akn/rs/act/2018/47/srp@">47/2018</ref>-23</heading>
+					<paragraph wId="deo7-clan23-stav1">
+						<content>
+							<p>Имена органа који врше јавна овлашћења, називи јединица локалне  самоуправе, насељених места, тргова и улица и други топоними исписаће се у  складу са <ref wId="ref55" href="akn/rs/act/2018/47-23/srp@/!main~art_10" >чланом 10. овог</ref> закона најкасније до 1. јануара 2019. године.</p>
+						</content>
+					</paragraph>
+				</article>
+				<paragraph wId="deo7-clan24-stav1">
+					<content>
+						<p>Скупштина јединице локалне самоуправе утврдиће насељена места из  члана 10. овог закона у року од шест месеци од дана ступања на снагу овог  закона.</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo7-clan25-stav3">
+					<content>
+						<p>о заштити права и слобода националних мањина</p>
+					</content>
+				</paragraph>
+				<paragraph wId="deo7-clan25-stav4">
+					<content>
+						<p>„Службени лист СРЈ”, број 11 од 27. фебруара 2002, „Службени гласник РС“, бр.  72 од 3. септембра 2009 - др. закон, 97 од 6. новембра 2013 - УС, 47 од 20. јуна  2018.</p>
+					</content>
+				</paragraph>
+			</part>
+		</body>
+	</act>
+</akomaNtoso>

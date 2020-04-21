@@ -1,0 +1,471 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о рачуноводству">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2013/62-7/main"/>
+					<FRBRuri value="akn/rs/act/2013/62-7"/>
+					<FRBRdate date="2013-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2019/73-11/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2019/73-11/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2019/73-11/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2019/73-11/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2013-07-16" name="службени гласник рс" number="62" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="V МОНЕТАРНИ СИСТЕМ, ФИНАНСИЈСКЕ ОРГАНИЗАЦИЈЕ И ФИНАНСИЈСКО ПОСЛОВАЊЕ" value="v монетарни систем, финансијске организације и финансијско пословање" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="4. Рачуноводство и ревизија" value="4. рачуноводство и ревизија" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2013-01-01" refersTo="62/2013-7" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2018-01-01" refersTo="30/2018-16" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2019-01-01" refersTo="73/2019-11" source="#somebody" type="amendment" wId="e3"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2013-07-16" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2013-07-24" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2013-07-24" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="дефиниције"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="престао"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="важи"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="2019"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="65"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="члан"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="види"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="73"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="11"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="закона"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agencije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Agenciji"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Bilansu"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Poreskoj upravi"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencija"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agencije i dostavljaju Agenciji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agenciji"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Agenciji Bilans stanja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Bilans uspeha"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Evropske unije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="MSFI"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="MSP"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodnoj banci Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registra finansijskih izveštaja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Registru finansijskih izveštaja"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republičkom zavodu za statistiku"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Statističkog izveštaja"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. jula"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. oktobra"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="33. i 34."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="65. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="februara"/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 24. јула 2013. године (види члан 53. Закона).Подзаконска акта за спровођење овог закона донеће се најкасније у року од шест месеци од дана ступања на снагу овог закона, а почеће да се примењују од финансијских извештаја који се састављају на дан 31. децембра 2014. године. До почетка примене подзаконских аката за спровођење овог закона примењиваће се подзаконски акти донети на основу Закона о рачуноводству и ревизији („Службени гласник РС”, бр. 46/06, 111/09 и 99/11 – др. закон) (види члан 49. Закона).Закон о допунама Закона о рачуноводству („Службени гласник РС“, број 30/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 28. априла 2018. године (види члан 4. Закона – 30/2018-16).Привредно друштво, односно предузетник, који имају регистровану претежну делатност за пружање рачуноводствених услуга, дужни су да своје пословање ускладе са одредбама Закона о допунама Закона о рачуноводству („Службени гласник РС“, број 30/2018) најкасније у року од шест месеци од дана ступања на снагу овог закона (види члан 3. Закона – 30/2016-16).Закон престаје да важи даном ступања на снагу Закона о рачуноводству (Службени гласник РС, број 73/2019), односно 1. јануара 2020. године, осим одредаба члана 2. тач. 7)–9), чл. 33–38, чл. 40. и 41. тог закона које престају да важе 30. децембра 2021. године (види члан 65. Закона - 73/2019-11).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 24. јула 2013. године (види члан 53. Закона).Подзаконска акта за спровођење овог закона донеће се најкасније у року од шест месеци од дана ступања на снагу овог закона, а почеће да се примењују од финансијских извештаја који се састављају на дан 31. децембра 2014. године. До почетка примене подзаконских аката за спровођење овог закона примењиваће се подзаконски акти донети на основу Закона о рачуноводству и ревизији („Службени гласник РС”, бр. 46/06, 111/09 и 99/11 – др. закон) (види члан 49. Закона).Закон о допунама Закона о рачуноводству („Службени гласник РС“, број 30/2018) ступио је на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 28. априла 2018. године (види члан 4. Закона – 30/2018-16).Привредно друштво, односно предузетник, који имају регистровану претежну делатност за пружање рачуноводствених услуга, дужни су да своје пословање ускладе са одредбама Закона о допунама Закона о рачуноводству („Службени гласник РС“, број 30/2018) најкасније у року од шест месеци од дана ступања на снагу овог закона (види члан 3. Закона – 30/2016-16).Закон престаје да важи даном ступања на снагу Закона о рачуноводству (Службени гласник РС, број 73/2019), односно 1. јануара 2020. године, осим одредаба члана 2. тач. 7)–9), чл. 33–38, чл. 40. и 41. тог закона које престају да важе 30. децембра 2021. године (види члан 65. Закона - 73/2019-11).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О рачуноводству "Службени гласник РС", бр. <ref wId="ref41" href="akn/rs/act/2013/62/srp@">62 од 16. јула 2013</ref>, <ref wId="ref42" href="akn/rs/act/2018/30/srp@">30 од 20. априла 2018</ref>, <ref wId="ref43" href="akn/rs/act/2019/73/srp@">73 од 11. октобра 2019</ref> - др. закон</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<article wId="clan1">
+				<num>1.</num>
+				<paragraph wId="clan1-stav1">
+					<content>
+						<p>Престао је да важи  (види <ref wId="ref0" href="akn/rs/act/2019/73/srp@/!main~/art_65">члан 65. Закона - 73/2019-11</ref>)</p>
+					</content>
+				</paragraph>
+			</article>
+			<article wId="clan2">
+				<num>2.</num>
+				<heading>Дефиниције</heading>
+				<paragraph wId="clan2-stav1">
+					<intro>
+						<p>Поједини појмови, у смислу овог закона, имају следећа значења:</p>
+					</intro>
+					<point wId="clan2-stav1-tac1">
+						<num>1)</num>
+						<content>
+							<p>-6) престале су да важе (види <ref wId="ref1" href="akn/rs/act/2019/73/srp@/!main~/art_65">члан 65. Закона -  73/2019-11</ref>)</p>
+						</content>
+					</point>
+					<point wId="clan2-stav1-tac7">
+						<num>7)</num>
+						<intro>
+							<p> редован годишњи финансијски извештај правних лица која примењују МСФИ, односно МСФИ за МСП обухвата:</p>
+						</intro>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac7-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Биланс стања, који представља преглед имовине, обавеза и капитала правног лица на одређени дан;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac7-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Биланс успеха, који представља преглед прихода, расхода и резултата пословања насталих у одређеном периоду;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac7-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Извештај о осталом резултату, који чине ставке прихода и расхода (укључујући и рекласификације услед кориговања), које нису признате у Билансу успеха, како се захтева или дозвољава према другим МСФИ. Компоненте осталог резултата чине ставке које се, према захтевима појединих МСФИ, признају у оквиру капитала;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac7-podtac4">
+							<num>(4)</num>
+							<content>
+								<p> Извештај о променама на капиталу, који пружа информације о променама на капиталу правних лица током извештајног периода;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac7-podtac5">
+							<num>(5)</num>
+							<content>
+								<p> Извештај о токовима готовине, који пружа информације о приливима и одливима готовине и готовинских еквивалената током извештајног периода;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac7-podtac6">
+							<num>(6)</num>
+							<content>
+								<p> Напомене уз финансијске извештаје, које садрже описе или рашчлањавања ставки обелодањених у извештајима из подтач. (1)–(5) ове тачке, примењене рачуноводствене политике, као и информације о ставкама које се нису квалификовале за признавање у овим извештајима, а значајне су за оцену финансијског положаја и успешности пословања правног лица, као и остале информације у складу са захтевима МСФИ;</p>
+							</content>
+						</hcontainer>
+					</point>
+					<point wId="clan2-stav1-tac8">
+						<num>8)</num>
+						<intro>
+							<p> редован годишњи финансијски извештај других правних лица из тачке <ref wId="ref3" href="akn/rs/act/2019/73-11/srp@/!main~art_2__para_1__point_2" >2</ref>) овог члана, осим других правних лица разврстаних у микро правна лица из <ref wId="ref2" href="akn/rs/act/2019/73-11/srp@/!main~art_6__para_2" >члана 6. став 2. овог</ref> закона обухвата:</p>
+						</intro>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac8-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Биланс стања;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac8-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Биланс успеха;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac8-podtac3">
+							<num>(3)</num>
+							<content>
+								<p> Напомене уз финансијске извештаје;</p>
+							</content>
+						</hcontainer>
+					</point>
+					<point wId="clan2-stav1-tac9">
+						<num>9)</num>
+						<intro>
+							<p> редован годишњи финансијски извештај микро правних лица и предузетника, обухвата:</p>
+						</intro>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac9-podtac1">
+							<num>(1)</num>
+							<content>
+								<p> Биланс стања;</p>
+							</content>
+						</hcontainer>
+						<hcontainer name="subpoint" wId="clan2-stav1-tac9-podtac2">
+							<num>(2)</num>
+							<content>
+								<p> Биланс успеха;</p>
+							</content>
+						</hcontainer>
+					</point>
+					<point wId="clan2-stav1-tac10">
+						<num>10)</num>
+						<content>
+							<p>-13) престале су да важе (види <ref wId="ref4" href="akn/rs/act/2019/73/srp@/!main~/art_65">члан 65. Закона  - 73/2019-11</ref>)</p>
+						</content>
+					</point>
+				</paragraph>
+			</article>
+			<article wId="clan32">
+				<num>3-32.</num>
+				<paragraph wId="clan32-stav1">
+					<content>
+						<p>Престали су да важе  (види <ref wId="ref5" href="akn/rs/act/2019/73/srp@/!main~/art_65">члан 65. Закона - 73/2019-11</ref>)</p>
+					</content>
+				</paragraph>
+			</article>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ДОСТАВЉАЊЕ ФИНАНСИЈСКИХ ИЗВЕШТАЈА</heading>
+				<article wId="gla8-clan33">
+					<num>33.</num>
+					<heading>Достављање финансијских извештаја за јавно објављивање</heading>
+					<paragraph wId="gla8-clan33-stav1">
+						<content>
+							<p>Правна лица, односно предузетници дужни су да редовне годишње финансијске извештаје за извештајну годину доставе Агенцији, ради јавног објављивања, најкасније до 30. јуна наредне године, осим ако посебним законом није друкчије уређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan33-stav2">
+						<content>
+							<p>Правна лица, која имају пословну годину различиту од календарске, дужна су да редовне годишње финансијске извештаје за извештајну годину доставе Агенцији, ради јавног објављивања, најкасније у року од шест месеци од дана када су ти извештаји састављени.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan33-stav3">
+						<content>
+							<p>Правна лица која састављају консолидоване годишње финансијске извештаје (матична правна лица) дужна су да консолидоване годишње финансијске извештаје за извештајну годину доставе Агенцији, ради јавног објављивања, најкасније до 31. јула наредне године, осим ако посебним законом није друкчије уређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan33-stav4">
+						<content>
+							<p>Правна лица, односно предузетници који састављају ванредне финансијске извештаје дужни су да их доставе Агенцији, ради јавног објављивања, у року од 60 дана од дана на који се ти извештаји састављају.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan33-stav5">
+						<content>
+							<p>Правно лице које није имало пословних догађаја, нити у пословним књигама има податке о имовини и обавезама, дужно је да до краја фебруара наредне године достави Агенцији изјаву о неактивности која се односи на извештајну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan33-stav6">
+						<content>
+							<p>Финансијски извештаји из <ref wId="ref7" href="akn/rs/act/2019/73-11/srp@/!main~art_33__para_1->para_4" >ст. 1</ref>–4. овог члана и изјава из <ref wId="ref6" href="akn/rs/act/2019/73-11/srp@/!main~art_33__para_5" >става 5. овог</ref> члана, потписани квалификованим електронским потписом законског заступника, уносе се у посебан информациони систем Агенције и достављају Агенцији у електронском облику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan34">
+					<num>34.</num>
+					<heading>Достављање документације уз финансијске извештаје</heading>
+					<paragraph wId="gla8-clan34-stav1">
+						<intro>
+							<p>Правна лица дужна су да, уз редовне и консолидоване годишње финансијске извештаје из <ref wId="ref8" href="akn/rs/act/2019/73-11/srp@/!main~art_33" >члана 33. овог</ref> закона, доставе у оригиналу Агенцији:</p>
+						</intro>
+						<point wId="gla8-clan34-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> одлуку о усвајању редовних, односно консолидованих годишњих финансијских извештаја;</p>
+							</content>
+						</point>
+						<point wId="gla8-clan34-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> одлуку о расподели добити, односно покрићу губитка по редовном годишњем финансијском извештају, ако је одлучено да се добит распоређује, односно да се врши покриће губитка;</p>
+							</content>
+						</point>
+						<point wId="gla8-clan34-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> годишњи извештај о пословању у складу са овим законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla8-clan34-stav2">
+						<content>
+							<p>Правна лица, која имају обавезу ревизије финансијских извештаја у складу са законом којим се уређује ревизија, дужна су да, поред документације из <ref wId="ref9" href="akn/rs/act/2019/73-11/srp@/!main~art_34__para_1" >става 1. овог</ref> члана доставе у оригиналу Агенцији ревизорски извештај, који је састављен у складу са законом и међународним стандардима ревизије, уз који се прилажу финансијски извештаји који су били предмет ревизије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan35">
+					<num>35.</num>
+					<heading>Достављање података за статистичке и друге потребе</heading>
+					<paragraph wId="gla8-clan35-stav1">
+						<content>
+							<p>Правна лица и предузетници дужни су да, за статистичке и друге потребе, доставе Агенцији до краја фебруара наредне године: Биланс стања, Биланс успеха и Статистички извештај за пословну годину која је једнака календарској.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan35-stav2">
+						<content>
+							<p>Правна лица, која имају пословну годину различиту од календарске године, дужна су да до краја фебруара наредне године доставе Агенцији Биланс стања, Биланс успеха и Статистички извештај за пословну годину која је једнака календарској.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan35-stav3">
+						<content>
+							<p>Подаци из извештаја из <ref wId="ref10" href="akn/rs/act/2019/73-11/srp@/!main~art_35__para_1->para_2" >ст. 1. и 2. овог</ref> члана не могу се уступати трећим лицима без изричите сагласности правног лица и предузетника, нити се могу јавно објављивати.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan35-stav4">
+						<content>
+							<p>Облик и садржај Статистичког извештаја прописује министар надлежан за послове финансија, Народна банка Србије, односно Комисија за хартије од вредности сходно надлежностима из овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan35-stav5">
+						<content>
+							<p>За правна лица и предузетнике који су, уз извештаје за статистичку обраду из <ref wId="ref13" href="akn/rs/act/2019/73-11/srp@/!main~art_35__para_1->para_2" >ст. 1. и 2. овог</ref> члана, доставили и остале финансијске извештаје и документацију из чл. <ref wId="ref11" href="akn/rs/act/2019/73-11/srp@/!main~art_33" >33</ref>. и <ref wId="ref12" href="akn/rs/act/2019/73-11/srp@/!main~art_34" >34</ref>. овог закона, односно изјаву да достављају редовне годишње финансијске извештаје, сматраће се да су испунили и обавезу достављања тих извештаја за јавно објављивање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan35-stav6">
+						<content>
+							<p>Извештаји из <ref wId="ref14" href="akn/rs/act/2019/73-11/srp@/!main~art_35__para_1->para_2" >ст. 1. и 2. овог</ref> члана, потписани квалификованим електронским потписом законског заступника, уносе се у посебан информациони систем Агенције и достављају Агенцији у електронском облику.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>РЕГИСТАР ФИНАНСИЈСКИХ ИЗВЕШТАЈА</heading>
+				<article wId="gla9-clan36">
+					<num>36.</num>
+					<heading>Јавно објављивање финансијских извештаја</heading>
+					<paragraph wId="gla9-clan36-stav1">
+						<content>
+							<p>Податке из потпуних и рачунски тачних финансијских извештаја и документацију из чл. <ref wId="ref15" href="akn/rs/act/2019/73-11/srp@/!main~art_33" >33</ref>. и <ref wId="ref16" href="akn/rs/act/2019/73-11/srp@/!main~art_34" >34</ref>. овог закона Агенција јавно објављује на својој интернет страници, у оквиру Регистра финансијских извештаја, у пуном садржају за обвезнике ревизије у складу са законом којим се уређује ревизија, и у скраћеном садржају за остала правна лица и предузетнике.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan36-stav2">
+						<content>
+							<p>Агенција је дужна да податке и документацију, из <ref wId="ref17" href="akn/rs/act/2019/73-11/srp@/!main~art_36__para_1" >става 1. овог</ref> члана, јавно објави на интернет страници у року од 60 дана од дана пријема потпуног и рачунски тачног финансијског извештаја правног лица, односно предузетника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan36-stav3">
+						<content>
+							<p>Агенција је дужна да финансијске извештаје и документацију из чл. <ref wId="ref18" href="akn/rs/act/2019/73-11/srp@/!main~art_33" >33</ref>. и <ref wId="ref19" href="akn/rs/act/2019/73-11/srp@/!main~art_34" >34</ref>. овог закона, у којима правна лица и предузетници нису отклонили утврђене недостатке, јавно објави на својој интернет страници као непотпуне и рачунски нетачне, у пуном или скраћеном садржају, и то најкасније до 31. октобра наредне године за извештајну годину.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan36-stav4">
+						<content>
+							<p>Агенција је дужна да приступ финансијским извештајима и документацији из ст. <ref wId="ref20" href="akn/rs/act/2019/73-11/srp@/!main~art_36__para_1" >1</ref>. и <ref wId="ref21" href="akn/rs/act/2019/73-11/srp@/!main~art_36__para_3" >3</ref>. овог члана за последње три извештајне године омогући корисницима на интернет страници Агенције, без накнаде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan37">
+					<num>37.</num>
+					<heading>Садржина Регистра финансијских извештаја</heading>
+					<paragraph wId="gla9-clan37-stav1">
+						<content>
+							<p>Регистар финансијских извештаја је централна, јавна, јединствена електронска база података из потпуних и рачунски тачних финансијских извештаја и документације из чл. <ref wId="ref22" href="akn/rs/act/2019/73-11/srp@/!main~art_33" >33</ref>. и <ref wId="ref23" href="akn/rs/act/2019/73-11/srp@/!main~art_34" >34</ref>. овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan37-stav2">
+						<content>
+							<p>У оквиру Регистра финансијских извештаја води се посебна база података за статистичке и друге потребе из <ref wId="ref24" href="akn/rs/act/2019/73-11/srp@/!main~art_35" >члана 35. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan37-stav3">
+						<content>
+							<p>На основу података из <ref wId="ref25" href="akn/rs/act/2019/73-11/srp@/!main~art_37__para_1" >става 1. овог</ref> члана и збирних података из <ref wId="ref26" href="akn/rs/act/2019/73-11/srp@/!main~art_37__para_2" >става 2. овог</ref> члана, података из других регистара и евиденција које води Агенција, као и података које јој достављају други надлежни органи и заинтересовани корисници услуга, Агенција у оквиру Регистра финансијских извештаја води базу података о бонитету.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan37-stav4">
+						<content>
+							<p>Подаци о бонитету из <ref wId="ref27" href="akn/rs/act/2019/73-11/srp@/!main~art_37__para_3" >става 3. овог</ref> члана се стандардизују у временским серијама и усаглашавају са међународним стандардима, директивама Европске уније и правилима финансијске анализе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan37-stav5">
+						<content>
+							<p>Подаци у Регистру финансијских извештаја воде се ради сагледавања привредних кретања у Републици Србији, анализе финансијског положаја и успешности пословања правних лица и предузетника и процене ризика пословања, а у циљу обезбеђивања поузданих информација корисницима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan38">
+					<num>38.</num>
+					<heading>Вођење Регистра финансијских извештаја</heading>
+					<paragraph wId="gla9-clan38-stav1">
+						<content>
+							<p>Агенција је, ради вођења Регистра финансијских извештаја, овлашћена да прикупља, евидентира, обрађује, архивира и јавно објављује финансијске извештаје и документацију из чл. <ref wId="ref28" href="akn/rs/act/2019/73-11/srp@/!main~art_33" >33</ref>. и <ref wId="ref29" href="akn/rs/act/2019/73-11/srp@/!main~art_34" >34</ref>. овог закона, дистрибуира податке из тих извештаја, као и да управља базама података и осигура заштиту база података и докумената који су архивирани.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan38-stav2">
+						<content>
+							<p>Агенција води Регистар финансијских извештаја преко регистратора именованог у складу са законом који уређује пословање Агенције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan38-stav3">
+						<content>
+							<p>Агенција је одговорна за веродостојност електронског уноса података из финансијских извештаја, за објављивање, као и за обраду других података и докумената који се евидентирају у Регистру финансијских извештаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan38-stav4">
+						<content>
+							<p>Агенција је дужна да чува финансијске извештаје, годишњи извештај о пословању, извештај ревизора и другу документацију из чл. <ref wId="ref30" href="akn/rs/act/2019/73-11/srp@/!main~art_33" >33</ref>. и <ref wId="ref31" href="akn/rs/act/2019/73-11/srp@/!main~art_34" >34</ref>. овог закона десет година од дана њиховог пријема.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan39">
+					<num>39.</num>
+					<paragraph wId="gla9-clan39-stav1">
+						<content>
+							<p>Престао је да важи  (види <ref wId="ref32" href="akn/rs/act/2019/73/srp@/!main~/art_65">члан 65. Закона - 73/2019-11</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan40">
+					<num>40.</num>
+					<heading>Таксе за објављивање финансијских извештаја и надокнаде трошкова за давање података из Регистра финансијских извештаја</heading>
+					<paragraph wId="gla9-clan40-stav1">
+						<content>
+							<p>Таксе за објављивање финансијских извештаја и документације из чл. <ref wId="ref33" href="akn/rs/act/2019/73-11/srp@/!main~art_33" >33</ref>. и <ref wId="ref34" href="akn/rs/act/2019/73-11/srp@/!main~art_34" >34</ref>. овог закона, као и надокнаде трошкова за давање података и пружање других услуга из Регистра финансијских извештаја, утврђује Агенција у складу са законом којим се уређује буџетски систем.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan41">
+					<num>41.</num>
+					<heading>Коришћење података из Регистра финансијских извештаја</heading>
+					<paragraph wId="gla9-clan41-stav1">
+						<content>
+							<p>Регистар финансијских извештаја уступа финансијске извештаје правних лица и предузетника надлежним регистрима Агенције у којима се региструју њихови статусни подаци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan41-stav2">
+						<content>
+							<p>Агенција је дужна да Народној банци Србије омогући непосредан приступ и преузимање финансијских извештаја, односно свих података из финансијских извештаја и документације из <ref wId="ref35" href="akn/rs/act/2019/73-11/srp@/!main~art_33->art_35" >чл. 33</ref>–35. овог закона, као и свих других података који су Народној банци Србије потребни ради обављања њених законом утврђених функција, без накнаде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan41-stav3">
+						<content>
+							<p>Агенција је дужна да Пореској управи омогући приступ или достави податке из финансијских извештаја и документације из чл. <ref wId="ref37" href="akn/rs/act/2019/73-11/srp@/!main~art_33" >33</ref>. и <ref wId="ref38" href="akn/rs/act/2019/73-11/srp@/!main~art_34" >34</ref>. овог закона, као и податке за статистичке и друге потребе из <ref wId="ref36" href="akn/rs/act/2019/73-11/srp@/!main~art_35" >члана 35. овог</ref> закона, без накнаде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan41-stav4">
+						<content>
+							<p>Агенција је дужна да Републичком заводу за статистику омогући приступ или достави податке за статистичке и друге потребе из <ref wId="ref39" href="akn/rs/act/2019/73-11/srp@/!main~art_35" >члана 35. овог</ref> закона, без накнаде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan41-stav5">
+						<content>
+							<p>Aгенција, на захтев корисника, даје изворне податке или копије годишњег финансијског извештаја, годишњег извештаја о пословању или извештаја ревизора и пружа друге услуге из Регистра финансијских извештаја.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla9-clan41-stav6">
+						<content>
+							<p>Корисници података, у смислу овог члана, документацију и податке преузете из Регистра финансијских извештаја могу користити само за сопствене потребе, у складу са прописима и не могу их уступати трећим лицима, дистрибуирати или објављивати у изворном облику.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan53">
+					<num>42-53.</num>
+					<paragraph wId="gla9-clan53-stav1">
+						<content>
+							<p>Престали су да важе  (види <ref wId="ref40" href="akn/rs/act/2019/73/srp@/!main~/art_65">члан 65. Закона - 73/2019-11</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

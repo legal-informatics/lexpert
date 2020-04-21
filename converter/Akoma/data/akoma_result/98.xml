@@ -1,0 +1,1327 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о путним исправама">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2007/90-5/main"/>
+					<FRBRuri value="akn/rs/act/2007/90-5"/>
+					<FRBRdate date="2007-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2019/81-3/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2019/81-3/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2019/81-3/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2019/81-3/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2007-10-01" name="службени гласник рс“" number="90" showAs="Службени гласник РС“"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="8. Путне исправе" value="8. путне исправе" wId="grupa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2007-01-01" refersTo="90/2007-5" source="#somebody" type="generation" wId="e1"/>
+				<eventRef date="2008-01-01" refersTo="116/2008-75" source="#somebody" type="amendment" wId="e2"/>
+				<eventRef date="2009-01-01" refersTo="104/2009-57" source="#somebody" type="amendment" wId="e3"/>
+				<eventRef date="2010-01-01" refersTo="76/2010-3" source="#somebody" type="amendment" wId="e4"/>
+				<eventRef date="2014-01-01" refersTo="62/2014-32" source="#somebody" type="amendment" wId="e5"/>
+				<eventRef date="2019-01-01" refersTo="81/2019-3" source="#somebody" type="amendment" wId="e6"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2007-09-24" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2007-10-09" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2008-04-10" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="сврха"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="појам"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="њиховог"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="одређују"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="држављана"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="путне"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="исправе"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="врсте"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="иностранство"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="путовање"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="начин"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="издавања"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="путних"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="исправа"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograd"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Vlada"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="17."/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo spoljnih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu spoljnih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvu unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O zahtevu za izdavanje pasoša"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Policijska uprava"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije izdaje za putovanje"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlade"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vojsci Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="nevažećom"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Brisan"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Licima"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Organ"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 8."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2011."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 1. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="37. stav 1. tačka 3"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="39."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="4. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="44. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="55."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. Zakona"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. do 11."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 5."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 9. октобра 2007. године, а примењује се по истеку шест месеци од дана ступања на снагу, односно од 10. априла 2008. године, осим одредбе члана 55. који се примењује од дана ступања на снагу овог закона (види члан 57. Закона).До почетка примене подзаконских прописа донетих на основу овлашћења из овог закона, примењиваће се прописи донети до дана ступања на снагу овог закона, ако нису у супротности са одредбама овог закона (види члан 55. Закона).</p>
+				</note>
+				<note wId="not2">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 9. октобра 2007. године, а примењује се по истеку шест месеци од дана ступања на снагу, односно од 10. априла 2008. године, осим одредбе члана 55. који се примењује од дана ступања на снагу овог закона (види члан 57. Закона).До почетка примене подзаконских прописа донетих на основу овлашћења из овог закона, примењиваће се прописи донети до дана ступања на снагу овог закона, ако нису у супротности са одредбама овог закона (види члан 55. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О путним исправама "Службени гласник РС", бр. <ref wId="ref109" href="akn/rs/act/2007/90/srp@">90 од 1. октобра 2007</ref>, <ref wId="ref110" href="akn/rs/act/2008/116/srp@">116 од 22. децембра 2008</ref>, <ref wId="ref111" href="akn/rs/act/2009/104/srp@">104 од 16. децембра 2009</ref>, <ref wId="ref112" href="akn/rs/act/2010/76/srp@">76 од 22. октобра 2010</ref>, <ref wId="ref113" href="akn/rs/act/2014/62/srp@">62 од 13. јуна 2014</ref>, <ref wId="ref114" href="akn/rs/act/2019/81/srp@">81 од 15. новембра 2019</ref>.</p>
+			</longTitle>
+			<p>Редакцијски пречишћен текст</p>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>ОСНОВНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Предмет закона</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Овим законом уређују се путне исправе за путовање  држављана Републике Србије у иностранство, одређују врсте путних исправа и начин  њиховог издавања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Појам путне исправе и њена сврха</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Путна исправа је јавна исправа која држављанину Републике Србије служи за прелазак државне границе, ради  путовања и боравка у иностранству и за повратак у земљу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Путна исправа служи њеном имаоцу за доказивање  идентитета и као доказ о држављанству Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2014/62/srp@">62/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav4">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref1" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Право на путну исправу</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Држављанин Републике Србије има право на путну  исправу под условима који су прописани овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Држављанин Републике Србије може имати само једну  путну исправу исте врсте.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Путну исправу сме да користи само лице на чије име је  издата.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Право држављанина да уђе у земљу иако нема путну  исправу</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Орган надлежан за контролу прелажења државне границе  дужан је да лицу за које се провером утврди да је држављанин Републике Србије  дозволи улазак у земљу иако нема путну исправу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Замена за путну исправу</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Кад је међународним уговором одређено да за путовање  у поједине државе путна исправа није потребна, Влада ће одредити исправу која ће  служити као замена за путну исправу.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Сходна примена прописа</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>На поступак издавања исправа предвиђених овим законом  примењује се закон којим се уређује општи управни поступак, ако овим или  посебним законом није друкчије одређено.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ВРСТЕ ПУТНИХ ИСПРАВА</heading>
+				<paragraph wId="gla2-clan6-stav1">
+					<content>
+						<p>*Службени гласник РС, број 62/2014</p>
+					</content>
+				</paragraph>
+				<article wId="gla2-clan7">
+					<num>7.</num>
+					<heading>Шта се сматра путном исправом</heading>
+					<paragraph wId="gla2-clan7-stav1">
+						<content>
+							<p>Путне исправе у смислу овог закона су: пасош,  дипломатски пасош, службени пасош, путни лист, као и путне исправе које се  издају на основу међународног уговора.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan7-stav2">
+						<content>
+							<p>Брисан је ранији <ref wId="ref3" href="akn/rs/act/2019/81-3/srp@/!main~art_7__para_2" >став 2. </ref>(види <ref wId="ref2" href="akn/rs/act/2014/62/srp@/!main~/art_3">члан 3. Закона -  62/2014-32</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan8">
+					<num>8.</num>
+					<heading>Пасош</heading>
+					<paragraph wId="gla2-clan8-stav1">
+						<content>
+							<p>Пасош је путна исправа која се држављанину Републике  Србије издаје за путовање и боравак у иностранству, као и за повратак у земљу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan8-stav2">
+						<content>
+							<p>Пасош се издаје за неограничен број путовања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan9">
+					<num>9.</num>
+					<heading>Дипломатски и службени пасош</heading>
+					<paragraph wId="gla2-clan9-stav1">
+						<content>
+							<p>Дипломатски пасош и службени пасош су путне исправе  које се издају ради ефикасног обављања државних послова у иностранству,  предвиђених међународним правом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav2">
+						<content>
+							<p>Путне исправе из <ref wId="ref4" href="akn/rs/act/2019/81-3/srp@/!main~art_9__para_1" >става 1. овог</ref> члана важе за  неограничен број путовања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav3">
+						<content>
+							<p>Дипломатски пасош и службени пасош може се издати и  члану уже породице лица коме је издат такав пасош, који с њим живи у заједничком  домаћинству и с њим путује у иностранство или борави у иностранству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav4">
+						<content>
+							<p>Чланом уже породице у смислу овог закона сматра се  брачни друг и дете, односно лице које је законом изједначено са дететом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan9-stav5">
+						<content>
+							<p>Издавање дипломатског пасоша и службеног пасоша ближе  се уређује прописом Владе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Дипломатски пасош</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<content>
+							<p>Дипломатски пасош се издаје држављанима Републике  Србије који у складу с међународним правом у иностранству имају статус  дипломатског агента, конзуларног функционера, функционера међународних  организација, дипломатским куририма, као и највишим државним функционерима, у  складу са прописом из <ref wId="ref5" href="akn/rs/act/2019/81-3/srp@/!main~art_9__para_5" >члана 9. став 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Службени пасош</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Службени пасош се издаје службеницима дипломатских  или конзуларних представништава Републике Србије, који нису обухваћени <ref wId="ref6" href="akn/rs/act/2019/81-3/srp@/!main~art_10" >чланом  10. овог</ref> закона, као и државним службеницима, државним службеницима на  положајима и руководећим радницима са посебним овлашћењима у другим државним  органима, када путују у иностранство службеним послом који захтева поседовање  службеног пасоша, у складу са прописом из <ref wId="ref7" href="akn/rs/act/2019/81-3/srp@/!main~art_9__para_5" >члана 9. став 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Путни лист</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Путни лист је путна исправа која се издаје  држављанину Републике Србије који је у иностранству без путне исправе, ради  повратка у Републику Србију.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Брисан је назив изнад <ref wId="ref9" href="akn/rs/act/2019/81-3/srp@/!main~art_13" >члана 13. </ref>(види <ref wId="ref10" href="akn/rs/act/2014/62/srp@/!main~/art_4">члан 4. Закона  - 62/2014-32</ref>)</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref8" href="akn/rs/act/2014/62/srp@/!main~/art_4">члан 4. Закона - 62/2014-32</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan14">
+					<num>14.</num>
+					<heading>Брисан је назив изнад <ref wId="ref12" href="akn/rs/act/2019/81-3/srp@/!main~art_14" >члана 14. </ref>(види <ref wId="ref13" href="akn/rs/act/2014/62/srp@/!main~/art_5">члан 5. Закона  - 62/2014-32</ref>)</heading>
+					<paragraph wId="gla2-clan14-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref11" href="akn/rs/act/2014/62/srp@/!main~/art_5">члан 5. Закона - 62/2014-32</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>НАДЛЕЖНОСТ ЗА ИЗДАВАЊЕ ПУТНИХ ИСПРАВА</heading>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Надлежни орган за издавање пасоша</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>Пасош издаје, на прописан начин, полицијска управа  или полицијска станица Министарства унутрашњих послова на чијем подручју је  пребивалиште, односно боравиште лица које подноси захтев за издавање пасоша (у  даљем тексту: орган надлежан за издавање пасоша).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>Лицима која захтев за издавање пасоша подносе преко  дипломатског или конзуларног представништва Републике Србије, пасош издаје  полицијска управа или полицијска станица Министарства унутрашњих послова, на  чијем подручју је пребивалиште лица које подноси захтев за издавање пасоша, а за  лица која немају пријављено пребивалиште на територији Републике Србије пасош  издаје Полицијска управа за град Београд Министарства унутрашњих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>Пропис из <ref wId="ref14" href="akn/rs/act/2019/81-3/srp@/!main~art_15__para_1" >става 1. овог</ref> члана доноси министар  надлежан за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2014/62/srp@">62/2014</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Надлежни орган за издавање дипломатског и службеног  пасоша</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>Дипломатски пасош и службени пасош, на прописан  начин, издаје Министарство спољних послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>Пропис из <ref wId="ref16" href="akn/rs/act/2019/81-3/srp@/!main~art_16__para_1" >става 1. овог</ref> члана доноси министар  надлежан за спољне послове.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<heading>Надлежни орган за издавање путног листа</heading>
+					<paragraph wId="gla3-clan17-stav1">
+						<content>
+							<p>Путни лист издаје дипломатско или конзуларно  представништво Републике Србије на чијем се подручју затекао држављанин  Републике Србије који је у иностранству без путне исправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav2">
+						<content>
+							<p>Дипломатско или конзуларно представништво Републике  Србије из <ref wId="ref17" href="akn/rs/act/2019/81-3/srp@/!main~art_17__para_1" >става 1. овог</ref> члана дужно је да провери држављански статус лица коме  треба да изда путни лист.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav3">
+						<content>
+							<p>Брисан је назив изнад <ref wId="ref18" href="akn/rs/act/2019/81-3/srp@/!main~art_18" >члана 18. </ref>(види <ref wId="ref19" href="akn/rs/act/2014/62/srp@/!main~/art_7">члан 7. Закона  - 62/2014-32</ref>)</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav4">
+						<content>
+							<p>Члан 18</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav5">
+						<content>
+							<p>Брисан је (види <ref wId="ref20" href="akn/rs/act/2014/62/srp@/!main~/art_7">члан 7. Закона - 62/2014-32</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>РОКОВИ ВАЖЕЊА ПУТНИХ ИСПРАВА</heading>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<heading>Рок важења пасоша</heading>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Пасош се издаје са роком важења од десет година .</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav2">
+						<content>
+							<p>Изузетно од <ref wId="ref21" href="akn/rs/act/2019/81-3/srp@/!main~art_19__para_1" >става 1. овог</ref> члана, лицима млађим од три  године живота пасош се издаје са роком важења од три године, а лицима од три до  14 година живота са роком важења од пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav3">
+						<content>
+							<p>Пасош се може издати са  краћим роком важења од рокова утврђених у <ref wId="ref22" href="akn/rs/act/2019/81-3/srp@/!main~art_19__para_1->para_2" >ст. 1. и 2. овог</ref> члана, ако надлежни  суд, односно јавни тужилац то дозволи у случајевима утврђеним овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav4">
+						<content>
+							<p>Лицу коме се из  објективних разлога привременог карактера не могу узети отисци прстију пасош се  издаје са роком важења од годину дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav5">
+						<content>
+							<p>Лицу коме се из  објективних разлога трајног карактера не могу узети отисци прстију нови пасош  издаје се са роком важења од десет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref23" href="akn/rs/act/2009/104/srp@">104/2009</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav7">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref24" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<heading>Рок важења дипломатског и службеног пасоша</heading>
+					<paragraph wId="gla4-clan20-stav1">
+						<content>
+							<p>Дипломатски пасош и службени пасош издају се са роком  важења од пет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav2">
+						<content>
+							<p>Престанком услова из <ref wId="ref25" href="akn/rs/act/2019/81-3/srp@/!main~art_9->art_11" >чл. 9. </ref>до 11. овог закона  престаје право на дипломатски и службени пасош и пре истека рока из <ref wId="ref26" href="akn/rs/act/2019/81-3/srp@/!main~art_20__para_1" >става 1.  овог</ref> члана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<heading>Рок важења путног листа</heading>
+					<paragraph wId="gla4-clan21-stav1">
+						<content>
+							<p>Путни лист се издаје са роком важења који је потребан  за повратак у Републику Србију, а најдуже до 60 дана.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<heading>Брисан је назив изнад <ref wId="ref28" href="akn/rs/act/2019/81-3/srp@/!main~art_22" >члана 22. </ref>(види <ref wId="ref29" href="akn/rs/act/2014/62/srp@/!main~/art_8">члан 8. Закона  - 62/2014-32</ref>)</heading>
+					<paragraph wId="gla4-clan22-stav1">
+						<content>
+							<p>Брисан је (види <ref wId="ref27" href="akn/rs/act/2014/62/srp@/!main~/art_8">члан 8. Закона - 62/2014-32</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Случајеви издавања пасоша са краћим роком важења</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>Лице које поседује пасош  дужно је да са њим пажљиво рукује и да га савесно чува на начин да не дође у  посед неовлашћеног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav2">
+						<content>
+							<p>Лицу које у периоду од  пет година изгуби или оштети два или више пасоша, нови пасош издаје се са роком  важења од годину дана, осим када лице има регулисан боравак у иностранству на  период дужи од годину дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav3">
+						<content>
+							<p>Лице које поседује  важећи пасош издат са роком важења од годину дана, захтев за издавање новог  пасоша може поднети најраније 30 дана пре истека рока важења пасоша који је  издат на годину дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav4">
+						<content>
+							<p>Након истека рока важења  пасоша који је издат на годину дана, нови пасош ће се, ако су испуњени законски  услови, издати са роком важења од десет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav5">
+						<content>
+							<p>Нови период од пет  година из <ref wId="ref30" href="akn/rs/act/2019/81-3/srp@/!main~art_23__para_2" >става 2. овог</ref> члана, почиње да тече од дана пријаве губитка или  оштећења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref31" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>ОБРАЗАЦ ПУТНЕ ИСПРАВЕ</heading>
+				<article wId="gla5-clan24">
+					<num>24.</num>
+					<heading>Прописивање обрасца. Садржина обрасца</heading>
+					<paragraph wId="gla5-clan24-stav1">
+						<content>
+							<p>Путне исправе издају се на прописаним обрасцима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav2">
+						<content>
+							<p>Образац пасоша, дипломатског пасоша, службеног  пасоша, путног листа прописује министар надлежан за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav3">
+						<intro>
+							<p>Образац путне исправе из <ref wId="ref32" href="akn/rs/act/2019/81-3/srp@/!main~art_24__para_2" >става 2. овог</ref> члана садржи  простор за упис следећих података имаоца те исправе:</p>
+						</intro>
+						<point wId="gla5-clan24-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> презиме и име;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> дан, месец и година рођења;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> место и држава рођења;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav3-tac4">
+							<num>4)</num>
+							<content>
+								<p> пол;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav3-tac5">
+							<num>5)</num>
+							<content>
+								<p> држављанство;</p>
+							</content>
+						</point>
+						<point wId="gla5-clan24-stav3-tac6">
+							<num>6)</num>
+							<content>
+								<p> јединствени матични број грађана;</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav4">
+						<intro>
+							<p>6а) пребивалиште;</p>
+						</intro>
+						<point wId="gla5-clan24-stav4-tac7">
+							<num>7)</num>
+							<content>
+								<p> страна држава у којој живи, за лица без  пребивалишта на територији Републике Србије.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav5">
+						<content>
+							<p>Образац пасоша, дипломатског пасоша, службеног пасоша  и путног листа има и простор за фотографију и потпис имаоца исправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav6">
+						<content>
+							<p>У дипломатски пасош и службени пасош уноси се и  податак о функцији имаоца тог пасоша.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav7">
+						<content>
+							<p>У образац путне исправе уноси се и датум издавања  путне исправе са роком њеног важења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav8">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref33" href="akn/rs/act/2014/62/srp@">62/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan24-stav9">
+						<content>
+							<p>Аутоматско очитавање података. Заштитни елементи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan25">
+					<num>25.</num>
+					<paragraph wId="gla5-clan25-stav1">
+						<content>
+							<p>Образац пасоша, дипломатског пасоша и службеног пасоша  садржи електронски носач података и машински читљиву зону за потребе аутоматског  очитавања података.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan25-stav2">
+						<content>
+							<p>Лице коме је издата путна исправа има право да код  надлежног органа изврши увид у податке за аутоматско очитавање података које  садржи његова путна исправа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan25-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref34" href="akn/rs/act/2014/62/srp@">62/2014</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan26">
+					<num>26.</num>
+					<heading>Штампање образаца. Уписивање података</heading>
+					<paragraph wId="gla5-clan26-stav1">
+						<content>
+							<p>Обрасци путних исправа штампају се на српском  језику, ћириличким писмом, и на енглеском и француском језику, а попуњавају се  на српском језику, латиничким писмом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan26-stav2">
+						<content>
+							<p>У обрасце путних исправа подаци о презимену и имену  уписују се у изворном облику онако како су уписани у изводу из матичне књиге  рођених.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan26-stav3">
+						<content>
+							<p>Орган надлежан за издавање путних исправа је дужан  да обезбеди техничке могућности за уписивање података о презимену и имену  припадника националних мањина у изворном облику, према језику и правопису  припадника националне мањине.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan26-stav4">
+						<content>
+							<p>Обрасце путних исправа технички израђује и штампа  Народна банка Србије – Завод за израду новчаница и кованог новца.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan26-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref35" href="akn/rs/act/2014/62/srp@">62/2014</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>ПОСТУПАК ИЗДАВАЊА ПУТНИХ ИСПРАВА</heading>
+				<article wId="gla6-clan27">
+					<num>27.</num>
+					<heading>Захтев. Подношење захтева</heading>
+					<paragraph wId="gla6-clan27-stav1">
+						<content>
+							<p>Путне исправе издају се на захтев.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav2">
+						<content>
+							<p>Захтев за издавање пасоша подноси се органу надлежном  за издавање пасоша на чијем подручју подносилац захтева има пребивалиште,  односно боравиште, а може се поднети и преко надлежног дипломатског или  конзуларног представништва Републике Србије које ће га без одлагања проследити  органу надлежном за издавање пасоша, ради  решавања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav3">
+						<content>
+							<p>Захтев за издавање пасоша може се поднети  најраније седам месеци пре истека рока важења већ издатог пасоша.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav4">
+						<content>
+							<p>Пасош и путни лист издају се на лични захтев, а  дипломатски пасош и службени пасош на захтев надлежног државног органа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav5">
+						<content>
+							<p>Путне исправе које се издају према међународним  уговорима издају се на лични захтев, уколико међународним уговором није друкчије  одређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav6">
+						<content>
+							<p>У захтеву за издавање путне исправе треба да се  наведу тачни и истинити подаци.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav7">
+						<content>
+							<p>Ради утврђивања идентитета и других чињеница  значајних за решавање о захтеву за издавање пасоша, дипломатског пасоша,  службеног пасоша и путног листа, као и фотографисања и узимања отиска прста и  потписа, приликом подношења захтева обавезно је присуство лица коме се издаје  путна исправа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav8">
+						<content>
+							<p>Фотографисање и узимање података из <ref wId="ref36" href="akn/rs/act/2019/81-3/srp@/!main~art_27__para_6" >става 6. овог</ref>  члана врши се на начин који пропише министар надлежан за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan27-stav9">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref37" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan28">
+					<num>28.</num>
+					<heading>Садржина захтева</heading>
+					<paragraph wId="gla6-clan28-stav1">
+						<content>
+							<p>Захтев за издавање путне исправе садржи податке  о личности који се уписују у ту исправу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav2">
+						<content>
+							<p>Захтев за издавање пасоша за лица која живе у  иностранству садржи и податке о месту и држави боравишта, односно пребивалишта у  иностранству.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav3">
+						<content>
+							<p>Садржина захтева за издавање путног листа сматра се  потпуном уколико је захтев за издавање путног листа поднет без присуства лица  које је у иностранству без путне исправе, а надлежни орган из <ref wId="ref38" href="akn/rs/act/2019/81-3/srp@/!main~art_17" >члана 17. овог</ref>  закона неспорно утврди идентитет лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref39" href="akn/rs/act/2014/62/srp@">62/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan28-stav5">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref40" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan29">
+					<num>29.</num>
+					<heading>Подношење захтева за малолетна или пословно  неспособна лица</heading>
+					<paragraph wId="gla6-clan29-stav1">
+						<content>
+							<p>За малолетна или пословно неспособна лица, захтев за  издавање путне исправе подноси један од родитеља, уз писмену сагласност другог  родитеља, односно други законски заступник или старатељ.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav2">
+						<intro>
+							<p>Изузетно од <ref wId="ref41" href="akn/rs/act/2019/81-3/srp@/!main~art_29__para_1" >става 1.  овог</ref> члана, малолетном лицу издаће се путна исправа и без сагласности другог  родитеља:</p>
+						</intro>
+						<point wId="gla6-clan29-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако захтев поднесе  један од родитеља, а уз захтев приложи и потврду надлежног органа да је издавање  пасоша у интересу детета;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan29-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако захтев поднесе  родитељ коме је одлуком надлежног органа за питање старатељства додељено  старатељство над малолетним лицем или је дозвољено издавање путне исправе, осим  када је истом одлуком издавање путне исправе и путовање малолетног лица у  иностранство условљено сагласношћу оба родитеља;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan29-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако постоји правна и  физичка спреченост једног од родитеља да врши родитељско право.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav3">
+						<content>
+							<p>Отисци прстију и потпис се не узимају приликом  подношења захтева од детета, до навршене дванаесте године живота.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2014/62/srp@">62/2014</ref></p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan29-stav5">
+						<content>
+							<p>**Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan30">
+					<num>30.</num>
+					<heading>Прилози уз захтев</heading>
+					<paragraph wId="gla6-clan30-stav1">
+						<content>
+							<p>Уз захтев за издавање  путне исправе прилаже се на увид важећа лична карта Републике Србије, а уз  захтев који се подноси дипломатском или конзуларном представништву Републике  Србије, прилаже се на увид важећа јавна исправа на основу које је могуће  поуздано утврдити идентитет.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav2">
+						<content>
+							<p>Путна исправа издаје се  на основу уверења о држављанству Републике Србије, извода из матичне књиге  рођених, као и других јавних исправа којима се доказују подаци из захтева, а  које ће орган прибавити по службеној дужности, осим у случајевима када странка  сама жели да прибави потребне исправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav3">
+						<content>
+							<p>Уз захтев се може  приложити и фотографија која испуњава услове утврђене прописом из <ref wId="ref44" href="akn/rs/act/2019/81-3/srp@/!main~art_27__para_8" >члана 27. став  8. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav4">
+						<content>
+							<p>Уз захтев се на увид  прилаже предходнa путна исправа, која ће се поништити приликом преузимања нове  путне исправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav5">
+						<content>
+							<p>Одредбе овог члана не  примењују се на издавање путног листа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan30-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref45" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan31">
+					<num>31.</num>
+					<heading>Потврда о поднетом захтеву</heading>
+					<paragraph wId="gla6-clan31-stav1">
+						<content>
+							<p>При подношењу захтева за издавање путне исправе  подносиоцу се издаје потврда, која служи као доказ о поднетом захтеву.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan32">
+					<num>32.</num>
+					<heading>Преузимање путне исправе</heading>
+					<paragraph wId="gla6-clan32-stav1">
+						<content>
+							<p>Путну исправу преузеће лично подносилац захтева,  односно законски заступник или лице које он овласти.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan33">
+					<num>33.</num>
+					<heading>Издавање нове путне исправе иако постојећој није  истекла важност</heading>
+					<paragraph wId="gla6-clan33-stav1">
+						<intro>
+							<p>Лице које поседује путну  исправу чији рок важења није истекао дужно је да поднесе захтев за издавање нове  путне исправе ако:</p>
+						</intro>
+						<point wId="gla6-clan33-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> је дошло до промене  података који су уписани у путну исправу;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan33-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> је путна исправа  оштећена, попуњена или дотрајала, тако да не може да служи својој сврси;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan33-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако фотографија на  путној исправи не одговара изгледу лица.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan33-stav2">
+						<content>
+							<p>На захтев лица нови  пасош може се издати и пре рока прописаног <ref wId="ref46" href="akn/rs/act/2019/81-3/srp@/!main~art_27__para_3" >чланом 27. став 3. овог</ref> закона, уз  плаћање увећане цене обрасца пасоша у складу са прописом из <ref wId="ref47" href="akn/rs/act/2019/81-3/srp@/!main~art_44__para_2" >члана 44. став 2.  овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan33-stav3">
+						<content>
+							<p>Уз захтев за издавање  нове путне исправе подносилац захтева дужан је да приложи и путну исправу чији  рок важења није истекао, а приликом преузимања нове путне исправе претходна ће  бити поништена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan33-stav4">
+						<content>
+							<p>У случајевима из <ref wId="ref48" href="akn/rs/act/2019/81-3/srp@/!main~art_33__para_1->para_2" >ст. 1.  и 2. овог</ref> члана нови пасош издаће се са роком важења од десет година.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan33-stav5">
+						<content>
+							<p>Одредбе овог члана не  примењују се на издавање путног листа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan33-stav6">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref49" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan34">
+					<num>34.</num>
+					<heading>Рок за решавање о захтеву</heading>
+					<paragraph wId="gla6-clan34-stav1">
+						<content>
+							<p>О захтеву за издавање путне исправе надлежни орган је  дужан да реши у року од 30 дана од дана подношења захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav2">
+						<content>
+							<p>О захтеву за издавање пасоша који је поднет преко  дипломатског или конзуларног представништва Републике Србије орган надлежан за  издавање пасоша дужан је да реши у року од 60 дана од дана подношења захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav3">
+						<content>
+							<p>Изузетно од одредаба <ref wId="ref50" href="akn/rs/act/2019/81-3/srp@/!main~art_34__para_1->para_2" >ст. 1. и 2. овог</ref> члана, у хитним  случајевима (потреба за хитним лечењем у иностранству, обавештење о смрти или  тешкој болести члана уже породице, неодложан службени пут) или из других  оправданих разлога, ако су уз захтев приложени докази који потврђују разлоге  хитности, надлежни орган дужан је да путну исправу изда најкасније у року од 48  сати од тренутка подношења захтева.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav4">
+						<content>
+							<p>Надлежни орган ће издати путну исправу у року из <ref wId="ref51" href="akn/rs/act/2019/81-3/srp@/!main~art_34__para_3" >става  3. овог</ref> члана и без приложених доказа који потврђују разлоге хитности, ако то  тражи подносилац захтева, у складу са прописом Владе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan34-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref52" href="akn/rs/act/2010/76/srp@">76/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan35">
+					<num>35.</num>
+					<heading>Одбијање захтева за издавање путних исправа</heading>
+					<paragraph wId="gla6-clan35-stav1">
+						<intro>
+							<p>Орган коме је поднесен захтев за издавање путне  исправе решењем ће одбити захтев, односно неће издати путну исправу у следећим  случајевима:</p>
+						</intro>
+						<point wId="gla6-clan35-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако је против лица које тражи издавање путне  исправе донета наредба о спровођењу истраге или је подигнута оптужница – на  захтев надлежног суда, односно јавног тужилаштва;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan35-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако је лице које тражи издавање путне исправе  осуђено на безусловну казну затвора у трајању дужем од три месеца, односно док  казну не издржи;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan35-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако је лицу које тражи издавање путне исправе у  складу са признатим међународним актима забрањено путовање;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan35-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> у случајевима да је, у складу са важећим  прописима, лицу које тражи издавање путне исправе забрањено кретање ради  спречавања ширења заразних болести, односно епидемије;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan35-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> ако из разлога одбране земље прописано одобрење за путовање у иностранство  није издато или постоји друга сметња предвиђена законом којим се уређује војна  обавеза, у случају да је проглашено ратно стање или ванредно стање;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan35-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> ако лице већ поседује важећу путну исправу  која је одузета од стране надлежног органа ради вођења поступка – док поступак  траје.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav2">
+						<content>
+							<p>Захтев за издавање путног листа не може се одбити.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref53" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan36">
+					<num>36.</num>
+					<heading>Обавезе обавештавања о постојању разлога за одбијање  захтева</heading>
+					<paragraph wId="gla6-clan36-stav1">
+						<content>
+							<p>Надлежни правосудни органи из члана 35. став 1. тач.  <ref wId="ref54" href="akn/rs/act/2019/81-3/srp@/!main~art_35__para_1__point_1" >1</ref>) и <ref wId="ref55" href="akn/rs/act/2019/81-3/srp@/!main~art_35__para_1__point_2" >2</ref>) овог закона, дужни су да Министарству унутрашњих послова, преко  полицијских управа, односно полицијских станица, на чијем подручју лице има  пребивалиште, доставе захтев у вези са разлозима из члана 35. став 1. тачка <ref wId="ref56" href="akn/rs/act/2019/81-3/srp@/!main~art_35__para_1__point_1" >1</ref>),  односно обавештење о постојању разлога из члана 35. став 1. тачка <ref wId="ref57" href="akn/rs/act/2019/81-3/srp@/!main~art_35__para_1__point_2" >2</ref>) овог  закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan36-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref58" href="akn/rs/act/2014/62/srp@">62/2014</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan37">
+					<num>37.</num>
+					<heading>Одузимање путних исправа</heading>
+					<paragraph wId="gla6-clan37-stav1">
+						<intro>
+							<p>Орган надлежан за издавање путних исправа одузеће  путну исправу, у следећим случајевима:</p>
+						</intro>
+						<point wId="gla6-clan37-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ако је путна исправа издата на основу нетачних  података;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan37-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ако њен ималац другом лицу омогући да путну  исправу користи као своју;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan37-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ако је њеном имаоцу престало држављанство  Републике Србије;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan37-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> ако се накнадно утврди да су постојале сметње из  <ref wId="ref59" href="akn/rs/act/2019/81-3/srp@/!main~" >члана 35. став 1. тач. 1) </ref>до 4) овог закона пре издавања путне исправе, а  надлежни орган је за њих сазнао касније или су ти разлози настали после издавања  путне исправе.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav2">
+						<content>
+							<p>О одузимању путне исправе због разлога из <ref wId="ref60" href="akn/rs/act/2019/81-3/srp@/!main~art_37__para_1" >става 1. </ref>из  овог члана, одлучује надлежни орган за издавање путних исправа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav3">
+						<content>
+							<p>Брисан је ранији <ref wId="ref62" href="akn/rs/act/2019/81-3/srp@/!main~art_37__para_3" >став 3. </ref>(види <ref wId="ref61" href="akn/rs/act/2014/62/srp@/!main~/art_18">члан 18. Закона -  62/2014-32</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan38">
+					<num>38.</num>
+					<heading>Поступак са одузетим путним исправама</heading>
+					<paragraph wId="gla6-clan38-stav1">
+						<content>
+							<p>Гранична полиција ће  путне исправе које привремено одузме приликом вршења послова граничне контроле  из разлога из <ref wId="ref63" href="akn/rs/act/2019/81-3/srp@/!main~art_37" >члана 37. овог</ref> закона доставити полицијској управи или станици  која је издала пасош.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav2">
+						<content>
+							<p>Дипломатско или  конзуларно представништво Републике Србије ће путну исправу коју одузме из  разлога из члана 37. став 1. тачка <ref wId="ref64" href="akn/rs/act/2019/81-3/srp@/!main~art_37__para_1__point_3" >3</ref>) овог закона доставити полицијској управи  или станици која је издала пасош, а на захтев може се након поништења вратити  њеном имаоцу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan38-stav3">
+						<content>
+							<p>*Службени гласник РС, број  <ref wId="ref65" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan39">
+					<num>39.</num>
+					<heading>Обавеза обавештавања о престанку разлога за одбијање  захтева и одузимање путне исправе</heading>
+					<paragraph wId="gla6-clan39-stav1">
+						<content>
+							<p>О свим чињеницама које  за последицу имају престанак разлога за одбијање захтева за издавање путне  исправе и одузимање путне исправе надлежни суд или други државни орган, дужан је  да одмах о томе обавести орган надлежан за издавање путне исправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav2">
+						<content>
+							<p>О наступању чињеница из  <ref wId="ref66" href="akn/rs/act/2019/81-3/srp@/!main~art_39__para_1" >става 1. овог</ref> члана, орган надлежан за издавање путне исправе може да обавести и  странка.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav3">
+						<content>
+							<p>О престанку разлога из  <ref wId="ref67" href="akn/rs/act/2019/81-3/srp@/!main~art_39__para_1" >става 1. овог</ref> члана, надлежни орган за издавање путних исправа обавестиће о томе  лице које је тражило издавање путне исправе, односно лице коме је одузета путна  исправа, осим ако обавештење није примљено од стране саме странке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav4">
+						<content>
+							<p>*Службени гласник РС, број  <ref wId="ref68" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan40">
+					<num>40.</num>
+					<heading>Обавезе органа приликом доношења решења</heading>
+					<paragraph wId="gla6-clan40-stav1">
+						<content>
+							<p>У решењу којим се одбија захтев за издавање путне  исправе, односно којим се одузима путна исправа, надлежни орган је дужан да  наведе разлоге којима се руководио приликом доношења таквог решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan41">
+					<num>41.</num>
+					<heading>Издавање пасоша са ограниченим роком важења</heading>
+					<paragraph wId="gla6-clan41-stav1">
+						<content>
+							<p>На молбу лица коме је одбијен захтев за издавање  путне исправе, односно коме је путна исправа одузета, осим разлога из члана 37.  став 1. тачка <ref wId="ref69" href="akn/rs/act/2019/81-3/srp@/!main~art_37__para_1__point_3" >3</ref>) овог закона, орган који је одлучио о томе може, у нарочито  оправданим случајевима (смрт члана породице, лечење у иностранству, неодложни  службени послови), одобрити издавање пасоша са ограниченим роком важења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan41-stav2">
+						<content>
+							<p>У случајевима из <ref wId="ref70" href="akn/rs/act/2019/81-3/srp@/!main~art_41__para_1" >става 1. овог</ref> члана, надлежни орган  за издавање пасоша је дужан да пре издавања пасоша прибави  одобрењe надлежног  суда, односно јавног тужиоца, који је захтевао забрану издавања путне исправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan41-stav3">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref71" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ПОСЕБНЕ ОБАВЕЗЕ У ВЕЗИ СА ИЗДАТОМ ПУТНОМ  ИСПРАВОМ</heading>
+				<article wId="gla7-clan42">
+					<num>42.</num>
+					<heading>Нестанак и проналазак путне исправе</heading>
+					<paragraph wId="gla7-clan42-stav1">
+						<content>
+							<p>Лице које изгуби путну исправу или нађе туђу путну  исправу дужно је да без одлагања пријави нестанак или проналазак путне исправе  најближој полицијској управи, односно полицијској станици Министарства  унутрашњих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan42-stav2">
+						<content>
+							<p>Ако је путна исправа нестала у иностранству, лице  које изгуби путну исправу дужно је да њен нестанак пријави најближем  дипломатском или конзуларном представништву Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan42-stav3">
+						<intro>
+							<p>Надлежни орган за издавање путне исправе може по  службеној дужности решењем прогласити неважећом путну исправу у следећим  случајевима:</p>
+						</intro>
+						<point wId="gla7-clan42-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> уколико лице које је у поступку враћања по  међународном споразуму изјави да нема путну исправу, а надлежни орган утврди да  поседује важећи пасош и да није пријавио губитак пасоша, у складу са <ref wId="ref72" href="akn/rs/act/2019/81-3/srp@/!main~art_42__para_1->para_2" >ст. 1. и 2.  овог</ref> члана;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan42-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> уколико дипломатски или службени пасош не буде  враћен Министарству спољних послова у року од 60 дана од дана када је престао  правни основ за издавање ове врсте пасоша.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan42-stav4">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref73" href="akn/rs/act/2014/62/srp@">62/2014</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan43">
+					<num>43.</num>
+					<heading>Неважећа путна исправа</heading>
+					<paragraph wId="gla7-clan43-stav1">
+						<content>
+							<p>Несталу путну исправу надлежни орган за издавање  путне исправе ће решењем прогласити неважећом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav2">
+						<content>
+							<p>Против решења из <ref wId="ref74" href="akn/rs/act/2019/81-3/srp@/!main~art_43__para_1" >става 1. овог</ref> члана жалба није  допуштена.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav3">
+						<content>
+							<p>Путна исправа проглашена неважећом оглашава се  на званичној веб презентацији Министарства унутрашњих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav4">
+						<content>
+							<p>Надлежни орган за издавање путне исправе издаће путну  исправу тек по доношењу решења о проглашењу путне исправе неважећом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan43-stav5">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref75" href="akn/rs/act/2019/81/srp@">81/2019</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan44">
+					<num>44.</num>
+					<heading>Трошкови издавања путне исправе</heading>
+					<paragraph wId="gla7-clan44-stav1">
+						<content>
+							<p>За издавање путне исправе плаћа се накнада, која  обухвата цену обрасца путне исправе и трошкове техничке израде, као и трошкове  достављања, ако се достављање путне исправе врши преко дипломатског или  конзуларног представништва Републике Србије.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla7-clan44-stav2">
+						<content>
+							<p>Висину накнаде из <ref wId="ref76" href="akn/rs/act/2019/81-3/srp@/!main~art_44__para_1" >става 1. овог</ref> члана утврђује Влада.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ЕВИДЕНЦИЈЕ И КОРИШЋЕЊЕ ПОДАТАКА</heading>
+				<article wId="gla8-clan45">
+					<num>45.</num>
+					<heading>Евиденције о путним исправама. Надлежност за вођење  евиденција</heading>
+					<paragraph wId="gla8-clan45-stav1">
+						<content>
+							<p>О издатим путним исправама, о одбијеним  захтевима за издавање путних исправа, о одузетим путним исправама и неважећим  путним исправама води се јединствена евиденција у електронском облику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan45-stav2">
+						<content>
+							<p>Начин вођења, садржина евиденција као и размена  података из евиденције из <ref wId="ref77" href="akn/rs/act/2019/81-3/srp@/!main~art_45__para_1" >става 1. овог</ref> члана уређује се посебним законом о  евиденцијама и обради података у области унутрашњих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan45-stav3">
+						<content>
+							<p>Брисани су ранији <ref wId="ref79" href="akn/rs/act/2019/81-3/srp@/!main~art_45__para_2->para_4" >ст. 2</ref>-4. (види <ref wId="ref78" href="akn/rs/act/2019/81/srp@/!main~/art_14">члан 14. Закона - 81/2019-3</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan49">
+					<num>46-49.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref81" href="akn/rs/act/2019/81/srp@">81/2019</ref></heading>
+					<paragraph wId="gla8-clan49-stav1">
+						<content>
+							<p>Брисани су (види <ref wId="ref80" href="akn/rs/act/2019/81/srp@/!main~/art_15">члан 15. Закона - 81/2019-3</ref>)</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla9">
+				<num>IX</num>
+				<heading>КАЗНЕНЕ ОДРЕДБЕ</heading>
+				<article wId="gla9-clan50">
+					<num>50.</num>
+					<heading>Прекршаји</heading>
+					<paragraph wId="gla9-clan50-stav1">
+						<intro>
+							<p>Новчаном казном од 5.000 до 150.000 динара или  казном затвора до 30 дана казниће се за прекршај и за покушај прекршаја:</p>
+						</intro>
+						<point wId="gla9-clan50-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> ко поседује више од једне путне исправе исте врсте  (<ref wId="ref82" href="akn/rs/act/2019/81-3/srp@/!main~art_3__para_2" >члан 3. став 2. овог</ref> закона);</p>
+							</content>
+						</point>
+						<point wId="gla9-clan50-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> ко своју путну исправу да другоме да се са њом  послужи или се туђом путном исправом послужи као својом (<ref wId="ref83" href="akn/rs/act/2019/81-3/srp@/!main~art_3__para_3" >члан 3. став 3. овог</ref>  закона);</p>
+							</content>
+						</point>
+						<point wId="gla9-clan50-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> ко давањем неистинитих података, исходује од  надлежног органа издавање путне исправе и послужи се таквом путном исправом  (<ref wId="ref84" href="akn/rs/act/2019/81-3/srp@/!main~art_27__para_5" >члан 27. став 5. овог</ref> закона);</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla9-clan50-stav2">
+						<content>
+							<p>За прекршај из <ref wId="ref85" href="akn/rs/act/2019/81-3/srp@/!main~art_50__para_1" >става 1. овог</ref> члана може се изрећи  заштитна мера одузимања издате путне исправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan51">
+					<num>51.</num>
+					<heading>*Службени гласник РС, број <ref wId="ref87" href="akn/rs/act/2014/62/srp@">62/2014</ref></heading>
+					<paragraph wId="gla9-clan51-stav1">
+						<content>
+							<p>Новчаном казном од 4.000 до 40.000 динара казниће се  за прекршај ко без одлагања не пријави надлежном органу за издавање путне  исправе нестанак путне исправе или њено проналажење (<ref wId="ref86" href="akn/rs/act/2019/81-3/srp@/!main~art_42" >члан 42. овог</ref> закона).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla9-clan52">
+					<num>52.</num>
+					<paragraph wId="gla9-clan52-stav1">
+						<content>
+							<p>Новчаном казном од 40.000 до 50.000 динара казниће се  за прекршај одговорно лице у органу надлежном за издавање путних исправа ако  захтев за издавање путне исправе не реши у прописаном року из <ref wId="ref88" href="akn/rs/act/2019/81-3/srp@/!main~art_34" >члана 34. овог</ref>  закона или ако у прописаном року не преиспита разлоге за неиздавање, односно за  одузимање путне исправе због разлога из <ref wId="ref89" href="akn/rs/act/2019/81-3/srp@/!main~art_39" >члана 39. овог</ref> закона, и одговорно лице  у државном органу или правном лицу, ако одмах не обавести орган надлежан за  издавање путних исправа о чињеницама које за последицу имају престанак разлога  за одбијање захтева за издавање путне исправе из <ref wId="ref90" href="akn/rs/act/2019/81-3/srp@/!main~art_39" >члана 39. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla10">
+				<num>X</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla10-clan53">
+					<num>53.</num>
+					<heading>Важење путних исправа издатих по ранијим прописима</heading>
+					<paragraph wId="gla10-clan53-stav1">
+						<content>
+							<p>Пасош, дипломатски пасош и службени пасош издати пре  дана почетка примене овог закона важе до рока наведеног у тој исправи, а најдуже  до 31. децембра 2011. године.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan53-stav2">
+						<content>
+							<p>*Службени гласник РС, број <ref wId="ref91" href="akn/rs/act/2010/76/srp@">76/2010</ref></p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan54">
+					<num>54.</num>
+					<heading>Поступање са нерешеним захтевима</heading>
+					<paragraph wId="gla10-clan54-stav1">
+						<content>
+							<p>Поступак за решавање захтева за издавање путних  исправа започет пре дана почетка примене овог закона окончаће се по одредбама  овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan55">
+					<num>55.</num>
+					<heading>Доношење подзаконских прописа</heading>
+					<paragraph wId="gla10-clan55-stav1">
+						<content>
+							<p>Прописи на основу овлашћења из овог закона донеће се  у року од три месеца од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla10-clan55-stav2">
+						<content>
+							<p>До почетка примене подзаконских прописа из <ref wId="ref92" href="akn/rs/act/2019/81-3/srp@/!main~art_55__para_1" >става 1.  овог</ref> члана, примењиваће се прописи донети до дана ступања на снагу овог закона,  ако нису у супротности са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan56">
+					<num>56.</num>
+					<heading>Престанак важења закона</heading>
+					<paragraph wId="gla10-clan56-stav1">
+						<content>
+							<p>Даном почетка примене овог закона престаје да важи  Закон о путним исправама југословенских држављана („Службени лист СРЈ”, бр.  <ref wId="ref94" href="akn/rs/act/96/33/srp@">33/96</ref>, <ref wId="ref95" href="akn/rs/act/96/49/srp@">49/96</ref>, <ref wId="ref96" href="akn/rs/act/98/12/srp@">12/98</ref>, <ref wId="ref97" href="akn/rs/act/99/16/srp@">16/99</ref>, <ref wId="ref98" href="akn/rs/act/99/35/srp@">35/99</ref>, <ref wId="ref99" href="akn/rs/act/99/44/srp@">44/99</ref>, <ref wId="ref100" href="akn/rs/act/00/15/srp@">15/00</ref>, <ref wId="ref101" href="akn/rs/act/01/7/srp@">7/01</ref>, <ref wId="ref102" href="akn/rs/act/01/71/srp@">71/01</ref>, <ref wId="ref103" href="akn/rs/act/02/23/srp@">23/02</ref>, <ref wId="ref104" href="akn/rs/act/02/53/srp@">53/02</ref>,  <ref wId="ref105" href="akn/rs/act/02/68/srp@">68/02</ref> и <ref wId="ref106" href="akn/rs/act/83/5/srp@">5/83</ref> и „Службени гласник РС”, број <ref wId="ref107" href="akn/rs/act/05/101/srp@">101/05</ref> – др. закон), осим одредбе  <ref wId="ref93" href="akn/rs/act/2019/81-3/srp@/!main~art_56" >члана 56. </ref>који се примењује до доношења закона о Војсци Србије.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla10-clan57">
+					<num>57.</num>
+					<heading>Ступање на снагу закона и почетак примене</heading>
+					<paragraph wId="gla10-clan57-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана  објављивања у „Службеном гласнику Републике Србије”, а почиње да се примењује по  истеку шест месеци од дана ступања на снагу, осим одредбе <ref wId="ref108" href="akn/rs/act/2019/81-3/srp@/!main~art_55" >члана 55. </ref>који се  примењује од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>

@@ -1,0 +1,1641 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 ../../schema/akoma30.xsd">
+	<act name="Закон о комуналној милицији">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="akn/rs/act/2019/49-23/main"/>
+					<FRBRuri value="akn/rs/act/2019/49-23"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#author" href="#somebody"/>
+					<FRBRcountry value="rs"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="akn/rs/act/2019/49-23/srp@/main"/>
+					<FRBRuri value="akn/rs/act/2019/49-23/srp@"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRlanguage language="srp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="akn/rs/act/2019/49-23/srp@/main.xml"/>
+					<FRBRuri value="akn/rs/act/2019/49-23/srp@.akn"/>
+					<FRBRdate date="2019-01-01" name="Generation"/>
+					<FRBRauthor as="#editor" href="#somebody"/>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2019-07-08" name="службени гласник рс" number="49" showAs="Службени гласник РС"/>
+			<classification source="#somebody">
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="/akn/rs/srp@ontology" showAs="17. Територијална организација и локална самоуправа" value="17. територијална организација и локална самоуправа" wId="grupa"/>
+			</classification>
+			<workflow source="#somebody">
+				<step by="/akn/rs/srp@ontology" date="2019-07-08" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2019-07-16" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2019-07-16" wId="primena"/>
+			</workflow>
+			<references source="#somebody">
+				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="обезбеђује"/>
+				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="града"/>
+				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="београда"/>
+				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="територији"/>
+				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="извршавање"/>
+				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавних"/>
+				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="надлежности"/>
+				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="милиција"/>
+				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="органе"/>
+				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="комунална"/>
+				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
+				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
+				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="самоуправе"/>
+				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="локалне"/>
+				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="комуналне"/>
+				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
+				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="јединица"/>
+				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="чијим"/>
+				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="закону"/>
+				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="одржава"/>
+				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="коришћењу"/>
+				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="упозорења"/>
+				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="земљишта"/>
+				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="супротно"/>
+				<TLCConcept eId="cocnept24" href="http://purl.org/vocab/frbr/core#Concept" showAs="људи"/>
+				<TLCConcept eId="cocnept25" href="http://purl.org/vocab/frbr/core#Concept" showAs="захтеве"/>
+				<TLCConcept eId="cocnept26" href="http://purl.org/vocab/frbr/core#Concept" showAs="простора"/>
+				<TLCConcept eId="cocnept27" href="http://purl.org/vocab/frbr/core#Concept" showAs="обављањем"/>
+				<TLCConcept eId="cocnept28" href="http://purl.org/vocab/frbr/core#Concept" showAs="послове"/>
+				<TLCConcept eId="cocnept29" href="http://purl.org/vocab/frbr/core#Concept" showAs="аутономије"/>
+				<TLCConcept eId="cocnept30" href="http://purl.org/vocab/frbr/core#Concept" showAs="територијалне"/>
+				<TLCConcept eId="cocnept31" href="http://purl.org/vocab/frbr/core#Concept" showAs="симболи"/>
+				<TLCConcept eId="cocnept32" href="http://purl.org/vocab/frbr/core#Concept" showAs="имаоце"/>
+				<TLCConcept eId="cocnept33" href="http://purl.org/vocab/frbr/core#Concept" showAs="објеката"/>
+				<TLCConcept eId="cocnept34" href="http://purl.org/vocab/frbr/core#Concept" showAs="локалних"/>
+				<TLCConcept eId="cocnept35" href="http://purl.org/vocab/frbr/core#Concept" showAs="ред"/>
+				<TLCConcept eId="cocnept36" href="http://purl.org/vocab/frbr/core#Concept" showAs="несметано"/>
+				<TLCConcept eId="cocnept37" href="http://purl.org/vocab/frbr/core#Concept" showAs="питањима"/>
+				<TLCConcept eId="cocnept38" href="http://purl.org/vocab/frbr/core#Concept" showAs="улица"/>
+				<TLCConcept eId="cocnept39" href="http://purl.org/vocab/frbr/core#Concept" showAs="путева"/>
+				<TLCConcept eId="cocnept40" href="http://purl.org/vocab/frbr/core#Concept" showAs="добара"/>
+				<TLCConcept eId="cocnept41" href="http://purl.org/vocab/frbr/core#Concept" showAs="областима"/>
+				<TLCConcept eId="cocnept42" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређење"/>
+				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Poslove"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograda"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
+				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstva unutrašnjih poslova"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="RSˮ"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="prekršajnom sudu"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 2"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 6."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="34."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 1. tačka 1"/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="35. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="36. stav 1."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="36. stav 2."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="37. stav 5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="40."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="45."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="47. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="49. stav 3."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
+				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 1."/>
+			</references>
+			<notes source="#somebody">
+				<note wId="not1">
+					<p>Закон је ступио на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”, односно 16. јула 2019. године (видичлан 59. Закона).Комунална полиција даном ступања на снагу овог закона, наставља са радом као комунална милиција, а запослени у статусу комуналног полицајца, односно начелника комуналне полиције наставља са радом као комунални милиционар, односно, начелник комуналне милиције (видичлан 53. Закона).Прописи за спровођење овог закона које доноси министар надлежан за систем локалне самоуправе биће донети у року од годину дана од дана ступања на снагу овог закона. Прописи донети за спровођење Закона о комуналној полицији („Службени гласник РС”, број 51/09) настављају да се примењују до доношења одговарајућих прописа утврђених овим законом, ако нису у супротности са одредбама овог закона (види члан 54. Закона).</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<longTitle>
+				<p>Закон О комуналној милицији "Службени гласник РС", број <ref wId="ref72" href="akn/rs/act/2019/49/srp@">49 од 8. јула 2019</ref>.</p>
+			</longTitle>
+		</preface>
+		<body>
+			<chapter wId="gla1">
+				<num>I</num>
+				<heading>УВОДНЕ ОДРЕДБЕ</heading>
+				<article wId="gla1-clan1">
+					<num>1.</num>
+					<heading>Сврха комуналне милиције</heading>
+					<paragraph wId="gla1-clan1-stav1">
+						<content>
+							<p>Комунална милиција на територији општине, града и града Београда (у даљем тексту: јединица локалне самоуправе) образује се за законом одређене послове чијим обављањем се обезбеђује извршавање надлежности јединице локалне самоуправе у областима, односно питањима комуналне делатности, заштите животне средине, људи и добара и обезбеђује заштита и одржава ред у коришћењу земљишта, простора, локалних путева, улица и других јавних објеката, као и обезбеђује несметано обављање законом одређених послова из надлежности јединице локалне самоуправе (у даљем тексту: послови комуналне милиције).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav2">
+						<content>
+							<p>Комунална милиција издаје упозорења и подноси захтеве за покретање прекршајног поступка за поступања супротно закону којим се уређују државни симболи, осим у односу на државне органе, органе територијалне аутономије, јединица локалне самоуправе и имаоце јавних овлашћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan1-stav3">
+						<content>
+							<p>Комунална милиција на територији града Београда, поред послова из <ref wId="ref0" href="akn/rs/act/2019/49-23/srp@/!main~art_1__para_1->para_2" >ст. 1. и 2. овог</ref> члана, обавља и друге послове комуналне милиције којима се обезбеђује извршавање надлежности утврђених законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan2">
+					<num>2.</num>
+					<heading>Образовање и унутрашње уређење комуналне милиције</heading>
+					<paragraph wId="gla1-clan2-stav1">
+						<content>
+							<p>Јединица локалне самоуправе образује комуналну милицију као унутрашњу организациону јединицу у саставу јединственог органа општинске, односно градске управе или управе образоване за поједину област.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav2">
+						<content>
+							<p>Ако се општинска, односно градска управа образује за поједине области – за послове, односно област комуналне милиције може се образовати посебна управа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan2-stav3">
+						<content>
+							<p>Унутрашња организациона јединица комуналне милиције не може имати мање од три комунална милиционара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan3">
+					<num>3.</num>
+					<heading>Припадници комуналне милиције</heading>
+					<paragraph wId="gla1-clan3-stav1">
+						<content>
+							<p>Комуналном милицијом руководи начелник комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav2">
+						<content>
+							<p>Послове комуналне милиције обављају униформисани комунални милиционари.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav3">
+						<content>
+							<p>Изузетно од <ref wId="ref1" href="akn/rs/act/2019/49-23/srp@/!main~art_3__para_2" >става 2. овог</ref> члана, послове комуналне милиције могу обављати и комунални милиционари без службене униформе са ознакама, по писаном налогу начелника комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav4">
+						<content>
+							<p>Начелник комуналне милиције и комунални милиционари (у даљем тексту: припадници комуналне милиције), у обављању послова из делокруга комуналне милиције, имају посебна овлашћења утврђена овим законом, укључујући и овлашћења за употребу одређених средстава принуде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan3-stav5">
+						<content>
+							<p>Припадници комуналне милиције стручно се оспособљавају у складу са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan4">
+					<num>4.</num>
+					<heading>Помоћ у извршењима (асистенција) и сарадња са овлашћеним организацијама и вршиоцем комуналне делатности</heading>
+					<paragraph wId="gla1-clan4-stav1">
+						<content>
+							<p>Комунална милиција пружа помоћ другим организационим јединицама управе, као и предузећима, организацијама и установама које на основу закона, односно општег акта јединице локалне самоуправе одлучују о појединим правима грађана, правних лица или других странака (у даљем тексту: овлашћене организације) као и вршиоцу комуналне делатности, када по оцени овлашћене организације или вршиоца комуналне делатности постоје претпоставке да спровођење њихове извршне одлуке неће бити могуће без присуства комуналних милиционара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav2">
+						<content>
+							<p>О ангажовању комуналне милиције и обиму и начину пружања помоћи одлучује начелник комуналне милиције у року од 48 часова од подношења захтева овлашћене организације или вршиоца комуналне делатности, сходно одредбама закона којим се уређују унутрашњи послови о поступку пружања помоћи у извршењима и подзаконског прописа о начину обављања полицијских послова којима се ближе уређује пружање ове помоћи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav3">
+						<content>
+							<p>Ако због физичког отпора спровођење извршења не буде могуће или не успе и поред ангажовања комуналне милиције, овлашћена организација или вршилац комуналне делатности подноси захтев полицији да пружи помоћ у спровођењу извршења, у складу са законом којим се уређују унутрашњи послови.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav4">
+						<content>
+							<p>Поред помоћи у извршењу, комунална милиција остварује сарадњу са овлашћеним организацијама и вршиоцем комуналне делатности и у погледу међусобног обавештавања, размене информација, размене података, предузимања заједничких мера и активности, као и заједничког коришћења средстава, уређаја и опреме које може да обезбеди овлашћена организација или вршилац комуналне делатности уз претходно прибављену сагласност министарства надлежног за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav5">
+						<content>
+							<p>У случају заједничког коришћења средстава, уређаја и опреме из <ref wId="ref2" href="akn/rs/act/2019/49-23/srp@/!main~art_4__para_4" >става 4. овог</ref> члана, комунална милиција обавља послове и врши овлашћења у складу са овим законом, пружа помоћ овлашћеним организацијама у обављању послова из делокруга њихове надлежности, а вршиоцу комуналне делатности пружа помоћ у контроли и наплати комуналних услуга.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan4-stav6">
+						<content>
+							<p>Облике и начин остваривања сарадње комуналне милиције овлашћених организација и вршиоца комуналне делатности ближе прописује јединица локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan5">
+					<num>5.</num>
+					<heading>Хитне мере и спасилачка функција</heading>
+					<paragraph wId="gla1-clan5-stav1">
+						<content>
+							<p>Комунална милиција предузима хитне мере заштите животне средине, заштите од елементарних и других непогода, заштите од пожара и друге заштите из надлежности општине, односно града, кад те мере не могу правовремено да предузму други надлежни органи јединице локалне самоуправе и овлашћене организације, о чему одмах обавештава те органе односно организације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan5-stav2">
+						<content>
+							<p>У случају опасности изазване елементарним непогодама и другим облицима угрожавања из <ref wId="ref3" href="akn/rs/act/2019/49-23/srp@/!main~art_5__para_1" >става 1. овог</ref> члана комунална милиција учествује у вршењу спасилачке функције и пружа помоћ другим органима, правним и физичким лицима на отклањању последица.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan6">
+					<num>6.</num>
+					<heading>Сарадња са грађанима</heading>
+					<paragraph wId="gla1-clan6-stav1">
+						<content>
+							<p>Комунална милиција у обављању послова сарађује са грађанима у складу са законом и прописима којима се уређује обављање комуналних и других послова из надлежности јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav2">
+						<content>
+							<p>Грађани могу комуналној милицији подносити пријаве, петиције и предлоге у вези са комуналним редом писаним путем, а у хитним случајевима телефоном и непосредним усменим обраћањем, о чему комунална милиција прави службену забелешку.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan6-stav3">
+						<content>
+							<p>Комунална милиција дужна је да грађане, на њихов захтев, обавести о исходу поступања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan7">
+					<num>7.</num>
+					<heading>Сарадња са инспекцијским службама</heading>
+					<paragraph wId="gla1-clan7-stav1">
+						<content>
+							<p>Комунална милиција у обављању послова сарађује са инспекцијским службама јединице локалне самоуправе, у складу са законом и прописима којима се уређује обављање инспекцијских послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav2">
+						<content>
+							<p>Сарадња из <ref wId="ref4" href="akn/rs/act/2019/49-23/srp@/!main~art_7__para_1" >става 1. овог</ref> члана обухвата, нарочито, међусобно обавештавање, размену информација, пружање непосредне помоћи и предузимање заједничких мера и активности од значаја за обављање послова комуналне милиције и инспекцијских служби јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan7-stav3">
+						<content>
+							<p>Облике и начин остваривања сарадње комуналне милиције и инспекцијских служби ближе прописује јединица локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan8">
+					<num>8.</num>
+					<heading>Сарадња са министарством надлежним за унутрашње послове</heading>
+					<paragraph wId="gla1-clan8-stav1">
+						<content>
+							<p>У обављању послова и примени овлашћења комунални милиционари сарађују са министарством надлежним за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav2">
+						<content>
+							<p>Када је то потребно ради извршавања послова из надлежности комуналне милиције, на образложени захтев, министарство надлежно за унутрашње послове доставља личне податке о грађанима, возилима и друге податке из евиденција које води у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav3">
+						<content>
+							<p>Евиденцију о траженим подацима из <ref wId="ref5" href="akn/rs/act/2019/49-23/srp@/!main~art_8__para_2" >става 2. овог</ref> члана води комунална милиција и обезбеђује обраду тих података у складу са прописима којима се уређује заштита података о личности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan8-stav4">
+						<content>
+							<p>Ради развијања међусобне сарадње комуналне милиције и министарства надлежног за унутрашње послове, председник општине, односно градоначелник може споразумно са министром надлежним за унутрашње послове да доноси одговарајуће акте о сарадњи и оснива координациона тела од значаја за остваривање заједничких циљева.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla1-clan9">
+					<num>9.</num>
+					<heading>Заједничка комунална милиција</heading>
+					<paragraph wId="gla1-clan9-stav1">
+						<content>
+							<p>Јединице локалне самоуправе могу закључити споразум о сарадњи на основу којег образују заједничку организациону јединицу комуналне милиције, у складу са <ref wId="ref6" href="akn/rs/act/2019/49-23/srp@/!main~art_2" >чланом 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla1-clan9-stav2">
+						<content>
+							<p>На сва питања која се односе на споразум о сарадњи, надлежност органа општине, односно града и рад комуналне милиције сходно се примењују одредбе закона који уређује локалну самоуправу у делу који се односи на сарадњу и удруживање јединица локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla2">
+				<num>II</num>
+				<heading>ПОСЛОВИ КОМУНАЛНЕ МИЛИЦИЈЕ</heading>
+				<article wId="gla2-clan10">
+					<num>10.</num>
+					<heading>Појам и обављање послова</heading>
+					<paragraph wId="gla2-clan10-stav1">
+						<intro>
+							<p>Послови комуналне милиције, у смислу овог закона, јесу:</p>
+						</intro>
+						<point wId="gla2-clan10-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> одржавање комуналног и другог законом уређеног реда од значаја за комуналну делатност;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> вршење контроле над применом закона и других прописа и општих аката из области комуналне и других делатности из надлежности јединице локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> остваривање надзора у јавном градском, приградском и другом локалном саобраћају, у складу са законом и прописима јединице локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> заштита животне средине, културних добара, локалних путева, улица и других јавних објеката од значаја за јединицу локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> подршка спровођењу прописа којима се обезбеђује несметано одвијање живота у јединици локалне самоуправе, очување добара и извршавање других задатака из надлежности јединице локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> вршење контроле над применом закона којим се уређују државни симболи, осим у односу на државне органе, органе територијалне аутономије, јединица локалне самоуправе и имаоце јавних овлашћења;</p>
+							</content>
+						</point>
+						<point wId="gla2-clan10-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> други послови, у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav2">
+						<content>
+							<p>Одржавањем реда из става 1. тачка <ref wId="ref7" href="akn/rs/act/2019/49-23/srp@/!main~art_10__para_1__point_1" >1</ref>) овог члана сматра се одржавање реда, нарочито, у областима, односно питањима: снабдевања водом; одвођења отпадних и атмосферских вода; јавне чистоће; превоза и депоновања земље и осталог растреситог материјала; превоза и депоновања комуналног и другог отпада; улица, општинских и некатегорисаних путева; саобраћајних ознака и сигнализације; паркирања; превоза путника у градском и приградском, односно локалном саобраћају; такси превоза; постављања привремених пословних објеката; заштите од буке у животној средини; контроле радног времена субјеката надзора; одржавања комуналних објеката, пијаца, гробаља, паркова, зелених и других јавних површина, јавне расвете, стамбених и других објеката, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav3">
+						<content>
+							<p>Послови из става 1. тачка <ref wId="ref9" href="akn/rs/act/2019/49-23/srp@/!main~art_10__para_1__point_2" >2</ref>) и <ref wId="ref8" href="akn/rs/act/2019/49-23/srp@/!main~art_10__para_2" >става 2. овог</ref> члана не односе се на надлежности инспекције утврђене законом којим се уређују комуналне делатности и законом којим се уређују путеви.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan10-stav4">
+						<content>
+							<p>Комунална милиција у обављању послова сарађује са комуналном милицијом других јединица локалне самоуправе, размењује податке и обавештења и остварује друге облике заједничког рада у оквиру узајамног пружања стручне помоћи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan11">
+					<num>11.</num>
+					<heading>Начин обављања послова</heading>
+					<paragraph wId="gla2-clan11-stav1">
+						<content>
+							<p>Послови комуналне милиције обављају се организованим присуством комуналних милиционара на местима одржавања реда, предузимањем других превентивних мера и применом законом предвиђених овлашћења комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav2">
+						<content>
+							<p>У свом раду комунални милиционари руководе се и принципом рада са најмањим штетним последицама, а средства принуде примењују само кад је то апсолутно нужно и у мери која је неопходна за извршење задатака без непотребних штетних последица у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan11-stav3">
+						<content>
+							<p>У складу са законом и другим прописима, начелник комуналне милиције даје обавезна упутства комуналним милиционарима за обављање послова комуналне милиције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan12">
+					<num>12.</num>
+					<heading>Планирање послова</heading>
+					<paragraph wId="gla2-clan12-stav1">
+						<content>
+							<p>Општинско, односно градско веће, на предлог начелника комуналне милиције, доноси стратешки план комуналне милиције којим, на основу процене постојећег стања, утврђује приоритете у обављању послова комуналне милиције и даје јој развојне, организационе, кадровске и друге смернице за даљи рад.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav2">
+						<content>
+							<p>У складу са стратешким планом, комунална милиција сачињава годишње планове рада и доставља их општинском, односно градском већу на усвајање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav3">
+						<content>
+							<p>Уз предлог плана из <ref wId="ref10" href="akn/rs/act/2019/49-23/srp@/!main~art_12__para_1->para_2" >ст. 1. и 2. овог</ref> члана, комунална милиција доставља и претходно прибављено мишљење начелника јединственог органа управе, односно управе образоване за поједину област у чијем је саставу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav4">
+						<content>
+							<p>Приликом разматрања годишњег плана рада комуналне милиције општинско, односно градско веће, по потреби, одлучује и о изменама и допунама стратешког плана комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav5">
+						<content>
+							<p>На стратешке планове и годишње планове рада комуналне милиције сагласност даје скупштина јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan12-stav6">
+						<content>
+							<p>Стратешки план заједничке службе комуналне милиције усвајају надлежни органи јединица локалне самоуправе који су закључили споразум о сарадњи из <ref wId="ref11" href="akn/rs/act/2019/49-23/srp@/!main~art_9__para_1" >члана 9. став 1. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla2-clan13">
+					<num>13.</num>
+					<heading>Усклађивање послова</heading>
+					<paragraph wId="gla2-clan13-stav1">
+						<content>
+							<p>Стратешки план и годишњи план рада комуналне милиције усклађују се, пре доношења, са програмом и планом рада министарства надлежног за унутрашње послове, планом развоја јединице локалне самоуправе и планским документима јединице локалне самоуправе који су од значаја за обављање послова комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla2-clan13-stav2">
+						<content>
+							<p>Стручну помоћ у припреми стратешког плана и годишњег плана рада комуналне милиције пружа министарство надлежно за унутрашње послове.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla3">
+				<num>III</num>
+				<heading>УНУТРАШЊЕ УРЕЂЕЊЕ КОМУНАЛНЕ МИЛИЦИЈЕ</heading>
+				<article wId="gla3-clan14">
+					<num>14.</num>
+					<heading>Унутрашње организационе јединице</heading>
+					<paragraph wId="gla3-clan14-stav1">
+						<content>
+							<p>Послови комуналне милиције обављају се у унутрашњим организационим јединицама, у складу са <ref wId="ref12" href="akn/rs/act/2019/49-23/srp@/!main~art_2" >чланом 2. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav2">
+						<content>
+							<p>У комуналној милицији могу се образовати подручне организационе јединице за градску општину или више њих или за део подручја јединице локалне самоуправе одређен актом о унутрашњем уређењу комуналне милиције (у даљем тексту: подручне организационе јединице).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan14-stav3">
+						<content>
+							<p>Подручним организационим јединицама руководе шефови тих јединица, који за свој рад и рад организационе јединице одговарају начелнику комуналне милиције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan15">
+					<num>15.</num>
+					<heading>Унутрашња контрола</heading>
+					<paragraph wId="gla3-clan15-stav1">
+						<content>
+							<p>У саставу комуналне милиције може се образовати посебна организациона јединица за потребе унутрашње контроле рада комуналних милиционара и запослених у комуналној милицији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav2">
+						<content>
+							<p>За рад на пословима унутрашње контроле потребно је да службеник има стечено високо образовање из научне области правне науке на основним академским студијама у обиму од најмање 240 ЕСПБ бодова, мастер академским студијама, мастер струковним студијама, специјалистичким академским студијама, специјалистичким струковним студијама, односно на основним студијама у трајању од најмање четири године или специјалистичким студијама на факултету и најмање пет година радног искуства у струци, као и да испуњава услове за заснивање радног односа утврђене законом који уређује права и дужности из радног односа запослених у јединицама локалне самоуправе и да испуњава услове за заснивање радног односа комуналног милиционара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav3">
+						<content>
+							<p>Руководилац унутрашње контроле за свој рад и за рад организационе јединице којом руководи одговара начелнику општинске, односно градске управе или управе образоване за поједину област.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan15-stav4">
+						<content>
+							<p>На послове унутрашње контроле сходно се примењују закон и подзаконски акти којима се уређују унутрашњи послови.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan16">
+					<num>16.</num>
+					<heading>Услови за рад на руководећим радним местима</heading>
+					<paragraph wId="gla3-clan16-stav1">
+						<content>
+							<p>За рад на пословима начелника комуналне милиције службеник мора да има стечено високо образовање из научне области правне науке на основним академским студијама у обиму од најмање 240 ЕСПБ бодова, мастер академским студијама, мастер струковним студијама, специјалистичким академским студијама, специјалистичким струковним студијама, односно на основним студијама у трајању од најмање четири године или специјалистичким студијама на факултету и најмање пет година радног искуства у струци и мора да испуњава услове за заснивање радног односа утврђене законом који уређује права и дужности из радног односа запослених у јединицама локалне самоуправе и услове за заснивање радног односа комуналног милиционара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan16-stav2">
+						<content>
+							<p>За рад на пословима шефа организационе јединице службеник мора да има стечено високо образовање из научне области правне науке на основним академским студијама у обиму од најмање 240 ЕСПБ бодова, мастер академским студијама, мастер струковним студијама, специјалистичким академским студијама, специјалистичким струковним студијама, односно на основним студијама у трајању од најмање четири године или специјалистичким студијама на факултету и најмање три године радног искуства у струци и мора да испуњава услове за заснивање радног односа комуналног милиционара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla3-clan17">
+					<num>17.</num>
+					<heading>Распоређивање начелника и шефа организационе јединице</heading>
+					<paragraph wId="gla3-clan17-stav1">
+						<content>
+							<p>Начелника комуналне милиције распоређује начелник јединственог органа општинске, односно градске управе, односно управе образоване за поједину област у чијем је саставу комуналнa милицијa.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav2">
+						<content>
+							<p>Службеник може да буде распоређен, односно премештен на радно место начелника комуналне милиције на основу решења начелника јединственог органа општинске, односно градске управе или управе образоване за поједину област у чијем је саставу комунална милиција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav3">
+						<content>
+							<p>Шефа организационе јединице распоређује начелник јединственог органа општинске, односно градске управе или управе образоване за поједину област у чијем је саставу комунална милиција, на предлог начелника комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla3-clan17-stav4">
+						<content>
+							<p>Службеник може да буде распоређен, односно премештен на радно место шефа организационе јединице на основу решења начелника јединственог органа општинске, односно градске управе или управе образоване за поједину област у чијем је саставу комунална милиција, на предлог начелника комуналне милиције.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla4">
+				<num>IV</num>
+				<heading>ОВЛАШЋЕЊА КОМУНАЛНЕ МИЛИЦИЈЕ</heading>
+				<article wId="gla4-clan18">
+					<num>18.</num>
+					<heading>Врсте овлашћења</heading>
+					<paragraph wId="gla4-clan18-stav1">
+						<intro>
+							<p>У обављању послова комуналне милиције, комунални милиционар има следећа овлашћења:</p>
+						</intro>
+						<point wId="gla4-clan18-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> упозорење;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan18-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> усмено наређење;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan18-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> провера идентитета;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan18-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> довођење;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan18-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> заустављање и преглед лица, предмета и возила;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan18-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> привремено одузимање предмета;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan18-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> аудио и видео снимање;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan18-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> употреба средстава принуде;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan18-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> прикупљање обавештења;</p>
+							</content>
+						</point>
+						<point wId="gla4-clan18-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> друга овлашћења у складу са законом.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav2">
+						<content>
+							<p>Поред овлашћења из <ref wId="ref13" href="akn/rs/act/2019/49-23/srp@/!main~art_18__para_1" >става 1. овог</ref> члана, комунални милиционар може, када је за то овлашћен законом, другим прописом и општим актом јединице локалне самоуправе, издати прекршајни налог, поднети пријаву надлежном органу за учињено кривично дело, поднети захтев за покретање прекршајног поступка и обавестити други надлежни орган да предузме мере из своје надлежности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav3">
+						<content>
+							<p>Када је законом овлашћен на доношење решења, комунални милиционар примењује одредбе закона о општем управном поступку или другог закона којим је овлашћен за доношење решења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan18-stav4">
+						<content>
+							<p>Против решења комуналног милиционара може се изјавити жалба градском, односно општинском већу у року од 15 дана од дана достављања решења.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan19">
+					<num>19.</num>
+					<heading>Упозорење</heading>
+					<paragraph wId="gla4-clan19-stav1">
+						<content>
+							<p>Комунални милиционар упозориће лице које својим понашањем, деловањем или пропуштањем одређене радње може да наруши законом и другим прописима уређени комунални или други ред из надлежности јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan19-stav2">
+						<content>
+							<p>Упозорење се даје усмено, писано или путем средстава јавног информисања.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan20">
+					<num>20.</num>
+					<heading>Усмено наређење</heading>
+					<paragraph wId="gla4-clan20-stav1">
+						<content>
+							<p>Комунални милиционар усменим наређењем издаје обавезна упутства и забране и налаже мере и радње од којих непосредно зависи успешно обављање послова из делокруга комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav2">
+						<content>
+							<p>Лице којем је издато усмено наређење из <ref wId="ref14" href="akn/rs/act/2019/49-23/srp@/!main~art_20__para_1" >става 1. овог</ref> члана, дужно је да одмах по њему поступи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan20-stav3">
+						<content>
+							<p>Кад комунална милиција предузима хитне мере и врши спасилачку функцију у смислу <ref wId="ref15" href="akn/rs/act/2019/49-23/srp@/!main~art_5" >члана 5. овог</ref> закона, комунални милиционари усмена наређења издају само док те послове не преузму надлежни органи јединице локалне самоуправе и овлашћене организације, и то ради отклањања непосредне опасности за људе и имовину, као и ради неодложне заштите животне средине и друге заштите из делокруга јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan21">
+					<num>21.</num>
+					<heading>Провера идентитета</heading>
+					<paragraph wId="gla4-clan21-stav1">
+						<content>
+							<p>Комунални милиционар извршиће проверу идентитета лица чије понашање или деловање представља кршење прописа из делокруга комуналне милиције, као и лице које се затекне на месту кршења прописа из делокруга комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav2">
+						<content>
+							<p>Под условима из <ref wId="ref16" href="akn/rs/act/2019/49-23/srp@/!main~art_21__para_1" >става 1. овог</ref> члана, комунални милиционар провериће на лицу места идентитет лица и на оправдан усмени захтев службеног лица надлежног органа јединице локалне самоуправе, односно овлашћене организације.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav3">
+						<content>
+							<p>Пре провере идентитета комунални милиционар дужан је да упозна лице са разлозима провере његовог идентитета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan21-stav4">
+						<content>
+							<p>Провера идентитета врши се увидом у личну исправу или на основу изјаве лица чији је идентитет проверен.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan22">
+					<num>22.</num>
+					<heading>Довођење</heading>
+					<paragraph wId="gla4-clan22-stav1">
+						<content>
+							<p>Ако комунални милиционар не може да утврди идентитет лица провером из <ref wId="ref17" href="akn/rs/act/2019/49-23/srp@/!main~art_21" >члана 21. овог</ref> закона то лице ће, без одлагања, довести надлежном органу ради утврђивања идентитета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan22-stav2">
+						<content>
+							<p>Лице затечено у вршењу прекршаја из области која је у делокругу комуналне милиције чији је идентитет утврђен провером идентитета у складу са <ref wId="ref18" href="akn/rs/act/2019/49-23/srp@/!main~art_21" >чланом 21. овог</ref> закона или на начин из <ref wId="ref19" href="akn/rs/act/2019/49-23/srp@/!main~art_22__para_1" >става 1. овог</ref> члана, комунални милиционар може довести надлежном прекршајном суду, уз подношење захтева за покретање прекршајног поступка.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan23">
+					<num>23.</num>
+					<heading>Заустављање и преглед лица, предмета и возила</heading>
+					<paragraph wId="gla4-clan23-stav1">
+						<content>
+							<p>Комунални милиционар овлашћен је да изврши заустављање возила затеченог у кршењу прописа из делокруга комуналне милиције, као и преглед возила, лица и предмета који се у њему налазе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav2">
+						<content>
+							<p>Заустављање и преглед комунални милиционар врши на начин прописан актом којим се уређује примена полицијских овлашћења.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav3">
+						<content>
+							<p>Комунални милиционар може извршити и преглед лица затеченог у кршењу прописа из делокруга комуналне милиције, као и предмета и возила који су под надзором тог лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav4">
+						<content>
+							<p>Пре вршења прегледа предмета комунални милиционар позваће лице да омогући увид у садржај предмета, а ако лице то одбије сам ће проверити садржај предмета.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav5">
+						<content>
+							<p>Приликом принудног отварања предмета комунални милиционар настојаће да проузрокује што мању штету, а ако до штете дође, обезбедиће да се настала оштећења после отварања предмета документују фотографијом или на други погодан начин.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav6">
+						<content>
+							<p>Преглед лица мора вршити лице истог пола.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan23-stav7">
+						<content>
+							<p>Ако комунални милиционар при прегледу нађе предмете за које се основано може претпоставити да су предмет кривичног дела или прекршаја који нису из надлежности комуналне милиције о томе ће одмах обавестити полицију и поступити по добијеним упутствима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan24">
+					<num>24.</num>
+					<heading>Привремено одузимање предмета</heading>
+					<paragraph wId="gla4-clan24-stav1">
+						<content>
+							<p>Комунални милиционар привремено ће одузети предмет који је прибављен, употребљен или настао кршењем прописа из делокруга комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav2">
+						<content>
+							<p>Са привремено одузетим предметима комунални милиционари дужни су да поступају у складу са законом којим се уређује трговина.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav3">
+						<content>
+							<p>У случају кад се против лица од кога је предмет одузет не покрене поступак пред надлежним органом, предмети ће се одмах вратити лицу од кога су одузети.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan24-stav4">
+						<content>
+							<p>Приликом одузимања предмета комунални милиционар дужан је да изда потврду о привремено одузетим предметима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan25">
+					<num>25.</num>
+					<heading>Аудио и видео снимање</heading>
+					<paragraph wId="gla4-clan25-stav1">
+						<content>
+							<p>Комунална милиција врши аудио и видео снимање јавног места, ради обављања комунално-милицијских послова, коришћењем опреме за видео акустичке снимке и фотографисање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav2">
+						<content>
+							<p>Ради примене комунално-милицијских овлашћења, откривања и расветљавања прекршаја, као и контроле и анализе поступања комуналних милиционара, комунална милиција може вршити аудио и видео снимање њиховог поступања.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav3">
+						<content>
+							<p>Ради постизања циљева из <ref wId="ref20" href="akn/rs/act/2019/49-23/srp@/!main~art_25__para_1->para_2" >ст. 1. и 2. овог</ref> члана, комунална милиција може користити возила комуналне милиције, са уређајима за снимање.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav4">
+						<content>
+							<p>Комунална милиција може користити возила комуналне милиције, са уређајима за снимање и у случајевима прописаним <ref wId="ref21" href="akn/rs/act/2019/49-23/srp@/!main~art_4" >чланом 4. овог</ref> закона, када је то од значаја за обављање послова комуналне милиције, овлашћених организација и вршиоца комуналне делатности.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav5">
+						<content>
+							<p>Подаци прикупљени на начин из <ref wId="ref22" href="akn/rs/act/2019/49-23/srp@/!main~art_25__para_1->para_4" >ст. 1</ref>–4. овог члана, чувају се у прописаној евиденцији.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav6">
+						<content>
+							<p>Подаци који се не могу користити у поступку, уништавају се у року од годину дана, oд наступања застарелости за покретање односно, вођење прекршајног поступка, у складу са законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan25-stav7">
+						<content>
+							<p>Начин снимања на јавном месту и начин саопштавања намере о том снимању прописује министар надлежан за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan26">
+					<num>26.</num>
+					<heading>Употреба средстава принуде</heading>
+					<paragraph wId="gla4-clan26-stav1">
+						<content>
+							<p>Средства принуде у смислу овог закона су: физичка снага, средства за везивање, распршивач са надражујућим дејством и службена палица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav2">
+						<content>
+							<p>Средства принуде комунални милиционар може да употреби само ако у обављању послова на други начин од себе или другог не може да одбије истовремени противправни напад, ради савладавања отпора, односно спречавања покушаја бекства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan26-stav3">
+						<content>
+							<p>На начин употребе и ограничења, у вези са употребом средстава принуде као и правну и другу помоћ у вези са њиховом употребом, сходно се примењује закон којим се уређују унутрашњи послови и подзаконски акти о полицијским овлашћењима и начину обављања полицијских послова.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan27">
+					<num>27.</num>
+					<heading>Прикупљање обавештења</heading>
+					<paragraph wId="gla4-clan27-stav1">
+						<content>
+							<p>Комунални милиционар мoжe прикупљати oбaвeштeњa, пoдaткe и инфoрмaциje oд лицa за које се основано претпоставља да располаже истим, у циљу oткривaњa прeкршaja и њихoвих учинилaцa, издавања прекршајног налога и зa oбaвљaњe других пoслoвa комуналне милиције, усменим путем на месту прекршаја или накнадно, писаним путем, у склaду сa зaкoнoм.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan27-stav2">
+						<content>
+							<p>Лице из <ref wId="ref23" href="akn/rs/act/2019/49-23/srp@/!main~art_27__para_1" >става 1. овог</ref> члана обавезно је да на захтев комуналног милиционара достави тражена обавештења, податке и информације.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan28">
+					<num>28.</num>
+					<heading>Начин примене овлашћења комуналне милиције</heading>
+					<paragraph wId="gla4-clan28-stav1">
+						<content>
+							<p>Овлашћења комуналне милиције утврђена одредбама <ref wId="ref24" href="akn/rs/act/2019/49-23/srp@/!main~art_18->art_27" >чл. 18</ref>–27. овог закона примењују се под условима и на начин утврђен законом којим се уређују унутрашњи послови и подзаконским прописима о полицијским овлашћењима и начину обављања полицијских послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav2">
+						<content>
+							<p>Овлашћења комуналне милиције према малолетним лицима примењују комунални милиционари посебно оспособљени за рад са малолетницима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav3">
+						<content>
+							<p>Овлашћења комуналне милиције према малолетном лицу примењују се у присуству родитеља или старатеља тог лица, односно, у случају да су недоступни, у присуству представника органа старатељства.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan28-stav4">
+						<content>
+							<p>Присуство представника органа старатељства уместо родитеља може да се обезбеди, ако је могуће, и у случајевима када би присуство родитеља било штетно за малолетника изложеног насилним или сличним радњама родитеља, или би у значајној мери угрозило извршење задатка комуналне милиције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla4-clan29">
+					<num>29.</num>
+					<heading>Евиденције</heading>
+					<paragraph wId="gla4-clan29-stav1">
+						<content>
+							<p>Комунална милиција води евиденције о поднетим пријавама, петицијама и предлозима грађана, поднетим притужбама на рад комуналних милиционара, употребљеним средствима принуде и другим примењеним овлашћењима, аудио и видео снимцима, привремено одузетим предметима, издатим службеним легитимацијама, опреми и средствима.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav2">
+						<content>
+							<p>Министар надлежан за систем локалне самоуправе прописује садржину и начин вођења евиденције из <ref wId="ref26" href="akn/rs/act/2019/49-23/srp@/!main~art_29__para_1" >става 1. овог</ref> члана као и поступак и начин уништавања података из <ref wId="ref25" href="akn/rs/act/2019/49-23/srp@/!main~art_25__para_6" >члана 25. став 6. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla4-clan29-stav3">
+						<content>
+							<p>На податке о личности садржане у евиденцијама из <ref wId="ref27" href="akn/rs/act/2019/49-23/srp@/!main~art_29__para_1" >става 1. овог</ref> члана примењују се прописи о заштити података о личности.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla5">
+				<num>V</num>
+				<heading>КОНТРОЛА КОМУНАЛНЕ МИЛИЦИЈЕ</heading>
+				<article wId="gla5-clan30">
+					<num>30.</num>
+					<heading>Контрола употребе средстава принуде</heading>
+					<paragraph wId="gla5-clan30-stav1">
+						<content>
+							<p>О употреби средстава принуде комунални милиционар подноси писани извештај начелнику комуналне милиције, односно лицу које начелник овласти да оцењује оправданост и правилност употребе средстава принуде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav2">
+						<content>
+							<p>Извештај се подноси најкасније 24 часа од употребе средстава принуде, а садржи податке о лицу, времену и месту употребе средстава принуде, врсти употребљеног средства принуде и другим чињеницама и околностима од значаја за оцену оправданости и правилности употребе средства принуде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav3">
+						<content>
+							<p>У случају оцене да се ради о неоправданој и неправилној употреби средстава принуде, начелник комуналне милиције предузима законом предвиђене мере ради утврђивања дисциплинске, прекршајне, односно кривичне одговорности комуналног милиционара и одмах о томе обавештава начелника јединственог органа општинске, односно градске управе, односно управе образоване за поједину област у чијем је саставу комунална милиција.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan30-stav4">
+						<content>
+							<p>Оцена из <ref wId="ref28" href="akn/rs/act/2019/49-23/srp@/!main~art_30__para_1" >става 1. овог</ref> члана даје се и мере из <ref wId="ref29" href="akn/rs/act/2019/49-23/srp@/!main~art_30__para_3" >става 3. овог</ref> члана предузимају се без одлагања, а најкасније у року од 15 дана од дана подношења извештаја о употреби средстава принуде.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan31">
+					<num>31.</num>
+					<heading>Подношење извештаја полицији</heading>
+					<paragraph wId="gla5-clan31-stav1">
+						<content>
+							<p>О употреби средстава принуде начелник комуналне милиције обавештава надлежну полицијску управу најкасније у року од 48 часова од употребе средстава принуде.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav2">
+						<content>
+							<p>Ако приликом употребе средстава принуде настане телесна повреда или наступи смрт лица, начелник комуналне милиције подноси о томе писани извештај надлежној полицијској управи.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan31-stav3">
+						<content>
+							<p>Извештај из <ref wId="ref30" href="akn/rs/act/2019/49-23/srp@/!main~art_31__para_2" >става 2. овог</ref> члана садржи: име и презиме и број легитимације комуналног милиционара који је употребио средства принуде; датум, време и место употребе; податке о лицу према коме су средства принуде употребљена; врсту употребљеног средства принуде; разлог употребе; опис догађаја и повреда нанетих лицу или комуналном милиционару; податке о времену и месту пружања медицинске помоћи; податке о штети насталој услед употребе средстава принуде; податке о сведоцима догађаја и материјалним доказима.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan32">
+					<num>32.</num>
+					<heading>Контрола решавањем притужби</heading>
+					<paragraph wId="gla5-clan32-stav1">
+						<content>
+							<p>Комуналној милицији свако може поднети притужбу ако сматра да су му незаконитом или неправилном применом овлашћења комуналног милиционара из <ref wId="ref31" href="akn/rs/act/2019/49-23/srp@/!main~art_18->art_27" >чл. 18</ref>–27. овог закона повређена права.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav2">
+						<content>
+							<p>Притужба се подноси у року од 30 дана од дана када је до повреде дошло, а разматра је и све околности у вези са њом утврђује начелник комуналне милиције или лице које начелник овласти да решава притужбе (у даљем тексту: овлашћено лице).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav3">
+						<content>
+							<p>Овлашћено лице, о свом ставу и евентуалним мерама које је предузео мора подносиоца притужбе да обавести достављањем писаног одговора у року од 15 дана од дана пријема притужбе, чиме је поступак по притужби закључен.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav4">
+						<content>
+							<p>У случајевима кад из притужбе или података прикупљених у поступку код овлашћеног лица произлази сумња да је комунални милиционар применом овлашћења из <ref wId="ref32" href="akn/rs/act/2019/49-23/srp@/!main~art_32__para_1" >става 1. овог</ref> члана учинио кривично дело за које се гони по службеној дужности, овлашћено лице обавештава надлежног јавног тужиоца, а начелник комуналне милиције списе предмета уступа комисији за решавање притужби, која води даљи поступак решавања притужбе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav5">
+						<content>
+							<p>Комисију за решавање притужби образује скупштина јединице локалне самоуправе. У комисију, која се састоји од председника и четири члана, обавезно се именују три одборника скупштине јединице локалне самоуправе, начелник комуналне милиције и представник полиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav6">
+						<content>
+							<p>У поступку разматрања притужбе комисија је овлашћена да од подносиоца притужбе и других лица прикупља потребна обавештења и доказе о чињеницама и околностима на које се притужба односи, као и да од општинске, односно градске управе и полиције тражи потребну помоћ и сарадњу.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav7">
+						<content>
+							<p>Комисија поступак решавања притужбе закључује достављањем одговора подносиоцу притужбе у року од 30 дана од дана истека рока за вођење поступка код овлашћеног лица.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla5-clan32-stav8">
+						<content>
+							<p>Независно од исхода решавања притужбе, подносилац притужбе има на располагању сва правна и друга средства за заштиту својих права и слобода, у складу са законом.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla5-clan33">
+					<num>33.</num>
+					<heading>Подзаконски пропис о контроли комуналне милиције</heading>
+					<paragraph wId="gla5-clan33-stav1">
+						<content>
+							<p>Начин и поступак вршења контроле комуналне милиције, осим унутрашње контроле из <ref wId="ref33" href="akn/rs/act/2019/49-23/srp@/!main~art_15" >члана 15. овог</ref> закона, ближе прописује министар надлежан за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla6">
+				<num>VI</num>
+				<heading>КОМУНАЛНИ МИЛИЦИОНАРИ</heading>
+				<article wId="gla6-clan34">
+					<num>34.</num>
+					<heading>Примена прописа</heading>
+					<paragraph wId="gla6-clan34-stav1">
+						<content>
+							<p>На права и дужности из радног односа комуналних милиционара примењују се прописи који уређују права и дужности из радног односа запослених у јединицама локалне самоуправе, ако овим законом није друкчије уређено.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan35">
+					<num>35.</num>
+					<heading>Заснивање радног односа</heading>
+					<paragraph wId="gla6-clan35-stav1">
+						<intro>
+							<p>Комунални милиционар, поред услова предвиђених прописима из <ref wId="ref34" href="akn/rs/act/2019/49-23/srp@/!main~art_34" >члана 34. овог</ref> закона, мора да испуњава и посебне услове, и то да:</p>
+						</intro>
+						<point wId="gla6-clan35-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> има психофизичку способност потребну за обављање послова комуналне милиције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan35-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> не постоје безбедносне сметње за обављање послова комуналних милиционара;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan35-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> има положен испит за комуналног милиционара (у даљем тексту: испит);</p>
+							</content>
+						</point>
+						<point wId="gla6-clan35-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> има стечено најмање средње образовање у четворогодишњем трајању и најмање једну годину радног искуства у струци.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav2">
+						<content>
+							<p>Психофизичку способност из става 1. тачка <ref wId="ref35" href="akn/rs/act/2019/49-23/srp@/!main~art_35__para_1__point_1" >1</ref>) овог члана утврђује Завод за здравствену заштиту радника Министарства унутрашњих послова и издаје лекарско уверење о томе на начин предвиђен за проверу психофизичке способности полицијских службеника.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav3">
+						<content>
+							<p>Изузетно, у радни однос за обављање послова комуналног милиционара може се примити полицијски службеник у статусу овлашћеног службеног лица, преузимањем из Министарства унутрашњих послова, под условом да испуњава и остале услове предвиђене овим законом.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan35-stav4">
+						<content>
+							<p>На попуњавање радних места комуналних милиционара путем преузимања на основу <ref wId="ref36" href="akn/rs/act/2019/49-23/srp@/!main~art_35__para_3" >става 3. овог</ref> члана, сходно се примењују прописи који се односе на преузимање службеника.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan36">
+					<num>36.</num>
+					<heading>Безбедносна сметња</heading>
+					<paragraph wId="gla6-clan36-stav1">
+						<intro>
+							<p>Безбедносна сметња за заснивање радног односа на пословима комуналног милиционара постоји ако:</p>
+						</intro>
+						<point wId="gla6-clan36-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> се против лица води кривични поступак за кривично дело за које се гони по службеној дужности;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan36-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> је лице правноснажно осуђено за кривично дело за које се гони по службеној дужности;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan36-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> је лице правноснажно кажњено за прекршаје из области јавног реда са елементима насиља и за прекршаје у области прописа којима се уређује набављање, држање и ношење оружја и муниције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan36-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> лице својим навикама, понашањем или склоностима указује да неће бити достојно за рад у комуналној милицији;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan36-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> лице које се проверава у поступку безбедносне провере о себи даје неистините податке, ради прикривања чињеница које би представљале безбедносну сметњу.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan36-stav2">
+						<content>
+							<p>Безбедносна сметња из <ref wId="ref37" href="akn/rs/act/2019/49-23/srp@/!main~art_36__para_1" >става 1. овог</ref> члана утврђује се у поступку вршења безбедносне провере који спроводи организациона јединица министарства надлежног за унутрашње послове, у складу и на начин прописан законом којим се уређују унутрашњи послови и подзаконским актима донетим на основу тог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan37">
+					<num>37.</num>
+					<heading>Стручно оспособљавање</heading>
+					<paragraph wId="gla6-clan37-stav1">
+						<content>
+							<p>Стручно оспособљавање за обављање послова комуналног милиционара спроводи се пре полагања испита за комуналног милиционара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav2">
+						<content>
+							<p>Надлежни орган јединице локалне самоуправе са незапосленим лицем (у даљем тексту: кандидат за комуналног милиционара) закључује уговор о стручном оспособљавању без накнаде, ради стручног оспособљавања за обављање послова комуналног милиционара и полагање испита за комуналног милиционара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav3">
+						<content>
+							<p>Уговор из <ref wId="ref38" href="akn/rs/act/2019/49-23/srp@/!main~art_37__para_2" >става 2. овог</ref> члана закључује се најдуже на годину дана.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav4">
+						<content>
+							<p>Услови и начин избора кандидата за комуналног милиционара за стручно оспособљавање из <ref wId="ref39" href="akn/rs/act/2019/49-23/srp@/!main~art_37__para_1" >става 1. овог</ref> члана, елементи уговора о стручном оспособљавању, као и права и обавезе кандидата за комуналног милиционара и органа јединице локалне самоуправе по окончању стручног оспособљавања и друга питања од значаја за стручно оспособљавање, утврђује надлежни орган јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav5">
+						<content>
+							<p>Програм стручног оспособљавања за обављање послова комуналног милиционара, који обавезно садржи стручно-теоријски део и практични део програма, начин провере стручне оспособљености кандидата за комуналног милиционара, начин вредновања и верификације програма и пројекцију трошкова програма по једном учеснику, споразумно доносе министар надлежан за систем локалне самоуправе и министар надлежан за унутрашње послове.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav6">
+						<content>
+							<p>Програм стручног оспособљавања из <ref wId="ref40" href="akn/rs/act/2019/49-23/srp@/!main~art_37__para_5" >става 5. овог</ref> члана и проверу стручне оспособљености кандидата за комуналног милиционара спроводи министарство надлежно за унутрашње послове, у сарадњи са министарством надлежним за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav7">
+						<content>
+							<p>По спроведеном програму стручног оспособљавања из <ref wId="ref41" href="akn/rs/act/2019/49-23/srp@/!main~art_37__para_5" >става 5. овог</ref> члана и провере стручне оспособљености кандидата за комуналног милиционара, министарство надлежно за унутрашње послове доставља надлежном органу јединице локалне самоуправе уверење (сертификат) о оствареном успеху кандидата за комуналног милиционара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan37-stav8">
+						<content>
+							<p>Трошкови стручног оспособљавања из <ref wId="ref42" href="akn/rs/act/2019/49-23/srp@/!main~art_37__para_1" >става 1. овог</ref> члана обезбеђују се у буџету јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan38">
+					<num>38.</num>
+					<heading>Стручно усавршавање</heading>
+					<paragraph wId="gla6-clan38-stav1">
+						<content>
+							<p>Стручно усавршавање комуналних милиционара остварује се у складу са законом који уређује права и дужности из радног односа запослених у јединицама локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan39">
+					<num>39.</num>
+					<heading>Испит за комуналног милиционара</heading>
+					<paragraph wId="gla6-clan39-stav1">
+						<content>
+							<p>Испит за комуналног милиционара полаже кандидат за комуналног милиционара који је успешно завршио програм стручног оспособљавања из <ref wId="ref43" href="akn/rs/act/2019/49-23/srp@/!main~art_37__para_5" >члана 37. став 5. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav2">
+						<content>
+							<p>Испит за комуналног милиционара полажу и лица из <ref wId="ref44" href="akn/rs/act/2019/49-23/srp@/!main~art_35__para_3" >члана 35. став 3. овог</ref> закона у року од шест месеци од дана заснивања радног односа.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav3">
+						<content>
+							<p>Испит за комуналног милиционара спроводи комисија, коју образује министар надлежан за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav4">
+						<content>
+							<p>Програм и начин полагања испита за комуналног милиционара, састав и начин рада комисије за спровођење испита за комуналног милиционара, трошкове спровођења испита за комуналног милиционара, изглед и садржину обрасца уверења о положеном испиту за комуналног милиционара, начин издавања уверења о положеном испиту за комуналног милиционара и облик, начин уписа и вођења евиденције о положеном испиту за комуналног милиционара, ближе уређује министар надлежан за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav5">
+						<content>
+							<p>Висина таксе за полагање испита из <ref wId="ref45" href="akn/rs/act/2019/49-23/srp@/!main~art_39__para_1" >става 1. овог</ref> члана, утврђује се законом којим се уређују републичке административне таксе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav6">
+						<content>
+							<p>Министарство надлежно за систем локалне самоуправе води евиденцију о положеном испиту за комуналног милиционара, у коју се уписује: име и презиме кандидата; јединствени матични број грађана; назив високошколске установе, ниво и врста стеченог образовања и стручни назив, односно назив завршене средње школе и образовни профил; орган општине, односно града са којим је кандидат закључио уговор о стручном оспособљавању, односно код кога је запослен; број и датум решења којим је одобрено полагање испита за комуналног милиционара; датум полагања испита; подаци о општем успеху на испиту и број и датум издатог уверења о положеном испиту за комуналног милиционара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav7">
+						<content>
+							<p>Министарство надлежно за систем локалне самоуправе издаје уверење о положеном испиту за комуналног милиционара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan39-stav8">
+						<content>
+							<p>Уверење из <ref wId="ref46" href="akn/rs/act/2019/49-23/srp@/!main~art_39__para_7" >става 7. овог</ref> члана садржи следеће податке: име и презиме кандидата који је положио испит за комуналног милиционара; датум и место рођења; јединствени матични број грађана; назив високошколске установе, ниво и врста стеченог образовања и стручни назив, односно назив завршене средње школе и образовни профил и датум полагања испита за комуналног милиционара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan40">
+					<num>40.</num>
+					<heading>Провера практичне оспособљености за обављање послова комуналног милиционара</heading>
+					<paragraph wId="gla6-clan40-stav1">
+						<content>
+							<p>Провера практичне оспособљености комуналних милиционара која је уређена програмом стручног оспособљавања из <ref wId="ref47" href="akn/rs/act/2019/49-23/srp@/!main~art_37__para_5" >члана 37. став 5. овог</ref> закона спроводи се најмање једном у три године, на захтев надлежног органа јединице локалне самоуправе или министарства надлежног за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan40-stav2">
+						<content>
+							<p>Проверу практичне оспособљености комуналних милиционара врши министарство надлежно за унутрашње послове, које доноси план и програм провере оспособљености комуналних милиционара, са пројекцијом трошкова програма по једном учеснику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan40-stav3">
+						<content>
+							<p>Извештај о извршеној провери практичне оспособљености који обавезно садржи појединачни остварени успех комуналних милиционара који су похађали програм из <ref wId="ref48" href="akn/rs/act/2019/49-23/srp@/!main~art_40__para_2" >става 2. овог</ref> члана, доставља се надлежном органу јединице локалне самоуправе и министарству надлежном за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan40-stav4">
+						<content>
+							<p>Трошкови провере практичне оспособљености комуналних милиционара обезбеђују се у буџету јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan41">
+					<num>41.</num>
+					<heading>Провера психофизичке способности</heading>
+					<paragraph wId="gla6-clan41-stav1">
+						<content>
+							<p>По налогу председника општине, односно градоначелника, начелник комуналне милиције, а по налогу начелника комуналне милиције, комунални милиционар дужан је да се подвргне провери психофизичке способности потребне за обављање послова комуналне милиције и да у року од 15 дана од дана пријема налога достави градоначелнику, односно председнику општине, односно начелнику комуналне милиције лекарско уверење здравствене установе из <ref wId="ref49" href="akn/rs/act/2019/49-23/srp@/!main~art_35__para_2" >члана 35. став 2. овог</ref> закона као доказ да има психофизичку способност потребну за обављање послова комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan41-stav2">
+						<content>
+							<p>Налог из <ref wId="ref51" href="akn/rs/act/2019/49-23/srp@/!main~art_41__para_1" >става 1. овог</ref> члана издаје се у писменом облику и мора да садржи назив и адресу здравствене установе из <ref wId="ref50" href="akn/rs/act/2019/49-23/srp@/!main~art_35__para_2" >члана 35. став 2. овог</ref> закона, разлог, место и време лекарског прегледа ради утврђивања психофизичке способности за даље обављање послова комуналне милиције.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan41-stav3">
+						<content>
+							<p>Лекарски преглед из <ref wId="ref52" href="akn/rs/act/2019/49-23/srp@/!main~art_41__para_2" >става 2. овог</ref> члана обавља се о трошку јединице локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan42">
+					<num>42.</num>
+					<heading>Провера безбедносних сметњи</heading>
+					<paragraph wId="gla6-clan42-stav1">
+						<content>
+							<p>По налогу председника општине, односно градоначелника, за начелника комуналне милиције, а по налогу начелника комуналне милиције или руководиоца унутрашње контроле за комуналног милиционара, може се изузетно спровести безбедносна провера из <ref wId="ref53" href="akn/rs/act/2019/49-23/srp@/!main~art_36__para_2" >члана 36. став 2. овог</ref> закона, ради утврђивања постојања, односно непостојања безбедносних сметњи из <ref wId="ref54" href="akn/rs/act/2019/49-23/srp@/!main~art_36__para_1" >члана 36. став 1. овог</ref> закона, за даље обављање послова комуналног милиционара.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan43">
+					<num>43.</num>
+					<heading>Повреде дужности из радног односа</heading>
+					<paragraph wId="gla6-clan43-stav1">
+						<content>
+							<p>Повреде дужности из радног односа, као и дисциплински поступак и врсте дисциплинских мера које могу да се изрекну запосленом прописане су законом којим се уређују права и дужности из радног односа запослених у органима јединица локалне самоуправе, ако овим законом није другачије уређено.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan43-stav2">
+						<content>
+							<p>У дисциплинском поступку за утврђивање одговорности комуналних милиционара могу се користити аудио и видео снимци прикупљени на начин прописан <ref wId="ref55" href="akn/rs/act/2019/49-23/srp@/!main~art_25" >чланом 25. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan44">
+					<num>44.</num>
+					<heading>Teжe пoврeдe дужнoсти из радног односа</heading>
+					<paragraph wId="gla6-clan44-stav1">
+						<intro>
+							<p>Пoрeд тeжих пoврeдa дужнoсти из радног односа утврђeних законом којим се уређују права и дужности из радног односа запослених у јединицама локалне самоуправе, тeжe пoврeдe дужности из радног односа зa кoje je одговоран припадник кoмунaлнe милиције јесу и:</p>
+						</intro>
+						<point wId="gla6-clan44-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> нeзaкoнитa упoтрeбa срeдстaвa принудe;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> дaвaњe пoдaтaкa нeoвлaшћeним лицимa;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> сaмoвoљнo нaпуштaњe места рада одређеног за обављање комунално милицијских послова или мeстa oдрeђeнoг зa припрaвнoст;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> свaкa рaдњa, oднoснo прoпуштaњe рaдњe кojoм сe oнeмoгућaвa или oтeжaвa извршaвaњe службeних зaдaтaкa;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac5">
+							<num>5)</num>
+							<content>
+								<p> нeпрeдузимaњe мeрa или нeпружaњe пoмoћи, у oквиру свojих службeних oбaвeзa, oргaнимa града, oпштинe и jaвним службaмa кoje oснивa јединица локалне самоуправе;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac6">
+							<num>6)</num>
+							<content>
+								<p> издaвaњe нaрeђeњa чиje би извршeњe прeдстaвљaлo кривичнo дeлo;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac7">
+							<num>7)</num>
+							<content>
+								<p> прикривaњe извршeњa тeжe пoврeдe службeних дужнoсти oд стрaнe нeпoсрeднoг рукoвoдиoцa;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac8">
+							<num>8)</num>
+							<content>
+								<p> нoшeњe унифoрмe вaн рaднoг врeмeнa бeз сaглaснoсти нaчeлникa кoмунaлнe милициje, односно неовлашћено поступање без униформе;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac9">
+							<num>9)</num>
+							<content>
+								<p> непоштовање обавезних упутстава начелника комуналне милиције;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac10">
+							<num>10)</num>
+							<content>
+								<p> непоступање по налогу службеника унутрашње контроле;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav1-tac11">
+							<num>11)</num>
+							<content>
+								<p> одбијање лекарског прегледа из <ref wId="ref56" href="akn/rs/act/2019/49-23/srp@/!main~art_41" >члана 41. овог</ref> закона.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan44-stav2">
+						<content>
+							<p>Рaспoрeђивaњe вaн кoмунaлнe милиције</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan44-stav3">
+						<content>
+							<p>Члaн 45.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan44-stav4">
+						<intro>
+							<p>Вaн кoмунaлнe милиције, нa рaднo мeстo кoje oдгoвaрa њeгoвoj стручнoj спрeми и за које испуњава све друге услове за рад, рaспoрeђуje сe кoмунaлни милиционар:</p>
+						</intro>
+						<point wId="gla6-clan44-stav4-tac1">
+							<num>1)</num>
+							<content>
+								<p> који не оствари успех у провери оспособљености за обављање послова комуналног милиционара из <ref wId="ref57" href="akn/rs/act/2019/49-23/srp@/!main~art_40" >члана 40. овог</ref> закона;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav4-tac2">
+							<num>2)</num>
+							<content>
+								<p> који прeстaнe дa испуњaвa услoвe у пoглeду психoфизичких спoсoбнoсти пoтрeбних зa oбaвљaњe пoслoвa кoмунaлнe милиције из члaнa 35. стaв 1. тaчкa 1) oвoг зaкoнa;</p>
+							</content>
+						</point>
+						<point wId="gla6-clan44-stav4-tac3">
+							<num>3)</num>
+							<content>
+								<p> за кога се у поступку безбедносне провере утврди постојање безбедносне сметње из <ref wId="ref58" href="akn/rs/act/2019/49-23/srp@/!main~art_36__para_1" >члана 36. став 1. овог</ref> закона.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla6-clan44-stav5">
+						<content>
+							<p>Пoд услoвимa из стaвa 1. овoг члaнa вaн кoмунaлнe милиције, нa рaднo мeстo кoje oдгoвaрa њeгoвoj стручнoj спрeми и за које испуњава све друге услове за рад, рaспoрeђуje сe и нaчeлник кoмунaлнe милиције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan46">
+					<num>46.</num>
+					<heading>Престанак радног односа по сили закона</heading>
+					<paragraph wId="gla6-clan46-stav1">
+						<content>
+							<p>Ако одговарајуће радно место за распоређивање из <ref wId="ref59" href="akn/rs/act/2019/49-23/srp@/!main~art_45" >члана 45. овог</ref> закона не постоји или се комунални милиционар, односно начелник комуналне милиције не сагласи са својим распоређивањем, престаје му радни однос.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan47">
+					<num>47.</num>
+					<heading>Униформа и ознака на униформи</heading>
+					<paragraph wId="gla6-clan47-stav1">
+						<content>
+							<p>Кад обавља послове комунални милиционар носи службену униформу са ознакама, осим у случају предвиђеном у <ref wId="ref60" href="akn/rs/act/2019/49-23/srp@/!main~art_3__para_3" >члану 3. став 3. овог</ref> закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan47-stav2">
+						<content>
+							<p>Ознаке на униформи састоје се од назива комуналне милиције и јединице локалне самоуправе, презимена, идентификационог броја и ознаке положаја комуналног милиционара и од грба јединице локалне самоуправе постављеног на одговарајућој подлози.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan47-stav3">
+						<content>
+							<p>Изглед униформе и ознака на униформи комуналних милиционара и начин ношења униформе, прописује јединица локалне самоуправе, по претходно добијеној сагласности министарства надлежног за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan47-stav4">
+						<content>
+							<p>Боја и изглед униформе и ознаке на униформи комуналне милиције морају се јасно разликовати од боје и изгледа униформе и ознака на униформи која је прописана за припаднике министарства унутрашњих послова.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan47-stav5">
+						<content>
+							<p>Искључиво право ношења тамно-плаве униформе, у односу на друге државне органе и јавна предузећа, као и у односу на правна и физичка лица на која се примењују одредбе о приватном обезбеђењу, имају полицијски службеници, као и припадници ватрогасно-спасилачких јединица, полазници за основну полицијску обуку, студенти Криминалистичко-полицијског универзитета и приправници за полицијске службенике у статусу овлашћених службених лица који полицијске послове обављају у униформи.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan48">
+					<num>48.</num>
+					<heading>Службена легитимација</heading>
+					<paragraph wId="gla6-clan48-stav1">
+						<content>
+							<p>Комунални милиционар има службену легитимацију којом се представља, показујући је пре примене овлашћења на захтев лица према коме овлашћење примењује.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav2">
+						<content>
+							<p>Службену легитимацију издаје председник општине, односно градоначелник, када комунални милиционар стекне право да самостално обавља послове комуналног милиционара.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav3">
+						<content>
+							<p>У случају престанка радног односа у комуналној милицији комунални милиционар дужан је да службену легитимацију преда председнику општине, односно градоначелнику.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav4">
+						<content>
+							<p>Службена легитимација мора да садржи податке о службеном својству и овлашћењима комуналног милиционара и његове идентификационе податке.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan48-stav5">
+						<content>
+							<p>Боју, облик, саставне делове, обрасце службених легитимација, као и текст овлашћења комуналних милиционара, прописује министар надлежан за систем локалне самоуправе.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla6-clan49">
+					<num>49.</num>
+					<heading>Возила, пловила и опрема</heading>
+					<paragraph wId="gla6-clan49-stav1">
+						<content>
+							<p>Ради обављања послова из своје надлежности комунални милиционари употребљавају службена возила и посебну опрему, а на водном подручју које је у надлежности јединице локалне самоуправе могу употребљавати и службена пловила.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav2">
+						<content>
+							<p>Ознаке на службеним возилима и пловилима састоје се од назива комуналне милиције и јединице локалне самоуправе и од грба јединице локалне самоуправе, нанетог у прописаним димензијама.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla6-clan49-stav3">
+						<content>
+							<p>Боју и начин означавања возила и пловила, као и опрему комуналне милиције, прописује јединица локалне самоуправе, по претходно прибављеној сагласности министра надлежног за локалну самоуправу.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla7">
+				<num>VII</num>
+				<heading>ЗАШТИТА КОМУНАЛНИХ МИЛИЦИОНАРА</heading>
+				<article wId="gla7-clan50">
+					<num>50.</num>
+					<heading>Заштита униформе и ознака</heading>
+					<paragraph wId="gla7-clan50-stav1">
+						<content>
+							<p>Државни органи, привредна друштва, предузетници, удружења и друга правна и физичка лица не смеју да репродукују или употребљавају униформе и ознаке које су по боји и ознакама исте или сличне униформи и ознакама комуналне милиције, односно које могу да изазову забуну да се ради о униформи или ознакама комуналне милиције, као ни да репродукују и употребљавају возила и пловила која су означена исто или слично као возила и пловила комуналне милиције, односно која могу да изазову забуну да се ради о возилу и пловилу комуналне милиције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan51">
+					<num>51.</num>
+					<heading>Прекршаји</heading>
+					<paragraph wId="gla7-clan51-stav1">
+						<intro>
+							<p>За ометање или спречавање комуналног милиционара у обављању послова комуналне милиције утврђених у <ref wId="ref61" href="akn/rs/act/2019/49-23/srp@/!main~art_18" >члану 18. овог</ref> закона, казниће се за прекршај:</p>
+						</intro>
+						<point wId="gla7-clan51-stav1-tac1">
+							<num>1)</num>
+							<content>
+								<p> правно лице – новчаном казном у износу од 100.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan51-stav1-tac2">
+							<num>2)</num>
+							<content>
+								<p> предузетник – новчаном казном у износу од 30.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan51-stav1-tac3">
+							<num>3)</num>
+							<content>
+								<p> одговорно лице у правном лицу – новчаном казном у износу од 20.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan51-stav1-tac4">
+							<num>4)</num>
+							<content>
+								<p> физичко лице – новчаном казном у износу од 20.000 динара.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav2">
+						<intro>
+							<p>За поступање противно <ref wId="ref62" href="akn/rs/act/2019/49-23/srp@/!main~art_20__para_2" >члану 20. став 2. </ref>и <ref wId="ref63" href="akn/rs/act/2019/49-23/srp@/!main~art_27__para_2" >члану 27. став 2. овог</ref> закона казниће се за прекршај:</p>
+						</intro>
+						<point wId="gla7-clan51-stav2-tac1">
+							<num>1)</num>
+							<content>
+								<p> правно лице – новчаном казном у износу од 50.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan51-stav2-tac2">
+							<num>2)</num>
+							<content>
+								<p> предузетник – новчаном казном у износу од 25.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan51-stav2-tac3">
+							<num>3)</num>
+							<content>
+								<p> одговорно лице у правном лицу – новчаном казном у износу од 10.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan51-stav2-tac4">
+							<num>4)</num>
+							<content>
+								<p> физичко лице – новчаном казном у износу од 10.000 динара.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav3">
+						<intro>
+							<p>За поступање противно <ref wId="ref64" href="akn/rs/act/2019/49-23/srp@/!main~art_50" >члану 50. овог</ref> закона казниће се за прекршај:</p>
+						</intro>
+						<point wId="gla7-clan51-stav3-tac1">
+							<num>1)</num>
+							<content>
+								<p> правно лице, односно предузетник – новчаном казном у износу од 100.000 до 500.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan51-stav3-tac2">
+							<num>2)</num>
+							<content>
+								<p> одговорно лице у правном лицу – новчаном казном у износу од 10.000 до 50.000 динара;</p>
+							</content>
+						</point>
+						<point wId="gla7-clan51-stav3-tac3">
+							<num>3)</num>
+							<content>
+								<p> физичко лице – новчаном казном у износу од 10.000 до 50.000 динара.</p>
+							</content>
+						</point>
+					</paragraph>
+					<paragraph wId="gla7-clan51-stav4">
+						<content>
+							<p>Уз казну за поновљени прекршај из <ref wId="ref65" href="akn/rs/act/2019/49-23/srp@/!main~art_51__para_2" >става 2. овог</ref> члана, који учини у року од годину дана од дана правноснажности претходне одлуке којом му је изречена новчана казна за исту врсту прекршаја, учиниоцу ће се изрећи и заштитна мера забране правном лицу да врши одређене делатности и забране одговорном лицу да врши одређене послове или забране вршења одређених делатности, у вези са којом је извршио прекршај.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla7-clan52">
+					<num>52.</num>
+					<heading>Кривичноправна заштита</heading>
+					<paragraph wId="gla7-clan52-stav1">
+						<content>
+							<p>Комунални милиционар у обављању службене дужности има статус службеног лица и ужива кривичноправну заштиту прописану законом.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+			<chapter wId="gla8">
+				<num>VIII</num>
+				<heading>ПРЕЛАЗНЕ И ЗАВРШНЕ ОДРЕДБЕ</heading>
+				<article wId="gla8-clan53">
+					<num>53.</num>
+					<heading>Престанак важења Закона о комуналној полицији</heading>
+					<paragraph wId="gla8-clan53-stav1">
+						<content>
+							<p>Даном ступања на снагу овог закона престаје да важи Закон о комуналној полицији („Службени гласник РС”, број <ref wId="ref66" href="akn/rs/act/09/51/srp@">51/09</ref>).</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan53-stav2">
+						<content>
+							<p>Комунална полиција даном ступања на снагу овог закона, наставља са радом као комунална милиција, а запослени у статусу комуналног полицајца, односно начелника комуналне полиције наставља са радом као комунални милиционар, односно, начелник комуналне милиције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan54">
+					<num>54.</num>
+					<heading>Рокови за доношење прописа органа државне управе</heading>
+					<paragraph wId="gla8-clan54-stav1">
+						<content>
+							<p>Прописи за спровођење овог закона које доноси министар надлежан за систем локалне самоуправе биће донети у року од годину дана од дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+					<paragraph wId="gla8-clan54-stav2">
+						<content>
+							<p>Прописи донети за спровођење Закона о комуналној полицији („Службени гласник РС”, број <ref wId="ref67" href="akn/rs/act/09/51/srp@">51/09</ref>) настављају да се примењују до доношења одговарајућих прописа утврђених овим законом, ако нису у супротности са одредбама овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan55">
+					<num>55.</num>
+					<heading>Рокови за доношење аката и прописа органа јединице локалне самоуправе</heading>
+					<paragraph wId="gla8-clan55-stav1">
+						<content>
+							<p>У јединицама локалне самоуправе које образују комуналну милицију у складу са овим законом, општинско, односно градско веће донеће први стратешки план комуналне милиције у року од две године од дана ступања на снагу акта о образовању и унутрашњем уређењу комуналне милиције, а прописе из <ref wId="ref68" href="akn/rs/act/2019/49-23/srp@/!main~art_7__para_3" >члана 7. став 3, </ref><ref wId="ref69" href="akn/rs/act/2019/49-23/srp@/!main~art_47__para_3" >члана 47. став 3. </ref>и <ref wId="ref70" href="akn/rs/act/2019/49-23/srp@/!main~art_49__para_3" >члана 49. став 3. овог</ref> закона, донеће надлежни орган јединице локалне самоуправе, у року од три месеца од доношења акта о образовању и унутрашњем уређењу комуналне милиције.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan56">
+					<num>56.</num>
+					<heading>Рок за промену назива и ознака</heading>
+					<paragraph wId="gla8-clan56-stav1">
+						<content>
+							<p>Јединице локалне самоуправе које су до ступања на снагу овог закона образовале службу комуналне полиције, дужне су да изврше одговарајућу промену назива, боје униформе и ознака најкасније до истека рока утврђеног Законом о изменама и допунама Закона о полицији („Службени гласник РСˮ, број <ref wId="ref71" href="akn/rs/act/18/24/srp@">24/18</ref>).</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan57">
+					<num>57.</num>
+					<heading>Окончање започетих поступака стручног оспособљавања и испита</heading>
+					<paragraph wId="gla8-clan57-stav1">
+						<content>
+							<p>Стручно оспособљавање и испит за обављање послова и примену овлашћења комуналног милиционара који нису окончани до дана ступања на снагу овог закона, окончаће се према одредбама закона и подзаконских аката који су се примењивали до дана ступања на снагу овог закона.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan58">
+					<num>58.</num>
+					<heading>Планирање средстава за рад комуналне милиције</heading>
+					<paragraph wId="gla8-clan58-stav1">
+						<content>
+							<p>За спровођење одлуке о образовању комуналне милиције, у складу са овим законом, као и за финансирање рада комуналне милиције, морају бити обезбеђена средства у буџету јединице локалне самоуправе, односно не могу се стварати додатне финансијске обавезе за буџет Републике Србије за ове намене.</p>
+						</content>
+					</paragraph>
+				</article>
+				<article wId="gla8-clan59">
+					<num>59.</num>
+					<heading>Ступање на снагу</heading>
+					<paragraph wId="gla8-clan59-stav1">
+						<content>
+							<p>Овај закон ступа на снагу осмог дана од дана објављивања у „Службеном гласнику Републике Србије”.</p>
+						</content>
+					</paragraph>
+				</article>
+			</chapter>
+		</body>
+	</act>
+</akomaNtoso>
