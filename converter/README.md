@@ -71,4 +71,4 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
     :return: Labeled xml string
     """
 ```
-
+Github repozitorijum gde se originalno nalaze sve izmene https://github.com/Gorluxor/MasterProject/
