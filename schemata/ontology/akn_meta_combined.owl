@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined"
+     xml:base="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined">
-    <Prefix name="" IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined"/>
+     ontologyIRI="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl">
+    <Prefix name="" IRI="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -70,10 +70,37 @@
         <Class IRI="#EventType"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#FRBRExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FRBRItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FRBRManifestation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FRBRWork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FRBRcountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FRBRformat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FRBRlanguage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FRBRsubtype"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#FRBRtype"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Gazette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generator"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Group"/>
@@ -82,58 +109,34 @@
         <Class IRI="#Subregister"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
+        <Class IRI="#TLCConcept"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRItem"/>
+        <Class IRI="#TLCEvent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
+        <Class IRI="#TLCLocation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <Class IRI="#TLCObject"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
+        <Class IRI="#TLCOrganization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRformat"/>
+        <Class IRI="#TLCPerson"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRlanguage"/>
+        <Class IRI="#TLCProcess"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
+        <Class IRI="#TLCReference"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCConcept"/>
+        <Class IRI="#TLCRole"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCLocation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCObject"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCOrganization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCPerson"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCProcess"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCReference"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCTerm"/>
+        <Class IRI="#TLCTerm"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://purl.org/vocab/frbr/core#abridgement"/>
@@ -390,11 +393,11 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Concept"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCConcept"/>
+        <Class IRI="#TLCConcept"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#CorporateBody"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCOrganization"/>
+        <Class IRI="#TLCOrganization"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Endeavour"/>
@@ -407,11 +410,11 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Event"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
+        <Class IRI="#FRBRExpression"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Expression"/>
@@ -443,7 +446,7 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRItem"/>
+        <Class IRI="#FRBRItem"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Item"/>
@@ -471,7 +474,7 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
+        <Class IRI="#FRBRManifestation"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Manifestation"/>
@@ -503,19 +506,19 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Object"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCObject"/>
+        <Class IRI="#TLCObject"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Person"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCPerson"/>
+        <Class IRI="#TLCPerson"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Place"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCLocation"/>
+        <Class IRI="#TLCLocation"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <Class IRI="#FRBRWork"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
@@ -578,19 +581,247 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Assembly"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCOrganization"/>
+        <Class IRI="#TLCOrganization"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Author"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
+        <Class IRI="#TLCRole"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Editor"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
+        <Class IRI="#TLCRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRExpression"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_language"/>
+            <Class IRI="#FRBRlanguage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRExpression"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_related_event"/>
+            <Class IRI="#TLCEvent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRExpression"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_language"/>
+            <Class IRI="#FRBRlanguage"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRExpression"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_related_event"/>
+            <Class IRI="#TLCEvent"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRExpression"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_date"/>
+            <Datatype abbreviatedIRI="xsd:date"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRExpression"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#has_date"/>
+            <Datatype abbreviatedIRI="xsd:date"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRManifestation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_related_event"/>
+            <Class IRI="#TLCEvent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRManifestation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_in_format"/>
+            <Class IRI="#FRBRformat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRManifestation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_related_event"/>
+            <Class IRI="#TLCEvent"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRManifestation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_in_format"/>
+            <Class IRI="#FRBRformat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRManifestation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#content"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRManifestation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_date"/>
+            <Datatype abbreviatedIRI="xsd:date"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRManifestation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#content"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRManifestation"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#has_date"/>
+            <Datatype abbreviatedIRI="xsd:date"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_area"/>
+            <Class IRI="#Area"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_country"/>
+            <Class IRI="#FRBRcountry"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_group"/>
+            <Class IRI="#Group"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_related_event"/>
+            <Class IRI="#TLCEvent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_subregister"/>
+            <Class IRI="#Subregister"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_of_subtype"/>
+            <Class IRI="#FRBRsubtype"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_area"/>
+            <Class IRI="#Area"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_country"/>
+            <Class IRI="#FRBRcountry"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_group"/>
+            <Class IRI="#Group"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_related_event"/>
+            <Class IRI="#TLCEvent"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#has_subregister"/>
+            <Class IRI="#Subregister"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_of_subtype"/>
+            <Class IRI="#FRBRsubtype"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_date"/>
+            <Datatype abbreviatedIRI="xsd:date"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#has_number"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#has_date"/>
+            <Datatype abbreviatedIRI="xsd:date"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#has_name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FRBRWork"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#has_number"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Gazette"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCOrganization"/>
+        <Class IRI="#TLCOrganization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generator"/>
+        <Class IRI="#TLCRole"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Group"/>
@@ -608,280 +839,56 @@
         <Class IRI="#Concept"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_language"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRlanguage"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_related_event"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_language"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRlanguage"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_related_event"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#has_date"/>
-            <Datatype abbreviatedIRI="xsd:date"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#has_date"/>
-            <Datatype abbreviatedIRI="xsd:date"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_related_event"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#is_in_format"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRformat"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_related_event"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#is_in_format"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRformat"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#content"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#has_date"/>
-            <Datatype abbreviatedIRI="xsd:date"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#content"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#has_date"/>
-            <Datatype abbreviatedIRI="xsd:date"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_area"/>
-            <Class IRI="#Area"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_country"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_group"/>
-            <Class IRI="#Group"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_related_event"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_subregister"/>
-            <Class IRI="#Subregister"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#is_of_subtype"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_area"/>
-            <Class IRI="#Area"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_country"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_group"/>
-            <Class IRI="#Group"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_related_event"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#has_subregister"/>
-            <Class IRI="#Subregister"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#is_of_subtype"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#has_date"/>
-            <Datatype abbreviatedIRI="xsd:date"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#has_name"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#has_number"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#has_date"/>
-            <Datatype abbreviatedIRI="xsd:date"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#has_name"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
-        <DataAllValuesFrom>
-            <DataProperty IRI="#has_number"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#has_responsible_role"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
+            <Class IRI="#TLCRole"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#is_of_event_type"/>
             <Class IRI="#EventType"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#has_responsible_role"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
+            <Class IRI="#TLCRole"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#is_of_event_type"/>
             <Class IRI="#EventType"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#has_date"/>
             <Datatype abbreviatedIRI="xsd:date"/>
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
         <DataAllValuesFrom>
             <DataProperty IRI="#has_date"/>
             <Datatype abbreviatedIRI="xsd:date"/>
         </DataAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
+        <Class IRI="#TLCRole"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#is_role_of"/>
             <Class IRI="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
+        <Class IRI="#TLCRole"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#is_role_of"/>
             <Class IRI="http://purl.org/vocab/frbr/core#ResponsibleEntity"/>
@@ -1460,71 +1467,71 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_area"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <Class IRI="#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_country"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <Class IRI="#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_group"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <Class IRI="#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_language"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
+        <Class IRI="#FRBRExpression"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_related_event"/>
         <ObjectUnionOf>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
-            <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+            <Class IRI="#FRBRExpression"/>
+            <Class IRI="#FRBRManifestation"/>
+            <Class IRI="#FRBRWork"/>
         </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_responsible_role"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#has_subregister"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <Class IRI="#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hierarchical_relation"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCOrganization"/>
+        <Class IRI="#TLCOrganization"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_embodied_in"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
+        <Class IRI="#FRBRExpression"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_exemplified_by"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
+        <Class IRI="#FRBRManifestation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_in_format"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
+        <Class IRI="#FRBRManifestation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_of_event_type"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_of_subtype"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <Class IRI="#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_of_type"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <Class IRI="#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_realized_through"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRWork"/>
+        <Class IRI="#FRBRWork"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_role_of"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
+        <Class IRI="#TLCRole"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#semanticRelation"/>
@@ -1644,7 +1651,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_country"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRcountry"/>
+        <Class IRI="#FRBRcountry"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_group"/>
@@ -1652,15 +1659,15 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_language"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRlanguage"/>
+        <Class IRI="#FRBRlanguage"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_related_event"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCEvent"/>
+        <Class IRI="#TLCEvent"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_responsible_role"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCRole"/>
+        <Class IRI="#TLCRole"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has_subregister"/>
@@ -1668,19 +1675,19 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hierarchical_relation"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#TLCOrganization"/>
+        <Class IRI="#TLCOrganization"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_embodied_in"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRManifestation"/>
+        <Class IRI="#FRBRManifestation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_exemplified_by"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRItem"/>
+        <Class IRI="#FRBRItem"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_in_format"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRformat"/>
+        <Class IRI="#FRBRformat"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_of_event_type"/>
@@ -1688,7 +1695,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_of_subtype"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRsubtype"/>
+        <Class IRI="#FRBRsubtype"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_of_type"/>
@@ -1696,7 +1703,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_realized_through"/>
-        <Class IRI="http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#FRBRExpression"/>
+        <Class IRI="#FRBRExpression"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_role_of"/>
@@ -2091,11 +2098,6 @@ This property describes works that are intended to be an imitation another origi
         <Literal xml:lang="en">is owner of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#note"/>
-        <IRI>http://purl.org/vocab/frbr/core#part</IRI>
-        <Literal xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.org/vocab/frbr/core#part</IRI>
         <Literal xml:lang="en">A part of an endeavour.</Literal>
@@ -2107,7 +2109,7 @@ This property describes works that are intended to be an imitation another origi
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#note"/>
-        <IRI>http://purl.org/vocab/frbr/core#partOf</IRI>
+        <IRI>http://purl.org/vocab/frbr/core#part</IRI>
         <Literal xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2119,6 +2121,11 @@ This property describes works that are intended to be an imitation another origi
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.org/vocab/frbr/core#partOf</IRI>
         <Literal xml:lang="en">is part of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#note"/>
+        <IRI>http://purl.org/vocab/frbr/core#partOf</IRI>
+        <Literal xml:lang="en">Unlike the FRBR version in RDF http://vocab.org/frbr/core.html the present version defines partonomy relationships transitive.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2407,11 +2414,6 @@ It allows to refer to a literal translation, in which the intent is to render th
         <Literal>2008-05-xx</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#definition"/>
-        <IRI>#Concept</IRI>
-        <Literal xml:lang="en">An abstract idea or notion; a unit of thought.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>#Concept</IRI>
         <IRI>http://www.w3.org/2008/05/skos</IRI>
@@ -2422,14 +2424,14 @@ It allows to refer to a literal translation, in which the intent is to render th
         <Literal xml:lang="en">Concept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#Concept</IRI>
+        <Literal xml:lang="en">An abstract idea or notion; a unit of thought.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
         <IRI>#broader</IRI>
         <Literal>2008-05-xx</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#definition"/>
-        <IRI>#broader</IRI>
-        <Literal xml:lang="en">A concept that is more general in meaning.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2452,14 +2454,14 @@ It allows to refer to a literal translation, in which the intent is to render th
         <Literal xml:lang="en">has broader</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#broader</IRI>
+        <Literal xml:lang="en">A concept that is more general in meaning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
         <IRI>#broaderTransitive</IRI>
         <Literal>2008-05-xx</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#definition"/>
-        <IRI>#broaderTransitive</IRI>
-        <Literal>skos:broaderTransitive is a transitive superproperty of skos:broader.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2477,14 +2479,14 @@ It allows to refer to a literal translation, in which the intent is to render th
         <Literal xml:lang="en">broader transitive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#broaderTransitive</IRI>
+        <Literal>skos:broaderTransitive is a transitive superproperty of skos:broader.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
         <IRI>#narrower</IRI>
         <Literal>2008-05-xx</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#definition"/>
-        <IRI>#narrower</IRI>
-        <Literal xml:lang="en">A concept that is more specific in meaning.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2507,14 +2509,14 @@ It allows to refer to a literal translation, in which the intent is to render th
         <Literal xml:lang="en">has narrower</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#narrower</IRI>
+        <Literal xml:lang="en">A concept that is more specific in meaning.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
         <IRI>#narrowerTransitive</IRI>
         <Literal>2008-05-xx</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#definition"/>
-        <IRI>#narrowerTransitive</IRI>
-        <Literal>skos:narrowerTransitive is a transitive superproperty of skos:broader. By convention, skos:narrowerTransitive is not intended to be used in assertions, but provides a mechanism whereby the transitive closure of skos:narrower can be queried.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2532,14 +2534,14 @@ It allows to refer to a literal translation, in which the intent is to render th
         <Literal xml:lang="en">narrower transitive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#narrowerTransitive</IRI>
+        <Literal>skos:narrowerTransitive is a transitive superproperty of skos:broader. By convention, skos:narrowerTransitive is not intended to be used in assertions, but provides a mechanism whereby the transitive closure of skos:narrower can be queried.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
         <IRI>#semanticRelation</IRI>
         <Literal>2008-05-xx</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#definition"/>
-        <IRI>#semanticRelation</IRI>
-        <Literal xml:lang="en">A concept related by meaning.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2555,6 +2557,11 @@ It allows to refer to a literal translation, in which the intent is to render th
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#semanticRelation</IRI>
         <Literal xml:lang="en">semantic relation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#definition"/>
+        <IRI>#semanticRelation</IRI>
+        <Literal xml:lang="en">A concept related by meaning.</Literal>
     </AnnotationAssertion>
 </Ontology>
 
