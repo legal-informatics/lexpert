@@ -71,4 +71,9 @@ def apply_akn_tags(text: str, meta_name: str, skip_tfidf_ner=False):
     :return: Labeled xml string
     """
 ```
+
+### Dokumentacija o izgledu referenci
+Dokument koji sadrži izgled referenci se nalazi na sledećoj putanji (ista verzija se nalazi u schemata folderu):
+converter/Akoma/semanticki/Izgled referenci u pravnim dokumentima.docx
+
 Github repozitorijum gde se originalno nalaze sve izmene https://github.com/Gorluxor/MasterProject/
