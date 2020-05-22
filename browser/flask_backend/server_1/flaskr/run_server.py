@@ -1,7 +1,7 @@
 import os 
-from flask import Flask, url_for, request, jsonify, abort
+from flask import Flask, request, jsonify, abort
 from SPARQLWrapper import SPARQLWrapper, XML, JSON
-from SPARQLWrapper.SPARQLExceptions import QueryBadFormed, EndPointNotFound
+from SPARQLWrapper.SPARQLExceptions import QueryBadFormed
 
 import xmltodict
 import lxml.etree as ET
@@ -347,8 +347,9 @@ def fetch_expression(country, type_, subtype, work_id, lng, exp_id):
     return crud_operations(request, get_query, del_query, 'xml')
 
 # endpoint for Work   -->   #/akn/rs/act/zakon/2017-88-3634
+@app.route('/akn/<country>/<type_>/<subtype>/<work_id>.<ret_format>', methods=['GET'])
 @app.route('/akn/<country>/<type_>/<subtype>/<work_id>', methods=['GET', 'DELETE', 'PUT', 'POST'])
-def fetch_work(country, type_, subtype, work_id):
+def fetch_work(country, type_, subtype, work_id, ret_format='xml'):
     uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{work_id}'
     get_subquery = f'''SELECT ?expression WHERE {{ <{uri}> <{ontology_url}#is_realized_through> ?expression.
                                                     ?expression <{ontology_url}#has_date> ?date.
@@ -366,7 +367,7 @@ def fetch_work(country, type_, subtype, work_id):
                                                     OPTIONAL {{ ?exp <{ontology_url}#is_embodied_in> ?man. }}
                                                     FILTER (?s in (<{uri}>, ?work_ev, ?exp, ?exp_ev, ?man) || ?o in (<{uri}>, ?work_ev, ?exp, ?exp_ev, ?man) ) }}'''
 
-    return crud_operations(request, get_query, del_query, 'xml')
+    return crud_operations(request, get_query, del_query, ret_format)
 
 
 # exposing Apche Jena Fuseki endpoint for SPARKQL queries
@@ -383,33 +384,61 @@ def sparql():
     except Exception as e:
         abort(400, e)
 
-
-@app.route('/simple_search')
+# simple search only by document name
+@app.route('/simple_search', methods=['POST'])
 def simple_search():
     data = request.json
+    if data['split'] is True:
+        data = data['search'].split()
 
-    query = 'JSON {"data": ?data} WHERE { ?s <http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_name> ?o. FILTER regex(?o, " '+ data.content +' ")}'
+    search = '|'.join(data)
 
-    # Select ?s where { ?s <http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_name> ?o. FILTER regex(?o, "Закон")}
+    get_query = f'''JSON {{ "o":?o, "subtype":?subtype, "area":?area, "group":?group, "s":?s }} WHERE {{ ?s a <{ontology_url}#FRBRWork>.
+                                                    ?s <{ontology_url}#has_name> ?o. FILTER regex(?o, "{search}")
+                                                    ?s <{ontology_url}#FRBRsubtype> ?subtype.
+                                                    ?s <{ontology_url}#has_group> ?group_uri.
+                                                    ?group_uri <{ontology_url}#has_name> ?group.
+                                                    ?s <{ontology_url}#has_area> ?area_uri.
+                                                    ?area_uri <{ontology_url}#has_name> ?area. }}'''
 
-    # Takodje treba se dogovoriti sta se sve vraca, ocigledno uri, sto je u ovom slucaju (ili mozda samo ono posle # trebalo bi da moze), i sta jos tipa datum, vrstu, nzm ni ja
+    try:
+        sparql_query.setQuery(get_query)
+        response = sparql_query.query().convert()
+        return jsonify(response)
+    except Exception as e:
+        abort(500, e)
 
-    return 'Najlepsa!'
-
-
+#advanced search by dosument atributes
 @app.route('/search', methods=['POST'])
 def search():
     data = request.json
 
-    # TODO search preko forme pretpostavljam da ces slati json te ovde treba sisliti sparql upit koji ce to da hvata i opet sta sve vratiti od podataka za tu te pronadjene
+    search_name = data['search'] if 'search' in data else '?search'
+    if data['split'] is True:
+        search = '|'.join(search_name.split())
+
+    keywords = data['keywords'].split() if 'keywords' in data else '?keywords'
+    subtype = data['subtype'] if 'subtype' in data else '?subtype'
+    subregister = data['subregister'] if 'subregister' in data else '?subregister'
+    area = data['area'] if 'area' in data else '?area'
+    group = data['group'] if 'group' in data else '?group'
+
+    #fali za keywords
+    get_query = f'''JSON {{ "o":?o, "subtype":?subtype, "area":?area, "group":?group, "s":?s }} WHERE {{ ?s a <{ontology_url}#FRBRWork>.
+                                                    ?s <{ontology_url}#has_name> ?o. FILTER regex(?o, "{search}")
+                                                    ?s <{ontology_url}#FRBRsubtype> {subtype}.
+                                                    ?s <{ontology_url}#has_subregister> ?subregister_uri.
+                                                    ?subregister_uri <{ontology_url}#has_name> {subregister}.
+                                                    ?s <{ontology_url}#has_group> ?group_uri.
+                                                    ?group_uri <{ontology_url}#has_name> {group}.
+                                                    ?s <{ontology_url}#has_area> ?area_uri.
+                                                    ?area_uri <{ontology_url}#has_name> {area}. }}'''
     
-    # query = 'SPARQL upit'
-    # sparql_query.setQuery(query)
+    try:
+        sparql_query.setQuery(get_query)
+        response = sparql_query.query().convert()
+        return jsonify(response)
+    except Exception as e:
+        abort(500, e)
 
-    # try :
-    #     response = sparql_query.query().convert()
-    #     return response
-    # except Exception as e:
-    #     abort(400, e)
-
-    return 'testiramo' 
+    return 
