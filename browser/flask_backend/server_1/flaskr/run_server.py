@@ -17,40 +17,10 @@ sparql_query.setReturnFormat(JSON)
 sparql_update = SPARQLWrapper('http://localhost:3030/test/update')
 sparql_update.method = 'POST'
 
-# constants
+ontology_url = 'https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl'
+rdf_type = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'
 named_individual = 'http://www.w3.org/2002/07/owl#NamedIndividual'
 
-type_stavec = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type' # Nije moglo samo da stoji type
-
-content = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#content'
-has_date = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_date'
-has_name = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_name'
-has_number = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_number'
-
-is_realized_through = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_realized_through'
-is_embodied_in = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_embodied_in'
-
-has_related_event = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#{ontology_url}#is_embodied_in'
-
-is_of_type = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_of_type'
-is_of_subtype = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_of_subtype'
-has_subregister = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_subregister'
-has_group = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_group'
-has_area = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_area'
-has_country = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_country'
-
-has_language = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_language'
-
-is_in_format = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_in_format'
-
-has_responsible_role = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#has_responsible_role'
-is_of_eventtype = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_of_event_type'
-
-is_of_role = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#is_role_of'
-
-ontology_url = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined'
-core_url = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core'
-default_lng = 'http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_core#srp'
 
 def event(document):
     """kreiranje dogadjaja za prosledjeni document (work ili expression)"""
@@ -61,8 +31,8 @@ def event(document):
     role = document['FRBRauthor']['@as'][1:]
     ask_query = f'''
         SELECT ?s {{
-            ?s <{is_of_role}> <{ontology_url}{document['FRBRauthor']['@href']}>.
-            ?s <{type}> <{ontology_url}#{role.capitalize()}>.
+            ?s <{ontology_url}#is_role_of> <{ontology_url}{document['FRBRauthor']['@href']}>.
+            ?s <{rdf_type}> <{ontology_url}#{role.capitalize()}>.
         }}
     '''
 
@@ -77,14 +47,14 @@ def event(document):
             author_iri = f'{ontology_url}#{role}-{str(uuid.uuid1()).split("-")[0]}'
 
             query += f'''
-                <{author_iri}> <{type}> <{ontology_url}#{role.capitalize()}>.
-                <{author_iri}> <{type}> <{named_individual}>.
-                <{author_iri}> <{is_of_role}> <{ontology_url}{document['FRBRauthor']['@href']}>.
+                <{author_iri}> <{rdf_type}> <{ontology_url}#{role.capitalize()}>.
+                <{author_iri}> <{rdf_type}> <{named_individual}>.
+                <{author_iri}> <{ontology_url}#is_role_of> <{ontology_url}{document['FRBRauthor']['@href']}>.
             '''
         else:
             author_iri = response['results']['bindings'][0]['s']['value']
 
-        event_iri = f'{core_url}#event-{str(uuid.uuid1()).split("-")[0]}'
+        event_iri = f'{ontology_url}#event-{str(uuid.uuid1()).split("-")[0]}'
 
         event_type = ''
         if (role == 'author'):
@@ -95,12 +65,12 @@ def event(document):
             abort(400, 'Event is applicable to FRBRWork and FRBRExpression')
 
         query += f'''
-            <{event_iri}> <{type}> <{named_individual}>.
-            <{event_iri}> <{type}> <{core_url}#TLCEvent>.
-            <{event_iri}> <{has_responsible_role}> <{author_iri}>.
-            <{event_iri}> <{has_date}> "{document['FRBRdate']['@date']}"^^xsd:date.
-            <{event_iri}> <{is_of_eventtype}> <{ontology_url}#{event_type}>.
-            <{ontology_url}#{document['FRBRuri']['@value']}> <{has_related_event}> <{event_iri}>.
+            <{event_iri}> <{rdf_type}> <{named_individual}>.
+            <{event_iri}> <{rdf_type}> <{ontology_url}#TLCEvent>.
+            <{event_iri}> <{ontology_url}#has_responsible_role> <{author_iri}>.
+            <{event_iri}> <{ontology_url}#has_date> "{document['FRBRdate']['@date']}"^^xsd:date.
+            <{event_iri}> <{ontology_url}#is_of_event_type> <{ontology_url}#{event_type}>.
+            <{ontology_url}#{document['FRBRuri']['@value']}> <{ontology_url}#has_related_event> <{event_iri}>.
             '''
     except Exception as e:
         abort(400, e)
@@ -109,11 +79,25 @@ def event(document):
 
 def parse_xml(request):
     data = request.data
+
+    xml_file = ET.XML(data)
+    dir_path = os.path.dirname(os.path.realpath(__file__))                  # xsd validacija ***** pogledati da ne vraca te errore tolike 
+    schema = ET.XMLSchema(file=dir_path + '\\static\\akomantoso30.xsd')
+    try:
+        schema.assertValid(xml_file)
+    except ET.DocumentInvalid:
+        print("Validation error(s):")
+        for error in schema.error_log:
+            print("  Line {}: {}".format(error.line, error.message))
+        abort(400, 'XML did not pass XSD validation!!!')
+
+
+
     content_dict = xmltodict.parse(data)
 
-    meta = content_dict['meta']
+    meta = content_dict['akomaNtoso']['act']['meta']
     identification = meta['identification']
-    publication = meta['publication']
+    publication = meta['publication']             # ne koristi se          
     classification = meta['classification']
     work = identification['FRBRWork']
     expression = identification['FRBRExpression']
@@ -127,81 +111,71 @@ def parse_xml(request):
     cont_fix = "".join(cont.splitlines()).replace("\"", "\\\"")
 
     path_uri = ontology_url + '#' + request.path
+    print(path_uri, '\n' + manifestation_uri, '\n' +  work_uri, '\n' + expression_uri)
 
-    # ne dozvoljava dodavanje dokumenta ukoliko se path uri razlikuje od manifestation uri-ja u dokumentu
-    if (path_uri != manifestation_uri):
-        abort(400, 'Path uri does not match document uri!')
-
-    # ne dozvoljava dodavanje dokumenta ukoliko expression uri ne pocinje work uri-jem
-    if (not expression_uri.startswith(work_uri)):
-        abort(400, 'Expression uri does not start with work uri!')
-
-    # ne dozvoljava dodavanje dokumenta ukoliko manifestation uri ne pocinje expression uri-jem
-    if (not manifestation_uri.startswith(expression_uri)):
-        abort(400, 'Manifestation uri does not start with expression uri!')
+    # # ne dozvoljava dodavanje dokumenta ukoliko se path uri razlikuje od manifestation uri-ja u dokumentu
+    # if (path_uri != manifestation_uri):
+    #     abort(400, 'Path uri does not match document uri!')
+    # # ne dozvoljava dodavanje dokumenta ukoliko expression uri ne pocinje work uri-jem
+    # if (not expression_uri.startswith(work_uri)):
+    #     abort(400, 'Expression uri does not start with work uri!')
+    # # ne dozvoljava dodavanje dokumenta ukoliko manifestation uri ne pocinje expression uri-jem
+    # if (not manifestation_uri.startswith(expression_uri)):
+    #     abort(400, 'Manifestation uri does not start with expression uri!')
 
     # ne dozvoljava se dodavanje dokumenta ukoliko u bazi vec postoji dokument sa istim urijem
-    if request.method == 'POST':
-        ask_query = f'''
-            ASK {{
-                <{manifestation_uri}> <{type}> <{core_url}#FRBRManifestation>
-            }}
-        '''
+    # if request.method == 'POST':
+    #     ask_query = f'''
+    #         ASK {{
+    #             <{manifestation_uri}> <{rdf_type}> <{ontology_url}#FRBRManifestation>
+    #         }}
+    #     '''
 
-        sparql_query.setQuery(ask_query)
+    #     sparql_query.setQuery(ask_query)
 
-        try:
-            response = sparql_query.query().convert()
+    #     try:
+    #         response = sparql_query.query().convert()
 
-            if response['boolean']:
-                abort(400, 'Document with same IRI already exists!')
-        except Exception as e:
-            abort(400, e)
+    #         if response['boolean']:
+    #             abort(400, 'Document with same IRI already exists!')
+    #     except Exception as e:
+    #         abort(400, e)
 
-    query = f'''
-        PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
-        INSERT DATA {{
-    '''
+    query = f'PREFIX xsd:<http://www.w3.org/2001/XMLSchema#> INSERT DATA {{'
 
     # proverava postoji li vec u bazi work uri iz dokumenta, kako bi se sprecilo dupliranje podataka
     # pre svega dogadjaja ciji se nazivi dobijaju na osnovu trenutnog vremena
-    ask_query = f'''
-            SELECT ?s {{
-                <{work_uri}> <{type}> <{core_url}#FRBRWork>.
-            }}
-        '''
-
+    ask_query = f'SELECT ?s {{ <{work_uri}> <{rdf_type}> <{ontology_url}#FRBRWork>. }}'
     sparql_query.setQuery(ask_query)
 
     try:
         response = sparql_query.query().convert()
-
         author_iri = ''
 
         if len(response['results']['bindings']) == 0:
             query += f'''
-                <{work_uri}> <{type}> <{named_individual}>.
-                <{work_uri}> <{type}> <{core_url}#FRBRWork>.
-                <{work_uri}> <{has_date}> "{work['FRBRdate']['@date']}"^^xsd:date.
-                <{work_uri}> <{has_name}> "{work['FRBRname']['@value']}"^^xsd:string.
-                <{work_uri}> <{has_number}> "{work['FRBRnumber']['@value']}"^^xsd:string.
-                <{work_uri}> <{is_of_type}> <http://www.semanticweb.org/filip/ontologies/2020/1/akn_meta_combined#act>.
-                <{work_uri}> <{is_of_subtype}> <{core_url}#{work['FRBRsubtype']['@value']}>.
-                <{work_uri}> <{has_country}> <{core_url}#{work['FRBRcountry']['@value']}>.
-            '''
+                <{work_uri}> <{rdf_type}> <{named_individual}>.
+                <{work_uri}> <{rdf_type}> <{ontology_url}#FRBRWork>.
+                <{work_uri}> <{ontology_url}#has_date> "{work['FRBRdate']['@date']}"^^xsd:date.
+                <{work_uri}> <{ontology_url}#has_name> "{work['FRBRname']['@value']}"^^xsd:string.
+                <{work_uri}> <{ontology_url}#has_number> "{work['FRBRnumber']['@value']}"^^xsd:string.
+                <{work_uri}> <{ontology_url}#is_of_type> <{ontology_url}#act>.
+                <{work_uri}> <{ontology_url}#is_of_subtype> <{ontology_url}#{work['FRBRsubtype']['@value']}>.
+                <{work_uri}> <{ontology_url}#has_country> <{ontology_url}#{work['FRBRcountry']['@value']}>.
+            '''                 # <{ontology_url}#act> paziti posto ne mora uvek biti act uzimati iz urija
 
-            for keyword in classification['keyword']:
+            for keyword in classification['keyword']:           # ovde ce biti link ka individui te nece biti potrebe za ovim
                 if 'subregister' in keyword['@value']:
                     query += f'''
-                        <{work_uri}> <{has_subregister}> <{ontology_url}#{keyword['@value']}>.
+                        <{work_uri}> <{ontology_url}#has_subregister> <{ontology_url}#{keyword['@value']}>.
                     '''
                 elif 'group' in keyword['@value']:
                     query += f'''
-                        <{work_uri}> <{has_group}> <{ontology_url}#{keyword['@value']}>.
+                        <{work_uri}> <{ontology_url}#has_group> <{ontology_url}#{keyword['@value']}>.
                     '''
                 if 'area' in keyword['@value']:
                     query += f'''
-                        <{work_uri}> <{has_area}> <{ontology_url}#{keyword['@value']}>.
+                        <{work_uri}> <{ontology_url}#has_area> <{ontology_url}#{keyword['@value']}>.
                     '''
             query += event(work)
     except Exception as e:
@@ -211,7 +185,7 @@ def parse_xml(request):
     # pre svega dogadjaja ciji se nazivi dobijaju na osnovu trenutnog vremena
     ask_query = f'''
         SELECT ?s {{
-            <{expression_uri}> <{type}> <{core_url}#FRBRExpression>.
+            <{expression_uri}> <{rdf_type}> <{ontology_url}#FRBRExpression>.
         }}
     '''
 
@@ -224,26 +198,27 @@ def parse_xml(request):
 
         if len(response['results']['bindings']) == 0:
             query += f'''
-                        <{expression_uri}> <{type}> <{named_individual}>.
-                        <{expression_uri}> <{type}> <{core_url}#FRBRExpression>.
-                        <{expression_uri}> <{has_date}> "{expression['FRBRdate']['@date']}"^^xsd:date.
-                        <{expression_uri}> <{has_language}> <{core_url}#{expression['FRBRlanguage']['@language']}>.
-                        <{work_uri}> <{is_realized_through}> <{expression_uri}>.
+                        <{expression_uri}> <{rdf_type}> <{named_individual}>.
+                        <{expression_uri}> <{rdf_type}> <{ontology_url}#FRBRExpression>.
+                        <{expression_uri}> <{ontology_url}#has_date> "{expression['FRBRdate']['@date']}"^^xsd:date.
+                        <{expression_uri}> <{ontology_url}#has_language> <{ontology_url}#{expression['FRBRlanguage']['@language']}>.
+                        <{work_uri}> <{ontology_url}#is_realized_through> <{expression_uri}>.
                     '''
             query += event(expression)
     except Exception as e:
         abort(400, e)
 
     query += f'''
-        <{manifestation_uri}> <{type}> <{named_individual}>.
-        <{manifestation_uri}> <{type}> <{core_url}#FRBRManifestation>.
-        <{manifestation_uri}> <{has_date}> "{manifestation['FRBRdate']['@date']}"^^xsd:date.
-        <{manifestation_uri}> <{is_in_format}> <{core_url}#{manifestation['FRBRformat']['@value']}>.
-        <{manifestation_uri}> <{content}> "{cont_fix}"^^xsd:string.
-        <{expression_uri}> <{is_embodied_in}> <{manifestation_uri}>.
+        <{manifestation_uri}> <{rdf_type}> <{named_individual}>.
+        <{manifestation_uri}> <{rdf_type}> <{ontology_url}#FRBRManifestation>.
+        <{manifestation_uri}> <{ontology_url}#has_date> "{manifestation['FRBRdate']['@date']}"^^xsd:date.
+        <{manifestation_uri}> <{ontology_url}#is_in_format> <{ontology_url}#{manifestation['FRBRformat']['@value']}>.
+        <{manifestation_uri}> <{ontology_url}#content> "{cont_fix}"^^xsd:string.
+        <{expression_uri}> <{ontology_url}#is_embodied_in> <{manifestation_uri}>.
     '''
 
-    query += f'''}}'''
+    query += f'}}'
+    print(query)
 
     return query
 
@@ -314,6 +289,7 @@ def crud_operations(request, get_query, del_query, ret_format):
             abort(400, e)
 
     if request.method == "POST":
+        insert_query = parse_xml(request)
         sparql_update.setQuery(insert_query)
         try:
             sparql_update.query()
@@ -323,18 +299,18 @@ def crud_operations(request, get_query, del_query, ret_format):
 
 
 # endpoint for Manifestations   -->   #/akn/rs/act/zakon/2017-88-3634/srp@2017-09-3634/xml
-@app.route('/akn/<country>/<type_>/<subtype>/<work_id>/<lng>@<exp_id>/<ret_format>', methods=['GET', 'DELETE', 'PUT', 'POST'])
-def fetch_manifestation(country, type_, subtype, work_id, lng, exp_id, ret_format):
-    uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{work_id}/{lng}@{exp_id}/{ret_format}'
+@app.route('/akn/<country>/<type_>/<subtype>/<autor>/<date>/<work_id>/<lng>@<exp_id>/<ret_format>', methods=['GET', 'DELETE', 'PUT', 'POST'])
+def fetch_manifestation(country, type_, subtype, autor, date, work_id, lng, exp_id, ret_format):
+    uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{autor}/{date}/{work_id}/{lng}@{exp_id}/{ret_format}'
     get_query = f'JSON {{ "data": ?data }} WHERE {{ <{uri}> <{ontology_url}#content> ?data.}}'
     del_query = f'DELETE {{ ?s ?q ?o }} WHERE {{ ?s ?q ?o. FILTER ( ?s = <{uri}> || ?o = <{uri}>) }}'
     
     return crud_operations(request, get_query, del_query, ret_format)
 
 # endpoint for Expressions   -->   #/akn/rs/act/zakon/2017-88-3634/srp@2017-09-3634
-@app.route('/akn/<country>/<type_>/<subtype>/<work_id>/<lng>@<exp_id>', methods=['GET', 'DELETE', 'PUT', 'POST'])
-def fetch_expression(country, type_, subtype, work_id, lng, exp_id):
-    uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{work_id}/{lng}@{exp_id}'
+@app.route('/akn/<country>/<type_>/<subtype>/<autor>/<date>/<work_id>/<lng>@<exp_id>', methods=['GET', 'DELETE', 'PUT', 'POST'])
+def fetch_expression(country, type_, subtype, autor, date, work_id, lng, exp_id):
+    uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{autor}/{date}/{work_id}/{lng}@{exp_id}'
     get_query = f'''JSON {{ "data": ?data}} WHERE {{ <{uri}> <{ontology_url}#is_embodied_in> ?manifestation. 
                                                     ?manifestation <{ontology_url}#has_date> ?date. 
                                                     ?manifestation <{ontology_url}#content> ?data. }} ORDER BY DESC (?date)'''
@@ -346,11 +322,11 @@ def fetch_expression(country, type_, subtype, work_id, lng, exp_id):
     
     return crud_operations(request, get_query, del_query, 'xml')
 
-# endpoint for Work   -->   #/akn/rs/act/zakon/2017-88-3634
-@app.route('/akn/<country>/<type_>/<subtype>/<work_id>.<ret_format>', methods=['GET'])
-@app.route('/akn/<country>/<type_>/<subtype>/<work_id>', methods=['GET', 'DELETE', 'PUT', 'POST'])
-def fetch_work(country, type_, subtype, work_id, ret_format='xml'):
-    uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{work_id}'
+# endpoint for Work   -->   #/akn/rs/act/zakon/a001/2013-02-06/2013-104-4477
+@app.route('/akn/<country>/<type_>/<subtype>/<autor>/<date>/<work_id>.<ret_format>', methods=['GET'])
+@app.route('/akn/<country>/<type_>/<subtype>/<autor>/<date>/<work_id>', methods=['GET', 'DELETE', 'PUT', 'POST'])
+def fetch_work(country, type_, subtype, autor, date, work_id, ret_format='xml'):
+    uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{autor}/{date}/{work_id}'
     get_subquery = f'''SELECT ?expression WHERE {{ <{uri}> <{ontology_url}#is_realized_through> ?expression.
                                                     ?expression <{ontology_url}#has_date> ?date.
                                                     ?expression <{ontology_url}#has_language> <{ontology_url}#srp>. }} ORDER BY DESC (?date) LIMIT 1'''
