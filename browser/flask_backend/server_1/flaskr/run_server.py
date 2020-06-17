@@ -198,7 +198,7 @@ def transform(data, ret_format):
 # function that sends queries to Apache Jena Server
 def crud_operations(request, get_query, del_query, ret_format):
     if request.method == "GET":
-        print('\nsending sparql to Jena: ', get_query)
+        print('\nGET sending sparql to Jena: ', get_query, '\n')
         sparql_query.setQuery(get_query)
         
         try :
@@ -213,7 +213,7 @@ def crud_operations(request, get_query, del_query, ret_format):
                 abort(500, e)
     
     if request.method == "DELETE":
-        print('\nsending sparql to Jena: ', del_query)
+        print('\nDELETE sending sparql to Jena: ', del_query, '\n')
         sparql_update.setQuery(del_query)
         try:
             sparql_update.query()
@@ -243,12 +243,13 @@ def crud_operations(request, get_query, del_query, ret_format):
             abort(400, e) 
 
 
-# endpoint for Manifestations   -->   #/akn/rs/act/zakon/2017-88-3634/srp@2017-09-3634/xml
-@app.route('/akn/<country>/<type_>/<subtype>/<autor>/<date>/<work_id>/<lng>@<exp_id>/<ret_format>', methods=['GET', 'DELETE', 'PUT', 'POST'])
+# endpoint for Manifestations   -->   #/akn/rs/act/zakon/2017-88-3634/srp@2017-09-3634.xml
+@app.route('/akn/<country>/<type_>/<subtype>/<autor>/<date>/<work_id>/<lng>@<exp_id>.<ret_format>', methods=['GET', 'DELETE', 'PUT', 'POST'])
 def fetch_manifestation(country, type_, subtype, autor, date, work_id, lng, exp_id, ret_format):
-    uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{autor}/{date}/{work_id}/{lng}@{exp_id}/{ret_format}'
+    uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{autor}/{date}/{work_id}/{lng}@{exp_id}.xml'
     get_query = f'JSON {{ "data": ?data }} WHERE {{ <{uri}> <{ontology_url}#content> ?data.}}'
     del_query = f'DELETE {{ ?s ?q ?o }} WHERE {{ ?s ?q ?o. FILTER ( ?s = <{uri}> || ?o = <{uri}>) }}'
+    print(get_query)
     
     return crud_operations(request, get_query, del_query, ret_format)
 
@@ -258,10 +259,10 @@ def fetch_expression(country, type_, subtype, autor, date, work_id, lng, exp_id)
     uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{autor}/{date}/{work_id}/{lng}@{exp_id}'
     get_query = f'''JSON {{ "data": ?data}} WHERE {{ <{uri}> <{ontology_url}#is_embodied_in> ?manifestation. 
                                                     ?manifestation <{ontology_url}#has_date> ?date. 
-                                                    ?manifestation <{ontology_url}#content> ?data. }} ORDER BY DESC (?date)'''
+                                                    ?manifestation <{ontology_url}#content> ?data. }} ORDER BY DESC (?date) LIMIT 1'''
     
     del_query = f'''DELETE {{ ?s ?q ?o }} WHERE {{ ?s ?q ?o. 
-                                                    <{uri}> <{ontology_url}#has_related_event> ?event.
+                                                    OPTIONAL {{ <{uri}> <{ontology_url}#has_related_event> ?event. }}
                                                     OPTIONAL {{ <{uri}> <{ontology_url}#is_embodied_in> ?manifestation. }}
                                                     FILTER ( ?s in ( <{uri}>, ?manifestation,  ?event) || ?o in ( <{uri}>, ?manifestation,  ?event) )}}'''
     
@@ -274,7 +275,7 @@ def fetch_work(country, type_, subtype, autor, date, work_id, ret_format='xml'):
     uri = f'{ontology_url}#/akn/{country}/{type_}/{subtype}/{autor}/{date}/{work_id}'
     get_subquery = f'''SELECT ?expression WHERE {{ <{uri}> <{ontology_url}#is_realized_through> ?expression.
                                                     ?expression <{ontology_url}#has_date> ?date.
-                                                    ?expression <{ontology_url}#has_language> <{ontology_url}#srp>. }} ORDER BY DESC (?date) LIMIT 1'''
+                                                    ?expression <{ontology_url}#has_language> <http://dbpedia.org/page/Serbian_language>. }} ORDER BY DESC (?date) LIMIT 1'''
     
     get_query = f'''JSON {{ "data": ?data }} WHERE {{ {{ {get_subquery} }}
                                                     ?expression <{ontology_url}#is_embodied_in> ?manifestation.
@@ -282,7 +283,7 @@ def fetch_work(country, type_, subtype, autor, date, work_id, ret_format='xml'):
                                                     ?manifestation <{ontology_url}#content> ?data. }} ORDER BY DESC (?date)'''
 
     del_query = f'''DELETE {{ ?s ?q ?o }} WHERE {{ ?s ?q ?o.
-                                                    <{uri}> <{ontology_url}#has_related_event> ?work_ev.
+                                                    OPTIONAL {{ <{uri}> <{ontology_url}#has_related_event> ?work_ev. }}
                                                     OPTIONAL {{ <{uri}> <{ontology_url}#is_realized_through> ?exp. }}
                                                     OPTIONAL {{ ?exp <{ontology_url}#has_related_event> ?exp_ev. }}
                                                     OPTIONAL {{ ?exp <{ontology_url}#is_embodied_in> ?man. }}
@@ -310,7 +311,7 @@ def sparql():
 def simple_search():
     data = request.json
     if data['split'] is True:
-        data = data['search'].split()
+        data = data['query'].split()
 
     search = '|'.join(data)
 
@@ -343,6 +344,7 @@ def search():
     subregister = data['subregister'] if 'subregister' in data else '?subregister'
     area = data['area'] if 'area' in data else '?area'
     group = data['group'] if 'group' in data else '?group'
+    date = data['date'] if 'date' in data else '?date'
 
     #fali za keywords
     get_query = f'''JSON {{ "o":?o, "subtype":?subtype, "area":?area, "group":?group, "s":?s }} WHERE {{ ?s a <{ontology_url}#FRBRWork>.
