@@ -310,14 +310,19 @@ def sparql():
 @app.route('/simple_search', methods=['POST'])
 def simple_search():
     data = request.json
+
+    search = ''
+
     if data['split'] is True:
         data = data['query'].split()
-
-    search = '|'.join(data)
+        search = '|'.join(data)
+    else:
+        data = data['query']
+        search = data
 
     get_query = f'''JSON {{ "o":?o, "subtype":?subtype, "area":?area, "group":?group, "s":?s }} WHERE {{ ?s a <{ontology_url}#FRBRWork>.
                                                     ?s <{ontology_url}#has_name> ?o. FILTER regex(?o, "{search}")
-                                                    ?s <{ontology_url}#FRBRsubtype> ?subtype.
+                                                    ?s <{ontology_url}#is_of_subtype> ?subtype.
                                                     ?s <{ontology_url}#has_group> ?group_uri.
                                                     ?group_uri <{ontology_url}#has_name> ?group.
                                                     ?s <{ontology_url}#has_area> ?area_uri.
