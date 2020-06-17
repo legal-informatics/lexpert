@@ -7,7 +7,8 @@ except ModuleNotFoundError:
     try:
         from tokenizer.patterns import is_vrsta_akta, eng_tags
         from tokenizer.TokenType import TokenType
-    except ModuleNotFoundError:
+    except ModuleNotFoundError as e:
+        print(e)
         print("Error")
         exit()
 

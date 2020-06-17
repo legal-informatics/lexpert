@@ -12,6 +12,8 @@ except ModuleNotFoundError:
         from form_akoma.Metadata import Metadata
         from preprocessing import init_akoma
         from tfidf.tfidf import get_tf_idf_values_document, get_tf_idf_values_from_text
+        from convertToLatin import Convert
+        from utilities.markoSemanticki import MarkovaIngenioznost
     except ModuleNotFoundError:
         print("Error")
         exit(-1)
@@ -22,7 +24,7 @@ SOURCE = "#somebody"  # "#pravno-informacioni-sistem"
 ADDED_DATE = "-01-01"
 
 
-def valid_date(date,reduce=0):
+def valid_date(date, reduce=0):
     import datetime
     day, month, year = date.split('-')
     is_valid_date = True
@@ -35,6 +37,8 @@ def valid_date(date,reduce=0):
 
 def extra_fix(check):
     yy, mm, dd = check.split('-')
+    if len(check.split('-')) != 3:
+        return check
     dd = int(dd)
     mm = int(mm)
     yy = int(yy)
@@ -55,14 +59,14 @@ def extra_fix(check):
         dd = 1
     elif dd > max1:
         dd = max1
-    ret = str(yy)+"-"+str(mm)+"-"+str(dd)
+    ret = str(yy) + "-" + str(mm) + "-" + str(dd)
     return fix_date(ret, False)
 
 
-def fix_date(before,use_extra=True):
+def fix_date(before, use_extra=True):
     a = before.split("-")
     if len(a) == 1:
-        return before.replace(".","") + ADDED_DATE;
+        return before.replace(".", "") + ADDED_DATE;
     for i in range(0, len(a)):
         if len(a[i]) < 2:
             a[i] = "0" + a[i]
@@ -75,7 +79,7 @@ def fix_date(before,use_extra=True):
 def add_new_meta(meta: Metadata):
     """
     If file to added meta
-    Назив прописа  # ELI#Напомена издавача#Додатне информације#Врста прописа#Доносилац#Област#Група#Датум усвајања#Гласило и датум објављивања#Датум ступања на снагу основног текста#Датум примене#Правни претходник#Издавач#filename
+    Назив прописа  # ELI#Напомена издавача#Додатне информације#Врста прописа#Доносилац#Област#Група#Датум усвајања#Гласило и датум објављивања#Датум ступања на снагу основног текста#Датум примене#Правни претходник#Издавач#filename#Верзија на снази од#Почетак примене верзије#Број акта
     :param meta:
     :return: None, writes in file meta
     """
@@ -89,8 +93,20 @@ def add_new_meta(meta: Metadata):
 class MetadataBuilder():
 
     def __init__(self, csv_file):
-        self.csv = io.open(csv_file, mode="r", encoding="utf-8")
+        if csv_file is not None:
+            self.csv = io.open(csv_file, mode="r", encoding="utf-8")
+        else:
+            self.csv = None
         self.expressionuri = ""
+        self.uri_expression = ""
+        self.uri_work = ""
+        self.uri_manifestation = ""
+        self.number = ""
+        self.meta = None
+        self.classification = None
+        self.lifecycle_node = None
+        self.translator = MarkovaIngenioznost()
+
 
     def identification(self, metadata):
         base = ET.Element("identification", {"source": SOURCE})
@@ -101,37 +117,46 @@ class MetadataBuilder():
             self.frbrmanifestation(metadata["manifest"]["date"], metadata["manifest"]["version"], metadata["editor"]))
         return base
 
-    def frbrwork(self, date, version, author):
+    def frbrwork(self, date, version, author, country="Serbia"):
         base = ET.Element("FRBRWork")
-        base.append(ET.Element("FRBRthis", {"value": "akn/rs/act/" + date + "/" + version + "/main"}))
-        base.append(ET.Element("FRBRuri", {"value": "akn/rs/act/" + date + "/" + version}))
+        base.append(ET.Element("FRBRthis", {"value": self.uri_work + "/!main"}))
+        base.append(ET.Element("FRBRuri", {"value": self.uri_work}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
-        base.append(ET.Element("FRBRauthor", {"href": "#" + author, "as": "#author"}))
-        base.append(ET.Element("FRBRcountry", {"value": "rs"}))
+        base.append(ET.Element("FRBRauthor", {"href": author, "as": "#author"}))
+
+        base.append(ET.Element("FRBRcountry", {"value": "rs", "refersTo": "http://dbpedia.org/page/" + country}))
+        subtype = Convert.convert_string(self.meta.vrsta_propisa)
+        base.append(ET.Element("FRBRsubtype",
+                               {"value": subtype.lower(),
+                                "refersTo": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#" \
+                                            + subtype, "showAs": subtype}))
+        base.append(ET.Element("FRBRnumber", {"value": self.number}))
+        base.append(ET.Element("FRBRname", {"value": self.meta.act_name}))
+
         return base
 
-    def frbrexpression(self, date, version, editor):
+    def frbrexpression(self, date, version, editor, lang="Serbian"):
         base = ET.Element("FRBRExpression")
 
-        base.append(ET.Element("FRBRthis", {"value": "akn/rs/act/" + date + "/" + version + "/srp@/main"}))
-        base.append(ET.Element("FRBRuri", {"value": "akn/rs/act/" + date + "/" + version + "/srp@"}))
-        self.expressionuri = "akn/rs/act/" + date + "/" + version + "/srp@"
+        base.append(ET.Element("FRBRthis", {"value": self.uri_expression + "/!main"}))
+        base.append(ET.Element("FRBRuri", {"value": self.uri_expression}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
-        base.append(ET.Element("FRBRauthor", {"href": "#" + editor, "as": "#editor"}))
-        base.append(ET.Element("FRBRlanguage", {"language": "srp"}))
-
+        base.append(ET.Element("FRBRauthor", {
+            "href": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor",
+            "as": "#editor"}))
+        base.append(ET.Element("FRBRlanguage",
+                               {"language": "srp", "wId": "http://dbpedia.org/page/" + lang + "_language"}))
+        self.expressionuri = "akn/rs/act/" + date + "/" + version + "/srp@"
         return base
 
     def frbrmanifestation(self, date, version, editor):
         base = ET.Element("FRBRManifestation")
-
-        base.append(ET.Element("FRBRthis", {"value": "akn/rs/act/" + date + "/" + version + "/srp@/main.xml"}))
-        base.append(ET.Element("FRBRuri", {"value": "akn/rs/act/" + date + "/" + version + "/srp@.akn"}))
-
+        base.append(ET.Element("FRBRthis", {"value": self.uri_manifestation + "/!main"}))
+        base.append(ET.Element("FRBRuri", {"value": self.uri_manifestation}))
         base.append(ET.Element("FRBRdate", {"date": fix_date(date), "name": "Generation"}))
-        base.append(ET.Element("FRBRauthor", {"href": "#" + editor, "as": "#editor"}))
-        base.append(ET.Element("FRBRformat", {"value": "xml"}))
-
+        base.append(ET.Element("FRBRauthor", {"href": "#lexpert_student_project", "as": "#editor"}))
+        base.append(ET.Element("FRBRformat", {"value": "xml",
+                                              "refersTo": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml"}))
         return base
 
     def publication(self, publication):
@@ -149,9 +174,11 @@ class MetadataBuilder():
 
     def clssification(self, clssifications):
         base = ET.Element("classification", {"source": SOURCE})
+        self.classification = base
         for dict in clssifications:
             newk = ET.Element("keyword", {"wId": dict["id"], "value": dict["value"].lower(), "showAs": dict["value"],
-                                          "dictionary": "/akn/rs/srp@ontology"})  # TODO Andrija Popraviti dictionary
+                                          "href": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm",
+                                          "dictionary": "RS"})
             base.append(newk)
         return base
 
@@ -171,34 +198,66 @@ class MetadataBuilder():
         return base
 
     def lifecycle(self, lifecycles):
-        base = ET.Element("lifecycle", {"source": SOURCE})
-        cnt = 1
-        for date in lifecycles:
-            found_i = date.find("/") + 1
-            if cnt == 1:
-                newk = ET.Element("eventRef",
-                                  {"wId": "e" + str(cnt), "refersTo": date, "date": fix_date(date[found_i:found_i + 4]),
-                                   "type": "generation", "source": SOURCE})
-            else:
-                newk = ET.Element("eventRef",
-                                  {"wId": "e" + str(cnt), "refersTo": date, "date": fix_date(date[found_i:found_i + 4]),
-                                   "type": "amendment", "source": SOURCE})
-            base.append(newk)
-            cnt += 1
+        base = ET.Element("lifecycle", {"source": self.meta.eli})
+        self.lifecycle_node = base
+        link = self.meta.eli
+        base.append(
+            ET.Element("eventRef",
+                       {"source": link,
+                        "href": "#datum_usvajanja", "date": self.meta.datum_usvajanja, "type": "generation"}))
+        base.append(
+            ET.Element("eventRef",
+                       {"source": link, "href": "#datum_pocetak_primene",
+                        "date": self.meta.datum_primene, "type": "generation"}))
+        base.append(
+            ET.Element("eventRef",
+                       {"source": link, "href": "#datum_stupanja_na_snagu",
+                        "date": self.meta.datum_stupanja, "type": "generation"}))
+        # for date in lifecycles:
+        #     found_i = date.find("/") + 1
+        # if cnt == 1:
+        #     newk = ET.Element("eventRef",
+        #                       {"wId": "e" + str(cnt), "refersTo": date, "date": fix_date(date[found_i:found_i + 4]),
+        #                        "type": "generation", "source": SOURCE})
+        # else:
+        #     newk = ET.Element("eventRef",
+        #                       {"wId": "e" + str(cnt), "refersTo": date, "date": fix_date(date[found_i:found_i + 4]),
+        #                        "type": "amendment", "source": SOURCE})
+        # base.append(newk)
+        # cnt += 1
+
         return base
 
-    def references(self, filename):
+    def references(self, filename, list_of_concepts: list):
         cnt_concept = 0
-        conceptIri = "http://purl.org/vocab/frbr/core#Concept"
+        # link ="http://purl.org/vocab/frbr/core#Concept"
+
         base = ET.Element("references", {"source": SOURCE})
-        list_of_concept = get_tf_idf_values_document("data/acts", filenames=filename, latin=False,
-                                                     with_file_names=False)
-        if len(list_of_concept) > 0:
-            for concept in list_of_concept[0]:
+
+        if len(list_of_concepts) > 0:
+            for concept in list_of_concepts[0]:
+                concept = Convert.convert_string(concept)
+                link = self.translator[concept]
+                if '#' not in link:
+                    link = 'https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept'
                 concept_ref = ET.Element("TLCConcept",
-                                         {"eId": "cocnept" + str(cnt_concept), "href": conceptIri, "showAs": concept})
+                                         {"eId": "cocnept" + str(cnt_concept), "href": link,
+                                          "showAs": concept.capitalize()})
                 base.append(concept_ref)
                 cnt_concept = cnt_concept + 1
+        return base
+
+    def keywords_za_marka(self, list_of_concepts: list,
+                          uri="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm"):
+        conceptIri = uri
+        base = self.classification
+        if len(list_of_concepts) > 0:
+            for concept in list_of_concepts[0]:
+                lat_con = Convert.convert_string(concept)
+                concept_ref = ET.Element("keyword",
+                                         {"href": conceptIri, "showAs": lat_con.capitalize(), "value": lat_con.lower(),
+                                          "dictionary": "RS"})
+                base.append(concept_ref)
         return base
 
     def notes(self, notes1, notes2):
@@ -220,23 +279,83 @@ class MetadataBuilder():
             base.append(newk)
         return base
 
-    # SUMA = []
-    def build(self, filename, akomaroot, skip_tfidf=False):
+    def change_element_by_id(self, uri, i, value):
+        temp = uri.split("/")
+        temp[i] = value
+        temp = "/".join(temp)
+        return temp
+
+    def change_subtype_url(self, subtype):
+        if len(subtype) < 3:
+            return
+        subtype_id = 3
+        self.uri_expression = self.change_element_by_id(self.uri_expression, subtype_id, subtype).strip()
+        self.uri_work = self.change_element_by_id(self.uri_work, subtype_id, subtype).strip()
+        self.uri_manifestation = self.change_element_by_id(self.uri_manifestation, subtype_id, subtype).strip()
+
+    def make_urls(self, meta, country_code="rs", lang_code="srp", subtype=None, type_act="act", doc_type="xml"):
+        # TODO try automatic
+        if meta.broj_akta is None:
+            number_act = "nn"
+        else:
+            number_act = meta.broj_akta
+        if hasattr(meta, 'datum_usvajanja'):
+            version = meta.datum_usvajanja[:meta.datum_usvajanja.rfind('-') + 1] + number_act
+        else:
+            exit("No meta info to make url, need: [datum usvajanja]")
+        if subtype is None:
+            try:
+                subtype = Convert.convert_string(meta.vrsta_propisa).lower()
+            except:
+                subtype = "zakon"  # WIll be changed later anywas
+        if meta.verzija_na_snagu_od is not '' and meta.verzija_na_snagu_od is not None:
+            current_version = utilities.swap_date(meta.verzija_na_snagu_od)
+            if current_version is None:
+                current_version = fix_date(meta.datum_usvajanja)
+        else:
+            current_version = fix_date(meta.datum_usvajanja)
+        text_s: str = meta.donosilac
+        to = text_s.find("(")
+        if to is not -1:
+            text_s = text_s[:to]
+        actor = Convert.convert_string(text_s.strip()).replace(" ", "_").lower()
+        date_got = fix_date(meta.datum_usvajanja)
+        self.uri_work = (
+            "akn/" + country_code + "/" + type_act + "/" + subtype + "/" + actor + "/" + date_got + "/" + version).strip()
+        self.uri_expression = (self.uri_work + "/" + lang_code + "@" + current_version).strip()
+        self.number = version
+        self.uri_manifestation = (self.uri_expression + "/!main." + doc_type).strip()
+
+    def build(self, filename, akomaroot, skip_tfidf=False, country_code="rs", lang_code="srp", passed_meta=None):
+        """
+        :param filename: Name which was written in Akoma/data/meta/allmeta.csv when it was scraped
+        :param akomaroot: root of new akoma ntoso document
+        :param skip_tfidf: boolean if TLCconcepts should be searched for
+        :param country_code: which country is this for by ISO 3166-1 standard
+        :param lang_code: languge used in document by ISO_639-1 standard
+        :param passed_meta: if metainfo is not read from file its should be passed here, type Metadata class from form_akoma/Metadata.py
+        :return:
+        """
         meta = list(akomaroot)[0].find(PREFIX + "meta")
         if meta is None:
             meta = list(akomaroot)[0].find("meta")
 
         metainfo = None
         # print(csv.read())
-        for line in self.csv.readlines():
-            values = line.strip().split("#")
-            if filename == values[14]:
-                metainfo = Metadata(values)
-                break
+        if passed_meta is None and len(filename) > 2:
+            for line in self.csv.readlines():
+                values = line.strip().split("#")
+                if filename == values[14]:
+                    metainfo = Metadata(values)
+                    break
+        else:
+            metainfo = passed_meta
         if metainfo is None:
             print(filename)
             print("Fajl nije pronadjen u metadata.csv")
             return
+        self.meta = metainfo
+        self.make_urls(metainfo, country_code, lang_code)
         try:
             _ = metainfo.work
             has_work = True
@@ -244,12 +363,14 @@ class MetadataBuilder():
             has_work = False
         if has_work and metainfo.work is not None:
             meta.append(self.identification({"work": metainfo.work, "manifest": metainfo.manifest,
-                                             "author": "somebody", "editor": "somebody"}))
+                                             "author": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author",
+                                             "editor": "somebody"}))
         else:
             print(filename, metainfo.act_name)
             dict = {"date": metainfo.datum_usvajanja, "version": metainfo.version}
             meta.append(self.identification({"work": dict, "manifest": dict,
-                                             "author": "somebody", "editor": "somebody"}))
+                                             "author": "https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author",
+                                             "editor": "somebody"}))
 
         if metainfo.publication != False and metainfo.publication != None:
             meta.append(self.publication(metainfo.publication))
@@ -261,14 +382,17 @@ class MetadataBuilder():
         if len(metainfo.classifications) > 0:
             meta.append(self.clssification(metainfo.classifications))
 
-        if metainfo.lifecycle is not None and len(metainfo.lifecycle) > 1:
+        if metainfo.lifecycle is not None:
             meta.append(self.lifecycle(metainfo.lifecycle))
 
         if len(metainfo.workflow) > 0:
             meta.append(self.workflow(metainfo.workflow))
 
         if not skip_tfidf:
-            references = self.references(filename)
+            list_of_concept = get_tf_idf_values_document("data/acts", filenames=filename, latin=False,
+                                                         with_file_names=False)
+            references = self.references(filename, list_of_concepts=list_of_concept)
+            self.keywords_za_marka(list_of_concept)
             meta.append(references)
 
         if metainfo.napomena_izdavaca != "" or metainfo.dodatne_informacije != "":

@@ -1,15 +1,17 @@
-from keras.models import load_model
 import pickle
-import pandas as pd
 import numpy as np
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
+
 try:
     import Akoma
-    from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, sent2features, sent2labels, sent2tokens
+    from Akoma.named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, \
+        sent2features, sent2labels, sent2tokens
 except ModuleNotFoundError as sureError:
     try:
-        from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, sent2features, sent2labels, sent2tokens
+        from named_enitity_recognition.readutils import SentenceGetter, word2features, read_and_prepare_csv, \
+            sent2features, sent2labels, sent2tokens
+        from test import testEmbeddingNNWithTestKorpus
     except ModuleNotFoundError as newError:
         if not sureError.name.__eq__("Akoma") or not newError.name.__eq__("Akoma"):
             print(newError)
@@ -17,79 +19,98 @@ except ModuleNotFoundError as sureError:
             exit(-1)
 
 
-data = read_and_prepare_csv("../data/ner/datasetReldiSD.csv")
+def getPath(embedding_type: str) -> str:
+    if embedding_type.lower() == "GloVe".lower():
+        path = "../data/ner/neuralNetworkModelGloVe.h5"
+    elif embedding_type.lower() == "Elmo".lower():
+        path = "../data/ner/neuralNetworkModelElmo.h5"
+    elif embedding_type.lower() == "Bert".lower():
+        path = "../data/ner/neuralNetworkModelBert.h5"
+    elif embedding_type.lower() == "CRF".lower():
+        path = "../data/ner/neuralNetworkModel1.h5"
+    else:
+        raise ValueError("Embedded type not supported")
+    return path
 
-data.tail(10)
 
-words = list(set(data["Word"].values))
-n_words = len(words)  # n_words
+def test(path: str, embedding_type: str):
+    data = read_and_prepare_csv(path)
 
-tags = list(set(data["Tag"].values))
-n_tags = len(tags)  # n_tags
+    data.tail(10)
 
-getter = SentenceGetter(data)
+    words = list(set(data["Word"].values))
+    n_words = len(words)  # n_words
 
-sent = getter.get_next()
+    tags = list(set(data["Tag"].values))
+    n_tags = len(tags)  # n_tags
 
-sentences = getter.sentences
+    getter = SentenceGetter(data)
 
-max_len = 75
-max_len_char = 10
+    sent = getter.get_next()
 
-file1 = open("../data/ner/word_to_index.pickle", "rb")
-file2 = open("../data/ner/tag_to_index.pickle", "rb")
-word2idx = pickle.load(file1)
-tag2idx = pickle.load(file2)
+    sentences = getter.sentences
 
-idx2word = {i: w for w, i in word2idx.items()}
-idx2tag = {i: w for w, i in tag2idx.items()}
+    max_len = 75
+    max_len_char = 10
 
-file1.close()
-file2.close()
+    file1 = open("../data/ner/word_to_index.pickle", "rb")
+    file2 = open("../data/ner/tag_to_index.pickle", "rb")
+    word2idx = pickle.load(file1)
+    tag2idx = pickle.load(file2)
 
-X_word = [[word2idx[w[0]] for w in s] for s in sentences]
+    idx2word = {i: w for w, i in word2idx.items()}
+    idx2tag = {i: w for w, i in tag2idx.items()}
 
-X_word = pad_sequences(maxlen=max_len, sequences=X_word, value=word2idx["PAD"], padding='post', truncating='post')
+    file1.close()
+    file2.close()
 
-chars = set([w_i for w in words for w_i in w])
-n_chars = len(chars)
+    X_word = [[word2idx[w[0]] for w in s] for s in sentences] #Embedding
 
-char2idx = {c: i + 2 for i, c in enumerate(chars)}
-char2idx["UNK"] = 1
-char2idx["PAD"] = 0
+    X_word = pad_sequences(maxlen=max_len, sequences=X_word, value=word2idx["PAD"], padding='post', truncating='post')
 
-X_char = []
-for sentence in sentences:
-    sent_seq = []
-    for i in range(max_len):
-        word_seq = []
-        for j in range(max_len_char):
-            try:
-                word_seq.append(char2idx.get(sentence[i][0][j]))
-            except:
-                word_seq.append(char2idx.get("PAD"))
-        sent_seq.append(word_seq)
-    X_char.append(np.array(sent_seq))
+    chars = set([w_i for w in words for w_i in w])
+    n_chars = len(chars)
 
-y = [[tag2idx[w[2]] for w in s] for s in sentences]
+    char2idx = {c: i + 2 for i, c in enumerate(chars)}
+    char2idx["UNK"] = 1
+    char2idx["PAD"] = 0
 
-y = pad_sequences(maxlen=max_len, sequences=y, value=tag2idx["PAD"], padding='post', truncating='post')
+    X_char = []
+    for sentence in sentences:
+        sent_seq = []
+        for i in range(max_len):
+            word_seq = []
+            for j in range(max_len_char):
+                try:
+                    word_seq.append(char2idx.get(sentence[i][0][j]))
+                except:
+                    word_seq.append(char2idx.get("PAD"))
+            sent_seq.append(word_seq)
+        X_char.append(np.array(sent_seq))
 
-X_word_tr, X_word_te, y_tr, y_te = train_test_split(X_word, y, test_size=0.1, random_state=2018)
-X_char_tr, X_char_te, _, _ = train_test_split(X_char, y, test_size=0.1, random_state=2018)
+    y = [[tag2idx[w[2]] for w in s] for s in sentences]
 
-model = load_model('../data/ner/neuralNetworkModel1.h5')
+    y = pad_sequences(maxlen=max_len, sequences=y, value=tag2idx["PAD"], padding='post', truncating='post')
 
-model.summary()
+    X_word_tr, X_word_te, y_tr, y_te = train_test_split(X_word, y, test_size=0.1, random_state=2018)
+    X_char_tr, X_char_te, _, _ = train_test_split(X_char, y, test_size=0.1, random_state=2018)
 
-y_pred = model.predict([X_word_te,
-                        np.array(X_char_te).reshape((len(X_char_te),
-                                                     max_len, max_len_char))])
+    # model = load_model('../data/ner/neuralNetworkModel1.h5')
+    model = testEmbeddingNNWithTestKorpus.load_model("Elmo")
+    model.summary()
 
-i = 100
-p = np.argmax(y_pred[i], axis=-1)
-print("{:15}||{:5}||{}".format("Word", "True", "Pred"))
-print(30 * "=")
-for w, t, pred in zip(X_word_te[i], y_te[i], p):
-    if w != 0:
-        print("{:15}: {:5} {}".format(idx2word[w], idx2tag[t], idx2tag[pred]))
+    y_pred = model.predict([X_word_te,
+                            np.array(X_char_te).reshape((len(X_char_te),
+                                                         max_len, max_len_char))])
+
+    i = 100
+    p = np.argmax(y_pred[i], axis=-1)
+    print("{:15}||{:5}||{}".format("Word", "True", "Pred"))
+    print(30 * "=")
+    for w, t, pred in zip(X_word_te[i], y_te[i], p):
+        if w != 0:
+            print("{:15}: {:5} {}".format(idx2word[w], idx2tag[t], idx2tag[pred]))
+
+
+if "__main__" == __name__:
+    test("../data/ner/datasetTestNer.csv", "CRF")

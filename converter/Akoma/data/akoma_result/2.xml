@@ -4,62 +4,84 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/2007/101-5/main"/>
-					<FRBRuri value="akn/rs/act/2007/101-5"/>
+					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2007-11-05/2007-11-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2007-11-05/2007-11-nn"/>
 					<FRBRdate date="2007-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
-					<FRBRcountry value="rs"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
+					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
+					<FRBRnumber value="2007-11-nn"/>
+					<FRBRname value="Закон о државном печату Републике Србије: 101/2007-5"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/2007/101-5/srp@/main"/>
-					<FRBRuri value="akn/rs/act/2007/101-5/srp@"/>
+					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2007-11-05/2007-11-nn/srp@2007-11-05/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2007-11-05/2007-11-nn/srp@2007-11-05"/>
 					<FRBRdate date="2007-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRlanguage language="srp"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
+					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/2007/101-5/srp@/main.xml"/>
-					<FRBRuri value="akn/rs/act/2007/101-5/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/zakon/narodna_skupština/2007-11-05/2007-11-nn/srp@2007-11-05/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/narodna_skupština/2007-11-05/2007-11-nn/srp@2007-11-05/!main.xml"/>
 					<FRBRdate date="2007-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRformat value="xml"/>
+					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2007-11-06" name="службени гласник рс“" number="101" showAs="Службени гласник РС“"/>
 			<classification source="#somebody">
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="2. Грб, застава, химна и печат" value="2. грб, застава, химна и печат" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="2. Грб, застава, химна и печат" value="2. грб, застава, химна и печат" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Upotreba" value="upotreba"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Uređuju" value="uređuju"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Ovim" value="ovim"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Državnog" value="državnog"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Pečata" value="pečata"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Izgled" value="izgled"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Daljem" value="daljem"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Tekstu" value="tekstu"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Zakonom" value="zakonom"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Srbije" value="srbije"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Republike" value="republike"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Državni" value="državni"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Pečat" value="pečat"/>
 			</classification>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/5/reg/">
+				<eventRef date="2007-11-05" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/5/reg/" type="generation"/>
+				<eventRef date="2007-11-14" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/5/reg/" type="generation"/>
+				<eventRef date="2007-11-14" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/5/reg/" type="generation"/>
+				<eventRef date="2007-11-06" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2007/101/5/reg/" type="amendment"/>
+			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="2007-11-05" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="2007-11-14" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="2007-11-14" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="2007-11-05" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2007-11-14" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2007-11-14" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="употреба"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="уређују"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="овим"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="државног"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="печата"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="изглед"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="даљем"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="тексту"/>
-				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
-				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
-				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
-				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="државни"/>
-				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="печат"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Generalni sekretar predsednika Republike i Generalni sekretar Vlade"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodne skupštine o proglašenju Ustava Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="REPUBLIKA"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRBIJA"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
+				<TLCConcept eId="cocnept0" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a05" showAs="Upotreba"/>
+				<TLCConcept eId="cocnept1" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Uređuju"/>
+				<TLCConcept eId="cocnept2" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_027" showAs="Ovim"/>
+				<TLCConcept eId="cocnept3" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01" showAs="Državnog"/>
+				<TLCConcept eId="cocnept4" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a02" showAs="Pečata"/>
+				<TLCConcept eId="cocnept5" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Izgled"/>
+				<TLCConcept eId="cocnept6" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Daljem"/>
+				<TLCConcept eId="cocnept7" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Tekstu"/>
+				<TLCConcept eId="cocnept8" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03" showAs="Zakonom"/>
+				<TLCConcept eId="cocnept9" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Srbije"/>
+				<TLCConcept eId="cocnept10" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike"/>
+				<TLCConcept eId="cocnept11" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01" showAs="Državni"/>
+				<TLCConcept eId="cocnept12" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a02" showAs="Pečat"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Generalni sekretar predsednika Republike i Generalni sekretar Vlade"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_002" showAs="Narodne skupštine"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Narodne skupštine o proglašenju Ustava Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="REPUBLIKA"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="SRBIJA"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="6. novembra 2007."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -69,7 +91,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон „службени гласник  рс“,  број <ref wId="ref1" href="akn/rs/act/2007/101/srp@">101 од 6. новембра  2007</ref>. Садржина Закона</p>
+				<p>Закон „службени гласник  рс“,  број <ref wId="ref1" href=" akn/rs/act/zakon/narodna_skupština/2007-11-05/2007-11-nn/srp@2007-11-05  ">101 од 6. новембра  2007</ref>. Садржина Закона</p>
 			</longTitle>
 			<p>о државном печату  Републике  Србије</p>
 		</preface>
@@ -136,7 +158,7 @@
 				</paragraph>
 				<paragraph wId="clan6-stav2">
 					<content>
-						<p>Лица из <ref wId="ref0" href="akn/rs/act/2007/101-5/srp@/!main~art_6__para_1" >става 1. овог</ref> члана чувају државни печат, одговорна су за његову употребу и дужна су да обезбеде вођење евиденције о употреби државног печата која садржи податке о датуму употребе државног печата, као и о називу и броју акта на који је стављен државни печат.</p>
+						<p>Лица из <ref wId="ref0" href="akn/rs/act/zakon/narodna_skupština/2007-11-05/2007-11-nn/srp@2007-11-05/!main~art_6__para_1" >става 1. овог</ref> члана чувају државни печат, одговорна су за његову употребу и дужна су да обезбеде вођење евиденције о употреби државног печата која садржи податке о датуму употребе државног печата, као и о називу и броју акта на који је стављен државни печат.</p>
 					</content>
 				</paragraph>
 			</article>

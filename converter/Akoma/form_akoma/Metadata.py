@@ -1,5 +1,6 @@
 import re
 
+
 class Metadata():
     """
         0 Назив прописа
@@ -17,7 +18,11 @@ class Metadata():
         12 Правни претходник
         13 Издавач
         14 filename
+        15 Верзија на снази од
+        16 Почетак примене верзије
+        17 Број акта
     """
+
     def __init__(self, list):
         self.act_name = list[0]
         self.eli = list[1]
@@ -27,13 +32,23 @@ class Metadata():
         self.donosilac = list[5]
         self.oblast = list[6]
         self.grupa = list[7]
-        self.datum_usvajanja = self.convert_date(list[8]) #datum
+        self.datum_usvajanja = self.convert_date(list[8])  # datum
         self.glasilo_i_datum = list[9]
-        self.datum_stupanja = self.convert_date(list[10]) #datum
-        self.datum_primene = self.convert_date(list[11]) #datum
+        self.datum_stupanja = self.convert_date(list[10])  # datum
+        self.datum_primene = self.convert_date(list[11])  # datum
         self.pravni_prethodnik = list[12]
         self.izdavac = list[13]
         self.filename = list[14]
+        try:
+            self.verzija_na_snagu_od = list[15]
+            self.pocetak_primene_verzije = list[16]
+        except:
+            self.verzija_na_snagu_od = None
+            self.pocetak_primene_verzije = None
+        try:
+            self.broj_akta = list[17]
+        except:
+            self.broj_akta = None
         try:
             self.publication = self.parse_publication(list[9])
         except:
@@ -57,7 +72,7 @@ class Metadata():
             els = date.split("-")
         if len(els[0]) == 4:
             return date
-        return els[2]+"-"+els[1]+"-"+els[0]
+        return els[2] + "-" + els[1] + "-" + els[0]
 
     def parse_lifecycle(self, title):
         list1 = title.split(":")
@@ -72,9 +87,9 @@ class Metadata():
                 m = re.search("([0-9]+)/([0-9]+)-([0-9]+)", stringo)
                 if m:
                     retval.append(m.group(0).strip())
-            if len(retval)>0:
+            if len(retval) > 0:
                 m = re.match("([0-9]+)\/([0-9]+)\-([0-9]+)", retval[0])
-                self.work = {"date": m.group(2), "version": m.group(1)+"-"+m.group(3)}
+                self.work = {"date": m.group(2), "version": m.group(1) + "-" + m.group(3)}
                 m = re.match("([0-9]+)\/([0-9]+)\-([0-9]+)", retval[-1])
                 self.manifest = {"date": m.group(2), "version": m.group(1) + "-" + m.group(3)}
             else:
@@ -83,17 +98,15 @@ class Metadata():
                 print(izdanja)
             return retval
 
-
-
     def parse_workflow(self, usvajanje, stupanje, primena):
         retval = []
 
         if usvajanje != "":
-            retval.append({"id": "usvajanje", "date":  self.convert_date(usvajanje)})
+            retval.append({"id": "usvajanje", "date": self.convert_date(usvajanje)})
         if usvajanje != "":
-            retval.append({"id": "stupanje_na_snagu", "date":  self.convert_date(stupanje)})
+            retval.append({"id": "stupanje_na_snagu", "date": self.convert_date(stupanje)})
         if usvajanje != "":
-            retval.append({"id": "primena", "date":  self.convert_date(primena)})
+            retval.append({"id": "primena", "date": self.convert_date(primena)})
         return retval
 
     def parse_classifications(self, vrsta, oblast, grupa):
@@ -121,17 +134,16 @@ class Metadata():
 
         retval = {}
         journal = journal.strip()
-        if journal[0] == u'„' or journal[0] ==u'”':
+        if journal[0] == u'„' or journal[0] == u'”':
             journal = journal[1:]
-        if journal[-1] == u'„' or journal[-1] ==u'”':
+        if journal[-1] == u'„' or journal[-1] == u'”':
             journal = journal[:-1]
         retval["journal"] = journal
         retval["number"] = els[1]
 
-        if len(els)<5: #ako je datum formata 21.12.1995
+        if len(els) < 5:  # ako je datum formata 21.12.1995
             retval["date"] = self.convert_date(els[-1])
             return retval
-
 
         # inace ako je datum formata 21. decembra 1995.
         day = els[3]
@@ -142,17 +154,18 @@ class Metadata():
             day = day[:-1]
         if year[-1] == ".":
             year = year[:-1]
-        #kod "октобра" i "децембра" je u par propisa rec napisana sa latinicnim slovom a, zbog nekog razloga... Broj ovakvih je zanemarljivo mali
-        #npr: oктобра, децембрa XD
-        meseci = ["јануара", "фебруара", "марта", "априла", "маја", "јуна", "јула", "августа", "септембра", "октобра", "новембра", "децембра"]
+        # kod "октобра" i "децембра" je u par propisa rec napisana sa latinicnim slovom a, zbog nekog razloga... Broj ovakvih je zanemarljivo mali
+        # npr: oктобра, децембрa XD
+        meseci = ["јануара", "фебруара", "марта", "априла", "маја", "јуна", "јула", "августа", "септембра", "октобра",
+                  "новембра", "децембра"]
         found = False
         for i in range(0, len(meseci)):
             if month.lower() == meseci[i] or meseci[i].startswith(month.lower()):
-                month = str(i+1)
+                month = str(i + 1)
                 found = True
                 break
         if not found:
             print("Greska, mesec datuma objave glasnika nije ispravno napisan:", month)
             return False
-        retval["date"] = year+"-"+month+"-"+day
+        retval["date"] = year + "-" + month + "-" + day
         return retval

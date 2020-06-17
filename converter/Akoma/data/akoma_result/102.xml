@@ -4,36 +4,65 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/2006/62-19/main"/>
-					<FRBRuri value="akn/rs/act/2006/62-19"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn"/>
 					<FRBRdate date="2006-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
-					<FRBRcountry value="rs"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
+					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
+					<FRBRnumber value="2006-07-nn"/>
+					<FRBRname value="Закон о личној карти: 62/2006-19, 36/2011-94"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/2011/36-94/srp@/main"/>
-					<FRBRuri value="akn/rs/act/2011/36-94/srp@"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27"/>
 					<FRBRdate date="2011-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRlanguage language="srp"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
+					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/2011/36-94/srp@/main.xml"/>
-					<FRBRuri value="akn/rs/act/2011/36-94/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main.xml"/>
 					<FRBRdate date="2011-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRformat value="xml"/>
+					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2006-07-19" name="службени гласник рс“" number="62" showAs="Службени гласник РС“"/>
 			<classification source="#somebody">
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="10. Лично име, лична карта, матични број грађана" value="10. лично име, лична карта, матични број грађана" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="10. Лично име, лична карта, матични број грађана" value="10. лично име, лична карта, матични број грађана" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Isprava" value="isprava"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Služi" value="služi"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Karta" value="karta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Lična" value="lična"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Ugovorom" value="ugovorom"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Određeno" value="određeno"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Građani" value="građani"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Identitet" value="identitet"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Međunarodnim" value="međunarodnim"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Kojom" value="kojom"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Sadržane" value="sadržane"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Dokazuju" value="dokazuju"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Činjenicama" value="činjenicama"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Javna" value="javna"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Drugim" value="drugim"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Dokaz" value="dokaz"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Putna" value="putna"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Pravo" value="pravo"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Ako" value="ako"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Skladu" value="skladu"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Može" value="može"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Zakonom" value="zakonom"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Republike" value="republike"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Srbije" value="srbije"/>
 			</classification>
-			<lifecycle source="#somebody">
-				<eventRef date="2006-01-01" refersTo="62/2006-19" source="#somebody" type="generation" wId="e1"/>
-				<eventRef date="2011-01-01" refersTo="36/2011-94" source="#somebody" type="amendment" wId="e2"/>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/62/6/reg/">
+				<eventRef date="2006-07-14" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/62/6/reg/" type="generation"/>
+				<eventRef date="2007-01-28" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/62/6/reg/" type="generation"/>
+				<eventRef date="2006-07-27" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/62/6/reg/" type="generation"/>
+				<eventRef date="2006-07-19" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2006/62/6/reg/" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="2006-07-14" wId="usvajanje"/>
@@ -41,68 +70,47 @@
 				<step by="/akn/rs/srp@ontology" date="2007-01-28" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="исправа"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="служи"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="карта"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="лична"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="уговором"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="одређено"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="грађани"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="идентитет"/>
-				<TLCConcept eId="cocnept8" href="http://purl.org/vocab/frbr/core#Concept" showAs="међународним"/>
-				<TLCConcept eId="cocnept9" href="http://purl.org/vocab/frbr/core#Concept" showAs="којом"/>
-				<TLCConcept eId="cocnept10" href="http://purl.org/vocab/frbr/core#Concept" showAs="садржане"/>
-				<TLCConcept eId="cocnept11" href="http://purl.org/vocab/frbr/core#Concept" showAs="доказују"/>
-				<TLCConcept eId="cocnept12" href="http://purl.org/vocab/frbr/core#Concept" showAs="чињеницама"/>
-				<TLCConcept eId="cocnept13" href="http://purl.org/vocab/frbr/core#Concept" showAs="јавна"/>
-				<TLCConcept eId="cocnept14" href="http://purl.org/vocab/frbr/core#Concept" showAs="другим"/>
-				<TLCConcept eId="cocnept15" href="http://purl.org/vocab/frbr/core#Concept" showAs="доказ"/>
-				<TLCConcept eId="cocnept16" href="http://purl.org/vocab/frbr/core#Concept" showAs="путна"/>
-				<TLCConcept eId="cocnept17" href="http://purl.org/vocab/frbr/core#Concept" showAs="право"/>
-				<TLCConcept eId="cocnept18" href="http://purl.org/vocab/frbr/core#Concept" showAs="ако"/>
-				<TLCConcept eId="cocnept19" href="http://purl.org/vocab/frbr/core#Concept" showAs="складу"/>
-				<TLCConcept eId="cocnept20" href="http://purl.org/vocab/frbr/core#Concept" showAs="може"/>
-				<TLCConcept eId="cocnept21" href="http://purl.org/vocab/frbr/core#Concept" showAs="законом"/>
-				<TLCConcept eId="cocnept22" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
-				<TLCConcept eId="cocnept23" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beogradu"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Crne Gore"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ZAKONA"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="ministarstvo nadležno za unutrašnje poslove"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Državljanin"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Propis"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. stav 3."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. stava 1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. Zakona"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 2"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="19. jula"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 2"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="20. stav 3"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2011."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 1"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. stav 2"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="24. stav 2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25. stav 3."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. maja 2011."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. stava 1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2016."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="6. stav 2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. stav 2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="70."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. stav 2"/>
+				<TLCConcept eId="cocnept0" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s03_g02_a07" showAs="Isprava"/>
+				<TLCConcept eId="cocnept1" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Služi"/>
+				<TLCConcept eId="cocnept2" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g02_a10" showAs="Karta"/>
+				<TLCConcept eId="cocnept3" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g02_a10" showAs="Lična"/>
+				<TLCConcept eId="cocnept4" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Ugovorom"/>
+				<TLCConcept eId="cocnept5" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Određeno"/>
+				<TLCConcept eId="cocnept6" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a10" showAs="Građani"/>
+				<TLCConcept eId="cocnept7" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Identitet"/>
+				<TLCConcept eId="cocnept8" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_002" showAs="Međunarodnim"/>
+				<TLCConcept eId="cocnept9" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Kojom"/>
+				<TLCConcept eId="cocnept10" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Sadržane"/>
+				<TLCConcept eId="cocnept11" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Dokazuju"/>
+				<TLCConcept eId="cocnept12" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Činjenicama"/>
+				<TLCConcept eId="cocnept13" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s03_g04" showAs="Javna"/>
+				<TLCConcept eId="cocnept14" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a04" showAs="Drugim"/>
+				<TLCConcept eId="cocnept15" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Dokaz"/>
+				<TLCConcept eId="cocnept16" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s03_g02_a07" showAs="Putna"/>
+				<TLCConcept eId="cocnept17" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03" showAs="Pravo"/>
+				<TLCConcept eId="cocnept18" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03" showAs="Ako"/>
+				<TLCConcept eId="cocnept19" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Skladu"/>
+				<TLCConcept eId="cocnept20" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Može"/>
+				<TLCConcept eId="cocnept21" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03" showAs="Zakonom"/>
+				<TLCConcept eId="cocnept22" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike"/>
+				<TLCConcept eId="cocnept23" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Srbije"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_005" showAs="Beogradu"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_060" showAs="Crne Gore"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="RS"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="SFRJ"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="SRS"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g03" showAs="ZAKONA"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_013" showAs="ministarstvo nadležno za unutrašnje poslove"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Državljanin"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g09" showAs="Propis"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="19. jula"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="2011."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="27. maja 2011."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="31. decembra 2016."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -112,7 +120,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О личној карти „Службени гласник РС“, бр. <ref wId="ref66" href="akn/rs/act/2006/62/srp@">62 од 19. јула 2006</ref>, <ref wId="ref67" href="akn/rs/act/2011/36/srp@">36 од 27. маја 2011</ref>.</p>
+				<p>Закон О личној карти „Службени гласник РС“, бр. <ref wId="ref66" href=" akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27  ">62 од 19. јула 2006</ref>, <ref wId="ref67" href=" akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27  ">36 од 27. маја 2011</ref>.</p>
 			</longTitle>
 			<p>Редакцијски пречишћен текст</p>
 		</preface>
@@ -194,7 +202,7 @@
 					</paragraph>
 					<paragraph wId="gla2-clan5-stav4">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/2011/36/srp@">36/2011</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref0" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -211,7 +219,7 @@
 					</paragraph>
 					<paragraph wId="gla3-clan6-stav2">
 						<content>
-							<p>Пропис из <ref wId="ref1" href="akn/rs/act/2011/36-94/srp@/!main~art_6__para_1" >става 1. овог</ref> члана доноси министар надлежан за  унутрашње послове (у даљем тексту: министар).</p>
+							<p>Пропис из <ref wId="ref1" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_6__para_1" >става 1. овог</ref> члана доноси министар надлежан за  унутрашње послове (у даљем тексту: министар).</p>
 						</content>
 					</paragraph>
 				</article>
@@ -304,7 +312,7 @@
 					</paragraph>
 					<paragraph wId="gla4-clan8-stav5">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/2011/36/srp@">36/2011</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref2" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -343,12 +351,12 @@
 					</paragraph>
 					<paragraph wId="gla4-clan9-stav7">
 						<content>
-							<p>Техничке могућности, односно ограничења која се односе  на број ознака којима се, на начин из <ref wId="ref4" href="akn/rs/act/2011/36-94/srp@/!main~art_9__para_1" >става 1. овог</ref> члана, уносе одговарајући  подаци утврђују се прописом из <ref wId="ref3" href="akn/rs/act/2011/36-94/srp@/!main~art_6__para_2" >члана 6. став 2. овог</ref> закона.</p>
+							<p>Техничке могућности, односно ограничења која се односе  на број ознака којима се, на начин из <ref wId="ref4" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_9__para_1" >става 1. овог</ref> члана, уносе одговарајући  подаци утврђују се прописом из <ref wId="ref3" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_6__para_2" >члана 6. став 2. овог</ref> закона.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla4-clan9-stav8">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/2011/36/srp@">36/2011</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref5" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -396,17 +404,17 @@
 					</paragraph>
 					<paragraph wId="gla5-clan10-stav8">
 						<content>
-							<p>Лице из <ref wId="ref6" href="akn/rs/act/2011/36-94/srp@/!main~art_10__para_7" >става 7. овог</ref> члана, које према националној  припадности, вероисповести или народним обичајима носи капу или мараму као  саставни део ношње, односно одеће, може бити фотографисано са капом или марамом,  у складу са прописом о начину узимања биометријских података.</p>
+							<p>Лице из <ref wId="ref6" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_10__para_7" >става 7. овог</ref> члана, које према националној  припадности, вероисповести или народним обичајима носи капу или мараму као  саставни део ношње, односно одеће, може бити фотографисано са капом или марамом,  у складу са прописом о начину узимања биометријских података.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan10-stav9">
 						<content>
-							<p>Биометријски подаци из <ref wId="ref7" href="akn/rs/act/2011/36-94/srp@/!main~art_10__para_7" >става 7. овог</ref> члана узимају се на  начин који пропише министар.</p>
+							<p>Биометријски подаци из <ref wId="ref7" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_10__para_7" >става 7. овог</ref> члана узимају се на  начин који пропише министар.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan10-stav10">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/2011/36/srp@">36/2011</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref8" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -415,7 +423,7 @@
 					<heading>Рок за подношење захтева</heading>
 					<paragraph wId="gla5-clan11-stav1">
 						<content>
-							<p>Лица која су по одредбама овог закона дужна да имају личну  карту захтев за издавање личне карте подносе најкасније у року од 15 дана по  навршеној 16. години живота, односно у року од 15 дана по испуњавању услова из  <ref wId="ref9" href="akn/rs/act/2011/36-94/srp@/!main~art_3" >члана 3. овог</ref> закона.</p>
+							<p>Лица која су по одредбама овог закона дужна да имају личну  карту захтев за издавање личне карте подносе најкасније у року од 15 дана по  навршеној 16. години живота, односно у року од 15 дана по испуњавању услова из  <ref wId="ref9" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_3" >члана 3. овог</ref> закона.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -512,7 +520,7 @@
 					</paragraph>
 					<paragraph wId="gla5-clan14-stav3">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref10" href="akn/rs/act/2011/36/srp@">36/2011</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref10" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -535,12 +543,12 @@
 					</paragraph>
 					<paragraph wId="gla5-clan16-stav2">
 						<content>
-							<p>За одређивање јединственог матичног броја грађана у случају  из <ref wId="ref11" href="akn/rs/act/2011/36-94/srp@/!main~art_16__para_1" >става 1. овог</ref> члана, за број регистра (IV група) одређује се број  70.</p>
+							<p>За одређивање јединственог матичног броја грађана у случају  из <ref wId="ref11" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_16__para_1" >става 1. овог</ref> члана, за број регистра (IV група) одређује се број  70.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan16-stav3">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/2011/36/srp@">36/2011</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref12" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -586,7 +594,7 @@
 						<point wId="gla6-clan19-stav1-tac1">
 							<num>1)</num>
 							<content>
-								<p> ако су промењени његови лични подаци из <ref wId="ref13" href="akn/rs/act/2011/36-94/srp@/!main~art_7__para_2" >члана 7. став 2.  овог</ref> закона;</p>
+								<p> ако су промењени његови лични подаци из <ref wId="ref13" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_7__para_2" >члана 7. став 2.  овог</ref> закона;</p>
 							</content>
 						</point>
 						<point wId="gla6-clan19-stav1-tac2">
@@ -610,7 +618,7 @@
 					</paragraph>
 					<paragraph wId="gla6-clan19-stav2">
 						<content>
-							<p>Ималац личне карте дужан је да поднесе захтев за издавање  нове личне карте у року од 15 дана од дана наступања неког од разлога из <ref wId="ref14" href="akn/rs/act/2011/36-94/srp@/!main~art_19__para_1" >става  1. овог</ref> члана.</p>
+							<p>Ималац личне карте дужан је да поднесе захтев за издавање  нове личне карте у року од 15 дана од дана наступања неког од разлога из <ref wId="ref14" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_19__para_1" >става  1. овог</ref> члана.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan19-stav3">
@@ -620,7 +628,7 @@
 					</paragraph>
 					<paragraph wId="gla6-clan19-stav4">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/2011/36/srp@">36/2011</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref15" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan19-stav5">
@@ -630,22 +638,22 @@
 					</paragraph>
 					<paragraph wId="gla6-clan19-stav6">
 						<content>
-							<p>Изузетно од <ref wId="ref16" href="akn/rs/act/2011/36-94/srp@/!main~art_1__para_3" >члана 1. став 3. овог</ref> закона, лична карта  не може да служи као путна исправа и да се њеном употребом замењује коришћење  путне исправе и прелази државна граница ако су испуњени услови за одузимање  путне исправе – утврђени законом којим се уређују путне исправе за путовање  држављана Републике Србије у иностранство.</p>
+							<p>Изузетно од <ref wId="ref16" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_1__para_3" >члана 1. став 3. овог</ref> закона, лична карта  не може да служи као путна исправа и да се њеном употребом замењује коришћење  путне исправе и прелази државна граница ако су испуњени услови за одузимање  путне исправе – утврђени законом којим се уређују путне исправе за путовање  држављана Републике Србије у иностранство.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan19-stav7">
 						<content>
-							<p>Ако су испуњени услови из <ref wId="ref17" href="akn/rs/act/2011/36-94/srp@/!main~art_19__para_1" >става 1. овог</ref> члана надлежни  орган доноси решење о забрани коришћења личне карте као путне исправе, које важи  шест месеци и које доставља имаоцу и органу који је поднео захтев.</p>
+							<p>Ако су испуњени услови из <ref wId="ref17" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_19__para_1" >става 1. овог</ref> члана надлежни  орган доноси решење о забрани коришћења личне карте као путне исправе, које важи  шест месеци и које доставља имаоцу и органу који је поднео захтев.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan19-stav8">
 						<content>
-							<p>Орган по чијем захтеву је донето решење о забрани  коришћења личне карте може обнављати захтев за забрану коришћења личне карте за  прелазак државне границе док буду постојали разлози из <ref wId="ref18" href="akn/rs/act/2011/36-94/srp@/!main~art_19__para_1" >става 1. овог</ref> члана.</p>
+							<p>Орган по чијем захтеву је донето решење о забрани  коришћења личне карте може обнављати захтев за забрану коришћења личне карте за  прелазак државне границе док буду постојали разлози из <ref wId="ref18" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_19__para_1" >става 1. овог</ref> члана.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan19-stav9">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/2011/36/srp@">36/2011</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref19" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -671,18 +679,18 @@
 						<point wId="gla6-clan20-stav1-tac3">
 							<num>3)</num>
 							<content>
-								<p> ако њен ималац престане да испуњава услове из <ref wId="ref20" href="akn/rs/act/2011/36-94/srp@/!main~art_2" >члана 2.  овог</ref> закона.</p>
+								<p> ако њен ималац престане да испуњава услове из <ref wId="ref20" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_2" >члана 2.  овог</ref> закона.</p>
 							</content>
 						</point>
 					</paragraph>
 					<paragraph wId="gla6-clan20-stav2">
 						<content>
-							<p>У случају из тачке <ref wId="ref22" href="akn/rs/act/2011/36-94/srp@/!main~art_20__para_2__point_1" >1</ref>. <ref wId="ref21" href="akn/rs/act/2011/36-94/srp@/!main~art_20__para_1" >става 1. овог</ref> члана, лице које је по  одредбама овог закона дужно да има личну карту дужно је да поднесе захтев за  издавање нове личне карте најкасније у року од 15 дана по истеку рока на који му  је претходна лична карта издата.</p>
+							<p>У случају из тачке <ref wId="ref22" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_20__para_2__point_1" >1</ref>. <ref wId="ref21" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_20__para_1" >става 1. овог</ref> члана, лице које је по  одредбама овог закона дужно да има личну карту дужно је да поднесе захтев за  издавање нове личне карте најкасније у року од 15 дана по истеку рока на који му  је претходна лична карта издата.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan20-stav3">
 						<content>
-							<p>Лице које је у поседу личне карте умрлог лица, односно лице  из тачке <ref wId="ref24" href="akn/rs/act/2011/36-94/srp@/!main~art_20__para_3__point_3" >3</ref>. <ref wId="ref23" href="akn/rs/act/2011/36-94/srp@/!main~art_20__para_1" >става 1. овог</ref> члана дужно је да врати личну карту надлежном органу  ради поништења у року од 15 дана од дана престанка важења личне карте.</p>
+							<p>Лице које је у поседу личне карте умрлог лица, односно лице  из тачке <ref wId="ref24" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_20__para_3__point_3" >3</ref>. <ref wId="ref23" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_20__para_1" >става 1. овог</ref> члана дужно је да врати личну карту надлежном органу  ради поништења у року од 15 дана од дана престанка важења личне карте.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -710,7 +718,7 @@
 					</paragraph>
 					<paragraph wId="gla6-clan22-stav2">
 						<content>
-							<p>Ако је лична карта нестала или пронађена у иностранству,  лице из <ref wId="ref25" href="akn/rs/act/2011/36-94/srp@/!main~art_22__para_1" >става 1. овог</ref> члана дужно је да њен нестанак или проналазак пријави  дипломатско-конзуларном представништву Републике Србије које ће о томе  обавестити надлежни орган.</p>
+							<p>Ако је лична карта нестала или пронађена у иностранству,  лице из <ref wId="ref25" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_22__para_1" >става 1. овог</ref> члана дужно је да њен нестанак или проналазак пријави  дипломатско-конзуларном представништву Републике Србије које ће о томе  обавестити надлежни орган.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -724,7 +732,7 @@
 					</paragraph>
 					<paragraph wId="gla6-clan23-stav2">
 						<content>
-							<p>Против решења из <ref wId="ref26" href="akn/rs/act/2011/36-94/srp@/!main~art_23__para_1" >става 1. овог</ref> члана жалба није допуштена.</p>
+							<p>Против решења из <ref wId="ref26" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_23__para_1" >става 1. овог</ref> члана жалба није допуштена.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla6-clan23-stav3">
@@ -739,7 +747,7 @@
 					</paragraph>
 					<paragraph wId="gla6-clan23-stav5">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/2011/36/srp@">36/2011</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref27" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -795,7 +803,7 @@
 					<heading>Садржина евиденције</heading>
 					<paragraph wId="gla7-clan26-stav1">
 						<content>
-							<p>Евиденција о личним картама садржи податке о: подносиоцу  захтева из <ref wId="ref28" href="akn/rs/act/2011/36-94/srp@/!main~art_13" >члана 13. овог</ref> закона и слике његових биометријских података; о  серијском и регистарском броју личне карте; о року важења и датуму издавања  личне карте; о разлозима поништења личне карте и о неважећим личним картама.</p>
+							<p>Евиденција о личним картама садржи податке о: подносиоцу  захтева из <ref wId="ref28" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_13" >члана 13. овог</ref> закона и слике његових биометријских података; о  серијском и регистарском броју личне карте; о року важења и датуму издавања  личне карте; о разлозима поништења личне карте и о неважећим личним картама.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla7-clan26-stav2">
@@ -854,50 +862,50 @@
 						<point wId="gla8-clan29-stav1-tac1">
 							<num>1)</num>
 							<content>
-								<p> које супротно утврђеној дужности нема личну карту (<ref wId="ref29" href="akn/rs/act/2011/36-94/srp@/!main~art_3" >члан  3</ref>);</p>
+								<p> које супротно утврђеној дужности нема личну карту (<ref wId="ref29" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_3" >члан  3</ref>);</p>
 							</content>
 						</point>
 						<point wId="gla8-clan29-stav1-tac2">
 							<num>2)</num>
 							<content>
-								<p> које у одређеном року не поднесе захтев за издавање  личне карте (чл. <ref wId="ref30" href="akn/rs/act/2011/36-94/srp@/!main~art_11" >11</ref>. и <ref wId="ref31" href="akn/rs/act/2011/36-94/srp@/!main~art_20" >20</ref>. <ref wId="ref32" href="akn/rs/act/2011/36-94/srp@/!main~art_29__para_2" >став 2</ref>);</p>
+								<p> које у одређеном року не поднесе захтев за издавање  личне карте (чл. <ref wId="ref30" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_11" >11</ref>. и <ref wId="ref31" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_20" >20</ref>. <ref wId="ref32" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_29__para_2" >став 2</ref>);</p>
 							</content>
 						</point>
 						<point wId="gla8-clan29-stav1-tac3">
 							<num>3)</num>
 							<content>
-								<p> које у захтеву за издавање личне карте наведе неистините  податке (<ref wId="ref33" href="akn/rs/act/2011/36-94/srp@/!main~art_12" >члан 12</ref>);</p>
+								<p> које у захтеву за издавање личне карте наведе неистините  податке (<ref wId="ref33" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_12" >члан 12</ref>);</p>
 							</content>
 						</point>
 						<point wId="gla8-clan29-stav1-tac4">
 							<num>4)</num>
 							<content>
-								<p> које користи личну карту коју не сме да користи (<ref wId="ref34" href="akn/rs/act/2011/36-94/srp@/!main~art_19" >члан  19</ref>);</p>
+								<p> које користи личну карту коју не сме да користи (<ref wId="ref34" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_19" >члан  19</ref>);</p>
 							</content>
 						</point>
 						<point wId="gla8-clan29-stav1-tac5">
 							<num>5)</num>
 							<content>
-								<p> које употреби личну карту супротно забрани  коришћења личне карте као путне исправе (<ref wId="ref35" href="akn/rs/act/2011/36-94/srp@/!main~art_19а__para_2" >члан 19а став 2</ref>);</p>
+								<p> које употреби личну карту супротно забрани  коришћења личне карте као путне исправе (<ref wId="ref35" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_19а__para_2" >члан 19а став 2</ref>);</p>
 							</content>
 						</point>
 						<point wId="gla8-clan29-stav1-tac6">
 							<num>6)</num>
 							<content>
-								<p> које одбије да покаже личну карту службеном лицу  овлашћеном за легитимисање (<ref wId="ref36" href="akn/rs/act/2011/36-94/srp@/!main~art_21__para_1" >члан 21. став 1</ref>);</p>
+								<p> које одбије да покаже личну карту службеном лицу  овлашћеном за легитимисање (<ref wId="ref36" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_21__para_1" >члан 21. став 1</ref>);</p>
 							</content>
 						</point>
 						<point wId="gla8-clan29-stav1-tac7">
 							<num>7)</num>
 							<content>
-								<p> које личну карту да другом лицу да се њоме служи као  својом, односно служи се туђом личном картом као својом или је на други начин  злоупотребљава (<ref wId="ref37" href="akn/rs/act/2011/36-94/srp@/!main~art_21__para_2" >члан 21. став 2</ref>).</p>
+								<p> које личну карту да другом лицу да се њоме служи као  својом, односно служи се туђом личном картом као својом или је на други начин  злоупотребљава (<ref wId="ref37" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_21__para_2" >члан 21. став 2</ref>).</p>
 							</content>
 						</point>
 					</paragraph>
 				</article>
 				<article wId="gla8-clan30">
 					<num>30.</num>
-					<heading>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2011/36/srp@">36/2011</ref></heading>
+					<heading>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref></heading>
 					<paragraph wId="gla8-clan30-stav1">
 						<intro>
 							<p>Новчаном казном до 5.000 динара казниће се за прекршај  лице:</p>
@@ -905,25 +913,25 @@
 						<point wId="gla8-clan30-stav1-tac1">
 							<num>1)</num>
 							<content>
-								<p> које у прописаном року не врати личну карту надлежном  органу ради поништења (<ref wId="ref38" href="akn/rs/act/2011/36-94/srp@/!main~art_20__para_3" >члан 20. став 3</ref>);</p>
+								<p> које у прописаном року не врати личну карту надлежном  органу ради поништења (<ref wId="ref38" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_20__para_3" >члан 20. став 3</ref>);</p>
 							</content>
 						</point>
 						<point wId="gla8-clan30-stav1-tac2">
 							<num>2)</num>
 							<content>
-								<p> које не носи личну карту а дужно је да је има (<ref wId="ref39" href="akn/rs/act/2011/36-94/srp@/!main~art_21__para_1" >члан 21.  став 1</ref>);</p>
+								<p> које не носи личну карту а дужно је да је има (<ref wId="ref39" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_21__para_1" >члан 21.  став 1</ref>);</p>
 							</content>
 						</point>
 						<point wId="gla8-clan30-stav1-tac3">
 							<num>3)</num>
 							<content>
-								<p> које без одлагања не пријави нестанак или проналазак  личне карте (<ref wId="ref40" href="akn/rs/act/2011/36-94/srp@/!main~art_22" >члан 22</ref>);</p>
+								<p> које без одлагања не пријави нестанак или проналазак  личне карте (<ref wId="ref40" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_22" >члан 22</ref>);</p>
 							</content>
 						</point>
 					</paragraph>
 					<paragraph wId="gla8-clan30-stav2">
 						<content>
-							<p>Брисана је ранија тачка <ref wId="ref42" href="akn/rs/act/2011/36-94/srp@/!main~art_30__para_2__point_4" >4</ref>) (види <ref wId="ref41" href="akn/rs/act/2011/36/srp@/!main~/art_10">члан 10. Закона -  36/2011-94</ref>).</p>
+							<p>Брисана је ранија тачка <ref wId="ref42" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_30__para_2__point_4" >4</ref>) (види <ref wId="ref41" href="akn/rs/act/2011/36/srp@/!main~/art_10">члан 10. Закона -  36/2011-94</ref>).</p>
 						</content>
 					</paragraph>
 				</article>
@@ -963,12 +971,12 @@
 					<heading>Рок за доношење подзаконских прописа. Примена ранијих  прописа</heading>
 					<paragraph wId="gla9-clan34-stav1">
 						<content>
-							<p>Подзаконске прописе утврђене у <ref wId="ref44" href="akn/rs/act/2011/36-94/srp@/!main~art_6__para_2" >члану 6. став 2, </ref><ref wId="ref45" href="akn/rs/act/2011/36-94/srp@/!main~art_7__para_1" >члану 7.  став 1, </ref><ref wId="ref46" href="akn/rs/act/2011/36-94/srp@/!main~art_8__para_2" >члану 8. став 2, </ref><ref wId="ref47" href="akn/rs/act/2011/36-94/srp@/!main~art_10__para_7" >члану 10. став 7, </ref><ref wId="ref48" href="akn/rs/act/2011/36-94/srp@/!main~art_14__para_2" >члану 14. став 2, </ref><ref wId="ref49" href="akn/rs/act/2011/36-94/srp@/!main~art_15" >члану 15, </ref><ref wId="ref50" href="akn/rs/act/2011/36-94/srp@/!main~art_17__para_2" >члану 17.  став 2, </ref><ref wId="ref51" href="akn/rs/act/2011/36-94/srp@/!main~art_18__para_2" >члану 18. став 2, </ref><ref wId="ref52" href="akn/rs/act/2011/36-94/srp@/!main~art_24__para_2" >члану 24. став 2. </ref>и <ref wId="ref53" href="akn/rs/act/2011/36-94/srp@/!main~art_25__para_3" >члану 25. став 3. овог</ref> закона,  министар ће донети у року од шест месеци од дана ступања на снагу овог закона.</p>
+							<p>Подзаконске прописе утврђене у <ref wId="ref44" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_6__para_2" >члану 6. став 2, </ref><ref wId="ref45" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_7__para_1" >члану 7.  став 1, </ref><ref wId="ref46" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_8__para_2" >члану 8. став 2, </ref><ref wId="ref47" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_10__para_7" >члану 10. став 7, </ref><ref wId="ref48" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_14__para_2" >члану 14. став 2, </ref><ref wId="ref49" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_15" >члану 15, </ref><ref wId="ref50" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_17__para_2" >члану 17.  став 2, </ref><ref wId="ref51" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_18__para_2" >члану 18. став 2, </ref><ref wId="ref52" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_24__para_2" >члану 24. став 2. </ref>и <ref wId="ref53" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_25__para_3" >члану 25. став 3. овог</ref> закона,  министар ће донети у року од шест месеци од дана ступања на снагу овог закона.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla9-clan34-stav2">
 						<content>
-							<p>До почетка примене подзаконских прописа из <ref wId="ref54" href="akn/rs/act/2011/36-94/srp@/!main~art_34__para_1" >става 1. овог</ref>  члана примењиваће се прописи донети до дана ступања на снагу овог закона, ако  нису у супротности са одредбама овог закона.</p>
+							<p>До почетка примене подзаконских прописа из <ref wId="ref54" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27/!main~art_34__para_1" >става 1. овог</ref>  члана примењиваће се прописи донети до дана ступања на снагу овог закона, ако  нису у супротности са одредбама овог закона.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -977,7 +985,7 @@
 					<heading>Престанак важења закона</heading>
 					<paragraph wId="gla9-clan35-stav1">
 						<content>
-							<p>Даном почетка примене овог закона престају да важе Закон о  основним подацима за личну карту (&quot;Службени лист СФРЈ&quot;, број <ref wId="ref55" href="akn/rs/act/73/6/srp@">6/73</ref>) и Закон о  личној карти (&quot;Службени гласник СРС&quot;, бр. <ref wId="ref56" href="akn/rs/act/74/15/srp@">15/74</ref>, <ref wId="ref57" href="akn/rs/act/77/54/srp@">54/77</ref>, <ref wId="ref58" href="akn/rs/act/80/57/srp@">57/80</ref>, <ref wId="ref59" href="akn/rs/act/85/45/srp@">45/85</ref> и <ref wId="ref60" href="akn/rs/act/88/40/srp@">40/88</ref> и  &quot;Службени гласник РС&quot;, бр. <ref wId="ref61" href="akn/rs/act/93/53/srp@">53/93</ref> - др. закон, 67/93 - др. закон, 48/94 - др.  закон и 101/05 - др. закон).</p>
+							<p>Даном почетка примене овог закона престају да важе Закон о  основним подацима за личну карту (&quot;Службени лист СФРЈ&quot;, број <ref wId="ref55" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">6/73</ref>) и Закон о  личној карти (&quot;Службени гласник СРС&quot;, бр. <ref wId="ref56" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">15/74</ref>, <ref wId="ref57" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">54/77</ref>, <ref wId="ref58" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">57/80</ref>, <ref wId="ref59" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">45/85</ref> и <ref wId="ref60" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">40/88</ref> и  &quot;Службени гласник РС&quot;, бр. <ref wId="ref61" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">53/93</ref> - др. закон, 67/93 - др. закон, 48/94 - др.  закон и 101/05 - др. закон).</p>
 						</content>
 					</paragraph>
 				</article>
@@ -997,10 +1005,10 @@
 				</article>
 				<article wId="gla9-clan11">
 					<num>11.</num>
-					<heading>Закон о изменама и допунама Закона о личној карти:  "Службени гласник РС", број <ref wId="ref63" href="akn/rs/act/2011/36/srp@">36/2011</ref>-94</heading>
+					<heading>Закон о изменама и допунама Закона о личној карти:  "Службени гласник РС", број <ref wId="ref63" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">36/2011</ref>-94</heading>
 					<paragraph wId="gla9-clan11-stav1">
 						<content>
-							<p>Лична карта издата пре дана почетка примене овог закона  важи до рока наведеног у личној карти, а најдуже до 31. децембра 2016. године –  до ког рока важе и личне карте издате након почетка примене Закона о личној  карти („Службени гласник РС”, број <ref wId="ref62" href="akn/rs/act/06/62/srp@">62/06</ref>), са роком важења „27. јули 2011.  године”.</p>
+							<p>Лична карта издата пре дана почетка примене овог закона  важи до рока наведеног у личној карти, а најдуже до 31. децембра 2016. године –  до ког рока важе и личне карте издате након почетка примене Закона о личној  карти („Службени гласник РС”, број <ref wId="ref62" href="akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27 ">62/06</ref>), са роком важења „27. јули 2011.  године”.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1023,7 +1031,7 @@
 					</paragraph>
 					<paragraph wId="gla9-clan12-stav4">
 						<content>
-							<p>„Службени гласник РС“, бр. <ref wId="ref64" href="akn/rs/act/2006/62/srp@">62 од 19. јула 2006</ref>, <ref wId="ref65" href="akn/rs/act/2011/36/srp@">36 од 27.  маја 2011</ref>.</p>
+							<p>„Службени гласник РС“, бр. <ref wId="ref64" href=" akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27  ">62 од 19. јула 2006</ref>, <ref wId="ref65" href=" akn/rs/act/zakon/skupština/2006-07-14/2006-07-nn/srp@2006.07.27  ">36 од 27.  маја 2011</ref>.</p>
 						</content>
 					</paragraph>
 				</article>

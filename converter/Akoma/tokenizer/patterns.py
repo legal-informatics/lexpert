@@ -10,6 +10,9 @@ compact = "[а-шђјљћџА-ШЂЈЉЊЋЏ][a-zA-ZĐŽĆČŠđžćčš]"
 ROMAN_NUMERAL = "[MDCLXVI]+"
 AZBUKA = "АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШабвгдђежзијклљмнопрстћуфхцчшџ"
 LAT_AZBUKA = "ABVGDĐEŽZIJKLMNJOPRSTĆUFHCČDžŠabvgdđežzijklmnoprstćufhcčš"
+AZBUKA_VELIKA = "АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШ"
+LAT_AZBUKA_VELIKA = "ABVGDĐEŽZIJKLMNJOPRSTĆUFHCČDž"
+
 GLAVE_POSTFIX = "(([" + AZBUKA + "]+|[" + LAT_AZBUKA + "]+)(а|a)|" + ROMAN_NUMERAL + ")"
 GLAVA_PREFIX = "(Глава|ГЛАВА|Glava|GLAVA)"
 eng_tags = {

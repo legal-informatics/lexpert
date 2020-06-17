@@ -101,6 +101,7 @@ def cap(rez):
         rez = abs(rez)
     return rez
 
+
 def convert(char):
     switcher = {
         'А': "A",

@@ -24,7 +24,7 @@ except ModuleNotFoundError as sureError:
             print("Error")
             exit(-1)
 
-df = read_and_prepare_csv('../data/ner/datasetReldiSD.csv')
+df = read_and_prepare_csv('../data/ner/datasetTestNer.csv')
 
 # X = df.drop(['Tag'], axis=1)
 # v = DictVectorizer(sparse=False)
@@ -60,12 +60,13 @@ import seaborn as sns
 sns.set(color_codes=True)
 sns.set(font_scale=1)
 
-# plt.rcParams['figure.figsize'] = (20.0, 10.0)
-# plt.figure(figsize=(10, 5))
-# ax = sns.countplot('Tag', data=df.loc[df['Tag'] != 'O'])
-# ax.set_xticklabels(ax.get_xticklabels(), rotation=90, ha="center")
-# plt.tight_layout()
-# plt.show()
+plt.rcParams['figure.figsize'] = (20.0, 10.0)
+plt.figure(figsize=(10, 5))
+dfo = df.loc[df['Tag'] != 'O']
+ax = sns.countplot('Tag', data=dfo)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=90, ha="center")
+plt.tight_layout()
+plt.show()
 
 import sklearn_crfsuite
 from sklearn_crfsuite import scorers
@@ -114,4 +115,4 @@ print(metrics.flat_classification_report(y, y_pred, labels=new_classes))
 # print_state_features(Counter(crf.state_features_).most_common()[-30:])
 
 filename = "../data/ner/modelReldiD.sav"
-pickle.dump(crf, open(filename, 'wb'))
+# pickle.dump(crf, open(filename, 'wb'))

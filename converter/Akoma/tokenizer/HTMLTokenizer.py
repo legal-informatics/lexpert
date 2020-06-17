@@ -7,7 +7,8 @@ except ModuleNotFoundError:
         from tokenizer.patterns import recognize_pattern, FoundToken,eng_tags
         from tokenizer.TokenType import TokenType
         from tokenizer.BasicTokenizer import BasicTokenizer
-    except ModuleNotFoundError:
+    except ModuleNotFoundError as e:
+        print(e)
         print("Error")
         exit(-1)
 

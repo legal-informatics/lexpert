@@ -1,5 +1,6 @@
 import re
 import numpy as np
+
 try:
     from Akoma.utilities.utilities import *
     from Akoma.utilities.ETree import *
@@ -384,15 +385,14 @@ def add_refsCl(stringo, cnt, this_id):
     return stringo, cnt
 
 
-def add_refs_sluzbeni_glasnik(stringo, cnt):
+def add_refs_sluzbeni_glasnik(stringo, cnt, this_id):
     for m in re.finditer(nabrajanje2 + '(Службени.{0,25}?)([0-9]+\/[0-9]+)(\s*([,и])\s*([0-9]+\/[0-9]+))*', stringo):
         matches = re.findall("([0-9]+)\/([0-9]+)", m.group(0))
         for i in matches:
             longer = 0
             m1 = re.search("(" + i[0] + ")" + "/" + "(" + i[1] + ")", stringo)
             if m1:
-                open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m1.group(2) + "/" + m1.group(
-                    1) + "/srp@\">"
+                open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"" + this_id + " \">"
             else:
                 open = "<ref " + "wId=\"ref" + str(cnt) + "\">"
             stringo = stringo[:m1.start()] + open + stringo[m1.start():]
@@ -491,11 +491,10 @@ def add_refs_dr_zakon(stringo, cnt, this_id):
     return stringo, cnt
 
 
-def add_refs_sluzbeni_glasnik_datum(stringo, cnt):
+def add_refs_sluzbeni_glasnik_datum(stringo, cnt, this_id):
     longer = 0
     for m1 in re.finditer(nabrajanjeSluzbeniGlasnikDatum, stringo):
-        open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m1.group(3) + "/" + m1.group(
-            1) + "/srp@\">"
+        open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\" " + this_id + "  \">"
         stringo = stringo[:m1.start() + longer] + open + stringo[m1.start() + longer:]
         longer += len(open)
 
@@ -505,30 +504,18 @@ def add_refs_sluzbeni_glasnik_datum(stringo, cnt):
     return stringo, cnt
 
 
-def add_refs_dr_zakon_datum(stringo, cnt):
-    longer = 0
-    for m in re.finditer(nabrajanjeDrZakonDatum, stringo):
-        open = "<ref " + "wId=\"ref" + str(cnt) + "\" href=\"akn/rs/act/" + m.group(3) + "/" + m.group(
-            1) + "/srp@\">"
-        stringo = stringo[:m.start()] + open + stringo[m.start():]
-        longer += len(open)
-
-        stringo = stringo[:m.end() + longer] + "</ref>" + stringo[m.end() + longer:]
-        longer += len("</ref>")
-        cnt += 1
-    return stringo, cnt
-
 def add_all_references(stav_text, cnt, this_id, clan_id, stav_id):
     stringoRet, cnt = add_refs1(stav_text, cnt, this_id)
     stringoRet, cnt = add_refsCl(stringoRet, cnt, this_id)
-    stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt)
-    stringoRet, cnt = add_refs_sluzbeni_glasnik_datum(stringoRet, cnt)
+    stringoRet, cnt = add_refs_sluzbeni_glasnik(stringoRet, cnt, this_id)
+    stringoRet, cnt = add_refs_sluzbeni_glasnik_datum(stringoRet, cnt, this_id)
     stringoRet, cnt = add_refs_dr_zakon(stringoRet, cnt, this_id)
     stringoRet, cnt = add_refs3(stringoRet, cnt, this_id, clan_id)
     stringoRet, cnt = add_refs_stavNabrajanje(stringoRet, cnt, this_id, clan_id)
     stringoRet, cnt = add_refs_tacka(stringoRet, cnt, this_id, clan_id, stav_id)
     stringoRet, cnt = add_refs_tackaNabrajanje(stringoRet, cnt, this_id, clan_id, stav_id)
     return stringoRet, cnt
+
 
 def add_refs(stablo, stringo, this_id):
     cnt = 0

@@ -4,105 +4,90 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/2004/135-10/main"/>
-					<FRBRuri value="akn/rs/act/2004/135-10"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn"/>
 					<FRBRdate date="2004-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
-					<FRBRcountry value="rs"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
+					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
+					<FRBRnumber value="2004-12-nn"/>
+					<FRBRname value="Закон о држављанству Републике Србије: 135/2004-10, 90/2007-3, 24/2018-70"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/2018/24-70/srp@/main"/>
-					<FRBRuri value="akn/rs/act/2018/24-70/srp@"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03"/>
 					<FRBRdate date="2018-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRlanguage language="srp"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
+					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/2018/24-70/srp@/main.xml"/>
-					<FRBRuri value="akn/rs/act/2018/24-70/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main.xml"/>
 					<FRBRdate date="2018-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRformat value="xml"/>
+					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2004-12-21" name="службени гласник рс“" number="135" showAs="Службени гласник РС“"/>
 			<classification source="#somebody">
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="3. Држављанство" value="3. држављанство" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="3. Држављанство" value="3. држављанство" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Građani" value="građani"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Imaju" value="imaju"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Republike" value="republike"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Srbije" value="srbije"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Državljanstvo" value="državljanstvo"/>
 			</classification>
-			<lifecycle source="#somebody">
-				<eventRef date="2004-01-01" refersTo="135/2004-10" source="#somebody" type="generation" wId="e1"/>
-				<eventRef date="2007-01-01" refersTo="90/2007-3" source="#somebody" type="amendment" wId="e2"/>
-				<eventRef date="2018-01-01" refersTo="24/2018-70" source="#somebody" type="amendment" wId="e3"/>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403">
+				<eventRef date="2004-12-14" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="generation"/>
+				<eventRef date="2005-02-28" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="generation"/>
+				<eventRef date="2004-12-29" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="generation"/>
+				<eventRef date="2004-02-21" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="amendment"/>
+				<eventRef date="2007-10-01" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="amendment"/>
+				<eventRef date="2018-03-26" href="#izmena" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/sgrs/skupstina/zakon/2004/135/4/reg/20180403" type="amendment"/>
 			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="2004-12-14" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="2004-12-29" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="2005-02-28" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="2004-12-14" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2004-12-29" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2005-02-28" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="грађани"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="имају"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="републике"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="србије"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="држављанство"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Uslov"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Beograda"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="RS"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republici Srbiji"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republike Srbije"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Republiku Srbiju"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Ministarstvo nadležno za unutrašnje poslove"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Narodna banka Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O utvrđivanju državljanstva Republike Srbije ministarstvo nadležno za unutrašnje poslove"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="O zahtevima za sticanje državljanstva Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republika Srbija za svoju"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Republike Srbije državljanstvo Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRJ"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SRS"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Službenom glasniku Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Socijalističke Republike Srbije"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Vlada Republike Srbije"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Otpust"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Propise"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Topčider"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. do 3."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. i 2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. januara 2019."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. oktobra"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. tačka 4."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="10. Zakona"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="11."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="13. Zakona"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="14. stav 1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="15. Zakona"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="18."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. Zakona"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. do 4."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="2. stava 1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="21. decembra"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="23."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="23. stav 3."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="25."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="26. marta 2018."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="27. februara 2005."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="3. juna 2006."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="30. juna 2018."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="31. decembra 2016."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="46. stav 5."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. stav 2."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. stav 2. Zakona"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="48. stav 4."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="5."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="7. do 10."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="9. stav 1."/>
+				<TLCConcept eId="cocnept0" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g01_a10" showAs="Građani"/>
+				<TLCConcept eId="cocnept1" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Imaju"/>
+				<TLCConcept eId="cocnept2" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike"/>
+				<TLCConcept eId="cocnept3" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Srbije"/>
+				<TLCConcept eId="cocnept4" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s03_g02_a06" showAs="Državljanstvo"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Uslov"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_005" showAs="Beograda"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="RS"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republici Srbiji"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republiku Srbiju"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_013" showAs="Ministarstvo nadležno za unutrašnje poslove"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Narodna banka Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="O utvrđivanju državljanstva Republike Srbije ministarstvo nadležno za unutrašnje poslove"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="O zahtevima za sticanje državljanstva Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republika Srbija za svoju"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Republike Srbije državljanstvo Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="SFRJ"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="SRJ"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="SRS"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Službenom glasniku Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Socijalističke Republike Srbije"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Vlada Republike Srbije"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Otpust"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#s01_g09" showAs="Propise"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Topčider"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1. januara 2019."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1. oktobra"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="21. decembra"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="26. marta 2018."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="27. februara 2005."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="3. juna 2006."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="30. juna 2018."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="31. decembra 2016."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -115,7 +100,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О држављанству републике србије „Службени гласник РС“, бр. <ref wId="ref89" href="akn/rs/act/2004/135/srp@">135 од 21. децембра 2004</ref>, <ref wId="ref90" href="akn/rs/act/2007/90/srp@">90 од 1. октобра 2007</ref>, <ref wId="ref91" href="akn/rs/act/2018/24/srp@">24 од 26. марта 2018</ref>.</p>
+				<p>Закон О држављанству републике србије „Службени гласник РС“, бр. <ref wId="ref89" href=" akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03  ">135 од 21. децембра 2004</ref>, <ref wId="ref90" href=" akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03  ">90 од 1. октобра 2007</ref>, <ref wId="ref91" href=" akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03  ">24 од 26. марта 2018</ref>.</p>
 			</longTitle>
 			<p>Редакцијски пречишћен текст</p>
 		</preface>
@@ -222,7 +207,7 @@
 					</paragraph>
 					<paragraph wId="gla2-od1-clan7-stav2">
 						<intro>
-							<p>Брисане су раније тач. <ref wId="ref3" href="akn/rs/act/2018/24-70/srp@/!main~art_7__para_2__point_3" >3</ref>), <ref wId="ref4" href="akn/rs/act/2018/24-70/srp@/!main~art_7__para_2__point_4" >4</ref>) и <ref wId="ref5" href="akn/rs/act/2018/24-70/srp@/!main~art_7__para_2__point_5" >5</ref>)  (види <ref wId="ref2" href="akn/rs/act/2007/90/srp@/!main~/art_2">члан 2. Закона – 90/2007-3</ref>)</p>
+							<p>Брисане су раније тач. <ref wId="ref3" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_7__para_2__point_3" >3</ref>), <ref wId="ref4" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_7__para_2__point_4" >4</ref>) и <ref wId="ref5" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_7__para_2__point_5" >5</ref>)  (види <ref wId="ref2" href="akn/rs/act/2007/90/srp@/!main~/art_2">члан 2. Закона – 90/2007-3</ref>)</p>
 						</intro>
 						<point wId="gla2-od1-clan7-stav2-tac3">
 							<num>3)</num>
@@ -234,7 +219,7 @@
 				</article>
 				<article wId="gla2-od1-clan8">
 					<num>8.</num>
-					<heading>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/2007/90/srp@">90/2007</ref></heading>
+					<heading>*Службени гласник РС, број <ref wId="ref6" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></heading>
 				</article>
 				<article wId="gla2-od1-clan9">
 					<num>9.</num>
@@ -246,21 +231,21 @@
 					</paragraph>
 					<paragraph wId="gla2-od1-clan9-stav2">
 						<content>
-							<p>Дете рођено у иностранству, чији је један од родитеља у тренутку његовог рођења држављанин Републике Србије, стиче пореклом држављанство Републике Србије ако би остало без држављанства чак и ако нису испуњени услови из <ref wId="ref7" href="akn/rs/act/2018/24-70/srp@/!main~art_9__para_1" >става 1. овог</ref> члана.</p>
+							<p>Дете рођено у иностранству, чији је један од родитеља у тренутку његовог рођења држављанин Републике Србије, стиче пореклом држављанство Републике Србије ако би остало без држављанства чак и ако нису испуњени услови из <ref wId="ref7" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_9__para_1" >става 1. овог</ref> члана.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od1-clan9-stav3">
 						<content>
-							<p>Ако је дете старије од 14 година, за стицање држављанства у смислу <ref wId="ref8" href="akn/rs/act/2018/24-70/srp@/!main~art_9__para_1->para_2" >ст. 1. и 2. овог</ref> члана потребна је и његова сагласност.</p>
+							<p>Ако је дете старије од 14 година, за стицање држављанства у смислу <ref wId="ref8" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_9__para_1->para_2" >ст. 1. и 2. овог</ref> члана потребна је и његова сагласност.</p>
 						</content>
 					</paragraph>
 				</article>
 				<article wId="gla2-od1-clan10">
 					<num>10.</num>
-					<heading>*Службени гласник РС, број <ref wId="ref11" href="akn/rs/act/2007/90/srp@">90/2007</ref></heading>
+					<heading>*Службени гласник РС, број <ref wId="ref11" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></heading>
 					<paragraph wId="gla2-od1-clan10-stav1">
 						<content>
-							<p>Лице старије од 18 година живота рођено у иностранству чији је један од родитеља у тренутку његовог рођења био држављанин Републике Србије а други страни држављанин стиче пореклом држављанство Републике Србије ако до навршене 23. године живота поднесе захтев за упис у евиденцију држављана надлежном органу у Републици Србији, под условом да није стекло држављанство Републике Србије на начин предвиђен <ref wId="ref10" href="akn/rs/act/2018/24-70/srp@/!main~art_9__para_1" >чланом 9. став 1. овог</ref> закона.</p>
+							<p>Лице старије од 18 година живота рођено у иностранству чији је један од родитеља у тренутку његовог рођења био држављанин Републике Србије а други страни држављанин стиче пореклом држављанство Републике Србије ако до навршене 23. године живота поднесе захтев за упис у евиденцију држављана надлежном органу у Републици Србији, под условом да није стекло држављанство Републике Србије на начин предвиђен <ref wId="ref10" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_9__para_1" >чланом 9. став 1. овог</ref> закона.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -268,17 +253,17 @@
 					<num>11.</num>
 					<paragraph wId="gla2-od1-clan11-stav1">
 						<content>
-							<p>Под условима из <ref wId="ref12" href="akn/rs/act/2018/24-70/srp@/!main~art_7->art_10" >чл. 7. </ref>до 10. овог закона, држављанство Републике Србије стиче пореклом и усвојеник-странац, односно усвојеник без држављанства, у случају потпуног усвојења.</p>
+							<p>Под условима из <ref wId="ref12" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_7->art_10" >чл. 7. </ref>до 10. овог закона, држављанство Републике Србије стиче пореклом и усвојеник-странац, односно усвојеник без држављанства, у случају потпуног усвојења.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od1-clan11-stav2">
 						<content>
-							<p>Захтев за упис усвојеника из <ref wId="ref13" href="akn/rs/act/2018/24-70/srp@/!main~art_11__para_1" >става 1. овог</ref> члана у евиденцију држављана подноси усвојилац – држављанин Републике Србије.</p>
+							<p>Захтев за упис усвојеника из <ref wId="ref13" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_11__para_1" >става 1. овог</ref> члана у евиденцију држављана подноси усвојилац – држављанин Републике Србије.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od1-clan11-stav3">
 						<content>
-							<p>Захтев из <ref wId="ref14" href="akn/rs/act/2018/24-70/srp@/!main~art_11__para_2" >става 2. овог</ref> члана подноси усвојеник старији од 18 година до навршене 23. године живота.</p>
+							<p>Захтев из <ref wId="ref14" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_11__para_2" >става 2. овог</ref> члана подноси усвојеник старији од 18 година до навршене 23. године живота.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -286,7 +271,7 @@
 					<num>12.</num>
 					<paragraph wId="gla2-od1-clan12-stav1">
 						<content>
-							<p>Дете, односно лице из <ref wId="ref15" href="akn/rs/act/2018/24-70/srp@/!main~art_7->art_11" >чл. 7. </ref>до 11. овог закона, које стиче држављанство пореклом, сматра се држављанином Републике Србије од рођења.</p>
+							<p>Дете, односно лице из <ref wId="ref15" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_7->art_11" >чл. 7. </ref>до 11. овог закона, које стиче држављанство пореклом, сматра се држављанином Републике Србије од рођења.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -299,12 +284,12 @@
 					</paragraph>
 					<paragraph wId="gla2-od2-clan13-stav2">
 						<content>
-							<p>Дете које је на основу <ref wId="ref16" href="akn/rs/act/2018/24-70/srp@/!main~art_13__para_1" >става 1. овог</ref> члана стекло држављанство Републике Србије сматра се држављанином Републике Србије од рођења.</p>
+							<p>Дете које је на основу <ref wId="ref16" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_13__para_1" >става 1. овог</ref> члана стекло држављанство Републике Србије сматра се држављанином Републике Србије од рођења.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od2-clan13-stav3">
 						<content>
-							<p>Детету из <ref wId="ref17" href="akn/rs/act/2018/24-70/srp@/!main~art_13__para_1" >става 1. овог</ref> члана може престати држављанство Републике Србије ако се до навршене 18. године утврди да су му оба родитеља   страни држављани. Држављанство му престаје на захтев родитеља даном достављања решења.</p>
+							<p>Детету из <ref wId="ref17" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_13__para_1" >става 1. овог</ref> члана може престати држављанство Републике Србије ако се до навршене 18. године утврди да су му оба родитеља   страни држављани. Држављанство му престаје на захтев родитеља даном достављања решења.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od2-clan13-stav4">
@@ -314,7 +299,7 @@
 					</paragraph>
 					<paragraph wId="gla2-od2-clan13-stav5">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref18" href="akn/rs/act/2007/90/srp@">90/2007</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref18" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -351,12 +336,12 @@
 					</paragraph>
 					<paragraph wId="gla2-od3-clan14-stav2">
 						<content>
-							<p>Услов из тачке <ref wId="ref20" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_2__point_2" >2</ref>. <ref wId="ref19" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1" >става 1. овог</ref> члана испуњен је ако је захтев поднело лице без држављанства или лице које пружи доказ да ће по закону земље чији је држављанин изгубити држављанство пријемом у држављанство Републике Србије.</p>
+							<p>Услов из тачке <ref wId="ref20" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_14__para_2__point_2" >2</ref>. <ref wId="ref19" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_14__para_1" >става 1. овог</ref> члана испуњен је ако је захтев поднело лице без држављанства или лице које пружи доказ да ће по закону земље чији је држављанин изгубити држављанство пријемом у држављанство Републике Србије.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od3-clan14-stav3">
 						<content>
-							<p>Ако страна држава не дозвољава отпуст из држављанства или за отпуст поставља услове које странац не може испунити, испуњеност услова из тачке <ref wId="ref22" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_3__point_2" >2</ref>. <ref wId="ref21" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1" >става 1. овог</ref> члана не тражи се ако подносилац захтева поднесе изјаву да се одриче страног држављанства у случају стицања држављанства Републике Србије.</p>
+							<p>Ако страна држава не дозвољава отпуст из држављанства или за отпуст поставља услове које странац не може испунити, испуњеност услова из тачке <ref wId="ref22" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_14__para_3__point_2" >2</ref>. <ref wId="ref21" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_14__para_1" >става 1. овог</ref> члана не тражи се ако подносилац захтева поднесе изјаву да се одриче страног држављанства у случају стицања држављанства Републике Србије.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od3-clan14-stav4">
@@ -366,21 +351,21 @@
 					</paragraph>
 					<paragraph wId="gla2-od3-clan14-stav5">
 						<content>
-							<p>Образац писмене изјаве из става 1. тачка <ref wId="ref23" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1__point_4" >4</ref>. овог члана прописаће министар надлежан за унутрашње послове.</p>
+							<p>Образац писмене изјаве из става 1. тачка <ref wId="ref23" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_14__para_1__point_4" >4</ref>. овог члана прописаће министар надлежан за унутрашње послове.</p>
 						</content>
 					</paragraph>
 				</article>
 				<article wId="gla2-od3-clan15">
 					<num>15.</num>
-					<heading>*Службени гласник РС, број <ref wId="ref26" href="akn/rs/act/2007/90/srp@">90/2007</ref></heading>
+					<heading>*Службени гласник РС, број <ref wId="ref26" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></heading>
 					<paragraph wId="gla2-od3-clan15-stav1">
 						<content>
-							<p>Странцу који је поднео захтев за пријем у држављанство Републике Србије а нема отпуст из страног држављанства или доказ да ће отпуст добити ако буде примљен у држављанство Републике Србије може се, на његов захтев, издати потврда да ће бити примљен у држављанство Републике Србије ако испуњава остале услове из <ref wId="ref24" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона.</p>
+							<p>Странцу који је поднео захтев за пријем у држављанство Републике Србије а нема отпуст из страног држављанства или доказ да ће отпуст добити ако буде примљен у држављанство Републике Србије може се, на његов захтев, издати потврда да ће бити примљен у држављанство Републике Србије ако испуњава остале услове из <ref wId="ref24" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_14__para_1" >члана 14. став 1. овог</ref> закона.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od3-clan15-stav2">
 						<content>
-							<p>Потврда из <ref wId="ref25" href="akn/rs/act/2018/24-70/srp@/!main~art_15__para_1" >става 1. овог</ref> члана издаје се са роком важења од две године и служи за добијање отпуста из страног држављанства.</p>
+							<p>Потврда из <ref wId="ref25" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_15__para_1" >става 1. овог</ref> члана издаје се са роком важења од две године и служи за добијање отпуста из страног држављанства.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -409,12 +394,12 @@
 					</paragraph>
 					<paragraph wId="gla2-od3-clan18-stav2">
 						<content>
-							<p>Брачни друг лица из <ref wId="ref27" href="akn/rs/act/2018/24-70/srp@/!main~art_18__para_1" >става 1. овог</ref> члана које је стекло држављанство Републике Србије може бити примљен у држављанство Републике Србије ако поднесе писмену изјаву да Републику Србију сматра својом државом.</p>
+							<p>Брачни друг лица из <ref wId="ref27" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_18__para_1" >става 1. овог</ref> члана које је стекло држављанство Републике Србије може бити примљен у држављанство Републике Србије ако поднесе писмену изјаву да Републику Србију сматра својом државом.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od3-clan18-stav3">
 						<content>
-							<p>Под исељеником, у смислу <ref wId="ref28" href="akn/rs/act/2018/24-70/srp@/!main~art_18__para_1" >става 1. овог</ref> члана, сматра се лице које се иселило из Републике Србије са намером да стално живи у иностранству.</p>
+							<p>Под исељеником, у смислу <ref wId="ref28" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_18__para_1" >става 1. овог</ref> члана, сматра се лице које се иселило из Републике Србије са намером да стално живи у иностранству.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -422,17 +407,17 @@
 					<num>19.</num>
 					<paragraph wId="gla2-od3-clan19-stav1">
 						<content>
-							<p>Независно од услова из <ref wId="ref29" href="akn/rs/act/2018/24-70/srp@/!main~" >члана 14. став 1. тач. 2. </ref>до 4. овог закона, у држављанство Републике Србије може бити примљен и странац чији би пријем у држављанство Републике Србије представљао интерес за Републику Србију.</p>
+							<p>Независно од услова из <ref wId="ref29" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~" >члана 14. став 1. тач. 2. </ref>до 4. овог закона, у држављанство Републике Србије може бити примљен и странац чији би пријем у држављанство Републике Србије представљао интерес за Републику Србију.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od3-clan19-stav2">
 						<content>
-							<p>Брачни друг лица које је под условима из <ref wId="ref30" href="akn/rs/act/2018/24-70/srp@/!main~art_19__para_1" >става 1. овог</ref> члана стекло држављанство Републике Србије може бити примљен у држављанство Републике Србије и ако не испуњава услове из <ref wId="ref31" href="akn/rs/act/2018/24-70/srp@/!main~" >члана 14. став 1. тач. 2. </ref>до 4. овог закона.</p>
+							<p>Брачни друг лица које је под условима из <ref wId="ref30" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_19__para_1" >става 1. овог</ref> члана стекло држављанство Републике Србије може бити примљен у држављанство Републике Србије и ако не испуњава услове из <ref wId="ref31" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~" >члана 14. став 1. тач. 2. </ref>до 4. овог закона.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od3-clan19-stav3">
 						<content>
-							<p>О пријему у држављанство Републике Србије из <ref wId="ref32" href="akn/rs/act/2018/24-70/srp@/!main~art_19__para_1" >става 1. овог</ref> члана, на предлог надлежног министарства, одлучује Влада Републике Србије.</p>
+							<p>О пријему у држављанство Републике Србије из <ref wId="ref32" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_19__para_1" >става 1. овог</ref> члана, на предлог надлежног министарства, одлучује Влада Републике Србије.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -455,7 +440,7 @@
 					</paragraph>
 					<paragraph wId="gla2-od3-clan20-stav4">
 						<content>
-							<p>Ако је дете старије од 14 година живота, за пријем у држављанство у смислу <ref wId="ref33" href="akn/rs/act/2018/24-70/srp@/!main~art_20__para_1->para_3" >ст. 1. </ref>до 3. овог члана потребна је и његова сагласност.</p>
+							<p>Ако је дете старије од 14 година живота, за пријем у држављанство у смислу <ref wId="ref33" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_20__para_1->para_3" >ст. 1. </ref>до 3. овог члана потребна је и његова сагласност.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -485,18 +470,18 @@
 					</paragraph>
 					<paragraph wId="gla2-od3-clan23-stav2">
 						<content>
-							<p>Под условима из <ref wId="ref34" href="akn/rs/act/2018/24-70/srp@/!main~art_23__para_1" >става 1. овог</ref> члана, у држављанство Републике Србије може бити примљено и лице рођено у другој републици раније СФРЈ које је имало држављанство те републике или је држављанин друге државе настале на територији раније СФРЈ, које као избегло, прогнано или расељено лице борави на територији Републике Србије или је избегло у иностранство.</p>
+							<p>Под условима из <ref wId="ref34" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_23__para_1" >става 1. овог</ref> члана, у држављанство Републике Србије може бити примљено и лице рођено у другој републици раније СФРЈ које је имало држављанство те републике или је држављанин друге државе настале на територији раније СФРЈ, које као избегло, прогнано или расељено лице борави на територији Републике Србије или је избегло у иностранство.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla2-od3-clan23-stav3">
 						<content>
-							<p>Под условима из <ref wId="ref35" href="akn/rs/act/2018/24-70/srp@/!main~art_23__para_1" >става 1. овог</ref> члана у држављанство  Републике Србије може бити примљен припадник другог народа или етничке заједнице  са територије Републике Србије.</p>
+							<p>Под условима из <ref wId="ref35" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_23__para_1" >става 1. овог</ref> члана у држављанство  Републике Србије може бити примљен припадник другог народа или етничке заједнице  са територије Републике Србије.</p>
 						</content>
 					</paragraph>
 				</article>
 				<article wId="gla2-od3-clan24">
 					<num>24.</num>
-					<heading>*Службени гласник РС,   број <ref wId="ref38" href="akn/rs/act/2007/90/srp@">90/2007</ref></heading>
+					<heading>*Службени гласник РС,   број <ref wId="ref38" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></heading>
 					<paragraph wId="gla2-od3-clan24-stav1">
 						<content>
 							<p>Писмена изјава којом се признаје Република Србија за своју државу предаје се заједно са захтевом за пријем у држављанство Републике Србије министарству надлежном за унутрашње послове или надлежном дипломатском или конзуларном представништву  Републике Србије, на начин предвиђен овим законом.</p>
@@ -504,7 +489,7 @@
 					</paragraph>
 					<paragraph wId="gla2-od3-clan24-stav2">
 						<content>
-							<p>*Службени гласник РС,   број <ref wId="ref37" href="akn/rs/act/2007/90/srp@">90/2007</ref></p>
+							<p>*Службени гласник РС,   број <ref wId="ref37" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -554,7 +539,7 @@
 					</paragraph>
 					<paragraph wId="gla3-clan27-stav2">
 						<intro>
-							<p>Брисана је   ранија  тачка <ref wId="ref40" href="akn/rs/act/2018/24-70/srp@/!main~art_27__para_2__point_3" >3</ref>)   (види <ref wId="ref39" href="akn/rs/act/2007/90/srp@/!main~/art_10">члан 10. Закона – 90/2007-3</ref>)</p>
+							<p>Брисана је   ранија  тачка <ref wId="ref40" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_27__para_2__point_3" >3</ref>)   (види <ref wId="ref39" href="akn/rs/act/2007/90/srp@/!main~/art_10">члан 10. Закона – 90/2007-3</ref>)</p>
 						</intro>
 						<point wId="gla3-clan27-stav2-tac3">
 							<num>3)</num>
@@ -565,7 +550,7 @@
 					</paragraph>
 					<paragraph wId="gla3-clan27-stav3">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref41" href="akn/rs/act/2007/90/srp@">90/2007</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref41" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -615,7 +600,7 @@
 				</article>
 				<article wId="gla3-od1-clan29">
 					<num>29.</num>
-					<heading>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/2007/90/srp@">90/2007</ref></heading>
+					<heading>*Службени гласник РС, број <ref wId="ref42" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></heading>
 					<paragraph wId="gla3-od1-clan29-stav1">
 						<content>
 							<p>Отпуст из држављанства Републике Србије неће се одобрити ако је то неопходно из разлога безбедности или одбране земље, из разлога узајамности или ако то захтевају економски интереси  Републике Србије.</p>
@@ -624,7 +609,7 @@
 				</article>
 				<article wId="gla3-od1-clan30">
 					<num>30.</num>
-					<heading>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/2007/90/srp@">90/2007</ref></heading>
+					<heading>*Службени гласник РС, број <ref wId="ref43" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></heading>
 					<paragraph wId="gla3-od1-clan30-stav1">
 						<content>
 							<p>Држављанин Републике Србије који је поднео захтев за отпуст из држављанства Републике Србије истим захтевом може затражити отпуст из држављанства Републике Србије и за своју децу до навршене 18. године живота. Уз захтев за отпуст из држављанства Републике Србије детета подноси се сагласност другог родитеља. Ако је дете старије од 14 година, подноси се и његова сагласност.</p>
@@ -645,12 +630,12 @@
 					<num>31.</num>
 					<paragraph wId="gla3-od1-clan31-stav1">
 						<content>
-							<p>У случају потпуног усвојења, усвојенику до навршене 18. године живота престаје држављанство Републике Србије отпустом ако захтев за престанак држављанства поднесе усвојилац који је странац или усвојилац који је поднео захтев за отпуст из држављанства Републике Србије и ако су испуњени услови из <ref wId="ref44" href="akn/rs/act/2018/24-70/srp@/!main~art_30" >члана 30. овог</ref> закона.</p>
+							<p>У случају потпуног усвојења, усвојенику до навршене 18. године живота престаје држављанство Републике Србије отпустом ако захтев за престанак држављанства поднесе усвојилац који је странац или усвојилац који је поднео захтев за отпуст из држављанства Републике Србије и ако су испуњени услови из <ref wId="ref44" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_30" >члана 30. овог</ref> закона.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla3-od1-clan31-stav2">
 						<content>
-							<p>Детету из <ref wId="ref45" href="akn/rs/act/2018/24-70/srp@/!main~art_31__para_1" >става 1. овог</ref> члана неће престати држављанство Републике Србије ако би тиме остало без држављанства.</p>
+							<p>Детету из <ref wId="ref45" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_31__para_1" >става 1. овог</ref> члана неће престати држављанство Републике Србије ако би тиме остало без држављанства.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -663,7 +648,7 @@
 					</paragraph>
 					<paragraph wId="gla3-od1-clan32-stav2">
 						<content>
-							<p>Захтев за поништење решења о отпусту из држављанства Републике Србије може се поднети у року од три месеца од истека рока из <ref wId="ref46" href="akn/rs/act/2018/24-70/srp@/!main~art_32__para_1" >става 1. овог</ref> члана.</p>
+							<p>Захтев за поништење решења о отпусту из држављанства Републике Србије може се поднети у року од три месеца од истека рока из <ref wId="ref46" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_32__para_1" >става 1. овог</ref> члана.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -676,7 +661,7 @@
 					</paragraph>
 					<paragraph wId="gla3-od2-clan33-stav2">
 						<content>
-							<p>У погледу одрицања од држављанства детета до навршене 18. године живота сходно се примењују одредбе <ref wId="ref47" href="akn/rs/act/2018/24-70/srp@/!main~art_30" >члана 30. овог</ref> закона.</p>
+							<p>У погледу одрицања од држављанства детета до навршене 18. године живота сходно се примењују одредбе <ref wId="ref47" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_30" >члана 30. овог</ref> закона.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -690,7 +675,7 @@
 				</article>
 				<article wId="gla3-od3-clan35">
 					<num>35.</num>
-					<heading>Брисан   је   наднаслов изнад <ref wId="ref49" href="akn/rs/act/2018/24-70/srp@/!main~art_35" >члана 35.  </ref>(види <ref wId="ref50" href="akn/rs/act/2007/90/srp@/!main~/art_13">члан 13. Закона – 90/2007-3</ref>)</heading>
+					<heading>Брисан   је   наднаслов изнад <ref wId="ref49" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_35" >члана 35.  </ref>(види <ref wId="ref50" href="akn/rs/act/2007/90/srp@/!main~/art_13">члан 13. Закона – 90/2007-3</ref>)</heading>
 					<paragraph wId="gla3-od3-clan35-stav1">
 						<content>
 							<p>Брисан   је  (види <ref wId="ref48" href="akn/rs/act/2007/90/srp@/!main~/art_13">члан 13. Закона – 90/2007-3</ref>)</p>
@@ -760,7 +745,7 @@
 				</article>
 				<article wId="gla4-clan40">
 					<num>40.</num>
-					<heading>*Службени гласник РС, број <ref wId="ref52" href="akn/rs/act/2007/90/srp@">90/2007</ref></heading>
+					<heading>*Службени гласник РС, број <ref wId="ref52" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></heading>
 					<paragraph wId="gla4-clan40-stav1">
 						<content>
 							<p>Ако се поступак за стицање или престанак држављанства Републике Србије, покренут на захтев странке, не може наставити или окончати без предузимања одређене радње од стране подносиоца захтева, сматраће се да је захтев повучен ако и поред упозорења министарства надлежног за унутрашње послове подносилац захтева у датом року не изврши радњу која је потребна за наставак или окончање поступка или ако се због непредузимања ове радње може закључити да више није заинтересован за наставак поступка.</p>
@@ -768,7 +753,7 @@
 					</paragraph>
 					<paragraph wId="gla4-clan40-stav2">
 						<content>
-							<p>Из разлога наведених у <ref wId="ref51" href="akn/rs/act/2018/24-70/srp@/!main~art_40__para_1" >ставу 1. овог</ref> члана поступак се може обуставити по истеку три месеца од дана упозорења, односно шест месеци ако странка борави у иностранству.</p>
+							<p>Из разлога наведених у <ref wId="ref51" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_40__para_1" >ставу 1. овог</ref> члана поступак се може обуставити по истеку три месеца од дана упозорења, односно шест месеци ако странка борави у иностранству.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -828,7 +813,7 @@
 					</paragraph>
 					<paragraph wId="gla4-clan45-stav2">
 						<content>
-							<p>Решење о стицању и престанку држављанства Републике Србије не може се поништити ако би лице из <ref wId="ref53" href="akn/rs/act/2018/24-70/srp@/!main~art_45__para_1" >става 1. овог</ref> члана остало без држављанства.</p>
+							<p>Решење о стицању и престанку држављанства Републике Србије не може се поништити ако би лице из <ref wId="ref53" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_45__para_1" >става 1. овог</ref> члана остало без држављанства.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla4-clan45-stav3">
@@ -870,7 +855,7 @@
 					</paragraph>
 					<paragraph wId="gla5-clan46-stav6">
 						<content>
-							<p>У матичну књигу градске општине из <ref wId="ref54" href="akn/rs/act/2018/24-70/srp@/!main~art_46__para_5" >става 5. овог</ref> члана уписују се и потомци исељеника рођени у иностранству, као и њихови брачни другови рођени у иностранству.</p>
+							<p>У матичну књигу градске општине из <ref wId="ref54" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_46__para_5" >става 5. овог</ref> члана уписују се и потомци исељеника рођени у иностранству, као и њихови брачни другови рођени у иностранству.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -891,17 +876,17 @@
 					</paragraph>
 					<paragraph wId="gla5-clan48-stav2">
 						<content>
-							<p>Брисан је ранији <ref wId="ref56" href="akn/rs/act/2018/24-70/srp@/!main~art_48__para_2" >став 2. </ref>(види <ref wId="ref55" href="akn/rs/act/2007/90/srp@/!main~/art_15">члан 15. Закона – 90/2007-3</ref>)</p>
+							<p>Брисан је ранији <ref wId="ref56" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_48__para_2" >став 2. </ref>(види <ref wId="ref55" href="akn/rs/act/2007/90/srp@/!main~/art_15">члан 15. Закона – 90/2007-3</ref>)</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan48-stav3">
 						<content>
-							<p>Под евиденцијом из <ref wId="ref57" href="akn/rs/act/2018/24-70/srp@/!main~art_48__para_1" >става 1. овог</ref> члана подразумева се матична књига рођених, књиге држављана Републике Србије вођене по прописима који су били на снази до ступања на снагу овог закона и друге евиденције држављана вођене у Републици Србији.</p>
+							<p>Под евиденцијом из <ref wId="ref57" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_48__para_1" >става 1. овог</ref> члана подразумева се матична књига рођених, књиге држављана Републике Србије вођене по прописима који су били на снази до ступања на снагу овог закона и друге евиденције држављана вођене у Републици Србији.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan48-stav4">
 						<content>
-							<p>Овлашћено лице у смислу прописа о матичним књигама  може издати уверење о држављанству Републике Србије из евиденције из <ref wId="ref58" href="akn/rs/act/2018/24-70/srp@/!main~art_48__para_2" >става 2.  овог</ref> члана, без обзира на место уписа у евиденције о држављанима Републике  Србије.</p>
+							<p>Овлашћено лице у смислу прописа о матичним књигама  може издати уверење о држављанству Републике Србије из евиденције из <ref wId="ref58" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_48__para_2" >става 2.  овог</ref> члана, без обзира на место уписа у евиденције о држављанима Републике  Србије.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan48-stav5">
@@ -916,13 +901,13 @@
 					</paragraph>
 					<paragraph wId="gla5-clan48-stav7">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref59" href="akn/rs/act/2007/90/srp@">90/2007</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref59" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></p>
 						</content>
 					</paragraph>
 				</article>
 				<article wId="gla5-clan49">
 					<num>49.</num>
-					<heading>**Службени гласник РС, број <ref wId="ref66" href="akn/rs/act/2018/24/srp@">24/2018</ref></heading>
+					<heading>**Службени гласник РС, број <ref wId="ref66" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">24/2018</ref></heading>
 					<paragraph wId="gla5-clan49-stav1">
 						<content>
 							<p>Књиге држављана Републике Србије вођене по прописима који су били на снази до ступања на снагу овог закона закључиће се у погледу нових уписа са даном почетка примене овог закона.</p>
@@ -930,12 +915,12 @@
 					</paragraph>
 					<paragraph wId="gla5-clan49-stav2">
 						<content>
-							<p>Изузетно од <ref wId="ref60" href="akn/rs/act/2018/24-70/srp@/!main~art_49__para_1" >става 1. овог</ref> члана, књига држављана која је вођена у министарству надлежном за унутрашње послове закључиће се по упису лица за која су донета решења о стицању држављанства Републике Србије до дана почетка примене овог закона.</p>
+							<p>Изузетно од <ref wId="ref60" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_49__para_1" >става 1. овог</ref> члана, књига држављана која је вођена у министарству надлежном за унутрашње послове закључиће се по упису лица за која су донета решења о стицању држављанства Републике Србије до дана почетка примене овог закона.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan49-stav3">
 						<content>
-							<p>На основу података у књигама држављана из <ref wId="ref61" href="akn/rs/act/2018/24-70/srp@/!main~art_49__para_1" >става 1. овог</ref> члана надлежни орган ће издавати уверења о држављанству на захтев заинтересованих лица и вршити промене чињеница и података у тим књигама.</p>
+							<p>На основу података у књигама држављана из <ref wId="ref61" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_49__para_1" >става 1. овог</ref> члана надлежни орган ће издавати уверења о држављанству на захтев заинтересованих лица и вршити промене чињеница и података у тим књигама.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan49-stav4">
@@ -945,12 +930,12 @@
 					</paragraph>
 					<paragraph wId="gla5-clan49-stav5">
 						<content>
-							<p>Подаци из евиденције о држављанима Републике Србије из  <ref wId="ref62" href="akn/rs/act/2018/24-70/srp@/!main~art_48__para_2" >члана 48. став 2. овог</ref> закона воде се и чувају у јединственој евиденцији, у  електронском облику и на средствима за аутоматску обраду података, у складу са  овим законом и прописима о матичним књигама.</p>
+							<p>Подаци из евиденције о држављанима Републике Србије из  <ref wId="ref62" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_48__para_2" >члана 48. став 2. овог</ref> закона воде се и чувају у јединственој евиденцији, у  електронском облику и на средствима за аутоматску обраду података, у складу са  овим законом и прописима о матичним књигама.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan49-stav6">
 						<content>
-							<p>Евиденција о држављанима Републике Србије из <ref wId="ref63" href="akn/rs/act/2018/24-70/srp@/!main~art_48__para_2" >члана 48.  став 2. овог</ref> закона, која се води на средствима за електронску обраду,  складиштење и чување података је јединствена и садржи следеће податке: име,  презиме, претходна имена и презимена, пол, датум, место и општину рођења,  јединствени матични број грађана, пребивалиште, боравак у иностранству,  претходно држављанство, основ уписа чињенице држављанства, датум доношења и  уручења и број решења о стицању и престанку држављанства Републике Србије, датум  стицања односно престанка држављанства Републике Србије, јединствени матични  број грађана за оба родитеља, односно старатеља, имена и презимена оба родитеља,  односно старатеља, претходна имена и презимена оба родитеља, односно старатеља и  држављанство оба родитеља, односно старатеља.</p>
+							<p>Евиденција о држављанима Републике Србије из <ref wId="ref63" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_48__para_2" >члана 48.  став 2. овог</ref> закона, која се води на средствима за електронску обраду,  складиштење и чување података је јединствена и садржи следеће податке: име,  презиме, претходна имена и презимена, пол, датум, место и општину рођења,  јединствени матични број грађана, пребивалиште, боравак у иностранству,  претходно држављанство, основ уписа чињенице држављанства, датум доношења и  уручења и број решења о стицању и престанку држављанства Републике Србије, датум  стицања односно престанка држављанства Републике Србије, јединствени матични  број грађана за оба родитеља, односно старатеља, имена и презимена оба родитеља,  односно старатеља, претходна имена и презимена оба родитеља, односно старатеља и  држављанство оба родитеља, односно старатеља.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan49-stav7">
@@ -960,7 +945,7 @@
 					</paragraph>
 					<paragraph wId="gla5-clan49-stav8">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref64" href="akn/rs/act/2018/24/srp@">24/2018</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref64" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">24/2018</ref></p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla5-clan49-stav9">
@@ -975,7 +960,7 @@
 					</paragraph>
 					<paragraph wId="gla5-clan49-stav11">
 						<content>
-							<p>*Службени гласник РС, број <ref wId="ref65" href="akn/rs/act/2018/24/srp@">24/2018</ref></p>
+							<p>*Службени гласник РС, број <ref wId="ref65" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">24/2018</ref></p>
 						</content>
 					</paragraph>
 				</article>
@@ -1005,7 +990,7 @@
 				</article>
 				<article wId="gla7-clan52">
 					<num>52.</num>
-					<heading>*Службени гласник РС, број <ref wId="ref70" href="akn/rs/act/2007/90/srp@">90/2007</ref></heading>
+					<heading>*Службени гласник РС, број <ref wId="ref70" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></heading>
 					<paragraph wId="gla7-clan52-stav1">
 						<content>
 							<p>Држављанином Републике Србије, у смислу овог закона, сматра се и држављанин СФРЈ који на дан  27. фебруара 2005. године има држављанство друге републике раније СФРЈ, односно држављанство друге државе настале на територији раније СФРЈ и пријављено пребивалиште на територији Републике Србије у трајању од најмање девет година, ако поднесе писмену изјаву да се сматра држављанином Републике Србије и захтев за упис у евиденцију држављана Републике Србије.</p>
@@ -1018,23 +1003,23 @@
 					</paragraph>
 					<paragraph wId="gla7-clan52-stav3">
 						<content>
-							<p>Писмена изјава и захтев из  <ref wId="ref67" href="akn/rs/act/2018/24-70/srp@/!main~art_52__para_1->para_2" >ст. 1. и 2. овог</ref> члана предају се органу унутрашњих послова на чијем подручју странка има пребивалиште.</p>
+							<p>Писмена изјава и захтев из  <ref wId="ref67" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_52__para_1->para_2" >ст. 1. и 2. овог</ref> члана предају се органу унутрашњих послова на чијем подручју странка има пребивалиште.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla7-clan52-stav4">
 						<content>
-							<p>Орган унутрашњих послова, без доношења решења, издаће надлежном органу писмени налог за упис у евиденцију држављана Републике Србије за лице за које утврди да је испунило услове из  <ref wId="ref68" href="akn/rs/act/2018/24-70/srp@/!main~art_52__para_1->para_2" >ст. 1. и 2. овог</ref> члана. За лице за које утврди да није испунило све услове одбиће захтев решењем.</p>
+							<p>Орган унутрашњих послова, без доношења решења, издаће надлежном органу писмени налог за упис у евиденцију држављана Републике Србије за лице за које утврди да је испунило услове из  <ref wId="ref68" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_52__para_1->para_2" >ст. 1. и 2. овог</ref> члана. За лице за које утврди да није испунило све услове одбиће захтев решењем.</p>
 						</content>
 					</paragraph>
 					<paragraph wId="gla7-clan52-stav5">
 						<content>
-							<p>Изјава и захтев из <ref wId="ref69" href="akn/rs/act/2018/24-70/srp@/!main~art_52__para_1->para_2" >ст. 1. и 2. овог</ref> члана могу се поднети у року од пет година од дана ступања на снагу овог закона.</p>
+							<p>Изјава и захтев из <ref wId="ref69" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_52__para_1->para_2" >ст. 1. и 2. овог</ref> члана могу се поднети у року од пет година од дана ступања на снагу овог закона.</p>
 						</content>
 					</paragraph>
 				</article>
 				<article wId="gla7-clan53">
 					<num>53.</num>
-					<heading>*Службени гласник РС, број <ref wId="ref71" href="akn/rs/act/2007/90/srp@">90/2007</ref></heading>
+					<heading>*Службени гласник РС, број <ref wId="ref71" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref></heading>
 					<paragraph wId="gla7-clan53-stav1">
 						<content>
 							<p>Поступак за решавање захтева за стицање и престанак држављанства Републике Србије започет пре дана почетка примене овог закона окончаће се по одредбама овог закона.</p>
@@ -1045,7 +1030,7 @@
 					<num>54.</num>
 					<paragraph wId="gla7-clan54-stav1">
 						<content>
-							<p>Прописи из <ref wId="ref72" href="akn/rs/act/2018/24-70/srp@/!main~art_14__para_5" >члана 14. став 5, </ref><ref wId="ref73" href="akn/rs/act/2018/24-70/srp@/!main~art_46__para_5" >члана 46. став 5. </ref>и <ref wId="ref74" href="akn/rs/act/2018/24-70/srp@/!main~art_48__para_4" >члана 48. став 4. овог</ref> закона донеће се у року од 60 дана од дана ступања на снагу овог закона.</p>
+							<p>Прописи из <ref wId="ref72" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_14__para_5" >члана 14. став 5, </ref><ref wId="ref73" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_46__para_5" >члана 46. став 5. </ref>и <ref wId="ref74" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_48__para_4" >члана 48. став 4. овог</ref> закона донеће се у року од 60 дана од дана ступања на снагу овог закона.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1053,7 +1038,7 @@
 					<num>55.</num>
 					<paragraph wId="gla7-clan55-stav1">
 						<content>
-							<p>Даном почетка примене овог закона престају да важе Закон о југословенском држављанству („Службени лист СРЈ”, бр. <ref wId="ref75" href="akn/rs/act/96/33/srp@">33/96</ref> и <ref wId="ref76" href="akn/rs/act/01/9/srp@">9/01</ref>) и Закон о држављанству Социјалистичке Републике Србије („Службени гласник СРС”, бр. <ref wId="ref77" href="akn/rs/act/79/45/srp@">45/79</ref> и <ref wId="ref78" href="akn/rs/act/83/13/srp@">13/83</ref>).</p>
+							<p>Даном почетка примене овог закона престају да важе Закон о југословенском држављанству („Службени лист СРЈ”, бр. <ref wId="ref75" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">33/96</ref> и <ref wId="ref76" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">9/01</ref>) и Закон о држављанству Социјалистичке Републике Србије („Службени гласник СРС”, бр. <ref wId="ref77" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">45/79</ref> и <ref wId="ref78" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">13/83</ref>).</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1072,10 +1057,10 @@
 				</article>
 				<article wId="gla7-clan18">
 					<num>18.</num>
-					<heading>Закон о изменама и допуна Закона о држављанству Републике Србије: "Службени гласник РС", број <ref wId="ref80" href="akn/rs/act/2007/90/srp@">90/2007</ref>-3</heading>
+					<heading>Закон о изменама и допуна Закона о држављанству Републике Србије: "Службени гласник РС", број <ref wId="ref80" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/2007</ref>-3</heading>
 					<paragraph wId="gla7-clan18-stav1">
 						<content>
-							<p>Захтев за пријем у држављанство на основу <ref wId="ref79" href="akn/rs/act/2018/24-70/srp@/!main~art_23__para_3" >члана 23. став 3. овог</ref> закона може се поднети у року од две године од дана ступања на снагу овог закона.</p>
+							<p>Захтев за пријем у држављанство на основу <ref wId="ref79" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_23__para_3" >члана 23. став 3. овог</ref> закона може се поднети у року од две године од дана ступања на снагу овог закона.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1091,7 +1076,7 @@
 					<num>20.</num>
 					<paragraph wId="gla7-clan20-stav1">
 						<content>
-							<p>Министар надлежан за унутрашње послове ускладиће подзаконске прописе донете на основу Закона о држављанству Републике Србије („Службени гласник РС”, број <ref wId="ref81" href="akn/rs/act/04/135/srp@">135/04</ref>) са овим законом у року од 60 дана од дана ступања на снагу овог закона.</p>
+							<p>Министар надлежан за унутрашње послове ускладиће подзаконске прописе донете на основу Закона о држављанству Републике Србије („Службени гласник РС”, број <ref wId="ref81" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">135/04</ref>) са овим законом у року од 60 дана од дана ступања на снагу овог закона.</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1105,7 +1090,7 @@
 				</article>
 				<article wId="gla7-clan3">
 					<num>3.</num>
-					<heading>Закон о допунама Закона о држављанству Републике Србије: "Службени гласник РС",  број <ref wId="ref82" href="akn/rs/act/2018/24/srp@">24/2018</ref>-70</heading>
+					<heading>Закон о допунама Закона о држављанству Републике Србије: "Службени гласник РС",  број <ref wId="ref82" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">24/2018</ref>-70</heading>
 					<paragraph wId="gla7-clan3-stav1">
 						<content>
 							<p>У држављанство Републике Србије може бити  примљен држављанин СФРЈ или држављанин друге републике раније СФРЈ, односно  држављанин друге државе настале на територији СФРЈ, који на дан 31. децембра  2016. године и на дан подношења захтева има пријављено пребивалиште у Републици  Србији.</p>
@@ -1126,7 +1111,7 @@
 					</paragraph>
 					<paragraph wId="gla7-clan4-stav2">
 						<content>
-							<p>Јединствена евиденција о држављанима  Републике Србије успоставља се на основу података из <ref wId="ref83" href="akn/rs/act/2018/24-70/srp@/!main~art_48__para_2" >члана 48. став 2. </ref>Закона о  држављанству Републике Србије („Службени гласник РС”, бр. <ref wId="ref84" href="akn/rs/act/04/135/srp@">135/04</ref> и <ref wId="ref85" href="akn/rs/act/07/90/srp@">90/07</ref>).</p>
+							<p>Јединствена евиденција о држављанима  Републике Србије успоставља се на основу података из <ref wId="ref83" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03/!main~art_48__para_2" >члана 48. став 2. </ref>Закона о  држављанству Републике Србије („Службени гласник РС”, бр. <ref wId="ref84" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">135/04</ref> и <ref wId="ref85" href="akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03 ">90/07</ref>).</p>
 						</content>
 					</paragraph>
 				</article>
@@ -1157,7 +1142,7 @@
 					</paragraph>
 					<paragraph wId="gla7-clan6-stav4">
 						<content>
-							<p>„Службени гласник РС“, бр. <ref wId="ref86" href="akn/rs/act/2004/135/srp@">135 од 21. децембра 2004</ref>, <ref wId="ref87" href="akn/rs/act/2007/90/srp@">90 од 1. октобра 2007</ref>, <ref wId="ref88" href="akn/rs/act/2018/24/srp@">24  од 26. марта 2018</ref>.</p>
+							<p>„Службени гласник РС“, бр. <ref wId="ref86" href=" akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03  ">135 од 21. децембра 2004</ref>, <ref wId="ref87" href=" akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03  ">90 од 1. октобра 2007</ref>, <ref wId="ref88" href=" akn/rs/act/zakon/skupština/2004-12-14/2004-12-nn/srp@2018.04.03  ">24  од 26. марта 2018</ref>.</p>
 						</content>
 					</paragraph>
 				</article>

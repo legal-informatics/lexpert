@@ -4,40 +4,49 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/1986/24-758/main"/>
-					<FRBRuri value="akn/rs/act/1986/24-758"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/1986-04-24/1986-04-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/1986-04-24/1986-04-nn"/>
 					<FRBRdate date="1986-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
-					<FRBRcountry value="rs"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
+					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
+					<FRBRnumber value="1986-04-nn"/>
+					<FRBRname value="Закон о јединственом регистру становништва: 24/1986-758"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/1986/24-758/srp@/main"/>
-					<FRBRuri value="akn/rs/act/1986/24-758/srp@"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/1986-04-24/1986-04-nn/srp@1986-04-24/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/1986-04-24/1986-04-nn/srp@1986-04-24"/>
 					<FRBRdate date="1986-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRlanguage language="srp"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
+					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/1986/24-758/srp@/main.xml"/>
-					<FRBRuri value="akn/rs/act/1986/24-758/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/1986-04-24/1986-04-nn/srp@1986-04-24/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/1986-04-24/1986-04-nn/srp@1986-04-24/!main.xml"/>
 					<FRBRdate date="1986-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRformat value="xml"/>
+					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="1986-05-02" name="службени лист сфрј" number="24" showAs="Службени лист СФРЈ"/>
 			<classification source="#somebody">
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="10. Лично име, лична карта, матични број грађана" value="10. лично име, лична карта, матични број грађана" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="II ОДБРАНА, ВОЈСКА И УНУТРАШЊИ ПОСЛОВИ" value="ii одбрана, војска и унутрашњи послови" wId="oblast"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="10. Лично име, лична карта, матични број грађана" value="10. лично име, лична карта, матични број грађана" wId="grupa"/>
 			</classification>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsfrj/skupstina/zakon/1986/24/6/reg/">
+				<eventRef date="1986-04-24" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsfrj/skupstina/zakon/1986/24/6/reg/" type="generation"/>
+				<eventRef date="1986-05-10" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsfrj/skupstina/zakon/1986/24/6/reg/" type="generation"/>
+				<eventRef date="1986-05-10" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsfrj/skupstina/zakon/1986/24/6/reg/" type="generation"/>
+			</lifecycle>
 			<workflow source="#somebody">
 				<step by="/akn/rs/srp@ontology" date="1986-04-24" wId="usvajanje"/>
 				<step by="/akn/rs/srp@ontology" date="1986-05-10" wId="stupanje_na_snagu"/>
 				<step by="/akn/rs/srp@ontology" date="1986-05-10" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="SFRJ"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="SFRJ"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="2. maja 1986."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -47,7 +56,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О јединственом  регистру становништва „Службени лист СФРЈ”, број <ref wId="ref1" href="akn/rs/act/1986/24/srp@">24 од 2. маја 1986</ref>.</p>
+				<p>Закон О јединственом  регистру становништва „Службени лист СФРЈ”, број <ref wId="ref1" href=" akn/rs/act/zakon/skupština/1986-04-24/1986-04-nn/srp@1986-04-24  ">24 од 2. маја 1986</ref>.</p>
 			</longTitle>
 		</preface>
 		<body>
@@ -119,7 +128,7 @@
 				</paragraph>
 				<paragraph wId="clan4-stav2">
 					<content>
-						<p>Ако се приликом промене пребивалишта промени надлежни орган или организација који води регистар, орган или организација на чијем подручју је ново пребивалиште грађанима, по службеној дужности, прибавља податке из <ref wId="ref0" href="akn/rs/act/1986/24-758/srp@/!main~art_2" >члана 2. овог</ref> закона од органа или организације која је раније евидентирала податке о том грађанину, ако те податке не може обезбедити на основу извештаја за упис у регистар.</p>
+						<p>Ако се приликом промене пребивалишта промени надлежни орган или организација који води регистар, орган или организација на чијем подручју је ново пребивалиште грађанима, по службеној дужности, прибавља податке из <ref wId="ref0" href="akn/rs/act/zakon/skupština/1986-04-24/1986-04-nn/srp@1986-04-24/!main~art_2" >члана 2. овог</ref> закона од органа или организације која је раније евидентирала податке о том грађанину, ако те податке не може обезбедити на основу извештаја за упис у регистар.</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan4-stav3">

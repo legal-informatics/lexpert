@@ -4,64 +4,80 @@
 		<meta>
 			<identification source="#somebody">
 				<FRBRWork>
-					<FRBRthis value="akn/rs/act/2001/9-4/main"/>
-					<FRBRuri value="akn/rs/act/2001/9-4"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn"/>
 					<FRBRdate date="2001-01-01" name="Generation"/>
-					<FRBRauthor as="#author" href="#somebody"/>
-					<FRBRcountry value="rs"/>
+					<FRBRauthor as="#author" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Author"/>
+					<FRBRcountry refersTo="http://dbpedia.org/page/Serbia" value="rs"/>
+					<FRBRsubtype refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Zakon" showAs="Zakon" value="zakon"/>
+					<FRBRnumber value="2001-02-nn"/>
+					<FRBRname value="Закон о укидању Указа о одузимању држављанства и имовине породици Карађорђевић: 9/2001-4"/>
 				</FRBRWork>
 				<FRBRExpression>
-					<FRBRthis value="akn/rs/act/2001/9-4/srp@/main"/>
-					<FRBRuri value="akn/rs/act/2001/9-4/srp@"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27"/>
 					<FRBRdate date="2001-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRlanguage language="srp"/>
+					<FRBRauthor as="#editor" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#Editor"/>
+					<FRBRlanguage language="srp" wId="http://dbpedia.org/page/Serbian_language"/>
 				</FRBRExpression>
 				<FRBRManifestation>
-					<FRBRthis value="akn/rs/act/2001/9-4/srp@/main.xml"/>
-					<FRBRuri value="akn/rs/act/2001/9-4/srp@.akn"/>
+					<FRBRthis value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27/!main.xml/!main"/>
+					<FRBRuri value="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27/!main.xml"/>
 					<FRBRdate date="2001-01-01" name="Generation"/>
-					<FRBRauthor as="#editor" href="#somebody"/>
-					<FRBRformat value="xml"/>
+					<FRBRauthor as="#editor" href="#lexpert_student_project"/>
+					<FRBRformat refersTo="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#xml" value="xml"/>
 				</FRBRManifestation>
 			</identification>
 			<publication date="2001-03-02" name="службени лист срј“" number="9" showAs="Службени лист СРЈ“"/>
 			<classification source="#somebody">
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="Закон" value="закон" wId="vrsta"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
-				<keyword dictionary="/akn/rs/srp@ontology" showAs="3. Држављанство" value="3. држављанство" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Закон" value="закон" wId="vrsta"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="I ДРЖАВНО УРЕЂЕЊЕ" value="i државно уређење" wId="oblast"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="3. Држављанство" value="3. држављанство" wId="grupa"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Karađorđevića" value="karađorđevića"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Pavla" value="pavla"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Aleksandra" value="aleksandra"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="1947" value="1947"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Br" value="br"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Godine" value="godine"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Narodne" value="narodne"/>
+				<keyword dictionary="RS" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCTerm" showAs="Aleksandru" value="aleksandru"/>
 			</classification>
+			<lifecycle source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/">
+				<eventRef date="2001-02-27" href="#datum_usvajanja" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/" type="generation"/>
+				<eventRef date="2001-03-10" href="#datum_pocetak_primene" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/" type="generation"/>
+				<eventRef date="2001-03-10" href="#datum_stupanja_na_snagu" source="http://www.pravno-informacioni-sistem.rs/SlGlasnikPortal/eli/rep/slsrj/skupstina/zakon/2001/9/4/reg/" type="generation"/>
+			</lifecycle>
 			<workflow source="#somebody">
-				<step by="#/akn/rs/srp@ontology" date="2001-02-27" wId="usvajanje"/>
-				<step by="#/akn/rs/srp@ontology" date="2001-03-10" wId="stupanje_na_snagu"/>
-				<step by="#/akn/rs/srp@ontology" date="2001-03-10" wId="primena"/>
+				<step by="/akn/rs/srp@ontology" date="2001-02-27" wId="usvajanje"/>
+				<step by="/akn/rs/srp@ontology" date="2001-03-10" wId="stupanje_na_snagu"/>
+				<step by="/akn/rs/srp@ontology" date="2001-03-10" wId="primena"/>
 			</workflow>
 			<references source="#somebody">
-				<TLCConcept eId="cocnept0" href="http://purl.org/vocab/frbr/core#Concept" showAs="карађорђевића"/>
-				<TLCConcept eId="cocnept1" href="http://purl.org/vocab/frbr/core#Concept" showAs="павла"/>
-				<TLCConcept eId="cocnept2" href="http://purl.org/vocab/frbr/core#Concept" showAs="александра"/>
-				<TLCConcept eId="cocnept3" href="http://purl.org/vocab/frbr/core#Concept" showAs="1947"/>
-				<TLCConcept eId="cocnept4" href="http://purl.org/vocab/frbr/core#Concept" showAs="бр"/>
-				<TLCConcept eId="cocnept5" href="http://purl.org/vocab/frbr/core#Concept" showAs="године"/>
-				<TLCConcept eId="cocnept6" href="http://purl.org/vocab/frbr/core#Concept" showAs="народне"/>
-				<TLCConcept eId="cocnept7" href="http://purl.org/vocab/frbr/core#Concept" showAs="александру"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Mariji"/>
-				<TLCLocation href="http://purl.org/vocab/frbr/core#Place" showAs="Pavlu"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="FNRJ"/>
-				<TLCOrganization href="http://purl.org/vocab/frbr/core#CorporateBody" showAs="Predsedništva Prezidijuma Narodne skupštine Federativne Narodne Republike Jugoslavije U."/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Aleksandra Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Aleksandru Pavla Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Aleksandru Petra Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Andreju Aleksandra Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Arsena Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Nikoli Pavla Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Olgi Pavla Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Pavla Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Petru Aleksandra Karađorđevića"/>
-				<TLCPerson href="http://purl.org/vocab/frbr/core#Person" showAs="Tomislavu Aleksandra Karađorđevića"/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="1. avgusta 1947."/>
-				<TLCEvent href="http://purl.org/vocab/frbr/core#Event" showAs="8. marta 1947."/>
+				<TLCConcept eId="cocnept0" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Karađorđevića"/>
+				<TLCConcept eId="cocnept1" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="Pavla"/>
+				<TLCConcept eId="cocnept2" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Aleksandra"/>
+				<TLCConcept eId="cocnept3" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCConcept" showAs="1947"/>
+				<TLCConcept eId="cocnept4" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Br"/>
+				<TLCConcept eId="cocnept5" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_015" showAs="Godine"/>
+				<TLCConcept eId="cocnept6" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_002" showAs="Narodne"/>
+				<TLCConcept eId="cocnept7" href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Aleksandru"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Mariji"/>
+				<TLCLocation href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCLocation" showAs="Pavlu"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCOrganization" showAs="FNRJ"/>
+				<TLCOrganization href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_001" showAs="Predsedništva Prezidijuma Narodne skupštine Federativne Narodne Republike Jugoslavije U."/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Aleksandra Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Aleksandru Pavla Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_045" showAs="Aleksandru Petra Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Andreju Aleksandra Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Arsena Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Nikoli Pavla Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Olgi Pavla Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCPerson" showAs="Pavla Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#gazette_045" showAs="Petru Aleksandra Karađorđevića"/>
+				<TLCPerson href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#assembly_143" showAs="Tomislavu Aleksandra Karađorđevića"/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="1. avgusta 1947."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="8. marta 1947."/>
+				<TLCEvent href="https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl#TLCEvent" showAs="2. marta 2001."/>
 			</references>
 			<notes source="#somebody">
 				<note wId="not1">
@@ -71,7 +87,7 @@
 		</meta>
 		<preface>
 			<longTitle>
-				<p>Закон О укидању  указа о  одузимању држављанства и имовине породици   карађорђевић „Службени лист СРЈ“, број <ref wId="ref3" href="akn/rs/act/2001/9/srp@">9 од 2. марта 2001</ref>.</p>
+				<p>Закон О укидању  указа о  одузимању држављанства и имовине породици   карађорђевић „Службени лист СРЈ“, број <ref wId="ref3" href=" akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27  ">9 од 2. марта 2001</ref>.</p>
 			</longTitle>
 		</preface>
 		<body>
@@ -79,7 +95,7 @@
 				<num>1.</num>
 				<paragraph wId="clan1-stav1">
 					<content>
-						<p>Овим законом укида се Указ Председништва Президијума Народне скупштине Федеративне Народне Републике Југославије У. бр. <ref wId="ref0" href="akn/rs/act/1947/392/srp@">392 од 8. марта 1947</ref>. године (&quot;Службени лист ФНРЈ&quot;, бр.   <ref wId="ref1" href="akn/rs/act/1947/64/srp@">64 од 1. августа 1947</ref>. године) којим је одузето држављанство и конфискована целокупна имовина:</p>
+						<p>Овим законом укида се Указ Председништва Президијума Народне скупштине Федеративне Народне Републике Југославије У. бр. <ref wId="ref0" href=" akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27  ">392 од 8. марта 1947</ref>. године (&quot;Службени лист ФНРЈ&quot;, бр.   <ref wId="ref1" href=" akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27  ">64 од 1. августа 1947</ref>. године) којим је одузето држављанство и конфискована целокупна имовина:</p>
 					</content>
 				</paragraph>
 				<paragraph wId="clan1-stav2">
@@ -137,7 +153,7 @@
 				<num>2.</num>
 				<paragraph wId="clan2-stav1">
 					<content>
-						<p>Услови за повраћај конфисковане имовине из <ref wId="ref2" href="akn/rs/act/2001/9-4/srp@/!main~art_1" >члана 1. овог</ref> закона биће уређени посебним законом.</p>
+						<p>Услови за повраћај конфисковане имовине из <ref wId="ref2" href="akn/rs/act/zakon/skupština/2001-02-27/2001-02-nn/srp@2001-02-27/!main~art_1" >члана 1. овог</ref> закона биће уређени посебним законом.</p>
 					</content>
 				</paragraph>
 			</article>
