@@ -3,6 +3,8 @@ from flask import Flask, request, jsonify, abort
 from SPARQLWrapper import SPARQLWrapper, XML, JSON
 from SPARQLWrapper.SPARQLExceptions import QueryBadFormed
 
+from flask_cors import CORS
+
 import xmltodict
 import lxml.etree as ET
 import pdfkit
@@ -10,6 +12,7 @@ import pdfkit
 import re
 
 app = Flask(__name__)
+CORS(app)
 
 sparql_query = SPARQLWrapper('http://localhost:3030/test/query')
 sparql_query.setReturnFormat(JSON)
@@ -22,8 +25,12 @@ rdf_type = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'
 named_individual = 'http://www.w3.org/2002/07/owl#NamedIndividual'
 
 def parse_xml(request):
-    data = request.data
+    data = request.data.decode('utf-8')
 
+    data = (data[data.find('<?xml version="1.0" ?>'):data.find('</akomaNtoso>')+13])
+
+    print(data)
+    
     xml_file = ET.XML(data)
     dir_path = os.path.dirname(os.path.realpath(__file__))                  # xsd validacija ***** pogledati da ne vraca te errore tolike 
     schema = ET.XMLSchema(file=dir_path + '\\static\\akomantoso30.xsd')
@@ -51,7 +58,8 @@ def parse_xml(request):
     expression_uri = ontology_url + '#' + expression['FRBRuri']['@value']
     work_uri = ontology_url + '#' + work['FRBRuri']['@value']
 
-    cont = data.decode("utf-8")
+    cont = data
+    # .decode("utf-8")
     cont_fix = "".join(cont.splitlines()).replace("\"", "\\\"")
 
     path_uri = ontology_url + '#' + request.path
@@ -355,3 +363,4 @@ def search():
         abort(500, e)
 
     return 
+
