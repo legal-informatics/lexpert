@@ -340,28 +340,38 @@ def simple_search():
 def search():
     data = request.json
 
-    search_name = data['search'] if 'search' in data else '?search'
+    search = data['search'] if 'search' in data else '.*'
     if data['split'] is True:
-        search = '|'.join(search_name.split())
+        search = '|'.join(search.split())
 
-    keywords = data['keywords'].split() if 'keywords' in data else '?keywords'
     subtype = data['subtype'] if 'subtype' in data else '?subtype'
     subregister = data['subregister'] if 'subregister' in data else '?subregister'
     area = data['area'] if 'area' in data else '?area'
     group = data['group'] if 'group' in data else '?group'
-    date = data['date'] if 'date' in data else '?date'
+    date_from = data['date_from'] if 'date_from' in data else '0001-01-01'
+    date_to = data['date_to'] if 'date_to' in data else '9999-12-31'
+
+    keywords = data['keywords'].split() if 'keywords' in data else '?keywords'
 
     #fali za keywords
-    get_query = f'''JSON {{ "o":?o, "subtype":?subtype, "area":?area, "group":?group, "s":?s }} WHERE {{ ?s a <{ontology_url}#FRBRWork>.
+    get_query = f'''PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                JSON {{ "o":?o, "subtype":?subtype, "area":?area, "group":?group, "exp":?exp, "lng":?lng, "date":?date }} WHERE {{ ?s a <{ontology_url}#FRBRWork>.
                                                     ?s <{ontology_url}#has_name> ?o. FILTER regex(?o, "{search}")
-                                                    ?s <{ontology_url}#FRBRsubtype> {subtype}.
+                                                    ?s <{ontology_url}#is_of_subtype> {subtype}.
                                                     ?s <{ontology_url}#has_subregister> ?subregister_uri.
                                                     ?subregister_uri <{ontology_url}#has_name> {subregister}.
                                                     ?s <{ontology_url}#has_group> ?group_uri.
                                                     ?group_uri <{ontology_url}#has_name> {group}.
                                                     ?s <{ontology_url}#has_area> ?area_uri.
-                                                    ?area_uri <{ontology_url}#has_name> {area}. }}'''
+                                                    ?area_uri <{ontology_url}#has_name> {area}. 
+                                                    ?s <{ontology_url}#is_realized_through> ?exp.
+                                                    ?exp <{ontology_url}#has_language> ?lng. 
+                                                    ?exp <{ontology_url}#has_date> ?date.
+                                                    FILTER( "{date_from}"^^xsd:date <= ?date && "{date_to}"^^xsd:date >= ?date)
+                                                    }}'''
     
+
+    print(get_query)
     try:
         sparql_query.setQuery(get_query)
         response = sparql_query.query().convert()
