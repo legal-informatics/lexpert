@@ -90,19 +90,19 @@ def parse_xml(request):
 
     for keyword in classification['keyword']:           # ovde ce biti link ka individui te nece biti potrebe za ovim
 
-        area_regexp = re.compile('s[0-9]{2}_g[0-9]{2}_a[0-9]{2}')
-        group_regexp = re.compile('s[0-9]{2}_g[0-9]{2}')
+        group_regexp = re.compile('s[0-9]{2}_g[0-9]{2}_a[0-9]{2}')
+        area_regexp = re.compile('s[0-9]{2}_g[0-9]{2}')
         subregister_regexp = re.compile('s[0-9]{2}')
 
-        if area_regexp.match(keyword['@value']):
-            # print(len(keyword['@value']), keyword['@value'], 'is area')
-            query += f'''
-                <{work_uri}> <{ontology_url}#has_area> <{keyword['@href']}>.
-            '''
-        elif group_regexp.match(keyword['@value']) :
+        if group_regexp.match(keyword['@value']) :
             # print(len(keyword['@value']), keyword['@value'], 'is group')
             query += f'''
                 <{work_uri}> <{ontology_url}#has_group> <{keyword['@href']}>.
+            '''
+        elif area_regexp.match(keyword['@value']):
+            # print(len(keyword['@value']), keyword['@value'], 'is area')
+            query += f'''
+                <{work_uri}> <{ontology_url}#has_area> <{keyword['@href']}>.
             '''
         elif subregister_regexp.match(keyword['@value']):
             # print(len(keyword['@value']), keyword['@value'], 'is subregister')
@@ -344,10 +344,10 @@ def search():
     if data['split'] is True:
         search = '|'.join(search.split())
 
-    subtype = data['subtype'] if 'subtype' in data else '?subtype'
-    subregister = data['subregister'] if 'subregister' in data else '?subregister'
-    area = data['area'] if 'area' in data else '?area'
-    group = data['group'] if 'group' in data else '?group'
+    subtype = '<' + data['subtype'] + '>' if 'subtype' in data else '?subtype'
+    subregister = '<' + data['subregister'] + '>' if 'subregister' in data else '?subregister_uri'
+    area = '<' + data['area'] + '>' if 'area' in data else '?area_uri'
+    group = '<' + data['group'] + '>' if 'group' in data else '?group_uri'
     date_from = data['date_from'] if 'date_from' in data else '0001-01-01'
     date_to = data['date_to'] if 'date_to' in data else '9999-12-31'
 
@@ -358,12 +358,13 @@ def search():
                 JSON {{ "o":?o, "subtype":?subtype, "area":?area, "group":?group, "exp":?exp, "lng":?lng, "date":?date }} WHERE {{ ?s a <{ontology_url}#FRBRWork>.
                                                     ?s <{ontology_url}#has_name> ?o. FILTER regex(?o, "{search}")
                                                     ?s <{ontology_url}#is_of_subtype> {subtype}.
-                                                    ?s <{ontology_url}#has_subregister> ?subregister_uri.
-                                                    ?subregister_uri <{ontology_url}#has_name> {subregister}.
-                                                    ?s <{ontology_url}#has_group> ?group_uri.
-                                                    ?group_uri <{ontology_url}#has_name> {group}.
-                                                    ?s <{ontology_url}#has_area> ?area_uri.
-                                                    ?area_uri <{ontology_url}#has_name> {area}. 
+                                                    ?s <{ontology_url}#is_of_subtype> ?subtype.
+                                                    ?s <{ontology_url}#has_subregister> {subregister}.
+                                                    {subregister} <{ontology_url}#has_name> ?subregister.
+                                                    ?s <{ontology_url}#has_group> {group}.
+                                                    {group} <{ontology_url}#has_name> ?group.
+                                                    ?s <{ontology_url}#has_area> {area}.
+                                                    {area} <{ontology_url}#has_name> ?area. 
                                                     ?s <{ontology_url}#is_realized_through> ?exp.
                                                     ?exp <{ontology_url}#has_language> ?lng. 
                                                     ?exp <{ontology_url}#has_date> ?date.
