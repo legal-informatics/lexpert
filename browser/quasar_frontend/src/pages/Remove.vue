@@ -43,7 +43,7 @@ export default {
   methods: {
     factoryFn(files) {
       return {
-        url: "http://127.0.0.1:5000" + this.selected,
+        url: process.env.SERVERS[this.selected.split("/")[5]] + this.selected,
         method: "DELETE",
         headers: [{ name: "Content-Type", value: "application/xml" }]
       };

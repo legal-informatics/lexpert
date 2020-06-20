@@ -14,10 +14,10 @@ import re
 app = Flask(__name__)
 CORS(app)
 
-sparql_query = SPARQLWrapper('http://localhost:3030/test/query')
+sparql_query = SPARQLWrapper('http://localhost:3031/test/query')
 sparql_query.setReturnFormat(JSON)
 
-sparql_update = SPARQLWrapper('http://localhost:3030/test/update')
+sparql_update = SPARQLWrapper('http://localhost:3031/test/update')
 sparql_update.method = 'POST'
 
 ontology_url = 'https://github.com/legal-informatics/lexpert/blob/master/browser/ontology.owl'

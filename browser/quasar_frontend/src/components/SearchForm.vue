@@ -37,27 +37,55 @@ export default {
 
   methods: {
     onSubmit() {
-      this.$axios
-        .post("http://127.0.0.1:5000/simple_search", {
-          query: this.query,
-          split: this.split
-        })
-        .then(response => {
-          this.result = response.data;
-          this.$emit("results", this.result);
+      this.result = null;
+      this.$emit("results", this.result);
 
-          if (this.result.length === 0) {
-            this.$q.notify({
-              message: "Pretraga nije dala rezultate",
-              caption: "Pokušajte pretragu sa drugim pojmom."
-            });
-          }
-        });
+      for (var key in process.env.SERVERS) {
+        console.log(process.env.SERVERS[key]);
+
+        this.$axios
+          .post(process.env.SERVERS[key] + "/simple_search", {
+            query: this.query,
+            split: this.split
+          })
+          .then(response => {
+            this.result = response.data;
+            this.$emit("results", this.result);
+
+            if (this.result.length === 0) {
+              this.$q.notify({
+                message: "Pretraga nije dala rezultate",
+                caption: "Pokušajte pretragu sa drugim pojmom."
+              });
+            }
+          });
+      }
+      // this.$axios
+      //   .post("http://127.0.0.1:5000/simple_search", {
+      //     query: this.query,
+      //     split: this.split
+      //   })
+      //   .then(response => {
+      //     this.result = response.data;
+      //     this.$emit("results", this.result);
+
+      //     if (this.result.length === 0) {
+      //       this.$q.notify({
+      //         message: "Pretraga nije dala rezultate",
+      //         caption: "Pokušajte pretragu sa drugim pojmom."
+      //       });
+      //     }
+      //   });
     },
 
     onReset() {
       this.query = null;
       this.split = false;
+      // console.log(process.env.SERVERS.a001);
+
+      for (var key in process.env.SERVERS) {
+        console.log(process.env.SERVERS[key]);
+      }
     }
   }
 };

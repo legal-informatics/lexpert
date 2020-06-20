@@ -69,7 +69,7 @@
         <q-card-section class="flex justify-center q-pt-none">
           <div class="document">
             <q-card-section class="flex justify-center">
-              <div v-html="html"></div>
+              <div v-html="html" @click="handleClick"></div>
             </q-card-section>
           </div>
         </q-card-section>
@@ -79,6 +79,8 @@
 </template>
 
 <script>
+import { openURL } from "quasar";
+
 export default {
   name: "ResultTable",
   props: ["items", "cols"],
@@ -159,7 +161,9 @@ export default {
 
       this.$axios
         .get(
-          "http://127.0.0.1:5000/" + props["row"]["s"].split("#")[1] + ".xhtml"
+          process.env.SERVERS[props["row"]["s"].split("#")[1].split("/")[5]] +
+            props["row"]["s"].split("#")[1] +
+            ".xhtml"
         )
         .then(response => {
           this.html = response.data;
@@ -170,7 +174,9 @@ export default {
 
       this.$axios
         .get(
-          "http://127.0.0.1:5000/" + props["row"]["s"].split("#")[1] + ".xml",
+          process.env.SERVERS[props["row"]["s"].split("#")[1].split("/")[5]] +
+            props["row"]["s"].split("#")[1] +
+            ".xml",
           { responseType: "blob" }
         )
         .then(response => {
@@ -187,7 +193,9 @@ export default {
 
       this.$axios
         .get(
-          "http://127.0.0.1:5000/" + props["row"]["s"].split("#")[1] + ".pdf",
+          process.env.SERVERS[props["row"]["s"].split("#")[1].split("/")[5]] +
+            props["row"]["s"].split("#")[1] +
+            ".pdf",
           { responseType: "blob" }
         )
         .then(response => {
@@ -200,6 +208,20 @@ export default {
           // Generate file download directly in the browser !
           saveAs(file, props["row"]["s"].split("#")[1] + ".pdf");
         });
+    },
+    handleClick(e) {
+      e.preventDefault();
+      if (e.target.matches(".link")) {
+        console.log(
+          "klik na link: " +
+            process.env.SERVERS[e.target.href.split("#")[1].split("/")[5]] +
+            e.target.href.split("#")[1]
+        );
+        openURL(
+          process.env.SERVERS[e.target.href.split("#")[1].split("/")[5]] +
+            e.target.href.split("#")[1]
+        );
+      }
     }
   },
   watch: {

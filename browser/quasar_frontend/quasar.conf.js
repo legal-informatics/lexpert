@@ -65,6 +65,12 @@ module.exports = function(/* ctx */) {
     build: {
       vueRouterMode: "hash", // available values: 'hash', 'history'
 
+      env: {
+        SERVERS: JSON.stringify({
+          a001: "http://127.0.0.1:5000/",
+          sfrj: "http://127.0.0.1:5001/"
+        })
+      },
       // rtl: false, // https://quasar.dev/options/rtl-support
       // preloadChunks: true,
       // showProgress: false,
