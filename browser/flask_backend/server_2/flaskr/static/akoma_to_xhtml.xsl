@@ -39,6 +39,8 @@
                     <xsl:value-of select="akn:act/@name"/>
                 </h2>
                 <xsl:apply-templates select="akn:act/akn:body/akn:chapter"/>
+                <xsl:apply-templates select="akn:act/akn:body/akn:article"/>
+
             </body>
         </html>
     </xsl:template>

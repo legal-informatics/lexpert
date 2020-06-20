@@ -29,7 +29,7 @@ def parse_xml(request):
 
     data = (data[data.find('<?xml version="1.0" ?>'):data.find('</akomaNtoso>')+13])
 
-    print(data)
+    # print(data)
     
     xml_file = ET.XML(data)
     dir_path = os.path.dirname(os.path.realpath(__file__))                  # xsd validacija ***** pogledati da ne vraca te errore tolike 
@@ -75,6 +75,20 @@ def parse_xml(request):
     
     query = f'PREFIX xsd:<http://www.w3.org/2001/XMLSchema#> INSERT DATA {{'
 
+    notes = ""
+
+    if isinstance(meta['notes']['note'], dict):
+        notes = meta['notes']['note']['p']
+    elif isinstance(meta['notes']['note'], list):
+        for item in meta['notes']['note']:
+            notes += item['p'] + ' '
+
+    notes = "".join(notes.splitlines()).replace("\"", "\\\"")
+
+    # print(notes)
+    
+    
+
     # Work
     query += f'''
         <{work_uri}> <{rdf_type}> <{named_individual}>.
@@ -82,6 +96,7 @@ def parse_xml(request):
         <{work_uri}> <{ontology_url}#has_date> "{work['FRBRdate']['@date']}"^^xsd:date.
         <{work_uri}> <{ontology_url}#has_name> "{work['FRBRname']['@value']}"^^xsd:string.
         <{work_uri}> <{ontology_url}#has_number> "{work['FRBRnumber']['@value']}"^^xsd:string.
+        <{work_uri}> <{ontology_url}#has_notes> "{notes}"^^xsd:string.
         <{work_uri}> <{ontology_url}#is_of_type> <{ontology_url}#act>.
         <{work_uri}> <{ontology_url}#is_of_subtype> <{work['FRBRsubtype']['@refersTo']}>.
         <{work_uri}> <{ontology_url}#has_country> <{work['FRBRcountry']['@refersTo']}>.
@@ -339,9 +354,10 @@ def simple_search():
 @app.route('/search', methods=['POST'])
 def search():
     data = request.json
+    print(data)
 
     search = data['search'] if 'search' in data else '.*'
-    if data['split'] is True:
+    if 'split' in data and data['split'] is True:
         search = '|'.join(search.split())
 
     subtype = '<' + data['subtype'] + '>' if 'subtype' in data else '?subtype'
@@ -351,12 +367,14 @@ def search():
     date_from = data['date_from'] if 'date_from' in data else '0001-01-01'
     date_to = data['date_to'] if 'date_to' in data else '9999-12-31'
 
-    keywords = data['keywords'].split() if 'keywords' in data else '?keywords'
+    keywords = '|'.join(data['keywords'].split()) if 'keywords' in data else '.*'
 
-    #fali za keywords
+    # ?s <{ontology_url}#has_keyword> ?o. FILTER regex(?o, "{keywords}")
+
     get_query = f'''PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                 JSON {{ "o":?o, "subtype":?subtype, "area":?area, "group":?group, "exp":?exp, "lng":?lng, "date":?date }} WHERE {{ ?s a <{ontology_url}#FRBRWork>.
                                                     ?s <{ontology_url}#has_name> ?o. FILTER regex(?o, "{search}")
+                                                    
                                                     ?s <{ontology_url}#is_of_subtype> {subtype}.
                                                     ?s <{ontology_url}#is_of_subtype> ?subtype.
                                                     ?s <{ontology_url}#has_subregister> {subregister}.
