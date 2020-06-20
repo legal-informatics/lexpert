@@ -29,7 +29,21 @@
         :options="groups"
         label="Grupa"
       />
-      <q-input filled v-model="search" label="Pojam za pretragu" />
+      <div class="row justify-between">
+        <q-select
+          filled
+          v-model="selected_server"
+          :options="servers"
+          label="Serveri"
+          class="col-3"
+        />
+        <q-input
+          class="col-8"
+          filled
+          v-model="search"
+          label="Pojam za pretragu"
+        />
+      </div>
       <div class="row justify-between">
         <q-toggle v-model="split" label="Sve ove reči" class="col-3" />
 
@@ -74,7 +88,7 @@
       <q-input filled v-model="keywords" label="Ključne reči" />
 
       <div class="flex justify-center">
-        <q-btn label="Pretraži" type="submit" color="primary" />
+        <q-btn label="Pretraži" type="submit" color="primary" class="q-ml-sm" />
         <q-btn
           label="Resetuj"
           type="reset"
@@ -102,6 +116,8 @@ export default {
       selected_area: null,
       selected_group: null,
       selected_subtype: null,
+      selected_server: null,
+      servers: null,
       date_from: null,
       date_to: null,
       subregisters: [
@@ -307,9 +323,21 @@ export default {
       ]
     };
   },
+  mounted() {
+    this.servers = [];
 
+    this.servers.push({ label: "Svi", value: "-" });
+    this.selected_server = this.servers[0];
+
+    for (var key in process.env.SERVERS) {
+      this.servers.push({ label: key, value: process.env.SERVERS[key] });
+    }
+  },
   methods: {
     onSubmit() {
+      this.result = null;
+      this.$emit("results", this.result);
+
       // console.log(this.selected_subregister.value);
       // console.log(this.selected_area.value);
       // console.log(this.selected_group.value);
@@ -358,42 +386,89 @@ export default {
       //   Object.keys(data).length === 0 && data.constructor === Object
       // );
 
-      this.$axios.post("http://127.0.0.1:5000/search", data).then(response => {
-        var help = response.data;
+      if (this.selected_server.value === "-") {
+        for (var key in process.env.SERVERS) {
+          console.log(process.env.SERVERS[key]);
 
-        for (let i = 0; i < help.length; i++) {
-          help[i].s = help[i].exp;
+          this.$axios
+            .post(process.env.SERVERS[key] + "/search", data)
+            .then(response => {
+              var help = response.data;
 
-          help[i].date = date.formatDate(help[i].date, "DD. MMMM YYYY.", {
-            months: [
-              "Januar",
-              "Februar",
-              "Mart",
-              "April",
-              "Maj",
-              "Jun",
-              "Jul",
-              "Avgust",
-              "Septembar",
-              "Oktobar",
-              "Novembar",
-              "Decembar"
-            ]
-          });
+              for (let i = 0; i < help.length; i++) {
+                help[i].s = help[i].exp;
 
-          delete help[i].exp;
+                help[i].date = date.formatDate(help[i].date, "DD. MMMM YYYY.", {
+                  months: [
+                    "Januar",
+                    "Februar",
+                    "Mart",
+                    "April",
+                    "Maj",
+                    "Jun",
+                    "Jul",
+                    "Avgust",
+                    "Septembar",
+                    "Oktobar",
+                    "Novembar",
+                    "Decembar"
+                  ]
+                });
+
+                delete help[i].exp;
+              }
+
+              this.result = help;
+              this.$emit("results", this.result);
+
+              if (this.result.length === 0) {
+                this.$q.notify({
+                  message: "Pretraga nije dala rezultate",
+                  caption: "Pokušajte pretragu sa drugim pojmom."
+                });
+              }
+            });
         }
+      } else {
+        this.$axios
+          .post(this.selected_server.value + "search", data)
+          .then(response => {
+            var help = response.data;
 
-        this.result = help;
-        this.$emit("results", this.result);
+            for (let i = 0; i < help.length; i++) {
+              help[i].s = help[i].exp;
 
-        if (this.result.length === 0) {
-          this.$q.notify({
-            message: "Pretraga nije dala rezultate",
-            caption: "Pokušajte pretragu sa drugim pojmom."
+              help[i].date = date.formatDate(help[i].date, "DD. MMMM YYYY.", {
+                months: [
+                  "Januar",
+                  "Februar",
+                  "Mart",
+                  "April",
+                  "Maj",
+                  "Jun",
+                  "Jul",
+                  "Avgust",
+                  "Septembar",
+                  "Oktobar",
+                  "Novembar",
+                  "Decembar"
+                ]
+              });
+
+              delete help[i].exp;
+            }
+
+            this.result = help;
+            this.$emit("results", this.result);
+
+            if (this.result.length === 0) {
+              this.$q.notify({
+                message: "Pretraga nije dala rezultate",
+                caption: "Pokušajte pretragu sa drugim pojmom."
+              });
+            }
           });
-        }
-      });
+      }
     },
 
     onReset() {

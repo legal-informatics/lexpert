@@ -37,7 +37,21 @@ export default {
 
   methods: {
     results(results) {
-      this.items = results;
+      if (results == null) {
+        this.items = null;
+      } else {
+        if (this.items == null) this.items = results;
+        else {
+          console.log("res");
+          console.log(results);
+          console.log("loop");
+          for (let i = 0; i < results.length; i++) {
+            this.items.push(results[i]);
+          }
+        }
+
+        console.log(this.items);
+      }
     }
   }
 };
