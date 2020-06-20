@@ -126,8 +126,11 @@ def parse_xml(request):
             '''
         else:
             print(len(keyword['@value']), keyword['@value'], 'is keyword')
-            # implementirati kljucne reci
-            # implementirati notes
+            query += f'''
+                <{ontology_url}#{keyword['@value']}> <{rdf_type}> <{named_individual}>.
+                <{ontology_url}#{keyword['@value']}> <{rdf_type}> <{ontology_url}#TLCTerm>.
+                <{work_uri}> <{ontology_url}#has_keyword> <{ontology_url}#{keyword['@value']}>.
+            '''
 
     # Expression
     query += f'''
@@ -367,14 +370,17 @@ def search():
     date_from = data['date_from'] if 'date_from' in data else '0001-01-01'
     date_to = data['date_to'] if 'date_to' in data else '9999-12-31'
 
-    keywords = '|'.join(data['keywords'].split()) if 'keywords' in data else '.*'
+    keywords = ''
+    if 'keywords' in data:
+        regex = '|'.join(data['keywords'].split())
+        keywords = f'?s <{ontology_url}#has_keyword> ?n. FILTER regex(str(?n), "{keywords}")'
 
     # ?s <{ontology_url}#has_keyword> ?o. FILTER regex(?o, "{keywords}")
 
     get_query = f'''PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                 JSON {{ "o":?o, "subtype":?subtype, "area":?area, "group":?group, "exp":?exp, "lng":?lng, "date":?date }} WHERE {{ ?s a <{ontology_url}#FRBRWork>.
                                                     ?s <{ontology_url}#has_name> ?o. FILTER regex(?o, "{search}")
-                                                    
+                                                    {keywords}
                                                     ?s <{ontology_url}#is_of_subtype> {subtype}.
                                                     ?s <{ontology_url}#is_of_subtype> ?subtype.
                                                     ?s <{ontology_url}#has_subregister> {subregister}.
@@ -399,4 +405,3 @@ def search():
         abort(500, e)
 
     return 
-
